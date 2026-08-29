@@ -1,0 +1,494 @@
+{
+    "version": 2,
+    "tourId": "masjid-agung-jawa-tengah",
+    "updatedAt": "2026-08-29T07:11:19+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Masjid Agung Jawa Tengah",
+            "aliases": [
+                "masjid agung jawa tengah"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "masjid-agung-jawa-tengah"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Masjid Agung Jawa Tengah.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Masjid Agung Jawa Tengah",
+                    "content": "Pusat pengalaman virtual untuk Masjid Agung Jawa Tengah."
+                },
+                "en": {
+                    "title": "Masjid Agung Jawa Tengah",
+                    "content": "Pusat pengalaman virtual untuk Masjid Agung Jawa Tengah."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Area Utama",
+            "aliases": [
+                "area utama"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "masjid-agung-jawa-tengah"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Utama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Area Utama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Area Utama",
+            "aliases": [
+                "area utama"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "masjid-agung-jawa-tengah"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Utama",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Area Utama",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "masjid-agung-jawa-tengah"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1531",
+            "entityId": "objinfo2:1531",
+            "title": "Payung Hidrolik MAJT",
+            "aliases": [
+                "payung hidrolik majt",
+                "objek 1531"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Enam unit payung raksasa setinggi 20 meter dengan bentangan diameter 14 meter ini menggunakan teknologi hidrolik otomatis yang mengadopsi arsitektur ikonik Masjid Nabawi di Madinah. Keberadaan payung elektrik ini berfungsi mengubah pelataran terbuka (sahn) menjadi area sholat teduh berkapasitas ribuan jamaah saat sholat Jumat atau Idul Fitri, menyatukan kecanggihan teknik sipil modern dengan kebutuhan ibadah akbar.",
+            "source": "webview-import",
+            "sourceId": "1531",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Payung Hidrolik MAJT",
+                    "content": "Enam unit payung raksasa setinggi 20 meter dengan bentangan diameter 14 meter ini menggunakan teknologi hidrolik otomatis yang mengadopsi arsitektur ikonik Masjid Nabawi di Madinah. Keberadaan payung elektrik ini berfungsi mengubah pelataran terbuka (sahn) menjadi area sholat teduh berkapasitas ribuan jamaah saat sholat Jumat atau Idul Fitri, menyatukan kecanggihan teknik sipil modern dengan kebutuhan ibadah akbar."
+                },
+                "en": {
+                    "title": "Object 1531",
+                    "content": "Information for Object 1531."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1527",
+            "entityId": "objinfo2:1527",
+            "title": "Mushaf Akbar",
+            "aliases": [
+                "mushaf akbar",
+                "objek 1527"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Mushaf raksasa berdimensi 145 cm x 95 cm ini merupakan mahakarya tulisan tangan Drs. Hayat dari Universitas Sains Al-Qur’an (UNSIQ) Wonosobo yang diselesaikan selama 2 tahun 3 bulan, melambangkan kebesaran firman Tuhan dalam wujud visual yang monumental. Kitab suci ini ditempatkan dalam kotak kaca khusus di ruang utama sebagai simbol dedikasi seni kaligrafi Islam sekaligus daya tarik spiritual yang menunjukkan keagungan Al-Qur’an bagi masyarakat Jawa Tengah.",
+            "source": "webview-import",
+            "sourceId": "1527",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mushaf Akbar",
+                    "content": "Mushaf raksasa berdimensi 145 cm x 95 cm ini merupakan mahakarya tulisan tangan Drs. Hayat dari Universitas Sains Al-Qur’an (UNSIQ) Wonosobo yang diselesaikan selama 2 tahun 3 bulan, melambangkan kebesaran firman Tuhan dalam wujud visual yang monumental. Kitab suci ini ditempatkan dalam kotak kaca khusus di ruang utama sebagai simbol dedikasi seni kaligrafi Islam sekaligus daya tarik spiritual yang menunjukkan keagungan Al-Qur’an bagi masyarakat Jawa Tengah."
+                },
+                "en": {
+                    "title": "Object 1527",
+                    "content": "Information for Object 1527."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1528",
+            "entityId": "objinfo2:1528",
+            "title": "Mimbar Masjid Agung Jawa Tengah",
+            "aliases": [
+                "mimbar masjid agung jawa tengah",
+                "objek 1528"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Mimbar ini mengadopsi gaya arsitektur campuran Timur Tengah dan Jawa dengan desain terbuka tanpa penutup depan, menyiratkan filosofi keterbukaan seorang pemimpin (khatib) kepada jamaahnya. Ornamen ukiran kayu jati yang rumit pada sandaran dan lengkungan gerbang mimbar memberikan sentuhan estetika lokal yang hangat di tengah kemegahan dinding marmer ruang sholat.",
+            "source": "webview-import",
+            "sourceId": "1528",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mimbar Masjid Agung Jawa Tengah",
+                    "content": "Mimbar ini mengadopsi gaya arsitektur campuran Timur Tengah dan Jawa dengan desain terbuka tanpa penutup depan, menyiratkan filosofi keterbukaan seorang pemimpin (khatib) kepada jamaahnya. Ornamen ukiran kayu jati yang rumit pada sandaran dan lengkungan gerbang mimbar memberikan sentuhan estetika lokal yang hangat di tengah kemegahan dinding marmer ruang sholat."
+                },
+                "en": {
+                    "title": "Object 1528",
+                    "content": "Information for Object 1528."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1533",
+            "entityId": "objinfo2:1533",
+            "title": "Replika Bukit Marwah",
+            "aliases": [
+                "replika bukit marwah",
+                "objek 1533"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gundukan batu buatan yang diberi nama \"MARWA\" ini merupakan fasilitas simulasi hardscape yang dirancang khusus untuk kegiatan manasik haji, merepresentasikan salah satu titik sa’i di Tanah Suci. Replika ini dibangun berdekatan dengan area simulasi tawaf untuk memberikan pengalaman spasial dan visual yang edukatif serta realistis bagi para calon jamaah haji sebelum berangkat ke Mekkah.",
+            "source": "webview-import",
+            "sourceId": "1533",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Replika Bukit Marwah",
+                    "content": "Gundukan batu buatan yang diberi nama \"MARWA\" ini merupakan fasilitas simulasi hardscape yang dirancang khusus untuk kegiatan manasik haji, merepresentasikan salah satu titik sa’i di Tanah Suci. Replika ini dibangun berdekatan dengan area simulasi tawaf untuk memberikan pengalaman spasial dan visual yang edukatif serta realistis bagi para calon jamaah haji sebelum berangkat ke Mekkah."
+                },
+                "en": {
+                    "title": "Object 1533",
+                    "content": "Information for Object 1533."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1541",
+            "entityId": "objinfo2:1541",
+            "title": "Menara Masjid Agung Jawa Tengah",
+            "aliases": [
+                "menara masjid agung jawa tengah",
+                "objek 1541"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Menara \"Al-Husna\" setinggi 99 meter ini melambangkan 99 nama Allah (Asmaul Husna) dan dilengkapi teknologi lift modern yang membawa pengunjung ke lantai observasi untuk melihat panorama kota Semarang dan laut Tanjung Emas dari ketinggian. Selain sebagai menara pandang, struktur pencakar langit ini juga difungsikan sebagai museum perkembangan Islam, stasiun radio dakwah, dan restoran berputar yang memanfaatkan teknologi rekayasa mekanik canggih.",
+            "source": "webview-import",
+            "sourceId": "1541",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Menara Masjid Agung Jawa Tengah",
+                    "content": "Menara \"Al-Husna\" setinggi 99 meter ini melambangkan 99 nama Allah (Asmaul Husna) dan dilengkapi teknologi lift modern yang membawa pengunjung ke lantai observasi untuk melihat panorama kota Semarang dan laut Tanjung Emas dari ketinggian. Selain sebagai menara pandang, struktur pencakar langit ini juga difungsikan sebagai museum perkembangan Islam, stasiun radio dakwah, dan restoran berputar yang memanfaatkan teknologi rekayasa mekanik canggih."
+                },
+                "en": {
+                    "title": "Object 1541",
+                    "content": "Information for Object 1541."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1539",
+            "entityId": "objinfo2:1539",
+            "title": "Replika Ka’bah",
+            "aliases": [
+                "replika ka’bah",
+                "objek 1539"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Miniatur Ka’bah yang dibangun presisi di area plaza masjid ini berfungsi sebagai sarana edukasi visual dan praktik manasik haji bagi masyarakat umum maupun pelajar. Keberadaannya memanfaatkan teknologi konstruksi sederhana namun mendetail untuk menciptakan simulasi spasial yang realistis, membantu jamaah memahami tata cara tawaf sebelum berangkat ke Tanah Suci.",
+            "source": "webview-import",
+            "sourceId": "1539",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Replika Ka’bah",
+                    "content": "Miniatur Ka’bah yang dibangun presisi di area plaza masjid ini berfungsi sebagai sarana edukasi visual dan praktik manasik haji bagi masyarakat umum maupun pelajar. Keberadaannya memanfaatkan teknologi konstruksi sederhana namun mendetail untuk menciptakan simulasi spasial yang realistis, membantu jamaah memahami tata cara tawaf sebelum berangkat ke Tanah Suci."
+                },
+                "en": {
+                    "title": "Object 1539",
+                    "content": "Information for Object 1539."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1535",
+            "entityId": "objinfo2:1535",
+            "title": "Bedug Raksasa MAJT",
+            "aliases": [
+                "bedug raksasa majt",
+                "objek 1535"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bedug monumental bernama \"Bedug Ijo\" ini dibuat oleh para santri dari Banyumas menggunakan kayu waru dengan dimensi panjang 310 cm dan diameter 194 cm, yang melambangkan perpaduan seni ukir Jawa dan fungsi religius. Instrumen tradisional ini berfungsi sebagai penanda waktu salat yang suaranya mampu beresonansi kuat, mempertahankan kearifan lokal budaya Nusantara di tengah arsitektur masjid yang megah.",
+            "source": "webview-import",
+            "sourceId": "1535",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bedug Raksasa MAJT",
+                    "content": "Bedug monumental bernama \"Bedug Ijo\" ini dibuat oleh para santri dari Banyumas menggunakan kayu waru dengan dimensi panjang 310 cm dan diameter 194 cm, yang melambangkan perpaduan seni ukir Jawa dan fungsi religius. Instrumen tradisional ini berfungsi sebagai penanda waktu salat yang suaranya mampu beresonansi kuat, mempertahankan kearifan lokal budaya Nusantara di tengah arsitektur masjid yang megah."
+                },
+                "en": {
+                    "title": "Object 1535",
+                    "content": "Information for Object 1535."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1537",
+            "entityId": "objinfo2:1537",
+            "title": "Batu Pembangunan MAJT",
+            "aliases": [
+                "batu pembangunan majt",
+                "objek 1537"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Batu alam andesit berukuran masif yang dipahat secara artistik ini merupakan prasasti sejarah \"Batu Pembangunan\" yang ditandatangani oleh Gubernur H. Mardiyanto sebagai simbol dimulainya konstruksi megah ini di atas tanah wakaf Banda Masjid Agung Semarang (Kauman). Keberadaan batu alami yang kokoh di area taman depan ini merepresentasikan fondasi kuat perpaduan tiga budaya (Jawa, Islam, dan Romawi) yang menjadi identitas arsitektur masjid sejak awal pembangunannya.",
+            "source": "webview-import",
+            "sourceId": "1537",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Batu Pembangunan MAJT",
+                    "content": "Batu alam andesit berukuran masif yang dipahat secara artistik ini merupakan prasasti sejarah \"Batu Pembangunan\" yang ditandatangani oleh Gubernur H. Mardiyanto sebagai simbol dimulainya konstruksi megah ini di atas tanah wakaf Banda Masjid Agung Semarang (Kauman). Keberadaan batu alami yang kokoh di area taman depan ini merepresentasikan fondasi kuat perpaduan tiga budaya (Jawa, Islam, dan Romawi) yang menjadi identitas arsitektur masjid sejak awal pembangunannya."
+                },
+                "en": {
+                    "title": "Object 1537",
+                    "content": "Information for Object 1537."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1530",
+            "entityId": "objinfo2:1530",
+            "title": "Tugu Peringatan MAJT",
+            "aliases": [
+                "tugu peringatan majt",
+                "objek 1530"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Prasasti batu hitam yang berdiri di tengah kolam air mancur ini merupakan \"tetenger\" bersejarah yang menandai kembalinya tanah wakaf Bondo Masjid Besar Kauman Semarang sebagai lokasi berdirinya Masjid Agung Jawa Tengah. Monumen ini secara spesifik mengabadikan rentang waktu pembangunan masjid megah tersebut, mulai dari awal konstruksi pada 6 September 2002 hingga rampung sepenuhnya pada 14 November 2006.",
+            "source": "webview-import",
+            "sourceId": "1530",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tugu Peringatan MAJT",
+                    "content": "Prasasti batu hitam yang berdiri di tengah kolam air mancur ini merupakan \"tetenger\" bersejarah yang menandai kembalinya tanah wakaf Bondo Masjid Besar Kauman Semarang sebagai lokasi berdirinya Masjid Agung Jawa Tengah. Monumen ini secara spesifik mengabadikan rentang waktu pembangunan masjid megah tersebut, mulai dari awal konstruksi pada 6 September 2002 hingga rampung sepenuhnya pada 14 November 2006."
+                },
+                "en": {
+                    "title": "Object 1530",
+                    "content": "Information for Object 1530."
+                }
+            }
+        }
+    ]
+}

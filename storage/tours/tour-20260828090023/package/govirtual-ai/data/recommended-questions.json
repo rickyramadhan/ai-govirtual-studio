@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "tour-20260828090023",
+    "tourName": "Sandi Buana",
+    "updatedAt": "2026-08-29T07:22:57+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Tentang Sandi Buana",
+                "query": "Apa saja daya tarik utama yang bisa saya temukan di kawasan agrowisata Sandi Buana Farm?",
+                "desc": "Apa saja daya tarik utama yang bisa saya temukan di kawasan agrowisata Sandi Buana Farm?"
+            },
+            {
+                "label": "Melon Inthanon",
+                "query": "Bagaimana proses budidaya Melon Inthanon dengan sistem hidroponik di Sandi Buana Farm?",
+                "desc": "Bagaimana proses budidaya Melon Inthanon dengan sistem hidroponik di Sandi Buana Farm?"
+            },
+            {
+                "label": "Peternakan Sapi",
+                "query": "Bagaimana peran Peternakan Sapi dalam sistem pertanian terintegrasi di Sandi Buana Farm?",
+                "desc": "Bagaimana peran Peternakan Sapi dalam sistem pertanian terintegrasi di Sandi Buana Farm?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Hidroponik Selada",
+                "query": "Bagaimana cara merawat Hidroponik Selada Air di Sandi Buana Farm agar tumbuh subur?"
+            },
+            {
+                "label": "Mesin Penggilingan Padi",
+                "query": "Bagaimana cara kerja Mesin Penggilingan Padi modern yang ada di kawasan Sandi Buana Farm?"
+            },
+            {
+                "label": "BBQ Garden Cafe",
+                "query": "Apa saja menu andalan dan suasana santai di BBQ Garden Cafe Sandi Buana Farm?"
+            },
+            {
+                "label": "Jam Kunjungan",
+                "query": "Kapan jam operasional terbaik untuk merencanakan kunjungan langsung ke Sandi Buana Farm?"
+            },
+            {
+                "label": "Area Sawah & Pesawahan",
+                "query": "Bagaimana pemandangan dan suasana di area Pesawahan serta Area Sawah di Sandi Buana Farm?"
+            },
+            {
+                "label": "Rute dari Pesawahan",
+                "query": "Spot menarik mana saja yang bisa saya kunjungi selanjutnya jika saya sedang berada di area Pesawahan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa makna di balik penamaan Sandi Buana Farm sebagai destinasi agrowisata di Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa saja aktivitas edukasi dan spot wisata favorit yang wajib dicoba di Sandi Buana Farm?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana sejarah singkat terbentuknya kawasan agrowisata terpadu di Sandi Buana Farm?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Bagaimana cara menavigasi jalur tur virtual untuk menjelajahi seluruh area Sandi Buana Farm?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

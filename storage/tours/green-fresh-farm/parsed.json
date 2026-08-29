@@ -1,0 +1,502 @@
+{
+    "startNode": "node56",
+    "scenes": [
+        {
+            "id": "node56",
+            "name": "Area Utama",
+            "displayName": "Area Utama",
+            "rawName": "default",
+            "customNodeId": "drone",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "drone",
+                "default"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Area Masuk",
+            "displayName": "Area Masuk",
+            "rawName": "",
+            "customNodeId": "-rea-asuk",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "Area Masuk"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Patung GFF",
+            "displayName": "Patung GFF",
+            "rawName": "",
+            "customNodeId": "patunggff",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "patunggff"
+            ]
+        },
+        {
+            "id": "node37",
+            "name": "Area Kandang Sapi",
+            "displayName": "Area Kandang Sapi",
+            "rawName": "",
+            "customNodeId": "areakandangsapi",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "areakandangsapi"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "Area Meja Edukasi",
+            "displayName": "Area Meja Edukasi",
+            "rawName": "",
+            "customNodeId": "areamejaedukasi",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "areamejaedukasi"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node43",
+            "name": "Kandang Kambing",
+            "displayName": "Kandang Kambing",
+            "rawName": "",
+            "customNodeId": "kandangkambing",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "kandangkambing"
+            ]
+        },
+        {
+            "id": "node45",
+            "name": "Masuk Tempat Berfoto",
+            "displayName": "Masuk Tempat Berfoto",
+            "rawName": "",
+            "customNodeId": "-asuk-empat-erfoto",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "Masuk Tempat Berfoto"
+            ]
+        },
+        {
+            "id": "node47",
+            "name": "Area Bibit Tanaman",
+            "displayName": "Area Bibit Tanaman",
+            "rawName": "",
+            "customNodeId": "bibittanaman",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "bibittanaman"
+            ]
+        },
+        {
+            "id": "node49",
+            "name": "Gazebo",
+            "displayName": "Gazebo",
+            "rawName": "",
+            "customNodeId": "-azebo",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "Gazebo"
+            ]
+        },
+        {
+            "id": "node51",
+            "name": "Peternakan Sapi dan Pendidikan",
+            "displayName": "Peternakan Sapi dan Pendidikan",
+            "rawName": "",
+            "customNodeId": "-eternakan-api-dan-endidikan",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "Peternakan Sapi dan Pendidikan"
+            ]
+        },
+        {
+            "id": "node55",
+            "name": "Mini Zoo Playground",
+            "displayName": "Mini Zoo Playground",
+            "rawName": "",
+            "customNodeId": "minizooplayground",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "minizooplayground"
+            ]
+        },
+        {
+            "id": "node57",
+            "name": "Jambu Kristal",
+            "displayName": "Jambu Kristal",
+            "rawName": "",
+            "customNodeId": "jambukristal",
+            "tags": [
+                "GreenFreshFarm"
+            ],
+            "aliases": [
+                "jambukristal"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node56",
+            "target": "node35",
+            "title": "Green Fresh Farm",
+            "id": "Point01",
+            "pan": -191.6,
+            "tilt": -15.66
+        },
+        {
+            "scene": "node56",
+            "target": "node51",
+            "title": "Peternakan Sapi dan Pendidikan",
+            "id": "Point02",
+            "pan": -60.15,
+            "tilt": -19.69
+        },
+        {
+            "scene": "node33",
+            "target": "node35",
+            "title": "Patung Sapi",
+            "id": "Point01",
+            "pan": 72.58,
+            "tilt": -3.92
+        },
+        {
+            "scene": "node33",
+            "target": "node51",
+            "title": "Green Fresh Farm",
+            "id": "Point02",
+            "pan": 164.36,
+            "tilt": -2.98
+        },
+        {
+            "scene": "node35",
+            "target": "node41",
+            "title": "Area Parkir",
+            "id": "Point01",
+            "pan": 83.31,
+            "tilt": -4.56
+        },
+        {
+            "scene": "node35",
+            "target": "node33",
+            "title": "Area Masuk",
+            "id": "Point02",
+            "pan": -112.64,
+            "tilt": -7.02
+        },
+        {
+            "scene": "node37",
+            "target": "node39",
+            "title": "Ruang Pendidikan",
+            "id": "Point01",
+            "pan": 120.84,
+            "tilt": -12.18
+        },
+        {
+            "scene": "node39",
+            "target": "node49",
+            "title": "Gazebo",
+            "id": "Point01",
+            "pan": -313.1,
+            "tilt": -12.32
+        },
+        {
+            "scene": "node39",
+            "target": "node37",
+            "title": "Peternakan Sapi",
+            "id": "Point02",
+            "pan": -105.28,
+            "tilt": -13.1
+        },
+        {
+            "scene": "node39",
+            "target": "node51",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -265.39,
+            "tilt": -4.73
+        },
+        {
+            "scene": "node41",
+            "target": "node35",
+            "title": "Patung Sapi",
+            "id": "Point01",
+            "pan": -75.33,
+            "tilt": -3.94
+        },
+        {
+            "scene": "node43",
+            "target": "node55",
+            "title": "Area Taman Bermain",
+            "id": "Point01",
+            "pan": -162.22,
+            "tilt": -5.43
+        },
+        {
+            "scene": "node43",
+            "target": "node45",
+            "title": "Masuk Tempat Berfoto",
+            "id": "Point02",
+            "pan": 351.77,
+            "tilt": -7.76
+        },
+        {
+            "scene": "node45",
+            "target": "node47",
+            "title": "Kebun",
+            "id": "Point01",
+            "pan": 62.76,
+            "tilt": -5.98
+        },
+        {
+            "scene": "node45",
+            "target": "node43",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -76.49,
+            "tilt": -5.88
+        },
+        {
+            "scene": "node47",
+            "target": "node45",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -192.91,
+            "tilt": -2.64
+        },
+        {
+            "scene": "node49",
+            "target": "node51",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -249.59,
+            "tilt": -13.54
+        },
+        {
+            "scene": "node49",
+            "target": "node39",
+            "title": "Ruang Pendidikan",
+            "id": "Point02",
+            "pan": 230.34,
+            "tilt": -13.45
+        },
+        {
+            "scene": "node49",
+            "target": "node57",
+            "title": "Kebun Jambu Kristal",
+            "id": "Point03",
+            "pan": -49.54,
+            "tilt": -15.93
+        },
+        {
+            "scene": "node51",
+            "target": "node55",
+            "title": "Area Perkebunan dan Taman Bermain",
+            "id": "Point01",
+            "pan": 140.11,
+            "tilt": -6.26
+        },
+        {
+            "scene": "node51",
+            "target": "node33",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -137.71,
+            "tilt": -10.07
+        },
+        {
+            "scene": "node51",
+            "target": "node49",
+            "title": "Peternakan Sapi dan Pendidikan",
+            "id": "Point03",
+            "pan": -2.51,
+            "tilt": -4.88
+        },
+        {
+            "scene": "node55",
+            "target": "node51",
+            "title": "Peternakan Sapi dan Pendidikan",
+            "id": "Point01",
+            "pan": -111,
+            "tilt": -4.31
+        },
+        {
+            "scene": "node55",
+            "target": "node43",
+            "title": "Tempat Berfoto",
+            "id": "Point02",
+            "pan": 73.54,
+            "tilt": -4.63
+        },
+        {
+            "scene": "node57",
+            "target": "node49",
+            "title": "Gazebo",
+            "id": "Point01",
+            "pan": -67.25,
+            "tilt": -9.08
+        }
+    ],
+    "objects": [
+        {
+            "sceneId": "node35",
+            "infoId": "1238",
+            "label": "Objek 1238"
+        },
+        {
+            "sceneId": "node37",
+            "infoId": "1236",
+            "label": "Objek 1236"
+        },
+        {
+            "sceneId": "node43",
+            "infoId": "1240",
+            "label": "Objek 1240"
+        },
+        {
+            "sceneId": "node47",
+            "infoId": "1242",
+            "label": "Objek 1242"
+        },
+        {
+            "sceneId": "node55",
+            "infoId": "1231",
+            "label": "Objek 1231"
+        },
+        {
+            "sceneId": "node57",
+            "infoId": "1244",
+            "label": "Objek 1244"
+        }
+    ],
+    "video360": [],
+    "oiPositions": {
+        "node35": [
+            {
+                "pan": -1.32,
+                "tilt": 2.34,
+                "fov": 10
+            }
+        ],
+        "node37": [
+            {
+                "pan": -344.6,
+                "tilt": -9.37,
+                "fov": 12.5281
+            }
+        ],
+        "node43": [
+            {
+                "pan": -120.59,
+                "tilt": -3.18,
+                "fov": 10
+            }
+        ],
+        "node47": [
+            {
+                "pan": -152.35,
+                "tilt": -13.79,
+                "fov": 10
+            }
+        ],
+        "node55": [
+            {
+                "pan": -202.69,
+                "tilt": -2.46,
+                "fov": 10
+            }
+        ],
+        "node57": [
+            {
+                "pan": -303.42,
+                "tilt": -5.83,
+                "fov": 10
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [
+            {
+                "infoId": "1238"
+            },
+            {
+                "infoId": "1238"
+            },
+            {
+                "infoId": "1236"
+            },
+            {
+                "infoId": "1244"
+            },
+            {
+                "infoId": "1242"
+            },
+            {
+                "infoId": "1231"
+            },
+            {
+                "infoId": "1231"
+            },
+            {
+                "infoId": "1236"
+            },
+            {
+                "infoId": "1238"
+            },
+            {
+                "infoId": "1242"
+            },
+            {
+                "infoId": "1244"
+            },
+            {
+                "infoId": "1373"
+            }
+        ],
+        "objectIds": [
+            "1238",
+            "1236",
+            "1244",
+            "1242",
+            "1231",
+            "1373"
+        ]
+    }
+}

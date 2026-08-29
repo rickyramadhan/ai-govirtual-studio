@@ -1,0 +1,428 @@
+{
+    "version": "1.1-seed",
+    "tourId": "zie-batik",
+    "generatedAt": "2026-08-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "Musholla",
+            "displayName": "Musholla",
+            "placeId": "musholla",
+            "placeName": "Musholla",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Musholla merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Musholla adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Musholla.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Musholla — kawasan Zie Batik.",
+                "describeHere": "Musholla adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Area Produksi",
+            "displayName": "Area Produksi",
+            "placeId": "area-produksi",
+            "placeName": "Area Produksi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Produksi merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Produksi adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Produksi",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Produksi.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Produksi — kawasan Zie Batik.",
+                "describeHere": "Area Produksi adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Area Membatik",
+            "displayName": "Area Membatik",
+            "placeId": "area-membatik",
+            "placeName": "Area Membatik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Area Membatik merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Membatik adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Membatik",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Membatik.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:560"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Membatik — kawasan Zie Batik.",
+                "describeHere": "Area Membatik adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Zie Batik",
+            "displayName": "Zie Batik",
+            "placeId": "zie-batik",
+            "placeName": "Zie Batik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Zie Batik merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Zie Batik adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Zie Batik",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Zie Batik.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Zie Batik — kawasan Zie Batik.",
+                "describeHere": "Zie Batik adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Zie Batik",
+            "displayName": "Zie Batik",
+            "placeId": "zie-batik",
+            "placeName": "Zie Batik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Zie Batik merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Zie Batik adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Zie Batik",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Zie Batik.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Zie Batik — kawasan Zie Batik.",
+                "describeHere": "Zie Batik adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Area Awal",
+            "displayName": "Area Awal",
+            "placeId": "area-awal",
+            "placeName": "Area Awal",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Awal merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Awal adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Awal",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Awal.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Awal — kawasan Zie Batik.",
+                "describeHere": "Area Awal adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Galeri",
+            "displayName": "Galeri",
+            "placeId": "galeri",
+            "placeName": "Galeri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Galeri merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Galeri adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Galeri",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Galeri.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1044",
+                "webview:objinfo2:1043"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri — kawasan Zie Batik.",
+                "describeHere": "Galeri adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Area Utama",
+            "displayName": "Area Utama",
+            "placeId": "area-utama",
+            "placeName": "Area Utama",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Utama merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Utama adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Utama",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Utama.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Utama — kawasan Zie Batik.",
+                "describeHere": "Area Utama adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Greenhouse",
+            "displayName": "Greenhouse",
+            "placeId": "greenhouse",
+            "placeName": "Greenhouse",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Greenhouse merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Greenhouse adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Greenhouse",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Greenhouse.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1041"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Greenhouse — kawasan Zie Batik.",
+                "describeHere": "Greenhouse adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Musholla",
+            "displayName": "Musholla",
+            "placeId": "musholla",
+            "placeName": "Musholla",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Musholla merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Musholla adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Musholla.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Musholla — kawasan Zie Batik.",
+                "describeHere": "Musholla adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Kain Mori",
+            "displayName": "Kain Mori",
+            "placeId": "kain-mori",
+            "placeName": "Kain Mori",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Kain Mori merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Kain Mori adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Kain Mori",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Kain Mori.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:559"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kain Mori — kawasan Zie Batik.",
+                "describeHere": "Kain Mori adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Video360 1",
+            "displayName": "Video360 1",
+            "placeId": "video360-1",
+            "placeName": "Video360 1",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Video360 1 merupakan bagian dari kawasan Zie Batik di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Video360 1 adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Zie Batik"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Video360 1.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1238"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Video360 1 — kawasan Zie Batik.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Zie Batik, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

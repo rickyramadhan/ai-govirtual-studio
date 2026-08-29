@@ -1,0 +1,91 @@
+{
+    "version": "1.0",
+    "tourId": "balaikota-semarang",
+    "tourName": "Balaikota Semarang",
+    "updatedAt": "2026-08-29T07:45:39+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node18",
+        "node19",
+        "node20",
+        "node21"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Gedung Inspektorat Lt. 1"
+        },
+        "node2": {
+            "displayName": "Pintu Keluar"
+        },
+        "node3": {
+            "displayName": "Gedung Bapenda"
+        },
+        "node4": {
+            "displayName": "Dinas Sosial Kota Semarang"
+        },
+        "node5": {
+            "displayName": "Gedung DPRD (Luar)"
+        },
+        "node6": {
+            "displayName": "Mochihsan"
+        },
+        "node7": {
+            "displayName": "Gedung DPRD"
+        },
+        "node8": {
+            "displayName": "Balai Dinas Perumahan dan Pengawasan"
+        },
+        "node9": {
+            "displayName": "Balai Pengelolaan Keuangan"
+        },
+        "node10": {
+            "displayName": "Bapenda"
+        },
+        "node11": {
+            "displayName": "Pintu Keluar Belakang"
+        },
+        "node12": {
+            "displayName": "Lokakrida"
+        },
+        "node13": {
+            "displayName": "Lt. 8 Gedung Moch. Ichsan"
+        },
+        "node14": {
+            "displayName": "Taman Terbuka"
+        },
+        "node15": {
+            "displayName": "Masjid Balai Kota Semarang"
+        },
+        "node16": {
+            "displayName": "Kantor Walikota"
+        },
+        "node18": {
+            "displayName": "Situation Room"
+        },
+        "node19": {
+            "displayName": "Gedung Moch. Ichsan"
+        },
+        "node20": {
+            "displayName": "Drone"
+        },
+        "node21": {
+            "displayName": "Dinas Kominfo"
+        }
+    }
+}

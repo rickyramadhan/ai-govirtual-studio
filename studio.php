@@ -1,0 +1,800 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * AI Guide Studio — application shell & design system.
+ * Loaded by index.php. Replaces layout_v1() with a persistent AppShell
+ * (sidebar + topbar + content). Backend routes/actions unchanged.
+ */
+
+if (!defined('APP_ROOT')) return;
+
+/* ------------------------------------------------------------------ */
+/* Context helpers                                                     */
+/* ------------------------------------------------------------------ */
+
+/** Resolve which nav section is active from the query action. */
+function studio_nav_active(string $action): string {
+    $map = [
+        'list' => 'overview', 'new' => 'overview', 'edit' => 'overview', 'view' => 'overview', 'save' => 'overview', 'saveAs' => 'overview', 'import' => 'overview', 'delete' => 'overview',
+        'scenes' => 'scenes', 'saveScenes' => 'scenes',
+        'knowledge' => 'knowledge', 'saveKnowledge' => 'knowledge',
+        'curated' => 'questions', 'saveCurated' => 'questions',
+        'flow' => 'flow', 'saveFlow' => 'flow',
+        'prompts' => 'recommendations', 'savePrompts' => 'recommendations',
+        'tips' => 'recommendations', 'saveTips' => 'recommendations',
+        'nearby' => 'recommendations', 'saveNearby' => 'recommendations',
+        'test' => 'test', 'testAnswer' => 'test',
+        'deploy' => 'deployment', 'generate' => 'deployment', 'syncRuntime' => 'sync',
+        'keys' => 'api', 'saveKeys' => 'api', 'testKey' => 'api',
+        'panoview' => 'scenes', 'thumb' => 'scenes',
+        'cities' => 'cities', 'cityNew' => 'cities', 'city' => 'cities', 'citySave' => 'cities', 'citySources' => 'cities', 'citySourceUrl' => 'cities', 'citySourceFile' => 'cities', 'citySourceDelete' => 'cities', 'cityDelete' => 'cities',
+    ];
+    return $map[$action] ?? 'overview';
+}
+
+/** Breadcrumb trail for current action. */
+function studio_breadcrumb(string $action): array {
+    $map = [
+        'list' => [['label' => 'Projects', 'href' => '?']],
+        'cities' => [['label' => 'City Knowledge', 'href' => null]],
+        'cityNew' => [['label' => 'City Knowledge', 'href' => '?a=cities'], ['label' => 'New City', 'href' => null]],
+        'city' => [['label' => 'City Knowledge', 'href' => '?a=cities'], ['label' => 'Edit Knowledge', 'href' => null]],
+        'citySources' => [['label' => 'City Knowledge', 'href' => '?a=cities'], ['label' => 'Sources', 'href' => null]],
+        'new' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Create Tour', 'href' => null]],
+        'edit' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Edit Tour', 'href' => null]],
+        'view' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Project Overview', 'href' => null]],
+        'scenes' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Scene Editor', 'href' => null]],
+        'saveScenes' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Scene Editor', 'href' => null]],
+        'knowledge' => [['label' => 'Projects', 'href' => '?'], ['label' => 'AI Knowledge', 'href' => null]],
+        'curated' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Questions & Intents', 'href' => null]],
+        'flow' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Navigation Flow', 'href' => null]],
+        'saveFlow' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Navigation Flow', 'href' => null]],
+        'prompts' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Recommendations', 'href' => null]],
+        'tips' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Visitor Tips', 'href' => null]],
+        'nearby' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Nearby Places', 'href' => null]],
+        'test' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Test AI Guide', 'href' => null]],
+        'deploy' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Deployment', 'href' => null]],
+        'generate' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Deployment', 'href' => null]],
+        'keys' => [['label' => 'API Providers', 'href' => null]],
+        'saveKeys' => [['label' => 'API Providers', 'href' => null]],
+        'syncRuntime' => [['label' => 'Runtime Sync', 'href' => null]],
+    ];
+    return $map[$action] ?? [['label' => 'AI Guide Studio', 'href' => '?']];
+}
+
+/* ------------------------------------------------------------------ */
+/* Small UI atoms                                                      */
+/* ------------------------------------------------------------------ */
+
+function studio_icon(string $name, int $size = 18): string {
+    $icons = [
+        'overview' => '<path d="M3 3h8v8H3zM13 3h8v5h-8zM13 10h8v11h-8zM3 13h8v8H3z"/>',
+        'scenes' => '<path d="M21 3H3v18h18zM9 17H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zM9 13H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zM9 9H7V7h2zm4 0h-2V7h2zm4 0h-2V7h2z"/>',
+        'knowledge' => '<path d="M4 5a4 4 0 0 1 4-4h12v20H8a4 4 0 0 0-4 4zM12 5h4v2h-4zM12 9h4v2h-4z"/>',
+        'questions' => '<path d="M4 3h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H8l-5 4V4a1 1 0 0 1 1-1zm7 4v2h2V7zm0 4v2h2v-2z"/>',
+        'recommendations' => '<path d="M12 2l2.9 5.9 6.6.9-4.8 4.6 1.2 6.5L12 17.2 6.1 20.9l1.2-6.5L2.5 9.8l6.6-.9z"/>',
+        'test' => '<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 4a1.5 1.5 0 1 1-1.5 1.5A1.5 1.5 0 0 1 12 6zm2 12h-4v-2h1v-4h-1v-2h3v6h1z"/>',
+        'deployment' => '<path d="M3 13h18v6H3zM12 3a4 4 0 0 0-4 4 3 3 0 0 0-1 5.84V11a5 5 0 0 1 10 0v1.84A3 3 0 0 0 16 7a4 4 0 0 0-4-4z"/>',
+        'flow' => '<path d="M4 4h8a4 4 0 0 1 0 8H4zM12 12h8a4 4 0 0 1 0 8h-8zM4 12h3v8H4z"/>',
+        'api' => '<path d="M7 3H3v4h4zM9 3v4h2v4H9v4H3v-4H1V3h6zM7 9H3v2h4zM21 13h-4v4h4zM23 13v4h-4v-4h4zM15 13v4h-4v-4h4zM17 9h4v4h-4z"/>',
+        'settings' => '<path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6zm-6 0h2v-2h-2z"/>',
+        'sync' => '<path d="M4 7h10v3l5-4-5-4v3H2v6h2zM20 17H10v-3l-5 4 5 4v-3h12v-6h-2z"/>',
+        'logo' => '<path d="M12 2l3.2 6.5 7.1 1-5.1 5 1.2 7.1L12 18.9 5.6 21.6l1.2-7.1-5.1-5 7.1-1z"/>',
+        'menu' => '<path d="M3 6h18M3 12h18M3 18h18"/>',
+        'chevron' => '<path d="M9 18l6-6-6-6"/>',
+    ];
+    $p = $icons[$name] ?? $icons['settings'];
+    return '<svg width="' . $size . '" height="' . $size . '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' . $p . '</svg>';
+}
+
+/** Render sidebar nav link. */
+function studio_nav_item(string $slug, string $label, string $href, string $active, bool $disabled = false): string {
+    $icon = studio_icon($slug);
+    if ($disabled) {
+        return '<span class="sbnav-item is-disabled" aria-disabled="true" title="' . h($label) . '"><span class="sbnav-ic">' . $icon . '</span><span class="sbnav-tx">' . h($label) . '</span></span>';
+    }
+    $isActive = $active === $slug;
+    $cls = $isActive ? 'class="sbnav-item is-active"' : 'class="sbnav-item"';
+    return '<a ' . $cls . ' href="' . h($href) . '"' . ($isActive ? ' aria-current="page"' : '') . ' data-tip="' . h($label) . '"><span class="sbnav-ic">' . $icon . '</span><span class="sbnav-tx">' . h($label) . '</span></a>';
+}
+
+/* ------------------------------------------------------------------ */
+/* App shell                                                           */
+/* ------------------------------------------------------------------ */
+
+function layout(string $title, string $body): void {
+    $action = $_GET['a'] ?? 'list';
+    $active = studio_nav_active($action);
+    $crumbs = studio_breadcrumb($action);
+    $tourName = '';
+    if (isset($_GET['id'])) {
+        $t = function_exists('get_tour') ? get_tour((int)$_GET['id']) : null;
+        if ($t) $tourName = $t['name'];
+    }
+    $pageTitle = $tourName !== '' ? $tourName : $title;
+    $tid = (int)($_GET['id'] ?? 0);
+
+    if ($tid === 0) {
+        $main = [
+            ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
+            ['slug' => 'scenes', 'label' => 'Select a project to edit', 'href' => '', 'disabled' => true],
+        ];
+    } else {
+        $main = [
+            ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
+            ['slug' => 'scenes', 'label' => 'Tour & Scenes', 'href' => '?a=scenes&id=' . $tid],
+            ['slug' => 'knowledge', 'label' => 'AI Knowledge', 'href' => '?a=knowledge&id=' . $tid],
+            ['slug' => 'questions', 'label' => 'Questions & Intents', 'href' => '?a=curated&id=' . $tid],
+            ['slug' => 'flow', 'label' => 'Navigation Flow', 'href' => '?a=flow&id=' . $tid],
+            ['slug' => 'recommendations', 'label' => 'Recommendations', 'href' => '?a=prompts&id=' . $tid],
+            ['slug' => 'test', 'label' => 'Test AI Guide', 'href' => '?a=test&id=' . $tid],
+            ['slug' => 'deployment', 'label' => 'Deployment', 'href' => '?a=deploy&id=' . $tid],
+        ];
+    }
+    $bottom = [
+        ['slug' => 'cities', 'label' => 'City Knowledge', 'href' => '?a=cities'],
+        ['slug' => 'sync', 'label' => 'Runtime Sync', 'href' => '?a=syncRuntime'],
+        ['slug' => 'api', 'label' => 'API Providers', 'href' => '?a=keys'],
+        ['slug' => 'settings', 'label' => 'Settings', 'href' => '?a=keys'],
+    ];
+
+    $navMain = '';
+    foreach ($main as $n) $navMain .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active, !empty($n['disabled']));
+    $navBottom = '';
+    foreach ($bottom as $n) $navBottom .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active);
+
+    $crumbsHtml = '<nav class="crumbs" aria-label="Breadcrumb"><span class="crumb">' . studio_icon('logo', 14) . '</span>';
+    foreach ($crumbs as $c) {
+        $crumbsHtml .= '<span class="crumb-sep">/</span>';
+        if ($c['href']) $crumbsHtml .= '<a class="crumb" href="' . h($c['href']) . '">' . h($c['label']) . '</a>';
+        else $crumbsHtml .= '<span class="crumb is-current" aria-current="page">' . h($c['label']) . '</span>';
+    }
+    $crumbsHtml .= '</nav>';
+
+    echo '<!doctype html><html lang="id"><head><meta charset="utf-8">'
+        . '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        . '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+        . '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
+        . '<title>' . h($title) . ' — AI Guide Studio</title>'
+        . '<style>' . studio_css() . '</style>'
+        . '</head><body class="app">'
+        . '<a class="skip-link" href="#studio-main">Skip to content</a>'
+        . '<aside id="studio-sidebar" class="sbar" aria-label="Main navigation">'
+        . '<div class="sbar-top"><a class="sbrand" href="?" aria-label="AI Guide Studio home">'
+        . '<span class="sbrand-ic">' . studio_icon('logo', 22) . '</span>'
+        . '<span class="sbrand-tx">AI Guide <b>Studio</b></span></a>'
+        . '<button type="button" class="sbar-close icon-btn" data-close-sidebar aria-label="Close navigation">' . studio_icon('menu', 18) . '</button></div>'
+        . '<nav class="sbnav"><p class="sbnav-label">Studio</p>' . $navMain
+        . '<p class="sbnav-label sbnav-label-btm">Manage</p>' . $navBottom . '</nav>'
+        . '<div class="sbar-foot"><button type="button" class="sbar-toggle" data-toggle-sidebar aria-expanded="false" aria-label="Collapse sidebar">' . studio_icon('chevron', 16) . '<span>Collapse</span></button></div>'
+        . '</aside>'
+        . '<div class="sbar-backdrop" data-close-sidebar tabindex="-1"></div>'
+        . '<div class="app-main">'
+        . '<header class="topbar"><div class="topbar-left">'
+        . '<button type="button" class="icon-btn topbar-burger" data-toggle-sidebar aria-label="Toggle navigation">' . studio_icon('menu', 20) . '</button>'
+        . $crumbsHtml . '</div>'
+        . '<div class="topbar-right"><span class="topbar-title">' . h($pageTitle) . '</span></div>'
+        . '</header>'
+        . '<main id="studio-main" class="app-content"><div class="app-scroll">' . $body . '</div></main>'
+        . '</div>'
+        . '<script>' . studio_js() . '</script>'
+        . '</body></html>';
+}
+
+/* ------------------------------------------------------------------ */
+/* CSS design tokens + shell styles                                    */
+/* ------------------------------------------------------------------ */
+
+function studio_css(): string {
+    return <<<'CSS'
+:root{
+  --bg-app:#08111f; --bg-sidebar:#091426; --surface-1:#0d192b; --surface-2:#111f33; --surface-3:#15253b;
+  --border:#263851; --border-strong:#344b69;
+  --text-primary:#f5f7fb; --text-secondary:#aab7ca; --text-muted:#74839a;
+  --primary:#2675ff; --primary-hover:#4389ff; --ai-accent:#8b5cf6;
+  --success:#22c55e; --warning:#f59e0b; --danger:#ef5350; --info:#38bdf8;
+  --radius:14px; --radius-sm:10px; --radius-xs:8px;
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px; --space-7:40px;
+  --sidebar-w:248px; --topbar-h:60px;
+  --font:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --font-display:"EB Garamond",Georgia,serif;
+  --mono:"JetBrains Mono",Consolas,"Courier New",monospace;
+  --shadow-1:0 1px 3px rgba(3,8,18,.45),0 1px 2px rgba(3,8,18,.3);
+  --shadow-2:0 10px 32px rgba(3,8,18,.5),0 4px 12px rgba(3,8,18,.35);
+  --focus-ring:0 0 0 3px rgba(38,117,255,.4);
+  --ok-text:#052e16; --ok-bg:rgba(34,197,94,.15);
+  --warn-text:#451a03; --warn-bg:rgba(245,158,11,.15);
+  --danger-text:#fff; --danger-bg:rgba(239,83,80,.15);
+  --info-bg:rgba(56,189,248,.15);
+  --code-bg:#020617;
+  --link-code:#93c5fd; --link-light:#86efac;
+  --pill-bg:#334155; --pill-text:#94a3b8;
+  --content-max:1280px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg-app);color:var(--text-primary);font-family:var(--font);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--primary);text-underline-offset:3px;text-decoration-thickness:1.2px}
+a:hover{color:var(--primary-hover)}
+a:focus-visible{outline:0;box-shadow:var(--focus-ring);border-radius:4px}
+h1,h2,h3,h4,h5{line-height:1.2;margin:0 0 var(--space-3);font-weight:650;letter-spacing:-.02em}
+h1{font-family:var(--font-display);font-size:clamp(24px,3vw,32px);font-weight:700;letter-spacing:-.03em}
+h2{font-family:var(--font-display);font-size:clamp(18px,2vw,22px)}
+h3{font-size:15.5px;font-weight:600;letter-spacing:-.015em}
+h4{font-size:13.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--text-secondary)}
+p{margin:0 0 var(--space-3)}
+button{font-family:var(--font)}
+img{max-width:100%;height:auto}
+code,.mono{font-family:var(--mono);font-size:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:6px;padding:2px 6px;word-break:break-all}
+hr{border:0;border-top:1px solid var(--border);margin:var(--space-5) 0}
+
+/* === Browser surfaces === */
+::selection{background:rgba(38,117,255,.3);color:inherit}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--border-strong)}
+*{scrollbar-color:var(--border) transparent;scrollbar-width:thin}
+input,textarea,select,[contenteditable]{caret-color:var(--primary)}
+
+/* === Status text colors === */
+.ok{color:var(--success)}
+.warn{color:var(--warning)}
+.bad{color:var(--danger)}
+.muted{color:var(--text-muted)}
+.mono,.key-mon{font-family:var(--mono);font-size:12px;color:var(--link-code);word-break:break-all}
+
+/* === Reduced motion — preserve feedback, reduce intensity === */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.12s!important}
+  .progress-bar,.sbar,.sbar-backdrop,.sbnav-item,.btn,.card{transition-duration:.01ms!important}
+}
+
+/* === Skip link === */
+.skip-link{position:fixed;top:-100%;left:var(--space-3);z-index:1000;background:var(--primary);color:#fff;padding:var(--space-2) var(--space-4);border-radius:var(--radius-sm);}
+.skip-link:focus{top:var(--space-2)}
+
+/* === App layout — transform-based, no layout thrash === */
+.app{display:flex;min-height:100vh}
+.sbar{position:fixed;top:0;left:0;z-index:800;width:var(--sidebar-w);height:100vh;display:flex;flex-direction:column;background:var(--bg-sidebar);border-right:1px solid var(--border);transition:transform .22s cubic-bezier(.32,.72,0,1),width .22s cubic-bezier(.32,.72,0,1);will-change:transform} /* impeccable-disable-line layout-transition -- sidebar shell, toggled once per session */
+.sbar-top{display:flex;align-items:center;justify-content:space-between;padding:var(--space-4);height:var(--topbar-h);border-bottom:1px solid var(--border)}
+.sbrand{display:flex;align-items:center;gap:var(--space-3);text-decoration:none;color:var(--text-primary);font-size:15.5px;font-weight:700;letter-spacing:-.02em}
+.sbrand-ic{color:var(--ai-accent);flex-shrink:0;display:flex;align-items:center}
+.sbar-close{display:none}
+.sbnav{flex:1;overflow-y:auto;padding:var(--space-2) var(--space-2) var(--space-4)}
+.sbnav-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.9px;color:var(--text-muted);padding:var(--space-3) var(--space-3) var(--space-2);margin:0;font-weight:600}
+.sbnav-label-btm{margin-top:var(--space-3);border-top:1px solid var(--border);padding-top:var(--space-4)}
+.sbnav-item{display:flex;align-items:center;gap:var(--space-3);padding:10px var(--space-3);border-radius:var(--radius-xs);color:var(--text-secondary);text-decoration:none;transition:background .14s ease,color .14s ease,transform .14s ease;position:relative;margin-bottom:2px;min-height:40px}
+.sbnav-item.is-disabled{color:var(--text-muted);opacity:.55;cursor:not-allowed;font-style:italic}
+.sbnav-item:hover{background:var(--surface-2);color:var(--text-primary);transform:translateX(1px)}
+.sbnav-item:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.sbnav-item.is-active{background:var(--surface-1);color:var(--text-primary);border:1px solid var(--border)}
+.sbnav-item.is-active::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:3px;height:18px;background:var(--primary);border-radius:0 3px 3px 0}
+.sbnav-ic{flex-shrink:0;width:20px;display:flex;align-items:center;justify-content:center}
+.sbnav-tx{font-size:13.5px;font-weight:550}
+.sbar-foot{flex-shrink:0;padding:var(--space-2) var(--space-3);border-top:1px solid var(--border)}
+.sbar-toggle{display:flex;align-items:center;gap:var(--space-2);width:100%;background:0;border:0;color:var(--text-muted);padding:var(--space-2);border-radius:var(--radius-xs);cursor:pointer;font-size:12.5px;min-height:36px}
+.sbar-toggle:hover{background:var(--surface-2);color:var(--text-secondary)}
+.sbar-backdrop{display:none;position:fixed;inset:0;z-index:750;background:rgba(3,8,18,.55);backdrop-filter:blur(4px);opacity:0;transition:opacity .2s ease}
+.app-main{flex:1;margin-left:var(--sidebar-w);display:flex;flex-direction:column;min-height:100vh;transition:margin-left .22s cubic-bezier(.32,.72,0,1)} /* impeccable-disable-line layout-transition -- sidebar offset, single shell transition */
+
+/* === Topbar === */
+.topbar{display:flex;align-items:center;justify-content:space-between;height:var(--topbar-h);padding:0 var(--space-5);border-bottom:1px solid var(--border);background:rgba(8,17,31,.85);backdrop-filter:blur(10px);flex-shrink:0;gap:var(--space-3);position:sticky;top:0;z-index:400}
+.topbar-left{display:flex;align-items:center;gap:var(--space-3);min-width:0}
+.topbar-right{display:flex;align-items:center;gap:var(--space-3);flex-shrink:0}
+.topbar-title{font-family:var(--font-display);font-size:16px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;letter-spacing:-.015em}
+.topbar-burger{display:none}
+
+/* === Breadcrumb === */
+.crumbs{display:flex;align-items:center;gap:var(--space-1);color:var(--text-muted);font-size:13px;min-width:0;flex-wrap:wrap}
+.crumb-sep{color:var(--border-strong);margin:0 1px}
+.crumb{display:flex;align-items:center;gap:var(--space-1);color:var(--text-muted);text-decoration:none;white-space:nowrap}
+.crumb:hover{color:var(--text-secondary)}
+.crumb.is-current{color:var(--text-primary);font-weight:500}
+
+/* === Content area === */
+.app-content{flex:1;overflow-y:auto;position:relative}
+.app-scroll{padding:var(--space-5) var(--space-6);max-width:var(--content-max);width:100%;margin:0 auto}
+
+/* === Icon button === */
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;background:0;border:0;color:var(--text-secondary);cursor:pointer;border-radius:var(--radius-xs);width:40px;height:40px;min-width:40px;min-height:40px;padding:0;transition:background .14s ease,color .14s ease}
+.icon-btn:hover{background:var(--surface-2);color:var(--text-primary)}
+.icon-btn:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+
+/* === Status badges === */
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:999px;letter-spacing:.2px;white-space:nowrap;line-height:1.3}
+.badge-draft{background:var(--surface-3);color:var(--text-muted)}
+.badge-ready{background:rgba(34,197,94,.15);color:var(--success)}
+.badge-needs{background:rgba(245,158,11,.15);color:var(--warning)}
+.badge-deployed{background:rgba(56,189,248,.15);color:var(--info)}
+.badge-error{background:rgba(239,83,80,.15);color:var(--danger)}
+
+/* === Cards === */
+.card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space-5);margin-bottom:var(--space-4);box-shadow:var(--shadow-1);transition:border-color .16s ease,transform .16s ease,box-shadow .16s ease}
+.card-hover:hover{border-color:var(--border-strong);transform:translateY(-1px);box-shadow:var(--shadow-2)}
+.card-compact{padding:var(--space-4)}
+.card-flat{background:transparent;border:1px solid var(--border)}
+.card-group{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--space-4);margin-bottom:var(--space-4)}
+
+/* === Metric cards === */
+.metric{display:flex;flex-direction:column;gap:var(--space-1)}
+.metric-val{font-size:28px;font-weight:700;line-height:1}
+.metric-label{font-size:12.5px;color:var(--text-muted);font-weight:500}
+.metric-sub{font-size:12px;color:var(--text-secondary);margin-top:1px}
+
+/* === Buttons — 44px touch targets === */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);padding:10px 18px;border-radius:var(--radius-xs);font-size:13.5px;font-weight:600;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .14s ease,color .14s ease,border-color .14s ease,transform .14s ease,box-shadow .14s ease;white-space:nowrap;line-height:1.3;min-height:44px;letter-spacing:-.01em}
+.btn:active{transform:translateY(1px)}
+.btn:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.btn-primary{background:var(--primary);color:#fff;box-shadow:0 1px 2px rgba(38,117,255,.25)}
+.btn-primary:hover{background:var(--primary-hover);transform:translateY(-1px);box-shadow:0 4px 12px rgba(38,117,255,.3)}
+.btn-ai{background:var(--ai-accent);color:#fff;box-shadow:0 1px 2px rgba(139,92,246,.25)}
+.btn-ai:hover{background:#7c3aed;transform:translateY(-1px);box-shadow:0 4px 12px rgba(139,92,246,.3)}
+.btn-success{background:var(--success);color:#052e16}
+.btn-success:hover{filter:brightness(1.05);transform:translateY(-1px)}
+.btn-warning{background:var(--warning);color:#451a03}
+.btn-warning:hover{filter:brightness(1.05);transform:translateY(-1px)}
+.btn-danger{background:var(--danger);color:#fff}
+.btn-danger:hover{filter:brightness(1.08)}
+.btn-ghost{background:transparent;color:var(--text-secondary);border-color:var(--border)}
+.btn-ghost:hover{background:var(--surface-2);color:var(--text-primary);border-color:var(--border-strong)}
+.btn-sm{padding:8px 14px;font-size:12.5px;min-height:36px}
+.btn-icon{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;min-width:40px;min-height:40px;border-radius:var(--radius-xs);padding:0;background:transparent;border:0;color:var(--text-secondary);cursor:pointer;transition:background .14s ease,color .14s ease}
+.btn-icon:hover{background:var(--surface-2);color:var(--text-primary)}
+
+/* === Forms — Impeccable polish === */
+label{display:block;font-size:12px;font-weight:600;color:var(--text-secondary);margin-bottom:6px;letter-spacing:.02em;text-transform:uppercase}
+label:has(+ input:required)::after,label:has(+ textarea:required)::after{content:" *";color:var(--danger);font-weight:700}
+/* textual inputs — matches ALL <input> without type (index.php generates bare <input>) */
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]),textarea,select{
+  width:100%;background:var(--surface-2);color:var(--text-primary);
+  border:1.5px solid var(--border);border-radius:var(--radius-xs);
+  padding:11px 14px;font-size:13.5px;font-family:var(--font);font-weight:500;
+  min-height:44px;line-height:1.45;
+  transition:border-color .16s ease,box-shadow .16s ease,background .16s ease;
+  box-shadow:inset 0 1px 2px rgba(2,6,23,.25);
+}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button])::placeholder,textarea::placeholder{color:var(--text-muted);opacity:.9;font-weight:400}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):hover,textarea:hover,select:hover{border-color:var(--border-strong);background:rgba(17,31,51,.92)}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):focus,textarea:focus,select:focus{outline:0;border-color:var(--primary);box-shadow:var(--focus-ring),inset 0 1px 2px rgba(2,6,23,.2);background:var(--surface-1)}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):disabled,textarea:disabled,select:disabled{opacity:.55;cursor:not-allowed;background:var(--surface-3)}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):user-invalid,textarea:user-invalid,select:user-invalid{border-color:var(--danger);box-shadow:0 0 0 3px rgba(239,83,80,.15)}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):user-valid,textarea:user-valid{border-color:rgba(34,197,94,.35)}
+textarea{padding:12px 14px;line-height:1.65;min-height:96px;resize:vertical}
+select{
+  cursor:pointer;appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--text-muted) 50%),linear-gradient(135deg,var(--text-muted) 50%,transparent 50%);
+  background-position:calc(100% - 18px) calc(50% - 2px),calc(100% - 12px) calc(50% - 2px);
+  background-size:6px 6px,6px 6px;background-repeat:no-repeat;padding-right:36px;
+}
+select:focus{background-image:linear-gradient(45deg,transparent 50%,var(--primary) 50%),linear-gradient(135deg,var(--primary) 50%,transparent 50%)}
+input[type=checkbox],input[type=radio]{width:18px;height:18px;margin-right:var(--space-2);accent-color:var(--primary);vertical-align:middle;min-height:auto;box-shadow:none;cursor:pointer}
+input[type=checkbox]:focus-visible,input[type=radio]:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+/* search variant — subtle pill */
+input[type=search]{border-radius:999px;padding-left:40px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2374839a' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20L16 16'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:14px 50%;background-size:16px}
+input[type=search]:focus{background-position:14px 50%}
+.form-group{margin-bottom:var(--space-4)}
+.form-group label{margin-bottom:8px}
+.form-2col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4)}
+.form-3col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--space-4)}
+.form-help{font-size:12px;color:var(--text-muted);margin-top:6px;line-height:1.5}
+.form-help code{font-size:11.5px}
+.form-error{font-size:12px;color:var(--danger);margin-top:6px;display:flex;align-items:center;gap:6px}
+.field{margin-bottom:var(--space-4)}
+.field label{margin-bottom:8px}
+.input-group{display:flex;align-items:stretch}
+.input-group input{flex:1;border-radius:var(--radius-xs) 0 0 var(--radius-xs)}
+.input-group .btn{border-radius:0 var(--radius-xs) var(--radius-xs) 0;margin-left:-1.5px;min-height:44px}
+.key-mon{font-family:var(--mono);font-size:12px;letter-spacing:.02em}
+textarea.key-mon{font-size:11.5px;line-height:1.6}
+
+/* === Chips === */
+.chip{display:inline-flex;align-items:center;gap:4px;background:var(--surface-3);border:1px solid var(--border);border-radius:999px;padding:2px 10px;font-size:12px;font-weight:500;color:var(--text-secondary)}
+.chip-rem{background:0;border:0;color:var(--text-muted);cursor:pointer;padding:0 2px;font-size:14px;line-height:1}
+.chip-rem:hover{color:var(--danger)}
+
+/* === Tables === */
+.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface-1)}
+table{width:100%;border-collapse:collapse}
+th{text-align:left;font-size:11px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:.6px;padding:12px var(--space-3);border-bottom:1px solid var(--border);background:var(--surface-2);white-space:nowrap}
+td{padding:12px var(--space-3);border-bottom:1px solid var(--border);font-size:13.5px;color:var(--text-secondary)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--surface-2)}
+tbody tr:focus-within td{background:rgba(38,117,255,.06)}
+
+/* === Progress bar — transform-based (no layout thrash) === */
+.progress-wrap{background:var(--surface-2);border-radius:999px;height:8px;overflow:hidden;position:relative}
+.progress-bar{height:100%;border-radius:999px;background:var(--primary);transform-origin:left;transition:transform .4s cubic-bezier(.32,.72,0,1);will-change:transform;min-width:4px}
+.progress-bar.success{background:var(--success)}
+.progress-bar.warning{background:var(--warning)}
+.progress-bar.danger{background:var(--danger)}
+
+/* === Toast === */
+.toast-container{position:fixed;bottom:var(--space-5);right:var(--space-5);z-index:900;display:flex;flex-direction:column;gap:var(--space-2)}
+.toast{display:flex;align-items:center;gap:var(--space-3);padding:var(--space-3) var(--space-4);border-radius:var(--radius-sm);font-size:13px;font-weight:500;box-shadow:var(--shadow-2);animation:toast-in .2s ease}
+.toast-success{background:var(--success);color:#052e16}
+.toast-error{background:var(--danger);color:#fff}
+.toast-info{background:var(--info);color:#0c4a6e}
+@keyframes toast-in{from{opacity:0;transform:translateY(8px)}}
+
+/* === Empty state === */
+.empty{padding:var(--space-6);text-align:center;color:var(--text-muted)}
+.empty-ic{margin-bottom:var(--space-3);opacity:.4}
+.empty h3{color:var(--text-secondary);margin-bottom:var(--space-2)}
+.empty p{font-size:13px;max-width:480px;margin:0 auto var(--space-4)}
+.pick-tour-list{display:grid;gap:var(--space-2);max-width:480px;margin:0 auto var(--space-4);text-align:left}
+.pick-tour{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);padding:10px var(--space-3);background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-xs);color:var(--text-primary);text-decoration:none;transition:background .14s ease,border-color .14s ease}
+.pick-tour:hover{background:var(--surface-3);border-color:var(--border-strong)}
+.pick-tour-name{font-weight:600;font-size:13.5px}
+.pick-tour-loc{font-size:12px;color:var(--text-muted)}
+
+/* === Sidebar collapsed — transform, not layout thrash === */
+body.sbar-collapsed .sbar{width:68px;overflow:hidden}
+body.sbar-collapsed .sbar .sbrand-tx,body.sbar-collapsed .sbar .sbnav-tx,body.sbar-collapsed .sbar .sbnav-label,body.sbar-collapsed .sbar .sbar-toggle span{display:none}
+body.sbar-collapsed .sbar .sbnav-item{justify-content:center;padding:10px 8px}
+body.sbar-collapsed .sbar .sbnav-item.is-active::before{display:none}
+body.sbar-collapsed .sbar .sbnav-item.is-active{background:rgba(38,117,255,.12);border-color:transparent}
+body.sbar-collapsed .sbar .sbnav-item.is-active .sbnav-ic{color:var(--primary)}
+body.sbar-collapsed .sbar .sbar-toggle{justify-content:center}
+body.sbar-collapsed .sbar .sbar-toggle svg{transform:rotate(180deg)}
+body.sbar-collapsed .app-main{margin-left:68px}
+
+/* === Responsive === */
+@media(max-width:1024px){
+  .app-scroll{padding:var(--space-4) var(--space-4)}
+  .form-2col,.form-3col{grid-template-columns:1fr}
+  .card-group{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+}
+@media(max-width:768px){
+  .sbar{transform:translateX(-100%)}
+  .sbar-close{display:flex}
+  .sbar-backdrop{display:block;opacity:0;pointer-events:none;transition:opacity .2s}
+  .topbar-burger{display:flex}
+  .app-main{margin-left:0}
+  body.sbar-collapsed .sbar{width:var(--sidebar-w);transform:translateX(-100%)}
+  body.sbar-collapsed .app-main{margin-left:0}
+  body.sbar-open .sbar{transform:translateX(0)}
+  body.sbar-open .sbar-backdrop{opacity:1;pointer-events:auto}
+  body.sbar-collapsed.sbar-open .sbar{width:var(--sidebar-w);transform:translateX(0)}
+  .app-scroll{padding:var(--space-3) var(--space-3)}
+  .topbar{padding:0 var(--space-3)}
+  .crumbs{font-size:12px}
+  .topbar-title{max-width:120px;font-size:13px}
+  h1{font-size:24px}
+  h2{font-size:18px}
+  .card-group{grid-template-columns:1fr}
+}
+
+/* === Dashboard (Projects) === */
+.dash-head{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-5);flex-wrap:wrap}
+.dash-head h1{margin:0}
+.dash-head p{margin:var(--space-2) 0 0;color:var(--text-muted);font-size:13px}
+.dash-actions{display:flex;gap:var(--space-2);flex-wrap:wrap}
+.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:var(--space-4);margin-bottom:var(--space-5)}
+.metric-card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space-4)}
+.metric-val.metric-ready{color:var(--success)}
+.metric-val.metric-warn{color:var(--warning)}
+.toolbar{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-4);flex-wrap:wrap}
+.toolbar input[type=search]{max-width:280px}
+.filters{display:flex;gap:var(--space-2);flex-wrap:wrap}
+.filter-chip{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:999px;padding:8px 16px;font-size:12.5px;cursor:pointer;font-weight:600;min-height:36px;transition:all .14s ease}
+.filter-chip:hover{border-color:var(--border-strong);color:var(--text-primary);transform:translateY(-1px)}
+.filter-chip:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.filter-chip.is-on{background:var(--primary);border-color:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(38,117,255,.25)}
+.filter-sep{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);align-self:center}
+.tour-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:var(--space-4)}
+.tour-card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);display:flex;flex-direction:column;transition:border-color .16s ease,transform .16s ease,box-shadow .16s ease;overflow:hidden}
+.tour-card:hover{border-color:var(--border-strong);transform:translateY(-2px);box-shadow:var(--shadow-2)}
+.tour-card:focus-within{border-color:var(--primary);box-shadow:var(--focus-ring)}
+.tour-card-head{padding:var(--space-4) var(--space-4) 0;display:flex;justify-content:space-between;gap:var(--space-2);align-items:flex-start}
+.tour-card-head h3{margin:0;font-size:16px}
+.tour-card-head h3 a{color:var(--text-primary);text-decoration:none}
+.tour-card-head h3 a:hover{color:var(--primary)}
+.tour-card-loc{font-size:12.5px;color:var(--text-muted);margin-top:2px;display:flex;align-items:center;gap:6px}
+.tour-card-body{padding:var(--space-4);flex:1;display:flex;flex-direction:column;gap:var(--space-3)}
+.tour-card-meta{display:flex;gap:var(--space-3);flex-wrap:wrap;font-size:12px;color:var(--text-secondary)}
+.tour-card-meta span{display:inline-flex;align-items:center;gap:5px}
+.tour-card-foot{padding:var(--space-3) var(--space-4);border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:var(--space-2)}
+.readiness-row{display:flex;align-items:center;gap:var(--space-3)}
+.readiness-row .progress-wrap{flex:1}
+.readiness-pct{font-size:14px;font-weight:700;min-width:38px;text-align:right}
+.card-menu{position:relative}
+.card-menu-btn{background:transparent;border:1px solid var(--border);color:var(--text-secondary);border-radius:var(--radius-xs);width:40px;height:40px;min-width:40px;min-height:40px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:16px;line-height:1;transition:all .14s ease}
+.card-menu-btn:hover{background:var(--surface-2);color:var(--text-primary);border-color:var(--border-strong)}
+.card-menu-btn:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.card-menu-btn[aria-expanded="true"]{background:var(--surface-2);border-color:var(--border-strong);color:var(--text-primary)}
+.card-menu-pop{position:absolute;right:0;top:44px;background:var(--surface-2);border:1px solid var(--border-strong);border-radius:var(--radius-xs);box-shadow:var(--shadow-2);min-width:220px;z-index:60;display:none;overflow:hidden}
+.card-menu-pop.open{display:block;animation:menu-in .14s ease}
+@keyframes menu-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+.card-menu-pop a,.card-menu-pop button{display:flex;align-items:center;gap:var(--space-2);width:100%;text-align:left;padding:10px var(--space-3);font-size:13px;color:var(--text-secondary);text-decoration:none;background:transparent;border:0;cursor:pointer;min-height:40px;transition:background .12s ease}
+.card-menu-pop a:hover,.card-menu-pop button:hover{background:var(--surface-3);color:var(--text-primary)}
+.card-menu-pop a:focus-visible,.card-menu-pop button:focus-visible{outline:0;background:var(--surface-3)}
+.card-menu-pop .is-danger{color:var(--danger)}
+.card-menu-pop .is-danger:hover{background:rgba(239,83,80,.1)}
+
+/* === Project Overview === */
+.ov-grid{display:grid;grid-template-columns:1fr 340px;gap:var(--space-4);align-items:start}
+@media(max-width:1024px){.ov-grid{grid-template-columns:1fr}}
+.ov-head{display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap;margin-bottom:var(--space-5)}
+.ov-head h1{margin:0;font-size:24px}
+.ov-sub{color:var(--text-muted);font-size:13px;margin-top:var(--space-1);word-break:break-all}
+.ov-actions{display:flex;gap:var(--space-2);flex-wrap:wrap}
+.ready-ring{display:flex;align-items:center;gap:var(--space-4)}
+.ready-ring-num{font-size:40px;font-weight:800;line-height:1}
+.issue-item{display:flex;gap:var(--space-3);padding:var(--space-2) 0;border-bottom:1px solid var(--border);align-items:center}
+.issue-item:last-child{border-bottom:0}
+.issue-ic{flex-shrink:0;color:var(--warning)}
+.issue-tx{flex:1;min-width:0}
+.issue-tx b{display:block;font-size:13px;color:var(--text-primary);font-weight:500}
+.issue-act{flex-shrink:0}
+.checklist{list-style:none;margin:0;padding:0}
+.checklist li{display:flex;align-items:center;gap:var(--space-3);padding:var(--space-2) 0;border-bottom:1px solid var(--border);font-size:13.5px}
+.checklist li:last-child{border-bottom:0}
+.check-ic{width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0}
+.check-ok{background:rgba(34,197,94,.15);color:var(--success)}
+.check-nd{background:var(--surface-3);color:var(--text-muted)}
+.check-tx{flex:1;min-width:0}
+.check-tx b{font-weight:500}
+.check-tx small{display:block;color:var(--text-muted);font-size:12px}
+.check-act{flex-shrink:0}
+.scene-chips{display:flex;flex-wrap:wrap;gap:var(--space-2)}
+.scene-chip{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:4px 10px;font-size:12px;color:var(--text-secondary);display:inline-flex;align-items:center;gap:6px}
+.coverage-item{display:flex;align-items:center;gap:var(--space-3);padding:var(--space-2) 0;border-bottom:1px solid var(--border)}
+.coverage-item:last-child{border-bottom:0}
+.coverage-tx{flex:1;font-size:13px;color:var(--text-secondary);min-width:0}
+.coverage-bar{width:110px;flex-shrink:0}
+.activity-item{display:flex;gap:var(--space-3);padding:var(--space-2) 0;border-bottom:1px solid var(--border);align-items:flex-start}
+.activity-item:last-child{border-bottom:0}
+.activity-ic{flex-shrink:0;color:var(--text-muted);margin-top:2px}
+.activity-tx{font-size:13px;color:var(--text-secondary)}
+.activity-tx b{color:var(--text-primary);font-weight:600}
+.activity-time{font-size:11.5px;color:var(--text-muted);margin-top:2px}
+@media(max-width:768px){.ready-ring-num{font-size:32px}}
+CSS;
+}
+
+/* ------------------------------------------------------------------ */
+/* JS — sidebar toggle, toast, confirm dialog                          */
+/* ------------------------------------------------------------------ */
+
+function studio_js(): string {
+    return <<<'JS'
+(function(){
+var sbar=document.getElementById('studio-sidebar');
+var toggle=document.querySelectorAll('[data-toggle-sidebar]');
+var close=document.querySelectorAll('[data-close-sidebar]');
+var body=document.body;
+
+function isCollapsed(){return body.classList.contains('sbar-collapsed');}
+function isOpen(){return body.classList.contains('sbar-open');}
+
+toggle.forEach(function(el){
+  el.addEventListener('click',function(e){
+    e.stopPropagation();
+    if(window.innerWidth<=768){
+      body.classList.toggle('sbar-open');
+      body.classList.remove('sbar-collapsed');
+    }else{
+      body.classList.toggle('sbar-collapsed');
+      body.classList.remove('sbar-open');
+    }
+  });
+});
+
+close.forEach(function(el){
+  el.addEventListener('click',function(){
+    body.classList.remove('sbar-open');
+  });
+});
+
+// Escape closes mobile drawer
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape' && isOpen()) body.classList.remove('sbar-open');
+});
+
+// Persist collapsed state
+try{
+  var val=localStorage.getItem('studio-sbar-collapsed');
+  if(val==='true' && window.innerWidth>768) body.classList.add('sbar-collapsed');
+}catch(e){}
+var toggleBtn=document.querySelector('.sbar-toggle');
+if(toggleBtn){
+  toggleBtn.addEventListener('click',function(){
+    try{localStorage.setItem('studio-sbar-collapsed',isCollapsed()?'true':'false');}catch(e){}
+  });
+}
+
+// Tooltip on hover for collapsed sidebar
+var items=sbar.querySelectorAll('[data-tip]');
+items.forEach(function(el){
+  el.addEventListener('mouseenter',function(){
+    if(!isCollapsed()||window.innerWidth<=768) return;
+    var tip=el.getAttribute('data-tip');
+    if(!tip) return;
+    var t=document.createElement('div');
+    t.className='sbar-tooltip';
+    t.textContent=tip;
+    t.style.cssText='position:fixed;left:68px;top:'+(el.getBoundingClientRect().top+8)+'px;background:var(--surface-3);color:var(--text-primary);font-size:12.5px;padding:6px 12px;border-radius:6px;border:1px solid var(--border);z-index:900;white-space:nowrap;pointer-events:none';
+    document.body.appendChild(t);
+    el._tipEl=t;
+  });
+  el.addEventListener('mouseleave',function(){
+    if(el._tipEl){el._tipEl.remove();el._tipEl=null;}
+  });
+});
+})();
+JS;
+}
+
+/* ------------------------------------------------------------------ */
+/* Phase 2 — tour analytics, readiness, dashboard JS                   */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Single source of truth for tour readiness/analytics. Reads real stored
+ * data (parsed.json + content JSONs). Never fabricates values.
+ */
+function studio_tour_stats(array $tour): array {
+    $dir = tour_dir($tour['slug']);
+    $parsed = read_json($dir . '/parsed.json');
+    $scenes = count($parsed['scenes'] ?? []);
+    $issues = $parsed ? validate_parsed($parsed) : [];
+
+    $curated = read_json($dir . '/curated-answers.json');
+    $intents = count($curated['intents'] ?? []);
+
+    $knowledge = read_json($dir . '/knowledge.json');
+    $entries = $knowledge['entries'] ?? [];
+    $knowTotal = count($entries);
+    $knowDone = 0;
+    foreach ($entries as $e) {
+        $c = trim((string)($e['content'] ?? ''));
+        if ($c !== '' && !str_contains($c, 'Isi ') && !str_contains($c, 'Pusat pengalaman') && !str_contains($c, 'Template starter')) $knowDone++;
+    }
+
+    $si = read_json($dir . '/scene-identity.json');
+    $siScenes = count($si['scenes'] ?? []);
+
+    $tips = read_json($dir . '/visitor-tips.json');
+    $tipsTotal = count($tips['topics'] ?? []);
+
+    $nearby = read_json($dir . '/nearby.json');
+    $nearbyTotal = count($nearby['items'] ?? []);
+
+    $rec = read_json($dir . '/recommended-questions.json');
+    $recTotal = count($rec['state1']['starters'] ?? []) + count($rec['state1']['themes'] ?? []);
+
+    $hasPackage = is_dir($dir . '/package/govirtual-ai');
+    $export = trim((string)$tour['export_path']);
+    $exportDir = $export !== '' && is_dir($export);
+    $deployed = $hasPackage && $exportDir && is_dir($export . '/govirtual-ai');
+
+    $steps = [
+        ['key' => 'import', 'label' => 'Import Tour', 'desc' => 'Panorama + hotspot ter-parsing',
+            'done' => $scenes > 0, 'act' => '?a=import&id=' . (int)$tour['id'], 'actLabel' => 'Import'],
+        ['key' => 'scenes', 'label' => 'Review Scenes', 'desc' => 'Nama panorama & identitas scene',
+            'done' => $siScenes > 0 && $siScenes >= $scenes, 'act' => '?a=scenes&id=' . (int)$tour['id'], 'actLabel' => 'Review'],
+        ['key' => 'knowledge', 'label' => 'Complete Knowledge', 'desc' => 'Isi konten jawaban AI',
+            'done' => $knowTotal > 0 && $knowDone > 0 && $knowDone >= $knowTotal, 'act' => '?a=knowledge&id=' . (int)$tour['id'], 'actLabel' => 'Edit'],
+        ['key' => 'questions', 'label' => 'Configure Questions', 'desc' => 'Intents + recommended questions',
+            'done' => $intents > 0 && $recTotal > 0, 'act' => '?a=curated&id=' . (int)$tour['id'], 'actLabel' => 'Configure'],
+        ['key' => 'deploy', 'label' => 'Generate & Deploy', 'desc' => 'Package terpasang ke export',
+            'done' => $deployed, 'act' => '?a=deploy&id=' . (int)$tour['id'], 'actLabel' => 'Deploy'],
+    ];
+    $doneCount = 0; foreach ($steps as $s) if ($s['done']) $doneCount++;
+    $ready = (int)round($doneCount / count($steps) * 100);
+
+    $status = 'draft';
+    if ($deployed) $status = 'deployed';
+    elseif ($ready >= 80) $status = 'ready';
+    elseif ($doneCount >= 1) $status = 'needs';
+    if ($issues && $status === 'ready') $status = 'needs';
+
+    return [
+        'status' => $status, 'ready' => $ready, 'doneSteps' => $doneCount, 'totalSteps' => count($steps),
+        'steps' => $steps, 'issues' => $issues,
+        'scenes' => $scenes, 'hotspots' => count($parsed['hotspots'] ?? []),
+        'intents' => $intents, 'knowledgeTotal' => $knowTotal, 'knowledgeDone' => $knowDone,
+        'siScenes' => $siScenes, 'tipsTotal' => $tipsTotal, 'nearbyTotal' => $nearbyTotal, 'recTotal' => $recTotal,
+        'hasParsed' => $scenes > 0, 'hasPackage' => $hasPackage, 'exportSet' => $export !== '', 'deployed' => $deployed,
+    ];
+}
+
+/** Status badge HTML. */
+function studio_badge(string $status): string {
+    $map = [
+        'draft' => ['badge-draft', 'Draft'],
+        'ready' => ['badge-ready', 'Ready'],
+        'needs' => ['badge-needs', 'Needs Attention'],
+        'deployed' => ['badge-deployed', 'Deployed'],
+        'error' => ['badge-error', 'Error'],
+    ];
+    [$cls, $label] = $map[$status] ?? $map['draft'];
+    return '<span class="badge ' . $cls . '">' . $label . '</span>';
+}
+
+/** Readiness bar + percentage — transform-based (impeccable: avoid width animation). */
+function studio_readiness(int $pct): string {
+    $bar = $pct >= 80 ? 'success' : ($pct >= 40 ? 'warning' : 'danger');
+    $scale = max(0, min(100, $pct)) / 100;
+    return '<div class="readiness-row"><div class="progress-wrap" role="progressbar" aria-valuenow="' . $pct . '" aria-valuemin="0" aria-valuemax="100" aria-label="Readiness ' . $pct . '%"><div class="progress-bar ' . $bar . '" style="transform:scaleX(' . $scale . ')"></div></div><span class="readiness-pct" aria-hidden="true">' . $pct . '%</span></div>';
+}
+
+/** Metric card. */
+function studio_metric(string $label, string $val, string $sub = '', string $cls = ''): string {
+    return '<div class="metric-card"><div class="metric"><div class="metric-val ' . $cls . '">' . $val . '</div><div class="metric-label">' . $label . '</div>' . ($sub !== '' ? '<div class="metric-sub">' . $sub . '</div>' : '') . '</div></div>';
+}
+
+/** Dashboard JS: search, filter, card menus. */
+function studio_dash_js(): string {
+    return <<<'JS'
+(function(){
+  var search=document.getElementById('projSearch');
+  var chips=document.querySelectorAll('#projFilters .filter-chip[data-filter]');
+  var locChips=document.querySelectorAll('#projFilters .filter-chip[data-locfilter]');
+  var catChips=document.querySelectorAll('#projFilters .filter-chip[data-catfilter]');
+  var cards=document.querySelectorAll('.tour-card');
+  var activeFilter='all';
+  var activeLoc='__all__';
+  var activeCat='__all__';
+  function apply(){
+    var q=search?search.value.toLowerCase():'';
+    cards.forEach(function(c){
+      var okF=(activeFilter==='all'||c.getAttribute('data-status')===activeFilter);
+      var okL=(activeLoc==='__all__'||(c.getAttribute('data-loc')||'').toLowerCase()===activeLoc.toLowerCase());
+      var okC=(activeCat==='__all__'||(c.getAttribute('data-cat')||'').toLowerCase()===activeCat.toLowerCase());
+      var okQ=!q||(c.getAttribute('data-name')||'').indexOf(q)>-1;
+      c.style.display=(okF&&okL&&okC&&okQ)?'':'none';
+    });
+  }
+  if(search) search.addEventListener('input',apply);
+  chips.forEach(function(ch){
+    ch.addEventListener('click',function(){
+      chips.forEach(function(x){x.classList.remove('is-on');});
+      ch.classList.add('is-on');
+      activeFilter=ch.getAttribute('data-filter');
+      apply();
+    });
+  });
+  locChips.forEach(function(ch){
+    ch.addEventListener('click',function(){
+      locChips.forEach(function(x){x.classList.remove('is-on');});
+      ch.classList.add('is-on');
+      activeLoc=ch.getAttribute('data-locfilter');
+      apply();
+    });
+  });
+  catChips.forEach(function(ch){
+    ch.addEventListener('click',function(){
+      catChips.forEach(function(x){x.classList.remove('is-on');});
+      ch.classList.add('is-on');
+      activeCat=ch.getAttribute('data-catfilter');
+      apply();
+    });
+  });
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest?e.target.closest('[data-menu-btn]'):null;
+    var pop=e.target.closest?e.target.closest('.card-menu-pop'):null;
+    document.querySelectorAll('.card-menu-pop.open').forEach(function(p){
+      if(pop!==p && (!btn||p.parentElement!==btn.parentElement)){ p.classList.remove('open'); var b=p.parentElement.querySelector('[data-menu-btn]'); if(b) b.setAttribute('aria-expanded','false'); }
+    });
+    if(btn){
+      var popup=btn.parentElement.querySelector('.card-menu-pop');
+      if(popup){ var isOpen=popup.classList.toggle('open'); btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false'); if(isOpen) { var first=popup.querySelector('[role="menuitem"]'); if(first) first.focus(); } }
+    }
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){ document.querySelectorAll('.card-menu-pop.open').forEach(function(p){ p.classList.remove('open'); var b=p.parentElement.querySelector('[data-menu-btn]'); if(b) b.setAttribute('aria-expanded','false'); }); }
+  });
+  document.querySelectorAll('[data-del-url]').forEach(function(el){
+    el.addEventListener('click',function(){
+      var name=el.getAttribute('data-del-name')||'project ini';
+      var ok=window.confirm('Hapus project "'+name+'"?\nMenghapus SELURUH data tour, JSON kurasi, dan package di storage. Tindakan ini tidak bisa dibatalkan.');
+      if(ok) window.location.href=el.getAttribute('data-del-url');
+    });
+  });
+})();
+JS;
+}

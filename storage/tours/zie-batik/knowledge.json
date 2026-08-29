@@ -1,0 +1,380 @@
+{
+    "version": 2,
+    "tourId": "zie-batik",
+    "updatedAt": "2026-08-29T07:11:21+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Zie Batik",
+            "aliases": [
+                "zie batik"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "zie-batik"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Zie Batik.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Zie Batik",
+                    "content": "Pusat pengalaman virtual untuk Zie Batik."
+                },
+                "en": {
+                    "title": "Zie Batik",
+                    "content": "Pusat pengalaman virtual untuk Zie Batik."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Musholla",
+            "aliases": [
+                "musholla"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "zie-batik"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Musholla",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Musholla",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Area Produksi",
+            "aliases": [
+                "area produksi"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "zie-batik"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Produksi",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Area Produksi",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "zie-batik"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1043",
+            "entityId": "objinfo2:1043",
+            "title": "Objek 1043",
+            "aliases": [
+                "objek 1043",
+                "objek #1043"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Informasi untuk Objek 1043 di Zie Batik. Ganti dengan deskripsi terverifikasi dari pengelola.",
+            "source": "ai-generator:auto",
+            "sourceId": "1043",
+            "sourceType": "objinfo2",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "AUTO",
+            "mappingEvidence": "auto from skin.js objinfo ids",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Objek 1043",
+                    "content": "Informasi untuk Objek 1043 di Zie Batik."
+                },
+                "en": {
+                    "title": "Object 1043",
+                    "content": "Information for Object 1043 at Zie Batik."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1041",
+            "entityId": "objinfo2:1041",
+            "title": "Objek 1041",
+            "aliases": [
+                "objek 1041",
+                "objek #1041"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Informasi untuk Objek 1041 di Zie Batik. Ganti dengan deskripsi terverifikasi dari pengelola.",
+            "source": "ai-generator:auto",
+            "sourceId": "1041",
+            "sourceType": "objinfo2",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "AUTO",
+            "mappingEvidence": "auto from skin.js objinfo ids",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Objek 1041",
+                    "content": "Informasi untuk Objek 1041 di Zie Batik."
+                },
+                "en": {
+                    "title": "Object 1041",
+                    "content": "Information for Object 1041 at Zie Batik."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:560",
+            "entityId": "objinfo2:560",
+            "title": "Canting",
+            "aliases": [
+                "canting",
+                "objek 560"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Alat untuk melukis atau menuliskan cairan malam (lilin panas) di atas permukaan kain mori.",
+            "source": "webview-import",
+            "sourceId": "560",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Canting",
+                    "content": "Alat untuk melukis atau menuliskan cairan malam (lilin panas) di atas permukaan kain mori."
+                },
+                "en": {
+                    "title": "Object 560",
+                    "content": "Information for Object 560."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:559",
+            "entityId": "objinfo2:559",
+            "title": "Kain Mori",
+            "aliases": [
+                "kain mori",
+                "objek 559"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kain Mori adalah kain tenun berwarna putih yang terbuat dari serat alam, umumnya katun. Kain ini merupakan bahan dasar utama yang paling umum digunakan dalam proses membatik.",
+            "source": "webview-import",
+            "sourceId": "559",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kain Mori",
+                    "content": "Kain Mori adalah kain tenun berwarna putih yang terbuat dari serat alam, umumnya katun. Kain ini merupakan bahan dasar utama yang paling umum digunakan dalam proses membatik."
+                },
+                "en": {
+                    "title": "Object 559",
+                    "content": "Information for Object 559."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1044",
+            "entityId": "objinfo2:1044",
+            "title": "Objek 1044",
+            "aliases": [
+                "objek 1044",
+                "objek #1044"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Informasi untuk Objek 1044 di Zie Batik. Ganti dengan deskripsi terverifikasi dari pengelola.",
+            "source": "ai-generator:auto",
+            "sourceId": "1044",
+            "sourceType": "objinfo2",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "AUTO",
+            "mappingEvidence": "auto from skin.js objinfo ids",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Objek 1044",
+                    "content": "Informasi untuk Objek 1044 di Zie Batik."
+                },
+                "en": {
+                    "title": "Object 1044",
+                    "content": "Information for Object 1044 at Zie Batik."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1238",
+            "entityId": "objinfo2:1238",
+            "title": "Patung GFF",
+            "aliases": [
+                "patung gff",
+                "objek 1238"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung sapi berukuran cukup besar yang menjadi maskot utama Green Fresh Farm ditempatkan secara strategis di pintu masuk untuk menyambut kedatangan siswa maupun wisatawan yang berkunjung. Keberadaan patung ini tidak hanya berfungsi sebagai ikon identitas peternakan, tetapi juga menjadi lokasi swafoto favorit dan taman bermain bagi pengunjung sebelum memulai kegiatan edukasi di dalam area farm.",
+            "source": "webview-import",
+            "sourceId": "1238",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung GFF",
+                    "content": "Patung sapi berukuran cukup besar yang menjadi maskot utama Green Fresh Farm ditempatkan secara strategis di pintu masuk untuk menyambut kedatangan siswa maupun wisatawan yang berkunjung. Keberadaan patung ini tidak hanya berfungsi sebagai ikon identitas peternakan, tetapi juga menjadi lokasi swafoto favorit dan taman bermain bagi pengunjung sebelum memulai kegiatan edukasi di dalam area farm."
+                },
+                "en": {
+                    "title": "Object 1238",
+                    "content": "Information for Object 1238."
+                }
+            }
+        }
+    ]
+}

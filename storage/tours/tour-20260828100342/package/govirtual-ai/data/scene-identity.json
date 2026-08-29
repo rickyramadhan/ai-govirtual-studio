@@ -1,0 +1,2082 @@
+{
+    "version": "1.1-enriched",
+    "tourId": "lawang-sewu",
+    "generatedAt": "2026-08-17",
+    "notes": "Visitor-facing scene identities. rawName is internal only. displayName/placeName are for visitors.",
+    "scenes": {
+        "node39": {
+            "rawName": "Sapi",
+            "displayName": "Area Patung",
+            "placeId": "sapi",
+            "placeName": "Area Patung",
+            "variant": null,
+            "type": "sculpture",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'sapi'; knowledge entity 'Sapi' (objinfo2:991)",
+            "shortDescription": "Area Patung merupakan salah satu titik eksplorasi di dalam pengalaman virtual Lawang Sewu.",
+            "description": "Area Patung adalah titik kunjungan yang diidentifikasi dalam tur sebagai area yang berfokus pada objek patung. Data knowledge yang tersedia saat ini belum memberikan keterangan historis khusus mengenai objek patung tersebut, sehingga pemandu sebaiknya menjelaskan identitas area secara aman dan tidak menambahkan cerita, tokoh, atau fungsi yang belum terverifikasi.",
+            "highlights": [
+                "Objek patung sebagai fokus area",
+                "Titik eksplorasi dalam tur Lawang Sewu"
+            ],
+            "talkingPoints": [
+                "identitas area",
+                "arah eksplorasi berikutnya"
+            ],
+            "suggestedQuestions": [
+                "Apa yang sedang saya lihat di area ini?",
+                "Ada cerita tentang patung ini?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Patung.",
+                "describeHere": "Area Patung adalah titik kunjungan yang diidentifikasi dalam tur sebagai area yang berfokus pada objek patung. Data knowledge yang tersedia saat ini belum memberikan keterangan historis khusus mengenai objek patung tersebut, sehingga pemandu sebaiknya menjelaskan identitas area secara aman dan tidak menambahkan cerita, tokoh, atau fungsi yang belum terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node40": {
+            "rawName": "Ruang Pameran Sejarah",
+            "displayName": "Ruang Pameran Sejarah",
+            "placeId": "ruang-pameran-sejarah",
+            "placeName": "Ruang Pameran Sejarah",
+            "variant": null,
+            "type": "exhibition",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'ruangpameransejarah'",
+            "shortDescription": "Ruang Pameran Sejarah menghadirkan materi yang membantu pengunjung memahami jejak peristiwa dan dokumentasi yang berkaitan dengan Lawang Sewu.",
+            "description": "Ruang Pameran Sejarah merupakan area pameran di Lawang Sewu. Salah satu materi yang terpetakan ke area ini adalah dokumentasi Mini Show Anne Avantie 'Merenda Kasih' yang digelar pada 27 Oktober 2014. Dokumentasi tersebut memperlihatkan peragaan busana karya Anne Avantie dan menjadi salah satu contoh pemanfaatan Lawang Sewu sebagai ruang kegiatan dan representasi budaya.",
+            "highlights": [
+                "Dokumentasi pameran dan kegiatan",
+                "Mini Show Anne Avantie 'Merenda Kasih' 2014"
+            ],
+            "talkingPoints": [
+                "pameran di Lawang Sewu",
+                "Anne Avantie",
+                "pemanfaatan ruang bersejarah untuk kegiatan budaya"
+            ],
+            "suggestedQuestions": [
+                "Apa yang dipamerkan di ruangan ini?",
+                "Ceritakan Mini Show Anne Avantie di Lawang Sewu.",
+                "Apa yang menarik dari ruang pameran ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1198"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Pameran Sejarah.",
+                "describeHere": "Ruang Pameran Sejarah merupakan area pameran di Lawang Sewu. Salah satu materi yang terpetakan ke area ini adalah dokumentasi Mini Show Anne Avantie 'Merenda Kasih' yang digelar pada 27 Oktober 2014. Dokumentasi tersebut memperlihatkan peragaan busana karya Anne Avantie dan menjadi salah satu contoh pemanfaatan Lawang Sewu sebagai ruang kegiatan dan representasi budaya.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node41": {
+            "rawName": "Galeri Warisan",
+            "displayName": "Galeri Warisan",
+            "placeId": "galeri-warisan",
+            "placeName": "Galeri Warisan",
+            "variant": null,
+            "type": "gallery",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'galeriwarisan'",
+            "shortDescription": "Galeri Warisan menampilkan konteks pelestarian dan revitalisasi Lawang Sewu.",
+            "description": "Galeri Warisan berkaitan dengan upaya pelestarian Lawang Sewu. Materi yang terpetakan ke area ini memperlihatkan perbandingan dokumentasi sebelum dan sesudah pemugaran, sebagai gambaran bagaimana bangunan bersejarah dirawat dan dihidupkan kembali. Area ini cocok untuk menjelaskan pentingnya revitalisasi, konservasi arsitektur, dan apresiasi terhadap sejarah perkeretaapian.",
+            "highlights": [
+                "Dokumentasi sebelum dan sesudah revitalisasi",
+                "Pelestarian arsitektur bersejarah",
+                "Edukasi mengenai pemugaran"
+            ],
+            "talkingPoints": [
+                "sejarah revitalisasi",
+                "pelestarian bangunan cagar budaya",
+                "dokumentasi pemugaran"
+            ],
+            "suggestedQuestions": [
+                "Bagaimana Lawang Sewu direvitalisasi?",
+                "Kenapa bangunan bersejarah perlu dipugar?",
+                "Apa yang menarik dari galeri ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1201"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Warisan.",
+                "describeHere": "Galeri Warisan berkaitan dengan upaya pelestarian Lawang Sewu. Materi yang terpetakan ke area ini memperlihatkan perbandingan dokumentasi sebelum dan sesudah pemugaran, sebagai gambaran bagaimana bangunan bersejarah dirawat dan dihidupkan kembali. Area ini cocok untuk menjelaskan pentingnya revitalisasi, konservasi arsitektur, dan apresiasi terhadap sejarah perkeretaapian.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node42": {
+            "rawName": "Maket",
+            "displayName": "Maket",
+            "placeId": "maket",
+            "placeName": "Maket",
+            "variant": null,
+            "type": "model",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'maket'; knowledge objinfo2:1200",
+            "shortDescription": "Area Maket membantu pengunjung memahami proses perawatan dan restorasi Lawang Sewu melalui model bangunan.",
+            "description": "Maket yang ditampilkan menggambarkan tahapan proyek perawatan dan restorasi Lawang Sewu. Materi ini digunakan untuk membantu pengunjung memahami proses kompleks dan berkelanjutan dalam menjaga keaslian serta kelestarian bangunan bersejarah. Area ini cocok untuk membahas bagaimana konservasi dilakukan secara terencana dan mengapa perawatan menjadi bagian penting dari pelestarian cagar budaya.",
+            "highlights": [
+                "Maket proyek perawatan Lawang Sewu",
+                "Tahapan restorasi",
+                "Pelestarian keaslian bangunan"
+            ],
+            "talkingPoints": [
+                "restorasi Lawang Sewu",
+                "perawatan bangunan",
+                "pelestarian cagar budaya"
+            ],
+            "suggestedQuestions": [
+                "Maket ini menunjukkan apa?",
+                "Bagaimana proses restorasi Lawang Sewu?",
+                "Kenapa bangunan ini perlu terus dirawat?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1200"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Maket.",
+                "describeHere": "Maket yang ditampilkan menggambarkan tahapan proyek perawatan dan restorasi Lawang Sewu. Materi ini digunakan untuk membantu pengunjung memahami proses kompleks dan berkelanjutan dalam menjaga keaslian serta kelestarian bangunan bersejarah. Area ini cocok untuk membahas bagaimana konservasi dilakukan secara terencana dan mengapa perawatan menjadi bagian penting dari pelestarian cagar budaya.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node43": {
+            "rawName": "Balkon Koridor",
+            "displayName": "Balkon Koridor",
+            "placeId": "balkon-koridor",
+            "placeName": "Balkon Koridor",
+            "variant": null,
+            "type": "balcony",
+            "confidence": "LIKELY",
+            "evidence": "rawName 'Balkon Koridor'; hotspot 'Galeri Museum Kereta Api' -> node71",
+            "shortDescription": "Balkon Koridor merupakan area transisi pada bagian koridor dan balkon Lawang Sewu.",
+            "description": "Balkon Koridor adalah salah satu titik sirkulasi yang menghubungkan pengalaman menjelajahi bagian dalam Lawang Sewu. Data knowledge yang tersedia belum memuat fakta khusus mengenai area ini, sehingga pemandu sebaiknya berfokus pada konteks lokasi, arsitektur koridor secara umum, dan pilihan eksplorasi berikutnya tanpa mengklaim objek yang terlihat jika tidak ada evidence visual.",
+            "highlights": [
+                "Area transisi koridor dan balkon",
+                "Bagian dari sirkulasi pengunjung"
+            ],
+            "talkingPoints": [
+                "karakter koridor",
+                "arsitektur Lawang Sewu secara umum",
+                "navigasi ke area berikutnya"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area ini.",
+                "Apa fungsi koridor dan balkon pada bangunan seperti ini?",
+                "Saya bisa lanjut ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon Koridor.",
+                "describeHere": "Balkon Koridor adalah salah satu titik sirkulasi yang menghubungkan pengalaman menjelajahi bagian dalam Lawang Sewu. Data knowledge yang tersedia belum memuat fakta khusus mengenai area ini, sehingga pemandu sebaiknya berfokus pada konteks lokasi, arsitektur koridor secara umum, dan pilihan eksplorasi berikutnya tanpa mengklaim objek yang terlihat jika tidak ada evidence visual.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node44": {
+            "rawName": "Cetak Biru",
+            "displayName": "Cetak Biru",
+            "placeId": "cetak-biru",
+            "placeName": "Cetak Biru Lawang Sewu",
+            "variant": null,
+            "type": "exhibition",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'cetakbiru'; knowledge objinfo2:631",
+            "shortDescription": "Cetak Biru Lawang Sewu memperlihatkan gagasan rancangan dan sistem teknis bangunan.",
+            "description": "Area Cetak Biru menampilkan informasi mengenai rencana rancang bangun Lawang Sewu. Materi yang tersedia menjelaskan bahwa sejak awal bangunan dirancang dengan sistem drainase, pendinginan berbasis air, serta pertimbangan terhadap potensi banjir di kawasan sekitar. Bagian ini sangat relevan untuk menjelaskan bahwa Lawang Sewu tidak hanya menarik dari sisi bentuk, tetapi juga dari pemikiran teknis di balik perancangannya.",
+            "highlights": [
+                "Dokumen rancangan bangunan",
+                "Sistem drainase",
+                "Pendinginan berbasis air",
+                "Pertimbangan risiko banjir"
+            ],
+            "talkingPoints": [
+                "blueprint Lawang Sewu",
+                "teknik bangunan",
+                "adaptasi terhadap lingkungan"
+            ],
+            "suggestedQuestions": [
+                "Apa yang ditunjukkan cetak biru ini?",
+                "Bagaimana sistem pendinginan Lawang Sewu?",
+                "Apakah bangunan ini sejak awal memiliki sistem drainase?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:631"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Cetak Biru Lawang Sewu.",
+                "describeHere": "Area Cetak Biru menampilkan informasi mengenai rencana rancang bangun Lawang Sewu. Materi yang tersedia menjelaskan bahwa sejak awal bangunan dirancang dengan sistem drainase, pendinginan berbasis air, serta pertimbangan terhadap potensi banjir di kawasan sekitar. Bagian ini sangat relevan untuk menjelaskan bahwa Lawang Sewu tidak hanya menarik dari sisi bentuk, tetapi juga dari pemikiran teknis di balik perancangannya.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node45": {
+            "rawName": "Gedung D",
+            "displayName": "Gedung D",
+            "placeId": "gedung-d",
+            "placeName": "Gedung D",
+            "variant": null,
+            "type": "building",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'gedungd'; knowledge objinfo2:994",
+            "shortDescription": "Gedung D memperlihatkan sisi desain Lawang Sewu yang lebih sederhana, kokoh, dan fungsional.",
+            "description": "Gedung D menunjukkan pendekatan desain Belanda yang lebih sederhana dan kokoh dibanding bagian yang lebih dekoratif. Informasi yang tersedia menyebutkan bahwa bangunan ini dirancang dengan penekanan pada keamanan dan ketahanan material serta berfungsi sebagai bangunan pendukung atau service building. Area ini cocok untuk menjelaskan bahwa kompleks Lawang Sewu memiliki bangunan dengan fungsi dan karakter desain yang berbeda-beda.",
+            "highlights": [
+                "Desain sederhana dan kokoh",
+                "Fokus pada keamanan dan ketahanan material",
+                "Contoh service building"
+            ],
+            "talkingPoints": [
+                "fungsi Gedung D",
+                "perbedaan karakter bangunan dalam kompleks",
+                "desain fungsional"
+            ],
+            "suggestedQuestions": [
+                "Apa fungsi Gedung D?",
+                "Apa yang membedakan Gedung D dari bagian lain?",
+                "Kenapa desain Gedung D lebih sederhana?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:994"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gedung D.",
+                "describeHere": "Gedung D menunjukkan pendekatan desain Belanda yang lebih sederhana dan kokoh dibanding bagian yang lebih dekoratif. Informasi yang tersedia menyebutkan bahwa bangunan ini dirancang dengan penekanan pada keamanan dan ketahanan material serta berfungsi sebagai bangunan pendukung atau service building. Area ini cocok untuk menjelaskan bahwa kompleks Lawang Sewu memiliki bangunan dengan fungsi dan karakter desain yang berbeda-beda.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node46": {
+            "rawName": "Koridor (node46)",
+            "displayName": "Koridor",
+            "placeId": "koridor-node46",
+            "placeName": "Koridor",
+            "variant": null,
+            "type": "corridor",
+            "confidence": "LIKELY",
+            "evidence": "rawName contains node marker; generic structural descriptor",
+            "shortDescription": "Koridor ini merupakan salah satu jalur sirkulasi di dalam kompleks Lawang Sewu.",
+            "description": "Koridor ini menjadi bagian dari jalur pergerakan pengunjung di dalam Lawang Sewu. Belum ada knowledge khusus yang memetakan peristiwa atau fungsi historis tertentu ke titik ini, sehingga pemandu sebaiknya menggunakan area ini untuk menjelaskan konteks umum koridor pada bangunan bersejarah dan membantu pengunjung menentukan arah eksplorasi berikutnya.",
+            "highlights": [
+                "Jalur sirkulasi dalam bangunan",
+                "Penghubung antararea"
+            ],
+            "talkingPoints": [
+                "fungsi koridor",
+                "pengalaman menjelajahi bangunan",
+                "arah kunjungan"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan koridor ini.",
+                "Kenapa Lawang Sewu memiliki banyak koridor dan bukaan?",
+                "Saya bisa lanjut ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor.",
+                "describeHere": "Koridor ini menjadi bagian dari jalur pergerakan pengunjung di dalam Lawang Sewu. Belum ada knowledge khusus yang memetakan peristiwa atau fungsi historis tertentu ke titik ini, sehingga pemandu sebaiknya menggunakan area ini untuk menjelaskan konteks umum koridor pada bangunan bersejarah dan membantu pengunjung menentukan arah eksplorasi berikutnya.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node47": {
+            "rawName": "Bekas Tembakan",
+            "displayName": "Bekas Tembakan",
+            "placeId": "bekas-tembakan",
+            "placeName": "Bekas Tembakan",
+            "variant": null,
+            "type": "historical",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'bekastembakan'; knowledge objinfo2:1199",
+            "shortDescription": "Area Bekas Tembakan berkaitan dengan jejak Pertempuran Lima Hari di Semarang.",
+            "description": "Area ini menyimpan konteks sejarah Pertempuran Lima Hari di Semarang. Knowledge yang tersedia menjelaskan bahwa bagian atap Lawang Sewu pernah digunakan sebagai posisi strategis penembak jitu Jepang untuk membidik pejuang Indonesia. Area atas bangunan menjadi saksi pertempuran di kawasan Tugu Muda dalam perjuangan mempertahankan kemerdekaan.",
+            "highlights": [
+                "Jejak Pertempuran Lima Hari",
+                "Konteks perjuangan mempertahankan kemerdekaan",
+                "Hubungan dengan kawasan Tugu Muda"
+            ],
+            "talkingPoints": [
+                "Pertempuran Lima Hari di Semarang",
+                "bekas tembakan",
+                "sejarah perjuangan di sekitar Lawang Sewu"
+            ],
+            "suggestedQuestions": [
+                "Bekas tembakan ini berasal dari peristiwa apa?",
+                "Apa hubungan Lawang Sewu dengan Pertempuran Lima Hari?",
+                "Kenapa area ini penting secara sejarah?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1199"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bekas Tembakan.",
+                "describeHere": "Area ini menyimpan konteks sejarah Pertempuran Lima Hari di Semarang. Knowledge yang tersedia menjelaskan bahwa bagian atap Lawang Sewu pernah digunakan sebagai posisi strategis penembak jitu Jepang untuk membidik pejuang Indonesia. Area atas bangunan menjadi saksi pertempuran di kawasan Tugu Muda dalam perjuangan mempertahankan kemerdekaan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node48": {
+            "rawName": "Struktur Atap Arsitektur",
+            "displayName": "Struktur Atap Arsitektur",
+            "placeId": "struktur-atap",
+            "placeName": "Struktur Atap Arsitektur",
+            "variant": null,
+            "type": "architecture",
+            "confidence": "LIKELY",
+            "evidence": "rawName descriptive; no customnodeid",
+            "shortDescription": "Area Struktur Atap menyoroti bagian arsitektur atas Lawang Sewu.",
+            "description": "Struktur Atap Arsitektur merupakan titik yang digunakan untuk mengamati bagian konstruksi dan karakter arsitektur Lawang Sewu dari sisi struktur atas bangunan. Knowledge khusus mengenai detail teknis titik ini belum tersedia, sehingga pemandu sebaiknya membahas fungsi struktur atap dan prinsip arsitektur secara umum tanpa mengarang material, ukuran, tahun konstruksi, atau teknik spesifik yang tidak didukung data.",
+            "highlights": [
+                "Struktur atas bangunan",
+                "Konteks arsitektur Lawang Sewu"
+            ],
+            "talkingPoints": [
+                "fungsi struktur atap",
+                "arsitektur bangunan kolonial secara umum",
+                "pelestarian struktur"
+            ],
+            "suggestedQuestions": [
+                "Apa fungsi struktur atap seperti ini?",
+                "Apa yang menarik dari arsitektur Lawang Sewu?",
+                "Bagaimana bangunan lama menjaga sirkulasi udara?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Struktur Atap Arsitektur.",
+                "describeHere": "Struktur Atap Arsitektur merupakan titik yang digunakan untuk mengamati bagian konstruksi dan karakter arsitektur Lawang Sewu dari sisi struktur atas bangunan. Knowledge khusus mengenai detail teknis titik ini belum tersedia, sehingga pemandu sebaiknya membahas fungsi struktur atap dan prinsip arsitektur secara umum tanpa mengarang material, ukuran, tahun konstruksi, atau teknik spesifik yang tidak didukung data.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node49": {
+            "rawName": "Toko Souvenir",
+            "displayName": "Toko Souvenir",
+            "placeId": "toko-souvenir",
+            "placeName": "Toko Souvenir",
+            "variant": null,
+            "type": "shop",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'tokosuvenir'",
+            "shortDescription": "Toko Souvenir merupakan area fasilitas pengunjung untuk menemukan cendera mata.",
+            "description": "Toko Souvenir adalah salah satu fasilitas pengunjung di dalam pengalaman Lawang Sewu. Data yang tersedia belum merinci produk, harga, atau jam operasional, sehingga pemandu dapat menjelaskan fungsi area ini sebagai tempat cendera mata tanpa menyebut stok atau informasi komersial yang belum terverifikasi.",
+            "highlights": [
+                "Fasilitas cendera mata",
+                "Bagian dari layanan pengunjung"
+            ],
+            "talkingPoints": [
+                "fungsi toko souvenir",
+                "fasilitas pengunjung"
+            ],
+            "suggestedQuestions": [
+                "Apa fungsi area ini?",
+                "Apakah ada tempat membeli cendera mata?",
+                "Fasilitas apa lagi yang ada di Lawang Sewu?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toko Souvenir.",
+                "describeHere": "Toko Souvenir adalah salah satu fasilitas pengunjung di dalam pengalaman Lawang Sewu. Data yang tersedia belum merinci produk, harga, atau jam operasional, sehingga pemandu dapat menjelaskan fungsi area ini sebagai tempat cendera mata tanpa menyebut stok atau informasi komersial yang belum terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node50": {
+            "rawName": "Main Malam",
+            "displayName": "Main Malam",
+            "placeId": "main-area",
+            "placeName": "Area Utama Lawang Sewu",
+            "variant": "night",
+            "type": "main",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'mainmalam'; variant of node51; place-map.json",
+            "shortDescription": "Area utama Lawang Sewu menjadi titik orientasi untuk memulai penjelajahan kompleks bangunan bersejarah ini.",
+            "description": "Area Utama Lawang Sewu merupakan titik awal untuk mengenalkan kompleks Lawang Sewu secara menyeluruh. Lawang Sewu dikenal sebagai salah satu bangunan bersejarah ikonik di Semarang, memiliki hubungan erat dengan sejarah perkeretaapian dan dikenal melalui karakter arsitektur kolonialnya serta banyaknya pintu dan bukaan.",
+            "highlights": [
+                "Gambaran umum kompleks Lawang Sewu",
+                "Konteks sejarah perkeretaapian",
+                "Karakter arsitektur dan banyaknya bukaan"
+            ],
+            "talkingPoints": [
+                "asal nama Lawang Sewu",
+                "hubungan Lawang Sewu dengan NIS dan perkeretaapian",
+                "arsitektur bangunan bersejarah"
+            ],
+            "suggestedQuestions": [
+                "Kenapa disebut Lawang Sewu?",
+                "Apa yang menarik dari Lawang Sewu?",
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [
+                "skin:welcome-lawang-sewu"
+            ],
+            "contentGrounding": "shared-tour",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Utama Lawang Sewu.",
+                "describeHere": "Area Utama Lawang Sewu merupakan titik awal untuk mengenalkan kompleks Lawang Sewu secara menyeluruh. Lawang Sewu dikenal sebagai salah satu bangunan bersejarah ikonik di Semarang, memiliki hubungan erat dengan sejarah perkeretaapian dan dikenal melalui karakter arsitektur kolonialnya serta banyaknya pintu dan bukaan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node51": {
+            "rawName": "Main Siang",
+            "displayName": "Main Siang",
+            "placeId": "main-area",
+            "placeName": "Area Utama Lawang Sewu",
+            "variant": "day",
+            "type": "main",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'mainsiang'; place-map.json; hotspot 'Lawang Sewu', 'Monumen Kereta Api', 'Balkon'",
+            "shortDescription": "Area utama Lawang Sewu menjadi titik orientasi untuk memulai penjelajahan kompleks bangunan bersejarah ini.",
+            "description": "Area Utama Lawang Sewu merupakan titik awal untuk mengenalkan kompleks Lawang Sewu secara menyeluruh. Lawang Sewu dikenal sebagai salah satu bangunan bersejarah ikonik di Semarang, memiliki hubungan erat dengan sejarah perkeretaapian dan dikenal melalui karakter arsitektur kolonialnya serta banyaknya pintu dan bukaan.",
+            "highlights": [
+                "Gambaran umum kompleks Lawang Sewu",
+                "Konteks sejarah perkeretaapian",
+                "Karakter arsitektur dan banyaknya bukaan"
+            ],
+            "talkingPoints": [
+                "asal nama Lawang Sewu",
+                "hubungan Lawang Sewu dengan NIS dan perkeretaapian",
+                "arsitektur bangunan bersejarah"
+            ],
+            "suggestedQuestions": [
+                "Kenapa disebut Lawang Sewu?",
+                "Apa yang menarik dari Lawang Sewu?",
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [
+                "skin:welcome-lawang-sewu"
+            ],
+            "contentGrounding": "shared-tour",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Utama Lawang Sewu.",
+                "describeHere": "Area Utama Lawang Sewu merupakan titik awal untuk mengenalkan kompleks Lawang Sewu secara menyeluruh. Lawang Sewu dikenal sebagai salah satu bangunan bersejarah ikonik di Semarang, memiliki hubungan erat dengan sejarah perkeretaapian dan dikenal melalui karakter arsitektur kolonialnya serta banyaknya pintu dan bukaan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node52": {
+            "rawName": "Default - Night",
+            "displayName": "Default - Night",
+            "placeId": "balkon",
+            "placeName": "Balkon",
+            "variant": "night",
+            "type": "balcony",
+            "confidence": "LIKELY",
+            "evidence": "variant of balkon place; place-map.json",
+            "shortDescription": "Balkon merupakan salah satu area transisi dan pengamatan dalam kompleks Lawang Sewu.",
+            "description": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+            "highlights": [
+                "Area balkon",
+                "Beberapa panorama mewakili tempat fisik yang sama"
+            ],
+            "talkingPoints": [
+                "konteks balkon",
+                "arsitektur umum",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area balkon ini.",
+                "Apa fungsi balkon pada bangunan ini?",
+                "Setelah dari sini saya bisa ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon.",
+                "describeHere": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node53": {
+            "rawName": "Default - Day",
+            "displayName": "Default - Day",
+            "placeId": "balkon",
+            "placeName": "Balkon",
+            "variant": "day",
+            "type": "balcony",
+            "confidence": "LIKELY",
+            "evidence": "variant of balkon place; place-map.json",
+            "shortDescription": "Balkon merupakan salah satu area transisi dan pengamatan dalam kompleks Lawang Sewu.",
+            "description": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+            "highlights": [
+                "Area balkon",
+                "Beberapa panorama mewakili tempat fisik yang sama"
+            ],
+            "talkingPoints": [
+                "konteks balkon",
+                "arsitektur umum",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area balkon ini.",
+                "Apa fungsi balkon pada bangunan ini?",
+                "Setelah dari sini saya bisa ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon.",
+                "describeHere": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node54": {
+            "rawName": "Default",
+            "displayName": "Default",
+            "placeId": "balkon",
+            "placeName": "Balkon",
+            "variant": null,
+            "type": "balcony",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "no customnodeid; shares balkon coordinates; mapped to balkon place",
+            "shortDescription": "Balkon merupakan salah satu area transisi dan pengamatan dalam kompleks Lawang Sewu.",
+            "description": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+            "highlights": [
+                "Area balkon",
+                "Beberapa panorama mewakili tempat fisik yang sama"
+            ],
+            "talkingPoints": [
+                "konteks balkon",
+                "arsitektur umum",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area balkon ini.",
+                "Apa fungsi balkon pada bangunan ini?",
+                "Setelah dari sini saya bisa ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon.",
+                "describeHere": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node55": {
+            "rawName": "Balkon",
+            "displayName": "Balkon",
+            "placeId": "balkon",
+            "placeName": "Balkon",
+            "variant": null,
+            "type": "balcony",
+            "confidence": "EXACT",
+            "evidence": "rawName 'Balkon'; place-map.json",
+            "shortDescription": "Balkon merupakan salah satu area transisi dan pengamatan dalam kompleks Lawang Sewu.",
+            "description": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+            "highlights": [
+                "Area balkon",
+                "Beberapa panorama mewakili tempat fisik yang sama"
+            ],
+            "talkingPoints": [
+                "konteks balkon",
+                "arsitektur umum",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area balkon ini.",
+                "Apa fungsi balkon pada bangunan ini?",
+                "Setelah dari sini saya bisa ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon.",
+                "describeHere": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node56": {
+            "rawName": "Foodcourt",
+            "displayName": "Foodcourt",
+            "placeId": "foodcourt",
+            "placeName": "Foodcourt",
+            "variant": null,
+            "type": "food",
+            "confidence": "LIKELY",
+            "evidence": "rawName 'Foodcourt'; hotspot 'Halaman Belakang' -> node45",
+            "shortDescription": "Foodcourt merupakan area fasilitas makan bagi pengunjung Lawang Sewu.",
+            "description": "Foodcourt adalah area fasilitas pengunjung yang berkaitan dengan kebutuhan makan dan istirahat selama kunjungan. Data tur saat ini belum memuat daftar tenant, menu, harga, atau jam operasional, sehingga pemandu sebaiknya menjelaskan fungsi area secara umum dan tidak mengarang informasi komersial yang dapat berubah.",
+            "highlights": [
+                "Fasilitas makan",
+                "Area pendukung kenyamanan pengunjung"
+            ],
+            "talkingPoints": [
+                "fasilitas pengunjung",
+                "tempat beristirahat"
+            ],
+            "suggestedQuestions": [
+                "Ini area apa?",
+                "Apakah ada tempat makan di Lawang Sewu?",
+                "Fasilitas apa yang tersedia untuk pengunjung?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Foodcourt.",
+                "describeHere": "Foodcourt adalah area fasilitas pengunjung yang berkaitan dengan kebutuhan makan dan istirahat selama kunjungan. Data tur saat ini belum memuat daftar tenant, menu, harga, atau jam operasional, sehingga pemandu sebaiknya menjelaskan fungsi area secara umum dan tidak mengarang informasi komersial yang dapat berubah.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node57": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "placeId": "pintu-masuk",
+            "placeName": "Pintu Masuk",
+            "variant": null,
+            "type": "entrance",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'pintumasuk'; place-map.json",
+            "shortDescription": "Pintu Masuk menjadi salah satu titik awal orientasi pengunjung di kompleks Lawang Sewu.",
+            "description": "Pintu Masuk adalah titik akses pengunjung untuk memulai eksplorasi Lawang Sewu. Knowledge yang terpetakan pada scene ini juga memuat informasi mengenai Tugu Marmer setinggi satu meter yang dibuat untuk mengenang G. C. Daum, direktur pertama Nederlands-Indische Spoorweg Maatschappij (NISM). Pemandu dapat memperkenalkan area masuk sekaligus menawarkan penjelasan tentang Tugu Marmer bila relevan.",
+            "highlights": [
+                "Titik awal eksplorasi",
+                "Tugu Marmer sebagai objek terkait"
+            ],
+            "talkingPoints": [
+                "orientasi awal Lawang Sewu",
+                "Tugu Marmer",
+                "G. C. Daum dan NISM"
+            ],
+            "suggestedQuestions": [
+                "Saya sekarang berada di mana?",
+                "Apa itu Tugu Marmer?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:632"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk.",
+                "describeHere": "Pintu Masuk adalah titik akses pengunjung untuk memulai eksplorasi Lawang Sewu. Knowledge yang terpetakan pada scene ini juga memuat informasi mengenai Tugu Marmer setinggi satu meter yang dibuat untuk mengenang G. C. Daum, direktur pertama Nederlands-Indische Spoorweg Maatschappij (NISM). Pemandu dapat memperkenalkan area masuk sekaligus menawarkan penjelasan tentang Tugu Marmer bila relevan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node58": {
+            "rawName": "Koridor (node58)",
+            "displayName": "Koridor",
+            "placeId": "koridor-gedung-a",
+            "placeName": "Koridor Gedung A",
+            "variant": null,
+            "type": "corridor",
+            "confidence": "LIKELY",
+            "evidence": "alias 'koridor gedung a'; knowledge objinfo2:991",
+            "shortDescription": "Koridor Gedung A menjadi bagian dari jalur eksplorasi menuju salah satu bangunan utama Lawang Sewu.",
+            "description": "Koridor Gedung A terhubung secara semantik dengan knowledge Gedung A. Informasi yang tersedia menyebut Gedung A sebagai bagian penting kompleks Lawang Sewu yang dahulu digunakan sebagai kantor pusat NIS dan kini berkaitan dengan pengalaman museum sejarah perkeretaapian. Karena pemetaan knowledge ke scene ini berstatus LIKELY, pemandu sebaiknya membedakan antara penjelasan tentang koridor yang sedang ditempati dan penjelasan tentang Gedung A sebagai entitas.",
+            "highlights": [
+                "Koridor menuju konteks Gedung A",
+                "Hubungan Gedung A dengan sejarah NIS dan perkeretaapian"
+            ],
+            "talkingPoints": [
+                "Gedung A",
+                "NIS",
+                "sejarah perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan Gedung A.",
+                "Apa hubungan Gedung A dengan NIS?",
+                "Ke mana saya bisa lanjut dari koridor ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:991"
+            ],
+            "contentGrounding": "direct-likely",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor Gedung A.",
+                "describeHere": "Koridor Gedung A terhubung secara semantik dengan knowledge Gedung A. Informasi yang tersedia menyebut Gedung A sebagai bagian penting kompleks Lawang Sewu yang dahulu digunakan sebagai kantor pusat NIS dan kini berkaitan dengan pengalaman museum sejarah perkeretaapian. Karena pemetaan knowledge ke scene ini berstatus LIKELY, pemandu sebaiknya membedakan antara penjelasan tentang koridor yang sedang ditempati dan penjelasan tentang Gedung A sebagai entitas.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node59": {
+            "rawName": "Ruang Pameran",
+            "displayName": "Ruang Pameran",
+            "placeId": "ruang-pameran",
+            "placeName": "Ruang Pameran",
+            "variant": null,
+            "type": "exhibition",
+            "confidence": "LIKELY",
+            "evidence": "rawName 'Ruang Pameran'; distinct from node40; place-map.json",
+            "shortDescription": "Ruang Pameran merupakan area untuk menyajikan informasi dan materi interpretasi kepada pengunjung.",
+            "description": "Ruang Pameran adalah salah satu area pameran dalam tur Lawang Sewu. Belum ada entry knowledge yang dipetakan langsung ke scene ini, sehingga pemandu sebaiknya menjelaskan fungsi ruang sebagai bagian dari pengalaman museum dan pameran tanpa menentukan koleksi tertentu yang tidak didukung data.",
+            "highlights": [
+                "Area pameran",
+                "Bagian dari pengalaman interpretasi sejarah"
+            ],
+            "talkingPoints": [
+                "fungsi ruang pameran",
+                "materi sejarah Lawang Sewu secara umum"
+            ],
+            "suggestedQuestions": [
+                "Apa yang bisa dipelajari di ruang pameran?",
+                "Ceritakan Lawang Sewu secara singkat.",
+                "Ada area pameran lain yang bisa saya kunjungi?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Pameran.",
+                "describeHere": "Ruang Pameran adalah salah satu area pameran dalam tur Lawang Sewu. Belum ada entry knowledge yang dipetakan langsung ke scene ini, sehingga pemandu sebaiknya menjelaskan fungsi ruang sebagai bagian dari pengalaman museum dan pameran tanpa menentukan koleksi tertentu yang tidak didukung data.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node60": {
+            "rawName": "Lokomotif Listrik",
+            "displayName": "Lokomotif Listrik",
+            "placeId": "lokomotif-listrik",
+            "placeName": "Lokomotif Listrik ESS",
+            "variant": null,
+            "type": "exhibit",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'lokomotiflistrik'; knowledge objinfo2:978",
+            "shortDescription": "Area ini menampilkan Lokomotif Listrik ESS, bagian dari cerita perkembangan kereta listrik di Indonesia.",
+            "description": "Lokomotif Listrik ESS menjadi saksi perkembangan awal layanan kereta listrik di wilayah Jabodetabek. Informasi yang tersedia menyebut pengembangannya dirintis pada 1919 dan mulai beroperasi pada 1925 untuk koridor Tanjung Priok–Meester Cornelis, yang kini dikenal sebagai Jatinegara. Area ini cocok untuk menjelaskan perkembangan teknologi perkeretaapian dan perubahan moda transportasi dari masa ke masa.",
+            "highlights": [
+                "Lokomotif Listrik ESS",
+                "Dirintis 1919",
+                "Mulai beroperasi 1925",
+                "Koridor Tanjung Priok–Meester Cornelis"
+            ],
+            "talkingPoints": [
+                "sejarah KRL",
+                "perkembangan kereta listrik",
+                "teknologi perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Apa itu Lokomotif Listrik ESS?",
+                "Kapan lokomotif listrik ini mulai beroperasi?",
+                "Apa perannya dalam sejarah KRL?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:978"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lokomotif Listrik ESS.",
+                "describeHere": "Lokomotif Listrik ESS menjadi saksi perkembangan awal layanan kereta listrik di wilayah Jabodetabek. Informasi yang tersedia menyebut pengembangannya dirintis pada 1919 dan mulai beroperasi pada 1925 untuk koridor Tanjung Priok–Meester Cornelis, yang kini dikenal sebagai Jatinegara. Area ini cocok untuk menjelaskan perkembangan teknologi perkeretaapian dan perubahan moda transportasi dari masa ke masa.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node61": {
+            "rawName": "Hall Siang",
+            "displayName": "Hall Siang",
+            "placeId": "hall",
+            "placeName": "Aula Lawang Sewu",
+            "variant": "day",
+            "type": "hall",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'hallsiang'; place-map.json; hotspot 'Gedung A Ruang Pameran', 'Monumen Kereta Api'",
+            "shortDescription": "Aula Lawang Sewu merupakan salah satu ruang utama yang menjadi bagian dari jalur eksplorasi kompleks.",
+            "description": "Aula Lawang Sewu adalah area ruang besar yang muncul dalam beberapa panorama siang dan malam, tetapi merepresentasikan tempat fisik yang sama. Belum ada knowledge spesifik yang menjelaskan fungsi historis aula ini, sehingga pemandu sebaiknya menggunakan identitas 'Aula Lawang Sewu', memberikan konteks umum tentang kompleks, dan membantu pengunjung menuju objek atau area lain yang memiliki informasi lebih kaya.",
+            "highlights": [
+                "Ruang aula dalam kompleks",
+                "Satu tempat dengan beberapa varian panorama"
+            ],
+            "talkingPoints": [
+                "orientasi area",
+                "arsitektur Lawang Sewu secara umum",
+                "rekomendasi eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan aula ini.",
+                "Apa yang menarik dari Lawang Sewu?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Aula Lawang Sewu.",
+                "describeHere": "Aula Lawang Sewu adalah area ruang besar yang muncul dalam beberapa panorama siang dan malam, tetapi merepresentasikan tempat fisik yang sama. Belum ada knowledge spesifik yang menjelaskan fungsi historis aula ini, sehingga pemandu sebaiknya menggunakan identitas 'Aula Lawang Sewu', memberikan konteks umum tentang kompleks, dan membantu pengunjung menuju objek atau area lain yang memiliki informasi lebih kaya.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node62": {
+            "rawName": "Hall Malam",
+            "displayName": "Hall Malam",
+            "placeId": "hall",
+            "placeName": "Aula Lawang Sewu",
+            "variant": "night",
+            "type": "hall",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'hallmalam'; variant of node61; place-map.json",
+            "shortDescription": "Aula Lawang Sewu merupakan salah satu ruang utama yang menjadi bagian dari jalur eksplorasi kompleks.",
+            "description": "Aula Lawang Sewu adalah area ruang besar yang muncul dalam beberapa panorama siang dan malam, tetapi merepresentasikan tempat fisik yang sama. Belum ada knowledge spesifik yang menjelaskan fungsi historis aula ini, sehingga pemandu sebaiknya menggunakan identitas 'Aula Lawang Sewu', memberikan konteks umum tentang kompleks, dan membantu pengunjung menuju objek atau area lain yang memiliki informasi lebih kaya.",
+            "highlights": [
+                "Ruang aula dalam kompleks",
+                "Satu tempat dengan beberapa varian panorama"
+            ],
+            "talkingPoints": [
+                "orientasi area",
+                "arsitektur Lawang Sewu secara umum",
+                "rekomendasi eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan aula ini.",
+                "Apa yang menarik dari Lawang Sewu?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Aula Lawang Sewu.",
+                "describeHere": "Aula Lawang Sewu adalah area ruang besar yang muncul dalam beberapa panorama siang dan malam, tetapi merepresentasikan tempat fisik yang sama. Belum ada knowledge spesifik yang menjelaskan fungsi historis aula ini, sehingga pemandu sebaiknya menggunakan identitas 'Aula Lawang Sewu', memberikan konteks umum tentang kompleks, dan membantu pengunjung menuju objek atau area lain yang memiliki informasi lebih kaya.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node63": {
+            "rawName": "Kereta Malam",
+            "displayName": "Kereta Malam",
+            "placeId": "monumen-kereta",
+            "placeName": "Monumen Kereta Api",
+            "variant": "night",
+            "type": "monument",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'keretamalam'; alias 'monumen kereta api'; place-map.json",
+            "shortDescription": "Monumen Kereta Api menghubungkan pengalaman Lawang Sewu dengan sejarah perjuangan dan perkembangan perkeretaapian.",
+            "description": "Area Monumen Kereta Api memuat dua knowledge penting. Tugu di area ini didirikan untuk menghormati pegawai DKARI yang gugur melawan tentara Jepang dalam Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Area yang sama juga terhubung dengan Lokomotif Uap C23 buatan Hartmann, Jerman, yang pernah berbasis di Depo Lokomotif Gundih Grobogan dan memiliki kecepatan maksimum 55 km/jam.",
+            "highlights": [
+                "Tugu penghormatan kepada pegawai DKARI",
+                "Pertempuran Lima Hari 14–19 Oktober 1945",
+                "Lokomotif Uap C23",
+                "Kecepatan maksimum C23 55 km/jam"
+            ],
+            "talkingPoints": [
+                "Tugu DKARI",
+                "Pertempuran Lima Hari",
+                "Lokomotif Uap C23",
+                "sejarah perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan monumen kereta api ini.",
+                "Apa itu Lokomotif Uap C23?",
+                "Siapa yang diperingati oleh tugu ini?",
+                "Apa hubungan area ini dengan Pertempuran Lima Hari?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:995"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Monumen Kereta Api.",
+                "describeHere": "Area Monumen Kereta Api memuat dua knowledge penting. Tugu di area ini didirikan untuk menghormati pegawai DKARI yang gugur melawan tentara Jepang dalam Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Area yang sama juga terhubung dengan Lokomotif Uap C23 buatan Hartmann, Jerman, yang pernah berbasis di Depo Lokomotif Gundih Grobogan dan memiliki kecepatan maksimum 55 km/jam.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node64": {
+            "rawName": "Kereta Siang",
+            "displayName": "Kereta Siang",
+            "placeId": "monumen-kereta",
+            "placeName": "Monumen Kereta Api",
+            "variant": "day",
+            "type": "monument",
+            "confidence": "EXACT",
+            "evidence": "customnodeid 'keretasiang'; tags 'kereta-uap|tugu'; alias 'monumen kereta api'; place-map.json",
+            "shortDescription": "Monumen Kereta Api menghubungkan pengalaman Lawang Sewu dengan sejarah perjuangan dan perkembangan perkeretaapian.",
+            "description": "Area Monumen Kereta Api memuat dua knowledge penting. Tugu di area ini didirikan untuk menghormati pegawai DKARI yang gugur melawan tentara Jepang dalam Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Area yang sama juga terhubung dengan Lokomotif Uap C23 buatan Hartmann, Jerman, yang pernah berbasis di Depo Lokomotif Gundih Grobogan dan memiliki kecepatan maksimum 55 km/jam.",
+            "highlights": [
+                "Tugu penghormatan kepada pegawai DKARI",
+                "Pertempuran Lima Hari 14–19 Oktober 1945",
+                "Lokomotif Uap C23",
+                "Kecepatan maksimum C23 55 km/jam"
+            ],
+            "talkingPoints": [
+                "Tugu DKARI",
+                "Pertempuran Lima Hari",
+                "Lokomotif Uap C23",
+                "sejarah perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan monumen kereta api ini.",
+                "Apa itu Lokomotif Uap C23?",
+                "Siapa yang diperingati oleh tugu ini?",
+                "Apa hubungan area ini dengan Pertempuran Lima Hari?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:995"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Monumen Kereta Api.",
+                "describeHere": "Area Monumen Kereta Api memuat dua knowledge penting. Tugu di area ini didirikan untuk menghormati pegawai DKARI yang gugur melawan tentara Jepang dalam Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Area yang sama juga terhubung dengan Lokomotif Uap C23 buatan Hartmann, Jerman, yang pernah berbasis di Depo Lokomotif Gundih Grobogan dan memiliki kecepatan maksimum 55 km/jam.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node65": {
+            "rawName": "Lorong (node65)",
+            "displayName": "Lorong",
+            "placeId": "lorong",
+            "placeName": "Lorong Gedung",
+            "variant": null,
+            "type": "corridor",
+            "confidence": "LIKELY",
+            "evidence": "rawName contains node marker; hotspot 'Lorong Gedung'",
+            "shortDescription": "Lorong Gedung merupakan bagian dari jalur sirkulasi yang menghubungkan area-area di dalam Lawang Sewu.",
+            "description": "Lorong Gedung adalah salah satu area pergerakan di dalam kompleks Lawang Sewu dan direpresentasikan oleh lebih dari satu panorama. Belum tersedia knowledge historis khusus untuk lorong ini, sehingga pemandu dapat menjelaskan perannya sebagai ruang penghubung serta mengaitkannya dengan karakter umum Lawang Sewu tanpa mengarang detail material atau fungsi historis tertentu.",
+            "highlights": [
+                "Jalur penghubung antararea",
+                "Bagian dari pengalaman interior"
+            ],
+            "talkingPoints": [
+                "sirkulasi bangunan",
+                "arsitektur koridor dan lorong secara umum",
+                "navigasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan lorong ini.",
+                "Kenapa bangunan lama memiliki lorong panjang?",
+                "Ke mana saya bisa lanjut?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lorong Gedung.",
+                "describeHere": "Lorong Gedung adalah salah satu area pergerakan di dalam kompleks Lawang Sewu dan direpresentasikan oleh lebih dari satu panorama. Belum tersedia knowledge historis khusus untuk lorong ini, sehingga pemandu dapat menjelaskan perannya sebagai ruang penghubung serta mengaitkannya dengan karakter umum Lawang Sewu tanpa mengarang detail material atau fungsi historis tertentu.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node66": {
+            "rawName": "Lorong (node66)",
+            "displayName": "Lorong",
+            "placeId": "lorong",
+            "placeName": "Lorong Gedung",
+            "variant": null,
+            "type": "corridor",
+            "confidence": "LIKELY",
+            "evidence": "rawName contains node marker; shared displayName with node65",
+            "shortDescription": "Lorong Gedung merupakan bagian dari jalur sirkulasi yang menghubungkan area-area di dalam Lawang Sewu.",
+            "description": "Lorong Gedung adalah salah satu area pergerakan di dalam kompleks Lawang Sewu dan direpresentasikan oleh lebih dari satu panorama. Belum tersedia knowledge historis khusus untuk lorong ini, sehingga pemandu dapat menjelaskan perannya sebagai ruang penghubung serta mengaitkannya dengan karakter umum Lawang Sewu tanpa mengarang detail material atau fungsi historis tertentu.",
+            "highlights": [
+                "Jalur penghubung antararea",
+                "Bagian dari pengalaman interior"
+            ],
+            "talkingPoints": [
+                "sirkulasi bangunan",
+                "arsitektur koridor dan lorong secara umum",
+                "navigasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan lorong ini.",
+                "Kenapa bangunan lama memiliki lorong panjang?",
+                "Ke mana saya bisa lanjut?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lorong Gedung.",
+                "describeHere": "Lorong Gedung adalah salah satu area pergerakan di dalam kompleks Lawang Sewu dan direpresentasikan oleh lebih dari satu panorama. Belum tersedia knowledge historis khusus untuk lorong ini, sehingga pemandu dapat menjelaskan perannya sebagai ruang penghubung serta mengaitkannya dengan karakter umum Lawang Sewu tanpa mengarang detail material atau fungsi historis tertentu.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node67": {
+            "rawName": "Gedung E",
+            "displayName": "Gedung E",
+            "placeId": "gedung-e",
+            "placeName": "Gedung E",
+            "variant": null,
+            "type": "building",
+            "confidence": "EXACT",
+            "evidence": "rawName 'Gedung E'; unique visitor-facing name",
+            "shortDescription": "Gedung E merupakan salah satu bangunan yang dapat dijelajahi dalam kompleks Lawang Sewu.",
+            "description": "Gedung E adalah salah satu bangunan dalam tur Lawang Sewu. Data knowledge yang tersedia belum memuat uraian khusus mengenai fungsi, sejarah, atau arsitektur Gedung E. Karena itu, pemandu sebaiknya menyebut identitas bangunan secara jelas, menggunakan konteks umum Lawang Sewu, dan tidak mengarang fungsi atau riwayat spesifik yang belum terverifikasi.",
+            "highlights": [
+                "Salah satu bangunan dalam kompleks Lawang Sewu"
+            ],
+            "talkingPoints": [
+                "identitas Gedung E",
+                "konteks umum Lawang Sewu",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Apa yang diketahui tentang Gedung E?",
+                "Ceritakan Lawang Sewu.",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gedung E.",
+                "describeHere": "Gedung E adalah salah satu bangunan dalam tur Lawang Sewu. Data knowledge yang tersedia belum memuat uraian khusus mengenai fungsi, sejarah, atau arsitektur Gedung E. Karena itu, pemandu sebaiknya menyebut identitas bangunan secara jelas, menggunakan konteks umum Lawang Sewu, dan tidak mengarang fungsi atau riwayat spesifik yang belum terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node68": {
+            "rawName": "Pintu Keluar Utama",
+            "displayName": "Pintu Keluar Utama",
+            "placeId": "pintu-keluar-utama",
+            "placeName": "Pintu Keluar Utama",
+            "variant": null,
+            "type": "exit",
+            "confidence": "EXACT",
+            "evidence": "rawName 'Pintu Keluar Utama'; unique visitor-facing name",
+            "shortDescription": "Pintu Keluar Utama merupakan titik akhir atau transisi keluar dari jalur kunjungan.",
+            "description": "Pintu Keluar Utama adalah area yang berfungsi sebagai titik keluar dalam tur Lawang Sewu. Tidak ada knowledge historis khusus yang terpetakan ke scene ini, sehingga pemandu sebaiknya menggunakannya untuk membantu orientasi pengunjung, merangkum pengalaman, atau menawarkan area lain bila pengguna ingin melanjutkan eksplorasi.",
+            "highlights": [
+                "Titik keluar",
+                "Orientasi akhir kunjungan"
+            ],
+            "talkingPoints": [
+                "orientasi",
+                "ringkasan kunjungan",
+                "opsi eksplorasi lanjutan"
+            ],
+            "suggestedQuestions": [
+                "Apakah ini pintu keluar utama?",
+                "Apa lagi yang belum saya lihat?",
+                "Bisa rekomendasikan area lain?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar Utama.",
+                "describeHere": "Pintu Keluar Utama adalah area yang berfungsi sebagai titik keluar dalam tur Lawang Sewu. Tidak ada knowledge historis khusus yang terpetakan ke scene ini, sehingga pemandu sebaiknya menggunakannya untuk membantu orientasi pengunjung, merangkum pengalaman, atau menawarkan area lain bila pengguna ingin melanjutkan eksplorasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node69": {
+            "rawName": "Koridor UMKM",
+            "displayName": "Koridor UMKM",
+            "placeId": "koridor-umkm",
+            "placeName": "Koridor UMKM",
+            "variant": null,
+            "type": "market",
+            "confidence": "EXACT",
+            "evidence": "rawName 'Koridor UMKM'; place-map.json",
+            "shortDescription": "Koridor UMKM merupakan area yang berkaitan dengan aktivitas dan fasilitas UMKM bagi pengunjung.",
+            "description": "Koridor UMKM adalah salah satu area pendukung dalam pengalaman Lawang Sewu. Data yang tersedia belum merinci pelaku usaha, produk, harga, atau jadwal operasional di area ini, sehingga pemandu sebaiknya menjelaskan fungsinya secara umum sebagai koridor UMKM dan menghindari informasi komersial yang dapat berubah.",
+            "highlights": [
+                "Area UMKM",
+                "Fasilitas pendukung pengunjung"
+            ],
+            "talkingPoints": [
+                "UMKM",
+                "fasilitas pengunjung"
+            ],
+            "suggestedQuestions": [
+                "Apa itu Koridor UMKM?",
+                "Apa yang bisa ditemukan di area ini?",
+                "Fasilitas lain apa yang ada di Lawang Sewu?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor UMKM.",
+                "describeHere": "Koridor UMKM adalah salah satu area pendukung dalam pengalaman Lawang Sewu. Data yang tersedia belum merinci pelaku usaha, produk, harga, atau jadwal operasional di area ini, sehingga pemandu sebaiknya menjelaskan fungsinya secara umum sebagai koridor UMKM dan menghindari informasi komersial yang dapat berubah.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node70": {
+            "rawName": "Koridor Galeri",
+            "displayName": "Koridor Galeri",
+            "placeId": "koridor-galeri",
+            "placeName": "Koridor Galeri",
+            "variant": null,
+            "type": "corridor",
+            "confidence": "LIKELY",
+            "evidence": "rawName 'Koridor Galeri'; no customnodeid",
+            "shortDescription": "Koridor Galeri menghubungkan pengunjung dengan area-area galeri di dalam Lawang Sewu.",
+            "description": "Koridor Galeri merupakan area transisi menuju atau di sekitar ruang-ruang galeri dalam tur Lawang Sewu. Belum ada knowledge khusus yang dipetakan langsung ke koridor ini, sehingga pemandu dapat menggunakannya sebagai konteks orientasi dan mengarahkan pembicaraan ke galeri atau koleksi yang memiliki informasi terverifikasi.",
+            "highlights": [
+                "Koridor penghubung area galeri",
+                "Titik orientasi menuju ruang pamer"
+            ],
+            "talkingPoints": [
+                "galeri",
+                "orientasi",
+                "koleksi yang tersedia"
+            ],
+            "suggestedQuestions": [
+                "Galeri apa yang bisa saya kunjungi?",
+                "Ceritakan area ini.",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor Galeri.",
+                "describeHere": "Koridor Galeri merupakan area transisi menuju atau di sekitar ruang-ruang galeri dalam tur Lawang Sewu. Belum ada knowledge khusus yang dipetakan langsung ke koridor ini, sehingga pemandu dapat menggunakannya sebagai konteks orientasi dan mengarahkan pembicaraan ke galeri atau koleksi yang memiliki informasi terverifikasi.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node71": {
+            "rawName": "Galeri Museum Kereta Api",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "gallery",
+            "confidence": "LIKELY",
+            "evidence": "rawName 'Galeri Museum Kereta Api'; place-map.json",
+            "shortDescription": "Galeri Museum Kereta Api merupakan area bertema sejarah dan perkembangan perkeretaapian.",
+            "description": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+            "highlights": [
+                "Tema sejarah perkeretaapian",
+                "Konteks koleksi lokomotif dan sejarah NIS",
+                "Beberapa panorama pada satu area galeri"
+            ],
+            "talkingPoints": [
+                "sejarah kereta api",
+                "NIS",
+                "Lokomotif Uap C23",
+                "Lokomotif Listrik ESS"
+            ],
+            "suggestedQuestions": [
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Ceritakan Lokomotif Uap C23.",
+                "Apa itu Lokomotif Listrik ESS?",
+                "Apa yang menarik dari galeri ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:978",
+                "webview:objinfo2:995",
+                "webview:objinfo2:991"
+            ],
+            "contentGrounding": "related-tour-knowledge",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api.",
+                "describeHere": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node72": {
+            "rawName": "Galeri Museum Kereta Api (node72)",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "gallery",
+            "confidence": "LIKELY",
+            "evidence": "rawName contains node marker; same place as node71/73",
+            "shortDescription": "Galeri Museum Kereta Api merupakan area bertema sejarah dan perkembangan perkeretaapian.",
+            "description": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+            "highlights": [
+                "Tema sejarah perkeretaapian",
+                "Konteks koleksi lokomotif dan sejarah NIS",
+                "Beberapa panorama pada satu area galeri"
+            ],
+            "talkingPoints": [
+                "sejarah kereta api",
+                "NIS",
+                "Lokomotif Uap C23",
+                "Lokomotif Listrik ESS"
+            ],
+            "suggestedQuestions": [
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Ceritakan Lokomotif Uap C23.",
+                "Apa itu Lokomotif Listrik ESS?",
+                "Apa yang menarik dari galeri ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:978",
+                "webview:objinfo2:995",
+                "webview:objinfo2:991"
+            ],
+            "contentGrounding": "related-tour-knowledge",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api.",
+                "describeHere": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        },
+        "node73": {
+            "rawName": "Galeri Museum Kereta Api (node73)",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "gallery",
+            "confidence": "LIKELY",
+            "evidence": "rawName contains node marker; same place as node71/72",
+            "shortDescription": "Galeri Museum Kereta Api merupakan area bertema sejarah dan perkembangan perkeretaapian.",
+            "description": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+            "highlights": [
+                "Tema sejarah perkeretaapian",
+                "Konteks koleksi lokomotif dan sejarah NIS",
+                "Beberapa panorama pada satu area galeri"
+            ],
+            "talkingPoints": [
+                "sejarah kereta api",
+                "NIS",
+                "Lokomotif Uap C23",
+                "Lokomotif Listrik ESS"
+            ],
+            "suggestedQuestions": [
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Ceritakan Lokomotif Uap C23.",
+                "Apa itu Lokomotif Listrik ESS?",
+                "Apa yang menarik dari galeri ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:978",
+                "webview:objinfo2:995",
+                "webview:objinfo2:991"
+            ],
+            "contentGrounding": "related-tour-knowledge",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api.",
+                "describeHere": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+                "interestingHere": "Gunakan highlights yang terverifikasi untuk menjawab. Jika highlights hanya bersifat identitas, jangan mengarang fakta tambahan.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi; jangan menganggap koneksi sebagai bukti bahwa objek terlihat dari posisi ini."
+            }
+        }
+    },
+    "places": {
+        "main-area": {
+            "name": "Area Utama Lawang Sewu",
+            "sceneIds": [
+                "node51",
+                "node50"
+            ],
+            "aliases": [
+                "area utama",
+                "halaman utama",
+                "main area"
+            ],
+            "variantGroup": {
+                "day": "node51",
+                "night": "node50"
+            },
+            "shortDescription": "Area utama Lawang Sewu menjadi titik orientasi untuk memulai penjelajahan kompleks bangunan bersejarah ini.",
+            "description": "Area Utama Lawang Sewu merupakan titik awal untuk mengenalkan kompleks Lawang Sewu secara menyeluruh. Lawang Sewu dikenal sebagai salah satu bangunan bersejarah ikonik di Semarang, memiliki hubungan erat dengan sejarah perkeretaapian dan dikenal melalui karakter arsitektur kolonialnya serta banyaknya pintu dan bukaan.",
+            "highlights": [
+                "Gambaran umum kompleks Lawang Sewu",
+                "Konteks sejarah perkeretaapian",
+                "Karakter arsitektur dan banyaknya bukaan"
+            ],
+            "talkingPoints": [
+                "asal nama Lawang Sewu",
+                "hubungan Lawang Sewu dengan NIS dan perkeretaapian",
+                "arsitektur bangunan bersejarah"
+            ],
+            "suggestedQuestions": [
+                "Kenapa disebut Lawang Sewu?",
+                "Apa yang menarik dari Lawang Sewu?",
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [
+                "skin:welcome-lawang-sewu"
+            ],
+            "contentGrounding": "shared-tour"
+        },
+        "balkon": {
+            "name": "Balkon",
+            "sceneIds": [
+                "node53",
+                "node52",
+                "node55",
+                "node54"
+            ],
+            "aliases": [
+                "balkon koridor"
+            ],
+            "variantGroup": {
+                "day": "node53",
+                "night": "node52"
+            },
+            "shortDescription": "Balkon merupakan salah satu area transisi dan pengamatan dalam kompleks Lawang Sewu.",
+            "description": "Balkon adalah salah satu area yang dapat dijelajahi dalam tur Lawang Sewu. Beberapa panorama merepresentasikan tempat yang sama dalam kondisi atau varian berbeda. Karena belum ada knowledge spesifik yang menjelaskan objek atau pemandangan dari balkon, pemandu sebaiknya menggunakan nama tempat yang ramah pengunjung dan tidak menyebut klaim visual yang tidak terverifikasi.",
+            "highlights": [
+                "Area balkon",
+                "Beberapa panorama mewakili tempat fisik yang sama"
+            ],
+            "talkingPoints": [
+                "konteks balkon",
+                "arsitektur umum",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area balkon ini.",
+                "Apa fungsi balkon pada bangunan ini?",
+                "Setelah dari sini saya bisa ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "hall": {
+            "name": "Aula Lawang Sewu",
+            "sceneIds": [
+                "node61",
+                "node62"
+            ],
+            "aliases": [
+                "hall siang",
+                "hall malam"
+            ],
+            "variantGroup": {
+                "day": "node61",
+                "night": "node62"
+            },
+            "shortDescription": "Aula Lawang Sewu merupakan salah satu ruang utama yang menjadi bagian dari jalur eksplorasi kompleks.",
+            "description": "Aula Lawang Sewu adalah area ruang besar yang muncul dalam beberapa panorama siang dan malam, tetapi merepresentasikan tempat fisik yang sama. Belum ada knowledge spesifik yang menjelaskan fungsi historis aula ini, sehingga pemandu sebaiknya menggunakan identitas 'Aula Lawang Sewu', memberikan konteks umum tentang kompleks, dan membantu pengunjung menuju objek atau area lain yang memiliki informasi lebih kaya.",
+            "highlights": [
+                "Ruang aula dalam kompleks",
+                "Satu tempat dengan beberapa varian panorama"
+            ],
+            "talkingPoints": [
+                "orientasi area",
+                "arsitektur Lawang Sewu secara umum",
+                "rekomendasi eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan aula ini.",
+                "Apa yang menarik dari Lawang Sewu?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "monumen-kereta": {
+            "name": "Monumen Kereta Api",
+            "sceneIds": [
+                "node64",
+                "node63"
+            ],
+            "aliases": [
+                "kereta siang",
+                "kereta malam",
+                "tugu",
+                "monumen kereta api"
+            ],
+            "variantGroup": {
+                "day": "node64",
+                "night": "node63"
+            },
+            "shortDescription": "Monumen Kereta Api menghubungkan pengalaman Lawang Sewu dengan sejarah perjuangan dan perkembangan perkeretaapian.",
+            "description": "Area Monumen Kereta Api memuat dua knowledge penting. Tugu di area ini didirikan untuk menghormati pegawai DKARI yang gugur melawan tentara Jepang dalam Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Area yang sama juga terhubung dengan Lokomotif Uap C23 buatan Hartmann, Jerman, yang pernah berbasis di Depo Lokomotif Gundih Grobogan dan memiliki kecepatan maksimum 55 km/jam.",
+            "highlights": [
+                "Tugu penghormatan kepada pegawai DKARI",
+                "Pertempuran Lima Hari 14–19 Oktober 1945",
+                "Lokomotif Uap C23",
+                "Kecepatan maksimum C23 55 km/jam"
+            ],
+            "talkingPoints": [
+                "Tugu DKARI",
+                "Pertempuran Lima Hari",
+                "Lokomotif Uap C23",
+                "sejarah perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan monumen kereta api ini.",
+                "Apa itu Lokomotif Uap C23?",
+                "Siapa yang diperingati oleh tugu ini?",
+                "Apa hubungan area ini dengan Pertempuran Lima Hari?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:995"
+            ],
+            "contentGrounding": "direct"
+        },
+        "galeri-museum-kereta": {
+            "name": "Galeri Museum Kereta Api",
+            "sceneIds": [
+                "node71",
+                "node72",
+                "node73"
+            ],
+            "aliases": [
+                "galeri museum kereta api"
+            ],
+            "shortDescription": "Galeri Museum Kereta Api merupakan area bertema sejarah dan perkembangan perkeretaapian.",
+            "description": "Galeri Museum Kereta Api adalah area galeri dalam pengalaman Lawang Sewu yang berfokus pada tema perkeretaapian. Beberapa panorama mewakili tempat fisik yang sama. Walaupun belum ada satu entry knowledge yang dipetakan langsung ke scene galeri ini, corpus Lawang Sewu memiliki informasi terverifikasi mengenai NIS, Lokomotif Uap C23, Lokomotif Listrik ESS, dan monumen pegawai kereta api yang dapat digunakan sebagai konteks terkait bila pertanyaan pengguna relevan.",
+            "highlights": [
+                "Tema sejarah perkeretaapian",
+                "Konteks koleksi lokomotif dan sejarah NIS",
+                "Beberapa panorama pada satu area galeri"
+            ],
+            "talkingPoints": [
+                "sejarah kereta api",
+                "NIS",
+                "Lokomotif Uap C23",
+                "Lokomotif Listrik ESS"
+            ],
+            "suggestedQuestions": [
+                "Apa hubungan Lawang Sewu dengan kereta api?",
+                "Ceritakan Lokomotif Uap C23.",
+                "Apa itu Lokomotif Listrik ESS?",
+                "Apa yang menarik dari galeri ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:978",
+                "webview:objinfo2:995",
+                "webview:objinfo2:991"
+            ],
+            "contentGrounding": "related-tour-knowledge"
+        },
+        "sapi": {
+            "name": "Area Patung",
+            "sceneIds": [
+                "node39"
+            ],
+            "aliases": [
+                "patung",
+                "sculpture"
+            ],
+            "shortDescription": "Area Patung merupakan salah satu titik eksplorasi di dalam pengalaman virtual Lawang Sewu.",
+            "description": "Area Patung adalah titik kunjungan yang diidentifikasi dalam tur sebagai area yang berfokus pada objek patung. Data knowledge yang tersedia saat ini belum memberikan keterangan historis khusus mengenai objek patung tersebut, sehingga pemandu sebaiknya menjelaskan identitas area secara aman dan tidak menambahkan cerita, tokoh, atau fungsi yang belum terverifikasi.",
+            "highlights": [
+                "Objek patung sebagai fokus area",
+                "Titik eksplorasi dalam tur Lawang Sewu"
+            ],
+            "talkingPoints": [
+                "identitas area",
+                "arah eksplorasi berikutnya"
+            ],
+            "suggestedQuestions": [
+                "Apa yang sedang saya lihat di area ini?",
+                "Ada cerita tentang patung ini?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "ruang-pameran-sejarah": {
+            "name": "Ruang Pameran Sejarah",
+            "sceneIds": [
+                "node40"
+            ],
+            "aliases": [
+                "ruang pameran sejarah"
+            ],
+            "shortDescription": "Ruang Pameran Sejarah menghadirkan materi yang membantu pengunjung memahami jejak peristiwa dan dokumentasi yang berkaitan dengan Lawang Sewu.",
+            "description": "Ruang Pameran Sejarah merupakan area pameran di Lawang Sewu. Salah satu materi yang terpetakan ke area ini adalah dokumentasi Mini Show Anne Avantie 'Merenda Kasih' yang digelar pada 27 Oktober 2014. Dokumentasi tersebut memperlihatkan peragaan busana karya Anne Avantie dan menjadi salah satu contoh pemanfaatan Lawang Sewu sebagai ruang kegiatan dan representasi budaya.",
+            "highlights": [
+                "Dokumentasi pameran dan kegiatan",
+                "Mini Show Anne Avantie 'Merenda Kasih' 2014"
+            ],
+            "talkingPoints": [
+                "pameran di Lawang Sewu",
+                "Anne Avantie",
+                "pemanfaatan ruang bersejarah untuk kegiatan budaya"
+            ],
+            "suggestedQuestions": [
+                "Apa yang dipamerkan di ruangan ini?",
+                "Ceritakan Mini Show Anne Avantie di Lawang Sewu.",
+                "Apa yang menarik dari ruang pameran ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1198"
+            ],
+            "contentGrounding": "direct"
+        },
+        "galeri-warisan": {
+            "name": "Galeri Warisan",
+            "sceneIds": [
+                "node41"
+            ],
+            "aliases": [
+                "galeri warisan"
+            ],
+            "shortDescription": "Galeri Warisan menampilkan konteks pelestarian dan revitalisasi Lawang Sewu.",
+            "description": "Galeri Warisan berkaitan dengan upaya pelestarian Lawang Sewu. Materi yang terpetakan ke area ini memperlihatkan perbandingan dokumentasi sebelum dan sesudah pemugaran, sebagai gambaran bagaimana bangunan bersejarah dirawat dan dihidupkan kembali. Area ini cocok untuk menjelaskan pentingnya revitalisasi, konservasi arsitektur, dan apresiasi terhadap sejarah perkeretaapian.",
+            "highlights": [
+                "Dokumentasi sebelum dan sesudah revitalisasi",
+                "Pelestarian arsitektur bersejarah",
+                "Edukasi mengenai pemugaran"
+            ],
+            "talkingPoints": [
+                "sejarah revitalisasi",
+                "pelestarian bangunan cagar budaya",
+                "dokumentasi pemugaran"
+            ],
+            "suggestedQuestions": [
+                "Bagaimana Lawang Sewu direvitalisasi?",
+                "Kenapa bangunan bersejarah perlu dipugar?",
+                "Apa yang menarik dari galeri ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1201"
+            ],
+            "contentGrounding": "direct"
+        },
+        "maket": {
+            "name": "Maket",
+            "sceneIds": [
+                "node42"
+            ],
+            "aliases": [
+                "maket",
+                "maket proyek"
+            ],
+            "shortDescription": "Area Maket membantu pengunjung memahami proses perawatan dan restorasi Lawang Sewu melalui model bangunan.",
+            "description": "Maket yang ditampilkan menggambarkan tahapan proyek perawatan dan restorasi Lawang Sewu. Materi ini digunakan untuk membantu pengunjung memahami proses kompleks dan berkelanjutan dalam menjaga keaslian serta kelestarian bangunan bersejarah. Area ini cocok untuk membahas bagaimana konservasi dilakukan secara terencana dan mengapa perawatan menjadi bagian penting dari pelestarian cagar budaya.",
+            "highlights": [
+                "Maket proyek perawatan Lawang Sewu",
+                "Tahapan restorasi",
+                "Pelestarian keaslian bangunan"
+            ],
+            "talkingPoints": [
+                "restorasi Lawang Sewu",
+                "perawatan bangunan",
+                "pelestarian cagar budaya"
+            ],
+            "suggestedQuestions": [
+                "Maket ini menunjukkan apa?",
+                "Bagaimana proses restorasi Lawang Sewu?",
+                "Kenapa bangunan ini perlu terus dirawat?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1200"
+            ],
+            "contentGrounding": "direct"
+        },
+        "gedung-d": {
+            "name": "Gedung D",
+            "sceneIds": [
+                "node45"
+            ],
+            "aliases": [
+                "gedung d"
+            ],
+            "shortDescription": "Gedung D memperlihatkan sisi desain Lawang Sewu yang lebih sederhana, kokoh, dan fungsional.",
+            "description": "Gedung D menunjukkan pendekatan desain Belanda yang lebih sederhana dan kokoh dibanding bagian yang lebih dekoratif. Informasi yang tersedia menyebutkan bahwa bangunan ini dirancang dengan penekanan pada keamanan dan ketahanan material serta berfungsi sebagai bangunan pendukung atau service building. Area ini cocok untuk menjelaskan bahwa kompleks Lawang Sewu memiliki bangunan dengan fungsi dan karakter desain yang berbeda-beda.",
+            "highlights": [
+                "Desain sederhana dan kokoh",
+                "Fokus pada keamanan dan ketahanan material",
+                "Contoh service building"
+            ],
+            "talkingPoints": [
+                "fungsi Gedung D",
+                "perbedaan karakter bangunan dalam kompleks",
+                "desain fungsional"
+            ],
+            "suggestedQuestions": [
+                "Apa fungsi Gedung D?",
+                "Apa yang membedakan Gedung D dari bagian lain?",
+                "Kenapa desain Gedung D lebih sederhana?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:994"
+            ],
+            "contentGrounding": "direct"
+        },
+        "gedung-e": {
+            "name": "Gedung E",
+            "sceneIds": [
+                "node67"
+            ],
+            "aliases": [
+                "gedung e"
+            ],
+            "shortDescription": "Gedung E merupakan salah satu bangunan yang dapat dijelajahi dalam kompleks Lawang Sewu.",
+            "description": "Gedung E adalah salah satu bangunan dalam tur Lawang Sewu. Data knowledge yang tersedia belum memuat uraian khusus mengenai fungsi, sejarah, atau arsitektur Gedung E. Karena itu, pemandu sebaiknya menyebut identitas bangunan secara jelas, menggunakan konteks umum Lawang Sewu, dan tidak mengarang fungsi atau riwayat spesifik yang belum terverifikasi.",
+            "highlights": [
+                "Salah satu bangunan dalam kompleks Lawang Sewu"
+            ],
+            "talkingPoints": [
+                "identitas Gedung E",
+                "konteks umum Lawang Sewu",
+                "arah eksplorasi"
+            ],
+            "suggestedQuestions": [
+                "Apa yang diketahui tentang Gedung E?",
+                "Ceritakan Lawang Sewu.",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "gedung-c": {
+            "name": "Gedung C",
+            "sceneIds": [],
+            "aliases": [
+                "gedung c"
+            ],
+            "note": "mentioned in knowledge as Ruang Informasi Pemugaran"
+        },
+        "gedung-b": {
+            "name": "Gedung B",
+            "sceneIds": [],
+            "aliases": [
+                "gedung b"
+            ],
+            "note": "mentioned in knowledge for underground cooling system"
+        },
+        "gedung-a": {
+            "name": "Gedung A",
+            "sceneIds": [],
+            "aliases": [
+                "gedung a"
+            ],
+            "note": "mentioned in knowledge; accessible from node58, node61, node62, node57"
+        },
+        "pintu-masuk": {
+            "name": "Pintu Masuk",
+            "sceneIds": [
+                "node57"
+            ],
+            "aliases": [
+                "pintu masuk"
+            ],
+            "shortDescription": "Pintu Masuk menjadi salah satu titik awal orientasi pengunjung di kompleks Lawang Sewu.",
+            "description": "Pintu Masuk adalah titik akses pengunjung untuk memulai eksplorasi Lawang Sewu. Knowledge yang terpetakan pada scene ini juga memuat informasi mengenai Tugu Marmer setinggi satu meter yang dibuat untuk mengenang G. C. Daum, direktur pertama Nederlands-Indische Spoorweg Maatschappij (NISM). Pemandu dapat memperkenalkan area masuk sekaligus menawarkan penjelasan tentang Tugu Marmer bila relevan.",
+            "highlights": [
+                "Titik awal eksplorasi",
+                "Tugu Marmer sebagai objek terkait"
+            ],
+            "talkingPoints": [
+                "orientasi awal Lawang Sewu",
+                "Tugu Marmer",
+                "G. C. Daum dan NISM"
+            ],
+            "suggestedQuestions": [
+                "Saya sekarang berada di mana?",
+                "Apa itu Tugu Marmer?",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:632"
+            ],
+            "contentGrounding": "direct"
+        },
+        "pintu-keluar-utama": {
+            "name": "Pintu Keluar Utama",
+            "sceneIds": [
+                "node68"
+            ],
+            "aliases": [
+                "pintu keluar"
+            ],
+            "shortDescription": "Pintu Keluar Utama merupakan titik akhir atau transisi keluar dari jalur kunjungan.",
+            "description": "Pintu Keluar Utama adalah area yang berfungsi sebagai titik keluar dalam tur Lawang Sewu. Tidak ada knowledge historis khusus yang terpetakan ke scene ini, sehingga pemandu sebaiknya menggunakannya untuk membantu orientasi pengunjung, merangkum pengalaman, atau menawarkan area lain bila pengguna ingin melanjutkan eksplorasi.",
+            "highlights": [
+                "Titik keluar",
+                "Orientasi akhir kunjungan"
+            ],
+            "talkingPoints": [
+                "orientasi",
+                "ringkasan kunjungan",
+                "opsi eksplorasi lanjutan"
+            ],
+            "suggestedQuestions": [
+                "Apakah ini pintu keluar utama?",
+                "Apa lagi yang belum saya lihat?",
+                "Bisa rekomendasikan area lain?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "koridor-gedung-a": {
+            "name": "Koridor Gedung A",
+            "sceneIds": [
+                "node58"
+            ],
+            "aliases": [
+                "koridor gedung a"
+            ],
+            "shortDescription": "Koridor Gedung A menjadi bagian dari jalur eksplorasi menuju salah satu bangunan utama Lawang Sewu.",
+            "description": "Koridor Gedung A terhubung secara semantik dengan knowledge Gedung A. Informasi yang tersedia menyebut Gedung A sebagai bagian penting kompleks Lawang Sewu yang dahulu digunakan sebagai kantor pusat NIS dan kini berkaitan dengan pengalaman museum sejarah perkeretaapian. Karena pemetaan knowledge ke scene ini berstatus LIKELY, pemandu sebaiknya membedakan antara penjelasan tentang koridor yang sedang ditempati dan penjelasan tentang Gedung A sebagai entitas.",
+            "highlights": [
+                "Koridor menuju konteks Gedung A",
+                "Hubungan Gedung A dengan sejarah NIS dan perkeretaapian"
+            ],
+            "talkingPoints": [
+                "Gedung A",
+                "NIS",
+                "sejarah perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan Gedung A.",
+                "Apa hubungan Gedung A dengan NIS?",
+                "Ke mana saya bisa lanjut dari koridor ini?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:991"
+            ],
+            "contentGrounding": "direct-likely"
+        },
+        "ruang-pameran": {
+            "name": "Ruang Pameran",
+            "sceneIds": [
+                "node59"
+            ],
+            "aliases": [
+                "ruang pameran"
+            ],
+            "shortDescription": "Ruang Pameran merupakan area untuk menyajikan informasi dan materi interpretasi kepada pengunjung.",
+            "description": "Ruang Pameran adalah salah satu area pameran dalam tur Lawang Sewu. Belum ada entry knowledge yang dipetakan langsung ke scene ini, sehingga pemandu sebaiknya menjelaskan fungsi ruang sebagai bagian dari pengalaman museum dan pameran tanpa menentukan koleksi tertentu yang tidak didukung data.",
+            "highlights": [
+                "Area pameran",
+                "Bagian dari pengalaman interpretasi sejarah"
+            ],
+            "talkingPoints": [
+                "fungsi ruang pameran",
+                "materi sejarah Lawang Sewu secara umum"
+            ],
+            "suggestedQuestions": [
+                "Apa yang bisa dipelajari di ruang pameran?",
+                "Ceritakan Lawang Sewu secara singkat.",
+                "Ada area pameran lain yang bisa saya kunjungi?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "foodcourt": {
+            "name": "Foodcourt",
+            "sceneIds": [
+                "node56"
+            ],
+            "aliases": [
+                "foodcourt",
+                "food court"
+            ],
+            "shortDescription": "Foodcourt merupakan area fasilitas makan bagi pengunjung Lawang Sewu.",
+            "description": "Foodcourt adalah area fasilitas pengunjung yang berkaitan dengan kebutuhan makan dan istirahat selama kunjungan. Data tur saat ini belum memuat daftar tenant, menu, harga, atau jam operasional, sehingga pemandu sebaiknya menjelaskan fungsi area secara umum dan tidak mengarang informasi komersial yang dapat berubah.",
+            "highlights": [
+                "Fasilitas makan",
+                "Area pendukung kenyamanan pengunjung"
+            ],
+            "talkingPoints": [
+                "fasilitas pengunjung",
+                "tempat beristirahat"
+            ],
+            "suggestedQuestions": [
+                "Ini area apa?",
+                "Apakah ada tempat makan di Lawang Sewu?",
+                "Fasilitas apa yang tersedia untuk pengunjung?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "koridor-umkm": {
+            "name": "Koridor UMKM",
+            "sceneIds": [
+                "node69"
+            ],
+            "aliases": [
+                "koridor umkm",
+                "umkm"
+            ],
+            "shortDescription": "Koridor UMKM merupakan area yang berkaitan dengan aktivitas dan fasilitas UMKM bagi pengunjung.",
+            "description": "Koridor UMKM adalah salah satu area pendukung dalam pengalaman Lawang Sewu. Data yang tersedia belum merinci pelaku usaha, produk, harga, atau jadwal operasional di area ini, sehingga pemandu sebaiknya menjelaskan fungsinya secara umum sebagai koridor UMKM dan menghindari informasi komersial yang dapat berubah.",
+            "highlights": [
+                "Area UMKM",
+                "Fasilitas pendukung pengunjung"
+            ],
+            "talkingPoints": [
+                "UMKM",
+                "fasilitas pengunjung"
+            ],
+            "suggestedQuestions": [
+                "Apa itu Koridor UMKM?",
+                "Apa yang bisa ditemukan di area ini?",
+                "Fasilitas lain apa yang ada di Lawang Sewu?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "koridor-galeri": {
+            "name": "Koridor Galeri",
+            "sceneIds": [
+                "node70"
+            ],
+            "aliases": [
+                "koridor galeri"
+            ],
+            "shortDescription": "Koridor Galeri menghubungkan pengunjung dengan area-area galeri di dalam Lawang Sewu.",
+            "description": "Koridor Galeri merupakan area transisi menuju atau di sekitar ruang-ruang galeri dalam tur Lawang Sewu. Belum ada knowledge khusus yang dipetakan langsung ke koridor ini, sehingga pemandu dapat menggunakannya sebagai konteks orientasi dan mengarahkan pembicaraan ke galeri atau koleksi yang memiliki informasi terverifikasi.",
+            "highlights": [
+                "Koridor penghubung area galeri",
+                "Titik orientasi menuju ruang pamer"
+            ],
+            "talkingPoints": [
+                "galeri",
+                "orientasi",
+                "koleksi yang tersedia"
+            ],
+            "suggestedQuestions": [
+                "Galeri apa yang bisa saya kunjungi?",
+                "Ceritakan area ini.",
+                "Setelah dari sini sebaiknya saya ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "balkon-koridor": {
+            "name": "Balkon Koridor",
+            "sceneIds": [
+                "node43"
+            ],
+            "aliases": [
+                "balkon koridor"
+            ],
+            "shortDescription": "Balkon Koridor merupakan area transisi pada bagian koridor dan balkon Lawang Sewu.",
+            "description": "Balkon Koridor adalah salah satu titik sirkulasi yang menghubungkan pengalaman menjelajahi bagian dalam Lawang Sewu. Data knowledge yang tersedia belum memuat fakta khusus mengenai area ini, sehingga pemandu sebaiknya berfokus pada konteks lokasi, arsitektur koridor secara umum, dan pilihan eksplorasi berikutnya tanpa mengklaim objek yang terlihat jika tidak ada evidence visual.",
+            "highlights": [
+                "Area transisi koridor dan balkon",
+                "Bagian dari sirkulasi pengunjung"
+            ],
+            "talkingPoints": [
+                "karakter koridor",
+                "arsitektur Lawang Sewu secara umum",
+                "navigasi ke area berikutnya"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan area ini.",
+                "Apa fungsi koridor dan balkon pada bangunan seperti ini?",
+                "Saya bisa lanjut ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "struktur-atap": {
+            "name": "Struktur Atap Arsitektur",
+            "sceneIds": [
+                "node48"
+            ],
+            "aliases": [
+                "struktur atap"
+            ],
+            "shortDescription": "Area Struktur Atap menyoroti bagian arsitektur atas Lawang Sewu.",
+            "description": "Struktur Atap Arsitektur merupakan titik yang digunakan untuk mengamati bagian konstruksi dan karakter arsitektur Lawang Sewu dari sisi struktur atas bangunan. Knowledge khusus mengenai detail teknis titik ini belum tersedia, sehingga pemandu sebaiknya membahas fungsi struktur atap dan prinsip arsitektur secara umum tanpa mengarang material, ukuran, tahun konstruksi, atau teknik spesifik yang tidak didukung data.",
+            "highlights": [
+                "Struktur atas bangunan",
+                "Konteks arsitektur Lawang Sewu"
+            ],
+            "talkingPoints": [
+                "fungsi struktur atap",
+                "arsitektur bangunan kolonial secara umum",
+                "pelestarian struktur"
+            ],
+            "suggestedQuestions": [
+                "Apa fungsi struktur atap seperti ini?",
+                "Apa yang menarik dari arsitektur Lawang Sewu?",
+                "Bagaimana bangunan lama menjaga sirkulasi udara?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "cetak-biru": {
+            "name": "Cetak Biru Lawang Sewu",
+            "sceneIds": [
+                "node44"
+            ],
+            "aliases": [
+                "cetak biru",
+                "blue print"
+            ],
+            "shortDescription": "Cetak Biru Lawang Sewu memperlihatkan gagasan rancangan dan sistem teknis bangunan.",
+            "description": "Area Cetak Biru menampilkan informasi mengenai rencana rancang bangun Lawang Sewu. Materi yang tersedia menjelaskan bahwa sejak awal bangunan dirancang dengan sistem drainase, pendinginan berbasis air, serta pertimbangan terhadap potensi banjir di kawasan sekitar. Bagian ini sangat relevan untuk menjelaskan bahwa Lawang Sewu tidak hanya menarik dari sisi bentuk, tetapi juga dari pemikiran teknis di balik perancangannya.",
+            "highlights": [
+                "Dokumen rancangan bangunan",
+                "Sistem drainase",
+                "Pendinginan berbasis air",
+                "Pertimbangan risiko banjir"
+            ],
+            "talkingPoints": [
+                "blueprint Lawang Sewu",
+                "teknik bangunan",
+                "adaptasi terhadap lingkungan"
+            ],
+            "suggestedQuestions": [
+                "Apa yang ditunjukkan cetak biru ini?",
+                "Bagaimana sistem pendinginan Lawang Sewu?",
+                "Apakah bangunan ini sejak awal memiliki sistem drainase?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:631"
+            ],
+            "contentGrounding": "direct"
+        },
+        "bekas-tembakan": {
+            "name": "Bekas Tembakan",
+            "sceneIds": [
+                "node47"
+            ],
+            "aliases": [
+                "bekas tembakan",
+                "traces of gunfire"
+            ],
+            "shortDescription": "Area Bekas Tembakan berkaitan dengan jejak Pertempuran Lima Hari di Semarang.",
+            "description": "Area ini menyimpan konteks sejarah Pertempuran Lima Hari di Semarang. Knowledge yang tersedia menjelaskan bahwa bagian atap Lawang Sewu pernah digunakan sebagai posisi strategis penembak jitu Jepang untuk membidik pejuang Indonesia. Area atas bangunan menjadi saksi pertempuran di kawasan Tugu Muda dalam perjuangan mempertahankan kemerdekaan.",
+            "highlights": [
+                "Jejak Pertempuran Lima Hari",
+                "Konteks perjuangan mempertahankan kemerdekaan",
+                "Hubungan dengan kawasan Tugu Muda"
+            ],
+            "talkingPoints": [
+                "Pertempuran Lima Hari di Semarang",
+                "bekas tembakan",
+                "sejarah perjuangan di sekitar Lawang Sewu"
+            ],
+            "suggestedQuestions": [
+                "Bekas tembakan ini berasal dari peristiwa apa?",
+                "Apa hubungan Lawang Sewu dengan Pertempuran Lima Hari?",
+                "Kenapa area ini penting secara sejarah?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1199"
+            ],
+            "contentGrounding": "direct"
+        },
+        "lokomotif-listrik": {
+            "name": "Lokomotif Listrik ESS",
+            "sceneIds": [
+                "node60"
+            ],
+            "aliases": [
+                "lokomotif listrik",
+                "kereta listrik",
+                "ess electric locomotive"
+            ],
+            "shortDescription": "Area ini menampilkan Lokomotif Listrik ESS, bagian dari cerita perkembangan kereta listrik di Indonesia.",
+            "description": "Lokomotif Listrik ESS menjadi saksi perkembangan awal layanan kereta listrik di wilayah Jabodetabek. Informasi yang tersedia menyebut pengembangannya dirintis pada 1919 dan mulai beroperasi pada 1925 untuk koridor Tanjung Priok–Meester Cornelis, yang kini dikenal sebagai Jatinegara. Area ini cocok untuk menjelaskan perkembangan teknologi perkeretaapian dan perubahan moda transportasi dari masa ke masa.",
+            "highlights": [
+                "Lokomotif Listrik ESS",
+                "Dirintis 1919",
+                "Mulai beroperasi 1925",
+                "Koridor Tanjung Priok–Meester Cornelis"
+            ],
+            "talkingPoints": [
+                "sejarah KRL",
+                "perkembangan kereta listrik",
+                "teknologi perkeretaapian"
+            ],
+            "suggestedQuestions": [
+                "Apa itu Lokomotif Listrik ESS?",
+                "Kapan lokomotif listrik ini mulai beroperasi?",
+                "Apa perannya dalam sejarah KRL?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:978"
+            ],
+            "contentGrounding": "direct"
+        },
+        "lorong": {
+            "name": "Lorong Gedung",
+            "sceneIds": [
+                "node65",
+                "node66"
+            ],
+            "aliases": [
+                "lorong"
+            ],
+            "shortDescription": "Lorong Gedung merupakan bagian dari jalur sirkulasi yang menghubungkan area-area di dalam Lawang Sewu.",
+            "description": "Lorong Gedung adalah salah satu area pergerakan di dalam kompleks Lawang Sewu dan direpresentasikan oleh lebih dari satu panorama. Belum tersedia knowledge historis khusus untuk lorong ini, sehingga pemandu dapat menjelaskan perannya sebagai ruang penghubung serta mengaitkannya dengan karakter umum Lawang Sewu tanpa mengarang detail material atau fungsi historis tertentu.",
+            "highlights": [
+                "Jalur penghubung antararea",
+                "Bagian dari pengalaman interior"
+            ],
+            "talkingPoints": [
+                "sirkulasi bangunan",
+                "arsitektur koridor dan lorong secara umum",
+                "navigasi"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan lorong ini.",
+                "Kenapa bangunan lama memiliki lorong panjang?",
+                "Ke mana saya bisa lanjut?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "toko-souvenir": {
+            "name": "Toko Souvenir",
+            "sceneIds": [
+                "node49"
+            ],
+            "aliases": [
+                "toko souvenir",
+                "souvenir shop"
+            ],
+            "shortDescription": "Toko Souvenir merupakan area fasilitas pengunjung untuk menemukan cendera mata.",
+            "description": "Toko Souvenir adalah salah satu fasilitas pengunjung di dalam pengalaman Lawang Sewu. Data yang tersedia belum merinci produk, harga, atau jam operasional, sehingga pemandu dapat menjelaskan fungsi area ini sebagai tempat cendera mata tanpa menyebut stok atau informasi komersial yang belum terverifikasi.",
+            "highlights": [
+                "Fasilitas cendera mata",
+                "Bagian dari layanan pengunjung"
+            ],
+            "talkingPoints": [
+                "fungsi toko souvenir",
+                "fasilitas pengunjung"
+            ],
+            "suggestedQuestions": [
+                "Apa fungsi area ini?",
+                "Apakah ada tempat membeli cendera mata?",
+                "Fasilitas apa lagi yang ada di Lawang Sewu?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        },
+        "koridor-node46": {
+            "name": "Koridor",
+            "sceneIds": [
+                "node46"
+            ],
+            "aliases": [
+                "koridor"
+            ],
+            "shortDescription": "Koridor ini merupakan salah satu jalur sirkulasi di dalam kompleks Lawang Sewu.",
+            "description": "Koridor ini menjadi bagian dari jalur pergerakan pengunjung di dalam Lawang Sewu. Belum ada knowledge khusus yang memetakan peristiwa atau fungsi historis tertentu ke titik ini, sehingga pemandu sebaiknya menggunakan area ini untuk menjelaskan konteks umum koridor pada bangunan bersejarah dan membantu pengunjung menentukan arah eksplorasi berikutnya.",
+            "highlights": [
+                "Jalur sirkulasi dalam bangunan",
+                "Penghubung antararea"
+            ],
+            "talkingPoints": [
+                "fungsi koridor",
+                "pengalaman menjelajahi bangunan",
+                "arah kunjungan"
+            ],
+            "suggestedQuestions": [
+                "Ceritakan koridor ini.",
+                "Kenapa Lawang Sewu memiliki banyak koridor dan bukaan?",
+                "Saya bisa lanjut ke mana?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only"
+        }
+    },
+    "enrichedAt": "2026-08-17",
+    "contentPolicy": {
+        "principle": "Descriptions are grounded in scene identity and provided Lawang Sewu knowledge.json. Unsupported scene-specific facts are not invented.",
+        "groundingLevels": {
+            "direct": "Direct knowledge entry mapped to the scene/place.",
+            "direct-likely": "Knowledge mapped with LIKELY confidence; keep place/entity distinction.",
+            "shared-tour": "Verified tour-level knowledge used as context.",
+            "related-tour-knowledge": "Verified related tour knowledge, not claimed as physically present in the scene unless separately supported.",
+            "identity-only": "Only scene/place identity is supported; description intentionally avoids unverified specific facts."
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "green-fresh-farm",
+    "tourName": "Green Fresh Farm",
+    "updatedAt": "2026-08-29T07:22:34+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Patung GFF",
+                "query": "Bagaimana bentuk Patung GFF yang menyambut pengunjung di pintu masuk Green Fresh Farm?",
+                "desc": "Bagaimana bentuk Patung GFF yang menyambut pengunjung di pintu masuk Green Fresh Farm?"
+            },
+            {
+                "label": "Kandang Sapi",
+                "query": "Seperti apa desain Kandang Sapi di Green Fresh Farm yang menggunakan sistem terbuka?",
+                "desc": "Seperti apa desain Kandang Sapi di Green Fresh Farm yang menggunakan sistem terbuka?"
+            },
+            {
+                "label": "Jam Kunjungan",
+                "query": "Kapan waktu operasional dan jam kunjungan terbaik untuk datang ke Green Fresh Farm?",
+                "desc": "Kapan waktu operasional dan jam kunjungan terbaik untuk datang ke Green Fresh Farm?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Patung Sapi",
+                "query": "Ceritakan tentang Patung GFF yang menjadi maskot utama di Green Fresh Farm."
+            },
+            {
+                "label": "Kandang Domba",
+                "query": "Apa saja jenis hewan yang ada di area Kandang Domba dan mini zoo Green Fresh Farm?"
+            },
+            {
+                "label": "Jambu Kristal",
+                "query": "Bagaimana pengelolaan tanaman Jambu Kristal sebagai agrowisata di Green Fresh Farm?"
+            },
+            {
+                "label": "Bibit Tanaman",
+                "query": "Apa saja aktivitas wisata edukasi bercocok tanam yang ada di area Bibit Tanaman?"
+            },
+            {
+                "label": "Budidaya Mentimun",
+                "query": "Bagaimana konsep pertanian terintegrasi diterapkan pada budidaya mentimun di sini?"
+            },
+            {
+                "label": "Spot Foto",
+                "query": "Di mana saja spot foto terbaik dan paling menarik saat menjelajahi Green Fresh Farm?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa saja daya tarik utama dan aktivitas seru yang bisa dilakukan di Green Fresh Farm?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana sejarah berdirinya Green Fresh Farm hingga menjadi destinasi agrowisata di Ungaran?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Bagaimana asal usul penamaan Green Fresh Farm sebagai destinasi wisata edukasi?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Bagaimana cara menavigasi tur virtual ini untuk melihat Area Utama dan Kandang Sapi?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

@@ -1,0 +1,765 @@
+{
+    "version": "1.1-seed",
+    "tourId": "stasiun-tawang",
+    "generatedAt": "2026-08-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "Area Tunggu Keberangkatan",
+            "displayName": "Area Tunggu Keberangkatan",
+            "placeId": "area-tunggu-keberangkatan",
+            "placeName": "Area Tunggu Keberangkatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Tunggu Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Tunggu Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Tunggu Keberangkatan",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Tunggu Keberangkatan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Tunggu Keberangkatan — kawasan Stasiun Tawang.",
+                "describeHere": "Area Tunggu Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Drone Tawang",
+            "displayName": "Drone Tawang",
+            "placeId": "drone-tawang",
+            "placeName": "Drone Tawang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Drone Tawang merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Drone Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Drone Tawang",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Drone Tawang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Drone Tawang — kawasan Stasiun Tawang.",
+                "describeHere": "Drone Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node25": {
+            "rawName": "Video360 1",
+            "displayName": "Video360 1",
+            "placeId": "video360-1",
+            "placeName": "Video360 1",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Video360 1 merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Video360 1 adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Video360 1.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Video360 1 — kawasan Stasiun Tawang.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Stasiun Tawang",
+            "displayName": "Stasiun Tawang",
+            "placeId": "stasiun-tawang",
+            "placeName": "Stasiun Tawang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Stasiun Tawang merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Stasiun Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Stasiun Tawang",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Stasiun Tawang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Stasiun Tawang — kawasan Stasiun Tawang.",
+                "describeHere": "Stasiun Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Pelayanan Pelanggan",
+            "displayName": "Pelayanan Pelanggan",
+            "placeId": "pelayanan-pelanggan",
+            "placeName": "Pelayanan Pelanggan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Pelayanan Pelanggan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pelayanan Pelanggan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pelayanan Pelanggan",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pelayanan Pelanggan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1412"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pelayanan Pelanggan — kawasan Stasiun Tawang.",
+                "describeHere": "Pelayanan Pelanggan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Depan Gerbong",
+            "displayName": "Depan Gerbong",
+            "placeId": "depan-gerbong",
+            "placeName": "Depan Gerbong",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Depan Gerbong merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Depan Gerbong adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Depan Gerbong",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Depan Gerbong.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Depan Gerbong — kawasan Stasiun Tawang.",
+                "describeHere": "Depan Gerbong adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Depan Peron",
+            "displayName": "Depan Peron",
+            "placeId": "depan-peron",
+            "placeName": "Depan Peron",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Depan Peron merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Depan Peron adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Depan Peron",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Depan Peron.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Depan Peron — kawasan Stasiun Tawang.",
+                "describeHere": "Depan Peron adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Area Keberangkatan",
+            "displayName": "Area Keberangkatan",
+            "placeId": "area-keberangkatan",
+            "placeName": "Area Keberangkatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Keberangkatan",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Keberangkatan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Keberangkatan — kawasan Stasiun Tawang.",
+                "describeHere": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Lobby Keberangkatan",
+            "displayName": "Lobby Keberangkatan",
+            "placeId": "lobby-keberangkatan",
+            "placeName": "Lobby Keberangkatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lobby Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lobby Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lobby Keberangkatan",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Lobby Keberangkatan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lobby Keberangkatan — kawasan Stasiun Tawang.",
+                "describeHere": "Lobby Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Area Keberangkatan",
+            "displayName": "Area Keberangkatan",
+            "placeId": "area-keberangkatan",
+            "placeName": "Area Keberangkatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Keberangkatan",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Keberangkatan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Keberangkatan — kawasan Stasiun Tawang.",
+                "describeHere": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Area Ticketing",
+            "displayName": "Area Ticketing",
+            "placeId": "area-ticketing",
+            "placeName": "Area Ticketing",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Ticketing merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Ticketing adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Ticketing",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Area Ticketing.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Ticketing — kawasan Stasiun Tawang.",
+                "describeHere": "Area Ticketing adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Gerbang Keluar",
+            "displayName": "Gerbang Keluar",
+            "placeId": "gerbang-keluar",
+            "placeName": "Gerbang Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gerbang Keluar merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gerbang Keluar",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gerbang Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gerbang Keluar — kawasan Stasiun Tawang.",
+                "describeHere": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Gerbang Keluar",
+            "displayName": "Gerbang Keluar",
+            "placeId": "gerbang-keluar",
+            "placeName": "Gerbang Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gerbang Keluar merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gerbang Keluar",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gerbang Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gerbang Keluar — kawasan Stasiun Tawang.",
+                "describeHere": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Masjid Al-Istiqomah",
+            "displayName": "Masjid Al-Istiqomah",
+            "placeId": "masjid-al-istiqomah",
+            "placeName": "Masjid Al-Istiqomah",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Masjid Al-Istiqomah merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Masjid Al-Istiqomah adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Masjid Al-Istiqomah",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Masjid Al-Istiqomah.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Masjid Al-Istiqomah — kawasan Stasiun Tawang.",
+                "describeHere": "Masjid Al-Istiqomah adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "placeId": "pintu-keluar",
+            "placeName": "Pintu Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan Stasiun Tawang.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Lokomotif",
+            "displayName": "Lokomotif",
+            "placeId": "lokomotif",
+            "placeName": "Lokomotif",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Lokomotif merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lokomotif adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lokomotif",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Lokomotif.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1410"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lokomotif — kawasan Stasiun Tawang.",
+                "describeHere": "Lokomotif adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "placeId": "pintu-masuk",
+            "placeName": "Pintu Masuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Masuk merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Masuk adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Masuk.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk — kawasan Stasiun Tawang.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "Ruang Luxury",
+            "displayName": "Ruang Luxury",
+            "placeId": "ruang-luxury",
+            "placeName": "Ruang Luxury",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Ruang Luxury merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruang Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruang Luxury",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Ruang Luxury.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1416"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Luxury — kawasan Stasiun Tawang.",
+                "describeHere": "Ruang Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "Ruang Tunggu Luxury",
+            "displayName": "Ruang Tunggu Luxury",
+            "placeId": "ruang-tunggu-luxury",
+            "placeName": "Ruang Tunggu Luxury",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Ruang Tunggu Luxury merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruang Tunggu Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruang Tunggu Luxury",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Ruang Tunggu Luxury.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Tunggu Luxury — kawasan Stasiun Tawang.",
+                "describeHere": "Ruang Tunggu Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Ruang Tunggu",
+            "displayName": "Ruang Tunggu",
+            "placeId": "ruang-tunggu",
+            "placeName": "Ruang Tunggu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Ruang Tunggu merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruang Tunggu adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruang Tunggu",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Ruang Tunggu.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Tunggu — kawasan Stasiun Tawang.",
+                "describeHere": "Ruang Tunggu adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Smoking Area",
+            "displayName": "Smoking Area",
+            "placeId": "smoking-area",
+            "placeName": "Smoking Area",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Smoking Area merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Smoking Area adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Smoking Area",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Smoking Area.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Smoking Area — kawasan Stasiun Tawang.",
+                "describeHere": "Smoking Area adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node24": {
+            "rawName": "Teras",
+            "displayName": "Teras",
+            "placeId": "teras",
+            "placeName": "Teras",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Teras merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Teras adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Teras",
+                "jalur eksplorasi",
+                "Stasiun Tawang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Teras.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1411"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Teras — kawasan Stasiun Tawang.",
+                "describeHere": "Teras adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

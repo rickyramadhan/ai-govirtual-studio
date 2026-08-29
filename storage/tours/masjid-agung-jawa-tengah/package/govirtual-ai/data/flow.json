@@ -1,0 +1,123 @@
+{
+    "version": "1.0",
+    "tourId": "masjid-agung-jawa-tengah",
+    "tourName": "Masjid Agung Jawa Tengah",
+    "updatedAt": "2026-08-29T07:45:40+02:00",
+    "startScene": "node206",
+    "order": [
+        "node206",
+        "node233",
+        "node207",
+        "node208",
+        "node209",
+        "node210",
+        "node211",
+        "node212",
+        "node213",
+        "node214",
+        "node215",
+        "node216",
+        "node217",
+        "node218",
+        "node219",
+        "node220",
+        "node221",
+        "node222",
+        "node223",
+        "node224",
+        "node225",
+        "node226",
+        "node227",
+        "node228",
+        "node229",
+        "node230",
+        "node231",
+        "node232"
+    ],
+    "nodes": {
+        "node206": {
+            "displayName": "Area Utama"
+        },
+        "node233": {
+            "displayName": "Area Utama"
+        },
+        "node207": {
+            "displayName": "Umkm"
+        },
+        "node208": {
+            "displayName": "Ballroom"
+        },
+        "node209": {
+            "displayName": "Payung"
+        },
+        "node210": {
+            "displayName": "Artefak"
+        },
+        "node211": {
+            "displayName": "Bedug"
+        },
+        "node212": {
+            "displayName": "Batu Peresmian"
+        },
+        "node213": {
+            "displayName": "Masjid Agung Jawa Tengah"
+        },
+        "node214": {
+            "displayName": "Menara"
+        },
+        "node215": {
+            "displayName": "Gedung Sunan"
+        },
+        "node216": {
+            "displayName": "Jalan Blok Kurma"
+        },
+        "node217": {
+            "displayName": "Pintu Masuk"
+        },
+        "node218": {
+            "displayName": "Ruang Sholat"
+        },
+        "node219": {
+            "displayName": "Lantai 2"
+        },
+        "node220": {
+            "displayName": "Mushaf"
+        },
+        "node221": {
+            "displayName": "Masjid Agung Jawa Tengah"
+        },
+        "node222": {
+            "displayName": "Menara Masjid Agung Jawa Tengah"
+        },
+        "node223": {
+            "displayName": "Pelataran Masjid Agung Jawa Tengah"
+        },
+        "node224": {
+            "displayName": "Pelataran Masjid"
+        },
+        "node225": {
+            "displayName": "Pelataran Masjid Agung Jawa Tengah"
+        },
+        "node226": {
+            "displayName": "Aula Kantor"
+        },
+        "node227": {
+            "displayName": "Replika Kabah"
+        },
+        "node228": {
+            "displayName": "Marwa"
+        },
+        "node229": {
+            "displayName": "Toko Souvenir"
+        },
+        "node230": {
+            "displayName": "Toko Souvenir"
+        },
+        "node231": {
+            "displayName": "Toko Oleh-Oleh"
+        },
+        "node232": {
+            "displayName": "Tugu"
+        }
+    }
+}

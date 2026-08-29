@@ -1,0 +1,684 @@
+{
+    "version": 2,
+    "tourId": "sam-poo-kong",
+    "updatedAt": "2026-08-29T07:11:20+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Sam Poo Kong",
+            "aliases": [
+                "sam poo kong"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "sam-poo-kong"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Sam Poo Kong.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Sam Poo Kong",
+                    "content": "Pusat pengalaman virtual untuk Sam Poo Kong."
+                },
+                "en": {
+                    "title": "Sam Poo Kong",
+                    "content": "Pusat pengalaman virtual untuk Sam Poo Kong."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Thao Tee Kong",
+            "aliases": [
+                "thao tee kong"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "sam-poo-kong"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Thao Tee Kong",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Thao Tee Kong",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Kyai Jangkar",
+            "aliases": [
+                "kyai jangkar"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "sam-poo-kong"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kyai Jangkar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Kyai Jangkar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "sam-poo-kong"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1542",
+            "entityId": "objinfo2:1542",
+            "title": "Gerbang Sam Poo Kong",
+            "aliases": [
+                "gerbang sam poo kong",
+                "objek 1542"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gerbang raksasa bernuansa merah megah ini berfungsi sebagai pintu masuk utama yang memisahkan dunia luar dengan area spiritual kelenteng, menyambut pengunjung dengan arsitektur Tiongkok klasik yang ikonik. Struktur atap bersusun melengkung dengan pilar-pilar kokoh ini menjadi landmark pembuka yang memancarkan aura kewibawaan sebelum memasuki kompleks peribadatan yang luas.",
+            "source": "webview-import",
+            "sourceId": "1542",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gerbang Sam Poo Kong",
+                    "content": "Gerbang raksasa bernuansa merah megah ini berfungsi sebagai pintu masuk utama yang memisahkan dunia luar dengan area spiritual kelenteng, menyambut pengunjung dengan arsitektur Tiongkok klasik yang ikonik. Struktur atap bersusun melengkung dengan pilar-pilar kokoh ini menjadi landmark pembuka yang memancarkan aura kewibawaan sebelum memasuki kompleks peribadatan yang luas."
+                },
+                "en": {
+                    "title": "Object 1542",
+                    "content": "Information for Object 1542."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1557",
+            "entityId": "objinfo2:1557",
+            "title": "Altar Kiyai Jangkar",
+            "aliases": [
+                "altar kiyai jangkar",
+                "objek 1557"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Terletak di bagian dalam Klenteng Kiyai Jangkar,altar ini memiliki meja persembahan kayu dengan ukiran relief tiga dimensi yang sangat detail dan artistik.Ruangan dengan dinding bata ekspos berwarna hijau ini menjadi tempat peletakan dupa dan persembahan,di mana suasana hening diciptakan untuk menghormati pusaka jangkar tersebut.",
+            "source": "webview-import",
+            "sourceId": "1557",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Altar Kiyai Jangkar",
+                    "content": "Terletak di bagian dalam Klenteng Kiyai Jangkar,altar ini memiliki meja persembahan kayu dengan ukiran relief tiga dimensi yang sangat detail dan artistik.Ruangan dengan dinding bata ekspos berwarna hijau ini menjadi tempat peletakan dupa dan persembahan,di mana suasana hening diciptakan untuk menghormati pusaka jangkar tersebut."
+                },
+                "en": {
+                    "title": "Object 1557",
+                    "content": "Information for Object 1557."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1556",
+            "entityId": "objinfo2:1556",
+            "title": "Klenteng Kiyai Jangkar",
+            "aliases": [
+                "klenteng kiyai jangkar",
+                "objek 1556"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan suci yang di depannya dijaga oleh patung kura-kura emas ini didirikan untuk menyimpan jangkar kapal kuno yang dipercaya milik armada Cheng Ho yang tertinggal di Jawa.Kelenteng ini berdiri di bawah naungan pohon besar yang rindang,menciptakan nuansa spiritual yang kental dan dikeramatkan oleh masyarakat setempat untuk berdoa memohon keselamatan.",
+            "source": "webview-import",
+            "sourceId": "1556",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klenteng Kiyai Jangkar",
+                    "content": "Bangunan suci yang di depannya dijaga oleh patung kura-kura emas ini didirikan untuk menyimpan jangkar kapal kuno yang dipercaya milik armada Cheng Ho yang tertinggal di Jawa.Kelenteng ini berdiri di bawah naungan pohon besar yang rindang,menciptakan nuansa spiritual yang kental dan dikeramatkan oleh masyarakat setempat untuk berdoa memohon keselamatan."
+                },
+                "en": {
+                    "title": "Object 1556",
+                    "content": "Information for Object 1556."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1553",
+            "entityId": "objinfo2:1553",
+            "title": "Klenteng Sam Poo Tay Djien",
+            "aliases": [
+                "klenteng sam poo tay djien",
+                "objek 1553"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Dikenal sebagai kelenteng utama dan terbesar dalam kompleks ini,bangunan tersebut memiliki serambi luas dengan dominasi warna merah yang menjadi pusat aktivitas peribadatan kepada Sam Poo Kong(Cheng Ho).Struktur megah ini dihiasi lampion gantung dan ukiran naga,serta memiliki kapasitas ruang yang mampu menampung ratusan umat saat perayaan besar Imlek atau kedatangan Cheng Ho.",
+            "source": "webview-import",
+            "sourceId": "1553",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klenteng Sam Poo Tay Djien",
+                    "content": "Dikenal sebagai kelenteng utama dan terbesar dalam kompleks ini,bangunan tersebut memiliki serambi luas dengan dominasi warna merah yang menjadi pusat aktivitas peribadatan kepada Sam Poo Kong(Cheng Ho).Struktur megah ini dihiasi lampion gantung dan ukiran naga,serta memiliki kapasitas ruang yang mampu menampung ratusan umat saat perayaan besar Imlek atau kedatangan Cheng Ho."
+                },
+                "en": {
+                    "title": "Object 1553",
+                    "content": "Information for Object 1553."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1552",
+            "entityId": "objinfo2:1552",
+            "title": "Relief Pemberantasan Perompak",
+            "aliases": [
+                "relief pemberantasan perompak",
+                "objek 1552"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Panel relief ini secara dramatis memvisualisasikan pertempuran sengit pasukan Dinasti Ming saat menumpas bajak laut Chen Zuyi di Palembang pada tahun 1407.Ukiran batu ini merekam momen penangkapan dan eksekusi para perompak dengan detail ekspresi yang tajam,menandakan ditegakkannya keamanan maritim di jalur sutra laut oleh sang Laksamana.",
+            "source": "webview-import",
+            "sourceId": "1552",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Relief Pemberantasan Perompak",
+                    "content": "Panel relief ini secara dramatis memvisualisasikan pertempuran sengit pasukan Dinasti Ming saat menumpas bajak laut Chen Zuyi di Palembang pada tahun 1407.Ukiran batu ini merekam momen penangkapan dan eksekusi para perompak dengan detail ekspresi yang tajam,menandakan ditegakkannya keamanan maritim di jalur sutra laut oleh sang Laksamana."
+                },
+                "en": {
+                    "title": "Object 1552",
+                    "content": "Information for Object 1552."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1551",
+            "entityId": "objinfo2:1551",
+            "title": "Relief Agama Asia Tenggara",
+            "aliases": [
+                "relief agama asia tenggara",
+                "objek 1551"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pahatan batu yang rumit ini menggambarkan perjalanan sejarah Laksamana Cheng Ho ke negara-negara Asia Tenggara yang saat itu memiliki keberagaman kepercayaan, mulai dari Animisme,Hindu,Buddha,hingga Islam.Sebagai bagian dari rangkaian relief terpanjang di dunia yang menghiasi dinding kompleks,panel ini secara spesifik menampilkan interaksi budaya dan toleransi beragama yang dibawa oleh armada Cheng Ho pada abad ke-15.",
+            "source": "webview-import",
+            "sourceId": "1551",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Relief Agama Asia Tenggara",
+                    "content": "Pahatan batu yang rumit ini menggambarkan perjalanan sejarah Laksamana Cheng Ho ke negara-negara Asia Tenggara yang saat itu memiliki keberagaman kepercayaan, mulai dari Animisme,Hindu,Buddha,hingga Islam.Sebagai bagian dari rangkaian relief terpanjang di dunia yang menghiasi dinding kompleks,panel ini secara spesifik menampilkan interaksi budaya dan toleransi beragama yang dibawa oleh armada Cheng Ho pada abad ke-15."
+                },
+                "en": {
+                    "title": "Object 1551",
+                    "content": "Information for Object 1551."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1550",
+            "entityId": "objinfo2:1550",
+            "title": "Gedung Batu Sam Poo Kong",
+            "aliases": [
+                "gedung batu sam poo kong",
+                "objek 1550"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan ini berfungsi sebagai fasad pelindung mulut goa utama yang dinding luarnya dihiasi relief batu ukir detail menceritakan perjalanan ekspedisi Cheng Ho dari Tiongkok ke Jawa.Area ini merupakan zona tersuci di kompleks Sam Poo Kong di mana akses masuk melalui pintunya dibatasi secara ketat khusus hanya untuk kegiatan ibadah.",
+            "source": "webview-import",
+            "sourceId": "1550",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung Batu Sam Poo Kong",
+                    "content": "Bangunan ini berfungsi sebagai fasad pelindung mulut goa utama yang dinding luarnya dihiasi relief batu ukir detail menceritakan perjalanan ekspedisi Cheng Ho dari Tiongkok ke Jawa.Area ini merupakan zona tersuci di kompleks Sam Poo Kong di mana akses masuk melalui pintunya dibatasi secara ketat khusus hanya untuk kegiatan ibadah."
+                },
+                "en": {
+                    "title": "Object 1550",
+                    "content": "Information for Object 1550."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1549",
+            "entityId": "objinfo2:1549",
+            "title": "Goa Sam Poo Tay Djien",
+            "aliases": [
+                "goa sam poo tay djien",
+                "objek 1549"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lorong batu alami ini merupakan situs paling inti dan bersejarah tempat pendaratan pertama Laksamana Cheng Ho, yang di dalamnya terdapat mata air abadi yang dipercaya tidak pernah kering dan memiliki khasiat penyembuhan. Suasana di dalam goa sangat mistis, hening, dan sejuk, hanya diterangi cahaya temaram lilin untuk menjaga kesakralan aktivitas meditasi di dalamnya.",
+            "source": "webview-import",
+            "sourceId": "1549",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Goa Sam Poo Tay Djien",
+                    "content": "Lorong batu alami ini merupakan situs paling inti dan bersejarah tempat pendaratan pertama Laksamana Cheng Ho, yang di dalamnya terdapat mata air abadi yang dipercaya tidak pernah kering dan memiliki khasiat penyembuhan. Suasana di dalam goa sangat mistis, hening, dan sejuk, hanya diterangi cahaya temaram lilin untuk menjaga kesakralan aktivitas meditasi di dalamnya."
+                },
+                "en": {
+                    "title": "Object 1549",
+                    "content": "Information for Object 1549."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1548",
+            "entityId": "objinfo2:1548",
+            "title": "Altar Kiyai Juru Mudi / Wang Jing Hong",
+            "aliases": [
+                "altar kiyai juru mudi / wang jing hong",
+                "objek 1548"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Altar ini menampilkan penataan sakral dengan ornamen tirai merah dan patung penjaga bersenjata gada yang mengapit wadah dupa emas, merepresentasikan penghormatan kepada sosok nakhoda yang tangguh. Di hadapan altar inilah umat memanjatkan doa kepada Kyai Juru Mudi yang dianggap sebagai leluhur pelindung, khususnya bagi para pedagang dan pelaut.",
+            "source": "webview-import",
+            "sourceId": "1548",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Altar Kiyai Juru Mudi / Wang Jing Hong",
+                    "content": "Altar ini menampilkan penataan sakral dengan ornamen tirai merah dan patung penjaga bersenjata gada yang mengapit wadah dupa emas, merepresentasikan penghormatan kepada sosok nakhoda yang tangguh. Di hadapan altar inilah umat memanjatkan doa kepada Kyai Juru Mudi yang dianggap sebagai leluhur pelindung, khususnya bagi para pedagang dan pelaut."
+                },
+                "en": {
+                    "title": "Object 1548",
+                    "content": "Information for Object 1548."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1547",
+            "entityId": "objinfo2:1547",
+            "title": "Klenteng Kiyai Juru Mudi",
+            "aliases": [
+                "klenteng kiyai juru mudi",
+                "objek 1547"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kelenteng ini dibangun untuk menghormati Wang Jing Hong, wakil sekaligus juru mudi Laksamana Cheng Ho yang wafat karena sakit dan dimakamkan di area ini pada tahun 1417. Bangunan dengan atap tumpang tiga berwarna merah dan hijau ini menaungi makam keramat tersebut dan menjadi simbol kesetiaan seorang wakil kepada pemimpinnya.",
+            "source": "webview-import",
+            "sourceId": "1547",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klenteng Kiyai Juru Mudi",
+                    "content": "Kelenteng ini dibangun untuk menghormati Wang Jing Hong, wakil sekaligus juru mudi Laksamana Cheng Ho yang wafat karena sakit dan dimakamkan di area ini pada tahun 1417. Bangunan dengan atap tumpang tiga berwarna merah dan hijau ini menaungi makam keramat tersebut dan menjadi simbol kesetiaan seorang wakil kepada pemimpinnya."
+                },
+                "en": {
+                    "title": "Object 1547",
+                    "content": "Information for Object 1547."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1546",
+            "entityId": "objinfo2:1546",
+            "title": "Altar Dewa Bumi / Thao Tee Khong",
+            "aliases": [
+                "altar dewa bumi / thao tee khong",
+                "objek 1546"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Terletak di bagian dalam paviliun Dewa Bumi, altar ini dihiasi ornamen merah cerah, ukiran kayu rumit, dan lampion gantung sebagai pusat ritual memohon berkah keselamatan dan kemakmuran. Ruang pemujaan ini tertata sangat rapi dengan meja persembahan yang selalu dipenuhi dupa, menciptakan suasana yang hening dan khusyuk bagi pendoa.",
+            "source": "webview-import",
+            "sourceId": "1546",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Altar Dewa Bumi / Thao Tee Khong",
+                    "content": "Terletak di bagian dalam paviliun Dewa Bumi, altar ini dihiasi ornamen merah cerah, ukiran kayu rumit, dan lampion gantung sebagai pusat ritual memohon berkah keselamatan dan kemakmuran. Ruang pemujaan ini tertata sangat rapi dengan meja persembahan yang selalu dipenuhi dupa, menciptakan suasana yang hening dan khusyuk bagi pendoa."
+                },
+                "en": {
+                    "title": "Object 1546",
+                    "content": "Information for Object 1546."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1545",
+            "entityId": "objinfo2:1545",
+            "title": "Klenteng Dewa Bumi",
+            "aliases": [
+                "klenteng dewa bumi",
+                "objek 1545"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan dengan pilar naga merah ini didedikasikan khusus untuk Dewa Bumi (Thao Tee Kong) sebagai wujud rasa syukur dan penghormatan atas tanah yang dipijak serta rezeki yang diterima. Terletak di sisi utara dekat gerbang masuk, kelenteng ini menjadi salah satu titik persembahyangan awal dengan arsitektur atap lipat yang artistik.",
+            "source": "webview-import",
+            "sourceId": "1545",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klenteng Dewa Bumi",
+                    "content": "Bangunan dengan pilar naga merah ini didedikasikan khusus untuk Dewa Bumi (Thao Tee Kong) sebagai wujud rasa syukur dan penghormatan atas tanah yang dipijak serta rezeki yang diterima. Terletak di sisi utara dekat gerbang masuk, kelenteng ini menjadi salah satu titik persembahyangan awal dengan arsitektur atap lipat yang artistik."
+                },
+                "en": {
+                    "title": "Object 1545",
+                    "content": "Information for Object 1545."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1544",
+            "entityId": "objinfo2:1544",
+            "title": "Panggung Kesenian",
+            "aliases": [
+                "panggung kesenian",
+                "objek 1544"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Plaza Utama adalah area halaman luas di depan bangunan klenteng terbesar yang berfungsi sebagai ruang serbaguna untuk penyelenggaraan berbagai festival budaya dan upacara perayaan besar. Bangunan megah dengan dominasi warna merah dan arsitektur Tiongkok yang kental ini mampu menampung ribuan pengunjung sekaligus menjadi pusat aktivitas paling vital di kompleks Sam Poo Kong.",
+            "source": "webview-import",
+            "sourceId": "1544",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Panggung Kesenian",
+                    "content": "Plaza Utama adalah area halaman luas di depan bangunan klenteng terbesar yang berfungsi sebagai ruang serbaguna untuk penyelenggaraan berbagai festival budaya dan upacara perayaan besar. Bangunan megah dengan dominasi warna merah dan arsitektur Tiongkok yang kental ini mampu menampung ribuan pengunjung sekaligus menjadi pusat aktivitas paling vital di kompleks Sam Poo Kong."
+                },
+                "en": {
+                    "title": "Object 1544",
+                    "content": "Information for Object 1544."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1543",
+            "entityId": "objinfo2:1543",
+            "title": "Patung Laksamana Ceng Ho",
+            "aliases": [
+                "patung laksamana ceng ho",
+                "objek 1543"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung perunggu setinggi 10,7 meter (mencapai 12,7 meter jika dihitung dengan tumpuannya) ini dinobatkan sebagai patung Cheng Ho tertinggi di dunia yang didatangkan langsung dari Tiongkok. Monumen megah ini berdiri gagah menghadap ke utara, menyimbolkan kepemimpinan dan karisma Sang Laksamana dalam sejarah pelayaran diplomatiknya di Nusantara.",
+            "source": "webview-import",
+            "sourceId": "1543",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Laksamana Ceng Ho",
+                    "content": "Patung perunggu setinggi 10,7 meter (mencapai 12,7 meter jika dihitung dengan tumpuannya) ini dinobatkan sebagai patung Cheng Ho tertinggi di dunia yang didatangkan langsung dari Tiongkok. Monumen megah ini berdiri gagah menghadap ke utara, menyimbolkan kepemimpinan dan karisma Sang Laksamana dalam sejarah pelayaran diplomatiknya di Nusantara."
+                },
+                "en": {
+                    "title": "Object 1543",
+                    "content": "Information for Object 1543."
+                }
+            }
+        }
+    ]
+}

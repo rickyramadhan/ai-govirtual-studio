@@ -1,0 +1,1222 @@
+{
+    "version": "1.1-seed",
+    "tourId": "tour-20260828100342",
+    "generatedAt": "2026-08-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node39": {
+            "rawName": "Sapi",
+            "displayName": "Sapi",
+            "placeId": "sapi",
+            "placeName": "Sapi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Sapi merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Sapi adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Sapi",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Sapi.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Sapi — kawasan lawang sewu.",
+                "describeHere": "Sapi adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node40": {
+            "rawName": "Ruangpameransejarah",
+            "displayName": "Ruangpameransejarah",
+            "placeId": "ruangpameransejarah",
+            "placeName": "Ruangpameransejarah",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Ruangpameransejarah merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruangpameransejarah adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruangpameransejarah",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Ruangpameransejarah.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1198"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruangpameransejarah — kawasan lawang sewu.",
+                "describeHere": "Ruangpameransejarah adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node41": {
+            "rawName": "Galeriwarisan",
+            "displayName": "Galeriwarisan",
+            "placeId": "galeriwarisan",
+            "placeName": "Galeriwarisan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Galeriwarisan merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Galeriwarisan adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Galeriwarisan",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Galeriwarisan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1201"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeriwarisan — kawasan lawang sewu.",
+                "describeHere": "Galeriwarisan adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node42": {
+            "rawName": "Maket",
+            "displayName": "Maket",
+            "placeId": "maket",
+            "placeName": "Maket",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Maket merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Maket adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Maket",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Maket.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1200"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Maket — kawasan lawang sewu.",
+                "describeHere": "Maket adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node43": {
+            "rawName": "Balkon Koridor",
+            "displayName": "Balkon Koridor",
+            "placeId": "balkon-koridor",
+            "placeName": "Balkon Koridor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Balkon Koridor merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Balkon Koridor adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Balkon Koridor",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Balkon Koridor.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon Koridor — kawasan lawang sewu.",
+                "describeHere": "Balkon Koridor adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node44": {
+            "rawName": "Cetakbiru",
+            "displayName": "Cetakbiru",
+            "placeId": "cetakbiru",
+            "placeName": "Cetakbiru",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Cetakbiru merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Cetakbiru adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Cetakbiru",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Cetakbiru.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:631"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Cetakbiru — kawasan lawang sewu.",
+                "describeHere": "Cetakbiru adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node45": {
+            "rawName": "Gedungd",
+            "displayName": "Gedungd",
+            "placeId": "gedungd",
+            "placeName": "Gedungd",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Gedungd merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gedungd adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gedungd",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gedungd.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:994"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gedungd — kawasan lawang sewu.",
+                "describeHere": "Gedungd adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node46": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "placeId": "pintu-keluar",
+            "placeName": "Pintu Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Keluar adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan lawang sewu.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node47": {
+            "rawName": "Bekastembakan",
+            "displayName": "Bekastembakan",
+            "placeId": "bekastembakan",
+            "placeName": "Bekastembakan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Bekastembakan merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Bekastembakan adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Bekastembakan",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Bekastembakan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1199"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bekastembakan — kawasan lawang sewu.",
+                "describeHere": "Bekastembakan adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node48": {
+            "rawName": "Struktur Atap Arsitektur",
+            "displayName": "Struktur Atap Arsitektur",
+            "placeId": "struktur-atap-arsitektur",
+            "placeName": "Struktur Atap Arsitektur",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Struktur Atap Arsitektur merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Struktur Atap Arsitektur adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Struktur Atap Arsitektur",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Struktur Atap Arsitektur.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Struktur Atap Arsitektur — kawasan lawang sewu.",
+                "describeHere": "Struktur Atap Arsitektur adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node49": {
+            "rawName": "Tokosuvenir",
+            "displayName": "Tokosuvenir",
+            "placeId": "tokosuvenir",
+            "placeName": "Tokosuvenir",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Tokosuvenir merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Tokosuvenir adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Tokosuvenir",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Tokosuvenir.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tokosuvenir — kawasan lawang sewu.",
+                "describeHere": "Tokosuvenir adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node50": {
+            "rawName": "main malam",
+            "displayName": "main malam",
+            "placeId": "main-malam",
+            "placeName": "main malam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "main malam merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "main malam adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "main malam",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area main malam.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di main malam — kawasan lawang sewu.",
+                "describeHere": "main malam adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node51": {
+            "rawName": "main siang",
+            "displayName": "main siang",
+            "placeId": "main-siang",
+            "placeName": "main siang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "main siang merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "main siang adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "main siang",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area main siang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:991",
+                "webview:objinfo2:993",
+                "webview:objinfo2:992"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di main siang — kawasan lawang sewu.",
+                "describeHere": "main siang adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node52": {
+            "rawName": "default - night",
+            "displayName": "default - night",
+            "placeId": "default-night",
+            "placeName": "default - night",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "default - night merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "default - night adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "default - night",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area default - night.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di default - night — kawasan lawang sewu.",
+                "describeHere": "default - night adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node53": {
+            "rawName": "default - day",
+            "displayName": "default - day",
+            "placeId": "default-day",
+            "placeName": "default - day",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "default - day merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "default - day adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "default - day",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area default - day.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di default - day — kawasan lawang sewu.",
+                "describeHere": "default - day adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node54": {
+            "rawName": "default",
+            "displayName": "default",
+            "placeId": "default",
+            "placeName": "default",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "default merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "default adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area default.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di default — kawasan lawang sewu.",
+                "describeHere": "default adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node55": {
+            "rawName": "Balkon",
+            "displayName": "Balkon",
+            "placeId": "balkon",
+            "placeName": "Balkon",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Balkon merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Balkon adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Balkon",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Balkon.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon — kawasan lawang sewu.",
+                "describeHere": "Balkon adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node56": {
+            "rawName": "Foodcourt",
+            "displayName": "Foodcourt",
+            "placeId": "foodcourt",
+            "placeName": "Foodcourt",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Foodcourt merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Foodcourt adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Foodcourt",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Foodcourt.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Foodcourt — kawasan lawang sewu.",
+                "describeHere": "Foodcourt adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node57": {
+            "rawName": "Pintumasuk",
+            "displayName": "Pintumasuk",
+            "placeId": "pintumasuk",
+            "placeName": "Pintumasuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Pintumasuk merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintumasuk adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintumasuk",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintumasuk.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:632"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintumasuk — kawasan lawang sewu.",
+                "describeHere": "Pintumasuk adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node58": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "placeId": "pintu-keluar",
+            "placeName": "Pintu Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Keluar adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan lawang sewu.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node59": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "placeId": "pintu-masuk",
+            "placeName": "Pintu Masuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Masuk merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Masuk adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Masuk.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk — kawasan lawang sewu.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node60": {
+            "rawName": "Lokomotiflistrik",
+            "displayName": "Lokomotiflistrik",
+            "placeId": "lokomotiflistrik",
+            "placeName": "Lokomotiflistrik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Lokomotiflistrik merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lokomotiflistrik adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lokomotiflistrik",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Lokomotiflistrik.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:978"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lokomotiflistrik — kawasan lawang sewu.",
+                "describeHere": "Lokomotiflistrik adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node61": {
+            "rawName": "Hallsiang",
+            "displayName": "Hallsiang",
+            "placeId": "hallsiang",
+            "placeName": "Hallsiang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Hallsiang merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Hallsiang adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Hallsiang",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Hallsiang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Hallsiang — kawasan lawang sewu.",
+                "describeHere": "Hallsiang adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node62": {
+            "rawName": "Hallmalam",
+            "displayName": "Hallmalam",
+            "placeId": "hallmalam",
+            "placeName": "Hallmalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Hallmalam merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Hallmalam adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Hallmalam",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Hallmalam.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Hallmalam — kawasan lawang sewu.",
+                "describeHere": "Hallmalam adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node63": {
+            "rawName": "Keretamalam",
+            "displayName": "Keretamalam",
+            "placeId": "keretamalam",
+            "placeName": "Keretamalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Keretamalam merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Keretamalam adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Keretamalam",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Keretamalam.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Keretamalam — kawasan lawang sewu.",
+                "describeHere": "Keretamalam adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node64": {
+            "rawName": "Keretasiang",
+            "displayName": "Keretasiang",
+            "placeId": "keretasiang",
+            "placeName": "Keretasiang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Keretasiang merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Keretasiang adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Keretasiang",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Keretasiang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:977",
+                "webview:objinfo2:995"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Keretasiang — kawasan lawang sewu.",
+                "describeHere": "Keretasiang adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node65": {
+            "rawName": "Lorong Gedung",
+            "displayName": "Lorong Gedung",
+            "placeId": "lorong-gedung",
+            "placeName": "Lorong Gedung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lorong Gedung merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lorong Gedung adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lorong Gedung",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Lorong Gedung.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lorong Gedung — kawasan lawang sewu.",
+                "describeHere": "Lorong Gedung adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node66": {
+            "rawName": "Lorong Gedung",
+            "displayName": "Lorong Gedung",
+            "placeId": "lorong-gedung",
+            "placeName": "Lorong Gedung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lorong Gedung merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lorong Gedung adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lorong Gedung",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Lorong Gedung.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lorong Gedung — kawasan lawang sewu.",
+                "describeHere": "Lorong Gedung adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node67": {
+            "rawName": "Gedung E",
+            "displayName": "Gedung E",
+            "placeId": "gedung-e",
+            "placeName": "Gedung E",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gedung E merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gedung E adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gedung E",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gedung E.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gedung E — kawasan lawang sewu.",
+                "describeHere": "Gedung E adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node68": {
+            "rawName": "Koridor UMKM",
+            "displayName": "Koridor UMKM",
+            "placeId": "koridor-umkm",
+            "placeName": "Koridor UMKM",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Koridor UMKM merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Koridor UMKM adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Koridor UMKM",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Koridor UMKM.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor UMKM — kawasan lawang sewu.",
+                "describeHere": "Koridor UMKM adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node69": {
+            "rawName": "Koridor UMKM",
+            "displayName": "Koridor UMKM",
+            "placeId": "koridor-umkm",
+            "placeName": "Koridor UMKM",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Koridor UMKM merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Koridor UMKM adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Koridor UMKM",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Koridor UMKM.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor UMKM — kawasan lawang sewu.",
+                "describeHere": "Koridor UMKM adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node70": {
+            "rawName": "Galeri Museum Kereta Api",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta-api",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Galeri Museum Kereta Api merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Galeri Museum Kereta Api",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Galeri Museum Kereta Api.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api — kawasan lawang sewu.",
+                "describeHere": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node71": {
+            "rawName": "Galeri Museum Kereta Api",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta-api",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Galeri Museum Kereta Api merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Galeri Museum Kereta Api",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Galeri Museum Kereta Api.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api — kawasan lawang sewu.",
+                "describeHere": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node72": {
+            "rawName": "Galeri Museum Kereta Api",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta-api",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Galeri Museum Kereta Api merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Galeri Museum Kereta Api",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Galeri Museum Kereta Api.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api — kawasan lawang sewu.",
+                "describeHere": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node73": {
+            "rawName": "Galeri Museum Kereta Api",
+            "displayName": "Galeri Museum Kereta Api",
+            "placeId": "galeri-museum-kereta-api",
+            "placeName": "Galeri Museum Kereta Api",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Galeri Museum Kereta Api merupakan bagian dari kawasan lawang sewu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Galeri Museum Kereta Api",
+                "jalur eksplorasi",
+                "lawang sewu"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Galeri Museum Kereta Api.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Museum Kereta Api — kawasan lawang sewu.",
+                "describeHere": "Galeri Museum Kereta Api adalah area di dalam kawasan lawang sewu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

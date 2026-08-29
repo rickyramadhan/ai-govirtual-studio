@@ -1,0 +1,833 @@
+{
+    "version": "1.1-seed",
+    "tourId": "universitas-negeri-semarang",
+    "generatedAt": "2026-08-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "Perpustakaan Rumah Ilmu",
+            "displayName": "Perpustakaan Rumah Ilmu",
+            "placeId": "perpustakaan-rumah-ilmu",
+            "placeName": "Perpustakaan Rumah Ilmu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Perpustakaan Rumah Ilmu merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Perpustakaan Rumah Ilmu adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Perpustakaan Rumah Ilmu",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Perpustakaan Rumah Ilmu.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1764"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perpustakaan Rumah Ilmu — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Perpustakaan Rumah Ilmu adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "displayName": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "placeId": "dekanat-fakultas-ekonomika-dan-bisnis",
+            "placeName": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Dekanat Fakultas Ekonomika dan Bisnis merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Dekanat Fakultas Ekonomika dan Bisnis adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Dekanat Fakultas Ekonomika dan Bisnis",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Dekanat Fakultas Ekonomika dan Bisnis.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Dekanat Fakultas Ekonomika dan Bisnis — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Dekanat Fakultas Ekonomika dan Bisnis adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Fakultas Ilmu Keolahragaan",
+            "displayName": "Fakultas Ilmu Keolahragaan",
+            "placeId": "fakultas-ilmu-keolahragaan",
+            "placeName": "Fakultas Ilmu Keolahragaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Fakultas Ilmu Keolahragaan merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Fakultas Ilmu Keolahragaan adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Fakultas Ilmu Keolahragaan",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Fakultas Ilmu Keolahragaan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fakultas Ilmu Keolahragaan — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Fakultas Ilmu Keolahragaan adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node24": {
+            "rawName": "Video360 1",
+            "displayName": "Video360 1",
+            "placeId": "video360-1",
+            "placeName": "Video360 1",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Video360 1 merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Video360 1 adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Video360 1.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Video360 1 — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Drone Utama",
+            "displayName": "Drone Utama",
+            "placeId": "drone-utama",
+            "placeName": "Drone Utama",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Drone Utama merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Drone Utama adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Drone Utama",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Drone Utama.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Drone Utama — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Drone Utama adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Wall Climbing",
+            "displayName": "Wall Climbing",
+            "placeId": "wall-climbing",
+            "placeName": "Wall Climbing",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Wall Climbing merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Wall Climbing adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Wall Climbing",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Wall Climbing.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1771"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wall Climbing — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Wall Climbing adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Perpustakaan Rumah Ilmu",
+            "displayName": "Perpustakaan Rumah Ilmu",
+            "placeId": "perpustakaan-rumah-ilmu",
+            "placeName": "Perpustakaan Rumah Ilmu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Perpustakaan Rumah Ilmu merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Perpustakaan Rumah Ilmu adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Perpustakaan Rumah Ilmu",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Perpustakaan Rumah Ilmu.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perpustakaan Rumah Ilmu — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Perpustakaan Rumah Ilmu adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Ruang Kelas",
+            "displayName": "Ruang Kelas",
+            "placeId": "ruang-kelas",
+            "placeName": "Ruang Kelas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Ruang Kelas merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruang Kelas adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruang Kelas",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Ruang Kelas.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Kelas — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Ruang Kelas adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "displayName": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "placeId": "dekanat-fakultas-ekonomika-dan-bisnis",
+            "placeName": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Dekanat Fakultas Ekonomika dan Bisnis merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Dekanat Fakultas Ekonomika dan Bisnis adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Dekanat Fakultas Ekonomika dan Bisnis",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Dekanat Fakultas Ekonomika dan Bisnis.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Dekanat Fakultas Ekonomika dan Bisnis — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Dekanat Fakultas Ekonomika dan Bisnis adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Fakultas Politik & Ilmu Sosial",
+            "displayName": "Fakultas Politik & Ilmu Sosial",
+            "placeId": "fakultas-politik-ilmu-sosial",
+            "placeName": "Fakultas Politik & Ilmu Sosial",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Fakultas Politik & Ilmu Sosial merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Fakultas Politik & Ilmu Sosial adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Fakultas Politik & Ilmu Sosial",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Fakultas Politik & Ilmu Sosial.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fakultas Politik & Ilmu Sosial — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Fakultas Politik & Ilmu Sosial adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Dekanat Fakultas Bahasa dan Seni",
+            "displayName": "Dekanat Fakultas Bahasa dan Seni",
+            "placeId": "dekanat-fakultas-bahasa-dan-seni",
+            "placeName": "Dekanat Fakultas Bahasa dan Seni",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Dekanat Fakultas Bahasa dan Seni merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Dekanat Fakultas Bahasa dan Seni adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Dekanat Fakultas Bahasa dan Seni",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Dekanat Fakultas Bahasa dan Seni.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Dekanat Fakultas Bahasa dan Seni — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Dekanat Fakultas Bahasa dan Seni adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Gedung Bahasa & Seni",
+            "displayName": "Gedung Bahasa & Seni",
+            "placeId": "gedung-bahasa-seni",
+            "placeName": "Gedung Bahasa & Seni",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gedung Bahasa & Seni merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gedung Bahasa & Seni adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gedung Bahasa & Seni",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gedung Bahasa & Seni.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gedung Bahasa & Seni — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Gedung Bahasa & Seni adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "LP3",
+            "displayName": "LP3",
+            "placeId": "lp3",
+            "placeName": "LP3",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "LP3 merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "LP3 adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "LP3",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area LP3.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di LP3 — kawasan Universitas Negeri Semarang.",
+                "describeHere": "LP3 adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "placeId": "pintu-keluar",
+            "placeName": "Pintu Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Keluar adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "LPPM",
+            "displayName": "LPPM",
+            "placeId": "lppm",
+            "placeName": "LPPM",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "LPPM merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "LPPM adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "LPPM",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area LPPM.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1767"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di LPPM — kawasan Universitas Negeri Semarang.",
+                "describeHere": "LPPM adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Lembaga Penelitian dan Pengabdian kepada Masyarakat",
+            "displayName": "Lembaga Penelitian dan Pengabdian kepada Masyarakat",
+            "placeId": "lembaga-penelitian-dan-pengabdian-kepada-masyarakat",
+            "placeName": "Lembaga Penelitian dan Pengabdian kepada Masyarakat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lembaga Penelitian dan Pengabdian kepada Masyarakat merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lembaga Penelitian dan Pengabdian kepada Masyarakat adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lembaga Penelitian dan Pengabdian kepada Masyarakat",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Lembaga Penelitian dan Pengabdian kepada Masyarakat.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lembaga Penelitian dan Pengabdian kepada Masyarakat — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Lembaga Penelitian dan Pengabdian kepada Masyarakat adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Gedung LP3 UNNES",
+            "displayName": "Gedung LP3 UNNES",
+            "placeId": "gedung-lp3-unnes",
+            "placeName": "Gedung LP3 UNNES",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gedung LP3 UNNES merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gedung LP3 UNNES adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gedung LP3 UNNES",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gedung LP3 UNNES.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gedung LP3 UNNES — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Gedung LP3 UNNES adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "BI Corner",
+            "displayName": "BI Corner",
+            "placeId": "bi-corner",
+            "placeName": "BI Corner",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "BI Corner merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "BI Corner adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "BI Corner",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area BI Corner.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1769"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BI Corner — kawasan Universitas Negeri Semarang.",
+                "describeHere": "BI Corner adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "placeId": "perpustakaan",
+            "placeName": "Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Perpustakaan merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Perpustakaan adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Perpustakaan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perpustakaan — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "placeId": "perpustakaan",
+            "placeName": "Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Perpustakaan merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Perpustakaan adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Perpustakaan.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perpustakaan — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "placeId": "pintu-keluar",
+            "placeName": "Pintu Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Keluar adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Keluar.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "placeId": "pintu-masuk",
+            "placeName": "Pintu Masuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pintu Masuk merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pintu Masuk adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pintu Masuk.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Rektorat",
+            "displayName": "Rektorat",
+            "placeId": "rektorat",
+            "placeName": "Rektorat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Rektorat merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Rektorat adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Rektorat",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Rektorat.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rektorat — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Rektorat adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Perpustakaan Rumah Ilmu",
+            "displayName": "Perpustakaan Rumah Ilmu",
+            "placeId": "perpustakaan-rumah-ilmu",
+            "placeName": "Perpustakaan Rumah Ilmu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Perpustakaan Rumah Ilmu merupakan bagian dari kawasan Universitas Negeri Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Perpustakaan Rumah Ilmu adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Perpustakaan Rumah Ilmu",
+                "jalur eksplorasi",
+                "Universitas Negeri Semarang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Perpustakaan Rumah Ilmu.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perpustakaan Rumah Ilmu — kawasan Universitas Negeri Semarang.",
+                "describeHere": "Perpustakaan Rumah Ilmu adalah area di dalam kawasan Universitas Negeri Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

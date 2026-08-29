@@ -1,0 +1,434 @@
+{
+    "version": 2,
+    "tourId": "green-fresh-farm",
+    "updatedAt": "2026-08-29T07:11:19+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Green Fresh Farm",
+            "aliases": [
+                "green fresh farm"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "green-fresh-farm"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Green Fresh Farm.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Green Fresh Farm",
+                    "content": "Pusat pengalaman virtual untuk Green Fresh Farm."
+                },
+                "en": {
+                    "title": "Green Fresh Farm",
+                    "content": "Pusat pengalaman virtual untuk Green Fresh Farm."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Area Utama",
+            "aliases": [
+                "area utama"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "green-fresh-farm"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Utama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Area Utama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Area Masuk",
+            "aliases": [
+                "area masuk"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "green-fresh-farm"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Masuk",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Area Masuk",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "green-fresh-farm"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1238",
+            "entityId": "objinfo2:1238",
+            "title": "Patung GFF",
+            "aliases": [
+                "patung gff",
+                "objek 1238"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung sapi berukuran cukup besar yang menjadi maskot utama Green Fresh Farm ditempatkan secara strategis di pintu masuk untuk menyambut kedatangan siswa maupun wisatawan yang berkunjung. Keberadaan patung ini tidak hanya berfungsi sebagai ikon identitas peternakan, tetapi juga menjadi lokasi swafoto favorit dan taman bermain bagi pengunjung sebelum memulai kegiatan edukasi di dalam area farm.",
+            "source": "webview-import",
+            "sourceId": "1238",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung GFF",
+                    "content": "Patung sapi berukuran cukup besar yang menjadi maskot utama Green Fresh Farm ditempatkan secara strategis di pintu masuk untuk menyambut kedatangan siswa maupun wisatawan yang berkunjung. Keberadaan patung ini tidak hanya berfungsi sebagai ikon identitas peternakan, tetapi juga menjadi lokasi swafoto favorit dan taman bermain bagi pengunjung sebelum memulai kegiatan edukasi di dalam area farm."
+                },
+                "en": {
+                    "title": "Object 1238",
+                    "content": "Information for Object 1238."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1236",
+            "entityId": "objinfo2:1236",
+            "title": "Kandang Sapi",
+            "aliases": [
+                "kandang sapi",
+                "objek 1236"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kandang sapi di Green Fresh Farm Semarang menerapkan desain terbuka (*open shed*) yang menjamin sirkulasi udara alami untuk kenyamanan ternak sekaligus memudahkan interaksi pengunjung dalam kegiatan wisata edukasi. Struktur kandang ini terintegrasi secara cerdas dengan sistem pengolahan limbah, di mana kotoran sapi langsung disalurkan ke instalasi biogas untuk diubah menjadi energi terbarukan dan pupuk organik.",
+            "source": "webview-import",
+            "sourceId": "1236",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Sapi",
+                    "content": "Kandang sapi di Green Fresh Farm Semarang menerapkan desain terbuka (*open shed*) yang menjamin sirkulasi udara alami untuk kenyamanan ternak sekaligus memudahkan interaksi pengunjung dalam kegiatan wisata edukasi. Struktur kandang ini terintegrasi secara cerdas dengan sistem pengolahan limbah, di mana kotoran sapi langsung disalurkan ke instalasi biogas untuk diubah menjadi energi terbarukan dan pupuk organik."
+                },
+                "en": {
+                    "title": "Cow Shed",
+                    "content": "The cattle barn at Green Fresh Farm Semarang employs an open shed design that ensures natural air circulation for the comfort of the livestock while facilitating visitor interaction during educational tourism activities. The barn structure is intelligently integrated with a waste management system, where cow manure is directly channeled into a biogas installation to be converted into renewable energy and organic fertilizer."
+                },
+                "zh": {
+                    "title": "牛舍",
+                    "content": "三宝垄 Green Fresh Farm 的牛舍采用开放式设计，保证牲畜的自然通风舒适，同时方便游客在教育旅游活动中与牛互动。牛舍结构巧妙地与废物处理系统整合，牛粪直接输送到沼气装置，用于转化为可再生能源和有机肥料。"
+                },
+                "ar": {
+                    "title": "حظيرة الأبقار",
+                    "content": "تتبنى حظيرة الأبقار في مزرعة Green Fresh Farm بسيمارانغ تصميمًا مفتوحًا (open shed) يضمن دوران الهواء الطبيعي لراحة الماشية، ويسهل في الوقت نفسه تفاعل الزوار أثناء الأنشطة التعليمية السياحية. كما أن هيكل الحظيرة متكامل بذكاء مع نظام إدارة النفايات، حيث يتم توجيه روث الأبقار مباشرة إلى منشأة الغاز الحيوي لتحويله إلى طاقة متجددة وسماد عضوي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1244",
+            "entityId": "objinfo2:1244",
+            "title": "Jambu Kristal",
+            "aliases": [
+                "jambu kristal",
+                "objek 1244"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tanaman Jambu Kristal (Psidium guajava) yang terdapat di kawasan Green Fresh Farm Semarang dibudidayakan sebagai tanaman pelengkap agrowisata dengan memanfaatkan nutrisi dari pupuk organik cair (bioslurry) hasil olahan limbah ternak sapi. Keberadaan tanaman ini memperkaya materi edukasi mengenai sistem pertanian terpadu, di mana pengunjung dapat melihat langsung siklus pemanfaatan limbah peternakan untuk menyuburkan tanaman buah secara alami.",
+            "source": "webview-import",
+            "sourceId": "1244",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jambu Kristal",
+                    "content": "Tanaman Jambu Kristal (Psidium guajava) yang terdapat di kawasan Green Fresh Farm Semarang dibudidayakan sebagai tanaman pelengkap agrowisata dengan memanfaatkan nutrisi dari pupuk organik cair (bioslurry) hasil olahan limbah ternak sapi. Keberadaan tanaman ini memperkaya materi edukasi mengenai sistem pertanian terpadu, di mana pengunjung dapat melihat langsung siklus pemanfaatan limbah peternakan untuk menyuburkan tanaman buah secara alami."
+                },
+                "en": {
+                    "title": "Object 1244",
+                    "content": "Information for Object 1244."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1242",
+            "entityId": "objinfo2:1242",
+            "title": "Bibit Tanaman",
+            "aliases": [
+                "bibit tanaman",
+                "objek 1242"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pembibitan tanaman di Green Fresh Farm Semarang memfasilitasi kegiatan wisata edukasi bercocok tanam bagi pengunjung dengan fokus pada berbagai jenis komoditas pangan seperti cabai, terong, dan pepaya. Area ini memungkinkan wisatawan untuk belajar dan mempraktikkan langsung proses budidaya tanaman di lahan yang dikelola secara terpadu bersama peternakan sapi perah setempat.",
+            "source": "webview-import",
+            "sourceId": "1242",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bibit Tanaman",
+                    "content": "Pembibitan tanaman di Green Fresh Farm Semarang memfasilitasi kegiatan wisata edukasi bercocok tanam bagi pengunjung dengan fokus pada berbagai jenis komoditas pangan seperti cabai, terong, dan pepaya. Area ini memungkinkan wisatawan untuk belajar dan mempraktikkan langsung proses budidaya tanaman di lahan yang dikelola secara terpadu bersama peternakan sapi perah setempat."
+                },
+                "en": {
+                    "title": "Object 1242",
+                    "content": "Information for Object 1242."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1231",
+            "entityId": "objinfo2:1231",
+            "title": "Mentimun",
+            "aliases": [
+                "mentimun",
+                "objek 1231"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Budidaya timun di Green Fresh Farm (GFF) Semarang menerapkan konsep pertanian terintegrasi (integrated farming), di mana sayuran ditanam dalam media polybag dengan sistem vertikal untuk memaksimalkan efisiensi lahan wisata edukasi tersebut. Kesuburan tanaman ini didukung sepenuhnya oleh pemanfaatan pupuk organik padat dan cair (bioslurry) berkualitas tinggi yang dihasilkan dari instalasi pengolahan limbah kotoran sapi perah yang menjadi fokus utama peternakan ini.",
+            "source": "webview-import",
+            "sourceId": "1231",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mentimun",
+                    "content": "Budidaya timun di Green Fresh Farm (GFF) Semarang menerapkan konsep pertanian terintegrasi (integrated farming), di mana sayuran ditanam dalam media polybag dengan sistem vertikal untuk memaksimalkan efisiensi lahan wisata edukasi tersebut. Kesuburan tanaman ini didukung sepenuhnya oleh pemanfaatan pupuk organik padat dan cair (bioslurry) berkualitas tinggi yang dihasilkan dari instalasi pengolahan limbah kotoran sapi perah yang menjadi fokus utama peternakan ini."
+                },
+                "en": {
+                    "title": "Object 1231",
+                    "content": "Information for Object 1231."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1373",
+            "entityId": "objinfo2:1373",
+            "title": "KM Dharma Kartika VII",
+            "aliases": [
+                "km dharma kartika vii",
+                "objek 1373"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Panjang Keseluruhan (LOA): Sekitar 145 – 150 meter. Lebar (Breadth): Sekitar 22 – 24 meter. Draft (Kedalaman bagian kapal di bawah air): Sekitar 5 – 6 meter. Tonase Kotor (Gross Tonnage): Kapal ini berada di kisaran 10.000 – 11.000 GT.",
+            "source": "webview-import",
+            "sourceId": "1373",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "KM Dharma Kartika VII",
+                    "content": "Panjang Keseluruhan (LOA): Sekitar 145 – 150 meter. Lebar (Breadth): Sekitar 22 – 24 meter. Draft (Kedalaman bagian kapal di bawah air): Sekitar 5 – 6 meter. Tonase Kotor (Gross Tonnage): Kapal ini berada di kisaran 10.000 – 11.000 GT."
+                },
+                "en": {
+                    "title": "KM Dharma Kartika VII",
+                    "content": "Overall Length (LOA): Approximately 145–150 meters. Breadth: Approximately 22–24 meters. Draft (depth of the ship below water): Approximately 5–6 meters. Gross Tonnage: The vessel ranges around 10,000–11,000 GT."
+                },
+                "zh": {
+                    "title": "KM Dharma Kartika VII",
+                    "content": "总长度（LOA）：约 145–150 米。宽度：约 22–24 米。吃水深度（船体水下部分）：约 5–6 米。总吨位：该船约为 10,000–11,000 总吨。"
+                },
+                "ar": {
+                    "title": "سفينة KM دارما كارتكا السابعة",
+                    "content": "الطول الإجمالي (LOA): حوالي 145–150 متر. العرض (Breadth): حوالي 22–24 متر. الغاطس (عمق الجزء السفلي من السفينة تحت الماء): حوالي 5–6 متر. الوزن الإجمالي: السفينة تتراوح حوالي 10,000–11,000 طن إجمالي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1240",
+            "entityId": "objinfo2:1240",
+            "title": "Kandang Domba",
+            "aliases": [
+                "kandang domba",
+                "objek 1240"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area kandang domba di Green Fresh Farm Semarang merupakan bagian dari fasilitas mini zoo yang secara khusus menampung jenis Domba Merino sebagai variasi atraksi edukasi pelengkap selain sapi perah utama. Di lokasi ini, pengunjung, khususnya anak-anak, dapat berinteraksi langsung dengan memberi pakan kepada domba-domba tersebut, memberikan pengalaman pengenalan hewan ternak yang lebih beragam dan menyenangkan.",
+            "source": "webview-import",
+            "sourceId": "1240",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Domba",
+                    "content": "Area kandang domba di Green Fresh Farm Semarang merupakan bagian dari fasilitas mini zoo yang secara khusus menampung jenis Domba Merino sebagai variasi atraksi edukasi pelengkap selain sapi perah utama. Di lokasi ini, pengunjung, khususnya anak-anak, dapat berinteraksi langsung dengan memberi pakan kepada domba-domba tersebut, memberikan pengalaman pengenalan hewan ternak yang lebih beragam dan menyenangkan."
+                },
+                "en": {
+                    "title": "Object 1240",
+                    "content": "Information for Object 1240."
+                }
+            }
+        }
+    ]
+}

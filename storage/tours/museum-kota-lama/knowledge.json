@@ -1,0 +1,304 @@
+{
+    "version": 2,
+    "tourId": "museum-kota-lama",
+    "updatedAt": "2026-08-29T07:11:19+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Museum Kota Lama",
+            "aliases": [
+                "museum kota lama"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "museum-kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Museum Kota Lama.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Museum Kota Lama",
+                    "content": "Pusat pengalaman virtual untuk Museum Kota Lama."
+                },
+                "en": {
+                    "title": "Museum Kota Lama",
+                    "content": "Pusat pengalaman virtual untuk Museum Kota Lama."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone Utama",
+            "aliases": [
+                "drone utama"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "museum-kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Utama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone Utama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Video360 1",
+            "aliases": [
+                "video360 1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "museum-kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Video360 1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Video360 1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "museum-kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1253",
+            "entityId": "objinfo2:1253",
+            "title": "Patung Dipta Dipa",
+            "aliases": [
+                "patung dipta dipa",
+                "objek 1253"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tugu berbentuk kristal atau mata panah raksasa ini adalah instalasi seni yang merepresentasikan bentuk denah asli Bastion Amsterdam yang dulunya berdiri tepat di lokasi tersebut. Aksen emas pada puncaknya memiliki filosofi sebagai \"cahaya\" (Dipta) atau pelita yang menyinari sejarah panjang kawasan Kota Lama Semarang.",
+            "source": "webview-import",
+            "sourceId": "1253",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Dipta Dipa",
+                    "content": "Tugu berbentuk kristal atau mata panah raksasa ini adalah instalasi seni yang merepresentasikan bentuk denah asli Bastion Amsterdam yang dulunya berdiri tepat di lokasi tersebut. Aksen emas pada puncaknya memiliki filosofi sebagai \"cahaya\" (Dipta) atau pelita yang menyinari sejarah panjang kawasan Kota Lama Semarang."
+                },
+                "en": {
+                    "title": "Object 1253",
+                    "content": "Information for Object 1253."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1251",
+            "entityId": "objinfo2:1251",
+            "title": "Artefak Warisan Kereta Api Dupo",
+            "aliases": [
+                "artefak warisan kereta api dupo",
+                "objek 1251"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Replika artefak lokomotif kuno yang bisa difungsikan juga untuk berswafoto ini merupakan pertanda bahwa di bawah Museum Kota Lama pernah ada jalur kereta yang pada zaman dahulu menjadi urat nadi penyambung roda ekonomi di kawasan Kota Lama.",
+            "source": "webview-import",
+            "sourceId": "1251",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Artefak Warisan Kereta Api Dupo",
+                    "content": "Replika artefak lokomotif kuno yang bisa difungsikan juga untuk berswafoto ini merupakan pertanda bahwa di bawah Museum Kota Lama pernah ada jalur kereta yang pada zaman dahulu menjadi urat nadi penyambung roda ekonomi di kawasan Kota Lama."
+                },
+                "en": {
+                    "title": "Object 1251",
+                    "content": "Information for Object 1251."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1254",
+            "entityId": "objinfo2:1254",
+            "title": "Bukti Arkeologi",
+            "aliases": [
+                "bukti arkeologi",
+                "objek 1254"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bukti Arkeologi Objek ini merupakan sisa-sisa struktur bata kuno dari fondasi Bastion Amsterdam (benteng pertahanan abad ke-17) yang ditemukan saat ekskavasi situs museum. Reruntuhan ini dikonservasi dan dibiarkan terlihat (sebagian berada di area kolam atau di bawah lantai kaca) sebagai bukti otentik jejak tata kota dan pertahanan Semarang di masa lalu.",
+            "source": "webview-import",
+            "sourceId": "1254",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bukti Arkeologi",
+                    "content": "Bukti Arkeologi Objek ini merupakan sisa-sisa struktur bata kuno dari fondasi Bastion Amsterdam (benteng pertahanan abad ke-17) yang ditemukan saat ekskavasi situs museum. Reruntuhan ini dikonservasi dan dibiarkan terlihat (sebagian berada di area kolam atau di bawah lantai kaca) sebagai bukti otentik jejak tata kota dan pertahanan Semarang di masa lalu."
+                },
+                "en": {
+                    "title": "Object 1254",
+                    "content": "Information for Object 1254."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1252",
+            "entityId": "objinfo2:1252",
+            "title": "Garis Waktu Sejarah",
+            "aliases": [
+                "garis waktu sejarah",
+                "objek 1252"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tampilan kronologis yang menggambarkan tonggak sejarah Kota Semarang — dari awal perkembangannya sebagai pelabuhan perdagangan hingga evolusi perkotaan modern. Garis waktu didukung oleh foto, dokumen, dan panel interaktif.",
+            "source": "webview-import",
+            "sourceId": "1252",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Garis Waktu Sejarah",
+                    "content": "Tampilan kronologis yang menggambarkan tonggak sejarah Kota Semarang — dari awal perkembangannya sebagai pelabuhan perdagangan hingga evolusi perkotaan modern. Garis waktu didukung oleh foto, dokumen, dan panel interaktif."
+                },
+                "en": {
+                    "title": "Object 1252",
+                    "content": "Information for Object 1252."
+                }
+            }
+        }
+    ]
+}

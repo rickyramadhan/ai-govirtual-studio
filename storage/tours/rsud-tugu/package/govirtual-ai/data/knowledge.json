@@ -1,0 +1,342 @@
+{
+    "version": 2,
+    "tourId": "rsud-tugu",
+    "updatedAt": "2026-08-29T07:11:20+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "RSUD Tugu",
+            "aliases": [
+                "rsud tugu"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "rsud-tugu"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk RSUD Tugu.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "RSUD Tugu",
+                    "content": "Pusat pengalaman virtual untuk RSUD Tugu."
+                },
+                "en": {
+                    "title": "RSUD Tugu",
+                    "content": "Pusat pengalaman virtual untuk RSUD Tugu."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone",
+            "aliases": [
+                "drone"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rsud-tugu"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruang X-Ray",
+            "aliases": [
+                "ruang x-ray"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rsud-tugu"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruang X-Ray",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruang X-Ray",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "rsud-tugu"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2078",
+            "entityId": "objinfo2:2078",
+            "title": "Pendaftaran Rawat Jalan",
+            "aliases": [
+                "pendaftaran rawat jalan",
+                "objek 2078"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Konter pendaftaran rawat jalan berfungsi sebagai sentral verifikasi administrasi dan titik akses utama bagi pasien non-gawat darurat yang akan menjalani pemeriksaan medis di berbagai poliklinik spesialis. Melalui loket ini, petugas memberikan layanan terpadu yang meliputi validasi kelengkapan berkas jaminan kesehatan, penerbitan dokumen kelayakan berobat, serta pengaturan sistem antrean guna memastikan kelancaran alur pasien sebelum diarahkan menuju ruang konsultasi dokter.",
+            "source": "webview-import",
+            "sourceId": "2078",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pendaftaran Rawat Jalan",
+                    "content": "Konter pendaftaran rawat jalan berfungsi sebagai sentral verifikasi administrasi dan titik akses utama bagi pasien non-gawat darurat yang akan menjalani pemeriksaan medis di berbagai poliklinik spesialis. Melalui loket ini, petugas memberikan layanan terpadu yang meliputi validasi kelengkapan berkas jaminan kesehatan, penerbitan dokumen kelayakan berobat, serta pengaturan sistem antrean guna memastikan kelancaran alur pasien sebelum diarahkan menuju ruang konsultasi dokter."
+                },
+                "en": {
+                    "title": "Object 2078",
+                    "content": "Information for Object 2078."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2073",
+            "entityId": "objinfo2:2073",
+            "title": "Meja Tindakan Angiografi/Kateterisasi",
+            "aliases": [
+                "meja tindakan angiografi/kateterisasi",
+                "objek 2073"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Untuk operasi pada jantung atau pembuluh darah, digunakan meja khusus yang didesain sangat tipis dan tembus pandang terhadap sinar-X agar tidak menghalangi proses foto rontgen. Meja beralas matras biru ini bisa digerakkan dengan sangat pas untuk memposisikan pasien selama operasi berlangsung.",
+            "source": "webview-import",
+            "sourceId": "2073",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Meja Tindakan Angiografi/Kateterisasi",
+                    "content": "Untuk operasi pada jantung atau pembuluh darah, digunakan meja khusus yang didesain sangat tipis dan tembus pandang terhadap sinar-X agar tidak menghalangi proses foto rontgen. Meja beralas matras biru ini bisa digerakkan dengan sangat pas untuk memposisikan pasien selama operasi berlangsung."
+                },
+                "en": {
+                    "title": "Object 2073",
+                    "content": "Information for Object 2073."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2082",
+            "entityId": "objinfo2:2082",
+            "title": "Mesin Rontgen",
+            "aliases": [
+                "mesin rontgen",
+                "objek 2082"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Untuk memotret struktur tulang dan organ dalam, tersedia perangkat radiologi statis bermerek Huestis Medical. Mesin ini memiliki meja periksa yang posisinya bisa disesuaikan agar dokter bisa mendapatkan hasil foto rontgen yang paling jelas untuk mendiagnosis penyakit.",
+            "source": "webview-import",
+            "sourceId": "2082",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mesin Rontgen",
+                    "content": "Untuk memotret struktur tulang dan organ dalam, tersedia perangkat radiologi statis bermerek Huestis Medical. Mesin ini memiliki meja periksa yang posisinya bisa disesuaikan agar dokter bisa mendapatkan hasil foto rontgen yang paling jelas untuk mendiagnosis penyakit."
+                },
+                "en": {
+                    "title": "Object 2082",
+                    "content": "Information for Object 2082."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2069",
+            "entityId": "objinfo2:2069",
+            "title": "Mesin CT Scan",
+            "aliases": [
+                "mesin ct scan",
+                "objek 2069"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Di ruangan ini terdapat mesin CT Scan merek Siemens tipe SOMATOM Perspective. Alat canggih ini berfungsi memotret organ dalam tubuh dengan sangat jelas dengan paparan radiasi yang aman. Pasien cukup berbaring di meja otomatisnya yang bisa bergerak dengan presisi, sehingga proses foto seluruh tubuh selesai dalam waktu singkat",
+            "source": "webview-import",
+            "sourceId": "2069",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mesin CT Scan",
+                    "content": "Di ruangan ini terdapat mesin CT Scan merek Siemens tipe SOMATOM Perspective. Alat canggih ini berfungsi memotret organ dalam tubuh dengan sangat jelas dengan paparan radiasi yang aman. Pasien cukup berbaring di meja otomatisnya yang bisa bergerak dengan presisi, sehingga proses foto seluruh tubuh selesai dalam waktu singkat"
+                },
+                "en": {
+                    "title": "Object 2069",
+                    "content": "Information for Object 2069."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2070",
+            "entityId": "objinfo2:2070",
+            "title": "Tempat Tidur Pasien Elektrik",
+            "aliases": [
+                "tempat tidur pasien elektrik",
+                "objek 2070"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Untuk kenyamanan di kamar rawat inap, pasien akan beristirahat menggunakan tempat tidur elektrik merek Paramount Bed. Ranjang yang kokoh ini dilengkapi tombol otomatis untuk mengatur tinggi rendahnya kasur dan kemiringan sandaran punggung, sehingga pasien merasa lebih nyaman dan mandiri selama masa pemulihan",
+            "source": "webview-import",
+            "sourceId": "2070",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tempat Tidur Pasien Elektrik",
+                    "content": "Untuk kenyamanan di kamar rawat inap, pasien akan beristirahat menggunakan tempat tidur elektrik merek Paramount Bed. Ranjang yang kokoh ini dilengkapi tombol otomatis untuk mengatur tinggi rendahnya kasur dan kemiringan sandaran punggung, sehingga pasien merasa lebih nyaman dan mandiri selama masa pemulihan"
+                },
+                "en": {
+                    "title": "Object 2070",
+                    "content": "Information for Object 2070."
+                }
+            }
+        }
+    ]
+}

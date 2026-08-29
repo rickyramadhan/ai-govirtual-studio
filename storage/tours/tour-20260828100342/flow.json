@@ -1,0 +1,151 @@
+{
+    "version": "1.0",
+    "tourId": "tour-20260828100342",
+    "tourName": "lawang sewu",
+    "updatedAt": "2026-08-29T07:45:41+02:00",
+    "startScene": "node39",
+    "order": [
+        "node39",
+        "node40",
+        "node41",
+        "node42",
+        "node43",
+        "node44",
+        "node45",
+        "node46",
+        "node47",
+        "node48",
+        "node49",
+        "node50",
+        "node51",
+        "node52",
+        "node53",
+        "node54",
+        "node55",
+        "node56",
+        "node57",
+        "node58",
+        "node59",
+        "node60",
+        "node61",
+        "node62",
+        "node63",
+        "node64",
+        "node65",
+        "node66",
+        "node67",
+        "node68",
+        "node69",
+        "node70",
+        "node71",
+        "node72",
+        "node73"
+    ],
+    "nodes": {
+        "node39": {
+            "displayName": "Sapi"
+        },
+        "node40": {
+            "displayName": "Ruangpameransejarah"
+        },
+        "node41": {
+            "displayName": "Galeriwarisan"
+        },
+        "node42": {
+            "displayName": "Maket"
+        },
+        "node43": {
+            "displayName": "Balkon Koridor"
+        },
+        "node44": {
+            "displayName": "Cetakbiru"
+        },
+        "node45": {
+            "displayName": "Gedungd"
+        },
+        "node46": {
+            "displayName": "Pintu Keluar"
+        },
+        "node47": {
+            "displayName": "Bekastembakan"
+        },
+        "node48": {
+            "displayName": "Struktur Atap Arsitektur"
+        },
+        "node49": {
+            "displayName": "Tokosuvenir"
+        },
+        "node50": {
+            "displayName": "main malam"
+        },
+        "node51": {
+            "displayName": "main siang"
+        },
+        "node52": {
+            "displayName": "default - night"
+        },
+        "node53": {
+            "displayName": "default - day"
+        },
+        "node54": {
+            "displayName": "default"
+        },
+        "node55": {
+            "displayName": "Balkon"
+        },
+        "node56": {
+            "displayName": "Foodcourt"
+        },
+        "node57": {
+            "displayName": "Pintumasuk"
+        },
+        "node58": {
+            "displayName": "Pintu Keluar"
+        },
+        "node59": {
+            "displayName": "Pintu Masuk"
+        },
+        "node60": {
+            "displayName": "Lokomotiflistrik"
+        },
+        "node61": {
+            "displayName": "Hallsiang"
+        },
+        "node62": {
+            "displayName": "Hallmalam"
+        },
+        "node63": {
+            "displayName": "Keretamalam"
+        },
+        "node64": {
+            "displayName": "Keretasiang"
+        },
+        "node65": {
+            "displayName": "Lorong Gedung"
+        },
+        "node66": {
+            "displayName": "Lorong Gedung"
+        },
+        "node67": {
+            "displayName": "Gedung E"
+        },
+        "node68": {
+            "displayName": "Koridor UMKM"
+        },
+        "node69": {
+            "displayName": "Koridor UMKM"
+        },
+        "node70": {
+            "displayName": "Galeri Museum Kereta Api"
+        },
+        "node71": {
+            "displayName": "Galeri Museum Kereta Api"
+        },
+        "node72": {
+            "displayName": "Galeri Museum Kereta Api"
+        },
+        "node73": {
+            "displayName": "Galeri Museum Kereta Api"
+        }
+    }
+}

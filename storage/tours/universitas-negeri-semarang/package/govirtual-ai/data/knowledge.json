@@ -1,0 +1,304 @@
+{
+    "version": 2,
+    "tourId": "universitas-negeri-semarang",
+    "updatedAt": "2026-08-29T07:11:20+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Universitas Negeri Semarang",
+            "aliases": [
+                "universitas negeri semarang"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "universitas-negeri-semarang"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Universitas Negeri Semarang.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Universitas Negeri Semarang",
+                    "content": "Pusat pengalaman virtual untuk Universitas Negeri Semarang."
+                },
+                "en": {
+                    "title": "Universitas Negeri Semarang",
+                    "content": "Pusat pengalaman virtual untuk Universitas Negeri Semarang."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Perpustakaan Rumah Ilmu",
+            "aliases": [
+                "perpustakaan rumah ilmu"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "universitas-negeri-semarang"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaan Rumah Ilmu",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Perpustakaan Rumah Ilmu",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Dekanat Fakultas Ekonomika dan Bisnis",
+            "aliases": [
+                "dekanat fakultas ekonomika dan bisnis"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "universitas-negeri-semarang"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Dekanat Fakultas Ekonomika dan Bisnis",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Dekanat Fakultas Ekonomika dan Bisnis",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "universitas-negeri-semarang"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1767",
+            "entityId": "objinfo2:1767",
+            "title": "Mobil Prototipe Hemat Energi",
+            "aliases": [
+                "mobil prototipe hemat energi",
+                "objek 1767"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Karya mahasiswa Tim Pandawa dari Universitas Negeri Semarang (UNNES) yang dirancang khusus untuk kompetisi internasional Shell Eco-marathon. Karya ini membuktikan dedikasi mahasiswa UNNES dalam riset efisiensi bahan bakar dan energi terbarukan, yang secara konsisten membawa nama Indonesia bersaing di papan atas kejuaraan efisiensi energi global baik di kategori mesin pembakaran dalam maupun motor listrik.",
+            "source": "webview-import",
+            "sourceId": "1767",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mobil Prototipe Hemat Energi",
+                    "content": "Karya mahasiswa Tim Pandawa dari Universitas Negeri Semarang (UNNES) yang dirancang khusus untuk kompetisi internasional Shell Eco-marathon. Karya ini membuktikan dedikasi mahasiswa UNNES dalam riset efisiensi bahan bakar dan energi terbarukan, yang secara konsisten membawa nama Indonesia bersaing di papan atas kejuaraan efisiensi energi global baik di kategori mesin pembakaran dalam maupun motor listrik."
+                },
+                "en": {
+                    "title": "Object 1767",
+                    "content": "Information for Object 1767."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1771",
+            "entityId": "objinfo2:1771",
+            "title": "Panjat Tebing",
+            "aliases": [
+                "panjat tebing",
+                "objek 1771"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas panjat tebing ini terdiri dari tiga bagian utama yang dirancang saling melengkapi untuk mengakomodasi berbagai disiplin pemanjatan dalam satu arena yang komprehensif. Berawal dari dinding kiri yang bersifat multifungsi untuk lintasan speed climbing sekaligus bouldering di bagian bawahnya, area ini kemudian tersambung dengan dinding tengah yang menyajikan profil paling menantang melalui struktur overhang (kemiringan menjorok keluar) untuk kebutuhan teknikal. Rangkaian fasilitas ini akhirnya ditutup oleh dinding kanan yang difokuskan secara khusus sebagai speed wall guna melatih ketangkasan panjat cepat secara optimal.",
+            "source": "webview-import",
+            "sourceId": "1771",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Panjat Tebing",
+                    "content": "Fasilitas panjat tebing ini terdiri dari tiga bagian utama yang dirancang saling melengkapi untuk mengakomodasi berbagai disiplin pemanjatan dalam satu arena yang komprehensif. Berawal dari dinding kiri yang bersifat multifungsi untuk lintasan speed climbing sekaligus bouldering di bagian bawahnya, area ini kemudian tersambung dengan dinding tengah yang menyajikan profil paling menantang melalui struktur overhang (kemiringan menjorok keluar) untuk kebutuhan teknikal. Rangkaian fasilitas ini akhirnya ditutup oleh dinding kanan yang difokuskan secara khusus sebagai speed wall guna melatih ketangkasan panjat cepat secara optimal."
+                },
+                "en": {
+                    "title": "Object 1771",
+                    "content": "Information for Object 1771."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1764",
+            "entityId": "objinfo2:1764",
+            "title": "Kios Layanan Mandiri",
+            "aliases": [
+                "kios layanan mandiri",
+                "objek 1764"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "sebuah kiosk layanan mandiri (self-service kiosk) milik Perpustakaan UNNES yang dirancang untuk mengotomatisasi transaksi peminjaman, pengembalian, dan perpanjangan koleksi pustaka.",
+            "source": "webview-import",
+            "sourceId": "1764",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kios Layanan Mandiri",
+                    "content": "sebuah kiosk layanan mandiri (self-service kiosk) milik Perpustakaan UNNES yang dirancang untuk mengotomatisasi transaksi peminjaman, pengembalian, dan perpanjangan koleksi pustaka."
+                },
+                "en": {
+                    "title": "Object 1764",
+                    "content": "Information for Object 1764."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1769",
+            "entityId": "objinfo2:1769",
+            "title": "BI Corner",
+            "aliases": [
+                "bi corner",
+                "objek 1769"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "BI Corner merupakan ruang baca khusus hasil kerja sama antara Bank Indonesia (BI) dengan UNNES. Fasilitas ini bertujuan untuk mengedukasi civitas akademika mengenai peran Bank Indonesia, serta meningkatkan literasi keuangan dan ekonomi.",
+            "source": "webview-import",
+            "sourceId": "1769",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "BI Corner",
+                    "content": "BI Corner merupakan ruang baca khusus hasil kerja sama antara Bank Indonesia (BI) dengan UNNES. Fasilitas ini bertujuan untuk mengedukasi civitas akademika mengenai peran Bank Indonesia, serta meningkatkan literasi keuangan dan ekonomi."
+                },
+                "en": {
+                    "title": "Object 1769",
+                    "content": "Information for Object 1769."
+                }
+            }
+        }
+    ]
+}

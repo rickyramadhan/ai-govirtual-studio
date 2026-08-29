@@ -1,0 +1,63 @@
+{
+    "version": "1.0",
+    "tourId": "green-fresh-farm",
+    "tourName": "Green Fresh Farm",
+    "updatedAt": "2026-08-29T07:45:39+02:00",
+    "startScene": "node56",
+    "order": [
+        "node56",
+        "node33",
+        "node35",
+        "node37",
+        "node39",
+        "node41",
+        "node43",
+        "node45",
+        "node47",
+        "node49",
+        "node51",
+        "node55",
+        "node57"
+    ],
+    "nodes": {
+        "node56": {
+            "displayName": "Area Utama"
+        },
+        "node33": {
+            "displayName": "Area Masuk"
+        },
+        "node35": {
+            "displayName": "Patung GFF"
+        },
+        "node37": {
+            "displayName": "Area Kandang Sapi"
+        },
+        "node39": {
+            "displayName": "Area Meja Edukasi"
+        },
+        "node41": {
+            "displayName": "Area Parkir"
+        },
+        "node43": {
+            "displayName": "Kandang Kambing"
+        },
+        "node45": {
+            "displayName": "Masuk Tempat Berfoto"
+        },
+        "node47": {
+            "displayName": "Area Bibit Tanaman"
+        },
+        "node49": {
+            "displayName": "Gazebo"
+        },
+        "node51": {
+            "displayName": "Peternakan Sapi dan Pendidikan"
+        },
+        "node55": {
+            "displayName": "Mini Zoo Playground"
+        },
+        "node57": {
+            "displayName": "Jambu Kristal"
+        }
+    }
+}

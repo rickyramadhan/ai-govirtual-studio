@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "sam-poo-kong",
+    "tourName": "Sam Poo Kong",
+    "updatedAt": "2026-08-29T07:22:51+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Patung Cheng Ho",
+                "query": "Berapa tinggi Patung Laksamana Ceng Ho yang ada di kompleks Sam Poo Kong ini?",
+                "desc": "Berapa tinggi Patung Laksamana Ceng Ho yang ada di kompleks Sam Poo Kong ini?"
+            },
+            {
+                "label": "Goa Sam Poo",
+                "query": "Apa fungsi utama dari Gedung Batu Sam Poo Kong dan Goa Sam Poo Tay Djien?",
+                "desc": "Apa fungsi utama dari Gedung Batu Sam Poo Kong dan Goa Sam Poo Tay Djien?"
+            },
+            {
+                "label": "Klenteng Jangkar",
+                "query": "Kisah apa di balik penyimpanan jangkar kuno di Klenteng Kiyai Jangkar?",
+                "desc": "Kisah apa di balik penyimpanan jangkar kuno di Klenteng Kiyai Jangkar?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Cheng Ho",
+                "query": "Bagaimana kisah awal kedatangan Laksamana Cheng Ho hingga terbentuknya kompleks Sam Poo Kong di Semarang?"
+            },
+            {
+                "label": "Goa & Gedung Batu",
+                "query": "Ceritakan tentang Goa Sam Poo Tay Djien yang menjadi situs pendaratan pertama Laksamana Cheng Ho."
+            },
+            {
+                "label": "Klenteng & Altar",
+                "query": "Ada apa saja di dalam Klenteng Kiyai Juru Mudi dan altar penghormatan Wang Jing Hong?"
+            },
+            {
+                "label": "Patung Raksasa",
+                "query": "Di mana letak persis Patung Laksamana Ceng Ho tertinggi di kompleks ini?"
+            },
+            {
+                "label": "Spot Foto Terbaik",
+                "query": "Di mana saja spot foto paling ikonik dan Instagramable di sekitar arsitektur merah Sam Poo Kong?"
+            },
+            {
+                "label": "Jam & Tiket",
+                "query": "Kapan jam kunjungan terbaik dan tips apa saja saat berkeliling di kawasan Sam Poo Kong?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa arti penting sejarah Laksamana Cheng Ho di situs Sam Poo Kong?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Bagaimana sejarah penamaan Sam Poo Kong dan Goa Sam Poo Tay Djien?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa saja spot ikonik seperti Patung Laksamana Ceng Ho dan Klenteng Kiyai Jangkar yang wajib dilihat?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana rute terbaik untuk menjelajahi area Gedung Batu hingga Plaza Utama di tur ini?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

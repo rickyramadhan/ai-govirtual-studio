@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "masjid-agung-jawa-tengah",
+    "tourName": "Masjid Agung Jawa Tengah",
+    "updatedAt": "2026-08-29T07:22:40+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Payung Hidrolik",
+                "query": "Bagaimana cara kerja Payung Hidrolik MAJT yang mirip di Madinah?",
+                "desc": "Bagaimana cara kerja Payung Hidrolik MAJT yang mirip di Madinah?"
+            },
+            {
+                "label": "Menara Al-Husna",
+                "query": "Bisa ceritakan tentang Menara Masjid Agung Jawa Tengah setinggi 99 meter ini?",
+                "desc": "Bisa ceritakan tentang Menara Masjid Agung Jawa Tengah setinggi 99 meter ini?"
+            },
+            {
+                "label": "Bedug Raksasa",
+                "query": "Di mana letak Bedug Raksasa MAJT atau Bedug Ijo buatan santri Banyumas?",
+                "desc": "Di mana letak Bedug Raksasa MAJT atau Bedug Ijo buatan santri Banyumas?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Payung Hidrolik",
+                "query": "Bagaimana spesifikasi dan fungsi enam Payung Hidrolik MAJT di halaman utama?"
+            },
+            {
+                "label": "Mushaf Akbar",
+                "query": "Di mana saya bisa melihat Mushaf Akbar tulisan tangan karya Drs. Hayat?"
+            },
+            {
+                "label": "Replika Ka'bah",
+                "query": "Bagaimana bentuk Replika Ka'bah dan area manasik haji di kompleks masjid ini?"
+            },
+            {
+                "label": "Menara Al-Husna",
+                "query": "Apa saja yang bisa dilihat dari atas Menara Masjid Agung Jawa Tengah?"
+            },
+            {
+                "label": "Arsitektur Mimbar",
+                "query": "Apa filosofi di balik desain terbuka Mimbar Masjid Agung Jawa Tengah?"
+            },
+            {
+                "label": "Batu Pembangunan",
+                "query": "Di mana prasasti Batu Pembangunan MAJT yang ditandatangani presiden berada?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa saja daya tarik utama yang wajib dikunjungi di Masjid Agung Jawa Tengah?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana sejarah dan latar belakang berdirinya Masjid Agung Jawa Tengah?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Bagaimana cara menavigasi tur virtual untuk melihat area pelataran dan ruang sholat?",
+                "intent": "NAVIGATION"
+            },
+            {
+                "q": "Ceritakan ringkasan deskripsi dan keunikan arsitektur Masjid Agung Jawa Tengah.",
+                "intent": "TOUR_DESCRIPTION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

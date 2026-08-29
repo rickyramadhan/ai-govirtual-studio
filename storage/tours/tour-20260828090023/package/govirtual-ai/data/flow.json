@@ -1,0 +1,111 @@
+{
+    "version": "1.0",
+    "tourId": "tour-20260828090023",
+    "tourName": "Sandi Buana",
+    "updatedAt": "2026-08-29T07:45:41+02:00",
+    "startScene": "node43",
+    "order": [
+        "node43",
+        "node44",
+        "node45",
+        "node46",
+        "node47",
+        "node48",
+        "node49",
+        "node50",
+        "node51",
+        "node52",
+        "node54",
+        "node55",
+        "node56",
+        "node57",
+        "node58",
+        "node59",
+        "node60",
+        "node61",
+        "node62",
+        "node63",
+        "node64",
+        "node65",
+        "node66",
+        "node67",
+        "node68"
+    ],
+    "nodes": {
+        "node43": {
+            "displayName": "Pesawahan"
+        },
+        "node44": {
+            "displayName": "Drone Sandi Buana Farm"
+        },
+        "node45": {
+            "displayName": "Drone Sandi Buana Farm"
+        },
+        "node46": {
+            "displayName": "Bbq"
+        },
+        "node47": {
+            "displayName": "Panggung"
+        },
+        "node48": {
+            "displayName": "Cafe Garden"
+        },
+        "node49": {
+            "displayName": "Cafe Garden"
+        },
+        "node50": {
+            "displayName": "Cafe Garden"
+        },
+        "node51": {
+            "displayName": "Closing"
+        },
+        "node52": {
+            "displayName": "Area Hidroponik Buah"
+        },
+        "node54": {
+            "displayName": "Penggilingan Padi"
+        },
+        "node55": {
+            "displayName": "Hidroponik Buah"
+        },
+        "node56": {
+            "displayName": "Area Hidroponik Buah"
+        },
+        "node57": {
+            "displayName": "Melon"
+        },
+        "node58": {
+            "displayName": "Hidroponik Sayur"
+        },
+        "node59": {
+            "displayName": "Hidroponik Buah"
+        },
+        "node60": {
+            "displayName": "Selada"
+        },
+        "node61": {
+            "displayName": "Area Pembibitan Tanaman"
+        },
+        "node62": {
+            "displayName": "Area Peremajaan Tanaman"
+        },
+        "node63": {
+            "displayName": "Sapi"
+        },
+        "node64": {
+            "displayName": "Kandang Kambing"
+        },
+        "node65": {
+            "displayName": "Musholla"
+        },
+        "node66": {
+            "displayName": "Penggilingan Padi"
+        },
+        "node67": {
+            "displayName": "Mesin"
+        },
+        "node68": {
+            "displayName": "Area Sawah"
+        }
+    }
+}

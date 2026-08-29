@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "balaikota-semarang",
+    "tourName": "Balaikota Semarang",
+    "updatedAt": "2026-08-29T07:22:25+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Gaya Arsitektur Kantor Wali Kota",
+                "query": "Bagaimana ciri khas gaya arsitektur Yunani-Romawi pada gedung Kantor Wali Kota Semarang?",
+                "desc": "Bagaimana ciri khas gaya arsitektur Yunani-Romawi pada gedung Kantor Wali Kota Semarang?"
+            },
+            {
+                "label": "Fungsi Situation Room",
+                "query": "Apa saja kecanggihan pusat komando Smart City di Situation Room Balai Kota Semarang?",
+                "desc": "Apa saja kecanggihan pusat komando Smart City di Situation Room Balai Kota Semarang?"
+            },
+            {
+                "label": "Sejarah Gedung Moch. Ichsan",
+                "query": "Siapa sosok pahlawan dan mantan wali kota yang diabadikan pada nama Gedung Moch. Ichsan?",
+                "desc": "Siapa sosok pahlawan dan mantan wali kota yang diabadikan pada nama Gedung Moch. Ichsan?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Gedung DPRD",
+                "query": "Bagaimana kemegahan fasad klasik dan pilar-pilar besar di Gedung DPRD Kota Semarang?"
+            },
+            {
+                "label": "Aula Loka Krida",
+                "query": "Bagaimana fasilitas dan kapasitas ruang serbaguna Aula Loka Krida di Lantai 8 Gedung Moch. Ichsan?"
+            },
+            {
+                "label": "Pelayanan Perpajakan",
+                "query": "Jenis pajak daerah apa saja yang bisa diurus melalui unit Pelayanan Perpajakan Bapenda?"
+            },
+            {
+                "label": "Dinas Kominfo",
+                "query": "Bagaimana peran Dinas Kominfo dalam mengelola ekosistem Smart City di Kota Semarang?"
+            },
+            {
+                "label": "Masjid Balai Kota",
+                "query": "Di mana lokasi Masjid Balai Kota Semarang dalam area kompleks perkantoran ini?"
+            },
+            {
+                "label": "Jam Kunjungan",
+                "query": "Kapan waktu operasional dan jam terbaik untuk berkunjung ke kompleks Balaikota Semarang?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa saja fasilitas utama yang ada di kompleks Balaikota Semarang seluas 1,1 hektare ini?",
+                "intent": "TOUR_DESCRIPTION"
+            },
+            {
+                "q": "Bagaimana sejarah penamaan Kantor Wali Kota Semarang dan Gedung Moch. Ichsan?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa saja spot menarik yang bisa dikunjungi saat menjelajahi tur virtual Balaikota Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana rute terbaik untuk menjelajahi area Gedung DPRD hingga Situation Room di tur ini?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

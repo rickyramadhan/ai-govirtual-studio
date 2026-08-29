@@ -1,0 +1,350 @@
+{
+    "version": 2,
+    "tourId": "kota-lama",
+    "updatedAt": "2026-08-29T07:11:19+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kota Lama",
+            "aliases": [
+                "kota lama"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kota Lama.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kota Lama",
+                    "content": "Pusat pengalaman virtual untuk Kota Lama."
+                },
+                "en": {
+                    "title": "Kota Lama",
+                    "content": "Pusat pengalaman virtual untuk Kota Lama."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Taman Sri Gunting",
+            "aliases": [
+                "taman sri gunting"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Taman Sri Gunting",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Taman Sri Gunting",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Patung Soekarno",
+            "aliases": [
+                "patung soekarno"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Patung Soekarno",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Patung Soekarno",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kota-lama"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1284",
+            "entityId": "objinfo2:1284",
+            "title": "Gedung Marba",
+            "aliases": [
+                "gedung marba",
+                "objek 1284"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung Marba Bangunan merah bata ini didirikan pada abad ke-19 oleh Marta Badjunet, seorang saudagar kaya asal Yaman. Dahulu berfungsi sebagai kantor usaha dan toko modern (de warenhuis), gedung ini kini menjadi ikon fotografi karena fasadnya yang eksotis.",
+            "source": "webview-import",
+            "sourceId": "1284",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung Marba",
+                    "content": "Gedung Marba Bangunan merah bata ini didirikan pada abad ke-19 oleh Marta Badjunet, seorang saudagar kaya asal Yaman. Dahulu berfungsi sebagai kantor usaha dan toko modern (de warenhuis), gedung ini kini menjadi ikon fotografi karena fasadnya yang eksotis."
+                },
+                "en": {
+                    "title": "Object 1284",
+                    "content": "Information for Object 1284."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1283",
+            "entityId": "objinfo2:1283",
+            "title": "Patung Ir. Soekarno",
+            "aliases": [
+                "patung ir. soekarno",
+                "objek 1283"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung Ir. Soekarno Patung Soekarno di Polder Stasiun Tawang, Semarang, memiliki total ketinggian 18,5 meter. Patung yang diresmikan pada akhir 2021 ini terdiri dari sosok patung setinggi 14,5 meter dan alas atau penyangga setinggi 4 meter. Patung berbahan tembaga karya seniman Ketut Winata ini menjadi ikon wisata baru di kawasan Kota Lama Semarang.",
+            "source": "webview-import",
+            "sourceId": "1283",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Ir. Soekarno",
+                    "content": "Patung Ir. Soekarno Patung Soekarno di Polder Stasiun Tawang, Semarang, memiliki total ketinggian 18,5 meter. Patung yang diresmikan pada akhir 2021 ini terdiri dari sosok patung setinggi 14,5 meter dan alas atau penyangga setinggi 4 meter. Patung berbahan tembaga karya seniman Ketut Winata ini menjadi ikon wisata baru di kawasan Kota Lama Semarang."
+                },
+                "en": {
+                    "title": "Object 1283",
+                    "content": "Information for Object 1283."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1292",
+            "entityId": "objinfo2:1292",
+            "title": "Lokomotif Fried Krupp D30159",
+            "aliases": [
+                "lokomotif fried krupp d30159",
+                "objek 1292"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lokomotif Fried Krupp D30159 Monumen lokomotif diesel Jerman Fried Krupp D30159 adalah monument kereta api yang dipajang untuk menjaga kelestarian sejarah lokomotif bersejarah, serta menjadi daya tarik dan ikon baru bagi Kota Semarang.",
+            "source": "webview-import",
+            "sourceId": "1292",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lokomotif Fried Krupp D30159",
+                    "content": "Lokomotif Fried Krupp D30159 Monumen lokomotif diesel Jerman Fried Krupp D30159 adalah monument kereta api yang dipajang untuk menjaga kelestarian sejarah lokomotif bersejarah, serta menjadi daya tarik dan ikon baru bagi Kota Semarang."
+                },
+                "en": {
+                    "title": "Object 1292",
+                    "content": "Information for Object 1292."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1291",
+            "entityId": "objinfo2:1291",
+            "title": "Bangunan Spiegel",
+            "aliases": [
+                "bangunan spiegel",
+                "objek 1291"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan Spiegel Didirikan pada tahun 1895 oleh Herman Spiegel, gedung ini awalnya berfungsi sebagai toko serba ada (Winkel Maatschappij Spiegel) yang menjual barang-barang mewah impor. Bangunan ini merupakan salah satu contoh terbaik pemugaran cagar budaya yang berhasil menghidupkan kembali fungsi ekonomi di Kota Lama.",
+            "source": "webview-import",
+            "sourceId": "1291",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bangunan Spiegel",
+                    "content": "Bangunan Spiegel Didirikan pada tahun 1895 oleh Herman Spiegel, gedung ini awalnya berfungsi sebagai toko serba ada (Winkel Maatschappij Spiegel) yang menjual barang-barang mewah impor. Bangunan ini merupakan salah satu contoh terbaik pemugaran cagar budaya yang berhasil menghidupkan kembali fungsi ekonomi di Kota Lama."
+                },
+                "en": {
+                    "title": "Object 1291",
+                    "content": "Information for Object 1291."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1285",
+            "entityId": "objinfo2:1285",
+            "title": "Gereja Blenduk",
+            "aliases": [
+                "gereja blenduk",
+                "objek 1285"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gereja Blenduk (GPIB Immanuel) Dibangun pada 1753, gereja tertua di Jawa Tengah ini memiliki ciri khas kubah besar berlapis tembaga yang menyerupai bentuk membulat (blenduk). Arsitekturnya yang bergaya Neo-Klasik menjadikannya simbol utama serta titik pusat dari kawasan Kota Lama.",
+            "source": "webview-import",
+            "sourceId": "1285",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gereja Blenduk",
+                    "content": "Gereja Blenduk (GPIB Immanuel) Dibangun pada 1753, gereja tertua di Jawa Tengah ini memiliki ciri khas kubah besar berlapis tembaga yang menyerupai bentuk membulat (blenduk). Arsitekturnya yang bergaya Neo-Klasik menjadikannya simbol utama serta titik pusat dari kawasan Kota Lama."
+                },
+                "en": {
+                    "title": "Blenduk Church",
+                    "content": "Blenduk Church (GPIB Immanuel) Built in 1753, this is the oldest church in Central Java, featuring a distinctive large copper-covered dome shaped like a rounded “blenduk.” Its Neo-Classical architecture makes it a key symbol and focal point of the Old Town area."
+                },
+                "zh": {
+                    "title": "布伦杜克教堂",
+                    "content": "布伦杜克教堂（GPIB Immanuel）建于1753年，是中爪哇最古老的教堂，特色是大型铜质圆顶（blenduk）。其新古典主义建筑风格使其成为老城区的主要象征和中心地标。"
+                },
+                "ar": {
+                    "title": "كنيسة بليندوك",
+                    "content": "كنيسة بليندوك (GPIB Immanuel) بُنيت عام 1753، وهي أقدم كنيسة في جاوة الوسطى، وتتميز بقبة كبيرة مغطاة بالنحاس على شكل دائري (blenduk). هندستها المعمارية النيوكلاسيكية تجعلها رمزًا رئيسيًا ونقطة محورية لمنطقة المدينة القديمة."
+                }
+            }
+        }
+    ]
+}

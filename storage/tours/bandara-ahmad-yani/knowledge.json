@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "bandara-ahmad-yani",
+    "updatedAt": "2026-08-29T07:11:19+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Bandara Ahmad Yani",
+            "aliases": [
+                "bandara ahmad yani"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "bandara-ahmad-yani"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Bandara Ahmad Yani.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Bandara Ahmad Yani",
+                    "content": "Pusat pengalaman virtual untuk Bandara Ahmad Yani."
+                },
+                "en": {
+                    "title": "Bandara Ahmad Yani",
+                    "content": "Pusat pengalaman virtual untuk Bandara Ahmad Yani."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Keberangkatan Internasional",
+            "aliases": [
+                "keberangkatan internasional"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "bandara-ahmad-yani"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Keberangkatan Internasional",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Keberangkatan Internasional",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Area Publik Penumpang",
+            "aliases": [
+                "area publik penumpang"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "bandara-ahmad-yani"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Publik Penumpang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Area Publik Penumpang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "bandara-ahmad-yani"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1376",
+            "entityId": "objinfo2:1376",
+            "title": "Layanan Bea Cukai",
+            "aliases": [
+                "layanan bea cukai",
+                "objek 1376"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas Layanan Imigrasi ini difungsikan untuk memfasilitasi kebutuhan administrasi dan pemeriksaan dokumen keimigrasian secara terpadu bagi para penumpang maupun masyarakat umum. Kehadiran layanan ini memberikan keunggulan berupa efisiensi waktu dan kemudahan akses, sehingga pengguna jasa bandara dapat mengurus keperluan seperti paspor tanpa harus menempuh perjalanan jauh ke kantor imigrasi di pusat kota.",
+            "source": "webview-import",
+            "sourceId": "1376",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Layanan Bea Cukai",
+                    "content": "Fasilitas Layanan Imigrasi ini difungsikan untuk memfasilitasi kebutuhan administrasi dan pemeriksaan dokumen keimigrasian secara terpadu bagi para penumpang maupun masyarakat umum. Kehadiran layanan ini memberikan keunggulan berupa efisiensi waktu dan kemudahan akses, sehingga pengguna jasa bandara dapat mengurus keperluan seperti paspor tanpa harus menempuh perjalanan jauh ke kantor imigrasi di pusat kota."
+                },
+                "en": {
+                    "title": "Customs Services",
+                    "content": "This Immigration Service facility is designed to accommodate integrated administrative needs and immigration document verification for passengers and the general public. Its presence offers the advantage of time efficiency and easy access, allowing airport users to process matters such as passports without having to travel far to immigration offices in the city center."
+                },
+                "zh": {
+                    "title": "海关服务",
+                    "content": "该移民服务设施旨在为旅客及公众提供一体化的行政办理和出入境文件审核服务。该服务的存在提升了时间效率和便利性，使机场用户无需前往市中心移民局即可办理如护照等事务。"
+                },
+                "ar": {
+                    "title": "خدمات الجمارك",
+                    "content": "نسخة الجمالان ورقص جاوي"
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1383",
+            "entityId": "objinfo2:1383",
+            "title": "Pengambilan Bagasi",
+            "aliases": [
+                "pengambilan bagasi",
+                "objek 1383"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Terletak di area kedatangan, fasilitas ini dilengkapi dengan conveyor belt otomatis untuk mendistribusikan koper penumpang dari pesawat. Area ini dipantau ketat secara visual dan keamanan guna memastikan setiap barang sampai ke tangan pemilik yang sah.",
+            "source": "webview-import",
+            "sourceId": "1383",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pengambilan Bagasi",
+                    "content": "Terletak di area kedatangan, fasilitas ini dilengkapi dengan conveyor belt otomatis untuk mendistribusikan koper penumpang dari pesawat. Area ini dipantau ketat secara visual dan keamanan guna memastikan setiap barang sampai ke tangan pemilik yang sah."
+                },
+                "en": {
+                    "title": "Baggage Claim",
+                    "content": "Located in the arrivals area, this facility is equipped with an automatic conveyor belt to distribute passengers’ luggage from the aircraft. The area is closely monitored visually and for security to ensure every item reaches its rightful owner."
+                },
+                "zh": {
+                    "title": "行李领取区",
+                    "content": "该设施位于到达区，配备自动输送带，用于分发乘客从飞机下来的行李。该区域通过视觉和安全措施严格监控，以确保每件物品都送到合法拥有者手中。"
+                },
+                "ar": {
+                    "title": "استلام الأمتعة",
+                    "content": "يقع في منطقة الوصول، هذه المرافق مزودة بحزام ناقل أوتوماتيكي لتوزيع أمتعة الركاب من الطائرة. يتم مراقبة المنطقة عن كثب بصريًا وأمنيًا لضمان وصول كل قطعة إلى صاحبها الشرعي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1387",
+            "entityId": "objinfo2:1387",
+            "title": "Pojok Baca",
+            "aliases": [
+                "pojok baca",
+                "objek 1387"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas literasi ini menyediakan berbagai koleksi buku fisik maupun akses digital bagi penumpang yang ingin mengisi waktu tunggu dengan membaca. Area ini didesain tenang dan nyaman, menjadikannya oase bagi pecinta buku di tengah hiruk-pikuk suasana bandara.",
+            "source": "webview-import",
+            "sourceId": "1387",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pojok Baca",
+                    "content": "Fasilitas literasi ini menyediakan berbagai koleksi buku fisik maupun akses digital bagi penumpang yang ingin mengisi waktu tunggu dengan membaca. Area ini didesain tenang dan nyaman, menjadikannya oase bagi pecinta buku di tengah hiruk-pikuk suasana bandara."
+                },
+                "en": {
+                    "title": "Reading Corner",
+                    "content": "This literacy facility offers a variety of physical books as well as digital access for passengers who want to spend their waiting time reading. The area is designed to be quiet and comfortable, making it an oasis for book lovers amidst the bustling airport environment."
+                },
+                "zh": {
+                    "title": "阅读角",
+                    "content": "该阅读设施提供多种纸质书籍及数字访问，供希望在等候时间阅读的乘客使用。该区域设计安静舒适，是书迷在繁忙机场环境中的一片绿洲。"
+                },
+                "ar": {
+                    "title": "ركن القراءة",
+                    "content": "توفر هذه المرافق الأدبية مجموعة متنوعة من الكتب المطبوعة وكذلك الوصول الرقمي للركاب الذين يرغبون في قضاء وقت الانتظار في القراءة. تم تصميم المنطقة لتكون هادئة ومريحة، مما يجعلها واحة لعشاق الكتب وسط صخب المطار."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1381",
+            "entityId": "objinfo2:1381",
+            "title": "Area Publik Penumpang",
+            "aliases": [
+                "area publik penumpang",
+                "objek 1381"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area Publik Penumpang dirancang sebagai ruang tunggu terbuka komprehensif yang mengakomodasi titik kumpul serta area istirahat bagi para calon penumpang maupun pengantar. Keunggulan dari area ini terletak pada perannya dalam memaksimalkan kenyamanan pengunjung melalui penyediaan ruang transit yang luas, terintegrasi langsung dengan akses informasi bandara, dan dilengkapi fasilitas pendukung lainnya.",
+            "source": "webview-import",
+            "sourceId": "1381",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Publik Penumpang",
+                    "content": "Area Publik Penumpang dirancang sebagai ruang tunggu terbuka komprehensif yang mengakomodasi titik kumpul serta area istirahat bagi para calon penumpang maupun pengantar. Keunggulan dari area ini terletak pada perannya dalam memaksimalkan kenyamanan pengunjung melalui penyediaan ruang transit yang luas, terintegrasi langsung dengan akses informasi bandara, dan dilengkapi fasilitas pendukung lainnya."
+                },
+                "en": {
+                    "title": "Passenger Public Area",
+                    "content": "The Passenger Public Area is designed as a comprehensive open waiting space that accommodates gathering points and rest areas for passengers and their companions. Its main advantage lies in maximizing visitor comfort by providing a spacious transit area, directly integrated with airport information access and equipped with supporting facilities."
+                },
+                "zh": {
+                    "title": "旅客公共区域",
+                    "content": "旅客公共区域被设计为一个综合性的开放候车空间，可容纳乘客及送行人员的集合与休息需求。该区域通过提供宽敞的过渡空间，并与机场信息系统直接连接，同时配备多种配套设施，从而最大化提升访客的舒适度。"
+                },
+                "ar": {
+                    "title": "منطقة الركاب العامة",
+                    "content": "تم تصميم منطقة الركاب العامة كمساحة انتظار مفتوحة شاملة تستوعب نقاط التجمع ومناطق الاستراحة للمسافرين والمرافقين. وتكمن ميزتها في تعزيز راحة الزوار من خلال توفير مساحة انتقال واسعة ومتكاملة مع معلومات المطار، بالإضافة إلى تجهيزها بمرافق داعمة متنوعة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1379",
+            "entityId": "objinfo2:1379",
+            "title": "Loket Check In",
+            "aliases": [
+                "loket check in",
+                "objek 1379"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini merupakan tempat penumpang melakukan verifikasi dokumen perjalanan, pemilihan kursi, serta penimbangan bagasi sebelum keberangkatan. Sistem di loket ini sudah terintegrasi secara digital untuk mempercepat proses pelaporan mandiri maupun bantuan staf maskapai.",
+            "source": "webview-import",
+            "sourceId": "1379",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Loket Check In",
+                    "content": "Area ini merupakan tempat penumpang melakukan verifikasi dokumen perjalanan, pemilihan kursi, serta penimbangan bagasi sebelum keberangkatan. Sistem di loket ini sudah terintegrasi secara digital untuk mempercepat proses pelaporan mandiri maupun bantuan staf maskapai."
+                },
+                "en": {
+                    "title": "Check-In Counter",
+                    "content": "This area serves as the place where passengers verify travel documents, select seats, and weigh baggage before departure. The counter system is digitally integrated to expedite self-service reporting as well as assistance from airline staff."
+                },
+                "zh": {
+                    "title": "值机柜台",
+                    "content": "该区域是乘客在出发前进行旅行文件核查、座位选择和行李称重的地方。柜台系统已实现数字化整合，以加快自助报到和航空公司工作人员协助的流程。"
+                },
+                "ar": {
+                    "title": "مكتب تسجيل الوصول",
+                    "content": "تُعد هذه المنطقة المكان الذي يتحقق فيه الركاب من وثائق السفر، يختارون المقاعد، ويزنون الأمتعة قبل المغادرة. النظام في المكتب متكامل رقميًا لتسريع عملية الإبلاغ الذاتي وكذلك الحصول على مساعدة موظفي الخطوط الجوية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1384",
+            "entityId": "objinfo2:1384",
+            "title": "Konter Taksi",
+            "aliases": [
+                "konter taksi",
+                "objek 1384"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Layanan transportasi darat resmi ini terletak di pintu keluar kedatangan untuk memudahkan penumpang melanjutkan perjalanan ke pusat kota. Penumpang dapat melakukan pemesanan secara transparan dengan tarif yang sudah ditentukan berdasarkan zona tujuan.",
+            "source": "webview-import",
+            "sourceId": "1384",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Konter Taksi",
+                    "content": "Layanan transportasi darat resmi ini terletak di pintu keluar kedatangan untuk memudahkan penumpang melanjutkan perjalanan ke pusat kota. Penumpang dapat melakukan pemesanan secara transparan dengan tarif yang sudah ditentukan berdasarkan zona tujuan."
+                },
+                "en": {
+                    "title": "Taxi Counter",
+                    "content": "This official ground transportation service is located at the arrivals exit to facilitate passengers traveling to the city center. Passengers can book rides transparently with fares predetermined based on destination zones."
+                },
+                "zh": {
+                    "title": "出租车服务台",
+                    "content": "该官方陆上交通服务位于到达出口，方便乘客前往市中心。乘客可以根据目的地分区透明地预订车程，费用已预先确定。"
+                },
+                "ar": {
+                    "title": "مكتب سيارات الأجرة",
+                    "content": "توجد خدمة النقل البري الرسمية هذه عند مخرج الوصول لتسهيل انتقال الركاب إلى وسط المدينة. يمكن للركاب حجز الرحلات بشكل شفاف مع تحديد الأسعار مسبقًا حسب مناطق الوجهة."
+                }
+            }
+        }
+    ]
+}

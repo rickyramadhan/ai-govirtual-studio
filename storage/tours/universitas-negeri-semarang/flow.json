@@ -1,0 +1,107 @@
+{
+    "version": "1.0",
+    "tourId": "universitas-negeri-semarang",
+    "tourName": "Universitas Negeri Semarang",
+    "updatedAt": "2026-08-29T07:45:41+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node24",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Perpustakaan Rumah Ilmu"
+        },
+        "node2": {
+            "displayName": "Dekanat Fakultas Ekonomika dan Bisnis"
+        },
+        "node3": {
+            "displayName": "Fakultas Ilmu Keolahragaan"
+        },
+        "node24": {
+            "displayName": "Video360 1"
+        },
+        "node4": {
+            "displayName": "Drone Utama"
+        },
+        "node5": {
+            "displayName": "Wall Climbing"
+        },
+        "node6": {
+            "displayName": "Perpustakaan Rumah Ilmu"
+        },
+        "node7": {
+            "displayName": "Ruang Kelas"
+        },
+        "node8": {
+            "displayName": "Dekanat Fakultas Ekonomika dan Bisnis"
+        },
+        "node9": {
+            "displayName": "Fakultas Politik & Ilmu Sosial"
+        },
+        "node10": {
+            "displayName": "Dekanat Fakultas Bahasa dan Seni"
+        },
+        "node11": {
+            "displayName": "Gedung Bahasa & Seni"
+        },
+        "node12": {
+            "displayName": "LP3"
+        },
+        "node13": {
+            "displayName": "Pintu Keluar"
+        },
+        "node14": {
+            "displayName": "LPPM"
+        },
+        "node15": {
+            "displayName": "Lembaga Penelitian dan Pengabdian kepada Masyarakat"
+        },
+        "node16": {
+            "displayName": "Gedung LP3 UNNES"
+        },
+        "node17": {
+            "displayName": "BI Corner"
+        },
+        "node18": {
+            "displayName": "Perpustakaan"
+        },
+        "node19": {
+            "displayName": "Perpustakaan"
+        },
+        "node20": {
+            "displayName": "Pintu Keluar"
+        },
+        "node21": {
+            "displayName": "Pintu Masuk"
+        },
+        "node22": {
+            "displayName": "Rektorat"
+        },
+        "node23": {
+            "displayName": "Perpustakaan Rumah Ilmu"
+        }
+    }
+}

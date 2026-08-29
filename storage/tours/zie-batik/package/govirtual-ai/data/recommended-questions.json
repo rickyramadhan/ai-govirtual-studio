@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "zie-batik",
+    "tourName": "Zie Batik",
+    "updatedAt": "2026-08-29T07:23:05+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Tentang Zie Batik",
+                "query": "Bagaimana sejarah dan latar belakang berdirinya Zie Batik di Semarang ini?",
+                "desc": "Bagaimana sejarah dan latar belakang berdirinya Zie Batik di Semarang ini?"
+            },
+            {
+                "label": "Fungsi Canting",
+                "query": "Bagaimana cara kerja canting saat digunakan untuk melukis kain mori di sini?",
+                "desc": "Bagaimana cara kerja canting saat digunakan untuk melukis kain mori di sini?"
+            },
+            {
+                "label": "Jam Kunjungan",
+                "query": "Kapan jam operasional terbaik untuk merencanakan kunjungan langsung ke Zie Batik?",
+                "desc": "Kapan jam operasional terbaik untuk merencanakan kunjungan langsung ke Zie Batik?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Area Produksi",
+                "query": "Apa saja aktivitas menarik yang bisa dilihat langsung di Area Produksi Zie Batik?"
+            },
+            {
+                "label": "Kain Mori",
+                "query": "Apa keistimewaan kain mori yang digunakan sebagai bahan dasar membatik di sini?"
+            },
+            {
+                "label": "Spot Musholla",
+                "query": "Bagaimana kondisi dan letak area Musholla yang ada di kawasan Zie Batik ini?"
+            },
+            {
+                "label": "Galeri & Objek",
+                "query": "Apa saja koleksi menarik yang dipamerkan pada Objek 1041 dan Galeri Zie Batik?"
+            },
+            {
+                "label": "Greenhouse",
+                "query": "Apa fungsi dari area Greenhouse yang terhubung dalam jalur eksplorasi tur virtual ini?"
+            },
+            {
+                "label": "Rute Tur",
+                "query": "Bagaimana rute terbaik untuk menjelajahi semua titik panorama dari Area Awal hingga Area Utama?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Bagaimana asal usul nama Zie Batik dipilih sebagai identitas destinasi ini?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa saja highlight utama dan spot favorit yang wajib dilihat saat menjelajahi Zie Batik?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana sejarah perkembangan industri batik di kawasan Zie Batik ini dari masa ke masa?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Bagaimana cara menavigasi peta virtual untuk berpindah dari Area Produksi menuju Galeri?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "version": "1.0",
+    "tourId": "stasiun-tawang",
+    "tourName": "Stasiun Tawang",
+    "updatedAt": "2026-08-29T07:45:41+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node25",
+        "node3",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node16",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node24"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Area Tunggu Keberangkatan"
+        },
+        "node2": {
+            "displayName": "Drone Tawang"
+        },
+        "node25": {
+            "displayName": "Video360 1"
+        },
+        "node3": {
+            "displayName": "Stasiun Tawang"
+        },
+        "node6": {
+            "displayName": "Pelayanan Pelanggan"
+        },
+        "node7": {
+            "displayName": "Depan Gerbong"
+        },
+        "node8": {
+            "displayName": "Depan Peron"
+        },
+        "node9": {
+            "displayName": "Area Keberangkatan"
+        },
+        "node10": {
+            "displayName": "Lobby Keberangkatan"
+        },
+        "node11": {
+            "displayName": "Area Keberangkatan"
+        },
+        "node12": {
+            "displayName": "Area Ticketing"
+        },
+        "node13": {
+            "displayName": "Gerbang Keluar"
+        },
+        "node14": {
+            "displayName": "Gerbang Keluar"
+        },
+        "node16": {
+            "displayName": "Masjid Al-Istiqomah"
+        },
+        "node17": {
+            "displayName": "Pintu Keluar"
+        },
+        "node18": {
+            "displayName": "Lokomotif"
+        },
+        "node19": {
+            "displayName": "Pintu Masuk"
+        },
+        "node20": {
+            "displayName": "Ruang Luxury"
+        },
+        "node21": {
+            "displayName": "Ruang Tunggu Luxury"
+        },
+        "node22": {
+            "displayName": "Ruang Tunggu"
+        },
+        "node23": {
+            "displayName": "Smoking Area"
+        },
+        "node24": {
+            "displayName": "Teras"
+        }
+    }
+}

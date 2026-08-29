@@ -1,0 +1,503 @@
+{
+    "startNode": "node6",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Area Produksi",
+            "displayName": "Area Produksi",
+            "rawName": "default",
+            "customNodeId": "",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Area Membatik",
+            "displayName": "Area Membatik",
+            "rawName": "",
+            "customNodeId": "areamembatik",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "areamembatik"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Zie Batik",
+            "displayName": "Zie Batik",
+            "rawName": "",
+            "customNodeId": "-ie-atik",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "Zie Batik"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Zie Batik",
+            "displayName": "Zie Batik",
+            "rawName": "",
+            "customNodeId": "-ie-atik",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "Zie Batik"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Area Awal",
+            "displayName": "Area Awal",
+            "rawName": "",
+            "customNodeId": "awal",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "awal"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Galeri",
+            "displayName": "Galeri",
+            "rawName": "",
+            "customNodeId": "galeri",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "galeri"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Area Utama",
+            "displayName": "Area Utama",
+            "rawName": "",
+            "customNodeId": "",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node9",
+            "name": "Greenhouse",
+            "displayName": "Greenhouse",
+            "rawName": "",
+            "customNodeId": "greenhouse",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "greenhouse"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "mushola",
+            "tags": [
+                "ZieBatik"
+            ],
+            "aliases": [
+                "mushola"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Kain Mori",
+            "displayName": "Kain Mori",
+            "rawName": "",
+            "customNodeId": "kainmori",
+            "tags": [
+                "pano"
+            ],
+            "aliases": [
+                "kainmori"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "tags": [
+                "360video",
+                "pano"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node10",
+            "title": "Musholla",
+            "id": "Point01",
+            "pan": 336.98,
+            "tilt": -14.29
+        },
+        {
+            "scene": "node1",
+            "target": "node4",
+            "title": "Zie Batik",
+            "id": "Point02",
+            "pan": -215.18,
+            "tilt": -10.4
+        },
+        {
+            "scene": "node2",
+            "target": "node4",
+            "title": "Zie Batik",
+            "id": "Point01",
+            "pan": 331.208,
+            "tilt": -17.54
+        },
+        {
+            "scene": "node2",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 100.17,
+            "tilt": 4.36
+        },
+        {
+            "scene": "node2",
+            "target": "node9",
+            "title": "Green House",
+            "id": "Point03",
+            "pan": -89.91,
+            "tilt": -16.17
+        },
+        {
+            "scene": "node3",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 174.25,
+            "tilt": -1.21
+        },
+        {
+            "scene": "node3",
+            "target": "node11",
+            "title": "Kain Mori",
+            "id": "Point04",
+            "pan": -20.62,
+            "tilt": -14.03
+        },
+        {
+            "scene": "node3",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -276.93,
+            "tilt": -16.56
+        },
+        {
+            "scene": "node4",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 179.03,
+            "tilt": -8.24
+        },
+        {
+            "scene": "node4",
+            "target": "node1",
+            "title": "Musholla",
+            "id": "Point02",
+            "pan": 79.13,
+            "tilt": -5.98
+        },
+        {
+            "scene": "node4",
+            "target": "node3",
+            "title": "Sanggar Batik",
+            "id": "Point03",
+            "pan": -354.85,
+            "tilt": -12.4
+        },
+        {
+            "scene": "node4",
+            "target": "node7",
+            "title": "Galeri Batik",
+            "id": "Point04",
+            "pan": -29.13,
+            "tilt": 3.14
+        },
+        {
+            "scene": "node5",
+            "target": "node6",
+            "title": "Zie Batik",
+            "id": "Point01",
+            "pan": -31,
+            "tilt": -19.15
+        },
+        {
+            "scene": "node5",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -210.49,
+            "tilt": 2.31
+        },
+        {
+            "scene": "node6",
+            "target": "node4",
+            "title": "Zie Batik",
+            "id": "Point01",
+            "pan": -350.77,
+            "tilt": -9.38
+        },
+        {
+            "scene": "node6",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 83.91,
+            "tilt": 7.64
+        },
+        {
+            "scene": "node6",
+            "target": "node9",
+            "title": "Green House",
+            "id": "Point03",
+            "pan": 234.84,
+            "tilt": -18.72
+        },
+        {
+            "scene": "node7",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 177.31,
+            "tilt": -11.39
+        },
+        {
+            "scene": "node8",
+            "target": "node5",
+            "title": "Zie Batik",
+            "id": "Point01",
+            "pan": -99.01,
+            "tilt": -18.59
+        },
+        {
+            "scene": "node9",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 182.61,
+            "tilt": -18.17
+        },
+        {
+            "scene": "node10",
+            "target": "node1",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -176.36,
+            "tilt": -33.82
+        },
+        {
+            "scene": "node11",
+            "target": "node3",
+            "title": "Galeri Batik",
+            "id": "Point01",
+            "pan": -120.88,
+            "tilt": -24.17
+        },
+        {
+            "scene": "node12",
+            "target": "node3",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -271.44,
+            "tilt": -22.36
+        }
+    ],
+    "objects": [
+        {
+            "sceneId": "node3",
+            "infoId": "560",
+            "label": "Objek 560"
+        },
+        {
+            "sceneId": "node7",
+            "infoId": "1044",
+            "label": "Objek 1044"
+        },
+        {
+            "sceneId": "node7",
+            "infoId": "1043",
+            "label": "Objek 1043"
+        },
+        {
+            "sceneId": "node9",
+            "infoId": "1041",
+            "label": "Objek 1041"
+        },
+        {
+            "sceneId": "node11",
+            "infoId": "559",
+            "label": "Objek 559"
+        },
+        {
+            "sceneId": "node12",
+            "infoId": "1238",
+            "label": "Objek 1238"
+        }
+    ],
+    "video360": [],
+    "oiPositions": {
+        "node3": [
+            {
+                "pan": -324.78,
+                "tilt": -26.99,
+                "fov": 15
+            }
+        ],
+        "node7": [
+            {
+                "pan": -19.77,
+                "tilt": -36.23,
+                "fov": 15
+            },
+            {
+                "pan": -256.47,
+                "tilt": -15.76,
+                "fov": 15
+            }
+        ],
+        "node9": [
+            {
+                "pan": -309.14,
+                "tilt": -21.17,
+                "fov": 15
+            }
+        ],
+        "node11": [
+            {
+                "pan": -249.55,
+                "tilt": -26.92,
+                "fov": 15
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [
+            {
+                "infoId": "1043"
+            },
+            {
+                "infoId": "1043"
+            },
+            {
+                "infoId": "1041"
+            },
+            {
+                "infoId": "560"
+            },
+            {
+                "infoId": "559"
+            },
+            {
+                "infoId": "1044"
+            },
+            {
+                "infoId": "1041"
+            },
+            {
+                "infoId": "1041"
+            },
+            {
+                "infoId": "1041"
+            },
+            {
+                "infoId": "1041"
+            },
+            {
+                "infoId": "1043"
+            },
+            {
+                "infoId": "1043"
+            },
+            {
+                "infoId": "1043"
+            },
+            {
+                "infoId": "1043"
+            },
+            {
+                "infoId": "1044"
+            },
+            {
+                "infoId": "1044"
+            },
+            {
+                "infoId": "1044"
+            },
+            {
+                "infoId": "1044"
+            },
+            {
+                "infoId": "559"
+            },
+            {
+                "infoId": "559"
+            },
+            {
+                "infoId": "559"
+            },
+            {
+                "infoId": "559"
+            },
+            {
+                "infoId": "560"
+            },
+            {
+                "infoId": "560"
+            },
+            {
+                "infoId": "560"
+            },
+            {
+                "infoId": "560"
+            }
+        ],
+        "objectIds": [
+            "1043",
+            "1041",
+            "560",
+            "559",
+            "1044"
+        ]
+    }
+}

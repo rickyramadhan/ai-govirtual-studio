@@ -1,0 +1,151 @@
+{
+    "version": "1.0",
+    "tourId": "bandara-ahmad-yani",
+    "tourName": "Bandara Ahmad Yani",
+    "updatedAt": "2026-08-29T07:45:39+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node8",
+        "node9",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node26",
+        "node29",
+        "node30",
+        "node31",
+        "node32",
+        "node33",
+        "node34",
+        "node35",
+        "node36",
+        "node38",
+        "node39",
+        "node40",
+        "node41",
+        "node42"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Keberangkatan Internasional"
+        },
+        "node2": {
+            "displayName": "Area Publik Penumpang"
+        },
+        "node3": {
+            "displayName": "Kedatangan"
+        },
+        "node4": {
+            "displayName": "Konter Taksi"
+        },
+        "node5": {
+            "displayName": "Ruang Sensorik"
+        },
+        "node6": {
+            "displayName": "Kedatangan"
+        },
+        "node8": {
+            "displayName": "Ruang Tunggu"
+        },
+        "node9": {
+            "displayName": "Monumen Kapal"
+        },
+        "node11": {
+            "displayName": "Pusat Check-in"
+        },
+        "node12": {
+            "displayName": "Replika Sam Poo Kong"
+        },
+        "node13": {
+            "displayName": "Replika Sam Poo Kong"
+        },
+        "node14": {
+            "displayName": "Zona Antar Umum"
+        },
+        "node15": {
+            "displayName": "Hall Utama"
+        },
+        "node16": {
+            "displayName": "Layanan Imigrasi"
+        },
+        "node17": {
+            "displayName": "Area Kedatangan"
+        },
+        "node18": {
+            "displayName": "Pemeriksaan Bagasi"
+        },
+        "node19": {
+            "displayName": "Area Belanja"
+        },
+        "node20": {
+            "displayName": "Parkir Mobil"
+        },
+        "node21": {
+            "displayName": "Parkir VIP"
+        },
+        "node22": {
+            "displayName": "Paviliun"
+        },
+        "node23": {
+            "displayName": "Area Belanja"
+        },
+        "node26": {
+            "displayName": "Klaim Bagasi"
+        },
+        "node29": {
+            "displayName": "Pemeriksaan Keberangkatan"
+        },
+        "node30": {
+            "displayName": "Restoran VIP"
+        },
+        "node31": {
+            "displayName": "Ruang Tunggu Disabilitas"
+        },
+        "node32": {
+            "displayName": "Tempat Bermain"
+        },
+        "node33": {
+            "displayName": "Ruang Tunggu VIP"
+        },
+        "node34": {
+            "displayName": "Area Belanja"
+        },
+        "node35": {
+            "displayName": "Keberangkatan Internasional"
+        },
+        "node36": {
+            "displayName": "Pojok Baca"
+        },
+        "node38": {
+            "displayName": "Ruang Tunggu"
+        },
+        "node39": {
+            "displayName": "Pengambilan Bagasi"
+        },
+        "node40": {
+            "displayName": "Area Merokok"
+        },
+        "node41": {
+            "displayName": "Titik Turun Penumpang"
+        },
+        "node42": {
+            "displayName": "Pengambilan Bagasi"
+        }
+    }
+}

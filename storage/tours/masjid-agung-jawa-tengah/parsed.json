@@ -1,0 +1,1225 @@
+{
+    "startNode": "node217",
+    "scenes": [
+        {
+            "id": "node206",
+            "name": "Area Utama",
+            "displayName": "Area Utama",
+            "rawName": "default",
+            "customNodeId": "",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node233",
+            "name": "Area Utama",
+            "displayName": "Area Utama",
+            "rawName": "default",
+            "customNodeId": "video360_1",
+            "tags": [
+                "MasjidAgungJateng",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1",
+                "default"
+            ]
+        },
+        {
+            "id": "node207",
+            "name": "Umkm",
+            "displayName": "Umkm",
+            "rawName": "",
+            "customNodeId": "umkm",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "umkm"
+            ]
+        },
+        {
+            "id": "node208",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "ballroom",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "ballroom"
+            ]
+        },
+        {
+            "id": "node209",
+            "name": "Payung",
+            "displayName": "Payung",
+            "rawName": "",
+            "customNodeId": "payung",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "payung"
+            ]
+        },
+        {
+            "id": "node210",
+            "name": "Artefak",
+            "displayName": "Artefak",
+            "rawName": "",
+            "customNodeId": "artefak",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "artefak"
+            ]
+        },
+        {
+            "id": "node211",
+            "name": "Bedug",
+            "displayName": "Bedug",
+            "rawName": "",
+            "customNodeId": "bedug",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "bedug"
+            ]
+        },
+        {
+            "id": "node212",
+            "name": "Batu Peresmian",
+            "displayName": "Batu Peresmian",
+            "rawName": "",
+            "customNodeId": "-atu-eresmian",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Batu Peresmian"
+            ]
+        },
+        {
+            "id": "node213",
+            "name": "Masjid Agung Jawa Tengah",
+            "displayName": "Masjid Agung Jawa Tengah",
+            "rawName": "",
+            "customNodeId": "-asjid-gung-awa-engah",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Masjid Agung Jawa Tengah"
+            ]
+        },
+        {
+            "id": "node214",
+            "name": "Menara",
+            "displayName": "Menara",
+            "rawName": "",
+            "customNodeId": "menara",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "menara"
+            ]
+        },
+        {
+            "id": "node215",
+            "name": "Gedung Sunan",
+            "displayName": "Gedung Sunan",
+            "rawName": "",
+            "customNodeId": "gedungsunan",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "gedungsunan"
+            ]
+        },
+        {
+            "id": "node216",
+            "name": "Jalan Blok Kurma",
+            "displayName": "Jalan Blok Kurma",
+            "rawName": "",
+            "customNodeId": "-alan-lok-urma",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Jalan Blok Kurma"
+            ]
+        },
+        {
+            "id": "node217",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "default",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "default",
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node218",
+            "name": "Ruang Sholat",
+            "displayName": "Ruang Sholat",
+            "rawName": "",
+            "customNodeId": "ruangsholat",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "ruangsholat"
+            ]
+        },
+        {
+            "id": "node219",
+            "name": "Lantai 2",
+            "displayName": "Lantai 2",
+            "rawName": "",
+            "customNodeId": "-antai-2",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Lantai 2"
+            ]
+        },
+        {
+            "id": "node220",
+            "name": "Mushaf",
+            "displayName": "Mushaf",
+            "rawName": "",
+            "customNodeId": "mushaf",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "mushaf"
+            ]
+        },
+        {
+            "id": "node221",
+            "name": "Masjid Agung Jawa Tengah",
+            "displayName": "Masjid Agung Jawa Tengah",
+            "rawName": "",
+            "customNodeId": "-asjid-gung-awa-engah",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Masjid Agung Jawa Tengah"
+            ]
+        },
+        {
+            "id": "node222",
+            "name": "Menara Masjid Agung Jawa Tengah",
+            "displayName": "Menara Masjid Agung Jawa Tengah",
+            "rawName": "",
+            "customNodeId": "-enara-asjid-gung-awa-engah",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Menara Masjid Agung Jawa Tengah"
+            ]
+        },
+        {
+            "id": "node223",
+            "name": "Pelataran Masjid Agung Jawa Tengah",
+            "displayName": "Pelataran Masjid Agung Jawa Tengah",
+            "rawName": "",
+            "customNodeId": "-elataran-asjid-gung-awa-engah",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Pelataran Masjid Agung Jawa Tengah"
+            ]
+        },
+        {
+            "id": "node224",
+            "name": "Pelataran Masjid",
+            "displayName": "Pelataran Masjid",
+            "rawName": "",
+            "customNodeId": "-elataran-asjid",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Pelataran Masjid"
+            ]
+        },
+        {
+            "id": "node225",
+            "name": "Pelataran Masjid Agung Jawa Tengah",
+            "displayName": "Pelataran Masjid Agung Jawa Tengah",
+            "rawName": "",
+            "customNodeId": "-elataran-asjid-gung-awa-engah",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Pelataran Masjid Agung Jawa Tengah"
+            ]
+        },
+        {
+            "id": "node226",
+            "name": "Aula Kantor",
+            "displayName": "Aula Kantor",
+            "rawName": "",
+            "customNodeId": "aulakantor",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "aulakantor"
+            ]
+        },
+        {
+            "id": "node227",
+            "name": "Replika Kabah",
+            "displayName": "Replika Kabah",
+            "rawName": "",
+            "customNodeId": "replikakabah",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "replikakabah"
+            ]
+        },
+        {
+            "id": "node228",
+            "name": "Marwa",
+            "displayName": "Marwa",
+            "rawName": "",
+            "customNodeId": "marwa",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "marwa"
+            ]
+        },
+        {
+            "id": "node229",
+            "name": "Toko Souvenir",
+            "displayName": "Toko Souvenir",
+            "rawName": "",
+            "customNodeId": "-oko-ouvenir",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Toko Souvenir"
+            ]
+        },
+        {
+            "id": "node230",
+            "name": "Toko Souvenir",
+            "displayName": "Toko Souvenir",
+            "rawName": "",
+            "customNodeId": "-oko-ouvenir",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Toko Souvenir"
+            ]
+        },
+        {
+            "id": "node231",
+            "name": "Toko Oleh-Oleh",
+            "displayName": "Toko Oleh-Oleh",
+            "rawName": "",
+            "customNodeId": "-oko-leh-leh",
+            "tags": [
+                "MasjidAgungJateng"
+            ],
+            "aliases": [
+                "Toko Oleh-Oleh"
+            ]
+        },
+        {
+            "id": "node232",
+            "name": "Tugu",
+            "displayName": "Tugu",
+            "rawName": "",
+            "customNodeId": "tugu",
+            "tags": [
+                "MasjidAgungJateng",
+                "vd"
+            ],
+            "aliases": [
+                "tugu"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node206",
+            "target": "node209",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point05",
+            "pan": -0.08,
+            "tilt": -12.47
+        },
+        {
+            "scene": "node206",
+            "target": "node227",
+            "title": "Replika Ka'bah",
+            "id": "Point06",
+            "pan": -76.3,
+            "tilt": -12.68
+        },
+        {
+            "scene": "node206",
+            "target": "node229",
+            "title": "Area UMKM",
+            "id": "Point07",
+            "pan": -121.07,
+            "tilt": -17.93
+        },
+        {
+            "scene": "node206",
+            "target": "node222",
+            "title": "Menara Masjid Agung Jawa Tengah",
+            "id": "Point08",
+            "pan": 78.22,
+            "tilt": -26.24
+        },
+        {
+            "scene": "node206",
+            "target": "node206",
+            "title": "Keluar",
+            "id": "Point09",
+            "pan": -179.31,
+            "tilt": -2.06
+        },
+        {
+            "scene": "node233",
+            "target": "node206",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -179.31,
+            "tilt": -2.06
+        },
+        {
+            "scene": "node207",
+            "target": "node215",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -354.15,
+            "tilt": -4.52
+        },
+        {
+            "scene": "node208",
+            "target": "node213",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point02",
+            "pan": -0.0599876,
+            "tilt": -3.49
+        },
+        {
+            "scene": "node209",
+            "target": "node232",
+            "title": "Tugu Pembangunan Maut",
+            "id": "Point01",
+            "pan": -359.77,
+            "tilt": -1.6
+        },
+        {
+            "scene": "node209",
+            "target": "node217",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -180.62,
+            "tilt": -0.44
+        },
+        {
+            "scene": "node209",
+            "target": "node215",
+            "title": "Gedung Sunan Tembayat",
+            "id": "Point03",
+            "pan": -269.23,
+            "tilt": -4.22
+        },
+        {
+            "scene": "node209",
+            "target": "node213",
+            "title": "Aula Konvension",
+            "id": "Point04",
+            "pan": -92.24,
+            "tilt": -3.84
+        },
+        {
+            "scene": "node210",
+            "target": "node224",
+            "title": "Pelataran Masjid",
+            "id": "Point01",
+            "pan": 82.47,
+            "tilt": -5.94
+        },
+        {
+            "scene": "node210",
+            "target": "node225",
+            "title": "Pelataran Masjid Agung Jawa Tengah",
+            "id": "Point02",
+            "pan": 261.09,
+            "tilt": -5.59
+        },
+        {
+            "scene": "node210",
+            "target": "node211",
+            "title": "Bedug Raksasa",
+            "id": "Point03",
+            "pan": 359.18,
+            "tilt": -19.42
+        },
+        {
+            "scene": "node210",
+            "target": "node212",
+            "title": "Batu Peresmian",
+            "id": "Point04",
+            "pan": 136.03,
+            "tilt": -11.66
+        },
+        {
+            "scene": "node211",
+            "target": "node229",
+            "title": "Toko Souvenir",
+            "id": "Point01",
+            "pan": -142.97,
+            "tilt": -2.74
+        },
+        {
+            "scene": "node211",
+            "target": "node224",
+            "title": "Pelataran Masjid",
+            "id": "Point02",
+            "pan": 55.2,
+            "tilt": -1.62
+        },
+        {
+            "scene": "node211",
+            "target": "node210",
+            "title": "Batu Peresmian",
+            "id": "Point03",
+            "pan": 111.01,
+            "tilt": -0.24
+        },
+        {
+            "scene": "node211",
+            "target": "node216",
+            "title": "Jalan Blok Kurma",
+            "id": "Point04",
+            "pan": -69.24,
+            "tilt": -3.03
+        },
+        {
+            "scene": "node212",
+            "target": "node232",
+            "title": "Tugu Pembangunan",
+            "id": "Point01",
+            "pan": -176.36,
+            "tilt": -19.54
+        },
+        {
+            "scene": "node212",
+            "target": "node210",
+            "title": "Batu Peresmian",
+            "id": "Point02",
+            "pan": -324.66,
+            "tilt": -14.1
+        },
+        {
+            "scene": "node213",
+            "target": "node209",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": -273.64,
+            "tilt": -8.03
+        },
+        {
+            "scene": "node213",
+            "target": "node208",
+            "title": "Masuk",
+            "id": "Point02",
+            "pan": -175.09,
+            "tilt": -5.57
+        },
+        {
+            "scene": "node213",
+            "target": "node223",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -356.17,
+            "tilt": -7.58
+        },
+        {
+            "scene": "node214",
+            "target": "node225",
+            "title": "Pelataran Masjid",
+            "id": "Point01",
+            "pan": 110.98,
+            "tilt": -3.36
+        },
+        {
+            "scene": "node214",
+            "target": "node222",
+            "title": "Menara",
+            "id": "Point02",
+            "pan": 358.25,
+            "tilt": -0.08
+        },
+        {
+            "scene": "node215",
+            "target": "node209",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": 257.29,
+            "tilt": -5.83
+        },
+        {
+            "scene": "node215",
+            "target": "node207",
+            "title": "Masuk",
+            "id": "Point02",
+            "pan": 150.2,
+            "tilt": -10.34
+        },
+        {
+            "scene": "node215",
+            "target": "node226",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -30.81,
+            "tilt": -5.96
+        },
+        {
+            "scene": "node215",
+            "target": "node228",
+            "title": "Replika Marwa",
+            "id": "Point04",
+            "pan": 59.58,
+            "tilt": -5.02
+        },
+        {
+            "scene": "node216",
+            "target": "node226",
+            "title": "Pelataran Masjid Agung Jawa Tengah",
+            "id": "Point02",
+            "pan": -272.18,
+            "tilt": -0.75
+        },
+        {
+            "scene": "node216",
+            "target": "node227",
+            "title": "Replika Ka'bah",
+            "id": "Point03",
+            "pan": -15.88,
+            "tilt": -6.39
+        },
+        {
+            "scene": "node216",
+            "target": "node211",
+            "title": "Bedug Raksasa",
+            "id": "Point01",
+            "pan": -94.28,
+            "tilt": -2.39
+        },
+        {
+            "scene": "node217",
+            "target": "node209",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": -178.98,
+            "tilt": -2.18
+        },
+        {
+            "scene": "node217",
+            "target": "node220",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -0.4,
+            "tilt": 0.27
+        },
+        {
+            "scene": "node217",
+            "target": "node217",
+            "title": "Exit",
+            "id": "Point04",
+            "pan": -181.09,
+            "tilt": -2.28
+        },
+        {
+            "scene": "node218",
+            "target": "node221",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": -183.19,
+            "tilt": -2.86
+        },
+        {
+            "scene": "node219",
+            "target": "node220",
+            "title": "Mushaf Akbar Lantai 1",
+            "id": "Point02",
+            "pan": -93.84,
+            "tilt": -1.69
+        },
+        {
+            "scene": "node220",
+            "target": "node217",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -194.89,
+            "tilt": -7.24
+        },
+        {
+            "scene": "node220",
+            "target": "node219",
+            "title": "Lantai 2",
+            "id": "Point02",
+            "pan": -129.96,
+            "tilt": -5.51
+        },
+        {
+            "scene": "node220",
+            "target": "node221",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point03",
+            "pan": 44.95,
+            "tilt": -11.76
+        },
+        {
+            "scene": "node221",
+            "target": "node220",
+            "title": "Mushaf Akbar",
+            "id": "Point02",
+            "pan": -178.3,
+            "tilt": -6.41
+        },
+        {
+            "scene": "node221",
+            "target": "node218",
+            "title": "Mimbar",
+            "id": "Point03",
+            "pan": 0.0900122,
+            "tilt": -0.22
+        },
+        {
+            "scene": "node222",
+            "target": "node214",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point02",
+            "pan": -353.78,
+            "tilt": -11.76
+        },
+        {
+            "scene": "node223",
+            "target": "node232",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": -113.08,
+            "tilt": -2.05
+        },
+        {
+            "scene": "node223",
+            "target": "node213",
+            "title": "Masuk Aula Konvensi",
+            "id": "Point02",
+            "pan": -30.29,
+            "tilt": -2.38
+        },
+        {
+            "scene": "node223",
+            "target": "node231",
+            "title": "Toko Oleh-Oleh",
+            "id": "Point03",
+            "pan": 66.75,
+            "tilt": -2.23517e-10
+        },
+        {
+            "scene": "node224",
+            "target": "node211",
+            "title": "Bedug Raksasa",
+            "id": "Point01",
+            "pan": -150.78,
+            "tilt": -5.44
+        },
+        {
+            "scene": "node224",
+            "target": "node210",
+            "title": "Batu Peresmian",
+            "id": "Point02",
+            "pan": 87.51,
+            "tilt": -5.89
+        },
+        {
+            "scene": "node224",
+            "target": "node232",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point03",
+            "pan": 5.96,
+            "tilt": -1.46
+        },
+        {
+            "scene": "node225",
+            "target": "node210",
+            "title": "Batu Peresmian",
+            "id": "Point01",
+            "pan": -90.8,
+            "tilt": -8.94
+        },
+        {
+            "scene": "node225",
+            "target": "node214",
+            "title": "Menara",
+            "id": "Point02",
+            "pan": 89.09,
+            "tilt": -2.42
+        },
+        {
+            "scene": "node225",
+            "target": "node232",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point03",
+            "pan": -6.89,
+            "tilt": -4.05
+        },
+        {
+            "scene": "node226",
+            "target": "node232",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": 104.26,
+            "tilt": -1.82
+        },
+        {
+            "scene": "node226",
+            "target": "node215",
+            "title": "Masuk Gedung Sunan Tembayat",
+            "id": "Point02",
+            "pan": 29.22,
+            "tilt": -2.72
+        },
+        {
+            "scene": "node226",
+            "target": "node216",
+            "title": "Jalan Blok Kurma",
+            "id": "Point03",
+            "pan": -68.91,
+            "tilt": -1.81
+        },
+        {
+            "scene": "node227",
+            "target": "node216",
+            "title": "Jalan Blok Kurma",
+            "id": "Point02",
+            "pan": -103.05,
+            "tilt": -5.09
+        },
+        {
+            "scene": "node227",
+            "target": "node229",
+            "title": "Toko Souvenir",
+            "id": "Point03",
+            "pan": -33.73,
+            "tilt": -4.48
+        },
+        {
+            "scene": "node227",
+            "target": "node228",
+            "title": "Replika Marwa",
+            "id": "Point04",
+            "pan": -223.72,
+            "tilt": -7.36
+        },
+        {
+            "scene": "node228",
+            "target": "node227",
+            "title": "Replika Ka'bah",
+            "id": "Point01",
+            "pan": -89.99,
+            "tilt": -6.22
+        },
+        {
+            "scene": "node228",
+            "target": "node215",
+            "title": "Gedung Sunan Tembayat",
+            "id": "Point02",
+            "pan": 183,
+            "tilt": -4.17
+        },
+        {
+            "scene": "node229",
+            "target": "node227",
+            "title": "Replika Ka'bah",
+            "id": "Point01",
+            "pan": -24.19,
+            "tilt": -6.47
+        },
+        {
+            "scene": "node229",
+            "target": "node211",
+            "title": "Bedug Raksasa",
+            "id": "Point02",
+            "pan": 27.61,
+            "tilt": -4.87
+        },
+        {
+            "scene": "node229",
+            "target": "node230",
+            "title": "Toko Souvenir",
+            "id": "Point03",
+            "pan": -171.03,
+            "tilt": -8.27
+        },
+        {
+            "scene": "node230",
+            "target": "node229",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 51.08,
+            "tilt": -17.43
+        },
+        {
+            "scene": "node231",
+            "target": "node223",
+            "title": "Pelataran Masjid Agung Jawa Tengah",
+            "id": "Point01",
+            "pan": -61.01,
+            "tilt": -5.36
+        },
+        {
+            "scene": "node231",
+            "target": "node217",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point02",
+            "pan": 4.38,
+            "tilt": -5.22
+        },
+        {
+            "scene": "node232",
+            "target": "node212",
+            "title": "Batu Peresmian",
+            "id": "Point01",
+            "pan": -181.07,
+            "tilt": -6.96
+        },
+        {
+            "scene": "node232",
+            "target": "node226",
+            "title": "Pelataran Masjid Agung Jawa Tengah",
+            "id": "Point02",
+            "pan": -93.32,
+            "tilt": -1.61
+        },
+        {
+            "scene": "node232",
+            "target": "node223",
+            "title": "Pelataran Masjid Agung Jawa Tengah",
+            "id": "Point03",
+            "pan": -257.83,
+            "tilt": -3.05
+        },
+        {
+            "scene": "node232",
+            "target": "node209",
+            "title": "Masjid Agung Jawa Tengah",
+            "id": "Point04",
+            "pan": -314.49,
+            "tilt": -5.24
+        }
+    ],
+    "objects": [
+        {
+            "sceneId": "node209",
+            "infoId": "1531",
+            "label": "Objek 1531"
+        },
+        {
+            "sceneId": "node210",
+            "infoId": "1537",
+            "label": "Objek 1537"
+        },
+        {
+            "sceneId": "node211",
+            "infoId": "1535",
+            "label": "Objek 1535"
+        },
+        {
+            "sceneId": "node214",
+            "infoId": "1541",
+            "label": "Objek 1541"
+        },
+        {
+            "sceneId": "node218",
+            "infoId": "1528",
+            "label": "Objek 1528"
+        },
+        {
+            "sceneId": "node220",
+            "infoId": "1527",
+            "label": "Objek 1527"
+        },
+        {
+            "sceneId": "node227",
+            "infoId": "1539",
+            "label": "Objek 1539"
+        },
+        {
+            "sceneId": "node228",
+            "infoId": "1533",
+            "label": "Objek 1533"
+        },
+        {
+            "sceneId": "node232",
+            "infoId": "1530",
+            "label": "Objek 1530"
+        }
+    ],
+    "video360": [],
+    "oiPositions": {
+        "node209": [
+            {
+                "pan": -228.67,
+                "tilt": 20.63,
+                "fov": 9.48337
+            }
+        ],
+        "node210": [
+            {
+                "pan": -176.02,
+                "tilt": -4.45,
+                "fov": 15.187
+            }
+        ],
+        "node211": [
+            {
+                "pan": 358.92,
+                "tilt": 13.98,
+                "fov": 15.187
+            }
+        ],
+        "node214": [
+            {
+                "pan": -2.04,
+                "tilt": 28.5,
+                "fov": 15.187
+            }
+        ],
+        "node218": [
+            {
+                "pan": -0.560009,
+                "tilt": 7.11,
+                "fov": 15.187
+            }
+        ],
+        "node220": [
+            {
+                "pan": -0.509999,
+                "tilt": -12.15,
+                "fov": 15.187
+            }
+        ],
+        "node227": [
+            {
+                "pan": -179.54,
+                "tilt": 7.15,
+                "fov": 15.187
+            }
+        ],
+        "node228": [
+            {
+                "pan": -10.88,
+                "tilt": -0.95,
+                "fov": 15.187
+            }
+        ],
+        "node232": [
+            {
+                "pan": -0.63,
+                "tilt": -3.43,
+                "fov": 15.187
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [
+            {
+                "infoId": "1531"
+            },
+            {
+                "infoId": "1531"
+            },
+            {
+                "infoId": "1527"
+            },
+            {
+                "infoId": "1528"
+            },
+            {
+                "infoId": "1533"
+            },
+            {
+                "infoId": "1541"
+            },
+            {
+                "infoId": "1539"
+            },
+            {
+                "infoId": "1535"
+            },
+            {
+                "infoId": "1537"
+            },
+            {
+                "infoId": "1530"
+            },
+            {
+                "infoId": "1527"
+            },
+            {
+                "infoId": "1527"
+            },
+            {
+                "infoId": "1527"
+            },
+            {
+                "infoId": "1527"
+            },
+            {
+                "infoId": "1528"
+            },
+            {
+                "infoId": "1528"
+            },
+            {
+                "infoId": "1528"
+            },
+            {
+                "infoId": "1528"
+            },
+            {
+                "infoId": "1530"
+            },
+            {
+                "infoId": "1530"
+            },
+            {
+                "infoId": "1530"
+            },
+            {
+                "infoId": "1530"
+            },
+            {
+                "infoId": "1531"
+            },
+            {
+                "infoId": "1531"
+            },
+            {
+                "infoId": "1531"
+            },
+            {
+                "infoId": "1531"
+            },
+            {
+                "infoId": "1533"
+            },
+            {
+                "infoId": "1533"
+            },
+            {
+                "infoId": "1533"
+            },
+            {
+                "infoId": "1533"
+            },
+            {
+                "infoId": "1535"
+            },
+            {
+                "infoId": "1535"
+            },
+            {
+                "infoId": "1535"
+            },
+            {
+                "infoId": "1535"
+            },
+            {
+                "infoId": "1537"
+            },
+            {
+                "infoId": "1537"
+            },
+            {
+                "infoId": "1537"
+            },
+            {
+                "infoId": "1537"
+            },
+            {
+                "infoId": "1539"
+            },
+            {
+                "infoId": "1539"
+            },
+            {
+                "infoId": "1539"
+            },
+            {
+                "infoId": "1539"
+            },
+            {
+                "infoId": "1541"
+            },
+            {
+                "infoId": "1541"
+            },
+            {
+                "infoId": "1541"
+            },
+            {
+                "infoId": "1541"
+            }
+        ],
+        "objectIds": [
+            "1531",
+            "1527",
+            "1528",
+            "1533",
+            "1541",
+            "1539",
+            "1535",
+            "1537",
+            "1530"
+        ]
+    }
+}

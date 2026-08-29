@@ -1,0 +1,72 @@
+{
+    "version": "1.0",
+    "tourId": "universitas-negeri-semarang",
+    "tourName": "Universitas Negeri Semarang",
+    "updatedAt": "2026-08-29T07:23:02+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Perpustakaan Rumah Ilmu",
+                "query": "Apa saja fasilitas canggih yang ada di dalam Perpustakaan Rumah Ilmu Universitas Negeri Semarang?",
+                "desc": "Apa saja fasilitas canggih yang ada di dalam Perpustakaan Rumah Ilmu Universitas Negeri Semarang?"
+            },
+            {
+                "label": "Mobil Hemat Energi",
+                "query": "Ceritakan tentang Mobil Prototipe Hemat Energi karya mahasiswa UNNES untuk Shell Eco-marathon!",
+                "desc": "Ceritakan tentang Mobil Prototipe Hemat Energi karya mahasiswa UNNES untuk Shell Eco-marathon!"
+            },
+            {
+                "label": "BI Corner UNNES",
+                "query": "Bagaimana suasana dan fungsi dari BI Corner di Universitas Negeri Semarang?",
+                "desc": "Bagaimana suasana dan fungsi dari BI Corner di Universitas Negeri Semarang?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Perpustakaan",
+                "query": "Bagaimana cara menggunakan Kios Layanan Mandiri di Perpustakaan Rumah Ilmu?"
+            },
+            {
+                "label": "Fakultas & Gedung",
+                "query": "Apa saja hal menarik yang bisa dilihat di area Dekanat Fakultas Ekonomika dan Bisnis?"
+            },
+            {
+                "label": "Fasilitas Olahraga",
+                "query": "Seperti apa fasilitas Wall Climbing atau Panjat Tebing di lingkungan UNNES?"
+            },
+            {
+                "label": "Inovasi Mahasiswa",
+                "query": "Di mana saya bisa melihat pameran Mobil Prototipe Hemat Energi buatan Tim Pandawa UNNES?"
+            },
+            {
+                "label": "Jam Kunjungan",
+                "query": "Kapan waktu operasional dan jam terbaik untuk mengunjungi kawasan Universitas Negeri Semarang?"
+            },
+            {
+                "label": "Rute Tur",
+                "query": "Bagaimana rute terbaik untuk menjelajahi area Rektorat hingga Gedung LP3 UNNES?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa saja fasilitas unggulan yang dapat dikunjungi di Universitas Negeri Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Bagaimana sejarah singkat dan latar belakang dari Universitas Negeri Semarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Bagaimana asal-usul penamaan Universitas Negeri Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Bagaimana cara berpindah panorama dari Pintu Masuk menuju Perpustakaan Rumah Ilmu?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    }
+}

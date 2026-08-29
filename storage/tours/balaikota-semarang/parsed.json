@@ -1,0 +1,797 @@
+{
+    "startNode": "node20",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Gedung Inspektorat Lt. 1",
+            "displayName": "Gedung Inspektorat Lt. 1",
+            "rawName": "",
+            "customNodeId": "-edung-nspektorat-t-1",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Gedung Inspektorat Lt. 1"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Gedung Bapenda",
+            "displayName": "Gedung Bapenda",
+            "rawName": "",
+            "customNodeId": "-edung-apenda",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Gedung Bapenda"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Dinas Sosial Kota Semarang",
+            "displayName": "Dinas Sosial Kota Semarang",
+            "rawName": "",
+            "customNodeId": "-inas-osial-ota-emarang",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Dinas Sosial Kota Semarang"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Gedung DPRD (Luar)",
+            "displayName": "Gedung DPRD (Luar)",
+            "rawName": "",
+            "customNodeId": "gedungdprdluar",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "gedungdprdluar"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Mochihsan",
+            "displayName": "Mochihsan",
+            "rawName": "",
+            "customNodeId": "mochihsan",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "mochihsan"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Gedung DPRD",
+            "displayName": "Gedung DPRD",
+            "rawName": "",
+            "customNodeId": "gedungdprd",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "gedungdprd"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Balai Dinas Perumahan dan Pengawasan",
+            "displayName": "Balai Dinas Perumahan dan Pengawasan",
+            "rawName": "",
+            "customNodeId": "-alai-inas-erumahan-dan-engawasan",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Balai Dinas Perumahan dan Pengawasan"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Balai Pengelolaan Keuangan",
+            "displayName": "Balai Pengelolaan Keuangan",
+            "rawName": "",
+            "customNodeId": "-alai-engelolaan-euangan",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Balai Pengelolaan Keuangan"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Bapenda",
+            "displayName": "Bapenda",
+            "rawName": "",
+            "customNodeId": "bapenda",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "bapenda"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Pintu Keluar Belakang",
+            "displayName": "Pintu Keluar Belakang",
+            "rawName": "",
+            "customNodeId": "-intu-eluar-elakang",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Pintu Keluar Belakang"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Lokakrida",
+            "displayName": "Lokakrida",
+            "rawName": "",
+            "customNodeId": "lokakrida",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "lokakrida"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Lt. 8 Gedung Moch. Ichsan",
+            "displayName": "Lt. 8 Gedung Moch. Ichsan",
+            "rawName": "",
+            "customNodeId": "-t-8-edung-och-chsan",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Lt. 8 Gedung Moch. Ichsan"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Taman Terbuka",
+            "displayName": "Taman Terbuka",
+            "rawName": "",
+            "customNodeId": "-aman-erbuka",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Taman Terbuka"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Masjid Balai Kota Semarang",
+            "displayName": "Masjid Balai Kota Semarang",
+            "rawName": "",
+            "customNodeId": "-asjid-alai-ota-emarang",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "Masjid Balai Kota Semarang"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Kantor Walikota",
+            "displayName": "Kantor Walikota",
+            "rawName": "",
+            "customNodeId": "kantorwalikota",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "kantorwalikota"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Situation Room",
+            "displayName": "Situation Room",
+            "rawName": "",
+            "customNodeId": "situationroom",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "situationroom"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Gedung Moch. Ichsan",
+            "displayName": "Gedung Moch. Ichsan",
+            "rawName": "",
+            "customNodeId": "mochichsan",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "mochichsan"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Drone",
+            "displayName": "Drone",
+            "rawName": "",
+            "customNodeId": "drone",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "drone"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Dinas Kominfo",
+            "displayName": "Dinas Kominfo",
+            "rawName": "",
+            "customNodeId": "diskominfo",
+            "tags": [
+                "GedungBalaikotaSemarang"
+            ],
+            "aliases": [
+                "diskominfo"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node2",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -339.36,
+            "tilt": -9.19
+        },
+        {
+            "scene": "node2",
+            "target": "node6",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -180.67,
+            "tilt": -3.84
+        },
+        {
+            "scene": "node2",
+            "target": "node13",
+            "title": "Lt. 8 Gedung Moch. Ichsan",
+            "id": "Point02",
+            "pan": -1.06,
+            "tilt": -5.96
+        },
+        {
+            "scene": "node2",
+            "target": "node9",
+            "title": "Balai Pengelolaan Keuangan",
+            "id": "Point03",
+            "pan": 33.46,
+            "tilt": -5.45
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Gedung Inspektorat Lt. 1",
+            "id": "Point04",
+            "pan": -89.93,
+            "tilt": -4.5
+        },
+        {
+            "scene": "node3",
+            "target": "node16",
+            "title": "Gedung Walikota Semarang",
+            "id": "Point01",
+            "pan": -161.59,
+            "tilt": 0.71
+        },
+        {
+            "scene": "node3",
+            "target": "node6",
+            "title": "Gedung Moch. Ichsan",
+            "id": "Point03",
+            "pan": -181.19,
+            "tilt": 1.31
+        },
+        {
+            "scene": "node3",
+            "target": "node15",
+            "title": "Masjid Balai Kota Semarang",
+            "id": "Point02",
+            "pan": -337.82,
+            "tilt": -1.61
+        },
+        {
+            "scene": "node4",
+            "target": "node9",
+            "title": "Balai Dinas Perumahan dan Pengawasan",
+            "id": "Point01",
+            "pan": -142.98,
+            "tilt": -5.77
+        },
+        {
+            "scene": "node4",
+            "target": "node10",
+            "title": "Pelayanan Pajak Daerah",
+            "id": "Point02",
+            "pan": -39.27,
+            "tilt": -11.63
+        },
+        {
+            "scene": "node4",
+            "target": "node15",
+            "title": "Masjid Balaikota Semarang",
+            "id": "Point03",
+            "pan": -176.29,
+            "tilt": -13.66
+        },
+        {
+            "scene": "node5",
+            "target": "node16",
+            "title": "Gedung Walikota Semarang",
+            "id": "Point01",
+            "pan": -99.42,
+            "tilt": -0.78
+        },
+        {
+            "scene": "node5",
+            "target": "node7",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -358.64,
+            "tilt": 2.02
+        },
+        {
+            "scene": "node6",
+            "target": "node19",
+            "title": "Taman Balai Kota Semarang",
+            "id": "Point01",
+            "pan": -179.47,
+            "tilt": -3.87
+        },
+        {
+            "scene": "node6",
+            "target": "node2",
+            "title": "Lobi Gedung Moch. Ichsan",
+            "id": "Point02",
+            "pan": -347.42,
+            "tilt": -4.4
+        },
+        {
+            "scene": "node6",
+            "target": "node3",
+            "title": "Gedung Bapenda ",
+            "id": "Point03",
+            "pan": -63.75,
+            "tilt": -5.05
+        },
+        {
+            "scene": "node7",
+            "target": "node5",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -178.2,
+            "tilt": -3.71
+        },
+        {
+            "scene": "node7",
+            "target": "node18",
+            "title": "Ruang Situasi",
+            "id": "Point02",
+            "pan": -74.73,
+            "tilt": -1.23
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Badan Pengelolaan Keuangan",
+            "id": "Point01",
+            "pan": -271.69,
+            "tilt": -6.07
+        },
+        {
+            "scene": "node8",
+            "target": "node14",
+            "title": "Taman Terbuka",
+            "id": "Point02",
+            "pan": -87.24,
+            "tilt": -5.59
+        },
+        {
+            "scene": "node9",
+            "target": "node2",
+            "title": "Lobi Gedung Moch. Ichsan",
+            "id": "Point03",
+            "pan": 19.91,
+            "tilt": -11.04
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Balai Dinas Perumahan dan Pengawasan",
+            "id": "Point01",
+            "pan": -69.53,
+            "tilt": -5.43
+        },
+        {
+            "scene": "node9",
+            "target": "node4",
+            "title": "Dinas Sosial Kota Semarang",
+            "id": "Point02",
+            "pan": -252.97,
+            "tilt": -7.2
+        },
+        {
+            "scene": "node10",
+            "target": "node4",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -266.23,
+            "tilt": -8.2
+        },
+        {
+            "scene": "node11",
+            "target": "node14",
+            "title": "Pintu Masuk Belakang",
+            "id": "Point01",
+            "pan": -359.02,
+            "tilt": 3.36
+        },
+        {
+            "scene": "node12",
+            "target": "node13",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -175.75,
+            "tilt": -0.95
+        },
+        {
+            "scene": "node13",
+            "target": "node2",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -90.41,
+            "tilt": -6.8
+        },
+        {
+            "scene": "node13",
+            "target": "node12",
+            "title": "Aula Loka Krida",
+            "id": "Point02",
+            "pan": -359.27,
+            "tilt": -11.63
+        },
+        {
+            "scene": "node14",
+            "target": "node15",
+            "title": "Masjid Balai Kota Semarang",
+            "id": "Point01",
+            "pan": -325.64,
+            "tilt": 0.41
+        },
+        {
+            "scene": "node14",
+            "target": "node11",
+            "title": "Pintu Keluar Belakang",
+            "id": "Point02",
+            "pan": -199.7,
+            "tilt": -3.05
+        },
+        {
+            "scene": "node14",
+            "target": "node8",
+            "title": "Balai Dinas Perumahan dan Pengawasan",
+            "id": "Point03",
+            "pan": -31.7,
+            "tilt": 0.7
+        },
+        {
+            "scene": "node15",
+            "target": "node3",
+            "title": "Gedung Bapenda",
+            "id": "Point01",
+            "pan": -284.92,
+            "tilt": -1.1
+        },
+        {
+            "scene": "node15",
+            "target": "node14",
+            "title": "Taman Terbuka",
+            "id": "Point02",
+            "pan": -202.33,
+            "tilt": 0.31
+        },
+        {
+            "scene": "node15",
+            "target": "node8",
+            "title": "Balai Dinas Perumahan dan Pengawasan",
+            "id": "Point04",
+            "pan": -153.82,
+            "tilt": -2.09
+        },
+        {
+            "scene": "node15",
+            "target": "node4",
+            "title": "Dinas Sosial Kota Semarang",
+            "id": "Point03",
+            "pan": -71.39,
+            "tilt": -1.26
+        },
+        {
+            "scene": "node16",
+            "target": "node5",
+            "title": "Gedung DPRD Semarang",
+            "id": "Point01",
+            "pan": -258.27,
+            "tilt": 1.4
+        },
+        {
+            "scene": "node16",
+            "target": "node19",
+            "title": "Taman Balai Kota Semarang",
+            "id": "Point02",
+            "pan": -305.35,
+            "tilt": 1.88
+        },
+        {
+            "scene": "node16",
+            "target": "node3",
+            "title": "Gedung Bapenda",
+            "id": "Point03",
+            "pan": -47.05,
+            "tilt": -1.25
+        },
+        {
+            "scene": "node18",
+            "target": "node7",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -269.48,
+            "tilt": -6.31
+        },
+        {
+            "scene": "node19",
+            "target": "node16",
+            "title": "Gedung WaliKota Semarang",
+            "id": "Point01",
+            "pan": -139.61,
+            "tilt": 0.27
+        },
+        {
+            "scene": "node19",
+            "target": "node5",
+            "title": "Gedung DPRD Semarang",
+            "id": "Point02",
+            "pan": -184.79,
+            "tilt": 1.23
+        },
+        {
+            "scene": "node19",
+            "target": "node6",
+            "title": "Kantor Balai Kota Semarang",
+            "id": "Point03",
+            "pan": -33.39,
+            "tilt": -5.96
+        },
+        {
+            "scene": "node20",
+            "target": "node21",
+            "title": "Gedung Diskominfo",
+            "id": "Point01",
+            "pan": -332.91,
+            "tilt": -0.9
+        },
+        {
+            "scene": "node20",
+            "target": "node19",
+            "title": "Taman Balai Kota Semarang",
+            "id": "Point04",
+            "pan": -0.07,
+            "tilt": -30.56
+        },
+        {
+            "scene": "node21",
+            "target": "node20",
+            "title": "Gedung Balai Kota",
+            "id": "Point01",
+            "pan": -62.62,
+            "tilt": 15.79
+        }
+    ],
+    "objects": [
+        {
+            "sceneId": "node5",
+            "infoId": "2252",
+            "label": "Objek 2252"
+        },
+        {
+            "sceneId": "node10",
+            "infoId": "1465",
+            "label": "Objek 1465"
+        },
+        {
+            "sceneId": "node12",
+            "infoId": "1467",
+            "label": "Objek 1467"
+        },
+        {
+            "sceneId": "node16",
+            "infoId": "1463",
+            "label": "Objek 1463"
+        },
+        {
+            "sceneId": "node18",
+            "infoId": "1466",
+            "label": "Objek 1466"
+        },
+        {
+            "sceneId": "node19",
+            "infoId": "2251",
+            "label": "Objek 2251"
+        },
+        {
+            "sceneId": "node20",
+            "infoId": "1462",
+            "label": "Objek 1462"
+        },
+        {
+            "sceneId": "node21",
+            "infoId": "2250",
+            "label": "Objek 2250"
+        }
+    ],
+    "video360": [],
+    "oiPositions": {
+        "node5": [
+            {
+                "pan": -357.16,
+                "tilt": 24.22,
+                "fov": 15
+            }
+        ],
+        "node10": [
+            {
+                "pan": -70.58,
+                "tilt": 1.71,
+                "fov": 15
+            }
+        ],
+        "node12": [
+            {
+                "pan": -358.51,
+                "tilt": 6.31,
+                "fov": 15
+            }
+        ],
+        "node16": [
+            {
+                "pan": -358.82,
+                "tilt": 8.08,
+                "fov": 15
+            }
+        ],
+        "node18": [
+            {
+                "pan": -179.76,
+                "tilt": -4.75,
+                "fov": 15
+            }
+        ],
+        "node19": [
+            {
+                "pan": -357.7,
+                "tilt": 26.66,
+                "fov": 15
+            }
+        ],
+        "node20": [
+            {
+                "pan": -359.5,
+                "tilt": -9.06,
+                "fov": 15
+            }
+        ],
+        "node21": [
+            {
+                "pan": -1.91,
+                "tilt": -26.29,
+                "fov": 15
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [
+            {
+                "infoId": "1462"
+            },
+            {
+                "infoId": "1462"
+            },
+            {
+                "infoId": "2251"
+            },
+            {
+                "infoId": "2250"
+            },
+            {
+                "infoId": "2252"
+            },
+            {
+                "infoId": "1467"
+            },
+            {
+                "infoId": "1466"
+            },
+            {
+                "infoId": "1465"
+            },
+            {
+                "infoId": "1463"
+            },
+            {
+                "infoId": "1373"
+            },
+            {
+                "infoId": "1462"
+            },
+            {
+                "infoId": "1463"
+            },
+            {
+                "infoId": "1465"
+            },
+            {
+                "infoId": "1466"
+            },
+            {
+                "infoId": "1467"
+            },
+            {
+                "infoId": "2250"
+            },
+            {
+                "infoId": "2251"
+            },
+            {
+                "infoId": "2252"
+            }
+        ],
+        "objectIds": [
+            "1462",
+            "2251",
+            "2250",
+            "2252",
+            "1467",
+            "1466",
+            "1465",
+            "1463",
+            "1373"
+        ]
+    }
+}

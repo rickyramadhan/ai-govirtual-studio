@@ -1,0 +1,115 @@
+{
+    "version": "1.0",
+    "tourId": "rsud-tugu",
+    "tourName": "RSUD Tugu",
+    "updatedAt": "2026-08-29T07:45:40+02:00",
+    "startScene": "node80",
+    "order": [
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105"
+    ],
+    "nodes": {
+        "node80": {
+            "displayName": "Drone"
+        },
+        "node81": {
+            "displayName": "Ruang X-Ray"
+        },
+        "node82": {
+            "displayName": "Depan Lobi IGD"
+        },
+        "node83": {
+            "displayName": "Depan Lobi Rawat Jalan"
+        },
+        "node84": {
+            "displayName": "Farmasi Rawat Inap"
+        },
+        "node85": {
+            "displayName": "ICU"
+        },
+        "node86": {
+            "displayName": "Instalasi Dialisis"
+        },
+        "node87": {
+            "displayName": "Instalasi Jantung"
+        },
+        "node88": {
+            "displayName": "Gedung Nusa Indah"
+        },
+        "node89": {
+            "displayName": "Masuk lobi Instalasi Jantung"
+        },
+        "node90": {
+            "displayName": "Lobi Ruang Rawat Inap"
+        },
+        "node91": {
+            "displayName": "Lobi"
+        },
+        "node92": {
+            "displayName": "Pendaftaran"
+        },
+        "node93": {
+            "displayName": "Area Parkir"
+        },
+        "node94": {
+            "displayName": "Instalasi Dialisis"
+        },
+        "node95": {
+            "displayName": "Instalasi Jantung"
+        },
+        "node96": {
+            "displayName": "Ruang Wijaya Kusuma"
+        },
+        "node97": {
+            "displayName": "Pintu Masuk IGD"
+        },
+        "node98": {
+            "displayName": "Radiologi"
+        },
+        "node99": {
+            "displayName": "Radiologi"
+        },
+        "node100": {
+            "displayName": "Ruang Bedah"
+        },
+        "node101": {
+            "displayName": "Ruang Rawat Inap Kelas 2"
+        },
+        "node102": {
+            "displayName": "Ruang Rawat VVIP"
+        },
+        "node103": {
+            "displayName": "Rawat Inap VVIP"
+        },
+        "node104": {
+            "displayName": "Rontgen"
+        },
+        "node105": {
+            "displayName": "Ruang Rawat Inap VVIP"
+        }
+    }
+}

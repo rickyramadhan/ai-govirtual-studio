@@ -1,0 +1,29 @@
+{
+    "tourId": "gereja-santo-yusuf",
+    "tourName": "Gereja Santo Yusuf",
+    "location": "Semarang",
+    "nearbyLabel": "Gereja Santo Yusuf dan Semarang",
+    "language": "id",
+    "features": {
+        "exploreKnowledge": true,
+        "publicService": true,
+        "destinationDiscovery": true,
+        "destinationCatalog": true,
+        "sceneIdentity": true,
+        "answerability": true
+    },
+    "data": {
+        "visitorTipsPath": "data/visitor-tips.json",
+        "nearbyPath": "data/nearby.json"
+    },
+    "frontend": {
+        "catalogPath": "data/semarang-destinations.json",
+        "catalogLabel": "Semarang",
+        "nearbyLabel": "Gereja Santo Yusuf dan Semarang",
+        "categoryPage": "https://semarang.govirtual.id/webview/kategori.php?lang=id",
+        "objectInfoBase": "https://webview-govirtual.id/semarang-v2/assets/images/objekinfo/lawang_sewu",
+        "objectInfoPage": "https://semarang.govirtual.id/webview/objinfo2.php",
+        "objectInfoDetailParam": "id",
+        "objectInfoExtra": "&vd=1&tp=m"
+    }
+}

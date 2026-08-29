@@ -1,0 +1,502 @@
+{
+    "version": 2,
+    "tourId": "tour-20260828090023",
+    "updatedAt": "2026-08-29T05:34:45+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Sandi Buana",
+            "aliases": [
+                "sandi buana"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "tour-20260828090023"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Sandi Buana.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Sandi Buana",
+                    "content": "Pusat pengalaman virtual untuk Sandi Buana."
+                },
+                "en": {
+                    "title": "Sandi Buana",
+                    "content": "Pusat pengalaman virtual untuk Sandi Buana."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Pesawahan",
+            "aliases": [
+                "pesawahan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "tour-20260828090023"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pesawahan",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Pesawahan",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone Sandi Buana Farm",
+            "aliases": [
+                "drone sandi buana farm"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "tour-20260828090023"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Sandi Buana Farm",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone Sandi Buana Farm",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "tour-20260828090023"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2254",
+            "entityId": "objinfo2:2254",
+            "title": "Pesawahan",
+            "aliases": [
+                "pesawahan",
+                "objek 2254"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Di Sandi Buana Farm, hamparan sawah seluas 10.000 meter persegi menghadirkan pengalaman belajar yang hidup dan menyatu dengan alam. Pengunjung diajak menyusuri setiap tahap pertanian, mulai dari tandur hingga panen, merasakan langsung ritme kehidupan di ekosistem sawah yang asri. Di tengah lahan ini, varietas padi IR 64 tumbuh koQkoh dengan tinggi sekitar 115–125 sentimeter, tidak mudah rebah diterpa angin. Dalam waktu 110 hingga 120 hari, padi ini siap dipanen, menghadirkan siklus yang cepat dan efisien. Setiap rumpunnya menghasilkan 20 hingga 35 anakan, memperlihatkan bagaimana produktivitas tinggi lahir dari proses alam yang terjaga.",
+            "source": "webview-import",
+            "sourceId": "2254",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pesawahan",
+                    "content": "Di Sandi Buana Farm, hamparan sawah seluas 10.000 meter persegi menghadirkan pengalaman belajar yang hidup dan menyatu dengan alam. Pengunjung diajak menyusuri setiap tahap pertanian, mulai dari tandur hingga panen, merasakan langsung ritme kehidupan di ekosistem sawah yang asri. Di tengah lahan ini, varietas padi IR 64 tumbuh koQkoh dengan tinggi sekitar 115–125 sentimeter, tidak mudah rebah diterpa angin. Dalam waktu 110 hingga 120 hari, padi ini siap dipanen, menghadirkan siklus yang cepat dan efisien. Setiap rumpunnya menghasilkan 20 hingga 35 anakan, memperlihatkan bagaimana produktivitas tinggi lahir dari proses alam yang terjaga."
+                },
+                "en": {
+                    "title": "Rice fields",
+                    "content": "At Sandi Buana Farm, a 10,000-square-meter expanse of rice fields offers a living learning experience in harmony with nature. Visitors are guided through every stage of farming, from planting to harvest, experiencing firsthand the rhythm of life within a lush rice field ecosystem. In the middle of this field, the IR 64 rice variety grows strong at around 115–125 centimeters, resistant to lodging in the wind. Within 110 to 120 days, it is ready for harvest, offering a fast and efficient cycle. Each clump produces 20 to 35 tillers, demonstrating how high productivity emerges from well-maintained natural processes."
+                },
+                "zh": {
+                    "title": "稻田",
+                    "content": "在Sandi Buana Farm，占地一万平方米的稻田呈现出与自然融合的生动学习体验。游客被引导了解农业的每一个阶段，从插秧到收割，亲身感受稻田生态系统中的生活节奏。在这片田地中央，IR 64 水稻品种生长稳健，高约115至125厘米，不易被风吹倒。在110至120天内即可收获，形成高效而快速的种植周期。每一丛可产生20至35个分蘖，展现出良好生态管理下的高产能力。"
+                },
+                "ar": {
+                    "title": "أرز",
+                    "content": "في Sandi Buana Farm، تمتد حقول الأرز على مساحة 10,000 متر مربع لتقدم تجربة تعليمية حية تنسجم مع الطبيعة. يُدعى الزوار لاستكشاف جميع مراحل الزراعة، من الزراعة حتى الحصاد، معايشة إيقاع الحياة داخل نظام بيئي زراعي أخضر. في وسط هذه الحقول، ينمو صنف الأرز IR 64 بقوة بارتفاع يتراوح بين 115 و125 سم، مقاومًا للرياح. وخلال 110 إلى 120 يومًا، يصبح جاهزًا للحصاد، مقدمًا دورة زراعية سريعة وفعالة. وتنتج كل شتلة من 20 إلى 35 فرعًا، مما يعكس إنتاجية عالية ناتجة عن توازن طبيعي مستدام."
+                },
+                "it": {
+                    "title": "Risaie",
+                    "content": "Presso la fattoria Sandi Buana, la risaia di 10.000 metri quadrati offre un'esperienza di apprendimento coinvolgente che si integra perfettamente con la natura. I visitatori sono invitati a esplorare ogni fase della coltivazione, dalla semina al raccolto, sperimentando in prima persona il ritmo della vita nel rigoglioso ecosistema della risaia. In questo campo, la varietà di riso IR 64 cresce rigogliosa, raggiungendo un'altezza di circa 115-125 centimetri, resistente al vento. In 110-120 giorni, il riso è pronto per il raccolto, garantendo un ciclo rapido ed efficiente. Ogni cespuglio produce da 20 a 35 culmi, a dimostrazione di come un'elevata produttività nasca da un processo naturale ben gestito."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2241",
+            "entityId": "objinfo2:2241",
+            "title": "Peternakan Sapi",
+            "aliases": [
+                "peternakan sapi",
+                "objek 2241"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Peternakan sapi di Sandi Buana Farm merupakan bagian penting dari sistem pertanian terintegrasi (integrated farming) yang menghubungkan peternakan dan pertanian modern. Terdapat sekitar 100 ekor sapi Friesian Holstein (FH), dikenal sebagai ras unggul penghasil susu dengan ciri khas hitam-putih dan produktivitas tinggi. Dengan manajemen kandang yang bersih, tertata, serta sirkulasi udara optimal, dan dukungan pakan hijauan segar, peternakan ini mampu menghasilkan susu berkualitas untuk wilayah Semarang dan Kendal. Selain itu, limbah ternak dimanfaatkan sebagai pupuk organik bagi instalasi hidroponik, menciptakan siklus berkelanjutan. Hal ini menjadikan Sandi Buana Farm sebagai destinasi agrowisata edukatif yang modern, ramah lingkungan, dan inspiratif bagi masyarakat luas.",
+            "source": "webview-import",
+            "sourceId": "2241",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Peternakan Sapi",
+                    "content": "Peternakan sapi di Sandi Buana Farm merupakan bagian penting dari sistem pertanian terintegrasi (integrated farming) yang menghubungkan peternakan dan pertanian modern. Terdapat sekitar 100 ekor sapi Friesian Holstein (FH), dikenal sebagai ras unggul penghasil susu dengan ciri khas hitam-putih dan produktivitas tinggi. Dengan manajemen kandang yang bersih, tertata, serta sirkulasi udara optimal, dan dukungan pakan hijauan segar, peternakan ini mampu menghasilkan susu berkualitas untuk wilayah Semarang dan Kendal. Selain itu, limbah ternak dimanfaatkan sebagai pupuk organik bagi instalasi hidroponik, menciptakan siklus berkelanjutan. Hal ini menjadikan Sandi Buana Farm sebagai destinasi agrowisata edukatif yang modern, ramah lingkungan, dan inspiratif bagi masyarakat luas."
+                },
+                "en": {
+                    "title": "Cattle Farm",
+                    "content": "The cattle farming at Sandi Buana Farm is an essential part of an integrated farming system that connects livestock and modern agriculture. Around 100 Friesian Holstein (FH) cows are raised here, known as a superior dairy breed with distinctive black-and-white patterns and high productivity. With clean and well-organized barn management, optimal air circulation, and fresh forage feed, the farm produces high-quality milk for the Semarang and Kendal regions. In addition, livestock waste is utilized as organic fertilizer for hydroponic installations, creating a sustainable cycle. This makes Sandi Buana Farm a modern, eco-friendly, and inspiring educational agrotourism destination for the wider community."
+                },
+                "zh": {
+                    "title": "养牛场",
+                    "content": "Sandi Buana 农场的养牛业是综合农业系统的重要组成部分，将畜牧业与现代农业相结合。这里饲养约100头荷斯坦奶牛（FH），这种奶牛以黑白相间的外观和高产奶量而闻名。通过清洁有序的牛舍管理、良好的空气流通以及新鲜的饲草供应，该农场能够为三宝垄和肯达尔地区提供高品质牛奶。此外，畜牧废弃物被用作水培系统的有机肥料，形成可持续循环。这使Sandi Buana农场成为一个现代化、环保且富有启发性的教育型农业旅游目的地。"
+                },
+                "ar": {
+                    "title": "مزرعة أبقار",
+                    "content": "تُعد تربية الأبقار في مزرعة Sandi Buana جزءًا أساسيًا من نظام الزراعة المتكاملة الذي يربط بين تربية الماشية والزراعة الحديثة. تضم المزرعة حوالي 100 بقرة من سلالة فريزيان هولشتاين (FH)، المعروفة بإنتاجها العالي من الحليب ولونها الأسود والأبيض المميز. بفضل إدارة الحظائر النظيفة والمنظمة، وتهوية الهواء المثلى، وتوفير الأعلاف الخضراء الطازجة، تنتج المزرعة حليبًا عالي الجودة لمنطقتي سيمارانغ وكيندال. كما يتم استخدام مخلفات الماشية كسماد عضوي لمنشآت الزراعة المائية، مما يخلق دورة مستدامة. وهذا يجعل مزرعة Sandi Buana وجهة سياحية زراعية تعليمية حديثة وصديقة للبيئة وملهمة للمجتمع."
+                },
+                "it": {
+                    "title": "Allevamento di bovini",
+                    "content": "L'allevamento di bestiame della Sandi Buana Farm è parte integrante di un sistema agricolo integrato che unisce l'allevamento tradizionale all'agricoltura moderna. Ospita circa 100 vacche di razza Holstein Friesian (FH), una razza da latte di qualità superiore, caratterizzata dal manto bianco e nero e dall'elevata produttività. Grazie a una gestione pulita e ben organizzata delle stalle, a un'ottimale circolazione dell'aria e alla disponibilità di foraggio fresco, l'azienda produce latte di alta qualità per le regioni di Semarang e Kendal. Inoltre, i rifiuti zootecnici vengono utilizzati come fertilizzante organico per l'impianto idroponico, creando un ciclo sostenibile. Tutto ciò rende la Sandi Buana Farm una destinazione agrituristica moderna, ecocompatibile e stimolante dal punto di vista educativo per l'intera comunità."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2240",
+            "entityId": "objinfo2:2240",
+            "title": "Mesin Penggilingan Padi",
+            "aliases": [
+                "mesin penggilingan padi",
+                "objek 2240"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Secara teknis, mesin penggilingan padi di Sandi Buana Farm merupakan sistem pengolahan gabah modern yang mengintegrasikan beberapa komponen utama untuk menghasilkan beras kualitas terbaik. Proses dimulai pada bagian atas yaitu Husker (Pecah Kulit) bermerek ICHI yang bertugas mengupas sekam menjadi beras pecah kulit. Selanjutnya, material dialirkan menuju Polisher (Penyosok) untuk mengikis lapisan bekatul hingga beras tampak putih bersih. Seluruh perpindahan material antar proses dilakukan secara otomatis melalui Elevator berupa pipa-pipa besar yang miring, sementara seluruh rangkaian alat digerakkan oleh Mesin Diesel bertenaga besar yang terhubung melalui sistem as dan sabuk yang efisien.",
+            "source": "webview-import",
+            "sourceId": "2240",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mesin Penggilingan Padi",
+                    "content": "Secara teknis, mesin penggilingan padi di Sandi Buana Farm merupakan sistem pengolahan gabah modern yang mengintegrasikan beberapa komponen utama untuk menghasilkan beras kualitas terbaik. Proses dimulai pada bagian atas yaitu Husker (Pecah Kulit) bermerek ICHI yang bertugas mengupas sekam menjadi beras pecah kulit. Selanjutnya, material dialirkan menuju Polisher (Penyosok) untuk mengikis lapisan bekatul hingga beras tampak putih bersih. Seluruh perpindahan material antar proses dilakukan secara otomatis melalui Elevator berupa pipa-pipa besar yang miring, sementara seluruh rangkaian alat digerakkan oleh Mesin Diesel bertenaga besar yang terhubung melalui sistem as dan sabuk yang efisien."
+                },
+                "en": {
+                    "title": "Rice Milling Machine",
+                    "content": "The rice milling machine at Sandi Buana Farm is a modern grain processing system that integrates several main components to produce the best quality rice. The process begins at the top with the ICHI brand Husker, which functions to peel the husk into brown rice. Next, the material flows to the Polisher to scrape off the bran layer until the rice appears clean and white. All material movement between processes is carried out automatically through Elevators in the form of large inclined pipes, while the entire series of tools is driven by a high-powered Diesel Engine connected via an efficient shaft and belt system."
+                },
+                "zh": {
+                    "title": "碾米机",
+                    "content": "Sandi Buana 农场的碾米机是一套现代化的谷物加工系统，它整合了多个主要部件以生产最高品质的大米。加工流程从顶部的 ICHI 品牌脱壳机 (Husker) 开始，负责将稻壳剥除并加工成糙米。随后，物料进入抛光机 (Polisher) 磨去米糠层，使大米变得洁白。各工序间的物料转移通过大型倾斜管道形式的提升机 (Elevator) 自动完成，而整套设备则由通过高效轴皮带系统连接的大功率柴油机驱动。"
+                },
+                "ar": {
+                    "title": "آلة طحن الأرز",
+                    "content": "تعد آلة طحن الأرز في مزرعة ساندي بوانا نظاماً حديثاً لمعالجة الحبوب يدمج عدة مكونات رئيسية لإنتاج أرز بأفضل جودة. تبدأ العملية من الجزء العلوي باستخدام آلة تقشير الأرز (Husker) من علامة ICHI، والتي تقوم بتقشير القشرة لتحويلها إلى أرز بني. بعد ذلك، تتدفق المواد إلى آلة صقل الأرز (Polisher) لكشط طبقة النخالة حتى يصبح الأرز أبيض ونظيفاً. تتم جميع عمليات نقل المواد بين المراحل تلقائياً عبر المصاعد (Elevators) وهي عبارة عن أنابيب مائلة كبيرة، بينما يتم تشغيل مجموعة الأدوات بالكامل بواسطة محرك ديزل قوي متصل عبر نظام عمود ودوران وسيور فعال."
+                },
+                "it": {
+                    "title": "Macchina per la lavorazione del riso",
+                    "content": "Tecnicamente, la macchina per la lavorazione del riso presso la fattoria Sandi Buana è un moderno sistema di trasformazione che integra diverse componenti chiave per produrre riso di altissima qualità. Il processo inizia dall'alto, ovvero con la decorticatrice (Husker) a marchio ICHI, responsabile della rimozione della pula per ottenere riso integrale. Successivamente, il materiale viene convogliato alla lucidatrice (Penosok) per rimuovere lo strato di crusca fino a ottenere un riso bianco e pulito. Tutto il trasferimento del materiale tra le diverse fasi del processo avviene automaticamente tramite elevatori costituiti da grandi tubi inclinati, mentre l'intera serie di macchinari è azionata da un potente motore diesel collegato tramite un efficiente sistema di assali e cinghie."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2239",
+            "entityId": "objinfo2:2239",
+            "title": "Hidroponik Selada Air",
+            "aliases": [
+                "hidroponik selada air",
+                "objek 2239"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Di Sandi Buana Farm Gunungpati, selada air (Nasturtium officinale) tumbuh subur sebagai bagian dari keluarga Brassicaceae, dikenal sebagai sayuran hijau kaya nutrisi dengan cita rasa khas dan manfaat kesehatan tinggi. Tanaman ini dibudidayakan melalui sistem hidroponik berbasis Nutrient Film Technique (NFT) di dalam greenhouse modern, memungkinkan aliran nutrisi yang efisien tanpa media tanah. Hasilnya, selada yang dipanen lebih bersih, renyah, dan bebas pestisida kimia. Lebih dari sekadar produksi, fasilitas ini juga menjadi ruang edukasi pertanian presisi yang menunjukkan bagaimana teknologi mampu meningkatkan kualitas dan kuantitas hasil panen secara berkelanjutan.",
+            "source": "webview-import",
+            "sourceId": "2239",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Hidroponik Selada Air",
+                    "content": "Di Sandi Buana Farm Gunungpati, selada air (Nasturtium officinale) tumbuh subur sebagai bagian dari keluarga Brassicaceae, dikenal sebagai sayuran hijau kaya nutrisi dengan cita rasa khas dan manfaat kesehatan tinggi. Tanaman ini dibudidayakan melalui sistem hidroponik berbasis Nutrient Film Technique (NFT) di dalam greenhouse modern, memungkinkan aliran nutrisi yang efisien tanpa media tanah. Hasilnya, selada yang dipanen lebih bersih, renyah, dan bebas pestisida kimia. Lebih dari sekadar produksi, fasilitas ini juga menjadi ruang edukasi pertanian presisi yang menunjukkan bagaimana teknologi mampu meningkatkan kualitas dan kuantitas hasil panen secara berkelanjutan."
+                },
+                "en": {
+                    "title": "Hydroponic Watercress",
+                    "content": "At Sandi Buana Farm Gunungpati, watercress (Nasturtium officinale) thrives as part of the Brassicaceae family, known as a nutrient-rich leafy green with a distinctive taste and high health benefits. This plant is cultivated using a hydroponic system based on the Nutrient Film Technique (NFT) within a modern greenhouse, allowing efficient nutrient flow without soil. As a result, the harvested greens are cleaner, crispier, and free from chemical pesticides. Beyond production, this facility also serves as a precision agriculture education space, demonstrating how technology can sustainably improve both the quality and quantity of yields."
+                },
+                "zh": {
+                    "title": "水培豆瓣菜",
+                    "content": "在Sandi Buana农场Gunungpati，水田芥（Nasturtium officinale）作为十字花科植物生长茂盛，是一种富含营养、风味独特且具有高健康价值的绿叶蔬菜。该植物在现代温室中通过基于营养液膜技术（NFT）的水培系统进行种植，使营养液在无土环境中高效流动。因此，收获的蔬菜更加洁净、脆嫩且无化学农药残留。除了生产功能外，该设施还作为精准农业的教育空间，展示技术如何可持续地提升产量与品质。"
+                },
+                "ar": {
+                    "title": "الزراعة المائية للجرجير",
+                    "content": "في مزرعة Sandi Buana Gunungpati، ينمو الجرجير المائي (Nasturtium officinale) بشكل مزدهر كجزء من عائلة الكرنب، ويُعرف بأنه خضار ورقي غني بالعناصر الغذائية بطعم مميز وفوائد صحية عالية. يتم زراعته باستخدام نظام الزراعة المائية بتقنية تدفق المغذيات (NFT) داخل بيت زجاجي حديث، مما يتيح تدفقًا فعالًا للمغذيات دون تربة. ونتيجة لذلك، يكون المحصول أنظف وأكثر قرمشة وخاليًا من المبيدات الكيميائية. ولا يقتصر دور هذه المنشأة على الإنتاج فقط، بل تُعد أيضًا مساحة تعليمية للزراعة الدقيقة تُظهر كيف يمكن للتكنولوجيا تحسين جودة وكمية الإنتاج بشكل مستدام."
+                },
+                "it": {
+                    "title": "Crescione idroponico",
+                    "content": "Nella fattoria Sandi Buana a Gunungpati, il crescione (Nasturtium officinale), appartenente alla famiglia delle Brassicaceae, prospera come ortaggio verde ricco di nutrienti, dal sapore caratteristico e dai numerosi benefici per la salute. Questa pianta viene coltivata utilizzando un sistema idroponico basato sulla tecnica NFT (Nutrient Film Technique) in una serra moderna, che consente un flusso efficiente di nutrienti senza l'utilizzo del terreno. Di conseguenza, la lattuga raccolta è più pulita, più croccante e priva di pesticidi chimici. Oltre alla produzione, questa struttura funge anche da spazio didattico per l'agricoltura di precisione, dimostrando come la tecnologia possa migliorare in modo sostenibile la qualità e la quantità dei raccolti."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2238",
+            "entityId": "objinfo2:2238",
+            "title": "Melon Inthanon",
+            "aliases": [
+                "melon inthanon",
+                "objek 2238"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Melon Inthanon adalah anggota keluarga Cucurbitaceae dengan nama ilmiah Cucumis melo L. dari kelas dikotil. Sebagai varietas hibrida komersial unggulan, Inthanon RZ merupakan hasil inovasi pertanian modern yang dirancang khusus untuk menghasilkan buah berkualitas tinggi. Varietas ini menawarkan tekstur daging yang renyah serta tingkat kemanisan unggul dibandingkan jenis melon konvensional lainnya.",
+            "source": "webview-import",
+            "sourceId": "2238",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Melon Inthanon",
+                    "content": "Melon Inthanon adalah anggota keluarga Cucurbitaceae dengan nama ilmiah Cucumis melo L. dari kelas dikotil. Sebagai varietas hibrida komersial unggulan, Inthanon RZ merupakan hasil inovasi pertanian modern yang dirancang khusus untuk menghasilkan buah berkualitas tinggi. Varietas ini menawarkan tekstur daging yang renyah serta tingkat kemanisan unggul dibandingkan jenis melon konvensional lainnya."
+                },
+                "en": {
+                    "title": "Inthanon Melon",
+                    "content": "Melon Inthanon is a member of the Cucurbitaceae family with the scientific name Cucumis melo L. from the dicot class. As a leading commercial hybrid variety, Inthanon RZ is a result of modern agricultural innovation specifically designed to produce high-quality fruit. This variety offers a crunchy flesh texture and superior sweetness levels compared to other conventional melon types."
+                },
+                "zh": {
+                    "title": "Inthanon 哈密瓜",
+                    "content": "Inthanon 哈密瓜属于葫芦科，学名为 Cucumis melo L.，归类于双子叶植物纲。作为一种顶级的商业杂交品种，Inthanon RZ 是现代农业创新的成果，专门为生产高品质水果而设计。与其它传统甜瓜品种相比，该品种具有更清脆的果肉质地和更出色的甜度。"
+                },
+                "ar": {
+                    "title": "شمام إنثانون",
+                    "content": "يعد شمام إنثانون (Melon Inthanon) عضواً في عائلة القرعيات (Cucurbitaceae) واسمه العلمي Cucumis melo L. من فئة ثنائيات الفلقة. وباعتباره صنفاً هجيناً تجارياً رائعاً، فإن Inthanon RZ هو ثمرة ابتكار زراعي حديث مصمم خصيصاً لإنتاج ثمار عالية الجودة. يوفر هذا الصنف ملمساً مقرمشاً للثمار ومستويات حلاوة متفوقة مقارنة بأنواع الشمام التقليدية الأخرى."
+                },
+                "it": {
+                    "title": "Melone Inthanon",
+                    "content": "Il melone Inthanon appartiene alla famiglia delle Cucurbitaceae, scientificamente noto come Cucumis melo L., ed è una dicotiledone. Inthanon RZ, una varietà ibrida commerciale di qualità superiore, è il risultato di moderne innovazioni agricole specificamente progettate per produrre frutti di alta qualità. Questa varietà offre una polpa croccante e una dolcezza superiore rispetto ad altre varietà di melone convenzionali."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2256",
+            "entityId": "objinfo2:2256",
+            "title": "Hidroponik Melon",
+            "aliases": [
+                "hidroponik melon",
+                "objek 2256"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Di Sandi Buana Farm, budidaya melon hidroponik menjadi gambaran nyata bagaimana teknologi dan pertanian modern berjalan selaras di tengah keterbatasan lahan perkotaan. Di dalam greenhouse yang terkontrol, sistem NFT (Nutrient Film Technique) mengalirkan nutrisi secara presisi, memungkinkan tanaman tumbuh optimal dan menghasilkan melon berkualitas premium dengan tingkat kemanisan tinggi. Lebih dari sekadar produksi, pendekatan ini menghadirkan pengalaman agrowisata yang interaktif. Melalui konsep “petik langsung”, pengunjung tidak hanya menikmati hasil panen, tetapi juga memahami proses di baliknya. Inovasi ini membuka peluang ekonomi baru sekaligus memperkenalkan potensi besar urban farming sebagai solusi masa depan.",
+            "source": "webview-import",
+            "sourceId": "2256",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Hidroponik Melon",
+                    "content": "Di Sandi Buana Farm, budidaya melon hidroponik menjadi gambaran nyata bagaimana teknologi dan pertanian modern berjalan selaras di tengah keterbatasan lahan perkotaan. Di dalam greenhouse yang terkontrol, sistem NFT (Nutrient Film Technique) mengalirkan nutrisi secara presisi, memungkinkan tanaman tumbuh optimal dan menghasilkan melon berkualitas premium dengan tingkat kemanisan tinggi. Lebih dari sekadar produksi, pendekatan ini menghadirkan pengalaman agrowisata yang interaktif. Melalui konsep “petik langsung”, pengunjung tidak hanya menikmati hasil panen, tetapi juga memahami proses di baliknya. Inovasi ini membuka peluang ekonomi baru sekaligus memperkenalkan potensi besar urban farming sebagai solusi masa depan."
+                },
+                "en": {
+                    "title": "Hydroponic Melon",
+                    "content": "At Sandi Buana Farm, hydroponic melon cultivation reflects the harmony between modern agricultural technology and urban land efficiency. Inside a controlled greenhouse environment, the NFT (Nutrient Film Technique) system delivers nutrients precisely, enabling optimal growth and producing premium-quality melons with high sweetness levels. Beyond production, this approach creates an engaging agrotourism experience. Through the “pick-your-own” concept, visitors not only enjoy fresh harvests but also gain insight into the cultivation process. This innovation offers economic value while introducing the vast potential of urban farming as a future-ready solution."
+                },
+                "zh": {
+                    "title": "水培甜瓜",
+                    "content": "在Sandi Buana Farm，水培甜瓜种植展现了现代农业技术与城市土地高效利用的完美结合。在受控的温室环境中，NFT（营养液薄膜技术）系统精准输送养分，使植物健康生长，产出甜度高、品质优良的甜瓜。这一方式不仅关注生产，也带来互动式农业旅游体验。通过“现摘现享”的理念，游客不仅可以品尝新鲜果实，还能了解其生长过程。这种创新不仅提升了经济价值，也向公众展示了城市农业的巨大潜力。"
+                },
+                "ar": {
+                    "title": "البطيخ المزروع بتقنية الزراعة المائية",
+                    "content": "في Sandi Buana Farm، تمثل زراعة الشمام بالنظام المائي نموذجًا لتكامل التكنولوجيا الحديثة مع كفاءة استخدام الأراضي الحضرية. داخل بيت زجاجي مُتحكم به، يعمل نظام NFT (تقنية الغشاء المغذي) على إيصال العناصر الغذائية بدقة، مما يتيح نموًا مثاليًا وإنتاج شمام عالي الجودة بمستوى حلاوة مرتفع.ولا يقتصر هذا النهج على الإنتاج فحسب، بل يخلق تجربة سياحة زراعية تفاعلية. من خلال مفهوم “القطف المباشر”، يمكن للزوار الاستمتاع بالمحصول الطازج وفهم مراحل زراعته. هذا الابتكار يفتح آفاقًا اقتصادية جديدة ويبرز الإمكانات الكبيرة للزراعة الحضرية كحل مستقبلي."
+                },
+                "it": {
+                    "title": "Melone idroponico",
+                    "content": "Alla Sandi Buana Farm, la coltivazione idroponica di meloni è un esempio concreto di come tecnologia e agricoltura moderna possano coesistere armoniosamente in spazi urbani limitati. All'interno di una serra a clima controllato, il sistema NFT (Nutrient Film Technique) distribuisce con precisione i nutrienti, consentendo una crescita ottimale delle piante e producendo meloni di alta qualità con un elevato grado di dolcezza. Oltre alla semplice produzione, questo approccio offre un'esperienza agrituristica interattiva. Grazie alla possibilità di \"raccogliere a mano\", i visitatori non solo possono gustare il raccolto, ma anche comprenderne il processo. Questa innovazione apre nuove opportunità economiche e dimostra l'immenso potenziale dell'agricoltura urbana come soluzione per il futuro."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2255",
+            "entityId": "objinfo2:2255",
+            "title": "Bbq Garden Cafe",
+            "aliases": [
+                "bbq garden cafe",
+                "objek 2255"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "BBQ Garden Cafe di Sandi Buana Farm merupakan destinasi kuliner unik di Semarang yang memadukan konsep makan santai dengan wisata edukasi pertanian. Terletak di tengah suasana asri Gunungpati, kafe ini menonjolkan panorama sawah yang luas dan udara yang sejuk melalui desain bangunan semi-outdoor yang terbuka.Kehadirannya tidak hanya sekadar tempat makan, tetapi juga menjadi pelengkap bagi ekosistem agrowisata di lokasi tersebut, di mana pengunjung dapat menikmati hidangan lokal sekaligus berinteraksi langsung dengan kegiatan perkebunan seperti budidaya melon hidroponik.",
+            "source": "webview-import",
+            "sourceId": "2255",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bbq Garden Cafe",
+                    "content": "BBQ Garden Cafe di Sandi Buana Farm merupakan destinasi kuliner unik di Semarang yang memadukan konsep makan santai dengan wisata edukasi pertanian. Terletak di tengah suasana asri Gunungpati, kafe ini menonjolkan panorama sawah yang luas dan udara yang sejuk melalui desain bangunan semi-outdoor yang terbuka.Kehadirannya tidak hanya sekadar tempat makan, tetapi juga menjadi pelengkap bagi ekosistem agrowisata di lokasi tersebut, di mana pengunjung dapat menikmati hidangan lokal sekaligus berinteraksi langsung dengan kegiatan perkebunan seperti budidaya melon hidroponik."
+                },
+                "en": {
+                    "title": "BBQ Garden Cafe",
+                    "content": "At Sandi Buana Farm, BBQ Garden Cafe emerges as a meeting point between flavor, nature, and learning. Nestled in the cool highlands of Gunungpati, the cafe opens up to vast rice field views, with a semi-outdoor design that welcomes fresh air and natural light into every dining moment. Here, dining becomes more than just a culinary experience—it transforms into a journey within an agrotourism ecosystem. While enjoying local dishes, visitors can observe and even engage in farming activities such as hydroponic melon cultivation, making each visit feel immersive, warm, and meaningful."
+                },
+                "zh": {
+                    "title": "烧烤花园咖啡厅",
+                    "content": "在Sandi Buana Farm，BBQ Garden Cafe 成为美食、自然与学习交汇的空间。坐落于清凉的 Gunungpati 地区，这家咖啡馆被广阔的稻田景观环绕，采用半开放式设计，让清新的空气与自然光融入每一次用餐体验。 在这里，用餐不仅是味觉的享受，更是一段融入农业生态旅游的旅程。游客在品尝当地美食的同时，还可以观赏甚至参与如水培甜瓜种植等农业活动，使每一次到访都更加生动、温暖且富有意义。"
+                },
+                "it": {
+                    "title": "Barbecue",
+                    "content": "Il BBQ Garden Cafe presso la Sandi Buana Farm è una destinazione culinaria unica a Semarang, che unisce un'esperienza di ristorazione informale al turismo agricolo educativo. Immerso nello splendido scenario di Gunungpati, il caffè offre una vista mozzafiato sulle risaie e gode di un'aria fresca grazie al suo design aperto e semi-aperto. Non è solo un luogo dove mangiare, ma si integra perfettamente con l'ecosistema agrituristico in loco, permettendo ai visitatori di gustare piatti locali e di interagire direttamente con le attività agricole, come la coltivazione idroponica di meloni."
+                },
+                "ar": {
+                    "title": "مقهى حديقة الشواء",
+                    "content": "في Sandi Buana Farm، يظهر BBQ Garden Cafe كنقطة التقاء بين النكهة والطبيعة والتجربة التعليمية. يقع في أجواء Gunungpati المنعشة، حيث يطل على مساحات واسعة من حقول الأرز، ويتميز بتصميم شبه مفتوح يسمح بدخول الهواء النقي والضوء الطبيعي ليمنح تجربة طعام مريحة ومميزة. هنا، لا يقتصر تناول الطعام على كونه تجربة عادية، بل يتحول إلى رحلة داخل منظومة السياحة الزراعية. وبينما يستمتع الزوار بالأطباق المحلية، يمكنهم مشاهدة بل والمشاركة في أنشطة زراعية مثل زراعة الشمام بنظام الهيدروبونيك، لتصبح كل زيارة تجربة غنية ودافئة ومليئة بالمعنى."
+                }
+            }
+        }
+    ]
+}

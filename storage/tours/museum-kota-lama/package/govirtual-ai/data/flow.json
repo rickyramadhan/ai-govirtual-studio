@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "tourId": "museum-kota-lama",
+    "tourName": "Museum Kota Lama",
+    "updatedAt": "2026-08-29T07:45:40+02:00",
+    "startScene": "node80",
+    "order": [
+        "node80",
+        "node87",
+        "node86",
+        "node81",
+        "node82",
+        "node88",
+        "node83",
+        "node90",
+        "node84",
+        "node89",
+        "node85"
+    ],
+    "nodes": {
+        "node80": {
+            "displayName": "Drone Utama"
+        },
+        "node87": {
+            "displayName": "Video360 1"
+        },
+        "node86": {
+            "displayName": "Drone Belakang"
+        },
+        "node81": {
+            "displayName": "Museum Kota Lama"
+        },
+        "node82": {
+            "displayName": "Lini Masa Sejarah"
+        },
+        "node88": {
+            "displayName": "Video360 2"
+        },
+        "node83": {
+            "displayName": "Bukti Arkeologi"
+        },
+        "node90": {
+            "displayName": "Video360 4"
+        },
+        "node84": {
+            "displayName": "Jalan Kaca"
+        },
+        "node89": {
+            "displayName": "Video360 3"
+        },
+        "node85": {
+            "displayName": "Kereta Api Tempo Dulu"
+        }
+    }
+}

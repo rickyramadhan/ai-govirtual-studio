@@ -1,0 +1,7 @@
+/storage/tours.db
+/storage/app.sqlite
+/storage/cities/*/raw/
+/node_modules/
+/.env
+**/.env
+*.log

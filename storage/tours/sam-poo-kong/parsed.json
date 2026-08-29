@@ -1,0 +1,1024 @@
+{
+    "startNode": "node239",
+    "scenes": [
+        {
+            "id": "node234",
+            "name": "Thao Tee Kong",
+            "displayName": "Thao Tee Kong",
+            "rawName": "",
+            "customNodeId": "thaoteekong",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "thaoteekong"
+            ]
+        },
+        {
+            "id": "node235",
+            "name": "Kyai Jangkar",
+            "displayName": "Kyai Jangkar",
+            "rawName": "",
+            "customNodeId": "kyaijangkar",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "kyaijangkar"
+            ]
+        },
+        {
+            "id": "node236",
+            "name": "Kyai Jurumudi",
+            "displayName": "Kyai Jurumudi",
+            "rawName": "",
+            "customNodeId": "kyaijurumudi",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "kyaijurumudi"
+            ]
+        },
+        {
+            "id": "node237",
+            "name": "Gerbang",
+            "displayName": "Gerbang",
+            "rawName": "",
+            "customNodeId": "gerbang",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "gerbang"
+            ]
+        },
+        {
+            "id": "node238",
+            "name": "Goa",
+            "displayName": "Goa",
+            "rawName": "",
+            "customNodeId": "goa",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "goa"
+            ]
+        },
+        {
+            "id": "node239",
+            "name": "Tengah",
+            "displayName": "Tengah",
+            "rawName": "tengah",
+            "customNodeId": "tengah",
+            "tags": [
+                "SamPooKong"
+            ],
+            "aliases": [
+                "tengah",
+                "tengah"
+            ]
+        },
+        {
+            "id": "node240",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "tags": [
+                "SamPooKong"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node241",
+            "name": "Dewa",
+            "displayName": "Dewa",
+            "rawName": "",
+            "customNodeId": "dewa",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "dewa"
+            ]
+        },
+        {
+            "id": "node242",
+            "name": "Jangkar",
+            "displayName": "Jangkar",
+            "rawName": "",
+            "customNodeId": "jangkar",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "jangkar"
+            ]
+        },
+        {
+            "id": "node243",
+            "name": "Jurumudi",
+            "displayName": "Jurumudi",
+            "rawName": "",
+            "customNodeId": "jurumudi",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "jurumudi"
+            ]
+        },
+        {
+            "id": "node244",
+            "name": "Sam Poo Tay",
+            "displayName": "Sam Poo Tay",
+            "rawName": "",
+            "customNodeId": "sampootay",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "sampootay"
+            ]
+        },
+        {
+            "id": "node245",
+            "name": "Patung Laksamana",
+            "displayName": "Patung Laksamana",
+            "rawName": "",
+            "customNodeId": "patunglaksamana",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "patunglaksamana"
+            ]
+        },
+        {
+            "id": "node246",
+            "name": "Pilar",
+            "displayName": "Pilar",
+            "rawName": "",
+            "customNodeId": "-ilar",
+            "tags": [
+                "SamPooKong"
+            ],
+            "aliases": [
+                "Pilar"
+            ]
+        },
+        {
+            "id": "node247",
+            "name": "Pilar",
+            "displayName": "Pilar",
+            "rawName": "",
+            "customNodeId": "-ilar",
+            "tags": [
+                "SamPooKong"
+            ],
+            "aliases": [
+                "Pilar"
+            ]
+        },
+        {
+            "id": "node248",
+            "name": "Plaza",
+            "displayName": "Plaza",
+            "rawName": "",
+            "customNodeId": "plaza",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "plaza"
+            ]
+        },
+        {
+            "id": "node249",
+            "name": "Plaza Utama",
+            "displayName": "Plaza Utama",
+            "rawName": "",
+            "customNodeId": "-laza-tama",
+            "tags": [
+                "SamPooKong"
+            ],
+            "aliases": [
+                "Plaza Utama"
+            ]
+        },
+        {
+            "id": "node250",
+            "name": "Relief Agama",
+            "displayName": "Relief Agama",
+            "rawName": "",
+            "customNodeId": "reliefagama",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "reliefagama"
+            ]
+        },
+        {
+            "id": "node251",
+            "name": "Relief Perompak",
+            "displayName": "Relief Perompak",
+            "rawName": "",
+            "customNodeId": "reliefperompak",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "reliefperompak"
+            ]
+        },
+        {
+            "id": "node252",
+            "name": "Gedung Batu",
+            "displayName": "Gedung Batu",
+            "rawName": "",
+            "customNodeId": "gedungbatu",
+            "tags": [
+                "SamPooKong",
+                "vd"
+            ],
+            "aliases": [
+                "gedungbatu"
+            ]
+        },
+        {
+            "id": "node253",
+            "name": "Altar Sam Poo Tay Dijen",
+            "displayName": "Altar Sam Poo Tay Dijen",
+            "rawName": "",
+            "customNodeId": "-ltar-am-oo-ay-ijen",
+            "tags": [
+                "SamPooKong"
+            ],
+            "aliases": [
+                "Altar Sam Poo Tay Dijen"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node234",
+            "target": "node241",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -137.89,
+            "tilt": -5.2
+        },
+        {
+            "scene": "node235",
+            "target": "node242",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -154.29,
+            "tilt": -14.59
+        },
+        {
+            "scene": "node236",
+            "target": "node243",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -75.06,
+            "tilt": -3.01
+        },
+        {
+            "scene": "node237",
+            "target": "node245",
+            "title": "Patung Laksamana Zheng He",
+            "id": "Point01",
+            "pan": -79.94,
+            "tilt": 0.52
+        },
+        {
+            "scene": "node237",
+            "target": "node239",
+            "title": "Halaman Tengah",
+            "id": "Point02",
+            "pan": -163.66,
+            "tilt": 3.84
+        },
+        {
+            "scene": "node238",
+            "target": "node244",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -179.21,
+            "tilt": -3.9
+        },
+        {
+            "scene": "node239",
+            "target": "node245",
+            "title": "Patung Laksamana Zheng He",
+            "id": "Point01",
+            "pan": -296.27,
+            "tilt": 4.13
+        },
+        {
+            "scene": "node239",
+            "target": "node237",
+            "title": "Gerbang Masuk",
+            "id": "Point02",
+            "pan": -273.25,
+            "tilt": 4.63
+        },
+        {
+            "scene": "node239",
+            "target": "node241",
+            "title": "Klenteng Dewa Bumi",
+            "id": "Point03",
+            "pan": -55.15,
+            "tilt": 4.23
+        },
+        {
+            "scene": "node239",
+            "target": "node248",
+            "title": "Plaza Utama",
+            "id": "Point04",
+            "pan": -167.43,
+            "tilt": 9.81
+        },
+        {
+            "scene": "node239",
+            "target": "node240",
+            "title": "Keluar",
+            "id": "Point05",
+            "pan": -118.98,
+            "tilt": 5.43
+        },
+        {
+            "scene": "node240",
+            "target": "node248",
+            "title": "Plaza Utama",
+            "id": "Point01",
+            "pan": -0.740007,
+            "tilt": -0.02
+        },
+        {
+            "scene": "node240",
+            "target": "node239",
+            "title": "Halaman Utama",
+            "id": "Point02",
+            "pan": -21.89,
+            "tilt": -3.58
+        },
+        {
+            "scene": "node241",
+            "target": "node239",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -80.35,
+            "tilt": 2.18
+        },
+        {
+            "scene": "node241",
+            "target": "node234",
+            "title": "Altar Dewa Bumi",
+            "id": "Point02",
+            "pan": -359.5,
+            "tilt": 0.37
+        },
+        {
+            "scene": "node241",
+            "target": "node243",
+            "title": "Klenteng Kiyai Juru Mudi",
+            "id": "Point03",
+            "pan": -267.03,
+            "tilt": -0.8
+        },
+        {
+            "scene": "node242",
+            "target": "node244",
+            "title": "Klenteng Sam Poo Tay Dijen",
+            "id": "Point01",
+            "pan": -115.7,
+            "tilt": -0.46
+        },
+        {
+            "scene": "node242",
+            "target": "node235",
+            "title": "Altar Kiyai Jangkar",
+            "id": "Point02",
+            "pan": -18.32,
+            "tilt": -6.17
+        },
+        {
+            "scene": "node242",
+            "target": "node246",
+            "title": "Pilar",
+            "id": "Point03",
+            "pan": -261.98,
+            "tilt": -1.91
+        },
+        {
+            "scene": "node243",
+            "target": "node236",
+            "title": "Altar Kiyai Juru Mudi",
+            "id": "Point01",
+            "pan": -359.05,
+            "tilt": -2.6
+        },
+        {
+            "scene": "node243",
+            "target": "node241",
+            "title": "Klenteng Dewa Bumi",
+            "id": "Point02",
+            "pan": -63.81,
+            "tilt": -0.83
+        },
+        {
+            "scene": "node243",
+            "target": "node244",
+            "title": "Klenteng Sam Poo Tay Dijen",
+            "id": "Point03",
+            "pan": -294.99,
+            "tilt": 0.79
+        },
+        {
+            "scene": "node244",
+            "target": "node243",
+            "title": "Klenteng Kiyai Juru Mudi",
+            "id": "Point01",
+            "pan": -79.47,
+            "tilt": -0.05
+        },
+        {
+            "scene": "node244",
+            "target": "node253",
+            "title": "Altar Sam Poo Tay Dijen",
+            "id": "Point02",
+            "pan": -27.75,
+            "tilt": -0.52
+        },
+        {
+            "scene": "node244",
+            "target": "node238",
+            "title": "Goa Sam Poo Kong",
+            "id": "Point03",
+            "pan": 359.27,
+            "tilt": -0.69
+        },
+        {
+            "scene": "node244",
+            "target": "node242",
+            "title": "Klenteng Kiyai Jangkar",
+            "id": "Point04",
+            "pan": -286.23,
+            "tilt": -0.85
+        },
+        {
+            "scene": "node245",
+            "target": "node237",
+            "title": "Gerbang Masuk",
+            "id": "Point01",
+            "pan": -236.32,
+            "tilt": -2.06
+        },
+        {
+            "scene": "node245",
+            "target": "node239",
+            "title": "Halaman Utama",
+            "id": "Point02",
+            "pan": -152.56,
+            "tilt": 2.44
+        },
+        {
+            "scene": "node246",
+            "target": "node242",
+            "title": "Klenteng Kiyai Jangkar",
+            "id": "Point01",
+            "pan": -172.22,
+            "tilt": -3.28
+        },
+        {
+            "scene": "node246",
+            "target": "node247",
+            "title": "Pilar",
+            "id": "Point02",
+            "pan": 0.4,
+            "tilt": -20.47
+        },
+        {
+            "scene": "node247",
+            "target": "node246",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 0.72,
+            "tilt": -4.74
+        },
+        {
+            "scene": "node248",
+            "target": "node240",
+            "title": "Food Court",
+            "id": "Point01",
+            "pan": -286.49,
+            "tilt": -2.83
+        },
+        {
+            "scene": "node248",
+            "target": "node239",
+            "title": "Halaman Utama",
+            "id": "Point02",
+            "pan": -158.72,
+            "tilt": -0.76
+        },
+        {
+            "scene": "node248",
+            "target": "node249",
+            "title": "Plaza Utama",
+            "id": "Point03",
+            "pan": -11.77,
+            "tilt": 1.97
+        },
+        {
+            "scene": "node249",
+            "target": "node248",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -84.11,
+            "tilt": -6.7
+        },
+        {
+            "scene": "node250",
+            "target": "node253",
+            "title": "Altar Sam Poo Tay Dijen",
+            "id": "Point01",
+            "pan": -244.31,
+            "tilt": 1.64
+        },
+        {
+            "scene": "node250",
+            "target": "node252",
+            "title": "Relief Gedung Batu Sam Poo Kong",
+            "id": "Point02",
+            "pan": -265.31,
+            "tilt": 0.56
+        },
+        {
+            "scene": "node251",
+            "target": "node252",
+            "title": "Relief Gedung Batu Sam Poo Kong",
+            "id": "Point01",
+            "pan": -79.74,
+            "tilt": -1.35
+        },
+        {
+            "scene": "node252",
+            "target": "node250",
+            "title": "Relief Gedung Batu Sam Poo Kong",
+            "id": "Point01",
+            "pan": -242.46,
+            "tilt": -12.86
+        },
+        {
+            "scene": "node252",
+            "target": "node251",
+            "title": "Relief Gedung Batu Sam Poo Kong",
+            "id": "Point02",
+            "pan": -54.85,
+            "tilt": -11.1
+        },
+        {
+            "scene": "node253",
+            "target": "node244",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -196.56,
+            "tilt": -2.8
+        },
+        {
+            "scene": "node253",
+            "target": "node250",
+            "title": "Relief Gedung Batu Sam Poo Kong",
+            "id": "Point02",
+            "pan": -70.36,
+            "tilt": -8.64
+        }
+    ],
+    "objects": [
+        {
+            "sceneId": "node234",
+            "infoId": "1546",
+            "label": "Objek 1546"
+        },
+        {
+            "sceneId": "node235",
+            "infoId": "1557",
+            "label": "Objek 1557"
+        },
+        {
+            "sceneId": "node236",
+            "infoId": "1548",
+            "label": "Objek 1548"
+        },
+        {
+            "sceneId": "node237",
+            "infoId": "1542",
+            "label": "Objek 1542"
+        },
+        {
+            "sceneId": "node238",
+            "infoId": "1549",
+            "label": "Objek 1549"
+        },
+        {
+            "sceneId": "node241",
+            "infoId": "1545",
+            "label": "Objek 1545"
+        },
+        {
+            "sceneId": "node242",
+            "infoId": "1556",
+            "label": "Objek 1556"
+        },
+        {
+            "sceneId": "node243",
+            "infoId": "1547",
+            "label": "Objek 1547"
+        },
+        {
+            "sceneId": "node244",
+            "infoId": "1553",
+            "label": "Objek 1553"
+        },
+        {
+            "sceneId": "node245",
+            "infoId": "1543",
+            "label": "Objek 1543"
+        },
+        {
+            "sceneId": "node248",
+            "infoId": "1544",
+            "label": "Objek 1544"
+        },
+        {
+            "sceneId": "node250",
+            "infoId": "1551",
+            "label": "Objek 1551"
+        },
+        {
+            "sceneId": "node251",
+            "infoId": "1552",
+            "label": "Objek 1552"
+        },
+        {
+            "sceneId": "node252",
+            "infoId": "1550",
+            "label": "Objek 1550"
+        }
+    ],
+    "video360": [],
+    "oiPositions": {
+        "node234": [
+            {
+                "pan": -15.64,
+                "tilt": -0.54,
+                "fov": 15.187
+            }
+        ],
+        "node235": [
+            {
+                "pan": 0.0300009,
+                "tilt": -11.1,
+                "fov": 12.8384
+            }
+        ],
+        "node236": [
+            {
+                "pan": -0.22,
+                "tilt": 0.51,
+                "fov": 15.187
+            }
+        ],
+        "node237": [
+            {
+                "pan": 0.14,
+                "tilt": 8.75,
+                "fov": 15.187
+            }
+        ],
+        "node238": [
+            {
+                "pan": -0.220012,
+                "tilt": -23.82,
+                "fov": 15.187
+            }
+        ],
+        "node241": [
+            {
+                "pan": -358.72,
+                "tilt": 10.51,
+                "fov": 15.187
+            }
+        ],
+        "node242": [
+            {
+                "pan": -0.0899982,
+                "tilt": 2.53,
+                "fov": 15.187
+            }
+        ],
+        "node243": [
+            {
+                "pan": -1.03,
+                "tilt": 9.75,
+                "fov": 15.187
+            }
+        ],
+        "node244": [
+            {
+                "pan": -359.7,
+                "tilt": 17.3,
+                "fov": 15.187
+            }
+        ],
+        "node245": [
+            {
+                "pan": -0.39,
+                "tilt": 37.13,
+                "fov": 15.187
+            }
+        ],
+        "node248": [
+            {
+                "pan": -8.16,
+                "tilt": 15.1,
+                "fov": 15.187
+            }
+        ],
+        "node250": [
+            {
+                "pan": 0.68,
+                "tilt": 23.2,
+                "fov": 15.187
+            }
+        ],
+        "node251": [
+            {
+                "pan": -357.2,
+                "tilt": 24.87,
+                "fov": 15.187
+            }
+        ],
+        "node252": [
+            {
+                "pan": -151.52,
+                "tilt": -3.27,
+                "fov": 15.187
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [
+            {
+                "infoId": "1542"
+            },
+            {
+                "infoId": "1542"
+            },
+            {
+                "infoId": "1557"
+            },
+            {
+                "infoId": "1556"
+            },
+            {
+                "infoId": "1553"
+            },
+            {
+                "infoId": "1552"
+            },
+            {
+                "infoId": "1551"
+            },
+            {
+                "infoId": "1550"
+            },
+            {
+                "infoId": "1549"
+            },
+            {
+                "infoId": "1548"
+            },
+            {
+                "infoId": "1547"
+            },
+            {
+                "infoId": "1546"
+            },
+            {
+                "infoId": "1545"
+            },
+            {
+                "infoId": "1544"
+            },
+            {
+                "infoId": "1543"
+            },
+            {
+                "infoId": "1542"
+            },
+            {
+                "infoId": "1542"
+            },
+            {
+                "infoId": "1542"
+            },
+            {
+                "infoId": "1542"
+            },
+            {
+                "infoId": "1543"
+            },
+            {
+                "infoId": "1543"
+            },
+            {
+                "infoId": "1543"
+            },
+            {
+                "infoId": "1543"
+            },
+            {
+                "infoId": "1544"
+            },
+            {
+                "infoId": "1544"
+            },
+            {
+                "infoId": "1544"
+            },
+            {
+                "infoId": "1544"
+            },
+            {
+                "infoId": "1545"
+            },
+            {
+                "infoId": "1545"
+            },
+            {
+                "infoId": "1545"
+            },
+            {
+                "infoId": "1545"
+            },
+            {
+                "infoId": "1546"
+            },
+            {
+                "infoId": "1546"
+            },
+            {
+                "infoId": "1546"
+            },
+            {
+                "infoId": "1546"
+            },
+            {
+                "infoId": "1547"
+            },
+            {
+                "infoId": "1547"
+            },
+            {
+                "infoId": "1547"
+            },
+            {
+                "infoId": "1547"
+            },
+            {
+                "infoId": "1548"
+            },
+            {
+                "infoId": "1548"
+            },
+            {
+                "infoId": "1548"
+            },
+            {
+                "infoId": "1548"
+            },
+            {
+                "infoId": "1549"
+            },
+            {
+                "infoId": "1549"
+            },
+            {
+                "infoId": "1549"
+            },
+            {
+                "infoId": "1549"
+            },
+            {
+                "infoId": "1550"
+            },
+            {
+                "infoId": "1550"
+            },
+            {
+                "infoId": "1550"
+            },
+            {
+                "infoId": "1550"
+            },
+            {
+                "infoId": "1551"
+            },
+            {
+                "infoId": "1551"
+            },
+            {
+                "infoId": "1551"
+            },
+            {
+                "infoId": "1551"
+            },
+            {
+                "infoId": "1552"
+            },
+            {
+                "infoId": "1552"
+            },
+            {
+                "infoId": "1552"
+            },
+            {
+                "infoId": "1552"
+            },
+            {
+                "infoId": "1553"
+            },
+            {
+                "infoId": "1553"
+            },
+            {
+                "infoId": "1553"
+            },
+            {
+                "infoId": "1553"
+            },
+            {
+                "infoId": "1556"
+            },
+            {
+                "infoId": "1556"
+            },
+            {
+                "infoId": "1556"
+            },
+            {
+                "infoId": "1556"
+            },
+            {
+                "infoId": "1557"
+            },
+            {
+                "infoId": "1557"
+            },
+            {
+                "infoId": "1557"
+            },
+            {
+                "infoId": "1557"
+            }
+        ],
+        "objectIds": [
+            "1542",
+            "1557",
+            "1556",
+            "1553",
+            "1552",
+            "1551",
+            "1550",
+            "1549",
+            "1548",
+            "1547",
+            "1546",
+            "1545",
+            "1544",
+            "1543"
+        ]
+    }
+}

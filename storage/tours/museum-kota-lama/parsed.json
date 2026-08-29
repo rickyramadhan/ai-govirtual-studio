@@ -1,0 +1,447 @@
+{
+    "startNode": "node80",
+    "scenes": [
+        {
+            "id": "node80",
+            "name": "Drone Utama",
+            "displayName": "Drone Utama",
+            "rawName": "",
+            "customNodeId": "droneutama",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "droneutama"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "tags": [
+                "MuseumKotaLama",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Drone Belakang",
+            "displayName": "Drone Belakang",
+            "rawName": "",
+            "customNodeId": "-rone-elakang",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "Drone Belakang"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Museum Kota Lama",
+            "displayName": "Museum Kota Lama",
+            "rawName": "",
+            "customNodeId": "museumkotalama",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "museumkotalama"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Lini Masa Sejarah",
+            "displayName": "Lini Masa Sejarah",
+            "rawName": "",
+            "customNodeId": "linimasasejarah",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "linimasasejarah"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Video360 2",
+            "displayName": "Video360 2",
+            "rawName": "",
+            "customNodeId": "video360_2",
+            "tags": [
+                "MuseumKotaLama",
+                "video360"
+            ],
+            "aliases": [
+                "video360_2"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Bukti Arkeologi",
+            "displayName": "Bukti Arkeologi",
+            "rawName": "",
+            "customNodeId": "buktiarkeologi",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "buktiarkeologi"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Video360 4",
+            "displayName": "Video360 4",
+            "rawName": "",
+            "customNodeId": "video360_4",
+            "tags": [
+                "MuseumKotaLama",
+                "video360"
+            ],
+            "aliases": [
+                "video360_4"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Jalan Kaca",
+            "displayName": "Jalan Kaca",
+            "rawName": "",
+            "customNodeId": "jalankaca",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "jalankaca"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Video360 3",
+            "displayName": "Video360 3",
+            "rawName": "",
+            "customNodeId": "video360_3",
+            "tags": [
+                "MuseumKotaLama",
+                "video360"
+            ],
+            "aliases": [
+                "video360_3"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Kereta Api Tempo Dulu",
+            "displayName": "Kereta Api Tempo Dulu",
+            "rawName": "",
+            "customNodeId": "keretaapidupo",
+            "tags": [
+                "MuseumKotaLama"
+            ],
+            "aliases": [
+                "keretaapidupo"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -5.71,
+            "tilt": -41.07
+        },
+        {
+            "scene": "node80",
+            "target": "node86",
+            "title": "Drone Belakang",
+            "id": "Point03",
+            "pan": -318.8,
+            "tilt": 8.35
+        },
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -181.02,
+            "tilt": -17.72
+        },
+        {
+            "scene": "node87",
+            "target": "node81",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -181.02,
+            "tilt": -17.72
+        },
+        {
+            "scene": "node86",
+            "target": "node81",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -0.69,
+            "tilt": -8.29
+        },
+        {
+            "scene": "node86",
+            "target": "node80",
+            "title": "Drone Depan",
+            "id": "Point02",
+            "pan": -32.72,
+            "tilt": 8.62
+        },
+        {
+            "scene": "node81",
+            "target": "node83",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -17.83,
+            "tilt": 2.45
+        },
+        {
+            "scene": "node82",
+            "target": "node84",
+            "title": "Museum Kota Lama",
+            "id": "Point01",
+            "pan": 84.77,
+            "tilt": -7.17
+        },
+        {
+            "scene": "node82",
+            "target": "node83",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 124.57,
+            "tilt": -6.85
+        },
+        {
+            "scene": "node82",
+            "target": "node82",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -62.55,
+            "tilt": -15.82
+        },
+        {
+            "scene": "node88",
+            "target": "node82",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -62.55,
+            "tilt": -15.82
+        },
+        {
+            "scene": "node83",
+            "target": "node82",
+            "title": "Garis Waktu Sejarah",
+            "id": "Point01",
+            "pan": -202.58,
+            "tilt": -8.89
+        },
+        {
+            "scene": "node83",
+            "target": "node81",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": 278.67,
+            "tilt": -8.44
+        },
+        {
+            "scene": "node83",
+            "target": "node83",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -353.14,
+            "tilt": -21.63
+        },
+        {
+            "scene": "node90",
+            "target": "node83",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -353.14,
+            "tilt": -21.63
+        },
+        {
+            "scene": "node84",
+            "target": "node82",
+            "title": "Garis Waktu Sejarah",
+            "id": "Point01",
+            "pan": -70.75,
+            "tilt": -13.11
+        },
+        {
+            "scene": "node84",
+            "target": "node85",
+            "title": "Kereta Api Bersejarah",
+            "id": "Point02",
+            "pan": -280.77,
+            "tilt": -11.43
+        },
+        {
+            "scene": "node84",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -248.17,
+            "tilt": -2.1
+        },
+        {
+            "scene": "node89",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -248.17,
+            "tilt": -2.1
+        },
+        {
+            "scene": "node85",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 89.64,
+            "tilt": -23.05
+        }
+    ],
+    "objects": [
+        {
+            "sceneId": "node81",
+            "infoId": "1253",
+            "label": "Objek 1253"
+        },
+        {
+            "sceneId": "node82",
+            "infoId": "1252",
+            "label": "Objek 1252"
+        },
+        {
+            "sceneId": "node83",
+            "infoId": "1254",
+            "label": "Objek 1254"
+        },
+        {
+            "sceneId": "node85",
+            "infoId": "1251",
+            "label": "Objek 1251"
+        }
+    ],
+    "video360": [],
+    "oiPositions": {
+        "node81": [
+            {
+                "pan": -35,
+                "tilt": -0.0400002,
+                "fov": 6.32653
+            }
+        ],
+        "node82": [
+            {
+                "pan": -21.49,
+                "tilt": -3.63,
+                "fov": 16.5563
+            }
+        ],
+        "node83": [
+            {
+                "pan": -333.02,
+                "tilt": -9.14,
+                "fov": 10
+            }
+        ],
+        "node84": [
+            {
+                "pan": -10.21,
+                "tilt": -7.4,
+                "fov": 13.9796
+            }
+        ],
+        "node85": [
+            {
+                "pan": -87.25,
+                "tilt": -3.3,
+                "fov": 12.7231
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [
+            {
+                "infoId": "1253"
+            },
+            {
+                "infoId": "1253"
+            },
+            {
+                "infoId": "1251"
+            },
+            {
+                "infoId": "1254"
+            },
+            {
+                "infoId": "1252"
+            },
+            {
+                "infoId": "1251"
+            },
+            {
+                "infoId": "1251"
+            },
+            {
+                "infoId": "1251"
+            },
+            {
+                "infoId": "1251"
+            },
+            {
+                "infoId": "1252"
+            },
+            {
+                "infoId": "1252"
+            },
+            {
+                "infoId": "1252"
+            },
+            {
+                "infoId": "1252"
+            },
+            {
+                "infoId": "1253"
+            },
+            {
+                "infoId": "1253"
+            },
+            {
+                "infoId": "1253"
+            },
+            {
+                "infoId": "1253"
+            },
+            {
+                "infoId": "1254"
+            },
+            {
+                "infoId": "1254"
+            },
+            {
+                "infoId": "1254"
+            },
+            {
+                "infoId": "1254"
+            }
+        ],
+        "objectIds": [
+            "1253",
+            "1251",
+            "1254",
+            "1252"
+        ]
+    }
+}
