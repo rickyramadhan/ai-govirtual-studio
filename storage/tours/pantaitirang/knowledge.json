@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "pantaitirang",
+    "updatedAt": "2026-09-29T09:51:34+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Pantaitirang",
+            "aliases": [
+                "pantaitirang"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "pantaitirang"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Pantaitirang.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pantaitirang",
+                    "content": "Pusat pengalaman virtual untuk Pantaitirang."
+                },
+                "en": {
+                    "title": "Pantaitirang",
+                    "content": "Pusat pengalaman virtual untuk Pantaitirang."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Bibit",
+            "aliases": [
+                "bibit"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "pantaitirang"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Bibit",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Bibit",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Pantai Tirang",
+            "aliases": [
+                "pantai tirang"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "pantaitirang"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pantai Tirang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Pantai Tirang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "pantaitirang"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:690",
+            "entityId": "objinfo2:690",
+            "title": "Sign Pantai Tirang",
+            "aliases": [
+                "sign pantai tirang",
+                "objek 690"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sign atau ikon di Pantai Tirang lebih bersifat rustic (sederhana/alami) dan dikelola secara swadaya oleh warga sekitar (Kelompok Sadar Wisata). Sign ini menjadi lokasi foto favorit bagi pengunjung karna menawarkan pemandangan yang langsung mengarah ke laut.",
+            "source": "webview-import",
+            "sourceId": "690",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Sign Pantai Tirang",
+                    "content": "Sign atau ikon di Pantai Tirang lebih bersifat rustic (sederhana/alami) dan dikelola secara swadaya oleh warga sekitar (Kelompok Sadar Wisata). Sign ini menjadi lokasi foto favorit bagi pengunjung karna menawarkan pemandangan yang langsung mengarah ke laut."
+                },
+                "en": {
+                    "title": "Tirang Beach Sign",
+                    "content": "\"The sign or icon at Tirang Beach has a more rustic (simple and natural) style and is managed independently by local residents (Tourism Awareness Group).\r\nThis sign has become a favorite photo spot for visitors because it offers a direct view facing the sea.\""
+                },
+                "zh": {
+                    "title": "蒂朗海滩标识",
+                    "content": "蒂朗海滩的标识或地标风格偏向质朴自然，由当地居民（旅游意识小组）自主管理。由于能够直接欣赏海景，这一标识成为游客喜爱的拍照地点。"
+                },
+                "ar": {
+                    "title": "لافتة شاطئ تيرانغ",
+                    "content": "تتسم اللافتة أو الأيقونة في شاطئ تيرانغ بطابع ريفي (بسيط وطبيعي)، ويتم إدارتها بشكل تطوعي من قبل السكان المحليين (مجموعة الوعي السياحي). وقد أصبحت هذه اللافتة موقعًا مفضلًا لالتقاط الصور لدى الزوار لأنها توفر إطلالة مباشرة على البحر."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:691",
+            "entityId": "objinfo2:691",
+            "title": "Jembatan",
+            "aliases": [
+                "jembatan",
+                "objek 691"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Selain untuk berwisata, ujung jembatan ini sering dimanfaatkan oleh warga lokal atau pemancing hobi (angler) untuk melemparkan kail ke area yang lebih dalam tanpa harus berenang ke tengah. Anda mungkin akan sering melihat orang duduk memancing di ujung jembatan ini pada pagi atau sore hari.",
+            "source": "webview-import",
+            "sourceId": "691",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jembatan",
+                    "content": "Selain untuk berwisata, ujung jembatan ini sering dimanfaatkan oleh warga lokal atau pemancing hobi (angler) untuk melemparkan kail ke area yang lebih dalam tanpa harus berenang ke tengah. Anda mungkin akan sering melihat orang duduk memancing di ujung jembatan ini pada pagi atau sore hari."
+                },
+                "en": {
+                    "title": "Bridge",
+                    "content": "\"Besides being used for tourism, the end of this bridge is often utilized by local residents or recreational anglers to cast their fishing lines into deeper waters without having to swim out.\r\nYou may often see people sitting and fishing at the end of this bridge in the morning or late afternoon.\""
+                },
+                "zh": {
+                    "title": "桥",
+                    "content": "除了作为旅游景点外，这座桥的尽头也常被当地居民或钓鱼爱好者利用，无需游到海中即可将鱼钩抛向较深水域。你常常可以在清晨或傍晚看到人们坐在桥头钓鱼。"
+                },
+                "ar": {
+                    "title": "جسر",
+                    "content": "إلى جانب استخدامها لأغراض السياحة، يُستفاد من نهاية هذا الجسر كثيرًا من قبل السكان المحليين أو هواة صيد الأسماك لإلقاء صناراتهم نحو المناطق الأعمق دون الحاجة إلى السباحة إلى المنتصف. وغالبًا ما يمكنك مشاهدة أشخاص يجلسون للصيد في نهاية هذا الجسر خلال الصباح أو فترة ما بعد العصر."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:692",
+            "entityId": "objinfo2:692",
+            "title": "Pantai",
+            "aliases": [
+                "pantai",
+                "objek 692"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pantai ini terletak tepat di sebelah landasan pacu Bandara Internasional Jenderal Ahmad Yani. Ini menjadikan Pantai Tirang satu-satunya tempat di Semarang di mana Anda bisa menikmati suasana pantai sambil melihat pesawat take-off dan landing dari jarak dekat.",
+            "source": "webview-import",
+            "sourceId": "692",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pantai",
+                    "content": "Pantai ini terletak tepat di sebelah landasan pacu Bandara Internasional Jenderal Ahmad Yani. Ini menjadikan Pantai Tirang satu-satunya tempat di Semarang di mana Anda bisa menikmati suasana pantai sambil melihat pesawat take-off dan landing dari jarak dekat."
+                },
+                "en": {
+                    "title": "Beach",
+                    "content": "\"This beach is located right next to the runway of Jenderal Ahmad Yani International Airport.\r\nThis makes Tirang Beach the only place in Semarang where you can enjoy a beach atmosphere while watching airplanes take off and land from a close distance.\""
+                },
+                "zh": {
+                    "title": "海滩",
+                    "content": "这片海滩正位于艾哈迈德·亚尼国际机场跑道旁边，使得蒂朗海滩成为三宝垄唯一一个可以在享受海滩氛围的同时，近距离观看飞机起降的地方。"
+                },
+                "ar": {
+                    "title": "شاطئ",
+                    "content": "يقع هذا الشاطئ مباشرة بجوار مدرج مطار الجنرال أحمد ياني الدولي، مما يجعل شاطئ تيرانغ المكان الوحيد في سيمارانغ الذي يمكن فيه الاستمتاع بأجواء الشاطئ مع مشاهدة الطائرات أثناء الإقلاع والهبوط عن قرب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:693",
+            "entityId": "objinfo2:693",
+            "title": "Gazebo",
+            "aliases": [
+                "gazebo",
+                "objek 693"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Keberadaan gazebo-gazebo ini menjadikan Pantai Tirang destinasi yang \"ramah keluarga\" karena orang tua bisa bersantai dengan nyaman sementara anak-anak bermain di pantai. Pengunjung biasanya memesan makanan (seperti mendoan hangat, mie rebus, atau kelapa muda) dari warung sekitar dan menikmatinya di gazebo ini bersama keluarga.",
+            "source": "webview-import",
+            "sourceId": "693",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gazebo",
+                    "content": "Keberadaan gazebo-gazebo ini menjadikan Pantai Tirang destinasi yang \"ramah keluarga\" karena orang tua bisa bersantai dengan nyaman sementara anak-anak bermain di pantai. Pengunjung biasanya memesan makanan (seperti mendoan hangat, mie rebus, atau kelapa muda) dari warung sekitar dan menikmatinya di gazebo ini bersama keluarga."
+                },
+                "en": {
+                    "title": "Gazebo",
+                    "content": "\"The presence of these gazebos makes Tirang Beach a “family-friendly” destination, as parents can relax comfortably while children play on the beach.\r\nVisitors usually order food such as warm mendoan, instant noodles, or fresh young coconut from nearby stalls and enjoy it together with their family in these gazebos.\""
+                },
+                "zh": {
+                    "title": "凉亭",
+                    "content": "这些凉亭的存在使蒂朗海滩成为一个“适合家庭”的旅游目的地，家长可以舒适地休息，而孩子们则在海滩上玩耍。游客通常会从周边小摊购买食物，如热腾腾的印尼炸豆饼、泡面或新鲜椰子，并与家人在凉亭中一同享用。"
+                },
+                "ar": {
+                    "title": "مظلة خشبية",
+                    "content": "يساهم وجود هذه المظلات في جعل شاطئ تيرانغ وجهة «مناسبة للعائلات»، حيث يمكن للآباء الاسترخاء براحة بينما يلعب الأطفال على الشاطئ. وعادةً ما يطلب الزوار أطعمة مثل المندوأن الساخن، أو المعكرونة سريعة التحضير، أو جوز الهند الطازج من الأكشاك القريبة، ويستمتعون بتناولها مع عائلاتهم داخل هذه المظلات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:694",
+            "entityId": "objinfo2:694",
+            "title": "UMKM",
+            "aliases": [
+                "umkm",
+                "objek 694"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Warung-warung semi-permanen yang berjejer rapi menghadap pantai. Beberapa warung menyediakan tempat duduk lesehan. Menu andalan di sini sangat sederhana namun nikmat disantap di pinggir pantai. Yang paling populer adalah Kelapa Muda, Mendoan/Gorengan panas, Mie Instan (rebus/goreng), dan ikan bakar sederhana.",
+            "source": "webview-import",
+            "sourceId": "694",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "UMKM",
+                    "content": "Warung-warung semi-permanen yang berjejer rapi menghadap pantai. Beberapa warung menyediakan tempat duduk lesehan. Menu andalan di sini sangat sederhana namun nikmat disantap di pinggir pantai. Yang paling populer adalah Kelapa Muda, Mendoan/Gorengan panas, Mie Instan (rebus/goreng), dan ikan bakar sederhana."
+                },
+                "en": {
+                    "title": "Micro, Small, and Medium Enterprises (MSMEs)",
+                    "content": "\"Semi-permanent food stalls line up neatly facing the beach, with some offering floor seating.\r\nThe signature menu is very simple yet enjoyable to eat by the seaside, with the most popular items being young coconut, hot mendoan/fried snacks, instant noodles (boiled or fried), and simple grilled fish.\""
+                },
+                "zh": {
+                    "title": "中小微企业",
+                    "content": "一排排半永久性的摊位整齐地面向海滩，其中一些摊位提供席地而坐的用餐方式。这里的招牌菜单虽然简单，却非常适合在海边享用，最受欢迎的包括新鲜椰子、热腾腾的印尼炸豆饼/油炸小吃、方便面（汤面或炒面），以及简单的烤鱼。"
+                },
+                "ar": {
+                    "title": "المشروعات متناهية الصغر والصغيرة والمتوسطة",
+                    "content": "تصطف الأكشاك شبه الدائمة بشكل منظم مواجهـة للشاطئ، ويوفر بعضها أماكن جلوس أرضية. تتميز قائمة الطعام هنا بالبساطة، لكنها لذيذة عند تناولها على شاطئ البحر، ومن أشهر الأطعمة جوز الهند الطازج، والمندوأن/المقليات الساخنة، والمعكرونة سريعة التحضير (مسلوقة أو مقلية)، والسمك المشوي البسيط."
+                }
+            }
+        }
+    ]
+}

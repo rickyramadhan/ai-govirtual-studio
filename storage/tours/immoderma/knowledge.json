@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "immoderma",
+    "updatedAt": "2026-09-29T09:50:51+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Immoderma",
+            "aliases": [
+                "immoderma"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "immoderma"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Immoderma.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Immoderma",
+                    "content": "Pusat pengalaman virtual untuk Immoderma."
+                },
+                "en": {
+                    "title": "Immoderma",
+                    "content": "Pusat pengalaman virtual untuk Immoderma."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "immoderma"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruang Perawatan Lantai 2",
+            "aliases": [
+                "ruang perawatan lantai 2"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "immoderma"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruang Perawatan Lantai 2",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruang Perawatan Lantai 2",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "immoderma"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1145",
+            "entityId": "objinfo2:1145",
+            "title": "Ruang Perawatan",
+            "aliases": [
+                "ruang perawatan",
+                "objek 1145"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang Perawatan (Treatment Room) di Imoderna Aesthetic & Skin Care Clinic Semarang merupakan pusat tindakan medis estetika yang dirancang untuk efisiensi alur kerja tenaga medis sekaligus kenyamanan maksimal bagi pasien. Ruangan ini menggunakan sistem open-ward dengan sekat tirai yang memungkinkan fleksibilitas penggunaan ruang; tirai dapat ditutup rapat untuk menjamin privasi selama tindakan laser atau facial, namun tetap memudahkan mobilitas staf klinis antar-bed.",
+            "source": "webview-import",
+            "sourceId": "1145",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Perawatan",
+                    "content": "Ruang Perawatan (Treatment Room) di Imoderna Aesthetic & Skin Care Clinic Semarang merupakan pusat tindakan medis estetika yang dirancang untuk efisiensi alur kerja tenaga medis sekaligus kenyamanan maksimal bagi pasien. Ruangan ini menggunakan sistem open-ward dengan sekat tirai yang memungkinkan fleksibilitas penggunaan ruang; tirai dapat ditutup rapat untuk menjamin privasi selama tindakan laser atau facial, namun tetap memudahkan mobilitas staf klinis antar-bed."
+                },
+                "en": {
+                    "title": "Treatment Room",
+                    "content": "The Treatment Room at Imoderna Aesthetic & Skin Care Clinic Semarang is a center for aesthetic medical procedures designed for efficient workflow for medical staff while providing maximum comfort for patients. The room uses an open-ward system with curtain partitions that allow flexible use of space; curtains can be fully closed to ensure privacy during laser or facial procedures, while still enabling staff mobility between beds."
+                },
+                "zh": {
+                    "title": "治疗室",
+                    "content": "Imoderna Aesthetic & Skin Care Clinic 三宝垄诊所的治疗室是一个专门用于美容医疗操作的中心，旨在提高医护人员的工作效率，同时为患者提供最大的舒适感。该房间采用开放病房系统并配有帘子隔断，可灵活使用空间；在进行激光或面部护理时，帘子可以完全拉上以保证隐私，同时仍方便医护人员在床位间移动。"
+                },
+                "ar": {
+                    "title": "غرفة العلاج",
+                    "content": "غرفة العلاج في عيادة Imoderna للتجميل والعناية بالبشرة في سيمارانغ هي مركز للإجراءات الطبية التجميلية مصممة لكفاءة سير العمل للطاقم الطبي مع توفير أقصى درجات الراحة للمرضى. تستخدم الغرفة نظام جناح مفتوح مع فواصل ستائر تسمح بالمرونة في استخدام المساحة؛ يمكن إغلاق الستائر تمامًا لضمان الخصوصية أثناء إجراءات الليزر أو الوجه، مع تسهيل حركة الطاقم بين الأسرّة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1146",
+            "entityId": "objinfo2:1146",
+            "title": "Ruang Tindakan",
+            "aliases": [
+                "ruang tindakan",
+                "objek 1146"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini dirancang untuk memberikan pengalaman perawatan yang privat dan nyaman, sesuai dengan standar layanan Imoderma yang mengedepankan profesionalitas dalam lingkungan yang suportif bagi kesehatan kulit dan kesejahteraan diri.",
+            "source": "webview-import",
+            "sourceId": "1146",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Tindakan",
+                    "content": "Ruangan ini dirancang untuk memberikan pengalaman perawatan yang privat dan nyaman, sesuai dengan standar layanan Imoderma yang mengedepankan profesionalitas dalam lingkungan yang suportif bagi kesehatan kulit dan kesejahteraan diri."
+                },
+                "en": {
+                    "title": "Procedure Room",
+                    "content": "This room is designed to provide a private and comfortable treatment experience, in line with Imoderma’s service standards that prioritize professionalism within a supportive environment for skin health and overall well-being."
+                },
+                "zh": {
+                    "title": "操作室",
+                    "content": "该房间旨在提供私密且舒适的护理体验，符合 Imoderma 的服务标准，强调在支持皮肤健康与整体身心健康的环境中保持专业性。"
+                },
+                "ar": {
+                    "title": "غرفة الإجراءات",
+                    "content": "تم تصميم هذه الغرفة لتوفير تجربة علاجية خاصة ومريحة، بما يتماشى مع معايير خدمة Imoderma التي تركز على الاحترافية ضمن بيئة داعمة لصحة البشرة والرفاهية العامة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1147",
+            "entityId": "objinfo2:1147",
+            "title": "Ruang Perawatan Khusus",
+            "aliases": [
+                "ruang perawatan khusus",
+                "objek 1147"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini dirancang sebagai area multifungsi yang mampu menangani berbagai prosedur, mulai dari perawatan kulit wajah dasar hingga tindakan medis tingkat lanjut menggunakan teknologi laser.",
+            "source": "webview-import",
+            "sourceId": "1147",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Perawatan Khusus",
+                    "content": "Ruangan ini dirancang sebagai area multifungsi yang mampu menangani berbagai prosedur, mulai dari perawatan kulit wajah dasar hingga tindakan medis tingkat lanjut menggunakan teknologi laser."
+                },
+                "en": {
+                    "title": "Special Care Room",
+                    "content": "This room is designed as a multifunctional area capable of handling various procedures, from basic facial skin care to advanced medical treatments using laser technology."
+                },
+                "zh": {
+                    "title": "特护病房",
+                    "content": "该房间被设计为多功能区域，可处理各种程序，从基础面部护肤到使用激光技术的高级医疗治疗。"
+                },
+                "ar": {
+                    "title": "غرفة العناية الخاصة",
+                    "content": "تم تصميم هذه الغرفة كمنطقة متعددة الاستخدامات قادرة على التعامل مع إجراءات متنوعة، بدءًا من العناية الأساسية ببشرة الوجه إلى العلاجات الطبية المتقدمة باستخدام تقنية الليزر."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1148",
+            "entityId": "objinfo2:1148",
+            "title": "Resepsionis",
+            "aliases": [
+                "resepsionis",
+                "objek 1148"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini menjadi titik tunggal untuk pendaftaran, manajemen janji temu (appointment), hingga transaksi pembayaran (kasir), sehingga alur kunjungan pasien menjadi lebih efisien dan terorganisir.",
+            "source": "webview-import",
+            "sourceId": "1148",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Resepsionis",
+                    "content": "Area ini menjadi titik tunggal untuk pendaftaran, manajemen janji temu (appointment), hingga transaksi pembayaran (kasir), sehingga alur kunjungan pasien menjadi lebih efisien dan terorganisir."
+                },
+                "en": {
+                    "title": "Receptionist",
+                    "content": "This area serves as a single point for registration, appointment management, and payment transactions (cashier), making the patient visit flow more efficient and organized."
+                },
+                "zh": {
+                    "title": "接待员",
+                    "content": "该区域作为注册、预约管理和支付（收银）的单一窗口，使患者就诊流程更加高效、有序。"
+                },
+                "ar": {
+                    "title": "موظف الاستقبال",
+                    "content": "تعد هذه المنطقة نقطة واحدة للتسجيل وإدارة المواعيد والمعاملات المالية (الصراف)، مما يجعل سير زيارة المرضى أكثر كفاءة وتنظيمًا."
+                }
+            }
+        }
+    ]
+}

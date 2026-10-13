@@ -1,0 +1,623 @@
+{
+    "startNode": "node29",
+    "scenes": [
+        {
+            "id": "node15",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Oleholeh",
+            "displayName": "Oleholeh",
+            "rawName": "",
+            "customNodeId": "oleholeh",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem",
+                "oi"
+            ],
+            "aliases": [
+                "oleholeh"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Asem Asem Koh Liem",
+            "displayName": "Asem Asem Koh Liem",
+            "rawName": "",
+            "customNodeId": "-sem-sem-oh-iem",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Asem Asem Koh Liem"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Pusatoleholeh",
+            "displayName": "Pusatoleholeh",
+            "rawName": "",
+            "customNodeId": "pusatoleholeh",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "pusatoleholeh"
+            ]
+        },
+        {
+            "id": "node22",
+            "name": "Sejarahareamakan",
+            "displayName": "Sejarahareamakan",
+            "rawName": "",
+            "customNodeId": "sejarahareamakan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem",
+                "oi"
+            ],
+            "aliases": [
+                "sejarahareamakan"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Ruang Makan",
+            "displayName": "Ruang Makan",
+            "rawName": "",
+            "customNodeId": "-uang-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Ruang Makan"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "Toilet",
+            "displayName": "Toilet",
+            "rawName": "",
+            "customNodeId": "-oilet",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Toilet"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "Ruang Koridor",
+            "displayName": "Ruang Koridor",
+            "rawName": "",
+            "customNodeId": "-uang-oridor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Ruang Koridor"
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "Area Depan",
+            "displayName": "Area Depan",
+            "rawName": "",
+            "customNodeId": "-rea-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Area Depan"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 0.0401992,
+            "tilt": -35.3272,
+            "fov": 125.146,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node30",
+            "name": "Areafoto",
+            "displayName": "Areafoto",
+            "rawName": "",
+            "customNodeId": "areafoto",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem",
+                "oi"
+            ],
+            "aliases": [
+                "areafoto"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Areamerokok",
+            "displayName": "Areamerokok",
+            "rawName": "",
+            "customNodeId": "areamerokok",
+            "pan": 25.38,
+            "tilt": -1.83,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "areamerokok"
+            ]
+        },
+        {
+            "id": "node32",
+            "name": "Ruang Makan",
+            "displayName": "Ruang Makan",
+            "rawName": "",
+            "customNodeId": "-uang-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Ruang Makan"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Area Dapur",
+            "displayName": "Area Dapur",
+            "rawName": "",
+            "customNodeId": "-rea-apur",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Area Dapur"
+            ]
+        },
+        {
+            "id": "node34",
+            "name": "Ruang Makan",
+            "displayName": "Ruang Makan",
+            "rawName": "",
+            "customNodeId": "-uang-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "Ruang Makan"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Ruangrapat",
+            "displayName": "Ruangrapat",
+            "rawName": "",
+            "customNodeId": "ruangrapat",
+            "pan": 0.21,
+            "tilt": -3.09,
+            "fov": 100,
+            "tags": [
+                "AsemAsemKohLiem"
+            ],
+            "aliases": [
+                "ruangrapat"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node15",
+            "target": "node19",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -237.3,
+            "tilt": -12.4
+        },
+        {
+            "scene": "node17",
+            "target": "node21",
+            "title": "Souvenir",
+            "id": "Point01",
+            "pan": -282.06,
+            "tilt": -28.54
+        },
+        {
+            "scene": "node19",
+            "target": "node31",
+            "title": "Ruang Makan",
+            "id": "Point01",
+            "pan": -351.44,
+            "tilt": -3.38
+        },
+        {
+            "scene": "node19",
+            "target": "node15",
+            "title": "Musholla",
+            "id": "Point02",
+            "pan": -316.22,
+            "tilt": -4.41
+        },
+        {
+            "scene": "node20",
+            "target": "node27",
+            "title": "Area Parkir",
+            "id": "Point01",
+            "pan": -0.36,
+            "tilt": -3.97
+        },
+        {
+            "scene": "node21",
+            "target": "node17",
+            "title": "Pusat Oleh Oleh",
+            "id": "Point01",
+            "pan": -43.08,
+            "tilt": -28.64
+        },
+        {
+            "scene": "node21",
+            "target": "node30",
+            "title": "Pintu Keluar",
+            "id": "Point02",
+            "pan": -240.01,
+            "tilt": -6.75
+        },
+        {
+            "scene": "node21",
+            "target": "node22",
+            "title": "Sejarah Koh Liem",
+            "id": "Point03",
+            "pan": -153.74,
+            "tilt": -17.79
+        },
+        {
+            "scene": "node21",
+            "target": "node25",
+            "title": "Ruang Koridor",
+            "id": "Point04",
+            "pan": -83.69,
+            "tilt": -9.15
+        },
+        {
+            "scene": "node22",
+            "target": "node21",
+            "title": "Pusat Oleh Oleh",
+            "id": "Point01",
+            "pan": -261.33,
+            "tilt": -18.48
+        },
+        {
+            "scene": "node22",
+            "target": "node30",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -164.63,
+            "tilt": -7.88
+        },
+        {
+            "scene": "node23",
+            "target": "node25",
+            "title": "Ruang Koridor",
+            "id": "Point01",
+            "pan": -146.28,
+            "tilt": -15
+        },
+        {
+            "scene": "node23",
+            "target": "node31",
+            "title": "Ruang Makan",
+            "id": "Point02",
+            "pan": -255.53,
+            "tilt": -5.43
+        },
+        {
+            "scene": "node23",
+            "target": "node35",
+            "title": "Ruang Rapat",
+            "id": "Point03",
+            "pan": -3.08,
+            "tilt": 2.89
+        },
+        {
+            "scene": "node24",
+            "target": "node25",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -177.72,
+            "tilt": -43.28
+        },
+        {
+            "scene": "node25",
+            "target": "node21",
+            "title": "Pusat Oleh Oleh",
+            "id": "Point01",
+            "pan": -97.68,
+            "tilt": -16.71
+        },
+        {
+            "scene": "node25",
+            "target": "node23",
+            "title": "Ruang Makan",
+            "id": "Point02",
+            "pan": -225.72,
+            "tilt": -14.72
+        },
+        {
+            "scene": "node25",
+            "target": "node24",
+            "title": "Toilet",
+            "id": "Point03",
+            "pan": -15.98,
+            "tilt": -12.59
+        },
+        {
+            "scene": "node26",
+            "target": "node30",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -6.42,
+            "tilt": -2.13
+        },
+        {
+            "scene": "node26",
+            "target": "node27",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -180.76,
+            "tilt": -7.62
+        },
+        {
+            "scene": "node27",
+            "target": "node20",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.79,
+            "tilt": -7.64
+        },
+        {
+            "scene": "node27",
+            "target": "node26",
+            "title": "Area Depan",
+            "id": "Point02",
+            "pan": -7.35,
+            "tilt": -7.04
+        },
+        {
+            "scene": "node29",
+            "target": "node20",
+            "title": "Asem Asem Koh Liem",
+            "id": "Point01",
+            "pan": -357.78,
+            "tilt": -52.57
+        },
+        {
+            "scene": "node30",
+            "target": "node26",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -67.59,
+            "tilt": -14.52
+        },
+        {
+            "scene": "node30",
+            "target": "node21",
+            "title": "Pusat Oleh Oleh",
+            "id": "Point02",
+            "pan": -220.55,
+            "tilt": -4.4
+        },
+        {
+            "scene": "node31",
+            "target": "node23",
+            "title": "Ruang Makan Menuju Lt. 2",
+            "id": "Point01",
+            "pan": -336.2,
+            "tilt": -4.78
+        },
+        {
+            "scene": "node31",
+            "target": "node25",
+            "title": "Ruang Koridor",
+            "id": "Point02",
+            "pan": -8.61,
+            "tilt": -4.6
+        },
+        {
+            "scene": "node31",
+            "target": "node19",
+            "title": "Pintu Keluar",
+            "id": "Point03",
+            "pan": -246.92,
+            "tilt": -9.83
+        },
+        {
+            "scene": "node31",
+            "target": "node33",
+            "title": "Area Dapur",
+            "id": "Point04",
+            "pan": -302.12,
+            "tilt": -3.37
+        },
+        {
+            "scene": "node32",
+            "target": "node35",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -178.95,
+            "tilt": -4.56
+        },
+        {
+            "scene": "node32",
+            "target": "node34",
+            "title": "Ruang Makan",
+            "id": "Point02",
+            "pan": -1.48,
+            "tilt": -8.58
+        },
+        {
+            "scene": "node33",
+            "target": "node31",
+            "title": "Pintu Keluar",
+            "id": "Point02",
+            "pan": -165.45,
+            "tilt": -13.26
+        },
+        {
+            "scene": "node34",
+            "target": "node32",
+            "title": "Ruang Makan",
+            "id": "Point01",
+            "pan": -1.86,
+            "tilt": -11.48
+        },
+        {
+            "scene": "node35",
+            "target": "node23",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -184.38,
+            "tilt": -31.16
+        },
+        {
+            "scene": "node35",
+            "target": "node32",
+            "title": "Ruang Makan",
+            "id": "Point02",
+            "pan": -359.57,
+            "tilt": -14.05
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1048,
+            "label": "Pusat Oleh-Oleh",
+            "description": "Rumah Makan Asem-Asem Koh Liem tidak hanya menjual makanan siap santap, tetapi juga menyediakan kemasan beku (frozen) dari menu andalannya, Asem-Asem Daging, yang praktis untuk dibawa pulang sebagai oleh-oleh. Selain itu, mereka sering menawarkan berbagai menu lauk khas rumahan lainnya yang juga bisa dibeli dalam jumlah banyak untuk dibawa pulang.",
+            "fragment": "pusatoleholeh",
+            "link": "asemasemkohliem/index.html#pusatoleholeh",
+            "sceneId": "node21"
+        },
+        {
+            "infoId": 1049,
+            "label": "Sejarah dan Area Makan",
+            "description": "Warung Asem-Asem Koh Liem adalah kuliner legendaris Semarang yang telah berdiri sejak tahun 1978 oleh pendirinya, Piek Swie Liem, bermula dari jualan kaki lima hingga kini dikelola generasi penerusnya. Area makannya mengusung nuansa klasik mirip warteg, di mana aneka lauk pauk disusun di lemari kaca dan tempat duduk pelanggan mengelilingi bar tempat peracikan makanan.",
+            "fragment": "sejarahareamakan",
+            "link": "asemasemkohliem/index.html#sejarahareamakan",
+            "sceneId": "node22"
+        },
+        {
+            "infoId": 1050,
+            "label": "Ruang Rapat",
+            "description": "Warung Asem-Asem Koh Liem dikenal dengan konsep warung makan sederhana yang fokus pada kuliner legendaris bergaya warteg atau masakan rumahan. Restoran ini memiliki fasilitas ruang meeting khusus, dengan ruang makan utama yang dilengkapi meja dan kursi.",
+            "fragment": "ruangrapat",
+            "link": "asemasemkohliem/index.html#ruangrapat",
+            "sceneId": "node35"
+        },
+        {
+            "infoId": 1051,
+            "label": "Area Makan Ruang Merokok",
+            "description": "Warung Asem-Asem Koh Liem dikenal dengan konsep warung makan sederhana yang fokus pada kuliner legendaris bergaya warteg atau masakan rumahan yang juga menyediakan area khusus untuk smoking room.",
+            "fragment": "areamerokok",
+            "link": "asemasemkohliem/index.html#areamerokok",
+            "sceneId": "node31"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "8cdd457bc33ffee4",
+        "skin.js": "66045ad7ae9b4436",
+        "index.html": "c26992557499db7c"
+    }
+}

@@ -1,0 +1,1013 @@
+{
+    "startNode": "node105",
+    "scenes": [
+        {
+            "id": "node101",
+            "name": "Pagoda",
+            "displayName": "Pagoda",
+            "rawName": "",
+            "customNodeId": "pagoda",
+            "pan": -0.967202,
+            "tilt": 18.8557,
+            "fov": 128.609,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "pagoda"
+            ]
+        },
+        {
+            "id": "node80",
+            "name": "Patungdua",
+            "displayName": "Patungdua",
+            "rawName": "",
+            "customNodeId": "patungdua",
+            "pan": 4.93,
+            "tilt": 0.42,
+            "fov": 117.02,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungdua"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Patung3",
+            "displayName": "Patung3",
+            "rawName": "",
+            "customNodeId": "patung3",
+            "pan": -9.94,
+            "tilt": -1.41,
+            "fov": 117.02,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patung3"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Patungempat",
+            "displayName": "Patungempat",
+            "rawName": "",
+            "customNodeId": "patungempat",
+            "pan": 7.17,
+            "tilt": -2.4,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungempat"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Patungenam",
+            "displayName": "Patungenam",
+            "rawName": "",
+            "customNodeId": "patungenam",
+            "pan": -3.23,
+            "tilt": 5.12,
+            "fov": 117.02,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungenam"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Patungbuddhatidur",
+            "displayName": "Patungbuddhatidur",
+            "rawName": "",
+            "customNodeId": "patungbuddhatidur",
+            "pan": -0.61,
+            "tilt": 10.23,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungbuddhatidur"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Patungdewi",
+            "displayName": "Patungdewi",
+            "rawName": "",
+            "customNodeId": "patungdewi",
+            "pan": -0.79,
+            "tilt": -8.31,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungdewi"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Paviliun",
+            "displayName": "Paviliun",
+            "rawName": "",
+            "customNodeId": "paviliun",
+            "pan": -1.36,
+            "tilt": 17.76,
+            "fov": 108.17,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "paviliun"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Kwan Sie Im Po Sat",
+            "displayName": "Kwan Sie Im Po Sat",
+            "rawName": "",
+            "customNodeId": "-wan-ie-m-o-at",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Kwan Sie Im Po Sat"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Patungbuddha",
+            "displayName": "Patungbuddha",
+            "rawName": "",
+            "customNodeId": "patungbuddha",
+            "pan": 0.63,
+            "tilt": 1.3,
+            "fov": 117.02,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungbuddha"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Kuil",
+            "displayName": "Kuil",
+            "rawName": "",
+            "customNodeId": "-uil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Kuil"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Pagoda Avalokitesvara",
+            "displayName": "Pagoda Avalokitesvara",
+            "rawName": "",
+            "customNodeId": "-agoda-valokitesvara",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Pagoda Avalokitesvara"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Maklumat",
+            "displayName": "Maklumat",
+            "rawName": "",
+            "customNodeId": "maklumat",
+            "pan": -11.1,
+            "tilt": -4.62,
+            "fov": 108.17,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "maklumat"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Pilar",
+            "displayName": "Pilar",
+            "rawName": "",
+            "customNodeId": "pilar",
+            "pan": 3.21,
+            "tilt": 17.38,
+            "fov": 108.17,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "pilar"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Aulaibadah",
+            "displayName": "Aulaibadah",
+            "rawName": "",
+            "customNodeId": "aulaibadah",
+            "pan": -2.45,
+            "tilt": 10.73,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "aulaibadah"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Kuil",
+            "displayName": "Kuil",
+            "rawName": "",
+            "customNodeId": "-uil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Kuil"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Kuil",
+            "displayName": "Kuil",
+            "rawName": "",
+            "customNodeId": "-uil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Kuil"
+            ]
+        },
+        {
+            "id": "node99",
+            "name": "Watugong",
+            "displayName": "Watugong",
+            "rawName": "",
+            "customNodeId": "watugong",
+            "pan": -0.75,
+            "tilt": -3.88,
+            "fov": 117.37,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "watugong"
+            ]
+        },
+        {
+            "id": "node100",
+            "name": "Gerbang Masuk",
+            "displayName": "Gerbang Masuk",
+            "rawName": "",
+            "customNodeId": "-erbang-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Gerbang Masuk"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Bixi",
+            "displayName": "Bixi",
+            "rawName": "",
+            "customNodeId": "bixi",
+            "pan": 3.08,
+            "tilt": -5.74,
+            "fov": 85.72,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "bixi"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Vihara Watugong",
+            "displayName": "Vihara Watugong",
+            "rawName": "",
+            "customNodeId": "-ihara-atugong",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Vihara Watugong"
+            ]
+        },
+        {
+            "id": "node104",
+            "name": "Pohonbodhi",
+            "displayName": "Pohonbodhi",
+            "rawName": "",
+            "customNodeId": "pohonbodhi",
+            "pan": -2.13,
+            "tilt": -3.01,
+            "fov": 93.97,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "pohonbodhi"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Gedungdammasala",
+            "displayName": "Gedungdammasala",
+            "rawName": "",
+            "customNodeId": "gedungdammasala",
+            "pan": -42.13,
+            "tilt": 16.48,
+            "fov": 101.6,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "gedungdammasala"
+            ]
+        },
+        {
+            "id": "node106",
+            "name": "Patungsatu",
+            "displayName": "Patungsatu",
+            "rawName": "",
+            "customNodeId": "patungsatu",
+            "pan": -28.2,
+            "tilt": 2.01,
+            "fov": 102.28,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungsatu"
+            ]
+        },
+        {
+            "id": "node107",
+            "name": "Patungfulushou",
+            "displayName": "Patungfulushou",
+            "rawName": "",
+            "customNodeId": "patungfulushou",
+            "pan": -0.15,
+            "tilt": 3.33,
+            "fov": 119.9,
+            "tags": [
+                "oi",
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "patungfulushou"
+            ]
+        },
+        {
+            "id": "node108",
+            "name": "Kantor",
+            "displayName": "Kantor",
+            "rawName": "",
+            "customNodeId": "-antor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "ViharaWatugong"
+            ],
+            "aliases": [
+                "Kantor"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node101",
+            "target": "node93",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point01",
+            "pan": -1.11,
+            "tilt": -3.39
+        },
+        {
+            "scene": "node101",
+            "target": "node86",
+            "title": "Patung Dewi Kwan Im",
+            "id": "Point04",
+            "pan": 175.34,
+            "tilt": -3.31
+        },
+        {
+            "scene": "node101",
+            "target": "node107",
+            "title": "Patung Fulushou",
+            "id": "Point05",
+            "pan": 109,
+            "tilt": -4.33
+        },
+        {
+            "scene": "node101",
+            "target": "node104",
+            "title": "Pohon Bodhi",
+            "id": "Point02",
+            "pan": 215.86,
+            "tilt": -2.12
+        },
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "Wei Tuo Pu Sa",
+            "id": "Point01",
+            "pan": -59.09,
+            "tilt": -11.89
+        },
+        {
+            "scene": "node80",
+            "target": "node106",
+            "title": "Cheng Shou Guan Yin",
+            "id": "Point02",
+            "pan": 76.93,
+            "tilt": -8
+        },
+        {
+            "scene": "node81",
+            "target": "node80",
+            "title": "Yin Yuan Guan Yin",
+            "id": "Point01",
+            "pan": 64.51,
+            "tilt": -9.81
+        },
+        {
+            "scene": "node81",
+            "target": "node83",
+            "title": "Song Nu Guan Yin",
+            "id": "Point02",
+            "pan": -75.6,
+            "tilt": -11.35
+        },
+        {
+            "scene": "node83",
+            "target": "node81",
+            "title": "Wei Tuo Pu Sa",
+            "id": "Point01",
+            "pan": 73.55,
+            "tilt": -10.57
+        },
+        {
+            "scene": "node83",
+            "target": "node84",
+            "title": "Yin Yuan Guan Yin",
+            "id": "Point02",
+            "pan": -62.19,
+            "tilt": -15.07
+        },
+        {
+            "scene": "node84",
+            "target": "node90",
+            "title": "Kwan Sie Im Po Sat",
+            "id": "Point01",
+            "pan": -67.23,
+            "tilt": -12.78
+        },
+        {
+            "scene": "node84",
+            "target": "node102",
+            "title": "Pendopo",
+            "id": "Point03",
+            "pan": -173.38,
+            "tilt": -26.36
+        },
+        {
+            "scene": "node84",
+            "target": "node83",
+            "title": "Song Nu Guan Yin",
+            "id": "Point02",
+            "pan": 56.25,
+            "tilt": -10.99
+        },
+        {
+            "scene": "node85",
+            "target": "node102",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point01",
+            "pan": -53.89,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node85",
+            "target": "node91",
+            "title": "Kuil",
+            "id": "Point02",
+            "pan": -141.57,
+            "tilt": -11.85
+        },
+        {
+            "scene": "node86",
+            "target": "node104",
+            "title": "Pohon Bodhi",
+            "id": "Point01",
+            "pan": 292.99,
+            "tilt": -4.15
+        },
+        {
+            "scene": "node86",
+            "target": "node103",
+            "title": "Vihara Watugong",
+            "id": "Point02",
+            "pan": 175.81,
+            "tilt": -22.36
+        },
+        {
+            "scene": "node86",
+            "target": "node101",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point03",
+            "pan": -332.954,
+            "tilt": -5.25
+        },
+        {
+            "scene": "node88",
+            "target": "node101",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point01",
+            "pan": 96.27,
+            "tilt": -0.7
+        },
+        {
+            "scene": "node88",
+            "target": "node104",
+            "title": "Pohon Bodhi",
+            "id": "Point02",
+            "pan": 166.88,
+            "tilt": -0.45
+        },
+        {
+            "scene": "node89",
+            "target": "node90",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -175.54,
+            "tilt": -25.36
+        },
+        {
+            "scene": "node90",
+            "target": "node93",
+            "title": "Tangga",
+            "id": "Point01",
+            "pan": -148.34,
+            "tilt": -13.92
+        },
+        {
+            "scene": "node90",
+            "target": "node89",
+            "title": "Kwan Sie Im Po Sat",
+            "id": "Point02",
+            "pan": -1.21,
+            "tilt": -27.56
+        },
+        {
+            "scene": "node90",
+            "target": "node84",
+            "title": "Yin Yuan Guan Yin",
+            "id": "Point04",
+            "pan": -262,
+            "tilt": -11.83
+        },
+        {
+            "scene": "node90",
+            "target": "node106",
+            "title": "Cheng Shou Guan Yin",
+            "id": "Point03",
+            "pan": -94.54,
+            "tilt": -15.36
+        },
+        {
+            "scene": "node91",
+            "target": "node85",
+            "title": "Patung Buddha",
+            "id": "Point03",
+            "pan": -38.56,
+            "tilt": -6.81
+        },
+        {
+            "scene": "node91",
+            "target": "node105",
+            "title": "Vihara Watugong",
+            "id": "Point04",
+            "pan": -181.57,
+            "tilt": -5.13
+        },
+        {
+            "scene": "node91",
+            "target": "node108",
+            "title": "Kantor",
+            "id": "Point01",
+            "pan": -264.06,
+            "tilt": -9.87
+        },
+        {
+            "scene": "node93",
+            "target": "node101",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point01",
+            "pan": 185.15,
+            "tilt": -25.1
+        },
+        {
+            "scene": "node93",
+            "target": "node90",
+            "title": "Kwan Sie Im Po Sat",
+            "id": "Point02",
+            "pan": 5.78,
+            "tilt": 0.0799999
+        },
+        {
+            "scene": "node94",
+            "target": "node95",
+            "title": "Pilar",
+            "id": "Point01",
+            "pan": 9.26,
+            "tilt": -11.06
+        },
+        {
+            "scene": "node94",
+            "target": "node100",
+            "title": "Gerbang Masuk",
+            "id": "Point02",
+            "pan": -164.09,
+            "tilt": -9.16
+        },
+        {
+            "scene": "node95",
+            "target": "node103",
+            "title": "Vihara Watugong",
+            "id": "Point01",
+            "pan": 181.43,
+            "tilt": -9.34
+        },
+        {
+            "scene": "node95",
+            "target": "node94",
+            "title": "Tugu Maklumat",
+            "id": "Point03",
+            "pan": -45.51,
+            "tilt": -7.03
+        },
+        {
+            "scene": "node96",
+            "target": "node97",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 179.42,
+            "tilt": -5.33
+        },
+        {
+            "scene": "node97",
+            "target": "node98",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.61,
+            "tilt": -17.24
+        },
+        {
+            "scene": "node97",
+            "target": "node96",
+            "title": "Kuil",
+            "id": "Point02",
+            "pan": -2.69,
+            "tilt": -4.12
+        },
+        {
+            "scene": "node97",
+            "target": "node105",
+            "title": "Lapangan",
+            "id": "Point03",
+            "pan": -68.73,
+            "tilt": -4.5
+        },
+        {
+            "scene": "node98",
+            "target": "node97",
+            "title": "Kuil",
+            "id": "Point02",
+            "pan": 1.86,
+            "tilt": 2.75
+        },
+        {
+            "scene": "node98",
+            "target": "node100",
+            "title": "Gerbang Masuk",
+            "id": "Point01",
+            "pan": 263.85,
+            "tilt": -3.75
+        },
+        {
+            "scene": "node99",
+            "target": "node100",
+            "title": "Masuk Vihara Watugong",
+            "id": "Point01",
+            "pan": -0.69,
+            "tilt": 0.19
+        },
+        {
+            "scene": "node100",
+            "target": "node94",
+            "title": "Tugu Maklumat",
+            "id": "Point01",
+            "pan": -63.82,
+            "tilt": -4.92
+        },
+        {
+            "scene": "node100",
+            "target": "node99",
+            "title": "Batu Watugong",
+            "id": "Point02",
+            "pan": -180.1,
+            "tilt": -5.67
+        },
+        {
+            "scene": "node100",
+            "target": "node105",
+            "title": "Lapangan",
+            "id": "Point03",
+            "pan": -359.75,
+            "tilt": -7.7
+        },
+        {
+            "scene": "node100",
+            "target": "node98",
+            "title": "Kuil",
+            "id": "Point04",
+            "pan": -289.77,
+            "tilt": -2.06
+        },
+        {
+            "scene": "node102",
+            "target": "node84",
+            "title": "Yin Yuan Guan Yin",
+            "id": "Point02",
+            "pan": -137.2,
+            "tilt": -2.32
+        },
+        {
+            "scene": "node102",
+            "target": "node85",
+            "title": "Patung Buddha",
+            "id": "Point03",
+            "pan": -31.19,
+            "tilt": -6.8
+        },
+        {
+            "scene": "node102",
+            "target": "node101",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point01",
+            "pan": -189.59,
+            "tilt": -3.04
+        },
+        {
+            "scene": "node103",
+            "target": "node86",
+            "title": "Siddharta Gautama",
+            "id": "Point01",
+            "pan": -1.2,
+            "tilt": 1.89
+        },
+        {
+            "scene": "node103",
+            "target": "node95",
+            "title": "Pilar",
+            "id": "Point02",
+            "pan": 116.07,
+            "tilt": -8.61
+        },
+        {
+            "scene": "node103",
+            "target": "node105",
+            "title": "Vihara Watugong",
+            "id": "Point03",
+            "pan": 72.68,
+            "tilt": -5.98
+        },
+        {
+            "scene": "node104",
+            "target": "node88",
+            "title": "Pendopo",
+            "id": "Point01",
+            "pan": 53.86,
+            "tilt": -11.94
+        },
+        {
+            "scene": "node104",
+            "target": "node86",
+            "title": "Siddharta Gautama",
+            "id": "Point02",
+            "pan": 211.55,
+            "tilt": -11.48
+        },
+        {
+            "scene": "node104",
+            "target": "node101",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point03",
+            "pan": 118.64,
+            "tilt": -7.16
+        },
+        {
+            "scene": "node105",
+            "target": "node100",
+            "title": "Pintu Masuk Vihara Watugong",
+            "id": "Point01",
+            "pan": -179.68,
+            "tilt": -1.92
+        },
+        {
+            "scene": "node105",
+            "target": "node97",
+            "title": "Kuil",
+            "id": "Point03",
+            "pan": -267.69,
+            "tilt": -2.29
+        },
+        {
+            "scene": "node105",
+            "target": "node91",
+            "title": "Altar",
+            "id": "Point04",
+            "pan": -0.34,
+            "tilt": 0.08
+        },
+        {
+            "scene": "node105",
+            "target": "node103",
+            "title": "Siddharta Gautama",
+            "id": "Point02",
+            "pan": -92.44,
+            "tilt": -0.85
+        },
+        {
+            "scene": "node105",
+            "target": "node107",
+            "title": "Patung Fulushou",
+            "id": "Point05",
+            "pan": -60.12,
+            "tilt": -1.12
+        },
+        {
+            "scene": "node106",
+            "target": "node80",
+            "title": "Yin Yuan Guan Yin",
+            "id": "Point01",
+            "pan": -97.66,
+            "tilt": -12.57
+        },
+        {
+            "scene": "node106",
+            "target": "node90",
+            "title": "Kwan Sie Im Po Sat",
+            "id": "Point02",
+            "pan": 35.38,
+            "tilt": -9.41
+        },
+        {
+            "scene": "node107",
+            "target": "node101",
+            "title": "Pagoda Avalokitesvara",
+            "id": "Point01",
+            "pan": -122.67,
+            "tilt": -14.06
+        },
+        {
+            "scene": "node107",
+            "target": "node105",
+            "title": "Lapangan Vihara",
+            "id": "Point02",
+            "pan": -274.1,
+            "tilt": -10.37
+        },
+        {
+            "scene": "node108",
+            "target": "node91",
+            "title": "Kuil",
+            "id": "Point01",
+            "pan": -130.91,
+            "tilt": -3.01
+        },
+        {
+            "scene": "node108",
+            "target": "node105",
+            "title": "Lapangan",
+            "id": "Point02",
+            "pan": -205.21,
+            "tilt": -5.68
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 315,
+            "label": "Pagoda Avalokitesvara",
+            "description": "Pagoda ini adalah ikon utama Vihara Watugong, berdiri setinggi 45 meter dan tercatat sebagai pagoda tertinggi di Indonesia. Bangunan berarsitektur Tiongkok ini memiliki tujuh tingkatan dan didedikasikan sebagai perwujudan cinta kasih (Metta Karuna) Sang Buddha.",
+            "fragment": "pagoda",
+            "link": "viharawatugong/index.html#pagoda",
+            "sceneId": "node101"
+        },
+        {
+            "infoId": 316,
+            "label": "Gedung Dammasala",
+            "description": "Gedung Dammasala merupakan bangunan utama vihara yang berfungsi sebagai pusat kegiatan keagamaan dan spiritual umat Buddha. Bangunan dua lantai ini memiliki aula serbaguna di lantai dasar dan ruang ibadah utama dengan patung Buddha besar di lantai atas.",
+            "fragment": "gedungdammasala",
+            "link": "viharawatugong/index.html#gedungdammasala",
+            "sceneId": "node105"
+        },
+        {
+            "infoId": 317,
+            "label": "Patung Buddha dan Dewi Kwan In",
+            "description": "Patung Dewi Kwan Im (Bodhisattva Avalokitesvara) yang besar berada di dalam Pagoda Avalokitesvara, serta terdapat pula patung-patung kecil Dewi Kwan Im di setiap tingkat pagoda. Dewi Kwan Im melambangkan dewi welas asih yang memancarkan kasih sayangnya ke empat penjuru mata angin.",
+            "fragment": "patungbuddha",
+            "link": "viharawatugong/index.html#patungbuddha",
+            "sceneId": "node90"
+        },
+        {
+            "infoId": 318,
+            "label": "Watugong",
+            "description": "Watugong adalah batu alam berbentuk unik menyerupai gong yang menjadi asal usul nama kompleks vihara ini. Batu ini dianggap sebagai peninggalan bersejarah dan menjadi salah satu ikon yang menyambut pengunjung di dekat pintu masuk vihara.",
+            "fragment": "watugong",
+            "link": "viharawatugong/index.html#watugong",
+            "sceneId": "node99"
+        },
+        {
+            "infoId": 319,
+            "label": "Pohon Bodhi",
+            "description": "Pohon Bodhi di Vihara Watugong merupakan keturunan langsung dari Pohon Bodhi di India tempat Pangeran Sidharta mencapai pencerahan. Pohon ini ditanam pada tahun 1955 oleh Bhante Narada Mahathera dan melambangkan tempat keabadian serta menjadi situs suci di vihara.",
+            "fragment": "pohonbodhi",
+            "link": "viharawatugong/index.html#pohonbodhi",
+            "sceneId": "node104"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "69e8bcc981b906e3",
+        "skin.js": "f7eb93ac6e60420a",
+        "index.html": "367212dee68bb587"
+    }
+}

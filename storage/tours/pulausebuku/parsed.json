@@ -1,0 +1,835 @@
+{
+    "startNode": "Pulau Sebuku (Tampilan Drone)",
+    "scenes": [
+        {
+            "id": "Pulau Sebuku (Tampilan Drone)",
+            "name": "Pulau Sebuku (Tampilan Drone)",
+            "displayName": "Pulau Sebuku (Tampilan Drone)",
+            "rawName": "Pulau Sebuku Drone",
+            "customNodeId": "PulauSebuku",
+            "pan": -2.72,
+            "tilt": -16.96,
+            "fov": 108.17,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "PulauSebuku",
+                "Pulau Sebuku Drone"
+            ]
+        },
+        {
+            "id": "Perahu Nelayan",
+            "name": "Perahu Nelayan",
+            "displayName": "Perahu Nelayan",
+            "rawName": "",
+            "customNodeId": "perahunelayan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "perahunelayan"
+            ]
+        },
+        {
+            "id": "Gunung Rajabasa",
+            "name": "Gunung Rajabasa",
+            "displayName": "Gunung Rajabasa",
+            "rawName": "",
+            "customNodeId": "gunungrajabasa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "gunungrajabasa"
+            ]
+        },
+        {
+            "id": "Perahu Cepat",
+            "name": "Perahu Cepat",
+            "displayName": "Perahu Cepat",
+            "rawName": "",
+            "customNodeId": "perahucepat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "perahucepat"
+            ]
+        },
+        {
+            "id": "Panorama 5",
+            "name": "Panorama 5",
+            "displayName": "Panorama 5",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Pantai Sebuku",
+            "name": "Pantai Sebuku",
+            "displayName": "Pantai Sebuku",
+            "rawName": "",
+            "customNodeId": "pantaisebuku",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "pantaisebuku"
+            ]
+        },
+        {
+            "id": "Panorama 7",
+            "name": "Panorama 7",
+            "displayName": "Panorama 7",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Panorama 8",
+            "name": "Panorama 8",
+            "displayName": "Panorama 8",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Pondok Nelayan",
+            "name": "Pondok Nelayan",
+            "displayName": "Pondok Nelayan",
+            "rawName": "",
+            "customNodeId": "pondoknelayan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "pondoknelayan"
+            ]
+        },
+        {
+            "id": "Jalan Setapak",
+            "name": "Jalan Setapak",
+            "displayName": "Jalan Setapak",
+            "rawName": "",
+            "customNodeId": "jalansetapak",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "jalansetapak"
+            ]
+        },
+        {
+            "id": "Area Vegetasi",
+            "name": "Area Vegetasi",
+            "displayName": "Area Vegetasi",
+            "rawName": "",
+            "customNodeId": "vegetasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "vegetasi"
+            ]
+        },
+        {
+            "id": "Panorama 12",
+            "name": "Panorama 12",
+            "displayName": "Panorama 12",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Panorama 13",
+            "name": "Panorama 13",
+            "displayName": "Panorama 13",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Panorama 14",
+            "name": "Panorama 14",
+            "displayName": "Panorama 14",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Panorama 15",
+            "name": "Panorama 15",
+            "displayName": "Panorama 15",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Panorama 16",
+            "name": "Panorama 16",
+            "displayName": "Panorama 16",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Panorama 17",
+            "name": "Panorama 17",
+            "displayName": "Panorama 17",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "Perahu Nelayan0",
+            "name": "Panorama Pesisir 1",
+            "displayName": "Panorama Pesisir 1",
+            "rawName": "default",
+            "customNodeId": "PulauSebukuDrone",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "PulauSebukuDrone",
+                "default"
+            ]
+        },
+        {
+            "id": "Perahu Nelayan1",
+            "name": "Panorama Pesisir 2",
+            "displayName": "Panorama Pesisir 2",
+            "rawName": "default-satunya",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PulauSebuku"
+            ],
+            "aliases": [
+                "default-satunya"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "Pulau Sebuku (Tampilan Drone)",
+            "target": "Perahu Cepat",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -3.11,
+            "tilt": -27.2
+        },
+        {
+            "scene": "Pulau Sebuku (Tampilan Drone)",
+            "target": "Perahu Nelayan0",
+            "title": "Drone Pulau Sebuku Besar",
+            "id": "Point03",
+            "pan": -144.57,
+            "tilt": 9.74
+        },
+        {
+            "scene": "Pulau Sebuku (Tampilan Drone)",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point04",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Perahu Nelayan",
+            "target": "Gunung Rajabasa",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -289.79,
+            "tilt": 3.13
+        },
+        {
+            "scene": "Perahu Nelayan",
+            "target": "Panorama 15",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -97.62,
+            "tilt": 3.64
+        },
+        {
+            "scene": "Perahu Nelayan",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Gunung Rajabasa",
+            "target": "Perahu Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -108.79,
+            "tilt": 0.67
+        },
+        {
+            "scene": "Gunung Rajabasa",
+            "target": "Perahu Cepat",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -202.69,
+            "tilt": 0.74
+        },
+        {
+            "scene": "Gunung Rajabasa",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Perahu Cepat",
+            "target": "Gunung Rajabasa",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -134.55,
+            "tilt": 1.16
+        },
+        {
+            "scene": "Perahu Cepat",
+            "target": "Panorama 5",
+            "title": "Pulau Sebuku",
+            "id": "Point03",
+            "pan": -229.37,
+            "tilt": 2.72
+        },
+        {
+            "scene": "Perahu Cepat",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point01",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 5",
+            "target": "Pantai Sebuku",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -76.16,
+            "tilt": -1.93
+        },
+        {
+            "scene": "Panorama 5",
+            "target": "Perahu Cepat",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -273.05,
+            "tilt": -1.83
+        },
+        {
+            "scene": "Panorama 5",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Pantai Sebuku",
+            "target": "Panorama 7",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -109.17,
+            "tilt": 0.96
+        },
+        {
+            "scene": "Pantai Sebuku",
+            "target": "Panorama 5",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -275.04,
+            "tilt": -1.14
+        },
+        {
+            "scene": "Pantai Sebuku",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 7",
+            "target": "Panorama 8",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -172.67,
+            "tilt": -2.88
+        },
+        {
+            "scene": "Panorama 7",
+            "target": "Pantai Sebuku",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -358,
+            "tilt": -4.39
+        },
+        {
+            "scene": "Panorama 7",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 8",
+            "target": "Pondok Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -191.97,
+            "tilt": -1.02
+        },
+        {
+            "scene": "Panorama 8",
+            "target": "Panorama 7",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -359.44,
+            "tilt": -2.53
+        },
+        {
+            "scene": "Panorama 8",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Pondok Nelayan",
+            "target": "Jalan Setapak",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -266.23,
+            "tilt": -3.44
+        },
+        {
+            "scene": "Pondok Nelayan",
+            "target": "Panorama 8",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -200.23,
+            "tilt": -4.5
+        },
+        {
+            "scene": "Pondok Nelayan",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Jalan Setapak",
+            "target": "Area Vegetasi",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -274.25,
+            "tilt": -2.39
+        },
+        {
+            "scene": "Jalan Setapak",
+            "target": "Pondok Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -358.96,
+            "tilt": -2.51
+        },
+        {
+            "scene": "Jalan Setapak",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Area Vegetasi",
+            "target": "Panorama 12",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -177.63,
+            "tilt": -0.2
+        },
+        {
+            "scene": "Area Vegetasi",
+            "target": "Jalan Setapak",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -357.25,
+            "tilt": -2.36
+        },
+        {
+            "scene": "Area Vegetasi",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 12",
+            "target": "Panorama 13",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -137.27,
+            "tilt": -0.64
+        },
+        {
+            "scene": "Panorama 12",
+            "target": "Area Vegetasi",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -358.56,
+            "tilt": -3.14
+        },
+        {
+            "scene": "Panorama 12",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 13",
+            "target": "Panorama 14",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -120.06,
+            "tilt": -5.33
+        },
+        {
+            "scene": "Panorama 13",
+            "target": "Panorama 12",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -216.98,
+            "tilt": -4.45
+        },
+        {
+            "scene": "Panorama 13",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 14",
+            "target": "Panorama 15",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -172.32,
+            "tilt": -0.76
+        },
+        {
+            "scene": "Panorama 14",
+            "target": "Panorama 13",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -356.83,
+            "tilt": -2.87
+        },
+        {
+            "scene": "Panorama 14",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 15",
+            "target": "Panorama 14",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -163.04,
+            "tilt": -6.87
+        },
+        {
+            "scene": "Panorama 15",
+            "target": "Perahu Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -0.58,
+            "tilt": -2.78
+        },
+        {
+            "scene": "Panorama 15",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 16",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Panorama 17",
+            "target": "Perahu Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -298.09,
+            "tilt": -4.16
+        },
+        {
+            "scene": "Panorama 17",
+            "target": "Panorama 15",
+            "title": "Pulau Sebuku",
+            "id": "Point02",
+            "pan": -94.21,
+            "tilt": -4.94
+        },
+        {
+            "scene": "Panorama 17",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Perahu Nelayan0",
+            "target": "Perahu Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point01",
+            "pan": -51.22,
+            "tilt": -26.76
+        },
+        {
+            "scene": "Perahu Nelayan0",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Drone Pulau Sebuku Kecil",
+            "id": "Point02",
+            "pan": -313.24,
+            "tilt": -1.45
+        },
+        {
+            "scene": "Perahu Nelayan0",
+            "target": "Perahu Nelayan1",
+            "title": "Drone Pulau Sebuku Kecil",
+            "id": "Point03",
+            "pan": -68.22,
+            "tilt": 0.95
+        },
+        {
+            "scene": "Perahu Nelayan0",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point04",
+            "pan": -200,
+            "tilt": 7
+        },
+        {
+            "scene": "Perahu Nelayan1",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Drone Pulau Sebuku Kecil",
+            "id": "Point01",
+            "pan": -262.55,
+            "tilt": 6.07
+        },
+        {
+            "scene": "Perahu Nelayan1",
+            "target": "Perahu Nelayan",
+            "title": "Pulau Sebuku",
+            "id": "Point03",
+            "pan": -94.04,
+            "tilt": 3.17
+        },
+        {
+            "scene": "Perahu Nelayan1",
+            "target": "Perahu Nelayan0",
+            "title": "Drone Pulau Sebuku Besar",
+            "id": "Point02",
+            "pan": -139.83,
+            "tilt": 9.62
+        },
+        {
+            "scene": "Perahu Nelayan1",
+            "target": "Pulau Sebuku (Tampilan Drone)",
+            "title": "Exit",
+            "id": "Point04",
+            "pan": -200,
+            "tilt": 7
+        }
+    ],
+    "objects": [],
+    "video360": [],
+    "oiPositions": {
+        "Pulau Sebuku (Tampilan Drone)": [
+            {
+                "pan": -334.26,
+                "tilt": -3.8,
+                "fov": 14
+            },
+            {
+                "pan": -54.66,
+                "tilt": -18.3,
+                "fov": 13.77
+            },
+            {
+                "pan": -277.74,
+                "tilt": -11.15,
+                "fov": 13
+            }
+        ],
+        "Perahu Nelayan": [
+            {
+                "pan": -296.44,
+                "tilt": -5.65,
+                "fov": 12
+            }
+        ],
+        "Gunung Rajabasa": [
+            {
+                "pan": -1.48,
+                "tilt": 3.79,
+                "fov": 13
+            },
+            {
+                "pan": -145.96,
+                "tilt": 4.3,
+                "fov": 12
+            }
+        ],
+        "Perahu Cepat": [
+            {
+                "pan": -293.25,
+                "tilt": -2.93,
+                "fov": 13
+            }
+        ],
+        "Pantai Sebuku": [
+            {
+                "pan": -298.89,
+                "tilt": -9.76,
+                "fov": 15
+            }
+        ],
+        "Pondok Nelayan": [
+            {
+                "pan": -29.53,
+                "tilt": -2.85,
+                "fov": 14
+            }
+        ],
+        "Jalan Setapak": [
+            {
+                "pan": -141.36,
+                "tilt": -14.97,
+                "fov": 14
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "dc6681221580752a",
+        "skin.js": "4a5d977c3a76db96",
+        "index.html": "fa871d3e9cc1fdae"
+    }
+}

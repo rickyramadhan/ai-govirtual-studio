@@ -1,0 +1,1337 @@
+{
+    "version": "1.0",
+    "tourId": "mcc",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Dimana persisnya alamat dan lokasi dari MARINA CONVENTION CENTER?",
+            "answer": "Lokasi MARINA CONVENTION CENTER terletak di Kawasan Marina, Tawangsari, Kec. Semarang Barat, Kota Semarang, menjadikannya salah satu titik penting di Kota Semarang.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 1 marina convention center"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 1"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Apa daya tarik utama atau keunikan dari MARINA CONVENTION CENTER?",
+            "answer": "Daya tarik utama MARINA CONVENTION CENTER adalah Gedung konvensi dan pameran serbaguna berskala besar di tepi pantai, yang menjadikannya favorit di Semarang.",
+            "aliases": [
+                "daya tarik {loc}",
+                "keunikan {loc}",
+                "keunggulan {loc}",
+                "tanya 2 marina convention center"
+            ],
+            "keywords": [
+                "daya tarik",
+                "keunikan",
+                "{loc}",
+                "info 2"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Berapa perkiraan jarak dan waktu tempuh perjalanan dari Goa Kreo menuju MARINA CONVENTION CENTER?",
+            "answer": "Jarak perjalanan dari objek wisata Goa Kreo menuju MARINA CONVENTION CENTER adalah sekitar 14-16 kilometer dari Goa Kreo, dengan akses rute yang sangat mudah.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc}",
+                "tanya 3 marina convention center"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 3"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Bagaimana sejarah atau latar belakang dari MARINA CONVENTION CENTER di Semarang?",
+            "answer": "Secara historis, MARINA CONVENTION CENTER dikenal sebagai Pusat penyelenggaraan event, pameran, konser, dan resepsi pernikahan megah di Semarang.",
+            "aliases": [
+                "sejarah {loc}",
+                "latar belakang {loc}",
+                "tanya 4 marina convention center"
+            ],
+            "keywords": [
+                "sejarah",
+                "latar belakang",
+                "{loc}",
+                "info 4"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Landmark atau patokan apa yang berada di sekitar kawasan MARINA CONVENTION CENTER?",
+            "answer": "Kawasan MARINA CONVENTION CENTER dikelilingi oleh beberapa landmark terkenal seperti Pantai Marina / Puri Anjasmoro.",
+            "aliases": [
+                "landmark {loc}",
+                "patokan {loc}",
+                "sekitar {loc}",
+                "tanya 5 marina convention center"
+            ],
+            "keywords": [
+                "landmark",
+                "patokan",
+                "{loc}",
+                "info 5"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Fasilitas apa saja yang tersedia untuk mendukung kenyamanan pengunjung di MARINA CONVENTION CENTER?",
+            "answer": "Di MARINA CONVENTION CENTER tersedia fasilitas lengkap seperti area parkir, pusat informasi, serta luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "sarana {loc}",
+                "tanya 6 marina convention center"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "{loc}",
+                "info 6"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Bagaimana suasana atau ambience di dalam area MARINA CONVENTION CENTER?",
+            "answer": "Suasana di MARINA CONVENTION CENTER menawarkan luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai, memberikan kenyamanan bagi setiap pengunjung.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tanya 7 marina convention center"
+            ],
+            "keywords": [
+                "suasana",
+                "ambience",
+                "{loc}",
+                "info 7"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Apa saja fasilitas pendukung atau area menarik lain yang bisa dieksplorasi di MARINA CONVENTION CENTER?",
+            "answer": "Selain area utamanya, pengunjung juga dapat menikmati ruang pameran indoor, hall utama luas, dan area outdoor.",
+            "aliases": [
+                "area menarik {loc}",
+                "fasilitas pendukung {loc}",
+                "tanya 8 marina convention center"
+            ],
+            "keywords": [
+                "area",
+                "pendukung",
+                "{loc}",
+                "info 8"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah MARINA CONVENTION CENTER cocok dikunjungi bersama keluarga atau rombongan?",
+            "answer": "Sangat cocok, MARINA CONVENTION CENTER sangat ideal untuk dikunjungi bersama keluarga, rekan kerja, maupun wisatawan.",
+            "aliases": [
+                "wisata keluarga {loc}",
+                "rombongan {loc}",
+                "tanya 9 marina convention center"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "{loc}",
+                "info 9"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Kapan waktu terbaik dalam sehari untuk berkunjung ke MARINA CONVENTION CENTER?",
+            "answer": "Waktu terbaik berkunjung adalah saat jam operasional utama untuk menikmati seluruh fasilitasnya.",
+            "aliases": [
+                "waktu terbaik {loc}",
+                "kapan berkunjung ke {loc}",
+                "tanya 10 marina convention center"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 10"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Bagaimana aksesibilitas transportasi menuju MARINA CONVENTION CENTER dari pusat kota Semarang?",
+            "answer": "Aksesibilitasnya sangat baik dan dapat dicapai dengan mudah menggunakan kendaraan pribadi maupun taksi online.",
+            "aliases": [
+                "transportasi {loc}",
+                "akses jalan {loc}",
+                "tanya 11 marina convention center"
+            ],
+            "keywords": [
+                "transportasi",
+                "akses",
+                "jalan",
+                "{loc}",
+                "info 11"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apakah MARINA CONVENTION CENTER sering menjadi salah satu rekomendasi penting dalam virtual tour Semarang?",
+            "answer": "Ya, MARINA CONVENTION CENTER menjadi salah satu titik spotlight penting dalam tur virtual untuk mengenalkan fasilitas dan destinasi di Semarang.",
+            "aliases": [
+                "virtual tour {loc}",
+                "rekomendasi destinasi {loc}",
+                "tanya 12 marina convention center"
+            ],
+            "keywords": [
+                "virtual tour",
+                "rekomendasi",
+                "destinasi",
+                "{loc}",
+                "info 12"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apakah ada informasi khusus atau tips bagi pengunjung yang ingin mendatangi MARINA CONVENTION CENTER?",
+            "answer": "Pastikan datang pada jam operasional dan mematuhi aturan tata tertib yang berlaku di lokasi.",
+            "aliases": [
+                "tips berkunjung {loc}",
+                "informasi penting {loc}",
+                "tanya 13 marina convention center"
+            ],
+            "keywords": [
+                "tips",
+                "informasi",
+                "aturan",
+                "{loc}",
+                "info 13"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Bagaimana kontribusi MARINA CONVENTION CENTER terhadap pariwisata atau kemajuan Kota Semarang?",
+            "answer": "MARINA CONVENTION CENTER berperan besar sebagai pusat akomodasi, pusat perbelanjaan, serta penggerak perekonomian kota.",
+            "aliases": [
+                "peran {loc}",
+                "kontribusi {loc}",
+                "tanya 14 marina convention center"
+            ],
+            "keywords": [
+                "peran",
+                "kontribusi",
+                "kemajuan",
+                "{loc}",
+                "info 14"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apakah tersedia layanan informasi digital di lokasi MARINA CONVENTION CENTER?",
+            "answer": "Tersedia papan informasi serta kemudahan akses informasi digital termasuk melalui integrasi sistem virtual tour.",
+            "aliases": [
+                "pemandu {loc}",
+                "informasi digital {loc}",
+                "tanya 15 marina convention center"
+            ],
+            "keywords": [
+                "pemandu",
+                "informasi",
+                "digital",
+                "{loc}",
+                "info 15"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Bagaimana kesan keseluruhan bagi pengunjung yang datang ke MARINA CONVENTION CENTER?",
+            "answer": "Pengunjung akan merasakan kenyamanan, kemudahan, serta pengalaman berkesan saat berkunjung ke MARINA CONVENTION CENTER.",
+            "aliases": [
+                "kesan pengunjung {loc}",
+                "pengalaman {loc}",
+                "tanya 16 marina convention center"
+            ],
+            "keywords": [
+                "kesan",
+                "pengalaman",
+                "{loc}",
+                "info 16"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Halo, saya ingin bertanya, dimana persisnya alamat dan lokasi dari MARINA CONVENTION CENTER?",
+            "answer": "Lokasi MARINA CONVENTION CENTER terletak di Kawasan Marina, Tawangsari, Kec. Semarang Barat, Kota Semarang, menjadikannya salah satu titik penting di Kota Semarang.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 17 marina convention center"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 17"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Halo, saya ingin bertanya, apa daya tarik utama atau keunikan dari MARINA CONVENTION CENTER?",
+            "answer": "Daya tarik utama MARINA CONVENTION CENTER adalah Gedung konvensi dan pameran serbaguna berskala besar di tepi pantai, yang menjadikannya favorit di Semarang.",
+            "aliases": [
+                "daya tarik {loc}",
+                "keunikan {loc}",
+                "keunggulan {loc}",
+                "tanya 18 marina convention center"
+            ],
+            "keywords": [
+                "daya tarik",
+                "keunikan",
+                "{loc}",
+                "info 18"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Halo, saya ingin bertanya, berapa perkiraan jarak dan waktu tempuh perjalanan dari Goa Kreo menuju MARINA CONVENTION CENTER?",
+            "answer": "Jarak perjalanan dari objek wisata Goa Kreo menuju MARINA CONVENTION CENTER adalah sekitar 14-16 kilometer dari Goa Kreo, dengan akses rute yang sangat mudah.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc}",
+                "tanya 19 marina convention center"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 19"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Halo, saya ingin bertanya, bagaimana sejarah atau latar belakang dari MARINA CONVENTION CENTER di Semarang?",
+            "answer": "Secara historis, MARINA CONVENTION CENTER dikenal sebagai Pusat penyelenggaraan event, pameran, konser, dan resepsi pernikahan megah di Semarang.",
+            "aliases": [
+                "sejarah {loc}",
+                "latar belakang {loc}",
+                "tanya 20 marina convention center"
+            ],
+            "keywords": [
+                "sejarah",
+                "latar belakang",
+                "{loc}",
+                "info 20"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Halo, saya ingin bertanya, landmark atau patokan apa yang berada di sekitar kawasan MARINA CONVENTION CENTER?",
+            "answer": "Kawasan MARINA CONVENTION CENTER dikelilingi oleh beberapa landmark terkenal seperti Pantai Marina / Puri Anjasmoro.",
+            "aliases": [
+                "landmark {loc}",
+                "patokan {loc}",
+                "sekitar {loc}",
+                "tanya 21 marina convention center"
+            ],
+            "keywords": [
+                "landmark",
+                "patokan",
+                "{loc}",
+                "info 21"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Halo, saya ingin bertanya, fasilitas apa saja yang tersedia untuk mendukung kenyamanan pengunjung di MARINA CONVENTION CENTER?",
+            "answer": "Di MARINA CONVENTION CENTER tersedia fasilitas lengkap seperti area parkir, pusat informasi, serta luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "sarana {loc}",
+                "tanya 22 marina convention center"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "{loc}",
+                "info 22"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Halo, saya ingin bertanya, bagaimana suasana atau ambience di dalam area MARINA CONVENTION CENTER?",
+            "answer": "Suasana di MARINA CONVENTION CENTER menawarkan luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai, memberikan kenyamanan bagi setiap pengunjung.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tanya 23 marina convention center"
+            ],
+            "keywords": [
+                "suasana",
+                "ambience",
+                "{loc}",
+                "info 23"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Halo, saya ingin bertanya, apa saja fasilitas pendukung atau area menarik lain yang bisa dieksplorasi di MARINA CONVENTION CENTER?",
+            "answer": "Selain area utamanya, pengunjung juga dapat menikmati ruang pameran indoor, hall utama luas, dan area outdoor.",
+            "aliases": [
+                "area menarik {loc}",
+                "fasilitas pendukung {loc}",
+                "tanya 24 marina convention center"
+            ],
+            "keywords": [
+                "area",
+                "pendukung",
+                "{loc}",
+                "info 24"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Halo, saya ingin bertanya, apakah MARINA CONVENTION CENTER cocok dikunjungi bersama keluarga atau rombongan?",
+            "answer": "Sangat cocok, MARINA CONVENTION CENTER sangat ideal untuk dikunjungi bersama keluarga, rekan kerja, maupun wisatawan.",
+            "aliases": [
+                "wisata keluarga {loc}",
+                "rombongan {loc}",
+                "tanya 25 marina convention center"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "{loc}",
+                "info 25"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Halo, saya ingin bertanya, kapan waktu terbaik dalam sehari untuk berkunjung ke MARINA CONVENTION CENTER?",
+            "answer": "Waktu terbaik berkunjung adalah saat jam operasional utama untuk menikmati seluruh fasilitasnya.",
+            "aliases": [
+                "waktu terbaik {loc}",
+                "kapan berkunjung ke {loc}",
+                "tanya 26 marina convention center"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 26"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Halo, saya ingin bertanya, bagaimana aksesibilitas transportasi menuju MARINA CONVENTION CENTER dari pusat kota Semarang?",
+            "answer": "Aksesibilitasnya sangat baik dan dapat dicapai dengan mudah menggunakan kendaraan pribadi maupun taksi online.",
+            "aliases": [
+                "transportasi {loc}",
+                "akses jalan {loc}",
+                "tanya 27 marina convention center"
+            ],
+            "keywords": [
+                "transportasi",
+                "akses",
+                "jalan",
+                "{loc}",
+                "info 27"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Halo, saya ingin bertanya, apakah MARINA CONVENTION CENTER sering menjadi salah satu rekomendasi penting dalam virtual tour Semarang?",
+            "answer": "Ya, MARINA CONVENTION CENTER menjadi salah satu titik spotlight penting dalam tur virtual untuk mengenalkan fasilitas dan destinasi di Semarang.",
+            "aliases": [
+                "virtual tour {loc}",
+                "rekomendasi destinasi {loc}",
+                "tanya 28 marina convention center"
+            ],
+            "keywords": [
+                "virtual tour",
+                "rekomendasi",
+                "destinasi",
+                "{loc}",
+                "info 28"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Halo, saya ingin bertanya, apakah ada informasi khusus atau tips bagi pengunjung yang ingin mendatangi MARINA CONVENTION CENTER?",
+            "answer": "Pastikan datang pada jam operasional dan mematuhi aturan tata tertib yang berlaku di lokasi.",
+            "aliases": [
+                "tips berkunjung {loc}",
+                "informasi penting {loc}",
+                "tanya 29 marina convention center"
+            ],
+            "keywords": [
+                "tips",
+                "informasi",
+                "aturan",
+                "{loc}",
+                "info 29"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Halo, saya ingin bertanya, bagaimana kontribusi MARINA CONVENTION CENTER terhadap pariwisata atau kemajuan Kota Semarang?",
+            "answer": "MARINA CONVENTION CENTER berperan besar sebagai pusat akomodasi, pusat perbelanjaan, serta penggerak perekonomian kota.",
+            "aliases": [
+                "peran {loc}",
+                "kontribusi {loc}",
+                "tanya 30 marina convention center"
+            ],
+            "keywords": [
+                "peran",
+                "kontribusi",
+                "kemajuan",
+                "{loc}",
+                "info 30"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Halo, saya ingin bertanya, apakah tersedia layanan informasi digital di lokasi MARINA CONVENTION CENTER?",
+            "answer": "Tersedia papan informasi serta kemudahan akses informasi digital termasuk melalui integrasi sistem virtual tour.",
+            "aliases": [
+                "pemandu {loc}",
+                "informasi digital {loc}",
+                "tanya 31 marina convention center"
+            ],
+            "keywords": [
+                "pemandu",
+                "informasi",
+                "digital",
+                "{loc}",
+                "info 31"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Halo, saya ingin bertanya, bagaimana kesan keseluruhan bagi pengunjung yang datang ke MARINA CONVENTION CENTER?",
+            "answer": "Pengunjung akan merasakan kenyamanan, kemudahan, serta pengalaman berkesan saat berkunjung ke MARINA CONVENTION CENTER.",
+            "aliases": [
+                "kesan pengunjung {loc}",
+                "pengalaman {loc}",
+                "tanya 32 marina convention center"
+            ],
+            "keywords": [
+                "kesan",
+                "pengalaman",
+                "{loc}",
+                "info 32"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Bisa jelaskan kepada saya, dimana persisnya alamat dan lokasi dari MARINA CONVENTION CENTER?",
+            "answer": "Lokasi MARINA CONVENTION CENTER terletak di Kawasan Marina, Tawangsari, Kec. Semarang Barat, Kota Semarang, menjadikannya salah satu titik penting di Kota Semarang.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 33 marina convention center"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 33"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Bisa jelaskan kepada saya, apa daya tarik utama atau keunikan dari MARINA CONVENTION CENTER?",
+            "answer": "Daya tarik utama MARINA CONVENTION CENTER adalah Gedung konvensi dan pameran serbaguna berskala besar di tepi pantai, yang menjadikannya favorit di Semarang.",
+            "aliases": [
+                "daya tarik {loc}",
+                "keunikan {loc}",
+                "keunggulan {loc}",
+                "tanya 34 marina convention center"
+            ],
+            "keywords": [
+                "daya tarik",
+                "keunikan",
+                "{loc}",
+                "info 34"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Bisa jelaskan kepada saya, berapa perkiraan jarak dan waktu tempuh perjalanan dari Goa Kreo menuju MARINA CONVENTION CENTER?",
+            "answer": "Jarak perjalanan dari objek wisata Goa Kreo menuju MARINA CONVENTION CENTER adalah sekitar 14-16 kilometer dari Goa Kreo, dengan akses rute yang sangat mudah.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc}",
+                "tanya 35 marina convention center"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 35"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Bisa jelaskan kepada saya, bagaimana sejarah atau latar belakang dari MARINA CONVENTION CENTER di Semarang?",
+            "answer": "Secara historis, MARINA CONVENTION CENTER dikenal sebagai Pusat penyelenggaraan event, pameran, konser, dan resepsi pernikahan megah di Semarang.",
+            "aliases": [
+                "sejarah {loc}",
+                "latar belakang {loc}",
+                "tanya 36 marina convention center"
+            ],
+            "keywords": [
+                "sejarah",
+                "latar belakang",
+                "{loc}",
+                "info 36"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Bisa jelaskan kepada saya, landmark atau patokan apa yang berada di sekitar kawasan MARINA CONVENTION CENTER?",
+            "answer": "Kawasan MARINA CONVENTION CENTER dikelilingi oleh beberapa landmark terkenal seperti Pantai Marina / Puri Anjasmoro.",
+            "aliases": [
+                "landmark {loc}",
+                "patokan {loc}",
+                "sekitar {loc}",
+                "tanya 37 marina convention center"
+            ],
+            "keywords": [
+                "landmark",
+                "patokan",
+                "{loc}",
+                "info 37"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Bisa jelaskan kepada saya, fasilitas apa saja yang tersedia untuk mendukung kenyamanan pengunjung di MARINA CONVENTION CENTER?",
+            "answer": "Di MARINA CONVENTION CENTER tersedia fasilitas lengkap seperti area parkir, pusat informasi, serta luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "sarana {loc}",
+                "tanya 38 marina convention center"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "{loc}",
+                "info 38"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Bisa jelaskan kepada saya, bagaimana suasana atau ambience di dalam area MARINA CONVENTION CENTER?",
+            "answer": "Suasana di MARINA CONVENTION CENTER menawarkan luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai, memberikan kenyamanan bagi setiap pengunjung.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tanya 39 marina convention center"
+            ],
+            "keywords": [
+                "suasana",
+                "ambience",
+                "{loc}",
+                "info 39"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Bisa jelaskan kepada saya, apa saja fasilitas pendukung atau area menarik lain yang bisa dieksplorasi di MARINA CONVENTION CENTER?",
+            "answer": "Selain area utamanya, pengunjung juga dapat menikmati ruang pameran indoor, hall utama luas, dan area outdoor.",
+            "aliases": [
+                "area menarik {loc}",
+                "fasilitas pendukung {loc}",
+                "tanya 40 marina convention center"
+            ],
+            "keywords": [
+                "area",
+                "pendukung",
+                "{loc}",
+                "info 40"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Bisa jelaskan kepada saya, apakah MARINA CONVENTION CENTER cocok dikunjungi bersama keluarga atau rombongan?",
+            "answer": "Sangat cocok, MARINA CONVENTION CENTER sangat ideal untuk dikunjungi bersama keluarga, rekan kerja, maupun wisatawan.",
+            "aliases": [
+                "wisata keluarga {loc}",
+                "rombongan {loc}",
+                "tanya 41 marina convention center"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "{loc}",
+                "info 41"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Bisa jelaskan kepada saya, kapan waktu terbaik dalam sehari untuk berkunjung ke MARINA CONVENTION CENTER?",
+            "answer": "Waktu terbaik berkunjung adalah saat jam operasional utama untuk menikmati seluruh fasilitasnya.",
+            "aliases": [
+                "waktu terbaik {loc}",
+                "kapan berkunjung ke {loc}",
+                "tanya 42 marina convention center"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 42"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Bisa jelaskan kepada saya, bagaimana aksesibilitas transportasi menuju MARINA CONVENTION CENTER dari pusat kota Semarang?",
+            "answer": "Aksesibilitasnya sangat baik dan dapat dicapai dengan mudah menggunakan kendaraan pribadi maupun taksi online.",
+            "aliases": [
+                "transportasi {loc}",
+                "akses jalan {loc}",
+                "tanya 43 marina convention center"
+            ],
+            "keywords": [
+                "transportasi",
+                "akses",
+                "jalan",
+                "{loc}",
+                "info 43"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Bisa jelaskan kepada saya, apakah MARINA CONVENTION CENTER sering menjadi salah satu rekomendasi penting dalam virtual tour Semarang?",
+            "answer": "Ya, MARINA CONVENTION CENTER menjadi salah satu titik spotlight penting dalam tur virtual untuk mengenalkan fasilitas dan destinasi di Semarang.",
+            "aliases": [
+                "virtual tour {loc}",
+                "rekomendasi destinasi {loc}",
+                "tanya 44 marina convention center"
+            ],
+            "keywords": [
+                "virtual tour",
+                "rekomendasi",
+                "destinasi",
+                "{loc}",
+                "info 44"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Bisa jelaskan kepada saya, apakah ada informasi khusus atau tips bagi pengunjung yang ingin mendatangi MARINA CONVENTION CENTER?",
+            "answer": "Pastikan datang pada jam operasional dan mematuhi aturan tata tertib yang berlaku di lokasi.",
+            "aliases": [
+                "tips berkunjung {loc}",
+                "informasi penting {loc}",
+                "tanya 45 marina convention center"
+            ],
+            "keywords": [
+                "tips",
+                "informasi",
+                "aturan",
+                "{loc}",
+                "info 45"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Bisa jelaskan kepada saya, bagaimana kontribusi MARINA CONVENTION CENTER terhadap pariwisata atau kemajuan Kota Semarang?",
+            "answer": "MARINA CONVENTION CENTER berperan besar sebagai pusat akomodasi, pusat perbelanjaan, serta penggerak perekonomian kota.",
+            "aliases": [
+                "peran {loc}",
+                "kontribusi {loc}",
+                "tanya 46 marina convention center"
+            ],
+            "keywords": [
+                "peran",
+                "kontribusi",
+                "kemajuan",
+                "{loc}",
+                "info 46"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Bisa jelaskan kepada saya, apakah tersedia layanan informasi digital di lokasi MARINA CONVENTION CENTER?",
+            "answer": "Tersedia papan informasi serta kemudahan akses informasi digital termasuk melalui integrasi sistem virtual tour.",
+            "aliases": [
+                "pemandu {loc}",
+                "informasi digital {loc}",
+                "tanya 47 marina convention center"
+            ],
+            "keywords": [
+                "pemandu",
+                "informasi",
+                "digital",
+                "{loc}",
+                "info 47"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Bisa jelaskan kepada saya, bagaimana kesan keseluruhan bagi pengunjung yang datang ke MARINA CONVENTION CENTER?",
+            "answer": "Pengunjung akan merasakan kenyamanan, kemudahan, serta pengalaman berkesan saat berkunjung ke MARINA CONVENTION CENTER.",
+            "aliases": [
+                "kesan pengunjung {loc}",
+                "pengalaman {loc}",
+                "tanya 48 marina convention center"
+            ],
+            "keywords": [
+                "kesan",
+                "pengalaman",
+                "{loc}",
+                "info 48"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Tolong infokan, dimana persisnya alamat dan lokasi dari MARINA CONVENTION CENTER?",
+            "answer": "Lokasi MARINA CONVENTION CENTER terletak di Kawasan Marina, Tawangsari, Kec. Semarang Barat, Kota Semarang, menjadikannya salah satu titik penting di Kota Semarang.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 49 marina convention center"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 49"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Tolong infokan, apa daya tarik utama atau keunikan dari MARINA CONVENTION CENTER?",
+            "answer": "Daya tarik utama MARINA CONVENTION CENTER adalah Gedung konvensi dan pameran serbaguna berskala besar di tepi pantai, yang menjadikannya favorit di Semarang.",
+            "aliases": [
+                "daya tarik {loc}",
+                "keunikan {loc}",
+                "keunggulan {loc}",
+                "tanya 50 marina convention center"
+            ],
+            "keywords": [
+                "daya tarik",
+                "keunikan",
+                "{loc}",
+                "info 50"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Tolong infokan, berapa perkiraan jarak dan waktu tempuh perjalanan dari Goa Kreo menuju MARINA CONVENTION CENTER?",
+            "answer": "Jarak perjalanan dari objek wisata Goa Kreo menuju MARINA CONVENTION CENTER adalah sekitar 14-16 kilometer dari Goa Kreo, dengan akses rute yang sangat mudah.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc}",
+                "tanya 51 marina convention center"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 51"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Tolong infokan, bagaimana sejarah atau latar belakang dari MARINA CONVENTION CENTER di Semarang?",
+            "answer": "Secara historis, MARINA CONVENTION CENTER dikenal sebagai Pusat penyelenggaraan event, pameran, konser, dan resepsi pernikahan megah di Semarang.",
+            "aliases": [
+                "sejarah {loc}",
+                "latar belakang {loc}",
+                "tanya 52 marina convention center"
+            ],
+            "keywords": [
+                "sejarah",
+                "latar belakang",
+                "{loc}",
+                "info 52"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Tolong infokan, landmark atau patokan apa yang berada di sekitar kawasan MARINA CONVENTION CENTER?",
+            "answer": "Kawasan MARINA CONVENTION CENTER dikelilingi oleh beberapa landmark terkenal seperti Pantai Marina / Puri Anjasmoro.",
+            "aliases": [
+                "landmark {loc}",
+                "patokan {loc}",
+                "sekitar {loc}",
+                "tanya 53 marina convention center"
+            ],
+            "keywords": [
+                "landmark",
+                "patokan",
+                "{loc}",
+                "info 53"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Tolong infokan, fasilitas apa saja yang tersedia untuk mendukung kenyamanan pengunjung di MARINA CONVENTION CENTER?",
+            "answer": "Di MARINA CONVENTION CENTER tersedia fasilitas lengkap seperti area parkir, pusat informasi, serta luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "sarana {loc}",
+                "tanya 54 marina convention center"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "{loc}",
+                "info 54"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Tolong infokan, bagaimana suasana atau ambience di dalam area MARINA CONVENTION CENTER?",
+            "answer": "Suasana di MARINA CONVENTION CENTER menawarkan luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai, memberikan kenyamanan bagi setiap pengunjung.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tanya 55 marina convention center"
+            ],
+            "keywords": [
+                "suasana",
+                "ambience",
+                "{loc}",
+                "info 55"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Tolong infokan, apa saja fasilitas pendukung atau area menarik lain yang bisa dieksplorasi di MARINA CONVENTION CENTER?",
+            "answer": "Selain area utamanya, pengunjung juga dapat menikmati ruang pameran indoor, hall utama luas, dan area outdoor.",
+            "aliases": [
+                "area menarik {loc}",
+                "fasilitas pendukung {loc}",
+                "tanya 56 marina convention center"
+            ],
+            "keywords": [
+                "area",
+                "pendukung",
+                "{loc}",
+                "info 56"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Tolong infokan, apakah MARINA CONVENTION CENTER cocok dikunjungi bersama keluarga atau rombongan?",
+            "answer": "Sangat cocok, MARINA CONVENTION CENTER sangat ideal untuk dikunjungi bersama keluarga, rekan kerja, maupun wisatawan.",
+            "aliases": [
+                "wisata keluarga {loc}",
+                "rombongan {loc}",
+                "tanya 57 marina convention center"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "{loc}",
+                "info 57"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Tolong infokan, kapan waktu terbaik dalam sehari untuk berkunjung ke MARINA CONVENTION CENTER?",
+            "answer": "Waktu terbaik berkunjung adalah saat jam operasional utama untuk menikmati seluruh fasilitasnya.",
+            "aliases": [
+                "waktu terbaik {loc}",
+                "kapan berkunjung ke {loc}",
+                "tanya 58 marina convention center"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 58"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Tolong infokan, bagaimana aksesibilitas transportasi menuju MARINA CONVENTION CENTER dari pusat kota Semarang?",
+            "answer": "Aksesibilitasnya sangat baik dan dapat dicapai dengan mudah menggunakan kendaraan pribadi maupun taksi online.",
+            "aliases": [
+                "transportasi {loc}",
+                "akses jalan {loc}",
+                "tanya 59 marina convention center"
+            ],
+            "keywords": [
+                "transportasi",
+                "akses",
+                "jalan",
+                "{loc}",
+                "info 59"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Tolong infokan, apakah MARINA CONVENTION CENTER sering menjadi salah satu rekomendasi penting dalam virtual tour Semarang?",
+            "answer": "Ya, MARINA CONVENTION CENTER menjadi salah satu titik spotlight penting dalam tur virtual untuk mengenalkan fasilitas dan destinasi di Semarang.",
+            "aliases": [
+                "virtual tour {loc}",
+                "rekomendasi destinasi {loc}",
+                "tanya 60 marina convention center"
+            ],
+            "keywords": [
+                "virtual tour",
+                "rekomendasi",
+                "destinasi",
+                "{loc}",
+                "info 60"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Tolong infokan, apakah ada informasi khusus atau tips bagi pengunjung yang ingin mendatangi MARINA CONVENTION CENTER?",
+            "answer": "Pastikan datang pada jam operasional dan mematuhi aturan tata tertib yang berlaku di lokasi.",
+            "aliases": [
+                "tips berkunjung {loc}",
+                "informasi penting {loc}",
+                "tanya 61 marina convention center"
+            ],
+            "keywords": [
+                "tips",
+                "informasi",
+                "aturan",
+                "{loc}",
+                "info 61"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Tolong infokan, bagaimana kontribusi MARINA CONVENTION CENTER terhadap pariwisata atau kemajuan Kota Semarang?",
+            "answer": "MARINA CONVENTION CENTER berperan besar sebagai pusat akomodasi, pusat perbelanjaan, serta penggerak perekonomian kota.",
+            "aliases": [
+                "peran {loc}",
+                "kontribusi {loc}",
+                "tanya 62 marina convention center"
+            ],
+            "keywords": [
+                "peran",
+                "kontribusi",
+                "kemajuan",
+                "{loc}",
+                "info 62"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Tolong infokan, apakah tersedia layanan informasi digital di lokasi MARINA CONVENTION CENTER?",
+            "answer": "Tersedia papan informasi serta kemudahan akses informasi digital termasuk melalui integrasi sistem virtual tour.",
+            "aliases": [
+                "pemandu {loc}",
+                "informasi digital {loc}",
+                "tanya 63 marina convention center"
+            ],
+            "keywords": [
+                "pemandu",
+                "informasi",
+                "digital",
+                "{loc}",
+                "info 63"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Tolong infokan, bagaimana kesan keseluruhan bagi pengunjung yang datang ke MARINA CONVENTION CENTER?",
+            "answer": "Pengunjung akan merasakan kenyamanan, kemudahan, serta pengalaman berkesan saat berkunjung ke MARINA CONVENTION CENTER.",
+            "aliases": [
+                "kesan pengunjung {loc}",
+                "pengalaman {loc}",
+                "tanya 64 marina convention center"
+            ],
+            "keywords": [
+                "kesan",
+                "pengalaman",
+                "{loc}",
+                "info 64"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Bagaimana detail mengenai dimana persisnya alamat dan lokasi dari MARINA CONVENTION CENTER?",
+            "answer": "Lokasi MARINA CONVENTION CENTER terletak di Kawasan Marina, Tawangsari, Kec. Semarang Barat, Kota Semarang, menjadikannya salah satu titik penting di Kota Semarang.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 65 marina convention center"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 65"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Bagaimana detail mengenai apa daya tarik utama atau keunikan dari MARINA CONVENTION CENTER?",
+            "answer": "Daya tarik utama MARINA CONVENTION CENTER adalah Gedung konvensi dan pameran serbaguna berskala besar di tepi pantai, yang menjadikannya favorit di Semarang.",
+            "aliases": [
+                "daya tarik {loc}",
+                "keunikan {loc}",
+                "keunggulan {loc}",
+                "tanya 66 marina convention center"
+            ],
+            "keywords": [
+                "daya tarik",
+                "keunikan",
+                "{loc}",
+                "info 66"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Bagaimana detail mengenai berapa perkiraan jarak dan waktu tempuh perjalanan dari Goa Kreo menuju MARINA CONVENTION CENTER?",
+            "answer": "Jarak perjalanan dari objek wisata Goa Kreo menuju MARINA CONVENTION CENTER adalah sekitar 14-16 kilometer dari Goa Kreo, dengan akses rute yang sangat mudah.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc}",
+                "tanya 67 marina convention center"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 67"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Bagaimana detail mengenai bagaimana sejarah atau latar belakang dari MARINA CONVENTION CENTER di Semarang?",
+            "answer": "Secara historis, MARINA CONVENTION CENTER dikenal sebagai Pusat penyelenggaraan event, pameran, konser, dan resepsi pernikahan megah di Semarang.",
+            "aliases": [
+                "sejarah {loc}",
+                "latar belakang {loc}",
+                "tanya 68 marina convention center"
+            ],
+            "keywords": [
+                "sejarah",
+                "latar belakang",
+                "{loc}",
+                "info 68"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Bagaimana detail mengenai landmark atau patokan apa yang berada di sekitar kawasan MARINA CONVENTION CENTER?",
+            "answer": "Kawasan MARINA CONVENTION CENTER dikelilingi oleh beberapa landmark terkenal seperti Pantai Marina / Puri Anjasmoro.",
+            "aliases": [
+                "landmark {loc}",
+                "patokan {loc}",
+                "sekitar {loc}",
+                "tanya 69 marina convention center"
+            ],
+            "keywords": [
+                "landmark",
+                "patokan",
+                "{loc}",
+                "info 69"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Bagaimana detail mengenai fasilitas apa saja yang tersedia untuk mendukung kenyamanan pengunjung di MARINA CONVENTION CENTER?",
+            "answer": "Di MARINA CONVENTION CENTER tersedia fasilitas lengkap seperti area parkir, pusat informasi, serta luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "sarana {loc}",
+                "tanya 70 marina convention center"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "{loc}",
+                "info 70"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Bagaimana detail mengenai bagaimana suasana atau ambience di dalam area MARINA CONVENTION CENTER?",
+            "answer": "Suasana di MARINA CONVENTION CENTER menawarkan luas, strategis di kawasan pesisir, dengan area parkir yang sangat memadai, memberikan kenyamanan bagi setiap pengunjung.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tanya 71 marina convention center"
+            ],
+            "keywords": [
+                "suasana",
+                "ambience",
+                "{loc}",
+                "info 71"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Bagaimana detail mengenai apa saja fasilitas pendukung atau area menarik lain yang bisa dieksplorasi di MARINA CONVENTION CENTER?",
+            "answer": "Selain area utamanya, pengunjung juga dapat menikmati ruang pameran indoor, hall utama luas, dan area outdoor.",
+            "aliases": [
+                "area menarik {loc}",
+                "fasilitas pendukung {loc}",
+                "tanya 72 marina convention center"
+            ],
+            "keywords": [
+                "area",
+                "pendukung",
+                "{loc}",
+                "info 72"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Bagaimana detail mengenai apakah MARINA CONVENTION CENTER cocok dikunjungi bersama keluarga atau rombongan?",
+            "answer": "Sangat cocok, MARINA CONVENTION CENTER sangat ideal untuk dikunjungi bersama keluarga, rekan kerja, maupun wisatawan.",
+            "aliases": [
+                "wisata keluarga {loc}",
+                "rombongan {loc}",
+                "tanya 73 marina convention center"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "{loc}",
+                "info 73"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana detail mengenai kapan waktu terbaik dalam sehari untuk berkunjung ke MARINA CONVENTION CENTER?",
+            "answer": "Waktu terbaik berkunjung adalah saat jam operasional utama untuk menikmati seluruh fasilitasnya.",
+            "aliases": [
+                "waktu terbaik {loc}",
+                "kapan berkunjung ke {loc}",
+                "tanya 74 marina convention center"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 74"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana detail mengenai bagaimana aksesibilitas transportasi menuju MARINA CONVENTION CENTER dari pusat kota Semarang?",
+            "answer": "Aksesibilitasnya sangat baik dan dapat dicapai dengan mudah menggunakan kendaraan pribadi maupun taksi online.",
+            "aliases": [
+                "transportasi {loc}",
+                "akses jalan {loc}",
+                "tanya 75 marina convention center"
+            ],
+            "keywords": [
+                "transportasi",
+                "akses",
+                "jalan",
+                "{loc}",
+                "info 75"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Bagaimana detail mengenai apakah MARINA CONVENTION CENTER sering menjadi salah satu rekomendasi penting dalam virtual tour Semarang?",
+            "answer": "Ya, MARINA CONVENTION CENTER menjadi salah satu titik spotlight penting dalam tur virtual untuk mengenalkan fasilitas dan destinasi di Semarang.",
+            "aliases": [
+                "virtual tour {loc}",
+                "rekomendasi destinasi {loc}",
+                "tanya 76 marina convention center"
+            ],
+            "keywords": [
+                "virtual tour",
+                "rekomendasi",
+                "destinasi",
+                "{loc}",
+                "info 76"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Bagaimana detail mengenai apakah ada informasi khusus atau tips bagi pengunjung yang ingin mendatangi MARINA CONVENTION CENTER?",
+            "answer": "Pastikan datang pada jam operasional dan mematuhi aturan tata tertib yang berlaku di lokasi.",
+            "aliases": [
+                "tips berkunjung {loc}",
+                "informasi penting {loc}",
+                "tanya 77 marina convention center"
+            ],
+            "keywords": [
+                "tips",
+                "informasi",
+                "aturan",
+                "{loc}",
+                "info 77"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Bagaimana detail mengenai bagaimana kontribusi MARINA CONVENTION CENTER terhadap pariwisata atau kemajuan Kota Semarang?",
+            "answer": "MARINA CONVENTION CENTER berperan besar sebagai pusat akomodasi, pusat perbelanjaan, serta penggerak perekonomian kota.",
+            "aliases": [
+                "peran {loc}",
+                "kontribusi {loc}",
+                "tanya 78 marina convention center"
+            ],
+            "keywords": [
+                "peran",
+                "kontribusi",
+                "kemajuan",
+                "{loc}",
+                "info 78"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Bagaimana detail mengenai apakah tersedia layanan informasi digital di lokasi MARINA CONVENTION CENTER?",
+            "answer": "Tersedia papan informasi serta kemudahan akses informasi digital termasuk melalui integrasi sistem virtual tour.",
+            "aliases": [
+                "pemandu {loc}",
+                "informasi digital {loc}",
+                "tanya 79 marina convention center"
+            ],
+            "keywords": [
+                "pemandu",
+                "informasi",
+                "digital",
+                "{loc}",
+                "info 79"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Bagaimana detail mengenai bagaimana kesan keseluruhan bagi pengunjung yang datang ke MARINA CONVENTION CENTER?",
+            "answer": "Pengunjung akan merasakan kenyamanan, kemudahan, serta pengalaman berkesan saat berkunjung ke MARINA CONVENTION CENTER.",
+            "aliases": [
+                "kesan pengunjung {loc}",
+                "pengalaman {loc}",
+                "tanya 80 marina convention center"
+            ],
+            "keywords": [
+                "kesan",
+                "pengalaman",
+                "{loc}",
+                "info 80"
+            ]
+        }
+    ]
+}

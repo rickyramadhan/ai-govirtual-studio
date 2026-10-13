@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "dpmall",
+    "tourName": "DP Mall Semarang",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Restoran paling hits?",
+                "query": "Apa nama restoran atau kafe yang paling sering direkomendasikan untuk nongkrong di DP Mall?",
+                "desc": "Apa nama restoran atau kafe yang paling sering direkomendasikan untuk nongkrong di DP Mall?"
+            },
+            {
+                "label": "Bioskop Premiere XXI?",
+                "query": "Apakah bioskop XXI di DP Mall ini menyediakan fasilitas kelas eksklusif The Premiere?",
+                "desc": "Apakah bioskop XXI di DP Mall ini menyediakan fasilitas kelas eksklusif The Premiere?"
+            },
+            {
+                "label": "Cara ke Hotel Rooms Inc?",
+                "query": "Lewat mana akses pintu masuk jika ingin menuju ke lobi Hotel Rooms Inc?",
+                "desc": "Lewat mana akses pintu masuk jika ingin menuju ke lobi Hotel Rooms Inc?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Konsep Kekinian",
+                "query": "Bagaimana transformasi DP Mall menjadi salah satu mall paling hits dan kekinian bagi anak muda Semarang?"
+            },
+            {
+                "label": "Akses Rooms Inc",
+                "query": "Seperti apa integrasi bangunan yang menghubungkan langsung area belanja dengan Hotel Rooms Inc?"
+            },
+            {
+                "label": "Bioskop Premiere XXI",
+                "query": "Bisa jelaskan kenyamanan dan pengalaman menonton film di studio The Premiere XXI DP Mall?"
+            },
+            {
+                "label": "Spot Kuliner Hits",
+                "query": "Sebutkan deretan kafe dan restoran estetik yang menjadi tempat nongkrong favorit kaum urban di mall ini!"
+            },
+            {
+                "label": "Area Parkir Luas",
+                "query": "Bagaimana kemudahan fasilitas parkir luas yang dirancang khusus untuk kenyamanan pengunjung?"
+            },
+            {
+                "label": "Event Anak Muda",
+                "query": "Acara musik atau pameran pop culture apa saja yang sering digelar untuk menarik perhatian anak muda?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama DP Mall Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari DP Mall Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah DP Mall Semarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

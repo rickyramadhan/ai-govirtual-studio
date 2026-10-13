@@ -1,0 +1,1394 @@
+{
+    "version": "1.0",
+    "tourId": "pengasapanikan",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Di mana lokasi Sentra Pengasapan Ikan atau Kampung Mangoet di Semarang?",
+            "answer": "Sentra Pengasapan Ikan (Kampung Mangoet) terletak di kawasan pesisir Bandarharjo / Tambaklorok, Kecamatan Semarang Utara, Kota Semarang, Jawa Tengah.",
+            "aliases": [
+                "alamat kampung mangoet semarang",
+                "dimana pengasapan ikan bandarharjo",
+                "letak sentra mangut tambaklorok"
+            ],
+            "keywords": [
+                "lokasi",
+                "alamat",
+                "kampung mangoet",
+                "pengasapan ikan",
+                "bandarharjo",
+                "semarang utara"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Berapa harga tiket masuk ke kawasan Kampung Mangoet Pengasapan Ikan?",
+            "answer": "Kawasan Sentra Pengasapan Ikan merupakan perkampungan sentra industri kuliner dan nelayan terbuka, sehingga pengunjung tidak dikenakan tiket masuk (gratis) kecuali membeli produk olahan ikan atau parkir.",
+            "aliases": [
+                "harga tiket masuk kampung mangoet",
+                "htm pengasapan ikan semarang",
+                "biaya masuk kampung mangut"
+            ],
+            "keywords": [
+                "harga tiket",
+                "htm",
+                "biaya masuk",
+                "kampung mangoet",
+                "gratis"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Jam berapa sebaiknya pengunjung datang ke Kampung Mangoet?",
+            "answer": "Kawasan ini dapat dikunjungi setiap hari, dengan waktu terbaik pukul 07.00 hingga 16.00 WIB untuk melihat proses pengasapan ikan segar secara langsung dan berbelanja.",
+            "aliases": [
+                "jam buka kampung mangoet semarang",
+                "jam operasional pengasapan ikan bandarharjo"
+            ],
+            "keywords": [
+                "jam buka",
+                "jam operasional",
+                "kampung mangoet",
+                "waktu berkunjung"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Apakah Sentra Pengasapan Ikan buka setiap hari termasuk hari libur?",
+            "answer": "Ya, karena merupakan pusat perkampungan produksi nelayan aktif, kawasan sentra ini beroperasi setiap hari sepanjang tahun.",
+            "aliases": [
+                "apakah kampung mangoet buka hari minggu",
+                "libur nasional pengasapan ikan buka"
+            ],
+            "keywords": [
+                "buka setiap hari",
+                "libur nasional",
+                "akhir pekan",
+                "setiap hari"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Berapa jarak Kampung Mangoet dari pusat Kota Semarang (Simpang Lima)?",
+            "answer": "Jarak dari Simpang Lima ke Sentra Pengasapan Ikan Bandarharjo sekitar 5 hingga 7 kilometer dengan waktu tempuh berkendara kurang lebih 15 menit ke arah utara.",
+            "aliases": [
+                "jarak kampung mangoet dari simpang lima",
+                "dari pusat kota ke pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "jarak",
+                "pusat kota",
+                "simpang lima",
+                "waktu tempuh",
+                "semarang utara"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Bagaimana rute terbaik menuju Kampung Mangoet dari pusat Kota Semarang?",
+            "answer": "Dari Simpang Lima, ambil arah ke utara melalui Jalan Pahlawan atau Jalan Pemuda menuju kawasan Pelabuhan Tanjung Mas, lalu meneruskan ke wilayah Bandarharjo / Tambaklorok.",
+            "aliases": [
+                "rute ke kampung mangoet semarang",
+                "jalan ke pengasapan ikan dari tugu muda"
+            ],
+            "keywords": [
+                "rute",
+                "petunjuk jalan",
+                "pelabuhan tanjung mas",
+                "bandarharjo",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah tersedia area parkir kendaraan di Kampung Mangoet?",
+            "answer": "Tersedia area parkir di sekitar balai sentra atau halaman rumah warga perajin untuk kendaraan roda dua maupun roda empat.",
+            "aliases": [
+                "tempat parkir kampung mangoet",
+                "parkir motor mobil pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "parkir",
+                "area parkir",
+                "motor",
+                "mobil",
+                "fasilitas"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Berapa tarif retribusi parkir di kawasan sentra pengasapan?",
+            "answer": "Tarif parkir standar yang berlaku dikelola oleh warga setempat, berkisar Rp3.000 untuk sepeda motor dan Rp5.000 untuk mobil.",
+            "aliases": [
+                "biaya parkir kampung mangoet",
+                "tarif parkir motor mobil pengasapan ikan"
+            ],
+            "keywords": [
+                "tarif parkir",
+                "biaya parkir",
+                "motor",
+                "mobil",
+                "retribusi"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah Kampung Mangoet dapat dijangkau dengan transportasi umum?",
+            "answer": "Dapat dijangkau menggunakan taksi atau ojek online yang melayani rute wilayah Semarang Utara dekat kawasan pelabuhan.",
+            "aliases": [
+                "naik ojek online ke kampung mangoet",
+                "transportasi umum pengasapan ikan"
+            ],
+            "keywords": [
+                "transportasi online",
+                "ojek online",
+                "taksi",
+                "akses jalan"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apa waktu terbaik dalam sehari untuk membeli ikan asap segar?",
+            "answer": "Waktu terbaik adalah pagi hari (pukul 08.00 - 11.00 WIB) saat para perajin baru saja menuntaskan proses pengasapan sehingga ikan masih sangat hangat dan segar.",
+            "aliases": [
+                "waktu terbaik beli ikan asap semarang",
+                "jam berapa segar pengasapan ikan"
+            ],
+            "keywords": [
+                "waktu terbaik",
+                "pagi hari",
+                "ikan asap segar",
+                "hangat"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Apa sejarah dan latar belakang dari Kampung Mangoet (Sentra Pengasapan Ikan)?",
+            "answer": "Kawasan ini merupakan perkampungan nelayan tradisional turun-temurun di pesisir Semarang yang terkenal sebagai pusat produksi ikan asap (mangut) terbesar di kota ini.",
+            "aliases": [
+                "sejarah kampung mangoet semarang",
+                "asal usul pengasapan ikan bandarharjo"
+            ],
+            "keywords": [
+                "sejarah",
+                "asal usul",
+                "perkampungan nelayan",
+                "pusat ikan asap",
+                "mangut"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Mengapa kawasan ini populer dengan sebutan 'Kampung Mangoet'?",
+            "answer": "Dinamakan Kampung Mangoet karena sebagian besar warganya berprofesi sebagai perajin pengasapan ikan yang menjadi bahan utama masakan 'Mangut' khas Semarang.",
+            "aliases": [
+                "kenapa disebut kampung mangoet semarang",
+                "arti nama pengasapan ikan"
+            ],
+            "keywords": [
+                "kampung mangoet",
+                "mangut",
+                "perajin ikan asap",
+                "khas semarang"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Bagaimana proses tradisional pembuatan ikan asap (mangut) di sini?",
+            "answer": "Ikan segar dibersihkan, ditusuk dengan bilah bambu, lalu disusun di atas tungku perapian tradisional yang menggunakan bahan bakar tempurung kelapa atau serbuk kayu.",
+            "aliases": [
+                "proses pengasapan ikan tradisional semarang",
+                "cara bikin ikan asap mangoet"
+            ],
+            "keywords": [
+                "proses pengasapan",
+                "tradisional",
+                "tungku perapian",
+                "tempurung kelapa",
+                "serbuk kayu"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apa saja jenis ikan laut yang biasa diasap di sentra ini?",
+            "answer": "Jenis ikan yang lazim diasap meliputi Ikan Pari (Ikan Pe), Ikan Tongkol, Ikan Kakap, Ikan Bandeng, Ikan Cakalang, hingga Ikan Selar.",
+            "aliases": [
+                "jenis ikan asap di kampung mangoet",
+                "ikan apa saja untuk mangut semarang"
+            ],
+            "keywords": [
+                "jenis ikan asap",
+                "ikan pe",
+                "ikan tongkol",
+                "bandeng",
+                "cakalang"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apa itu 'Ikan Pe' (Ikan Pari Asap) yang sangat terkenal di sini?",
+            "answer": "Ikan Pe adalah daging ikan pari yang diasap hingga matang, memiliki aroma khas yang sangat gurih, dan menjadi bahan utama kuliner 'Mangut Lele/Pe' legendaris.",
+            "aliases": [
+                "apa itu ikan pe asap semarang",
+                "ikan pari pengasapan ikan"
+            ],
+            "keywords": [
+                "ikan pe",
+                "ikan pari asap",
+                "aroma khas",
+                "guruh",
+                "mangut"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apakah pengunjung dapat melihat langsung proses pembakaran dan pengasapan?",
+            "answer": "Ya, pengunjung dapat berjalan-jalan menyusui kampung dan menyaksikan langsung aktivitas perajin mengasapi ikan di dapur-dapur pengasapan terbuka.",
+            "aliases": [
+                "lihat proses pengasapan ikan semarang",
+                "kunjungi dapur ikan asap"
+            ],
+            "keywords": [
+                "proses pembakaran",
+                "pengasapan langsung",
+                "dapur terbuka",
+                "perajin"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Bagaimana cara memilih ikan asap yang berkualitas baik?",
+            "answer": "Ikan asap yang baik memiliki tekstur daging yang padat, aroma asap harum alami (tidak tengik), warna kecokelatan merata, dan bebas dari lalat.",
+            "aliases": [
+                "cara pilih ikan asap semarang",
+                "tips beli ikan mangut segar"
+            ],
+            "keywords": [
+                "tips memilih",
+                "ikan asap berkualitas",
+                "aroma harum",
+                "tekstur padat"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Berapa kisaran harga beli ikan asap langsung dari perajin?",
+            "answer": "Harga ikan asap sangat bervariasi tergantung ukuran dan jenis ikannya, berkisar antara Rp10.000 hingga Rp50.000 per paket atau ikatan.",
+            "aliases": [
+                "harga ikan asap kampung mangoet",
+                "tarif beli ikan pe semarang"
+            ],
+            "keywords": [
+                "kisaran harga",
+                "ikan asap",
+                "terjangkau",
+                "per ikatan"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Apakah ada warung makan olahan mangut siap saji di lokasi sentra?",
+            "answer": "Ya, selain membeli ikan asap mentah, beberapa warung di sekitar sentra juga menyediakan masakan 'Mangut Ikan Asap' siap santap berkuah santan pedas.",
+            "aliases": [
+                "warung mangut siap saji di kampung mangoet",
+                "makan mangut ikan asap"
+            ],
+            "keywords": [
+                "warung mangut",
+                "siap saji",
+                "berkuah pedas",
+                "kuliner lezat"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apa ciri khas rasa dari kuliner 'Mangut' khas Semarang?",
+            "answer": "Masakan mangut berciri khas kuah santan berwarna kuning kemerahan dengan bumbu rempah melimpah serta rasa pedas gurih yang sangat menggugah selera.",
+            "aliases": [
+                "ciri khas rasa mangut semarang",
+                "bumbu kuah santan pedas"
+            ],
+            "keywords": [
+                "ciri khas rasa",
+                "mangut semarang",
+                "santan kuning",
+                "pedas gurih",
+                "rempah"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Fasilitas umum apa saja yang tersedia di Kampung Mangoet?",
+            "answer": "Fasilitas meliputi area jalan perkampungan paving, lapak penjualan ikan asap, musala, dan kantong parkir warga.",
+            "aliases": [
+                "fasilitas umum kampung mangoet",
+                "kelengkapan pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "fasilitas umum",
+                "jalan paving",
+                "lapak ikan",
+                "musala",
+                "parkir"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Apakah tersedia musala atau tempat sholat di dekat lokasi sentra?",
+            "answer": "Ya, terdapat musala perkampungan yang bersih dan dapat digunakan oleh warga maupun pengunjung untuk menunaikan ibadah sholat.",
+            "aliases": [
+                "musala kampung mangoet",
+                "tempat sholat pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "musala",
+                "tempat ibadah",
+                "sholat",
+                "muslim",
+                "fasilitas"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Bagaimana kondisi kebersihan lingkungan di Kampung Mangoet?",
+            "answer": "Lingkungan perkampungan perajin dijaga kebersihannya secara gotong royong oleh warga, meskipun aroma khas asap ikan mendominasi kawasan.",
+            "aliases": [
+                "kebersihan kampung mangoet",
+                "lingkungan pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "kebersihan",
+                "gotong royong",
+                "lingkungan perajin",
+                "aroma asap"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apakah area Kampung Mangoet ramah bagi penyandang disabilitas?",
+            "answer": "Kontur perkampungan pesisir berupa jalan datar berpaving, namun karena padatnya aktivitas pengasapan, akses kursi roda memerlukan pendampingan.",
+            "aliases": [
+                "akses disabilitas kampung mangoet",
+                "kursi roda pengasapan ikan"
+            ],
+            "keywords": [
+                "disabilitas",
+                "kursi roda",
+                "jalan berpaving",
+                "pendampingan"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apakah ada pos keamanan lingkungan di perkampungan?",
+            "answer": "Keamanan kawasan dijaga secara swadaya oleh warga nelayan setempat melalui siskamling dan pos ronda perkampungan.",
+            "aliases": [
+                "keamanan kampung mangoet",
+                "pos ronda nelayan semarang"
+            ],
+            "keywords": [
+                "keamanan",
+                "siskamling",
+                "pos ronda",
+                "warga nelayan"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apakah sinyal seluler dan internet lancar di area Kampung Mangoet?",
+            "answer": "Sinyal seluler dari operator utama sangat kuat dan lancar di seluruh area perkampungan pesisir Bandarharjo.",
+            "aliases": [
+                "sinyal hp kampung mangoet",
+                "internet seluler pengasapan ikan"
+            ],
+            "keywords": [
+                "sinyal seluler",
+                "internet",
+                "operator",
+                "lancar"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apakah ada ruang laktasi khusus ibu menyusui di kawasan sentra?",
+            "answer": "Ruang laktasi khusus belum tersedia, namun fasilitas rumah warga atau ruang istirahat dapat dikoordinasikan secara darurat.",
+            "aliases": [
+                "ruang laktasi kampung mangoet",
+                "tempat menyusui semarang"
+            ],
+            "keywords": [
+                "ruang laktasi",
+                "tempat menyusui",
+                "darurat",
+                "rumah warga"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apakah ada pos kesehatan terdekat dari lokasi sentra pengasapan?",
+            "answer": "Puskesmas atau klinik kesehatan terdekat dapat dijangkau dengan mudah menuju wilayah Semarang Utara.",
+            "aliases": [
+                "pos kesehatan kampung mangoet",
+                "puskesmas terdekat semarang utara"
+            ],
+            "keywords": [
+                "pos kesehatan",
+                "puskesmas",
+                "klinik",
+                "semarang utara"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apakah tersedia tempat sampah di sekitar sentra perajin ikan?",
+            "answer": "Warga menyediakan titik pembuangan sampah lingkungan untuk memastikan kebersihan sisa-sisa pengolahan ikan tetap terjaga.",
+            "aliases": [
+                "tempat sampah kampung mangoet",
+                "jaga kebersihan pengasapan ikan"
+            ],
+            "keywords": [
+                "tempat sampah",
+                "jaga kebersihan",
+                "sisa pengolahan ikan"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Apakah ada area khusus merokok di dekat tungku pembakaran?",
+            "answer": "Karena menggunakan bahan bakar kayu dan batok kelapa di dapur terbuka, pengunjung diimbau tetap berhati-hati terhadap bara api.",
+            "aliases": [
+                "aturan merokok kampung mangoet",
+                "keamanan tungku pembakaran"
+            ],
+            "keywords": [
+                "aturan keselamatan",
+                "bara api",
+                "dapur terbuka",
+                "berhati",
+                "hati"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Apa tips penting saat berbelanja ikan asap di Kampung Mangoet?",
+            "answer": "Disarankan datang pada pagi hari untuk mendapatkan pilihan ikan yang paling lengkap, dan siapkan wadah/cooler box jika ingin membawa perjalanan jauh.",
+            "aliases": [
+                "tips belanja ikan asap semarang",
+                "cara beli di kampung mangoet"
+            ],
+            "keywords": [
+                "tips belanja",
+                "ikan asap",
+                "datang pagi",
+                "cooler box",
+                "wadah"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Bagaimana cara mengemas ikan asap agar awet selama perjalanan jauh?",
+            "answer": "Ikan asap sebaiknya dibungkus rapi menggunakan kertas kedap udara atau dimasukkan ke dalam wadah kedap udara (kotak plastik) agar aromanya tidak menyengat di kendaraan.",
+            "aliases": [
+                "cara kemas ikan asap untuk oleh",
+                "oleh",
+                "agar awet perjalanan jauh"
+            ],
+            "keywords": [
+                "tips mengemas",
+                "ikan asap awet",
+                "wadah kedap udara",
+                "oleh"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Berapa lama daya tahan ikan asap jika disimpan di suhu ruang?",
+            "answer": "Ikan asap tradisional umumnya bertahan 2 hingga 3 hari di suhu ruang, dan dapat bertahan hingga lebih dari 1 minggu jika disimpan di dalam lemari es (kulkas).",
+            "aliases": [
+                "daya tahan ikan asap",
+                "berapa lama ikan pe awet disimpan"
+            ],
+            "keywords": [
+                "daya tahan",
+                "ikan asap",
+                "suhu ruang",
+                "kulkas",
+                "awet"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Bagaimana cara mengolah kembali ikan asap sebelum dimasak menjadi mangut?",
+            "answer": "Ikan asap sebaiknya dicuci bersih sebentar dengan air hangat atau dikukus sebentar untuk menghilangkan sisa debu pembakaran dan mengembalikan kelembutan dagingnya.",
+            "aliases": [
+                "cara olah ikan asap sebelum dimasak",
+                "tips memasak mangut ikan pe"
+            ],
+            "keywords": [
+                "cara mengolah",
+                "cuci bersih",
+                "dikukus",
+                "tips memasak",
+                "mangut"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apakah perajin melayani pembelian dalam partai besar (grosir)?",
+            "answer": "Ya, sebagian besar perajin melayani pembelian grosir untuk pasokan pasar tradisional, restoran, maupun katering di luar kota.",
+            "aliases": [
+                "grosir ikan asap kampung mangoet",
+                "beli partai besar pengasapan ikan"
+            ],
+            "keywords": [
+                "grosir",
+                "partai besar",
+                "pasokan pasar",
+                "restoran",
+                "katering"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Apakah ada oleh-oleh khas selain ikan asap di kampung ini?",
+            "answer": "Selain ikan asap, Anda juga bisa menjumpai produk olahan hasil laut kering seperti terasi udang asli, ikan asin kualitas super, dan kerupuk ikan.",
+            "aliases": [
+                "oleh oleh selain ikan asap kampung mangoet",
+                "terasi udang semarang"
+            ],
+            "keywords": [
+                "oleh",
+                "terasi udang",
+                "ikan asin",
+                "kerupuk ikan",
+                "hasil laut"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Bagaimana cara menawar harga saat membeli ikan di sentra pengasapan?",
+            "answer": "Pembelian dalam jumlah banyak atau paketan borongan biasanya memungkinkan Anda mendapatkan sedikit potongan harga langsung dari perajin.",
+            "aliases": [
+                "cara tawar harga ikan asap semarang",
+                "tips belanja di kampung mangoet"
+            ],
+            "keywords": [
+                "tawar harga",
+                "belanja banyak",
+                "potongan harga",
+                "perajin"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Apakah ada kantong plastik khusus atau kardus kemasan yang disediakan perajin?",
+            "answer": "Perajin umumnya menyediakan pembungkus kertas koran bersih atau kantong plastik tebal, namun disarankan membawa tas belanja sendiri.",
+            "aliases": [
+                "kemasan ikan asap kampung mangoet",
+                "tas belanja oleh",
+                "oleh"
+            ],
+            "keywords": [
+                "kemasan",
+                "kantong plastik",
+                "tas belanja",
+                "perajin"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Apakah ikan asap aman dikonsumsi oleh anak-anak?",
+            "answer": "Sangat aman, asalkan duri-duri halusnya dibersihkan dengan teliti saat proses penyajian makanan bagi anak.",
+            "aliases": [
+                "apakah ikan asap aman untuk anak",
+                "gizi ikan pe semarang"
+            ],
+            "keywords": [
+                "aman dikonsumsi",
+                "anak",
+                "bersihkan duri",
+                "gizi"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Apa bedanya ikan asap Kampung Mangoet dengan ikan asin biasa?",
+            "answer": "Ikan asap melalui proses pemanasan asap kayu secara khusus sehingga menghasilkan tekstur setengah matang dengan aroma smoky khas, bukan sekadar pengawetan garam seperti ikan asin.",
+            "aliases": [
+                "perbedaan ikan asap dan ikan asin",
+                "karakteristik pengasapan ikan"
+            ],
+            "keywords": [
+                "perbedaan",
+                "ikan asap",
+                "ikan asin",
+                "aroma smoky",
+                "pengawetan"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Apakah Kampung Mangoet cocok untuk wisata edukasi perikanan bagi pelajar?",
+            "answer": "Sangat cocok! Tempat ini menjadi destinasi eduwisata unik bagi siswa sekolah dan mahasiswa untuk mempelajari teknik pengolahan hasil perikanan tradisonal.",
+            "aliases": [
+                "wisata edukasi kampung mangoet",
+                "study tour pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "wisata edukasi",
+                "study tour",
+                "perikanan tradisional",
+                "pelajar",
+                "mahasiswa"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Apakah ada paket edukasi khusus proses pengasapan ikan bagi rombongan?",
+            "answer": "Beberapa kelompok perajin dapat menerima kunjungan edukasi kelompok untuk memperlihatkan langsung tahapan penusukan hingga pembakaran ikan.",
+            "aliases": [
+                "paket edukasi pengasapan ikan",
+                "kunjungan rombongan study tour"
+            ],
+            "keywords": [
+                "paket edukasi",
+                "kunjungan rombongan",
+                "perajin lokal",
+                "tahapan pembakaran"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Bagaimana cara melakukan reservasi kunjungan kelompok ke sentra?",
+            "answer": "Untuk kunjungan study tour skala besar, disarankan berkoordinasi terlebih dahulu dengan tokoh perwakilan warga atau ketua paguyuban setempat.",
+            "aliases": [
+                "cara booking rombongan kampung mangoet",
+                "izin kunjungan pengasapan"
+            ],
+            "keywords": [
+                "reservasi kunjungan",
+                "rombongan",
+                "koordinasi",
+                "paguyuban warga"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Apakah ada batasan jumlah peserta untuk rombongan studi?",
+            "answer": "Pengelola dapat menerima rombongan dalam skala grup sedang, dengan membaginya ke dalam kelompok kecil agar tidak mengganggu aktivitas dapur perajin.",
+            "aliases": [
+                "batasan peserta rombongan kampung mangoet",
+                "kapasitas grup studi"
+            ],
+            "keywords": [
+                "batasan peserta",
+                "rombongan studi",
+                "kelompok kecil",
+                "terarah"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Apakah tersedia pemandu lokal yang menjelaskan proses produksi?",
+            "answer": "Warga perajin yang berpengalaman siap bertindak sebagai pemandu lokal untuk menjelaskan seluk-beluk usaha pengasapan ikan turun-temurun.",
+            "aliases": [
+                "pemandu lokal kampung mangoet",
+                "tour guide pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "pemandu lokal",
+                "tour guide",
+                "perajin berpengalaman",
+                "penjelasan"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Apakah ada area untuk briefing atau berkumpul rombongan study tour?",
+            "answer": "Rombongan dapat memanfaatkan area balai warga terdekat atau halaman terbuka di sekitar sentra untuk pengarahan kelompok.",
+            "aliases": [
+                "tempat berkumpul rombongan kampung mangoet",
+                "balai warga semarang"
+            ],
+            "keywords": [
+                "tempat berkumpul",
+                "rombongan",
+                "balai warga",
+                "halaman terbuka"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah mahasiswa perikanan sering melakukan penelitian di sini?",
+            "answer": "Mahasiswa perikanan dan teknologi pangan sering melakukan penelitian mengenai uji mutu produk ikan asap, kadar gizi, dan higienitas.",
+            "aliases": [
+                "penelitian di kampung mangoet",
+                "riset perikanan teknologi pangan"
+            ],
+            "keywords": [
+                "penelitian",
+                "riset perikanan",
+                "teknologi pangan",
+                "uji mutu",
+                "gizi"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apakah ada cinderamata edukasi bagi pelajar yang berkunjung?",
+            "answer": "Pelajar dapat membeli produk olahan ikan asap kemasan atau mendokumentasikan proses kerja perajin sebagai laporan tugas sekolah.",
+            "aliases": [
+                "suvenir edukasi kampung mangoet",
+                "laporan tugas sekolah semarang"
+            ],
+            "keywords": [
+                "suvenir edukasi",
+                "laporan tugas",
+                "dokumentasi",
+                "pelajar"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Bagaimana akses jalan untuk bus pariwisata ukuran besar ke lokasi?",
+            "answer": "Bus pariwisata berukuran besar biasanya menurunkan penumpang di area transit jalan raya utama terdekat, lalu rombongan berjalan kaki singkat.",
+            "aliases": [
+                "bus pariwisata kampung mangoet",
+                "akses bus rombongan perikanan"
+            ],
+            "keywords": [
+                "bus pariwisata",
+                "rombongan",
+                "area transit",
+                "jalan raya utama"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Apa kesan edukatif utama yang diperoleh siswa setelah dari Kampung Mangoet?",
+            "answer": "Siswa mendapatkan wawasan nyata mengenai gigihnya perjuangan ekonomi sektor informal nelayan tradisional dan keanekaragaman kuliner bahari.",
+            "aliases": [
+                "kesan edukatif kampung mangoet",
+                "pengalaman siswa pengasapan ikan"
+            ],
+            "keywords": [
+                "kesan edukatif",
+                "sektor informal nelayan",
+                "kuliner bahari",
+                "wawasan"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Di mana rekomendasi hotel atau penginapan terdekat dari Kampung Mangoet?",
+            "answer": "Hotel dan penginapan terdekat dapat ditemukan di kawasan Pelabuhan Tanjung Mas, Jalan Siliwangi, atau wilayah pusat Kota Semarang.",
+            "aliases": [
+                "hotel dekat kampung mangoet",
+                "penginapan terdekat bandarharjo semarang"
+            ],
+            "keywords": [
+                "hotel",
+                "penginapan",
+                "pelabuhan tanjung mas",
+                "semarang utara"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Apa saja objek wisata lain yang berada di dekat Kampung Mangoet?",
+            "answer": "Objek wisata terdekat meliputi Kawasan Kota Lama Semarang, Masjid Agung Jawa Tengah (MAJT), Pelabuhan Tanjung Mas, dan Wisata Mangrove Tugurejo.",
+            "aliases": [
+                "wisata dekat kampung mangoet",
+                "destinasi sekitar bandarharjo semarang"
+            ],
+            "keywords": [
+                "wisata sekitar",
+                "kota lama semarang",
+                "majt",
+                "pelabuhan tanjung mas"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Berapa jarak Kampung Mangoet dari Bandara Internasional Jenderal Ahmad Yani?",
+            "answer": "Jarak dari Bandara Ahmad Yani ke Kampung Mangoet sekitar 7 hingga 9 kilometer dengan waktu tempuh berkendara kurang lebih 20 menit.",
+            "aliases": [
+                "jarak bandara ahmad yani ke kampung mangoet",
+                "dari airport ke bandarharjo"
+            ],
+            "keywords": [
+                "jarak",
+                "bandara ahmad yani",
+                "bandara semarang",
+                "waktu tempuh"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Berapa jarak Kampung Mangoet dari Stasiun Tawang atau Poncol?",
+            "answer": "Sangat dekat! Jarak dari Stasiun Tawang hanya sekitar 3 kilometer (dapat ditempuh 10 menit berkendara ke arah utara).",
+            "aliases": [
+                "jarak stasiun tawang ke kampung mangoet",
+                "dari stasiun poncol ke bandarharjo"
+            ],
+            "keywords": [
+                "jarak",
+                "stasiun tawang",
+                "stasiun poncol",
+                "dekat",
+                "kereta api"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Apakah transportasi online (GoRide/Grab/Maxim) mudah menjangkau lokasi?",
+            "answer": "Sangat mudah dijangkau karena wilayah Bandarharjo terhubung dengan jaringan transportasi online perkotaan Semarang.",
+            "aliases": [
+                "gojek grab ke kampung mangoet",
+                "taksi online bandarharjo semarang"
+            ],
+            "keywords": [
+                "transportasi online",
+                "gojek",
+                "grab",
+                "maxim",
+                "bandarharjo"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Bagaimana kondisi akses jalan raya menuju Sentra Pengasapan Ikan?",
+            "answer": "Akses jalan raya utama beraspal baik dan dapat dilalui oleh kendaraan roda dua maupun mobil pribadi dengan lancar.",
+            "aliases": [
+                "akses jalan ke kampung mangoet",
+                "jalan beraspal bandarharjo semarang"
+            ],
+            "keywords": [
+                "akses jalan",
+                "jalan raya",
+                "beraspal",
+                "lancar",
+                "kendaraan"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Apakah ada SPBU Pertamina terdekat dari lokasi Kampung Mangoet?",
+            "answer": "Stasiun Pengisian Bahan Bakar Umum (SPBU) terdekat dapat dijumpai di jalur utama Jalan Yos Sudarso atau sekitar Pelabuhan Tanjung Mas.",
+            "aliases": [
+                "spbu dekat kampung mangoet",
+                "pom bensin terdekat yos sudarso semarang"
+            ],
+            "keywords": [
+                "spbu",
+                "pom bensin",
+                "pertamina",
+                "jalan yos sudarso",
+                "tanjung mas"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Apakah ada mesin ATM perbankan terdekat dari kawasan sentra?",
+            "answer": "Mesin ATM tunai dapat dijumpai dengan mudah di area minimarket atau ruko komersial sepanjang jalan utama Bandarharjo.",
+            "aliases": [
+                "atm terdekat kampung mangoet",
+                "mesin tarik tunai bandarharjo semarang"
+            ],
+            "keywords": [
+                "atm",
+                "mesin tarik tunai",
+                "minimarket",
+                "bandarharjo",
+                "terdekat"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Apakah kawasan Bandarharjo rawan rob (banjir air pasang laut)?",
+            "answer": "Sebagai kawasan pesisir utara Semarang, beberapa titik wilayah Bandarharjo terkadang dipengaruhi oleh pasang air laut (rob), namun infrastruktur tanggul terus ditingkatkan.",
+            "aliases": [
+                "banjir rob bandarharjo semarang",
+                "kondisi pasang laut kampung mangoet"
+            ],
+            "keywords": [
+                "banjir rob",
+                "pasang air laut",
+                "pesisir utara",
+                "tanggul"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Apakah ada jasa rental kendaraan di Semarang untuk wisata kuliner bahari?",
+            "answer": "Banyak penyedia rental mobil dan motor di Semarang yang menawarkan paket harian untuk memudahkan perjalanan kuliner Anda.",
+            "aliases": [
+                "sewa mobil kuliner semarang",
+                "rental motor keliling bandarharjo"
+            ],
+            "keywords": [
+                "sewa mobil",
+                "rental motor",
+                "harian",
+                "wisata kuliner",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Apakah Kampung Mangoet sering menjadi lokasi berburu foto street photography?",
+            "answer": "Sangat sering! Aktivitas nelayan tradisional, kepulan asap tungku pembakaran, dan interaksi warga pesisir menjadi objek visual yang sangat eksotis.",
+            "aliases": [
+                "fotografi kampung mangoet",
+                "street photography pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "fotografi",
+                "street photography",
+                "kepulan asap",
+                "aktivitas nelayan",
+                "eksotis"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Apakah ada liputan khusus media massa mengenai Kampung Mangoet?",
+            "answer": "Kawasan ini sering diliput oleh program kuliner televisi nasional dan media digital sebagai sentra produsen ikan asap legendaris.",
+            "aliases": [
+                "liputan televisi kampung mangoet",
+                "berita kuliner ikan asap semarang"
+            ],
+            "keywords": [
+                "liputan media",
+                "televisi nasional",
+                "media digital",
+                "ikan asap legendaris"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Bagaimana aturan izin pengambilan foto dokumentasi untuk kegiatan umum?",
+            "answer": "Pengambilan foto aktivitas perajin untuk keperluan pribadi atau hobi diperbolehkan, namun disarankan tetap meminta izin ramah kepada pemilik lapak.",
+            "aliases": [
+                "izin foto di kampung mangoet",
+                "aturan dokumentasi perajin ikan"
+            ],
+            "keywords": [
+                "izin foto",
+                "dokumentasi pribadi",
+                "perajin ikan",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Apakah vlogger kuliner sering mereview produk ikan asap di sini?",
+            "answer": "Banyak food vlogger YouTube dan kreator TikTok datang langsung untuk mencicipi kelezatan mangut ikan asap pedas dan meliput proses pembuatannya.",
+            "aliases": [
+                "vlogger kuliner kampung mangoet",
+                "youtube mangut ikan asap"
+            ],
+            "keywords": [
+                "vlogger kuliner",
+                "content creator",
+                "youtube",
+                "tiktok",
+                "mangut ikan asap"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Apakah tripod kamera bebas digunakan di area dapur pengasapan?",
+            "answer": "Penggunaan tripod di gang sempit dapur perajin memerlukan kehati-hatian agar tidak menghalangi lalu-lalang pekerja membawa keranjang ikan.",
+            "aliases": [
+                "pakai tripod kampung mangoet",
+                "aturan kamera dapur pengasapan"
+            ],
+            "keywords": [
+                "tripod",
+                "aturan kamera",
+                "gang sempit",
+                "pekerja ikan"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Apakah ada sudut visual favorit bagi juru foto dokumenter?",
+            "answer": "Cahaya matahari pagi yang menembus kepulan asap tipis di dalam dapur tradisional menjadi momen visual paling diincar fotografer.",
+            "aliases": [
+                "sudut foto favorit kampung mangoet",
+                "juru foto dokumenter semarang"
+            ],
+            "keywords": [
+                "sudut foto favorit",
+                "juru foto",
+                "cahaya matahari pagi",
+                "dapur tradisional"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Bagaimana cara membagikan ulasan positif untuk Sentra Pengasapan Ikan?",
+            "answer": "Anda dapat membagikan pengalaman berbelanja melalui ulasan Google Maps atau membagikan postingan kuliner di Instagram dan TikTok.",
+            "aliases": [
+                "review google maps kampung mangoet",
+                "ulasan pengasapan ikan"
+            ],
+            "keywords": [
+                "review",
+                "google maps",
+                "ulasan kuliner",
+                "tiktok",
+                "instagram"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Apakah ada aroma khas yang melekat setelah berkunjung ke sentra?",
+            "answer": "Karena proses pembakaran menggunakan kayu dan tempurung kelapa, pakaian Anda mungkin akan sedikit beraroma asap (smoky) setelah berkeliling lama.",
+            "aliases": [
+                "aroma asap di kampung mangoet",
+                "tips berkunjung pengasapan ikan"
+            ],
+            "keywords": [
+                "aroma asap",
+                "smoky",
+                "pakaian beraroma",
+                "tips berkunjung"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Apa harapan perajin lokal terhadap kunjungan wisatawan ke Kampung Mangoet?",
+            "answer": "Perajin berharap produk ikan asap tradisional semakin dikenal luas masyarakat nasional dan meningkatkan kesejahteraan ekonomi keluarga nelayan.",
+            "aliases": [
+                "harapan perajin kampung mangoet",
+                "pesan sentra ikan asap semarang"
+            ],
+            "keywords": [
+                "harapan perajin",
+                "ikan asap tradisional",
+                "dikenal luas",
+                "kesejahteraan ekonomi"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Apakah ada galeri dokumentasi digital tentang sejarah Kampung Mangoet?",
+            "answer": "Beberapa dokumentasi foto kegiatan perajin dapat diakses melalui portal berita daerah dan arsip digital pariwisata kota.",
+            "aliases": [
+                "galeri digital kampung mangoet",
+                "arsip foto pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "galeri digital",
+                "arsip foto",
+                "sejarah perajin",
+                "pariwisata kota"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Apa saja tips pakaian yang disarankan saat berkunjung ke Kampung Mangoet?",
+            "answer": "Disarankan mengenakan pakaian kasual sederhana yang tidak terlalu bagus (mengantisipasi aroma asap), serta alas kaki yang nyaman.",
+            "aliases": [
+                "tips pakaian kampung mangoet",
+                "baju sederhana anti bau asap"
+            ],
+            "keywords": [
+                "tips pakaian",
+                "casual sederhana",
+                "anti bau asap",
+                "alas kaki nyaman"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Kapan waktu terbaik untuk melihat aktivitas pengasapan yang paling sibuk?",
+            "answer": "Waktu paling sibuk adalah pagi hari pukul 07.00 - 10.00 WIB saat gelombang pertama ikan segar matang diasap.",
+            "aliases": [
+                "jam sibuk kampung mangoet",
+                "kapan ramai pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "jam sibuk",
+                "pagi hari",
+                "ramai",
+                "aktivitas pengasapan"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Apa yang harus disiapkan jika berkunjung saat musim hujan?",
+            "answer": "Siapkan payung atau jas hujan ringkas karena sebagian gang perkampungan perajin merupakan area terbuka tanpa kanopi penuh.",
+            "aliases": [
+                "tips musim hujan kampung mangoet",
+                "sedia payung bandarharjo"
+            ],
+            "keywords": [
+                "musim hujan",
+                "payung",
+                "jas hujan",
+                "area terbuka",
+                "perkampungan"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana etika bersosialisasi yang baik dengan warga perajin ikan?",
+            "answer": "Berikan sapaan ramah, hargai kerja keras para perajin yang sedang bekerja di dekat tungku, dan tanyakan harga dengan sopan sebelum membeli.",
+            "aliases": [
+                "etika sosialisasi kampung mangoet",
+                "sopan santun perajin ikan"
+            ],
+            "keywords": [
+                "etika sosialisasi",
+                "sopan santun",
+                "sapaan ramah",
+                "hargai perajin"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana prosedur pelaporan jika ada barang tertinggal di lokasi?",
+            "answer": "Segera laporkan kepada pemilik lapak tempat Anda berbelanja atau ke pos ronda warga terdekat untuk bantuan pencarian.",
+            "aliases": [
+                "barang tertinggal kampung mangoet",
+                "kehilangan barang lapak ikan"
+            ],
+            "keywords": [
+                "barang tertinggal",
+                "kehilangan",
+                "pemilik lapak",
+                "pos ronda"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Apakah ada imbauan khusus terkait batasan jam berkunjung malam hari?",
+            "answer": "Karena merupakan perkampungan nelayan tradisional yang aktif pagi hari, pengunjung diimbau tidak berkunjung terlalu larut malam demi ketenangan warga.",
+            "aliases": [
+                "jam malam kampung mangoet",
+                "batas waktu kunjungan perajin"
+            ],
+            "keywords": [
+                "jam malam",
+                "batasan waktu",
+                "ketenangan warga",
+                "perkampungan nelayan"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Apakah diperbolehkan menerbangkan drone di atas area Kampung Mangoet?",
+            "answer": "Penerbangan drone di atas permukiman padat dan dapur terbuka memerlukan kehati-hatian ekstra dan izin etika privasi warga setempat.",
+            "aliases": [
+                "izin drone kampung mangoet",
+                "pakai drone di pengasapan ikan"
+            ],
+            "keywords": [
+                "drone",
+                "etika privasi",
+                "permukiman padat",
+                "dapur terbuka"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Bagaimana cara menyampaikan masukan atau kritik terkait fasilitas sentra?",
+            "answer": "Masukan dapat disampaikan melalui ulasan digital Google Maps atau langsung kepada pengurus paguyuban warga setempat.",
+            "aliases": [
+                "kritik saran kampung mangoet",
+                "pengaduan fasilitas semarang utara"
+            ],
+            "keywords": [
+                "kritik saran",
+                "pengaduan",
+                "google maps",
+                "paguyuban warga"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Apakah kawasan Kampung Mangoet aman dikunjungi wisatawan?",
+            "answer": "Sangat aman, didukung keramahan penduduk pesisir yang terbiasa menyambut pembeli dan pelancong yang datang.",
+            "aliases": [
+                "keamanan kampung mangoet",
+                "aman untuk wisatawan pesisir"
+            ],
+            "keywords": [
+                "aman",
+                "keramahan penduduk",
+                "pesisir",
+                "pelancong"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Apa imbauan utama bagi setiap pengunjung yang datang ke Kampung Mangoet?",
+            "answer": "Pengunjung diimbau untuk selalu menjaga kesopanan, menjaga kebersihan lingkungan perkampungan, serta mendukung produk kuliner lokal perajin.",
+            "aliases": [
+                "pesan pengunjung kampung mangoet",
+                "imbauan wisata kuliner perikanan"
+            ],
+            "keywords": [
+                "pesan pengelola",
+                "kesopanan",
+                "jaga kebersihan",
+                "kuliner lokal"
+            ]
+        },
+        {
+            "id": "QA81",
+            "question": "Bagaimana cara menghubungi perajin atau paguyuban di Kampung Mangoet?",
+            "answer": "Informasi seputar pemesanan grosir ikan asap atau kunjungan edukasi dapat dikoordinasikan melalui kontak perwakilan warga di lokasi.",
+            "aliases": [
+                "kontak paguyuban kampung mangoet",
+                "nomor telepon perajin ikan asap"
+            ],
+            "keywords": [
+                "kontak paguyuban",
+                "nomor telepon",
+                "grosir ikan asap",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA82",
+            "question": "Apa akun media sosial resmi yang membahas Sentra Pengasapan Ikan Semarang?",
+            "answer": "Informasi seputar sentra perikanan tradisional dapat dipantau melalui portal resmi Dinas Perikanan dan Kelautan Kota Semarang.",
+            "aliases": [
+                "instagram kampung mangoet",
+                "dinas perikanan semarang"
+            ],
+            "keywords": [
+                "media sosial",
+                "instagram",
+                "dinas perikanan",
+                "informasi resmi"
+            ]
+        },
+        {
+            "id": "QA83",
+            "question": "Apakah ada situs web resmi profil Kampung Mangoet?",
+            "answer": "Profil sentra industri pengasapan ikan dapat diakses melalui portal situs web resmi pusat data perdata dan pariwisata Semarang.",
+            "aliases": [
+                "website kampung mangoet",
+                "situs resmi perikanan semarang"
+            ],
+            "keywords": [
+                "website",
+                "situs resmi",
+                "sentra industri",
+                "perikanan"
+            ]
+        },
+        {
+            "id": "QA84",
+            "question": "Apakah sentra tetap berproduksi saat hari besar keagamaan?",
+            "answer": "Sebagian besar perajin tetap berproduksi memenuhi tingginya permintaan pasar kuliner, meskipun jadwal libur hari raya tertentu menyesuaikan keluarga.",
+            "aliases": [
+                "produksi hari besar kampung mangoet",
+                "libur lebaran pengasapan ikan"
+            ],
+            "keywords": [
+                "hari besar",
+                "libur lebaran",
+                "produksi ikan asap",
+                "pasar kuliner"
+            ]
+        },
+        {
+            "id": "QA85",
+            "question": "Apakah ada fasilitas ATM tunai di dekat gerbang masuk kawasan?",
+            "answer": "Gerai ATM perbankan terdekat dapat dijumpai dengan berkendara singkat menuju area komersial Jalan Yos Sudarso atau Bandarharjo.",
+            "aliases": [
+                "atm terdekat kampung mangoet",
+                "mesin tarik tunai bandarharjo"
+            ],
+            "keywords": [
+                "atm",
+                "mesin tarik tunai",
+                "bandarharjo",
+                "terdekat"
+            ]
+        },
+        {
+            "id": "QA86",
+            "question": "Apakah ada area khusus parkir bus pariwisata rombongan?",
+            "answer": "Bus pariwisata rombongan besar biasanya berkoordinasi dengan pengurus warga untuk penentuan titik parkir transit terdekat di jalan raya utama.",
+            "aliases": [
+                "parkir bus kampung mangoet",
+                "bus pariwisata bandarharjo semarang"
+            ],
+            "keywords": [
+                "parkir bus",
+                "bus pariwisata",
+                "titik transit",
+                "rombongan"
+            ]
+        },
+        {
+            "id": "QA87",
+            "question": "Apakah ada fasilitas pengisian daya ponsel darurat di posko warga?",
+            "answer": "Fasilitas pengisian daya ponsel darurat dapat ditanyakan kepada warga atau pemilik lapak terdekat jika mendesak.",
+            "aliases": [
+                "charging station kampung mangoet",
+                "colokan listrik posko warga"
+            ],
+            "keywords": [
+                "charging station",
+                "colokan listrik",
+                "posko warga",
+                "darurat"
+            ]
+        },
+        {
+            "id": "QA88",
+            "question": "Apa kesan atau pengalaman utama yang didapat pengunjung di Kampung Mangoet?",
+            "answer": "Pengunjung merasakan pengalaman otentik menyaksikan dapur pengasapan tradisional, mencium aroma rempah asap pesisir, serta membawa pulang ikan asap legendaris.",
+            "aliases": [
+                "kesan pengunjung kampung mangoet",
+                "pengalaman wisata kuliner pesisir"
+            ],
+            "keywords": [
+                "kesan pengunjung",
+                "pengalaman",
+                "dapur tradisional",
+                "aroma rempah asap",
+                "ikan asap"
+            ]
+        },
+        {
+            "id": "QA89",
+            "question": "Apakah ada tiket masuk khusus kunjungan ke Kampung Mangoet?",
+            "answer": "Tidak ada tiket masuk karena kawasan ini bersifat terbuka sebagai sentra perkampungan industri perikanan rakyat.",
+            "aliases": [
+                "tiket masuk kampung mangoet",
+                "bebas biaya masuk pengasapan ikan"
+            ],
+            "keywords": [
+                "tiket masuk",
+                "bebas biaya masuk",
+                "kawasan terbuka",
+                "perikanan rakyat"
+            ]
+        },
+        {
+            "id": "QA90",
+            "question": "Bagaimana komitmen menjaga kelestarian tradisi pengasapan ikan di Semarang?",
+            "answer": "Komitmen dijaga kuat melalui semangat gotong royong perajin turun-temurun dalam mempertahankan resep asli mangut dan kualitas kebersihan produksi.",
+            "aliases": [
+                "komitmen pelestarian kampung mangoet",
+                "tradisi pengasapan ikan semarang"
+            ],
+            "keywords": [
+                "komitmen pelestarian",
+                "tradisi pengasapan",
+                "gotong royong perajin",
+                "resep asli"
+            ]
+        }
+    ]
+}

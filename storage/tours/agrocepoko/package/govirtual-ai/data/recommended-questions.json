@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "agrocepoko",
+    "tourName": "Agro Cepoko",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Cara memetik jambu kristal?",
+                "query": "Bagaimana cara memilih dan memetik jambu kristal yang sudah matang?",
+                "desc": "Bagaimana cara memilih dan memetik jambu kristal yang sudah matang?"
+            },
+            {
+                "label": "Tiket masuk dan fasilitas?",
+                "query": "Berapa harga tiket masuk dan fasilitas apa saja yang didapat pengunjung?",
+                "desc": "Berapa harga tiket masuk dan fasilitas apa saja yang didapat pengunjung?"
+            },
+            {
+                "label": "Waktu terbaik berkunjung?",
+                "query": "Kapan musim panen atau waktu terbaik untuk berkunjung ke Agro Wisata Cepoko?",
+                "desc": "Kapan musim panen atau waktu terbaik untuk berkunjung ke Agro Wisata Cepoko?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sensasi Petik Buah",
+                "query": "Bagaimana keseruan pengalaman memetik buah jambu kristal dan kelengkeng langsung dari pohonnya di Cepoko?"
+            },
+            {
+                "label": "Edukasi Pertanian",
+                "query": "Apa saja metode pertanian modern dan tradisional yang diajarkan kepada pengunjung di kawasan agrowisata ini?"
+            },
+            {
+                "label": "Pemberdayaan Petani",
+                "query": "Bagaimana peran Agrowisata Cepoko dalam meningkatkan perekonomian dan memberdayakan komunitas petani lokal?"
+            },
+            {
+                "label": "Spot Foto Alam",
+                "query": "Di mana saja spot foto terbaik yang menyajikan pemandangan asri perkebunan di Agro Wisata Cepoko?"
+            },
+            {
+                "label": "Fasilitas Keluarga",
+                "query": "Fasilitas hiburan dan rekreasi apa saja yang tersedia untuk keluarga yang berkunjung ke kawasan ini?"
+            },
+            {
+                "label": "Hasil Bumi Lokal",
+                "query": "Selain buah-buahan, produk olahan hasil bumi lokal apa saja yang bisa dijadikan oleh-oleh dari Cepoko?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Agro Cepoko?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Agro Cepoko?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Agro Cepoko?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

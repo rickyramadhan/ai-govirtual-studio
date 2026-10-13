@@ -1,0 +1,474 @@
+{
+    "version": 2,
+    "tourId": "rscolumbiaasia",
+    "updatedAt": "2026-09-29T09:51:59+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Rscolumbiaasia",
+            "aliases": [
+                "rscolumbiaasia"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "rscolumbiaasia"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Rscolumbiaasia.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Rscolumbiaasia",
+                    "content": "Pusat pengalaman virtual untuk Rscolumbiaasia."
+                },
+                "en": {
+                    "title": "Rscolumbiaasia",
+                    "content": "Pusat pengalaman virtual untuk Rscolumbiaasia."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Ctscan",
+            "aliases": [
+                "ctscan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rscolumbiaasia"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ctscan",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Ctscan",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruang Tindakan Obygn",
+            "aliases": [
+                "ruang tindakan obygn"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rscolumbiaasia"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruang Tindakan Obygn",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruang Tindakan Obygn",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "rscolumbiaasia"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1130",
+            "entityId": "objinfo2:1130",
+            "title": "Laboratorium",
+            "aliases": [
+                "laboratorium",
+                "objek 1130"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Laboratorium RS Columbia Asia Semarang merupakan fasilitas penunjang medis modern yang beroperasi selama 24 jam untuk memberikan pelayanan diagnostik yang akurat dan efisien. Didukung oleh teknologi otomatisasi mutakhir dan tenaga ahli profesional, laboratorium ini mampu melayani berbagai kebutuhan pemeriksaan mulai dari patologi klinik hingga mikrobiologi dengan standar keamanan pasien yang tinggi.",
+            "source": "webview-import",
+            "sourceId": "1130",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Laboratorium",
+                    "content": "Laboratorium RS Columbia Asia Semarang merupakan fasilitas penunjang medis modern yang beroperasi selama 24 jam untuk memberikan pelayanan diagnostik yang akurat dan efisien. Didukung oleh teknologi otomatisasi mutakhir dan tenaga ahli profesional, laboratorium ini mampu melayani berbagai kebutuhan pemeriksaan mulai dari patologi klinik hingga mikrobiologi dengan standar keamanan pasien yang tinggi."
+                },
+                "en": {
+                    "title": "Laboratory",
+                    "content": "Columbia Asia Semarang Hospital Laboratory is a modern medical support facility operating 24 hours to provide accurate and efficient diagnostic services. Supported by advanced automation technology and professional experts, this laboratory can handle various testing needs, from clinical pathology to microbiology, with high patient safety standards."
+                },
+                "zh": {
+                    "title": "实验室",
+                    "content": "三宝垄哥伦比亚亚洲医院实验室是一所现代化的医疗辅助设施，全天 24 小时运作，提供准确高效的诊断服务。在先进的自动化技术和专业人员支持下，该实验室能够满足从临床病理到微生物学的各种检测需求，并具有高度的患者安全标准。"
+                },
+                "ar": {
+                    "title": "مختبر",
+                    "content": "مختبر مستشفى كولومبيا آسيا سيمارانغ هو مرفق دعم طبي حديث يعمل على مدار 24 ساعة لتقديم خدمات تشخيصية دقيقة وفعالة. بدعم من تكنولوجيا الأتمتة المتقدمة والخبراء المحترفين، يمكن لهذا المختبر تلبية احتياجات الفحوصات المتنوعة، من علم الأمراض السريرية إلى علم الأحياء الدقيقة، مع معايير سلامة عالية للمرضى."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1131",
+            "entityId": "objinfo2:1131",
+            "title": "Kateterisasi Laboratorium",
+            "aliases": [
+                "kateterisasi laboratorium",
+                "objek 1131"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini merupakan unit layanan medis canggih yang khusus digunakan untuk melakukan prosedur diagnostik dan intervensi invasif minimal pada pembuluh darah, jantung, dan otak. Dilengkapi dengan teknologi pemindaian sinar-X real-time (C-Arm) yang terlihat dominan di tengah ruangan, fasilitas ini memungkinkan dokter spesialis untuk melihat struktur organ bagian dalam secara mendetail tanpa perlu melakukan bedah terbuka yang besar.",
+            "source": "webview-import",
+            "sourceId": "1131",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kateterisasi Laboratorium",
+                    "content": "Ruangan ini merupakan unit layanan medis canggih yang khusus digunakan untuk melakukan prosedur diagnostik dan intervensi invasif minimal pada pembuluh darah, jantung, dan otak. Dilengkapi dengan teknologi pemindaian sinar-X real-time (C-Arm) yang terlihat dominan di tengah ruangan, fasilitas ini memungkinkan dokter spesialis untuk melihat struktur organ bagian dalam secara mendetail tanpa perlu melakukan bedah terbuka yang besar."
+                },
+                "en": {
+                    "title": "Cathlab",
+                    "content": "This room is an advanced medical service unit specifically used for diagnostic procedures and minimally invasive interventions on blood vessels, the heart, and the brain. Equipped with real-time X-ray scanning technology (C-Arm) prominently positioned in the center of the room, this facility allows specialists to view internal organ structures in detail without the need for major open surgery."
+                },
+                "zh": {
+                    "title": "导管实验室",
+                    "content": "该房间是一个先进的医疗服务单元，专门用于血管、心脏和大脑的诊断程序及微创干预。配备实时 X 光扫描技术（C-臂），显眼地置于房间中央，使专家能够详细观察内部器官结构，而无需进行大规模开放手术。"
+                },
+                "ar": {
+                    "title": "مختبر القسطرة",
+                    "content": "تُعد هذه الغرفة وحدة خدمات طبية متقدمة تُستخدم خصيصًا للإجراءات التشخيصية والتداخلات طفيفة التوغل على الأوعية الدموية والقلب والدماغ. مزودة بتقنية المسح بالأشعة السينية في الوقت الفعلي (C-Arm) الموضوعة بشكل بارز في وسط الغرفة، تتيح هذه المنشأة للأطباء المتخصصين رؤية الهياكل الداخلية للأعضاء بالتفصيل دون الحاجة إلى إجراء جراحة مفتوحة كبيرة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1132",
+            "entityId": "objinfo2:1132",
+            "title": "CT Scan",
+            "aliases": [
+                "ct scan",
+                "objek 1132"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Di pusat ruangan terdapat unit mesin CT Scan modern dengan desain gantry berbentuk cincin besar dan meja pemeriksaan yang dapat bergerak secara otomatis untuk memposisikan pasien masuk ke dalam pemindai. Teknologi ini sangat krusial untuk menghasilkan pencitraan medis yang detail, memungkinkan dokter mendiagnosis berbagai kondisi internal tubuh mulai dari cedera kepala, gangguan organ dalam, hingga deteksi dini tumor dengan akurasi tinggi dan waktu pemindaian yang relatif cepat.",
+            "source": "webview-import",
+            "sourceId": "1132",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "CT Scan",
+                    "content": "Di pusat ruangan terdapat unit mesin CT Scan modern dengan desain gantry berbentuk cincin besar dan meja pemeriksaan yang dapat bergerak secara otomatis untuk memposisikan pasien masuk ke dalam pemindai. Teknologi ini sangat krusial untuk menghasilkan pencitraan medis yang detail, memungkinkan dokter mendiagnosis berbagai kondisi internal tubuh mulai dari cedera kepala, gangguan organ dalam, hingga deteksi dini tumor dengan akurasi tinggi dan waktu pemindaian yang relatif cepat."
+                },
+                "en": {
+                    "title": "CT Scan",
+                    "content": "At the center of the room is a modern CT Scan unit with a large ring-shaped gantry design and an examination table that can move automatically to position the patient into the scanner. This technology is crucial for producing detailed medical imaging, allowing doctors to diagnose various internal body conditions, from head injuries and organ disorders to early tumor detection with high accuracy and relatively fast scanning time."
+                },
+                "zh": {
+                    "title": "CT 扫描",
+                    "content": "在房间中央有一台现代化 CT 扫描设备，配有大型环形机架设计和可自动移动的检查床，用于将患者定位到扫描仪中。该技术对于生成高精度医学影像至关重要，使医生能够诊断各种内部身体状况，从头部受伤、器官功能障碍到肿瘤早期检测，具有高准确性且扫描时间相对较快。"
+                },
+                "ar": {
+                    "title": "تصوير مقطعي محوسب",
+                    "content": "في وسط الغرفة توجد وحدة تصوير مقطعي محوسب (CT Scan) حديثة بتصميم جانتري على شكل حلقة كبيرة وطاولة فحص يمكنها التحرك تلقائيًا لوضع المريض داخل الماسح. هذه التقنية مهمة جدًا لإنتاج تصوير طبي مفصل، مما يسمح للأطباء بتشخيص حالات مختلفة داخل الجسم، بدءًا من إصابات الرأس واضطرابات الأعضاء الداخلية وصولاً إلى الكشف المبكر عن الأورام بدقة عالية ووقت مسح سريع نسبيًا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1133",
+            "entityId": "objinfo2:1133",
+            "title": "Ruang Bersalin",
+            "aliases": [
+                "ruang bersalin",
+                "objek 1133"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Salah satu ruang tindakan medis di Rumah Sakit Columbia Asia Semarang, yang dirancang dengan standar kenyamanan dan sterilitas tinggi. Ruangan ini tampak difungsikan sebagai ruang bersalin atau ruang tindakan kebidanan, terlihat dari adanya tempat tidur pemeriksaan ginekologi multifungsi di bagian tengah serta peralatan medis pendukung di sekitarnya.",
+            "source": "webview-import",
+            "sourceId": "1133",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Bersalin",
+                    "content": "Salah satu ruang tindakan medis di Rumah Sakit Columbia Asia Semarang, yang dirancang dengan standar kenyamanan dan sterilitas tinggi. Ruangan ini tampak difungsikan sebagai ruang bersalin atau ruang tindakan kebidanan, terlihat dari adanya tempat tidur pemeriksaan ginekologi multifungsi di bagian tengah serta peralatan medis pendukung di sekitarnya."
+                },
+                "en": {
+                    "title": "Labor and Delivery Room",
+                    "content": "One of the medical procedure rooms at Columbia Asia Semarang Hospital, designed with high standards of comfort and sterility. This room appears to function as a labor or obstetric procedure room, evident from the multifunctional gynecology examination bed in the center and supporting medical equipment around it."
+                },
+                "zh": {
+                    "title": "产房",
+                    "content": "哥伦比亚亚洲三宝垄医院的其中一个医疗操作室，设计符合高标准的舒适性和无菌性。该房间似乎用作产房或妇产科操作室，可从中央的多功能妇科检查床及周围的辅助医疗设备看出。"
+                },
+                "ar": {
+                    "title": "غرفة الولادة",
+                    "content": "إحدى غرف الإجراءات الطبية في مستشفى كولومبيا آسيا سيمارانغ، مصممة بمعايير عالية من الراحة والتعقيم. يبدو أن هذه الغرفة تعمل كغرفة ولادة أو غرفة إجراءات توليد، يتضح ذلك من وجود سرير فحص نسائي متعدد الوظائف في الوسط والمعدات الطبية الداعمة حوله."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1134",
+            "entityId": "objinfo2:1134",
+            "title": "X Ray",
+            "aliases": [
+                "x ray",
+                "objek 1134"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas ini merupakan bagian dari layanan penunjang medis di RS Columbia Asia Semarang yang mendukung diagnosis cepat dan akurat bagi pasien rawat inap maupun rawat jalan. Unit sinar-X statis yang digunakan untuk mendiagnosis berbagai kondisi medis melalui pencitraan struktur tulang maupun organ dalam.",
+            "source": "webview-import",
+            "sourceId": "1134",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "X Ray",
+                    "content": "Fasilitas ini merupakan bagian dari layanan penunjang medis di RS Columbia Asia Semarang yang mendukung diagnosis cepat dan akurat bagi pasien rawat inap maupun rawat jalan. Unit sinar-X statis yang digunakan untuk mendiagnosis berbagai kondisi medis melalui pencitraan struktur tulang maupun organ dalam."
+                },
+                "en": {
+                    "title": "X Ray",
+                    "content": "This facility is part of the medical support services at Columbia Asia Semarang Hospital, supporting fast and accurate diagnosis for both inpatient and outpatient care. The static X-ray unit is used to diagnose various medical conditions by imaging bone structures and internal organs."
+                },
+                "zh": {
+                    "title": "X Ray",
+                    "content": "该设施是哥伦比亚亚洲三宝垄医院医疗辅助服务的一部分，为住院和门诊患者提供快速准确的诊断支持。静态 X 光机用于通过影像检查骨骼结构和内部器官来诊断各种疾病。"
+                },
+                "ar": {
+                    "title": "X Ray",
+                    "content": "هذه المنشأة جزء من خدمات الدعم الطبي في مستشفى كولومبيا آسيا سيمارانغ، وتدعم التشخيص السريع والدقيق لكل من المرضى الداخليين والخارجيين. تُستخدم وحدة الأشعة السينية الثابتة لتشخيص الحالات الطبية المختلفة من خلال تصوير هيكل العظام والأعضاء الداخلية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1135",
+            "entityId": "objinfo2:1135",
+            "title": "Ruang Operasi",
+            "aliases": [
+                "ruang operasi",
+                "objek 1135"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas Kamar Operasi (OK) yang modern dan komprehensif di RS Columbia Asia Semarang. Ruangan ini telah memenuhi standar medis internasional dengan mengintegrasikan sistem filtrasi udara steril (Laminar Air Flow), pencahayaan shadowless yang presisi, serta peralatan anestesi dan pemantauan pasien yang canggih. Ruangan ini dirancang dengan standar sterilitas tinggi dan teknologi medis mutakhir untuk mendukung berbagai prosedur pembedahan.",
+            "source": "webview-import",
+            "sourceId": "1135",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Operasi",
+                    "content": "Fasilitas Kamar Operasi (OK) yang modern dan komprehensif di RS Columbia Asia Semarang. Ruangan ini telah memenuhi standar medis internasional dengan mengintegrasikan sistem filtrasi udara steril (Laminar Air Flow), pencahayaan shadowless yang presisi, serta peralatan anestesi dan pemantauan pasien yang canggih. Ruangan ini dirancang dengan standar sterilitas tinggi dan teknologi medis mutakhir untuk mendukung berbagai prosedur pembedahan."
+                },
+                "en": {
+                    "title": "Operation Room",
+                    "content": "A modern and comprehensive Operating Room (OR) facility at Columbia Asia Semarang Hospital. This room meets international medical standards by integrating a sterile air filtration system (Laminar Air Flow), precise shadowless lighting, and advanced anesthesia and patient monitoring equipment. It is designed with high sterility standards and state-of-the-art medical technology to support various surgical procedures."
+                },
+                "zh": {
+                    "title": "手术室",
+                    "content": "哥伦比亚亚洲三宝垄医院的现代化、综合手术室设施。该房间符合国际医疗标准，整合了无菌空气过滤系统（层流空气）、精确的无影照明以及先进的麻醉和患者监测设备。房间按照高标准的无菌要求和最先进的医疗技术设计，以支持各种手术程序。"
+                },
+                "ar": {
+                    "title": "غرفة العمليات",
+                    "content": "مرفق غرفة عمليات (OR) حديث وشامل في مستشفى كولومبيا آسيا سيمارانغ. تفي هذه الغرفة بالمعايير الطبية الدولية من خلال دمج نظام ترشيح هواء معقم (Laminar Air Flow)، وإضاءة دقيقة بدون ظلال، ومعدات متقدمة للتخدير ومراقبة المرضى. تم تصميم الغرفة بمعايير عالية للتعقيم وتقنيات طبية حديثة لدعم مختلف الإجراءات الجراحية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1194",
+            "entityId": "objinfo2:1194",
+            "title": "Kamar Rawat Inap",
+            "aliases": [
+                "kamar rawat inap",
+                "objek 1194"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "fasilitas kamar rawat inap kelas atas di RS Columbia Asia yang mengusung konsep modern, bersih, dan suportif bagi pemulihan pasien. Ruangan ini dirancang untuk memberikan kenyamanan maksimal layaknya berada di rumah melalui perpaduan interior kayu yang hangat dengan palet warna biru yang menenangkan.",
+            "source": "webview-import",
+            "sourceId": "1194",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kamar Rawat Inap",
+                    "content": "fasilitas kamar rawat inap kelas atas di RS Columbia Asia yang mengusung konsep modern, bersih, dan suportif bagi pemulihan pasien. Ruangan ini dirancang untuk memberikan kenyamanan maksimal layaknya berada di rumah melalui perpaduan interior kayu yang hangat dengan palet warna biru yang menenangkan."
+                },
+                "en": {
+                    "title": "Inpatient Room",
+                    "content": "The premium inpatient room facilities at RS Columbia Asia Semarang feature a modern, clean, and recovery-supportive concept. The room is designed to provide maximum comfort comparable to being at home, combining warm wooden interior elements with a calming blue color palette."
+                },
+                "zh": {
+                    "title": "住院病房",
+                    "content": "哥伦比亚亚洲三宝垄医院的高等级住院病房设施，以现代、整洁且有助于患者康复为设计理念。病房采用温暖的木质内饰与舒缓的蓝色调相结合，为患者营造如家般舒适的环境。"
+                },
+                "ar": {
+                    "title": "غرفة المرضى المنوّمين",
+                    "content": "توفر مستشفى كولومبيا آسيا سمارانغ غرف تنويم فاخرة بتصميم حديث ونظيف يدعم تعافي المرضى. تم تصميم الغرفة لتوفير أقصى درجات الراحة وكأن المريض في منزله، من خلال دمج الديكور الخشبي الدافئ مع لوحة ألوان زرقاء تبعث على الهدوء."
+                }
+            }
+        }
+    ]
+}

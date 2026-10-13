@@ -1,0 +1,51 @@
+{
+    "version": "1.0",
+    "tourId": "bsbcity",
+    "tourName": "BSB City",
+    "updatedAt": "2026-09-29T06:09:47+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "BSB City – Teras Pandang Danau BSB"
+        },
+        "node2": {
+            "displayName": "BSB City – Jalur Tepi Danau"
+        },
+        "node3": {
+            "displayName": "BSB City – Basement Uptown Mall"
+        },
+        "node4": {
+            "displayName": "BSB City – Area Wahana Funworld"
+        },
+        "node5": {
+            "displayName": "BSB City – Koridor Uptown Mall"
+        },
+        "node7": {
+            "displayName": "BSB City – Pelataran Uptown Mall"
+        },
+        "node8": {
+            "displayName": "BSB City – Jalan Utama BSB – Tampak Udara"
+        },
+        "node9": {
+            "displayName": "BSB City – Danau BSB – Tampak Udara"
+        },
+        "node10": {
+            "displayName": "BSB City – Uptown Mall – Tampak Udara"
+        },
+        "node11": {
+            "displayName": "BSB City – Area Halte BSB"
+        }
+    }
+}

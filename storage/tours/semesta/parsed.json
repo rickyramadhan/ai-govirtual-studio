@@ -1,0 +1,934 @@
+{
+    "startNode": "node81",
+    "scenes": [
+        {
+            "id": "node81",
+            "name": "node81",
+            "displayName": "node81",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 5.50548,
+            "tilt": -28.5301,
+            "fov": 126.563,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node80",
+            "name": "Ruang Guru",
+            "displayName": "Ruang Guru",
+            "rawName": "",
+            "customNodeId": "-uang-uru",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Ruang Guru"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Asrama Putra",
+            "displayName": "Asrama Putra",
+            "rawName": "",
+            "customNodeId": "-srama-utra",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Asrama Putra"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Asrama Putri",
+            "displayName": "Asrama Putri",
+            "rawName": "",
+            "customNodeId": "-srama-utri",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Asrama Putri"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Aula",
+            "displayName": "Aula",
+            "rawName": "",
+            "customNodeId": "aula",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "aula"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Auditorium",
+            "displayName": "Auditorium",
+            "rawName": "",
+            "customNodeId": "auditorium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "auditorium"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Greenhouse",
+            "displayName": "Greenhouse",
+            "rawName": "",
+            "customNodeId": "greenhouse",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "greenhouse"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Depan Asrama Putri",
+            "displayName": "Depan Asrama Putri",
+            "rawName": "",
+            "customNodeId": "-epan-srama-utri",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Depan Asrama Putri"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Graha Semesta",
+            "displayName": "Graha Semesta",
+            "rawName": "",
+            "customNodeId": "-raha-emesta",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Graha Semesta"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Jalan Utama",
+            "displayName": "Jalan Utama",
+            "rawName": "",
+            "customNodeId": "-alan-tama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Jalan Utama"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "node90",
+            "displayName": "node90",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node91",
+            "name": "Kantin",
+            "displayName": "Kantin",
+            "rawName": "",
+            "customNodeId": "-antin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Kantin"
+            ]
+        },
+        {
+            "id": "node92",
+            "name": "Kantin",
+            "displayName": "Kantin",
+            "rawName": "",
+            "customNodeId": "-antin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Kantin"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Kelas",
+            "displayName": "Kelas",
+            "rawName": "",
+            "customNodeId": "kelas",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "kelas"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Labipa",
+            "displayName": "Labipa",
+            "rawName": "",
+            "customNodeId": "labipa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "labipa"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Labkimia",
+            "displayName": "Labkimia",
+            "rawName": "",
+            "customNodeId": "labkimia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "labkimia"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Labkomputer",
+            "displayName": "Labkomputer",
+            "rawName": "",
+            "customNodeId": "labkomputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "labkomputer"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Lapangan Basket",
+            "displayName": "Lapangan Basket",
+            "rawName": "",
+            "customNodeId": "-apangan-asket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Lapangan Basket"
+            ]
+        },
+        {
+            "id": "node100",
+            "name": "Lapangan Bola",
+            "displayName": "Lapangan Bola",
+            "rawName": "",
+            "customNodeId": "-apangan-ola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Lapangan Bola"
+            ]
+        },
+        {
+            "id": "node101",
+            "name": "Lapangan Bola",
+            "displayName": "Lapangan Bola",
+            "rawName": "",
+            "customNodeId": "-apangan-ola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Lapangan Bola"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Lapangan Upacara",
+            "displayName": "Lapangan Upacara",
+            "rawName": "",
+            "customNodeId": "-apangan-pacara",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Lapangan Upacara"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Lapangan Upacara",
+            "displayName": "Lapangan Upacara",
+            "rawName": "",
+            "customNodeId": "-apangan-pacara",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Lapangan Upacara"
+            ]
+        },
+        {
+            "id": "node104",
+            "name": "Gedung Lembaga",
+            "displayName": "Gedung Lembaga",
+            "rawName": "",
+            "customNodeId": "-edung-embaga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Gedung Lembaga"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Semesta Boarding School",
+            "displayName": "Semesta Boarding School",
+            "rawName": "",
+            "customNodeId": "-emesta-oarding-chool",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "Semesta Boarding School"
+            ]
+        },
+        {
+            "id": "node106",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "perpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "semestaboardingschool"
+            ],
+            "aliases": [
+                "perpustakaan"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node81",
+            "target": "node88",
+            "title": "Graha Semesta",
+            "id": "Point01",
+            "pan": -1.44,
+            "tilt": -39.85
+        },
+        {
+            "scene": "node81",
+            "target": "node102",
+            "title": "Lapangan Upacara",
+            "id": "Point03",
+            "pan": -15.42,
+            "tilt": -19.26
+        },
+        {
+            "scene": "node80",
+            "target": "node103",
+            "title": "Keluar Lapangan Upacara",
+            "id": "Point01",
+            "pan": 213.26,
+            "tilt": -6.04
+        },
+        {
+            "scene": "node80",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -276.08,
+            "tilt": -7.67
+        },
+        {
+            "scene": "node82",
+            "target": "node88",
+            "title": "Graha Semesta",
+            "id": "Point02",
+            "pan": -186.12,
+            "tilt": -3.21
+        },
+        {
+            "scene": "node82",
+            "target": "node98",
+            "title": "Lapangan Basket",
+            "id": "Point01",
+            "pan": -101.35,
+            "tilt": -7.63
+        },
+        {
+            "scene": "node82",
+            "target": "node92",
+            "title": "Kantin",
+            "id": "Point03",
+            "pan": -52.04,
+            "tilt": -6.11
+        },
+        {
+            "scene": "node82",
+            "target": "node103",
+            "title": "Lapangan Upacara",
+            "id": "Point04",
+            "pan": -295.64,
+            "tilt": -6.94
+        },
+        {
+            "scene": "node82",
+            "target": "node85",
+            "title": "Aula Serbaguna",
+            "id": "Point05",
+            "pan": -156.23,
+            "tilt": -4.61
+        },
+        {
+            "scene": "node83",
+            "target": "node87",
+            "title": "Depan Asrama Putri",
+            "id": "Point01",
+            "pan": -108.4,
+            "tilt": -6.76
+        },
+        {
+            "scene": "node83",
+            "target": "node100",
+            "title": "Lapangan Bola",
+            "id": "Point02",
+            "pan": -300.74,
+            "tilt": -3.34
+        },
+        {
+            "scene": "node84",
+            "target": "node88",
+            "title": "Graha Semesta",
+            "id": "Point02",
+            "pan": -190.08,
+            "tilt": -5.04
+        },
+        {
+            "scene": "node84",
+            "target": "node86",
+            "title": "Semesta Greenhouse",
+            "id": "Point03",
+            "pan": -313.75,
+            "tilt": -1.36
+        },
+        {
+            "scene": "node84",
+            "target": "node80",
+            "title": "Ruang Guru",
+            "id": "Point01",
+            "pan": -55.21,
+            "tilt": -2.31
+        },
+        {
+            "scene": "node85",
+            "target": "node82",
+            "title": "Graha Semesta",
+            "id": "Point01",
+            "pan": -180.31,
+            "tilt": -7.02
+        },
+        {
+            "scene": "node86",
+            "target": "node87",
+            "title": "Depan Asrama Putri",
+            "id": "Point01",
+            "pan": 100.47,
+            "tilt": -7.54
+        },
+        {
+            "scene": "node86",
+            "target": "node84",
+            "title": "Aula Graha Semesta",
+            "id": "Point03",
+            "pan": -178.43,
+            "tilt": -3.19
+        },
+        {
+            "scene": "node87",
+            "target": "node89",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 208.77,
+            "tilt": -2.05
+        },
+        {
+            "scene": "node87",
+            "target": "node86",
+            "title": "Semesta Greenhouse",
+            "id": "Point03",
+            "pan": 249.33,
+            "tilt": -2.63
+        },
+        {
+            "scene": "node87",
+            "target": "node83",
+            "title": "Asrama Putri",
+            "id": "Point04",
+            "pan": 10.09,
+            "tilt": -4.42
+        },
+        {
+            "scene": "node88",
+            "target": "node89",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -181.56,
+            "tilt": -4.96
+        },
+        {
+            "scene": "node88",
+            "target": "node84",
+            "title": "Aula Graha Semesta",
+            "id": "Point02",
+            "pan": -357.18,
+            "tilt": -0.89
+        },
+        {
+            "scene": "node88",
+            "target": "node82",
+            "title": "Asrama Putra",
+            "id": "Point03",
+            "pan": -107.58,
+            "tilt": -0.68
+        },
+        {
+            "scene": "node88",
+            "target": "node103",
+            "title": "Lapangan Upacara",
+            "id": "Point05",
+            "pan": -53.37,
+            "tilt": -1.84
+        },
+        {
+            "scene": "node89",
+            "target": "node101",
+            "title": "Lapangan Bola",
+            "id": "Point01",
+            "pan": 95.28,
+            "tilt": -12.32
+        },
+        {
+            "scene": "node89",
+            "target": "node90",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 182.35,
+            "tilt": -1.53
+        },
+        {
+            "scene": "node89",
+            "target": "node104",
+            "title": "Gedung Lembaga",
+            "id": "Point03",
+            "pan": 274.02,
+            "tilt": -4.94
+        },
+        {
+            "scene": "node89",
+            "target": "node87",
+            "title": "Depan Asrama Putri",
+            "id": "Point04",
+            "pan": 20.34,
+            "tilt": -3.05
+        },
+        {
+            "scene": "node89",
+            "target": "node88",
+            "title": "Graha Semesta",
+            "id": "Point05",
+            "pan": 349.95,
+            "tilt": -3.18
+        },
+        {
+            "scene": "node90",
+            "target": "node89",
+            "title": "Jalan Utama",
+            "id": "Point02",
+            "pan": -353.74,
+            "tilt": -2.4
+        },
+        {
+            "scene": "node91",
+            "target": "node92",
+            "title": "Kantin",
+            "id": "Point02",
+            "pan": -84.79,
+            "tilt": -9.86
+        },
+        {
+            "scene": "node92",
+            "target": "node98",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": -87.2,
+            "tilt": -19.39
+        },
+        {
+            "scene": "node92",
+            "target": "node82",
+            "title": "Asrama Putra",
+            "id": "Point01",
+            "pan": -171.67,
+            "tilt": -7.27
+        },
+        {
+            "scene": "node92",
+            "target": "node91",
+            "title": "Kantin",
+            "id": "Point03",
+            "pan": -267.3,
+            "tilt": -1.38
+        },
+        {
+            "scene": "node94",
+            "target": "node102",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -100.48,
+            "tilt": -12.23
+        },
+        {
+            "scene": "node95",
+            "target": "node102",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -2.82,
+            "tilt": -12.5
+        },
+        {
+            "scene": "node96",
+            "target": "node102",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -349.44,
+            "tilt": -12.32
+        },
+        {
+            "scene": "node97",
+            "target": "node102",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -183.76,
+            "tilt": -13.32
+        },
+        {
+            "scene": "node98",
+            "target": "node92",
+            "title": "Kantin",
+            "id": "Point01",
+            "pan": 92.96,
+            "tilt": -1.65
+        },
+        {
+            "scene": "node98",
+            "target": "node82",
+            "title": "Asrama Putra",
+            "id": "Point02",
+            "pan": -192.91,
+            "tilt": -2.14
+        },
+        {
+            "scene": "node100",
+            "target": "node83",
+            "title": "Asrama Putri",
+            "id": "Point02",
+            "pan": -43.87,
+            "tilt": -2.99
+        },
+        {
+            "scene": "node100",
+            "target": "node103",
+            "title": "Lapangan Upacara",
+            "id": "Point01",
+            "pan": -332.57,
+            "tilt": -3.25
+        },
+        {
+            "scene": "node101",
+            "target": "node89",
+            "title": "Jalan Utama",
+            "id": "Point02",
+            "pan": -179.97,
+            "tilt": -3.11
+        },
+        {
+            "scene": "node102",
+            "target": "node103",
+            "title": "Lapangan Upacara",
+            "id": "Point01",
+            "pan": 183.25,
+            "tilt": -1.42
+        },
+        {
+            "scene": "node102",
+            "target": "node97",
+            "title": "Lab Komputer",
+            "id": "Point02",
+            "pan": 97.34,
+            "tilt": -4
+        },
+        {
+            "scene": "node102",
+            "target": "node106",
+            "title": "Perpustakaan",
+            "id": "Point03",
+            "pan": 35.74,
+            "tilt": -1.36
+        },
+        {
+            "scene": "node102",
+            "target": "node94",
+            "title": "Ruang Kelas",
+            "id": "Point05",
+            "pan": -1.65,
+            "tilt": -1.49
+        },
+        {
+            "scene": "node102",
+            "target": "node96",
+            "title": "Lab Kimia",
+            "id": "Point06",
+            "pan": -39.56,
+            "tilt": -1.76
+        },
+        {
+            "scene": "node102",
+            "target": "node95",
+            "title": "Lab IPA",
+            "id": "Point04",
+            "pan": 282.26,
+            "tilt": -3.72
+        },
+        {
+            "scene": "node103",
+            "target": "node80",
+            "title": "Ruang Guru",
+            "id": "Point02",
+            "pan": -75.37,
+            "tilt": -3.97
+        },
+        {
+            "scene": "node103",
+            "target": "node102",
+            "title": "Lapangan Upacara",
+            "id": "Point01",
+            "pan": -183.2,
+            "tilt": -9.1
+        },
+        {
+            "scene": "node103",
+            "target": "node100",
+            "title": "Lapangan Bola",
+            "id": "Point04",
+            "pan": -248.41,
+            "tilt": -4.41
+        },
+        {
+            "scene": "node103",
+            "target": "node88",
+            "title": "Graha Semesta",
+            "id": "Point03",
+            "pan": -30.51,
+            "tilt": -8.69
+        },
+        {
+            "scene": "node103",
+            "target": "node82",
+            "title": "Asrama Putra",
+            "id": "Point05",
+            "pan": -322.88,
+            "tilt": -7.14
+        },
+        {
+            "scene": "node104",
+            "target": "node89",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -183.52,
+            "tilt": -2.58
+        },
+        {
+            "scene": "node104",
+            "target": "node105",
+            "title": "Semesta Boarding School",
+            "id": "Point02",
+            "pan": 0.92,
+            "tilt": -4.1
+        },
+        {
+            "scene": "node105",
+            "target": "node104",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -181.77,
+            "tilt": -10.38
+        },
+        {
+            "scene": "node106",
+            "target": "node102",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -132.39,
+            "tilt": -10.29
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 382,
+            "label": "Aula Graha Semesta",
+            "description": "Aula Graha Semesta berfungsi sebagai auditorium atau ruang pertemuan besar untuk menampung berbagai acara formal dan kegiatan sekolah. Tempat ini menjadi pusat kegiatan komunitas sekolah, mulai dari upacara hingga pertunjukan seni atau seminar.",
+            "fragment": "aula",
+            "link": "boardingschool/index.html#aula",
+            "sceneId": "node84"
+        },
+        {
+            "infoId": 383,
+            "label": "Lab IPA",
+            "description": "Lab IPA (Biologi) Sekolah ini memiliki laboratorium sains terpisah untuk Fisika, Kimia, dan Biologi yang mendukung kurikulum internasional. Laboratorium ini dilengkapi dengan peralatan modern untuk memfasilitasi praktikum dan persiapan siswa dalam olimpiade sains.",
+            "fragment": "labipa",
+            "link": "boardingschool/index.html#labipa",
+            "sceneId": "node95"
+        },
+        {
+            "infoId": 384,
+            "label": "Lab Komputer",
+            "description": "Lab Komputer menyediakan fasilitas teknologi digital untuk mendukung model pembelajaran Technology Integrated Classroom. Ruangan ini digunakan siswa untuk praktik komputasi dan riset berbasis teknologi sebagai bagian dari kurikulum.",
+            "fragment": "labkomputer",
+            "link": "boardingschool/index.html#labkomputer",
+            "sceneId": "node97"
+        },
+        {
+            "infoId": 385,
+            "label": "Lab Kimia",
+            "description": "Lab Kimia adalah salah satu ruang praktik sains yang lengkap, dirancang untuk melaksanakan eksperimen dan penelitian kimia secara mendalam. Fasilitas ini mendukung pembelajaran interaktif dan persiapan siswa untuk meraih prestasi akademik di bidang Kimia.",
+            "fragment": "labkimia",
+            "link": "boardingschool/index.html#labkimia",
+            "sceneId": "node96"
+        },
+        {
+            "infoId": 386,
+            "label": "Kelas",
+            "description": "Ruang kelas di Semesta Boarding School umumnya nyaman dan ber-AC, mendukung sistem pembelajaran bilingual (dwibahasa) dengan kurikulum Nasional dan Cambridge. Ruangan ini dirancang untuk menciptakan lingkungan belajar yang kondusif dan terintegrasi dengan teknologi digital.",
+            "fragment": "kelas",
+            "link": "boardingschool/index.html#kelas",
+            "sceneId": "node94"
+        },
+        {
+            "infoId": 387,
+            "label": "Perpustakaan",
+            "description": "Perpustakaan menyediakan sumber belajar berupa koleksi buku dan referensi yang memadai untuk mendukung kegiatan literasi siswa. Fasilitas ini menjadi tempat utama bagi siswa untuk melakukan kegiatan membaca dan riset mandiri, termasuk dalam program literasi harian.",
+            "fragment": "perpustakaan",
+            "link": "boardingschool/index.html#perpustakaan",
+            "sceneId": "node106"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "006b89abc4b71ad3",
+        "skin.js": "e14b4053c40681ce",
+        "index.html": "e64214647527bbf8"
+    }
+}

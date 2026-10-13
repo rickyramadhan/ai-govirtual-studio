@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "viharawatugong",
+    "tourName": "Viharawatugong",
+    "updatedAt": "2026-09-29T09:52:56+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Viharawatugong?",
+                "query": "Mengapa disebut Viharawatugong?",
+                "desc": "Mengapa disebut Viharawatugong?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Viharawatugong",
+                "desc": "Ceritakan tentang Viharawatugong"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Viharawatugong"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Viharawatugong"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Viharawatugong?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Viharawatugong?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Viharawatugong?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Viharawatugong?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

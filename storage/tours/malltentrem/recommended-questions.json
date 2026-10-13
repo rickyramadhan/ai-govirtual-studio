@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "malltentrem",
+    "tourName": "Malltentrem",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Lokasi LED ikan hiu?",
+                "query": "Di area atau lantai mana saya bisa melihat videotron raksasa dengan animasi ikan hiu di atap mall?",
+                "desc": "Di area atau lantai mana saya bisa melihat videotron raksasa dengan animasi ikan hiu di atap mall?"
+            },
+            {
+                "label": "Restoran yang ada apa saja?",
+                "query": "Apa saja daftar restoran fine dining atau tempat makan populer yang buka di mall ini?",
+                "desc": "Apa saja daftar restoran fine dining atau tempat makan populer yang buka di mall ini?"
+            },
+            {
+                "label": "Apakah ada bioskopnya?",
+                "query": "Apakah Tentrem Mall dilengkapi dengan fasilitas bioskop untuk hiburan menonton film bersama keluarga?",
+                "desc": "Apakah Tentrem Mall dilengkapi dengan fasilitas bioskop untuk hiburan menonton film bersama keluarga?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Langit-langit LED Akuarium",
+                "query": "Bagaimana keindahan atraksi visual Videotron LED raksasa berbentuk akuarium di langit-langit atrium mall?"
+            },
+            {
+                "label": "Arsitektur Mewah & Megah",
+                "query": "Seperti apa konsep desain interior mall yang menggabungkan kemewahan modern dengan sentuhan budaya yang elegan?"
+            },
+            {
+                "label": "Tenant F&B Internasional",
+                "query": "Sebutkan deretan restoran dan kafe berkelas premium yang menjadi daya tarik utama kuliner di Tentrem Mall!"
+            },
+            {
+                "label": "Integrasi Hotel & Apartemen",
+                "query": "Bagaimana konsep mixed-use development yang menyatukan area mall belanja dengan Hotel Tentrem dan hunian apartemen?"
+            },
+            {
+                "label": "Fasilitas Hiburan Keluarga",
+                "query": "Fasilitas hiburan dan arena bermain eksklusif apa saja yang tersedia untuk anak-anak di dalam area mall ini?"
+            },
+            {
+                "label": "Kenyamanan Area Parkir",
+                "query": "Bagaimana kecanggihan teknologi dan luasnya area parkir yang disiapkan demi kenyamanan pengunjung mall?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Malltentrem?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Malltentrem?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Malltentrem?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

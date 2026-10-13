@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "nirwana",
+    "tourName": "Nirwana",
+    "updatedAt": "2026-09-29T09:51:30+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Nirwana?",
+                "query": "Mengapa disebut Nirwana?",
+                "desc": "Mengapa disebut Nirwana?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Nirwana",
+                "desc": "Ceritakan tentang Nirwana"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Nirwana"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Nirwana"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Nirwana?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Nirwana?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Nirwana?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Nirwana?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

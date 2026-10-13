@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "polluxmall",
+    "tourName": "Polluxmall",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Brand mewah apa saja?",
+                "query": "Ada brand fashion internasional apa saja yang bisa ditemukan di Pollux Mall Paragon?",
+                "desc": "Ada brand fashion internasional apa saja yang bisa ditemukan di Pollux Mall Paragon?"
+            },
+            {
+                "label": "Bioskop di lantai berapa?",
+                "query": "Di lantai berapakah letak bioskop Cinepolis berada?",
+                "desc": "Di lantai berapakah letak bioskop Cinepolis berada?"
+            },
+            {
+                "label": "Rekomendasi restoran?",
+                "query": "Restoran apa yang paling direkomendasikan untuk makan malam keluarga di sini?",
+                "desc": "Restoran apa yang paling direkomendasikan untuk makan malam keluarga di sini?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Arsitektur Megah",
+                "query": "Bagaimana konsep arsitektur megah dan modern yang membedakan Pollux Mall Paragon dengan mall lainnya?"
+            },
+            {
+                "label": "Brand Internasional",
+                "query": "Apa saja tenant atau merek fesyen internasional kelas atas yang membuka gerainya di mall ini?"
+            },
+            {
+                "label": "Bioskop Cinepolis",
+                "query": "Fasilitas dan kelas studio apa saja yang ditawarkan oleh bioskop Cinepolis di lantai teratas?"
+            },
+            {
+                "label": "Area Kuliner Premium",
+                "query": "Sebutkan pilihan restoran dan kafe premium yang sangat cocok untuk pertemuan bisnis atau bersantai!"
+            },
+            {
+                "label": "Event Atrium Utama",
+                "query": "Acara besar atau pameran seperti apa yang biasanya sering diselenggarakan di area atrium utama?"
+            },
+            {
+                "label": "Pusat Belanja Keluarga",
+                "query": "Bagaimana kelengkapan fasilitas untuk hiburan dan tempat bermain yang ramah anak di Paragon?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Polluxmall?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Polluxmall?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Polluxmall?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

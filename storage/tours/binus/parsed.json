@@ -1,0 +1,993 @@
+{
+    "startNode": "node406",
+    "scenes": [
+        {
+            "id": "node380",
+            "name": "Greenscreen",
+            "displayName": "Greenscreen",
+            "rawName": "",
+            "customNodeId": "greenscreen",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus",
+                "oi"
+            ],
+            "aliases": [
+                "greenscreen"
+            ]
+        },
+        {
+            "id": "node381",
+            "name": "Rotary",
+            "displayName": "Rotary",
+            "rawName": "",
+            "customNodeId": "rotary",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus",
+                "oi"
+            ],
+            "aliases": [
+                "rotary"
+            ]
+        },
+        {
+            "id": "node382",
+            "name": "Lab Fisika Depan",
+            "displayName": "Lab Fisika Depan",
+            "rawName": "",
+            "customNodeId": "-ab-isika-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lab Fisika Depan"
+            ]
+        },
+        {
+            "id": "node383",
+            "name": "Labkomputer",
+            "displayName": "Labkomputer",
+            "rawName": "",
+            "customNodeId": "labkomputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "labkomputer"
+            ]
+        },
+        {
+            "id": "node384",
+            "name": "Lab Komputer 2",
+            "displayName": "Lab Komputer 2",
+            "rawName": "",
+            "customNodeId": "-ab-omputer-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lab Komputer 2"
+            ]
+        },
+        {
+            "id": "node385",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node386",
+            "name": "Labmanufacturing",
+            "displayName": "Labmanufacturing",
+            "rawName": "",
+            "customNodeId": "labmanufacturing",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus",
+                "oi"
+            ],
+            "aliases": [
+                "labmanufacturing"
+            ]
+        },
+        {
+            "id": "node387",
+            "name": "Lab Manufacturing",
+            "displayName": "Lab Manufacturing",
+            "rawName": "",
+            "customNodeId": "-ab-anufacturing",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lab Manufacturing"
+            ]
+        },
+        {
+            "id": "node388",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node389",
+            "name": "Lab Fotografi",
+            "displayName": "Lab Fotografi",
+            "rawName": "",
+            "customNodeId": "-ab-otografi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lab Fotografi"
+            ]
+        },
+        {
+            "id": "node390",
+            "name": "Lab Fotografi",
+            "displayName": "Lab Fotografi",
+            "rawName": "",
+            "customNodeId": "-ab-otografi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lab Fotografi"
+            ]
+        },
+        {
+            "id": "node391",
+            "name": "Labprinting",
+            "displayName": "Labprinting",
+            "rawName": "",
+            "customNodeId": "labprinting",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus",
+                "oi"
+            ],
+            "aliases": [
+                "labprinting"
+            ]
+        },
+        {
+            "id": "node392",
+            "name": "Lab Printing Depan",
+            "displayName": "Lab Printing Depan",
+            "rawName": "",
+            "customNodeId": "-ab-rinting-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lab Printing Depan"
+            ]
+        },
+        {
+            "id": "node393",
+            "name": "Lobi",
+            "displayName": "Lobi",
+            "rawName": "",
+            "customNodeId": "-obi",
+            "pan": -0.740524,
+            "tilt": -0.548807,
+            "fov": 136.888,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Lobi"
+            ]
+        },
+        {
+            "id": "node394",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "perpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "perpustakaan"
+            ]
+        },
+        {
+            "id": "node395",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node396",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 142,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node397",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node408",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node398",
+            "name": "Galeri Seni",
+            "displayName": "Galeri Seni",
+            "rawName": "",
+            "customNodeId": "-aleri-eni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Galeri Seni"
+            ]
+        },
+        {
+            "id": "node399",
+            "name": "Pendaftaran Mahasiswa",
+            "displayName": "Pendaftaran Mahasiswa",
+            "rawName": "",
+            "customNodeId": "-endaftaran-ahasiswa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pendaftaran Mahasiswa"
+            ]
+        },
+        {
+            "id": "node400",
+            "name": "Artgallery",
+            "displayName": "Artgallery",
+            "rawName": "",
+            "customNodeId": "artgallery",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "artgallery"
+            ]
+        },
+        {
+            "id": "node401",
+            "name": "Aula Tengah Lantai 2",
+            "displayName": "Aula Tengah Lantai 2",
+            "rawName": "",
+            "customNodeId": "-ula-engah-antai-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Aula Tengah Lantai 2"
+            ]
+        },
+        {
+            "id": "node402",
+            "name": "Cafeteria",
+            "displayName": "Cafeteria",
+            "rawName": "",
+            "customNodeId": "-afeteria",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Cafeteria"
+            ]
+        },
+        {
+            "id": "node403",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node404",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node405",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node406",
+            "name": "Depan Lobi",
+            "displayName": "Depan Lobi",
+            "rawName": "",
+            "customNodeId": "-epan-obi",
+            "pan": -170.251,
+            "tilt": 7.54702,
+            "fov": 126.545,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "Depan Lobi"
+            ]
+        },
+        {
+            "id": "node407",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 2.67587,
+            "tilt": -23.4396,
+            "fov": 145.05,
+            "tags": [
+                "binus"
+            ],
+            "aliases": [
+                "default"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node380",
+            "target": "node405",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -332,
+            "tilt": 11.69
+        },
+        {
+            "scene": "node381",
+            "target": "node382",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -254.11,
+            "tilt": -5.04
+        },
+        {
+            "scene": "node382",
+            "target": "node381",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -1.05,
+            "tilt": -20.31
+        },
+        {
+            "scene": "node382",
+            "target": "node392",
+            "title": "Lab Printing Depan",
+            "id": "Point02",
+            "pan": -264.96,
+            "tilt": -5.66
+        },
+        {
+            "scene": "node382",
+            "target": "node390",
+            "title": "Lab Fotografi",
+            "id": "Point03",
+            "pan": -100.25,
+            "tilt": -3.38
+        },
+        {
+            "scene": "node383",
+            "target": "node385",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -108.58,
+            "tilt": -6.6
+        },
+        {
+            "scene": "node384",
+            "target": "node385",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -256.88,
+            "tilt": -5.99
+        },
+        {
+            "scene": "node385",
+            "target": "node390",
+            "title": "Lab Fotografi",
+            "id": "Point01",
+            "pan": -182.25,
+            "tilt": -3.56
+        },
+        {
+            "scene": "node385",
+            "target": "node383",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -357.52,
+            "tilt": -25.56
+        },
+        {
+            "scene": "node385",
+            "target": "node384",
+            "title": "Lab Komputer 2",
+            "id": "Point03",
+            "pan": -89.9,
+            "tilt": -5.27
+        },
+        {
+            "scene": "node385",
+            "target": "node398",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -198.59,
+            "tilt": -3.15
+        },
+        {
+            "scene": "node386",
+            "target": "node387",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -92.36,
+            "tilt": -10.7
+        },
+        {
+            "scene": "node387",
+            "target": "node398",
+            "title": "Galeri Seni",
+            "id": "Point01",
+            "pan": -178.73,
+            "tilt": -4.38
+        },
+        {
+            "scene": "node387",
+            "target": "node402",
+            "title": "Cafeteria",
+            "id": "Point02",
+            "pan": -92.62,
+            "tilt": -4.61
+        },
+        {
+            "scene": "node387",
+            "target": "node386",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": -358.18,
+            "tilt": -19.06
+        },
+        {
+            "scene": "node388",
+            "target": "node390",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -95.76,
+            "tilt": -17.87
+        },
+        {
+            "scene": "node388",
+            "target": "node389",
+            "title": "Lab Fotografi",
+            "id": "Point02",
+            "pan": -253.41,
+            "tilt": -12.55
+        },
+        {
+            "scene": "node389",
+            "target": "node390",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -207.28,
+            "tilt": -2.82
+        },
+        {
+            "scene": "node390",
+            "target": "node388",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": 0.82,
+            "tilt": -23.83
+        },
+        {
+            "scene": "node390",
+            "target": "node385",
+            "title": "Lab Komputer",
+            "id": "Point02",
+            "pan": -169.78,
+            "tilt": -2.2
+        },
+        {
+            "scene": "node390",
+            "target": "node401",
+            "title": "Aula Tengah Lantai 2",
+            "id": "Point03",
+            "pan": -185,
+            "tilt": 2.77
+        },
+        {
+            "scene": "node390",
+            "target": "node382",
+            "title": "Lab Fisika",
+            "id": "Point04",
+            "pan": -262.57,
+            "tilt": -4.73
+        },
+        {
+            "scene": "node391",
+            "target": "node392",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -199.61,
+            "tilt": -4.77
+        },
+        {
+            "scene": "node392",
+            "target": "node382",
+            "title": "Lab Fisika Depan",
+            "id": "Point01",
+            "pan": -99.58,
+            "tilt": -5.4
+        },
+        {
+            "scene": "node392",
+            "target": "node391",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -355.79,
+            "tilt": -24.66
+        },
+        {
+            "scene": "node393",
+            "target": "node399",
+            "title": "Pendaftaran Mahasiswa",
+            "id": "Point01",
+            "pan": -60.91,
+            "tilt": -2.14
+        },
+        {
+            "scene": "node393",
+            "target": "node401",
+            "title": "Aula Tengah Lantai 2",
+            "id": "Point03",
+            "pan": -31.19,
+            "tilt": -3.46
+        },
+        {
+            "scene": "node393",
+            "target": "node398",
+            "title": "Pintu Masuk Galeri Seni",
+            "id": "Point04",
+            "pan": -327.98,
+            "tilt": -3.95
+        },
+        {
+            "scene": "node393",
+            "target": "node406",
+            "title": "Depan Lobi",
+            "id": "Point02",
+            "pan": -150.22,
+            "tilt": -3.32
+        },
+        {
+            "scene": "node394",
+            "target": "node401",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -156.75,
+            "tilt": -11.66
+        },
+        {
+            "scene": "node395",
+            "target": "node401",
+            "title": "Aula Tengah Lantai 2",
+            "id": "Point01",
+            "pan": -299.39,
+            "tilt": -4.78
+        },
+        {
+            "scene": "node395",
+            "target": "node396",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -140.99,
+            "tilt": -6.39
+        },
+        {
+            "scene": "node396",
+            "target": "node395",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -2.96,
+            "tilt": -7.45
+        },
+        {
+            "scene": "node397",
+            "target": "node398",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 136.6,
+            "tilt": -4.91
+        },
+        {
+            "scene": "node397",
+            "target": "node400",
+            "title": "Galeri Seni",
+            "id": "Point02",
+            "pan": -330.79,
+            "tilt": -6.62
+        },
+        {
+            "scene": "node397",
+            "target": "node397",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -124.65,
+            "tilt": -11.47
+        },
+        {
+            "scene": "node408",
+            "target": "node397",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -124.65,
+            "tilt": -11.47
+        },
+        {
+            "scene": "node398",
+            "target": "node397",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -358.46,
+            "tilt": -14.17
+        },
+        {
+            "scene": "node398",
+            "target": "node393",
+            "title": "Lobi Masuk",
+            "id": "Point02",
+            "pan": -255.22,
+            "tilt": -0.31
+        },
+        {
+            "scene": "node398",
+            "target": "node387",
+            "title": "Lab Manufacturing",
+            "id": "Point03",
+            "pan": -190.89,
+            "tilt": -2.97
+        },
+        {
+            "scene": "node398",
+            "target": "node385",
+            "title": "Lab Komputer Depan",
+            "id": "Point05",
+            "pan": -86.58,
+            "tilt": -2.93
+        },
+        {
+            "scene": "node398",
+            "target": "node390",
+            "title": "Lab Fotografi",
+            "id": "Point06",
+            "pan": -137.74,
+            "tilt": -2.55
+        },
+        {
+            "scene": "node399",
+            "target": "node393",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -123.72,
+            "tilt": -4.49
+        },
+        {
+            "scene": "node400",
+            "target": "node397",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -82.02,
+            "tilt": -12.13
+        },
+        {
+            "scene": "node401",
+            "target": "node393",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -145.99,
+            "tilt": -2.99
+        },
+        {
+            "scene": "node401",
+            "target": "node394",
+            "title": "Library Knowledge & Centre",
+            "id": "Point02",
+            "pan": -224.26,
+            "tilt": -1.13
+        },
+        {
+            "scene": "node401",
+            "target": "node405",
+            "title": "Studio",
+            "id": "Point03",
+            "pan": -24.76,
+            "tilt": -2.48
+        },
+        {
+            "scene": "node401",
+            "target": "node395",
+            "title": "Taman",
+            "id": "Point04",
+            "pan": -192.13,
+            "tilt": -1.43
+        },
+        {
+            "scene": "node401",
+            "target": "node390",
+            "title": "Lab Fotografi",
+            "id": "Point05",
+            "pan": -168.54,
+            "tilt": -3.98
+        },
+        {
+            "scene": "node402",
+            "target": "node387",
+            "title": "Lab Manufacturing",
+            "id": "Point01",
+            "pan": -354.15,
+            "tilt": -2.83
+        },
+        {
+            "scene": "node403",
+            "target": "node404",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -138.62,
+            "tilt": -4.52
+        },
+        {
+            "scene": "node404",
+            "target": "node403",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -237.83,
+            "tilt": -21.98
+        },
+        {
+            "scene": "node404",
+            "target": "node382",
+            "title": "Lab Fisika Depan",
+            "id": "Point02",
+            "pan": -76.91,
+            "tilt": -5.08
+        },
+        {
+            "scene": "node405",
+            "target": "node380",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -235.09,
+            "tilt": -19.87
+        },
+        {
+            "scene": "node405",
+            "target": "node401",
+            "title": "Aula Tengah Lantai 2",
+            "id": "Point02",
+            "pan": -21.55,
+            "tilt": -4.85
+        },
+        {
+            "scene": "node406",
+            "target": "node393",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -111.5,
+            "tilt": -10.19
+        },
+        {
+            "scene": "node407",
+            "target": "node406",
+            "title": "Depan Lobi",
+            "id": "Point01",
+            "pan": -0.7,
+            "tilt": -50.17
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1097,
+            "label": "Lab Komputer",
+            "description": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi.",
+            "fragment": "labkomputer",
+            "link": "binus/index.html#labkomputer",
+            "sceneId": "node383"
+        },
+        {
+            "infoId": 1098,
+            "label": "Art Gallery",
+            "description": "Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik.",
+            "fragment": "artgallery",
+            "link": "binus/index.html#artgallery",
+            "sceneId": "node400"
+        },
+        {
+            "infoId": 1099,
+            "label": "Greenscreen",
+            "description": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel.",
+            "fragment": "greenscreen",
+            "link": "binus/index.html#greenscreen",
+            "sceneId": "node380"
+        },
+        {
+            "infoId": 1100,
+            "label": "Lab Manufacturing",
+            "description": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata.",
+            "fragment": "labmanufacturing",
+            "link": "binus/index.html#labmanufacturing",
+            "sceneId": "node386"
+        },
+        {
+            "infoId": 1101,
+            "label": "Lab Printing",
+            "description": "Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi.",
+            "fragment": "labprinting",
+            "link": "binus/index.html#labprinting",
+            "sceneId": "node391"
+        },
+        {
+            "infoId": 1102,
+            "label": "Perpustakaan",
+            "description": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang.",
+            "fragment": "perpustakaan",
+            "link": "binus/index.html#perpustakaan",
+            "sceneId": "node394"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "aef8bef79c29d782",
+        "skin.js": "8b397e3b7201f302",
+        "index.html": "96ba17da15521612"
+    }
+}

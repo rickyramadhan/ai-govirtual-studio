@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "kampungmelayu",
+    "tourName": "Kampungmelayu",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Mengapa disebut Masjid Menara?",
+                "query": "Mengapa Masjid Layur sangat terkenal dengan sebutan Masjid Menara, apa keunikannya?",
+                "desc": "Mengapa Masjid Layur sangat terkenal dengan sebutan Masjid Menara, apa keunikannya?"
+            },
+            {
+                "label": "Kuliner khas Kampung Melayu?",
+                "query": "Apakah ada jajanan atau kuliner khas yang hanya ada di Kampung Melayu?",
+                "desc": "Apakah ada jajanan atau kuliner khas yang hanya ada di Kampung Melayu?"
+            },
+            {
+                "label": "Akses menuju ke Kampung Melayu?",
+                "query": "Bagaimana cara atau akses termudah untuk bisa menjelajahi Kampung Melayu Semarang?",
+                "desc": "Bagaimana cara atau akses termudah untuk bisa menjelajahi Kampung Melayu Semarang?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Kedatangan Etnis",
+                "query": "Bagaimana sejarah awal terbentuknya Kampung Melayu sebagai tempat singgah para saudagar Arab, Melayu, dan Gujarat?"
+            },
+            {
+                "label": "Keunikan Masjid Layur",
+                "query": "Apa yang menjadi ciri khas arsitektur dari Masjid Menara Layur dan bagaimana peran masjid ini di masa lalu?"
+            },
+            {
+                "label": "Perpaduan Budaya Pesisir",
+                "query": "Seperti apa bentuk perpaduan budaya arsitektur bangunan rumah-rumah tua yang ada di sepanjang jalan Kampung Melayu?"
+            },
+            {
+                "label": "Perdagangan Maritim",
+                "query": "Bagaimana letak strategis Kampung Melayu dekat Kali Semarang memengaruhi jalur perdagangan maritim kuno?"
+            },
+            {
+                "label": "Kopi Arab dan Kuliner",
+                "query": "Sebutkan kuliner khas pesisir, termasuk sajian kopi rempah ala Arab, yang bisa dinikmati di kawasan ini!"
+            },
+            {
+                "label": "Kehidupan Sosial Warga",
+                "query": "Bagaimana potret toleransi dan kehidupan sosial masyarakat multietnis di Kampung Melayu Semarang saat ini?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Kampungmelayu?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Kampungmelayu?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Kampungmelayu?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

@@ -1,0 +1,2054 @@
+window.GoVirtualTourData = {
+    "id": "kiw",
+    "name": "Kiw",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": -129.54,
+            "tilt": -34.51,
+            "fov": 120,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Office",
+            "displayName": "Office",
+            "rawName": "",
+            "customNodeId": "office",
+            "pan": 1.5,
+            "tilt": 10.15,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "office"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Plakat",
+            "displayName": "Plakat",
+            "rawName": "",
+            "customNodeId": "plakat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "plakat"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Transit Point",
+            "displayName": "Transit Point",
+            "rawName": "",
+            "customNodeId": "-ransit-oint",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Transit Point"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Food Court Depan",
+            "displayName": "Food Court Depan",
+            "rawName": "",
+            "customNodeId": "-ood-ourt-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court Depan"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Landmark",
+            "displayName": "Landmark",
+            "rawName": "",
+            "customNodeId": "landmark",
+            "pan": 3.92,
+            "tilt": -8.06,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "landmark"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Foodcourt",
+            "displayName": "Foodcourt",
+            "rawName": "",
+            "customNodeId": "foodcourt",
+            "pan": -19.53,
+            "tilt": 0.99,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "foodcourt"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "PT. Kingda Marine Technical Indonesia",
+            "displayName": "PT. Kingda Marine Technical Indonesia",
+            "rawName": "",
+            "customNodeId": "-ingda-arine-echnical-ndonesia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "PT. Kingda Marine Technical Indonesia"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Masarya",
+            "displayName": "Masarya",
+            "rawName": "",
+            "customNodeId": "masarya",
+            "pan": -0.74,
+            "tilt": 0.72,
+            "fov": 129.14,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "masarya"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "PT. Morta Utama",
+            "displayName": "PT. Morta Utama",
+            "rawName": "",
+            "customNodeId": "-orta-tama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "PT. Morta Utama"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Pengelolaanair",
+            "displayName": "Pengelolaanair",
+            "rawName": "",
+            "customNodeId": "pengelolaanair",
+            "pan": 5.41,
+            "tilt": -5,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "pengelolaanair"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Kolamairbakau",
+            "displayName": "Kolamairbakau",
+            "rawName": "",
+            "customNodeId": "kolamairbakau",
+            "pan": -1.41,
+            "tilt": -13.19,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "kolamairbakau"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Unitinstalasi",
+            "displayName": "Unitinstalasi",
+            "rawName": "",
+            "customNodeId": "unitinstalasi",
+            "pan": 171.46,
+            "tilt": 0.93,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "unitinstalasi"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Ikmsentralogam",
+            "displayName": "Ikmsentralogam",
+            "rawName": "",
+            "customNodeId": "ikmsentralogam",
+            "pan": 2.25,
+            "tilt": 11.08,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "ikmsentralogam"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Pengelolaanairbersih",
+            "displayName": "Pengelolaanairbersih",
+            "rawName": "",
+            "customNodeId": "pengelolaanairbersih",
+            "pan": 8.25,
+            "tilt": -29.67,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "pengelolaanairbersih"
+            ]
+        },
+        {
+            "id": "node37",
+            "name": "KIW Edge",
+            "displayName": "KIW Edge",
+            "rawName": "",
+            "customNodeId": "-dge",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "KIW Edge"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "PT. Massilueta Indonesia",
+            "displayName": "PT. Massilueta Indonesia",
+            "rawName": "",
+            "customNodeId": "-assilueta-ndonesia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "PT. Massilueta Indonesia"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "Landmarktransitpoint",
+            "displayName": "Landmarktransitpoint",
+            "rawName": "",
+            "customNodeId": "landmarktransitpoint",
+            "pan": 104.67,
+            "tilt": -5.36,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "landmarktransitpoint"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "PT. Kawasan Industri Wijayakusuma",
+            "id": "Point01",
+            "pan": -157,
+            "tilt": -30.66
+        },
+        {
+            "scene": "node2",
+            "target": "node11",
+            "title": "KIW Edge",
+            "id": "Point03",
+            "pan": -138.06,
+            "tilt": 4.11
+        },
+        {
+            "scene": "node2",
+            "target": "node23",
+            "title": "PT. Mas Arya Indonesia",
+            "id": "Point04",
+            "pan": -163,
+            "tilt": -0.05
+        },
+        {
+            "scene": "node2",
+            "target": "node41",
+            "title": "Transit Point",
+            "id": "Point02",
+            "pan": -181.96,
+            "tilt": -2.2
+        },
+        {
+            "scene": "node2",
+            "target": "node33",
+            "title": "IKM Sentra Logam",
+            "id": "Point05",
+            "pan": -213.17,
+            "tilt": -3.53
+        },
+        {
+            "scene": "node3",
+            "target": "node9",
+            "title": "Food Court Depan",
+            "id": "Point01",
+            "pan": -234.28,
+            "tilt": -1.09
+        },
+        {
+            "scene": "node5",
+            "target": "node31",
+            "title": "IKM Sentra Logam",
+            "id": "Point01",
+            "pan": -359.28,
+            "tilt": 2.32
+        },
+        {
+            "scene": "node5",
+            "target": "node33",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -210.5,
+            "tilt": -1.4
+        },
+        {
+            "scene": "node7",
+            "target": "node41",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -354.52,
+            "tilt": 5.22
+        },
+        {
+            "scene": "node7",
+            "target": "node33",
+            "title": "IKM Sentra Logam",
+            "id": "Point02",
+            "pan": -166.29,
+            "tilt": 4
+        },
+        {
+            "scene": "node9",
+            "target": "node41",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -259.92,
+            "tilt": -2.98
+        },
+        {
+            "scene": "node9",
+            "target": "node3",
+            "title": "PT. Kawasan Industri Wijayakusuma",
+            "id": "Point02",
+            "pan": -83.54,
+            "tilt": -16.38
+        },
+        {
+            "scene": "node11",
+            "target": "node37",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.25,
+            "tilt": -2.54
+        },
+        {
+            "scene": "node11",
+            "target": "node13",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -48.44,
+            "tilt": -7.2
+        },
+        {
+            "scene": "node13",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -163.31,
+            "tilt": -8.99
+        },
+        {
+            "scene": "node13",
+            "target": "node15",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -359.38,
+            "tilt": -4.69
+        },
+        {
+            "scene": "node15",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -251.89,
+            "tilt": -7.27
+        },
+        {
+            "scene": "node15",
+            "target": "node17",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -96.35,
+            "tilt": -6.13
+        },
+        {
+            "scene": "node17",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -297.6,
+            "tilt": -7.1
+        },
+        {
+            "scene": "node17",
+            "target": "node19",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -42.34,
+            "tilt": -15.4
+        },
+        {
+            "scene": "node19",
+            "target": "node17",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -351.28,
+            "tilt": -7.92
+        },
+        {
+            "scene": "node21",
+            "target": "node39",
+            "title": "PT. Massilueta Indonesia",
+            "id": "Point01",
+            "pan": -96.47,
+            "tilt": -2.82
+        },
+        {
+            "scene": "node21",
+            "target": "node25",
+            "title": "PT. Morta Utama",
+            "id": "Point02",
+            "pan": -255.19,
+            "tilt": -2.66
+        },
+        {
+            "scene": "node23",
+            "target": "node25",
+            "title": "PT. Morta Utama",
+            "id": "Point01",
+            "pan": -97.21,
+            "tilt": 1.16
+        },
+        {
+            "scene": "node23",
+            "target": "node41",
+            "title": "PT. Wijaya Kusuma",
+            "id": "Point02",
+            "pan": -259.95,
+            "tilt": 2.08
+        },
+        {
+            "scene": "node25",
+            "target": "node21",
+            "title": "PT. Kingda Marine Technical Indonesia",
+            "id": "Point01",
+            "pan": -88.74,
+            "tilt": 3.93
+        },
+        {
+            "scene": "node25",
+            "target": "node23",
+            "title": "PT. Mas Arya Indonesia",
+            "id": "Point02",
+            "pan": -264.85,
+            "tilt": -2.99
+        },
+        {
+            "scene": "node27",
+            "target": "node31",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -69.26,
+            "tilt": -6.07
+        },
+        {
+            "scene": "node27",
+            "target": "node29",
+            "title": "Penampungan Air",
+            "id": "Point02",
+            "pan": -180.11,
+            "tilt": -0.8
+        },
+        {
+            "scene": "node29",
+            "target": "node27",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -244.36,
+            "tilt": -0.38
+        },
+        {
+            "scene": "node31",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -86.66,
+            "tilt": -1.12
+        },
+        {
+            "scene": "node31",
+            "target": "node35",
+            "title": "Pengolahan Air Bersih",
+            "id": "Point02",
+            "pan": -250.67,
+            "tilt": -11.88
+        },
+        {
+            "scene": "node31",
+            "target": "node27",
+            "title": "IKM Sentra Logam",
+            "id": "Point03",
+            "pan": -131.87,
+            "tilt": -6.66
+        },
+        {
+            "scene": "node33",
+            "target": "node5",
+            "title": "IKM Sentra Logam",
+            "id": "Point01",
+            "pan": -6.63,
+            "tilt": -0.13
+        },
+        {
+            "scene": "node35",
+            "target": "node31",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -351.93,
+            "tilt": -31.4
+        },
+        {
+            "scene": "node37",
+            "target": "node11",
+            "title": "KIW Edge",
+            "id": "Point01",
+            "pan": 0.9,
+            "tilt": 0.76
+        },
+        {
+            "scene": "node37",
+            "target": "node39",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -182.64,
+            "tilt": -0.6
+        },
+        {
+            "scene": "node39",
+            "target": "node37",
+            "title": "KIW Edge",
+            "id": "Point01",
+            "pan": -136.32,
+            "tilt": -0.46
+        },
+        {
+            "scene": "node39",
+            "target": "node21",
+            "title": "PT. Kingda Marine Technical Indonesia",
+            "id": "Point02",
+            "pan": -282,
+            "tilt": 1.14
+        },
+        {
+            "scene": "node41",
+            "target": "node23",
+            "title": "PT. Mas Arya Indonesia",
+            "id": "Point01",
+            "pan": -174.96,
+            "tilt": 0.21
+        },
+        {
+            "scene": "node41",
+            "target": "node7",
+            "title": "Transit Point",
+            "id": "Point02",
+            "pan": -349.74,
+            "tilt": -6.33
+        },
+        {
+            "scene": "node41",
+            "target": "node9",
+            "title": "Food Court Depan",
+            "id": "Point03",
+            "pan": -62.84,
+            "tilt": 5.83
+        }
+    ],
+    "panoExits": {
+        "node2": [
+            {
+                "target": "node3",
+                "title": "PT. Kawasan Industri Wijayakusuma",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node11",
+                "title": "KIW Edge",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node23",
+                "title": "PT. Mas Arya Indonesia",
+                "suffix": "Point04"
+            },
+            {
+                "target": "node41",
+                "title": "Transit Point",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node33",
+                "title": "IKM Sentra Logam",
+                "suffix": "Point05"
+            }
+        ],
+        "node3": [
+            {
+                "target": "node9",
+                "title": "Food Court Depan",
+                "suffix": "Point01"
+            }
+        ],
+        "node5": [
+            {
+                "target": "node31",
+                "title": "IKM Sentra Logam",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node33",
+                "title": "Keluar",
+                "suffix": "Point02"
+            }
+        ],
+        "node7": [
+            {
+                "target": "node41",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node33",
+                "title": "IKM Sentra Logam",
+                "suffix": "Point02"
+            }
+        ],
+        "node9": [
+            {
+                "target": "node41",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node3",
+                "title": "PT. Kawasan Industri Wijayakusuma",
+                "suffix": "Point02"
+            }
+        ],
+        "node11": [
+            {
+                "target": "node37",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node13",
+                "title": "Food Court",
+                "suffix": "Point02"
+            }
+        ],
+        "node13": [
+            {
+                "target": "node11",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node15",
+                "title": "Food Court",
+                "suffix": "Point02"
+            }
+        ],
+        "node15": [
+            {
+                "target": "node13",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node17",
+                "title": "Food Court",
+                "suffix": "Point02"
+            }
+        ],
+        "node17": [
+            {
+                "target": "node15",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node19",
+                "title": "Food Court",
+                "suffix": "Point02"
+            }
+        ],
+        "node19": [
+            {
+                "target": "node17",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node21": [
+            {
+                "target": "node39",
+                "title": "PT. Massilueta Indonesia",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node25",
+                "title": "PT. Morta Utama",
+                "suffix": "Point02"
+            }
+        ],
+        "node23": [
+            {
+                "target": "node25",
+                "title": "PT. Morta Utama",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node41",
+                "title": "PT. Wijaya Kusuma",
+                "suffix": "Point02"
+            }
+        ],
+        "node25": [
+            {
+                "target": "node21",
+                "title": "PT. Kingda Marine Technical Indonesia",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node23",
+                "title": "PT. Mas Arya Indonesia",
+                "suffix": "Point02"
+            }
+        ],
+        "node27": [
+            {
+                "target": "node31",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node29",
+                "title": "Penampungan Air",
+                "suffix": "Point02"
+            }
+        ],
+        "node29": [
+            {
+                "target": "node27",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node31": [
+            {
+                "target": "node5",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node35",
+                "title": "Pengolahan Air Bersih",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node27",
+                "title": "IKM Sentra Logam",
+                "suffix": "Point03"
+            }
+        ],
+        "node33": [
+            {
+                "target": "node5",
+                "title": "IKM Sentra Logam",
+                "suffix": "Point01"
+            }
+        ],
+        "node35": [
+            {
+                "target": "node31",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node37": [
+            {
+                "target": "node11",
+                "title": "KIW Edge",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node39",
+                "title": "Keluar",
+                "suffix": "Point02"
+            }
+        ],
+        "node39": [
+            {
+                "target": "node37",
+                "title": "KIW Edge",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node21",
+                "title": "PT. Kingda Marine Technical Indonesia",
+                "suffix": "Point02"
+            }
+        ],
+        "node41": [
+            {
+                "target": "node23",
+                "title": "PT. Mas Arya Indonesia",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node7",
+                "title": "Transit Point",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node9",
+                "title": "Food Court Depan",
+                "suffix": "Point03"
+            }
+        ]
+    },
+    "thumbPrefix": "ht_node_thumb_10_",
+    "routes": [],
+    "objectInfo": [
+        {
+            "infoId": 1154,
+            "label": "Office",
+            "description": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka.",
+            "fragment": "office",
+            "link": "kawasanindustriwijayakusuma/index.html#office",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 1155,
+            "label": "Tempat Pengelolaan Air",
+            "description": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan.",
+            "fragment": "pengelolaanair",
+            "link": "kawasanindustriwijayakusuma/index.html#pengelolaanair",
+            "sceneId": "node27"
+        },
+        {
+            "infoId": 1156,
+            "label": "Foodcourt",
+            "description": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau.",
+            "fragment": "foodcourt",
+            "link": "kawasanindustriwijayakusuma/index.html#foodcourt",
+            "sceneId": "node13"
+        },
+        {
+            "infoId": 1157,
+            "label": "Pengelolaan Air Bersih",
+            "description": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif.",
+            "fragment": "pengelolaanairbersih",
+            "link": "kawasanindustriwijayakusuma/index.html#pengelolaanairbersih",
+            "sceneId": "node35"
+        }
+    ],
+    "video360": [],
+    "_sceneRegistry": {
+        "node1": {
+            "rawName": "default",
+            "displayName": "KIW – Titik Belum Teridentifikasi",
+            "placeId": "kawasan-industri-wijayakusuma-kiw-titik-belum-teridentifikasi",
+            "placeName": "Kawasan Industri Wijayakusuma – KIW – Titik Belum Teridentifikasi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bagian Kawasan Industri Wijayakusuma yang belum dapat diidentifikasi karena gambar sumber tidak tersedia.",
+            "description": "Nama ruang untuk node1 belum dapat dipastikan dari berkas yang tersedia. Identitas lokasi induknya adalah Kawasan Industri Wijayakusuma, tetapi objek, fungsi ruang, dan arah pandang pada titik ini memerlukan gambar panorama yang lengkap. Nama area khusus tidak ditetapkan agar informasi tidak mengarahkan pengunjung ke bagian yang keliru.",
+            "highlights": [
+                "Lokasi induk: Kawasan Industri Wijayakusuma",
+                "Identitas ruang belum terverifikasi"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama KIW – Titik Belum Teridentifikasi di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Bagian Kawasan Industri Wijayakusuma yang belum dapat diidentifikasi karena gambar sumber tidak tersedia."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi KIW – Titik Belum Teridentifikasi?",
+                    "mode": "fix",
+                    "answer": "Lokasi induk: Kawasan Industri Wijayakusuma dan Identitas ruang belum terverifikasi memperjelas susunan serta penggunaan ruang. Bagian Kawasan Industri Wijayakusuma yang belum dapat diidentifikasi karena gambar sumber tidak tersedia."
+                },
+                {
+                    "q": "Apa fakta penting tentang Kawasan Industri Wijayakusuma – KIW – Titik Belum Teridentifikasi yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – KIW – Titik Belum Teridentifikasi.",
+                "describeHere": "default adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "default",
+            "displayName": "Fasad Kantor KIW",
+            "placeId": "kawasan-industri-wijayakusuma-fasad-kantor-kiw",
+            "placeName": "Kawasan Industri Wijayakusuma – Fasad Kantor KIW",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bangunan putih biru dan plaza menjadi unsur yang terlihat pada Fasad Kantor KIW di Kawasan Industri Wijayakusuma.",
+            "description": "Bangunan putih biru dan plaza menjadi unsur yang terlihat pada Fasad Kantor KIW di Kawasan Industri Wijayakusuma. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan.",
+            "highlights": [
+                "Bangunan putih biru",
+                "Plaza"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Fasad Kantor KIW menjadi bagian penting dari Kawasan Industri Wijayakusuma – Fasad Kantor KIW?",
+                    "mode": "fix",
+                    "answer": "Bangunan putih biru dan plaza menjadi unsur yang terlihat pada Fasad Kantor KIW di Kawasan Industri Wijayakusuma. Bangunan putih biru dan plaza menjadi unsur yang terlihat pada Fasad Kantor KIW di Kawasan Industri Wijayakusuma. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                {
+                    "q": "Apa hubungan Bangunan putih biru dengan aktivitas di Fasad Kantor KIW?",
+                    "mode": "fix",
+                    "answer": "Bangunan putih biru menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Bangunan putih biru dan plaza menjadi unsur yang terlihat pada Fasad Kantor KIW di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa yang membedakan Fasad Kantor KIW dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Bangunan putih biru dan Plaza. Bangunan putih biru dan plaza menjadi unsur yang terlihat pada Fasad Kantor KIW di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Fasad Kantor KIW.",
+                "describeHere": "default adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Office",
+            "displayName": "Pelataran Kantor Pengelola",
+            "placeId": "kawasan-industri-wijayakusuma-pelataran-kantor-pengelola",
+            "placeName": "Kawasan Industri Wijayakusuma – Pelataran Kantor Pengelola",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pelataran Kantor Pengelola menampilkan pintu layanan dan halaman di Kawasan Industri Wijayakusuma.",
+            "description": "Pandangan Pelataran Kantor Pengelola menampilkan pintu layanan dan halaman di Kawasan Industri Wijayakusuma. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat.",
+            "highlights": [
+                "Pintu layanan",
+                "Halaman"
+            ],
+            "talkingPoints": [
+                "Office",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Pelataran Kantor Pengelola?",
+                    "mode": "fix",
+                    "answer": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Pelataran Kantor Pengelola mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Pintu layanan bersama Halaman menunjukkan cara area ini digunakan. Pandangan Pelataran Kantor Pengelola menampilkan pintu layanan dan halaman di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Pelataran Kantor Pengelola?",
+                    "mode": "fix",
+                    "answer": "Pintu layanan menjadi detail utama, sedangkan Halaman melengkapi konteksnya. Pandangan Pelataran Kantor Pengelola menampilkan pintu layanan dan halaman di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1154"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Pelataran Kantor Pengelola.",
+                "describeHere": "Office adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Plakat",
+            "displayName": "Pos Layanan Kawasan",
+            "placeId": "kawasan-industri-wijayakusuma-pos-layanan-kawasan",
+            "placeName": "Kawasan Industri Wijayakusuma – Pos Layanan Kawasan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Pos Layanan Kawasan, bangunan kecil dan jalan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini.",
+            "description": "Pada Pos Layanan Kawasan, bangunan kecil dan jalan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Area pemeriksaan dan penjagaan mengatur akses ke bagian berikutnya. Pos, meja, atau perangkat pemeriksaan membantu memisahkan proses penerimaan dari kegiatan utama.",
+            "highlights": [
+                "Bangunan kecil",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Plakat",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Pos Layanan Kawasan dalam pengalaman pengunjung di Kawasan Industri Wijayakusuma – Pos Layanan Kawasan?",
+                    "mode": "fix",
+                    "answer": "Pada Pos Layanan Kawasan, bangunan kecil dan jalan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Pada Pos Layanan Kawasan, bangunan kecil dan jalan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Area pemeriksaan dan penjagaan mengatur akses ke bagian berikutnya. Pos, meja, atau perangkat pemeriksaan membantu memisahkan proses penerimaan dari kegiatan utama. PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                },
+                {
+                    "q": "Mengapa Bangunan kecil penting pada Pos Layanan Kawasan?",
+                    "mode": "fix",
+                    "answer": "Bangunan kecil membantu menjelaskan identitas dan fungsi Pos Layanan Kawasan. Pada Pos Layanan Kawasan, bangunan kecil dan jalan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pos Layanan Kawasan?",
+                    "mode": "fix",
+                    "answer": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Pos Layanan Kawasan.",
+                "describeHere": "Plakat adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Transit Point",
+            "displayName": "Terminal Transit Point",
+            "placeId": "kawasan-industri-wijayakusuma-terminal-transit-point",
+            "placeName": "Kawasan Industri Wijayakusuma – Terminal Transit Point",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Terminal Transit Point menyorot bus dan pelataran, dengan konteks kunjungan di Kawasan Industri Wijayakusuma.",
+            "description": "Terminal Transit Point menyorot bus dan pelataran, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Replika dalam kawasan manasik digunakan untuk mengenalkan urutan dan tata ruang pelaksanaan ibadah. Bangunan pada panorama merupakan sarana pembelajaran di Semarang.",
+            "highlights": [
+                "Bus",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "Transit Point",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Terminal Transit Point menunjukkan karakter Kawasan Industri Wijayakusuma – Terminal Transit Point?",
+                    "mode": "fix",
+                    "answer": "Terminal Transit Point menyorot bus dan pelataran, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Terminal Transit Point menyorot bus dan pelataran, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Replika dalam kawasan manasik digunakan untuk mengenalkan urutan dan tata ruang pelaksanaan ibadah. Bangunan pada panorama merupakan sarana pembelajaran di Semarang. Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Bus dan Pelataran di Terminal Transit Point?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Terminal Transit Point menyorot bus dan pelataran, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Terminal Transit Point?",
+                    "mode": "fix",
+                    "answer": "Bus paling langsung membantu mengenali area ini. Terminal Transit Point menyorot bus dan pelataran, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Terminal Transit Point.",
+                "describeHere": "Transit Point adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Food Court Depan",
+            "displayName": "Landmark Transit Point – Sisi Jalan",
+            "placeId": "kawasan-industri-wijayakusuma-landmark-transit-point-sisi-jalan",
+            "placeName": "Kawasan Industri Wijayakusuma – Landmark Transit Point – Sisi Jalan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Landmark Transit Point – Sisi Jalan di Kawasan Industri Wijayakusuma memperlihatkan huruf nama dan jalan.",
+            "description": "Landmark Transit Point – Sisi Jalan di Kawasan Industri Wijayakusuma memperlihatkan huruf nama dan jalan. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Huruf yang terlihat dari ruang terbuka membantu orang mengenali identitas tempat sejak mendekat. Penanda dapat menjadi acuan bertemu atau menjelaskan posisi kepada rombongan.",
+            "highlights": [
+                "Huruf nama",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Food Court Depan",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Landmark Transit Point – Sisi Jalan?",
+                    "mode": "fix",
+                    "answer": "Landmark Transit Point – Sisi Jalan di Kawasan Industri Wijayakusuma memperlihatkan huruf nama dan jalan. Landmark Transit Point – Sisi Jalan di Kawasan Industri Wijayakusuma memperlihatkan huruf nama dan jalan. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Huruf yang terlihat dari ruang terbuka membantu orang mengenali identitas tempat sejak mendekat. Penanda dapat menjadi acuan bertemu atau menjelaskan posisi kepada rombongan. Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Landmark Transit Point – Sisi Jalan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Huruf nama dan Jalan memberi petunjuk tentang kegiatan yang berlangsung di sini. Landmark Transit Point – Sisi Jalan di Kawasan Industri Wijayakusuma memperlihatkan huruf nama dan jalan."
+                },
+                {
+                    "q": "Apa konteks Kawasan Industri Wijayakusuma – Landmark Transit Point – Sisi Jalan yang membuat Landmark Transit Point – Sisi Jalan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Landmark Transit Point – Sisi Jalan.",
+                "describeHere": "Food Court Depan adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Landmark",
+            "displayName": "Plaza KIW Edge",
+            "placeId": "kawasan-industri-wijayakusuma-plaza-kiw-edge",
+            "placeName": "Kawasan Industri Wijayakusuma – Plaza KIW Edge",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Papan nama dan taman menjadi unsur yang terlihat pada Plaza KIW Edge di Kawasan Industri Wijayakusuma.",
+            "description": "Papan nama dan taman menjadi unsur yang terlihat pada Plaza KIW Edge di Kawasan Industri Wijayakusuma. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan nama",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Landmark",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Plaza KIW Edge di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Papan nama dan taman menjadi unsur yang terlihat pada Plaza KIW Edge di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Plaza KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Papan nama dan Taman memperjelas susunan serta penggunaan ruang. Papan nama dan taman menjadi unsur yang terlihat pada Plaza KIW Edge di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa fakta penting tentang Kawasan Industri Wijayakusuma – Plaza KIW Edge yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Plaza KIW Edge.",
+                "describeHere": "Landmark adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Foodcourt",
+            "displayName": "Konter Kuliner KIW Edge",
+            "placeId": "kawasan-industri-wijayakusuma-konter-kuliner-kiw-edge",
+            "placeName": "Kawasan Industri Wijayakusuma – Konter Kuliner KIW Edge",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Konter Kuliner KIW Edge menampilkan gerai dan kursi bar di Kawasan Industri Wijayakusuma.",
+            "description": "Pandangan Konter Kuliner KIW Edge menampilkan gerai dan kursi bar di Kawasan Industri Wijayakusuma. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Gerai",
+                "Kursi bar"
+            ],
+            "talkingPoints": [
+                "Foodcourt",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Konter Kuliner KIW Edge menjadi bagian penting dari Kawasan Industri Wijayakusuma – Konter Kuliner KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Pandangan Konter Kuliner KIW Edge menampilkan gerai dan kursi bar di Kawasan Industri Wijayakusuma. Pandangan Konter Kuliner KIW Edge menampilkan gerai dan kursi bar di Kawasan Industri Wijayakusuma. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                },
+                {
+                    "q": "Apa hubungan Gerai dengan aktivitas di Konter Kuliner KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Gerai menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Konter Kuliner KIW Edge menampilkan gerai dan kursi bar di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa yang membedakan Konter Kuliner KIW Edge dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Gerai dan Kursi bar. Pandangan Konter Kuliner KIW Edge menampilkan gerai dan kursi bar di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1156"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Konter Kuliner KIW Edge.",
+                "describeHere": "Foodcourt adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Food Court",
+            "displayName": "Promenade Tepi Laut",
+            "placeId": "kawasan-industri-wijayakusuma-promenade-tepi-laut",
+            "placeName": "Kawasan Industri Wijayakusuma – Promenade Tepi Laut",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Promenade Tepi Laut, jalur pedestrian dan laut membentuk tampilan bagian Kawasan Industri Wijayakusuma ini.",
+            "description": "Pada Promenade Tepi Laut, jalur pedestrian dan laut membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Bentang air memberi ciri kuat pada lingkungan sekitarnya. Tepi air, vegetasi, dan jalur darat perlu dibaca sebagai bagian yang saling berhubungan.",
+            "highlights": [
+                "Jalur pedestrian",
+                "Laut"
+            ],
+            "talkingPoints": [
+                "Food Court",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Promenade Tepi Laut?",
+                    "mode": "fix",
+                    "answer": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Promenade Tepi Laut mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Jalur pedestrian bersama Laut menunjukkan cara area ini digunakan. Pada Promenade Tepi Laut, jalur pedestrian dan laut membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Promenade Tepi Laut?",
+                    "mode": "fix",
+                    "answer": "Jalur pedestrian menjadi detail utama, sedangkan Laut melengkapi konteksnya. Pada Promenade Tepi Laut, jalur pedestrian dan laut membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Promenade Tepi Laut.",
+                "describeHere": "Food Court adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Food Court",
+            "displayName": "Teras Duduk KIW Edge",
+            "placeId": "kawasan-industri-wijayakusuma-teras-duduk-kiw-edge",
+            "placeName": "Kawasan Industri Wijayakusuma – Teras Duduk KIW Edge",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Teras Duduk KIW Edge menyorot payung dan meja, dengan konteks kunjungan di Kawasan Industri Wijayakusuma.",
+            "description": "Teras Duduk KIW Edge menyorot payung dan meja, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Teras dan balkon memberi ruang peralihan dengan hubungan pandang ke luar. Atap, pagar, serta tempat duduk membentuk batas penggunaan area. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Payung",
+                "Meja"
+            ],
+            "talkingPoints": [
+                "Food Court",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Teras Duduk KIW Edge dalam pengalaman pengunjung di Kawasan Industri Wijayakusuma – Teras Duduk KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Teras Duduk KIW Edge menyorot payung dan meja, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Teras Duduk KIW Edge menyorot payung dan meja, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Teras dan balkon memberi ruang peralihan dengan hubungan pandang ke luar. Atap, pagar, serta tempat duduk membentuk batas penggunaan area. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                {
+                    "q": "Mengapa Payung penting pada Teras Duduk KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Payung membantu menjelaskan identitas dan fungsi Teras Duduk KIW Edge. Teras Duduk KIW Edge menyorot payung dan meja, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Teras Duduk KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Teras Duduk KIW Edge.",
+                "describeHere": "Food Court adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Food Court",
+            "displayName": "Tanggul di Tepi Promenade",
+            "placeId": "kawasan-industri-wijayakusuma-tanggul-di-tepi-promenade",
+            "placeName": "Kawasan Industri Wijayakusuma – Tanggul di Tepi Promenade",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tanggul di Tepi Promenade di Kawasan Industri Wijayakusuma memperlihatkan batu pelindung dan papan larangan.",
+            "description": "Tanggul di Tepi Promenade di Kawasan Industri Wijayakusuma memperlihatkan batu pelindung dan papan larangan. Susunan objek memperlihatkan bagian fasilitas yang didokumentasikan. Hubungan antara bidang terbuka, perlengkapan, dan akses memberi konteks untuk mengenali ruang. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Batu pelindung",
+                "Papan larangan"
+            ],
+            "talkingPoints": [
+                "Food Court",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Tanggul di Tepi Promenade menunjukkan karakter Kawasan Industri Wijayakusuma – Tanggul di Tepi Promenade?",
+                    "mode": "fix",
+                    "answer": "Tanggul di Tepi Promenade di Kawasan Industri Wijayakusuma memperlihatkan batu pelindung dan papan larangan. Tanggul di Tepi Promenade di Kawasan Industri Wijayakusuma memperlihatkan batu pelindung dan papan larangan. Susunan objek memperlihatkan bagian fasilitas yang didokumentasikan. Hubungan antara bidang terbuka, perlengkapan, dan akses memberi konteks untuk mengenali ruang. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Batu pelindung dan Papan larangan di Tanggul di Tepi Promenade?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Tanggul di Tepi Promenade di Kawasan Industri Wijayakusuma memperlihatkan batu pelindung dan papan larangan."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Tanggul di Tepi Promenade?",
+                    "mode": "fix",
+                    "answer": "Batu pelindung paling langsung membantu mengenali area ini. Tanggul di Tepi Promenade di Kawasan Industri Wijayakusuma memperlihatkan batu pelindung dan papan larangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Tanggul di Tepi Promenade.",
+                "describeHere": "Food Court adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "PT. Kingda Marine Technical Indonesia",
+            "displayName": "Gerbang PT Kingda Marine Technical Indonesia",
+            "placeId": "kawasan-industri-wijayakusuma-gerbang-pt-kingda-marine-technical-indonesia",
+            "placeName": "Kawasan Industri Wijayakusuma – Gerbang PT Kingda Marine Technical Indonesia",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang putih dan pabrik menjadi unsur yang terlihat pada Gerbang PT Kingda Marine Technical Indonesia di Kawasan Industri Wijayakusuma.",
+            "description": "Gerbang putih dan pabrik menjadi unsur yang terlihat pada Gerbang PT Kingda Marine Technical Indonesia di Kawasan Industri Wijayakusuma. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut.",
+            "highlights": [
+                "Gerbang putih",
+                "Pabrik"
+            ],
+            "talkingPoints": [
+                "PT. Kingda Marine Technical Indonesia",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Gerbang PT Kingda Marine Technical Indonesia?",
+                    "mode": "fix",
+                    "answer": "Gerbang putih dan pabrik menjadi unsur yang terlihat pada Gerbang PT Kingda Marine Technical Indonesia di Kawasan Industri Wijayakusuma. Gerbang putih dan pabrik menjadi unsur yang terlihat pada Gerbang PT Kingda Marine Technical Indonesia di Kawasan Industri Wijayakusuma. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Gerbang PT Kingda Marine Technical Indonesia?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Gerbang putih dan Pabrik memberi petunjuk tentang kegiatan yang berlangsung di sini. Gerbang putih dan pabrik menjadi unsur yang terlihat pada Gerbang PT Kingda Marine Technical Indonesia di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa konteks Kawasan Industri Wijayakusuma – Gerbang PT Kingda Marine Technical Indonesia yang membuat Gerbang PT Kingda Marine Technical Indonesia lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Gerbang PT Kingda Marine Technical Indonesia.",
+                "describeHere": "PT. Kingda Marine Technical Indonesia adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Masarya",
+            "displayName": "Gerbang PT Mas Arya Indonesia",
+            "placeId": "kawasan-industri-wijayakusuma-gerbang-pt-mas-arya-indonesia",
+            "placeName": "Kawasan Industri Wijayakusuma – Gerbang PT Mas Arya Indonesia",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Gerbang PT Mas Arya Indonesia menampilkan papan perusahaan dan pagar di Kawasan Industri Wijayakusuma.",
+            "description": "Pandangan Gerbang PT Mas Arya Indonesia menampilkan papan perusahaan dan pagar di Kawasan Industri Wijayakusuma. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Papan perusahaan",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Masarya",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Gerbang PT Mas Arya Indonesia di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Gerbang PT Mas Arya Indonesia menampilkan papan perusahaan dan pagar di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Gerbang PT Mas Arya Indonesia?",
+                    "mode": "fix",
+                    "answer": "Papan perusahaan dan Pagar memperjelas susunan serta penggunaan ruang. Pandangan Gerbang PT Mas Arya Indonesia menampilkan papan perusahaan dan pagar di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa fakta penting tentang Kawasan Industri Wijayakusuma – Gerbang PT Mas Arya Indonesia yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Gerbang PT Mas Arya Indonesia.",
+                "describeHere": "Masarya adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node25": {
+            "rawName": "PT. Morta Utama",
+            "displayName": "Gerbang PT Morta Utama",
+            "placeId": "kawasan-industri-wijayakusuma-gerbang-pt-morta-utama",
+            "placeName": "Kawasan Industri Wijayakusuma – Gerbang PT Morta Utama",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Gerbang PT Morta Utama, jalan industri dan pepohonan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini.",
+            "description": "Pada Gerbang PT Morta Utama, jalan industri dan pepohonan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Batang dan tajuk membentuk lapisan depan serta belakang dalam pandangan. Celah di antaranya dapat menonjolkan bangunan atau jalur tertentu.",
+            "highlights": [
+                "Jalan industri",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "PT. Morta Utama",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Gerbang PT Morta Utama menjadi bagian penting dari Kawasan Industri Wijayakusuma – Gerbang PT Morta Utama?",
+                    "mode": "fix",
+                    "answer": "Pada Gerbang PT Morta Utama, jalan industri dan pepohonan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Pada Gerbang PT Morta Utama, jalan industri dan pepohonan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Batang dan tajuk membentuk lapisan depan serta belakang dalam pandangan. Celah di antaranya dapat menonjolkan bangunan atau jalur tertentu. Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                {
+                    "q": "Apa hubungan Jalan industri dengan aktivitas di Gerbang PT Morta Utama?",
+                    "mode": "fix",
+                    "answer": "Jalan industri menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Gerbang PT Morta Utama, jalan industri dan pepohonan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                },
+                {
+                    "q": "Apa yang membedakan Gerbang PT Morta Utama dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Jalan industri dan Pepohonan. Pada Gerbang PT Morta Utama, jalan industri dan pepohonan membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Gerbang PT Morta Utama.",
+                "describeHere": "PT. Morta Utama adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node27": {
+            "rawName": "Pengelolaanair",
+            "displayName": "Unit Pengolahan Air – Tangki",
+            "placeId": "kawasan-industri-wijayakusuma-unit-pengolahan-air-tangki",
+            "placeName": "Kawasan Industri Wijayakusuma – Unit Pengolahan Air – Tangki",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Unit Pengolahan Air – Tangki menyorot tangki dan pipa biru, dengan konteks kunjungan di Kawasan Industri Wijayakusuma.",
+            "description": "Unit Pengolahan Air – Tangki menyorot tangki dan pipa biru, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Fasilitas industri memisahkan area proses, dukungan utilitas, dan jalur kerja. Pipa, tangki, atau bangunan layanan memperlihatkan bagian dari sistem operasional kawasan.",
+            "highlights": [
+                "Tangki",
+                "Pipa biru"
+            ],
+            "talkingPoints": [
+                "Pengelolaanair",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Unit Pengolahan Air – Tangki?",
+                    "mode": "fix",
+                    "answer": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Unit Pengolahan Air – Tangki mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Tangki bersama Pipa biru menunjukkan cara area ini digunakan. Unit Pengolahan Air – Tangki menyorot tangki dan pipa biru, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Unit Pengolahan Air – Tangki?",
+                    "mode": "fix",
+                    "answer": "Tangki menjadi detail utama, sedangkan Pipa biru melengkapi konteksnya. Unit Pengolahan Air – Tangki menyorot tangki dan pipa biru, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1155"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Unit Pengolahan Air – Tangki.",
+                "describeHere": "Pengelolaanair adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node29": {
+            "rawName": "Kolamairbakau",
+            "displayName": "Kolam Air Baku",
+            "placeId": "kawasan-industri-wijayakusuma-kolam-air-baku",
+            "placeName": "Kawasan Industri Wijayakusuma – Kolam Air Baku",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kolam Air Baku di Kawasan Industri Wijayakusuma memperlihatkan kolam dan pipa.",
+            "description": "Kolam Air Baku di Kawasan Industri Wijayakusuma memperlihatkan kolam dan pipa. Fasilitas industri memisahkan area proses, dukungan utilitas, dan jalur kerja. Pipa, tangki, atau bangunan layanan memperlihatkan bagian dari sistem operasional kawasan.",
+            "highlights": [
+                "Kolam",
+                "Pipa"
+            ],
+            "talkingPoints": [
+                "Kolamairbakau",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Kolam Air Baku dalam pengalaman pengunjung di Kawasan Industri Wijayakusuma – Kolam Air Baku?",
+                    "mode": "fix",
+                    "answer": "Kolam Air Baku di Kawasan Industri Wijayakusuma memperlihatkan kolam dan pipa. Kolam Air Baku di Kawasan Industri Wijayakusuma memperlihatkan kolam dan pipa. Fasilitas industri memisahkan area proses, dukungan utilitas, dan jalur kerja. Pipa, tangki, atau bangunan layanan memperlihatkan bagian dari sistem operasional kawasan. PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                },
+                {
+                    "q": "Mengapa Kolam penting pada Kolam Air Baku?",
+                    "mode": "fix",
+                    "answer": "Kolam membantu menjelaskan identitas dan fungsi Kolam Air Baku. Kolam Air Baku di Kawasan Industri Wijayakusuma memperlihatkan kolam dan pipa."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Kolam Air Baku?",
+                    "mode": "fix",
+                    "answer": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Kolam Air Baku.",
+                "describeHere": "Kolamairbakau adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node31": {
+            "rawName": "Unitinstalasi",
+            "displayName": "Unit Instalasi – Jaringan Pipa",
+            "placeId": "kawasan-industri-wijayakusuma-unit-instalasi-jaringan-pipa",
+            "placeName": "Kawasan Industri Wijayakusuma – Unit Instalasi – Jaringan Pipa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pipa dan rangka baja menjadi unsur yang terlihat pada Unit Instalasi – Jaringan Pipa di Kawasan Industri Wijayakusuma.",
+            "description": "Pipa dan rangka baja menjadi unsur yang terlihat pada Unit Instalasi – Jaringan Pipa di Kawasan Industri Wijayakusuma. Fasilitas industri memisahkan area proses, dukungan utilitas, dan jalur kerja. Pipa, tangki, atau bangunan layanan memperlihatkan bagian dari sistem operasional kawasan.",
+            "highlights": [
+                "Pipa",
+                "Rangka baja"
+            ],
+            "talkingPoints": [
+                "Unitinstalasi",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Unit Instalasi – Jaringan Pipa menunjukkan karakter Kawasan Industri Wijayakusuma – Unit Instalasi – Jaringan Pipa?",
+                    "mode": "fix",
+                    "answer": "Pipa dan rangka baja menjadi unsur yang terlihat pada Unit Instalasi – Jaringan Pipa di Kawasan Industri Wijayakusuma. Pipa dan rangka baja menjadi unsur yang terlihat pada Unit Instalasi – Jaringan Pipa di Kawasan Industri Wijayakusuma. Fasilitas industri memisahkan area proses, dukungan utilitas, dan jalur kerja. Pipa, tangki, atau bangunan layanan memperlihatkan bagian dari sistem operasional kawasan. Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Pipa dan Rangka baja di Unit Instalasi – Jaringan Pipa?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pipa dan rangka baja menjadi unsur yang terlihat pada Unit Instalasi – Jaringan Pipa di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Unit Instalasi – Jaringan Pipa?",
+                    "mode": "fix",
+                    "answer": "Pipa paling langsung membantu mengenali area ini. Pipa dan rangka baja menjadi unsur yang terlihat pada Unit Instalasi – Jaringan Pipa di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Unit Instalasi – Jaringan Pipa.",
+                "describeHere": "Unitinstalasi adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node33": {
+            "rawName": "Ikmsentralogam",
+            "displayName": "Sentra IKM Logam",
+            "placeId": "kawasan-industri-wijayakusuma-sentra-ikm-logam",
+            "placeName": "Kawasan Industri Wijayakusuma – Sentra IKM Logam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Sentra IKM Logam menampilkan papan sentra dan gerbang di Kawasan Industri Wijayakusuma.",
+            "description": "Pandangan Sentra IKM Logam menampilkan papan sentra dan gerbang di Kawasan Industri Wijayakusuma. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan sentra",
+                "Gerbang"
+            ],
+            "talkingPoints": [
+                "Ikmsentralogam",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Sentra IKM Logam?",
+                    "mode": "fix",
+                    "answer": "Pandangan Sentra IKM Logam menampilkan papan sentra dan gerbang di Kawasan Industri Wijayakusuma. Pandangan Sentra IKM Logam menampilkan papan sentra dan gerbang di Kawasan Industri Wijayakusuma. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Sentra IKM Logam?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Papan sentra dan Gerbang memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Sentra IKM Logam menampilkan papan sentra dan gerbang di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa konteks Kawasan Industri Wijayakusuma – Sentra IKM Logam yang membuat Sentra IKM Logam lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Sentra IKM Logam.",
+                "describeHere": "Ikmsentralogam adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node35": {
+            "rawName": "Pengelolaanairbersih",
+            "displayName": "Instalasi Air Bersih – Area Pompa",
+            "placeId": "kawasan-industri-wijayakusuma-instalasi-air-bersih-area-pompa",
+            "placeName": "Kawasan Industri Wijayakusuma – Instalasi Air Bersih – Area Pompa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Instalasi Air Bersih – Area Pompa, pompa dan kolam membentuk tampilan bagian Kawasan Industri Wijayakusuma ini.",
+            "description": "Pada Instalasi Air Bersih – Area Pompa, pompa dan kolam membentuk tampilan bagian Kawasan Industri Wijayakusuma ini. Fasilitas industri memisahkan area proses, dukungan utilitas, dan jalur kerja. Pipa, tangki, atau bangunan layanan memperlihatkan bagian dari sistem operasional kawasan.",
+            "highlights": [
+                "Pompa",
+                "Kolam"
+            ],
+            "talkingPoints": [
+                "Pengelolaanairbersih",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Instalasi Air Bersih – Area Pompa di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Instalasi Air Bersih – Area Pompa, pompa dan kolam membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Instalasi Air Bersih – Area Pompa?",
+                    "mode": "fix",
+                    "answer": "Pompa dan Kolam memperjelas susunan serta penggunaan ruang. Pada Instalasi Air Bersih – Area Pompa, pompa dan kolam membentuk tampilan bagian Kawasan Industri Wijayakusuma ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang Kawasan Industri Wijayakusuma – Instalasi Air Bersih – Area Pompa yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1157"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Instalasi Air Bersih – Area Pompa.",
+                "describeHere": "Pengelolaanairbersih adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node37": {
+            "rawName": "KIW Edge",
+            "displayName": "Akses KIW Edge",
+            "placeId": "kawasan-industri-wijayakusuma-akses-kiw-edge",
+            "placeName": "Kawasan Industri Wijayakusuma – Akses KIW Edge",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses KIW Edge menyorot parkir dan jalan, dengan konteks kunjungan di Kawasan Industri Wijayakusuma.",
+            "description": "Akses KIW Edge menyorot parkir dan jalan, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan.",
+            "highlights": [
+                "Parkir",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "KIW Edge",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Akses KIW Edge menjadi bagian penting dari Kawasan Industri Wijayakusuma – Akses KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Akses KIW Edge menyorot parkir dan jalan, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Akses KIW Edge menyorot parkir dan jalan, dengan konteks kunjungan di Kawasan Industri Wijayakusuma. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan. PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                },
+                {
+                    "q": "Apa hubungan Parkir dengan aktivitas di Akses KIW Edge?",
+                    "mode": "fix",
+                    "answer": "Parkir menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Akses KIW Edge menyorot parkir dan jalan, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Apa yang membedakan Akses KIW Edge dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Parkir dan Jalan. Akses KIW Edge menyorot parkir dan jalan, dengan konteks kunjungan di Kawasan Industri Wijayakusuma."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Akses KIW Edge.",
+                "describeHere": "KIW Edge adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node39": {
+            "rawName": "PT. Massilueta Indonesia",
+            "displayName": "Gerbang Perusahaan – Pos Penjagaan",
+            "placeId": "kawasan-industri-wijayakusuma-gerbang-perusahaan-pos-penjagaan",
+            "placeName": "Kawasan Industri Wijayakusuma – Gerbang Perusahaan – Pos Penjagaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang Perusahaan – Pos Penjagaan di Kawasan Industri Wijayakusuma memperlihatkan gerbang dan pos.",
+            "description": "Gerbang Perusahaan – Pos Penjagaan di Kawasan Industri Wijayakusuma memperlihatkan gerbang dan pos. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Area pengamatan satwa memisahkan ruang pengunjung dari ruang hewan.",
+            "highlights": [
+                "Gerbang",
+                "Pos"
+            ],
+            "talkingPoints": [
+                "PT. Massilueta Indonesia",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Gerbang Perusahaan – Pos Penjagaan?",
+                    "mode": "fix",
+                    "answer": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Gerbang Perusahaan – Pos Penjagaan mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Gerbang bersama Pos menunjukkan cara area ini digunakan. Gerbang Perusahaan – Pos Penjagaan di Kawasan Industri Wijayakusuma memperlihatkan gerbang dan pos."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Gerbang Perusahaan – Pos Penjagaan?",
+                    "mode": "fix",
+                    "answer": "Gerbang menjadi detail utama, sedangkan Pos melengkapi konteksnya. Gerbang Perusahaan – Pos Penjagaan di Kawasan Industri Wijayakusuma memperlihatkan gerbang dan pos."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Gerbang Perusahaan – Pos Penjagaan.",
+                "describeHere": "PT. Massilueta Indonesia adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node41": {
+            "rawName": "Landmarktransitpoint",
+            "displayName": "Landmark Transit Point – Pelataran",
+            "placeId": "kawasan-industri-wijayakusuma-landmark-transit-point-pelataran",
+            "placeName": "Kawasan Industri Wijayakusuma – Landmark Transit Point – Pelataran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Huruf nama dan paving menjadi unsur yang terlihat pada Landmark Transit Point – Pelataran di Kawasan Industri Wijayakusuma.",
+            "description": "Huruf nama dan paving menjadi unsur yang terlihat pada Landmark Transit Point – Pelataran di Kawasan Industri Wijayakusuma. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Perubahan permukaan membantu menandai bagian yang dipakai untuk berjalan atau bergerak. Pola jalur juga dapat mengarahkan pengunjung di antara bangunan dan tanaman.",
+            "highlights": [
+                "Huruf nama",
+                "Paving"
+            ],
+            "talkingPoints": [
+                "Landmarktransitpoint",
+                "jalur eksplorasi",
+                "Kiw"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Landmark Transit Point – Pelataran dalam pengalaman pengunjung di Kawasan Industri Wijayakusuma – Landmark Transit Point – Pelataran?",
+                    "mode": "fix",
+                    "answer": "Huruf nama dan paving menjadi unsur yang terlihat pada Landmark Transit Point – Pelataran di Kawasan Industri Wijayakusuma. Huruf nama dan paving menjadi unsur yang terlihat pada Landmark Transit Point – Pelataran di Kawasan Industri Wijayakusuma. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Perubahan permukaan membantu menandai bagian yang dipakai untuk berjalan atau bergerak. Pola jalur juga dapat mengarahkan pengunjung di antara bangunan dan tanaman. Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                {
+                    "q": "Mengapa Huruf nama penting pada Landmark Transit Point – Pelataran?",
+                    "mode": "fix",
+                    "answer": "Huruf nama membantu menjelaskan identitas dan fungsi Landmark Transit Point – Pelataran. Huruf nama dan paving menjadi unsur yang terlihat pada Landmark Transit Point – Pelataran di Kawasan Industri Wijayakusuma."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Landmark Transit Point – Pelataran?",
+                    "mode": "fix",
+                    "answer": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Industri Wijayakusuma – Landmark Transit Point – Pelataran.",
+                "describeHere": "Landmarktransitpoint adalah area di dalam kawasan Kiw, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "modernObjectInfo": {
+        "2214": {
+            "name": {
+                "id": "Landmark KIW Edge"
+            },
+            "image": "landmark-kiw-edge-landmarkkiwedge.webp"
+        },
+        "2215": {
+            "name": {
+                "id": "Mas Arya Indonesia"
+            },
+            "image": "mas-arya-indonesia-masaryaindonesia.webp"
+        },
+        "2216": {
+            "name": {
+                "id": "Landmark Transitpoint"
+            },
+            "image": "landmark-transitpoint-landmarktransitpoint.webp"
+        },
+        "2217": {
+            "name": {
+                "id": "IKM Sentra Logam"
+            },
+            "image": "ikm-sentra-logam-ikmsentralogam.webp"
+        },
+        "2218": {
+            "name": {
+                "id": "Kolam Reservoar Air Baku"
+            },
+            "image": "kolam-reservoar-air-baku-kolamreservoarairbaku.webp"
+        },
+        "2219": {
+            "name": {
+                "id": "Unit Instalasi Filtrasi"
+            },
+            "image": "unit-instalasi-filtrasi-unitinstalasifiltrasi.webp"
+        }
+    }
+};

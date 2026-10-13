@@ -1,0 +1,111 @@
+{
+    "version": "1.0",
+    "tourId": "semesta",
+    "tourName": "Semesta",
+    "updatedAt": "2026-09-29T09:52:21+02:00",
+    "startScene": "node81",
+    "order": [
+        "node81",
+        "node80",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106"
+    ],
+    "nodes": {
+        "node81": {
+            "displayName": "Sekolah Semesta – Fasad Graha Semesta"
+        },
+        "node80": {
+            "displayName": "Sekolah Semesta – Ruang Guru"
+        },
+        "node82": {
+            "displayName": "Sekolah Semesta – Pintu Asrama Putra"
+        },
+        "node83": {
+            "displayName": "Sekolah Semesta – Halaman Asrama Putri"
+        },
+        "node84": {
+            "displayName": "Sekolah Semesta – Aula Semesta"
+        },
+        "node85": {
+            "displayName": "Sekolah Semesta – Auditorium"
+        },
+        "node86": {
+            "displayName": "Sekolah Semesta – Taman Pepohonan Sekolah"
+        },
+        "node87": {
+            "displayName": "Sekolah Semesta – Jalur Depan Asrama Putri"
+        },
+        "node88": {
+            "displayName": "Sekolah Semesta – Graha Semesta – Pelataran"
+        },
+        "node89": {
+            "displayName": "Sekolah Semesta – Jalan Utama Kampus"
+        },
+        "node90": {
+            "displayName": "Sekolah Semesta – Koridor Luar Gedung Sekolah"
+        },
+        "node91": {
+            "displayName": "Sekolah Semesta – Ruang Makan Bersama"
+        },
+        "node92": {
+            "displayName": "Sekolah Semesta – Jalur Depan Kantin"
+        },
+        "node94": {
+            "displayName": "Sekolah Semesta – Ruang Kelas"
+        },
+        "node95": {
+            "displayName": "Sekolah Semesta – Lab IPA"
+        },
+        "node96": {
+            "displayName": "Sekolah Semesta – Lab Kimia"
+        },
+        "node97": {
+            "displayName": "Sekolah Semesta – Lab Komputer"
+        },
+        "node98": {
+            "displayName": "Sekolah Semesta – Lapangan Basket Beratap"
+        },
+        "node100": {
+            "displayName": "Sekolah Semesta – Lapangan Bola – Tepi Bangunan"
+        },
+        "node101": {
+            "displayName": "Sekolah Semesta – Lapangan Bola – Sisi Pohon"
+        },
+        "node102": {
+            "displayName": "Sekolah Semesta – Lapangan Dalam – Depan Ring"
+        },
+        "node103": {
+            "displayName": "Sekolah Semesta – Lapangan Dalam – Sisi Gedung"
+        },
+        "node104": {
+            "displayName": "Sekolah Semesta – Lobi Lembaga"
+        },
+        "node105": {
+            "displayName": "Sekolah Semesta – Meja Resepsionis Sekolah"
+        },
+        "node106": {
+            "displayName": "Sekolah Semesta – Perpustakaan Semesta"
+        }
+    }
+}

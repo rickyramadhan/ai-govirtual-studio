@@ -1,0 +1,94 @@
+{
+    "tours": 120,
+    "affected": 4,
+    "details": [
+        {
+            "slug": "bandara-ahmad-yani",
+            "localObjects": 5,
+            "foreignCount": 1,
+            "foreign": [
+                {
+                    "id": "1379",
+                    "title": "Loket Check In"
+                }
+            ]
+        },
+        {
+            "slug": "desawisatakandri",
+            "localObjects": 4,
+            "foreignCount": 13,
+            "foreign": [
+                {
+                    "id": "991",
+                    "title": "Gedung A"
+                },
+                {
+                    "id": "1199",
+                    "title": "Bekas Tembakan"
+                },
+                {
+                    "id": "1200",
+                    "title": "Maket Proyek Perbaikan dan Perawatan"
+                },
+                {
+                    "id": "1198",
+                    "title": "Mini Show Anne Avantie Merenda Kasih"
+                },
+                {
+                    "id": "1201",
+                    "title": "Sejarah Revitalisasi"
+                }
+            ]
+        },
+        {
+            "slug": "loempialien",
+            "localObjects": 3,
+            "foreignCount": 4,
+            "foreign": [
+                {
+                    "id": "1253",
+                    "title": "Patung Dipta Dipa"
+                },
+                {
+                    "id": "1251",
+                    "title": "Artefak Warisan Kereta Api Dupo"
+                },
+                {
+                    "id": "1254",
+                    "title": "Bukti Arkeologi"
+                },
+                {
+                    "id": "1252",
+                    "title": "Garis Waktu Sejarah"
+                }
+            ]
+        },
+        {
+            "slug": "simpanglima",
+            "localObjects": 4,
+            "foreignCount": 6,
+            "foreign": [
+                {
+                    "id": "659",
+                    "title": "Dimensi Simpang Lima"
+                },
+                {
+                    "id": "1211",
+                    "title": "Jl. Ahmad Dahlan"
+                },
+                {
+                    "id": "2030",
+                    "title": "Jl. Pahlawan"
+                },
+                {
+                    "id": "1210",
+                    "title": "Jl. Ahmad Yani"
+                },
+                {
+                    "id": "1208",
+                    "title": "Jl. Gajah Mada"
+                }
+            ]
+        }
+    ]
+}

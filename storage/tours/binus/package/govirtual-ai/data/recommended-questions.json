@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "binus",
+    "tourName": "BINUS University Semarang",
+    "updatedAt": "2026-09-29T06:34:20+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut BINUS University Semarang?",
+                "query": "Mengapa disebut BINUS University Semarang?",
+                "desc": "Mengapa disebut BINUS University Semarang?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang BINUS University Semarang",
+                "desc": "Ceritakan tentang BINUS University Semarang"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah BINUS University Semarang"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur BINUS University Semarang"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari BINUS University Semarang?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama BINUS University Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari BINUS University Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah BINUS University Semarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

@@ -1,0 +1,874 @@
+{
+    "startNode": "node38",
+    "scenes": [
+        {
+            "id": "node38",
+            "name": "Kolamlele",
+            "displayName": "Kolamlele",
+            "rawName": "",
+            "customNodeId": "kolamlele",
+            "pan": 1.81,
+            "tilt": 1.2,
+            "fov": 129.81,
+            "tags": [
+                "KampungWisataTamanLele",
+                "oi"
+            ],
+            "aliases": [
+                "kolamlele"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Gerbang Masuk",
+            "displayName": "Gerbang Masuk",
+            "rawName": "",
+            "customNodeId": "-erbang-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Gerbang Masuk"
+            ]
+        },
+        {
+            "id": "node28",
+            "name": "Wisma Taman Lele",
+            "displayName": "Wisma Taman Lele",
+            "rawName": "",
+            "customNodeId": "-isma-aman-ele",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Wisma Taman Lele"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Playground",
+            "displayName": "Playground",
+            "rawName": "",
+            "customNodeId": "-layground",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Playground"
+            ]
+        },
+        {
+            "id": "node30",
+            "name": "Playground",
+            "displayName": "Playground",
+            "rawName": "",
+            "customNodeId": "-layground",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Playground"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Taman Lele Forest",
+            "displayName": "Taman Lele Forest",
+            "rawName": "",
+            "customNodeId": "-aman-ele-orest",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Taman Lele Forest"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Wisma Taman Lele",
+            "displayName": "Wisma Taman Lele",
+            "rawName": "",
+            "customNodeId": "-isma-aman-ele",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Wisma Taman Lele"
+            ]
+        },
+        {
+            "id": "node34",
+            "name": "Wahanaair",
+            "displayName": "Wahanaair",
+            "rawName": "",
+            "customNodeId": "wahanaair",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele",
+                "oi"
+            ],
+            "aliases": [
+                "wahanaair"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Danau Taman Lele",
+            "displayName": "Danau Taman Lele",
+            "rawName": "",
+            "customNodeId": "-anau-aman-ele",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Danau Taman Lele"
+            ]
+        },
+        {
+            "id": "node36",
+            "name": "Kolam Renang",
+            "displayName": "Kolam Renang",
+            "rawName": "",
+            "customNodeId": "-olam-enang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Kolam Renang"
+            ]
+        },
+        {
+            "id": "node37",
+            "name": "Kolamrenang",
+            "displayName": "Kolamrenang",
+            "rawName": "",
+            "customNodeId": "kolamrenang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "kolamrenang"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "Panggung Taman Lele",
+            "displayName": "Panggung Taman Lele",
+            "rawName": "",
+            "customNodeId": "-anggung-aman-ele",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Panggung Taman Lele"
+            ]
+        },
+        {
+            "id": "node40",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "Pendopo",
+            "displayName": "Pendopo",
+            "rawName": "",
+            "customNodeId": "-endopo",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Pendopo"
+            ]
+        },
+        {
+            "id": "node42",
+            "name": "Areabermainanak",
+            "displayName": "Areabermainanak",
+            "rawName": "",
+            "customNodeId": "areabermainanak",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele",
+                "oi"
+            ],
+            "aliases": [
+                "areabermainanak"
+            ]
+        },
+        {
+            "id": "node43",
+            "name": "Areabersantai",
+            "displayName": "Areabersantai",
+            "rawName": "",
+            "customNodeId": "areabersantai",
+            "pan": 34.19,
+            "tilt": -3.3,
+            "fov": 117.02,
+            "tags": [
+                "KampungWisataTamanLele",
+                "oi"
+            ],
+            "aliases": [
+                "areabersantai"
+            ]
+        },
+        {
+            "id": "node44",
+            "name": "Pendopo",
+            "displayName": "Pendopo",
+            "rawName": "",
+            "customNodeId": "-endopo",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Pendopo"
+            ]
+        },
+        {
+            "id": "node45",
+            "name": "Taman Lele",
+            "displayName": "Taman Lele",
+            "rawName": "",
+            "customNodeId": "-aman-ele",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Taman Lele"
+            ]
+        },
+        {
+            "id": "node46",
+            "name": "Hutan",
+            "displayName": "Hutan",
+            "rawName": "",
+            "customNodeId": "hutan",
+            "pan": -18.12,
+            "tilt": 6.98,
+            "fov": 117.02,
+            "tags": [
+                "KampungWisataTamanLele",
+                "oi"
+            ],
+            "aliases": [
+                "hutan"
+            ]
+        },
+        {
+            "id": "node47",
+            "name": "Danautamanlele",
+            "displayName": "Danautamanlele",
+            "rawName": "",
+            "customNodeId": "danautamanlele",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "danautamanlele"
+            ]
+        },
+        {
+            "id": "node48",
+            "name": "Sendangnyituksari",
+            "displayName": "Sendangnyituksari",
+            "rawName": "",
+            "customNodeId": "sendangnyituksari",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 126.58,
+            "tags": [
+                "KampungWisataTamanLele",
+                "oi"
+            ],
+            "aliases": [
+                "sendangnyituksari"
+            ]
+        },
+        {
+            "id": "node49",
+            "name": "Drone Kampung Wisata Taman Lele",
+            "displayName": "Drone Kampung Wisata Taman Lele",
+            "rawName": "",
+            "customNodeId": "-rone-ampung-isata-aman-ele",
+            "pan": 56.4,
+            "tilt": -50.7,
+            "fov": 117.8,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Drone Kampung Wisata Taman Lele"
+            ]
+        },
+        {
+            "id": "node50",
+            "name": "Drone Kampung Wisata Taman Lele",
+            "displayName": "Drone Kampung Wisata Taman Lele",
+            "rawName": "",
+            "customNodeId": "-rone-ampung-isata-aman-ele",
+            "pan": -5.62,
+            "tilt": -15.53,
+            "fov": 117.02,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "Drone Kampung Wisata Taman Lele"
+            ]
+        },
+        {
+            "id": "node51",
+            "name": "Penginapan",
+            "displayName": "Penginapan",
+            "rawName": "",
+            "customNodeId": "penginapan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungWisataTamanLele"
+            ],
+            "aliases": [
+                "penginapan"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node38",
+            "target": "node42",
+            "title": "Taman Lele",
+            "id": "Point01",
+            "pan": -232,
+            "tilt": -2.46
+        },
+        {
+            "scene": "node38",
+            "target": "node36",
+            "title": "Kolam Renang",
+            "id": "Point02",
+            "pan": -110.5,
+            "tilt": -5.25
+        },
+        {
+            "scene": "node38",
+            "target": "node48",
+            "title": "Kolam Lele",
+            "id": "Point03",
+            "pan": -52.42,
+            "tilt": 1.73
+        },
+        {
+            "scene": "node38",
+            "target": "node38",
+            "title": "Exit",
+            "id": "Point07",
+            "pan": -244.99,
+            "tilt": -4.83
+        },
+        {
+            "scene": "node27",
+            "target": "node45",
+            "title": "Taman Lele",
+            "id": "Point01",
+            "pan": -353.49,
+            "tilt": -1.39
+        },
+        {
+            "scene": "node27",
+            "target": "node40",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -183.69,
+            "tilt": -0.01
+        },
+        {
+            "scene": "node28",
+            "target": "node40",
+            "title": "Area Parkir",
+            "id": "Point01",
+            "pan": -108.32,
+            "tilt": -1.44
+        },
+        {
+            "scene": "node28",
+            "target": "node33",
+            "title": "Wisma Taman Lele",
+            "id": "Point02",
+            "pan": 0.44,
+            "tilt": -7.86
+        },
+        {
+            "scene": "node29",
+            "target": "node46",
+            "title": "Panggung Taman Lele",
+            "id": "Point01",
+            "pan": -18.88,
+            "tilt": -14.41
+        },
+        {
+            "scene": "node29",
+            "target": "node30",
+            "title": "Playground",
+            "id": "Point02",
+            "pan": -357.87,
+            "tilt": -23.05
+        },
+        {
+            "scene": "node29",
+            "target": "node31",
+            "title": "Taman Lele Forest",
+            "id": "Point03",
+            "pan": -187.74,
+            "tilt": 6.83
+        },
+        {
+            "scene": "node29",
+            "target": "node44",
+            "title": "Pendopo",
+            "id": "Point04",
+            "pan": -297.77,
+            "tilt": -6.09
+        },
+        {
+            "scene": "node30",
+            "target": "node29",
+            "title": "Taman Lele",
+            "id": "Point01",
+            "pan": -152.45,
+            "tilt": 3.3
+        },
+        {
+            "scene": "node31",
+            "target": "node29",
+            "title": "Pendopo Taman Lele",
+            "id": "Point01",
+            "pan": -319.91,
+            "tilt": -13.81
+        },
+        {
+            "scene": "node33",
+            "target": "node35",
+            "title": "Danau Taman Lele",
+            "id": "Point01",
+            "pan": -181.59,
+            "tilt": -19.79
+        },
+        {
+            "scene": "node33",
+            "target": "node28",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 0.57,
+            "tilt": -19.52
+        },
+        {
+            "scene": "node34",
+            "target": "node45",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -281.12,
+            "tilt": -0.77
+        },
+        {
+            "scene": "node34",
+            "target": "node35",
+            "title": "Wisma Taman Lele",
+            "id": "Point02",
+            "pan": -69.23,
+            "tilt": -0.63
+        },
+        {
+            "scene": "node35",
+            "target": "node34",
+            "title": "Penyewaan Perahu Bebek",
+            "id": "Point01",
+            "pan": 271.67,
+            "tilt": -5.56
+        },
+        {
+            "scene": "node35",
+            "target": "node47",
+            "title": "Jembatan Taman Lele",
+            "id": "Point02",
+            "pan": -178.88,
+            "tilt": -4.15
+        },
+        {
+            "scene": "node35",
+            "target": "node33",
+            "title": "Wisma Taman Lele",
+            "id": "Point03",
+            "pan": 358.65,
+            "tilt": -13.25
+        },
+        {
+            "scene": "node35",
+            "target": "node51",
+            "title": "Penginapan",
+            "id": "Point04",
+            "pan": -308.56,
+            "tilt": -9.48
+        },
+        {
+            "scene": "node36",
+            "target": "node43",
+            "title": "Rest Room",
+            "id": "Point01",
+            "pan": 54.79,
+            "tilt": 1.36
+        },
+        {
+            "scene": "node37",
+            "target": "node43",
+            "title": "Rest Room",
+            "id": "Point01",
+            "pan": -187.29,
+            "tilt": -5.14
+        },
+        {
+            "scene": "node39",
+            "target": "node48",
+            "title": "Kolam",
+            "id": "Point01",
+            "pan": -53.62,
+            "tilt": -0.06
+        },
+        {
+            "scene": "node39",
+            "target": "node46",
+            "title": "Taman Lele",
+            "id": "Point02",
+            "pan": -145.18,
+            "tilt": 2.64
+        },
+        {
+            "scene": "node40",
+            "target": "node27",
+            "title": "Gerbang Masuk",
+            "id": "Point01",
+            "pan": 0.27,
+            "tilt": 0.99
+        },
+        {
+            "scene": "node40",
+            "target": "node28",
+            "title": "Wisma Taman Lele",
+            "id": "Point02",
+            "pan": -245.93,
+            "tilt": 4.45
+        },
+        {
+            "scene": "node41",
+            "target": "node44",
+            "title": "Taman Lele",
+            "id": "Point01",
+            "pan": -171.2,
+            "tilt": -30.42
+        },
+        {
+            "scene": "node42",
+            "target": "node43",
+            "title": "Kolam Renang Anak-anak",
+            "id": "Point01",
+            "pan": -137.21,
+            "tilt": -4.53
+        },
+        {
+            "scene": "node42",
+            "target": "node38",
+            "title": "Pintu Masuk Taman Lele",
+            "id": "Point02",
+            "pan": -37.99,
+            "tilt": -1.85
+        },
+        {
+            "scene": "node43",
+            "target": "node37",
+            "title": "Kolam Renang Anak",
+            "id": "Point02",
+            "pan": 123.73,
+            "tilt": -2.05
+        },
+        {
+            "scene": "node43",
+            "target": "node36",
+            "title": "Kolam Renang Dewasa",
+            "id": "Point03",
+            "pan": 326.56,
+            "tilt": 1.37
+        },
+        {
+            "scene": "node43",
+            "target": "node42",
+            "title": "Playground",
+            "id": "Point01",
+            "pan": 5.91,
+            "tilt": 0.55
+        },
+        {
+            "scene": "node43",
+            "target": "node45",
+            "title": "Pintu Masuk Taman Lele",
+            "id": "Point04",
+            "pan": -262.51,
+            "tilt": -1.64
+        },
+        {
+            "scene": "node44",
+            "target": "node46",
+            "title": "Taman Lele",
+            "id": "Point01",
+            "pan": -271.83,
+            "tilt": -4.82
+        },
+        {
+            "scene": "node44",
+            "target": "node41",
+            "title": "Pendopo",
+            "id": "Point02",
+            "pan": -1.48,
+            "tilt": -1.16
+        },
+        {
+            "scene": "node44",
+            "target": "node29",
+            "title": "Playground",
+            "id": "Point03",
+            "pan": -88.08,
+            "tilt": -2.92
+        },
+        {
+            "scene": "node45",
+            "target": "node43",
+            "title": "Kolam Renang",
+            "id": "Point01",
+            "pan": -2.97,
+            "tilt": 2.33
+        },
+        {
+            "scene": "node45",
+            "target": "node34",
+            "title": "Penyewaan Perahu Bebek",
+            "id": "Point02",
+            "pan": 33.73,
+            "tilt": 3.39
+        },
+        {
+            "scene": "node45",
+            "target": "node27",
+            "title": "Gerbang Masuk",
+            "id": "Point03",
+            "pan": 179.13,
+            "tilt": -0.41
+        },
+        {
+            "scene": "node46",
+            "target": "node39",
+            "title": "Panggung Taman Lele",
+            "id": "Point01",
+            "pan": -245.25,
+            "tilt": -2.79
+        },
+        {
+            "scene": "node46",
+            "target": "node44",
+            "title": "Pendopo Taman Lele",
+            "id": "Point02",
+            "pan": -53.37,
+            "tilt": 4.83
+        },
+        {
+            "scene": "node46",
+            "target": "node29",
+            "title": "Playground",
+            "id": "Point03",
+            "pan": -1.36,
+            "tilt": 8.81
+        },
+        {
+            "scene": "node47",
+            "target": "node35",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 186.66,
+            "tilt": -19.38
+        },
+        {
+            "scene": "node48",
+            "target": "node38",
+            "title": "Taman Lele",
+            "id": "Point01",
+            "pan": 207.44,
+            "tilt": -0.14
+        },
+        {
+            "scene": "node48",
+            "target": "node39",
+            "title": "Panggung Taman Lele",
+            "id": "Point02",
+            "pan": 253.43,
+            "tilt": 0.32
+        },
+        {
+            "scene": "node49",
+            "target": "node27",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -271.43,
+            "tilt": -39.45
+        },
+        {
+            "scene": "node49",
+            "target": "node35",
+            "title": "Kampung Wisata Taman Lele",
+            "id": "Point03",
+            "pan": -320.57,
+            "tilt": -53.42
+        },
+        {
+            "scene": "node49",
+            "target": "node50",
+            "title": "Drone Kampung Wisata Taman Lele",
+            "id": "Point01",
+            "pan": -277.74,
+            "tilt": 2.29
+        },
+        {
+            "scene": "node50",
+            "target": "node49",
+            "title": "Drone Kampung Wisata Taman Lele",
+            "id": "Point01",
+            "pan": -13.81,
+            "tilt": 10.95
+        },
+        {
+            "scene": "node50",
+            "target": "node27",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -10.97,
+            "tilt": -18.06
+        },
+        {
+            "scene": "node51",
+            "target": "node35",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -252.34,
+            "tilt": -15.61
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 902,
+            "label": "Danau Taman Lele",
+            "description": "Danau yang memiliki fungsi sebagai wahana hiburan air dan pemandangan utama penginapan. Terdapat aktivitas becak air (perahu bebek) untuk berkeliling di atas danau yang menjadi tempat favorit anak-anak dan pasangan. Danau ini dikelilingi oleh pepohonan rindang dan gazebo, sehingga udaranya cukup sejuk meskipun Semarang terkenal panas.",
+            "fragment": "danautamanlele",
+            "link": "kampungwisatatamanlele/index.html#danautamanlele",
+            "sceneId": "node47"
+        },
+        {
+            "infoId": 903,
+            "label": "Kolam Renang",
+            "description": "Kolam renang Taman Lele bukanlah waterpark mewah dengan wahana ekstrem, melainkan kolam renang rekreasi keluarga yang santai, teduh, dan ramah di kantong. Tempat ini sangat cocok untuk mengajak anak-anak bermain air di akhir pekan. Air yang digunakan berasal dari sumber mata air alami di kawasan tersebut, sehingga terasa lebih segar dan dingin dibandingkan air olahan biasa.",
+            "fragment": "kolamrenang",
+            "link": "kampungwisatatamanlele/index.html#kolamrenang",
+            "sceneId": "node37"
+        },
+        {
+            "infoId": 904,
+            "label": "Kolam Lele",
+            "description": "Di kolam ini terdapat lele jumbo atau lele berukuran raksasa yang jauh lebih besar dari lele konsumsi di pasar. Pengunjung (terutama anak-anak) diperbolehkan memberi makan ikan di kolam ini. Pakan ikan (pelet) biasanya dijual oleh pengelola di sekitar lokasi dengan harga murah. Melihat ribuan lele berebut makanan adalah atraksi yang seru bagi anak-anak.",
+            "fragment": "kolamlele",
+            "link": "kampungwisatatamanlele/index.html#kolamlele",
+            "sceneId": "node38"
+        },
+        {
+            "infoId": 905,
+            "label": "Penginapan",
+            "description": "Penginapan Taman Lele sangat cocok sebagai tempat transit murah dan strategis di jalur Pantura Semarang Barat, yang ingin merasakan sensasi menginap sederhana dengan pemandangan danau dan pepohonan rimbun. Tamu yang menginap biasanya bebas biaya tiket masuk ke area wisata Taman Lele.",
+            "fragment": "penginapan",
+            "link": "kampungwisatatamanlele/index.html#penginapan",
+            "sceneId": "node51"
+        },
+        {
+            "infoId": 906,
+            "label": "Sendang Nyi Tuk Sari",
+            "description": "Sendang Nyi Tuk Sari adalah situs warisan lokal yang menjaga keseimbangan ekosistem (sumber air) sekaligus menjadi pengingat kearifan lokal masyarakat Semarang dalam menghormati alam melalui mitos Lele Truno. Di dalam sendang ini konon hidup seekor lele gaib bernama Lele Truno. Menurut cerita tutur masyarakat setempat, lele ini memiliki wujud yang tidak lazim, yaitu hanya berupa kepala dan tulang belakang (duri) saja, tanpa daging, namun tetap bisa berenang lincah.",
+            "fragment": "sendangnyituksari",
+            "link": "kampungwisatatamanlele/index.html#sendangnyituksari",
+            "sceneId": "node48"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "f068e47b7fb5568e",
+        "skin.js": "b3ae3d2dee77ea07",
+        "index.html": "9433ad938dea47a7"
+    }
+}

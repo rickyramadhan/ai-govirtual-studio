@@ -2,5 +2,5 @@
 
 Package ready for Stasiun Tawang (Semarang).
 
-- Copy this folder into Pano2VR export root.
+- Copy this folder into the tour export root.
 - Edit `data/knowledge.json` and `config/tour.json` for location-specific content.

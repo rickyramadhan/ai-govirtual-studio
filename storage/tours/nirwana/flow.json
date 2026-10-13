@@ -1,0 +1,151 @@
+{
+    "version": "1.0",
+    "tourId": "nirwana",
+    "tourName": "Nirwana",
+    "updatedAt": "2026-09-29T09:51:31+02:00",
+    "startScene": "node97",
+    "order": [
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node129",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108",
+        "node109",
+        "node110",
+        "node111",
+        "node112",
+        "node113",
+        "node114",
+        "node115",
+        "node116",
+        "node117",
+        "node118",
+        "node119",
+        "node120",
+        "node121",
+        "node122",
+        "node130",
+        "node124",
+        "node125",
+        "node126",
+        "node127",
+        "node128",
+        "node131",
+        "node132"
+    ],
+    "nodes": {
+        "node97": {
+            "displayName": "Nirwana Stable – Villa Transit"
+        },
+        "node98": {
+            "displayName": "Nirwana Stable – Ruellia Garden – Taman Patung"
+        },
+        "node99": {
+            "displayName": "Nirwana Stable – Ruellia Garden – Lapangan Hijau"
+        },
+        "node100": {
+            "displayName": "Nirwana Stable – Ruellia Garden – Jalur Bercabang"
+        },
+        "node101": {
+            "displayName": "Nirwana Stable – Ruang Pertemuan"
+        },
+        "node102": {
+            "displayName": "Nirwana Stable – Akses Arena Latihan Kuda"
+        },
+        "node103": {
+            "displayName": "Nirwana Stable – Horse Stable – Lorong Kandang"
+        },
+        "node129": {
+            "displayName": "Nirwana Stable – Horse Stable – Video 360"
+        },
+        "node104": {
+            "displayName": "Nirwana Stable – Greenlife Garden – Jalur Tepi"
+        },
+        "node105": {
+            "displayName": "Nirwana Stable – Greenlife Garden – Hamparan Rumput"
+        },
+        "node106": {
+            "displayName": "Nirwana Stable – Gerbang Batu Taman"
+        },
+        "node107": {
+            "displayName": "Nirwana Stable – Rumah Hidroponik"
+        },
+        "node108": {
+            "displayName": "Nirwana Stable – Fasad Kandang Kuda"
+        },
+        "node109": {
+            "displayName": "Nirwana Stable – Nirwana Farmhouse – Rumah Tanam"
+        },
+        "node110": {
+            "displayName": "Nirwana Stable – Musala Nirwana"
+        },
+        "node111": {
+            "displayName": "Nirwana Stable – Nirwana Resto – Meja Komunal"
+        },
+        "node112": {
+            "displayName": "Nirwana Stable – Parkir Kawasan Nirwana"
+        },
+        "node113": {
+            "displayName": "Nirwana Stable – Ruellia Garden – Ornamen Kuda"
+        },
+        "node114": {
+            "displayName": "Nirwana Stable – Pelataran Kandang Kuda"
+        },
+        "node115": {
+            "displayName": "Nirwana Stable – Arena Berkuda"
+        },
+        "node116": {
+            "displayName": "Nirwana Stable – Jalur Kandang Merak"
+        },
+        "node117": {
+            "displayName": "Nirwana Stable – Koridor Kandang Faisan"
+        },
+        "node118": {
+            "displayName": "Nirwana Stable – Jalur Menuju Resto"
+        },
+        "node119": {
+            "displayName": "Nirwana Stable – Pintu Kafe Outdoor"
+        },
+        "node120": {
+            "displayName": "Nirwana Stable – Jembatan Masuk Kafe"
+        },
+        "node121": {
+            "displayName": "Nirwana Stable – Resto – Ruang Duduk Kaca"
+        },
+        "node122": {
+            "displayName": "Nirwana Stable – Aviary dan Playground"
+        },
+        "node130": {
+            "displayName": "Nirwana Stable – Aviary – Video 360"
+        },
+        "node124": {
+            "displayName": "Nirwana Stable – Gapura Nirwana"
+        },
+        "node125": {
+            "displayName": "Nirwana Stable – Pintu Ruellia Garden"
+        },
+        "node126": {
+            "displayName": "Nirwana Stable – Arena Berkuda – Sisi Landmark"
+        },
+        "node127": {
+            "displayName": "Nirwana Stable – Fasilitas Pengunjung Nirwana"
+        },
+        "node128": {
+            "displayName": "Nirwana Stable – Kawasan Stable – Pandangan Luar"
+        },
+        "node131": {
+            "displayName": "Nirwana Stable – Gerbang Resto dan Kafe"
+        },
+        "node132": {
+            "displayName": "Nirwana Stable – Gerbang Utama Kawasan"
+        }
+    }
+}

@@ -1,0 +1,658 @@
+{
+    "startNode": "node3",
+    "scenes": [
+        {
+            "id": "node3",
+            "name": "Wisata Air",
+            "displayName": "Wisata Air",
+            "rawName": "",
+            "customNodeId": "-isata-ir",
+            "pan": -58.42,
+            "tilt": -5.69,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Wisata Air"
+            ]
+        },
+        {
+            "id": "node1",
+            "name": "Drone-Tungkul",
+            "displayName": "Drone-Tungkul",
+            "rawName": "Drone-Tungkul",
+            "customNodeId": "dungtungkul",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "dungtungkul",
+                "Drone-Tungkul"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "DungTungkul",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1",
+                "default"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Puncakatas",
+            "displayName": "Puncakatas",
+            "rawName": "",
+            "customNodeId": "puncakatas",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "puncakatas"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Sungaibabon",
+            "displayName": "Sungaibabon",
+            "rawName": "",
+            "customNodeId": "sungaibabon",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul",
+                "oi"
+            ],
+            "aliases": [
+                "sungaibabon"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Kasir Koin",
+            "displayName": "Kasir Koin",
+            "rawName": "",
+            "customNodeId": "-asir-oin",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Kasir Koin"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Spot Foto",
+            "displayName": "Spot Foto",
+            "rawName": "",
+            "customNodeId": "-pot-oto",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Spot Foto"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Sejarah",
+            "displayName": "Sejarah",
+            "rawName": "",
+            "customNodeId": "sejarah",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul",
+                "oi"
+            ],
+            "aliases": [
+                "sejarah"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Makamdungtungkul",
+            "displayName": "Makamdungtungkul",
+            "rawName": "",
+            "customNodeId": "makamdungtungkul",
+            "pan": -29.88,
+            "tilt": -16.54,
+            "fov": 117.02,
+            "tags": [
+                "DungTungkul",
+                "oi"
+            ],
+            "aliases": [
+                "makamdungtungkul"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Workshop",
+            "displayName": "Workshop",
+            "rawName": "",
+            "customNodeId": "-orkshop",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Workshop"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Wisata Air",
+            "displayName": "Wisata Air",
+            "rawName": "",
+            "customNodeId": "-isata-ir",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Wisata Air"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Sungai",
+            "displayName": "Sungai",
+            "rawName": "",
+            "customNodeId": "-ungai",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Sungai"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Sungai",
+            "displayName": "Sungai",
+            "rawName": "",
+            "customNodeId": "-ungai",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Sungai"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Wisata Air",
+            "displayName": "Wisata Air",
+            "rawName": "",
+            "customNodeId": "-isata-ir",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "Wisata Air"
+            ]
+        },
+        {
+            "id": "node22",
+            "name": "Areasungai",
+            "displayName": "Areasungai",
+            "rawName": "",
+            "customNodeId": "areasungai",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "areasungai"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "Lapangantengah",
+            "displayName": "Lapangantengah",
+            "rawName": "",
+            "customNodeId": "lapangantengah",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "DungTungkul"
+            ],
+            "aliases": [
+                "lapangantengah"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node3",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -267.44,
+            "tilt": 0.24
+        },
+        {
+            "scene": "node3",
+            "target": "node19",
+            "title": "Wisata Air",
+            "id": "Point02",
+            "pan": -33.18,
+            "tilt": -5.27
+        },
+        {
+            "scene": "node1",
+            "target": "node5",
+            "title": "Wisata Dung Tungkul",
+            "id": "Point01",
+            "pan": -173.89,
+            "tilt": -52.36
+        },
+        {
+            "scene": "node1",
+            "target": "node7",
+            "title": "Masjid",
+            "id": "Point02",
+            "pan": -166.83,
+            "tilt": -9.93
+        },
+        {
+            "scene": "node1",
+            "target": "node24",
+            "title": "Kasir Koin",
+            "id": "Point03",
+            "pan": -147.39,
+            "tilt": -31.35
+        },
+        {
+            "scene": "node1",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point05",
+            "pan": -289.86,
+            "tilt": 0.67
+        },
+        {
+            "scene": "node25",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -289.86,
+            "tilt": 0.67
+        },
+        {
+            "scene": "node4",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -251.88,
+            "tilt": -8.3
+        },
+        {
+            "scene": "node5",
+            "target": "node3",
+            "title": "Wisata Air",
+            "id": "Point01",
+            "pan": -40.95,
+            "tilt": -1.41
+        },
+        {
+            "scene": "node5",
+            "target": "node14",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -189.15,
+            "tilt": 5.03
+        },
+        {
+            "scene": "node6",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -177.77,
+            "tilt": -11.57
+        },
+        {
+            "scene": "node7",
+            "target": "node8",
+            "title": "Kasir Koin",
+            "id": "Point01",
+            "pan": -182.3,
+            "tilt": -6.56
+        },
+        {
+            "scene": "node7",
+            "target": "node11",
+            "title": "Makam",
+            "id": "Point02",
+            "pan": -50.31,
+            "tilt": 0.86
+        },
+        {
+            "scene": "node7",
+            "target": "node6",
+            "title": "Masjid",
+            "id": "Point03",
+            "pan": 0.09,
+            "tilt": 1.99
+        },
+        {
+            "scene": "node7",
+            "target": "node13",
+            "title": "Workshop",
+            "id": "Point04",
+            "pan": -292.63,
+            "tilt": 0.54
+        },
+        {
+            "scene": "node8",
+            "target": "node14",
+            "title": "Wisata Air",
+            "id": "Point01",
+            "pan": -1.17,
+            "tilt": -6.19
+        },
+        {
+            "scene": "node8",
+            "target": "node24",
+            "title": "Kasir Koin",
+            "id": "Point02",
+            "pan": -48.07,
+            "tilt": -0.89
+        },
+        {
+            "scene": "node8",
+            "target": "node7",
+            "title": "Masjid",
+            "id": "Point03",
+            "pan": -189.4,
+            "tilt": -4.2
+        },
+        {
+            "scene": "node9",
+            "target": "node14",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -171.73,
+            "tilt": -5.2
+        },
+        {
+            "scene": "node9",
+            "target": "node4",
+            "title": "Spot Foto",
+            "id": "Point02",
+            "pan": -345.62,
+            "tilt": -4.44
+        },
+        {
+            "scene": "node10",
+            "target": "node24",
+            "title": "Kasir Koin",
+            "id": "Point01",
+            "pan": -237.05,
+            "tilt": -4.18
+        },
+        {
+            "scene": "node11",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -67.62,
+            "tilt": -21.69
+        },
+        {
+            "scene": "node13",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -80.53,
+            "tilt": -2.71
+        },
+        {
+            "scene": "node14",
+            "target": "node24",
+            "title": "Kasir Koin",
+            "id": "Point02",
+            "pan": -100.33,
+            "tilt": 3.49
+        },
+        {
+            "scene": "node14",
+            "target": "node8",
+            "title": "Wisata Dung Tungkul",
+            "id": "Point03",
+            "pan": -191.17,
+            "tilt": -0.13
+        },
+        {
+            "scene": "node14",
+            "target": "node5",
+            "title": "Wisata Air",
+            "id": "Point04",
+            "pan": -255.51,
+            "tilt": -10.16
+        },
+        {
+            "scene": "node14",
+            "target": "node9",
+            "title": "Spot Foto",
+            "id": "Point01",
+            "pan": -62.1,
+            "tilt": 4.28
+        },
+        {
+            "scene": "node15",
+            "target": "node16",
+            "title": "Sungai",
+            "id": "Point01",
+            "pan": -87.06,
+            "tilt": 5.33
+        },
+        {
+            "scene": "node15",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -20.2,
+            "tilt": 5.93
+        },
+        {
+            "scene": "node16",
+            "target": "node15",
+            "title": "Sungai",
+            "id": "Point01",
+            "pan": -167.55,
+            "tilt": 5.14
+        },
+        {
+            "scene": "node16",
+            "target": "node19",
+            "title": "Wisata Air",
+            "id": "Point02",
+            "pan": -7.36,
+            "tilt": 6.21
+        },
+        {
+            "scene": "node19",
+            "target": "node3",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -62.3,
+            "tilt": 9.18
+        },
+        {
+            "scene": "node19",
+            "target": "node22",
+            "title": "Wisata Air",
+            "id": "Point02",
+            "pan": -146.75,
+            "tilt": 0.92
+        },
+        {
+            "scene": "node19",
+            "target": "node16",
+            "title": "Sungai",
+            "id": "Point03",
+            "pan": -280.09,
+            "tilt": 3.22
+        },
+        {
+            "scene": "node22",
+            "target": "node19",
+            "title": "Wisata Air",
+            "id": "Point01",
+            "pan": -332.92,
+            "tilt": 4.47
+        },
+        {
+            "scene": "node22",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -87.61,
+            "tilt": 6.71
+        },
+        {
+            "scene": "node24",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -192.13,
+            "tilt": 0.15
+        },
+        {
+            "scene": "node24",
+            "target": "node10",
+            "title": "Kasir Koin",
+            "id": "Point02",
+            "pan": -301.47,
+            "tilt": -6.55
+        },
+        {
+            "scene": "node24",
+            "target": "node14",
+            "title": "Wisata Air",
+            "id": "Point03",
+            "pan": -331.56,
+            "tilt": -3.59
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 675,
+            "label": "Puncak Atas Dung Tungkul",
+            "description": "Area dataran tinggi di obyek wisata Dung Tungkul Meteseh Semarang yang biasa dikunjungi oleh pengunjung untuk melihat pemandangan di sekitar.",
+            "fragment": "puncakatas",
+            "link": "dungtungkul/index.html#puncakatas",
+            "sceneId": "node4"
+        },
+        {
+            "infoId": 676,
+            "label": "Area Sungai",
+            "description": "Area aliran sungai di obyek wisata Dung Tungkul Meteseh Semarang yang menjadi wahana untuk bermain tubing.",
+            "fragment": "areasungai",
+            "link": "dungtungkul/index.html#areasungai",
+            "sceneId": "node22"
+        },
+        {
+            "infoId": 677,
+            "label": "Makam Dung Tungkul",
+            "description": "Tempat yang kerap dikunjungi oleh pengunjung obyek wisata Dung Tungkul Meteseh untuk berziarah, terdapat sebuah makam seseorang yang dihormati oleh masyarakat sekitar.",
+            "fragment": "makamdungtungkul",
+            "link": "dungtungkul/index.html#makamdungtungkul",
+            "sceneId": "node11"
+        },
+        {
+            "infoId": 678,
+            "label": "Lapangan Tengah Dung Tungkul",
+            "description": "Area tanah lapang yang biasa digunakan oleh pengelola obyek wisata Dung Tungkul Meteseh untuk persiapan sebelum bermain tubing. Area ini juga terkadang digunakan sebagai area pertemuan dan pementasan.",
+            "fragment": "lapangantengah",
+            "link": "dungtungkul/index.html#lapangantengah",
+            "sceneId": "node24"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "e3c6256ee591ea64",
+        "skin.js": "cd0a771c4d4dde4f",
+        "index.html": "815396dfa2a4b2cc"
+    }
+}

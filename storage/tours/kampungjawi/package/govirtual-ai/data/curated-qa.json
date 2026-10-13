@@ -1,0 +1,1554 @@
+{
+    "version": "1.0",
+    "tourId": "kampungjawi",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Di mana lokasi Angkringan Kampung Jawi di Semarang?",
+            "answer": "Angkringan Kampung Jawi terletak di Jalan Kalisari, Kelurahan Sukorejo, Kecamatan Gunungpati, Kota Semarang, Jawa Tengah.",
+            "aliases": [
+                "alamat angkringan kampung jawi",
+                "dimana kampung jawi semarang",
+                "letak kampung jawi gunungpati"
+            ],
+            "keywords": [
+                "lokasi",
+                "alamat",
+                "kampung jawi",
+                "angkringan",
+                "gunungpati",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Jam berapa Angkringan Kampung Jawi mulai buka dan tutup?",
+            "answer": "Angkringan Kampung Jawi umumnya buka setiap hari mulai pukul 17.00 WIB hingga pukul 22.00 atau 23.00 WIB.",
+            "aliases": [
+                "jam buka kampung jawi",
+                "jam operasional angkringan kampung jawi semarang",
+                "jam tutup"
+            ],
+            "keywords": [
+                "jam buka",
+                "jam tutup",
+                "jam operasional",
+                "kampung jawi",
+                "sore malam"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Apa konsep unik yang diusung oleh Angkringan Kampung Jawi?",
+            "answer": "Kampung Jawi mengusung konsep pasar kuliner malam tradisional berwujud pedesaan Jawa tempo dulu, lengkap dengan lampu petromak, gubuk bambu, dan nuansa pedesaan yang asri.",
+            "aliases": [
+                "konsep kampung jawi semarang",
+                "suasana angkringan jawa tempo dulu"
+            ],
+            "keywords": [
+                "konsep",
+                "tradisional",
+                "pedesaan jawa",
+                "petromak",
+                "gubuk bambu"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Apakah alat pembayaran di Kampung Jawi menggunakan uang tunai atau non-tunai?",
+            "answer": "Sebagian besar transaksi di tenant kuliner Kampung Jawi menggunakan uang tunai, namun beberapa tempat mungkin menyediakan pilihan QRIS atau koin khusus penukaran.",
+            "aliases": [
+                "pembayaran di kampung jawi",
+                "apakah kampung jawi cashless",
+                "bayar pakai apa di angkringan jawi"
+            ],
+            "keywords": [
+                "pembayaran",
+                "uang tunai",
+                "qris",
+                "koin khusus",
+                "transaksi"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Berapa harga rata-rata makanan dan minuman di Angkringan Kampung Jawi?",
+            "answer": "Harga makanan dan minuman di sini sangat terjangkau, mulai dari Rp2.000 hingga Rp15.000 saja per porsi atau tusukan.",
+            "aliases": [
+                "harga makanan kampung jawi",
+                "mahal tidak makan di angkringan jawi semarang"
+            ],
+            "keywords": [
+                "harga makanan",
+                "terjangkau",
+                "murah",
+                "angkringan",
+                "menu"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Bagaimana rute menuju Kampung Jawi jika dari pusat Kota Semarang (Simpang Lima)?",
+            "answer": "Dari Simpang Lima, arahkan kendaraan ke selatan menuju wilayah Kaligarang atau Sampangan, lalu melanjutkan perjalanan menanjak ke arah Sekaran/Gunungpati menuju Kalisari.",
+            "aliases": [
+                "rute ke kampung jawi dari simpang lima",
+                "jalan ke angkringan kampung jawi sampangan"
+            ],
+            "keywords": [
+                "rute",
+                "simpang lima",
+                "sampangan",
+                "gunungpati",
+                "kalisari"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah tersedia area parkir kendaraan di Angkringan Kampung Jawi?",
+            "answer": "Ya, tersedia area kantong parkir yang dikelola oleh warga sekitar untuk kendaraan roda dua (motor) maupun roda empat (mobil).",
+            "aliases": [
+                "tempat parkir kampung jawi",
+                "parkir motor mobil angkringan kampung jawi"
+            ],
+            "keywords": [
+                "parkir",
+                "area parkir",
+                "motor",
+                "mobil",
+                "warga"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Berapa tarif retribusi parkir di Kampung Jawi?",
+            "answer": "Tarif parkir standar yang berlaku berkisar Rp3.000 untuk sepeda motor dan Rp5.000 untuk mobil.",
+            "aliases": [
+                "biaya parkir kampung jawi",
+                "tarif parkir motor mobil angkringan jawi"
+            ],
+            "keywords": [
+                "tarif parkir",
+                "biaya parkir",
+                "motor",
+                "mobil",
+                "retribusi"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah Kampung Jawi buka setiap hari termasuk hari kerja?",
+            "answer": "Ya, Kampung Jawi buka setiap hari dari Senin hingga Minggu, namun biasanya sangat ramai pengunjung saat akhir pekan (sabtu-minggu).",
+            "aliases": [
+                "apakah kampung jawi buka senin jumat",
+                "hari apa saja angkringan jawi buka"
+            ],
+            "keywords": [
+                "buka setiap hari",
+                "senin minggu",
+                "akhir pekan",
+                "ramai"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apa waktu terbaik untuk berkunjung ke Kampung Jawi agar tidak terlalu malam?",
+            "answer": "Waktu terbaik adalah saat jam buka pukul 17.00 WIB agar bisa menikmati suasana senja, mendapatkan tempat duduk nyaman, dan pilihan lauk masih lengkap.",
+            "aliases": [
+                "waktu terbaik ke kampung jawi",
+                "jam berapa bagus datang ke angkringan jawi"
+            ],
+            "keywords": [
+                "waktu terbaik",
+                "sore hari",
+                "senja",
+                "tempat duduk",
+                "lauk lengkap"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Apa saja menu makanan khas tradisonal yang tersedia di Kampung Jawi?",
+            "answer": "Tersedia aneka sego kucing (nasi bungkus porsi kecil), sego jagung, sego liwet, aneka sate tusuk (sate usus, sate puyuh, sate ati ampela), gorengan hangat, dan jadah bakar.",
+            "aliases": [
+                "menu makanan kampung jawi",
+                "sego kucing angkringan jawi semarang"
+            ],
+            "keywords": [
+                "menu makanan",
+                "sego kucing",
+                "sego jagung",
+                "sate tusuk",
+                "gorengan"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apa saja pilihan minuman tradisional yang bisa dinikmati di sini?",
+            "answer": "Pilihan minuman meliputi Wedang Blimbing Wuluh, Wedang Jahe Emprit, Teh Poci Gula Batu, Krempung, dan beras kencur.",
+            "aliases": [
+                "minuman tradisional kampung jawi",
+                "wedang jahe teh poci angkringan jawi"
+            ],
+            "keywords": [
+                "minuman tradisional",
+                "wedang blimbing wuluh",
+                "wedang jahe",
+                "teh poci"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apakah ada menu makanan berat selain sego kucing di Kampung Jawi?",
+            "answer": "Ya, terdapat beberapa warung yang menyajikan menu ndeso seperti mangut lele, oseng pepaya, lodeh kluwih, dan aneka masakan rumahan Jawa.",
+            "aliases": [
+                "makanan berat kampung jawi",
+                "mangut lele angkringan jawi semarang"
+            ],
+            "keywords": [
+                "makanan berat",
+                "mangut lele",
+                "oseng pepaya",
+                "lodeh",
+                "masakan jawa"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apakah semua makanan disajikan secara prasmanan di gubuk-gubuk?",
+            "answer": "Ya, makanan ditata di atas meja pikul atau gubuk bambu berkonsep tradisional di mana pengunjung dapat mengambil sendiri lauk dan nasi yang diinginkan.",
+            "aliases": [
+                "cara ambil makanan kampung jawi",
+                "prasmanan angkringan jawa semarang"
+            ],
+            "keywords": [
+                "prasmanan",
+                "gubuk bambu",
+                "ambil sendiri",
+                "meja pikul",
+                "tradisional"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apakah gorengan di Kampung Jawi disajikan dalam kondisi hangat?",
+            "answer": "Sebagian besar gorengan seperti mendoan, bakwan, dan tahu petis digoreng langsung di tempat sehingga disajikan dalam keadaan hangat dan renyah.",
+            "aliases": [
+                "gorengan hangat kampung jawi",
+                "mendoan tahu petis angkringan jawi"
+            ],
+            "keywords": [
+                "gorengan",
+                "hangat",
+                "mendoan",
+                "bakwan",
+                "tahu petis"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apa itu Wedang Blimbing Wuluh yang populer di Kampung Jawi?",
+            "answer": "Wedang Blimbing Wuluh adalah minuman herbal tradisional khas Kampung Jawi yang rasanya menyegarkan, perpaduan asam blimbing, rempah, dan manis gula batu.",
+            "aliases": [
+                "wedang blimbing wuluh kampung jawi",
+                "minuman khas angkringan jawi semarang"
+            ],
+            "keywords": [
+                "wedang blimbing wuluh",
+                "minuman herbal",
+                "khas",
+                "menyegarkan"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apakah tersedia jajanan pasar tradisional tempo dulu di sini?",
+            "answer": "Ya, pengunjung dapat menemukan aneka jajanan pasar seperti klepon, cenil, getuk, tiwul, dan pisang plenet di sudut-sudut kampung.",
+            "aliases": [
+                "jajanan pasar kampung jawi",
+                "kue tradisional angkringan jawa semarang"
+            ],
+            "keywords": [
+                "jajanan pasar",
+                "klepon",
+                "cenil",
+                "getuk",
+                "kue tradisional"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Apakah pengunjung boleh membawa makanan atau minuman dari luar?",
+            "answer": "Pengunjung umumnya tidak diperbolehkan membawa makanan atau minuman berat dari luar karena di dalam sudah tersedia sangat lengkap dan murah.",
+            "aliases": [
+                "bawa makanan dari luar ke kampung jawi",
+                "aturan angkringan jawi semarang"
+            ],
+            "keywords": [
+                "bawa makanan",
+                "aturan",
+                "dari luar",
+                "dilarang"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Apakah sistem pemesanan makanan menggunakan sistem ambil sendiri (self-service)?",
+            "answer": "Ya, pengunjung mengambil piring, memilih nasi bungkus, memilih sate dan gorengan sendiri, lalu dibawa ke kasir untuk dihitung (rekapitulasi harga).",
+            "aliases": [
+                "sistem pesan makanan kampung jawi",
+                "ambil sendiri angkringan jawi"
+            ],
+            "keywords": [
+                "self service",
+                "ambil sendiri",
+                "kasir",
+                "hitung harga"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apakah ada menu khusus untuk anak-anak atau vegetarian?",
+            "answer": "Banyak pilihan menu nabati seperti tahu tempe bacem, sayur lodeh, dan nasi putih polos yang cocok untuk anak-anak maupun vegetarian.",
+            "aliases": [
+                "menu vegetarian kampung jawi",
+                "makanan anak angkringan jawi semarang"
+            ],
+            "keywords": [
+                "menu vegetarian",
+                "makanan anak",
+                "tahu tempe",
+                "sayur lodeh"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Bagaimana suasana malam hari di Angkringan Kampung Jawi?",
+            "answer": "Suasana malam hari sangat romantis dan estetik dengan temaram lampu petromak gantung, alunan musik gamelan/krontjong bambu, serta udara sejuk perbukitan.",
+            "aliases": [
+                "suasana malam kampung jawi",
+                "romantis petromak angkringan jawi semarang"
+            ],
+            "keywords": [
+                "suasana malam",
+                "petromak",
+                "gamelan",
+                "romantis",
+                "sejuk"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Apakah ada penerangan lampu listrik di area Kampung Jawi?",
+            "answer": "Penerangan utama sengaja dibuat temaram menggunakan lampu teplok dan petromak untuk mempertahankan nuansa pedesaan masa lalu.",
+            "aliases": [
+                "lampu petromak kampung jawi",
+                "penerangan angkringan jawa semarang"
+            ],
+            "keywords": [
+                "penerangan",
+                "lampu petromak",
+                "teplok",
+                "temaram",
+                "tempo dulu"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apa saja spot foto Instagramable di Kampung Jawi?",
+            "answer": "Spot foto populer meliputi gapura kampung Jawa klasik, jembatan kayu di atas sungai kecil, gubuk-gubuk bambu dengan lampu petromak, dan sudut teater terbuka.",
+            "aliases": [
+                "spot foto kampung jawi",
+                "tempat instagramable angkringan jawi semarang"
+            ],
+            "keywords": [
+                "spot foto",
+                "instagramable",
+                "gapura klasik",
+                "jembatan kayu",
+                "gubuk bambu"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apakah area Kampung Jawi berada di pinggir sungai?",
+            "answer": "Ya, lokasi angkringan ini membentang di tepi aliran sungai kecil pedesaan yang ditata rapi dengan jalan setapak batu dan lampu hias bambu.",
+            "aliases": [
+                "sungai di kampung jawi",
+                "kali pinggir angkringan jawi semarang"
+            ],
+            "keywords": [
+                "sungai",
+                "tepi sungai",
+                "aliran air",
+                "tertata rapi",
+                "asri"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apakah ada alunan musik tradisional live di Kampung Jawi?",
+            "answer": "Pada akhir pekan atau hari tertentu, sering kali disajikan hiburan musik tradisional angklung, keroncong, atau alunan gamelan bambu live.",
+            "aliases": [
+                "musik tradisional kampung jawi",
+                "angklung keroncong angkringan jawi"
+            ],
+            "keywords": [
+                "musik tradisional",
+                "live music",
+                "angklung",
+                "keroncong",
+                "gamelan"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apakah area tempat duduk menggunakan kursi atau lesehan?",
+            "answer": "Tersedia kombinasi tempat duduk kursi bambu kuno, bangku kayu panjang, serta tikar lesehan di tepi area terbuka.",
+            "aliases": [
+                "lesehan kampung jawi",
+                "kursi bambu angkringan jawi semarang"
+            ],
+            "keywords": [
+                "lesehan",
+                "kursi bambu",
+                "bangku kayu",
+                "tikar",
+                "tempat duduk"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apakah Kampung Jawi cocok untuk tempat nongkrong anak muda?",
+            "answer": "Sangat cocok dan populer di kalangan mahasiswa serta anak muda Semarang karena suasananya yang unik, cozy, dan ramah di kantong.",
+            "aliases": [
+                "tempat nongkrong anak muda semarang",
+                "nongkrong di kampung jawi"
+            ],
+            "keywords": [
+                "tempat nongkrong",
+                "anak muda",
+                "mahasiswa",
+                "cozy",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apakah suasana di Kampung Jawi terasa sejuk di malam hari?",
+            "answer": "Karena letaknya berada di wilayah perbukitan Gunungpati, udara malam hari di sini terasa sangat sejuk dan segar.",
+            "aliases": [
+                "udara sejuk kampung jawi",
+                "dingin malam angkringan jawi gunungpati"
+            ],
+            "keywords": [
+                "udara sejuk",
+                "malam hari",
+                "perbukitan",
+                "gunungpati",
+                "segar"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apakah ada ornamen atau properti antik di area kampung?",
+            "answer": "Ya, banyak dijumpai pajangan barang antik seperti sepeda ontel kuno, lesung padi, lampu petromak tua, dan dinding bilik bambu.",
+            "aliases": [
+                "barang antik kampung jawi",
+                "sepeda ontel angkringan jawi semarang"
+            ],
+            "keywords": [
+                "barang antik",
+                "sepeda ontel",
+                "lesung padi",
+                "bilik bambu",
+                "properti"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Apakah Kampung Jawi ramai dikunjungi saat akhir pekan?",
+            "answer": "Sangat ramai. Pada Sabtu dan Minggu malam, pengunjung biasanya memadati area gubuk dan tempat duduk yang tersedia.",
+            "aliases": [
+                "ramai akhir pekan kampung jawi",
+                "sabtu minggu di angkringan jawi"
+            ],
+            "keywords": [
+                "ramai",
+                "akhir pekan",
+                "sabtu minggu",
+                "padat pengunjung"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Fasilitas umum apa saja yang tersedia di Kampung Jawi?",
+            "answer": "Fasilitas meliputi area parkir, toilet umum, musala, tempat cuci tangan, gubuk makan, dan pos informasi.",
+            "aliases": [
+                "fasilitas umum kampung jawi",
+                "kelengkapan angkringan jawi semarang"
+            ],
+            "keywords": [
+                "fasilitas umum",
+                "toilet",
+                "musala",
+                "cuci tangan",
+                "gubuk makan"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Apakah tersedia musala atau tempat sholat di Kampung Jawi?",
+            "answer": "Ya, tersedia fasilitas musala yang bersih bagi pengunjung muslim untuk menunaikan ibadah sholat magrib atau isya.",
+            "aliases": [
+                "musala kampung jawi",
+                "tempat sholat angkringan jawi semarang"
+            ],
+            "keywords": [
+                "musala",
+                "tempat ibadah",
+                "sholat",
+                "muslim",
+                "fasilitas"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Bagaimana kondisi kebersihan toilet umum di Kampung Jawi?",
+            "answer": "Toilet umum dijaga kebersihannya oleh petugas secara berkala demi kenyamanan para pengunjung kuliner malam.",
+            "aliases": [
+                "toilet kampung jawi",
+                "kamar mandi bersih angkringan jawi"
+            ],
+            "keywords": [
+                "toilet",
+                "kamar mandi",
+                "kebersihan",
+                "petugas",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Apakah tersedia tempat cuci tangan di beberapa titik?",
+            "answer": "Ya, wastafel dan tempat cuci tangan dengan sabun tersebar di beberapa sudut strategis dekat area makan.",
+            "aliases": [
+                "tempat cuci tangan kampung jawi",
+                "wastafel angkringan jawi semarang"
+            ],
+            "keywords": [
+                "tempat cuci tangan",
+                "wastafel",
+                "sabun",
+                "strategis"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apakah area Kampung Jawi ramah untuk penyandang disabilitas?",
+            "answer": "Sebagian besar jalur berupa jalan setapak conblock dan tanah berundak khas pedesaan, sehingga akses kursi roda membutuhkan bantuan ekstra.",
+            "aliases": [
+                "akses disabilitas kampung jawi",
+                "kursi roda angkringan jawi semarang"
+            ],
+            "keywords": [
+                "disabilitas",
+                "kursi roda",
+                "jalur berundak",
+                "pedesaan"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Apakah ada pos keamanan (security) yang berjaga di lokasi?",
+            "answer": "Ya, petugas keamanan dari warga setempat siaga menjaga ketertiban area parkir dan lingkungan sekitar angkringan.",
+            "aliases": [
+                "keamanan kampung jawi",
+                "satpam angkringan jawi semarang"
+            ],
+            "keywords": [
+                "keamanan",
+                "security",
+                "warga",
+                "ketertiban",
+                "parkir"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Apakah ada kotak P3K atau pos medis darurat?",
+            "answer": "Kotak pertolongan pertama (P3K) tersedia di pos utama atau pusat informasi untuk penanganan cedera ringan.",
+            "aliases": [
+                "p3k kampung jawi",
+                "pos kesehatan angkringan jawi semarang"
+            ],
+            "keywords": [
+                "p3k",
+                "pos kesehatan",
+                "darurat",
+                "cedera ringan"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Apakah sinyal seluler atau internet bagus di area Kampung Jawi?",
+            "answer": "Sinyal seluler operator utama cukup baik di lokasi, meskipun di beberapa sudut lembah dekat sungai mungkin agak fluktuatif.",
+            "aliases": [
+                "sinyal hp kampung jawi",
+                "internet seluler angkringan jawi semarang"
+            ],
+            "keywords": [
+                "sinyal seluler",
+                "internet",
+                "operator",
+                "lancar"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Apakah pengunjung boleh merokok di area terbuka Kampung Jawi?",
+            "answer": "Pengunjung diperbolehkan merokok di area terbuka, namun diimbau untuk tetap menjaga kenyamanan pengunjung keluarga di sekitar.",
+            "aliases": [
+                "boleh merokok di kampung jawi",
+                "area merokok angkringan jawi"
+            ],
+            "keywords": [
+                "merokok",
+                "area terbuka",
+                "imbauan",
+                "keluarga"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Bagaimana prosedur jika ada barang pengunjung yang tertinggal?",
+            "answer": "Pengunjung dapat melaporkannya langsung kepada petugas pengelola di kasir utama atau pos informasi.",
+            "aliases": [
+                "barang tertinggal kampung jawi",
+                "kehilangan barang angkringan jawi"
+            ],
+            "keywords": [
+                "barang tertinggal",
+                "kehilangan",
+                "kasir utama",
+                "pos informasi"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Bagaimana tips pakaian yang nyaman saat berkunjung ke Kampung Jawi?",
+            "answer": "Disarankan mengenakan pakaian kasual yang nyaman dan menghangatkan seperti jaket atau sweater tipis karena udara malam di Gunungpati cukup dingin.",
+            "aliases": [
+                "tips pakaian kampung jawi",
+                "baju hangat ke angkringan jawi semarang"
+            ],
+            "keywords": [
+                "tips pakaian",
+                "jaket tipis",
+                "sweater",
+                "udara malam",
+                "dingin"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Kapan waktu tersibuk (peak hours) di Kampung Jawi?",
+            "answer": "Waktu tersibuk biasanya pukul 19.00 hingga 21.00 WIB pada hari Sabtu dan Minggu malam.",
+            "aliases": [
+                "jam sibuk kampung jawi",
+                "kapan ramai angkringan jawi semarang"
+            ],
+            "keywords": [
+                "jam sibuk",
+                "peak hours",
+                "ramai",
+                "sabtu minggu",
+                "malam"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Apakah jalan raya menuju Kampung Jawi menanjak?",
+            "answer": "Ya, rute dari arah bawah (Semarang kota/Sampangan) melewati jalan menanjak khas perbukitan Gunungpati, pastikan kondisi rem kendaraan prima.",
+            "aliases": [
+                "jalan menanjak kampung jawi",
+                "rute curam angkringan jawi semarang"
+            ],
+            "keywords": [
+                "jalan menanjak",
+                "curam",
+                "perbukitan",
+                "gunungpati",
+                "rem prima"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Apakah transportasi online (GoRide/Grab) bisa mencapai lokasi Kampung Jawi?",
+            "answer": "Ya, ojek online maupun taksi online dapat mengantar langsung hingga area parkir Kampung Jawi.",
+            "aliases": [
+                "gojek grab ke kampung jawi",
+                "taksi online angkringan jawi semarang"
+            ],
+            "keywords": [
+                "transportasi online",
+                "gojek",
+                "grab",
+                "ojek online",
+                "parkir"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Apakah mudah mencari transportasi online untuk pulang dari Kampung Jawi?",
+            "answer": "Saat malam hari yang sudah larut, mendapatkan ojek online dari lokasi terkadang agak menantang karena sinyal atau ketersediaan driver di area atas.",
+            "aliases": [
+                "pulang dari kampung jawi naik apa",
+                "susah cari gojek di kampung jawi"
+            ],
+            "keywords": [
+                "pulang",
+                "transportasi online",
+                "malam hari",
+                "driver",
+                "sulit"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Apakah ada SPBU terdekat dari lokasi Kampung Jawi?",
+            "answer": "SPBU Pertamina terdekat dapat dijumpai di sekitar wilayah Sekaran UNNES atau kawasan Sampangan.",
+            "aliases": [
+                "spbu dekat kampung jawi",
+                "pom bensin terdekat angkringan jawi semarang"
+            ],
+            "keywords": [
+                "spbu",
+                "pom bensin",
+                "sekaran",
+                "unnes",
+                "sampangan"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah ada mesin ATM terdekat dari kawasan Kampung Jawi?",
+            "answer": "Mesin ATM perbankan dapat ditemukan di kawasan kampus UNNES Sekaran atau area ruko Sampangan yang berjarak beberapa menit berkendara.",
+            "aliases": [
+                "atm terdekat kampung jawi",
+                "mesin tarik tunai angkringan jawi"
+            ],
+            "keywords": [
+                "atm",
+                "mesin tarik tunai",
+                "unnes sekaran",
+                "sampangan"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apakah kawasan Kampung Jawi bebas dari pungutan liar?",
+            "answer": "Pengelolaan parkir dan retribusi dikelola secara resmi oleh warga setempat dengan tarif yang wajar dan transparan.",
+            "aliases": [
+                "pungli di kampung jawi",
+                "keamanan parkir angkringan jawi semarang"
+            ],
+            "keywords": [
+                "bebas pungli",
+                "transparan",
+                "tarif wajar",
+                "warga setempat"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Apakah disarankan membawa payung saat musim hujan?",
+            "answer": "Sangat disarankan membawa payung karena sebagian besar area tempat duduk berbentuk gubuk terbuka atau semi-outdoor.",
+            "aliases": [
+                "musim hujan di kampung jawi",
+                "sedia payung angkringan jawi semarang"
+            ],
+            "keywords": [
+                "musim hujan",
+                "payung",
+                "semi",
+                "outdoor",
+                "gubuk terbuka"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Apa imbauan utama bagi pengunjung yang datang ke Kampung Jawi?",
+            "answer": "Pengunjung diimbau untuk menjaga kebersihan lingkungan pedesaan, menghormati adat istiadat lokal, dan menikmati kuliner dengan tertib.",
+            "aliases": [
+                "pesan pengelola kampung jawi",
+                "imbauan pengunjung angkringan jawi"
+            ],
+            "keywords": [
+                "pesan pengelola",
+                "jaga kebersihan",
+                "tertib",
+                "adat lokal"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Apakah Kampung Jawi cocok untuk tempat berkumpul keluarga?",
+            "answer": "Sangat cocok. Suasana santai dan konsep pedesaan membuat tempat ini ideal untuk makan malam bersama keluarga besar.",
+            "aliases": [
+                "keluarga di kampung jawi",
+                "tempat makan keluarga angkringan jawi semarang"
+            ],
+            "keywords": [
+                "keluarga",
+                "makan malam",
+                "santai",
+                "kumpul keluarga"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Apakah ada area bermain untuk anak-anak di Kampung Jawi?",
+            "answer": "Meskipun tidak ada playground modern, anak-anak dapat menikmati suasana alam terbuka, tepian sungai buatan yang aman, dan melihat lampu petromak.",
+            "aliases": [
+                "main anak kampung jawi",
+                "tempat anak angkringan jawi semarang"
+            ],
+            "keywords": [
+                "anak",
+                "alam terbuka",
+                "tepian sungai",
+                "aman"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Apakah rombongan besar bisa melakukan reservasi tempat di Kampung Jawi?",
+            "answer": "Untuk rombongan besar, disarankan menghubungi pengelola terlebih dahulu agar disiapkan area gubuk atau meja yang memadai.",
+            "aliases": [
+                "reservasi rombongan kampung jawi",
+                "booking tempat angkringan jawi semarang"
+            ],
+            "keywords": [
+                "reservasi",
+                "rombongan besar",
+                "booking tempat",
+                "gubuk"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Apakah ada paket khusus untuk acara kumpul instansi atau reuni?",
+            "answer": "Pihak pengelola dapat membantu menyiapkan paket konsumsi tradisional untuk acara reuni, arisan, atau gathering komunitas.",
+            "aliases": [
+                "paket reuni kampung jawi",
+                "arisan gathering angkringan jawi semarang"
+            ],
+            "keywords": [
+                "paket reuni",
+                "arisan",
+                "gathering",
+                "konsumsi tradisional"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Apakah aman membawa balita ke Kampung Jawi pada malam hari?",
+            "answer": "Aman, namun orang tua harus tetap waspada dan mengawasi anak karena beberapa area berdekatan langsung dengan tepian sungai kecil.",
+            "aliases": [
+                "aman bawa balita ke kampung jawi",
+                "anak kecil di angkringan jawi"
+            ],
+            "keywords": [
+                "aman",
+                "balita",
+                "pengawasan",
+                "tepian sungai"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Apakah ada fasilitas kursi bayi (high chair) di tempat makan?",
+            "answer": "Karena mengusung konsep angkringan tradisional lesehan dan bangku kayu, fasilitas high chair khusus bayi tidak tersedia.",
+            "aliases": [
+                "kursi bayi kampung jawi",
+                "high chair angkringan jawi semarang"
+            ],
+            "keywords": [
+                "kursi bayi",
+                "high chair",
+                "lesehan tradisional"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Apakah tersedia ruang laktasi khusus ibu menyusui?",
+            "answer": "Fasilitas ruang laktasi khusus belum tersedia, namun pengunjung dapat menggunakan ruang privat musala atau area yang tenang.",
+            "aliases": [
+                "ruang laktasi kampung jawi",
+                "tempat menyusui angkringan jawi semarang"
+            ],
+            "keywords": [
+                "ruang laktasi",
+                "menyusui",
+                "musala",
+                "privat"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Apakah harga makanan di Kampung Jawi ramah di kantong pelajar/mahasiswa?",
+            "answer": "Sangat ramah di kantong. Dengan modal belasan ribu rupiah, pengunjung sudah bisa menikmati nasi, lauk sate, dan minuman hangat.",
+            "aliases": [
+                "harga pelajar kampung jawi",
+                "murah meriah angkringan jawi semarang"
+            ],
+            "keywords": [
+                "pelajar",
+                "mahasiswa",
+                "ramah di kantong",
+                "murah meriah"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Apakah ada batasan waktu bagi pengunjung untuk bersantai?",
+            "answer": "Tidak ada batasan waktu yang ketat, namun pengunjung disarankan menyesuaikan dengan jam operasional tutup kafe/angkringan (pukul 22.00/23.00 WIB).",
+            "aliases": [
+                "batasan waktu kampung jawi",
+                "jam tutup angkringan jawi semarang"
+            ],
+            "keywords": [
+                "batasan waktu",
+                "jam tutup",
+                "bersantai",
+                "operasional"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Apakah pengunjung diperbolehkan membawa hewan peliharaan?",
+            "answer": "Demi menjaga kebersihan area kuliner tradisional dan kenyamanan pengunjung lain, membawa hewan peliharaan tidak dianjurkan.",
+            "aliases": [
+                "bawa hewan peliharaan ke kampung jawi",
+                "kucing anjing angkringan jawi"
+            ],
+            "keywords": [
+                "hewan peliharaan",
+                "dilarang",
+                "kebersihan",
+                "kenyamanan"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Apa latar belakang atau sejarah berdirinya Kampung Jawi?",
+            "answer": "Kampung Jawi didirikan untuk memberdayakan ekonomi warga lokal Kalisari Gunungpati sekaligus melestarikan budaya dan kuliner tradisional Jawa di tengah perkotaan.",
+            "aliases": [
+                "sejarah kampung jawi",
+                "latar belakang angkringan jawi semarang"
+            ],
+            "keywords": [
+                "sejarah",
+                "pemberdayaan ekonomi",
+                "warga lokal",
+                "budaya jawa"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Siapa pihak yang mengelola kawasan wisata Kampung Jawi?",
+            "answer": "Kampung Jawi dikelola secara gotong royong oleh warga RT/RW setempat bekerja sama dengan pemuda karang taruna dan tokoh masyarakat Kalisari.",
+            "aliases": [
+                "pengelola kampung jawi",
+                "siapa pemilik angkringan jawi semarang"
+            ],
+            "keywords": [
+                "pengelola",
+                "gotong royong",
+                "warga lokal",
+                "karang taruna"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Apakah Kampung Jawi sering diliput oleh media massa atau TV?",
+            "answer": "Sangat sering. Tempat ini kerap menjadi sorotan program kuliner televisi nasional dan media sosial sebagai destinasi wisata malam unik di Semarang.",
+            "aliases": [
+                "liputan kampung jawi",
+                "tv nasional angkringan jawi semarang"
+            ],
+            "keywords": [
+                "liputan media",
+                "televisi nasional",
+                "destinasi unik",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Apakah komunitas seni sering mengadakan pentas di Kampung Jawi?",
+            "answer": "Ya, komunitas teater, sastra, dan musisi lokal sering menggunakan ruang terbuka Kampung Jawi untuk pementasan seni budaya.",
+            "aliases": [
+                "komunitas seni kampung jawi",
+                "teater sastra angkringan jawi semarang"
+            ],
+            "keywords": [
+                "komunitas seni",
+                "teater",
+                "sastra",
+                "pementasan",
+                "budaya"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Apakah ada pasar malam atau bazar tematik tertentu yang diadakan?",
+            "answer": "Pada momen hari besar tertentu atau peringatan malam 1 Suro, Kampung Jawi sering mengadakan pasar malam budaya dengan ragam acara khusus.",
+            "aliases": [
+                "pasar malam kampung jawi",
+                "bazar budaya angkringan jawi semarang"
+            ],
+            "keywords": [
+                "pasar malam",
+                "bazar budaya",
+                "malam 1 suro",
+                "acara khusus"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Apakah ada spot edukasi budaya Jawa di lokasi ini?",
+            "answer": "Pengunjung dapat melihat langsung arsitektur rumah limasan/joglo, penggunaan alat penumbuk padi lesung, serta mendengar alunan bahasa Jawa halus.",
+            "aliases": [
+                "edukasi budaya jawa kampung jawi",
+                "joglo limasan semarang"
+            ],
+            "keywords": [
+                "edukasi budaya",
+                "rumah joglo",
+                "limasan",
+                "lesung",
+                "bahasa jawa"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Bagaimana cara mendukung UMKM lokal di Kampung Jawi?",
+            "answer": "Anda dapat mendukungnya dengan membeli jajanan tradisional, membeli kerajinan warga, dan membagikan pengalaman positif di media sosial.",
+            "aliases": [
+                "dukung umkm kampung jawi",
+                "beli produk lokal angkringan jawi"
+            ],
+            "keywords": [
+                "umkm lokal",
+                "beli produk",
+                "jajanan tradisional",
+                "media sosial"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Apakah ada kerajinan tangan khas warga yang dijual di sini?",
+            "answer": "Beberapa gubuk menyediakan cinderamata kerajinan tangan bambu atau suvenir bertema angkringan tradisional.",
+            "aliases": [
+                "kerajinan tangan kampung jawi",
+                "suvenir angkringan jawi semarang"
+            ],
+            "keywords": [
+                "kerajinan tangan",
+                "suvenir",
+                "cinderamata",
+                "bambu"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Apakah ada pelatihan atau workshop seni tradisional di Kampung Jawi?",
+            "answer": "Terkadang diadakan workshop gamelan atau membatik sederhana bagi pelajar yang ingin belajar langsung seni budaya Jawa.",
+            "aliases": [
+                "workshop seni kampung jawi",
+                "latihan gamelan angkringan jawi semarang"
+            ],
+            "keywords": [
+                "workshop seni",
+                "gamelan",
+                "membatik",
+                "pelajar",
+                "budaya"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Apa penghargaan atau apresiasi yang pernah diterima Kampung Jawi?",
+            "answer": "Kampung Jawi pernah mendapatkan apresiasi sebagai salah satu kampung tematik inspiratif dan rintisan desa wisata kreatif terbaik di Kota Semarang.",
+            "aliases": [
+                "penghargaan kampung jawi",
+                "kampung tematik semarang terbaik"
+            ],
+            "keywords": [
+                "penghargaan",
+                "apresiasi",
+                "kampung tematik",
+                "desa wisata",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Apakah vlogger kuliner diizinkan mengambil video di Kampung Jawi?",
+            "answer": "Sangat diizinkan dan disambut baik. Banyak food vlogger merekam ulasan kuliner tradisional dan suasana malam di sini.",
+            "aliases": [
+                "vlogger kuliner kampung jawi",
+                "youtube review angkringan jawi semarang"
+            ],
+            "keywords": [
+                "vlogger kuliner",
+                "youtube review",
+                "video",
+                "kuliner tradisional"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Apakah dikenakan biaya izin khusus bagi fotografer profesional?",
+            "answer": "Untuk fotografi hobi pribadi tidak dipungut biaya, namun untuk keperluan syuting komersial besar dianjurkan melapor ke pengelola.",
+            "aliases": [
+                "izin foto komersial kampung jawi",
+                "fotografer angkringan jawi semarang"
+            ],
+            "keywords": [
+                "izin foto",
+                "komersial",
+                "hobi pribadi",
+                "pengelola"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Apa tagar (hashtag) resmi atau populer untuk Kampung Jawi di media sosial?",
+            "answer": "Tagar populer yang sering digunakan pengunjung meliputi #KampungJawi #AngkringanKampungJawi dan #WisataSemarang.",
+            "aliases": [
+                "tagar kampung jawi",
+                "hashtag instagram angkringan jawi semarang"
+            ],
+            "keywords": [
+                "tagar",
+                "hashtag",
+                "instagram",
+                "media sosial",
+                "wisata semarang"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Apakah ada akun media sosial resmi Kampung Jawi?",
+            "answer": "Anda dapat memantau informasi dan aktivitas terbaru melalui akun Instagram resmi pengelola Kampung Jawi.",
+            "aliases": [
+                "instagram kampung jawi",
+                "sosmed resmi angkringan jawi semarang"
+            ],
+            "keywords": [
+                "instagram",
+                "media sosial",
+                "akun resmi",
+                "informasi terbaru"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana cara membagikan ulasan atau review positif untuk Kampung Jawi?",
+            "answer": "Anda dapat memberikan ulasan melalui Google Maps, Google Business, atau membagikan foto estetis melalui Instagram dan TikTok.",
+            "aliases": [
+                "review google maps kampung jawi",
+                "ulasan angkringan jawi semarang"
+            ],
+            "keywords": [
+                "ulasan",
+                "review",
+                "google maps",
+                "tiktok",
+                "pengalaman"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Apakah pencahayaan di malam hari cukup terang untuk mengambil foto?",
+            "answer": "Pencahayaan bernuansa temaram lampu petromak memberikan efek sinematik yang artistik, meskipun disarankan menggunakan kamera dengan mode malam (night mode).",
+            "aliases": [
+                "foto malam kampung jawi",
+                "kamera night mode angkringan jawi"
+            ],
+            "keywords": [
+                "foto malam",
+                "pencahayaan temaram",
+                "night mode",
+                "artistik"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Apakah tripod kamera diperbolehkan digunakan di area jalan setapak?",
+            "answer": "Tripod diperbolehkan digunakan selama tidak menghalangi jalur jalan kaki pengunjung lain yang sedang lewat.",
+            "aliases": [
+                "pakai tripod kampung jawi",
+                "aturan kamera angkringan jawi semarang"
+            ],
+            "keywords": [
+                "tripod",
+                "aturan kamera",
+                "jalan setapak",
+                "pengunjung"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Apakah ada sudut tertentu yang menjadi ikon foto favorit pengunjung?",
+            "answer": "Gapura masuk dengan tulisan 'Kampung Jawi' berhias bambu dan lampu teplok adalah sudut ikonik favorit untuk foto bersama.",
+            "aliases": [
+                "gapura ikonik kampung jawi",
+                "foto utama angkringan jawi semarang"
+            ],
+            "keywords": [
+                "gapura ikonik",
+                "foto favorit",
+                "pintu masuk",
+                "tulisan kampung jawi"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Apakah pengelola sering mengadakan lomba foto media sosial?",
+            "answer": "Terkadang diadakan kontes foto berhadiah menarik untuk memeriahkan hari jadi atau event budaya di Kampung Jawi.",
+            "aliases": [
+                "lomba foto kampung jawi",
+                "kontes instagram angkringan jawi semarang"
+            ],
+            "keywords": [
+                "lomba foto",
+                "kontes",
+                "media sosial",
+                "hadiah"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Apakah ada area khusus podcast atau wawancara di lokasi?",
+            "answer": "Tidak ada studio khusus, namun suasana akustik alami di gubuk bambu sering dimanfaatkan kreator untuk bincang-bincang santai.",
+            "aliases": [
+                "podcast di kampung jawi",
+                "wawancara angkringan jawi semarang"
+            ],
+            "keywords": [
+                "podcast",
+                "wawancara",
+                "bincang santai",
+                "gubuk bambu"
+            ]
+        },
+        {
+            "id": "QA81",
+            "question": "Bagaimana cara mengetahui lauk apa saja yang baru saja matang di angkringan?",
+            "answer": "Anda bisa langsung bertanya kepada petugas pramusaji di gubuk makanan atau melihat meja prasmanan yang sering diisi ulang hangat-hangat.",
+            "aliases": [
+                "cara pilih lauk kampung jawi",
+                "makanan baru matang angkringan jawi"
+            ],
+            "keywords": [
+                "lauk baru",
+                "matang",
+                "pramusaji",
+                "prasmanan",
+                "isi ulang"
+            ]
+        },
+        {
+            "id": "QA82",
+            "question": "Apakah minuman wedang disajikan dalam gelas kaca atau poci tanah liat?",
+            "answer": "Sebagian besar minuman teh poci disajikan menggunakan poci tanah liat asli beserta gula batu, sedangkan wedang rempah menggunakan gelas kaca tradisional.",
+            "aliases": [
+                "gelas poci tanah liat kampung jawi",
+                "teh poci angkringan jawi semarang"
+            ],
+            "keywords": [
+                "gelas kaca",
+                "poci tanah liat",
+                "gula batu",
+                "wedang rempah"
+            ]
+        },
+        {
+            "id": "QA83",
+            "question": "Apakah nasi kucing di sini porsinya benar-benar kecil?",
+            "answer": "Ya, porsi nasi kucing khas angkringan disesuaikan dengan ukuran suapan pas (porsi kecil), sehingga pengunjung bisa mencoba berbagai macam varian lauk.",
+            "aliases": [
+                "porsi nasi kucing kampung jawi",
+                "ukuran sego kucing angkringan jawi"
+            ],
+            "keywords": [
+                "porsi kecil",
+                "nasi kucing",
+                "sego kucing",
+                "varian lauk"
+            ]
+        },
+        {
+            "id": "QA84",
+            "question": "Berapa rata-rata nasi kucing yang dihabiskan satu orang pengunjung?",
+            "answer": "Biasanya seorang pengunjung memesan 2 hingga 3 bungkus nasi kucing ditemani berbagai macam sate tusuk dan gorengan.",
+            "aliases": [
+                "berapa bungkus nasi kucing kampung jawi",
+                "makan di angkringan jawi"
+            ],
+            "keywords": [
+                "rata",
+                "bungkus nasi kucing",
+                "sate tusuk",
+                "gorengan"
+            ]
+        },
+        {
+            "id": "QA85",
+            "question": "Bagaimana cara menghitung total pembayaran di kasir?",
+            "answer": "Petugas kasir akan menghitung jumlah piring, tusukan sate yang tersisa, dan bungkus nasi yang Anda ambil di meja makan.",
+            "aliases": [
+                "cara hitung bayar kampung jawi",
+                "kasir angkringan jawi semarang"
+            ],
+            "keywords": [
+                "hitung pembayaran",
+                "kasir",
+                "tusukan sate",
+                "piring makan"
+            ]
+        },
+        {
+            "id": "QA86",
+            "question": "Apakah tusukan sate harus dikumpulkan setelah selesai makan?",
+            "answer": "Ya, disarankan mengumpulkan sisa tusukan sate pada wadah atau piring yang disediakan untuk memudahkan perhitungan kasir.",
+            "aliases": [
+                "tusukan sate kampung jawi",
+                "sisa makan angkringan jawi semarang"
+            ],
+            "keywords": [
+                "tusukan sate",
+                "kumpul",
+                "wadah piring",
+                "perhitungan kasir"
+            ]
+        },
+        {
+            "id": "QA87",
+            "question": "Apakah tersedia tusuk gigi dan tisu di setiap meja?",
+            "answer": "Tersedia perlengkapan dasar seperti tisu dan tusuk gigi di meja kasir atau di beberapa titik gubuk makan.",
+            "aliases": [
+                "tisu tusuk gigi kampung jawi",
+                "fasilitas meja angkringan jawi"
+            ],
+            "keywords": [
+                "tisu",
+                "tusuk gigi",
+                "meja makan",
+                "fasilitas dasar"
+            ]
+        },
+        {
+            "id": "QA88",
+            "question": "Apakah makanan di Kampung Jawi cenderung pedas atau manis khas Jawa?",
+            "answer": "Sebagian besar masakan bernuansa citarasa khas Jawa yang cenderung gurih, manis, dan pedas sedang (sesuai pilihan sambal terasi/sambal bawang).",
+            "aliases": [
+                "rasa makanan kampung jawi",
+                "pedas manis khas jawa angkringan jawi"
+            ],
+            "keywords": [
+                "citarasa",
+                "khas jawa",
+                "gurih manis",
+                "pedas",
+                "sambal"
+            ]
+        },
+        {
+            "id": "QA89",
+            "question": "Apakah ada menu minuman dingin selain es teh?",
+            "answer": "Tersedia aneka es jeruk, es sirup tradisional, dan es beras kencur segar.",
+            "aliases": [
+                "minuman dingin kampung jawi",
+                "es jeruk es teh angkringan jawi semarang"
+            ],
+            "keywords": [
+                "minuman dingin",
+                "es jeruk",
+                "es sirup",
+                "beras kencur"
+            ]
+        },
+        {
+            "id": "QA90",
+            "question": "Apakah nasi liwet di sini disajikan dengan suwiran ayam dan kuah opor?",
+            "answer": "Ya, nasi liwet khas disajikan dengan gurihnya santan, suwiran ayam, dan sambal bajak yang lezat.",
+            "aliases": [
+                "nasi liwet kampung jawi",
+                "sego liwet angkringan jawi semarang"
+            ],
+            "keywords": [
+                "nasi liwet",
+                "santan gurih",
+                "suwiran ayam",
+                "sambal bajak"
+            ]
+        },
+        {
+            "id": "QA91",
+            "question": "Bagaimana cara menghubungi pihak pengelola Kampung Jawi untuk kerja sama?",
+            "answer": "Kerja sama atau pertanyaan seputar acara dapat dikoordinasikan melalui nomor kontak pengelola yang tertera di profil media sosial resmi.",
+            "aliases": [
+                "kontak pengelola kampung jawi",
+                "nomor telepon angkringan jawi semarang"
+            ],
+            "keywords": [
+                "kontak",
+                "kerja sama",
+                "nomor telepon",
+                "pengelola resmi"
+            ]
+        },
+        {
+            "id": "QA92",
+            "question": "Apakah ada rencana penambahan fasilitas saung atau gubuk baru?",
+            "answer": "Pihak pengelola secara rutin merawat dan menambah kapasitas gubuk bambu guna menampung antusiasme pengunjung yang terus meningkat.",
+            "aliases": [
+                "tambah saung kampung jawi",
+                "renovasi gubuk angkringan jawi semarang"
+            ],
+            "keywords": [
+                "penambahan fasilitas",
+                "saung bambu",
+                "renovasi",
+                "kapasitas"
+            ]
+        },
+        {
+            "id": "QA93",
+            "question": "Apakah lokasi Kampung Jawi mudah ditemukan di Google Maps?",
+            "answer": "Sangat mudah, Anda cukup mengetik 'Angkringan Kampung Jawi' di aplikasi Google Maps atau Waze untuk navigasi langsung.",
+            "aliases": [
+                "google maps kampung jawi",
+                "waze angkringan jawi semarang"
+            ],
+            "keywords": [
+                "google maps",
+                "waze",
+                "aplikasi peta",
+                "navigasi",
+                "lokasi"
+            ]
+        },
+        {
+            "id": "QA94",
+            "question": "Apakah ada kantong parkir khusus bus pariwisata?",
+            "answer": "Kantong parkir utama dikhususkan untuk motor dan mobil pribadi, sementara bus besar biasanya berkoordinasi dengan kantong parkir warga di luar gang.",
+            "aliases": [
+                "parkir bus kampung jawi",
+                "bus pariwisata angkringan jawi semarang"
+            ],
+            "keywords": [
+                "parkir bus",
+                "bus pariwisata",
+                "koordinasi",
+                "area luar"
+            ]
+        },
+        {
+            "id": "QA95",
+            "question": "Apakah Kampung Jawi tetap buka saat malam tahun baru atau hari raya?",
+            "answer": "Biasanya Kampung Jawi tetap buka menyambut malam liburan, namun jadwal bisa menyesuaikan dengan kebijakan libur lebaran hari raya idulfitri.",
+            "aliases": [
+                "buka tahun baru kampung jawi",
+                "libur lebaran angkringan jawi semarang"
+            ],
+            "keywords": [
+                "tahun baru",
+                "hari raya",
+                "libur lebaran",
+                "jadwal khusus"
+            ]
+        },
+        {
+            "id": "QA96",
+            "question": "Apakah ada fasilitas colokan listrik (stopkontak) untuk umum?",
+            "answer": "Stopkontak tersedia terbatas di beberapa area dekat tiang lampu atau kasir bagi pengunjung yang mendesak membutuhkan pengisian daya.",
+            "aliases": [
+                "colokan listrik kampung jawi",
+                "charge hp angkringan jawi semarang"
+            ],
+            "keywords": [
+                "colokan listrik",
+                "stopkontak",
+                "pengisian daya",
+                "darurat"
+            ]
+        },
+        {
+            "id": "QA97",
+            "question": "Apakah tersedia tempat sampah organik dan anorganik terpisah?",
+            "answer": "Pihak pengelola menyediakan beberapa wadah sampah di sudut kawasan untuk menjaga kebersihan lingkungan pedesaan.",
+            "aliases": [
+                "tempat sampah kampung jawi",
+                "kebersihan lingkungan angkringan jawi"
+            ],
+            "keywords": [
+                "tempat sampah",
+                "organik anorganik",
+                "kebersihan",
+                "lingkungan"
+            ]
+        },
+        {
+            "id": "QA98",
+            "question": "Apa kesan mendalam yang dirasakan pengunjung setelah dari Kampung Jawi?",
+            "answer": "Pengunjung merasakan nostalgia mendalam akan suasana pedesaan Jawa tempo dulu, kehangatan warga, dan kenikmatan kuliner merakyat yang tak terlupakan.",
+            "aliases": [
+                "kesan pengunjung kampung jawi",
+                "nostalgia angkringan jawi semarang"
+            ],
+            "keywords": [
+                "kesan",
+                "nostalgia",
+                "pedesaan jawa",
+                "kehangatan warga",
+                "kuliner merakyat"
+            ]
+        },
+        {
+            "id": "QA99",
+            "question": "Apakah ada diskon khusus untuk pelajar yang datang berkelompok?",
+            "answer": "Karena harga menu sudah sangat murah merakyat, diskon khusus jarang diterapkan, namun porsi dan keramahan pelayanan tetap diutamakan.",
+            "aliases": [
+                "diskon pelajar kampung jawi",
+                "promo angkringan jawi semarang"
+            ],
+            "keywords": [
+                "diskon pelajar",
+                "promo",
+                "murah merakyat",
+                "pelayanan ramah"
+            ]
+        },
+        {
+            "id": "QA100",
+            "question": "Bagaimana komitmen Kampung Jawi dalam melestarikan budaya lokal?",
+            "answer": "Kampung Jawi berkomitmen penuh menjadi wadah pelestarian kuliner tradisional, arsitektur pedesaan Jawa, dan pemberdayaan ekonomi masyarakat lokal secara berkelanjutan.",
+            "aliases": [
+                "komitmen budaya kampung jawi",
+                "pelestarian angkringan jawi semarang"
+            ],
+            "keywords": [
+                "komitmen",
+                "budaya lokal",
+                "kuliner tradisional",
+                "pemberdayaan ekonomi"
+            ]
+        }
+    ]
+}

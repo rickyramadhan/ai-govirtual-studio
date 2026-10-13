@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "unika",
+    "tourName": "Unika",
+    "updatedAt": "2026-09-29T09:52:51+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Unika?",
+                "query": "Mengapa disebut Unika?",
+                "desc": "Mengapa disebut Unika?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Unika",
+                "desc": "Ceritakan tentang Unika"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Unika"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Unika"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Unika?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Unika?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Unika?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Unika?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

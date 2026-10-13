@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "rsbhayangkara",
+    "tourName": "Rsbhayangkara",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Syarat Berobat Umum",
+                "query": "Apakah masyarakat sipil umum bisa berobat ke rumah sakit ini dan apakah menerima BPJS?",
+                "desc": "Apakah masyarakat sipil umum bisa berobat ke rumah sakit ini dan apakah menerima BPJS?"
+            },
+            {
+                "label": "Layanan Visum",
+                "query": "Bagaimana prosedur permintaan visum et repertum di RS Bhayangkara Akpol untuk keperluan hukum?",
+                "desc": "Bagaimana prosedur permintaan visum et repertum di RS Bhayangkara Akpol untuk keperluan hukum?"
+            },
+            {
+                "label": "Poli Gigi & Mulut",
+                "query": "Apakah ada dokter gigi spesialis yang praktik di poli gigi rumah sakit ini?",
+                "desc": "Apakah ada dokter gigi spesialis yang praktik di poli gigi rumah sakit ini?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Fasilitas Medis Polri",
+                "query": "Bagaimana peran ganda RS Bhayangkara Akpol dalam melayani anggota Polri, Taruna Akpol, dan masyarakat umum?"
+            },
+            {
+                "label": "Layanan Kedokteran Kepolisian",
+                "query": "Apa saja peran unit Kedokteran Kepolisian (Dokpol) seperti DVI dan visum dalam mendukung tugas kepolisian?"
+            },
+            {
+                "label": "Pusat Trauma & Kecelakaan",
+                "query": "Bagaimana kesiapan fasilitas penanganan trauma (Trauma Center) dalam menangani korban kecelakaan lalu lintas?"
+            },
+            {
+                "label": "Gedung Rawat Inap",
+                "query": "Apa saja pilihan tipe kamar yang tersedia bagi pasien umum di bangsal rawat inap rumah sakit ini?"
+            },
+            {
+                "label": "Layanan Medical Check Up",
+                "query": "Bagaimana prosedur dan paket lengkap pemeriksaan kesehatan berkala (MCU) untuk instansi maupun perorangan?"
+            },
+            {
+                "label": "Fasilitas Rehabilitasi Medik",
+                "query": "Bagaimana kelengkapan alat terapi dan program layanan fisioterapi bagi pasien dalam masa pemulihan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Rsbhayangkara?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Rsbhayangkara?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Rsbhayangkara?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

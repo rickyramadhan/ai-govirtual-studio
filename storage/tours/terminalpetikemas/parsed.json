@@ -1,0 +1,490 @@
+{
+    "startNode": "node11",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Stackingyard",
+            "displayName": "Stackingyard",
+            "rawName": "",
+            "customNodeId": "stackingyard",
+            "pan": 110.49,
+            "tilt": -0.88,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "stackingyard"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Kontainer",
+            "displayName": "Kontainer",
+            "rawName": "",
+            "customNodeId": "-ontainer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Kontainer"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Kontainer",
+            "displayName": "Kontainer",
+            "rawName": "",
+            "customNodeId": "-ontainer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Kontainer"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Bollard",
+            "displayName": "Bollard",
+            "rawName": "",
+            "customNodeId": "bollard",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "bollard"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "hehe",
+            "displayName": "hehe",
+            "rawName": "hehe",
+            "customNodeId": "dermaga",
+            "pan": 16.57,
+            "tilt": 4.08,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "dermaga",
+                "hehe"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Gerbang",
+            "displayName": "Gerbang",
+            "rawName": "",
+            "customNodeId": "gerbang",
+            "pan": 10.76,
+            "tilt": 0.84,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "gerbang"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Kapal Kontainer",
+            "displayName": "Kapal Kontainer",
+            "rawName": "",
+            "customNodeId": "-apal-ontainer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Kapal Kontainer"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Areapetikemas",
+            "displayName": "Areapetikemas",
+            "rawName": "",
+            "customNodeId": "areapetikemas",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "areapetikemas"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Drone Petikemas",
+            "displayName": "Drone Petikemas",
+            "rawName": "Drone Petikemas",
+            "customNodeId": "",
+            "pan": 22.88,
+            "tilt": -7.96,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Drone Petikemas"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "sapi",
+            "displayName": "sapi",
+            "rawName": "sapi",
+            "customNodeId": "video360_1",
+            "pan": 15.37,
+            "tilt": -2.05,
+            "fov": 100,
+            "tags": [
+                "360video",
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "video360_1",
+                "sapi"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Kapal Kontainer",
+            "displayName": "Kapal Kontainer",
+            "rawName": "",
+            "customNodeId": "-apal-ontainer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Kapal Kontainer"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Kapal Kontainer",
+            "displayName": "Kapal Kontainer",
+            "rawName": "",
+            "customNodeId": "-apal-ontainer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Kapal Kontainer"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Gerbang Masuk",
+            "displayName": "Gerbang Masuk",
+            "rawName": "",
+            "customNodeId": "-erbang-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TerminalPetikemas"
+            ],
+            "aliases": [
+                "Gerbang Masuk"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node10",
+            "title": "Terminal Petikemas",
+            "id": "Point01",
+            "pan": -246.71,
+            "tilt": 2.54
+        },
+        {
+            "scene": "node1",
+            "target": "node15",
+            "title": "Gerbang Masuk",
+            "id": "Point02",
+            "pan": -66.33,
+            "tilt": -3.9
+        },
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "Kembali",
+            "id": "Point01",
+            "pan": -88.05,
+            "tilt": 2.76
+        },
+        {
+            "scene": "node3",
+            "target": "node6",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -72.4,
+            "tilt": 2.13
+        },
+        {
+            "scene": "node3",
+            "target": "node2",
+            "title": "Kontainer",
+            "id": "Point02",
+            "pan": -96.18,
+            "tilt": 1.9
+        },
+        {
+            "scene": "node4",
+            "target": "node6",
+            "title": "Kembali",
+            "id": "Point01",
+            "pan": -348.93,
+            "tilt": 0.38
+        },
+        {
+            "scene": "node6",
+            "target": "node9",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -348.04,
+            "tilt": -1.42
+        },
+        {
+            "scene": "node6",
+            "target": "node4",
+            "title": "Tonggak Penanggat Kapal",
+            "id": "Point02",
+            "pan": -185.94,
+            "tilt": 1.75
+        },
+        {
+            "scene": "node6",
+            "target": "node3",
+            "title": "Kontainer",
+            "id": "Point03",
+            "pan": -260.5,
+            "tilt": 1.2
+        },
+        {
+            "scene": "node6",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point05",
+            "pan": -65.74,
+            "tilt": -0.6
+        },
+        {
+            "scene": "node8",
+            "target": "node10",
+            "title": "Terminal Petikemas",
+            "id": "Point01",
+            "pan": -159.03,
+            "tilt": 5.95
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Kapal Kontainer",
+            "id": "Point02",
+            "pan": -337.46,
+            "tilt": 3.57
+        },
+        {
+            "scene": "node8",
+            "target": "node13",
+            "title": "Kapal Kontainer",
+            "id": "Point03",
+            "pan": -220.17,
+            "tilt": 1.02
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Kontainer",
+            "id": "Point01",
+            "pan": -307.65,
+            "tilt": 0.16
+        },
+        {
+            "scene": "node9",
+            "target": "node6",
+            "title": "Kapal Kontainer",
+            "id": "Point02",
+            "pan": -129.93,
+            "tilt": 1.83
+        },
+        {
+            "scene": "node10",
+            "target": "node8",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -230.17,
+            "tilt": 2.37
+        },
+        {
+            "scene": "node10",
+            "target": "node1",
+            "title": "Kontainer",
+            "id": "Point02",
+            "pan": -139.95,
+            "tilt": -0.48
+        },
+        {
+            "scene": "node11",
+            "target": "node6",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -320.76,
+            "tilt": -19.91
+        },
+        {
+            "scene": "node11",
+            "target": "node3",
+            "title": "Kontainer",
+            "id": "Point02",
+            "pan": -3.23,
+            "tilt": -11.59
+        },
+        {
+            "scene": "node11",
+            "target": "node1",
+            "title": "Kontainer",
+            "id": "Point03",
+            "pan": -174.88,
+            "tilt": -28.47
+        },
+        {
+            "scene": "node11",
+            "target": "node13",
+            "title": "Kapal Kontainer",
+            "id": "Point07",
+            "pan": -204.27,
+            "tilt": -11.32
+        },
+        {
+            "scene": "node12",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -74.46,
+            "tilt": -4.12
+        },
+        {
+            "scene": "node13",
+            "target": "node14",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -289.34,
+            "tilt": -0.56
+        },
+        {
+            "scene": "node13",
+            "target": "node8",
+            "title": "Kontainer",
+            "id": "Point02",
+            "pan": -86.3,
+            "tilt": 1.03
+        },
+        {
+            "scene": "node13",
+            "target": "node15",
+            "title": "Gerbang Masuk",
+            "id": "Point03",
+            "pan": -138,
+            "tilt": 0.87
+        },
+        {
+            "scene": "node14",
+            "target": "node13",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -80.18,
+            "tilt": 1.34
+        },
+        {
+            "scene": "node15",
+            "target": "node13",
+            "title": "Kapal Kontainer",
+            "id": "Point01",
+            "pan": -345.15,
+            "tilt": 2.35
+        },
+        {
+            "scene": "node15",
+            "target": "node1",
+            "title": "Kontainer",
+            "id": "Point02",
+            "pan": -70.34,
+            "tilt": -0.2
+        },
+        {
+            "scene": "node15",
+            "target": "node10",
+            "title": "Terminal Petikemas",
+            "id": "Point03",
+            "pan": -16.99,
+            "tilt": 2.07
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 935,
+            "label": "Stacking Yard",
+            "description": "Tumpukan Peti Kemas (Stacking Yard) merupakan area lapangan penumpukan tempat berbagai peti kemas dari maskapai pelayaran internasional seperti MAERSK, EVERGREEN, KMTC, COSCO SHIPPING, dan SAMUDERA disusun rapi sambil menunggu proses pemuatan ke kapal atau pengiriman kepada pemilik barang.",
+            "fragment": "stacking-yard",
+            "link": "petikemas/index.html#stacking-yard",
+            "sceneId": "node1"
+        },
+        {
+            "infoId": 936,
+            "label": "Gerbang",
+            "description": "Gerbang masuk utama atau gate TPK Semarang (Terminal Peti Kemas Semarang) berfungsi sebagai titik kontrol utama bagi truk pengangkut kontainer yang masuk dan keluar area pelabuhan. Area ini dilengkapi dengan beberapa lajur pemeriksaan yang memiliki rambu peringatan serta batas ketinggian kendaraan.",
+            "fragment": "gerbang",
+            "link": "petikemas/index.html#gerbang",
+            "sceneId": "node8"
+        },
+        {
+            "infoId": 937,
+            "label": "Dermaga",
+            "description": "Dermaga TPKS Semarang memiliki panjang sekitar 495 hingga 600 meter. Peralatan utama yang beroperasi di sisi dermaga seperti STS (Ship-to-Shore) Crane atau Container Crane merupakan derek raksasa yang berfungsi memindahkan peti kemas dari palka kapal ke truk dermaga atau sebaliknya. TPKS mengoperasikan beberapa unit STS Crane bertenaga listrik yang ramah lingkungan.",
+            "fragment": "dermaga",
+            "link": "petikemas/index.html#dermaga",
+            "sceneId": "node6"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "5a932eed0ad71bcf",
+        "skin.js": "24414546fe15ebce",
+        "index.html": "4e19c6dd62a7f151"
+    }
+}

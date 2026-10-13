@@ -1,0 +1,163 @@
+{
+    "version": "1.0",
+    "tourId": "udinus",
+    "tourName": "Udinus",
+    "updatedAt": "2026-09-29T09:52:49+02:00",
+    "startScene": "node80",
+    "order": [
+        "node80",
+        "node82",
+        "node81",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node117",
+        "node118",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108",
+        "node109",
+        "node110",
+        "node111",
+        "node112",
+        "node113",
+        "node114",
+        "node115",
+        "node116"
+    ],
+    "nodes": {
+        "node80": {
+            "displayName": "Universitas Dian Nuswantoro – UDINUS – Panorama Udara Jalan Kampus"
+        },
+        "node82": {
+            "displayName": "Universitas Dian Nuswantoro – Aula dengan Kursi Merah"
+        },
+        "node81": {
+            "displayName": "Universitas Dian Nuswantoro – UDINUS – Panorama Udara Kompleks"
+        },
+        "node83": {
+            "displayName": "Universitas Dian Nuswantoro – Bengkel Koding"
+        },
+        "node84": {
+            "displayName": "Universitas Dian Nuswantoro – Biro Keuangan"
+        },
+        "node85": {
+            "displayName": "Universitas Dian Nuswantoro – Aula dengan Kursi Abu-Abu"
+        },
+        "node86": {
+            "displayName": "Universitas Dian Nuswantoro – Kantin Kampus"
+        },
+        "node87": {
+            "displayName": "Universitas Dian Nuswantoro – Laboratorium Anatomi"
+        },
+        "node88": {
+            "displayName": "Universitas Dian Nuswantoro – Masjid Baitul Ilmi – Ruang Salat"
+        },
+        "node89": {
+            "displayName": "Universitas Dian Nuswantoro – Meja Layanan Perpustakaan"
+        },
+        "node90": {
+            "displayName": "Universitas Dian Nuswantoro – Ruang Tunggu Aula"
+        },
+        "node91": {
+            "displayName": "Universitas Dian Nuswantoro – Lobi Fakultas Kedokteran"
+        },
+        "node92": {
+            "displayName": "Universitas Dian Nuswantoro – Pintu Gedung UDINUS"
+        },
+        "node93": {
+            "displayName": "Universitas Dian Nuswantoro – Akses Laboratorium Anatomi"
+        },
+        "node94": {
+            "displayName": "Universitas Dian Nuswantoro – Teras Masjid"
+        },
+        "node96": {
+            "displayName": "Universitas Dian Nuswantoro – Pintu Gedung Rektorat"
+        },
+        "node97": {
+            "displayName": "Universitas Dian Nuswantoro – Fasad Fakultas Kedokteran"
+        },
+        "node98": {
+            "displayName": "Universitas Dian Nuswantoro – Lobi Area Robot Gamelan"
+        },
+        "node99": {
+            "displayName": "Universitas Dian Nuswantoro – Ruang Pamer Teknologi"
+        },
+        "node117": {
+            "displayName": "Universitas Dian Nuswantoro – Instrumen – Video 360"
+        },
+        "node118": {
+            "displayName": "Universitas Dian Nuswantoro – Catur – Video 360"
+        },
+        "node100": {
+            "displayName": "Universitas Dian Nuswantoro – Gedung TVKU"
+        },
+        "node101": {
+            "displayName": "Universitas Dian Nuswantoro – GOR Satria – Pelataran"
+        },
+        "node102": {
+            "displayName": "Universitas Dian Nuswantoro – Laboratorium Animasi"
+        },
+        "node103": {
+            "displayName": "Universitas Dian Nuswantoro – Laboratorium Biomolekuler – Dalam"
+        },
+        "node104": {
+            "displayName": "Universitas Dian Nuswantoro – Akses Laboratorium Biomolekuler"
+        },
+        "node105": {
+            "displayName": "Universitas Dian Nuswantoro – Laboratorium Komputer – Dalam"
+        },
+        "node106": {
+            "displayName": "Universitas Dian Nuswantoro – Koridor Laboratorium Komputer"
+        },
+        "node107": {
+            "displayName": "Universitas Dian Nuswantoro – Studio Stop Motion"
+        },
+        "node108": {
+            "displayName": "Universitas Dian Nuswantoro – Lapangan Basket Indoor"
+        },
+        "node109": {
+            "displayName": "Universitas Dian Nuswantoro – Gedung C"
+        },
+        "node110": {
+            "displayName": "Universitas Dian Nuswantoro – Akses Perpustakaan"
+        },
+        "node111": {
+            "displayName": "Universitas Dian Nuswantoro – Parkir Mobil Kampus"
+        },
+        "node112": {
+            "displayName": "Universitas Dian Nuswantoro – Poliklinik UDINUS"
+        },
+        "node113": {
+            "displayName": "Universitas Dian Nuswantoro – Teras Atap Kampus"
+        },
+        "node114": {
+            "displayName": "Universitas Dian Nuswantoro – Studio Televisi"
+        },
+        "node115": {
+            "displayName": "Universitas Dian Nuswantoro – Gedung UKM"
+        },
+        "node116": {
+            "displayName": "Universitas Dian Nuswantoro – Pintu Gedung I"
+        }
+    }
+}

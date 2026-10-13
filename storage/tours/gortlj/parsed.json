@@ -1,0 +1,732 @@
+{
+    "startNode": "node17",
+    "scenes": [
+        {
+            "id": "node17",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 7.71224,
+            "tilt": -20.9092,
+            "fov": 144.235,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node1",
+            "name": "Tribun",
+            "displayName": "Tribun",
+            "rawName": "",
+            "customNodeId": "-ribun",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Tribun"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Jalur Jogging",
+            "displayName": "Jalur Jogging",
+            "rawName": "",
+            "customNodeId": "-alur-ogging",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Jalur Jogging"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Bulutangkis",
+            "displayName": "Bulutangkis",
+            "rawName": "",
+            "customNodeId": "bulutangkis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "bulutangkis"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Lapanganbasket",
+            "displayName": "Lapanganbasket",
+            "rawName": "",
+            "customNodeId": "lapanganbasket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "lapanganbasket"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Kardio",
+            "displayName": "Kardio",
+            "rawName": "",
+            "customNodeId": "kardio",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "kardio"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Panjattebing",
+            "displayName": "Panjattebing",
+            "rawName": "",
+            "customNodeId": "panjattebing",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "panjattebing"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Gym",
+            "displayName": "Gym",
+            "rawName": "",
+            "customNodeId": "gym",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "gym"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Fitnes",
+            "displayName": "Fitnes",
+            "rawName": "",
+            "customNodeId": "fitnes",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "fitnes"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Lapanganbola",
+            "displayName": "Lapanganbola",
+            "rawName": "",
+            "customNodeId": "lapanganbola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "lapanganbola"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Skateboard",
+            "displayName": "Skateboard",
+            "rawName": "",
+            "customNodeId": "skateboard",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "skateboard"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Lapangan Tennis",
+            "displayName": "Lapangan Tennis",
+            "rawName": "",
+            "customNodeId": "-apangan-ennis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Lapangan Tennis"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Tenis",
+            "displayName": "Tenis",
+            "rawName": "",
+            "customNodeId": "tenis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "tenis"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Lapangantennis",
+            "displayName": "Lapangantennis",
+            "rawName": "",
+            "customNodeId": "lapangantennis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "lapangantennis"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Tugu GOR Tri Lomba Juang",
+            "displayName": "Tugu GOR Tri Lomba Juang",
+            "rawName": "",
+            "customNodeId": "-ugu-ri-omba-uang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Tugu GOR Tri Lomba Juang"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Umkm",
+            "displayName": "Umkm",
+            "rawName": "",
+            "customNodeId": "umkm",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "umkm"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Jalur Jogging",
+            "displayName": "Jalur Jogging",
+            "rawName": "",
+            "customNodeId": "-alur-ogging",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Jalur Jogging"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node17",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": 12.88,
+            "tilt": -32.43
+        },
+        {
+            "scene": "node17",
+            "target": "node14",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -35.03,
+            "tilt": -25.64
+        },
+        {
+            "scene": "node17",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point03",
+            "pan": -9.98,
+            "tilt": -14.96
+        },
+        {
+            "scene": "node17",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point04",
+            "pan": 28.48,
+            "tilt": -17
+        },
+        {
+            "scene": "node1",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -163.58,
+            "tilt": 0.18
+        },
+        {
+            "scene": "node1",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": 89.39,
+            "tilt": 3.27
+        },
+        {
+            "scene": "node1",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -76.04,
+            "tilt": -1.23
+        },
+        {
+            "scene": "node18",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -76.04,
+            "tilt": -1.23
+        },
+        {
+            "scene": "node2",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -171.43,
+            "tilt": 0.55
+        },
+        {
+            "scene": "node2",
+            "target": "node4",
+            "title": "Arena Basket",
+            "id": "Point02",
+            "pan": -286.14,
+            "tilt": 4.95
+        },
+        {
+            "scene": "node2",
+            "target": "node16",
+            "title": "Jalur Jogging",
+            "id": "Point03",
+            "pan": -244.27,
+            "tilt": 4.71
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Tribun",
+            "id": "Point04",
+            "pan": -83.43,
+            "tilt": 2.12
+        },
+        {
+            "scene": "node3",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point01",
+            "pan": 42.94,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node4",
+            "target": "node10",
+            "title": "Arena Skate",
+            "id": "Point01",
+            "pan": 31.91,
+            "tilt": -1.99
+        },
+        {
+            "scene": "node4",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": 191.36,
+            "tilt": 0.62
+        },
+        {
+            "scene": "node5",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -158.56,
+            "tilt": 0.47
+        },
+        {
+            "scene": "node5",
+            "target": "node6",
+            "title": "Panjat Tebing",
+            "id": "Point02",
+            "pan": -109.33,
+            "tilt": 2.11
+        },
+        {
+            "scene": "node5",
+            "target": "node14",
+            "title": "Tugu GOR Tri Lomba Juang",
+            "id": "Point04",
+            "pan": 32.49,
+            "tilt": -1.18
+        },
+        {
+            "scene": "node5",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -229.37,
+            "tilt": 0.98
+        },
+        {
+            "scene": "node6",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -145.06,
+            "tilt": 0.85
+        },
+        {
+            "scene": "node6",
+            "target": "node5",
+            "title": "Kardio",
+            "id": "Point02",
+            "pan": -223.25,
+            "tilt": 0.83
+        },
+        {
+            "scene": "node7",
+            "target": "node8",
+            "title": "Gimnasium",
+            "id": "Point02",
+            "pan": -1.47,
+            "tilt": -5.02
+        },
+        {
+            "scene": "node8",
+            "target": "node7",
+            "title": "Gimnasium",
+            "id": "Point01",
+            "pan": 70.56,
+            "tilt": -13.19
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -178,
+            "tilt": -9.12
+        },
+        {
+            "scene": "node9",
+            "target": "node1",
+            "title": "Tribun",
+            "id": "Point02",
+            "pan": -17.76,
+            "tilt": 0.46
+        },
+        {
+            "scene": "node9",
+            "target": "node6",
+            "title": "Panjat Tebing",
+            "id": "Point03",
+            "pan": -113.57,
+            "tilt": 5.21
+        },
+        {
+            "scene": "node9",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point04",
+            "pan": 68.61,
+            "tilt": 5.71
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Gimnasium",
+            "id": "Point05",
+            "pan": -324.54,
+            "tilt": 4.27
+        },
+        {
+            "scene": "node9",
+            "target": "node5",
+            "title": "Kardio",
+            "id": "Point06",
+            "pan": -62.5,
+            "tilt": 5.65
+        },
+        {
+            "scene": "node10",
+            "target": "node4",
+            "title": "Arena Basket",
+            "id": "Point01",
+            "pan": 200.11,
+            "tilt": -2.25
+        },
+        {
+            "scene": "node10",
+            "target": "node16",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": 108.34,
+            "tilt": -6.27
+        },
+        {
+            "scene": "node11",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -32.65,
+            "tilt": 0.66
+        },
+        {
+            "scene": "node11",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -112.78,
+            "tilt": 0.11
+        },
+        {
+            "scene": "node12",
+            "target": "node13",
+            "title": "Lapangan Tennis",
+            "id": "Point01",
+            "pan": -129.68,
+            "tilt": 2.42
+        },
+        {
+            "scene": "node12",
+            "target": "node11",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -315.56,
+            "tilt": -0.6
+        },
+        {
+            "scene": "node12",
+            "target": "node3",
+            "title": "Lapangan Badminton",
+            "id": "Point03",
+            "pan": -45.8,
+            "tilt": 0.74
+        },
+        {
+            "scene": "node13",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point01",
+            "pan": 127.71,
+            "tilt": 1.12
+        },
+        {
+            "scene": "node14",
+            "target": "node15",
+            "title": "UMKM",
+            "id": "Point01",
+            "pan": 280.93,
+            "tilt": -1.45
+        },
+        {
+            "scene": "node14",
+            "target": "node5",
+            "title": "Masuk",
+            "id": "Point02",
+            "pan": 358.09,
+            "tilt": -5.24
+        },
+        {
+            "scene": "node15",
+            "target": "node14",
+            "title": "Tugu GOR Tri Lomba Juang",
+            "id": "Point01",
+            "pan": 262.41,
+            "tilt": -8.96
+        },
+        {
+            "scene": "node15",
+            "target": "node11",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": 107.93,
+            "tilt": 5.45
+        },
+        {
+            "scene": "node15",
+            "target": "node5",
+            "title": "Jalur Jogging",
+            "id": "Point03",
+            "pan": 170.19,
+            "tilt": -7.32
+        },
+        {
+            "scene": "node16",
+            "target": "node10",
+            "title": "Arena Skate",
+            "id": "Point01",
+            "pan": -310.08,
+            "tilt": 0.01
+        },
+        {
+            "scene": "node16",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": -92.64,
+            "tilt": -0.47
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 481,
+            "label": "Panjat Tebing",
+            "description": "GOR Tri Lomba Juang memiliki fasilitas panjat tebing yang tersedia bagi atlet dan masyarakat umum untuk berlatih. Area ini melayani olahraga vertikal dan sering dimanfaatkan oleh komunitas panjat tebing setempat.",
+            "fragment": "panjattebing",
+            "link": "lombajuang/index.html#panjattebing",
+            "sceneId": "node6"
+        },
+        {
+            "infoId": 482,
+            "label": "Lapangan Bola",
+            "description": "Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola.",
+            "fragment": "lapanganbola",
+            "link": "lombajuang/index.html#lapanganbola",
+            "sceneId": "node9"
+        },
+        {
+            "infoId": 483,
+            "label": "Lapangan Basket",
+            "description": "Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola.",
+            "fragment": "lapanganbasket",
+            "link": "lombajuang/index.html#lapanganbasket",
+            "sceneId": "node4"
+        },
+        {
+            "infoId": 484,
+            "label": "Arena Skateboarding",
+            "description": "GOR Tri Lomba Juang menyediakan area khusus yang disebut Loop Arena untuk menampung berbagai komunitas, termasuk olahraga ekstrem seperti skateboard dan BMX. Arena ini dibangun untuk memberikan wadah legal dan aman bagi anak muda menyalurkan hobi mereka.",
+            "fragment": "skateboard",
+            "link": "lombajuang/index.html#skateboard",
+            "sceneId": "node10"
+        },
+        {
+            "infoId": 485,
+            "label": "Lapangan Tennis",
+            "description": "Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat.",
+            "fragment": "lapangantennis",
+            "link": "lombajuang/index.html#lapangantennis",
+            "sceneId": "node13"
+        },
+        {
+            "infoId": 486,
+            "label": "Lapangan Bulu Tangkis",
+            "description": "Fasilitas ini berupa lapangan bulu tangkis yang terletak di dalam gedung olahraga (GOR Indoor), lengkap dengan net dan lantai yang rata. Lapangan ini dapat disewa secara harian atau bulanan untuk latihan maupun rekreasi.",
+            "fragment": "bulutangkis",
+            "link": "lombajuang/index.html#bulutangkis",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 487,
+            "label": "Fitnes",
+            "description": "Fasilitas fitnes ini tersedia dalam ruangan (indoor) dengan alat yang mempuni untuk kebutuhan kebugaran tubuh para pengunjung.",
+            "fragment": "fitnes",
+            "link": "lombajuang/index.html#fitnes",
+            "sceneId": "node8"
+        },
+        {
+            "infoId": 488,
+            "label": "Kardio",
+            "description": "Fasilitas yang tersedia secara outdoor untuk kebutuhan kardio. Terletak di sudut area GOR Tri Lomba Juang Semarang.",
+            "fragment": "kardio",
+            "link": "lombajuang/index.html#kardio",
+            "sceneId": "node5"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "f90a878d8b4d25b5",
+        "skin.js": "82ca6a7138e6cb06",
+        "index.html": "1328d153a49e6a62"
+    }
+}

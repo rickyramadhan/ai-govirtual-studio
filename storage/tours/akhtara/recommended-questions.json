@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "akhtara",
+    "tourName": "Akhtara",
+    "updatedAt": "2026-09-29T06:34:14+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Akhtara?",
+                "query": "Mengapa disebut Akhtara?",
+                "desc": "Mengapa disebut Akhtara?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Akhtara",
+                "desc": "Ceritakan tentang Akhtara"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Akhtara"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Akhtara"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Akhtara?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Akhtara?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Akhtara?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Akhtara?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

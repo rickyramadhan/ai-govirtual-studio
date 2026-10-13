@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "masjidkauman",
+    "updatedAt": "2026-09-29T09:51:22+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Masjidkauman",
+            "aliases": [
+                "masjidkauman"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "masjidkauman"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Masjidkauman.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Masjidkauman",
+                    "content": "Pusat pengalaman virtual untuk Masjidkauman."
+                },
+                "en": {
+                    "title": "Masjidkauman",
+                    "content": "Pusat pengalaman virtual untuk Masjidkauman."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "masjidkauman"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Mimbar",
+            "aliases": [
+                "mimbar"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "masjidkauman"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Mimbar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Mimbar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "masjidkauman"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1081",
+            "entityId": "objinfo2:1081",
+            "title": "Tempat Wudhu",
+            "aliases": [
+                "tempat wudhu",
+                "objek 1081"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tempat wudhu di Masjid Agung Semarang (Kauman) dirancang fungsional dan aksesibel untuk melayani tingginya mobilitas jamaah yang beragam, mulai dari warga lokal, musafir, hingga para pedagang dan pengunjung Pasar Djohar.",
+            "source": "webview-import",
+            "sourceId": "1081",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tempat Wudhu",
+                    "content": "Tempat wudhu di Masjid Agung Semarang (Kauman) dirancang fungsional dan aksesibel untuk melayani tingginya mobilitas jamaah yang beragam, mulai dari warga lokal, musafir, hingga para pedagang dan pengunjung Pasar Djohar."
+                },
+                "en": {
+                    "title": "Ablution Area",
+                    "content": "The ablution area at the Great Mosque of Semarang (Kauman) is designed to be functional and accessible to serve the high mobility of diverse worshippers, including local residents, travelers, traders, and visitors of Djohar Market."
+                },
+                "zh": {
+                    "title": "洗手间（净身区）",
+                    "content": "三宝垄大清真寺（卡乌曼）的洗手净身区设计功能性强且便于使用，能够满足来自当地居民、旅客、商贩及德约哈尔市场访客等多元信徒的高流动性需求。"
+                },
+                "ar": {
+                    "title": "منطقة الوضوء",
+                    "content": "تم تصميم منطقة الوضوء في مسجد سمارانغ الكبير (كاومان) لتكون عملية وسهلة الوصول، لخدمة الحركة الكبيرة للمصلين المتنوعين، بما في ذلك السكان المحليين والمسافرين والتجار وزوار سوق دجوهار."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1082",
+            "entityId": "objinfo2:1082",
+            "title": "Ruang sholat",
+            "aliases": [
+                "ruang sholat",
+                "objek 1082"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area sholat utama di Masjid Agung Semarang (Kauman) menawarkan atmosfer yang sangat sakral, hening, dan kental dengan nuansa sejarah yang seolah membawa jamaah kembali ke masa lampau. Didominasi oleh arsitektur tradisional Jawa yang megah, ruang utama ini ditopang oleh empat tiang penyangga utama atau saka guru dari kayu jati solid berukuran besar yang melambangkan kekuatan pondasi bangunan sekaligus spiritualitas.",
+            "source": "webview-import",
+            "sourceId": "1082",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang sholat",
+                    "content": "Area sholat utama di Masjid Agung Semarang (Kauman) menawarkan atmosfer yang sangat sakral, hening, dan kental dengan nuansa sejarah yang seolah membawa jamaah kembali ke masa lampau. Didominasi oleh arsitektur tradisional Jawa yang megah, ruang utama ini ditopang oleh empat tiang penyangga utama atau saka guru dari kayu jati solid berukuran besar yang melambangkan kekuatan pondasi bangunan sekaligus spiritualitas."
+                },
+                "en": {
+                    "title": "Prayer room",
+                    "content": "The main prayer area at the Great Mosque of Semarang (Kauman) offers a very sacred, quiet atmosphere filled with a historical ambiance that seems to transport worshippers back to the past. Dominated by majestic traditional Javanese architecture, this main space is supported by four large solid teak pillars (saka guru) symbolizing both the strength of the building’s foundation and its spirituality."
+                },
+                "zh": {
+                    "title": "祷告室",
+                    "content": "三宝垄大清真寺（卡乌曼）的主祷区氛围庄严、宁静且充满历史感，仿佛将信徒带回过去。该主空间以宏伟的爪哇传统建筑为主，支撑其结构的是四根大型实心柚木主柱（saka guru），象征着建筑地基的坚固与精神性。"
+                },
+                "ar": {
+                    "title": "غرفة الصلاة",
+                    "content": "تقدم منطقة الصلاة الرئيسية في مسجد سمارانغ الكبير (كاومان) أجواءً مقدسة وهادئة للغاية، مشبعةً بطابع تاريخي يُشعر المصلين وكأنهم يعودون إلى الماضي. تهيمن عليها العمارة الجاوية التقليدية الفخمة، ويدعمها أربعة أعمدة رئيسية كبيرة من خشب الساج الصلب (saka guru) ترمز إلى قوة أساس المبنى والروحانية في آنٍ واحد."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1083",
+            "entityId": "objinfo2:1083",
+            "title": "Aloon-aloon Masjid Agung Semarang",
+            "aliases": [
+                "aloon-aloon masjid agung semarang",
+                "objek 1083"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kawasan ini telah direvitalisasi secara total oleh pemerintah dan dikembalikan fungsinya sebagai ruang terbuka publik yang hijau dan asri. Saat ini, alun-alun tersebut menjadi halaman depan yang megah bagi masjid, memisahkan area sakral tempat ibadah dengan hiruk-pikuk aktivitas perdagangan di Pasar Johar, sekaligus mengembalikan konsep \"Catur Gatra Tunggal\" (kesatuan antara pusat pemerintahan, ibadah, pasar, dan penjara/alun-alun) yang dulu menjadi ciri khas pusat kota Semarang.",
+            "source": "webview-import",
+            "sourceId": "1083",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Aloon-aloon Masjid Agung Semarang",
+                    "content": "Kawasan ini telah direvitalisasi secara total oleh pemerintah dan dikembalikan fungsinya sebagai ruang terbuka publik yang hijau dan asri. Saat ini, alun-alun tersebut menjadi halaman depan yang megah bagi masjid, memisahkan area sakral tempat ibadah dengan hiruk-pikuk aktivitas perdagangan di Pasar Johar, sekaligus mengembalikan konsep \"Catur Gatra Tunggal\" (kesatuan antara pusat pemerintahan, ibadah, pasar, dan penjara/alun-alun) yang dulu menjadi ciri khas pusat kota Semarang."
+                },
+                "en": {
+                    "title": "Aloon-aloon of Semarang Grand Mosque",
+                    "content": "This area has been completely revitalized by the government and restored as a green and lush public open space. Today, the square serves as a grand front yard for the mosque, separating the sacred worship area from the bustling trade activities of Johar Market, while also reviving the concept of \"Catur Gatra Tunggal\" (the unity of government center, worship, market, and prison/square) that once characterized the heart of Semarang city."
+                },
+                "zh": {
+                    "title": "三宝垄大清真寺前广场",
+                    "content": "该区域已由政府全面复兴，并恢复为绿色、清新的公共开放空间。如今，这个广场成为清真寺的宏伟前庭，隔离了神圣的礼拜区与乔哈尔市场的喧闹交易活动，同时也重现了曾经是三宝垄市中心特色的“Catur Gatra Tunggal”（政府中心、宗教、市场与监狱/广场的统一）概念。"
+                },
+                "ar": {
+                    "title": "ساحة المسجد الكبير في سمارانغ",
+                    "content": "تم إعادة تأهيل هذه المنطقة بالكامل من قبل الحكومة وأعيدت وظيفتها كمساحة عامة مفتوحة خضراء ومورقة. اليوم، أصبحت الساحة بمثابة ساحة أمامية فخمة للمسجد، تفصل بين المنطقة المقدسة للصلاة وصخب الأنشطة التجارية في سوق جوهار، كما أعادت إحياء مفهوم \"Catur Gatra Tunggal\" (وحدة مركز الحكومة والعبادة والسوق والسجن/الساحة) الذي كان يميز قلب مدينة سمارانغ."
+                }
+            }
+        }
+    ]
+}

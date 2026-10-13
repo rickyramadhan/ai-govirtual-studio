@@ -1,0 +1,385 @@
+{
+    "version": "1.1-seed",
+    "tourId": "tahupetis",
+    "generatedAt": "2026-10-01",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "node1",
+            "displayName": "Papan Nama Tahu Petis Yudhistira",
+            "placeId": "tahu-petis-yudhistira-papan-nama-tahu-petis-yudhistira",
+            "placeName": "Tahu Petis Yudhistira – Papan Nama Tahu Petis Yudhistira",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Papan Nama Tahu Petis Yudhistira di Tahu Petis Yudhistira memperlihatkan papan toko dan jalan.",
+            "description": "Papan Nama Tahu Petis Yudhistira di Tahu Petis Yudhistira memperlihatkan papan toko dan jalan. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan toko",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "node1",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Papan Nama Tahu Petis Yudhistira di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Papan Nama Tahu Petis Yudhistira di Tahu Petis Yudhistira memperlihatkan papan toko dan jalan."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Papan Nama Tahu Petis Yudhistira?",
+                    "mode": "fix",
+                    "answer": "Papan toko dan Jalan memperjelas susunan serta penggunaan ruang. Papan Nama Tahu Petis Yudhistira di Tahu Petis Yudhistira memperlihatkan papan toko dan jalan."
+                },
+                {
+                    "q": "Apa fakta penting tentang Tahu Petis Yudhistira – Papan Nama Tahu Petis Yudhistira yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Menawarkan suasana terbuka yang sejuk dan santai bagi pengunjung yang ingin menikmati kudapan di udara bebas. Area ini biasanya menjadi spot favorit untuk nongkrong sambil melihat aktivitas sekitar dengan lebih leluasa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Papan Nama Tahu Petis Yudhistira.",
+                "describeHere": "Area NODE1 (ID: node1) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Areamakanindoor",
+            "displayName": "Ruang Makan Dalam",
+            "placeId": "tahu-petis-yudhistira-ruang-makan-dalam",
+            "placeName": "Tahu Petis Yudhistira – Ruang Makan Dalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja makan dan dispenser minuman menjadi unsur yang terlihat pada Ruang Makan Dalam di Tahu Petis Yudhistira.",
+            "description": "Meja makan dan dispenser minuman menjadi unsur yang terlihat pada Ruang Makan Dalam di Tahu Petis Yudhistira. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja makan",
+                "Dispenser minuman"
+            ],
+            "talkingPoints": [
+                "Areamakanindoor",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Ruang Makan Dalam menjadi bagian penting dari Tahu Petis Yudhistira – Ruang Makan Dalam?",
+                    "mode": "fix",
+                    "answer": "Meja makan dan dispenser minuman menjadi unsur yang terlihat pada Ruang Makan Dalam di Tahu Petis Yudhistira. Meja makan dan dispenser minuman menjadi unsur yang terlihat pada Ruang Makan Dalam di Tahu Petis Yudhistira. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Menyediakan ruangan yang lebih tenang dan terlindungi dari cuaca agar pengunjung bisa makan dengan nyaman. Desain interiornya ditata bersih untuk menciptakan pengalaman kuliner yang lebih privat dan kondusif bagi keluarga."
+                },
+                {
+                    "q": "Apa hubungan Meja makan dengan aktivitas di Ruang Makan Dalam?",
+                    "mode": "fix",
+                    "answer": "Meja makan menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Meja makan dan dispenser minuman menjadi unsur yang terlihat pada Ruang Makan Dalam di Tahu Petis Yudhistira."
+                },
+                {
+                    "q": "Apa yang membedakan Ruang Makan Dalam dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Meja makan dan Dispenser minuman. Meja makan dan dispenser minuman menjadi unsur yang terlihat pada Ruang Makan Dalam di Tahu Petis Yudhistira."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1179"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Ruang Makan Dalam.",
+                "describeHere": "Areamakanindoor adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Tahu Petis Yudhistira",
+            "displayName": "Akses Tepi Jalan Yudhistira",
+            "placeId": "tahu-petis-yudhistira-akses-tepi-jalan-yudhistira",
+            "placeName": "Tahu Petis Yudhistira – Akses Tepi Jalan Yudhistira",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Akses Tepi Jalan Yudhistira menampilkan papan nama dan halaman di Tahu Petis Yudhistira.",
+            "description": "Pandangan Akses Tepi Jalan Yudhistira menampilkan papan nama dan halaman di Tahu Petis Yudhistira. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan nama",
+                "Halaman"
+            ],
+            "talkingPoints": [
+                "Tahu Petis Yudhistira",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Akses Tepi Jalan Yudhistira?",
+                    "mode": "fix",
+                    "answer": "Merupakan pusat etalase produk di mana pengunjung dapat memilih berbagai varian tahu petis dan oleh-oleh khas Semarang lainnya. Ruangan ini dirancang efisien agar pembeli dapat bertransaksi dengan cepat dan praktis sebelum pulang."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Akses Tepi Jalan Yudhistira mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Papan nama bersama Halaman menunjukkan cara area ini digunakan. Pandangan Akses Tepi Jalan Yudhistira menampilkan papan nama dan halaman di Tahu Petis Yudhistira."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Akses Tepi Jalan Yudhistira?",
+                    "mode": "fix",
+                    "answer": "Papan nama menjadi detail utama, sedangkan Halaman melengkapi konteksnya. Pandangan Akses Tepi Jalan Yudhistira menampilkan papan nama dan halaman di Tahu Petis Yudhistira."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Akses Tepi Jalan Yudhistira.",
+                "describeHere": "Tahu Petis Yudhistira adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Tahu Petis Yudhistira",
+            "displayName": "Pintu Tahu Petis Yudhistira",
+            "placeId": "tahu-petis-yudhistira-pintu-tahu-petis-yudhistira",
+            "placeName": "Tahu Petis Yudhistira – Pintu Tahu Petis Yudhistira",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Pintu Tahu Petis Yudhistira, teras dan pintu membentuk tampilan bagian Tahu Petis Yudhistira ini.",
+            "description": "Pada Pintu Tahu Petis Yudhistira, teras dan pintu membentuk tampilan bagian Tahu Petis Yudhistira ini. Teras dan balkon memberi ruang peralihan dengan hubungan pandang ke luar. Atap, pagar, serta tempat duduk membentuk batas penggunaan area.",
+            "highlights": [
+                "Teras",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Tahu Petis Yudhistira",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Pintu Tahu Petis Yudhistira dalam pengalaman pengunjung di Tahu Petis Yudhistira – Pintu Tahu Petis Yudhistira?",
+                    "mode": "fix",
+                    "answer": "Pada Pintu Tahu Petis Yudhistira, teras dan pintu membentuk tampilan bagian Tahu Petis Yudhistira ini. Pada Pintu Tahu Petis Yudhistira, teras dan pintu membentuk tampilan bagian Tahu Petis Yudhistira ini. Teras dan balkon memberi ruang peralihan dengan hubungan pandang ke luar. Atap, pagar, serta tempat duduk membentuk batas penggunaan area. Area hijau yang berfungsi sebagai pemanis visual sekaligus memberikan kesan asri dan menyegarkan di lingkungan toko. Taman ini sering dimanfaatkan pengunjung sebagai latar belakang foto atau sekadar tempat melepas penat sejenak."
+                },
+                {
+                    "q": "Mengapa Teras penting pada Pintu Tahu Petis Yudhistira?",
+                    "mode": "fix",
+                    "answer": "Teras membantu menjelaskan identitas dan fungsi Pintu Tahu Petis Yudhistira. Pada Pintu Tahu Petis Yudhistira, teras dan pintu membentuk tampilan bagian Tahu Petis Yudhistira ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pintu Tahu Petis Yudhistira?",
+                    "mode": "fix",
+                    "answer": "Area hijau yang berfungsi sebagai pemanis visual sekaligus memberikan kesan asri dan menyegarkan di lingkungan toko. Taman ini sering dimanfaatkan pengunjung sebagai latar belakang foto atau sekadar tempat melepas penat sejenak."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Pintu Tahu Petis Yudhistira.",
+                "describeHere": "Tahu Petis Yudhistira adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Areabelanja",
+            "displayName": "Rak Oleh-Oleh",
+            "placeId": "tahu-petis-yudhistira-rak-oleh-oleh",
+            "placeName": "Tahu Petis Yudhistira – Rak Oleh-Oleh",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Rak Oleh-Oleh menyorot produk kemasan dan konter, dengan konteks kunjungan di Tahu Petis Yudhistira.",
+            "description": "Rak Oleh-Oleh menyorot produk kemasan dan konter, dengan konteks kunjungan di Tahu Petis Yudhistira. Area belanja menampilkan barang melalui rak, etalase, atau konter. Susunan pajangan membantu pengunjung membandingkan pilihan sebelum bertransaksi.",
+            "highlights": [
+                "Produk kemasan",
+                "Konter"
+            ],
+            "talkingPoints": [
+                "Areabelanja",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Rak Oleh-Oleh menunjukkan karakter Tahu Petis Yudhistira – Rak Oleh-Oleh?",
+                    "mode": "fix",
+                    "answer": "Rak Oleh-Oleh menyorot produk kemasan dan konter, dengan konteks kunjungan di Tahu Petis Yudhistira. Rak Oleh-Oleh menyorot produk kemasan dan konter, dengan konteks kunjungan di Tahu Petis Yudhistira. Area belanja menampilkan barang melalui rak, etalase, atau konter. Susunan pajangan membantu pengunjung membandingkan pilihan sebelum bertransaksi. Menawarkan suasana terbuka yang sejuk dan santai bagi pengunjung yang ingin menikmati kudapan di udara bebas. Area ini biasanya menjadi spot favorit untuk nongkrong sambil melihat aktivitas sekitar dengan lebih leluasa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Produk kemasan dan Konter di Rak Oleh-Oleh?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Rak Oleh-Oleh menyorot produk kemasan dan konter, dengan konteks kunjungan di Tahu Petis Yudhistira."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Rak Oleh-Oleh?",
+                    "mode": "fix",
+                    "answer": "Produk kemasan paling langsung membantu mengenali area ini. Rak Oleh-Oleh menyorot produk kemasan dan konter, dengan konteks kunjungan di Tahu Petis Yudhistira."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1180"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Rak Oleh-Oleh.",
+                "describeHere": "Areabelanja adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Taman",
+            "displayName": "Taman Rumah Makan",
+            "placeId": "tahu-petis-yudhistira-taman-rumah-makan",
+            "placeName": "Tahu Petis Yudhistira – Taman Rumah Makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman Rumah Makan di Tahu Petis Yudhistira memperlihatkan pohon dan halaman kerikil.",
+            "description": "Taman Rumah Makan di Tahu Petis Yudhistira memperlihatkan pohon dan halaman kerikil. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Pohon dapat memberi naungan dan menjadi acuan visual sepanjang jalur. Posisi batang serta akarnya juga memengaruhi bentuk ruang di sekelilingnya.",
+            "highlights": [
+                "Pohon",
+                "Halaman kerikil"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Taman Rumah Makan?",
+                    "mode": "fix",
+                    "answer": "Taman Rumah Makan di Tahu Petis Yudhistira memperlihatkan pohon dan halaman kerikil. Taman Rumah Makan di Tahu Petis Yudhistira memperlihatkan pohon dan halaman kerikil. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Pohon dapat memberi naungan dan menjadi acuan visual sepanjang jalur. Posisi batang serta akarnya juga memengaruhi bentuk ruang di sekelilingnya. Menyediakan ruangan yang lebih tenang dan terlindungi dari cuaca agar pengunjung bisa makan dengan nyaman. Desain interiornya ditata bersih untuk menciptakan pengalaman kuliner yang lebih privat dan kondusif bagi keluarga."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Taman Rumah Makan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Pohon dan Halaman kerikil memberi petunjuk tentang kegiatan yang berlangsung di sini. Taman Rumah Makan di Tahu Petis Yudhistira memperlihatkan pohon dan halaman kerikil."
+                },
+                {
+                    "q": "Apa konteks Tahu Petis Yudhistira – Taman Rumah Makan yang membuat Taman Rumah Makan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Menyediakan ruangan yang lebih tenang dan terlindungi dari cuaca agar pengunjung bisa makan dengan nyaman. Desain interiornya ditata bersih untuk menciptakan pengalaman kuliner yang lebih privat dan kondusif bagi keluarga."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1181"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Taman Rumah Makan.",
+                "describeHere": "Taman adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Areamakanoutdoor",
+            "displayName": "Teras Makan",
+            "placeId": "tahu-petis-yudhistira-teras-makan",
+            "placeName": "Tahu Petis Yudhistira – Teras Makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja dan sisi taman menjadi unsur yang terlihat pada Teras Makan di Tahu Petis Yudhistira.",
+            "description": "Meja dan sisi taman menjadi unsur yang terlihat pada Teras Makan di Tahu Petis Yudhistira. Teras dan balkon memberi ruang peralihan dengan hubungan pandang ke luar. Atap, pagar, serta tempat duduk membentuk batas penggunaan area. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja",
+                "Sisi taman"
+            ],
+            "talkingPoints": [
+                "Areamakanoutdoor",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Teras Makan di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Meja dan sisi taman menjadi unsur yang terlihat pada Teras Makan di Tahu Petis Yudhistira."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Teras Makan?",
+                    "mode": "fix",
+                    "answer": "Meja dan Sisi taman memperjelas susunan serta penggunaan ruang. Meja dan sisi taman menjadi unsur yang terlihat pada Teras Makan di Tahu Petis Yudhistira."
+                },
+                {
+                    "q": "Apa fakta penting tentang Tahu Petis Yudhistira – Teras Makan yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Merupakan pusat etalase produk di mana pengunjung dapat memilih berbagai varian tahu petis dan oleh-oleh khas Semarang lainnya. Ruangan ini dirancang efisien agar pembeli dapat bertransaksi dengan cepat dan praktis sebelum pulang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1178"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Teras Makan.",
+                "describeHere": "Areamakanoutdoor adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Toilet",
+            "displayName": "Fasilitas Cuci Tangan",
+            "placeId": "tahu-petis-yudhistira-fasilitas-cuci-tangan",
+            "placeName": "Tahu Petis Yudhistira – Fasilitas Cuci Tangan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Fasilitas Cuci Tangan menampilkan wastafel dan dinding pembatas di Tahu Petis Yudhistira.",
+            "description": "Pandangan Fasilitas Cuci Tangan menampilkan wastafel dan dinding pembatas di Tahu Petis Yudhistira. Fasilitas pendukung memberi tempat untuk jeda dan persiapan selama kunjungan. Penataannya perlu menjaga privasi sekaligus memudahkan pengunjung kembali ke kegiatan utama.",
+            "highlights": [
+                "Wastafel",
+                "Dinding pembatas"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Tahupetis"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Fasilitas Cuci Tangan menjadi bagian penting dari Tahu Petis Yudhistira – Fasilitas Cuci Tangan?",
+                    "mode": "fix",
+                    "answer": "Pandangan Fasilitas Cuci Tangan menampilkan wastafel dan dinding pembatas di Tahu Petis Yudhistira. Pandangan Fasilitas Cuci Tangan menampilkan wastafel dan dinding pembatas di Tahu Petis Yudhistira. Fasilitas pendukung memberi tempat untuk jeda dan persiapan selama kunjungan. Penataannya perlu menjaga privasi sekaligus memudahkan pengunjung kembali ke kegiatan utama. Area hijau yang berfungsi sebagai pemanis visual sekaligus memberikan kesan asri dan menyegarkan di lingkungan toko. Taman ini sering dimanfaatkan pengunjung sebagai latar belakang foto atau sekadar tempat melepas penat sejenak."
+                },
+                {
+                    "q": "Apa hubungan Wastafel dengan aktivitas di Fasilitas Cuci Tangan?",
+                    "mode": "fix",
+                    "answer": "Wastafel menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Fasilitas Cuci Tangan menampilkan wastafel dan dinding pembatas di Tahu Petis Yudhistira."
+                },
+                {
+                    "q": "Apa yang membedakan Fasilitas Cuci Tangan dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Wastafel dan Dinding pembatas. Pandangan Fasilitas Cuci Tangan menampilkan wastafel dan dinding pembatas di Tahu Petis Yudhistira."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tahu Petis Yudhistira – Fasilitas Cuci Tangan.",
+                "describeHere": "Toilet adalah area di dalam kawasan Tahupetis, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

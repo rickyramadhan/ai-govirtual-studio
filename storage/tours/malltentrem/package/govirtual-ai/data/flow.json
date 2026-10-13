@@ -1,0 +1,83 @@
+{
+    "version": "1.0",
+    "tourId": "malltentrem",
+    "tourName": "Malltentrem",
+    "updatedAt": "2026-09-29T09:51:18+02:00",
+    "startScene": "node85",
+    "order": [
+        "node85",
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97"
+    ],
+    "nodes": {
+        "node85": {
+            "displayName": "Tentrem Mall – Pintu Selatan Tentrem Mall"
+        },
+        "node80": {
+            "displayName": "Tentrem Mall – South Lobby – Area Kedatangan"
+        },
+        "node81": {
+            "displayName": "Tentrem Mall – Restoran Summer Palace"
+        },
+        "node82": {
+            "displayName": "Tentrem Mall – Videotron Luar"
+        },
+        "node83": {
+            "displayName": "Tentrem Mall – Ruang VIP – Meja Terpisah"
+        },
+        "node84": {
+            "displayName": "Tentrem Mall – Ruang VIP – Meja Bundar"
+        },
+        "node86": {
+            "displayName": "Tentrem Mall – Akuarium Mall"
+        },
+        "node87": {
+            "displayName": "Tentrem Mall – Parkir Mobil Basement"
+        },
+        "node88": {
+            "displayName": "Tentrem Mall – Koridor Lantai 3"
+        },
+        "node89": {
+            "displayName": "Tentrem Mall – Koridor Layanan dan Toko Buku"
+        },
+        "node90": {
+            "displayName": "Tentrem Mall – Koridor Dekat Koena-Koeni"
+        },
+        "node91": {
+            "displayName": "Tentrem Mall – Pintu Farmers Market"
+        },
+        "node92": {
+            "displayName": "Tentrem Mall – Lantai 2 – Area Wahana"
+        },
+        "node93": {
+            "displayName": "Tentrem Mall – Atrium Tentrem Mall"
+        },
+        "node94": {
+            "displayName": "Tentrem Mall – Pintu Main Lobby"
+        },
+        "node95": {
+            "displayName": "Tentrem Mall – Area Eskalator Lobi"
+        },
+        "node96": {
+            "displayName": "Tentrem Mall – Lantai 2 – Gerai Produk"
+        },
+        "node97": {
+            "displayName": "Tentrem Mall – Akses Parkir Motor"
+        }
+    }
+}

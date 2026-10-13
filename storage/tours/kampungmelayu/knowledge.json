@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "kampungmelayu",
+    "updatedAt": "2026-09-29T09:51:02+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kampungmelayu",
+            "aliases": [
+                "kampungmelayu"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kampungmelayu"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kampungmelayu.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kampungmelayu",
+                    "content": "Pusat pengalaman virtual untuk Kampungmelayu."
+                },
+                "en": {
+                    "title": "Kampungmelayu",
+                    "content": "Pusat pengalaman virtual untuk Kampungmelayu."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Tamanlandmark",
+            "aliases": [
+                "tamanlandmark"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungmelayu"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Tamanlandmark",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Tamanlandmark",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungmelayu"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kampungmelayu"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:284",
+            "entityId": "objinfo2:284",
+            "title": "JEMBATAN MERAH",
+            "aliases": [
+                "jembatan merah",
+                "objek 284"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Jembatan Merah adalah salah satu ikon di kawasan ini yang berfungsi sebagai penghubung dan sering menjadi lokasi fotografi berkat arsitektur klasiknya. Meskipun tidak semasyhur yang di Surabaya, jembatan ini menandai kawasan Kota Lama dan pintu masuk ke Kampung Melayu.",
+            "source": "webview-import",
+            "sourceId": "284",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "JEMBATAN MERAH",
+                    "content": "Jembatan Merah adalah salah satu ikon di kawasan ini yang berfungsi sebagai penghubung dan sering menjadi lokasi fotografi berkat arsitektur klasiknya. Meskipun tidak semasyhur yang di Surabaya, jembatan ini menandai kawasan Kota Lama dan pintu masuk ke Kampung Melayu."
+                },
+                "en": {
+                    "title": "Red Bridge",
+                    "content": "The Red Bridge is one of the landmarks in this area, serving as a connector and a popular photography spot due to its classic architecture. Although not as famous as the one in Surabaya, this bridge marks the Old Town area and the entrance to Kampung Melayu."
+                },
+                "zh": {
+                    "title": "紅橋",
+                    "content": "紅橋是該地區的地標之一，兼具交通連接功能，並因其經典的建築風格而成為熱門的拍照地點。雖然不如泗水的紅橋聞名，但這座橋象徵著舊城區的入口與通往馬來村的通道。"
+                },
+                "ar": {
+                    "title": "الجسر الأحمر",
+                    "content": "يُعد الجسر الأحمر أحد المعالم البارزة في هذه المنطقة، حيث يعمل كجسر رابط وغالبًا ما يُستخدم كموقع للتصوير الفوتوغرافي بفضل طرازه الكلاسيكي. وعلى الرغم من أنه ليس مشهورًا مثل الجسر الأحمر في سورابايا، إلا أنه يُعد علامة مميزة لمنطقة المدينة القديمة ومدخلًا إلى كامبونغ ملايو."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:285",
+            "entityId": "objinfo2:285",
+            "title": "Masjid Menara Layur",
+            "aliases": [
+                "masjid menara layur",
+                "objek 285"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Masjid ini adalah bangunan cagar budaya yang didirikan saudagar Yaman dan memiliki menara unik setinggi 20 meter yang dahulu berfungsi sebagai mercusuar/penanda pelaut. Dikenal dengan atap tajug tiga tingkatnya, masjid ini mencerminkan akulturasi arsitektur Jawa dan Arab, serta dikenal dengan tradisi buka puasa Kopi Arab-nya.",
+            "source": "webview-import",
+            "sourceId": "285",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Masjid Menara Layur",
+                    "content": "Masjid ini adalah bangunan cagar budaya yang didirikan saudagar Yaman dan memiliki menara unik setinggi 20 meter yang dahulu berfungsi sebagai mercusuar/penanda pelaut. Dikenal dengan atap tajug tiga tingkatnya, masjid ini mencerminkan akulturasi arsitektur Jawa dan Arab, serta dikenal dengan tradisi buka puasa Kopi Arab-nya."
+                },
+                "en": {
+                    "title": "Menara Layur Mosque",
+                    "content": "This mosque is a cultural heritage building founded by a Yemeni merchant, featuring a unique 20-meter-tall tower that once served as a lighthouse or maritime marker. Known for its three-tiered tajug roof, the mosque reflects a blend of Javanese and Arab architectural styles and is famous for its tradition of breaking the fast with Arabic coffee."
+                },
+                "zh": {
+                    "title": "拉尤爾尖塔清真寺",
+                    "content": "這座清真寺是由也門商人創建的文化遺產建築，擁有一座高20米的獨特尖塔，曾作為燈塔或航海標誌。以三層塔頂聞名，清真寺融合爪哇與阿拉伯建築風格，並以阿拉伯咖啡開齋傳統而著稱。"
+                },
+                "ar": {
+                    "title": "مسجد منارة لايور",
+                    "content": "هذا المسجد هو مبنى تراثي أنشأه تاجر يمني، ويتميز ببرج فريد يبلغ ارتفاعه 20 مترًا كان يُستخدم سابقًا كمنارة أو علامة بحرية. يشتهر بسقفه الثلاثي المستويات على الطراز التاجوغ، ويعكس المسجد مزيجًا من العمارة الجاوية والعربية، كما يُعرف بتقليده في الإفطار مع القهوة العربية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:286",
+            "entityId": "objinfo2:286",
+            "title": "Klenteng Kan Hok Bio",
+            "aliases": [
+                "klenteng kan hok bio",
+                "objek 286"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Klenteng Hoo Hok Bio (Sinar Dewa di Gang Cilik). Klenteng ini berfungsi sebagai tempat ibadah Tridharma (Buddha, Tao, Konghucu) yang sakral dan memuja Kongco (leluhur), dihiasi dengan interior tradisional Tionghoa.",
+            "source": "webview-import",
+            "sourceId": "286",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klenteng Kan Hok Bio",
+                    "content": "Klenteng Hoo Hok Bio (Sinar Dewa di Gang Cilik). Klenteng ini berfungsi sebagai tempat ibadah Tridharma (Buddha, Tao, Konghucu) yang sakral dan memuja Kongco (leluhur), dihiasi dengan interior tradisional Tionghoa."
+                },
+                "en": {
+                    "title": "Kan Hok Bio Temple",
+                    "content": "Hoo Hok Bio Temple (Sinar Dewa in Gang Cilik) serves as a sacred place of worship for Tridharma (Buddhism, Taoism, Confucianism) and venerates Kongco (ancestors), featuring traditional Chinese interior decorations."
+                },
+                "zh": {
+                    "title": "乾福庙",
+                    "content": "乾福庙（小巷的神光）是供奉三教（佛教、道教、儒教）的神聖場所，並祭祀祖先（孔子），內部裝飾傳統中國風格。"
+                },
+                "ar": {
+                    "title": "معبد كان هوك بيو",
+                    "content": "يعمل معبد هو هوك بيو (ضوء الإله في زقاق تشيليك) كمكان مقدس لعبادة الديانة الثلاثية (البوذية، الطاوية، الكونفوشيوسية) وتقديس الكونغكو (الأجداد)، ويتميز بديكور داخلي صيني تقليدي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:287",
+            "entityId": "objinfo2:287",
+            "title": "Taman dan Landmark",
+            "aliases": [
+                "taman dan landmark",
+                "objek 287"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Berupa area terbuka, pintu gerbang masuk kawasan Kampung Melayu. Terdapat landmark, gazebo, dan spot tugu perahu yang menjadi ciri khas kawasan Kampung Melayu dahulu kala.",
+            "source": "webview-import",
+            "sourceId": "287",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Taman dan Landmark",
+                    "content": "Berupa area terbuka, pintu gerbang masuk kawasan Kampung Melayu. Terdapat landmark, gazebo, dan spot tugu perahu yang menjadi ciri khas kawasan Kampung Melayu dahulu kala."
+                },
+                "en": {
+                    "title": "Park and Landmark",
+                    "content": "An open area serving as the entrance gate to Kampung Melayu, featuring landmarks, gazebos, and a boat monument spot that reflect the historical characteristics of the area."
+                },
+                "zh": {
+                    "title": "公園與地標",
+                    "content": "這是一個開放區域，作為馬來村的入口，設有地標、涼亭以及船型紀念碑，展現馬來村過去的特色。"
+                },
+                "ar": {
+                    "title": "الحديقة والمعلم",
+                    "content": "هي مساحة مفتوحة تُشكل بوابة الدخول إلى حي كامبونغ ملايو، وتضم معالم بارزة، وأكشاكًا، ونصبًا تذكاريًا على شكل قارب يُظهر الخصائص التاريخية للمنطقة."
+                }
+            }
+        }
+    ]
+}

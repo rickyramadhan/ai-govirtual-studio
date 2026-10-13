@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "kampungjawi",
+    "updatedAt": "2026-09-29T09:50:59+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kampungjawi",
+            "aliases": [
+                "kampungjawi"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kampungjawi"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kampungjawi.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kampungjawi",
+                    "content": "Pusat pengalaman virtual untuk Kampungjawi."
+                },
+                "en": {
+                    "title": "Kampungjawi",
+                    "content": "Pusat pengalaman virtual untuk Kampungjawi."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Main",
+            "aliases": [
+                "main"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungjawi"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Main",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Main",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Musholla & Toilet",
+            "aliases": [
+                "musholla & toilet"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungjawi"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Musholla & Toilet",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Musholla & Toilet",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kampungjawi"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:257",
+            "entityId": "objinfo2:257",
+            "title": "Spot Foto Menara",
+            "aliases": [
+                "spot foto menara",
+                "objek 257"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Spot foto menara ikonik di Kampung Jawi Semarang adalah menara pandang yang estetik, seringkali dibangun dari batu bata merah dan dilengkapi lampu dekoratif. Menara ini berfungsi sebagai titik pandang yang populer bagi pengunjung untuk mendapatkan latar belakang suasana desa tradisional Jawa yang asri dan tenang, terutama saat malam hari.",
+            "source": "webview-import",
+            "sourceId": "257",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Spot Foto Menara",
+                    "content": "Spot foto menara ikonik di Kampung Jawi Semarang adalah menara pandang yang estetik, seringkali dibangun dari batu bata merah dan dilengkapi lampu dekoratif. Menara ini berfungsi sebagai titik pandang yang populer bagi pengunjung untuk mendapatkan latar belakang suasana desa tradisional Jawa yang asri dan tenang, terutama saat malam hari."
+                },
+                "en": {
+                    "title": "Tower Photo Spot",
+                    "content": "The iconic tower photo spot at Kampung Jawi Semarang is an aesthetic viewing tower, often built from red bricks and adorned with decorative lights. This tower serves as a popular vantage point for visitors to capture the serene and traditional Javanese village atmosphere, especially at night."
+                },
+                "zh": {
+                    "title": "塔樓拍照點",
+                    "content": "位於三寶瓏爪哇村的標誌性塔樓拍照點，是一座以紅磚建成並配有裝飾燈的美觀瞭望塔。此塔是遊客喜愛的觀景與拍照地點，可拍攝到寧靜而樸實的爪哇傳統村莊風情，尤其在夜晚時分。"
+                },
+                "ar": {
+                    "title": "منطقة تصوير البرج",
+                    "content": "منطقة تصوير البرج الأيقوني في قرية جاوي سيمارانغ هي برج مراقبة يتميز بتصميم جمالي، وغالبًا ما يُبنى من الطوب الأحمر ويُزين بالأضواء الزخرفية. يعمل هذا البرج كنقطة جذب شهيرة للزوار لالتقاط أجواء القرية الجاوية التقليدية الهادئة والمليئة بالطابع الريفي، خاصة في المساء."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:258",
+            "entityId": "objinfo2:258",
+            "title": "UMKM",
+            "aliases": [
+                "umkm",
+                "objek 258"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "UMKM di Kampung Jawi Semarang menjual kuliner warga setempat seperti makanan dan minuman tradisional Jawa. Keberadaan UMKM kuliner ini sangat berperan penting sebagai penunjang pariwisata, sekaligus membantu meningkatkan perekonomian masyarakat lokal.",
+            "source": "webview-import",
+            "sourceId": "258",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "UMKM",
+                    "content": "UMKM di Kampung Jawi Semarang menjual kuliner warga setempat seperti makanan dan minuman tradisional Jawa. Keberadaan UMKM kuliner ini sangat berperan penting sebagai penunjang pariwisata, sekaligus membantu meningkatkan perekonomian masyarakat lokal."
+                },
+                "en": {
+                    "title": "MSME (Micro, Small, and Medium Enterprises)",
+                    "content": "The MSMEs in Kampung Jawi Semarang sell local culinary products such as traditional Javanese food and beverages. These culinary MSMEs play an important role in supporting tourism while also helping to improve the local community’s economy."
+                },
+                "zh": {
+                    "title": "中小微企業",
+                    "content": "位於三寶瓏爪哇村的中小微企業主要販售當地居民的美食，如傳統爪哇餐點與飲品。這些餐飲型中小企業在支持旅遊業的同時，也對提升當地社區的經濟發展起著重要作用。"
+                },
+                "ar": {
+                    "title": "المؤسسات الصغيرة والمتوسطة",
+                    "content": "تقوم المؤسسات الصغيرة والمتوسطة في قرية جاوي سيمارانغ ببيع المأكولات المحلية مثل الأطعمة والمشروبات الجاوية التقليدية. تلعب هذه المؤسسات دورًا مهمًا في دعم السياحة، كما تساهم في تحسين الاقتصاد المحلي للمجتمع."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:259",
+            "entityId": "objinfo2:259",
+            "title": "Counter Penukaran Kepeng",
+            "aliases": [
+                "counter penukaran kepeng",
+                "objek 259"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Konter penukaran kepeng di Kampung Jawi adalah pusat penukaran mata uang Rupiah menjadi koin Kepeng (kepingan kayu) yang wajib dilakukan pengunjung sebelum bertransaksi di area kuliner Pasar Jaten. Kepeng ini berfungsi sebagai alat pembayaran unik berkonsep tradisional Jawa tempo dulu, dan sisa Kepeng dapat ditukarkan kembali menjadi Rupiah saat pulang.",
+            "source": "webview-import",
+            "sourceId": "259",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Counter Penukaran Kepeng",
+                    "content": "Konter penukaran kepeng di Kampung Jawi adalah pusat penukaran mata uang Rupiah menjadi koin Kepeng (kepingan kayu) yang wajib dilakukan pengunjung sebelum bertransaksi di area kuliner Pasar Jaten. Kepeng ini berfungsi sebagai alat pembayaran unik berkonsep tradisional Jawa tempo dulu, dan sisa Kepeng dapat ditukarkan kembali menjadi Rupiah saat pulang."
+                },
+                "en": {
+                    "title": "Kepeng Exchange Counter",
+                    "content": "The Kepeng exchange counter at Kampung Jawi serves as a place where visitors must exchange Rupiah for Kepeng coins (wooden tokens) before making transactions in the Pasar Jaten culinary area. These Kepeng coins act as a unique form of payment inspired by traditional Javanese customs of the past, and any remaining Kepeng can be exchanged back into Rupiah upon departure."
+                },
+                "zh": {
+                    "title": "古錢兌換櫃台",
+                    "content": "位於爪哇村的古錢兌換櫃台，是遊客在進入 Jaten 市場美食區交易前，必須將印尼盾兌換成木製的「Kepeng」代幣的地方。這些 Kepeng 代幣作為一種具有古老爪哇傳統風格的獨特支付方式，剩餘的 Kepeng 可在離開時再次兌換回印尼盾。"
+                },
+                "ar": {
+                    "title": "كاونتر تبديل كيبينغ",
+                    "content": "كاونتر تبديل كيبينغ في قرية جاوي هو مركز يتم فيه تحويل العملة الإندونيسية (الروبية) إلى عملات كيبينغ الخشبية، وهو إجراء يجب على الزوار القيام به قبل الشراء في منطقة المأكولات في سوق جاتين. تُستخدم هذه العملات كوسيلة دفع فريدة مستوحاة من التقاليد الجاوية القديمة، ويمكن استبدال الكيبينغ المتبقي بالروبية عند المغادرة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:260",
+            "entityId": "objinfo2:260",
+            "title": "Aula Pendopo",
+            "aliases": [
+                "aula pendopo",
+                "objek 260"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Aula atau Pendopo di Kampung Jawi berfungsi sebagai panggung utama untuk pertunjukan seni dan budaya tradisional Jawa, seperti musik gamelan, tarian, atau teater rakyat. Pendopo ini memperkuat nuansa kampung Jawa tempo dulu dan menjadi pusat hiburan bagi pengunjung yang sedang menikmati kuliner di area sekitarnya.",
+            "source": "webview-import",
+            "sourceId": "260",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Aula Pendopo",
+                    "content": "Aula atau Pendopo di Kampung Jawi berfungsi sebagai panggung utama untuk pertunjukan seni dan budaya tradisional Jawa, seperti musik gamelan, tarian, atau teater rakyat. Pendopo ini memperkuat nuansa kampung Jawa tempo dulu dan menjadi pusat hiburan bagi pengunjung yang sedang menikmati kuliner di area sekitarnya."
+                },
+                "en": {
+                    "title": "Pendopo Hall",
+                    "content": "The hall or pendopo at Kampung Jawi serves as the main stage for traditional Javanese art and cultural performances, such as gamelan music, dances, and folk theater. This pendopo enhances the nostalgic atmosphere of the old Javanese village and acts as an entertainment center for visitors enjoying the surrounding culinary area."
+                },
+                "zh": {
+                    "title": "爪哇傳統會堂",
+                    "content": "爪哇村的會堂（Pendopo）作為主要舞台，用於展示傳統爪哇藝術與文化表演，如加美蘭音樂、舞蹈及民間戲劇。這座 Pendopo 強化了古老爪哇村的氛圍，並成為遊客在享用周邊美食時的娛樂中心。"
+                },
+                "ar": {
+                    "title": "قاعة البندوبو",
+                    "content": "تعمل قاعة البندوبو في قرية جاوي كمسرح رئيسي للعروض الفنية والثقافية الجاوية التقليدية، مثل موسيقى الغاميلان والرقص والمسرح الشعبي. تعزز هذه القاعة الأجواء التراثية لقرية جاوا القديمة، وتعد مركزًا ترفيهيًا للزوار الذين يستمتعون بالمأكولات في المنطقة المحيطة."
+                }
+            }
+        }
+    ]
+}

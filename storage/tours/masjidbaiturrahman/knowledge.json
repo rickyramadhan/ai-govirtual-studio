@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "masjidbaiturrahman",
+    "updatedAt": "2026-09-29T09:51:21+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Masjidbaiturrahman",
+            "aliases": [
+                "masjidbaiturrahman"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "masjidbaiturrahman"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Masjidbaiturrahman.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Masjidbaiturrahman",
+                    "content": "Pusat pengalaman virtual untuk Masjidbaiturrahman."
+                },
+                "en": {
+                    "title": "Masjidbaiturrahman",
+                    "content": "Pusat pengalaman virtual untuk Masjidbaiturrahman."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone",
+            "aliases": [
+                "drone"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "masjidbaiturrahman"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Video360 1",
+            "aliases": [
+                "video360 1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "masjidbaiturrahman"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Video360 1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Video360 1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "masjidbaiturrahman"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:311",
+            "entityId": "objinfo2:311",
+            "title": "Kantor MUI",
+            "aliases": [
+                "kantor mui",
+                "objek 311"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kantor Majelis Ulama Indonesia (MUI) Provinsi Jawa Tengah terletak di kompleks Masjid Raya Baiturrahman Semarang, menjadikannya pusat kegiatan keulamaan. Gedung baru kantor MUI Jateng ini telah diresmikan oleh Wakil Presiden RI, K.H. Ma’ruf Amin, pada tahun 2022.",
+            "source": "webview-import",
+            "sourceId": "311",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kantor MUI",
+                    "content": "Kantor Majelis Ulama Indonesia (MUI) Provinsi Jawa Tengah terletak di kompleks Masjid Raya Baiturrahman Semarang, menjadikannya pusat kegiatan keulamaan. Gedung baru kantor MUI Jateng ini telah diresmikan oleh Wakil Presiden RI, K.H. Ma’ruf Amin, pada tahun 2022."
+                },
+                "en": {
+                    "title": "MUI Office",
+                    "content": "The Indonesian Ulema Council (MUI) Central Java Province office is located within the Baiturrahman Grand Mosque complex in Semarang, making it a center for religious activities. The new MUI Central Java office building was inaugurated by the Vice President of Indonesia, K.H. Ma’ruf Amin, in 2022."
+                },
+                "zh": {
+                    "title": "印尼乌拉玛理事会办公室",
+                    "content": "中爪哇省印尼乌拉玛理事会（MUI）辦公室位於三寶壟巴伊圖拉赫曼大清真寺園區內，是宗教活動的中心。中爪哇省MUI新辦公大樓於2022年由印尼副總統K.H. Ma’ruf Amin揭幕。"
+                },
+                "ar": {
+                    "title": "مكتب مجلس العلماء الإندونيسي (MUI)",
+                    "content": "يقع مكتب مجلس العلماء الإندونيسي (MUI) في محافظة جاوة الوسطى داخل مجمع المسجد الكبير بيت الرحمن في سمارانغ، مما يجعله مركزًا للأنشطة الدينية. وقد تم افتتاح مبنى المكتب الجديد لمجلس العلماء في جاوة الوسطى من قبل نائب رئيس إندونيسيا، K.H. Ma’ruf Amin، في عام 2022."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:312",
+            "entityId": "objinfo2:312",
+            "title": "Menara",
+            "aliases": [
+                "menara",
+                "objek 312"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Menara Masjid Raya Baiturrahman berfungsi sebagai elemen arsitektur penting yang memperkuat kemegahan dan identitas masjid di kawasan Simpang Lima. Selain untuk mengumandangkan azan, menara ini seringkali menjadi penanda visual dan daya tarik wisata religi.",
+            "source": "webview-import",
+            "sourceId": "312",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Menara",
+                    "content": "Menara Masjid Raya Baiturrahman berfungsi sebagai elemen arsitektur penting yang memperkuat kemegahan dan identitas masjid di kawasan Simpang Lima. Selain untuk mengumandangkan azan, menara ini seringkali menjadi penanda visual dan daya tarik wisata religi."
+                },
+                "en": {
+                    "title": "Minaret",
+                    "content": "The Baiturrahman Grand Mosque minaret serves as an important architectural element, enhancing the grandeur and identity of the mosque in the Simpang Lima area. Besides calling the adhan, it often acts as a visual landmark and a religious tourism attraction."
+                },
+                "zh": {
+                    "title": "尖塔",
+                    "content": "巴伊圖拉赫曼大清真寺尖塔作為重要的建築元素，增強了清真寺在辛帕倫巴區的雄偉與識別度。除了用於宣禮拜，這座尖塔通常也是視覺地標和宗教旅遊景點。"
+                },
+                "ar": {
+                    "title": "المئذنة",
+                    "content": "تعمل مئذنة المسجد الكبير بيت الرحمن كعنصر معماري هام يعزز عظمة وهوية المسجد في منطقة سيمبانغ ليما. بالإضافة إلى رفع الأذان، غالبًا ما تُعد علامة بصرية وجاذبة للسياحة الدينية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:313",
+            "entityId": "objinfo2:313",
+            "title": "TK-SD Hj. Isriati",
+            "aliases": [
+                "tk-sd hj. isriati",
+                "objek 313"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "TK-SD Hj. Isriati adalah institusi pendidikan yang berada dan berkembang pesat di dalam kompleks Masjid Raya Baiturrahman. Lembaga pendidikan ini memberikan layanan edukasi dasar dengan nilai-nilai Islam sebagai bagian dari fungsi masjid sebagai pusat pembinaan masyarakat.",
+            "source": "webview-import",
+            "sourceId": "313",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "TK-SD Hj. Isriati",
+                    "content": "TK-SD Hj. Isriati adalah institusi pendidikan yang berada dan berkembang pesat di dalam kompleks Masjid Raya Baiturrahman. Lembaga pendidikan ini memberikan layanan edukasi dasar dengan nilai-nilai Islam sebagai bagian dari fungsi masjid sebagai pusat pembinaan masyarakat."
+                },
+                "en": {
+                    "title": "TK-SD Hj. Isriati",
+                    "content": "TK-SD Hj. Isriati is an educational institution located within the Baiturrahman Grand Mosque complex and has been developing rapidly. This school provides basic education services with Islamic values, reflecting the mosque’s role as a center for community development."
+                },
+                "zh": {
+                    "title": "Hj. Isriati 幼小學校",
+                    "content": "Hj. Isriati 幼小學校是位於巴伊圖拉赫曼大清真寺園區內的教育機構，並迅速發展。該學校提供基礎教育，融合伊斯蘭價值觀，彰顯清真寺作為社區培育中心的功能。"
+                },
+                "ar": {
+                    "title": "رياض الأطفال والمدرسة الابتدائية Hj. Isriati",
+                    "content": "رياض الأطفال والمدرسة الابتدائية Hj. Isriati هي مؤسسة تعليمية تقع ضمن مجمع المسجد الكبير بيت الرحمن وقد تطورت بسرعة. توفر هذه المؤسسة خدمات التعليم الأساسي مع القيم الإسلامية، مما يعكس دور المسجد كمركز لتنمية المجتمع."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:314",
+            "entityId": "objinfo2:314",
+            "title": "Ruang Ibadah",
+            "aliases": [
+                "ruang ibadah",
+                "objek 314"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang ibadah utama di Masjid Raya Baiturrahman memiliki desain arsitektur limasan yang megah dan baru selesai direnovasi besar-besaran pada tahun 2022. Ruangan ini dapat menampung ribuan jemaah dan berfungsi sebagai pusat ibadah serta kegiatan dakwah Islam di Kota Semarang.",
+            "source": "webview-import",
+            "sourceId": "314",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Ibadah",
+                    "content": "Ruang ibadah utama di Masjid Raya Baiturrahman memiliki desain arsitektur limasan yang megah dan baru selesai direnovasi besar-besaran pada tahun 2022. Ruangan ini dapat menampung ribuan jemaah dan berfungsi sebagai pusat ibadah serta kegiatan dakwah Islam di Kota Semarang."
+                },
+                "en": {
+                    "title": "Prayer Hall",
+                    "content": "The main prayer hall of Baiturrahman Grand Mosque features a grand limasan architectural design and was extensively renovated in 2022. It can accommodate thousands of worshippers and serves as a center for prayer and Islamic missionary activities in Semarang."
+                },
+                "zh": {
+                    "title": "禮拜大廳",
+                    "content": "巴伊圖拉赫曼大清真寺的主禮拜大廳採用宏偉的Limasan建築風格，並於2022年完成大規模翻修。該空間可容納數千名信徒，並作為三寶壟市的禮拜及伊斯蘭宣教活動中心。"
+                },
+                "ar": {
+                    "title": "قاعة الصلاة",
+                    "content": "قاعة الصلاة الرئيسية في المسجد الكبير بيت الرحمن تتميز بتصميم معماري ليماسان فاخر وقد تم تجديدها بالكامل في عام 2022. يمكن أن تستوعب آلاف المصلين وتعمل كمركز للصلاة وأنشطة الدعوة الإسلامية في مدينة سمارانغ."
+                }
+            }
+        }
+    ]
+}

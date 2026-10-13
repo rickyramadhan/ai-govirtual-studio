@@ -1,0 +1,114 @@
+
+<!doctype html>
+<html lang="id" class="h-full">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Batik</title>
+    <link href="assets/css/tailwind.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+    /* Override background agar transparan */
+    html,
+    body {
+        background-color: transparent !important;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .font-poppins {
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+    .fade-in {
+        animation: fadeIn 0.6s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+        border: 4px solid rgba(0, 0, 0, 0);
+        background-clip: padding-box;
+    }
+    </style>
+</head>
+
+<body class="flex items-center justify-center m-4">
+    <div class="fixed inset-0"></div>
+
+    <div
+        class="fade-in relative w-full h-full md:h-auto md:max-w-2xl overflow-hidden md:rounded-[2.5rem] flex flex-col">
+
+                <div class="relative h-[45vh] md:h-72 w-full shrink-0">
+                        <div class="h-full w-full bg-gray-800 flex items-center justify-center text-black/50">
+                No Image Available
+            </div>
+                    </div>
+
+        <div class="w-full text-center px-6 pt-4 text-black z-10 relative">
+            <h1 class="text-2xl md:text-2xl font-bold tracking-[0.1em] uppercase">
+                Galeri Batik            </h1>
+        </div>
+
+        <div class="flex items-center justify-center gap-x-4 w-full max-w-lg mx-auto mb-2 text-black/70">
+            <span class="flex-grow h-px bg-gradient-to-r to-black/40 from-transparent"></span>
+            <span class="text-lg font-medium capitalize whitespace-nowrap">Zie Batik</span>
+            <span class="flex-grow h-px bg-gradient-to-l to-black/40 from-transparent"></span>
+        </div>
+
+        <div class="flex-grow py-2 px-4 flex flex-col items-center overflow-hidden">
+            <div
+                class="overflow-y-auto w-full h-[65%] md:h-full text-black/70 leading-relaxed text-base max-w-lg text-justify font-poppins">
+                                                <p class="mb-4">Ruangan atau bangunan yang berfungsi sebagai pusat pameran dan pelestarian kain batik, memajang koleksi batik dari berbagai motif, teknik, dan daerah asalnya. Tempat ini berperan ganda sebagai sarana edukasi budaya dan sering kali sebagai toko ritel utama untuk mempromosikan serta menjual karya batik bernilai seni tinggi kepada masyarakat luas.</p>
+                                            </div>
+        </div>
+        
+        
+
+    </div>
+    <script>
+    window.addEventListener('load', function() {
+        // Beri jeda 1.5 detik setelah loading selesai, biar gambar dapet waktu muncul
+        setTimeout(function() {
+            var pageText = document.body.innerText || "";
+            var isNoImage = pageText.includes("No Image Available") || pageText.includes("Tidak Ada Gambar");
+
+            if (isNoImage) {
+                window.parent.postMessage({ type: 'IFRAME_STATUS', status: 'no_image' }, '*');
+            } else {
+                window.parent.postMessage({ type: 'IFRAME_STATUS', status: 'ok' }, '*');
+            }
+        }, 0); // 1500 milidetik = 1.5 detik
+    });
+    </script>
+</body>
+
+</html>

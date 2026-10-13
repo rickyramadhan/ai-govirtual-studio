@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "wingkobabad",
+    "tourName": "Wingkobabad",
+    "updatedAt": "2026-09-29T09:52:56+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Wingkobabad?",
+                "query": "Mengapa disebut Wingkobabad?",
+                "desc": "Mengapa disebut Wingkobabad?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Wingkobabad",
+                "desc": "Ceritakan tentang Wingkobabad"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Wingkobabad"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Wingkobabad"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Wingkobabad?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Wingkobabad?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Wingkobabad?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Wingkobabad?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

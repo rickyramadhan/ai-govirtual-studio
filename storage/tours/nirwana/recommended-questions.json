@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "nirwana",
+    "tourName": "Nirwana",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Aktivitas seru keluarga",
+                "query": "Selain bersantai, kegiatan seru apa saja yang bisa dilakukan bersama keluarga di sini?",
+                "desc": "Selain bersantai, kegiatan seru apa saja yang bisa dilakukan bersama keluarga di sini?"
+            },
+            {
+                "label": "Info berkuda pemula",
+                "query": "Apakah pengunjung yang belum pernah naik kuda disediakan pemandu atau pelatih khusus?",
+                "desc": "Apakah pengunjung yang belum pernah naik kuda disediakan pemandu atau pelatih khusus?"
+            },
+            {
+                "label": "Waktu kunjungan terbaik",
+                "query": "Kapan waktu paling pas untuk datang agar bisa menikmati pemandangan alam yang maksimal?",
+                "desc": "Kapan waktu paling pas untuk datang agar bisa menikmati pemandangan alam yang maksimal?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Pemandangan Pantai Esok",
+                "query": "Bagaimana pesona kawasan Nirwana menawarkan keindahan pemandangan alam dan udara segar untuk relaksasi?"
+            },
+            {
+                "label": "Wisata Berkuda",
+                "query": "Seperti apa fasilitas dan keseruan aktivitas berkuda di kawasan Nirwana Stable yang sangat populer?"
+            },
+            {
+                "label": "Kuliner Bernuansa Alam",
+                "query": "Apa saja pilihan menu lezat di restoran yang menyatu langsung dengan keindahan alam sekitarnya?"
+            },
+            {
+                "label": "Spot Foto Instagramable",
+                "query": "Di mana saja titik-titik foto terbaik dengan latar belakang arsitektur unik dan lanskap alam?"
+            },
+            {
+                "label": "Area Bermain Keluarga",
+                "query": "Fasilitas hiburan dan area bermain apa saja yang disediakan khusus untuk menyenangkan anak-anak?"
+            },
+            {
+                "label": "Desain Resort Mewah",
+                "query": "Bagaimana konsep penataan bangunan dan fasilitas di Nirwana memberikan kesan eksklusif dan estetik?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Nirwana?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Nirwana?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Nirwana?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

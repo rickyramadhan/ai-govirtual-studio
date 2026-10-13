@@ -1,0 +1,579 @@
+{
+    "startNode": "node12",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Bibit",
+            "displayName": "Bibit",
+            "rawName": "",
+            "customNodeId": "bibit",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "bibit"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Pantai Tirang",
+            "displayName": "Pantai Tirang",
+            "rawName": "",
+            "customNodeId": "-antai-irang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "Pantai Tirang"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Jembatan",
+            "displayName": "Jembatan",
+            "rawName": "",
+            "customNodeId": "jembatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "jembatan"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Semarang Mangrove",
+            "displayName": "Semarang Mangrove",
+            "rawName": "",
+            "customNodeId": "-emarang-angrove",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "Semarang Mangrove"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Pantai Tirang",
+            "displayName": "Pantai Tirang",
+            "rawName": "",
+            "customNodeId": "-antai-irang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "Pantai Tirang"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Area Parkir Motor",
+            "displayName": "Area Parkir Motor",
+            "rawName": "",
+            "customNodeId": "-rea-arkir-otor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "Area Parkir Motor"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Menara",
+            "displayName": "Menara",
+            "rawName": "",
+            "customNodeId": "menara",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "menara"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Gazebo",
+            "displayName": "Gazebo",
+            "rawName": "",
+            "customNodeId": "gazebo",
+            "pan": -113.13,
+            "tilt": -7.58,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "gazebo"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Gazebopantai",
+            "displayName": "Gazebopantai",
+            "rawName": "",
+            "customNodeId": "gazebopantai",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "gazebopantai"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Dermaga",
+            "displayName": "Dermaga",
+            "rawName": "",
+            "customNodeId": "dermaga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "dermaga"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Signpantaitirang",
+            "displayName": "Signpantaitirang",
+            "rawName": "",
+            "customNodeId": "signpantaitirang",
+            "pan": 6.95,
+            "tilt": 7.97,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "signpantaitirang"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Pantai",
+            "displayName": "Pantai",
+            "rawName": "",
+            "customNodeId": "pantai",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "pantai"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Umkm",
+            "displayName": "Umkm",
+            "rawName": "",
+            "customNodeId": "umkm",
+            "pan": 54.35,
+            "tilt": -2.78,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "umkm"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Area Parkir Mobil",
+            "displayName": "Area Parkir Mobil",
+            "rawName": "",
+            "customNodeId": "-rea-arkir-obil",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PantaiTirang"
+            ],
+            "aliases": [
+                "Area Parkir Mobil"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -138.62,
+            "tilt": -10.33
+        },
+        {
+            "scene": "node3",
+            "target": "node2",
+            "title": "Jembatan",
+            "id": "Point01",
+            "pan": -5.25,
+            "tilt": -0.15
+        },
+        {
+            "scene": "node3",
+            "target": "node12",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 161.95,
+            "tilt": -6.84
+        },
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "Pantai Tirang",
+            "id": "Point01",
+            "pan": 354.48,
+            "tilt": 0.64
+        },
+        {
+            "scene": "node4",
+            "target": "node13",
+            "title": "Pantai Tirang",
+            "id": "Point01",
+            "pan": -29.79,
+            "tilt": -5.65
+        },
+        {
+            "scene": "node4",
+            "target": "node1",
+            "title": "Semarang Mangrove",
+            "id": "Point02",
+            "pan": 114.91,
+            "tilt": -5.41
+        },
+        {
+            "scene": "node5",
+            "target": "node7",
+            "title": "Area Parkir Motor",
+            "id": "Point01",
+            "pan": -33.72,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node5",
+            "target": "node12",
+            "title": "Pantai Tirang",
+            "id": "Point02",
+            "pan": 8.64,
+            "tilt": 3.78
+        },
+        {
+            "scene": "node5",
+            "target": "node15",
+            "title": "Area Parkir Mobil",
+            "id": "Point03",
+            "pan": 32.12,
+            "tilt": 3.54
+        },
+        {
+            "scene": "node6",
+            "target": "node12",
+            "title": "Pantai Tirang",
+            "id": "Point01",
+            "pan": -110.83,
+            "tilt": 3.42
+        },
+        {
+            "scene": "node6",
+            "target": "node11",
+            "title": "Pantai Tirang",
+            "id": "Point02",
+            "pan": 2.58,
+            "tilt": -3.35
+        },
+        {
+            "scene": "node6",
+            "target": "node14",
+            "title": "Food Court",
+            "id": "Point03",
+            "pan": 100.66,
+            "tilt": -0.23
+        },
+        {
+            "scene": "node7",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 178.64,
+            "tilt": -0.06
+        },
+        {
+            "scene": "node8",
+            "target": "node11",
+            "title": "Pantai Tirang",
+            "id": "Point01",
+            "pan": -57.65,
+            "tilt": 3.06
+        },
+        {
+            "scene": "node8",
+            "target": "node13",
+            "title": "Pantai Tirang",
+            "id": "Point02",
+            "pan": 118.748,
+            "tilt": 0.1
+        },
+        {
+            "scene": "node8",
+            "target": "node10",
+            "title": "Gazebo",
+            "id": "Point03",
+            "pan": 239.31,
+            "tilt": -9.08
+        },
+        {
+            "scene": "node9",
+            "target": "node14",
+            "title": "Food Court",
+            "id": "Point01",
+            "pan": -265,
+            "tilt": -5.8
+        },
+        {
+            "scene": "node9",
+            "target": "node10",
+            "title": "Gazebo",
+            "id": "Point02",
+            "pan": 283.77,
+            "tilt": -4.67
+        },
+        {
+            "scene": "node10",
+            "target": "node9",
+            "title": "Posko Pengamanan",
+            "id": "Point01",
+            "pan": -356.39,
+            "tilt": -2.57
+        },
+        {
+            "scene": "node10",
+            "target": "node8",
+            "title": "Pos Penjaga Pantai",
+            "id": "Point02",
+            "pan": 183.23,
+            "tilt": -2.48
+        },
+        {
+            "scene": "node11",
+            "target": "node6",
+            "title": "Pantai Tirang",
+            "id": "Point01",
+            "pan": -101.59,
+            "tilt": -0.67
+        },
+        {
+            "scene": "node11",
+            "target": "node8",
+            "title": "Penjaga Pantai",
+            "id": "Point02",
+            "pan": 84.96,
+            "tilt": 3.78
+        },
+        {
+            "scene": "node11",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -186.98,
+            "tilt": -3.69
+        },
+        {
+            "scene": "node16",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -186.98,
+            "tilt": -3.69
+        },
+        {
+            "scene": "node12",
+            "target": "node3",
+            "title": "Jembatan",
+            "id": "Point01",
+            "pan": -50.47,
+            "tilt": -0.08
+        },
+        {
+            "scene": "node12",
+            "target": "node5",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -157.7,
+            "tilt": 0.9
+        },
+        {
+            "scene": "node12",
+            "target": "node6",
+            "title": "Pantai Tirang",
+            "id": "Point04",
+            "pan": 94.21,
+            "tilt": 1.4
+        },
+        {
+            "scene": "node13",
+            "target": "node8",
+            "title": "Pos Penjaga Pantai",
+            "id": "Point01",
+            "pan": -60.98,
+            "tilt": 4.88
+        },
+        {
+            "scene": "node13",
+            "target": "node4",
+            "title": "Semarang Mangrove",
+            "id": "Point02",
+            "pan": -93.06,
+            "tilt": -1.17
+        },
+        {
+            "scene": "node14",
+            "target": "node6",
+            "title": "Pantai Tirang",
+            "id": "Point01",
+            "pan": -266.36,
+            "tilt": -2.02
+        },
+        {
+            "scene": "node14",
+            "target": "node9",
+            "title": "Posko Pengamanan",
+            "id": "Point02",
+            "pan": 288.99,
+            "tilt": -7.26
+        },
+        {
+            "scene": "node15",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -130.61,
+            "tilt": 2.34
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 690,
+            "label": "Sign Pantai Tirang",
+            "description": "Sign atau ikon di Pantai Tirang lebih bersifat rustic (sederhana/alami) dan dikelola secara swadaya oleh warga sekitar (Kelompok Sadar Wisata). Sign ini menjadi lokasi foto favorit bagi pengunjung karna menawarkan pemandangan yang langsung mengarah ke laut.",
+            "fragment": "signpantaitirang",
+            "link": "pantaitirang/index.html#signpantaitirang",
+            "sceneId": "node12"
+        },
+        {
+            "infoId": 691,
+            "label": "Jembatan",
+            "description": "Selain untuk berwisata, ujung jembatan ini sering dimanfaatkan oleh warga lokal atau pemancing hobi (angler) untuk melemparkan kail ke area yang lebih dalam tanpa harus berenang ke tengah. Anda mungkin akan sering melihat orang duduk memancing di ujung jembatan ini pada pagi atau sore hari.",
+            "fragment": "jembatan",
+            "link": "pantaitirang/index.html#jembatan",
+            "sceneId": "node2"
+        },
+        {
+            "infoId": 692,
+            "label": "Pantai",
+            "description": "Pantai ini terletak tepat di sebelah landasan pacu Bandara Internasional Jenderal Ahmad Yani. Ini menjadikan Pantai Tirang satu-satunya tempat di Semarang di mana Anda bisa menikmati suasana pantai sambil melihat pesawat take-off dan landing dari jarak dekat.",
+            "fragment": "pantai",
+            "link": "pantaitirang/index.html#pantai",
+            "sceneId": "node13"
+        },
+        {
+            "infoId": 693,
+            "label": "Gazebo",
+            "description": "Keberadaan gazebo-gazebo ini menjadikan Pantai Tirang destinasi yang \"ramah keluarga\" karena orang tua bisa bersantai dengan nyaman sementara anak-anak bermain di pantai. Pengunjung biasanya memesan makanan (seperti mendoan hangat, mie rebus, atau kelapa muda) dari warung sekitar dan menikmatinya di gazebo ini bersama keluarga.",
+            "fragment": "gazebo",
+            "link": "pantaitirang/index.html#gazebo",
+            "sceneId": "node9"
+        },
+        {
+            "infoId": 694,
+            "label": "UMKM",
+            "description": "Warung-warung semi-permanen yang berjejer rapi menghadap pantai. Beberapa warung menyediakan tempat duduk lesehan. Menu andalan di sini sangat sederhana namun nikmat disantap di pinggir pantai. Yang paling populer adalah Kelapa Muda, Mendoan/Gorengan panas, Mie Instan (rebus/goreng), dan ikan bakar sederhana.",
+            "fragment": "umkm",
+            "link": "pantaitirang/index.html#umkm",
+            "sceneId": "node14"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "b65ab36641578ae2",
+        "skin.js": "d4354ed634c743fe",
+        "index.html": "c841183cdf3ba71a"
+    }
+}

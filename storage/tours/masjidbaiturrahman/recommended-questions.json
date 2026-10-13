@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "masjidbaiturrahman",
+    "tourName": "Masjidbaiturrahman",
+    "updatedAt": "2026-09-29T09:51:21+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Masjidbaiturrahman?",
+                "query": "Mengapa disebut Masjidbaiturrahman?",
+                "desc": "Mengapa disebut Masjidbaiturrahman?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Masjidbaiturrahman",
+                "desc": "Ceritakan tentang Masjidbaiturrahman"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Masjidbaiturrahman"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Masjidbaiturrahman"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Masjidbaiturrahman?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Masjidbaiturrahman?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Masjidbaiturrahman?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Masjidbaiturrahman?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

@@ -337,44 +337,6 @@
                     "content": "Information for Object 1044 at Zie Batik."
                 }
             }
-        },
-        {
-            "id": "webview:objinfo2:1238",
-            "entityId": "objinfo2:1238",
-            "title": "Patung GFF",
-            "aliases": [
-                "patung gff",
-                "objek 1238"
-            ],
-            "type": "information",
-            "categories": [
-                "informasi"
-            ],
-            "tags": [
-                "webview",
-                "objinfo2",
-                "auto"
-            ],
-            "sceneIds": [],
-            "content": "Patung sapi berukuran cukup besar yang menjadi maskot utama Green Fresh Farm ditempatkan secara strategis di pintu masuk untuk menyambut kedatangan siswa maupun wisatawan yang berkunjung. Keberadaan patung ini tidak hanya berfungsi sebagai ikon identitas peternakan, tetapi juga menjadi lokasi swafoto favorit dan taman bermain bagi pengunjung sebelum memulai kegiatan edukasi di dalam area farm.",
-            "source": "webview-import",
-            "sourceId": "1238",
-            "sourceType": "objinfo2",
-            "sourceFile": "semarang-260828.sql",
-            "sourceLine": 0,
-            "mappingConfidence": "WEBVIEW",
-            "mappingEvidence": "webview-knowledge auto-plant",
-            "provenance": "webview-import",
-            "translations": {
-                "id": {
-                    "title": "Patung GFF",
-                    "content": "Patung sapi berukuran cukup besar yang menjadi maskot utama Green Fresh Farm ditempatkan secara strategis di pintu masuk untuk menyambut kedatangan siswa maupun wisatawan yang berkunjung. Keberadaan patung ini tidak hanya berfungsi sebagai ikon identitas peternakan, tetapi juga menjadi lokasi swafoto favorit dan taman bermain bagi pengunjung sebelum memulai kegiatan edukasi di dalam area farm."
-                },
-                "en": {
-                    "title": "Object 1238",
-                    "content": "Information for Object 1238."
-                }
-            }
         }
     ]
 }

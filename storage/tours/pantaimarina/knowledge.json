@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "pantaimarina",
+    "updatedAt": "2026-09-29T09:51:33+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Pantaimarina",
+            "aliases": [
+                "pantaimarina"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "pantaimarina"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Pantaimarina.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pantaimarina",
+                    "content": "Pusat pengalaman virtual untuk Pantaimarina."
+                },
+                "en": {
+                    "title": "Pantaimarina",
+                    "content": "Pusat pengalaman virtual untuk Pantaimarina."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Toilet",
+            "aliases": [
+                "toilet"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "pantaimarina"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Toilet",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Toilet",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "pantaimarina"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "pantaimarina"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:278",
+            "entityId": "objinfo2:278",
+            "title": "Tabur Bunga",
+            "aliases": [
+                "tabur bunga",
+                "objek 278"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lokasi tabur bunga adalah area yang diperuntukan untuk melepas abu kremasi dan tabur bunga guna mengingat keluarga yang telah berpulang. Kegiatan tabur bunga ini biasanya dilakukan di tepi pantai yang mudah diakses atau dengan menyewa perahu nelayan untuk mendekati perairan lepas.",
+            "source": "webview-import",
+            "sourceId": "278",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tabur Bunga",
+                    "content": "Lokasi tabur bunga adalah area yang diperuntukan untuk melepas abu kremasi dan tabur bunga guna mengingat keluarga yang telah berpulang. Kegiatan tabur bunga ini biasanya dilakukan di tepi pantai yang mudah diakses atau dengan menyewa perahu nelayan untuk mendekati perairan lepas."
+                },
+                "en": {
+                    "title": "Flower Scattering Area",
+                    "content": "The flower scattering area is a designated place for releasing cremation ashes and scattering flowers to honor and remember departed family members. This ceremony is usually held along easily accessible shorelines or by renting a fisherman’s boat to reach open waters."
+                },
+                "zh": {
+                    "title": "灑花區",
+                    "content": "灑花區是專門用來撒放火化後骨灰與鮮花，以追思已故家人的場所。這項儀式通常在易於到達的海岸邊進行，或租用漁船前往外海完成。"
+                },
+                "ar": {
+                    "title": "منطقة نثر الزهور",
+                    "content": "منطقة نثر الزهور هي مكان مخصص لنثر رماد الجنازة والزهور تكريمًا وتخليدًا لذكرى أفراد العائلة الراحلين. عادةً ما تُقام هذه المراسم على الشاطئ سهل الوصول أو باستئجار قارب صيد للوصول إلى المياه المفتوحة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:279",
+            "entityId": "objinfo2:279",
+            "title": "Pantai",
+            "aliases": [
+                "pantai",
+                "objek 279"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pantai Marina Semarang adalah objek wisata pantai buatan yang terletak di sebelah barat Pelabuhan Tanjung Mas, terkenal dengan ombaknya yang tenang dan pemandangan matahari terbenam yang indah. Selain menikmati suasana pantai, pengunjung dapat menemukan berbagai fasilitas seperti kafe, penyewaan perahu, area jogging, hingga kebun binatang mini.",
+            "source": "webview-import",
+            "sourceId": "279",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pantai",
+                    "content": "Pantai Marina Semarang adalah objek wisata pantai buatan yang terletak di sebelah barat Pelabuhan Tanjung Mas, terkenal dengan ombaknya yang tenang dan pemandangan matahari terbenam yang indah. Selain menikmati suasana pantai, pengunjung dapat menemukan berbagai fasilitas seperti kafe, penyewaan perahu, area jogging, hingga kebun binatang mini."
+                },
+                "en": {
+                    "title": "Beach",
+                    "content": "Marina Beach Semarang is an artificial beach attraction located west of Tanjung Mas Port, known for its calm waves and beautiful sunset views. In addition to enjoying the beach atmosphere, visitors can find various facilities such as cafes, boat rentals, jogging areas, and even a mini zoo."
+                },
+                "zh": {
+                    "title": "海灘",
+                    "content": "三寶壟瑪麗娜海灘是一個位於丹戎馬斯港西側的人造海灘景點，以平靜的海浪和迷人的夕陽景色聞名。除了欣賞海灘風光外，遊客還可享受多樣設施，如咖啡廳、船隻出租、慢跑區及迷你動物園。"
+                },
+                "ar": {
+                    "title": "الشاطئ",
+                    "content": "شاطئ مارينا سمارانغ هو شاطئ اصطناعي يقع غرب ميناء تانجونغ ماس، ويشتهر بأمواجه الهادئة ومنظر غروب الشمس الجميل. بالإضافة إلى الاستمتاع بأجواء الشاطئ، يمكن للزوار العثور على مرافق متنوعة مثل المقاهي وتأجير القوارب ومسارات الجري وحتى حديقة حيوانات صغيرة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:280",
+            "entityId": "objinfo2:280",
+            "title": "Spot Foto",
+            "aliases": [
+                "spot foto",
+                "objek 280"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Anjungan atau dermaga kecil yang menjorok ke laut, memberikan kesan latar belakang lautan yang luas dan elegan. Selain itu, area pemecah ombak berupa susunan batu-batu karang dan latar belakang matahari terbenam (sunset) saat senja menjadi lokasi favorit lainnya untuk mendapatkan foto instagramable.",
+            "source": "webview-import",
+            "sourceId": "280",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Spot Foto",
+                    "content": "Anjungan atau dermaga kecil yang menjorok ke laut, memberikan kesan latar belakang lautan yang luas dan elegan. Selain itu, area pemecah ombak berupa susunan batu-batu karang dan latar belakang matahari terbenam (sunset) saat senja menjadi lokasi favorit lainnya untuk mendapatkan foto instagramable."
+                },
+                "en": {
+                    "title": "Photo Spot",
+                    "content": "A small pier or jetty extending into the sea provides a wide and elegant ocean backdrop. In addition, the breakwater area made of coral rocks and the sunset view in the evening make it another favorite spot for capturing Instagram-worthy photos."
+                },
+                "zh": {
+                    "title": "拍照景點",
+                    "content": "拍照景點是一座延伸至海中的小碼頭，提供寬闊而優雅的海洋背景。此外，由珊瑚石堆砌而成的防波堤區及傍晚的夕陽景色，也是旅客最喜愛的打卡攝影地點之一。"
+                },
+                "ar": {
+                    "title": "منطقة التصوير",
+                    "content": "منطقة التصوير هي رصيف صغير يمتد إلى البحر، مما يوفر خلفية أنيقة وواسعة للمحيط. كما تُعد منطقة كاسر الأمواج المكونة من الصخور المرجانية مع مشهد غروب الشمس في المساء من المواقع المفضلة لالتقاط الصور الجميلة والمميزة لإنستغرام."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:281",
+            "entityId": "objinfo2:281",
+            "title": "Jetski",
+            "aliases": [
+                "jetski",
+                "objek 281"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas jetski di Pantai Marina Semarang disediakan oleh operator khusus dan menawarkan berbagai paket sewa yang memungkinkan pengunjung memacu adrenalin di perairan sekitar pantai. Durasi penyewaan jetski ini bervariasi, mulai dari 15 menit untuk Simple Ride di sekitar area Marina hingga paket touring jarak jauh.",
+            "source": "webview-import",
+            "sourceId": "281",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jetski",
+                    "content": "Fasilitas jetski di Pantai Marina Semarang disediakan oleh operator khusus dan menawarkan berbagai paket sewa yang memungkinkan pengunjung memacu adrenalin di perairan sekitar pantai. Durasi penyewaan jetski ini bervariasi, mulai dari 15 menit untuk Simple Ride di sekitar area Marina hingga paket touring jarak jauh."
+                },
+                "en": {
+                    "title": "Jetski",
+                    "content": "The jetski facility at Marina Beach Semarang is provided by specialized operators and offers various rental packages that allow visitors to experience an adrenaline rush on the waters around the beach. The rental duration varies, starting from 15-minute simple rides around the Marina area to long-distance touring packages."
+                },
+                "zh": {
+                    "title": "水上摩托車",
+                    "content": "三寶壟瑪麗娜海灘的水上摩托車設施由專業業者經營，提供多種租賃方案，讓遊客能在海灘周圍水域體驗刺激的馳騁樂趣。租賃時間多樣，從15分鐘的簡易體驗到長距離巡航套裝皆可選擇。"
+                },
+                "ar": {
+                    "title": "الدراجة المائية (جت سكي)",
+                    "content": "تتوفر خدمة الدراجة المائية (جت سكي) في شاطئ مارينا سمارانغ من خلال مشغلين متخصصين، وتقدم مجموعة متنوعة من باقات التأجير التي تتيح للزوار عيش تجربة مثيرة في مياه الشاطئ. تختلف مدة التأجير من 15 دقيقة لجولة بسيطة حول منطقة المارينا إلى باقات جولات لمسافات طويلة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:282",
+            "entityId": "objinfo2:282",
+            "title": "Resto Outdoor",
+            "aliases": [
+                "resto outdoor",
+                "objek 282"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas restoran outdoor di Pantai Marina Semarang umumnya berupa kafe dan restoran berkonsep beach club seperti di Cafe Aksara dan Cafe Kusuma, yang menawarkan pengalaman bersantap langsung di tepi pantai dengan nuansa ala Bali. Resto-resto ini menyediakan tempat duduk outdoor yang nyaman untuk menikmati hidangan sambil menyaksikan pemandangan laut dan sunset yang memukau.",
+            "source": "webview-import",
+            "sourceId": "282",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Resto Outdoor",
+                    "content": "Fasilitas restoran outdoor di Pantai Marina Semarang umumnya berupa kafe dan restoran berkonsep beach club seperti di Cafe Aksara dan Cafe Kusuma, yang menawarkan pengalaman bersantap langsung di tepi pantai dengan nuansa ala Bali. Resto-resto ini menyediakan tempat duduk outdoor yang nyaman untuk menikmati hidangan sambil menyaksikan pemandangan laut dan sunset yang memukau."
+                },
+                "en": {
+                    "title": "Outdoor Restaurant",
+                    "content": "The outdoor restaurant facilities at Marina Beach Semarang are typically cafes and beach club-style eateries such as Cafe Aksara and Cafe Kusuma, offering a dining experience right by the beach with a Bali-inspired ambiance. These restaurants provide comfortable outdoor seating where guests can enjoy meals while admiring the sea view and stunning sunset."
+                },
+                "zh": {
+                    "title": "露天餐廳",
+                    "content": "三寶壟瑪麗娜海灘的露天餐廳多為海灘俱樂部風格的咖啡廳與餐廳，如 Aksara 咖啡館與 Kusuma 咖啡館，提供如峇里島般的海邊用餐體驗。這些餐廳設有舒適的戶外座位，讓顧客一邊享用美食，一邊欣賞海景與迷人的夕陽。"
+                },
+                "ar": {
+                    "title": "المطعم الخارجي",
+                    "content": "تتكون مرافق المطاعم الخارجية في شاطئ مارينا سمارانغ عادةً من مقاهٍ ومطاعم على طراز نوادي الشاطئ مثل مقهى أكسارا ومقهى كوسوما، حيث تقدم تجربة طعام مباشرة على الشاطئ بأجواء مستوحاة من بالي. توفر هذه المطاعم مقاعد خارجية مريحة للاستمتاع بالوجبات أثناء مشاهدة منظر البحر وغروب الشمس الخلاب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:283",
+            "entityId": "objinfo2:283",
+            "title": "Coffee Truck",
+            "aliases": [
+                "coffee truck",
+                "objek 283"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas coffee truck di Pantai Marina Semarang mengusung konsep kafe mobil dan menjadi alternatif tempat ngopi yang unik di tepi pantai. Coffee truck ini biasanya menawarkan kopi dengan harga terjangkau dan menyediakan area tempat duduk outdoor yang santai bagi pengunjung untuk menikmati minuman sambil melihat pemandangan laut.",
+            "source": "webview-import",
+            "sourceId": "283",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Coffee Truck",
+                    "content": "Fasilitas coffee truck di Pantai Marina Semarang mengusung konsep kafe mobil dan menjadi alternatif tempat ngopi yang unik di tepi pantai. Coffee truck ini biasanya menawarkan kopi dengan harga terjangkau dan menyediakan area tempat duduk outdoor yang santai bagi pengunjung untuk menikmati minuman sambil melihat pemandangan laut."
+                },
+                "en": {
+                    "title": "Coffee Truck",
+                    "content": "The coffee truck facility at Marina Beach Semarang adopts a mobile café concept, offering a unique coffee experience by the seaside. These coffee trucks usually serve affordable coffee and provide relaxed outdoor seating areas where visitors can enjoy their drinks while watching the ocean view."
+                },
+                "zh": {
+                    "title": "行動咖啡車",
+                    "content": "三寶壟瑪麗娜海灘的行動咖啡車以移動咖啡館的概念經營，成為海邊別具特色的咖啡場所。這些咖啡車通常提供價格實惠的咖啡，並設有輕鬆的戶外座位區，讓遊客一邊品嚐飲品，一邊欣賞海景。"
+                },
+                "ar": {
+                    "title": "شاحنة القهوة",
+                    "content": "تتبنى شاحنة القهوة في شاطئ مارينا سمارانغ مفهوم المقهى المتنقل، مما يجعلها خيارًا فريدًا لتناول القهوة على الشاطئ. تقدم هذه الشاحنات عادةً قهوة بأسعار معقولة وتوفر مناطق جلوس خارجية مريحة ليستمتع الزوار بمشروباتهم أثناء مشاهدة منظر البحر."
+                }
+            }
+        }
+    ]
+}

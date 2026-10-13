@@ -117,7 +117,12 @@ function ai_flow_next(string $currentSceneId, array $flow, array $visited = []):
         $sid = (string)$order[$idx];
         if ($sid === $currentSceneId) continue;
         if (isset($seen[$sid])) continue;
-        return ['sceneId' => $sid, 'label' => (string)($nodes[$sid]['displayName'] ?? ''), 'navigable' => true];
+        // Nama dari data AI Studio (scene-identity), bukan label mentah flow.json.
+        $label = '';
+        $ident = ai_get_scene_identity($sid);
+        if ($ident) $label = trim((string)($ident['placeName'] ?? $ident['displayName'] ?? ''));
+        if ($label === '') $label = trim((string)($nodes[$sid]['displayName'] ?? ''));
+        return ['sceneId' => $sid, 'label' => $label, 'navigable' => true];
     }
     return null;
 }
@@ -531,9 +536,44 @@ function ai_load_knowledge(): array
     return $cache = array_map('ai_normalize_knowledge', $entries);
 }
 
+/** Load data/facilities.json (registry fasilitas: toilet, musala, parkir, playground, dll). */
+function ai_load_facilities(): array
+{
+    static $cache;
+    if ($cache !== null) return $cache;
+    $file = dirname(__DIR__) . '/data/facilities.json';
+    $raw = json_decode((string)@file_get_contents($file), true);
+    $items = is_array($raw) ? (array)($raw['items'] ?? []) : [];
+    return $cache = $items;
+}
+
+/**
+ * Cocokkan pertanyaan fasilitas (toilet/musala/parkir/playground, dll) ke registry.
+ * Return entry + ['available'=>bool,'note'=>..,'name'=>..] atau null.
+ */
+function ai_resolve_facility(string $message): ?array
+{
+    $items = ai_load_facilities();
+    if (!$items) return null;
+    $q = ai_normalize($message);
+    if ($q === '') return null;
+    foreach ($items as $it) {
+        if (!is_array($it)) continue;
+        $names = array_merge([(string)($it['name'] ?? '')], array_map('strval', (array)($it['aliases'] ?? [])));
+        foreach ($names as $n) {
+            $nn = ai_normalize($n);
+            if ($nn !== '' && strlen($nn) >= 3 && str_contains($q, $nn)) return $it;
+        }
+    }
+    return null;
+}
+
 function ai_embed(string $text, array $config): ?array
 {
     if ($config['reasoning_mode'] === 'fast') return null;
+    // Hormati flag Ollama: bila dimatikan, jangan coba embedding (menghindari
+    // cold-start/timeout Ollama yang memperlambat setiap request).
+    if (!filter_var(getenv('OLLAMA_ENABLED') ?: 'false', FILTER_VALIDATE_BOOLEAN)) return null;
     $response = ai_post_json($config['ollama_url'] . '/api/embed', ['model' => $config['embed_model'], 'input' => $text], 8);
     $vector = $response['embeddings'][0] ?? $response['embedding'] ?? null;
     return is_array($vector) ? array_map('floatval', $vector) : null;
@@ -876,6 +916,7 @@ function ai_load_place_map(): array
     static $cache;
     if ($cache !== null) return $cache;
     $raw = json_decode((string)@file_get_contents(dirname(__DIR__) . '/data/place-map.json'), true);
+    if (!is_array($raw)) $raw = [];
     $scenes = [];
     foreach ((array)($raw['scenes'] ?? []) as $scene) {
         $id = (string)($scene['sceneId'] ?? '');
@@ -901,6 +942,71 @@ function ai_load_place_map(): array
             'description' => (string)($place['description'] ?? ''),
         ];
     }
+
+    // --- COMPAT ADAPTER: beberapa tur (mis. Lawang Sewu) tidak punya array
+    // `places` di place-map.json — hanya scenes yang semuanya memetakan ke satu
+    // placeId generik. Sumber tempat yang valid (dengan nama, alias, sceneIds,
+    // variantGroup) berada di scene-identity.json. Turunkan places + perbaiki
+    // scene→place dari sana bila place-map tidak menyediakan `places`.
+    $hasUsablePlaces = false;
+    foreach ($places as $p) {
+        if ($p['placeDisplayName'] !== '' || $p['aliases'] !== []) { $hasUsablePlaces = true; break; }
+    }
+    if (!$hasUsablePlaces) {
+        $identity = ai_load_scene_identity();
+        $identityPlaces = (array)($identity['places'] ?? []);
+        $identityScenes = (array)($identity['scenes'] ?? []);
+        if ($identityPlaces || $identityScenes) {
+            // 1) Scene→placeId authoritative dari daftar sceneIds per place.
+            $sceneToPlace = [];
+            foreach ($identityPlaces as $pid => $place) {
+                foreach ((array)($place['sceneIds'] ?? []) as $sid) {
+                    if ((string)$sid !== '') $sceneToPlace[(string)$sid] = (string)$pid;
+                }
+            }
+            // 2) Places dari scene-identity (nama, alias, sceneIds, variantGroup).
+            $places = [];
+            foreach ($identityPlaces as $pid => $place) {
+                $vg = [];
+                foreach ((array)($place['variantGroup'] ?? []) as $v) {
+                    if (is_array($v)) { foreach ($v as $vv) if ((string)$vv !== '') $vg[] = (string)$vv; }
+                    elseif ((string)$v !== '') $vg[] = (string)$v;
+                }
+                foreach ((array)($place['sceneIds'] ?? []) as $sid) if ((string)$sid !== '' && !in_array((string)$sid, $vg, true)) $vg[] = (string)$sid;
+                $places[$pid] = [
+                    'placeId' => (string)$pid,
+                    'placeDisplayName' => (string)($place['name'] ?? ''),
+                    'aliases' => array_values(array_unique(array_map('strval', (array)($place['aliases'] ?? [])))),
+                    'variantGroup' => array_values($vg),
+                    'confidence' => (string)($place['confidence'] ?? 'NEEDS_REVIEW'),
+                    'description' => (string)($place['description'] ?? ''),
+                ];
+            }
+            // 3) Scenes dari scene-identity; placeId dikonsiliasi dengan sceneIds.
+            $newScenes = [];
+            foreach ($identityScenes as $sid => $scene) {
+                $pid = (string)($scene['placeId'] ?? '');
+                if ($pid === '' || !isset($places[$pid])) {
+                    if (isset($sceneToPlace[(string)$sid])) $pid = $sceneToPlace[(string)$sid];
+                }
+                $newScenes[(string)$sid] = [
+                    'sceneId' => (string)$sid,
+                    'rawName' => (string)($scene['rawName'] ?? ''),
+                    'displayName' => (string)($scene['displayName'] ?? ''),
+                    'placeId' => $pid,
+                    'placeDisplayName' => $pid !== '' && isset($places[$pid]) ? (string)$places[$pid]['placeDisplayName'] : (string)($scene['placeName'] ?? ''),
+                    'variant' => $scene['variant'] ?? null,
+                    'confidence' => (string)($scene['confidence'] ?? 'NEEDS_REVIEW'),
+                ];
+            }
+            // Scene yang ada di place-map tetapi tidak di scene-identity: biarkan.
+            foreach ($scenes as $sid => $scene) {
+                if (!isset($newScenes[$sid])) $newScenes[$sid] = $scene;
+            }
+            $scenes = $newScenes;
+        }
+    }
+
     return $cache = ['scenes' => $scenes, 'places' => $places];
 }
 
@@ -1029,9 +1135,23 @@ function ai_get_visitor_label(string $sceneId): string
     return $scene ? ($scene['placeDisplayName'] ?: $scene['displayName']) : '';
 }
 
+/** Remove a leading greeting/sapaan so replies stay fluid across a conversation. */
+function ai_strip_leading_greeting(string $text): string {
+    $t = ltrim((string)$text);
+    $patterns = array(
+        '/^(halo|hai|hi|hello|hey)\b\s*[!,.]?\s*/iu',
+        '/^selamat\s+(pagi|siang|sore|malam)\b\s*[!,.]?\s*/iu',
+        '/^salam\s+sejahtera\b\s*[!,.]?\s*/iu',
+        '/^salam\b\s*[!,.]?\s*/iu',
+    );
+    foreach ($patterns as $p) {
+        $t = preg_replace($p, '', $t);
+    }
+    return ltrim($t);
+}
+
 /** Check reply for technical label leakage. Returns cleaned reply. */
-function ai_technical_label_check(string $reply, string $sceneId): string
-{
+function ai_technical_label_check(string $reply, string $sceneId): string{
     $map = ai_load_place_map();
     $scene = $map['scenes'][$sceneId] ?? null;
     if (!$scene) return $reply;
@@ -1069,7 +1189,7 @@ function ai_classify_intent(string $message, array $session = []): string
 
     // 2b. Nearby domain must win over broad public-service terms such as station or tourism.
     $nearbyNouns = 'hotel|penginapan|restoran|rumah makan|kafe|cafe|oleh-oleh|souvenir|wisata|museum|landmark|halte|brt|terminal|stasiun|bandara|pelabuhan|transportasi';
-    if (preg_match('/(' . $nearbyNouns . ').*(sekitar|dekat|terdekat|lawang sewu|nearby|around)|(sekitar|dekat|terdekat|lawang sewu|nearby|around).*(' . $nearbyNouns . ')/i', $q)) return 'NEARBY_SEARCH';
+    if (preg_match('/(' . $nearbyNouns . ').*(sekitar|dekat|terdekat|lawang sewu|nearby|around|sini)|(sekitar|dekat|terdekat|lawang sewu|nearby|around|sini).*(' . $nearbyNouns . ')/i', $q)) return 'NEARBY_SEARCH';
 
     // 2c. Public service query — BEFORE navigation to catch service-related terms
     if (preg_match('/(darurat|ambulans|polisi|pemadam|kebakaran|layanan publik|nomor bantuan|call center|pengaduan|bantuan medis|rumah sakit|klinik|apotek|kesehatan|paramedis|emergency|112|110|lapor|lapor semar|whatsapp.*semar|wa.*semar|pajak|pbb|kependudukan|ktp|identitas|chatbot.*pemkot|libas|kriminal|transportasi umum|stasiun kereta|kantor pemerintah|pemerintahan|walikota|gubernur|dinas|pariwisata|kehilangan|barang hilang)/i', $q)) return 'PUBLIC_SERVICE';
@@ -1086,7 +1206,7 @@ function ai_classify_intent(string $message, array $session = []): string
     if (preg_match('/^(oke|ok|sip|bagus|baik|terima kasih)\b/i', $q)) return 'GENERAL_CONVERSATION';
 
     // 5. NEARBY_SEARCH: proximity queries
-    $placeNouns = 'toilet|wc|mushola|masjid|atm|bank|restoran|rumah makan|kafe|cafe|warung|toko|souvenir|spbu|pom bensin|rumah sakit|klinik|apotek|hotel|penginapan|taman|parkir|indomaret|alfamart|apartemen|gedung';
+    $placeNouns = 'toilet|wc|mushola|masjid|atm|bank|restoran|rumah makan|kafe|cafe|warung|toko|souvenir|suvenir|oleh-oleh|oleh oleh|spbu|pom bensin|rumah sakit|klinik|apotek|hotel|penginapan|taman|parkir|indomaret|alfamart|apartemen|gedung';
     if (preg_match('/(' . $placeNouns . ').*(sekitar|dekat|terdekat|sini|ini|nearby|around)|(sekitar|dekat|terdekat|sini|ini|nearby|around).*(' . $placeNouns . ')/i', $q)) return 'NEARBY_SEARCH';
     if (preg_match('/(toilet|wc|mushola|masjid|muslim|parkir|restoran|makan|minum|kafe|cafe|souvenir|oleh-oleh|ramah anak|stroller|akses|kursi roda|fasilitas|layanan|peminjaman)/i', $q) && !preg_match('/(makanan khas|masakan khas|kuliner|rekomendasi makanan)/i', $q)) return 'FACILITY';
 
@@ -1121,6 +1241,39 @@ function ai_classify_intent(string $message, array $session = []): string
     if (preg_match('/(berapa|kapan|siapa|dimana|di mana|kenapa|mengapa|bagaimana)/i', $q)) return 'FACTUAL_QUESTION';
 
     return 'GENERAL_CONVERSATION';
+}
+
+/**
+ * Sapaan/perkenalan singkat — dijawab deterministik, bukan deskripsi scene.
+ */
+function ai_is_greeting(string $message): bool
+{
+    $q = mb_strtolower(trim($message));
+    if ($q === '') return false;
+    if (preg_match('/^(halo+|hai+|hallo|hi|hello|hey|assalamualaikum|assalam|permisi|selamat (pagi|siang|sore|malam))\b/i', $q)) return true;
+    if (preg_match('/(kamu (bisa|dapat) (apa|ngapain|bantu apa|membantu apa)|bisa bantu (apa|saya apa)|apa yang bisa kamu|siapa kamu|kamu siapa|perkenalkan (diri)?)/i', $q)) return true;
+    return false;
+}
+
+/**
+ * Pertanyaan jelas di luar domain tur (politik, olahraga, cuaca, matematika, dll).
+ */
+function ai_is_offtopic(string $message): bool
+{
+    $q = mb_strtolower(trim($message));
+    $patterns = [
+        '/\b(presiden|wakil presiden|menteri|politik|pemilu|pilpres|pilkada|partai|dpr|mpr|kampanye|koalisi)\b/i',
+        '/\b(piala dunia|sepak ?bola|liga|olimpiade|bulu ?tangkis|atlet|klub bola|badminton)\b/i',
+        '/\b(prakiraan cuaca|ramalan cuaca|gempa bumi|magnitudo|tsunami|suhu udara)\b/i',
+        '/\b(saham|kripto|bitcoin|forex|investasi|kurs dolar|ipo|crypto)\b/i',
+        '/\b(matematika|integral|persamaan kuadrat|trigonometri|teorema|berapa hasil dari)\b/i',
+        '/\b(penemu|ilmuwan|teori relativitas|fisika kuantum|nasa|tata surya|antariksa)\b/i',
+        '/\b(ibu kota negara|lagu kebangsaan|mata uang|bendera negara|sejarah dunia|perang dunia)\b/i',
+        '/\b(resep|bumbu dapur|cara membuat kue|menu diet|kalori makanan)\b/i',
+        '/\b(artis|selebgram|penyanyi|band|film|sinetron|drakor|mobile legends|pubg|game online)\b/i',
+    ];
+    foreach ($patterns as $p) if (preg_match($p, $q)) return true;
+    return false;
 }
 
 /**
@@ -1706,20 +1859,64 @@ function ai_resolve_lawang_sewu_visitor_tips(string $message): ?array
  * LAWANG SEWU NEARBY DOMAIN
  * ================================================================ */
 
+function ai_is_stub_text(string $text): bool
+{
+    $t = mb_strtolower(trim($text));
+    if ($t === '') return true;
+    $stubs = ['perlu diisi', 'isi jarak', 'isi waktu tempuh', 'isi alamat', 'belum ada deskripsi kurasi',
+        'ganti nama', 'placeholder', 'lorem ipsum', 'tbd', 'todo', 'xxx', 'contoh saja', 'dummy'];
+    foreach ($stubs as $s) if (str_contains($t, $s)) return true;
+    // Nama generik template: "Tempat Makan Terdekat", "Hotel Terdekat", dll.
+    if (preg_match('/^(tempat|hotel|restoran|rumah makan|kafe|penginapan)\b.*\bterdekat$/i', $t)) return true;
+    return false;
+}
+
+/**
+ * Dataset nearby milik tur yang sedang aktif (data/nearby.json dari config/tour.json).
+ * Nama fungsi dipertahankan demi kompatibilitas pemanggil lama.
+ */
 function ai_load_lawang_sewu_nearby(): array
 {
     static $cache;
     if ($cache !== null) return $cache;
-    $file = dirname(__DIR__) . '/data/lawang-sewu-nearby.json';
-    if (!is_file($file)) return $cache = [];
-    $raw = json_decode((string)@file_get_contents($file), true);
-    return $cache = is_array($raw) ? $raw : [];
+    $cfg = ai_tour_config();
+    $rel = (string)($cfg['data']['nearbyPath'] ?? 'data/nearby.json');
+    $candidates = [
+        dirname(__DIR__) . '/' . ltrim($rel, '/'),
+        dirname(__DIR__) . '/data/nearby.json',
+        dirname(__DIR__) . '/data/lawang-sewu-nearby.json',
+    ];
+    foreach ($candidates as $file) {
+        if (!is_file($file)) continue;
+        $raw = json_decode((string)@file_get_contents($file), true);
+        if (is_array($raw) && !empty($raw['items'])) return $cache = $raw;
+    }
+    return $cache = [];
+}
+
+function ai_nearby_label(): string
+{
+    $cfg = ai_tour_config();
+    $label = trim((string)($cfg['nearbyLabel'] ?? ''));
+    if ($label !== '') return $label;
+    $name = trim((string)($cfg['tourName'] ?? ''));
+    $loc = trim((string)($cfg['location'] ?? ''));
+    return trim($name . ($loc !== '' ? ' dan ' . $loc : '')) ?: 'lokasi ini';
+}
+
+function ai_nearby_maps_url(array $item): string
+{
+    $cfg = ai_tour_config();
+    $loc = trim((string)($cfg['location'] ?? ''));
+    $name = trim((string)($cfg['tourName'] ?? ''));
+    $where = $loc !== '' ? $loc : $name;
+    $query = trim((string)($item['name'] ?? '') . ' ' . (string)($item['address'] ?? '') . ' ' . $where);
+    return 'https://www.google.com/maps/search/?api=1&query=' . rawurlencode($query);
 }
 
 function ai_lawang_sewu_maps_url(array $item): string
 {
-    $query = trim((string)($item['name'] ?? '') . ' ' . (string)($item['address'] ?? '') . ' Lawang Sewu Semarang');
-    return 'https://www.google.com/maps/search/?api=1&query=' . rawurlencode($query);
+    return ai_nearby_maps_url($item);
 }
 
 function ai_resolve_lawang_sewu_nearby(string $message): ?array
@@ -1738,14 +1935,22 @@ function ai_resolve_lawang_sewu_nearby(string $message): ?array
 
     $matches = [];
     foreach ($items as $item) {
+        // Lewati entri template/placeholder yang belum dikurasi.
+        $nm = trim((string)($item['name'] ?? ''));
+        if ($nm === '' || ai_is_stub_text($nm)) continue;
+        $addr = trim((string)($item['address'] ?? ''));
+        if ($addr !== '' && ai_is_stub_text($addr)) continue;
+        $dist = trim((string)($item['distance'] ?? ''));
+        if ($dist !== '' && ai_is_stub_text($dist)) continue;
         $haystack = ai_normalize_service_text(implode(' ', array_merge([$item['name'] ?? '', $item['category'] ?? ''], $item['aliases'] ?? [])));
-        $specific = $haystack !== '' && (mb_strpos($q, ai_normalize_service_text((string)($item['name'] ?? ''))) !== false);
+        $specific = $haystack !== '' && (mb_strpos($q, ai_normalize_service_text($nm)) !== false);
         if ($specific || ($category !== '' && ($item['category'] ?? '') === $category)) $matches[] = $item;
     }
     if (!$matches) return null;
 
+    $label = ai_nearby_label();
     $matches = array_slice($matches, 0, 5);
-    $reply = $category === '' ? 'Pilihan sekitar Lawang Sewu:' : 'Pilihan ' . $category . ' sekitar Lawang Sewu:';
+    $reply = $category === '' ? 'Pilihan di sekitar ' . $label . ':' : 'Pilihan ' . $category . ' di sekitar ' . $label . ':';
     foreach ($matches as $i => $item) {
         $reply .= "\n" . ($i + 1) . '. ' . $item['name'];
         if (!empty($item['distance'])) $reply .= ' — ' . $item['distance'];
@@ -1757,7 +1962,7 @@ function ai_resolve_lawang_sewu_nearby(string $message): ?array
     $recommendations = [];
     $actions = [];
     foreach ($matches as $item) {
-        $url = ai_lawang_sewu_maps_url($item);
+        $url = ai_nearby_maps_url($item);
         $recommendations[] = [
             'name' => (string)($item['name'] ?? ''),
             'type' => (string)($item['category'] ?? 'lainnya'),
@@ -1778,7 +1983,7 @@ function ai_resolve_lawang_sewu_nearby(string $message): ?array
         'recommendations' => $recommendations,
         'action' => 'none',
         'scene' => null,
-        'provider' => 'lawang-sewu-nearby',
+        'provider' => 'nearby-local',
     ];
 }
 

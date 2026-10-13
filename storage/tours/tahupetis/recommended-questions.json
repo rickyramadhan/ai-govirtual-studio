@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "tahupetis",
+    "tourName": "Tahupetis",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Petisnya dipisah tidak?",
+                "query": "Apakah bumbu petisnya sudah disuntikkan langsung ke dalam tahu atau dipisah dalam wadah sendiri?",
+                "desc": "Apakah bumbu petisnya sudah disuntikkan langsung ke dalam tahu atau dipisah dalam wadah sendiri?"
+            },
+            {
+                "label": "Berapa harga per bijinya?",
+                "query": "Berapa harga satuan tahu petis di sini dan apakah ada paketan khusus untuk oleh-oleh?",
+                "desc": "Berapa harga satuan tahu petis di sini dan apakah ada paketan khusus untuk oleh-oleh?"
+            },
+            {
+                "label": "Buka dari jam berapa?",
+                "query": "Kedai tahu petis legendaris ini biasanya mulai melayani pembeli dari jam berapa sampai jam berapa?",
+                "desc": "Kedai tahu petis legendaris ini biasanya mulai melayani pembeli dari jam berapa sampai jam berapa?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Keistimewaan Tahu Petis",
+                "query": "Apa yang membuat tekstur tahu dan cita rasa bumbu petis Yudhistira begitu istimewa dan terkenal di Semarang?"
+            },
+            {
+                "label": "Rahasia Bumbu Petis",
+                "query": "Bagaimana proses pembuatan saus petis udang kental berwarna hitam yang rasanya gurih manis dan tidak amis?"
+            },
+            {
+                "label": "Proses Penggorengan",
+                "query": "Seperti apa teknik menggoreng tahu pong agar teksturnya renyah di luar namun sangat lembut dan kopong di dalam?"
+            },
+            {
+                "label": "Awal Mula Berjualan",
+                "query": "Bisa ceritakan kisah awal mula berdirinya usaha Tahu Petis Yudhistira hingga menjadi primadona kuliner lokal?"
+            },
+            {
+                "label": "Menu Pendamping Tahu",
+                "query": "Selain tahu petis, jajanan gorengan tradisional atau menu pelengkap apa lagi yang dijual di kedai ini?"
+            },
+            {
+                "label": "Ketahanan untuk Oleh-Oleh",
+                "query": "Bagaimana cara mengemas tahu petis ini agar kualitasnya tetap aman dan awet dibawa pulang sebagai buah tangan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Tahupetis?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Tahupetis?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Tahupetis?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

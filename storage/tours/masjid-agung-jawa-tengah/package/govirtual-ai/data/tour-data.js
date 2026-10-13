@@ -13,7 +13,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "default"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node233",
@@ -28,7 +31,10 @@ window.GoVirtualTourData = {
             "aliases": [
                 "video360_1",
                 "default"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node207",
@@ -41,7 +47,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "umkm"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node208",
@@ -54,7 +63,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "ballroom"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node209",
@@ -68,7 +80,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "payung"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node210",
@@ -82,7 +97,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "artefak"
-            ]
+            ],
+            "pan": -177.17,
+            "tilt": -7.04,
+            "fov": 108.5
         },
         {
             "id": "node211",
@@ -96,7 +114,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "bedug"
-            ]
+            ],
+            "pan": -1.82,
+            "tilt": 10.09,
+            "fov": 108.5
         },
         {
             "id": "node212",
@@ -109,7 +130,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Batu Peresmian"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node213",
@@ -122,7 +146,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Masjid Agung Jawa Tengah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node214",
@@ -136,7 +163,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "menara"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node215",
@@ -149,7 +179,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "gedungsunan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node216",
@@ -162,7 +195,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Jalan Blok Kurma"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node217",
@@ -176,7 +212,10 @@ window.GoVirtualTourData = {
             "aliases": [
                 "default",
                 "Pintu Masuk"
-            ]
+            ],
+            "pan": -1.72,
+            "tilt": 12.41,
+            "fov": 126.56
         },
         {
             "id": "node218",
@@ -190,7 +229,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "ruangsholat"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node219",
@@ -203,7 +245,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Lantai 2"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node220",
@@ -217,7 +262,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "mushaf"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node221",
@@ -230,7 +278,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Masjid Agung Jawa Tengah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node222",
@@ -243,7 +294,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Menara Masjid Agung Jawa Tengah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node223",
@@ -256,7 +310,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pelataran Masjid Agung Jawa Tengah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node224",
@@ -269,7 +326,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pelataran Masjid"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node225",
@@ -282,7 +342,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pelataran Masjid Agung Jawa Tengah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node226",
@@ -295,7 +358,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "aulakantor"
-            ]
+            ],
+            "pan": -3.03,
+            "tilt": 3.7,
+            "fov": 101.12
         },
         {
             "id": "node227",
@@ -309,7 +375,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "replikakabah"
-            ]
+            ],
+            "pan": -178.62,
+            "tilt": 11.64,
+            "fov": 117.37
         },
         {
             "id": "node228",
@@ -323,7 +392,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "marwa"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node229",
@@ -336,7 +408,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Toko Souvenir"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node230",
@@ -349,7 +424,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Toko Souvenir"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node231",
@@ -362,7 +440,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Toko Oleh-Oleh"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node232",
@@ -376,7 +457,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "tugu"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         }
     ],
     "hotspots": [
@@ -1434,12 +1518,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Utama merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Utama adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan bagian dari Masjid Agung Jawa Tengah, ikon kebanggaan sekaligus pusat kegiatan keagamaan masyarakat Jawa Tengah.",
+            "description": "Masjid Agung Jawa Tengah (MAJT) adalah mahakarya arsitektur yang memadukan unsur gaya Jawa, Islam, dan Romawi. Diresmikan pada tahun 2006, masjid ini tidak hanya berfungsi sebagai pusat ibadah yang megah, melainkan juga sebagai destinasi wisata religi, pusat edukasi Islam, dan ikon kebanggaan budaya Jawa Tengah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ikon wisata religi Jateng",
+                "Arsitektur Jawa-Islam-Romawi",
+                "Pusat kegiatan keagamaan"
             ],
             "talkingPoints": [
                 "Area Utama",
@@ -1447,14 +1532,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Utama.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa keistimewaan dari Masjid Agung Jawa Tengah ini?",
+                    "mode": "fix",
+                    "answer": "Masjid ini sangat istimewa karena arsitekturnya merupakan perpaduan harmonis antara gaya Jawa (atap tajuk), gaya Timur Tengah (kubah dan menara), serta gaya Romawi (pilar-pilar besar di pelataran)."
+                },
+                {
+                    "q": "Apa saja aktivitas yang bisa dilakukan pengunjung di sini?",
+                    "mode": "fix",
+                    "answer": "Selain melaksanakan ibadah sholat, pengunjung sering datang untuk berwisata religi, menikmati keindahan arsitektur, mengunjungi museum perkembangan Islam, hingga naik ke Menara Asmaul Husna untuk melihat pemandangan kota Semarang."
+                },
+                {
+                    "q": "Adakah aturan khusus bagi wisatawan yang berkunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, setiap pengunjung diwajibkan mengenakan pakaian yang sopan dan menutup aurat, menjaga kebersihan, serta memelihara ketenangan area masjid untuk menghormati jemaah yang sedang beribadah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Utama — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Area Utama.",
                 "describeHere": "Area Utama adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1468,12 +1565,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Utama merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Utama adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan bagian dari Masjid Agung Jawa Tengah, ikon kebanggaan sekaligus pusat kegiatan keagamaan masyarakat Jawa Tengah.",
+            "description": "Masjid Agung Jawa Tengah (MAJT) adalah mahakarya arsitektur yang memadukan unsur gaya Jawa, Islam, dan Romawi. Diresmikan pada tahun 2006, masjid ini tidak hanya berfungsi sebagai pusat ibadah yang megah, melainkan juga sebagai destinasi wisata religi, pusat edukasi Islam, dan ikon kebanggaan budaya Jawa Tengah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ikon wisata religi Jateng",
+                "Arsitektur Jawa-Islam-Romawi",
+                "Pusat kegiatan keagamaan"
             ],
             "talkingPoints": [
                 "Area Utama",
@@ -1481,14 +1579,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Utama.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa keistimewaan dari Masjid Agung Jawa Tengah ini?",
+                    "mode": "fix",
+                    "answer": "Masjid ini sangat istimewa karena arsitekturnya merupakan perpaduan harmonis antara gaya Jawa (atap tajuk), gaya Timur Tengah (kubah dan menara), serta gaya Romawi (pilar-pilar besar di pelataran)."
+                },
+                {
+                    "q": "Apa saja aktivitas yang bisa dilakukan pengunjung di sini?",
+                    "mode": "fix",
+                    "answer": "Selain melaksanakan ibadah sholat, pengunjung sering datang untuk berwisata religi, menikmati keindahan arsitektur, mengunjungi museum perkembangan Islam, hingga naik ke Menara Asmaul Husna untuk melihat pemandangan kota Semarang."
+                },
+                {
+                    "q": "Adakah aturan khusus bagi wisatawan yang berkunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, setiap pengunjung diwajibkan mengenakan pakaian yang sopan dan menutup aurat, menjaga kebersihan, serta memelihara ketenangan area masjid untuk menghormati jemaah yang sedang beribadah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Utama — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Area Utama.",
                 "describeHere": "Area Utama adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1502,12 +1612,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Umkm merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Umkm adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat perbelanjaan suvenir dan sentra UMKM yang mendukung perekonomian lokal di sekitar masjid.",
+            "description": "Masjid Agung Jawa Tengah tidak hanya berfokus pada kegiatan spiritual, tetapi juga pemberdayaan ekonomi masyarakat. Di kawasan masjid ini terdapat sentra UMKM, toko suvenir, dan pusat oleh-oleh yang menjual aneka kerajinan tangan, busana muslim, perlengkapan ibadah, hingga makanan khas Semarang.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Sentra suvenir religi",
+                "Pusat oleh-oleh Semarang",
+                "Pemberdayaan UMKM lokal"
             ],
             "talkingPoints": [
                 "Umkm",
@@ -1515,14 +1626,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Umkm.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Barang apa saja yang banyak dijual di toko suvenir ini?",
+                    "mode": "fix",
+                    "answer": "Di sentra oleh-oleh ini, pengunjung bisa menemukan beragam barang seperti sajadah, peci, tasbih, busana muslim, kaos bertema MAJT, hingga jajanan dan makanan ringan khas Semarang untuk dibawa pulang."
+                },
+                {
+                    "q": "Apakah area UMKM ini buka setiap hari?",
+                    "mode": "fix",
+                    "answer": "Ya, sentra suvenir dan UMKM beroperasi setiap hari untuk melayani wisatawan. Namun, suasana akan jauh lebih ramai dan semarak pada akhir pekan (Sabtu-Minggu) atau pada bulan suci Ramadhan dan musim liburan panjang."
+                },
+                {
+                    "q": "Apa dampak keberadaan toko suvenir ini bagi masjid?",
+                    "mode": "fix",
+                    "answer": "Keberadaan sentra UMKM ini merupakan bentuk integrasi antara wisata religi dan ekonomi kerakyatan. Ini sangat membantu memberdayakan masyarakat sekitar sekaligus memberikan kenyamanan bagi wisatawan yang mencari buah tangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Umkm — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Umkm.",
                 "describeHere": "Umkm adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1536,12 +1659,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ballroom merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ballroom adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas gedung serbaguna (convention hall) yang disewakan untuk berbagai acara masyarakat.",
+            "description": "Kawasan MAJT juga dilengkapi dengan fasilitas gedung serbaguna (ballroom/convention hall) seperti Gedung Convention Hall (Convention Center). Fasilitas publik ini sering disewa oleh masyarakat umum maupun instansi untuk menyelenggarakan resepsi pernikahan, seminar, pameran, atau konferensi berskala nasional, yang mana hasil penyewaannya digunakan untuk operasional masjid.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gedung serbaguna (Convention)",
+                "Fasilitas resepsi pernikahan",
+                "Ruang pertemuan skala nasional"
             ],
             "talkingPoints": [
                 "Ballroom",
@@ -1549,14 +1673,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ballroom.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Acara apa yang biasanya diselenggarakan di ballroom ini?",
+                    "mode": "fix",
+                    "answer": "Gedung serbaguna ini paling sering disewa oleh masyarakat untuk acara resepsi pernikahan (Islamic wedding) berskala besar, mengingat kapasitasnya yang luas dan area parkir yang memadai. Selain itu, sering juga digunakan untuk seminar atau wisuda kampus."
+                },
+                {
+                    "q": "Apakah fasilitas gedung ini terpisah dari bangunan masjid?",
+                    "mode": "fix",
+                    "answer": "Ya, gedung serbaguna dan aula ini berlokasi di sayap kawasan masjid, terpisah dari ruang sholat utama. Desain ini bertujuan agar kemeriahan acara sosial tidak mengganggu ketenangan dan kesucian area ibadah utama."
+                },
+                {
+                    "q": "Siapa yang mengelola penyewaan fasilitas ballroom ini?",
+                    "mode": "fix",
+                    "answer": "Penyewaan dan operasional gedung ini dikelola secara profesional oleh Badan Pengelola Masjid Agung Jawa Tengah (BP MAJT). Seluruh keuntungan dari sewa gedung didedikasikan untuk biaya pemeliharaan dan operasional harian kawasan masjid yang sangat besar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ballroom — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Ballroom.",
                 "describeHere": "Ballroom adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1570,12 +1706,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Payung merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Payung adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas yang dilengkapi dengan payung hidrolik raksasa yang terinspirasi dari Masjid Nabawi.",
+            "description": "Pelataran utama Masjid Agung Jawa Tengah (Plaza Masjid) menawarkan pemandangan megah dengan pilar-pilar bergaya Romawi bergaya melingkar (koloseum). Daya tarik utama di area ini adalah keberadaan enam payung hidrolik raksasa berdiameter 14 meter yang diadopsi dari arsitektur Masjid Nabawi di Madinah, yang mekar pada momen-momen khusus.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Payung hidrolik raksasa",
+                "Pelataran ala Masjid Nabawi",
+                "Pilar melengkung gaya Romawi"
             ],
             "talkingPoints": [
                 "Payung",
@@ -1583,16 +1720,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Payung.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Kapan payung raksasa di pelataran ini dibuka?",
+                    "mode": "fix",
+                    "answer": "Enam payung hidrolik raksasa ini biasanya dibuka pada saat Sholat Jumat, Sholat Idul Fitri, Sholat Idul Adha, atau saat acara keagamaan besar yang dihadiri banyak jemaah hingga meluber ke area pelataran, tergantung kondisi cuaca (angin)."
+                },
+                {
+                    "q": "Berapa ukuran payung raksasa ini?",
+                    "mode": "fix",
+                    "answer": "Setiap payung raksasa ini memiliki diameter sekitar 14 meter dengan tinggi mencapai 20 meter. Keberadaannya memberikan peneduh ekstra sekaligus keindahan visual yang sangat ikonik bagi masjid ini."
+                },
+                {
+                    "q": "Gaya arsitektur apa yang menonjol di pelataran ini?",
+                    "mode": "fix",
+                    "answer": "Pelataran ini sangat unik karena memadukan pilar-pilar melengkung besar yang mengingatkan pada gaya arsitektur Romawi (Colosseum), namun tetap menyatu apik dengan nuansa religius khas Timur Tengah."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1531"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Payung — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Payung.",
                 "describeHere": "Payung adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1606,12 +1755,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Artefak merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Artefak adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Museum sejarah yang mengoleksi berbagai artefak dan jejak penyebaran agama Islam di Jawa Tengah.",
+            "description": "Area ini terintegrasi dengan Museum Perkembangan Islam Jawa Tengah. Pengunjung dapat mengeksplorasi rekam jejak penyebaran agama Islam, mulai dari era Wali Songo hingga masa kini. Beragam artefak bersejarah, manuskrip kuno, senjata pusaka, dan benda-benda budaya peninggalan ulama besar dirawat dan dipamerkan secara interaktif di sini.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Museum Perkembangan Islam",
+                "Koleksi artefak bersejarah",
+                "Jejak dakwah Wali Songo"
             ],
             "talkingPoints": [
                 "Artefak",
@@ -1619,16 +1769,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Artefak.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Benda peninggalan apa saja yang dipamerkan di area artefak ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini menyimpan koleksi benda peninggalan sejarah yang kaya, termasuk manuskrip kuno Al-Qur'an, keris pusaka, pakaian ulama zaman dulu, wayang golek dakwah, hingga berbagai literatur penyebaran Islam di Jawa."
+                },
+                {
+                    "q": "Apa tujuan utama didirikannya museum artefak di masjid ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini didirikan untuk tujuan edukasi, agar generasi muda dan wisatawan dapat memahami betapa panjang dan damainya sejarah akulturasi serta penyebaran agama Islam oleh para Wali Songo di tanah Jawa."
+                },
+                {
+                    "q": "Apakah pengunjung dikenakan biaya untuk masuk ke museum ini?",
+                    "mode": "fix",
+                    "answer": "Untuk mengakses fasilitas museum dan melihat koleksi artefak di bagian dasar Menara Asmaul Husna, pengunjung biasanya dikenakan tiket masuk dengan harga yang sangat terjangkau sebagai biaya pemeliharaan."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1537"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Artefak — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Artefak.",
                 "describeHere": "Artefak adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1642,12 +1804,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Bedug merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Bedug adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area tempat disimpannya Bedug Raksasa (Bedug Ijo) yang merupakan mahakarya seniman Jepara.",
+            "description": "Masjid ini menyimpan salah satu bedug terbesar di Indonesia, yang dikenal dengan nama Bedug Ijo atau Bedug Mangunsari. Bedug raksasa ini dibuat oleh para seniman ukir dari Jepara. Bedug ini menjadi simbol panggilan ibadah yang memiliki nilai seni kriya kayu Nusantara yang sangat tinggi.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Bedug raksasa Mangunsari",
+                "Mahakarya ukiran Jepara",
+                "Ikon penanda waktu sholat"
             ],
             "talkingPoints": [
                 "Bedug",
@@ -1655,16 +1818,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Bedug.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa keunikan dari bedug raksasa di masjid ini?",
+                    "mode": "fix",
+                    "answer": "Bedug raksasa ini memiliki ukuran yang sangat besar, panjangnya mencapai 3,1 meter dengan diameter lebih dari 2 meter. Bedug ini dibuat dari kayu utuh berkualitas tinggi dengan ukiran kaligrafi yang indah karya seniman asli Jepara."
+                },
+                {
+                    "q": "Kapan bedug ini biasanya dibunyikan?",
+                    "mode": "fix",
+                    "answer": "Bedug raksasa ini dibunyikan secara seremonial pada momen-momen penting, seperti menyambut datangnya bulan suci Ramadhan, hari raya Idul Fitri, Idul Adha, serta acara besar keagamaan lainnya."
+                },
+                {
+                    "q": "Dari mana asal kulit yang digunakan untuk bedug ini?",
+                    "mode": "fix",
+                    "answer": "Kulit bedug ini didatangkan secara khusus dan terbuat dari kulit sapi Australia berkualitas yang disambung dan ditarik sedemikian rupa agar menghasilkan resonansi suara yang dalam dan menggema saat ditabuh."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1535"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Bedug — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Bedug.",
                 "describeHere": "Bedug adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1678,12 +1853,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Batu Peresmian merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Batu Peresmian adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Monumen prasasti peresmian Masjid Agung Jawa Tengah yang ditandatangani oleh Presiden RI ke-6.",
+            "description": "Batu Peresmian ini merupakan monumen prasasti yang menandai selesainya proyek pembangunan Masjid Agung Jawa Tengah. Prasasti batu alam besar ini ditandatangani langsung oleh Presiden Republik Indonesia ke-6, Susilo Bambang Yudhoyono (SBY), pada tanggal 14 Mei 2006, menjadi catatan sejarah penting berdirinya mahakarya arsitektur ini.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Prasasti peresmian MAJT",
+                "Ditandatangani Presiden ke-6 RI",
+                "Tonggak sejarah tahun 2006"
             ],
             "talkingPoints": [
                 "Batu Peresmian",
@@ -1691,14 +1867,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Batu Peresmian.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peristiwa sejarah di balik batu peresmian ini?",
+                    "mode": "fix",
+                    "answer": "Batu prasasti ini adalah tanda diresmikannya Masjid Agung Jawa Tengah secara nasional. Pembangunan masjid ini memakan waktu beberapa tahun dari mulai peletakan batu pertama pada tahun 2001 hingga selesai pada tahun 2006."
+                },
+                {
+                    "q": "Siapa tokoh penting yang menandatangani prasasti ini?",
+                    "mode": "fix",
+                    "answer": "Prasasti peresmian ini ditandatangani langsung oleh Bapak Susilo Bambang Yudhoyono (SBY), yang menjabat sebagai Presiden ke-6 Republik Indonesia, tepat pada tanggal 14 Mei 2006."
+                },
+                {
+                    "q": "Di mana biasanya pengunjung menemukan batu peresmian ini?",
+                    "mode": "fix",
+                    "answer": "Batu peresmian berbentuk prasasti berukuran besar ini diletakkan di area strategis pelataran depan masjid, sehingga mudah dilihat oleh setiap pengunjung yang baru tiba sebelum memasuki bangunan utama ruang sholat."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Batu Peresmian — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Batu Peresmian.",
                 "describeHere": "Batu Peresmian adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1712,12 +1900,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Masjid Agung Jawa Tengah merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan bagian dari Masjid Agung Jawa Tengah, ikon kebanggaan sekaligus pusat kegiatan keagamaan masyarakat Jawa Tengah.",
+            "description": "Masjid Agung Jawa Tengah (MAJT) adalah mahakarya arsitektur yang memadukan unsur gaya Jawa, Islam, dan Romawi. Diresmikan pada tahun 2006, masjid ini tidak hanya berfungsi sebagai pusat ibadah yang megah, melainkan juga sebagai destinasi wisata religi, pusat edukasi Islam, dan ikon kebanggaan budaya Jawa Tengah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ikon wisata religi Jateng",
+                "Arsitektur Jawa-Islam-Romawi",
+                "Pusat kegiatan keagamaan"
             ],
             "talkingPoints": [
                 "Masjid Agung Jawa Tengah",
@@ -1725,14 +1914,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Masjid Agung Jawa Tengah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa keistimewaan dari Masjid Agung Jawa Tengah ini?",
+                    "mode": "fix",
+                    "answer": "Masjid ini sangat istimewa karena arsitekturnya merupakan perpaduan harmonis antara gaya Jawa (atap tajuk), gaya Timur Tengah (kubah dan menara), serta gaya Romawi (pilar-pilar besar di pelataran)."
+                },
+                {
+                    "q": "Apa saja aktivitas yang bisa dilakukan pengunjung di sini?",
+                    "mode": "fix",
+                    "answer": "Selain melaksanakan ibadah sholat, pengunjung sering datang untuk berwisata religi, menikmati keindahan arsitektur, mengunjungi museum perkembangan Islam, hingga naik ke Menara Asmaul Husna untuk melihat pemandangan kota Semarang."
+                },
+                {
+                    "q": "Adakah aturan khusus bagi wisatawan yang berkunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, setiap pengunjung diwajibkan mengenakan pakaian yang sopan dan menutup aurat, menjaga kebersihan, serta memelihara ketenangan area masjid untuk menghormati jemaah yang sedang beribadah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Masjid Agung Jawa Tengah — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Masjid Agung Jawa Tengah.",
                 "describeHere": "Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1746,12 +1947,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Menara merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Menara adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Menara Asmaul Husna setinggi 99 meter yang menjadi tengara (landmark) utama masjid ini.",
+            "description": "Menara Asmaul Husna (Al Husna Tower) berdiri menjulang dengan ketinggian 99 meter, melambangkan 99 nama baik Allah. Menara ini tidak sekadar memperindah bangunan masjid, melainkan memiliki fasilitas seperti museum sejarah perkembangan Islam di Jawa Tengah pada lantai dasarnya, studio radio, dan gardu pandang serta restoran berputar di puncaknya.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Menara Asmaul Husna 99m",
+                "Gardu pandang kota Semarang",
+                "Museum perkembangan Islam"
             ],
             "talkingPoints": [
                 "Menara",
@@ -1759,16 +1961,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Menara.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Berapa ketinggian menara ini dan apa maknanya?",
+                    "mode": "fix",
+                    "answer": "Menara ini dibangun dengan ketinggian tepat 99 meter. Angka ini secara filosofis merepresentasikan Asmaul Husna, yaitu 99 nama-nama Allah yang indah dan agung dalam agama Islam."
+                },
+                {
+                    "q": "Apa saja yang ada di dalam menara ini?",
+                    "mode": "fix",
+                    "answer": "Di bagian dasar menara terdapat Museum Perkembangan Islam Jawa Tengah. Jika naik menggunakan lift ke lantai atas, pengunjung bisa mengakses gardu pandang (teropong) untuk melihat panorama Kota Semarang, serta fasilitas restoran berputar."
+                },
+                {
+                    "q": "Apakah pengunjung umum diperbolehkan naik ke puncak menara?",
+                    "mode": "fix",
+                    "answer": "Ya, menara ini dibuka untuk wisatawan umum. Pengunjung cukup membeli tiket masuk di loket bawah untuk dapat menikmati pemandangan indah Kota Semarang 360 derajat dari ketinggian puncak menara."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1541"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Menara — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Menara.",
                 "describeHere": "Menara adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1782,12 +1996,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Sunan merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Sunan adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas gedung serbaguna (convention hall) yang disewakan untuk berbagai acara masyarakat.",
+            "description": "Kawasan MAJT juga dilengkapi dengan fasilitas gedung serbaguna (ballroom/convention hall) seperti Gedung Convention Hall (Convention Center). Fasilitas publik ini sering disewa oleh masyarakat umum maupun instansi untuk menyelenggarakan resepsi pernikahan, seminar, pameran, atau konferensi berskala nasional, yang mana hasil penyewaannya digunakan untuk operasional masjid.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gedung serbaguna (Convention)",
+                "Fasilitas resepsi pernikahan",
+                "Ruang pertemuan skala nasional"
             ],
             "talkingPoints": [
                 "Gedung Sunan",
@@ -1795,14 +2010,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Sunan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Acara apa yang biasanya diselenggarakan di ballroom ini?",
+                    "mode": "fix",
+                    "answer": "Gedung serbaguna ini paling sering disewa oleh masyarakat untuk acara resepsi pernikahan (Islamic wedding) berskala besar, mengingat kapasitasnya yang luas dan area parkir yang memadai. Selain itu, sering juga digunakan untuk seminar atau wisuda kampus."
+                },
+                {
+                    "q": "Apakah fasilitas gedung ini terpisah dari bangunan masjid?",
+                    "mode": "fix",
+                    "answer": "Ya, gedung serbaguna dan aula ini berlokasi di sayap kawasan masjid, terpisah dari ruang sholat utama. Desain ini bertujuan agar kemeriahan acara sosial tidak mengganggu ketenangan dan kesucian area ibadah utama."
+                },
+                {
+                    "q": "Siapa yang mengelola penyewaan fasilitas ballroom ini?",
+                    "mode": "fix",
+                    "answer": "Penyewaan dan operasional gedung ini dikelola secara profesional oleh Badan Pengelola Masjid Agung Jawa Tengah (BP MAJT). Seluruh keuntungan dari sewa gedung didedikasikan untuk biaya pemeliharaan dan operasional harian kawasan masjid yang sangat besar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Sunan — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Gedung Sunan.",
                 "describeHere": "Gedung Sunan adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1816,12 +2043,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Jalan Blok Kurma merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Jalan Blok Kurma adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses utama menuju kawasan Masjid Agung Jawa Tengah yang luas dan tertata rapi.",
+            "description": "Gerbang utama dan akses masuk menuju Masjid Agung Jawa Tengah dirancang dengan megah untuk menyambut puluhan ribu jemaah. Jalan raya masuknya sangat lebar, dikelilingi taman yang asri, serta memiliki fasilitas area parkir yang sangat luas untuk menampung kendaraan pribadi, minibus, hingga puluhan bus pariwisata besar dari berbagai daerah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gerbang masuk megah",
+                "Aksesibilitas bus pariwisata",
+                "Penataan lanskap asri"
             ],
             "talkingPoints": [
                 "Jalan Blok Kurma",
@@ -1829,14 +2057,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Jalan Blok Kurma.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana fasilitas parkir di kawasan masjid ini?",
+                    "mode": "fix",
+                    "answer": "Mengingat tingginya jumlah kunjungan ziarah, MAJT menyediakan area parkir yang sangat masif. Terdapat pemisahan zonasi antara parkir motor, mobil pribadi, dan lapangan khusus untuk menampung rombongan bus pariwisata."
+                },
+                {
+                    "q": "Apa yang menarik dari jalan masuk menuju kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Sepanjang jalan akses utama, pengunjung akan disuguhi tata lanskap yang hijau dengan pepohonan rindang (seperti kurma dan palem), serta trotoar pedestrian yang lebar dan ramah untuk pejalan kaki."
+                },
+                {
+                    "q": "Apakah kawasan masjid ini mudah diakses dari pusat kota Semarang?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah. Letak MAJT cukup strategis dan terjangkau dari berbagai jalan protokol utama di Kota Semarang, dengan penunjuk arah jalan (signage) wisata religi yang sudah disiapkan di banyak titik."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Jalan Blok Kurma — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Jalan Blok Kurma.",
                 "describeHere": "Jalan Blok Kurma adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1850,12 +2090,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pintu Masuk merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pintu Masuk adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses utama menuju kawasan Masjid Agung Jawa Tengah yang luas dan tertata rapi.",
+            "description": "Gerbang utama dan akses masuk menuju Masjid Agung Jawa Tengah dirancang dengan megah untuk menyambut puluhan ribu jemaah. Jalan raya masuknya sangat lebar, dikelilingi taman yang asri, serta memiliki fasilitas area parkir yang sangat luas untuk menampung kendaraan pribadi, minibus, hingga puluhan bus pariwisata besar dari berbagai daerah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gerbang masuk megah",
+                "Aksesibilitas bus pariwisata",
+                "Penataan lanskap asri"
             ],
             "talkingPoints": [
                 "Pintu Masuk",
@@ -1863,14 +2104,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pintu Masuk.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana fasilitas parkir di kawasan masjid ini?",
+                    "mode": "fix",
+                    "answer": "Mengingat tingginya jumlah kunjungan ziarah, MAJT menyediakan area parkir yang sangat masif. Terdapat pemisahan zonasi antara parkir motor, mobil pribadi, dan lapangan khusus untuk menampung rombongan bus pariwisata."
+                },
+                {
+                    "q": "Apa yang menarik dari jalan masuk menuju kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Sepanjang jalan akses utama, pengunjung akan disuguhi tata lanskap yang hijau dengan pepohonan rindang (seperti kurma dan palem), serta trotoar pedestrian yang lebar dan ramah untuk pejalan kaki."
+                },
+                {
+                    "q": "Apakah kawasan masjid ini mudah diakses dari pusat kota Semarang?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah. Letak MAJT cukup strategis dan terjangkau dari berbagai jalan protokol utama di Kota Semarang, dengan penunjuk arah jalan (signage) wisata religi yang sudah disiapkan di banyak titik."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pintu Masuk — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Pintu Masuk.",
                 "describeHere": "Pintu Masuk adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1884,12 +2137,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Ruang Sholat merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Sholat adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang ibadah utama dengan interior megah bergaya arsitektur Jawa-Islam yang sejuk dan menenangkan.",
+            "description": "Ruang sholat utama MAJT menawarkan atmosfer spiritual yang luar biasa khusyuk. Interiornya didesain sangat megah dengan pilar-pilar berornamen, lampu gantung kristal berukuran raksasa, dan lantai marmer yang sejuk. Atapnya berbentuk tajuk tumpang khas Jawa, berpadu harmonis dengan kubah besar di atasnya, mencerminkan akulturasi budaya yang mendalam.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Ruang ibadah utama megah",
+                "Interior akulturasi Jawa-Islam",
+                "Kapasitas ribuan jemaah"
             ],
             "talkingPoints": [
                 "Ruang Sholat",
@@ -1897,16 +2151,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Sholat.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Berapa kapasitas jemaah di ruang sholat utama ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ibadah utama yang sangat luas ini, dipadukan dengan area plaza (pelataran) depan, mampu menampung hingga lebih dari 15.000 jemaah secara bersamaan pada saat ibadah sholat hari raya."
+                },
+                {
+                    "q": "Apa ciri khas arsitektur di dalam ruang sholat ini?",
+                    "mode": "fix",
+                    "answer": "Ciri khasnya terlihat pada atap ruangan yang berbentuk tajuk tumpang (khas arsitektur pendopo Jawa), namun dipadukan dengan ukiran kaligrafi Arab yang indah, serta ornamen kayu jati bermutu tinggi di bagian mihrab dan mimbar."
+                },
+                {
+                    "q": "Apakah lantai 2 terbuka untuk pengunjung?",
+                    "mode": "fix",
+                    "answer": "Lantai 2 atau area mezanin biasanya dikhususkan sebagai area sholat tambahan bagi jemaah wanita (akhwat), memberikan pandangan langsung ke arah mihrab imam dari posisi yang lebih tinggi dan tertutup."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1528"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Sholat — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Ruang Sholat.",
                 "describeHere": "Ruang Sholat adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1920,12 +2186,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Lantai 2 merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lantai 2 adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang ibadah utama dengan interior megah bergaya arsitektur Jawa-Islam yang sejuk dan menenangkan.",
+            "description": "Ruang sholat utama MAJT menawarkan atmosfer spiritual yang luar biasa khusyuk. Interiornya didesain sangat megah dengan pilar-pilar berornamen, lampu gantung kristal berukuran raksasa, dan lantai marmer yang sejuk. Atapnya berbentuk tajuk tumpang khas Jawa, berpadu harmonis dengan kubah besar di atasnya, mencerminkan akulturasi budaya yang mendalam.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang ibadah utama megah",
+                "Interior akulturasi Jawa-Islam",
+                "Kapasitas ribuan jemaah"
             ],
             "talkingPoints": [
                 "Lantai 2",
@@ -1933,14 +2200,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lantai 2.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Berapa kapasitas jemaah di ruang sholat utama ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ibadah utama yang sangat luas ini, dipadukan dengan area plaza (pelataran) depan, mampu menampung hingga lebih dari 15.000 jemaah secara bersamaan pada saat ibadah sholat hari raya."
+                },
+                {
+                    "q": "Apa ciri khas arsitektur di dalam ruang sholat ini?",
+                    "mode": "fix",
+                    "answer": "Ciri khasnya terlihat pada atap ruangan yang berbentuk tajuk tumpang (khas arsitektur pendopo Jawa), namun dipadukan dengan ukiran kaligrafi Arab yang indah, serta ornamen kayu jati bermutu tinggi di bagian mihrab dan mimbar."
+                },
+                {
+                    "q": "Apakah lantai 2 terbuka untuk pengunjung?",
+                    "mode": "fix",
+                    "answer": "Lantai 2 atau area mezanin biasanya dikhususkan sebagai area sholat tambahan bagi jemaah wanita (akhwat), memberikan pandangan langsung ke arah mihrab imam dari posisi yang lebih tinggi dan tertutup."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lantai 2 — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Lantai 2.",
                 "describeHere": "Lantai 2 adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1954,12 +2233,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Mushaf merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Mushaf adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas pameran yang menyimpan Mushaf Al-Qur'an Akbar berukuran raksasa tulisan tangan.",
+            "description": "Masjid Agung Jawa Tengah merawat sebuah Mushaf Al-Qur'an raksasa (Al-Qur'an Akbar). Al-Qur'an ini merupakan mahakarya kaligrafi tulisan tangan (khat) dari para ulama dan seniman kaligrafi. Selain sebagai pameran seni Islam yang mengagumkan, Al-Qur'an ini menegaskan posisi MAJT sebagai pusat kebudayaan Islam di Jawa Tengah.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Mushaf Al-Qur'an raksasa",
+                "Mahakarya kaligrafi Islam",
+                "Pusat edukasi keagamaan"
             ],
             "talkingPoints": [
                 "Mushaf",
@@ -1967,16 +2247,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Mushaf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa itu Mushaf Al-Qur'an Akbar?",
+                    "mode": "fix",
+                    "answer": "Mushaf Al-Qur'an Akbar adalah replika Al-Qur'an berukuran raksasa yang halamannya ditulis secara manual dengan tangan (handmade) oleh para ahli kaligrafi Islam (khatat) berpengalaman."
+                },
+                {
+                    "q": "Berapa perkiraan ukuran Al-Qur'an raksasa ini?",
+                    "mode": "fix",
+                    "answer": "Ukurannya jauh melebihi ukuran standar, di mana saat dalam kondisi terbuka panjangnya bisa mencapai lebih dari dua meter. Lembarannya menggunakan kertas khusus yang tebal agar awet sebagai benda pajangan sejarah."
+                },
+                {
+                    "q": "Apa tujuan dipamerkannya mushaf raksasa ini?",
+                    "mode": "fix",
+                    "answer": "Mushaf ini dipamerkan sebagai wujud kecintaan terhadap kitab suci umat Islam, menjadi media edukasi dan inspirasi bagi pengunjung, serta menonjolkan kekayaan seni kaligrafi (khat) yang dimiliki oleh seniman Muslim Nusantara."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1527"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Mushaf — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Mushaf.",
                 "describeHere": "Mushaf adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1990,12 +2282,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Masjid Agung Jawa Tengah merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan bagian dari Masjid Agung Jawa Tengah, ikon kebanggaan sekaligus pusat kegiatan keagamaan masyarakat Jawa Tengah.",
+            "description": "Masjid Agung Jawa Tengah (MAJT) adalah mahakarya arsitektur yang memadukan unsur gaya Jawa, Islam, dan Romawi. Diresmikan pada tahun 2006, masjid ini tidak hanya berfungsi sebagai pusat ibadah yang megah, melainkan juga sebagai destinasi wisata religi, pusat edukasi Islam, dan ikon kebanggaan budaya Jawa Tengah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ikon wisata religi Jateng",
+                "Arsitektur Jawa-Islam-Romawi",
+                "Pusat kegiatan keagamaan"
             ],
             "talkingPoints": [
                 "Masjid Agung Jawa Tengah",
@@ -2003,14 +2296,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Masjid Agung Jawa Tengah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa keistimewaan dari Masjid Agung Jawa Tengah ini?",
+                    "mode": "fix",
+                    "answer": "Masjid ini sangat istimewa karena arsitekturnya merupakan perpaduan harmonis antara gaya Jawa (atap tajuk), gaya Timur Tengah (kubah dan menara), serta gaya Romawi (pilar-pilar besar di pelataran)."
+                },
+                {
+                    "q": "Apa saja aktivitas yang bisa dilakukan pengunjung di sini?",
+                    "mode": "fix",
+                    "answer": "Selain melaksanakan ibadah sholat, pengunjung sering datang untuk berwisata religi, menikmati keindahan arsitektur, mengunjungi museum perkembangan Islam, hingga naik ke Menara Asmaul Husna untuk melihat pemandangan kota Semarang."
+                },
+                {
+                    "q": "Adakah aturan khusus bagi wisatawan yang berkunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, setiap pengunjung diwajibkan mengenakan pakaian yang sopan dan menutup aurat, menjaga kebersihan, serta memelihara ketenangan area masjid untuk menghormati jemaah yang sedang beribadah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Masjid Agung Jawa Tengah — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Masjid Agung Jawa Tengah.",
                 "describeHere": "Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2024,12 +2329,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Menara Masjid Agung Jawa Tengah merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Menara Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Menara Asmaul Husna setinggi 99 meter yang menjadi tengara (landmark) utama masjid ini.",
+            "description": "Menara Asmaul Husna (Al Husna Tower) berdiri menjulang dengan ketinggian 99 meter, melambangkan 99 nama baik Allah. Menara ini tidak sekadar memperindah bangunan masjid, melainkan memiliki fasilitas seperti museum sejarah perkembangan Islam di Jawa Tengah pada lantai dasarnya, studio radio, dan gardu pandang serta restoran berputar di puncaknya.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Menara Asmaul Husna 99m",
+                "Gardu pandang kota Semarang",
+                "Museum perkembangan Islam"
             ],
             "talkingPoints": [
                 "Menara Masjid Agung Jawa Tengah",
@@ -2037,14 +2343,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Menara Masjid Agung Jawa Tengah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Berapa ketinggian menara ini dan apa maknanya?",
+                    "mode": "fix",
+                    "answer": "Menara ini dibangun dengan ketinggian tepat 99 meter. Angka ini secara filosofis merepresentasikan Asmaul Husna, yaitu 99 nama-nama Allah yang indah dan agung dalam agama Islam."
+                },
+                {
+                    "q": "Apa saja yang ada di dalam menara ini?",
+                    "mode": "fix",
+                    "answer": "Di bagian dasar menara terdapat Museum Perkembangan Islam Jawa Tengah. Jika naik menggunakan lift ke lantai atas, pengunjung bisa mengakses gardu pandang (teropong) untuk melihat panorama Kota Semarang, serta fasilitas restoran berputar."
+                },
+                {
+                    "q": "Apakah pengunjung umum diperbolehkan naik ke puncak menara?",
+                    "mode": "fix",
+                    "answer": "Ya, menara ini dibuka untuk wisatawan umum. Pengunjung cukup membeli tiket masuk di loket bawah untuk dapat menikmati pemandangan indah Kota Semarang 360 derajat dari ketinggian puncak menara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Menara Masjid Agung Jawa Tengah — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Menara Masjid Agung Jawa Tengah.",
                 "describeHere": "Menara Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2058,12 +2376,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pelataran Masjid Agung Jawa Tengah merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pelataran Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas yang dilengkapi dengan payung hidrolik raksasa yang terinspirasi dari Masjid Nabawi.",
+            "description": "Pelataran utama Masjid Agung Jawa Tengah (Plaza Masjid) menawarkan pemandangan megah dengan pilar-pilar bergaya Romawi bergaya melingkar (koloseum). Daya tarik utama di area ini adalah keberadaan enam payung hidrolik raksasa berdiameter 14 meter yang diadopsi dari arsitektur Masjid Nabawi di Madinah, yang mekar pada momen-momen khusus.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Payung hidrolik raksasa",
+                "Pelataran ala Masjid Nabawi",
+                "Pilar melengkung gaya Romawi"
             ],
             "talkingPoints": [
                 "Pelataran Masjid Agung Jawa Tengah",
@@ -2071,14 +2390,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pelataran Masjid Agung Jawa Tengah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Kapan payung raksasa di pelataran ini dibuka?",
+                    "mode": "fix",
+                    "answer": "Enam payung hidrolik raksasa ini biasanya dibuka pada saat Sholat Jumat, Sholat Idul Fitri, Sholat Idul Adha, atau saat acara keagamaan besar yang dihadiri banyak jemaah hingga meluber ke area pelataran, tergantung kondisi cuaca (angin)."
+                },
+                {
+                    "q": "Berapa ukuran payung raksasa ini?",
+                    "mode": "fix",
+                    "answer": "Setiap payung raksasa ini memiliki diameter sekitar 14 meter dengan tinggi mencapai 20 meter. Keberadaannya memberikan peneduh ekstra sekaligus keindahan visual yang sangat ikonik bagi masjid ini."
+                },
+                {
+                    "q": "Gaya arsitektur apa yang menonjol di pelataran ini?",
+                    "mode": "fix",
+                    "answer": "Pelataran ini sangat unik karena memadukan pilar-pilar melengkung besar yang mengingatkan pada gaya arsitektur Romawi (Colosseum), namun tetap menyatu apik dengan nuansa religius khas Timur Tengah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pelataran Masjid Agung Jawa Tengah — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Pelataran Masjid Agung Jawa Tengah.",
                 "describeHere": "Pelataran Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2092,12 +2423,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pelataran Masjid merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pelataran Masjid adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas yang dilengkapi dengan payung hidrolik raksasa yang terinspirasi dari Masjid Nabawi.",
+            "description": "Pelataran utama Masjid Agung Jawa Tengah (Plaza Masjid) menawarkan pemandangan megah dengan pilar-pilar bergaya Romawi bergaya melingkar (koloseum). Daya tarik utama di area ini adalah keberadaan enam payung hidrolik raksasa berdiameter 14 meter yang diadopsi dari arsitektur Masjid Nabawi di Madinah, yang mekar pada momen-momen khusus.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Payung hidrolik raksasa",
+                "Pelataran ala Masjid Nabawi",
+                "Pilar melengkung gaya Romawi"
             ],
             "talkingPoints": [
                 "Pelataran Masjid",
@@ -2105,14 +2437,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pelataran Masjid.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Kapan payung raksasa di pelataran ini dibuka?",
+                    "mode": "fix",
+                    "answer": "Enam payung hidrolik raksasa ini biasanya dibuka pada saat Sholat Jumat, Sholat Idul Fitri, Sholat Idul Adha, atau saat acara keagamaan besar yang dihadiri banyak jemaah hingga meluber ke area pelataran, tergantung kondisi cuaca (angin)."
+                },
+                {
+                    "q": "Berapa ukuran payung raksasa ini?",
+                    "mode": "fix",
+                    "answer": "Setiap payung raksasa ini memiliki diameter sekitar 14 meter dengan tinggi mencapai 20 meter. Keberadaannya memberikan peneduh ekstra sekaligus keindahan visual yang sangat ikonik bagi masjid ini."
+                },
+                {
+                    "q": "Gaya arsitektur apa yang menonjol di pelataran ini?",
+                    "mode": "fix",
+                    "answer": "Pelataran ini sangat unik karena memadukan pilar-pilar melengkung besar yang mengingatkan pada gaya arsitektur Romawi (Colosseum), namun tetap menyatu apik dengan nuansa religius khas Timur Tengah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pelataran Masjid — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Pelataran Masjid.",
                 "describeHere": "Pelataran Masjid adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2126,12 +2470,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pelataran Masjid Agung Jawa Tengah merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pelataran Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas yang dilengkapi dengan payung hidrolik raksasa yang terinspirasi dari Masjid Nabawi.",
+            "description": "Pelataran utama Masjid Agung Jawa Tengah (Plaza Masjid) menawarkan pemandangan megah dengan pilar-pilar bergaya Romawi bergaya melingkar (koloseum). Daya tarik utama di area ini adalah keberadaan enam payung hidrolik raksasa berdiameter 14 meter yang diadopsi dari arsitektur Masjid Nabawi di Madinah, yang mekar pada momen-momen khusus.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Payung hidrolik raksasa",
+                "Pelataran ala Masjid Nabawi",
+                "Pilar melengkung gaya Romawi"
             ],
             "talkingPoints": [
                 "Pelataran Masjid Agung Jawa Tengah",
@@ -2139,14 +2484,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pelataran Masjid Agung Jawa Tengah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Kapan payung raksasa di pelataran ini dibuka?",
+                    "mode": "fix",
+                    "answer": "Enam payung hidrolik raksasa ini biasanya dibuka pada saat Sholat Jumat, Sholat Idul Fitri, Sholat Idul Adha, atau saat acara keagamaan besar yang dihadiri banyak jemaah hingga meluber ke area pelataran, tergantung kondisi cuaca (angin)."
+                },
+                {
+                    "q": "Berapa ukuran payung raksasa ini?",
+                    "mode": "fix",
+                    "answer": "Setiap payung raksasa ini memiliki diameter sekitar 14 meter dengan tinggi mencapai 20 meter. Keberadaannya memberikan peneduh ekstra sekaligus keindahan visual yang sangat ikonik bagi masjid ini."
+                },
+                {
+                    "q": "Gaya arsitektur apa yang menonjol di pelataran ini?",
+                    "mode": "fix",
+                    "answer": "Pelataran ini sangat unik karena memadukan pilar-pilar melengkung besar yang mengingatkan pada gaya arsitektur Romawi (Colosseum), namun tetap menyatu apik dengan nuansa religius khas Timur Tengah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pelataran Masjid Agung Jawa Tengah — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Pelataran Masjid Agung Jawa Tengah.",
                 "describeHere": "Pelataran Masjid Agung Jawa Tengah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2160,12 +2517,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Aula Kantor merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Aula Kantor adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas gedung serbaguna (convention hall) yang disewakan untuk berbagai acara masyarakat.",
+            "description": "Kawasan MAJT juga dilengkapi dengan fasilitas gedung serbaguna (ballroom/convention hall) seperti Gedung Convention Hall (Convention Center). Fasilitas publik ini sering disewa oleh masyarakat umum maupun instansi untuk menyelenggarakan resepsi pernikahan, seminar, pameran, atau konferensi berskala nasional, yang mana hasil penyewaannya digunakan untuk operasional masjid.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gedung serbaguna (Convention)",
+                "Fasilitas resepsi pernikahan",
+                "Ruang pertemuan skala nasional"
             ],
             "talkingPoints": [
                 "Aula Kantor",
@@ -2173,14 +2531,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Aula Kantor.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Acara apa yang biasanya diselenggarakan di ballroom ini?",
+                    "mode": "fix",
+                    "answer": "Gedung serbaguna ini paling sering disewa oleh masyarakat untuk acara resepsi pernikahan (Islamic wedding) berskala besar, mengingat kapasitasnya yang luas dan area parkir yang memadai. Selain itu, sering juga digunakan untuk seminar atau wisuda kampus."
+                },
+                {
+                    "q": "Apakah fasilitas gedung ini terpisah dari bangunan masjid?",
+                    "mode": "fix",
+                    "answer": "Ya, gedung serbaguna dan aula ini berlokasi di sayap kawasan masjid, terpisah dari ruang sholat utama. Desain ini bertujuan agar kemeriahan acara sosial tidak mengganggu ketenangan dan kesucian area ibadah utama."
+                },
+                {
+                    "q": "Siapa yang mengelola penyewaan fasilitas ballroom ini?",
+                    "mode": "fix",
+                    "answer": "Penyewaan dan operasional gedung ini dikelola secara profesional oleh Badan Pengelola Masjid Agung Jawa Tengah (BP MAJT). Seluruh keuntungan dari sewa gedung didedikasikan untuk biaya pemeliharaan dan operasional harian kawasan masjid yang sangat besar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Aula Kantor — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Aula Kantor.",
                 "describeHere": "Aula Kantor adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2194,12 +2564,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Replika Kabah merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Replika Kabah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas manasik haji yang dilengkapi dengan replika Ka'bah, Bukit Shafa, dan Bukit Marwa.",
+            "description": "Kawasan MAJT dilengkapi dengan fasilitas pendidikan ibadah haji (manasik) yang sangat representatif. Terdapat replika bangunan Ka'bah dengan ukuran proporsional, serta lintasan miniatur Bukit Shafa dan Marwa. Fasilitas ini rutin digunakan oleh calon jemaah haji, kelompok bimbingan ibadah haji (KBIH), hingga siswa sekolah dasar untuk berlatih.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Fasilitas manasik haji",
+                "Replika presisi Ka'bah",
+                "Miniatur Shafa dan Marwa"
             ],
             "talkingPoints": [
                 "Replika Kabah",
@@ -2207,16 +2578,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Replika Kabah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama dari keberadaan replika Ka'bah ini?",
+                    "mode": "fix",
+                    "answer": "Replika Ka'bah ini dibangun sebagai sarana edukasi dan praktik manasik haji maupun umrah. Tujuannya agar calon jemaah mendapatkan gambaran dan pengalaman simulasi tawaf yang menyerupai kondisi sebenarnya di Tanah Suci Mekkah."
+                },
+                {
+                    "q": "Siapa yang biasanya menggunakan fasilitas manasik ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini digunakan secara luas, mulai dari Kelompok Bimbingan Ibadah Haji (KBIH), biro perjalanan umrah, hingga anak-anak TK dan SD yang sedang melaksanakan kegiatan praktik pengenalan rukun Islam kelima."
+                },
+                {
+                    "q": "Apakah area ini letaknya menyatu dengan ruang sholat utama?",
+                    "mode": "fix",
+                    "answer": "Tidak, area replika Ka'bah dan simulasi Sa'i (Shafa-Marwa) ini ditempatkan di lapangan terbuka khusus (area manasik) agar kegiatan latihan rombongan tidak mengganggu kekhusyukan jemaah yang sedang melaksanakan sholat wajib di ruang utama."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1539"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Replika Kabah — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Replika Kabah.",
                 "describeHere": "Replika Kabah adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2230,12 +2613,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Marwa merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Marwa adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas manasik haji yang dilengkapi dengan replika Ka'bah, Bukit Shafa, dan Bukit Marwa.",
+            "description": "Kawasan MAJT dilengkapi dengan fasilitas pendidikan ibadah haji (manasik) yang sangat representatif. Terdapat replika bangunan Ka'bah dengan ukuran proporsional, serta lintasan miniatur Bukit Shafa dan Marwa. Fasilitas ini rutin digunakan oleh calon jemaah haji, kelompok bimbingan ibadah haji (KBIH), hingga siswa sekolah dasar untuk berlatih.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Fasilitas manasik haji",
+                "Replika presisi Ka'bah",
+                "Miniatur Shafa dan Marwa"
             ],
             "talkingPoints": [
                 "Marwa",
@@ -2243,16 +2627,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Marwa.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama dari keberadaan replika Ka'bah ini?",
+                    "mode": "fix",
+                    "answer": "Replika Ka'bah ini dibangun sebagai sarana edukasi dan praktik manasik haji maupun umrah. Tujuannya agar calon jemaah mendapatkan gambaran dan pengalaman simulasi tawaf yang menyerupai kondisi sebenarnya di Tanah Suci Mekkah."
+                },
+                {
+                    "q": "Siapa yang biasanya menggunakan fasilitas manasik ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini digunakan secara luas, mulai dari Kelompok Bimbingan Ibadah Haji (KBIH), biro perjalanan umrah, hingga anak-anak TK dan SD yang sedang melaksanakan kegiatan praktik pengenalan rukun Islam kelima."
+                },
+                {
+                    "q": "Apakah area ini letaknya menyatu dengan ruang sholat utama?",
+                    "mode": "fix",
+                    "answer": "Tidak, area replika Ka'bah dan simulasi Sa'i (Shafa-Marwa) ini ditempatkan di lapangan terbuka khusus (area manasik) agar kegiatan latihan rombongan tidak mengganggu kekhusyukan jemaah yang sedang melaksanakan sholat wajib di ruang utama."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1533"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Marwa — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Marwa.",
                 "describeHere": "Marwa adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2266,12 +2662,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Toko Souvenir merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Toko Souvenir adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat perbelanjaan suvenir dan sentra UMKM yang mendukung perekonomian lokal di sekitar masjid.",
+            "description": "Masjid Agung Jawa Tengah tidak hanya berfokus pada kegiatan spiritual, tetapi juga pemberdayaan ekonomi masyarakat. Di kawasan masjid ini terdapat sentra UMKM, toko suvenir, dan pusat oleh-oleh yang menjual aneka kerajinan tangan, busana muslim, perlengkapan ibadah, hingga makanan khas Semarang.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Sentra suvenir religi",
+                "Pusat oleh-oleh Semarang",
+                "Pemberdayaan UMKM lokal"
             ],
             "talkingPoints": [
                 "Toko Souvenir",
@@ -2279,14 +2676,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Toko Souvenir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Barang apa saja yang banyak dijual di toko suvenir ini?",
+                    "mode": "fix",
+                    "answer": "Di sentra oleh-oleh ini, pengunjung bisa menemukan beragam barang seperti sajadah, peci, tasbih, busana muslim, kaos bertema MAJT, hingga jajanan dan makanan ringan khas Semarang untuk dibawa pulang."
+                },
+                {
+                    "q": "Apakah area UMKM ini buka setiap hari?",
+                    "mode": "fix",
+                    "answer": "Ya, sentra suvenir dan UMKM beroperasi setiap hari untuk melayani wisatawan. Namun, suasana akan jauh lebih ramai dan semarak pada akhir pekan (Sabtu-Minggu) atau pada bulan suci Ramadhan dan musim liburan panjang."
+                },
+                {
+                    "q": "Apa dampak keberadaan toko suvenir ini bagi masjid?",
+                    "mode": "fix",
+                    "answer": "Keberadaan sentra UMKM ini merupakan bentuk integrasi antara wisata religi dan ekonomi kerakyatan. Ini sangat membantu memberdayakan masyarakat sekitar sekaligus memberikan kenyamanan bagi wisatawan yang mencari buah tangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Toko Souvenir — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Toko Souvenir.",
                 "describeHere": "Toko Souvenir adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2300,12 +2709,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Toko Souvenir merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Toko Souvenir adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat perbelanjaan suvenir dan sentra UMKM yang mendukung perekonomian lokal di sekitar masjid.",
+            "description": "Masjid Agung Jawa Tengah tidak hanya berfokus pada kegiatan spiritual, tetapi juga pemberdayaan ekonomi masyarakat. Di kawasan masjid ini terdapat sentra UMKM, toko suvenir, dan pusat oleh-oleh yang menjual aneka kerajinan tangan, busana muslim, perlengkapan ibadah, hingga makanan khas Semarang.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Sentra suvenir religi",
+                "Pusat oleh-oleh Semarang",
+                "Pemberdayaan UMKM lokal"
             ],
             "talkingPoints": [
                 "Toko Souvenir",
@@ -2313,14 +2723,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Toko Souvenir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Barang apa saja yang banyak dijual di toko suvenir ini?",
+                    "mode": "fix",
+                    "answer": "Di sentra oleh-oleh ini, pengunjung bisa menemukan beragam barang seperti sajadah, peci, tasbih, busana muslim, kaos bertema MAJT, hingga jajanan dan makanan ringan khas Semarang untuk dibawa pulang."
+                },
+                {
+                    "q": "Apakah area UMKM ini buka setiap hari?",
+                    "mode": "fix",
+                    "answer": "Ya, sentra suvenir dan UMKM beroperasi setiap hari untuk melayani wisatawan. Namun, suasana akan jauh lebih ramai dan semarak pada akhir pekan (Sabtu-Minggu) atau pada bulan suci Ramadhan dan musim liburan panjang."
+                },
+                {
+                    "q": "Apa dampak keberadaan toko suvenir ini bagi masjid?",
+                    "mode": "fix",
+                    "answer": "Keberadaan sentra UMKM ini merupakan bentuk integrasi antara wisata religi dan ekonomi kerakyatan. Ini sangat membantu memberdayakan masyarakat sekitar sekaligus memberikan kenyamanan bagi wisatawan yang mencari buah tangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Toko Souvenir — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Toko Souvenir.",
                 "describeHere": "Toko Souvenir adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2334,12 +2756,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Toko Oleh-Oleh merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Toko Oleh-Oleh adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat perbelanjaan suvenir dan sentra UMKM yang mendukung perekonomian lokal di sekitar masjid.",
+            "description": "Masjid Agung Jawa Tengah tidak hanya berfokus pada kegiatan spiritual, tetapi juga pemberdayaan ekonomi masyarakat. Di kawasan masjid ini terdapat sentra UMKM, toko suvenir, dan pusat oleh-oleh yang menjual aneka kerajinan tangan, busana muslim, perlengkapan ibadah, hingga makanan khas Semarang.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Sentra suvenir religi",
+                "Pusat oleh-oleh Semarang",
+                "Pemberdayaan UMKM lokal"
             ],
             "talkingPoints": [
                 "Toko Oleh-Oleh",
@@ -2347,14 +2770,26 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Toko Oleh-Oleh.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Barang apa saja yang banyak dijual di toko suvenir ini?",
+                    "mode": "fix",
+                    "answer": "Di sentra oleh-oleh ini, pengunjung bisa menemukan beragam barang seperti sajadah, peci, tasbih, busana muslim, kaos bertema MAJT, hingga jajanan dan makanan ringan khas Semarang untuk dibawa pulang."
+                },
+                {
+                    "q": "Apakah area UMKM ini buka setiap hari?",
+                    "mode": "fix",
+                    "answer": "Ya, sentra suvenir dan UMKM beroperasi setiap hari untuk melayani wisatawan. Namun, suasana akan jauh lebih ramai dan semarak pada akhir pekan (Sabtu-Minggu) atau pada bulan suci Ramadhan dan musim liburan panjang."
+                },
+                {
+                    "q": "Apa dampak keberadaan toko suvenir ini bagi masjid?",
+                    "mode": "fix",
+                    "answer": "Keberadaan sentra UMKM ini merupakan bentuk integrasi antara wisata religi dan ekonomi kerakyatan. Ini sangat membantu memberdayakan masyarakat sekitar sekaligus memberikan kenyamanan bagi wisatawan yang mencari buah tangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Toko Oleh-Oleh — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Toko Oleh-Oleh.",
                 "describeHere": "Toko Oleh-Oleh adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2368,12 +2803,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Tugu merupakan bagian dari kawasan Masjid Agung Jawa Tengah di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Tugu adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses utama menuju kawasan Masjid Agung Jawa Tengah yang luas dan tertata rapi.",
+            "description": "Gerbang utama dan akses masuk menuju Masjid Agung Jawa Tengah dirancang dengan megah untuk menyambut puluhan ribu jemaah. Jalan raya masuknya sangat lebar, dikelilingi taman yang asri, serta memiliki fasilitas area parkir yang sangat luas untuk menampung kendaraan pribadi, minibus, hingga puluhan bus pariwisata besar dari berbagai daerah.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Gerbang masuk megah",
+                "Aksesibilitas bus pariwisata",
+                "Penataan lanskap asri"
             ],
             "talkingPoints": [
                 "Tugu",
@@ -2381,16 +2817,28 @@ window.GoVirtualTourData = {
                 "Masjid Agung Jawa Tengah"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Tugu.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana fasilitas parkir di kawasan masjid ini?",
+                    "mode": "fix",
+                    "answer": "Mengingat tingginya jumlah kunjungan ziarah, MAJT menyediakan area parkir yang sangat masif. Terdapat pemisahan zonasi antara parkir motor, mobil pribadi, dan lapangan khusus untuk menampung rombongan bus pariwisata."
+                },
+                {
+                    "q": "Apa yang menarik dari jalan masuk menuju kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Sepanjang jalan akses utama, pengunjung akan disuguhi tata lanskap yang hijau dengan pepohonan rindang (seperti kurma dan palem), serta trotoar pedestrian yang lebar dan ramah untuk pejalan kaki."
+                },
+                {
+                    "q": "Apakah kawasan masjid ini mudah diakses dari pusat kota Semarang?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah. Letak MAJT cukup strategis dan terjangkau dari berbagai jalan protokol utama di Kota Semarang, dengan penunjuk arah jalan (signage) wisata religi yang sudah disiapkan di banyak titik."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1530"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Tugu — kawasan Masjid Agung Jawa Tengah.",
+                "currentLocation": "Anda sekarang berada di Tugu.",
                 "describeHere": "Tugu adalah area di dalam kawasan Masjid Agung Jawa Tengah, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

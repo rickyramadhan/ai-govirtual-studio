@@ -1,0 +1,336 @@
+{
+    "version": "1.1-seed",
+    "tourId": "pulauumang",
+    "generatedAt": "2026-09-08",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "Pulau Umang (Tampilan Drone)": {
+            "rawName": "Pulau Umang Default Drone",
+            "displayName": "Pulau Umang (Tampilan Drone)",
+            "placeId": "pulau-umang-tampilan-drone",
+            "placeName": "Pulau Umang (Tampilan Drone)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pulau Umang (Tampilan Drone) merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pulau Umang (Tampilan Drone) adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pulau Umang (Tampilan Drone)",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pulau Umang (Tampilan Drone).",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:54",
+                "webview:objinfo2:55"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pulau Umang (Tampilan Drone) — kawasan Pulau Umang.",
+                "describeHere": "Pulau Umang (Tampilan Drone) adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Pantai Umang": {
+            "rawName": "PantaiUmangUmang",
+            "displayName": "Pantai Umang",
+            "placeId": "pantai-umang",
+            "placeName": "Pantai Umang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pantai Umang merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pantai Umang adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pantai Umang",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pantai Umang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pantai Umang — kawasan Pulau Umang.",
+                "describeHere": "Pantai Umang adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Penyewaan Perahu": {
+            "rawName": "SewaPerahu",
+            "displayName": "Penyewaan Perahu",
+            "placeId": "penyewaan-perahu",
+            "placeName": "Penyewaan Perahu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Penyewaan Perahu merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Penyewaan Perahu adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Penyewaan Perahu",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Penyewaan Perahu.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:57"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Penyewaan Perahu — kawasan Pulau Umang.",
+                "describeHere": "Penyewaan Perahu adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Gunung Sebesi": {
+            "rawName": "Gunungsebesi",
+            "displayName": "Gunung Sebesi",
+            "placeId": "gunung-sebesi",
+            "placeName": "Gunung Sebesi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gunung Sebesi merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gunung Sebesi adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gunung Sebesi",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Gunung Sebesi.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:56",
+                "webview:objinfo2:63"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gunung Sebesi — kawasan Pulau Umang.",
+                "describeHere": "Gunung Sebesi adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Dermaga Pulau Umang": {
+            "rawName": "Dermaga",
+            "displayName": "Dermaga Pulau Umang",
+            "placeId": "dermaga-pulau-umang",
+            "placeName": "Dermaga Pulau Umang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Dermaga Pulau Umang merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Dermaga Pulau Umang adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Dermaga Pulau Umang",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Dermaga Pulau Umang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:64"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Dermaga Pulau Umang — kawasan Pulau Umang.",
+                "describeHere": "Dermaga Pulau Umang adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Spot Matahari Terbit": {
+            "rawName": "Matahari",
+            "displayName": "Spot Matahari Terbit",
+            "placeId": "spot-matahari-terbit",
+            "placeName": "Spot Matahari Terbit",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Spot Matahari Terbit merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Spot Matahari Terbit adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Spot Matahari Terbit",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Spot Matahari Terbit.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:59",
+                "webview:objinfo2:65"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Spot Matahari Terbit — kawasan Pulau Umang.",
+                "describeHere": "Spot Matahari Terbit adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Pohon Ketapang": {
+            "rawName": "Pohonketapang",
+            "displayName": "Pohon Ketapang",
+            "placeId": "pohon-ketapang",
+            "placeName": "Pohon Ketapang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pohon Ketapang merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pohon Ketapang adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pohon Ketapang",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pohon Ketapang.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:60",
+                "webview:objinfo2:61",
+                "webview:objinfo2:62"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pohon Ketapang — kawasan Pulau Umang.",
+                "describeHere": "Pohon Ketapang adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Penyimpanan Kayak": {
+            "rawName": "Penyimpanankayak",
+            "displayName": "Penyimpanan Kayak",
+            "placeId": "penyimpanan-kayak",
+            "placeName": "Penyimpanan Kayak",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Penyimpanan Kayak merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Penyimpanan Kayak adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Penyimpanan Kayak",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Penyimpanan Kayak.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:58"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Penyimpanan Kayak — kawasan Pulau Umang.",
+                "describeHere": "Penyimpanan Kayak adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "Pantai Pasir Putih": {
+            "rawName": "Pantaipasirputih",
+            "displayName": "Pantai Pasir Putih",
+            "placeId": "pantai-pasir-putih",
+            "placeName": "Pantai Pasir Putih",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pantai Pasir Putih merupakan bagian dari kawasan Pulau Umang di Lampung Selatan. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pantai Pasir Putih adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pantai Pasir Putih",
+                "jalur eksplorasi",
+                "Pulau Umang"
+            ],
+            "suggestedQuestions": [
+                "Apa yang menarik di sini?",
+                "Ceritakan area Pantai Pasir Putih.",
+                "Di mana saya sekarang?"
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:66"
+            ],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pantai Pasir Putih — kawasan Pulau Umang.",
+                "describeHere": "Pantai Pasir Putih adalah area di dalam kawasan Pulau Umang, Lampung Selatan. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

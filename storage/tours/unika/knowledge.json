@@ -1,0 +1,704 @@
+{
+    "version": 2,
+    "tourId": "unika",
+    "updatedAt": "2026-09-29T09:52:51+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Unika",
+            "aliases": [
+                "unika"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "unika"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Unika.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Unika",
+                    "content": "Pusat pengalaman virtual untuk Unika."
+                },
+                "en": {
+                    "title": "Unika",
+                    "content": "Pusat pengalaman virtual untuk Unika."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Gerejasantomikael",
+            "aliases": [
+                "gerejasantomikael"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "unika"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gerejasantomikael",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Gerejasantomikael",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Monumen",
+            "aliases": [
+                "monumen"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "unika"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Monumen",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Monumen",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "unika"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1085",
+            "entityId": "objinfo2:1085",
+            "title": "Fakultas Psikologi (UNIKA)",
+            "aliases": [
+                "fakultas psikologi (unika)",
+                "objek 1085"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fakultas Psikologi Universitas Katolik Soegijapranata (SCU) merupakan salah satu pilar pendidikan psikologi terkemuka di Jawa Tengah yang telah meraih akreditasi Unggul. Berlokasi di lingkungan Kampus Bendan Dhuwur yang rindang dan asri, fakultas ini memadukan fasilitas akademik modern—seperti laboratorium psikodiagnostik dan pusat layanan psikologi terapan—dengan arsitektur gedung yang ikonik dan ramah lingkungan.",
+            "source": "webview-import",
+            "sourceId": "1085",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Fakultas Psikologi (UNIKA)",
+                    "content": "Fakultas Psikologi Universitas Katolik Soegijapranata (SCU) merupakan salah satu pilar pendidikan psikologi terkemuka di Jawa Tengah yang telah meraih akreditasi Unggul. Berlokasi di lingkungan Kampus Bendan Dhuwur yang rindang dan asri, fakultas ini memadukan fasilitas akademik modern—seperti laboratorium psikodiagnostik dan pusat layanan psikologi terapan—dengan arsitektur gedung yang ikonik dan ramah lingkungan."
+                },
+                "en": {
+                    "title": "Faculty of Psychology (UNIKA)",
+                    "content": "The Faculty of Psychology at Soegijapranata Catholic University (SCU) is one of the leading pillars of psychology education in Central Java, having achieved Excellent accreditation. Located in the lush and serene Bendan Dhuwur Campus environment, this faculty combines modern academic facilities—such as psychodiagnostic laboratories and an applied psychology service center—with iconic and eco-friendly building architecture."
+                },
+                "zh": {
+                    "title": "心理学院（UNIKA）",
+                    "content": "苏吉亚普拉纳塔天主教大学（SCU）心理学院是中爪哇领先的心理学教育机构之一，已获得优秀级认证。位于绿意盎然、环境宜人的Bendan Dhuwur校园内，该学院将现代学术设施（如心理诊断实验室和应用心理服务中心）与标志性、环保的建筑相结合。"
+                },
+                "ar": {
+                    "title": "كلية علم النفس (جامعة UNIKA)",
+                    "content": "تُعد كلية علم النفس بجامعة سوجيابرااناتا الكاثوليكية (SCU) إحدى الركائز الرائدة في تعليم علم النفس في جاوة الوسطى، وقد حصلت على اعتماد ممتاز. تقع في بيئة حرم بندان دهوور الخضراء والهادئة، وتجمع بين مرافق أكاديمية حديثة مثل مختبرات التشخيص النفسي ومركز خدمات علم النفس التطبيقي مع عمارة مبانٍ أيقونية وصديقة للبيئة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1086",
+            "entityId": "objinfo2:1086",
+            "title": "Gereja Santo Mikael (UNIKA)",
+            "aliases": [
+                "gereja santo mikael (unika)",
+                "objek 1086"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gereja ini merupakan jantung spiritual bagi universitas yang membawa nama Monsinyur Albertus Soegijapranata. Selain digunakan untuk misa rutin, tempat ini sering menjadi lokasi upacara inisiasi mahasiswa baru serta misa pelepasan wisudawan.",
+            "source": "webview-import",
+            "sourceId": "1086",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gereja Santo Mikael (UNIKA)",
+                    "content": "Gereja ini merupakan jantung spiritual bagi universitas yang membawa nama Monsinyur Albertus Soegijapranata. Selain digunakan untuk misa rutin, tempat ini sering menjadi lokasi upacara inisiasi mahasiswa baru serta misa pelepasan wisudawan."
+                },
+                "en": {
+                    "title": "St. Michael Church (UNIKA)",
+                    "content": "This church is the spiritual heart of the university named after Monsignor Albertus Soegijapranata. Besides being used for regular masses, it is often the venue for new student initiation ceremonies and graduation farewell masses."
+                },
+                "zh": {
+                    "title": "圣米迦勒教堂（UNIKA）",
+                    "content": "这座教堂是以阿尔伯图斯·苏吉亚普拉纳塔蒙席命名的大学的精神中心。除了用于定期弥撒外，它也常作为新生入学仪式和毕业生送别弥撒的场所。"
+                },
+                "ar": {
+                    "title": "كنيسة القديس ميخائيل (جامعة UNIKA)",
+                    "content": "تُعد هذه الكنيسة القلب الروحي للجامعة التي تحمل اسم المونسينيور ألبرتوس سوجيابرااناتا. بالإضافة إلى استخدامها للقداسات المنتظمة، غالبًا ما تكون مكانًا لحفلات بدء الدراسة للطلاب الجدد ولقاءات القداس الوداعي للخريجين."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1087",
+            "entityId": "objinfo2:1087",
+            "title": "Museum Soegijapranata (UNIKA)",
+            "aliases": [
+                "museum soegijapranata (unika)",
+                "objek 1087"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Soegijapranata yang terletak di lingkungan kampus Universitas Katolik (Unika) Soegijapranata, Semarang. Ruangan ini dirancang sebagai ruang memori untuk menghormati dan melestarikan warisan sejarah dari Monsinyur Albertus Soegijapranata, uskup pribumi pertama di Indonesia sekaligus pahlawan nasional yang namanya diabadikan sebagai nama universitas tersebut.",
+            "source": "webview-import",
+            "sourceId": "1087",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Museum Soegijapranata (UNIKA)",
+                    "content": "Museum Soegijapranata yang terletak di lingkungan kampus Universitas Katolik (Unika) Soegijapranata, Semarang. Ruangan ini dirancang sebagai ruang memori untuk menghormati dan melestarikan warisan sejarah dari Monsinyur Albertus Soegijapranata, uskup pribumi pertama di Indonesia sekaligus pahlawan nasional yang namanya diabadikan sebagai nama universitas tersebut."
+                },
+                "en": {
+                    "title": "Soegijapranata Museum (UNIKA)",
+                    "content": "The Soegijapranata Museum is located within the campus of Soegijapranata Catholic University (Unika) in Semarang. This room is designed as a memory space to honor and preserve the historical legacy of Monsignor Albertus Soegijapranata, Indonesia’s first native bishop and a national hero whose name is commemorated by the university."
+                },
+                "zh": {
+                    "title": "苏吉亚普拉纳塔博物馆（UNIKA）",
+                    "content": "苏吉亚普拉纳塔博物馆位于三宝垄苏吉亚普拉纳塔天主教大学（Unika）校园内。该空间被设计为纪念室，以尊敬并保存蒙席阿尔伯图斯·苏吉亚普拉纳塔的历史遗产，他是印度尼西亚首位本土主教，也是国家英雄，其名字被用作该大学名称。"
+                },
+                "ar": {
+                    "title": "متحف سوجيابرااناتا (جامعة UNIKA)",
+                    "content": "يقع متحف سوجيابرااناتا داخل حرم جامعة سوجيابرااناتا الكاثوليكية (Unika) في سمارانغ. تم تصميم هذه الغرفة كمكان للذاكرة لتكريم والحفاظ على الإرث التاريخي للمونسينيور ألبرتوس سوجيابرااناتا، أول أسقف محلي في إندونيسيا وبطل وطني تم تخليد اسمه كاسم للجامعة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1088",
+            "entityId": "objinfo2:1088",
+            "title": "Gedung Albertus (UNIKA)",
+            "aliases": [
+                "gedung albertus (unika)",
+                "objek 1088"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung Albertus (UNIKA) adalah salah satu bangunan utama milik Universitas Katolik Soegijapranata di Semarang. Gedung ini digunakan untuk kegiatan akademik seperti perkuliahan dan administrasi. Namanya diambil dari Santo Albertus sebagai simbol nilai intelektualitas dan integritas dalam pendidikan.",
+            "source": "webview-import",
+            "sourceId": "1088",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung Albertus (UNIKA)",
+                    "content": "Gedung Albertus (UNIKA) adalah salah satu bangunan utama milik Universitas Katolik Soegijapranata di Semarang. Gedung ini digunakan untuk kegiatan akademik seperti perkuliahan dan administrasi. Namanya diambil dari Santo Albertus sebagai simbol nilai intelektualitas dan integritas dalam pendidikan."
+                },
+                "en": {
+                    "title": "Albertus Building (UNIKA)",
+                    "content": "The Albertus Building (UNIKA) is one of the main buildings of Soegijapranata Catholic University in Semarang. The building is used for academic activities such as lectures and administration. Its name is taken from Saint Albertus as a symbol of intellectual and integrity values in education."
+                },
+                "zh": {
+                    "title": "阿尔贝图斯大楼（UNIKA）",
+                    "content": "阿尔贝图斯大楼（UNIKA）是位于三宝垄的索吉贾普拉纳塔天主教大学的主要建筑之一。该建筑用于教学和行政等学术活动。其名称取自圣阿尔贝图斯，象征教育中的理性与诚信价值。"
+                },
+                "ar": {
+                    "title": "مبنى ألبيرتوس (يونيكا)",
+                    "content": "مبنى ألبيرتوس (يونيكا) هو أحد المباني الرئيسية لجامعة سوجيابراناتا الكاثوليكية في سمارانغ. يُستخدم المبنى للأنشطة الأكاديمية مثل المحاضرات والإدارة. سُمّي نسبةً إلى القديس ألبيرتوس كرمز لقيم الفكر والنزاهة في التعليم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1089",
+            "entityId": "objinfo2:1089",
+            "title": "Ruang Kelas (UNIKA)",
+            "aliases": [
+                "ruang kelas (unika)",
+                "objek 1089"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Smart Classroom atau ruang kelas modern di Universitas Katolik Soegijapranata (SCU/Unika), Semarang. Ruangan ini dirancang dengan konsep ergonomis dan teknologi terintegrasi untuk mendukung metode pembelajaran aktif (active learning). Fokus utama ruangan adalah layar monitor besar di bagian depan yang dikelilingi oleh panel kayu minimalis, memberikan kesan profesional dan bersih.",
+            "source": "webview-import",
+            "sourceId": "1089",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Kelas (UNIKA)",
+                    "content": "Smart Classroom atau ruang kelas modern di Universitas Katolik Soegijapranata (SCU/Unika), Semarang. Ruangan ini dirancang dengan konsep ergonomis dan teknologi terintegrasi untuk mendukung metode pembelajaran aktif (active learning). Fokus utama ruangan adalah layar monitor besar di bagian depan yang dikelilingi oleh panel kayu minimalis, memberikan kesan profesional dan bersih."
+                },
+                "en": {
+                    "title": "Classroom (UNIKA)",
+                    "content": "Smart Classroom or modern classroom at Soegijapranata Catholic University (SCU/Unika), Semarang. This room is designed with an ergonomic concept and integrated technology to support active learning methods. The main focus of the room is a large monitor at the front, surrounded by minimalist wooden panels, giving a professional and clean impression."
+                },
+                "zh": {
+                    "title": "教室（UNIKA）",
+                    "content": "苏吉亚普拉纳塔天主教大学（SCU/Unika）现代化智慧教室。该教室采用人体工学设计与整合技术，以支持主动学习（active learning）教学方式。教室的主要焦点是前方的大屏幕，周围由极简木质面板包围，呈现专业且干净的氛围。"
+                },
+                "ar": {
+                    "title": "فصل دراسي (جامعة UNIKA)",
+                    "content": "الفصل الذكي أو الفصول الحديثة في جامعة سوجيابرااناتا الكاثوليكية (SCU/Unika) في سمارانغ. تم تصميم هذه الغرفة بمفهوم مريح وتقنية متكاملة لدعم أساليب التعلم النشط. التركيز الرئيسي في الغرفة هو شاشة كبيرة في الأمام محاطة بألواح خشبية بسيطة، مما يمنح انطباعًا احترافيًا ونظيفًا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1090",
+            "entityId": "objinfo2:1090",
+            "title": "Perpustakaan (UNIKA)",
+            "aliases": [
+                "perpustakaan (unika)",
+                "objek 1090"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Perpustakaan Universitas Katolik (Unika) Soegijapranata Semarang, yang dikenal dengan suasana belajarnya yang tenang dan modern. Area ini berfungsi sebagai pusat layanan dan interaksi, terlihat dari adanya meja resepsionis atau sirkulasi di sisi kiri yang melengkung, serta beberapa fasilitas pendukung seperti rak buku pajangan, loker penyimpanan barang di sisi kanan, dan drop box pengembalian buku mandiri.",
+            "source": "webview-import",
+            "sourceId": "1090",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaan (UNIKA)",
+                    "content": "Perpustakaan Universitas Katolik (Unika) Soegijapranata Semarang, yang dikenal dengan suasana belajarnya yang tenang dan modern. Area ini berfungsi sebagai pusat layanan dan interaksi, terlihat dari adanya meja resepsionis atau sirkulasi di sisi kiri yang melengkung, serta beberapa fasilitas pendukung seperti rak buku pajangan, loker penyimpanan barang di sisi kanan, dan drop box pengembalian buku mandiri."
+                },
+                "en": {
+                    "title": "Library (UNIKA)",
+                    "content": "The library of Soegijapranata Catholic University (Unika) Semarang is known for its calm and modern learning atmosphere. This area serves as a service and interaction center, evident from the curved reception or circulation desk on the left, as well as supporting facilities such as display bookshelves, storage lockers on the right, and a self-service book return drop box."
+                },
+                "zh": {
+                    "title": "图书馆（UNIKA）",
+                    "content": "塞马朗苏吉亚普拉纳塔天主教大学（Unika）图书馆以其安静且现代的学习氛围而闻名。该区域是服务与互动的中心，左侧设有弧形接待/流通台，右侧配有展示书架、物品存储柜以及自助还书投递箱等辅助设施。"
+                },
+                "ar": {
+                    "title": "المكتبة (جامعة UNIKA)",
+                    "content": "مكتبة جامعة سوجيابراناتا الكاثوليكية في سيمارانغ معروفة بجوها الهادئ والحديث للدراسة. تُعد هذه المنطقة مركزًا للخدمات والتفاعل، ويتضح ذلك من وجود مكتب استقبال/تداول منحني على اليسار، بالإضافة إلى مرافق داعمة مثل رفوف عرض الكتب، وخزائن تخزين على اليمين، وصندوق إرجاع الكتب الذاتي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1091",
+            "entityId": "objinfo2:1091",
+            "title": "Lab Komputer (BSB UNIKA)",
+            "aliases": [
+                "lab komputer (bsb unika)",
+                "objek 1091"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Keberadaan laboratorium ini di Kampus BSB Unika mencerminkan integrasi antara akademisi dan kebutuhan industri. Fasilitas ini memungkinkan terjadinya link and match, di mana mahasiswa terbiasa menggunakan standar perangkat keras yang sama dengan yang digunakan di dunia profesional, sehingga saat lulus mereka sudah siap pakai (industry-ready).",
+            "source": "webview-import",
+            "sourceId": "1091",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Komputer (BSB UNIKA)",
+                    "content": "Keberadaan laboratorium ini di Kampus BSB Unika mencerminkan integrasi antara akademisi dan kebutuhan industri. Fasilitas ini memungkinkan terjadinya link and match, di mana mahasiswa terbiasa menggunakan standar perangkat keras yang sama dengan yang digunakan di dunia profesional, sehingga saat lulus mereka sudah siap pakai (industry-ready)."
+                },
+                "en": {
+                    "title": "Computer Lab (BSB UNIKA)",
+                    "content": "The presence of this laboratory at the BSB Campus of Unika reflects the integration between academia and industry needs. This facility enables a link-and-match approach, where students are accustomed to using hardware standards identical to those used in the professional world, so that they are industry-ready upon graduation."
+                },
+                "zh": {
+                    "title": "电脑实验室（UNIKA BSB）",
+                    "content": "该实验室位于 Unika BSB 校区，体现了学术与产业需求的融合。该设施实现了“链接与匹配”（link and match）机制，使学生习惯使用与职场相同的硬件标准，从而毕业时具备“即战力”。"
+                },
+                "ar": {
+                    "title": "مختبر الحاسوب (BSB جامعة UNIKA)",
+                    "content": "وجود هذا المختبر في حرم BSB بجامعة Unika يعكس التكامل بين الأكاديميا واحتياجات الصناعة. تتيح هذه المنشأة نهج الربط والتوافق، حيث يعتاد الطلاب على استخدام معايير الأجهزة نفسها المستخدمة في العالم المهني، مما يجعلهم جاهزين لسوق العمل عند التخرج"
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1092",
+            "entityId": "objinfo2:1092",
+            "title": "Perpustakaan (BSB UNIKA)",
+            "aliases": [
+                "perpustakaan (bsb unika)",
+                "objek 1092"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Perpustakaan ini merupakan cerminan dari konsep Smart Campus. Dengan adanya fasilitas digital dan integrasi sistem perpustakaan pusat, mahasiswa di BSB tetap memiliki hak akses yang setara terhadap sumber daya global, yang mendukung standar akreditasi dan kualitas riset mahasiswa.",
+            "source": "webview-import",
+            "sourceId": "1092",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaan (BSB UNIKA)",
+                    "content": "Perpustakaan ini merupakan cerminan dari konsep Smart Campus. Dengan adanya fasilitas digital dan integrasi sistem perpustakaan pusat, mahasiswa di BSB tetap memiliki hak akses yang setara terhadap sumber daya global, yang mendukung standar akreditasi dan kualitas riset mahasiswa."
+                },
+                "en": {
+                    "title": "Library",
+                    "content": "This library reflects the concept of a Smart Campus. With digital facilities and integration with the central library system, students at BSB have equal access to global resources, supporting accreditation standards and the quality of student research."
+                },
+                "zh": {
+                    "title": "图书馆",
+                    "content": "该图书馆体现了智慧校园（Smart Campus）的理念。通过数字化设施以及与中央图书馆系统的整合，BSB 的学生能够平等访问全球资源，从而支持认证标准并提升学生研究质量。"
+                },
+                "ar": {
+                    "title": "مكتبة",
+                    "content": "تعكس هذه المكتبة مفهوم الحرم الجامعي الذكي (Smart Campus). بفضل المرافق الرقمية وتكاملها مع نظام المكتبة المركزي، يتمتع طلاب BSB بحق وصول متساوٍ إلى الموارد العالمية، مما يدعم معايير الاعتماد وجودة أبحاث الطلاب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1093",
+            "entityId": "objinfo2:1093",
+            "title": "Ruang Kelas (BSB UNIKA)",
+            "aliases": [
+                "ruang kelas (bsb unika)",
+                "objek 1093"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Keberadaan layar monitor besar di samping papan tulis menunjukkan bahwa ruang ini siap untuk pembelajaran Blended Learning. Dosen tidak hanya terpaku pada materi tekstual di papan tulis, tetapi juga dapat memvisualisasikan konsep kompleks melalui konten multimedia, yang sangat krusial bagi generasi mahasiswa digital native.",
+            "source": "webview-import",
+            "sourceId": "1093",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Kelas (BSB UNIKA)",
+                    "content": "Keberadaan layar monitor besar di samping papan tulis menunjukkan bahwa ruang ini siap untuk pembelajaran Blended Learning. Dosen tidak hanya terpaku pada materi tekstual di papan tulis, tetapi juga dapat memvisualisasikan konsep kompleks melalui konten multimedia, yang sangat krusial bagi generasi mahasiswa digital native."
+                },
+                "en": {
+                    "title": "Classroom",
+                    "content": "The presence of a large monitor beside the whiteboard indicates that this room is ready for blended learning. Lecturers are not limited to textual material on the board, but can also visualize complex concepts through multimedia content, which is crucial for the digital-native generation of students."
+                },
+                "zh": {
+                    "title": "教室",
+                    "content": "白板旁的大屏显示器表明该教室已具备混合式学习（Blended Learning）条件。教师不仅依赖板书文字，还可以通过多媒体内容可视化复杂概念，这对数字原生代学生至关重要。"
+                },
+                "ar": {
+                    "title": "قاعة دراسية",
+                    "content": "وجود شاشة كبيرة بجانب السبورة يشير إلى أن هذه الغرفة جاهزة للتعلم المدمج (Blended Learning). فالمحاضر لا يقتصر على المواد النصية على السبورة، بل يمكنه أيضًا تصور المفاهيم المعقدة عبر محتوى الوسائط المتعددة، وهو أمر بالغ الأهمية لجيل الطلاب المولودين رقميًا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1094",
+            "entityId": "objinfo2:1094",
+            "title": "Laboratorium (BSB UNIKA)",
+            "aliases": [
+                "laboratorium (bsb unika)",
+                "objek 1094"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Laboratorium di Unika Soegijapranata (SCU) Kampus BSB City ini merupakan fasilitas Edu-Teknopark yang dirancang sebagai pusat pembelajaran praktis dan inovasi teknologi pangan. Secara edukatif, ruangan ini berfungsi sebagai jembatan antara teori akademis dan implementasi industri bagi mahasiswa, khususnya dalam memahami alur produksi serta penjaminan mutu produk secara komprehensif.",
+            "source": "webview-import",
+            "sourceId": "1094",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Laboratorium (BSB UNIKA)",
+                    "content": "Laboratorium di Unika Soegijapranata (SCU) Kampus BSB City ini merupakan fasilitas Edu-Teknopark yang dirancang sebagai pusat pembelajaran praktis dan inovasi teknologi pangan. Secara edukatif, ruangan ini berfungsi sebagai jembatan antara teori akademis dan implementasi industri bagi mahasiswa, khususnya dalam memahami alur produksi serta penjaminan mutu produk secara komprehensif."
+                },
+                "en": {
+                    "title": "Laboratory",
+                    "content": "The laboratory at Soegijapranata Catholic University (SCU) BSB City Campus is an Edu-Teknopark facility designed as a center for practical learning and food technology innovation. Educationally, this space serves as a bridge between academic theory and industry implementation for students, particularly in understanding the production process and comprehensive product quality assurance."
+                },
+                "zh": {
+                    "title": "实验室",
+                    "content": "位于 BSB City 校区的苏吉亚普拉纳塔天主教大学（SCU）实验室是一处教育科技园（Edu-Teknopark）设施，旨在成为食品技术创新与实践学习中心。从教育角度看，该实验室是学生将学术理论与产业应用衔接的桥梁，尤其有助于全面理解生产流程及产品质量保证。"
+                },
+                "ar": {
+                    "title": "مختبر",
+                    "content": "يُعد المختبر في جامعة سوجيابراناتا الكاثوليكية (SCU) بحرم BSB City منشأة في إطار \"Edu-Teknopark\" مصممة كمركز للتعلم العملي والابتكار في تكنولوجيا الأغذية. ومن الناحية التعليمية، تعمل هذه المساحة كجسر بين النظرية الأكاديمية وتطبيقات الصناعة للطلاب، لا سيما في فهم عملية الإنتاج وضمان جودة المنتج بشكل شامل."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1095",
+            "entityId": "objinfo2:1095",
+            "title": "Auditorium (BSB UNIKA)",
+            "aliases": [
+                "auditorium (bsb unika)",
+                "objek 1095"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas auditorium atau ruang teater modern yang berada di gedung BSB (Beato Sugijapranata Building), Universitas Katolik (Unika) Soegijapranata, Semarang. Ruangan ini dirancang dengan estetika yang sangat hangat dan kontemporer, didominasi oleh elemen kayu pada lantai dan panel dindingnya untuk menciptakan akustik yang baik sekaligus kesan mewah. Sebagai bagian dari gedung BSB yang menjadi ikon baru kampus, ruang ini mencerminkan komitmen universitas dalam menyediakan fasilitas belajar yang representatif dan nyaman bagi civitas akademika.",
+            "source": "webview-import",
+            "sourceId": "1095",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Auditorium (BSB UNIKA)",
+                    "content": "Fasilitas auditorium atau ruang teater modern yang berada di gedung BSB (Beato Sugijapranata Building), Universitas Katolik (Unika) Soegijapranata, Semarang. Ruangan ini dirancang dengan estetika yang sangat hangat dan kontemporer, didominasi oleh elemen kayu pada lantai dan panel dindingnya untuk menciptakan akustik yang baik sekaligus kesan mewah. Sebagai bagian dari gedung BSB yang menjadi ikon baru kampus, ruang ini mencerminkan komitmen universitas dalam menyediakan fasilitas belajar yang representatif dan nyaman bagi civitas akademika."
+                },
+                "en": {
+                    "title": "Auditorium",
+                    "content": "The modern auditorium or theater room located in the BSB (Beato Sugijapranata Building) at Soegijapranata Catholic University (Unika) Semarang. This space is designed with a warm and contemporary aesthetic, dominated by wooden elements on the floor and wall panels to create good acoustics while also giving a luxurious impression. As part of the BSB building, which is a new campus icon, this room reflects the university’s commitment to providing representative and comfortable learning facilities for the academic community."
+                },
+                "zh": {
+                    "title": "礼堂",
+                    "content": "该现代化礼堂/剧院位于塞马朗苏吉亚普拉纳塔天主教大学（Unika）BSB（Beato Sugijapranata Building）大楼内。空间设计呈现温暖且现代的美学风格，地板与墙面木质面板为主，既提升声学效果，又营造出豪华质感。作为校园新地标BSB大楼的一部分，该空间体现了大学为师生提供具有代表性且舒适学习环境的承诺。"
+                },
+                "ar": {
+                    "title": "المدرج",
+                    "content": "يعد هذا المدرج أو قاعة المسرح الحديثة جزءًا من مبنى BSB (Beato Sugijapranata Building) في جامعة سوجيابراناتا الكاثوليكية (Unika) في سيمارانغ. تم تصميم هذه القاعة بجمالية دافئة ومعاصرة، مع هيمنة العناصر الخشبية على الأرضيات واللوحات الجدارية لخلق صوتيات جيدة وإضفاء إحساس بالفخامة. وباعتبارها جزءًا من مبنى BSB الذي يُعد أيقونة جديدة للحرم الجامعي، تعكس هذه القاعة التزام الجامعة بتوفير مرافق تعليمية تمثيلية ومريحة لأعضاء المجتمع الأكاديمي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1096",
+            "entityId": "objinfo2:1096",
+            "title": "Sport Hall (BSB UNIKA)",
+            "aliases": [
+                "sport hall (bsb unika)",
+                "objek 1096"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sport Hall atau gedung olahraga indoor yang terletak di kampus Unika Soegijapranata (SCU) BSB City, Semarang. Ruangan ini dirancang dengan konsep modern dan multifungsi, terlihat dari ketersediaan beberapa lapangan sekaligus dalam satu area besar, yakni lapangan futsal dengan lantai biru di sisi kiri serta beberapa lapangan bulu tangkis beralas hijau di sisi kanan. Gedung ini memiliki struktur atap melengkung yang tinggi dengan rangka baja ekspos yang memberikan kesan luas dan sirkulasi udara yang baik.",
+            "source": "webview-import",
+            "sourceId": "1096",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Sport Hall (BSB UNIKA)",
+                    "content": "Sport Hall atau gedung olahraga indoor yang terletak di kampus Unika Soegijapranata (SCU) BSB City, Semarang. Ruangan ini dirancang dengan konsep modern dan multifungsi, terlihat dari ketersediaan beberapa lapangan sekaligus dalam satu area besar, yakni lapangan futsal dengan lantai biru di sisi kiri serta beberapa lapangan bulu tangkis beralas hijau di sisi kanan. Gedung ini memiliki struktur atap melengkung yang tinggi dengan rangka baja ekspos yang memberikan kesan luas dan sirkulasi udara yang baik."
+                },
+                "en": {
+                    "title": "Sport Hall",
+                    "content": "The Sport Hall, an indoor sports building located at Soegijapranata Catholic University (SCU) BSB City campus in Semarang. This space is designed with a modern and multifunctional concept, evident from the availability of multiple courts in one large area, including a blue-floored futsal court on the left and several green badminton courts on the right. The building features a high curved roof structure with exposed steel trusses, giving a spacious impression and good air circulation."
+                },
+                "zh": {
+                    "title": "体育馆",
+                    "content": "位于塞马朗苏吉亚普拉纳塔天主教大学（SCU）BSB City 校区的室内体育馆（Sport Hall）。该场馆采用现代多功能设计，可在同一大空间内容纳多个场地：左侧为蓝色地板的五人制足球场，右侧为绿色地板的多个羽毛球场。建筑具有高挑的弧形屋顶结构，暴露的钢架梁营造出开阔感并提升空气流通。"
+                },
+                "ar": {
+                    "title": "قاعة رياضية",
+                    "content": "الصالة الرياضية (Sport Hall) هي مبنى رياضي داخلي يقع في حرم جامعة سوجيابراناتا الكاثوليكية (SCU) في BSB City بسيمارانغ. تم تصميم هذه القاعة بمفهوم حديث ومتعدد الاستخدامات، ويظهر ذلك من توافر عدة ملاعب داخل مساحة واحدة كبيرة، حيث يوجد ملعب فوتسال بأرضية زرقاء على اليسار وعدة ملاعب تنس ريشة بأرضية خضراء على اليمين. يتميز المبنى بسقف مقوس مرتفع مع هيكل فولاذي مكشوف يمنح إحساسًا بالاتساع وتدفق الهواء الجيد."
+                }
+            }
+        }
+    ]
+}

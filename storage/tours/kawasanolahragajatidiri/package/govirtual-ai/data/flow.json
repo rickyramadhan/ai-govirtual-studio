@@ -1,0 +1,91 @@
+{
+    "version": "1.0",
+    "tourId": "kawasanolahragajatidiri",
+    "tourName": "Kawasanolahragajatidiri",
+    "updatedAt": "2026-09-29T09:51:04+02:00",
+    "startScene": "node81",
+    "order": [
+        "node81",
+        "node104",
+        "node105",
+        "node82",
+        "node83",
+        "node86",
+        "node89",
+        "node92",
+        "node94",
+        "node95",
+        "node97",
+        "node98",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node106",
+        "node107",
+        "node108",
+        "node109"
+    ],
+    "nodes": {
+        "node81": {
+            "displayName": "Kawasan Olahraga Jatidiri – Stadion – Pandangan Tribun Atas"
+        },
+        "node104": {
+            "displayName": "Kawasan Olahraga Jatidiri – Stadion – Tengah Tribun"
+        },
+        "node105": {
+            "displayName": "Kawasan Olahraga Jatidiri – Stadion – Sisi Lintasan"
+        },
+        "node82": {
+            "displayName": "Kawasan Olahraga Jatidiri – Ring Tinju Indoor"
+        },
+        "node83": {
+            "displayName": "Kawasan Olahraga Jatidiri – Dinding Panjat – Jalur Beragam"
+        },
+        "node86": {
+            "displayName": "Kawasan Olahraga Jatidiri – Gedung Bola Voli"
+        },
+        "node89": {
+            "displayName": "Kawasan Olahraga Jatidiri – Kolam Renang Jatidiri"
+        },
+        "node92": {
+            "displayName": "Kawasan Olahraga Jatidiri – Lapangan Terbuka untuk Latihan"
+        },
+        "node94": {
+            "displayName": "Kawasan Olahraga Jatidiri – Arena Silat"
+        },
+        "node95": {
+            "displayName": "Kawasan Olahraga Jatidiri – Lapangan Tenis – Sisi Net"
+        },
+        "node97": {
+            "displayName": "Kawasan Olahraga Jatidiri – Landmark Kompleks Jatidiri"
+        },
+        "node98": {
+            "displayName": "Kawasan Olahraga Jatidiri – Stadion – Tepi Rumput"
+        },
+        "node100": {
+            "displayName": "Kawasan Olahraga Jatidiri – Ruang Ganti Atlet"
+        },
+        "node101": {
+            "displayName": "Kawasan Olahraga Jatidiri – Lobi Stadion Jatidiri"
+        },
+        "node102": {
+            "displayName": "Kawasan Olahraga Jatidiri – Lapangan Basket Outdoor"
+        },
+        "node103": {
+            "displayName": "Kawasan Olahraga Jatidiri – Lapangan Tenis – Pandangan Tribun"
+        },
+        "node106": {
+            "displayName": "Kawasan Olahraga Jatidiri – Area Panjat Speed"
+        },
+        "node107": {
+            "displayName": "Kawasan Olahraga Jatidiri – Arena Panjat – Sisi Bangunan"
+        },
+        "node108": {
+            "displayName": "Kawasan Olahraga Jatidiri – Kolam Renang – Pandangan Samping"
+        },
+        "node109": {
+            "displayName": "Kawasan Olahraga Jatidiri – Lapangan Tenis – Video 360"
+        }
+    }
+}

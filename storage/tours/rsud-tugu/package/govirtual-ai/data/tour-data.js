@@ -13,7 +13,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "drone"
-            ]
+            ],
+            "pan": -1.3668,
+            "tilt": -9.88658,
+            "fov": 117.044
         },
         {
             "id": "node81",
@@ -27,7 +30,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "ruangxray"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node82",
@@ -40,7 +46,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Depan Lobi IGD"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node83",
@@ -53,7 +62,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Depan Lobi Rawat Jalan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node84",
@@ -66,7 +78,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Farmasi Rawat Inap"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node85",
@@ -79,7 +94,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "icu"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node86",
@@ -92,7 +110,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "instalasidialisis"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node87",
@@ -105,7 +126,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "instalasijantung"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node88",
@@ -118,7 +142,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gedung Nusa Indah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node89",
@@ -131,7 +158,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Masuk lobi Instalasi Jantung"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node90",
@@ -144,7 +174,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Lobi Ruang Rawat Inap"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node91",
@@ -157,7 +190,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Lobi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node92",
@@ -171,7 +207,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "pendaftaran"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node93",
@@ -184,7 +223,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Parkir"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node94",
@@ -197,7 +239,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Instalasi Dialisis"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node95",
@@ -210,7 +255,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Instalasi Jantung"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node96",
@@ -223,7 +271,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Wijaya Kusuma"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node97",
@@ -236,7 +287,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pintu Masuk IGD"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node98",
@@ -249,7 +303,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Radiologi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node99",
@@ -263,7 +320,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "radiologi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node100",
@@ -276,7 +336,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "ruangbedah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node101",
@@ -289,7 +352,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Rawat Inap Kelas 2"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node102",
@@ -302,7 +368,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Rawat VVIP"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node103",
@@ -316,7 +385,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "rawatinapvvip"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node104",
@@ -330,7 +402,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "rontgen"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node105",
@@ -343,7 +418,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Rawat Inap VVIP"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         }
     ],
     "hotspots": [
@@ -1182,12 +1260,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area aksesibilitas dan parkir eksterior RSUD Tugurejo yang tertata rapi untuk mengakomodasi mobilitas pengunjung.",
+            "description": "Tata ruang kawasan luar RSUD Tugurejo dirancang secara terpadu untuk memastikan alur lalu lintas ambulans, pasien rujukan, dan pengunjung umum berjalan lancar tanpa hambatan. Fasilitas parkir yang luas dikelola secara terpusat dengan pembagian zonasi yang jelas. Lanskap luar ruangan dirawat dengan baik untuk memberikan kesan institusi pelayanan publik yang bersih, ramah, dan tertib sejak pandangan pertama.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Aksesibilitas RSUD Tugurejo",
+                "Fasilitas parkir luas",
+                "Tata ruang rumah sakit terpadu"
             ],
             "talkingPoints": [
                 "Drone",
@@ -1195,14 +1274,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana tata ruang kawasan RSUD Tugurejo dari area luar ini?",
+                    "mode": "fix",
+                    "answer": "Dari pandangan luar kawasan ini, terlihat tata ruang rumah sakit yang terintegrasi dengan baik. Area gedung perawatan, poliklinik, instalasi gawat darurat, dan fasilitas penunjang medis dipisahkan secara sistematis untuk mencegah penumpukan alur mobilitas dan mempermudah evakuasi darurat."
+                },
+                {
+                    "q": "Apakah kapasitas area parkir di sini memadai untuk pengunjung?",
+                    "mode": "fix",
+                    "answer": "RSUD Tugurejo menyediakan fasilitas parkir yang representatif untuk mengakomodasi tingginya volume kunjungan harian. Area parkir dikelola secara profesional dengan pemisahan zonasi antara kendaraan roda dua, roda empat, kendaraan dinas staf, serta penetapan jalur evakuasi steril yang tidak boleh dihalangi oleh kendaraan parkir."
+                },
+                {
+                    "q": "Bagaimana kemudahan akses rumah sakit dari jalan protokol?",
+                    "mode": "fix",
+                    "answer": "Letak strategis kawasan rumah sakit ini memudahkan mobilitas masyarakat, baik dari dalam kota maupun daerah perbatasan. Akses utama dirancang agar mudah dijangkau oleh berbagai moda transportasi publik maupun ambulans gawat darurat, sehingga sangat mendukung respons penanganan medis yang tanggap dan cepat."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Drone.",
                 "describeHere": "Drone adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1216,12 +1307,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Ruang X-Ray merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang X-Ray adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ini menyediakan layanan pencitraan medis diagnostik berteknologi tinggi untuk mendukung keakuratan diagnosis dokter.",
+            "description": "Instalasi Radiologi RSUD Tugurejo dilengkapi dengan peralatan medis mutakhir seperti X-Ray (Rontgen), USG, dan perlengkapan radiologi lainnya. Ruangan ini dibangun dengan standar keamanan dan proteksi radiasi yang ketat guna menjamin keselamatan pasien dan petugas. Tim radiografer yang berpengalaman siap melayani kebutuhan diagnostik dengan hasil yang cepat dan akurat.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Layanan pencitraan medis",
+                "Fasilitas diagnostik modern",
+                "Proteksi radiasi berstandar"
             ],
             "talkingPoints": [
                 "Ruang X-Ray",
@@ -1229,16 +1321,28 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang X-Ray.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Pemeriksaan apa saja yang dilakukan di Instalasi Radiologi?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini menyediakan layanan pencitraan medis untuk membantu dokter menegakkan diagnosis secara akurat. Layanan yang tersedia meliputi pemeriksaan X-Ray (Rontgen) konvensional, ultrasonografi (USG), CT Scan, hingga pemeriksaan radiologi intervensi lainnya."
+                },
+                {
+                    "q": "Apakah paparan radiasi di ruangan ini aman bagi pasien?",
+                    "mode": "fix",
+                    "answer": "Keamanan pasien dan petugas adalah prioritas utama. Ruangan ini dibangun dengan pelapis dinding anti-radiasi berstandar ketat. Selain itu, petugas radiografer terlatih akan memandu pasien serta menggunakan alat pelindung diri (apron timbal) jika diperlukan guna memastikan paparan radiasi berada dalam batas sangat aman."
+                },
+                {
+                    "q": "Apa persiapan yang dibutuhkan sebelum pemeriksaan?",
+                    "mode": "fix",
+                    "answer": "Persiapan sangat bergantung pada jenis pemeriksaannya. Beberapa tindakan seperti X-Ray dada tidak memerlukan persiapan khusus, namun untuk pemeriksaan tertentu seperti CT Scan dengan kontras atau USG abdomen, pasien mungkin diminta untuk berpuasa atau menahan buang air kecil sesuai instruksi dokter."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2073"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang X-Ray — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Ruang X-Ray.",
                 "describeHere": "Ruang X-Ray adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1252,12 +1356,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Depan Lobi IGD merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Depan Lobi IGD adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Instalasi Gawat Darurat (IGD) melayani penanganan kasus medis darurat 24 jam dengan respons cepat dan terpadu.",
+            "description": "Instalasi Gawat Darurat RSUD Tugurejo beroperasi 24 jam penuh untuk menangani pasien dengan kondisi kritis dan mengancam jiwa. Dilengkapi dengan sistem triase (triage) modern, area ini memastikan setiap pasien mendapatkan penanganan prioritas berdasarkan tingkat kegawatdaruratannya oleh tim medis profesional yang siaga setiap saat.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Layanan gawat darurat 24 jam",
+                "Penanganan medis cepat",
+                "Sistem triase terpadu"
             ],
             "talkingPoints": [
                 "Depan Lobi IGD",
@@ -1265,14 +1370,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Depan Lobi IGD.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa layanan utama di Instalasi Gawat Darurat (IGD) ini?",
+                    "mode": "fix",
+                    "answer": "IGD melayani penanganan medis kegawatdaruratan selama 24 jam penuh. Fasilitas ini didedikasikan untuk pasien dengan kondisi kritis, trauma berat, atau keadaan darurat medis lain yang membutuhkan tindakan penyelamatan nyawa (life-saving) sesegera mungkin."
+                },
+                {
+                    "q": "Bagaimana alur penanganan pasien saat tiba di IGD?",
+                    "mode": "fix",
+                    "answer": "Saat pasien tiba, tim medis akan langsung melakukan prosedur triase (triage), yaitu pemilahan pasien berdasarkan tingkat keparahan dan kondisi kegawatdaruratannya. Pasien dengan kondisi mengancam jiwa akan mendapatkan prioritas penanganan utama, terlepas dari urutan kedatangan."
+                },
+                {
+                    "q": "Apakah ambulans memiliki jalur khusus ke area ini?",
+                    "mode": "fix",
+                    "answer": "Ya, area depan lobi IGD dilengkapi dengan jalur khusus (drop-off zone) untuk ambulans guna mempercepat proses evakuasi pasien kritis. Kendaraan pribadi pengantar diharapkan segera memindahkan kendaraannya ke area parkir setelah menurunkan pasien agar jalur tetap steril."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Depan Lobi IGD — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Depan Lobi IGD.",
                 "describeHere": "Depan Lobi IGD adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1286,12 +1403,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Depan Lobi Rawat Jalan merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Depan Lobi Rawat Jalan adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan pusat administrasi dan pendaftaran terpadu bagi pasien rawat jalan maupun pengunjung rumah sakit.",
+            "description": "Area lobi dan pendaftaran dirancang sebagai titik awal pelayanan yang ramah dan efisien. Pasien dapat melakukan registrasi untuk berbagai layanan poliklinik dengan sistem antrean elektronik yang tertib. Ruang tunggu yang luas, bersih, dan berpendingin udara disediakan untuk memberikan ketenangan bagi pasien dan keluarga pengantar selama menunggu.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pusat informasi & pendaftaran",
+                "Poliklinik terpadu",
+                "Ruang tunggu nyaman"
             ],
             "talkingPoints": [
                 "Depan Lobi Rawat Jalan",
@@ -1299,14 +1417,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Depan Lobi Rawat Jalan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa saja proses yang dilakukan di area pendaftaran ini?",
+                    "mode": "fix",
+                    "answer": "Di area pendaftaran ini, pasien rawat jalan dapat melakukan registrasi untuk konsultasi di berbagai poliklinik spesialis. Layanan mencakup pendaftaran pasien baru maupun lama, verifikasi jaminan kesehatan (BPJS/Asuransi), dan pemberian informasi terkait jadwal dokter praktik."
+                },
+                {
+                    "q": "Bagaimana fasilitas ruang tunggu bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ruang tunggu didesain agar pasien dan keluarga merasa nyaman sembari menunggu antrean pemeriksaan. Area ini dilengkapi dengan sistem antrean elektronik (digital queuing), tempat duduk yang ergonomis, sirkulasi udara yang baik, serta pusat informasi untuk membantu mengarahkan pengunjung."
+                },
+                {
+                    "q": "Poliklinik apa saja yang bisa diakses dari lobi rawat jalan?",
+                    "mode": "fix",
+                    "answer": "Dari area lobi utama ini, pasien dapat diarahkan menuju ke berbagai poliklinik reguler maupun eksekutif, seperti klinik penyakit dalam, klinik anak, klinik bedah, hingga layanan penunjang medis lainnya sesuai dengan rujukan yang dimiliki pasien."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Depan Lobi Rawat Jalan — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Depan Lobi Rawat Jalan.",
                 "describeHere": "Depan Lobi Rawat Jalan adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1320,12 +1450,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Farmasi Rawat Inap merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Farmasi Rawat Inap adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Instalasi Farmasi melayani peracikan dan penyediaan obat-obatan untuk pasien dengan standar ketepatan farmasi klinis.",
+            "description": "Layanan farmasi di RSUD Tugurejo berfokus pada penyediaan perbekalan obat yang aman, tepat, dan berkualitas. Tim apoteker bertugas menelaah resep secara cermat, meracik obat sesuai dosis, serta memberikan edukasi dan konseling cara penggunaan obat kepada keluarga pasien untuk memastikan efektivitas dan keamanan terapi medis.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pelayanan obat rawat inap",
+                "Edukasi farmasi klinis",
+                "Manajemen obat akurat"
             ],
             "talkingPoints": [
                 "Farmasi Rawat Inap",
@@ -1333,14 +1464,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Farmasi Rawat Inap.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama dari Instalasi Farmasi Rawat Inap ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini bertanggung jawab untuk meracik, menyiapkan, dan mendistribusikan perbekalan farmasi atau obat-obatan secara spesifik untuk pasien yang sedang menjalani perawatan di bangsal (rawat inap). Pelayanan farmasi di sini beroperasi 24 jam untuk memastikan kebutuhan terapi pasien terpenuhi tepat waktu."
+                },
+                {
+                    "q": "Bagaimana keamanan pemberian obat dijamin?",
+                    "mode": "fix",
+                    "answer": "Apoteker dan tenaga teknis kefarmasian menerapkan standar keselamatan pasien yang ketat (seperti prinsip 7 Benar Pemberian Obat). Mereka juga menelaah resep secara teliti untuk menghindari interaksi obat yang tidak diinginkan sebelum obat diserahkan ke ruang perawatan."
+                },
+                {
+                    "q": "Apakah pasien atau keluarga dapat berkonsultasi di sini?",
+                    "mode": "fix",
+                    "answer": "Tentu. Apoteker klinis di RSUD senantiasa siap memberikan konseling dan informasi obat (KIO) kepada keluarga pasien mengenai cara penggunaan, efek samping yang mungkin timbul, serta cara penyimpanan obat yang benar saat pasien bersiap untuk pulang (discharge planning)."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Farmasi Rawat Inap — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Farmasi Rawat Inap.",
                 "describeHere": "Farmasi Rawat Inap adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1354,12 +1497,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "ICU merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "ICU adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Unit Perawatan Intensif (ICU) dikhususkan untuk observasi ketat dan penanganan pasien dengan kondisi medis kritis.",
+            "description": "ICU RSUD Tugurejo menyediakan perawatan intensif 24 jam dengan dukungan peralatan life-support canggih seperti ventilator dan monitor hemodinamik. Ruangan ini dijaga dalam kondisi sangat steril dengan pembatasan akses kunjungan yang ketat. Tim dokter spesialis anestesiologi dan perawat intensif bersiaga penuh untuk memantau perkembangan tanda vital pasien secara berkesinambungan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Perawatan intensif komprehensif",
+                "Pemantauan medis 24 jam",
+                "Peralatan life-support canggih"
             ],
             "talkingPoints": [
                 "ICU",
@@ -1367,14 +1511,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area ICU.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Siapa saja pasien yang dirawat di ruangan ICU ini?",
+                    "mode": "fix",
+                    "answer": "Intensive Care Unit (ICU) dikhususkan bagi pasien dengan kondisi kritis atau mengancam jiwa yang membutuhkan pemantauan medis terus-menerus dan observasi ketat, seperti pasien pasca-operasi besar, gagal napas, atau pasien dengan disfungsi organ berat."
+                },
+                {
+                    "q": "Fasilitas peralatan medis apa saja yang ada di sini?",
+                    "mode": "fix",
+                    "answer": "Setiap tempat tidur di ICU dilengkapi dengan peralatan penunjang kehidupan (life-support) tingkat tinggi, termasuk ventilator mekanik, monitor hemodinamik berkelanjutan, syringe pump, dan alat pacu jantung darurat (defibrilator) yang terintegrasi secara terpusat."
+                },
+                {
+                    "q": "Apakah keluarga diizinkan menjenguk pasien di ICU?",
+                    "mode": "fix",
+                    "answer": "Guna menjaga kesterilan ruangan dan memberikan waktu istirahat maksimal bagi pasien kritis, jam besuk di ruang ICU sangat dibatasi. Hanya satu atau dua anggota keluarga inti yang diizinkan masuk secara bergantian pada jam tertentu, dengan kewajiban mematuhi protokol kebersihan yang ketat."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di ICU — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di ICU.",
                 "describeHere": "ICU adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1388,12 +1544,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Instalasi Dialisis merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Instalasi Dialisis adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Instalasi Dialisis melayani terapi cuci darah (hemodialisis) bagi pasien dengan gangguan fungsi ginjal.",
+            "description": "Instalasi Dialisis RSUD Tugurejo didesain untuk memberikan kenyamanan dan keamanan optimal bagi pasien yang menjalani terapi cuci darah rutin. Dilengkapi dengan mesin dialiser modern dan kursi perawatan yang ergonomis. Seluruh prosedur medis di ruangan ini diawasi secara ketat oleh dokter spesialis dan perawat nefrologi yang ahli dan berpengalaman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Layanan cuci darah",
+                "Fasilitas kenyamanan pasien",
+                "Penanganan gagal ginjal"
             ],
             "talkingPoints": [
                 "Instalasi Dialisis",
@@ -1401,14 +1558,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Instalasi Dialisis.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa itu layanan Instalasi Dialisis?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini secara khusus melayani tindakan hemodialisis (cuci darah) bagi pasien yang mengalami gangguan fungsi ginjal akut maupun penyakit ginjal kronik (PGK). Proses ini menggunakan mesin dialiser canggih yang berfungsi menggantikan peran ginjal dalam menyaring toksin dan kelebihan cairan dari dalam darah."
+                },
+                {
+                    "q": "Bagaimana kenyamanan pasien dijaga selama proses terapi?",
+                    "mode": "fix",
+                    "answer": "Mengingat proses cuci darah memakan waktu beberapa jam, ruangan didesain se-nyaman mungkin. Setiap kursi atau tempat tidur pasien diatur secara ergonomis, ruangan dilengkapi dengan penyejuk udara, fasilitas hiburan seperti televisi, serta pencahayaan yang menenangkan untuk meminimalisir stres pasien."
+                },
+                {
+                    "q": "Siapa saja tenaga medis yang bertugas di unit ini?",
+                    "mode": "fix",
+                    "answer": "Unit Dialisis dikelola oleh tim multidisiplin yang terdiri dari dokter spesialis penyakit dalam konsultan ginjal-hipertensi (KGH), dokter umum bersertifikat hemodialisis, serta perawat spesialis ginjal yang handal dalam memantau kondisi pasien selama terapi berlangsung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Instalasi Dialisis — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Instalasi Dialisis.",
                 "describeHere": "Instalasi Dialisis adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1422,12 +1591,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Instalasi Jantung merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Instalasi Jantung adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat layanan kardiologi terpadu untuk diagnostik, perawatan, dan penanganan kegawatdaruratan penyakit jantung.",
+            "description": "Instalasi Jantung RSUD Tugurejo merupakan fasilitas khusus yang menangani berbagai keluhan kardiovaskular secara komprehensif. Melayani mulai dari pemeriksaan diagnostik (seperti EKG dan Echocardiography) hingga penanganan serangan jantung akut. Fasilitas ini didukung oleh dokter spesialis jantung berpengalaman dengan peralatan mutakhir untuk memastikan tindakan intervensi medis yang cepat dan presisi.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pusat kardiologi terpadu",
+                "Penanganan kegawatan jantung",
+                "Teknologi rekam jantung"
             ],
             "talkingPoints": [
                 "Instalasi Jantung",
@@ -1435,14 +1605,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Instalasi Jantung.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fokus pelayanan apa yang ditangani di Instalasi Jantung?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini merupakan pusat layanan kardiologi yang komprehensif, menangani berbagai gangguan sistem kardiovaskular. Pelayanannya meliputi pemeriksaan fungsi jantung diagnostik, penanganan sindrom koroner akut (serangan jantung), hingga rehabilitasi jantung bagi pasien rawat jalan maupun rawat inap."
+                },
+                {
+                    "q": "Pemeriksaan spesifik apa yang bisa dilakukan di sini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini dilengkapi dengan peralatan diagnostik jantung mutakhir, seperti Elektrokardiogram (EKG) untuk merekam aktivitas listrik jantung, Echocardiography (USG Jantung) untuk melihat struktur katup dan otot jantung, serta fasilitas treadmill test untuk uji latih beban jantung."
+                },
+                {
+                    "q": "Mengapa letaknya sering dibuat berdekatan dengan akses utama?",
+                    "mode": "fix",
+                    "answer": "Kecepatan penanganan (golden time) sangatlah krusial dalam kasus kegawatdaruratan jantung. Oleh karena itu, akses ke ruang perawatan jantung, laboratorium kateterisasi (Cath Lab), atau ICCU didesain untuk mudah dan cepat dijangkau dari pintu masuk IGD demi memaksimalkan keberhasilan tindakan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Instalasi Jantung — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Instalasi Jantung.",
                 "describeHere": "Instalasi Jantung adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1456,12 +1638,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Nusa Indah merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Nusa Indah adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bangsal rawat inap yang dirancang higienis dan terstruktur untuk mendukung masa pemulihan pasien secara optimal.",
+            "description": "Fasilitas rawat inap RSUD Tugurejo, seperti bangsal kelas standar, memberikan lingkungan perawatan yang tenang, bersih, dan mematuhi tata letak standar rumah sakit. Terdapat pos perawat (nurse station) di setiap gedung yang bersiaga 24 jam untuk memantau perkembangan kondisi pasien. Setiap kamar memiliki sirkulasi udara yang baik untuk mendukung proses penyembuhan medis secara efektif dan aman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan inap",
+                "Kenyamanan masa pemulihan",
+                "Fasilitas rawat medis terstandar"
             ],
             "talkingPoints": [
                 "Gedung Nusa Indah",
@@ -1469,14 +1652,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Nusa Indah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fasilitas apa yang tersedia di bangsal perawatan reguler ini?",
+                    "mode": "fix",
+                    "answer": "Bangsal perawatan standar diatur untuk mengakomodasi beberapa tempat tidur dalam satu ruangan yang cukup luas. Tata letaknya disesuaikan dengan protokol kesehatan yang menjaga jarak aman antar-pasien, disertai dengan sirkulasi udara yang baik, ketersediaan tirai pemisah privasi, dan kelengkapan medis yang menunjang penyembuhan pasien."
+                },
+                {
+                    "q": "Bagaimana jadwal pemeriksaan harian dilakukan oleh dokter?",
+                    "mode": "fix",
+                    "answer": "Pasien akan menerima kunjungan harian (visite) dari Dokter Penanggung Jawab Pelayanan (DPJP) secara rutin, biasanya di pagi atau siang hari. Selain itu, perawat bangsal akan selalu berkeliling setiap beberapa jam untuk mengukur tanda vital, mengatur infus, serta memberikan terapi obat sesuai jadwal."
+                },
+                {
+                    "q": "Apa anjuran penting bagi keluarga yang menunggui pasien?",
+                    "mode": "fix",
+                    "answer": "Keluarga pendamping sangat disarankan untuk ikut memelihara kebersihan lingkungan bangsal, menjaga ketenangan agar tidak mengganggu istirahat pasien lain, serta mencuci tangan sebelum dan sesudah kontak dengan pasien untuk membantu mencegah penyebaran infeksi di lingkungan rumah sakit."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Nusa Indah — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Gedung Nusa Indah.",
                 "describeHere": "Gedung Nusa Indah adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1490,12 +1685,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Masuk lobi Instalasi Jantung merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Masuk lobi Instalasi Jantung adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat layanan kardiologi terpadu untuk diagnostik, perawatan, dan penanganan kegawatdaruratan penyakit jantung.",
+            "description": "Instalasi Jantung RSUD Tugurejo merupakan fasilitas khusus yang menangani berbagai keluhan kardiovaskular secara komprehensif. Melayani mulai dari pemeriksaan diagnostik (seperti EKG dan Echocardiography) hingga penanganan serangan jantung akut. Fasilitas ini didukung oleh dokter spesialis jantung berpengalaman dengan peralatan mutakhir untuk memastikan tindakan intervensi medis yang cepat dan presisi.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pusat kardiologi terpadu",
+                "Penanganan kegawatan jantung",
+                "Teknologi rekam jantung"
             ],
             "talkingPoints": [
                 "Masuk lobi Instalasi Jantung",
@@ -1503,14 +1699,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Masuk lobi Instalasi Jantung.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fokus pelayanan apa yang ditangani di Instalasi Jantung?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini merupakan pusat layanan kardiologi yang komprehensif, menangani berbagai gangguan sistem kardiovaskular. Pelayanannya meliputi pemeriksaan fungsi jantung diagnostik, penanganan sindrom koroner akut (serangan jantung), hingga rehabilitasi jantung bagi pasien rawat jalan maupun rawat inap."
+                },
+                {
+                    "q": "Pemeriksaan spesifik apa yang bisa dilakukan di sini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini dilengkapi dengan peralatan diagnostik jantung mutakhir, seperti Elektrokardiogram (EKG) untuk merekam aktivitas listrik jantung, Echocardiography (USG Jantung) untuk melihat struktur katup dan otot jantung, serta fasilitas treadmill test untuk uji latih beban jantung."
+                },
+                {
+                    "q": "Mengapa letaknya sering dibuat berdekatan dengan akses utama?",
+                    "mode": "fix",
+                    "answer": "Kecepatan penanganan (golden time) sangatlah krusial dalam kasus kegawatdaruratan jantung. Oleh karena itu, akses ke ruang perawatan jantung, laboratorium kateterisasi (Cath Lab), atau ICCU didesain untuk mudah dan cepat dijangkau dari pintu masuk IGD demi memaksimalkan keberhasilan tindakan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Masuk lobi Instalasi Jantung — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Masuk lobi Instalasi Jantung.",
                 "describeHere": "Masuk lobi Instalasi Jantung adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1524,12 +1732,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Lobi Ruang Rawat Inap merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lobi Ruang Rawat Inap adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bangsal rawat inap yang dirancang higienis dan terstruktur untuk mendukung masa pemulihan pasien secara optimal.",
+            "description": "Fasilitas rawat inap RSUD Tugurejo, seperti bangsal kelas standar, memberikan lingkungan perawatan yang tenang, bersih, dan mematuhi tata letak standar rumah sakit. Terdapat pos perawat (nurse station) di setiap gedung yang bersiaga 24 jam untuk memantau perkembangan kondisi pasien. Setiap kamar memiliki sirkulasi udara yang baik untuk mendukung proses penyembuhan medis secara efektif dan aman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan inap",
+                "Kenyamanan masa pemulihan",
+                "Fasilitas rawat medis terstandar"
             ],
             "talkingPoints": [
                 "Lobi Ruang Rawat Inap",
@@ -1537,14 +1746,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lobi Ruang Rawat Inap.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fasilitas apa yang tersedia di bangsal perawatan reguler ini?",
+                    "mode": "fix",
+                    "answer": "Bangsal perawatan standar diatur untuk mengakomodasi beberapa tempat tidur dalam satu ruangan yang cukup luas. Tata letaknya disesuaikan dengan protokol kesehatan yang menjaga jarak aman antar-pasien, disertai dengan sirkulasi udara yang baik, ketersediaan tirai pemisah privasi, dan kelengkapan medis yang menunjang penyembuhan pasien."
+                },
+                {
+                    "q": "Bagaimana jadwal pemeriksaan harian dilakukan oleh dokter?",
+                    "mode": "fix",
+                    "answer": "Pasien akan menerima kunjungan harian (visite) dari Dokter Penanggung Jawab Pelayanan (DPJP) secara rutin, biasanya di pagi atau siang hari. Selain itu, perawat bangsal akan selalu berkeliling setiap beberapa jam untuk mengukur tanda vital, mengatur infus, serta memberikan terapi obat sesuai jadwal."
+                },
+                {
+                    "q": "Apa anjuran penting bagi keluarga yang menunggui pasien?",
+                    "mode": "fix",
+                    "answer": "Keluarga pendamping sangat disarankan untuk ikut memelihara kebersihan lingkungan bangsal, menjaga ketenangan agar tidak mengganggu istirahat pasien lain, serta mencuci tangan sebelum dan sesudah kontak dengan pasien untuk membantu mencegah penyebaran infeksi di lingkungan rumah sakit."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lobi Ruang Rawat Inap — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Lobi Ruang Rawat Inap.",
                 "describeHere": "Lobi Ruang Rawat Inap adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1558,12 +1779,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Lobi merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lobi adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan pusat administrasi dan pendaftaran terpadu bagi pasien rawat jalan maupun pengunjung rumah sakit.",
+            "description": "Area lobi dan pendaftaran dirancang sebagai titik awal pelayanan yang ramah dan efisien. Pasien dapat melakukan registrasi untuk berbagai layanan poliklinik dengan sistem antrean elektronik yang tertib. Ruang tunggu yang luas, bersih, dan berpendingin udara disediakan untuk memberikan ketenangan bagi pasien dan keluarga pengantar selama menunggu.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pusat informasi & pendaftaran",
+                "Poliklinik terpadu",
+                "Ruang tunggu nyaman"
             ],
             "talkingPoints": [
                 "Lobi",
@@ -1571,14 +1793,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lobi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa saja proses yang dilakukan di area pendaftaran ini?",
+                    "mode": "fix",
+                    "answer": "Di area pendaftaran ini, pasien rawat jalan dapat melakukan registrasi untuk konsultasi di berbagai poliklinik spesialis. Layanan mencakup pendaftaran pasien baru maupun lama, verifikasi jaminan kesehatan (BPJS/Asuransi), dan pemberian informasi terkait jadwal dokter praktik."
+                },
+                {
+                    "q": "Bagaimana fasilitas ruang tunggu bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ruang tunggu didesain agar pasien dan keluarga merasa nyaman sembari menunggu antrean pemeriksaan. Area ini dilengkapi dengan sistem antrean elektronik (digital queuing), tempat duduk yang ergonomis, sirkulasi udara yang baik, serta pusat informasi untuk membantu mengarahkan pengunjung."
+                },
+                {
+                    "q": "Poliklinik apa saja yang bisa diakses dari lobi rawat jalan?",
+                    "mode": "fix",
+                    "answer": "Dari area lobi utama ini, pasien dapat diarahkan menuju ke berbagai poliklinik reguler maupun eksekutif, seperti klinik penyakit dalam, klinik anak, klinik bedah, hingga layanan penunjang medis lainnya sesuai dengan rujukan yang dimiliki pasien."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lobi — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Lobi.",
                 "describeHere": "Lobi adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1592,12 +1826,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Pendaftaran merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pendaftaran adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ini merupakan pusat administrasi dan pendaftaran terpadu bagi pasien rawat jalan maupun pengunjung rumah sakit.",
+            "description": "Area lobi dan pendaftaran dirancang sebagai titik awal pelayanan yang ramah dan efisien. Pasien dapat melakukan registrasi untuk berbagai layanan poliklinik dengan sistem antrean elektronik yang tertib. Ruang tunggu yang luas, bersih, dan berpendingin udara disediakan untuk memberikan ketenangan bagi pasien dan keluarga pengantar selama menunggu.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Pusat informasi & pendaftaran",
+                "Poliklinik terpadu",
+                "Ruang tunggu nyaman"
             ],
             "talkingPoints": [
                 "Pendaftaran",
@@ -1605,16 +1840,28 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pendaftaran.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa saja proses yang dilakukan di area pendaftaran ini?",
+                    "mode": "fix",
+                    "answer": "Di area pendaftaran ini, pasien rawat jalan dapat melakukan registrasi untuk konsultasi di berbagai poliklinik spesialis. Layanan mencakup pendaftaran pasien baru maupun lama, verifikasi jaminan kesehatan (BPJS/Asuransi), dan pemberian informasi terkait jadwal dokter praktik."
+                },
+                {
+                    "q": "Bagaimana fasilitas ruang tunggu bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ruang tunggu didesain agar pasien dan keluarga merasa nyaman sembari menunggu antrean pemeriksaan. Area ini dilengkapi dengan sistem antrean elektronik (digital queuing), tempat duduk yang ergonomis, sirkulasi udara yang baik, serta pusat informasi untuk membantu mengarahkan pengunjung."
+                },
+                {
+                    "q": "Poliklinik apa saja yang bisa diakses dari lobi rawat jalan?",
+                    "mode": "fix",
+                    "answer": "Dari area lobi utama ini, pasien dapat diarahkan menuju ke berbagai poliklinik reguler maupun eksekutif, seperti klinik penyakit dalam, klinik anak, klinik bedah, hingga layanan penunjang medis lainnya sesuai dengan rujukan yang dimiliki pasien."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2078"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pendaftaran — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Pendaftaran.",
                 "describeHere": "Pendaftaran adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1628,12 +1875,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Parkir merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Parkir adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area aksesibilitas dan parkir eksterior RSUD Tugurejo yang tertata rapi untuk mengakomodasi mobilitas pengunjung.",
+            "description": "Tata ruang kawasan luar RSUD Tugurejo dirancang secara terpadu untuk memastikan alur lalu lintas ambulans, pasien rujukan, dan pengunjung umum berjalan lancar tanpa hambatan. Fasilitas parkir yang luas dikelola secara terpusat dengan pembagian zonasi yang jelas. Lanskap luar ruangan dirawat dengan baik untuk memberikan kesan institusi pelayanan publik yang bersih, ramah, dan tertib sejak pandangan pertama.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Aksesibilitas RSUD Tugurejo",
+                "Fasilitas parkir luas",
+                "Tata ruang rumah sakit terpadu"
             ],
             "talkingPoints": [
                 "Area Parkir",
@@ -1641,14 +1889,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Parkir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana tata ruang kawasan RSUD Tugurejo dari area luar ini?",
+                    "mode": "fix",
+                    "answer": "Dari pandangan luar kawasan ini, terlihat tata ruang rumah sakit yang terintegrasi dengan baik. Area gedung perawatan, poliklinik, instalasi gawat darurat, dan fasilitas penunjang medis dipisahkan secara sistematis untuk mencegah penumpukan alur mobilitas dan mempermudah evakuasi darurat."
+                },
+                {
+                    "q": "Apakah kapasitas area parkir di sini memadai untuk pengunjung?",
+                    "mode": "fix",
+                    "answer": "RSUD Tugurejo menyediakan fasilitas parkir yang representatif untuk mengakomodasi tingginya volume kunjungan harian. Area parkir dikelola secara profesional dengan pemisahan zonasi antara kendaraan roda dua, roda empat, kendaraan dinas staf, serta penetapan jalur evakuasi steril yang tidak boleh dihalangi oleh kendaraan parkir."
+                },
+                {
+                    "q": "Bagaimana kemudahan akses rumah sakit dari jalan protokol?",
+                    "mode": "fix",
+                    "answer": "Letak strategis kawasan rumah sakit ini memudahkan mobilitas masyarakat, baik dari dalam kota maupun daerah perbatasan. Akses utama dirancang agar mudah dijangkau oleh berbagai moda transportasi publik maupun ambulans gawat darurat, sehingga sangat mendukung respons penanganan medis yang tanggap dan cepat."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Parkir — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Area Parkir.",
                 "describeHere": "Area Parkir adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1662,12 +1922,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Instalasi Dialisis merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Instalasi Dialisis adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Instalasi Dialisis melayani terapi cuci darah (hemodialisis) bagi pasien dengan gangguan fungsi ginjal.",
+            "description": "Instalasi Dialisis RSUD Tugurejo didesain untuk memberikan kenyamanan dan keamanan optimal bagi pasien yang menjalani terapi cuci darah rutin. Dilengkapi dengan mesin dialiser modern dan kursi perawatan yang ergonomis. Seluruh prosedur medis di ruangan ini diawasi secara ketat oleh dokter spesialis dan perawat nefrologi yang ahli dan berpengalaman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Layanan cuci darah",
+                "Fasilitas kenyamanan pasien",
+                "Penanganan gagal ginjal"
             ],
             "talkingPoints": [
                 "Instalasi Dialisis",
@@ -1675,14 +1936,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Instalasi Dialisis.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa itu layanan Instalasi Dialisis?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini secara khusus melayani tindakan hemodialisis (cuci darah) bagi pasien yang mengalami gangguan fungsi ginjal akut maupun penyakit ginjal kronik (PGK). Proses ini menggunakan mesin dialiser canggih yang berfungsi menggantikan peran ginjal dalam menyaring toksin dan kelebihan cairan dari dalam darah."
+                },
+                {
+                    "q": "Bagaimana kenyamanan pasien dijaga selama proses terapi?",
+                    "mode": "fix",
+                    "answer": "Mengingat proses cuci darah memakan waktu beberapa jam, ruangan didesain se-nyaman mungkin. Setiap kursi atau tempat tidur pasien diatur secara ergonomis, ruangan dilengkapi dengan penyejuk udara, fasilitas hiburan seperti televisi, serta pencahayaan yang menenangkan untuk meminimalisir stres pasien."
+                },
+                {
+                    "q": "Siapa saja tenaga medis yang bertugas di unit ini?",
+                    "mode": "fix",
+                    "answer": "Unit Dialisis dikelola oleh tim multidisiplin yang terdiri dari dokter spesialis penyakit dalam konsultan ginjal-hipertensi (KGH), dokter umum bersertifikat hemodialisis, serta perawat spesialis ginjal yang handal dalam memantau kondisi pasien selama terapi berlangsung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Instalasi Dialisis — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Instalasi Dialisis.",
                 "describeHere": "Instalasi Dialisis adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1696,12 +1969,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Instalasi Jantung merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Instalasi Jantung adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat layanan kardiologi terpadu untuk diagnostik, perawatan, dan penanganan kegawatdaruratan penyakit jantung.",
+            "description": "Instalasi Jantung RSUD Tugurejo merupakan fasilitas khusus yang menangani berbagai keluhan kardiovaskular secara komprehensif. Melayani mulai dari pemeriksaan diagnostik (seperti EKG dan Echocardiography) hingga penanganan serangan jantung akut. Fasilitas ini didukung oleh dokter spesialis jantung berpengalaman dengan peralatan mutakhir untuk memastikan tindakan intervensi medis yang cepat dan presisi.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pusat kardiologi terpadu",
+                "Penanganan kegawatan jantung",
+                "Teknologi rekam jantung"
             ],
             "talkingPoints": [
                 "Instalasi Jantung",
@@ -1709,14 +1983,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Instalasi Jantung.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fokus pelayanan apa yang ditangani di Instalasi Jantung?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini merupakan pusat layanan kardiologi yang komprehensif, menangani berbagai gangguan sistem kardiovaskular. Pelayanannya meliputi pemeriksaan fungsi jantung diagnostik, penanganan sindrom koroner akut (serangan jantung), hingga rehabilitasi jantung bagi pasien rawat jalan maupun rawat inap."
+                },
+                {
+                    "q": "Pemeriksaan spesifik apa yang bisa dilakukan di sini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini dilengkapi dengan peralatan diagnostik jantung mutakhir, seperti Elektrokardiogram (EKG) untuk merekam aktivitas listrik jantung, Echocardiography (USG Jantung) untuk melihat struktur katup dan otot jantung, serta fasilitas treadmill test untuk uji latih beban jantung."
+                },
+                {
+                    "q": "Mengapa letaknya sering dibuat berdekatan dengan akses utama?",
+                    "mode": "fix",
+                    "answer": "Kecepatan penanganan (golden time) sangatlah krusial dalam kasus kegawatdaruratan jantung. Oleh karena itu, akses ke ruang perawatan jantung, laboratorium kateterisasi (Cath Lab), atau ICCU didesain untuk mudah dan cepat dijangkau dari pintu masuk IGD demi memaksimalkan keberhasilan tindakan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Instalasi Jantung — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Instalasi Jantung.",
                 "describeHere": "Instalasi Jantung adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1730,12 +2016,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Wijaya Kusuma merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Wijaya Kusuma adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bangsal rawat inap yang dirancang higienis dan terstruktur untuk mendukung masa pemulihan pasien secara optimal.",
+            "description": "Fasilitas rawat inap RSUD Tugurejo, seperti bangsal kelas standar, memberikan lingkungan perawatan yang tenang, bersih, dan mematuhi tata letak standar rumah sakit. Terdapat pos perawat (nurse station) di setiap gedung yang bersiaga 24 jam untuk memantau perkembangan kondisi pasien. Setiap kamar memiliki sirkulasi udara yang baik untuk mendukung proses penyembuhan medis secara efektif dan aman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan inap",
+                "Kenyamanan masa pemulihan",
+                "Fasilitas rawat medis terstandar"
             ],
             "talkingPoints": [
                 "Ruang Wijaya Kusuma",
@@ -1743,14 +2030,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Wijaya Kusuma.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fasilitas apa yang tersedia di bangsal perawatan reguler ini?",
+                    "mode": "fix",
+                    "answer": "Bangsal perawatan standar diatur untuk mengakomodasi beberapa tempat tidur dalam satu ruangan yang cukup luas. Tata letaknya disesuaikan dengan protokol kesehatan yang menjaga jarak aman antar-pasien, disertai dengan sirkulasi udara yang baik, ketersediaan tirai pemisah privasi, dan kelengkapan medis yang menunjang penyembuhan pasien."
+                },
+                {
+                    "q": "Bagaimana jadwal pemeriksaan harian dilakukan oleh dokter?",
+                    "mode": "fix",
+                    "answer": "Pasien akan menerima kunjungan harian (visite) dari Dokter Penanggung Jawab Pelayanan (DPJP) secara rutin, biasanya di pagi atau siang hari. Selain itu, perawat bangsal akan selalu berkeliling setiap beberapa jam untuk mengukur tanda vital, mengatur infus, serta memberikan terapi obat sesuai jadwal."
+                },
+                {
+                    "q": "Apa anjuran penting bagi keluarga yang menunggui pasien?",
+                    "mode": "fix",
+                    "answer": "Keluarga pendamping sangat disarankan untuk ikut memelihara kebersihan lingkungan bangsal, menjaga ketenangan agar tidak mengganggu istirahat pasien lain, serta mencuci tangan sebelum dan sesudah kontak dengan pasien untuk membantu mencegah penyebaran infeksi di lingkungan rumah sakit."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Wijaya Kusuma — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Ruang Wijaya Kusuma.",
                 "describeHere": "Ruang Wijaya Kusuma adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1764,12 +2063,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pintu Masuk IGD merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pintu Masuk IGD adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Instalasi Gawat Darurat (IGD) melayani penanganan kasus medis darurat 24 jam dengan respons cepat dan terpadu.",
+            "description": "Instalasi Gawat Darurat RSUD Tugurejo beroperasi 24 jam penuh untuk menangani pasien dengan kondisi kritis dan mengancam jiwa. Dilengkapi dengan sistem triase (triage) modern, area ini memastikan setiap pasien mendapatkan penanganan prioritas berdasarkan tingkat kegawatdaruratannya oleh tim medis profesional yang siaga setiap saat.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Layanan gawat darurat 24 jam",
+                "Penanganan medis cepat",
+                "Sistem triase terpadu"
             ],
             "talkingPoints": [
                 "Pintu Masuk IGD",
@@ -1777,14 +2077,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pintu Masuk IGD.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa layanan utama di Instalasi Gawat Darurat (IGD) ini?",
+                    "mode": "fix",
+                    "answer": "IGD melayani penanganan medis kegawatdaruratan selama 24 jam penuh. Fasilitas ini didedikasikan untuk pasien dengan kondisi kritis, trauma berat, atau keadaan darurat medis lain yang membutuhkan tindakan penyelamatan nyawa (life-saving) sesegera mungkin."
+                },
+                {
+                    "q": "Bagaimana alur penanganan pasien saat tiba di IGD?",
+                    "mode": "fix",
+                    "answer": "Saat pasien tiba, tim medis akan langsung melakukan prosedur triase (triage), yaitu pemilahan pasien berdasarkan tingkat keparahan dan kondisi kegawatdaruratannya. Pasien dengan kondisi mengancam jiwa akan mendapatkan prioritas penanganan utama, terlepas dari urutan kedatangan."
+                },
+                {
+                    "q": "Apakah ambulans memiliki jalur khusus ke area ini?",
+                    "mode": "fix",
+                    "answer": "Ya, area depan lobi IGD dilengkapi dengan jalur khusus (drop-off zone) untuk ambulans guna mempercepat proses evakuasi pasien kritis. Kendaraan pribadi pengantar diharapkan segera memindahkan kendaraannya ke area parkir setelah menurunkan pasien agar jalur tetap steril."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pintu Masuk IGD — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Pintu Masuk IGD.",
                 "describeHere": "Pintu Masuk IGD adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1798,12 +2110,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Radiologi merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Radiologi adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ini menyediakan layanan pencitraan medis diagnostik berteknologi tinggi untuk mendukung keakuratan diagnosis dokter.",
+            "description": "Instalasi Radiologi RSUD Tugurejo dilengkapi dengan peralatan medis mutakhir seperti X-Ray (Rontgen), USG, dan perlengkapan radiologi lainnya. Ruangan ini dibangun dengan standar keamanan dan proteksi radiasi yang ketat guna menjamin keselamatan pasien dan petugas. Tim radiografer yang berpengalaman siap melayani kebutuhan diagnostik dengan hasil yang cepat dan akurat.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Layanan pencitraan medis",
+                "Fasilitas diagnostik modern",
+                "Proteksi radiasi berstandar"
             ],
             "talkingPoints": [
                 "Radiologi",
@@ -1811,14 +2124,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Radiologi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Pemeriksaan apa saja yang dilakukan di Instalasi Radiologi?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini menyediakan layanan pencitraan medis untuk membantu dokter menegakkan diagnosis secara akurat. Layanan yang tersedia meliputi pemeriksaan X-Ray (Rontgen) konvensional, ultrasonografi (USG), CT Scan, hingga pemeriksaan radiologi intervensi lainnya."
+                },
+                {
+                    "q": "Apakah paparan radiasi di ruangan ini aman bagi pasien?",
+                    "mode": "fix",
+                    "answer": "Keamanan pasien dan petugas adalah prioritas utama. Ruangan ini dibangun dengan pelapis dinding anti-radiasi berstandar ketat. Selain itu, petugas radiografer terlatih akan memandu pasien serta menggunakan alat pelindung diri (apron timbal) jika diperlukan guna memastikan paparan radiasi berada dalam batas sangat aman."
+                },
+                {
+                    "q": "Apa persiapan yang dibutuhkan sebelum pemeriksaan?",
+                    "mode": "fix",
+                    "answer": "Persiapan sangat bergantung pada jenis pemeriksaannya. Beberapa tindakan seperti X-Ray dada tidak memerlukan persiapan khusus, namun untuk pemeriksaan tertentu seperti CT Scan dengan kontras atau USG abdomen, pasien mungkin diminta untuk berpuasa atau menahan buang air kecil sesuai instruksi dokter."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Radiologi — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Radiologi.",
                 "describeHere": "Radiologi adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1832,12 +2157,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Radiologi merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Radiologi adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ini menyediakan layanan pencitraan medis diagnostik berteknologi tinggi untuk mendukung keakuratan diagnosis dokter.",
+            "description": "Instalasi Radiologi RSUD Tugurejo dilengkapi dengan peralatan medis mutakhir seperti X-Ray (Rontgen), USG, dan perlengkapan radiologi lainnya. Ruangan ini dibangun dengan standar keamanan dan proteksi radiasi yang ketat guna menjamin keselamatan pasien dan petugas. Tim radiografer yang berpengalaman siap melayani kebutuhan diagnostik dengan hasil yang cepat dan akurat.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Layanan pencitraan medis",
+                "Fasilitas diagnostik modern",
+                "Proteksi radiasi berstandar"
             ],
             "talkingPoints": [
                 "Radiologi",
@@ -1845,16 +2171,28 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Radiologi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Pemeriksaan apa saja yang dilakukan di Instalasi Radiologi?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini menyediakan layanan pencitraan medis untuk membantu dokter menegakkan diagnosis secara akurat. Layanan yang tersedia meliputi pemeriksaan X-Ray (Rontgen) konvensional, ultrasonografi (USG), CT Scan, hingga pemeriksaan radiologi intervensi lainnya."
+                },
+                {
+                    "q": "Apakah paparan radiasi di ruangan ini aman bagi pasien?",
+                    "mode": "fix",
+                    "answer": "Keamanan pasien dan petugas adalah prioritas utama. Ruangan ini dibangun dengan pelapis dinding anti-radiasi berstandar ketat. Selain itu, petugas radiografer terlatih akan memandu pasien serta menggunakan alat pelindung diri (apron timbal) jika diperlukan guna memastikan paparan radiasi berada dalam batas sangat aman."
+                },
+                {
+                    "q": "Apa persiapan yang dibutuhkan sebelum pemeriksaan?",
+                    "mode": "fix",
+                    "answer": "Persiapan sangat bergantung pada jenis pemeriksaannya. Beberapa tindakan seperti X-Ray dada tidak memerlukan persiapan khusus, namun untuk pemeriksaan tertentu seperti CT Scan dengan kontras atau USG abdomen, pasien mungkin diminta untuk berpuasa atau menahan buang air kecil sesuai instruksi dokter."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2069"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Radiologi — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Radiologi.",
                 "describeHere": "Radiologi adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1868,12 +2206,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Bedah merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Bedah adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Instalasi bedah sentral dengan standar sterilitas tingkat tinggi untuk pelaksanaan berbagai tindakan pembedahan medis.",
+            "description": "Ruang Bedah RSUD Tugurejo adalah zona steril dan area krusial yang dilengkapi dengan meja operasi canggih, instrumen bedah presisi, serta sistem tata udara bertekanan khusus (HEPA filter) untuk meminimalisir risiko infeksi. Area ini dikelola dengan sangat disiplin oleh tim multidisiplin yang terdiri dari dokter spesialis bedah, ahli anestesiologi, dan perawat instrumen bedah guna menjamin kelancaran setiap tindakan operasi elektif maupun darurat.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kamar operasi steril",
+                "Peralatan bedah canggih",
+                "Tim bedah multidisiplin"
             ],
             "talkingPoints": [
                 "Ruang Bedah",
@@ -1881,14 +2220,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Bedah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa standar sterilitas yang diterapkan di Ruang Bedah?",
+                    "mode": "fix",
+                    "answer": "Kamar bedah merupakan area dengan standar sterilitas paling tinggi (zona merah) di rumah sakit. Ruangan ini dilengkapi dengan sistem tata udara laminar (HEPA filter), tekanan udara positif, serta menggunakan instrumen bedah yang telah melewati proses sterilisasi terpusat (CSSD) untuk mencegah infeksi daerah operasi."
+                },
+                {
+                    "q": "Tindakan apa saja yang dilakukan di instalasi ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas bedah sentral melayani berbagai operasi elektif (terencana) maupun operasi cito (darurat) dari berbagai disiplin ilmu, mulai dari bedah umum, bedah ortopedi, bedah saraf, kebidanan, hingga bedah urologi."
+                },
+                {
+                    "q": "Dimana pasien berada sebelum dan sesudah operasi?",
+                    "mode": "fix",
+                    "answer": "Sebelum tindakan, pasien akan dipersiapkan di ruang persiapan (holding area). Pasca-operasi, pasien akan dipindahkan ke Ruang Pemulihan (Recovery Room) di mana kondisi tanda vital, pernapasan, dan tingkat kesadarannya diawasi secara intensif oleh perawat anestesi sebelum dikembalikan ke ruang rawat inap."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Bedah — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Ruang Bedah.",
                 "describeHere": "Ruang Bedah adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1902,12 +2253,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Rawat Inap Kelas 2 merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Rawat Inap Kelas 2 adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bangsal rawat inap yang dirancang higienis dan terstruktur untuk mendukung masa pemulihan pasien secara optimal.",
+            "description": "Fasilitas rawat inap RSUD Tugurejo, seperti bangsal kelas standar, memberikan lingkungan perawatan yang tenang, bersih, dan mematuhi tata letak standar rumah sakit. Terdapat pos perawat (nurse station) di setiap gedung yang bersiaga 24 jam untuk memantau perkembangan kondisi pasien. Setiap kamar memiliki sirkulasi udara yang baik untuk mendukung proses penyembuhan medis secara efektif dan aman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan inap",
+                "Kenyamanan masa pemulihan",
+                "Fasilitas rawat medis terstandar"
             ],
             "talkingPoints": [
                 "Ruang Rawat Inap Kelas 2",
@@ -1915,14 +2267,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Rawat Inap Kelas 2.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Fasilitas apa yang tersedia di bangsal perawatan reguler ini?",
+                    "mode": "fix",
+                    "answer": "Bangsal perawatan standar diatur untuk mengakomodasi beberapa tempat tidur dalam satu ruangan yang cukup luas. Tata letaknya disesuaikan dengan protokol kesehatan yang menjaga jarak aman antar-pasien, disertai dengan sirkulasi udara yang baik, ketersediaan tirai pemisah privasi, dan kelengkapan medis yang menunjang penyembuhan pasien."
+                },
+                {
+                    "q": "Bagaimana jadwal pemeriksaan harian dilakukan oleh dokter?",
+                    "mode": "fix",
+                    "answer": "Pasien akan menerima kunjungan harian (visite) dari Dokter Penanggung Jawab Pelayanan (DPJP) secara rutin, biasanya di pagi atau siang hari. Selain itu, perawat bangsal akan selalu berkeliling setiap beberapa jam untuk mengukur tanda vital, mengatur infus, serta memberikan terapi obat sesuai jadwal."
+                },
+                {
+                    "q": "Apa anjuran penting bagi keluarga yang menunggui pasien?",
+                    "mode": "fix",
+                    "answer": "Keluarga pendamping sangat disarankan untuk ikut memelihara kebersihan lingkungan bangsal, menjaga ketenangan agar tidak mengganggu istirahat pasien lain, serta mencuci tangan sebelum dan sesudah kontak dengan pasien untuk membantu mencegah penyebaran infeksi di lingkungan rumah sakit."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Rawat Inap Kelas 2 — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Ruang Rawat Inap Kelas 2.",
                 "describeHere": "Ruang Rawat Inap Kelas 2 adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1936,12 +2300,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Rawat VVIP merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Rawat VVIP adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang perawatan rawat inap VVIP menawarkan privasi maksimal dengan fasilitas premium yang mengutamakan kenyamanan.",
+            "description": "Kelas perawatan VVIP di RSUD Tugurejo didedikasikan bagi pasien yang menginginkan ketenangan ekstra dan privasi penuh selama masa pemulihan medis. Setiap kamar dirancang satu tempat tidur dan dilengkapi dengan fasilitas penunjang eksklusif seperti televisi, pendingin ruangan, kulkas, sofa pendamping, hingga kamar mandi dalam. Meskipun bernuansa premium, pelayanan medis dan pemantauan perawat tetap mengedepankan standar kualitas yang ketat.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan privat",
+                "Fasilitas rawat inap premium",
+                "Kenyamanan ekstra masa pemulihan"
             ],
             "talkingPoints": [
                 "Ruang Rawat VVIP",
@@ -1949,14 +2314,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Rawat VVIP.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa perbedaan fasilitas pada ruangan VVIP dan kelas standar?",
+                    "mode": "fix",
+                    "answer": "RSUD Tugurejo menyediakan berbagai kelas perawatan untuk memenuhi preferensi pasien. Ruang perawatan VVIP menawarkan privasi maksimal (satu pasien per kamar), dilengkapi dengan fasilitas premium seperti sofa bed untuk pendamping, AC, televisi, kulkas, hingga kamar mandi dalam yang setara dengan fasilitas hotel. Sementara kelas standar (seperti Kelas 2) diatur agar menampung beberapa tempat tidur namun tetap memastikan standar kebersihan medis dan kenyamanan sirkulasi yang optimal."
+                },
+                {
+                    "q": "Bagaimana pemantauan medis dilakukan di ruang rawat inap ini?",
+                    "mode": "fix",
+                    "answer": "Setiap bangsal perawatan memiliki pos perawat (nurse station) yang bersiaga 24 jam. Perawat akan melakukan kunjungan (visite) rutin untuk memeriksa tanda-tanda vital, mengelola pemberian obat, serta mendampingi dokter spesialis penanggung jawab (DPJP) saat melakukan pemeriksaan harian kepada pasien."
+                },
+                {
+                    "q": "Apa aturan bagi pembesuk di ruang rawat inap VVIP?",
+                    "mode": "fix",
+                    "answer": "Meskipun merupakan ruang privat, rumah sakit tetap memberlakukan jam besuk secara tertib untuk mempercepat proses penyembuhan pasien. Pengunjung yang masuk dibatasi jumlahnya secara bergantian guna mempertahankan ketenangan dan mencegah risiko infeksi silang dari luar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Rawat VVIP — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Ruang Rawat VVIP.",
                 "describeHere": "Ruang Rawat VVIP adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1970,12 +2347,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Rawat Inap VVIP merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Rawat Inap VVIP adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang perawatan rawat inap VVIP menawarkan privasi maksimal dengan fasilitas premium yang mengutamakan kenyamanan.",
+            "description": "Kelas perawatan VVIP di RSUD Tugurejo didedikasikan bagi pasien yang menginginkan ketenangan ekstra dan privasi penuh selama masa pemulihan medis. Setiap kamar dirancang satu tempat tidur dan dilengkapi dengan fasilitas penunjang eksklusif seperti televisi, pendingin ruangan, kulkas, sofa pendamping, hingga kamar mandi dalam. Meskipun bernuansa premium, pelayanan medis dan pemantauan perawat tetap mengedepankan standar kualitas yang ketat.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan privat",
+                "Fasilitas rawat inap premium",
+                "Kenyamanan ekstra masa pemulihan"
             ],
             "talkingPoints": [
                 "Rawat Inap VVIP",
@@ -1983,16 +2361,28 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Rawat Inap VVIP.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa perbedaan fasilitas pada ruangan VVIP dan kelas standar?",
+                    "mode": "fix",
+                    "answer": "RSUD Tugurejo menyediakan berbagai kelas perawatan untuk memenuhi preferensi pasien. Ruang perawatan VVIP menawarkan privasi maksimal (satu pasien per kamar), dilengkapi dengan fasilitas premium seperti sofa bed untuk pendamping, AC, televisi, kulkas, hingga kamar mandi dalam yang setara dengan fasilitas hotel. Sementara kelas standar (seperti Kelas 2) diatur agar menampung beberapa tempat tidur namun tetap memastikan standar kebersihan medis dan kenyamanan sirkulasi yang optimal."
+                },
+                {
+                    "q": "Bagaimana pemantauan medis dilakukan di ruang rawat inap ini?",
+                    "mode": "fix",
+                    "answer": "Setiap bangsal perawatan memiliki pos perawat (nurse station) yang bersiaga 24 jam. Perawat akan melakukan kunjungan (visite) rutin untuk memeriksa tanda-tanda vital, mengelola pemberian obat, serta mendampingi dokter spesialis penanggung jawab (DPJP) saat melakukan pemeriksaan harian kepada pasien."
+                },
+                {
+                    "q": "Apa aturan bagi pembesuk di ruang rawat inap VVIP?",
+                    "mode": "fix",
+                    "answer": "Meskipun merupakan ruang privat, rumah sakit tetap memberlakukan jam besuk secara tertib untuk mempercepat proses penyembuhan pasien. Pengunjung yang masuk dibatasi jumlahnya secara bergantian guna mempertahankan ketenangan dan mencegah risiko infeksi silang dari luar."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2070"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Rawat Inap VVIP — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Rawat Inap VVIP.",
                 "describeHere": "Rawat Inap VVIP adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2006,12 +2396,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Rontgen merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Rontgen adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ini menyediakan layanan pencitraan medis diagnostik berteknologi tinggi untuk mendukung keakuratan diagnosis dokter.",
+            "description": "Instalasi Radiologi RSUD Tugurejo dilengkapi dengan peralatan medis mutakhir seperti X-Ray (Rontgen), USG, dan perlengkapan radiologi lainnya. Ruangan ini dibangun dengan standar keamanan dan proteksi radiasi yang ketat guna menjamin keselamatan pasien dan petugas. Tim radiografer yang berpengalaman siap melayani kebutuhan diagnostik dengan hasil yang cepat dan akurat.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Layanan pencitraan medis",
+                "Fasilitas diagnostik modern",
+                "Proteksi radiasi berstandar"
             ],
             "talkingPoints": [
                 "Rontgen",
@@ -2019,16 +2410,28 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Rontgen.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Pemeriksaan apa saja yang dilakukan di Instalasi Radiologi?",
+                    "mode": "fix",
+                    "answer": "Instalasi ini menyediakan layanan pencitraan medis untuk membantu dokter menegakkan diagnosis secara akurat. Layanan yang tersedia meliputi pemeriksaan X-Ray (Rontgen) konvensional, ultrasonografi (USG), CT Scan, hingga pemeriksaan radiologi intervensi lainnya."
+                },
+                {
+                    "q": "Apakah paparan radiasi di ruangan ini aman bagi pasien?",
+                    "mode": "fix",
+                    "answer": "Keamanan pasien dan petugas adalah prioritas utama. Ruangan ini dibangun dengan pelapis dinding anti-radiasi berstandar ketat. Selain itu, petugas radiografer terlatih akan memandu pasien serta menggunakan alat pelindung diri (apron timbal) jika diperlukan guna memastikan paparan radiasi berada dalam batas sangat aman."
+                },
+                {
+                    "q": "Apa persiapan yang dibutuhkan sebelum pemeriksaan?",
+                    "mode": "fix",
+                    "answer": "Persiapan sangat bergantung pada jenis pemeriksaannya. Beberapa tindakan seperti X-Ray dada tidak memerlukan persiapan khusus, namun untuk pemeriksaan tertentu seperti CT Scan dengan kontras atau USG abdomen, pasien mungkin diminta untuk berpuasa atau menahan buang air kecil sesuai instruksi dokter."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2082"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Rontgen — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Rontgen.",
                 "describeHere": "Rontgen adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2042,12 +2445,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Rawat Inap VVIP merupakan bagian dari kawasan RSUD Tugu di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Rawat Inap VVIP adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang perawatan rawat inap VVIP menawarkan privasi maksimal dengan fasilitas premium yang mengutamakan kenyamanan.",
+            "description": "Kelas perawatan VVIP di RSUD Tugurejo didedikasikan bagi pasien yang menginginkan ketenangan ekstra dan privasi penuh selama masa pemulihan medis. Setiap kamar dirancang satu tempat tidur dan dilengkapi dengan fasilitas penunjang eksklusif seperti televisi, pendingin ruangan, kulkas, sofa pendamping, hingga kamar mandi dalam. Meskipun bernuansa premium, pelayanan medis dan pemantauan perawat tetap mengedepankan standar kualitas yang ketat.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang perawatan privat",
+                "Fasilitas rawat inap premium",
+                "Kenyamanan ekstra masa pemulihan"
             ],
             "talkingPoints": [
                 "Ruang Rawat Inap VVIP",
@@ -2055,14 +2459,26 @@ window.GoVirtualTourData = {
                 "RSUD Tugu"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Rawat Inap VVIP.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa perbedaan fasilitas pada ruangan VVIP dan kelas standar?",
+                    "mode": "fix",
+                    "answer": "RSUD Tugurejo menyediakan berbagai kelas perawatan untuk memenuhi preferensi pasien. Ruang perawatan VVIP menawarkan privasi maksimal (satu pasien per kamar), dilengkapi dengan fasilitas premium seperti sofa bed untuk pendamping, AC, televisi, kulkas, hingga kamar mandi dalam yang setara dengan fasilitas hotel. Sementara kelas standar (seperti Kelas 2) diatur agar menampung beberapa tempat tidur namun tetap memastikan standar kebersihan medis dan kenyamanan sirkulasi yang optimal."
+                },
+                {
+                    "q": "Bagaimana pemantauan medis dilakukan di ruang rawat inap ini?",
+                    "mode": "fix",
+                    "answer": "Setiap bangsal perawatan memiliki pos perawat (nurse station) yang bersiaga 24 jam. Perawat akan melakukan kunjungan (visite) rutin untuk memeriksa tanda-tanda vital, mengelola pemberian obat, serta mendampingi dokter spesialis penanggung jawab (DPJP) saat melakukan pemeriksaan harian kepada pasien."
+                },
+                {
+                    "q": "Apa aturan bagi pembesuk di ruang rawat inap VVIP?",
+                    "mode": "fix",
+                    "answer": "Meskipun merupakan ruang privat, rumah sakit tetap memberlakukan jam besuk secara tertib untuk mempercepat proses penyembuhan pasien. Pengunjung yang masuk dibatasi jumlahnya secara bergantian guna mempertahankan ketenangan dan mencegah risiko infeksi silang dari luar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Rawat Inap VVIP — kawasan RSUD Tugu.",
+                "currentLocation": "Anda sekarang berada di Ruang Rawat Inap VVIP.",
                 "describeHere": "Ruang Rawat Inap VVIP adalah area di dalam kawasan RSUD Tugu, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

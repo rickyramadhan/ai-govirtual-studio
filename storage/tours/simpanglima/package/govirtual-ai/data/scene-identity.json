@@ -1,0 +1,2225 @@
+{
+    "version": "1.1-seed",
+    "tourId": "simpanglima",
+    "generatedAt": "2026-09-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node75": {
+            "rawName": "Defaultsiang",
+            "displayName": "Defaultsiang",
+            "placeId": "defaultsiang",
+            "placeName": "Defaultsiang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Defaultsiang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Defaultsiang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Defaultsiang",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Defaultsiang?",
+                    "mode": "fix",
+                    "answer": "Defaultsiang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Defaultsiang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Defaultsiang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Defaultsiang. Defaultsiang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Defaultsiang — kawasan Simpanglima.",
+                "describeHere": "Defaultsiang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node113": {
+            "rawName": "ahmaddahlan-siang",
+            "displayName": "ahmaddahlan-siang",
+            "placeId": "ahmaddahlan-siang",
+            "placeName": "ahmaddahlan-siang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "ahmaddahlan-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "ahmaddahlan-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "ahmaddahlan-siang",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama ahmaddahlan-siang?",
+                    "mode": "fix",
+                    "answer": "ahmaddahlan-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran ahmaddahlan-siang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "ahmaddahlan-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari ahmaddahlan-siang. ahmaddahlan-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di ahmaddahlan-siang — kawasan Simpanglima.",
+                "describeHere": "ahmaddahlan-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node116": {
+            "rawName": "pandanaran-siang",
+            "displayName": "pandanaran-siang",
+            "placeId": "pandanaran-siang",
+            "placeName": "pandanaran-siang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "pandanaran-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "pandanaran-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "pandanaran-siang",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama pandanaran-siang?",
+                    "mode": "fix",
+                    "answer": "pandanaran-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran pandanaran-siang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "pandanaran-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari pandanaran-siang. pandanaran-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di pandanaran-siang — kawasan Simpanglima.",
+                "describeHere": "pandanaran-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node115": {
+            "rawName": "gajahmada-siang",
+            "displayName": "gajahmada-siang",
+            "placeId": "gajahmada-siang",
+            "placeName": "gajahmada-siang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "gajahmada-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "gajahmada-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "gajahmada-siang",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama gajahmada-siang?",
+                    "mode": "fix",
+                    "answer": "gajahmada-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran gajahmada-siang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "gajahmada-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari gajahmada-siang. gajahmada-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di gajahmada-siang — kawasan Simpanglima.",
+                "describeHere": "gajahmada-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node114": {
+            "rawName": "jlpurwodadi-siang",
+            "displayName": "jlpurwodadi-siang",
+            "placeId": "jlpurwodadi-siang",
+            "placeName": "jlpurwodadi-siang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "jlpurwodadi-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "jlpurwodadi-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "jlpurwodadi-siang",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama jlpurwodadi-siang?",
+                    "mode": "fix",
+                    "answer": "jlpurwodadi-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran jlpurwodadi-siang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "jlpurwodadi-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari jlpurwodadi-siang. jlpurwodadi-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di jlpurwodadi-siang — kawasan Simpanglima.",
+                "describeHere": "jlpurwodadi-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node117": {
+            "rawName": "semarangsurakarta-siang",
+            "displayName": "semarangsurakarta-siang",
+            "placeId": "semarangsurakarta-siang",
+            "placeName": "semarangsurakarta-siang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "semarangsurakarta-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "semarangsurakarta-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "semarangsurakarta-siang",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama semarangsurakarta-siang?",
+                    "mode": "fix",
+                    "answer": "semarangsurakarta-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran semarangsurakarta-siang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "semarangsurakarta-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari semarangsurakarta-siang. semarangsurakarta-siang merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di semarangsurakarta-siang — kawasan Simpanglima.",
+                "describeHere": "semarangsurakarta-siang adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node69": {
+            "rawName": "Defaultmalam",
+            "displayName": "Defaultmalam",
+            "placeId": "defaultmalam",
+            "placeName": "Defaultmalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Defaultmalam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Defaultmalam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Defaultmalam",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Defaultmalam?",
+                    "mode": "fix",
+                    "answer": "Defaultmalam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Defaultmalam dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Defaultmalam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Defaultmalam. Defaultmalam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Defaultmalam — kawasan Simpanglima.",
+                "describeHere": "Defaultmalam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node70": {
+            "rawName": "ahmaddahlan-malam",
+            "displayName": "ahmaddahlan-malam",
+            "placeId": "ahmaddahlan-malam",
+            "placeName": "ahmaddahlan-malam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "ahmaddahlan-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "ahmaddahlan-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "ahmaddahlan-malam",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama ahmaddahlan-malam?",
+                    "mode": "fix",
+                    "answer": "ahmaddahlan-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran ahmaddahlan-malam dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "ahmaddahlan-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari ahmaddahlan-malam. ahmaddahlan-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di ahmaddahlan-malam — kawasan Simpanglima.",
+                "describeHere": "ahmaddahlan-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node71": {
+            "rawName": "pandanaran-malam",
+            "displayName": "pandanaran-malam",
+            "placeId": "pandanaran-malam",
+            "placeName": "pandanaran-malam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "pandanaran-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "pandanaran-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "pandanaran-malam",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama pandanaran-malam?",
+                    "mode": "fix",
+                    "answer": "pandanaran-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran pandanaran-malam dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "pandanaran-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari pandanaran-malam. pandanaran-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di pandanaran-malam — kawasan Simpanglima.",
+                "describeHere": "pandanaran-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node72": {
+            "rawName": "gajahmada-malam",
+            "displayName": "gajahmada-malam",
+            "placeId": "gajahmada-malam",
+            "placeName": "gajahmada-malam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "gajahmada-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "gajahmada-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "gajahmada-malam",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama gajahmada-malam?",
+                    "mode": "fix",
+                    "answer": "gajahmada-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran gajahmada-malam dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "gajahmada-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari gajahmada-malam. gajahmada-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di gajahmada-malam — kawasan Simpanglima.",
+                "describeHere": "gajahmada-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node73": {
+            "rawName": "jlpurwodadi-malam",
+            "displayName": "jlpurwodadi-malam",
+            "placeId": "jlpurwodadi-malam",
+            "placeName": "jlpurwodadi-malam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "jlpurwodadi-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "jlpurwodadi-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "jlpurwodadi-malam",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama jlpurwodadi-malam?",
+                    "mode": "fix",
+                    "answer": "jlpurwodadi-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran jlpurwodadi-malam dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "jlpurwodadi-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari jlpurwodadi-malam. jlpurwodadi-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di jlpurwodadi-malam — kawasan Simpanglima.",
+                "describeHere": "jlpurwodadi-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node74": {
+            "rawName": "semarangsurakarta-malam",
+            "displayName": "semarangsurakarta-malam",
+            "placeId": "semarangsurakarta-malam",
+            "placeName": "semarangsurakarta-malam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "semarangsurakarta-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "semarangsurakarta-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "semarangsurakarta-malam",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama semarangsurakarta-malam?",
+                    "mode": "fix",
+                    "answer": "semarangsurakarta-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran semarangsurakarta-malam dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "semarangsurakarta-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari semarangsurakarta-malam. semarangsurakarta-malam merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di semarangsurakarta-malam — kawasan Simpanglima.",
+                "describeHere": "semarangsurakarta-malam adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node77": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node78": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node79": {
+            "rawName": "Tamanhati",
+            "displayName": "Tamanhati",
+            "placeId": "tamanhati",
+            "placeName": "Tamanhati",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Tamanhati merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Tamanhati adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Tamanhati",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Tamanhati?",
+                    "mode": "fix",
+                    "answer": "Tamanhati merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Tamanhati dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Tamanhati adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Tamanhati. Tamanhati merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:912"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tamanhati — kawasan Simpanglima.",
+                "describeHere": "Tamanhati adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node80": {
+            "rawName": "Taman Simpang Lima",
+            "displayName": "Taman Simpang Lima",
+            "placeId": "taman-simpang-lima",
+            "placeName": "Taman Simpang Lima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Taman Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Taman Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Taman Simpang Lima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Taman Simpang Lima?",
+                    "mode": "fix",
+                    "answer": "Taman Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Taman Simpang Lima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Taman Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Taman Simpang Lima. Taman Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman Simpang Lima — kawasan Simpanglima.",
+                "describeHere": "Taman Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node81": {
+            "rawName": "Lapangan Basket",
+            "displayName": "Lapangan Basket",
+            "placeId": "lapangan-basket",
+            "placeName": "Lapangan Basket",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lapangan Basket merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lapangan Basket adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lapangan Basket",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Lapangan Basket?",
+                    "mode": "fix",
+                    "answer": "Lapangan Basket merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Lapangan Basket dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Lapangan Basket adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Lapangan Basket. Lapangan Basket merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Basket — kawasan Simpanglima.",
+                "describeHere": "Lapangan Basket adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node82": {
+            "rawName": "Toilet",
+            "displayName": "Toilet",
+            "placeId": "toilet",
+            "placeName": "Toilet",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Toilet merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Toilet adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Toilet?",
+                    "mode": "fix",
+                    "answer": "Toilet merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Toilet dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Toilet adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Toilet. Toilet merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toilet — kawasan Simpanglima.",
+                "describeHere": "Toilet adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node83": {
+            "rawName": "Taman Simpang Lima",
+            "displayName": "Taman Simpang Lima",
+            "placeId": "taman-simpang-lima",
+            "placeName": "Taman Simpang Lima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Taman Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Taman Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Taman Simpang Lima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Taman Simpang Lima?",
+                    "mode": "fix",
+                    "answer": "Taman Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Taman Simpang Lima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Taman Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Taman Simpang Lima. Taman Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman Simpang Lima — kawasan Simpanglima.",
+                "describeHere": "Taman Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node84": {
+            "rawName": "Jalan Pahlawan Simpang Lima",
+            "displayName": "Jalan Pahlawan Simpang Lima",
+            "placeId": "jalan-pahlawan-simpang-lima",
+            "placeName": "Jalan Pahlawan Simpang Lima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Jalan Pahlawan Simpang Lima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Jalan Pahlawan Simpang Lima?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Jalan Pahlawan Simpang Lima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Jalan Pahlawan Simpang Lima. Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jalan Pahlawan Simpang Lima — kawasan Simpanglima.",
+                "describeHere": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node85": {
+            "rawName": "Jalan Pahlawan Simpang Lima",
+            "displayName": "Jalan Pahlawan Simpang Lima",
+            "placeId": "jalan-pahlawan-simpang-lima",
+            "placeName": "Jalan Pahlawan Simpang Lima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Jalan Pahlawan Simpang Lima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Jalan Pahlawan Simpang Lima?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Jalan Pahlawan Simpang Lima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Jalan Pahlawan Simpang Lima. Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jalan Pahlawan Simpang Lima — kawasan Simpanglima.",
+                "describeHere": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node86": {
+            "rawName": "Jalan Pahlawan Simpang Lima",
+            "displayName": "Jalan Pahlawan Simpang Lima",
+            "placeId": "jalan-pahlawan-simpang-lima",
+            "placeName": "Jalan Pahlawan Simpang Lima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Jalan Pahlawan Simpang Lima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Jalan Pahlawan Simpang Lima?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Jalan Pahlawan Simpang Lima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Jalan Pahlawan Simpang Lima. Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jalan Pahlawan Simpang Lima — kawasan Simpanglima.",
+                "describeHere": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node87": {
+            "rawName": "Jalan Pahlawan Simpang Lima",
+            "displayName": "Jalan Pahlawan Simpang Lima",
+            "placeId": "jalan-pahlawan-simpang-lima",
+            "placeName": "Jalan Pahlawan Simpang Lima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Jalan Pahlawan Simpang Lima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Jalan Pahlawan Simpang Lima?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Jalan Pahlawan Simpang Lima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Jalan Pahlawan Simpang Lima. Jalan Pahlawan Simpang Lima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jalan Pahlawan Simpang Lima — kawasan Simpanglima.",
+                "describeHere": "Jalan Pahlawan Simpang Lima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node88": {
+            "rawName": "Landmarksimpanglima",
+            "displayName": "Landmarksimpanglima",
+            "placeId": "landmarksimpanglima",
+            "placeName": "Landmarksimpanglima",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Landmarksimpanglima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Landmarksimpanglima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Landmarksimpanglima",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Landmarksimpanglima?",
+                    "mode": "fix",
+                    "answer": "Landmarksimpanglima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Landmarksimpanglima dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Landmarksimpanglima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Landmarksimpanglima. Landmarksimpanglima merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:913"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Landmarksimpanglima — kawasan Simpanglima.",
+                "describeHere": "Landmarksimpanglima adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node89": {
+            "rawName": "Lapangan Basket",
+            "displayName": "Lapangan Basket",
+            "placeId": "lapangan-basket",
+            "placeName": "Lapangan Basket",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lapangan Basket merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lapangan Basket adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lapangan Basket",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Lapangan Basket?",
+                    "mode": "fix",
+                    "answer": "Lapangan Basket merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Lapangan Basket dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Lapangan Basket adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Lapangan Basket. Lapangan Basket merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Basket — kawasan Simpanglima.",
+                "describeHere": "Lapangan Basket adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node90": {
+            "rawName": "Lapanganpancasila",
+            "displayName": "Lapanganpancasila",
+            "placeId": "lapanganpancasila",
+            "placeName": "Lapanganpancasila",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Lapanganpancasila merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lapanganpancasila adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lapanganpancasila",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Lapanganpancasila?",
+                    "mode": "fix",
+                    "answer": "Lapanganpancasila merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Lapanganpancasila dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Lapanganpancasila adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Lapanganpancasila. Lapanganpancasila merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:911"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapanganpancasila — kawasan Simpanglima.",
+                "describeHere": "Lapanganpancasila adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node91": {
+            "rawName": "Lapanganvoli",
+            "displayName": "Lapanganvoli",
+            "placeId": "lapanganvoli",
+            "placeName": "Lapanganvoli",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Lapanganvoli merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lapanganvoli adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lapanganvoli",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Lapanganvoli?",
+                    "mode": "fix",
+                    "answer": "Lapanganvoli merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Lapanganvoli dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Lapanganvoli adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Lapanganvoli. Lapanganvoli merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:910"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapanganvoli — kawasan Simpanglima.",
+                "describeHere": "Lapanganvoli adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node92": {
+            "rawName": "Lapangan Pancasila",
+            "displayName": "Lapangan Pancasila",
+            "placeId": "lapangan-pancasila",
+            "placeName": "Lapangan Pancasila",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Lapangan Pancasila merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Lapangan Pancasila adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Lapangan Pancasila",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Lapangan Pancasila?",
+                    "mode": "fix",
+                    "answer": "Lapangan Pancasila merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Lapangan Pancasila dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Lapangan Pancasila adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Lapangan Pancasila. Lapangan Pancasila merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Pancasila — kawasan Simpanglima.",
+                "describeHere": "Lapangan Pancasila adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node93": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node94": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node95": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node96": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node97": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node98": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node99": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node100": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node101": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node102": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node103": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node104": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node105": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node106": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node107": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node108": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node109": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node110": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node111": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node112": {
+            "rawName": "Pujasera",
+            "displayName": "Pujasera",
+            "placeId": "pujasera",
+            "placeName": "Pujasera",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pujasera",
+                "jalur eksplorasi",
+                "Simpanglima"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Pujasera?",
+                    "mode": "fix",
+                    "answer": "Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Pujasera dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pujasera. Pujasera merupakan bagian dari kawasan Simpanglima di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pujasera — kawasan Simpanglima.",
+                "describeHere": "Pujasera adalah area di dalam kawasan Simpanglima, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

@@ -1,0 +1,333 @@
+{
+    "version": "1.1-seed",
+    "tourId": "tokooen",
+    "generatedAt": "2026-10-12",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "Kuekering",
+            "displayName": "Kuekering",
+            "placeId": "kuekering",
+            "placeName": "Kuekering",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Etalase yang memajang aneka kue kering legendaris dan roti klasik khas Toko Oen.",
+            "description": "Area ini menyajikan deretan stoples kaca antik yang berisi aneka kue kering resep otentik warisan zaman kolonial. Pengunjung dapat membeli berbagai varian roti dan jajan pasar tradisional yang dipanggang segar setiap harinya.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Kuekering",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kue kering apa yang paling best seller di Toko Oen?",
+                    "mode": "ai",
+                    "answer": "Kue speculaas, lidah kucing, dan kaasstengels adalah beberapa pilihan klasik yang paling digemari pengunjung."
+                },
+                {
+                    "q": "Apakah kue di sini menggunakan resep asli dari zaman Belanda?",
+                    "mode": "ai",
+                    "answer": "Ya, semua kue kering dan roti di sini masih mempertahankan resep otentik sejak awal Toko Oen berdiri."
+                },
+                {
+                    "q": "Bisa beli kue ini untuk oleh-oleh ke luar kota?",
+                    "mode": "ai",
+                    "answer": "Sangat bisa, kue kering ini dikemas rapat dan memiliki daya tahan yang cukup lama sehingga cocok untuk buah tangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kuekering.",
+                "describeHere": "Kuekering adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Areamakan",
+            "displayName": "Areamakan",
+            "placeId": "areamakan",
+            "placeName": "Areamakan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang makan utama yang kental dengan nuansa arsitektur klasik dan furnitur antik.",
+            "description": "Area makan ini menawarkan atmosfer nostalgia yang kental melalui jendela kaca besar, kursi rotan antik, dan langit-langit bangunan kolonial yang tinggi. Di sinilah para tamu dapat menikmati hidangan bistik, nasi goreng, hingga es krim legendaris racikan Toko Oen.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Areamakan",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menu makanan apa yang wajib dicoba di ruang makan ini?",
+                    "mode": "ai",
+                    "answer": "Menu ikonik yang wajib Anda coba adalah Bistik Lidah Sapi, Nasi Goreng Oen, dan tentu saja Es Krim Oen's Symphony."
+                },
+                {
+                    "q": "Apakah furnitur rotan ini masih asli dari zaman dulu?",
+                    "mode": "ai",
+                    "answer": "Benar, sebagian besar meja kayu dan kursi rotan di area makan ini adalah perabot asli yang sangat terawat sejak masa Hindia Belanda."
+                },
+                {
+                    "q": "Berapa lama waktu tunggu untuk pesanan makanan berat?",
+                    "mode": "ai",
+                    "answer": "Biasanya memakan waktu 15 hingga 20 menit, tergantung seberapa ramai pesanan di dapur utama."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1060"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Areamakan.",
+                "describeHere": "Areamakan adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Ruangpertemuan",
+            "displayName": "Ruangpertemuan",
+            "placeId": "ruangpertemuan",
+            "placeName": "Ruangpertemuan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang privat yang elegan untuk acara keluarga, pertemuan komunitas, atau jamuan khusus.",
+            "description": "Ruang pertemuan ini menyediakan suasana yang lebih tenang dan eksklusif dengan tetap mempertahankan sentuhan interior tempo dulu. Ruangan ini sering digunakan untuk merayakan hari bersejarah, reuni keluarga, maupun jamuan bisnis dengan sajian menu premium Toko Oen.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruangpertemuan",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kapasitas maksimal untuk ruang pertemuan ini?",
+                    "mode": "ai",
+                    "answer": "Ruang privat ini dapat menampung sekitar 20 hingga 30 orang tergantung pada penataan meja yang diinginkan."
+                },
+                {
+                    "q": "Apakah ada minimum pesanan (minimum charge) untuk menggunakan ruangan ini?",
+                    "mode": "ai",
+                    "answer": "Ya, penggunaan ruangan ini biasanya memerlukan batas pemesanan minimum, Anda bisa bertanya ke staf reservasi."
+                },
+                {
+                    "q": "Bolehkah ruangan ini didekorasi untuk acara ulang tahun?",
+                    "mode": "ai",
+                    "answer": "Boleh, pelanggan diperkenankan menambah dekorasi ringan asal tidak merusak interior klasik ruangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruangpertemuan.",
+                "describeHere": "Ruangpertemuan adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Area Parkir Belakang",
+            "displayName": "Area Parkir Belakang",
+            "placeId": "area-parkir-belakang",
+            "placeName": "Area Parkir Belakang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area parkir kendaraan khusus pengunjung yang berada di bagian belakang restoran.",
+            "description": "Lahan parkir di belakang restoran ini disediakan untuk memberikan kemudahan akses bagi tamu yang membawa kendaraan bermotor. Pengunjung dapat memarkirkan kendaraannya dengan aman karena dijaga oleh petugas parkir sebelum masuk melalui pintu alternatif.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Parkir Belakang",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah area parkir ini dikhususkan untuk tamu Toko Oen saja?",
+                    "mode": "ai",
+                    "answer": "Ya, area parkir ini diprioritaskan bagi tamu yang bersantap di Toko Oen untuk memberikan kenyamanan akses."
+                },
+                {
+                    "q": "Bagaimana jika parkir di area belakang ini penuh?",
+                    "mode": "ai",
+                    "answer": "Petugas parkir biasanya akan mengarahkan kendaraan Anda ke kantong parkir bahu jalan di sekitar Jalan Pemuda."
+                },
+                {
+                    "q": "Apakah dari parkiran belakang ini ada pintu tembus ke ruang makan?",
+                    "mode": "ai",
+                    "answer": "Ada, Anda bisa langsung masuk ke restoran melalui akses pintu penghubung dari area belakang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Parkir Belakang.",
+                "describeHere": "Area Parkir Belakang adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "placeId": "pintu-keluar",
+            "placeName": "Pintu Keluar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses pintu keluar restoran yang membawa pengunjung kembali ke suasana jalanan Kota Semarang.",
+            "description": "Pintu keluar ini merupakan titik akhir dari pengalaman kuliner bernuansa nostalgia di Toko Oen. Sembari melangkah keluar, pengunjung bisa menyempatkan diri melihat-lihat pajangan foto bersejarah yang menceritakan perjalanan panjang restoran ini.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah ada suvenir khusus yang bisa dibeli sebelum keluar restoran?",
+                    "mode": "ai",
+                    "answer": "Anda bisa mampir ke etalase di dekat kasir untuk membeli aneka roti, kue kering, atau merchandise jika tersedia."
+                },
+                {
+                    "q": "Di mana saya bisa menemukan mesin EDC atau kasir?",
+                    "mode": "ai",
+                    "answer": "Meja kasir terletak tidak jauh dari area pintu keluar utama untuk memudahkan proses pembayaran."
+                },
+                {
+                    "q": "Apakah bisa memesan transportasi online dari titik pintu keluar ini?",
+                    "mode": "ai",
+                    "answer": "Sangat bisa, ini merupakan titik penjemputan (pick-up point) yang mudah diakses oleh pengemudi transportasi online."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Keluar.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Area Merokok",
+            "displayName": "Area Merokok",
+            "placeId": "area-merokok",
+            "placeName": "Area Merokok",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona santai khusus bagi pengunjung yang ingin merokok tanpa mengganggu tamu lain.",
+            "description": "Area merokok ini dipisahkan dari ruang makan utama demi menjaga sirkulasi udara di dalam bangunan cagar budaya agar tetap segar. Tempat ini tetap dirancang nyaman agar pengunjung bisa menyesap kopi klasik sambil bersantai.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Merokok",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah letak area merokok ini di dalam atau di luar bangunan?",
+                    "mode": "ai",
+                    "answer": "Area merokok biasanya ditempatkan di teras semi-outdoor atau sisi ruangan yang memiliki sirkulasi udara langsung ke luar."
+                },
+                {
+                    "q": "Bolehkah saya memesan es krim dan makanan berat di area merokok ini?",
+                    "mode": "ai",
+                    "answer": "Tentu saja, semua menu andalan Toko Oen bisa disajikan di area smoking room ini."
+                },
+                {
+                    "q": "Apakah ada pendingin ruangan di area merokok ini?",
+                    "mode": "ai",
+                    "answer": "Karena diperuntukkan sebagai area merokok, ruangan ini lebih mengandalkan ventilasi alami dan kipas angin."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Merokok.",
+                "describeHere": "Area Merokok adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Areaoutdoor",
+            "displayName": "Areaoutdoor",
+            "placeId": "areaoutdoor",
+            "placeName": "Areaoutdoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Teras luar ruangan yang menawarkan sensasi bersantap sambil menikmati suasana Jalan Pemuda.",
+            "description": "Area outdoor di bagian depan ini menyuguhkan pengalaman unik menikmati hidangan sambil menyaksikan aktivitas di jantung Kota Semarang. Dengan lantai tegel kuno dan udara terbuka, area ini sangat cocok untuk bersantai di sore hari ditemani sajian kue dan teh hangat.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Areaoutdoor",
+                "jalur eksplorasi",
+                "Tokooen"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan waktu terbaik untuk duduk di area outdoor ini?",
+                    "mode": "ai",
+                    "answer": "Sore hingga malam hari adalah waktu terbaik karena cuaca tidak terlalu terik dan suasana kota mulai syahdu."
+                },
+                {
+                    "q": "Apakah area outdoor ini aman jika tiba-tiba turun hujan?",
+                    "mode": "ai",
+                    "answer": "Terdapat kanopi peneduh yang menaungi meja-meja di teras, sehingga Anda tetap terlindung saat gerimis."
+                },
+                {
+                    "q": "Bolehkah saya membawa hewan peliharaan (pet-friendly) di area teras ini?",
+                    "mode": "ai",
+                    "answer": "Kebijakan membawa hewan peliharaan dapat berubah-ubah, sebaiknya Anda menanyakan langsung kepada staf yang bertugas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Areaoutdoor.",
+                "describeHere": "Areaoutdoor adalah area di dalam kawasan Tokooen, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

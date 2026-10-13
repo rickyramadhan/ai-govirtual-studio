@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "firdausfatimahzahra",
+    "updatedAt": "2026-09-29T09:50:46+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Firdausfatimahzahra",
+            "aliases": [
+                "firdausfatimahzahra"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "firdausfatimahzahra"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Firdausfatimahzahra.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Firdausfatimahzahra",
+                    "content": "Pusat pengalaman virtual untuk Firdausfatimahzahra."
+                },
+                "en": {
+                    "title": "Firdausfatimahzahra",
+                    "content": "Pusat pengalaman virtual untuk Firdausfatimahzahra."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone Replika Bandara",
+            "aliases": [
+                "drone replika bandara"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "firdausfatimahzahra"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Replika Bandara",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone Replika Bandara",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone Arabian Park",
+            "aliases": [
+                "drone arabian park"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "firdausfatimahzahra"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Arabian Park",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone Arabian Park",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "firdausfatimahzahra"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:965",
+            "entityId": "objinfo2:965",
+            "title": "Replika ka’bah",
+            "aliases": [
+                "replika ka’bah",
+                "objek 965"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan replika ini terletak di tengah sebuah area luas yang disimulasikan sebagai pelataran Masjidil Haram, lengkap dengan replika pendukung lainnya seperti Hajar Aswad, Maqam Ibrahim, dan Hijir Ismail. Detail arsitekturnya dibuat sangat mirip dengan aslinya, termasuk balutan kain hitam bermotif kaligrafi emas yang menyerupai kiswah, sehingga menciptakan suasana khusyuk bagi pengunjung yang sedang berlatih melakukan tawaf atau sekadar berwisata religi.",
+            "source": "webview-import",
+            "sourceId": "965",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Replika ka’bah",
+                    "content": "Bangunan replika ini terletak di tengah sebuah area luas yang disimulasikan sebagai pelataran Masjidil Haram, lengkap dengan replika pendukung lainnya seperti Hajar Aswad, Maqam Ibrahim, dan Hijir Ismail. Detail arsitekturnya dibuat sangat mirip dengan aslinya, termasuk balutan kain hitam bermotif kaligrafi emas yang menyerupai kiswah, sehingga menciptakan suasana khusyuk bagi pengunjung yang sedang berlatih melakukan tawaf atau sekadar berwisata religi."
+                },
+                "en": {
+                    "title": "Kaaba Replica",
+                    "content": "This replica building is located in the center of a spacious area simulated as the courtyard of Masjid al-Haram, complete with supporting replicas such as the Hajar Aswad, Maqam Ibrahim, and Hijir Ismail. Its architectural details closely resemble the original, including the black cloth with golden calligraphy patterns resembling the kiswah, creating a solemn atmosphere for visitors practicing tawaf or engaging in religious tourism."
+                },
+                "zh": {
+                    "title": "克尔白复制品",
+                    "content": "这座复制建筑位于一片被模拟为禁寺庭院的宽阔区域中央，并配有黑石、易卜拉欣立足处和希吉尔伊斯梅尔等辅助复制品。其建筑细节高度还原原貌，包括饰有金色书法纹样、类似克斯瓦的黑色帷布，为练习绕行天房或进行宗教观光的游客营造出庄严肃穆的氛围。"
+                },
+                "ar": {
+                    "title": "نسخة الكعبة",
+                    "content": "يقع هذا المبنى النموذجي في وسط منطقة واسعة صُممت لمحاكاة ساحة المسجد الحرام، ومكتملة بنماذج داعمة مثل الحجر الأسود ومقام إبراهيم وحِجر إسماعيل. وقد صُممت التفاصيل المعمارية لتشبه الأصل إلى حد كبير، بما في ذلك الكسوة السوداء المزخرفة بالخط الذهبي، مما يخلق أجواء روحانية وخاشعة للزوار أثناء التدريب على الطواف أو السياحة الدينية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:966",
+            "entityId": "objinfo2:966",
+            "title": "Masjid Firdaus Fatimah Zahra",
+            "aliases": [
+                "masjid firdaus fatimah zahra",
+                "objek 966"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Masjid Firdaus melengkapi konsep \"Miniatur Tanah Suci\" di Firdaus Fatimah Zahra, memastikan bahwa selain mendapatkan edukasi teknis mengenai haji dan umrah, pengunjung juga tetap dapat merasakan atmosfer religius yang kental melalui kegiatan ibadah langsung di dalamnya.",
+            "source": "webview-import",
+            "sourceId": "966",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Masjid Firdaus Fatimah Zahra",
+                    "content": "Masjid Firdaus melengkapi konsep \"Miniatur Tanah Suci\" di Firdaus Fatimah Zahra, memastikan bahwa selain mendapatkan edukasi teknis mengenai haji dan umrah, pengunjung juga tetap dapat merasakan atmosfer religius yang kental melalui kegiatan ibadah langsung di dalamnya."
+                },
+                "en": {
+                    "title": "Firdaus Fatimah Zahra Mosque",
+                    "content": "Masjid Firdaus complements the “Miniature of the Holy Land” concept at Firdaus Fatimah Zahra, ensuring that in addition to receiving technical education about hajj and umrah, visitors can also experience a strong religious atmosphere through direct worship activities inside the mosque."
+                },
+                "zh": {
+                    "title": "菲尔道斯·法蒂玛·扎赫拉清真寺",
+                    "content": "菲尔道斯清真寺完善了菲尔道斯·法蒂玛·扎赫拉“圣地微缩景观”的概念，确保游客在获得有关朝觐和副朝的技术性教育之余，也能通过在清真寺内直接礼拜，感受到浓厚的宗教氛围。"
+                },
+                "ar": {
+                    "title": "مسجد فردوس فاطمة الزهراء",
+                    "content": "يكمّل مسجد فردوس مفهوم \"النسخة المصغرة من الأراضي المقدسة\" في فردوس فاطمة الزهراء، حيث يضمن للزوار، إلى جانب الحصول على التثقيف التقني حول الحج والعمرة، الشعور بالأجواء الدينية العميقة من خلال أداء العبادات مباشرة داخل المسجد."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:967",
+            "entityId": "objinfo2:967",
+            "title": "Pasar Seng",
+            "aliases": [
+                "pasar seng",
+                "objek 967"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pasar Seng di Firdaus Fatimah Zahra, Semarang, merupakan replika area perbelanjaan tradisional yang dirancang sedemikian rupa untuk menyerupai atmosfer pasar yang berada di sekitar kawasan Masjidil Haram, Makkah. Dalam simulasi manasik haji dan umrah ini, Pasar Seng ditempatkan di jalur keluar setelah pengunjung menyelesaikan rangkaian ibadah simulasi, persis seperti alur jamaah haji yang sebenarnya saat mencari oleh-oleh atau kebutuhan selama di Tanah Suci.",
+            "source": "webview-import",
+            "sourceId": "967",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pasar Seng",
+                    "content": "Pasar Seng di Firdaus Fatimah Zahra, Semarang, merupakan replika area perbelanjaan tradisional yang dirancang sedemikian rupa untuk menyerupai atmosfer pasar yang berada di sekitar kawasan Masjidil Haram, Makkah. Dalam simulasi manasik haji dan umrah ini, Pasar Seng ditempatkan di jalur keluar setelah pengunjung menyelesaikan rangkaian ibadah simulasi, persis seperti alur jamaah haji yang sebenarnya saat mencari oleh-oleh atau kebutuhan selama di Tanah Suci."
+                },
+                "en": {
+                    "title": "Tin Market",
+                    "content": "Pasar Seng at Firdaus Fatimah Zahra, Semarang, is a replica of a traditional shopping area designed to resemble the atmosphere of markets around the Masjid al-Haram area in Mecca. In this hajj and umrah ritual simulation, Pasar Seng is positioned along the exit route after visitors complete the series of simulated rituals, mirroring the actual flow of pilgrims seeking souvenirs or necessities in the Holy Land."
+                },
+                "zh": {
+                    "title": "锡市场",
+                    "content": "位于三宝垄菲尔道斯·法蒂玛·扎赫拉的锡市场，是一处传统购物区的复制品，其设计再现了麦加禁寺周边市场的氛围。在朝觐与副朝的模拟流程中，锡市场被设置在游客完成模拟仪式后的出口路线，正如真实朝觐者在圣地寻找纪念品或生活所需的动线一样。"
+                },
+                "ar": {
+                    "title": "سوق الصفيح",
+                    "content": "يُعد سوق الصفيح في فردوس فاطمة الزهراء بسيمارانغ نموذجًا لمنطقة تسوق تقليدية صُممت لمحاكاة أجواء الأسواق المحيطة بالمسجد الحرام في مكة. وفي محاكاة مناسك الحج والعمرة هذه، وُضع سوق الصفيح على مسار الخروج بعد إكمال الزوار لسلسلة المناسك، تمامًا كما يفعل الحجاج الحقيقيون عند البحث عن الهدايا التذكارية أو الاحتياجات في الأراضي المقدسة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:968",
+            "entityId": "objinfo2:968",
+            "title": "Arabian Park",
+            "aliases": [
+                "arabian park",
+                "objek 968"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Arabian Park di Firdaus Fatimah Zahra, Semarang, merupakan zona tematik terbaru yang dirancang untuk memperkuat nuansa Timur Tengah di dalam kompleks miniatur Tanah Suci tersebut. Berbeda dengan area replika ibadah seperti Ka’bah atau Padang Arafah yang cenderung formal untuk manasik, Arabian Park lebih berfungsi sebagai area rekreasi keluarga dan spot foto ikonik yang estetik.",
+            "source": "webview-import",
+            "sourceId": "968",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Arabian Park",
+                    "content": "Arabian Park di Firdaus Fatimah Zahra, Semarang, merupakan zona tematik terbaru yang dirancang untuk memperkuat nuansa Timur Tengah di dalam kompleks miniatur Tanah Suci tersebut. Berbeda dengan area replika ibadah seperti Ka’bah atau Padang Arafah yang cenderung formal untuk manasik, Arabian Park lebih berfungsi sebagai area rekreasi keluarga dan spot foto ikonik yang estetik."
+                },
+                "en": {
+                    "title": "Arabian Park",
+                    "content": "Arabian Park at Firdaus Fatimah Zahra, Semarang, is the newest thematic zone designed to enhance the Middle Eastern ambiance within the miniature Holy Land complex. Unlike formal ritual replica areas such as the Kaaba or Arafah Plain, Arabian Park primarily serves as a family recreation area and an iconic, aesthetic photo spot."
+                },
+                "zh": {
+                    "title": "阿拉伯主题公园",
+                    "content": "三宝垄菲尔道斯·法蒂玛·扎赫拉的阿拉伯主题公园是该圣地微缩园区内最新打造的主题区域，旨在强化整体的中东氛围。与天房或阿拉法特平原等偏向正式宗教模拟的区域不同，阿拉伯主题公园更多作为家庭休闲空间和具有美感的标志性拍照地点。"
+                },
+                "ar": {
+                    "title": "الحديقة العربية",
+                    "content": "تُعد الحديقة العربية في فردوس فاطمة الزهراء بسيمارانغ أحدث منطقة موضوعية صُممت لتعزيز الطابع الشرق أوسطي داخل مجمع نموذج الأراضي المقدسة. وعلى عكس مناطق محاكاة العبادات مثل الكعبة أو صعيد عرفات ذات الطابع الرسمي، تؤدي الحديقة العربية دورًا أكبر كمنطقة ترفيه عائلية وموقع تصوير جمالي وأيقوني."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:969",
+            "entityId": "objinfo2:969",
+            "title": "Jamarat Mina",
+            "aliases": [
+                "jamarat mina",
+                "objek 969"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Jamarat Mina di Firdaus Fatimah Zahra, Semarang, merupakan replika dari tempat pelaksanaan ibadah lempar jumrah yang dirancang sedemikian rupa agar jamaah dapat merasakan atmosfer dan tata cara ibadah di Mina yang sebenarnya. Fasilitas ini dilengkapi dengan tiga pilar utama yang melambangkan Jumrah Ula, Wustha, dan Aqabah, serta dikelilingi oleh replika perkemahan Mina untuk memberikan gambaran nyata mengenai situasi saat jamaah bermalam atau mabit.",
+            "source": "webview-import",
+            "sourceId": "969",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jamarat Mina",
+                    "content": "Jamarat Mina di Firdaus Fatimah Zahra, Semarang, merupakan replika dari tempat pelaksanaan ibadah lempar jumrah yang dirancang sedemikian rupa agar jamaah dapat merasakan atmosfer dan tata cara ibadah di Mina yang sebenarnya. Fasilitas ini dilengkapi dengan tiga pilar utama yang melambangkan Jumrah Ula, Wustha, dan Aqabah, serta dikelilingi oleh replika perkemahan Mina untuk memberikan gambaran nyata mengenai situasi saat jamaah bermalam atau mabit."
+                },
+                "en": {
+                    "title": "Jamarat Mina",
+                    "content": "Jamarat Mina at Firdaus Fatimah Zahra, Semarang, is a replica of the stoning ritual site designed so pilgrims can experience the atmosphere and procedures of worship in the actual Mina. This facility features three main pillars symbolizing Jumrah Ula, Wustha, and Aqabah, and is surrounded by replica Mina tents to provide a realistic depiction of the overnight stay (mabit)."
+                },
+                "zh": {
+                    "title": "منى投石柱",
+                    "content": "三宝垄菲尔道斯·法蒂玛·扎赫拉的米纳投石柱区是投掷石子的礼仪场所复制品，其设计让朝觐者能够体验真实米纳的氛围与礼仪流程。该设施设有象征小、中、大三柱的三根主要石柱，并环绕着米纳帐篷复制品，真实展现朝觐者夜宿（住营）的情景。"
+                },
+                "ar": {
+                    "title": "جمرات منى",
+                    "content": "جمرات منى في فردوس فاطمة الزهراء بسيمارانغ هي نموذج لموقع أداء شعيرة رمي الجمرات، صُممت لتمكين الحجاج من الشعور بأجواء وطريقة العبادة في منى الحقيقية. وتضم هذه المرافق ثلاثة أعمدة رئيسية ترمز إلى الجمرة الأولى والوسطى والعقبة، وتحيط بها نماذج لخيام منى لتقديم صورة واقعية عن أجواء المبيت."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:970",
+            "entityId": "objinfo2:970",
+            "title": "Museum Arab Kuno",
+            "aliases": [
+                "museum arab kuno",
+                "objek 970"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Arab Kuno di Firdaus Fatimah Zahra, Semarang, merupakan salah satu bagian dari zona Arabian Park yang dirancang sebagai pusat edukasi budaya dan sejarah Timur Tengah. Di dalam museum ini, pengunjung dapat mempelajari berbagai aspek kehidupan masyarakat Arab, mulai dari cara hidup, pernak-pernik khas, hingga benda-benda budaya yang merepresentasikan tradisi Arab di masa lampau.",
+            "source": "webview-import",
+            "sourceId": "970",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Museum Arab Kuno",
+                    "content": "Museum Arab Kuno di Firdaus Fatimah Zahra, Semarang, merupakan salah satu bagian dari zona Arabian Park yang dirancang sebagai pusat edukasi budaya dan sejarah Timur Tengah. Di dalam museum ini, pengunjung dapat mempelajari berbagai aspek kehidupan masyarakat Arab, mulai dari cara hidup, pernak-pernik khas, hingga benda-benda budaya yang merepresentasikan tradisi Arab di masa lampau."
+                },
+                "en": {
+                    "title": "Ancient Arab Museum",
+                    "content": "The Ancient Arab Museum at Firdaus Fatimah Zahra, Semarang, is part of the Arabian Park zone and is designed as an educational center for Middle Eastern culture and history. Inside the museum, visitors can learn about various aspects of Arab life, ranging from lifestyles and traditional ornaments to cultural artifacts representing ancient Arab traditions."
+                },
+                "zh": {
+                    "title": "古阿拉伯博物馆",
+                    "content": "三宝垄菲尔道斯·法蒂玛·扎赫拉的古阿拉伯博物馆是阿拉伯主题公园区域的一部分，作为中东文化与历史的教育中心而设立。在博物馆内，游客可以了解阿拉伯社会生活的各个方面，包括生活方式、特色饰品以及代表古代阿拉伯传统的文化文物。"
+                },
+                "ar": {
+                    "title": "متحف العرب القديم",
+                    "content": "يُعد متحف العرب القديم في فردوس فاطمة الزهراء بسيمارانغ جزءًا من منطقة الحديقة العربية، وقد صُمم كمركز تعليمي لثقافة وتاريخ الشرق الأوسط. داخل هذا المتحف، يمكن للزوار التعرف على مختلف جوانب حياة المجتمع العربي، بدءًا من أساليب المعيشة والزينة التقليدية، وصولًا إلى المقتنيات الثقافية التي تمثل تقاليد العرب في العصور الماضية."
+                }
+            }
+        }
+    ]
+}

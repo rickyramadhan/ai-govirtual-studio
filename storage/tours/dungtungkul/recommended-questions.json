@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "dungtungkul",
+    "tourName": "Dung Tung Kul",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Cara menuju Dung Tungkul?",
+                "query": "Bagaimana akses jalan yang bisa dilewati kendaraan untuk sampai ke Kampung Tematik Dung Tungkul?",
+                "desc": "Bagaimana akses jalan yang bisa dilewati kendaraan untuk sampai ke Kampung Tematik Dung Tungkul?"
+            },
+            {
+                "label": "Fasilitas untuk wisatawan?",
+                "query": "Fasilitas apa saja yang sudah disediakan untuk kenyamanan pengunjung, seperti toilet atau area istirahat?",
+                "desc": "Fasilitas apa saja yang sudah disediakan untuk kenyamanan pengunjung, seperti toilet atau area istirahat?"
+            },
+            {
+                "label": "Acara budaya terdekat?",
+                "query": "Apakah dalam waktu dekat ada acara kebudayaan atau festival desa yang akan diselenggarakan?",
+                "desc": "Apakah dalam waktu dekat ada acara kebudayaan atau festival desa yang akan diselenggarakan?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Sendang",
+                "query": "Bagaimana legenda dan nilai sejarah dari mata air atau Sendang Dung Tungkul yang dihormati oleh warga setempat?"
+            },
+            {
+                "label": "Konsep Kampung Tematik",
+                "query": "Apa gagasan awal dan tujuan dari pembentukan Dung Tungkul sebagai kawasan wisata kampung tematik di Kota Semarang?"
+            },
+            {
+                "label": "Seni Budaya Lokal",
+                "query": "Seni pertunjukan tradisional apa saja, seperti tari atau musik karawitan, yang sering ditampilkan oleh warga desa?"
+            },
+            {
+                "label": "Suasana Alam Pedesaan",
+                "query": "Seperti apa keasrian lingkungan pedesaan, area persawahan, dan pepohonan hijau yang mengelilingi kampung ini?"
+            },
+            {
+                "label": "Produk UMKM Warga",
+                "query": "Apa saja produk unggulan hasil karya UMKM lokal, baik itu kerajinan maupun makanan khas, yang dipasarkan di sini?"
+            },
+            {
+                "label": "Tradisi Syukuran Air",
+                "query": "Bagaimana prosesi warga dalam mengadakan tradisi selamatan atau syukuran sebagai bentuk rasa syukur atas sumber air yang melimpah?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Dung Tung Kul?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Dung Tung Kul?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Dung Tung Kul?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

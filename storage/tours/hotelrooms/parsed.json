@@ -1,0 +1,846 @@
+{
+    "startNode": "node14",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Meetneat",
+            "displayName": "Meetneat",
+            "rawName": "",
+            "customNodeId": "meetneat",
+            "pan": -178.38,
+            "tilt": -24.47,
+            "fov": 118.89,
+            "tags": [
+                "oi",
+                "sementara"
+            ],
+            "aliases": [
+                "meetneat"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Gym",
+            "displayName": "Gym",
+            "rawName": "",
+            "customNodeId": "gym",
+            "pan": 117.94,
+            "tilt": -17.62,
+            "fov": 139.12,
+            "tags": [
+                "oi",
+                "sementara"
+            ],
+            "aliases": [
+                "gym"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Kamar Tamu",
+            "displayName": "Kamar Tamu",
+            "rawName": "",
+            "customNodeId": "-amar-amu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Kamar Tamu"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Akses Lift",
+            "displayName": "Akses Lift",
+            "rawName": "",
+            "customNodeId": "-kses-ift",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Akses Lift"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Meetingroomcrescent",
+            "displayName": "Meetingroomcrescent",
+            "rawName": "",
+            "customNodeId": "meetingroomcrescent",
+            "pan": 40.91,
+            "tilt": -13.81,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "sementara"
+            ],
+            "aliases": [
+                "meetingroomcrescent"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Meetingroom",
+            "displayName": "Meetingroom",
+            "rawName": "",
+            "customNodeId": "meetingroom",
+            "pan": 0.11,
+            "tilt": -7.16,
+            "fov": 117.02,
+            "tags": [
+                "oi",
+                "sementara"
+            ],
+            "aliases": [
+                "meetingroom"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Ruang Tamu",
+            "displayName": "Ruang Tamu",
+            "rawName": "",
+            "customNodeId": "-uang-amu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Ruang Tamu"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Spa",
+            "displayName": "Spa",
+            "rawName": "",
+            "customNodeId": "-pa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Spa"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Waitingroom",
+            "displayName": "Waitingroom",
+            "rawName": "",
+            "customNodeId": "waitingroom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "waitingroom"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Superiorqueenroom",
+            "displayName": "Superiorqueenroom",
+            "rawName": "",
+            "customNodeId": "superiorqueenroom",
+            "pan": 0.21,
+            "tilt": -20.41,
+            "fov": 136.93,
+            "tags": [
+                "oi",
+                "sementara"
+            ],
+            "aliases": [
+                "superiorqueenroom"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "node11",
+            "displayName": "node11",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node12",
+            "name": "Area Makan",
+            "displayName": "Area Makan",
+            "rawName": "",
+            "customNodeId": "-rea-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Area Makan"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Outdoor",
+            "displayName": "Outdoor",
+            "rawName": "",
+            "customNodeId": "-utdoor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Outdoor"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Area Makan",
+            "displayName": "Area Makan",
+            "rawName": "",
+            "customNodeId": "-rea-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 126.97,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Area Makan"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Toilet",
+            "displayName": "Toilet",
+            "rawName": "",
+            "customNodeId": "-oilet",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Toilet"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Rooms Inc.",
+            "displayName": "Rooms Inc.",
+            "rawName": "",
+            "customNodeId": "-ooms-nc-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Rooms Inc."
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Moonlounge",
+            "displayName": "Moonlounge",
+            "rawName": "",
+            "customNodeId": "moonlounge",
+            "pan": -38.55,
+            "tilt": -11.9,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "sementara"
+            ],
+            "aliases": [
+                "moonlounge"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Toilet",
+            "displayName": "Toilet",
+            "rawName": "",
+            "customNodeId": "-oilet",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Toilet"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "node19",
+            "displayName": "node19",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node20",
+            "name": "node20",
+            "displayName": "node20",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node21",
+            "name": "node21",
+            "displayName": "node21",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node22",
+            "name": "Ruang Tamu",
+            "displayName": "Ruang Tamu",
+            "rawName": "",
+            "customNodeId": "-uang-amu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Ruang Tamu"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "node24",
+            "displayName": "node24",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node25",
+            "name": "Rooms Inc.",
+            "displayName": "Rooms Inc.",
+            "rawName": "",
+            "customNodeId": "-ooms-nc-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": [
+                "Rooms Inc."
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "node26",
+            "displayName": "node26",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "sementara"
+            ],
+            "aliases": []
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -258.45,
+            "tilt": -16.43
+        },
+        {
+            "scene": "node1",
+            "target": "node12",
+            "title": "Area Makan",
+            "id": "Point02",
+            "pan": -300.72,
+            "tilt": -17.58
+        },
+        {
+            "scene": "node1",
+            "target": "node6",
+            "title": "Ruang Meeting",
+            "id": "Point03",
+            "pan": -40.85,
+            "tilt": -4.4
+        },
+        {
+            "scene": "node2",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -147.63,
+            "tilt": -9.15
+        },
+        {
+            "scene": "node3",
+            "target": "node4",
+            "title": "Akses Lift",
+            "id": "Point01",
+            "pan": -243.83,
+            "tilt": -31.3
+        },
+        {
+            "scene": "node3",
+            "target": "node10",
+            "title": "Kamar Tamu",
+            "id": "Point02",
+            "pan": -83.12,
+            "tilt": -10.59
+        },
+        {
+            "scene": "node4",
+            "target": "node3",
+            "title": "Kamar Tamu",
+            "id": "Point01",
+            "pan": -228.78,
+            "tilt": -19.07
+        },
+        {
+            "scene": "node4",
+            "target": "node14",
+            "title": "Area Makan",
+            "id": "Point02",
+            "pan": -321.1,
+            "tilt": -23.92
+        },
+        {
+            "scene": "node5",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -359.53,
+            "tilt": 1.45
+        },
+        {
+            "scene": "node6",
+            "target": "node1",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -158.25,
+            "tilt": -3.59
+        },
+        {
+            "scene": "node7",
+            "target": "node1",
+            "title": "Area Makan",
+            "id": "Point01",
+            "pan": -200.95,
+            "tilt": -28.14
+        },
+        {
+            "scene": "node7",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -148.84,
+            "tilt": -9.9
+        },
+        {
+            "scene": "node7",
+            "target": "node22",
+            "title": "Ruang Tamu",
+            "id": "Point03",
+            "pan": -35.83,
+            "tilt": -14.33
+        },
+        {
+            "scene": "node7",
+            "target": "node2",
+            "title": "Gym",
+            "id": "Point04",
+            "pan": -333.85,
+            "tilt": -4.33
+        },
+        {
+            "scene": "node8",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -335.04,
+            "tilt": -14.99
+        },
+        {
+            "scene": "node9",
+            "target": "node12",
+            "title": "Area Makan",
+            "id": "Point01",
+            "pan": -198.36,
+            "tilt": -12.84
+        },
+        {
+            "scene": "node9",
+            "target": "node17",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -355.64,
+            "tilt": -12.15
+        },
+        {
+            "scene": "node10",
+            "target": "node3",
+            "title": "Kelar",
+            "id": "Point01",
+            "pan": -165.11,
+            "tilt": -12.58
+        },
+        {
+            "scene": "node12",
+            "target": "node1",
+            "title": "Area Makan",
+            "id": "Point01",
+            "pan": -113.94,
+            "tilt": -9.82
+        },
+        {
+            "scene": "node12",
+            "target": "node9",
+            "title": "Meja Billiard",
+            "id": "Point02",
+            "pan": -258.47,
+            "tilt": -17.83
+        },
+        {
+            "scene": "node13",
+            "target": "node14",
+            "title": "Indoor",
+            "id": "Point01",
+            "pan": -239.21,
+            "tilt": -3.25
+        },
+        {
+            "scene": "node14",
+            "target": "node23",
+            "title": "Musholla",
+            "id": "Point01",
+            "pan": -297.04,
+            "tilt": -4.81
+        },
+        {
+            "scene": "node14",
+            "target": "node17",
+            "title": "Rooms Inc.",
+            "id": "Point02",
+            "pan": -41.42,
+            "tilt": -9.93
+        },
+        {
+            "scene": "node14",
+            "target": "node13",
+            "title": "Outdoor",
+            "id": "Point03",
+            "pan": -320.39,
+            "tilt": -3.59
+        },
+        {
+            "scene": "node14",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -251.73,
+            "tilt": -3.22
+        },
+        {
+            "scene": "node14",
+            "target": "node4",
+            "title": "Kamar Tamu",
+            "id": "Point05",
+            "pan": -181.01,
+            "tilt": -14.22
+        },
+        {
+            "scene": "node15",
+            "target": "node17",
+            "title": "Area Makan",
+            "id": "Point01",
+            "pan": -160.88,
+            "tilt": -2.37
+        },
+        {
+            "scene": "node15",
+            "target": "node18",
+            "title": "Toilet",
+            "id": "Point02",
+            "pan": -10.08,
+            "tilt": -6.29
+        },
+        {
+            "scene": "node15",
+            "target": "node7",
+            "title": "Ruang Tamu",
+            "id": "Point03",
+            "pan": -357.92,
+            "tilt": -1.57
+        },
+        {
+            "scene": "node15",
+            "target": "node8",
+            "title": "Spa",
+            "id": "Point04",
+            "pan": -83.89,
+            "tilt": -10.59
+        },
+        {
+            "scene": "node15",
+            "target": "node5",
+            "title": "Ruang Rapat",
+            "id": "Point05",
+            "pan": -137.79,
+            "tilt": -3.14
+        },
+        {
+            "scene": "node16",
+            "target": "node14",
+            "title": "Rooms Inc.",
+            "id": "Point01",
+            "pan": -109.88,
+            "tilt": -2.83
+        },
+        {
+            "scene": "node16",
+            "target": "node25",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -176.48,
+            "tilt": -7.57
+        },
+        {
+            "scene": "node17",
+            "target": "node14",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -165.14,
+            "tilt": -18.14
+        },
+        {
+            "scene": "node17",
+            "target": "node15",
+            "title": "Toilet",
+            "id": "Point03",
+            "pan": -98.48,
+            "tilt": -6.91
+        },
+        {
+            "scene": "node17",
+            "target": "node9",
+            "title": "Meja Billiard",
+            "id": "Point02",
+            "pan": -358.37,
+            "tilt": -0.47
+        },
+        {
+            "scene": "node18",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -177.73,
+            "tilt": -21.82
+        },
+        {
+            "scene": "node19",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -186.53,
+            "tilt": -31.03
+        },
+        {
+            "scene": "node20",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -176.16,
+            "tilt": -3.57
+        },
+        {
+            "scene": "node20",
+            "target": "node1",
+            "title": "Area Makan",
+            "id": "Point02",
+            "pan": -220.24,
+            "tilt": -25.9
+        },
+        {
+            "scene": "node20",
+            "target": "node22",
+            "title": "Ruang Tamu",
+            "id": "Point03",
+            "pan": -70.11,
+            "tilt": -17.1
+        },
+        {
+            "scene": "node21",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -60.09,
+            "tilt": -29.53
+        },
+        {
+            "scene": "node22",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -89.87,
+            "tilt": -13.01
+        },
+        {
+            "scene": "node23",
+            "target": "node14",
+            "title": "Hotel Room Inc",
+            "id": "Point01",
+            "pan": -177.02,
+            "tilt": -5.19
+        },
+        {
+            "scene": "node24",
+            "target": "node14",
+            "title": "Area Makan",
+            "id": "Point01",
+            "pan": -8,
+            "tilt": 13.48
+        },
+        {
+            "scene": "node25",
+            "target": "node16",
+            "title": "Rooms Inc.",
+            "id": "Point01",
+            "pan": -2.29,
+            "tilt": -20.01
+        },
+        {
+            "scene": "node26",
+            "target": "node25",
+            "title": "Rooms Inc.",
+            "id": "Point01",
+            "pan": -209.31,
+            "tilt": -9.87
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1163,
+            "label": "Waiting Room",
+            "description": "Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel.",
+            "fragment": "waitingroom",
+            "link": "hotelroomsinc/index.html#waitingroom",
+            "sceneId": "node9"
+        },
+        {
+            "infoId": 1164,
+            "label": "Moonlounge",
+            "description": "Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern.",
+            "fragment": "moonlounge",
+            "link": "hotelroomsinc/index.html#moonlounge",
+            "sceneId": "node17"
+        },
+        {
+            "infoId": 1165,
+            "label": "Gym",
+            "description": "Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat.",
+            "fragment": "gym",
+            "link": "hotelroomsinc/index.html#gym",
+            "sceneId": "node2"
+        },
+        {
+            "infoId": 1166,
+            "label": "Meeting Room",
+            "description": "Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan.",
+            "fragment": "meetingroom",
+            "link": "hotelroomsinc/index.html#meetingroom",
+            "sceneId": "node6"
+        },
+        {
+            "infoId": 1167,
+            "label": "Superior Queen Room",
+            "description": "Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal.",
+            "fragment": "superiorqueenroom",
+            "link": "hotelroomsinc/index.html#superiorqueenroom",
+            "sceneId": "node10"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "f1ae1ffa20ab1461",
+        "skin.js": "1aad67a9ecb25629",
+        "index.html": "c20f2d6d3eea61d4"
+    }
+}

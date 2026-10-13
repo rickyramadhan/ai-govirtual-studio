@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "akhtara",
+    "updatedAt": "2026-09-29T06:34:14+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Akhtara",
+            "aliases": [
+                "akhtara"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "akhtara"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Akhtara.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Akhtara",
+                    "content": "Pusat pengalaman virtual untuk Akhtara."
+                },
+                "en": {
+                    "title": "Akhtara",
+                    "content": "Pusat pengalaman virtual untuk Akhtara."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Anjungan",
+            "aliases": [
+                "anjungan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "akhtara"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Anjungan",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Anjungan",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Akses Ruang Keluarga",
+            "aliases": [
+                "akses ruang keluarga"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "akhtara"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Akses Ruang Keluarga",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Akses Ruang Keluarga",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "akhtara"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1065",
+            "entityId": "objinfo2:1065",
+            "title": "Ruang Karaoke",
+            "aliases": [
+                "ruang karaoke",
+                "objek 1065"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas Ruang Karaoke di Akhtara Skyview Semarang hadir sebagai zona hiburan privat eksklusif yang melengkapi pengalaman bersantai di kafe ini, membedakannya dari sekadar tempat makan biasa. Ruangan ini didesain terpisah dari area dining publik untuk menjamin privasi maksimal dan akustik yang tidak mengganggu pengunjung lain, dilengkapi dengan interior yang nyaman, pendingin ruangan (AC), serta sistem audio dan visual yang mumpuni untuk aktivitas bernyanyi.",
+            "source": "webview-import",
+            "sourceId": "1065",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Karaoke",
+                    "content": "Fasilitas Ruang Karaoke di Akhtara Skyview Semarang hadir sebagai zona hiburan privat eksklusif yang melengkapi pengalaman bersantai di kafe ini, membedakannya dari sekadar tempat makan biasa. Ruangan ini didesain terpisah dari area dining publik untuk menjamin privasi maksimal dan akustik yang tidak mengganggu pengunjung lain, dilengkapi dengan interior yang nyaman, pendingin ruangan (AC), serta sistem audio dan visual yang mumpuni untuk aktivitas bernyanyi."
+                },
+                "en": {
+                    "title": "Karaoke Room",
+                    "content": "The Karaoke Room facility at Akhtara Skyview Semarang is presented as an exclusive private entertainment zone that enhances the café’s relaxation experience, distinguishing it from a regular dining place. This room is designed separately from the public dining area to ensure maximum privacy and acoustics that do not disturb other guests. It is equipped with comfortable interior, air conditioning (AC), and a high-quality audio and visual system for singing activities."
+                },
+                "zh": {
+                    "title": "卡拉OK包房",
+                    "content": "Akhtara Skyview Semarang 的卡拉OK房是一处专属私人娱乐区，提升了咖啡馆的休闲体验，使其不仅仅是一个普通的用餐场所。该房间与公共用餐区分隔设计，以确保最大隐私并避免噪音打扰其他顾客，配备舒适内饰、空调以及高品质视听系统，适合歌唱活动。"
+                },
+                "ar": {
+                    "title": "غرفة كاريوكي",
+                    "content": "تعد غرفة الكاريوكي في Akhtara Skyview Semarang منطقة ترفيه خاصة حصرية تُكمل تجربة الاسترخاء في هذا المقهى، وتُميزها عن مجرد مكان لتناول الطعام. تم تصميم الغرفة منفصلة عن منطقة الطعام العامة لضمان أقصى درجات الخصوصية وعدم إزعاج الزوار الآخرين من الناحية الصوتية، وهي مزودة بديكور مريح وتكييف هواء ونظام صوت وصورة عالي الجودة لأنشطة الغناء."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1066",
+            "entityId": "objinfo2:1066",
+            "title": "Area Dining Lt.1",
+            "aliases": [
+                "area dining lt.1",
+                "objek 1066"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area dining di lantai 1 Akhtara Skyview dirancang sebagai zona akses utama yang aksesibilitasnya ramah bagi semua usia, sangat cocok untuk keluarga yang membawa lansia atau balita karena tidak perlu menaiki tangga untuk mencapai tempat duduk. Selain itu, karena lokasinya yang berdekatan dengan coffee bar dan kasir, pelayanan di area ini cenderung lebih cepat dan responsif.",
+            "source": "webview-import",
+            "sourceId": "1066",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Dining Lt.1",
+                    "content": "Area dining di lantai 1 Akhtara Skyview dirancang sebagai zona akses utama yang aksesibilitasnya ramah bagi semua usia, sangat cocok untuk keluarga yang membawa lansia atau balita karena tidak perlu menaiki tangga untuk mencapai tempat duduk. Selain itu, karena lokasinya yang berdekatan dengan coffee bar dan kasir, pelayanan di area ini cenderung lebih cepat dan responsif."
+                },
+                "en": {
+                    "title": "Dining Area 1st Floor",
+                    "content": "The dining area on the 1st floor of Akhtara Skyview is designed as the main access zone with accessibility that is friendly for all ages, making it very suitable for families with elderly members or toddlers since there is no need to climb stairs to reach the seating. Additionally, because it is located close to the coffee bar and cashier, service in this area tends to be faster and more responsive."
+                },
+                "zh": {
+                    "title": "一楼用餐区",
+                    "content": "Akhtara Skyview 一楼的用餐区被设计为主要通道区域，适合所有年龄层使用，尤其适合带老人或幼儿的家庭，因为无需爬楼梯即可到达座位。此外，由于该区域靠近咖啡吧和收银台，服务通常更快捷且响应更及时。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام الطابق الأول",
+                    "content": "تم تصميم منطقة الطعام في الطابق الأول من Akhtara Skyview كمنطقة وصول رئيسية يسهل الوصول إليها لجميع الأعمار، مما يجعلها مناسبة جدًا للعائلات التي ترافق كبار السن أو الأطفال الصغار، حيث لا حاجة للصعود على السلالم للوصول إلى المقاعد. بالإضافة إلى ذلك، وبسبب قربها من مقهى القهوة وصندوق الدفع، تميل الخدمة في هذه المنطقة إلى أن تكون أسرع وأكثر استجابة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1067",
+            "entityId": "objinfo2:1067",
+            "title": "Area Dining Lt.2",
+            "aliases": [
+                "area dining lt.2",
+                "objek 1067"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area dining lantai 2 di Akhtara Skyview menawarkan konsep semi-outdoor yang lebih terbuka dan dinamis, menjadikannya \"jantung\" kehidupan sosial di kafe ini, terutama bagi kalangan muda. Berada di ketinggian yang lebih strategis, lantai ini dirancang untuk memaksimalkan pengalaman visual, di mana pengunjung dapat menikmati panorama hamparan hijau Gunung Pati dan kelap-kelip lampu kota (city lights) Semarang dengan lebih leluasa tanpa terhalang dinding tertutup.",
+            "source": "webview-import",
+            "sourceId": "1067",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Dining Lt.2",
+                    "content": "Area dining lantai 2 di Akhtara Skyview menawarkan konsep semi-outdoor yang lebih terbuka dan dinamis, menjadikannya \"jantung\" kehidupan sosial di kafe ini, terutama bagi kalangan muda. Berada di ketinggian yang lebih strategis, lantai ini dirancang untuk memaksimalkan pengalaman visual, di mana pengunjung dapat menikmati panorama hamparan hijau Gunung Pati dan kelap-kelip lampu kota (city lights) Semarang dengan lebih leluasa tanpa terhalang dinding tertutup."
+                },
+                "en": {
+                    "title": "Dining Area 2nd Floor",
+                    "content": "The 2nd floor dining area at Akhtara Skyview offers a semi-outdoor concept that is more open and dynamic, making it the “heart” of social life in this café, especially among young people. Located at a more strategic height, this floor is designed to maximize the visual experience, where visitors can enjoy the panoramic view of the green expanse of Gunung Pati and the twinkling city lights of Semarang more freely without being blocked by solid walls."
+                },
+                "zh": {
+                    "title": "二楼用餐区",
+                    "content": "Akhtara Skyview 二楼用餐区采用更开放、动态的半户外概念，成为咖啡馆社交生活的“心脏”，尤其受年轻人欢迎。该楼层位于更具战略高度的位置，旨在最大化视觉体验，访客可更自由地欣赏帕蒂山的绿色景观与三宝垄城市灯光的闪烁，而不会被封闭墙体阻挡。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام الطابق الثاني",
+                    "content": "تقدم منطقة الطعام في الطابق الثاني من Akhtara Skyview مفهومًا شبه خارجي أكثر انفتاحًا وحيوية، مما يجعلها \"قلب\" الحياة الاجتماعية في هذا المقهى، خصوصًا بين الشباب. تقع على ارتفاع استراتيجي أكثر، وقد صُمم هذا الطابق لتعظيم التجربة البصرية، حيث يمكن للزوار الاستمتاع بإطلالة بانورامية على المساحات الخضراء في جبل باتي ووميض أضواء مدينة سيمارانغ بحرية أكبر دون عوائق جدران مغلقة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1068",
+            "entityId": "objinfo2:1068",
+            "title": "Area Dining Lt.3",
+            "aliases": [
+                "area dining lt.3",
+                "objek 1068"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area dining lantai 3, yang difungsikan sebagai area Rooftop terbuka, merupakan daya tarik visual utama dan lantai tertinggi di Akhtara Skyview. Suasana di area ini sangat atmospheric dan romantis, didukung oleh hembusan angin dataran tinggi yang sejuk, menjadikannya spot paling populer bagi pemburu foto instagramable dan pasangan yang ingin menikmati momen makan malam di bawah langit terbuka.",
+            "source": "webview-import",
+            "sourceId": "1068",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Dining Lt.3",
+                    "content": "Area dining lantai 3, yang difungsikan sebagai area Rooftop terbuka, merupakan daya tarik visual utama dan lantai tertinggi di Akhtara Skyview. Suasana di area ini sangat atmospheric dan romantis, didukung oleh hembusan angin dataran tinggi yang sejuk, menjadikannya spot paling populer bagi pemburu foto instagramable dan pasangan yang ingin menikmati momen makan malam di bawah langit terbuka."
+                },
+                "en": {
+                    "title": "Dining Area 3rd Floor",
+                    "content": "The 3rd floor dining area, which functions as an open rooftop area, is the main visual attraction and the highest floor at Akhtara Skyview. The atmosphere here is very atmospheric and romantic, supported by the cool highland breeze, making it the most popular spot for Instagram photo hunters and couples who want to enjoy a dinner moment under the open sky."
+                },
+                "zh": {
+                    "title": "三楼用餐区",
+                    "content": "Akhtara Skyview 三楼用餐区作为开放式屋顶区，是该咖啡馆的主要视觉亮点，也是最高楼层。该区域氛围极具氛围感与浪漫感，配合凉爽的高地微风，成为最受拍照爱好者和情侣欢迎的热门地点，适合在星空下享受晚餐时光。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام الطابق الثالث",
+                    "content": "تعد منطقة الطعام في الطابق الثالث، التي تُستخدم كمنطقة سطح مفتوح، الجذب البصري الرئيسي وأعلى طابق في Akhtara Skyview. الأجواء هنا مفعمة بالرومانسية والحميمية، مدعومة بنسيم المرتفعات البارد، مما يجعلها أكثر الأماكن شعبية لعشّاق الصور على إنستغرام وللأزواج الذين يرغبون في الاستمتاع بعشاء تحت السماء المفتوحة."
+                }
+            }
+        }
+    ]
+}

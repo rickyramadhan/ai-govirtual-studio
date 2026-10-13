@@ -1,0 +1,127 @@
+{
+    "version": "1.0",
+    "tourId": "muladidome",
+    "tourName": "Muladidome",
+    "updatedAt": "2026-09-29T09:51:28+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node24",
+        "node25",
+        "node26",
+        "node27",
+        "node28",
+        "node29"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Muladi Dome UNDIP – Atap Muladi Dome – Tampak Udara"
+        },
+        "node2": {
+            "displayName": "Muladi Dome UNDIP – Muladi Dome – Udara Pelataran Depan"
+        },
+        "node3": {
+            "displayName": "Muladi Dome UNDIP – Pintu Ballroom"
+        },
+        "node4": {
+            "displayName": "Muladi Dome UNDIP – Pintu Tribun Ballroom"
+        },
+        "node5": {
+            "displayName": "Muladi Dome UNDIP – Ballroom – Pandangan Panggung"
+        },
+        "node6": {
+            "displayName": "Muladi Dome UNDIP – Ballroom – Pandangan dari Tribun"
+        },
+        "node7": {
+            "displayName": "Muladi Dome UNDIP – Area Bank BNI"
+        },
+        "node8": {
+            "displayName": "Muladi Dome UNDIP – Pelataran Parkir Depan"
+        },
+        "node9": {
+            "displayName": "Muladi Dome UNDIP – Food Court"
+        },
+        "node10": {
+            "displayName": "Muladi Dome UNDIP – Gerbang Masuk Muladi Dome"
+        },
+        "node11": {
+            "displayName": "Muladi Dome UNDIP – Gym"
+        },
+        "node12": {
+            "displayName": "Muladi Dome UNDIP – Lift Barang"
+        },
+        "node13": {
+            "displayName": "Muladi Dome UNDIP – Lobi Lift Pengunjung"
+        },
+        "node14": {
+            "displayName": "Muladi Dome UNDIP – Lobi Lift dan Fasilitas"
+        },
+        "node15": {
+            "displayName": "Muladi Dome UNDIP – Akses Lift Basement"
+        },
+        "node16": {
+            "displayName": "Muladi Dome UNDIP – Lobi Barat"
+        },
+        "node17": {
+            "displayName": "Muladi Dome UNDIP – Jalur Samping Muladi Dome"
+        },
+        "node18": {
+            "displayName": "Muladi Dome UNDIP – Akses Musala Basement"
+        },
+        "node19": {
+            "displayName": "Muladi Dome UNDIP – Interior Musala"
+        },
+        "node20": {
+            "displayName": "Muladi Dome UNDIP – Basement – Parkir Motor"
+        },
+        "node21": {
+            "displayName": "Muladi Dome UNDIP – Basement – Parkir VIP"
+        },
+        "node22": {
+            "displayName": "Muladi Dome UNDIP – Plaza Dalam – Area Duduk"
+        },
+        "node23": {
+            "displayName": "Muladi Dome UNDIP – Plaza Dalam – Sisi Koridor"
+        },
+        "node24": {
+            "displayName": "Muladi Dome UNDIP – Pintu Ruang Seminar"
+        },
+        "node25": {
+            "displayName": "Muladi Dome UNDIP – Ruang Seminar"
+        },
+        "node26": {
+            "displayName": "Muladi Dome UNDIP – Fasilitas Pengunjung – Dekat Lift"
+        },
+        "node27": {
+            "displayName": "Muladi Dome UNDIP – Pintu Ruang VIP"
+        },
+        "node28": {
+            "displayName": "Muladi Dome UNDIP – Ruang VIP"
+        },
+        "node29": {
+            "displayName": "Muladi Dome UNDIP – Fasilitas Privat Ruang VIP"
+        }
+    }
+}

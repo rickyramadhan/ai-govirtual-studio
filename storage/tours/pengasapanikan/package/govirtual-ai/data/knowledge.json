@@ -1,0 +1,198 @@
+{
+    "version": 2,
+    "tourId": "pengasapanikan",
+    "updatedAt": "2026-09-29T09:51:39+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Pengasapanikan",
+            "aliases": [
+                "pengasapanikan"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "pengasapanikan"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Pengasapanikan.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pengasapanikan",
+                    "content": "Pusat pengalaman virtual untuk Pengasapanikan."
+                },
+                "en": {
+                    "title": "Pengasapanikan",
+                    "content": "Pusat pengalaman virtual untuk Pengasapanikan."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node80",
+            "aliases": [
+                "node80"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "pengasapanikan"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node80",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node80",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Produkolahan",
+            "aliases": [
+                "produkolahan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "pengasapanikan"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Produkolahan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Produkolahan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "pengasapanikan"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:689",
+            "entityId": "objinfo2:689",
+            "title": "Produsen Ikan Asap Nur Hadi",
+            "aliases": [
+                "produsen ikan asap nur hadi",
+                "objek 689"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Produk unggulan dari Ikan Asap Nur Hadi adalah Ikan Manyung (bahan utama kepala manyung/ndas manyung) dan Ikan Pari (Pe), yang diproses melalui teknik pengasapan tradisional namun dengan standar kualitas yang lebih terjaga. Proses pengasapan dilakukan tidak hanya untuk mengawetkan ikan, tetapi juga untuk memberikan aroma \"smoky\" yang khas dan tekstur daging yang padat, yang menjadi kunci kelezatan masakan Mangut.",
+            "source": "webview-import",
+            "sourceId": "689",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Produsen Ikan Asap Nur Hadi",
+                    "content": "Produk unggulan dari Ikan Asap Nur Hadi adalah Ikan Manyung (bahan utama kepala manyung/ndas manyung) dan Ikan Pari (Pe), yang diproses melalui teknik pengasapan tradisional namun dengan standar kualitas yang lebih terjaga. Proses pengasapan dilakukan tidak hanya untuk mengawetkan ikan, tetapi juga untuk memberikan aroma \"smoky\" yang khas dan tekstur daging yang padat, yang menjadi kunci kelezatan masakan Mangut."
+                },
+                "en": {
+                    "title": "Nur Hadi Smoked Fish Producer",
+                    "content": "\"The flagship products of Ikan Asap Nur Hadi are Manyung fish (primarily using the head of the manyung fish) and Stingray (Pe), which are processed using traditional smoking techniques with more controlled quality standards.\r\nThe smoking process is carried out not only to preserve the fish, but also to create a distinctive smoky aroma and firm meat texture, which are the key to the deliciousness of Mangut dishes.\""
+                },
+                "zh": {
+                    "title": "努尔哈迪熏鱼生产商",
+                    "content": "努尔哈迪熏鱼的主打产品是芒勇鱼（主要使用芒勇鱼头）和鳐鱼（Pe），采用传统熏制工艺加工，同时保持更严格的品质标准。熏制过程不仅用于保存鱼类，还能赋予其独特的烟熏香气和紧实的肉质口感，这是芒古特料理美味的关键所在。"
+                },
+                "ar": {
+                    "title": "منتِج السمك المدخن نور هادي",
+                    "content": "المنتجات الرئيسية لإيكان آساب نور هادي هي سمك المانيونغ (باستخدام رأس سمك المانيونغ بشكل أساسي) وسمك الراي (بي)، حيث تتم معالجتهما بتقنيات التدخين التقليدية مع الحفاظ على معايير جودة أعلى. ولا تقتصر عملية التدخين على حفظ السمك فحسب، بل تمنحه أيضًا رائحة مدخنة مميزة وقوامًا متماسكًا للحم، وهو ما يُعد مفتاح مذاق أطباق المانغوت الشهية."
+                }
+            }
+        }
+    ]
+}

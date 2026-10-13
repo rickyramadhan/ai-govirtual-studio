@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "koetatoea",
+    "tourName": "Koetatoea",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Kuliner paling favorit?",
+                "query": "Apa makanan yang paling wajib dicoba saat jalan-jalan di Koeta Toea?",
+                "desc": "Apa makanan yang paling wajib dicoba saat jalan-jalan di Koeta Toea?"
+            },
+            {
+                "label": "Jam buka dan keramaian?",
+                "query": "Jam berapa Koeta Toea mulai buka dan kapan waktu paling ramai dikunjungi?",
+                "desc": "Jam berapa Koeta Toea mulai buka dan kapan waktu paling ramai dikunjungi?"
+            },
+            {
+                "label": "Spot foto paling ikonik?",
+                "query": "Di mana letak spot foto yang paling ikonik dengan nuansa Eropa di Koeta Toea?",
+                "desc": "Di mana letak spot foto yang paling ikonik dengan nuansa Eropa di Koeta Toea?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Pesona Arsitektur Eropa",
+                "query": "Bagaimana perpaduan gaya arsitektur khas Eropa dan fasad bangunan warna-warni yang menjadi daya tarik utama Koeta Toea?"
+            },
+            {
+                "label": "Surga Kuliner",
+                "query": "Apa saja rekomendasi kuliner lokal maupun mancanegara yang bisa dinikmati di area food court Koeta Toea?"
+            },
+            {
+                "label": "Spot Foto Instagramable",
+                "query": "Di mana saja titik-titik foto paling populer yang memberikan kesan seolah sedang berada di luar negeri?"
+            },
+            {
+                "label": "Event dan Hiburan",
+                "query": "Sebutkan berbagai acara rutin atau hiburan live music yang biasanya digelar untuk meramaikan suasana Koeta Toea!"
+            },
+            {
+                "label": "Pusat Oleh-Oleh",
+                "query": "Apa saja ragam suvenir dan oleh-oleh khas Semarang yang dapat dibeli oleh wisatawan di kawasan ini?"
+            },
+            {
+                "label": "Konsep Ruang Publik",
+                "query": "Bagaimana sejarah dan konsep awal pembangunan Koeta Toea sebagai ruang publik kreatif di area Pedurungan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Koetatoea?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Koetatoea?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Koetatoea?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

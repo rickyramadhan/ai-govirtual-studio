@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "agropurwosari",
+    "tourName": "Agro Purwosari",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa buah unggulan di sini?",
+                "query": "Apa jenis buah unggulan yang wajib dicicipi saat berkunjung ke Purwosari?",
+                "desc": "Apa jenis buah unggulan yang wajib dicicipi saat berkunjung ke Purwosari?"
+            },
+            {
+                "label": "Bisa belajar menanam?",
+                "query": "Apakah pengunjung bisa belajar cara menanam dan merawat tanaman buah di sini?",
+                "desc": "Apakah pengunjung bisa belajar cara menanam dan merawat tanaman buah di sini?"
+            },
+            {
+                "label": "Rute menuju lokasi?",
+                "query": "Bagaimana rute terbaik dan akses transportasi menuju Agro Wisata Purwosari?",
+                "desc": "Bagaimana rute terbaik dan akses transportasi menuju Agro Wisata Purwosari?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Ragam Buah Segar",
+                "query": "Apa saja jenis buah-buahan tropis unggulan yang dibudidayakan di kawasan Agro Wisata Purwosari?"
+            },
+            {
+                "label": "Wisata Keluarga Alam",
+                "query": "Bagaimana suasana wisata keluarga yang menyatu dengan alam pedesaan di Purwosari?"
+            },
+            {
+                "label": "Proses Pembibitan",
+                "query": "Bisa jelaskan bagaimana proses pembibitan dan perawatan tanaman yang dilakukan di perkebunan ini?"
+            },
+            {
+                "label": "Kuliner Hasil Kebun",
+                "query": "Apakah ada sajian kuliner khas di Purwosari yang menggunakan bahan dasar hasil panen dari kebun sendiri?"
+            },
+            {
+                "label": "Aktivitas Outdoor",
+                "query": "Selain melihat perkebunan, aktivitas luar ruangan (outdoor) apa saja yang bisa dinikmati pengunjung?"
+            },
+            {
+                "label": "Sistem Irigasi Kebun",
+                "query": "Bagaimana sistem pengairan atau irigasi yang diterapkan untuk menjaga kesuburan lahan di Agro Wisata Purwosari?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Agro Purwosari?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Agro Purwosari?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Agro Purwosari?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

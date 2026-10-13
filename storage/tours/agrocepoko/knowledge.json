@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "agrocepoko",
+    "updatedAt": "2026-09-29T06:34:12+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Agro Cepoko",
+            "aliases": [
+                "agro cepoko"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "agrocepoko"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Agro Cepoko.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Agro Cepoko",
+                    "content": "Pusat pengalaman virtual untuk Agro Cepoko."
+                },
+                "en": {
+                    "title": "Agro Cepoko",
+                    "content": "Pusat pengalaman virtual untuk Agro Cepoko."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Pohontomat",
+            "aliases": [
+                "pohontomat"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "agrocepoko"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pohontomat",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Pohontomat",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Aulapertemuan",
+            "aliases": [
+                "aulapertemuan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "agrocepoko"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Aulapertemuan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Aulapertemuan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "agrocepoko"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:261",
+            "entityId": "objinfo2:261",
+            "title": "Pasar Tani",
+            "aliases": [
+                "pasar tani",
+                "objek 261"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Saluran pemasaran produk pertanian yang memfasilitasi penjualan komoditas (sayur, buah, olahan) secara langsung dari petani atau kelompok tani kepada konsumen. Tujuannya adalah memotong rantai distribusi yang panjang, sehingga petani mendapatkan harga jual yang lebih adil dan konsumen memperoleh produk segar dengan harga yang kompetitif.",
+            "source": "webview-import",
+            "sourceId": "261",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pasar Tani",
+                    "content": "Saluran pemasaran produk pertanian yang memfasilitasi penjualan komoditas (sayur, buah, olahan) secara langsung dari petani atau kelompok tani kepada konsumen. Tujuannya adalah memotong rantai distribusi yang panjang, sehingga petani mendapatkan harga jual yang lebih adil dan konsumen memperoleh produk segar dengan harga yang kompetitif."
+                },
+                "en": {
+                    "title": "Farmer’s Market",
+                    "content": "A marketing channel for agricultural products that facilitates the direct sale of commodities (vegetables, fruits, and processed goods) from farmers or farmer groups to consumers. Its purpose is to shorten the long distribution chain, allowing farmers to receive fairer selling prices and consumers to obtain fresh products at competitive prices."
+                },
+                "zh": {
+                    "title": "農夫市集",
+                    "content": "農夫市集是一種農產品的行銷管道，促進農民或農民團體將蔬菜、水果及加工品直接銷售給消費者。其目的在於縮短冗長的流通鏈，使農民獲得更公平的售價，消費者則能以合理價格購買到新鮮產品。"
+                },
+                "ar": {
+                    "title": "سوق المزارعين",
+                    "content": "يُعد سوق المزارعين قناة تسويق للمنتجات الزراعية تُسهل بيع السلع (مثل الخضروات والفواكه والمنتجات المعالجة) مباشرة من المزارعين أو المجموعات الزراعية إلى المستهلكين. يهدف هذا السوق إلى تقصير سلسلة التوزيع الطويلة، مما يسمح للمزارعين بالحصول على أسعار بيع أكثر عدلاً وللمستهلكين بشراء منتجات طازجة بأسعار تنافسية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:262",
+            "entityId": "objinfo2:262",
+            "title": "Greenhouse Melon",
+            "aliases": [
+                "greenhouse melon",
+                "objek 262"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Greenhouse Hidroponik Melon adalah ruang metode budidaya melon premium di dalam bangunan tertutup transparan yang berfungsi mengontrol suhu dan kelembaban lingkungan tanam. Sistem ini memungkinkan tanaman melon tumbuh optimal tanpa menggunakan tanah, melainkan mendapatkan nutrisi lengkap langsung dari larutan air untuk menghasilkan buah berkualitas tinggi.",
+            "source": "webview-import",
+            "sourceId": "262",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Greenhouse Melon",
+                    "content": "Greenhouse Hidroponik Melon adalah ruang metode budidaya melon premium di dalam bangunan tertutup transparan yang berfungsi mengontrol suhu dan kelembaban lingkungan tanam. Sistem ini memungkinkan tanaman melon tumbuh optimal tanpa menggunakan tanah, melainkan mendapatkan nutrisi lengkap langsung dari larutan air untuk menghasilkan buah berkualitas tinggi."
+                },
+                "en": {
+                    "title": "Melon Greenhouse",
+                    "content": "The Hydroponic Melon Greenhouse is a premium cultivation facility located inside a transparent enclosed structure that functions to control temperature and humidity in the growing environment. This system allows melon plants to grow optimally without using soil, instead receiving complete nutrients directly from a water-based solution to produce high-quality fruits."
+                },
+                "zh": {
+                    "title": "哈密瓜溫室",
+                    "content": "哈密瓜水耕溫室是一種高級栽培設施，位於透明封閉建築內，可控制種植環境的溫度與濕度。此系統讓哈密瓜在無土的情況下生長，透過水溶液直接吸收完整養分，以培育出高品質的水果。"
+                },
+                "ar": {
+                    "title": "بيت زراعة الشمام",
+                    "content": "يُعد بيت زراعة الشمام المائي منشأة زراعية متطورة داخل مبنى مغلق شفاف، يهدف إلى التحكم في درجة الحرارة والرطوبة في بيئة النمو. يتيح هذا النظام لنباتات الشمام النمو بشكل مثالي دون استخدام التربة، حيث تحصل على جميع العناصر الغذائية مباشرة من محلول مائي لإنتاج ثمار عالية الجودة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:263",
+            "entityId": "objinfo2:263",
+            "title": "Pembibitan",
+            "aliases": [
+                "pembibitan",
+                "objek 263"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tempat khusus yang dikelola dan dirancang untuk memproses benih menjadi bibit (tanaman muda) yang siap tanam di lapangan. Area ini menyediakan lingkungan yang terkontrol, seperti naungan, media tanam, dan air yang memadai, demi memastikan bibit tumbuh kuat, sehat, dan seragam sebelum dipindahkan.",
+            "source": "webview-import",
+            "sourceId": "263",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pembibitan",
+                    "content": "Tempat khusus yang dikelola dan dirancang untuk memproses benih menjadi bibit (tanaman muda) yang siap tanam di lapangan. Area ini menyediakan lingkungan yang terkontrol, seperti naungan, media tanam, dan air yang memadai, demi memastikan bibit tumbuh kuat, sehat, dan seragam sebelum dipindahkan."
+                },
+                "en": {
+                    "title": "Seedling Nursery",
+                    "content": "A specialized area managed and designed to process seeds into seedlings (young plants) that are ready to be planted in the field. This area provides a controlled environment, including shade, growing media, and sufficient water, to ensure the seedlings grow strong, healthy, and uniform before being transplanted."
+                },
+                "zh": {
+                    "title": "育苗區",
+                    "content": "育苗區是一個專門設計與管理的場所，用於將種子培育成可移植到田間的幼苗。該區域提供受控的環境，如遮蔭、培養介質與充足的水分，以確保幼苗在移植前能夠健康、強壯且生長均勻。"
+                },
+                "ar": {
+                    "title": "منطقة المشتل",
+                    "content": "المشتل هو مكان مخصص يُدار ويُصمم لمعالجة البذور وتحويلها إلى شتلات (نباتات صغيرة) جاهزة للزراعة في الحقل. توفر هذه المنطقة بيئة خاضعة للرقابة تشمل الظل ووسائط الزراعة والمياه الكافية، لضمان نمو الشتلات بشكل قوي وصحي ومتجانس قبل نقلها."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:264",
+            "entityId": "objinfo2:264",
+            "title": "Aula Pertemuan",
+            "aliases": [
+                "aula pertemuan",
+                "objek 264"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan serbaguna tertutup yang berlokasi di lingkungan kebun, dirancang sebagai tempat utama untuk menyelenggarakan pelatihan, seminar, dan workshop skala besar. Fungsi utamanya adalah memberikan fasilitas yang nyaman dan profesional untuk transfer ilmu pengetahuan pertanian, pembekalan teknis, dan kegiatan komunitas yang mendukung edukasi.",
+            "source": "webview-import",
+            "sourceId": "264",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Aula Pertemuan",
+                    "content": "Bangunan serbaguna tertutup yang berlokasi di lingkungan kebun, dirancang sebagai tempat utama untuk menyelenggarakan pelatihan, seminar, dan workshop skala besar. Fungsi utamanya adalah memberikan fasilitas yang nyaman dan profesional untuk transfer ilmu pengetahuan pertanian, pembekalan teknis, dan kegiatan komunitas yang mendukung edukasi."
+                },
+                "en": {
+                    "title": "Meeting Hall",
+                    "content": "A multifunctional enclosed building located within a garden environment, designed as the main venue for hosting large-scale training sessions, seminars, and workshops. Its primary function is to provide a comfortable and professional facility for the transfer of agricultural knowledge, technical preparation, and community activities that support education."
+                },
+                "zh": {
+                    "title": "會議大廳",
+                    "content": "位於園區內的多功能封閉建築，設計為舉辦大型培訓、研討會及工作坊的主要場所。其主要功能是提供舒適且專業的設施，用於農業知識傳遞、技術培訓及支持教育的社區活動。"
+                },
+                "ar": {
+                    "title": "قاعة الاجتماعات",
+                    "content": "مبنى متعدد الاستخدامات مغلق يقع في بيئة زراعية، صُمم ليكون الموقع الرئيسي لعقد الدورات التدريبية والندوات وورش العمل واسعة النطاق. تتمثل وظيفته الأساسية في توفير مرافق مريحة ومهنية لنقل المعرفة الزراعية والتأهيل الفني والأنشطة المجتمعية الداعمة للتعليم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:265",
+            "entityId": "objinfo2:265",
+            "title": "Playground",
+            "aliases": [
+                "playground",
+                "objek 265"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area bermain yang dirancang secara khusus di tengah lingkungan kebun, dilengkapi dengan peralatan aman yang mendukung perkembangan motorik dan sosial anak. Fungsi utamanya adalah memberikan sarana rekreasi yang menyenangkan sekaligus interaktif, memungkinkan anak-anak belajar mengenai alam dan pertanian sambil aktif bergerak di udara terbuka.",
+            "source": "webview-import",
+            "sourceId": "265",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Playground",
+                    "content": "Area bermain yang dirancang secara khusus di tengah lingkungan kebun, dilengkapi dengan peralatan aman yang mendukung perkembangan motorik dan sosial anak. Fungsi utamanya adalah memberikan sarana rekreasi yang menyenangkan sekaligus interaktif, memungkinkan anak-anak belajar mengenai alam dan pertanian sambil aktif bergerak di udara terbuka."
+                },
+                "en": {
+                    "title": "Playground",
+                    "content": "A play area specially designed within the garden environment, equipped with safe equipment that supports children’s motor and social development. Its main function is to provide a fun and interactive recreational space, allowing children to learn about nature and agriculture while staying active in the open air."
+                },
+                "zh": {
+                    "title": "遊樂場",
+                    "content": "位於園區內特別設計的遊樂場，配備安全的遊戲設施，以促進兒童的動作發展與社交能力。其主要功能是提供一個有趣且互動的休閒空間，讓孩子們在戶外活動中學習自然與農業知識。"
+                },
+                "ar": {
+                    "title": "منطقة اللعب",
+                    "content": "منطقة لعب مصممة خصيصًا داخل بيئة الحديقة، ومزودة بمعدات آمنة تدعم التطور الحركي والاجتماعي للأطفال. تتمثل وظيفتها الرئيسية في توفير مساحة ترفيهية ممتعة وتفاعلية، تتيح للأطفال التعرف على الطبيعة والزراعة أثناء ممارسة الأنشطة في الهواء الطلق."
+                }
+            }
+        }
+    ]
+}

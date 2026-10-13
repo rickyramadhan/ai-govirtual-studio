@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "poncol",
+    "updatedAt": "2026-09-29T09:51:51+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Poncol",
+            "aliases": [
+                "poncol"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "poncol"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Poncol.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Poncol",
+                    "content": "Pusat pengalaman virtual untuk Poncol."
+                },
+                "en": {
+                    "title": "Poncol",
+                    "content": "Pusat pengalaman virtual untuk Poncol."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Stasiun Poncol",
+            "aliases": [
+                "stasiun poncol"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "poncol"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Stasiun Poncol",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Stasiun Poncol",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Video360 1",
+            "aliases": [
+                "video360 1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "poncol"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Video360 1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Video360 1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "poncol"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:489",
+            "entityId": "objinfo2:489",
+            "title": "Pelayanan Pelanggan",
+            "aliases": [
+                "pelayanan pelanggan",
+                "objek 489"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Stasiun Poncol memiliki loket fisik dan mesin tiket mandiri untuk melayani penumpang, serta tersedia loket informasi dan lost-and-found untuk membantu penumpang terkait perjalanan dan barang hilang. Fasilitas ini memastikan penumpang dapat dengan mudah membeli tiket, memperoleh informasi, dan menyelesaikan masalah.",
+            "source": "webview-import",
+            "sourceId": "489",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pelayanan Pelanggan",
+                    "content": "Stasiun Poncol memiliki loket fisik dan mesin tiket mandiri untuk melayani penumpang, serta tersedia loket informasi dan lost-and-found untuk membantu penumpang terkait perjalanan dan barang hilang. Fasilitas ini memastikan penumpang dapat dengan mudah membeli tiket, memperoleh informasi, dan menyelesaikan masalah."
+                },
+                "en": {
+                    "title": "Customer Service",
+                    "content": "Poncol Station has physical ticket counters and self-service ticket machines for passengers, as well as information and lost-and-found counters to assist passengers with travel and lost items. This facility ensures passengers can easily purchase tickets, get information, and resolve issues."
+                },
+                "zh": {
+                    "title": "客服中心",
+                    "content": "Poncol車站設有實體售票櫃檯和自助售票機，並提供資訊櫃檯及失物招領服務，以協助乘客處理旅程及遺失物品問題。該設施確保乘客能輕鬆購票、獲取資訊並解決問題。"
+                },
+                "ar": {
+                    "title": "خدمة العملاء",
+                    "content": "محطة بونكول تحتوي على شباك تذاكر فعلي وآلات تذاكر ذاتية الخدمة للركاب، بالإضافة إلى شباك معلومات ومفقودات لمساعدة الركاب فيما يتعلق بالسفر والأمتعة المفقودة. تضمن هذه المنشأة قدرة الركاب على شراء التذاكر بسهولة، والحصول على المعلومات، وحل المشكلات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:491",
+            "entityId": "objinfo2:491",
+            "title": "Ruang Menyusui",
+            "aliases": [
+                "ruang menyusui",
+                "objek 491"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Stasiun Poncol menyediakan ruang laktasi yang tertutup (privat) untuk kenyamanan ibu yang membawa bayi atau balita. Ruangan ini terletak tidak jauh dari ruang tunggu utama, memastikan privasi dan kemudahan akses bagi ibu menyusui.",
+            "source": "webview-import",
+            "sourceId": "491",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Menyusui",
+                    "content": "Stasiun Poncol menyediakan ruang laktasi yang tertutup (privat) untuk kenyamanan ibu yang membawa bayi atau balita. Ruangan ini terletak tidak jauh dari ruang tunggu utama, memastikan privasi dan kemudahan akses bagi ibu menyusui."
+                },
+                "en": {
+                    "title": "Nursing Room",
+                    "content": "Poncol Station provides a private lactation room for the comfort of mothers with babies or toddlers. This room is located near the main waiting area, ensuring privacy and easy access for nursing mothers."
+                },
+                "zh": {
+                    "title": "哺乳室",
+                    "content": "Poncol車站提供一個私密的哺乳室，為攜帶嬰兒或幼兒的母親提供舒適。該房間位於主要候車區附近，確保母親的隱私和便利的使用。"
+                },
+                "ar": {
+                    "title": "غرفة الرضاعة",
+                    "content": "توفر محطة بونكول غرفة رضاعة خاصة لراحة الأمهات مع الرضع أو الأطفال الصغار. تقع هذه الغرفة بالقرب من منطقة الانتظار الرئيسية، مما يضمن الخصوصية وسهولة الوصول للأمهات المرضعات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:492",
+            "entityId": "objinfo2:492",
+            "title": "Lobby Keberangkatan",
+            "aliases": [
+                "lobby keberangkatan",
+                "objek 492"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lobi keberangkatan berfungsi sebagai area sentral untuk proses check-in dan boarding penumpang sebelum menuju peron. Stasiun Poncol telah mengimplementasikan teknologi Face Recognition Boarding Gate di area ini, yang memungkinkan penumpang KA Jarak Jauh hanya perlu memindai wajah (setelah registrasi) tanpa menunjukkan tiket fisik atau KTP.",
+            "source": "webview-import",
+            "sourceId": "492",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lobby Keberangkatan",
+                    "content": "Lobi keberangkatan berfungsi sebagai area sentral untuk proses check-in dan boarding penumpang sebelum menuju peron. Stasiun Poncol telah mengimplementasikan teknologi Face Recognition Boarding Gate di area ini, yang memungkinkan penumpang KA Jarak Jauh hanya perlu memindai wajah (setelah registrasi) tanpa menunjukkan tiket fisik atau KTP."
+                },
+                "en": {
+                    "title": "Departure Lobby",
+                    "content": "The departure lobby serves as the central area for passenger check-in and boarding before heading to the platform. Poncol Station has implemented Face Recognition Boarding Gate technology in this area, allowing long-distance train passengers to board by scanning their face (after registration) without presenting a physical ticket or ID card."
+                },
+                "zh": {
+                    "title": "出發大廳",
+                    "content": "出發大廳作為乘客辦理登機和登車的中心區域。Poncol車站在此區域實施了面部識別登車閘門技術，長途列車乘客只需掃描面部（完成註冊後），無需出示實體車票或身份證。"
+                },
+                "ar": {
+                    "title": "ردهة المغادرة",
+                    "content": "تعمل ردهة المغادرة كمنطقة مركزية لتسجيل الوصول وصعود الركاب قبل التوجه إلى الرصيف. قامت محطة بونكول بتطبيق تقنية بوابة الصعود بالتعرف على الوجه في هذه المنطقة، مما يتيح لركاب القطارات طويلة المدى الصعود بمجرد مسح الوجه (بعد التسجيل) دون الحاجة لإظهار التذكرة الورقية أو بطاقة الهوية."
+                }
+            }
+        }
+    ]
+}

@@ -125,7 +125,7 @@ if ($intent === 'VISITOR_TIPS') {
  * PUBLIC SERVICE KNOWLEDGE DOMAIN
  * ================================================================
  * Handles city public service queries from public-services.json.
- * Deterministic — no LLM needed.
+ * Deterministic â€” no LLM needed.
  */
 if ($intent === 'PUBLIC_SERVICE') {
     $publicResult = ai_resolve_public_service($message, $session);
@@ -148,6 +148,59 @@ if ($intent === 'PUBLIC_SERVICE') {
     }
 }
 
+/* ================================================================
+ * OUT-OF-DOMAIN & GREETING GUARD
+ * Sapaan dijawab ramah; pertanyaan di luar topik tur ditolak sopan
+ * (bukan ditempeli deskripsi scene yang tidak relevan).
+ * ================================================================ */
+$guardTourName = trim((string)($tour['name'] ?? $tour['tourName'] ?? '')) ?: (trim((string)(ai_tour_config()['tourName'] ?? '')) ?: 'tur ini');
+if (ai_is_greeting($message)) {
+    $greetResult = [
+        'reply' => 'Halo! Saya pemandu virtual ' . $guardTourName . '. Saya bisa menjelaskan panorama, sejarah, fasilitas, tips kunjungan, dan membantu navigasi antar area. Mau mulai dari mana?',
+        'intent' => 'GENERAL_CONVERSATION',
+        'confidence' => 0.9,
+        'entities' => [],
+        'profile_updates' => [],
+        'needs_clarification' => false,
+        'clarification_options' => [],
+        'actions' => [],
+        'cards' => [],
+        'sources' => [],
+        'action' => 'none',
+        'scene' => $currentScene,
+        'provider' => 'greeting',
+        'aiRequestId' => $requestId,
+        'conversation_update' => ['recommended_route_id' => null, 'referenced_scene_id' => $currentScene, 'referenced_entity_id' => null],
+    ];
+    if ($config['debug']) $greetResult['_debug'] = ['intent' => 'GENERAL_CONVERSATION', 'provider' => 'greeting', 'rule' => 'ai_is_greeting'];
+    error_log('[tour-ai] request=' . $requestId . ' intent=GREETING provider=greeting');
+    echo json_encode($greetResult, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    exit;
+}
+if (ai_is_offtopic($message)) {
+    $offResult = [
+        'reply' => 'Maaf, pertanyaan itu di luar topik tur ini. Saya fokus membantu seputar ' . $guardTourName . ' â€” panorama, sejarah, fasilitas, tips, atau rute kunjungan. Ada yang ingin Anda ketahui tentang lokasi ini?',
+        'intent' => 'OUT_OF_DOMAIN',
+        'confidence' => 0.9,
+        'entities' => [],
+        'profile_updates' => [],
+        'needs_clarification' => false,
+        'clarification_options' => [],
+        'actions' => [],
+        'cards' => [],
+        'sources' => [],
+        'action' => 'none',
+        'scene' => $currentScene,
+        'provider' => 'off-topic-guard',
+        'aiRequestId' => $requestId,
+        'conversation_update' => ['recommended_route_id' => null, 'referenced_scene_id' => $currentScene, 'referenced_entity_id' => null],
+    ];
+    if ($config['debug']) $offResult['_debug'] = ['intent' => 'OUT_OF_DOMAIN', 'provider' => 'off-topic-guard', 'rule' => 'ai_is_offtopic'];
+    error_log('[tour-ai] request=' . $requestId . ' intent=OUT_OF_DOMAIN provider=off-topic-guard');
+    echo json_encode($offResult, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    exit;
+}
+
 // Provider path: all description, knowledge, conversation intents go to LLM for natural language composition.
 // BUT first check if internal knowledge can answer deterministically.
 $pipelineEvidence = $pipeline['result']['_retrieval'] ?? $retrieval;
@@ -156,22 +209,28 @@ $facet = ai_classify_facet($message, $intent);
 
 // --- PROXIMITY QUERIES: skip internal knowledge, go straight to Gemini ---
 $isProximityQuery = preg_match('/(sekitar|terdekat|dekat|nearby|around|di sini|sini)/i', $message)
-    && preg_match('/(masjid|gereja|rumah sakit|apotek|klinik|hotel|restoran|cafe|bank|atm|spbu|parkir|terminal|stasiun)/i', $message);
+    && preg_match('/(masjid|gereja|rumah sakit|apotek|klinik|hotel|penginapan|restoran|cafe|kuliner|makan|makanan|masakan|oleh[- ]?oleh|souvenir|belanja|bank|atm|spbu|parkir|terminal|stasiun)/i', $message);
 
 // --- DETERMINISTIC FALLBACK: internal knowledge first, Gemini only if needed ---
 $exploreEntity = $pipeline['result']['entities'][0] ?? null;
 $internalReply = null;
 
-if (!$isProximityQuery) {
+// Intent yang butuh penalaran/pengetahuan umum (mis. harga tiket, jam buka,
+// pertanyaan faktual di luar data) TIDAK boleh dijawab dengan tempelan konten
+// knowledge teratas â€” harus lewat provider agar relevan & tidak "halu".
+$forceProvider = in_array($intent, ['UNKNOWN_FACT', 'FACTUAL_QUESTION'], true);
+
+if (!$isProximityQuery && !$forceProvider) {
     // Priority 1: Explore-menu entity with description
-    if ($exploreEntity && ($exploreEntity['type'] ?? '') === 'explore-place' && !empty($exploreEntity['content'])) {
+    if ($exploreEntity && ($exploreEntity['type'] ?? '') === 'explore-place' && !empty($exploreEntity['content']) && !ai_is_stub_text((string)$exploreEntity['content'])) {
         $internalReply = $exploreEntity['content'];
     }
 
     // Priority 2: Knowledge entity with content from retrieval
+    // (entri placeholder/template yang belum dikurasi diabaikan agar tidak "halu").
     if (!$internalReply && !empty($groundingEvidence)) {
         $topEvidence = $groundingEvidence[0];
-        if (!empty($topEvidence['content']) && ($topEvidence['type'] ?? '') !== 'overview') {
+        if (!empty($topEvidence['content']) && ($topEvidence['type'] ?? '') !== 'overview' && !ai_is_stub_text((string)$topEvidence['content'])) {
             $internalReply = $topEvidence['content'];
         }
     }
@@ -179,13 +238,13 @@ if (!$isProximityQuery) {
     // Priority 3: Enriched scene identity description
     if (!$internalReply) {
         $enrichedDesc = (string)($place['enrichedDescription'] ?? '');
-        if ($enrichedDesc !== '' && in_array($intent, ['PLACE_DESCRIPTION', 'CURRENT_LOCATION'], true)) {
+        if ($enrichedDesc !== '' && !ai_is_stub_text($enrichedDesc) && in_array($intent, ['PLACE_DESCRIPTION', 'CURRENT_LOCATION'], true)) {
             $internalReply = $enrichedDesc;
         }
     }
 }
 
-// If internal knowledge has an answer, return it directly — no Gemini needed.
+// If internal knowledge has an answer, return it directly â€” no Gemini needed.
 if ($internalReply) {
     $result = ai_compose_reply($intent, $internalReply, $place, $exploreEntity ? [$exploreEntity] : []);
     $result['provider'] = 'internal-knowledge';
@@ -199,6 +258,49 @@ if ($internalReply) {
     if ($config['debug']) $result['_debug'] = array_merge($pipeline['debug'], ['provider' => 'internal-knowledge', 'facet' => $facet, 'model' => 'none', 'fallbackUsed' => false, 'attempts' => [], 'providerLatencyMs' => 0, 'totalLatencyMs' => (int)((microtime(true) - $started) * 1000)]);
     error_log('[tour-ai] request=' . $requestId . ' scene=' . $currentScene . ' intent=' . $intent . ' facet=' . $facet . ' provider=internal-knowledge');
     echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    exit;
+}
+
+/* ================================================================
+ * FACILITY REGISTRY FAST-PATH â€” jawab fasilitas secara deterministik
+ * (toilet/musala/parkir/playground, dll) tanpa menunggu provider.
+ * ================================================================ */
+$facility = ai_resolve_facility($message);
+if ($facility) {
+    $facName = trim((string)($facility['name'] ?? ''));
+    $facNote = trim((string)($facility['note'] ?? ''));
+    $facAvailable = !isset($facility['available']) || !empty($facility['available']);
+    if ($facAvailable) {
+        $facReply = ($facName !== '' ? $facName . ': ' : '') . $facNote;
+    } else {
+        $facReply = ($facName !== '' ? $facName . ' tidak tersedia di area tur ini. ' : 'Fasilitas tersebut tidak tersedia di area tur ini. ') . $facNote;
+    }
+    $facReply = trim(preg_replace('/\s+/', ' ', $facReply));
+    if ($facReply === '') $facReply = $facAvailable ? 'Fasilitas tersebut tersedia di area tur ini.' : 'Fasilitas tersebut tidak tersedia di area tur ini.';
+    $facResult = [
+        'reply' => $facReply,
+        'intent' => $facAvailable ? 'FACILITY' : 'FACILITY_UNAVAILABLE',
+        'confidence' => 0.95,
+        'entities' => [],
+        'profile_updates' => [],
+        'needs_clarification' => false,
+        'clarification_options' => [],
+        'actions' => [],
+        'cards' => [],
+        'sources' => [],
+        'action' => 'none',
+        'scene' => $currentScene,
+        'provider' => 'facility-registry',
+        'aiRequestId' => $requestId,
+        'conversation_update' => [
+            'recommended_route_id' => null,
+            'referenced_scene_id' => $currentScene,
+            'referenced_entity_id' => null,
+        ],
+    ];
+    if ($config['debug']) $facResult['_debug'] = ['intent' => $facResult['intent'], 'provider' => 'facility-registry', 'facilityId' => (string)($facility['id'] ?? '')];
+    error_log('[tour-ai] request=' . $requestId . ' scene=' . $currentScene . ' intent=' . $facResult['intent'] . ' provider=facility-registry');
+    echo json_encode($facResult, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     exit;
 }
 
@@ -262,7 +364,9 @@ if ($exploreEntity && ($exploreEntity['type'] ?? '') === 'explore-place' && !emp
     ];
 }
 
-$localNearbyResult = $intent === 'NEARBY_SEARCH' ? ai_resolve_lawang_sewu_nearby($message) : null;
+$nearbyIntent = in_array($intent, ['NEARBY_SEARCH', 'FACILITY'], true)
+    || (bool)preg_match('/\b(hotel|penginapan|restoran|rumah makan|kafe|cafe|kuliner|makanan|masakan|oleh[- ]?oleh|souvenir|suvenir|belanja|transportasi|halte|brt|terminal|stasiun|bandara)\b/i', $message);
+$localNearbyResult = $nearbyIntent ? ai_resolve_lawang_sewu_nearby($message) : null;
 
 $userPromptParts = [
     'QUESTION' => $message,
@@ -299,7 +403,7 @@ if (!$providerResult['success'] || !$aiData) {
 // Deterministic enriched fallback: use scene-identity.json or explore-menu when provider fails
 $enrichedFallback = null;
 // Priority 1: explore-menu entity description (explicit named subject)
-if ($exploreEntity && ($exploreEntity['type'] ?? '') === 'explore-place' && !empty($exploreEntity['content'])) {
+if ($exploreEntity && ($exploreEntity['type'] ?? '') === 'explore-place' && !empty($exploreEntity['content']) && !ai_is_stub_text((string)$exploreEntity['content'])) {
     $enrichedFallback = [
         'reply' => $exploreEntity['content'],
         'intent' => $intent,
@@ -330,7 +434,7 @@ if (!$enrichedFallback) {
     if ($enrichedDesc === '' && $namedPlace) {
         $enrichedDesc = (string)($namedPlace['description'] ?? '');
     }
-    if ($enrichedDesc !== '') {
+    if ($enrichedDesc !== '' && !ai_is_stub_text($enrichedDesc)) {
         $enrichedFallback = [
             'reply' => $enrichedDesc,
             'intent' => $intent,
@@ -361,6 +465,10 @@ if ($aiData) {
     if ($validated !== null) {
         $result = $validated;
         $result['intent'] = $intent;
+        // Recommendations only valid for nearby searches; strip AI-provided ones otherwise.
+        if ($intent !== 'NEARBY_SEARCH') {
+            $result['recommendations'] = [];
+        }
         $result['provider'] = (string)($providerResult['provider'] ?? 'ollama');
         if ($localNearbyResult && empty($result['recommendations'])) {
             $result['recommendations'] = $localNearbyResult['recommendations'] ?? [];
@@ -398,7 +506,7 @@ if ($aiData) {
     } elseif ($enrichedFallback && !$isProximityQuery) {
         $result = $enrichedFallback;
     } else {
-        // Provider returned invalid JSON — try to use raw text as reply
+        // Provider returned invalid JSON â€” try to use raw text as reply
         $rawReply = trim($content);
         if ($rawReply !== '' && mb_strlen($rawReply) > 10) {
             $result = ai_compose_reply($intent, $rawReply, $place, $exploreEntity ? [$exploreEntity] : []);
@@ -413,11 +521,16 @@ if ($aiData) {
             'referenced_entity_id' => $result['entities'][0]['id'] ?? null,
         ];
     }
+} elseif ($localNearbyResult && ($isProximityQuery || $nearbyIntent)) {
+    // Pertanyaan sekitar (termasuk kuliner/oleh-oleh) yang provider-nya gagal:
+    // pakai data nearby deterministik, bukan deskripsi scene yang tak relevan.
+    $result = $localNearbyResult;
+    $result['provider'] = 'nearby-local';
 } elseif ($enrichedFallback && !$isProximityQuery) {
     $result = $enrichedFallback;
 } elseif ($localNearbyResult) {
     $result = $localNearbyResult;
-    $result['provider'] = 'lawang-sewu-nearby-fallback';
+    $result['provider'] = 'nearby-local';
 } else {
     $result = ai_graceful_reply($intent, $message, $place, $isProximityQuery);
     $result['provider'] = $isProximityQuery ? 'graceful-nearby' : 'graceful-fallback';
@@ -427,6 +540,38 @@ if ($aiData) {
         'referenced_entity_id' => $result['entities'][0]['id'] ?? null,
     ];
 }
+
+/* ================================================================
+ * WEB SEARCH FALLBACK (Gemini Google Search grounding)
+ * Dipakai hanya untuk pertanyaan informasi yang TIDAK terjawab knowledge
+ * internal (atau saat provider utama gagal). Hasil + sumber web dikirim
+ * ke UI (web_search_used + sources).
+ * ================================================================ */
+$webEligible = !in_array($intent, ['NAVIGATION_REQUEST', 'FOLLOWUP_NAVIGATION', 'ROUTE_RECOMMENDATION', 'CURRENT_LOCATION', 'FACILITY', 'NEARBY_SEARCH', 'VISITOR_TIPS', 'PUBLIC_SERVICE'], true);
+$providerWeak = in_array((string)($result['provider'] ?? ''), ['graceful-fallback', 'graceful-nearby', 'provider_unavailable'], true) || (float)($result['confidence'] ?? 1) <= 0.45;
+$noInternal = count($groundingEvidence) === 0;
+// Budget total respons: sisa waktu dihitung agar tidak melewati timeout klien.
+$budgetMs = (int)(getenv('AI_TOTAL_BUDGET_MS') ?: 12000);
+$remainingMs = $budgetMs - (int)((microtime(true) - $started) * 1000);
+if ($webEligible && ($noInternal || $providerWeak) && $remainingMs > 2500) {
+    $searchSystem = 'Anda asisten pemandu wisata berbahasa Indonesia yang cerdas dan ramah. Jawab pertanyaan pengguna secara ringkas (2-5 kalimat), akurat, dan mudah dipahami. Manfaatkan hasil pencarian web untuk fakta terkini. '
+        . 'Konteks: tur "' . (string)($guideCtx['tourName'] ?? '') . '"'
+        . (($guideCtx['placeName'] ?? '') !== '' ? ', lokasi saat ini "' . $guideCtx['placeName'] . '"' : '')
+        . '. Jangan mengarang; jika tidak yakin, katakan dengan jujur.';
+    // Fallback web search berlapis: Groq â†’ OpenRouter â†’ Gemini (urutan via env).
+    // Timeout dibatasi oleh sisa budget agar tidak menabrak timeout klien.
+    $wsTimeout = max(2, min((int)(getenv('AI_WEB_SEARCH_TIMEOUT') ?: 20), (int)floor($remainingMs / 1000)));
+    $ws = ai_web_search_backup($message, $searchSystem, $wsTimeout);
+    if ($ws && trim((string)$ws['reply']) !== '') {
+        $result['reply'] = (string)$ws['reply'];
+        $result['sources'] = (array)($ws['sources'] ?? []);
+        $result['web_search_used'] = true;
+        $result['provider'] = (string)($ws['provider'] ?? 'web-search');
+        $result['confidence'] = max((float)($result['confidence'] ?? 0), 0.65);
+    }
+}
+
+$result['reply'] = ai_strip_leading_greeting((string)($result['reply'] ?? ''));
 $result['aiRequestId'] = $requestId;
 if ($config['debug']) $result['_debug'] = array_merge($pipeline['debug'], ['provider' => $result['provider'], 'model' => (string)($providerResult['model'] ?? ''), 'fallbackUsed' => (bool)($providerResult['fallback_used'] ?? false), 'attempts' => $providerResult['attempted_providers'] ?? [], 'providerLatencyMs' => (int)($providerResult['latency_ms'] ?? 0), 'totalLatencyMs' => (int)((microtime(true) - $started) * 1000), 'retrievalMode' => $retrieval['mode'], 'retrievedIds' => array_column(array_column($pipelineEvidence['items'] ?? [], 'entry'), 'id'), 'scores' => array_column($pipelineEvidence['items'] ?? [], 'score'), 'versions' => ['prompt' => AI_PROMPT_VERSION, 'retrieval' => AI_RETRIEVAL_VERSION, 'v2' => AI_V2_VERSION], 'sceneIdentityLoaded' => !empty($enrichedIdentity['found']), 'descriptionSource' => $result['provider'] === 'enriched-identity' ? 'enriched-identity' : 'provider']);
 error_log('[tour-ai] request=' . $requestId . ' scene=' . $currentScene . ' intent=' . $intent . ' provider=' . $result['provider'] . ' retrieval=' . count($pipelineEvidence['items'] ?? []) . ' modelMs=' . $modelMs);

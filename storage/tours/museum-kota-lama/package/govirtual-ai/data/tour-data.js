@@ -13,7 +13,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "droneutama"
-            ]
+            ],
+            "pan": -1.81,
+            "tilt": -16.79,
+            "fov": 102.25
         },
         {
             "id": "node87",
@@ -27,7 +30,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "video360_1"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node86",
@@ -40,7 +46,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Drone Belakang"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node81",
@@ -53,7 +62,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "museumkotalama"
-            ]
+            ],
+            "pan": -32.14,
+            "tilt": 0.57,
+            "fov": 102.25
         },
         {
             "id": "node82",
@@ -66,7 +78,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "linimasasejarah"
-            ]
+            ],
+            "pan": 32.75,
+            "tilt": 3.06,
+            "fov": 102.25
         },
         {
             "id": "node88",
@@ -80,7 +95,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "video360_2"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node83",
@@ -93,7 +111,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "buktiarkeologi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node90",
@@ -107,7 +128,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "video360_4"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node84",
@@ -120,7 +144,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "jalankaca"
-            ]
+            ],
+            "pan": 81.17,
+            "tilt": -15.3,
+            "fov": 102.25
         },
         {
             "id": "node89",
@@ -134,7 +161,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "video360_3"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node85",
@@ -147,7 +177,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "keretaapidupo"
-            ]
+            ],
+            "pan": -79.86,
+            "tilt": -6.22,
+            "fov": 102.25
         }
     ],
     "hotspots": [
@@ -464,18 +497,19 @@ window.GoVirtualTourData = {
     "_sceneRegistry": {
         "node80": {
             "rawName": "Drone Utama",
-            "displayName": "Drone Utama",
-            "placeId": "drone-utama",
-            "placeName": "Drone Utama",
+            "displayName": "Tampak Depan Museum Kota Lama",
+            "placeId": "tampak-depan-museum-kota-lama",
+            "placeName": "Tampak Depan Museum Kota Lama",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Utama merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Utama adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area luar Museum Kota Lama yang berdiri di kawasan bersejarah Bundaran Bubakan, Kota Semarang.",
+            "description": "Bangunan Museum Kota Lama berdiri megah di area yang dulunya merupakan Bundaran Bubakan. Desain fasad luarnya memadukan estetika modern dengan elemen batu bata ekspos yang mengingatkan pada arsitektur kolonial. Area lanskap di sekitarnya ditata rapi, menjadikannya titik awal yang menarik sebelum pengunjung menyelami lorong waktu sejarah di bagian dalam.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kawasan Bundaran Bubakan",
+                "Fasad arsitektur modern-klasik",
+                "Titik masuk museum edukasi"
             ],
             "talkingPoints": [
                 "Drone Utama",
@@ -483,14 +517,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Utama.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Di mana letak pasti Museum Kota Lama ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini berlokasi sangat strategis di bekas Bundaran Bubakan, yang merupakan salah satu titik persimpangan bersejarah dan gerbang masuk menuju kawasan cagar budaya Kota Lama Semarang."
+                },
+                {
+                    "q": "Apa yang menarik dari desain eksterior bangunan ini?",
+                    "mode": "fix",
+                    "answer": "Bangunannya dirancang menggunakan material batu bata terakota yang terekspos. Desain ini sengaja dibuat agar selaras dengan nuansa bangunan-bangunan heritage peninggalan era kolonial Belanda di kawasan sekitarnya."
+                },
+                {
+                    "q": "Apakah pengunjung bebas berfoto di area luar ini?",
+                    "mode": "fix",
+                    "answer": "Tentu saja. Area pelataran dan taman di luar museum ini merupakan ruang publik yang sangat estetik. Banyak pengunjung yang menyempatkan diri berfoto dengan latar belakang fasad bata museum yang ikonik."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Utama — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Tampak Depan Museum Kota Lama.",
                 "describeHere": "Drone Utama adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -498,18 +544,19 @@ window.GoVirtualTourData = {
         },
         "node87": {
             "rawName": "Video360 1",
-            "displayName": "Video360 1",
-            "placeId": "video360-1",
-            "placeName": "Video360 1",
+            "displayName": "Video 360 experience",
+            "placeId": "video-360-experience",
+            "placeName": "Video 360 experience",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Video360 1 merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Video360 1 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang teater imersif dengan proyeksi video 360 derajat yang seolah membawa pengunjung masuk ke dalam mesin waktu sejarah.",
+            "description": "Video 360 Experience adalah fasilitas unggulan Museum Kota Lama. Memanfaatkan teknologi projection mapping canggih, dinding hingga lantai ruangan disorot dengan video animasi interaktif. Pengunjung akan merasakan sensasi seolah berada di tengah peperangan, menaiki kapal phinisi melintasi laut yang bergemuruh, atau melihat kehidupan sosial masyarakat multietnis di Semarang pada abad ke-18.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Teknologi Projection Mapping",
+                "Teater visual imersif 360°",
+                "Animasi sejarah multi-dimensi"
             ],
             "talkingPoints": [
                 "Video360 1",
@@ -517,14 +564,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Video360 1.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang dimaksud dengan fasilitas Video 360 Experience?",
+                    "mode": "fix",
+                    "answer": "Ini adalah sebuah ruangan teater imersif di mana animasi sejarah ditembakkan (diproyeksikan) tidak hanya ke layar depan, tetapi ke seluruh dinding mengelilingi ruangan, sehingga pengunjung merasa benar-benar berada di dalam adegan sejarah tersebut."
+                },
+                {
+                    "q": "Tema animasi sejarah apa saja yang diputar di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Video memutar berbagai babak sejarah yang dinamis, mulai dari simulasi pelayaran kapal dagang membelah ombak Samudera, suasana hiruk-pikuk perdagangan di pelabuhan lama, hingga pembangunan trem di tengah Kota Lama."
+                },
+                {
+                    "q": "Bagaimana cara menikmati pertunjukan visual ini secara maksimal?",
+                    "mode": "fix",
+                    "answer": "Pengunjung disarankan berdiri di titik tengah ruangan dan membiarkan diri dikelilingi oleh visualisasi cahaya dan efek suara spasial (surround sound). Ruangan dibuat sedikit gelap agar efek imersif dari proyektor terlihat tajam dan nyata."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Video360 1 — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Video 360 experience.",
                 "describeHere": "Video360 1 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -532,18 +591,19 @@ window.GoVirtualTourData = {
         },
         "node86": {
             "rawName": "Drone Belakang",
-            "displayName": "Drone Belakang",
-            "placeId": "drone-belakang",
-            "placeName": "Drone Belakang",
+            "displayName": "Tampak Belakang Museum Kota Lama",
+            "placeId": "tampak-belakang-museum-kota-lama",
+            "placeName": "Tampak Belakang Museum Kota Lama",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Belakang merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Belakang adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area luar Museum Kota Lama yang berdiri di kawasan bersejarah Bundaran Bubakan, Kota Semarang.",
+            "description": "Bangunan Museum Kota Lama berdiri megah di area yang dulunya merupakan Bundaran Bubakan. Desain fasad luarnya memadukan estetika modern dengan elemen batu bata ekspos yang mengingatkan pada arsitektur kolonial. Area lanskap di sekitarnya ditata rapi, menjadikannya titik awal yang menarik sebelum pengunjung menyelami lorong waktu sejarah di bagian dalam.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kawasan Bundaran Bubakan",
+                "Fasad arsitektur modern-klasik",
+                "Titik masuk museum edukasi"
             ],
             "talkingPoints": [
                 "Drone Belakang",
@@ -551,14 +611,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Belakang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Di mana letak pasti Museum Kota Lama ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini berlokasi sangat strategis di bekas Bundaran Bubakan, yang merupakan salah satu titik persimpangan bersejarah dan gerbang masuk menuju kawasan cagar budaya Kota Lama Semarang."
+                },
+                {
+                    "q": "Apa yang menarik dari desain eksterior bangunan ini?",
+                    "mode": "fix",
+                    "answer": "Bangunannya dirancang menggunakan material batu bata terakota yang terekspos. Desain ini sengaja dibuat agar selaras dengan nuansa bangunan-bangunan heritage peninggalan era kolonial Belanda di kawasan sekitarnya."
+                },
+                {
+                    "q": "Apakah pengunjung bebas berfoto di area luar ini?",
+                    "mode": "fix",
+                    "answer": "Tentu saja. Area pelataran dan taman di luar museum ini merupakan ruang publik yang sangat estetik. Banyak pengunjung yang menyempatkan diri berfoto dengan latar belakang fasad bata museum yang ikonik."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Belakang — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Tampak Belakang Museum Kota Lama.",
                 "describeHere": "Drone Belakang adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -572,12 +644,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Museum Kota Lama merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Museum Kota Lama adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area eksplorasi di dalam Museum Kota Lama, destinasi wisata edukasi yang memadukan sejarah panjang Semarang dengan teknologi imersif.",
+            "description": "Museum Kota Lama menghadirkan cara baru dalam mempelajari sejarah. Berbeda dengan museum konvensional, tempat ini memanfaatkan teknologi imersif, proyeksi visual 3D, dan pameran interaktif untuk menghidupkan kembali narasi berdirinya Kota Semarang, masa kejayaan maritim, hingga sejarah transportasi kereta api di Indonesia.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Wisata sejarah interaktif",
+                "Teknologi proyeksi visual 3D",
+                "Edukasi warisan budaya"
             ],
             "talkingPoints": [
                 "Museum Kota Lama",
@@ -585,16 +658,28 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Museum Kota Lama.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa daya tarik utama dari museum ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini tidak memajang barang kuno di dalam etalase kaca, melainkan menggunakan teknologi digital imersif dan proyeksi visual untuk menceritakan sejarah Kota Semarang secara interaktif dan modern."
+                },
+                {
+                    "q": "Informasi sejarah apa saja yang disajikan di sini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat mempelajari lini masa berdirinya Kota Semarang, sejarah perdagangan maritim, masa kolonial, hingga perkembangan jalur kereta api pertama di Indonesia yang bermula dari kota ini."
+                },
+                {
+                    "q": "Siapa yang cocok berkunjung ke fasilitas edukasi ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini sangat cocok untuk semua kalangan, mulai dari anak-anak, pelajar, hingga keluarga. Penyajian visualnya yang modern membuat proses belajar sejarah menjadi sangat menyenangkan dan tidak membosankan."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1253"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Museum Kota Lama — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Museum Kota Lama.",
                 "describeHere": "Museum Kota Lama adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -608,12 +693,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Lini Masa Sejarah merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lini Masa Sejarah adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas interaktif yang menyajikan urutan waktu (timeline) sejarah panjang terbentuknya Kota Semarang.",
+            "description": "Area Lini Masa Sejarah (Timeline) membawa pengunjung menyusuri kronologi pembentukan Kota Semarang. Dari era Ki Ageng Pandanaran, masuknya pengaruh maritim asing, masa kejayaan komoditas gula dan kopi pada era kolonial Belanda (VOC), hingga kemerdekaan. Informasi disajikan menggunakan grafis yang menarik dan mudah dipahami.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Urutan kronologi sejarah kota",
+                "Era Ki Ageng Pandanaran",
+                "Zaman kolonial & kemerdekaan"
             ],
             "talkingPoints": [
                 "Lini Masa Sejarah",
@@ -621,16 +707,28 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lini Masa Sejarah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Era sejarah apa yang pertama kali diceritakan di sini?",
+                    "mode": "fix",
+                    "answer": "Lini masa dimulai dari sejarah awal terbentuknya Semarang, yakni saat wilayah ini masih berupa gugusan pulau lumpur, hingga masa pemerintahan bupati pertama, Ki Ageng Pandanaran, pada abad ke-16."
+                },
+                {
+                    "q": "Bagaimana penyajian informasi sejarah di area ini?",
+                    "mode": "fix",
+                    "answer": "Informasi tidak hanya disajikan dalam bentuk teks panjang, melainkan melalui infografis interaktif, panel bercahaya, dan ilustrasi digital yang runut, sehingga memudahkan pengunjung menyerap rentetan peristiwa sejarah."
+                },
+                {
+                    "q": "Apa komoditas penting Semarang di masa lampau?",
+                    "mode": "fix",
+                    "answer": "Di area ini dijelaskan bahwa Semarang pernah menjadi salah satu kota pelabuhan dan perdagangan tersibuk di Asia Tenggara, khususnya sebagai pengekspor utama komoditas gula, kopi, dan rempah-rempah."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1252"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lini Masa Sejarah — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Lini Masa Sejarah.",
                 "describeHere": "Lini Masa Sejarah adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -638,18 +736,19 @@ window.GoVirtualTourData = {
         },
         "node88": {
             "rawName": "Video360 2",
-            "displayName": "Video360 2",
-            "placeId": "video360-2",
-            "placeName": "Video360 2",
+            "displayName": "Video 360 Experience 2",
+            "placeId": "video-360-experience-2",
+            "placeName": "Video 360 Experience 2",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Video360 2 merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Video360 2 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang teater imersif dengan proyeksi video 360 derajat yang seolah membawa pengunjung masuk ke dalam mesin waktu sejarah.",
+            "description": "Video 360 Experience adalah fasilitas unggulan Museum Kota Lama. Memanfaatkan teknologi projection mapping canggih, dinding hingga lantai ruangan disorot dengan video animasi interaktif. Pengunjung akan merasakan sensasi seolah berada di tengah peperangan, menaiki kapal phinisi melintasi laut yang bergemuruh, atau melihat kehidupan sosial masyarakat multietnis di Semarang pada abad ke-18.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Teknologi Projection Mapping",
+                "Teater visual imersif 360°",
+                "Animasi sejarah multi-dimensi"
             ],
             "talkingPoints": [
                 "Video360 2",
@@ -657,14 +756,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Video360 2.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang dimaksud dengan fasilitas Video 360 Experience?",
+                    "mode": "fix",
+                    "answer": "Ini adalah sebuah ruangan teater imersif di mana animasi sejarah ditembakkan (diproyeksikan) tidak hanya ke layar depan, tetapi ke seluruh dinding mengelilingi ruangan, sehingga pengunjung merasa benar-benar berada di dalam adegan sejarah tersebut."
+                },
+                {
+                    "q": "Tema animasi sejarah apa saja yang diputar di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Video memutar berbagai babak sejarah yang dinamis, mulai dari simulasi pelayaran kapal dagang membelah ombak Samudera, suasana hiruk-pikuk perdagangan di pelabuhan lama, hingga pembangunan trem di tengah Kota Lama."
+                },
+                {
+                    "q": "Bagaimana cara menikmati pertunjukan visual ini secara maksimal?",
+                    "mode": "fix",
+                    "answer": "Pengunjung disarankan berdiri di titik tengah ruangan dan membiarkan diri dikelilingi oleh visualisasi cahaya dan efek suara spasial (surround sound). Ruangan dibuat sedikit gelap agar efek imersif dari proyektor terlihat tajam dan nyata."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Video360 2 — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Video 360 Experience 2.",
                 "describeHere": "Video360 2 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -678,12 +789,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Bukti Arkeologi merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Bukti Arkeologi adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona pameran yang menampilkan sisa-sisa struktur bangunan kuno dan peninggalan masa lalu kawasan Kota Lama.",
+            "description": "Area Bukti Arkeologi ini menyimpan kejutan sejarah. Selama proses revitalisasi Kota Lama dan pembangunan museum, para pekerja menemukan struktur bata kuno, pipa-pipa resapan air peninggalan Belanda, hingga artefak keramik. Benda-benda dan struktur tersebut sengaja dipertahankan posisinya dan dipamerkan agar pengunjung dapat melihat langsung sistem tata kota masa lampau.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Sisa struktur bata kuno",
+                "Peninggalan tata kota Belanda",
+                "Penemuan artefak revitalisasi"
             ],
             "talkingPoints": [
                 "Bukti Arkeologi",
@@ -691,16 +803,28 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Bukti Arkeologi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Benda arkeologi apa saja yang ditemukan di area ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat melihat langsung temuan ekskavasi berupa struktur fondasi bata kuno, serpihan keramik dari berbagai dinasti, serta sistem perpipaan dan drainase (gorong-gorong) yang dibangun pada masa Hindia Belanda."
+                },
+                {
+                    "q": "Dari mana asal temuan benda-benda kuno ini?",
+                    "mode": "fix",
+                    "answer": "Artefak dan struktur bangunan kuno ini ditemukan secara tidak sengaja di bawah lapisan tanah saat pemerintah melakukan proyek penggalian dan revitalisasi kawasan Bundaran Bubakan untuk pembangunan museum ini."
+                },
+                {
+                    "q": "Mengapa struktur fondasi ini tidak dipindahkan?",
+                    "mode": "fix",
+                    "answer": "Struktur fondasi kuno sengaja dipertahankan (insitu) di lokasi aslinya untuk menjaga nilai otentisitas sejarah. Museum ini dibangun dengan menyesuaikan tata letak temuan tersebut agar tetap bisa dipelajari sebagai bukti tata kota masa lampau."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1254"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Bukti Arkeologi — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Bukti Arkeologi.",
                 "describeHere": "Bukti Arkeologi adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -708,18 +832,19 @@ window.GoVirtualTourData = {
         },
         "node90": {
             "rawName": "Video360 4",
-            "displayName": "Video360 4",
-            "placeId": "video360-4",
-            "placeName": "Video360 4",
+            "displayName": "Video 360 Experience 3",
+            "placeId": "video-360-experience-3",
+            "placeName": "Video 360 Experience 3",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Video360 4 merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Video360 4 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang teater imersif dengan proyeksi video 360 derajat yang seolah membawa pengunjung masuk ke dalam mesin waktu sejarah.",
+            "description": "Video 360 Experience adalah fasilitas unggulan Museum Kota Lama. Memanfaatkan teknologi projection mapping canggih, dinding hingga lantai ruangan disorot dengan video animasi interaktif. Pengunjung akan merasakan sensasi seolah berada di tengah peperangan, menaiki kapal phinisi melintasi laut yang bergemuruh, atau melihat kehidupan sosial masyarakat multietnis di Semarang pada abad ke-18.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Teknologi Projection Mapping",
+                "Teater visual imersif 360°",
+                "Animasi sejarah multi-dimensi"
             ],
             "talkingPoints": [
                 "Video360 4",
@@ -727,14 +852,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Video360 4.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang dimaksud dengan fasilitas Video 360 Experience?",
+                    "mode": "fix",
+                    "answer": "Ini adalah sebuah ruangan teater imersif di mana animasi sejarah ditembakkan (diproyeksikan) tidak hanya ke layar depan, tetapi ke seluruh dinding mengelilingi ruangan, sehingga pengunjung merasa benar-benar berada di dalam adegan sejarah tersebut."
+                },
+                {
+                    "q": "Tema animasi sejarah apa saja yang diputar di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Video memutar berbagai babak sejarah yang dinamis, mulai dari simulasi pelayaran kapal dagang membelah ombak Samudera, suasana hiruk-pikuk perdagangan di pelabuhan lama, hingga pembangunan trem di tengah Kota Lama."
+                },
+                {
+                    "q": "Bagaimana cara menikmati pertunjukan visual ini secara maksimal?",
+                    "mode": "fix",
+                    "answer": "Pengunjung disarankan berdiri di titik tengah ruangan dan membiarkan diri dikelilingi oleh visualisasi cahaya dan efek suara spasial (surround sound). Ruangan dibuat sedikit gelap agar efek imersif dari proyektor terlihat tajam dan nyata."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Video360 4 — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Video 360 Experience 3.",
                 "describeHere": "Video360 4 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -748,12 +885,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Jalan Kaca merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Jalan Kaca adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lantai kaca transparan yang memperlihatkan sisa rel kereta api dan struktur fondasi kuno di bawah bangunan.",
+            "description": "Salah satu fitur paling memukau di museum ini adalah Area Jalan Kaca (Glass Floor). Pengunjung diajak berjalan di atas lantai kaca pelindung yang kuat. Tepat di bawah kaki pengunjung, terhampar sisa-sisa struktur fondasi kota lama dan temuan rel lori kuno yang membuktikan betapa sibuknya aktivitas transportasi di sekitar Bubakan pada masa jayanya.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Eksplorasi lantai transparan",
+                "Sisa fondasi kota di bawah kaki",
+                "Pengalaman observasi unik"
             ],
             "talkingPoints": [
                 "Jalan Kaca",
@@ -761,14 +899,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Jalan Kaca.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang bisa dilihat di bawah lantai kaca ini?",
+                    "mode": "fix",
+                    "answer": "Jika melihat ke bawah lantai kaca, Anda akan melihat sisa-sistem peninggalan arkeologis seperti struktur bata kuno, jalur drainase asli peninggalan kolonial, dan bantalan rel lori yang dulunya digunakan untuk mengangkut barang."
+                },
+                {
+                    "q": "Apakah lantai kaca ini aman untuk dilewati banyak orang?",
+                    "mode": "fix",
+                    "answer": "Sangat aman. Lantai kaca transparan ini dibuat menggunakan spesifikasi kaca tempered berstandar tinggi yang mampu menahan beban statis maupun dinamis dari para pengunjung yang melintas secara bersamaan."
+                },
+                {
+                    "q": "Apa aturan saat melewati fasilitas jalan kaca ini?",
+                    "mode": "fix",
+                    "answer": "Untuk menjaga agar permukaan kaca tidak tergores dan tetap jernih, pengunjung biasanya diminta untuk tidak menggunakan sepatu berhak tajam (high heels) dan berjalan dengan hati-hati agar pengalaman observasi tetap maksimal."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Jalan Kaca — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Jalan Kaca.",
                 "describeHere": "Jalan Kaca adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -776,18 +926,19 @@ window.GoVirtualTourData = {
         },
         "node89": {
             "rawName": "Video360 3",
-            "displayName": "Video360 3",
-            "placeId": "video360-3",
-            "placeName": "Video360 3",
+            "displayName": "Video360 4",
+            "placeId": "video360-4",
+            "placeName": "Video360 4",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Video360 3 merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Video360 3 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area eksplorasi di dalam Museum Kota Lama, destinasi wisata edukasi yang memadukan sejarah panjang Semarang dengan teknologi imersif.",
+            "description": "Museum Kota Lama menghadirkan cara baru dalam mempelajari sejarah. Berbeda dengan museum konvensional, tempat ini memanfaatkan teknologi imersif, proyeksi visual 3D, dan pameran interaktif untuk menghidupkan kembali narasi berdirinya Kota Semarang, masa kejayaan maritim, hingga sejarah transportasi kereta api di Indonesia.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Wisata sejarah interaktif",
+                "Teknologi proyeksi visual 3D",
+                "Edukasi warisan budaya"
             ],
             "talkingPoints": [
                 "Video360 3",
@@ -795,14 +946,26 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Video360 3.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa daya tarik utama dari museum ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini tidak memajang barang kuno di dalam etalase kaca, melainkan menggunakan teknologi digital imersif dan proyeksi visual untuk menceritakan sejarah Kota Semarang secara interaktif dan modern."
+                },
+                {
+                    "q": "Informasi sejarah apa saja yang disajikan di sini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat mempelajari lini masa berdirinya Kota Semarang, sejarah perdagangan maritim, masa kolonial, hingga perkembangan jalur kereta api pertama di Indonesia yang bermula dari kota ini."
+                },
+                {
+                    "q": "Siapa yang cocok berkunjung ke fasilitas edukasi ini?",
+                    "mode": "fix",
+                    "answer": "Museum ini sangat cocok untuk semua kalangan, mulai dari anak-anak, pelajar, hingga keluarga. Penyajian visualnya yang modern membuat proses belajar sejarah menjadi sangat menyenangkan dan tidak membosankan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Video360 3 — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Video360 4.",
                 "describeHere": "Video360 3 adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -810,18 +973,19 @@ window.GoVirtualTourData = {
         },
         "node85": {
             "rawName": "Kereta Api Tempo Dulu",
-            "displayName": "Kereta Api Tempo Dulu",
-            "placeId": "kereta-api-tempo-dulu",
-            "placeName": "Kereta Api Tempo Dulu",
+            "displayName": "Kereta Api Dupo",
+            "placeId": "kereta-api-dupo",
+            "placeName": "Kereta Api Dupo",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Kereta Api Tempo Dulu merupakan bagian dari kawasan Museum Kota Lama di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Kereta Api Tempo Dulu adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran sejarah perkeretaapian yang menobatkan Semarang sebagai kota pertama dengan jalur kereta di Indonesia.",
+            "description": "Area Kereta Api didedikasikan untuk menceritakan sejarah emas transportasi darat di Indonesia. Semarang merupakan kota kelahiran kereta api nasional. Melalui visualisasi menarik, area ini menceritakan kiprah perusahaan Nederlandsch-Indische Spoorweg Maatschappij (NIS) yang membangun jalur rel pertama dari Semarang menuju Tanggung pada tahun 1867.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Sejarah kereta api pertama RI",
+                "Kiprah perusahaan NIS kolonial",
+                "Jalur legendaris Semarang-Tanggung"
             ],
             "talkingPoints": [
                 "Kereta Api Tempo Dulu",
@@ -829,16 +993,28 @@ window.GoVirtualTourData = {
                 "Museum Kota Lama"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Kereta Api Tempo Dulu.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa kaitan Kota Semarang dengan sejarah kereta api?",
+                    "mode": "fix",
+                    "answer": "Semarang adalah tempat lahirnya sejarah perkeretaapian di Indonesia. Di kota inilah pencangkulan pertama jalur rel dilakukan oleh perusahaan Hindia Belanda (NIS) untuk menghubungkan Stasiun Kemijen (Semarang) dengan Stasiun Tanggung (Grobogan)."
+                },
+                {
+                    "q": "Benda atau visualisasi apa yang ada di area pameran ini?",
+                    "mode": "fix",
+                    "answer": "Area ini menampilkan ilustrasi stasiun tua, replika komponen lokomotif, hingga proyeksi visual yang menceritakan kesibukan Stasiun Tawang dan Stasiun Poncol masa lampau sebagai pusat mobilitas manusia dan hasil bumi."
+                },
+                {
+                    "q": "Mengapa jalur kereta api sangat penting pada masa itu?",
+                    "mode": "fix",
+                    "answer": "Pembangunan jalur kereta api dilakukan untuk mempercepat transportasi komoditas ekspor bernilai tinggi, seperti gula dan kopi, dari daerah perkebunan di pedalaman Jawa Tengah menuju Pelabuhan Tanjung Emas di Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1251"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Kereta Api Tempo Dulu — kawasan Museum Kota Lama.",
+                "currentLocation": "Anda sekarang berada di Kereta Api Dupo.",
                 "describeHere": "Kereta Api Tempo Dulu adalah area di dalam kawasan Museum Kota Lama, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

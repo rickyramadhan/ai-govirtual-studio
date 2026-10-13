@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "gedunggubernur",
+    "updatedAt": "2026-09-29T09:50:47+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Gedunggubernur",
+            "aliases": [
+                "gedunggubernur"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "gedunggubernur"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Gedunggubernur.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gedunggubernur",
+                    "content": "Pusat pengalaman virtual untuk Gedunggubernur."
+                },
+                "en": {
+                    "title": "Gedunggubernur",
+                    "content": "Pusat pengalaman virtual untuk Gedunggubernur."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node87",
+            "aliases": [
+                "node87"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "gedunggubernur"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node87",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node87",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Depan Gedung B1",
+            "aliases": [
+                "depan gedung b1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "gedunggubernur"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Depan Gedung B1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Depan Gedung B1",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "gedunggubernur"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:144",
+            "entityId": "objinfo2:144",
+            "title": "Lobi Gedung DPRD",
+            "aliases": [
+                "lobi gedung dprd",
+                "objek 144"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lobby gedung DPRD adalah area penerimaan utama dan titik pertemuan bagi tamu, masyarakat, dan anggota dewan sebelum memasuki ruang-ruang rapat penting. Area ini difungsikan sebagai pusat informasi dan sering dirancang untuk kesan formal dan terbuka, mencerminkan fungsi lembaga perwakilan rakyat.",
+            "source": "webview-import",
+            "sourceId": "144",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lobi Gedung DPRD",
+                    "content": "Lobby gedung DPRD adalah area penerimaan utama dan titik pertemuan bagi tamu, masyarakat, dan anggota dewan sebelum memasuki ruang-ruang rapat penting. Area ini difungsikan sebagai pusat informasi dan sering dirancang untuk kesan formal dan terbuka, mencerminkan fungsi lembaga perwakilan rakyat."
+                },
+                "en": {
+                    "title": "DPRD Building Lobby",
+                    "content": "The lobby of the DPRD building serves as the main reception and meeting point for guests, the public, and council members before entering important meeting rooms. This area functions as an information center and is often designed with a formal and open impression, reflecting the role of the legislative body."
+                },
+                "zh": {
+                    "title": "地方议会大楼大堂",
+                    "content": "DPRD大楼的大堂是主要接待区和访客、公众及议员在进入重要会议室前的会面点。该区域作为信息中心，通常设计为正式且开放的风格，体现立法机构的职能。"
+                },
+                "ar": {
+                    "title": "ردهة مبنى مجلس الشعب الإقليمي",
+                    "content": "يعد ردهة مبنى DPRD منطقة الاستقبال الرئيسية ونقطة التقاء للضيوف والجمهور وأعضاء المجلس قبل الدخول إلى غرف الاجتماعات المهمة. تعمل هذه المنطقة كمركز معلومات وغالباً ما تُصمَّم لتوفير انطباع رسمي ومنفتح يعكس دور الهيئة التشريعية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:145",
+            "entityId": "objinfo2:145",
+            "title": "Lobi Gedung Gubernur",
+            "aliases": [
+                "lobi gedung gubernur",
+                "objek 145"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lobby gedung gubernur berfungsi sebagai pintu masuk sekaligus area layanan publik utama bagi masyarakat. Area di lantai 1 tersebut telah diresmikan sebagai \"Rumah Rakyat,\" yang difungsikan untuk menerima aduan, menyerap aspirasi, dan memfasilitasi komunikasi dua arah antara pemerintah dengan warga.",
+            "source": "webview-import",
+            "sourceId": "145",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lobi Gedung Gubernur",
+                    "content": "Lobby gedung gubernur berfungsi sebagai pintu masuk sekaligus area layanan publik utama bagi masyarakat. Area di lantai 1 tersebut telah diresmikan sebagai \"Rumah Rakyat,\" yang difungsikan untuk menerima aduan, menyerap aspirasi, dan memfasilitasi komunikasi dua arah antara pemerintah dengan warga."
+                },
+                "en": {
+                    "title": "Governor’s Office Lobby",
+                    "content": "The governor’s building lobby serves as the main entrance and primary public service area for citizens. The first-floor area has been inaugurated as the \"People’s House,\" functioning to receive complaints, gather aspirations, and facilitate two-way communication between the government and the public."
+                },
+                "zh": {
+                    "title": "省长办公楼大堂",
+                    "content": "省长大楼的大堂既是主要入口，也是市民的主要公共服务区域。一楼区域已被命名为“人民之家”，用于接收投诉、收集民意，并促进政府与公众之间的双向沟通。"
+                },
+                "ar": {
+                    "title": "ردهة مبنى حاكم المقاطعة",
+                    "content": "يعمل ردهة مبنى الحاكم كبوابة رئيسية ومنطقة خدمة عامة أساسية للمواطنين. تم تدشين الطابق الأول باسم \"بيت الشعب\"، ويعمل على استقبال الشكاوى، وجمع المطالب، وتسهيل التواصل ثنائي الاتجاه بين الحكومة والمواطنين."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:146",
+            "entityId": "objinfo2:146",
+            "title": "Ruang Konferensi Gedung Gubernur",
+            "aliases": [
+                "ruang konferensi gedung gubernur",
+                "objek 146"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang rapat gedung gubernur adalah ruangan khusus yang dirancang dan dilengkapi secara teknis untuk memfasilitasi pertemuan, seminar, atau diskusi formal berskala besar hingga kecil di area gedung gubernur Jawa Tengah.",
+            "source": "webview-import",
+            "sourceId": "146",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Konferensi Gedung Gubernur",
+                    "content": "Ruang rapat gedung gubernur adalah ruangan khusus yang dirancang dan dilengkapi secara teknis untuk memfasilitasi pertemuan, seminar, atau diskusi formal berskala besar hingga kecil di area gedung gubernur Jawa Tengah."
+                },
+                "en": {
+                    "title": "Governor’s Office Conference Room",
+                    "content": "The meeting room in the governor’s building is a specially designed and technically equipped space to facilitate large to small-scale meetings, seminars, or formal discussions within the Central Java governor’s office."
+                },
+                "zh": {
+                    "title": "省长办公楼会议室",
+                    "content": "中爪哇省长大楼的会议室是一间专门设计并配备技术设施的房间，用于举办大规模至小规模的会议、研讨会或正式讨论。"
+                },
+                "ar": {
+                    "title": "غرفة مؤتمرات مبنى الحاكم",
+                    "content": "غرفة الاجتماعات في مبنى الحاكم هي مساحة مصممة خصيصًا ومزودة تجهيزات تقنية لتسهيل الاجتماعات والندوات أو المناقشات الرسمية من كبيرة إلى صغيرة داخل مبنى حاكم جاوة الوسطى."
+                }
+            }
+        }
+    ]
+}

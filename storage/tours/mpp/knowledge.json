@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "mpp",
+    "updatedAt": "2026-09-29T09:51:25+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Mpp",
+            "aliases": [
+                "mpp"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "mpp"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Mpp.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Mpp",
+                    "content": "Pusat pengalaman virtual untuk Mpp."
+                },
+                "en": {
+                    "title": "Mpp",
+                    "content": "Pusat pengalaman virtual untuk Mpp."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Dayatampung",
+            "aliases": [
+                "dayatampung"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "mpp"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Dayatampung",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Dayatampung",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Kendaraan",
+            "aliases": [
+                "kendaraan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "mpp"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kendaraan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Kendaraan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "mpp"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:511",
+            "entityId": "objinfo2:511",
+            "title": "Anoman",
+            "aliases": [
+                "anoman",
+                "objek 511"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang Anoman adalah ruang yang disediakan untuk pengunjung Mall Pelayanan Publik yang ada di Terminal Mangkang. Ruang ini dimaksudkan sebagai fasilitas self service bagi pengunjung yang ingin mengurus perizinan yang berkaitan dengan DPMPTSP maupun beberapa layanan di MPP.",
+            "source": "webview-import",
+            "sourceId": "511",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Anoman",
+                    "content": "Ruang Anoman adalah ruang yang disediakan untuk pengunjung Mall Pelayanan Publik yang ada di Terminal Mangkang. Ruang ini dimaksudkan sebagai fasilitas self service bagi pengunjung yang ingin mengurus perizinan yang berkaitan dengan DPMPTSP maupun beberapa layanan di MPP."
+                },
+                "en": {
+                    "title": "Anoman",
+                    "content": "Anoman room is provided for visitors of the Public Service Mall at Mangkang Terminal. This room serves as a self-service facility for visitors who want to manage permits related to the DPMPTSP or other services at the Public Service Mall."
+                },
+                "zh": {
+                    "title": "阿諾曼",
+                    "content": "Anoman 房間是為 Mangkang 終點站公共服務商場的訪客提供的空間。此空間作為自助設施，方便訪客辦理與 DPMPTSP 或公共服務商場其他服務相關的許可。"
+                },
+                "ar": {
+                    "title": "أنومان",
+                    "content": "غرفة أنومان مخصصة لزوار مول الخدمة العامة في محطة مانكانغ. هذه الغرفة تعمل كمرفق خدمة ذاتية للزوار الراغبين في إدارة التصاريح المتعلقة بـ DPMPTSP أو بعض الخدمات الأخرى في مول الخدمة العامة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:512",
+            "entityId": "objinfo2:512",
+            "title": "Caffe Investasi",
+            "aliases": [
+                "caffe investasi",
+                "objek 512"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Cafe investasi adalah fasilitas yang ada di Mal Pelayanan Publik yang berada di Terminal Mangkang. Cafe investasi ini menyediakan ruang pertemuan untuk tempat konsultasi maupun pertemuan bagi para investor dan pelaku usaha.",
+            "source": "webview-import",
+            "sourceId": "512",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Caffe Investasi",
+                    "content": "Cafe investasi adalah fasilitas yang ada di Mal Pelayanan Publik yang berada di Terminal Mangkang. Cafe investasi ini menyediakan ruang pertemuan untuk tempat konsultasi maupun pertemuan bagi para investor dan pelaku usaha."
+                },
+                "en": {
+                    "title": "Caffe Investasi",
+                    "content": "Investment cafe is a facility at the Public Service Mall in Mangkang Terminal. This cafe provides a meeting space for consultations and gatherings for investors and business actors."
+                },
+                "zh": {
+                    "title": "投資咖啡廳",
+                    "content": "投資咖啡廳是位於 Mangkang 終點站公共服務商場的設施。這間咖啡廳提供會議空間，供投資者和商業人士進行諮詢或會議。"
+                },
+                "ar": {
+                    "title": "مقهى الاستثمار",
+                    "content": "مقهى الاستثمار هو منشأة موجودة في مول الخدمة العامة بمحطة مانكانغ. يوفر هذا المقهى مساحة للاجتماعات للاستشارات أو لقاءات المستثمرين ورواد الأعمال."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:513",
+            "entityId": "objinfo2:513",
+            "title": "MPP",
+            "aliases": [
+                "mpp",
+                "objek 513"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "MPP Terminal Mangkang adalah pusat layanan terpadu yang menyajikan lebih dari 200 jenis layanan publik, termasuk perizinan usaha, layanan SIM, SKCK, Dukcapil, dan perpajakan, yang disediakan oleh puluhan instansi dalam satu gedung. Untuk kenyamanan, fasilitas pendukungnya mencakup konter layanan, ruang laktasi, playground anak, meeting room, lift/fasilitas difabel, hingga mushola dan ATM center.",
+            "source": "webview-import",
+            "sourceId": "513",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "MPP",
+                    "content": "MPP Terminal Mangkang adalah pusat layanan terpadu yang menyajikan lebih dari 200 jenis layanan publik, termasuk perizinan usaha, layanan SIM, SKCK, Dukcapil, dan perpajakan, yang disediakan oleh puluhan instansi dalam satu gedung. Untuk kenyamanan, fasilitas pendukungnya mencakup konter layanan, ruang laktasi, playground anak, meeting room, lift/fasilitas difabel, hingga mushola dan ATM center."
+                },
+                "en": {
+                    "title": "MPP",
+                    "content": "MPP Terminal Mangkang is an integrated service center offering more than 200 types of public services, including business permits, driving licenses, police clearance (SKCK), civil registry (Dukcapil), and taxation, provided by dozens of agencies within a single building. For convenience, supporting facilities include service counters, lactation rooms, children’s playground, meeting rooms, elevators/accessible facilities, prayer rooms, and an ATM center."
+                },
+                "zh": {
+                    "title": "綜合公共服務中心",
+                    "content": "曼干終點站 MPP 是一個綜合服務中心，提供超過 200 種公共服務，包括營業執照、駕照、警方證明（SKCK）、戶籍登記（Dukcapil）及稅務服務，由數十個機構在同一建築內提供。為了便利，配套設施包括服務櫃台、哺乳室、兒童遊樂場、會議室、電梯/無障礙設施、祈禱室及自動提款機中心。"
+                },
+                "ar": {
+                    "title": "مركز الخدمات العامة المتكامل",
+                    "content": "MPP محطة مانكانغ هو مركز خدمة متكامل يقدم أكثر من 200 نوع من الخدمات العامة، بما في ذلك تصاريح العمل، رخص القيادة، شهادة حسن السيرة (SKCK)، السجل المدني (Dukcapil) والضرائب، مقدمة من عشرات الجهات في مبنى واحد. لتوفير الراحة، تشمل المرافق الداعمة عدادات الخدمة، غرف الرضاعة، ملعب للأطفال، غرف اجتماعات، مصاعد/مرافق لذوي الاحتياجات الخاصة، ومسجد صغير ومركز صراف آلي."
+                }
+            }
+        }
+    ]
+}

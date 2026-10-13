@@ -2,49 +2,49 @@
     "version": "1.0",
     "tourId": "green-fresh-farm",
     "tourName": "Green Fresh Farm",
-    "updatedAt": "2026-08-29T07:22:34+02:00",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
     "state1": {
         "starters": [
             {
-                "label": "Patung GFF",
-                "query": "Bagaimana bentuk Patung GFF yang menyambut pengunjung di pintu masuk Green Fresh Farm?",
-                "desc": "Bagaimana bentuk Patung GFF yang menyambut pengunjung di pintu masuk Green Fresh Farm?"
+                "label": "Bisa beli sayur langsung?",
+                "query": "Apakah pengunjung bisa membeli sayuran hasil panen langsung di lokasi?",
+                "desc": "Apakah pengunjung bisa membeli sayuran hasil panen langsung di lokasi?"
             },
             {
-                "label": "Kandang Sapi",
-                "query": "Seperti apa desain Kandang Sapi di Green Fresh Farm yang menggunakan sistem terbuka?",
-                "desc": "Seperti apa desain Kandang Sapi di Green Fresh Farm yang menggunakan sistem terbuka?"
+                "label": "Cara ikut tur edukasi?",
+                "query": "Bagaimana cara mendaftar untuk mengikuti tur edukasi pertanian hidroponik di sini?",
+                "desc": "Bagaimana cara mendaftar untuk mengikuti tur edukasi pertanian hidroponik di sini?"
             },
             {
-                "label": "Jam Kunjungan",
-                "query": "Kapan waktu operasional dan jam kunjungan terbaik untuk datang ke Green Fresh Farm?",
-                "desc": "Kapan waktu operasional dan jam kunjungan terbaik untuk datang ke Green Fresh Farm?"
+                "label": "Sayuran paling favorit?",
+                "query": "Jenis sayuran apa yang paling banyak diminati dan menjadi favorit pengunjung?",
+                "desc": "Jenis sayuran apa yang paling banyak diminati dan menjadi favorit pengunjung?"
             }
         ],
         "themes": [
             {
-                "label": "Patung Sapi",
-                "query": "Ceritakan tentang Patung GFF yang menjadi maskot utama di Green Fresh Farm."
+                "label": "Sayuran Hidroponik",
+                "query": "Apa saja jenis sayuran hidroponik segar yang dibudidayakan di dalam kawasan Green Fresh Farm?"
             },
             {
-                "label": "Kandang Domba",
-                "query": "Apa saja jenis hewan yang ada di area Kandang Domba dan mini zoo Green Fresh Farm?"
+                "label": "Wisata Edukasi Bertani",
+                "query": "Bagaimana proses wisata edukasi yang mengajarkan pengunjung cara menanam sayuran dengan sistem modern?"
             },
             {
-                "label": "Jambu Kristal",
-                "query": "Bagaimana pengelolaan tanaman Jambu Kristal sebagai agrowisata di Green Fresh Farm?"
+                "label": "Sensasi Panen Sendiri",
+                "query": "Seperti apa keseruan pengalaman memetik atau memanen sayuran segar langsung dari kebunnya?"
             },
             {
-                "label": "Bibit Tanaman",
-                "query": "Apa saja aktivitas wisata edukasi bercocok tanam yang ada di area Bibit Tanaman?"
+                "label": "Teknologi Green House",
+                "query": "Teknologi dan inovasi apa saja yang diterapkan di dalam green house untuk menjaga kualitas tanaman?"
             },
             {
-                "label": "Budidaya Mentimun",
-                "query": "Bagaimana konsep pertanian terintegrasi diterapkan pada budidaya mentimun di sini?"
+                "label": "Fasilitas Keluarga",
+                "query": "Fasilitas bersantai atau area rekreasi apa saja yang bisa dinikmati oleh keluarga setelah berkeliling kebun?"
             },
             {
-                "label": "Spot Foto",
-                "query": "Di mana saja spot foto terbaik dan paling menarik saat menjelajahi Green Fresh Farm?"
+                "label": "Produk Olahan Sehat",
+                "query": "Apakah ada produk olahan makanan atau minuman sehat berbahan dasar sayuran organik yang bisa dicicipi?"
             }
         ]
     },

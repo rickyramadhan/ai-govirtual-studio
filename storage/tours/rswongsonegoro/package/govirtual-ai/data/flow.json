@@ -1,0 +1,79 @@
+{
+    "version": "1.0",
+    "tourId": "rswongsonegoro",
+    "tourName": "Rswongsonegoro",
+    "updatedAt": "2026-09-29T09:52:13+02:00",
+    "startScene": "node24",
+    "order": [
+        "node24",
+        "node25",
+        "node26",
+        "node27",
+        "node28",
+        "node29",
+        "node30",
+        "node31",
+        "node32",
+        "node33",
+        "node38",
+        "node39",
+        "node40",
+        "node41",
+        "node42",
+        "node43",
+        "node44"
+    ],
+    "nodes": {
+        "node24": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Drop-off IGD – Jalur Kedatangan"
+        },
+        "node25": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Ballroom – Panggung"
+        },
+        "node26": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Ruang Radioterapi"
+        },
+        "node27": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Ruang Cath Lab"
+        },
+        "node28": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Pintu IGD – Area Penerima"
+        },
+        "node29": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Foyer Ballroom"
+        },
+        "node30": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Ruang MRI"
+        },
+        "node31": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Ruang Operasi"
+        },
+        "node32": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Kamar VVIP – Area Masuk"
+        },
+        "node33": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Kamar VVIP – Sisi Jendela"
+        },
+        "node38": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Kamar Inap – Area Pendamping"
+        },
+        "node39": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Kamar Inap – Tempat Tidur"
+        },
+        "node40": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Rehabilitasi Sport Injury"
+        },
+        "node41": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Kolam Hidroterapi"
+        },
+        "node42": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Ruang Terapi Anak"
+        },
+        "node43": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Informasi Paviliun Gatotkaca"
+        },
+        "node44": {
+            "displayName": "RSD K.R.M.T. Wongsonegoro – Lobi Pelayanan Kanker Terpadu"
+        }
+    }
+}

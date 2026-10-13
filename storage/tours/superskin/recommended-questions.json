@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "superskin",
+    "tourName": "Superskin",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Konsultasi Awal",
+                "query": "Apakah biaya konsultasi dokter kulit di Super Skin sudah termasuk dalam harga treatment?",
+                "desc": "Apakah biaya konsultasi dokter kulit di Super Skin sudah termasuk dalam harga treatment?"
+            },
+            {
+                "label": "Cabang Klinik",
+                "query": "Di mana saja lokasi cabang Super Skin lainnya yang ada di kota Semarang?",
+                "desc": "Di mana saja lokasi cabang Super Skin lainnya yang ada di kota Semarang?"
+            },
+            {
+                "label": "Promo Pelajar",
+                "query": "Apakah klinik ini menyediakan potongan harga atau promo khusus bagi pelajar dan mahasiswa?",
+                "desc": "Apakah klinik ini menyediakan potongan harga atau promo khusus bagi pelajar dan mahasiswa?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Klinik Kecantikan Terpadu",
+                "query": "Bagaimana konsep klinik kecantikan terpadu Super Skin dalam memberikan solusi menyeluruh untuk berbagai masalah kulit?"
+            },
+            {
+                "label": "Skin Booster Treatment",
+                "query": "Bagaimana cara kerja dan manfaat dari perawatan skin booster untuk menghidrasi dan mencerahkan kulit wajah?"
+            },
+            {
+                "label": "Layanan Hair Removal",
+                "query": "Teknologi apa yang digunakan Super Skin untuk perawatan hair removal yang aman dan tanpa rasa sakit?"
+            },
+            {
+                "label": "Fasilitas Klinik Modern",
+                "query": "Apa saja fasilitas modern yang melengkapi ruang tunggu dan ruang perawatan di dalam klinik ini?"
+            },
+            {
+                "label": "Analisis Kulit Digital",
+                "query": "Bagaimana proses penggunaan alat skin analyzer digital untuk mengetahui kondisi kulit pasien secara detail?"
+            },
+            {
+                "label": "Paket Perawatan Spesial",
+                "query": "Paket perawatan kombinasi apa saja yang sering ditawarkan untuk persiapan hari pernikahan atau acara spesial?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Superskin?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Superskin?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Superskin?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

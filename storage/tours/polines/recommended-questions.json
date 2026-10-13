@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "polines",
+    "tourName": "Polines",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jalur Masuk Vokasi",
+                "query": "Apa saja jalur seleksi nasional dan mandiri untuk masuk ke politeknik negeri ini?",
+                "desc": "Apa saja jalur seleksi nasional dan mandiri untuk masuk ke politeknik negeri ini?"
+            },
+            {
+                "label": "Lokasi Kampus Tembalang",
+                "query": "Bagaimana akses transportasi menuju kampus Polines yang letaknya bersebelahan dengan Undip?",
+                "desc": "Bagaimana akses transportasi menuju kampus Polines yang letaknya bersebelahan dengan Undip?"
+            },
+            {
+                "label": "Beasiswa Mahasiswa",
+                "query": "Apakah ada beasiswa penuh atau bantuan UKT bagi mahasiswa berprestasi di Polines?",
+                "desc": "Apakah ada beasiswa penuh atau bantuan UKT bagi mahasiswa berprestasi di Polines?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Politeknik Negeri Unggulan",
+                "query": "Bagaimana peran Politeknik Negeri Semarang (Polines) sebagai salah satu institusi pendidikan vokasi terbaik di Indonesia?"
+            },
+            {
+                "label": "Fasilitas Bengkel & Lab",
+                "query": "Bagaimana kelengkapan fasilitas bengkel teknik dan laboratorium yang mendukung kelancaran praktik langsung mahasiswa?"
+            },
+            {
+                "label": "Program Studi Vokasi",
+                "query": "Program studi terapan apa saja yang paling diminati di bidang rekayasa teknik dan tata niaga?"
+            },
+            {
+                "label": "Kolaborasi Industri",
+                "query": "Perusahaan industri dan multinasional mana saja yang menjalin kerjasama erat dengan Polines untuk penyerapan lulusan?"
+            },
+            {
+                "label": "Hasil Karya Terapan",
+                "query": "Apa saja inovasi teknologi dan produk terapan yang berhasil diciptakan oleh mahasiswa dari tugas akhir mereka?"
+            },
+            {
+                "label": "Organisasi & UKM Kampus",
+                "query": "Unit Kegiatan Mahasiswa (UKM) apa saja yang aktif menunjang kepemimpinan dan soft skill mahasiswa vokasi?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Polines?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Polines?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Polines?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

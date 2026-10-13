@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(where ngrok 2>nul && ngrok version)",
+      "Shell(netstat:*)",
+      "Shell(findstr:*)",
+      "Shell(taskkill /F /IM ngrok.exe 2>nul; timeout /t 1 /nobreak >nul)",
+      "Shell(ngrok:*)",
+      "Shell(timeout /t 3 /nobreak >nul && type ngrok.log | findstr \"url=https\")"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

@@ -1,0 +1,123 @@
+{
+    "version": "1.0",
+    "tourId": "dpmall",
+    "tourName": "DP Mall Semarang",
+    "updatedAt": "2026-09-29T06:09:56+02:00",
+    "startScene": "node107",
+    "order": [
+        "node107",
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106"
+    ],
+    "nodes": {
+        "node107": {
+            "displayName": "DP Mall Semarang – Pelataran Utama DP Mall"
+        },
+        "node80": {
+            "displayName": "DP Mall Semarang – Jalur Ramp Parkir"
+        },
+        "node81": {
+            "displayName": "DP Mall Semarang – Akses Utama DP Mall"
+        },
+        "node82": {
+            "displayName": "DP Mall Semarang – Fasad Pintu Barat"
+        },
+        "node83": {
+            "displayName": "DP Mall Semarang – Pintu South Lobby"
+        },
+        "node84": {
+            "displayName": "DP Mall Semarang – Lobi Gerai Kuliner"
+        },
+        "node85": {
+            "displayName": "DP Mall Semarang – Ambang Lobi Barat"
+        },
+        "node86": {
+            "displayName": "DP Mall Semarang – Koridor Lobi Sisi Dalam"
+        },
+        "node87": {
+            "displayName": "DP Mall Semarang – Lobi Selatan – Petunjuk Layanan"
+        },
+        "node88": {
+            "displayName": "DP Mall Semarang – Koridor Gerai Kosmetik"
+        },
+        "node89": {
+            "displayName": "DP Mall Semarang – Persimpangan Koridor Belanja"
+        },
+        "node90": {
+            "displayName": "DP Mall Semarang – Akses Supermarket"
+        },
+        "node91": {
+            "displayName": "DP Mall Semarang – Supermarket – Produk Segar"
+        },
+        "node92": {
+            "displayName": "DP Mall Semarang – Jalur Keluar Samping Mal"
+        },
+        "node93": {
+            "displayName": "DP Mall Semarang – Lobi Barat – Area Dalam"
+        },
+        "node94": {
+            "displayName": "DP Mall Semarang – Koridor Lantai 1"
+        },
+        "node95": {
+            "displayName": "DP Mall Semarang – Food Court – Ruang Makan"
+        },
+        "node96": {
+            "displayName": "DP Mall Semarang – Food Court – Lorong Konter"
+        },
+        "node97": {
+            "displayName": "DP Mall Semarang – Pintu Timezone"
+        },
+        "node98": {
+            "displayName": "DP Mall Semarang – Pintu Bioskop XXI"
+        },
+        "node99": {
+            "displayName": "DP Mall Semarang – Akses Fasilitas Dekat Parkir"
+        },
+        "node100": {
+            "displayName": "DP Mall Semarang – Parkir Beratap – Jalur Kolom"
+        },
+        "node101": {
+            "displayName": "DP Mall Semarang – Parkir Beratap – Deretan Kendaraan"
+        },
+        "node102": {
+            "displayName": "DP Mall Semarang – Jalur Masuk Sisi Bangunan"
+        },
+        "node103": {
+            "displayName": "DP Mall Semarang – Area Keluar dan Penjemputan"
+        },
+        "node104": {
+            "displayName": "DP Mall Semarang – Parkir Terbuka Lantai 2"
+        },
+        "node105": {
+            "displayName": "DP Mall Semarang – Parkir Terbuka – Sisi Tepi"
+        },
+        "node106": {
+            "displayName": "DP Mall Semarang – Jalur Pintu Barat"
+        }
+    }
+}

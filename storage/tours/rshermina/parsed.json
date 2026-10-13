@@ -1,0 +1,955 @@
+{
+    "startNode": "node80",
+    "scenes": [
+        {
+            "id": "node80",
+            "name": "RS Hermina Banyumanik",
+            "displayName": "RS Hermina Banyumanik",
+            "rawName": "",
+            "customNodeId": "-ermina-anyumanik",
+            "pan": 4.12,
+            "tilt": 1.72,
+            "fov": 117.85,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "RS Hermina Banyumanik"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "RS Hermina Banyumanik",
+            "displayName": "RS Hermina Banyumanik",
+            "rawName": "",
+            "customNodeId": "-ermina-anyumanik",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "RS Hermina Banyumanik"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Basement",
+            "displayName": "Basement",
+            "rawName": "",
+            "customNodeId": "-asement",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Basement"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Air Mancur",
+            "displayName": "Air Mancur",
+            "rawName": "",
+            "customNodeId": "-ir-ancur",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Air Mancur"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Depan Lobi",
+            "displayName": "Depan Lobi",
+            "rawName": "",
+            "customNodeId": "-epan-obi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Depan Lobi"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Lobi",
+            "displayName": "Lobi",
+            "rawName": "",
+            "customNodeId": "-obi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Lobi"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Ruangperawatan",
+            "displayName": "Ruangperawatan",
+            "rawName": "",
+            "customNodeId": "ruangperawatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "ruangperawatan"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Lobi",
+            "displayName": "Lobi",
+            "rawName": "",
+            "customNodeId": "-obi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Lobi"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Parkir Ambulans",
+            "displayName": "Parkir Ambulans",
+            "rawName": "",
+            "customNodeId": "-arkir-mbulans",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Parkir Ambulans"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Persimpangan Jalan",
+            "displayName": "Persimpangan Jalan",
+            "rawName": "",
+            "customNodeId": "-ersimpangan-alan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Persimpangan Jalan"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Pintu IGD",
+            "displayName": "Pintu IGD",
+            "rawName": "",
+            "customNodeId": "-intu-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Pintu IGD"
+            ]
+        },
+        {
+            "id": "node92",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Ctscan",
+            "displayName": "Ctscan",
+            "rawName": "",
+            "customNodeId": "ctscan",
+            "pan": -0.22,
+            "tilt": -5.18,
+            "fov": 152.83,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "ctscan"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Igd",
+            "displayName": "Igd",
+            "rawName": "",
+            "customNodeId": "igd",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "igd"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Panaromic",
+            "displayName": "Panaromic",
+            "rawName": "",
+            "customNodeId": "panaromic",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "panaromic"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Treadmil",
+            "displayName": "Treadmil",
+            "rawName": "",
+            "customNodeId": "treadmil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "treadmil"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Ruang Pendaftaran",
+            "displayName": "Ruang Pendaftaran",
+            "rawName": "",
+            "customNodeId": "-uang-endaftaran",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Ruang Pendaftaran"
+            ]
+        },
+        {
+            "id": "node99",
+            "name": "Ruang Pendaftaran",
+            "displayName": "Ruang Pendaftaran",
+            "rawName": "",
+            "customNodeId": "-uang-endaftaran",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Ruang Pendaftaran"
+            ]
+        },
+        {
+            "id": "node100",
+            "name": "Kliniktht",
+            "displayName": "Kliniktht",
+            "rawName": "",
+            "customNodeId": "kliniktht",
+            "pan": -18.51,
+            "tilt": -16.46,
+            "fov": 130.34,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "kliniktht"
+            ]
+        },
+        {
+            "id": "node101",
+            "name": "Ruangradiologi",
+            "displayName": "Ruangradiologi",
+            "rawName": "",
+            "customNodeId": "ruangradiologi",
+            "pan": 6.91,
+            "tilt": -18.03,
+            "fov": 130.34,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "ruangradiologi"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Ruang Tunggu",
+            "displayName": "Ruang Tunggu",
+            "rawName": "",
+            "customNodeId": "-uang-unggu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Ruang Tunggu"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Ruang Tunggu",
+            "displayName": "Ruang Tunggu",
+            "rawName": "",
+            "customNodeId": "-uang-unggu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Ruang Tunggu"
+            ]
+        },
+        {
+            "id": "node104",
+            "name": "Ruang Tunggu Lab",
+            "displayName": "Ruang Tunggu Lab",
+            "rawName": "",
+            "customNodeId": "-uang-unggu-ab",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "Ruang Tunggu Lab"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Usg",
+            "displayName": "Usg",
+            "rawName": "",
+            "customNodeId": "usg",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "rshermina"
+            ],
+            "aliases": [
+                "usg"
+            ]
+        },
+        {
+            "id": "node106",
+            "name": "Tamanvoid",
+            "displayName": "Tamanvoid",
+            "rawName": "",
+            "customNodeId": "tamanvoid",
+            "pan": 4.12,
+            "tilt": 1.72,
+            "fov": 152.83,
+            "tags": [
+                "rshermina"
+            ],
+            "aliases": [
+                "tamanvoid"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node80",
+            "target": "node83",
+            "title": "Air Mancur",
+            "id": "Point04",
+            "pan": -355.56,
+            "tilt": -24.9
+        },
+        {
+            "scene": "node80",
+            "target": "node93",
+            "title": "Pintu Masuk",
+            "id": "Point05",
+            "pan": -54.08,
+            "tilt": -40.24
+        },
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "RS Hermina Banyumanik",
+            "id": "Point07",
+            "pan": 55.89,
+            "tilt": 12.45
+        },
+        {
+            "scene": "node81",
+            "target": "node80",
+            "title": "RS Hermina Banyumanik",
+            "id": "Point02",
+            "pan": -45.62,
+            "tilt": 16.5
+        },
+        {
+            "scene": "node81",
+            "target": "node89",
+            "title": "Parkir Ambulans",
+            "id": "Point01",
+            "pan": -1.59,
+            "tilt": -8.29
+        },
+        {
+            "scene": "node81",
+            "target": "node90",
+            "title": "Persimpangan Jalan",
+            "id": "Point03",
+            "pan": 19.69,
+            "tilt": -7.26
+        },
+        {
+            "scene": "node82",
+            "target": "node90",
+            "title": "Persimpangan Jalan",
+            "id": "Point02",
+            "pan": -197.31,
+            "tilt": -4.73
+        },
+        {
+            "scene": "node82",
+            "target": "node87",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -8.73,
+            "tilt": -2.01
+        },
+        {
+            "scene": "node83",
+            "target": "node90",
+            "title": "Persimpangan Jalan",
+            "id": "Point01",
+            "pan": 309.61,
+            "tilt": -3.26
+        },
+        {
+            "scene": "node83",
+            "target": "node98",
+            "title": "Ruang Pendaftaran",
+            "id": "Point02",
+            "pan": 56.3,
+            "tilt": -0.78
+        },
+        {
+            "scene": "node83",
+            "target": "node92",
+            "title": "Pintu Keluar",
+            "id": "Point04",
+            "pan": -266.93,
+            "tilt": -2.38
+        },
+        {
+            "scene": "node83",
+            "target": "node93",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": -104.91,
+            "tilt": -3.16
+        },
+        {
+            "scene": "node84",
+            "target": "node90",
+            "title": "Persimpangan Jalan",
+            "id": "Point03",
+            "pan": -262.6,
+            "tilt": -3.77
+        },
+        {
+            "scene": "node84",
+            "target": "node91",
+            "title": "Pintu IGD",
+            "id": "Point02",
+            "pan": 276.09,
+            "tilt": -3.9
+        },
+        {
+            "scene": "node84",
+            "target": "node85",
+            "title": "Masuk Lobi",
+            "id": "Point01",
+            "pan": 3.48,
+            "tilt": -3.43
+        },
+        {
+            "scene": "node85",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -195.66,
+            "tilt": -8.66
+        },
+        {
+            "scene": "node85",
+            "target": "node95",
+            "title": "Masuk IGD",
+            "id": "Point01",
+            "pan": -143.84,
+            "tilt": -7.65
+        },
+        {
+            "scene": "node85",
+            "target": "node104",
+            "title": "Ruang Tunggu Lab",
+            "id": "Point03",
+            "pan": -267.45,
+            "tilt": -3
+        },
+        {
+            "scene": "node86",
+            "target": "node106",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -219.61,
+            "tilt": -15.48
+        },
+        {
+            "scene": "node87",
+            "target": "node82",
+            "title": "Basement",
+            "id": "Point02",
+            "pan": -238.19,
+            "tilt": -12.45
+        },
+        {
+            "scene": "node87",
+            "target": "node99",
+            "title": "Ruang Pendaftaran",
+            "id": "Point01",
+            "pan": -95.95,
+            "tilt": -8.44
+        },
+        {
+            "scene": "node87",
+            "target": "node103",
+            "title": "Ruang Tunggu",
+            "id": "Point03",
+            "pan": -311.36,
+            "tilt": -12.06
+        },
+        {
+            "scene": "node88",
+            "target": "node103",
+            "title": "Ruang Tunggu",
+            "id": "Point02",
+            "pan": -202.67,
+            "tilt": -24.5
+        },
+        {
+            "scene": "node89",
+            "target": "node91",
+            "title": "Pintu IGD",
+            "id": "Point02",
+            "pan": -273.21,
+            "tilt": -3.69
+        },
+        {
+            "scene": "node90",
+            "target": "node83",
+            "title": "RS Hermina Banyumanik",
+            "id": "Point01",
+            "pan": -356.51,
+            "tilt": -3.02
+        },
+        {
+            "scene": "node90",
+            "target": "node84",
+            "title": "Depan Lobi",
+            "id": "Point02",
+            "pan": -66.48,
+            "tilt": -2.8
+        },
+        {
+            "scene": "node90",
+            "target": "node82",
+            "title": "Basement",
+            "id": "Point03",
+            "pan": -293.55,
+            "tilt": -2.59
+        },
+        {
+            "scene": "node91",
+            "target": "node84",
+            "title": "Depan Lobi",
+            "id": "Point02",
+            "pan": -300.9,
+            "tilt": -11.81
+        },
+        {
+            "scene": "node91",
+            "target": "node89",
+            "title": "Parkir Ambulans",
+            "id": "Point03",
+            "pan": -126.12,
+            "tilt": -7.87
+        },
+        {
+            "scene": "node91",
+            "target": "node95",
+            "title": "Masuk IGD",
+            "id": "Point01",
+            "pan": 1.24,
+            "tilt": -9.86
+        },
+        {
+            "scene": "node92",
+            "target": "node83",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -31.64,
+            "tilt": -11.56
+        },
+        {
+            "scene": "node93",
+            "target": "node83",
+            "title": "Air Mancur",
+            "id": "Point01",
+            "pan": -327.23,
+            "tilt": -7.36
+        },
+        {
+            "scene": "node94",
+            "target": "node98",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -236.3,
+            "tilt": -11.97
+        },
+        {
+            "scene": "node95",
+            "target": "node91",
+            "title": "Pintu IGD",
+            "id": "Point02",
+            "pan": -250.1,
+            "tilt": -4.1
+        },
+        {
+            "scene": "node95",
+            "target": "node85",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -118.95,
+            "tilt": -9.63
+        },
+        {
+            "scene": "node96",
+            "target": "node98",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": 172.45,
+            "tilt": -18.91
+        },
+        {
+            "scene": "node97",
+            "target": "node102",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -221.82,
+            "tilt": -18.74
+        },
+        {
+            "scene": "node98",
+            "target": "node83",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -271.68,
+            "tilt": -16.92
+        },
+        {
+            "scene": "node98",
+            "target": "node96",
+            "title": "Ruang Panoramic",
+            "id": "Point01",
+            "pan": 264.82,
+            "tilt": -4.39
+        },
+        {
+            "scene": "node98",
+            "target": "node94",
+            "title": "Ruang CT Scan",
+            "id": "Point03",
+            "pan": 248.42,
+            "tilt": -5.44
+        },
+        {
+            "scene": "node99",
+            "target": "node87",
+            "title": "Lobi",
+            "id": "Point02",
+            "pan": -271.94,
+            "tilt": -11.47
+        },
+        {
+            "scene": "node100",
+            "target": "node103",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -127.11,
+            "tilt": -23.84
+        },
+        {
+            "scene": "node101",
+            "target": "node104",
+            "title": "Ruang Tunggu Lab",
+            "id": "Point02",
+            "pan": -177.5,
+            "tilt": -24.62
+        },
+        {
+            "scene": "node102",
+            "target": "node103",
+            "title": "Ruang Tunggu",
+            "id": "Point02",
+            "pan": -72.55,
+            "tilt": -9.42
+        },
+        {
+            "scene": "node102",
+            "target": "node97",
+            "title": "Ruang Pemeriksaan",
+            "id": "Point01",
+            "pan": -7.53,
+            "tilt": -7.53
+        },
+        {
+            "scene": "node103",
+            "target": "node87",
+            "title": "Lobi",
+            "id": "Point02",
+            "pan": -265.86,
+            "tilt": -8.22
+        },
+        {
+            "scene": "node103",
+            "target": "node102",
+            "title": "Ruang Tunggu",
+            "id": "Point01",
+            "pan": -232.38,
+            "tilt": -5.46
+        },
+        {
+            "scene": "node103",
+            "target": "node88",
+            "title": "Musholla",
+            "id": "Point03",
+            "pan": 267.48,
+            "tilt": -8.25
+        },
+        {
+            "scene": "node103",
+            "target": "node106",
+            "title": "Taman Void",
+            "id": "Point04",
+            "pan": -127.92,
+            "tilt": -11.6
+        },
+        {
+            "scene": "node103",
+            "target": "node100",
+            "title": "Klinik THT",
+            "id": "Point05",
+            "pan": -4.08,
+            "tilt": -24.91
+        },
+        {
+            "scene": "node104",
+            "target": "node85",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -82.36,
+            "tilt": -9.92
+        },
+        {
+            "scene": "node104",
+            "target": "node101",
+            "title": "Radiologi",
+            "id": "Point02",
+            "pan": -44.4,
+            "tilt": -18.38
+        },
+        {
+            "scene": "node104",
+            "target": "node105",
+            "title": "Ruang USG",
+            "id": "Point03",
+            "pan": -305.7,
+            "tilt": -17.22
+        },
+        {
+            "scene": "node105",
+            "target": "node104",
+            "title": "Ruang Tunggu Lab",
+            "id": "Point02",
+            "pan": -134.24,
+            "tilt": -11.38
+        },
+        {
+            "scene": "node106",
+            "target": "node103",
+            "title": "Ruang Tunggu",
+            "id": "Point02",
+            "pan": -186.4,
+            "tilt": -6.4
+        },
+        {
+            "scene": "node106",
+            "target": "node86",
+            "title": "Ruang Unit Perawatan",
+            "id": "Point03",
+            "pan": 0.73,
+            "tilt": -3.43
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 182,
+            "label": "Taman Void",
+            "description": "Fasilitas Taman Void di RS Hermina Banyumanik Semarang merujuk pada area terbuka di tengah bangunan (void) yang didesain menjadi ruang hijau atau taman dalam ruangan. Taman ini berfungsi sebagai area relaksasi bagi pasien dan pengunjung serta memberikan suasana asri dan pencahayaan alami untuk menciptakan lingkungan penyembuhan yang nyaman dan tenang.",
+            "fragment": "tamanvoid",
+            "link": "rsherminabanyumanik/index.html#tamanvoid",
+            "sceneId": "node106"
+        },
+        {
+            "infoId": 183,
+            "label": "CT Scan",
+            "description": "Fasilitas CT Scan (Computed Tomography Scan) di RS Hermina Banyumanik Semarang merupakan salah satu layanan unggulan yang tersedia di Instalasi Radiologi rumah sakit tersebut. Alat canggih ini digunakan untuk menghasilkan gambar rinci berbagai bagian tubuh (seperti tulang, organ, atau pembuluh darah) secara cepat dan akurat, sangat membantu dokter dalam menegakkan diagnosis, terutama dalam kondisi darurat.",
+            "fragment": "ctscan",
+            "link": "rsherminabanyumanik/index.html#ctscan",
+            "sceneId": "node94"
+        },
+        {
+            "infoId": 184,
+            "label": "Radiologi",
+            "description": "Fasilitas Radiologi di RS Hermina Banyumanik Semarang adalah layanan penunjang diagnostik 24 jam yang menyediakan berbagai metode pencitraan medis canggih. Layanan ini mencakup pemeriksaan vital seperti CT Scan, USG 2D/3D/4D, Foto Rontgen (termasuk Panoramik Gigi dan Thorax), yang didukung oleh dokter spesialis dan teknologi terkini.",
+            "fragment": "ruangradiologi",
+            "link": "rsherminabanyumanik/index.html#ruangradiologi",
+            "sceneId": "node101"
+        },
+        {
+            "infoId": 1195,
+            "label": "Klinik THT",
+            "description": "Klinik THT (Telinga, Hidung, dan Tenggorok) di RS Hermina Banyumanik Semarang didukung oleh Dokter Spesialis THT-KL (Klinik Telinga, Hidung, Tenggorok, Bedah Kepala Leher) yang berpraktik secara terjadwal. Layanan ini melayani berbagai masalah pada telinga, hidung, dan tenggorokan, termasuk konsultasi, penanganan gangguan tidur terkait pernapasan, serta prosedur bedah kepala dan leher.",
+            "fragment": "kliniktht",
+            "link": "rsherminabanyumanik/index.html#kliniktht",
+            "sceneId": "node100"
+        },
+        {
+            "infoId": 1196,
+            "label": "Ruang Perawatan",
+            "description": "Fasilitas ruang perawatan di RS Hermina Banyumanik Semarang menawarkan berbagai pilihan kelas, mulai dari Kelas 3 hingga Kelas VIP/Suite, disesuaikan dengan kebutuhan kenyamanan pasien. Selain kamar rawat inap umum, RS ini juga menyediakan Unit Perawatan Intensif (ICU/NICU/PICU) dan Perina untuk penanganan pasien dengan kondisi khusus atau kritis.",
+            "fragment": "ruangperawatan",
+            "link": "rsherminabanyumanik/index.html#ruangperawatan",
+            "sceneId": "node86"
+        },
+        {
+            "infoId": 1197,
+            "label": "IGD",
+            "description": "Fasilitas Instalasi Gawat Darurat (IGD) di RS Hermina Banyumanik Semarang adalah layanan kedaruratan 24 jam yang didukung oleh dokter jaga, perawat profesional, dan sistem SPGDT (Sistem Penanggulangan Gawat Darurat Terpadu). IGD ini juga mencakup area IGD Eksekutif dan terintegrasi dengan layanan penunjang seperti Radiologi dan Laboratorium untuk penanganan pasien secara cepat dan tepat.",
+            "fragment": "igd",
+            "link": "rsherminabanyumanik/index.html#igd",
+            "sceneId": "node95"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "7394056e69fe7341",
+        "skin.js": "4f48b0836bfaa67c",
+        "index.html": "75151005dc3e7990"
+    }
+}

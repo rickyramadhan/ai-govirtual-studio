@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "mandhalabakti",
+    "updatedAt": "2026-09-29T09:51:19+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Mandhalabakti",
+            "aliases": [
+                "mandhalabakti"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "mandhalabakti"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Mandhalabakti.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Mandhalabakti",
+                    "content": "Pusat pengalaman virtual untuk Mandhalabakti."
+                },
+                "en": {
+                    "title": "Mandhalabakti",
+                    "content": "Pusat pengalaman virtual untuk Mandhalabakti."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "mandhalabakti"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Perpustakaandalam",
+            "aliases": [
+                "perpustakaandalam"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "mandhalabakti"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaandalam",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Perpustakaandalam",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "mandhalabakti"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:125",
+            "entityId": "objinfo2:125",
+            "title": "Kisah Perjalanan Diponegoro",
+            "aliases": [
+                "kisah perjalanan diponegoro",
+                "objek 125"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Mandala Bhakti menyimpan jejak perjuangan Pangeran Diponegoro, yang dikenal memimpin Perang Jawa (1825–1830) dengan strategi gerilya melawan penjajah Belanda. Koleksi terkait beliau yang dapat dilihat meliputi lukisan yang menjelaskan kisah perjalanannya, replika pakaian, dan berbagai jenis senjata yang digunakan dalam pertempuran.",
+            "source": "webview-import",
+            "sourceId": "125",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kisah Perjalanan Diponegoro",
+                    "content": "Museum Mandala Bhakti menyimpan jejak perjuangan Pangeran Diponegoro, yang dikenal memimpin Perang Jawa (1825–1830) dengan strategi gerilya melawan penjajah Belanda. Koleksi terkait beliau yang dapat dilihat meliputi lukisan yang menjelaskan kisah perjalanannya, replika pakaian, dan berbagai jenis senjata yang digunakan dalam pertempuran."
+                },
+                "en": {
+                    "title": "The Journey Story of Diponegoro",
+                    "content": "Mandala Bhakti Museum preserves the legacy of Prince Diponegoro, famed for leading the Java War (1825–1830) using guerrilla tactics against Dutch colonizers. Exhibits include paintings depicting his journey, replicas of his attire, and various weapons used in battle."
+                },
+                "zh": {
+                    "title": "迪波内戈罗的旅程故事",
+                    "content": "曼达拉巴克蒂博物馆保存了迪波内哥罗王子（Pangeran Diponegoro）的奋斗遗迹，他以游击战策略领导爪哇战争（1825–1830）对抗荷兰殖民者。展品包括描绘他历程的画作、服饰复制品以及各种战斗使用的武器。"
+                },
+                "ar": {
+                    "title": "قصة رحلة ديبونيغورو",
+                    "content": "يحافظ متحف مندالا باختي على إرث الأمير ديبونيغورو، المعروف بقيادته حرب جاوة (1825–1830) باستخدام تكتيكات حرب العصابات ضد المستعمرين الهولنديين. تشمل المعروضات لوحات تشرح رحلته، نسخ من ملابسه، وأنواع مختلفة من الأسلحة المستخدمة في المعارك."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:126",
+            "entityId": "objinfo2:126",
+            "title": "Ruang G30SPKI",
+            "aliases": [
+                "ruang g30spki",
+                "objek 126"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Mandala Bhakti memiliki Ruang G30S/PKI yang didedikasikan untuk memamerkan dokumentasi dan arsip visual terkait peristiwa Gerakan 30 September, sebagai bagian dari sejarah perjuangan TNI dalam mempertahankan keutuhan negara. Ruangan ini bertujuan untuk memberikan gambaran mengenai sejarah kelam tersebut kepada pengunjung dan menjadi bagian dari rekam jejak pengabdian Kodam IV/Diponegoro.",
+            "source": "webview-import",
+            "sourceId": "126",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang G30SPKI",
+                    "content": "Museum Mandala Bhakti memiliki Ruang G30S/PKI yang didedikasikan untuk memamerkan dokumentasi dan arsip visual terkait peristiwa Gerakan 30 September, sebagai bagian dari sejarah perjuangan TNI dalam mempertahankan keutuhan negara. Ruangan ini bertujuan untuk memberikan gambaran mengenai sejarah kelam tersebut kepada pengunjung dan menjadi bagian dari rekam jejak pengabdian Kodam IV/Diponegoro."
+                },
+                "en": {
+                    "title": "G30SPKI Room",
+                    "content": "Mandala Bhakti Museum features the G30S/PKI Room, dedicated to displaying documentation and visual archives related to the September 30th Movement, as part of the Indonesian National Armed Forces’ struggle to maintain national integrity. The room aims to provide visitors with an understanding of this dark history and forms part of Kodam IV/Diponegoro’s service legacy."
+                },
+                "zh": {
+                    "title": "G30SPKI室",
+                    "content": "曼达拉巴克蒂博物馆设有G30S/PKI展厅，专门展示与9月30日运动相关的文献和影像档案，作为印尼国军维护国家完整斗争历史的一部分。该展厅旨在向参观者呈现这段黑暗历史，并成为Kodam IV/Diponegoro服役历程的一部分。"
+                },
+                "ar": {
+                    "title": "غرفة G30SPKI",
+                    "content": "يضم متحف مندالا باختي غرفة G30S/PKI المخصصة لعرض الوثائق والأرشيف المرئي المتعلق بحركة 30 سبتمبر، كجزء من تاريخ كفاح القوات المسلحة الإندونيسية للحفاظ على وحدة البلاد. تهدف الغرفة إلى تقديم لمحة للزوار عن هذا التاريخ المظلم وتشكل جزءاً من سجل خدمة Kodam IV/Diponegoro."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:127",
+            "entityId": "objinfo2:127",
+            "title": "Perpustakaan",
+            "aliases": [
+                "perpustakaan",
+                "objek 127"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Mandala Bhakti memiliki perpustakaan khusus yang menyimpan koleksi buku, data, dan dokumentasi terkait sejarah perjuangan kemerdekaan dan informasi mengenai Kodam IV/Diponegoro. Perpustakaan ini berfungsi sebagai sumber referensi tambahan bagi pengunjung yang ingin memperdalam pengetahuan tentang sejarah militer yang dipamerkan di museum.",
+            "source": "webview-import",
+            "sourceId": "127",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaan",
+                    "content": "Museum Mandala Bhakti memiliki perpustakaan khusus yang menyimpan koleksi buku, data, dan dokumentasi terkait sejarah perjuangan kemerdekaan dan informasi mengenai Kodam IV/Diponegoro. Perpustakaan ini berfungsi sebagai sumber referensi tambahan bagi pengunjung yang ingin memperdalam pengetahuan tentang sejarah militer yang dipamerkan di museum."
+                },
+                "en": {
+                    "title": "Library",
+                    "content": "Mandala Bhakti Museum has a special library housing collections of books, data, and documentation related to the struggle for independence and information about Kodam IV/Diponegoro. The library serves as an additional reference for visitors wishing to deepen their knowledge of the military history exhibited in the museum."
+                },
+                "zh": {
+                    "title": "图书馆",
+                    "content": "曼达拉巴克蒂博物馆设有专门图书馆，收藏与独立斗争及Kodam IV/Diponegoro相关的书籍、数据和文献。该图书馆为希望深入了解博物馆展出军事历史的参观者提供额外参考资料。"
+                },
+                "ar": {
+                    "title": "مكتبة",
+                    "content": "يضم متحف مندالا باختي مكتبة خاصة تحتوي على مجموعات من الكتب والبيانات والوثائق المتعلقة بكفاح الاستقلال ومعلومات عن Kodam IV/Diponegoro. تعمل المكتبة كمصدر مرجعي إضافي للزوار الراغبين في تعميق معرفتهم بالتاريخ العسكري المعروض في المتحف."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:128",
+            "entityId": "objinfo2:128",
+            "title": "Ruang Senjata Tradisional",
+            "aliases": [
+                "ruang senjata tradisional",
+                "objek 128"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Mandala Bhakti menyimpan koleksi senjata tradisional seperti keris, tombak, pedang, dan bambu runcing yang digunakan oleh para pejuang kemerdekaan di masa lalu. Senjata-senjata ini dipamerkan untuk menunjukkan bukti nyata kehebatan dan peranan alat tradisional dalam perjuangan militer di wilayah Jawa Tengah.",
+            "source": "webview-import",
+            "sourceId": "128",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Senjata Tradisional",
+                    "content": "Museum Mandala Bhakti menyimpan koleksi senjata tradisional seperti keris, tombak, pedang, dan bambu runcing yang digunakan oleh para pejuang kemerdekaan di masa lalu. Senjata-senjata ini dipamerkan untuk menunjukkan bukti nyata kehebatan dan peranan alat tradisional dalam perjuangan militer di wilayah Jawa Tengah."
+                },
+                "en": {
+                    "title": "Traditional Weapons Room",
+                    "content": "Mandala Bhakti Museum houses a collection of traditional weapons such as keris, spears, swords, and bamboo spikes used by independence fighters in the past. These weapons are displayed to demonstrate the power and role of traditional arms in the military struggles of Central Java."
+                },
+                "zh": {
+                    "title": "传统武器室",
+                    "content": "曼达拉巴克蒂博物馆收藏了传统武器，如克里斯短剑、矛、剑和竹制尖刺，这些武器曾被独立战士使用。展览旨在展示这些传统武器在中爪哇军事斗争中的威力与作用。"
+                },
+                "ar": {
+                    "title": "غرفة الأسلحة التقليدية",
+                    "content": "يحتفظ متحف مندالا باختي بمجموعة من الأسلحة التقليدية مثل الكريس والرماح والسيوف والقصب المسنن، التي استخدمها مقاتلو الاستقلال في الماضي. تُعرض هذه الأسلحة لإظهار القوة والدور الذي لعبته الأسلحة التقليدية في الصراعات العسكرية في وسط جاوة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:129",
+            "entityId": "objinfo2:129",
+            "title": "Sejarah Singkat Kodam",
+            "aliases": [
+                "sejarah singkat kodam",
+                "objek 129"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Museum Mandala Bhakti dulunya merupakan Markas Besar Komando Wilayah Pertahanan II Kodam IV/Diponegoro sejak tahun 1950 sebelum resmi dijadikan museum perjuangan pada tahun 1985. Bangunan dan koleksi di dalamnya, termasuk senjata dan dokumentasi, menjadi saksi bisu dan bukti faktual dari perjalanan serta peran Kodam IV/Diponegoro dalam mempertahankan kemerdekaan RI.",
+            "source": "webview-import",
+            "sourceId": "129",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Sejarah Singkat Kodam",
+                    "content": "Museum Mandala Bhakti dulunya merupakan Markas Besar Komando Wilayah Pertahanan II Kodam IV/Diponegoro sejak tahun 1950 sebelum resmi dijadikan museum perjuangan pada tahun 1985. Bangunan dan koleksi di dalamnya, termasuk senjata dan dokumentasi, menjadi saksi bisu dan bukti faktual dari perjalanan serta peran Kodam IV/Diponegoro dalam mempertahankan kemerdekaan RI."
+                },
+                "en": {
+                    "title": "Brief History of Kodam",
+                    "content": "Mandala Bhakti Museum was formerly the Headquarters of Regional Defense Command II of Kodam IV/Diponegoro since 1950 before officially becoming a struggle museum in 1985. The building and its collections, including weapons and documentation, serve as silent witnesses and factual evidence of Kodam IV/Diponegoro’s role in defending Indonesia’s independence."
+                },
+                "zh": {
+                    "title": "军区简史",
+                    "content": "曼达拉巴克蒂博物馆原为1950年设立的Kodam IV/Diponegoro第二地区防卫司令部总部，1985年正式改为斗争博物馆。馆内建筑及藏品，包括武器和文献，是Kodam IV/Diponegoro在保卫印尼独立过程中作用的无声见证与真实证据。"
+                },
+                "ar": {
+                    "title": "تاريخ مختصر للمنطقة العسكرية",
+                    "content": "كان متحف مندالا باختي في السابق مقر قيادة المنطقة الدفاعية الثانية Kodam IV/Diponegoro منذ عام 1950 قبل أن يتحول رسمياً إلى متحف النضال عام 1985. المبنى ومجموعاته، بما في ذلك الأسلحة والوثائق، تعد شاهداً صامتاً ودليلاً حقيقياً على دور Kodam IV/Diponegoro في الدفاع عن استقلال إندونيسيا."
+                }
+            }
+        }
+    ]
+}

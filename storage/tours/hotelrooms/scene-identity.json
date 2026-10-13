@@ -1,0 +1,1215 @@
+{
+    "version": "1.1-seed",
+    "tourId": "hotelrooms",
+    "generatedAt": "2026-10-01",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "Meetneat",
+            "displayName": "Meet n Eat – Meja Komunal",
+            "placeId": "rooms-inc-semarang-meet-n-eat-meja-komunal",
+            "placeName": "Rooms Inc Semarang – Meet n Eat – Meja Komunal",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meet n Eat – Meja Komunal di Rooms Inc Semarang memperlihatkan meja panjang dan kursi.",
+            "description": "Meet n Eat – Meja Komunal di Rooms Inc Semarang memperlihatkan meja panjang dan kursi. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Meja panjang",
+                "Kursi"
+            ],
+            "talkingPoints": [
+                "Meetneat",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Meet n Eat – Meja Komunal di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Meet n Eat – Meja Komunal di Rooms Inc Semarang memperlihatkan meja panjang dan kursi."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Meet n Eat – Meja Komunal?",
+                    "mode": "fix",
+                    "answer": "Meja panjang dan Kursi memperjelas susunan serta penggunaan ruang. Meet n Eat – Meja Komunal di Rooms Inc Semarang memperlihatkan meja panjang dan kursi."
+                },
+                {
+                    "q": "Apa fakta penting tentang Rooms Inc Semarang – Meet n Eat – Meja Komunal yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Meet n Eat – Meja Komunal.",
+                "describeHere": "Meetneat adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Gym",
+            "displayName": "Gym Rooms Inc.",
+            "placeId": "rooms-inc-semarang-gym-rooms-inc",
+            "placeName": "Rooms Inc Semarang – Gym Rooms Inc.",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Alat latihan dan cermin menjadi unsur yang terlihat pada Gym Rooms Inc. di Rooms Inc Semarang.",
+            "description": "Alat latihan dan cermin menjadi unsur yang terlihat pada Gym Rooms Inc. di Rooms Inc Semarang. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. Jenis dan susunan alat membedakan area latihan ini dari lapangan olahraga.",
+            "highlights": [
+                "Alat latihan",
+                "Cermin"
+            ],
+            "talkingPoints": [
+                "Gym",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Gym Rooms Inc. menjadi bagian penting dari Rooms Inc Semarang – Gym Rooms Inc.?",
+                    "mode": "fix",
+                    "answer": "Alat latihan dan cermin menjadi unsur yang terlihat pada Gym Rooms Inc. di Rooms Inc Semarang. Alat latihan dan cermin menjadi unsur yang terlihat pada Gym Rooms Inc. di Rooms Inc Semarang. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. Jenis dan susunan alat membedakan area latihan ini dari lapangan olahraga. Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                },
+                {
+                    "q": "Apa hubungan Alat latihan dengan aktivitas di Gym Rooms Inc.?",
+                    "mode": "fix",
+                    "answer": "Alat latihan menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Alat latihan dan cermin menjadi unsur yang terlihat pada Gym Rooms Inc. di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Gym Rooms Inc. dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Alat latihan dan Cermin. Alat latihan dan cermin menjadi unsur yang terlihat pada Gym Rooms Inc. di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1165"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Gym Rooms Inc..",
+                "describeHere": "Gym adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Kamar Tamu",
+            "displayName": "Koridor Kamar Tamu",
+            "placeId": "rooms-inc-semarang-koridor-kamar-tamu",
+            "placeName": "Rooms Inc Semarang – Koridor Kamar Tamu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Koridor Kamar Tamu menampilkan pintu kamar dan pola lantai di Rooms Inc Semarang.",
+            "description": "Pandangan Koridor Kamar Tamu menampilkan pintu kamar dan pola lantai di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Pintu kamar",
+                "Pola lantai"
+            ],
+            "talkingPoints": [
+                "Kamar Tamu",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Koridor Kamar Tamu?",
+                    "mode": "fix",
+                    "answer": "Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Koridor Kamar Tamu mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Pintu kamar bersama Pola lantai menunjukkan cara area ini digunakan. Pandangan Koridor Kamar Tamu menampilkan pintu kamar dan pola lantai di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Koridor Kamar Tamu?",
+                    "mode": "fix",
+                    "answer": "Pintu kamar menjadi detail utama, sedangkan Pola lantai melengkapi konteksnya. Pandangan Koridor Kamar Tamu menampilkan pintu kamar dan pola lantai di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Koridor Kamar Tamu.",
+                "describeHere": "Kamar Tamu adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Akses Lift",
+            "displayName": "Lobi Lift Tamu",
+            "placeId": "rooms-inc-semarang-lobi-lift-tamu",
+            "placeName": "Rooms Inc Semarang – Lobi Lift Tamu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lobi Lift Tamu, pintu lift dan petunjuk membentuk tampilan bagian Rooms Inc Semarang ini.",
+            "description": "Pada Lobi Lift Tamu, pintu lift dan petunjuk membentuk tampilan bagian Rooms Inc Semarang ini. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang.",
+            "highlights": [
+                "Pintu lift",
+                "Petunjuk"
+            ],
+            "talkingPoints": [
+                "Akses Lift",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Lobi Lift Tamu dalam pengalaman pengunjung di Rooms Inc Semarang – Lobi Lift Tamu?",
+                    "mode": "fix",
+                    "answer": "Pada Lobi Lift Tamu, pintu lift dan petunjuk membentuk tampilan bagian Rooms Inc Semarang ini. Pada Lobi Lift Tamu, pintu lift dan petunjuk membentuk tampilan bagian Rooms Inc Semarang ini. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                },
+                {
+                    "q": "Mengapa Pintu lift penting pada Lobi Lift Tamu?",
+                    "mode": "fix",
+                    "answer": "Pintu lift membantu menjelaskan identitas dan fungsi Lobi Lift Tamu. Pada Lobi Lift Tamu, pintu lift dan petunjuk membentuk tampilan bagian Rooms Inc Semarang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Lobi Lift Tamu?",
+                    "mode": "fix",
+                    "answer": "Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Lobi Lift Tamu.",
+                "describeHere": "Akses Lift adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Meetingroomcrescent",
+            "displayName": "Meeting Room Crescent",
+            "placeId": "rooms-inc-semarang-meeting-room-crescent",
+            "placeName": "Rooms Inc Semarang – Meeting Room Crescent",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meeting Room Crescent menyorot meja dan layar proyektor, dengan konteks kunjungan di Rooms Inc Semarang.",
+            "description": "Meeting Room Crescent menyorot meja dan layar proyektor, dengan konteks kunjungan di Rooms Inc Semarang. Ruang kerja dan pertemuan mendukung koordinasi serta pertukaran informasi. Meja, tempat duduk, dan area penerima memperlihatkan perbedaan antara kegiatan diskusi dan layanan tamu. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja",
+                "Layar proyektor"
+            ],
+            "talkingPoints": [
+                "Meetingroomcrescent",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Meeting Room Crescent menunjukkan karakter Rooms Inc Semarang – Meeting Room Crescent?",
+                    "mode": "fix",
+                    "answer": "Meeting Room Crescent menyorot meja dan layar proyektor, dengan konteks kunjungan di Rooms Inc Semarang. Meeting Room Crescent menyorot meja dan layar proyektor, dengan konteks kunjungan di Rooms Inc Semarang. Ruang kerja dan pertemuan mendukung koordinasi serta pertukaran informasi. Meja, tempat duduk, dan area penerima memperlihatkan perbedaan antara kegiatan diskusi dan layanan tamu. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Meja dan Layar proyektor di Meeting Room Crescent?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Meeting Room Crescent menyorot meja dan layar proyektor, dengan konteks kunjungan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Meeting Room Crescent?",
+                    "mode": "fix",
+                    "answer": "Meja paling langsung membantu mengenali area ini. Meeting Room Crescent menyorot meja dan layar proyektor, dengan konteks kunjungan di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Meeting Room Crescent.",
+                "describeHere": "Meetingroomcrescent adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Meetingroom",
+            "displayName": "Ruang Rapat – Susunan Teater",
+            "placeId": "rooms-inc-semarang-ruang-rapat-susunan-teater",
+            "placeName": "Rooms Inc Semarang – Ruang Rapat – Susunan Teater",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Rapat – Susunan Teater di Rooms Inc Semarang memperlihatkan kursi berbaris dan layar.",
+            "description": "Ruang Rapat – Susunan Teater di Rooms Inc Semarang memperlihatkan kursi berbaris dan layar. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Kursi berbaris",
+                "Layar"
+            ],
+            "talkingPoints": [
+                "Meetingroom",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Ruang Rapat – Susunan Teater?",
+                    "mode": "fix",
+                    "answer": "Ruang Rapat – Susunan Teater di Rooms Inc Semarang memperlihatkan kursi berbaris dan layar. Ruang Rapat – Susunan Teater di Rooms Inc Semarang memperlihatkan kursi berbaris dan layar. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Ruang Rapat – Susunan Teater?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Kursi berbaris dan Layar memberi petunjuk tentang kegiatan yang berlangsung di sini. Ruang Rapat – Susunan Teater di Rooms Inc Semarang memperlihatkan kursi berbaris dan layar."
+                },
+                {
+                    "q": "Apa konteks Rooms Inc Semarang – Ruang Rapat – Susunan Teater yang membuat Ruang Rapat – Susunan Teater lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1166"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Ruang Rapat – Susunan Teater.",
+                "describeHere": "Meetingroom adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Ruang Tamu",
+            "displayName": "Koridor Ruang Pertemuan",
+            "placeId": "rooms-inc-semarang-koridor-ruang-pertemuan",
+            "placeName": "Rooms Inc Semarang – Koridor Ruang Pertemuan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu kaca dan lorong menjadi unsur yang terlihat pada Koridor Ruang Pertemuan di Rooms Inc Semarang.",
+            "description": "Pintu kaca dan lorong menjadi unsur yang terlihat pada Koridor Ruang Pertemuan di Rooms Inc Semarang. Ruang kerja dan pertemuan mendukung koordinasi serta pertukaran informasi. Meja, tempat duduk, dan area penerima memperlihatkan perbedaan antara kegiatan diskusi dan layanan tamu. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum.",
+            "highlights": [
+                "Pintu kaca",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Ruang Tamu",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Koridor Ruang Pertemuan di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca dan lorong menjadi unsur yang terlihat pada Koridor Ruang Pertemuan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Koridor Ruang Pertemuan?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca dan Lorong memperjelas susunan serta penggunaan ruang. Pintu kaca dan lorong menjadi unsur yang terlihat pada Koridor Ruang Pertemuan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Rooms Inc Semarang – Koridor Ruang Pertemuan yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Koridor Ruang Pertemuan.",
+                "describeHere": "Ruang Tamu adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Spa",
+            "displayName": "Ruang Spa",
+            "placeId": "rooms-inc-semarang-ruang-spa",
+            "placeName": "Rooms Inc Semarang – Ruang Spa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Ruang Spa menampilkan tempat perawatan dan lampu di Rooms Inc Semarang.",
+            "description": "Pandangan Ruang Spa menampilkan tempat perawatan dan lampu di Rooms Inc Semarang. Fasilitas tamu menata kebutuhan istirahat, persiapan pribadi, dan bersantai. Ruang yang terlihat merupakan bagian dari pengalaman menginap yang tercatat dalam dokumentasi. Cahaya mengarahkan perhatian pada bidang kerja, objek, atau jalur tertentu. Perbedaan terang dan bayangan membuat susunan ruang lebih mudah dibaca.",
+            "highlights": [
+                "Tempat perawatan",
+                "Lampu"
+            ],
+            "talkingPoints": [
+                "Spa",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Ruang Spa menjadi bagian penting dari Rooms Inc Semarang – Ruang Spa?",
+                    "mode": "fix",
+                    "answer": "Pandangan Ruang Spa menampilkan tempat perawatan dan lampu di Rooms Inc Semarang. Pandangan Ruang Spa menampilkan tempat perawatan dan lampu di Rooms Inc Semarang. Fasilitas tamu menata kebutuhan istirahat, persiapan pribadi, dan bersantai. Ruang yang terlihat merupakan bagian dari pengalaman menginap yang tercatat dalam dokumentasi. Cahaya mengarahkan perhatian pada bidang kerja, objek, atau jalur tertentu. Perbedaan terang dan bayangan membuat susunan ruang lebih mudah dibaca. Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat."
+                },
+                {
+                    "q": "Apa hubungan Tempat perawatan dengan aktivitas di Ruang Spa?",
+                    "mode": "fix",
+                    "answer": "Tempat perawatan menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Ruang Spa menampilkan tempat perawatan dan lampu di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Ruang Spa dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Tempat perawatan dan Lampu. Pandangan Ruang Spa menampilkan tempat perawatan dan lampu di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Ruang Spa.",
+                "describeHere": "Spa adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Waitingroom",
+            "displayName": "Lounge Biliar",
+            "placeId": "rooms-inc-semarang-lounge-biliar",
+            "placeName": "Rooms Inc Semarang – Lounge Biliar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lounge Biliar, meja biliar dan tempat duduk membentuk tampilan bagian Rooms Inc Semarang ini.",
+            "description": "Pada Lounge Biliar, meja biliar dan tempat duduk membentuk tampilan bagian Rooms Inc Semarang ini. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja biliar",
+                "Tempat duduk"
+            ],
+            "talkingPoints": [
+                "Waitingroom",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Lounge Biliar?",
+                    "mode": "fix",
+                    "answer": "Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Lounge Biliar mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Meja biliar bersama Tempat duduk menunjukkan cara area ini digunakan. Pada Lounge Biliar, meja biliar dan tempat duduk membentuk tampilan bagian Rooms Inc Semarang ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Lounge Biliar?",
+                    "mode": "fix",
+                    "answer": "Meja biliar menjadi detail utama, sedangkan Tempat duduk melengkapi konteksnya. Pada Lounge Biliar, meja biliar dan tempat duduk membentuk tampilan bagian Rooms Inc Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1163"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Lounge Biliar.",
+                "describeHere": "Waitingroom adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Superiorqueenroom",
+            "displayName": "Superior Queen Room",
+            "placeId": "rooms-inc-semarang-superior-queen-room",
+            "placeName": "Rooms Inc Semarang – Superior Queen Room",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Superior Queen Room menyorot ranjang dan meja samping, dengan konteks kunjungan di Rooms Inc Semarang.",
+            "description": "Superior Queen Room menyorot ranjang dan meja samping, dengan konteks kunjungan di Rooms Inc Semarang. Fasilitas tamu menata kebutuhan istirahat, persiapan pribadi, dan bersantai. Ruang yang terlihat merupakan bagian dari pengalaman menginap yang tercatat dalam dokumentasi. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Ranjang",
+                "Meja samping"
+            ],
+            "talkingPoints": [
+                "Superiorqueenroom",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Superior Queen Room dalam pengalaman pengunjung di Rooms Inc Semarang – Superior Queen Room?",
+                    "mode": "fix",
+                    "answer": "Superior Queen Room menyorot ranjang dan meja samping, dengan konteks kunjungan di Rooms Inc Semarang. Superior Queen Room menyorot ranjang dan meja samping, dengan konteks kunjungan di Rooms Inc Semarang. Fasilitas tamu menata kebutuhan istirahat, persiapan pribadi, dan bersantai. Ruang yang terlihat merupakan bagian dari pengalaman menginap yang tercatat dalam dokumentasi. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal."
+                },
+                {
+                    "q": "Mengapa Ranjang penting pada Superior Queen Room?",
+                    "mode": "fix",
+                    "answer": "Ranjang membantu menjelaskan identitas dan fungsi Superior Queen Room. Superior Queen Room menyorot ranjang dan meja samping, dengan konteks kunjungan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Superior Queen Room?",
+                    "mode": "fix",
+                    "answer": "Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1167"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Superior Queen Room.",
+                "describeHere": "Superiorqueenroom adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "node11",
+            "displayName": "Rooms Inc. – Titik Belum Teridentifikasi",
+            "placeId": "rooms-inc-semarang-rooms-inc-titik-belum-teridentifikasi",
+            "placeName": "Rooms Inc Semarang – Rooms Inc. – Titik Belum Teridentifikasi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bagian Rooms Inc Semarang yang belum dapat diidentifikasi karena gambar sumber tidak tersedia.",
+            "description": "Nama ruang untuk node11 belum dapat dipastikan dari berkas yang tersedia. Identitas lokasi induknya adalah Rooms Inc Semarang, tetapi objek, fungsi ruang, dan arah pandang pada titik ini memerlukan gambar panorama yang lengkap. Nama area khusus tidak ditetapkan agar informasi tidak mengarahkan pengunjung ke bagian yang keliru.",
+            "highlights": [
+                "Lokasi induk: Rooms Inc Semarang",
+                "Identitas ruang belum terverifikasi"
+            ],
+            "talkingPoints": [
+                "node11",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Rooms Inc. – Titik Belum Teridentifikasi menunjukkan karakter Rooms Inc Semarang – Rooms Inc. – Titik Belum Teridentifikasi?",
+                    "mode": "fix",
+                    "answer": "Bagian Rooms Inc Semarang yang belum dapat diidentifikasi karena gambar sumber tidak tersedia. Nama ruang untuk node11 belum dapat dipastikan dari berkas yang tersedia. Identitas lokasi induknya adalah Rooms Inc Semarang, tetapi objek, fungsi ruang, dan arah pandang pada titik ini memerlukan gambar panorama yang lengkap. Nama area khusus tidak ditetapkan agar informasi tidak mengarahkan pengunjung ke bagian yang keliru. Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Lokasi induk: Rooms Inc Semarang dan Identitas ruang belum terverifikasi di Rooms Inc. – Titik Belum Teridentifikasi?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Bagian Rooms Inc Semarang yang belum dapat diidentifikasi karena gambar sumber tidak tersedia."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Rooms Inc. – Titik Belum Teridentifikasi?",
+                    "mode": "fix",
+                    "answer": "Lokasi induk: Rooms Inc Semarang paling langsung membantu mengenali area ini. Bagian Rooms Inc Semarang yang belum dapat diidentifikasi karena gambar sumber tidak tersedia."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Rooms Inc. – Titik Belum Teridentifikasi.",
+                "describeHere": "Area NODE11 (ID: node11) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Area Makan",
+            "displayName": "Sudut Duduk Area Makan",
+            "placeId": "rooms-inc-semarang-sudut-duduk-area-makan",
+            "placeName": "Rooms Inc Semarang – Sudut Duduk Area Makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bangku dan rak pembatas menjadi unsur yang terlihat pada Sudut Duduk Area Makan di Rooms Inc Semarang.",
+            "description": "Bangku dan rak pembatas menjadi unsur yang terlihat pada Sudut Duduk Area Makan di Rooms Inc Semarang. Area duduk menyediakan tempat berhenti di antara kegiatan. Posisi kursi dan hubungannya dengan jalur membantu membedakan ruang menunggu dari ruang kerja atau aktivitas utama. Rak memanfaatkan ruang vertikal dan membagi benda dalam kelompok yang lebih mudah dilihat. Susunannya membantu pencarian serta penataan kembali setelah digunakan.",
+            "highlights": [
+                "Bangku",
+                "Rak pembatas"
+            ],
+            "talkingPoints": [
+                "Area Makan",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Sudut Duduk Area Makan?",
+                    "mode": "fix",
+                    "answer": "Bangku dan rak pembatas menjadi unsur yang terlihat pada Sudut Duduk Area Makan di Rooms Inc Semarang. Bangku dan rak pembatas menjadi unsur yang terlihat pada Sudut Duduk Area Makan di Rooms Inc Semarang. Area duduk menyediakan tempat berhenti di antara kegiatan. Posisi kursi dan hubungannya dengan jalur membantu membedakan ruang menunggu dari ruang kerja atau aktivitas utama. Rak memanfaatkan ruang vertikal dan membagi benda dalam kelompok yang lebih mudah dilihat. Susunannya membantu pencarian serta penataan kembali setelah digunakan. Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Sudut Duduk Area Makan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Bangku dan Rak pembatas memberi petunjuk tentang kegiatan yang berlangsung di sini. Bangku dan rak pembatas menjadi unsur yang terlihat pada Sudut Duduk Area Makan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa konteks Rooms Inc Semarang – Sudut Duduk Area Makan yang membuat Sudut Duduk Area Makan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Sudut Duduk Area Makan.",
+                "describeHere": "Area Makan adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Outdoor",
+            "displayName": "Teras Outdoor",
+            "placeId": "rooms-inc-semarang-teras-outdoor",
+            "placeName": "Rooms Inc Semarang – Teras Outdoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Teras Outdoor menampilkan meja dan pagar teras di Rooms Inc Semarang.",
+            "description": "Pandangan Teras Outdoor menampilkan meja dan pagar teras di Rooms Inc Semarang. Teras dan balkon memberi ruang peralihan dengan hubungan pandang ke luar. Atap, pagar, serta tempat duduk membentuk batas penggunaan area. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Meja",
+                "Pagar teras"
+            ],
+            "talkingPoints": [
+                "Outdoor",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Teras Outdoor di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Teras Outdoor menampilkan meja dan pagar teras di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Teras Outdoor?",
+                    "mode": "fix",
+                    "answer": "Meja dan Pagar teras memperjelas susunan serta penggunaan ruang. Pandangan Teras Outdoor menampilkan meja dan pagar teras di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Rooms Inc Semarang – Teras Outdoor yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Teras Outdoor.",
+                "describeHere": "Outdoor adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Area Makan",
+            "displayName": "Konter Area Makan",
+            "placeId": "rooms-inc-semarang-konter-area-makan",
+            "placeName": "Rooms Inc Semarang – Konter Area Makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Konter Area Makan, meja layanan dan dekorasi membentuk tampilan bagian Rooms Inc Semarang ini.",
+            "description": "Pada Konter Area Makan, meja layanan dan dekorasi membentuk tampilan bagian Rooms Inc Semarang ini. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja layanan",
+                "Dekorasi"
+            ],
+            "talkingPoints": [
+                "Area Makan",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Konter Area Makan menjadi bagian penting dari Rooms Inc Semarang – Konter Area Makan?",
+                    "mode": "fix",
+                    "answer": "Pada Konter Area Makan, meja layanan dan dekorasi membentuk tampilan bagian Rooms Inc Semarang ini. Pada Konter Area Makan, meja layanan dan dekorasi membentuk tampilan bagian Rooms Inc Semarang ini. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                },
+                {
+                    "q": "Apa hubungan Meja layanan dengan aktivitas di Konter Area Makan?",
+                    "mode": "fix",
+                    "answer": "Meja layanan menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Konter Area Makan, meja layanan dan dekorasi membentuk tampilan bagian Rooms Inc Semarang ini."
+                },
+                {
+                    "q": "Apa yang membedakan Konter Area Makan dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Meja layanan dan Dekorasi. Pada Konter Area Makan, meja layanan dan dekorasi membentuk tampilan bagian Rooms Inc Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Konter Area Makan.",
+                "describeHere": "Area Makan adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Toilet",
+            "displayName": "Koridor Fasilitas Tamu",
+            "placeId": "rooms-inc-semarang-koridor-fasilitas-tamu",
+            "placeName": "Rooms Inc Semarang – Koridor Fasilitas Tamu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Fasilitas Tamu menyorot lorong dan papan menu, dengan konteks kunjungan di Rooms Inc Semarang.",
+            "description": "Koridor Fasilitas Tamu menyorot lorong dan papan menu, dengan konteks kunjungan di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Lorong",
+                "Papan menu"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Koridor Fasilitas Tamu?",
+                    "mode": "fix",
+                    "answer": "Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Koridor Fasilitas Tamu mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Lorong bersama Papan menu menunjukkan cara area ini digunakan. Koridor Fasilitas Tamu menyorot lorong dan papan menu, dengan konteks kunjungan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Koridor Fasilitas Tamu?",
+                    "mode": "fix",
+                    "answer": "Lorong menjadi detail utama, sedangkan Papan menu melengkapi konteksnya. Koridor Fasilitas Tamu menyorot lorong dan papan menu, dengan konteks kunjungan di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Koridor Fasilitas Tamu.",
+                "describeHere": "Toilet adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Rooms Inc.",
+            "displayName": "Ruang Duduk Bertingkat",
+            "placeId": "rooms-inc-semarang-ruang-duduk-bertingkat",
+            "placeName": "Rooms Inc Semarang – Ruang Duduk Bertingkat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Duduk Bertingkat di Rooms Inc Semarang memperlihatkan tempat duduk bertingkat dan jendela.",
+            "description": "Ruang Duduk Bertingkat di Rooms Inc Semarang memperlihatkan tempat duduk bertingkat dan jendela. Area duduk menyediakan tempat berhenti di antara kegiatan. Posisi kursi dan hubungannya dengan jalur membantu membedakan ruang menunggu dari ruang kerja atau aktivitas utama. Bukaan memberi hubungan visual dengan lingkungan luar dan memungkinkan cahaya masuk. Posisi serta luas bukaan memengaruhi bagian ruang yang terasa terang.",
+            "highlights": [
+                "Tempat duduk bertingkat",
+                "Jendela"
+            ],
+            "talkingPoints": [
+                "Rooms Inc.",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Ruang Duduk Bertingkat dalam pengalaman pengunjung di Rooms Inc Semarang – Ruang Duduk Bertingkat?",
+                    "mode": "fix",
+                    "answer": "Ruang Duduk Bertingkat di Rooms Inc Semarang memperlihatkan tempat duduk bertingkat dan jendela. Ruang Duduk Bertingkat di Rooms Inc Semarang memperlihatkan tempat duduk bertingkat dan jendela. Area duduk menyediakan tempat berhenti di antara kegiatan. Posisi kursi dan hubungannya dengan jalur membantu membedakan ruang menunggu dari ruang kerja atau aktivitas utama. Bukaan memberi hubungan visual dengan lingkungan luar dan memungkinkan cahaya masuk. Posisi serta luas bukaan memengaruhi bagian ruang yang terasa terang. Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                },
+                {
+                    "q": "Mengapa Tempat duduk bertingkat penting pada Ruang Duduk Bertingkat?",
+                    "mode": "fix",
+                    "answer": "Tempat duduk bertingkat membantu menjelaskan identitas dan fungsi Ruang Duduk Bertingkat. Ruang Duduk Bertingkat di Rooms Inc Semarang memperlihatkan tempat duduk bertingkat dan jendela."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Ruang Duduk Bertingkat?",
+                    "mode": "fix",
+                    "answer": "Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Ruang Duduk Bertingkat.",
+                "describeHere": "Rooms Inc. adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Moonlounge",
+            "displayName": "Moon Lounge",
+            "placeId": "rooms-inc-semarang-moon-lounge",
+            "placeName": "Rooms Inc Semarang – Moon Lounge",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja tinggi dan kursi menjadi unsur yang terlihat pada Moon Lounge di Rooms Inc Semarang.",
+            "description": "Meja tinggi dan kursi menjadi unsur yang terlihat pada Moon Lounge di Rooms Inc Semarang. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Meja tinggi",
+                "Kursi"
+            ],
+            "talkingPoints": [
+                "Moonlounge",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Moon Lounge menunjukkan karakter Rooms Inc Semarang – Moon Lounge?",
+                    "mode": "fix",
+                    "answer": "Meja tinggi dan kursi menjadi unsur yang terlihat pada Moon Lounge di Rooms Inc Semarang. Meja tinggi dan kursi menjadi unsur yang terlihat pada Moon Lounge di Rooms Inc Semarang. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Meja tinggi dan Kursi di Moon Lounge?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Meja tinggi dan kursi menjadi unsur yang terlihat pada Moon Lounge di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Moon Lounge?",
+                    "mode": "fix",
+                    "answer": "Meja tinggi paling langsung membantu mengenali area ini. Meja tinggi dan kursi menjadi unsur yang terlihat pada Moon Lounge di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1164"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Moon Lounge.",
+                "describeHere": "Moonlounge adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Toilet",
+            "displayName": "Akses Fasilitas Pengunjung – Lorong Bata",
+            "placeId": "rooms-inc-semarang-akses-fasilitas-pengunjung-lorong-bata",
+            "placeName": "Rooms Inc Semarang – Akses Fasilitas Pengunjung – Lorong Bata",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Akses Fasilitas Pengunjung – Lorong Bata menampilkan dinding bata dan pintu di Rooms Inc Semarang.",
+            "description": "Pandangan Akses Fasilitas Pengunjung – Lorong Bata menampilkan dinding bata dan pintu di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Dinding bata",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Akses Fasilitas Pengunjung – Lorong Bata?",
+                    "mode": "fix",
+                    "answer": "Pandangan Akses Fasilitas Pengunjung – Lorong Bata menampilkan dinding bata dan pintu di Rooms Inc Semarang. Pandangan Akses Fasilitas Pengunjung – Lorong Bata menampilkan dinding bata dan pintu di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Akses Fasilitas Pengunjung – Lorong Bata?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Dinding bata dan Pintu memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Akses Fasilitas Pengunjung – Lorong Bata menampilkan dinding bata dan pintu di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa konteks Rooms Inc Semarang – Akses Fasilitas Pengunjung – Lorong Bata yang membuat Akses Fasilitas Pengunjung – Lorong Bata lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Akses Fasilitas Pengunjung – Lorong Bata.",
+                "describeHere": "Toilet adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "node19",
+            "displayName": "Simpang Koridor Bata",
+            "placeId": "rooms-inc-semarang-simpang-koridor-bata",
+            "placeName": "Rooms Inc Semarang – Simpang Koridor Bata",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Simpang Koridor Bata, pintu dan cermin membentuk tampilan bagian Rooms Inc Semarang ini.",
+            "description": "Pada Simpang Koridor Bata, pintu dan cermin membentuk tampilan bagian Rooms Inc Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area.",
+            "highlights": [
+                "Pintu",
+                "Cermin"
+            ],
+            "talkingPoints": [
+                "node19",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Simpang Koridor Bata di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Simpang Koridor Bata, pintu dan cermin membentuk tampilan bagian Rooms Inc Semarang ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Simpang Koridor Bata?",
+                    "mode": "fix",
+                    "answer": "Pintu dan Cermin memperjelas susunan serta penggunaan ruang. Pada Simpang Koridor Bata, pintu dan cermin membentuk tampilan bagian Rooms Inc Semarang ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang Rooms Inc Semarang – Simpang Koridor Bata yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Simpang Koridor Bata.",
+                "describeHere": "Area NODE19 (ID: node19) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "node20",
+            "displayName": "Koridor Menuju Lounge",
+            "placeId": "rooms-inc-semarang-koridor-menuju-lounge",
+            "placeName": "Rooms Inc Semarang – Koridor Menuju Lounge",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Menuju Lounge menyorot papan informasi dan lorong, dengan konteks kunjungan di Rooms Inc Semarang.",
+            "description": "Koridor Menuju Lounge menyorot papan informasi dan lorong, dengan konteks kunjungan di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan informasi",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "node20",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Koridor Menuju Lounge menjadi bagian penting dari Rooms Inc Semarang – Koridor Menuju Lounge?",
+                    "mode": "fix",
+                    "answer": "Koridor Menuju Lounge menyorot papan informasi dan lorong, dengan konteks kunjungan di Rooms Inc Semarang. Koridor Menuju Lounge menyorot papan informasi dan lorong, dengan konteks kunjungan di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal."
+                },
+                {
+                    "q": "Apa hubungan Papan informasi dengan aktivitas di Koridor Menuju Lounge?",
+                    "mode": "fix",
+                    "answer": "Papan informasi menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Koridor Menuju Lounge menyorot papan informasi dan lorong, dengan konteks kunjungan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Koridor Menuju Lounge dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Papan informasi dan Lorong. Koridor Menuju Lounge menyorot papan informasi dan lorong, dengan konteks kunjungan di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Koridor Menuju Lounge.",
+                "describeHere": "Area NODE20 (ID: node20) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "node21",
+            "displayName": "Sudut Lorong Fasilitas",
+            "placeId": "rooms-inc-semarang-sudut-lorong-fasilitas",
+            "placeName": "Rooms Inc Semarang – Sudut Lorong Fasilitas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut Lorong Fasilitas di Rooms Inc Semarang memperlihatkan dinding bata dan papan pintu.",
+            "description": "Sudut Lorong Fasilitas di Rooms Inc Semarang memperlihatkan dinding bata dan papan pintu. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Dinding bata",
+                "Papan pintu"
+            ],
+            "talkingPoints": [
+                "node21",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Sudut Lorong Fasilitas?",
+                    "mode": "fix",
+                    "answer": "Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Sudut Lorong Fasilitas mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Dinding bata bersama Papan pintu menunjukkan cara area ini digunakan. Sudut Lorong Fasilitas di Rooms Inc Semarang memperlihatkan dinding bata dan papan pintu."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Sudut Lorong Fasilitas?",
+                    "mode": "fix",
+                    "answer": "Dinding bata menjadi detail utama, sedangkan Papan pintu melengkapi konteksnya. Sudut Lorong Fasilitas di Rooms Inc Semarang memperlihatkan dinding bata dan papan pintu."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Sudut Lorong Fasilitas.",
+                "describeHere": "Area NODE21 (ID: node21) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Ruang Tamu",
+            "displayName": "Akses Ruang Kebugaran",
+            "placeId": "rooms-inc-semarang-akses-ruang-kebugaran",
+            "placeName": "Rooms Inc Semarang – Akses Ruang Kebugaran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu dan alat latihan menjadi unsur yang terlihat pada Akses Ruang Kebugaran di Rooms Inc Semarang.",
+            "description": "Pintu dan alat latihan menjadi unsur yang terlihat pada Akses Ruang Kebugaran di Rooms Inc Semarang. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna.",
+            "highlights": [
+                "Pintu",
+                "Alat latihan"
+            ],
+            "talkingPoints": [
+                "Ruang Tamu",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Akses Ruang Kebugaran dalam pengalaman pengunjung di Rooms Inc Semarang – Akses Ruang Kebugaran?",
+                    "mode": "fix",
+                    "answer": "Pintu dan alat latihan menjadi unsur yang terlihat pada Akses Ruang Kebugaran di Rooms Inc Semarang. Pintu dan alat latihan menjadi unsur yang terlihat pada Akses Ruang Kebugaran di Rooms Inc Semarang. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                },
+                {
+                    "q": "Mengapa Pintu penting pada Akses Ruang Kebugaran?",
+                    "mode": "fix",
+                    "answer": "Pintu membantu menjelaskan identitas dan fungsi Akses Ruang Kebugaran. Pintu dan alat latihan menjadi unsur yang terlihat pada Akses Ruang Kebugaran di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Akses Ruang Kebugaran?",
+                    "mode": "fix",
+                    "answer": "Moonlounge merupakan area ikonik untuk bersantai, tempat ini sering digunakan sebagai titik kumpul yang estetik bagi para tamu untuk menikmati musik, makanan, dan suasana yang modern."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Akses Ruang Kebugaran.",
+                "describeHere": "Ruang Tamu adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Musholla",
+            "displayName": "Pintu Musala",
+            "placeId": "rooms-inc-semarang-pintu-musala",
+            "placeName": "Rooms Inc Semarang – Pintu Musala",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pintu Musala menampilkan pintu bertanda dan sudut lorong di Rooms Inc Semarang.",
+            "description": "Pandangan Pintu Musala menampilkan pintu bertanda dan sudut lorong di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Pintu bertanda",
+                "Sudut lorong"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Pintu Musala menunjukkan karakter Rooms Inc Semarang – Pintu Musala?",
+                    "mode": "fix",
+                    "answer": "Pandangan Pintu Musala menampilkan pintu bertanda dan sudut lorong di Rooms Inc Semarang. Pandangan Pintu Musala menampilkan pintu bertanda dan sudut lorong di Rooms Inc Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Fasilitas pusat kebugaran ini menyediakan berbagai alat olahraga esensial untuk menjaga stamina tamu selama menginap. Ruangannya didesain minimalis namun fungsional agar aktivitas olahraga tetap terasa menyenangkan dan privat."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Pintu bertanda dan Sudut lorong di Pintu Musala?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pandangan Pintu Musala menampilkan pintu bertanda dan sudut lorong di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Pintu Musala?",
+                    "mode": "fix",
+                    "answer": "Pintu bertanda paling langsung membantu mengenali area ini. Pandangan Pintu Musala menampilkan pintu bertanda dan sudut lorong di Rooms Inc Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Pintu Musala.",
+                "describeHere": "Musholla adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node24": {
+            "rawName": "node24",
+            "displayName": "Area Layanan Restoran",
+            "placeId": "rooms-inc-semarang-area-layanan-restoran",
+            "placeName": "Rooms Inc Semarang – Area Layanan Restoran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Area Layanan Restoran, konter dan jalur masuk membentuk tampilan bagian Rooms Inc Semarang ini.",
+            "description": "Pada Area Layanan Restoran, konter dan jalur masuk membentuk tampilan bagian Rooms Inc Semarang ini. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama.",
+            "highlights": [
+                "Konter",
+                "Jalur masuk"
+            ],
+            "talkingPoints": [
+                "node24",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Area Layanan Restoran?",
+                    "mode": "fix",
+                    "answer": "Pada Area Layanan Restoran, konter dan jalur masuk membentuk tampilan bagian Rooms Inc Semarang ini. Pada Area Layanan Restoran, konter dan jalur masuk membentuk tampilan bagian Rooms Inc Semarang ini. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Area Layanan Restoran?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Konter dan Jalur masuk memberi petunjuk tentang kegiatan yang berlangsung di sini. Pada Area Layanan Restoran, konter dan jalur masuk membentuk tampilan bagian Rooms Inc Semarang ini."
+                },
+                {
+                    "q": "Apa konteks Rooms Inc Semarang – Area Layanan Restoran yang membuat Area Layanan Restoran lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Rooms Inc menyediakan ruang pertemuan serbaguna dengan fasilitas audiovisual lengkap untuk menunjang kebutuhan bisnis atau acara formal. Ruang ini memiliki desain yang energik dan fleksibel sehingga dapat disesuaikan dengan berbagai skala kegiatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Area Layanan Restoran.",
+                "describeHere": "Area NODE24 (ID: node24) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node25": {
+            "rawName": "Rooms Inc.",
+            "displayName": "Pintu Rooms Inc.",
+            "placeId": "rooms-inc-semarang-pintu-rooms-inc",
+            "placeName": "Rooms Inc Semarang – Pintu Rooms Inc.",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu Rooms Inc. menyorot pintu kaca dan troli bagasi, dengan konteks kunjungan di Rooms Inc Semarang.",
+            "description": "Pintu Rooms Inc. menyorot pintu kaca dan troli bagasi, dengan konteks kunjungan di Rooms Inc Semarang. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum.",
+            "highlights": [
+                "Pintu kaca",
+                "Troli bagasi"
+            ],
+            "talkingPoints": [
+                "Rooms Inc.",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Pintu Rooms Inc. di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pintu Rooms Inc. menyorot pintu kaca dan troli bagasi, dengan konteks kunjungan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Pintu Rooms Inc.?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca dan Troli bagasi memperjelas susunan serta penggunaan ruang. Pintu Rooms Inc. menyorot pintu kaca dan troli bagasi, dengan konteks kunjungan di Rooms Inc Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Rooms Inc Semarang – Pintu Rooms Inc. yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Tipe kamar ini menawarkan kenyamanan tidur berkualitas dengan kasur berukuran queen dan desain interior yang modern. Kamar ini dilengkapi dengan fasilitas pintar dan pencahayaan yang hangat untuk menjamin pengalaman beristirahat yang maksimal."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Pintu Rooms Inc..",
+                "describeHere": "Rooms Inc. adalah area di dalam kawasan Hotelrooms, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node26": {
+            "rawName": "node26",
+            "displayName": "Area Kedatangan Rooms Inc.",
+            "placeId": "rooms-inc-semarang-area-kedatangan-rooms-inc",
+            "placeName": "Rooms Inc Semarang – Area Kedatangan Rooms Inc.",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area Kedatangan Rooms Inc. di Rooms Inc Semarang memperlihatkan teras dan troli.",
+            "description": "Area Kedatangan Rooms Inc. di Rooms Inc Semarang memperlihatkan teras dan troli. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area.",
+            "highlights": [
+                "Teras",
+                "Troli"
+            ],
+            "talkingPoints": [
+                "node26",
+                "jalur eksplorasi",
+                "Hotelrooms"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Area Kedatangan Rooms Inc. menjadi bagian penting dari Rooms Inc Semarang – Area Kedatangan Rooms Inc.?",
+                    "mode": "fix",
+                    "answer": "Area Kedatangan Rooms Inc. di Rooms Inc Semarang memperlihatkan teras dan troli. Area Kedatangan Rooms Inc. di Rooms Inc Semarang memperlihatkan teras dan troli. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Waiting Room Area tunggu atau lobi di hotel ini dirancang dengan gaya industrial yang sangat trendi dan nyaman bagi para tamu yang baru tiba. Ruang ini dilengkapi dengan berbagai spot foto menarik dan fasilitas hiburan yang mencerminkan konsep smart-urban hotel."
+                },
+                {
+                    "q": "Apa hubungan Teras dengan aktivitas di Area Kedatangan Rooms Inc.?",
+                    "mode": "fix",
+                    "answer": "Teras menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Area Kedatangan Rooms Inc. di Rooms Inc Semarang memperlihatkan teras dan troli."
+                },
+                {
+                    "q": "Apa yang membedakan Area Kedatangan Rooms Inc. dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Teras dan Troli. Area Kedatangan Rooms Inc. di Rooms Inc Semarang memperlihatkan teras dan troli."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Rooms Inc Semarang – Area Kedatangan Rooms Inc..",
+                "describeHere": "Area NODE26 (ID: node26) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

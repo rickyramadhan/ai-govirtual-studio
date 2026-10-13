@@ -1,0 +1,944 @@
+{
+    "version": "1.1-seed",
+    "tourId": "kawasanolahragajatidiri",
+    "generatedAt": "2026-10-12",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node81": {
+            "rawName": "default1",
+            "displayName": "Stadion – Pandangan Tribun Atas",
+            "placeId": "kawasan-olahraga-jatidiri-stadion-pandangan-tribun-atas",
+            "placeName": "Kawasan Olahraga Jatidiri – Stadion – Pandangan Tribun Atas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pemandangan spektakuler dari tribun atas Stadion Utama Jatidiri yang megah.",
+            "description": "Dari tribun atas ini, pengunjung dapat melihat keseluruhan kemegahan Stadion Utama Jatidiri yang berstandar internasional. Area ini memberikan visibilitas terbaik untuk menyaksikan pertandingan sepak bola atau acara besar lainnya.",
+            "highlights": [
+                "Tribun merah putih",
+                "Rumput"
+            ],
+            "talkingPoints": [
+                "default1",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kapasitas penonton di Stadion Jatidiri?",
+                    "mode": "ai",
+                    "answer": "Stadion Utama Jatidiri memiliki kapasitas puluhan ribu penonton setelah direnovasi dengan standar modern."
+                },
+                {
+                    "q": "Apakah kursi tribun dilengkapi dengan atap?",
+                    "mode": "ai",
+                    "answer": "Sebagian besar tribun utama tertutup atap kanopi yang megah untuk melindungi penonton dari cuaca."
+                },
+                {
+                    "q": "Apakah stadion ini digunakan untuk pertandingan internasional?",
+                    "mode": "ai",
+                    "answer": "Ya, stadion ini dibangun dengan standar FIFA sehingga layak menggelar pertandingan level internasional."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Stadion – Pandangan Tribun Atas.",
+                "describeHere": "default1 adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node104": {
+            "rawName": "default2",
+            "displayName": "Stadion – Tengah Tribun",
+            "placeId": "kawasan-olahraga-jatidiri-stadion-tengah-tribun",
+            "placeName": "Kawasan Olahraga Jatidiri – Stadion – Tengah Tribun",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut pandang dari area tengah tribun yang sangat dekat dengan lapangan.",
+            "description": "Area tengah tribun menawarkan pengalaman menonton yang imersif dan dekat dengan lapangan hijau. Tempat duduk ini sering menjadi incaran para pendukung setia karena atmosfer pertandingannya sangat terasa.",
+            "highlights": [
+                "Bangku penonton",
+                "Lapangan"
+            ],
+            "talkingPoints": [
+                "default2",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara membeli tiket untuk duduk di tribun tengah ini?",
+                    "mode": "ai",
+                    "answer": "Tiket biasanya dijual secara online atau melalui loket resmi saat ada pertandingan besar."
+                },
+                {
+                    "q": "Apakah tribun ini ramah untuk disabilitas?",
+                    "mode": "ai",
+                    "answer": "Stadion Jatidiri modern telah dilengkapi fasilitas khusus untuk mempermudah akses penyandang disabilitas."
+                },
+                {
+                    "q": "Apakah ada fasilitas toilet di dekat tribun ini?",
+                    "mode": "ai",
+                    "answer": "Tentu, terdapat fasilitas toilet dan area konsesi di lorong bawah tribun untuk kenyamanan penonton."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Stadion – Tengah Tribun.",
+                "describeHere": "default2 adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node105": {
+            "rawName": "default3",
+            "displayName": "Stadion – Sisi Lintasan",
+            "placeId": "kawasan-olahraga-jatidiri-stadion-sisi-lintasan",
+            "placeName": "Kawasan Olahraga Jatidiri – Stadion – Sisi Lintasan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan dari tepi lintasan atletik yang mengelilingi lapangan utama.",
+            "description": "Area sisi lintasan ini biasa digunakan oleh para ofisial pertandingan, atlet atletik, dan fotografer olahraga. Lintasan lari berstandar internasional ini melengkapi fasilitas stadion selain lapangan sepak bola utamanya.",
+            "highlights": [
+                "Trek atletik",
+                "Lapangan"
+            ],
+            "talkingPoints": [
+                "default3",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah lintasan lari ini bisa digunakan untuk warga umum?",
+                    "mode": "ai",
+                    "answer": "Umumnya lintasan ini digunakan untuk kegiatan latihan atlet resmi dan kompetisi, namun kadang dibuka untuk umum pada waktu tertentu."
+                },
+                {
+                    "q": "Terbuat dari bahan apa lintasan lari ini?",
+                    "mode": "ai",
+                    "answer": "Lintasan ini menggunakan bahan sintetis tartan berkualitas tinggi yang standar digunakan dalam kompetisi atletik."
+                },
+                {
+                    "q": "Selain lari, cabang atletik apa yang bisa digelar di sini?",
+                    "mode": "ai",
+                    "answer": "Fasilitas ini juga mendukung olahraga lompat jauh, lompat tinggi, dan tolak peluru."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Stadion – Sisi Lintasan.",
+                "describeHere": "default3 adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node82": {
+            "rawName": "Boxing",
+            "displayName": "Ring Tinju Indoor",
+            "placeId": "kawasan-olahraga-jatidiri-ring-tinju-indoor",
+            "placeName": "Kawasan Olahraga Jatidiri – Ring Tinju Indoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ring tinju indoor yang digunakan untuk latihan dan pertandingan.",
+            "description": "Arena ring tinju indoor di Jatidiri merupakan fasilitas pembinaan bagi atlet tinju daerah. Tempat ini dilengkapi dengan matras standar dan peralatan latihan untuk mengasah kemampuan para petinju muda.",
+            "highlights": [
+                "Ring",
+                "Tali pembatas"
+            ],
+            "talkingPoints": [
+                "Boxing",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah ada pelatih tinju yang siaga di sini?",
+                    "mode": "ai",
+                    "answer": "Ya, biasanya terdapat pelatih dari pengurus cabang olahraga yang membina atlet di tempat ini."
+                },
+                {
+                    "q": "Bolehkah masyarakat umum berlatih tinju di sini?",
+                    "mode": "ai",
+                    "answer": "Fasilitas ini utamanya untuk atlet binaan, namun mungkin ada klub yang membuka kelas untuk pemula."
+                },
+                {
+                    "q": "Apakah sering diadakan kejuaraan tinju di area ini?",
+                    "mode": "ai",
+                    "answer": "Arena ini sering digunakan untuk kejuaraan daerah dan seleksi atlet tingkat provinsi."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:480"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Ring Tinju Indoor.",
+                "describeHere": "Boxing adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node83": {
+            "rawName": "Panjattebing",
+            "displayName": "Dinding Panjat – Jalur Beragam",
+            "placeId": "kawasan-olahraga-jatidiri-dinding-panjat-jalur-beragam",
+            "placeName": "Kawasan Olahraga Jatidiri – Dinding Panjat – Jalur Beragam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas dinding panjat tebing dengan beragam tingkat kesulitan untuk latihan.",
+            "description": "Spot dinding panjat di Jatidiri memiliki beberapa jalur panjat dari kategori bouldering hingga lead climbing. Area ini menjadi pusat latihan favorit bagi atlet panjat tebing Semarang dan komunitas pecinta alam.",
+            "highlights": [
+                "Pegangan warna",
+                "Dinding miring"
+            ],
+            "talkingPoints": [
+                "Panjattebing",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tinggi dinding panjat ini?",
+                    "mode": "ai",
+                    "answer": "Tinggi dinding bervariasi, untuk kategori lead climbing tingginya bisa mencapai standar kompetisi internasional sekitar 15 meter."
+                },
+                {
+                    "q": "Apakah disediakan penyewaan alat panjat?",
+                    "mode": "ai",
+                    "answer": "Pengunjung umumnya membawa peralatan keselamatan sendiri, atau berlatih bersama komunitas dan klub yang sudah memiliki perlengkapan."
+                },
+                {
+                    "q": "Apakah aman bagi pemula untuk memanjat di sini?",
+                    "mode": "ai",
+                    "answer": "Sangat disarankan bagi pemula untuk didampingi oleh instruktur profesional saat berlatih di dinding panjat ini."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:477"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Dinding Panjat – Jalur Beragam.",
+                "describeHere": "Panjattebing adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node86": {
+            "rawName": "Vollyball",
+            "displayName": "Gedung Bola Voli",
+            "placeId": "kawasan-olahraga-jatidiri-gedung-bola-voli",
+            "placeName": "Kawasan Olahraga Jatidiri – Gedung Bola Voli",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung olahraga khusus bola voli dengan lapangan dan pencahayaan standar.",
+            "description": "Gedung Bola Voli Jatidiri menawarkan lapangan berlantai standar internasional yang aman dan nyaman untuk pemain. Gelanggang ini sering menjadi tuan rumah turnamen bola voli bergengsi tingkat nasional.",
+            "highlights": [
+                "Net",
+                "Tribun"
+            ],
+            "talkingPoints": [
+                "Vollyball",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah lapangan ini menggunakan lantai kayu?",
+                    "mode": "ai",
+                    "answer": "Lantai lapangan voli ini menggunakan material sintetis khusus (seperti taraflex) yang dirancang untuk meredam benturan lompatan."
+                },
+                {
+                    "q": "Berapa kapasitas penonton di gedung voli ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat tribun penonton di sisi lapangan yang mampu menampung ratusan hingga ribuan suporter."
+                },
+                {
+                    "q": "Bisakah klub amatir menyewa gedung voli ini?",
+                    "mode": "ai",
+                    "answer": "Ya, lapangan ini dapat disewa oleh pihak luar melalui prosedur perizinan ke pihak pengelola kawasan."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:476"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Gedung Bola Voli.",
+                "describeHere": "Vollyball adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node89": {
+            "rawName": "Kolamrenang",
+            "displayName": "Kolam Renang Jatidiri",
+            "placeId": "kawasan-olahraga-jatidiri-kolam-renang-jatidiri",
+            "placeName": "Kawasan Olahraga Jatidiri – Kolam Renang Jatidiri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kolam renang berstandar olimpiade untuk rekreasi dan kejuaraan renang.",
+            "description": "Kolam Renang Jatidiri dilengkapi dengan lintasan yang sesuai spesifikasi olimpiade dan kolam loncat indah. Fasilitas ini sangat memadai baik untuk pembinaan atlet profesional maupun untuk rekreasi warga.",
+            "highlights": [
+                "Lintasan air",
+                "Tribun"
+            ],
+            "talkingPoints": [
+                "Kolamrenang",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kedalaman kolam renang di sini?",
+                    "mode": "ai",
+                    "answer": "Kedalaman kolam bervariasi, untuk kolam tanding sekitar 2-3 meter, sementara kolam loncat indah bisa mencapai 5 meter."
+                },
+                {
+                    "q": "Apakah air kolam rutin dibersihkan?",
+                    "mode": "ai",
+                    "answer": "Ya, pengelola melakukan perawatan filtrasi dan klorinasi rutin agar kualitas air tetap terjaga."
+                },
+                {
+                    "q": "Berapa harga tiket masuk kolam renang untuk umum?",
+                    "mode": "ai",
+                    "answer": "Harga tiket relatif terjangkau bagi masyarakat dan sedikit berbeda antara hari biasa dan akhir pekan."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:475"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Kolam Renang Jatidiri.",
+                "describeHere": "Kolamrenang adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node92": {
+            "rawName": "Cycling",
+            "displayName": "Lapangan Terbuka untuk Latihan",
+            "placeId": "kawasan-olahraga-jatidiri-lapangan-terbuka-untuk-latihan",
+            "placeName": "Kawasan Olahraga Jatidiri – Lapangan Terbuka untuk Latihan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan hijau terbuka yang multifungsi untuk kegiatan pemanasan dan latihan.",
+            "description": "Area lapangan terbuka ini sering dimanfaatkan oleh berbagai klub olahraga untuk sesi latihan fisik dan pemanasan. Ruang yang luas dan rumput yang terawat menjadikannya tempat ideal untuk aktivitas olahraga luar ruangan.",
+            "highlights": [
+                "Permukaan hijau",
+                "Lintasan tepi"
+            ],
+            "talkingPoints": [
+                "Cycling",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Olahraga apa saja yang biasa dilakukan di lapangan terbuka ini?",
+                    "mode": "ai",
+                    "answer": "Biasanya digunakan untuk latihan panahan, sepak bola amatir, atau latihan fisik umum atlet cabang lain."
+                },
+                {
+                    "q": "Bolehkah warga jogging di sekitar lapangan terbuka ini?",
+                    "mode": "ai",
+                    "answer": "Boleh, banyak warga sekitar memanfaatkan area pinggiran lapangan ini untuk jogging di pagi dan sore hari."
+                },
+                {
+                    "q": "Apakah lapangan ini buka malam hari?",
+                    "mode": "ai",
+                    "answer": "Fasilitas penerangan biasanya terbatas di lapangan terbuka, sehingga lebih optimal digunakan saat pagi atau sore hari."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:474"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Lapangan Terbuka untuk Latihan.",
+                "describeHere": "Cycling adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node94": {
+            "rawName": "Arena Silat",
+            "displayName": "Arena Silat",
+            "placeId": "kawasan-olahraga-jatidiri-arena-silat",
+            "placeName": "Kawasan Olahraga Jatidiri – Arena Silat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Arena bela diri dalam ruangan yang khusus digunakan untuk latihan pencak silat.",
+            "description": "Arena ini dirancang khusus dengan alas matras tebal yang melindungi para pesilat saat berlatih bantingan dan jurus. Tempat ini menjadi kawah candradimuka bagi atlet pencak silat daerah yang bersiap mengikuti kejuaraan nasional.",
+            "highlights": [
+                "Matras",
+                "Ruang latihan"
+            ],
+            "talkingPoints": [
+                "Arena Silat",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah arena silat ini dilengkapi AC?",
+                    "mode": "ai",
+                    "answer": "Gedung bela diri biasanya memiliki sirkulasi udara yang baik dan beberapa dilengkapi pendingin ruangan untuk kenyamanan latihan."
+                },
+                {
+                    "q": "Perguruan silat apa saja yang berlatih di sini?",
+                    "mode": "ai",
+                    "answer": "Berbagai perguruan silat yang tergabung dalam IPSI (Ikatan Pencak Silat Indonesia) sering menggunakan fasilitas ini secara bergantian."
+                },
+                {
+                    "q": "Apakah pengunjung bisa menonton latihan silat?",
+                    "mode": "ai",
+                    "answer": "Umumnya bisa dilihat dari area pinggir, namun pengunjung diwanti-wanti agar tidak mengganggu konsentrasi pesilat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Arena Silat.",
+                "describeHere": "Arena Silat adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node95": {
+            "rawName": "Lapangantennis",
+            "displayName": "Lapangan Tenis – Sisi Net",
+            "placeId": "kawasan-olahraga-jatidiri-lapangan-tenis-sisi-net",
+            "placeName": "Kawasan Olahraga Jatidiri – Lapangan Tenis – Sisi Net",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tampilan lapangan tenis outdoor dari posisi dekat jaring (net) utama.",
+            "description": "Lapangan tenis outdoor ini mengaplikasikan lapisan hard court yang memenuhi standar untuk pantulan bola yang sempurna. Fasilitas ini rutin dipakai untuk latihan maupun pertandingan tingkat lokal dan regional.",
+            "highlights": [
+                "Net",
+                "Kanopi"
+            ],
+            "talkingPoints": [
+                "Lapangantennis",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa jumlah lapangan tenis yang ada di kawasan ini?",
+                    "mode": "ai",
+                    "answer": "Kawasan Jatidiri memiliki beberapa lapangan tenis yang bersebelahan untuk mendukung turnamen besar."
+                },
+                {
+                    "q": "Apakah disediakan lampu untuk bermain tenis di malam hari?",
+                    "mode": "ai",
+                    "answer": "Ya, lapangan dilengkapi dengan lampu penerangan berdaya tinggi untuk pertandingan pada malam hari."
+                },
+                {
+                    "q": "Apakah pengunjung harus membawa raket sendiri?",
+                    "mode": "ai",
+                    "answer": "Pemain disarankan membawa perlengkapan sendiri seperti raket dan bola, karena tidak ada layanan penyewaan perlengkapan olahraga."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:478"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Lapangan Tenis – Sisi Net.",
+                "describeHere": "Lapangantennis adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node97": {
+            "rawName": "Patung",
+            "displayName": "Landmark Kompleks Jatidiri",
+            "placeId": "kawasan-olahraga-jatidiri-landmark-kompleks-jatidiri",
+            "placeName": "Kawasan Olahraga Jatidiri – Landmark Kompleks Jatidiri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ikon landmark selamat datang yang menjadi gerbang utama Kawasan Olahraga Jatidiri.",
+            "description": "Landmark Kompleks Jatidiri berdiri megah sebagai penanda kawasan pusat olahraga di Kota Semarang. Spot ini sangat ikonik dan sering menjadi tempat favorit bagi pengunjung untuk berfoto ria.",
+            "highlights": [
+                "Monumen",
+                "Jalan kawasan"
+            ],
+            "talkingPoints": [
+                "Patung",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Di mana letak persis landmark ini?",
+                    "mode": "ai",
+                    "answer": "Landmark ini biasanya terletak di bagian depan pintu gerbang masuk utama kawasan olahraga."
+                },
+                {
+                    "q": "Apakah area landmark ini sering padat kendaraan?",
+                    "mode": "ai",
+                    "answer": "Bisa padat pada saat ada event olahraga besar atau pertandingan sepak bola di stadion."
+                },
+                {
+                    "q": "Bolehkah berfoto di depan tulisan landmark?",
+                    "mode": "ai",
+                    "answer": "Sangat boleh, itu adalah spot foto wajib bagi warga yang berkunjung ke Jatidiri."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Landmark Kompleks Jatidiri.",
+                "describeHere": "Patung adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node98": {
+            "rawName": "Stadion",
+            "displayName": "Stadion – Tepi Rumput",
+            "placeId": "kawasan-olahraga-jatidiri-stadion-tepi-rumput",
+            "placeName": "Kawasan Olahraga Jatidiri – Stadion – Tepi Rumput",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut pandang dari area tepi lapangan rumput utama di dalam stadion.",
+            "description": "Pemandangan dari tepi rumput ini memperlihatkan kualitas rumput berstandar tinggi yang digunakan di Stadion Jatidiri. Sistem drainase di bawah lapangan menjaga rumput agar tidak tergenang meski diguyur hujan lebat.",
+            "highlights": [
+                "Lapangan",
+                "Atap tribun"
+            ],
+            "talkingPoints": [
+                "Stadion",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis rumput apa yang digunakan di stadion ini?",
+                    "mode": "ai",
+                    "answer": "Stadion modern seperti ini umumnya menggunakan rumput jenis Zoysia Matrella yang sangat cocok untuk iklim tropis."
+                },
+                {
+                    "q": "Apakah penonton boleh turun ke area tepi rumput ini?",
+                    "mode": "ai",
+                    "answer": "Tidak, area ini steril dari penonton dan hanya boleh dimasuki oleh pemain, pelatih, ofisial, serta petugas medis."
+                },
+                {
+                    "q": "Bagaimana rumput ini dirawat?",
+                    "mode": "ai",
+                    "answer": "Ada tim khusus yang rutin melakukan pemotongan, pemupukan, dan penyiraman menggunakan sistem sprinkler otomatis."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:479"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Stadion – Tepi Rumput.",
+                "describeHere": "Stadion adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node100": {
+            "rawName": "Locker",
+            "displayName": "Ruang Ganti Atlet",
+            "placeId": "kawasan-olahraga-jatidiri-ruang-ganti-atlet",
+            "placeName": "Kawasan Olahraga Jatidiri – Ruang Ganti Atlet",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang ganti atlet yang mewah, bersih, dan berstandar internasional.",
+            "description": "Ruang ganti pemain di Stadion Jatidiri didesain dengan fasilitas lengkap termasuk loker individu, area pijat, dan kamar mandi modern. Ruangan ini memberikan kenyamanan maksimal bagi para pemain sebelum dan sesudah bertanding.",
+            "highlights": [
+                "Loker",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Locker",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah ruang ganti ini dilengkapi fasilitas air panas?",
+                    "mode": "ai",
+                    "answer": "Ya, kamar mandi di ruang ganti ini dilengkapi dengan shower air hangat untuk membantu pemulihan otot atlet."
+                },
+                {
+                    "q": "Berapa banyak loker yang tersedia di satu ruangan?",
+                    "mode": "ai",
+                    "answer": "Jumlah loker disesuaikan dengan skuad satu tim sepak bola penuh, lengkap dengan kursi khusus masing-masing."
+                },
+                {
+                    "q": "Apakah ada papan taktik untuk pelatih?",
+                    "mode": "ai",
+                    "answer": "Terdapat whiteboard dan fasilitas presentasi agar pelatih bisa memberikan instruksi taktik sebelum bertanding."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Ruang Ganti Atlet.",
+                "describeHere": "Locker adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node101": {
+            "rawName": "Pintu Masuk Stadion Jatidiri",
+            "displayName": "Lobi Stadion Jatidiri",
+            "placeId": "kawasan-olahraga-jatidiri-lobi-stadion-jatidiri",
+            "placeName": "Kawasan Olahraga Jatidiri – Lobi Stadion Jatidiri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area lobi utama stadion yang menjadi tempat penyambutan tamu VIP dan ofisial.",
+            "description": "Lobi Stadion Jatidiri memberikan kesan elegan dengan pencahayaan dan desain interior yang modern. Area ini berfungsi sebagai titik masuk khusus bagi tamu undangan VIP, pemain, dan awak media saat pertandingan berlangsung.",
+            "highlights": [
+                "Pilar",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk Stadion Jatidiri",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah lobi ini terbuka untuk suporter biasa?",
+                    "mode": "ai",
+                    "answer": "Biasanya tidak, suporter umum diarahkan masuk melalui gerbang tribun yang berbeda di sekeliling stadion."
+                },
+                {
+                    "q": "Apakah konferensi pers diadakan di sekitar lobi ini?",
+                    "mode": "ai",
+                    "answer": "Ya, ruang media center dan area konferensi pers umumnya berdekatan atau terhubung dengan lobi utama ini."
+                },
+                {
+                    "q": "Fasilitas apa saja yang ada di lobi ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat meja resepsionis, ruang tunggu VIP, toilet khusus, dan akses langsung menuju ke tribun VVIP."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Lobi Stadion Jatidiri.",
+                "describeHere": "Pintu Masuk Stadion Jatidiri adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node102": {
+            "rawName": "Lapangan Basket Jatidiri",
+            "displayName": "Lapangan Basket Outdoor",
+            "placeId": "kawasan-olahraga-jatidiri-lapangan-basket-outdoor",
+            "placeName": "Kawasan Olahraga Jatidiri – Lapangan Basket Outdoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan basket ruang terbuka (outdoor) yang sering digunakan kalangan anak muda.",
+            "description": "Lapangan basket outdoor ini menjadi titik kumpul populer bagi komunitas basket Semarang pada sore hari. Meski di ruang terbuka, lantainya dibuat tidak licin dan aman untuk permainan cepat.",
+            "highlights": [
+                "Ring",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Lapangan Basket Jatidiri",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah bermain basket di sini dipungut biaya?",
+                    "mode": "ai",
+                    "answer": "Untuk penggunaan santai biasanya gratis, namun jika digunakan untuk turnamen harus berkoordinasi dengan pengelola."
+                },
+                {
+                    "q": "Apakah ring basketnya terawat dengan baik?",
+                    "mode": "ai",
+                    "answer": "Ring dan papan pantul rutin diperiksa dan diganti jika mengalami kerusakan akibat cuaca atau penggunaan."
+                },
+                {
+                    "q": "Kapan waktu paling ramai di lapangan basket outdoor ini?",
+                    "mode": "ai",
+                    "answer": "Sore hingga malam hari menjadi waktu favorit anak muda berlatih dan bermain basket bersama."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Lapangan Basket Outdoor.",
+                "describeHere": "Lapangan Basket Jatidiri adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node103": {
+            "rawName": "Lapangan Tenis Jatidiri",
+            "displayName": "Lapangan Tenis – Pandangan Tribun",
+            "placeId": "kawasan-olahraga-jatidiri-lapangan-tenis-pandangan-tribun",
+            "placeName": "Kawasan Olahraga Jatidiri – Lapangan Tenis – Pandangan Tribun",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan dari area penonton (tribun mini) di sisi lapangan tenis.",
+            "description": "Area tribun penonton di lapangan tenis ini didesain agar suporter bisa menyaksikan pertandingan dengan nyaman tanpa terhalang jaring pelindung. Tempat duduk berundak ini cukup teduh di sore hari.",
+            "highlights": [
+                "Garis lapangan",
+                "Tempat penonton"
+            ],
+            "talkingPoints": [
+                "Lapangan Tenis Jatidiri",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa orang yang bisa duduk di tribun tenis ini?",
+                    "mode": "ai",
+                    "answer": "Kapasitasnya bervariasi, namun umumnya bisa menampung beberapa ratus penonton untuk kelas pertandingan lokal."
+                },
+                {
+                    "q": "Apakah penonton boleh berisik saat pertandingan tenis berlangsung?",
+                    "mode": "ai",
+                    "answer": "Dalam etika tenis, penonton diminta untuk tenang saat poin sedang dimainkan agar pemain bisa berkonsentrasi."
+                },
+                {
+                    "q": "Apakah tersedia atap pelindung di tribun tenis?",
+                    "mode": "ai",
+                    "answer": "Terdapat atap kanopi kecil di beberapa bagian, namun sebagian besar masih berupa ruang terbuka."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Lapangan Tenis – Pandangan Tribun.",
+                "describeHere": "Lapangan Tenis Jatidiri adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node106": {
+            "rawName": "Panjat Tebing Speed",
+            "displayName": "Area Panjat Speed",
+            "placeId": "kawasan-olahraga-jatidiri-area-panjat-speed",
+            "placeName": "Kawasan Olahraga Jatidiri – Area Panjat Speed",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area khusus dinding panjat kategori kecepatan (speed climbing) yang menantang.",
+            "description": "Dinding panjat speed ini dirancang vertikal dan digunakan atlet untuk berlatih memanjat secepat kilat. Jalurnya dibuat standar internasional dengan posisi poin (pegangan) yang seragam di seluruh dunia.",
+            "highlights": [
+                "Struktur panjat",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "Panjat Tebing Speed",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tinggi standar dinding speed climbing?",
+                    "mode": "ai",
+                    "answer": "Tinggi standar dinding speed climbing internasional yang digunakan di kejuaraan adalah 15 meter."
+                },
+                {
+                    "q": "Apakah ada timer (penghitung waktu) otomatis di dinding ini?",
+                    "mode": "ai",
+                    "answer": "Ya, saat perlombaan, dinding dilengkapi dengan tombol sensor di puncak untuk menghentikan timer secara otomatis."
+                },
+                {
+                    "q": "Berapa rata-rata waktu yang dibutuhkan atlet panjat speed?",
+                    "mode": "ai",
+                    "answer": "Atlet profesional tingkat dunia dapat memanjat dinding ini dalam waktu 5 hingga 6 detik saja."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Area Panjat Speed.",
+                "describeHere": "Panjat Tebing Speed adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node107": {
+            "rawName": "Batutebing",
+            "displayName": "Arena Panjat – Sisi Bangunan",
+            "placeId": "kawasan-olahraga-jatidiri-arena-panjat-sisi-bangunan",
+            "placeName": "Kawasan Olahraga Jatidiri – Arena Panjat – Sisi Bangunan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut pandang arena panjat tebing dari sisi bangunan pendukung.",
+            "description": "Dari sisi bangunan ini, pengunjung bisa melihat keseluruhan instalasi dinding panjat yang menjulang tinggi di Jatidiri. Area di sekitarnya difasilitasi dengan matras pengaman besar dan tenda istirahat bagi atlet.",
+            "highlights": [
+                "Dinding panjat",
+                "Bangunan pendukung"
+            ],
+            "talkingPoints": [
+                "Batutebing",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah aman menonton latihan panjat dari dekat?",
+                    "mode": "ai",
+                    "answer": "Aman, asalkan pengunjung tetap berada di batas garis yang ditentukan dan tidak mengganggu pergerakan belayer (pemegang tali)."
+                },
+                {
+                    "q": "Bangunan pendukung apa yang ada di dekat dinding panjat?",
+                    "mode": "ai",
+                    "answer": "Terdapat ruang peralatan untuk menyimpan tali, harness, karabiner, serta toilet dan mushola."
+                },
+                {
+                    "q": "Apakah dinding ini digunakan saat hujan?",
+                    "mode": "ai",
+                    "answer": "Memanjat saat hujan sangat berbahaya karena poin menjadi licin, sehingga aktivitas biasanya dihentikan sementara."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Arena Panjat – Sisi Bangunan.",
+                "describeHere": "Batutebing adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node108": {
+            "rawName": "DCIM\\Camera01\\IMG_20250804_163136_00_101.jp",
+            "displayName": "Kolam Renang – Pandangan Samping",
+            "placeId": "kawasan-olahraga-jatidiri-kolam-renang-pandangan-samping",
+            "placeName": "Kawasan Olahraga Jatidiri – Kolam Renang – Pandangan Samping",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan menyamping dari kolam renang yang luas dan tertata rapi.",
+            "description": "Sudut samping kolam ini memperlihatkan jelas garis-garis lintasan renang dan tribun penonton di sisi lainnya. Area tepi kolam dilapisi keramik anti selip untuk menjaga keselamatan perenang saat berjalan.",
+            "highlights": [
+                "Air kolam",
+                "Tribun"
+            ],
+            "talkingPoints": [
+                "DCIM\\Camera01\\IMG_20250804_163136_00_101.jp",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah boleh berlarian di pinggir kolam?",
+                    "mode": "ai",
+                    "answer": "Sangat dilarang berlarian di tepi kolam karena berisiko terpeleset dan cedera serius."
+                },
+                {
+                    "q": "Ada berapa jumlah lintasan renang di kolam utama ini?",
+                    "mode": "ai",
+                    "answer": "Kolam renang berstandar kompetisi umumnya memiliki 8 hingga 10 jalur lintasan."
+                },
+                {
+                    "q": "Apakah ada fasilitas ruang bilas di dekat kolam?",
+                    "mode": "ai",
+                    "answer": "Tentu, tersedia fasilitas loker dan puluhan bilik mandi bilas untuk kenyamanan para pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Kolam Renang – Pandangan Samping.",
+                "describeHere": "DCIM\\Camera01\\IMG_20250804_163136_00_101.jp adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node109": {
+            "rawName": "Video360 2",
+            "displayName": "Lapangan Tenis – Video 360",
+            "placeId": "kawasan-olahraga-jatidiri-lapangan-tenis-video-360",
+            "placeName": "Kawasan Olahraga Jatidiri – Lapangan Tenis – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pengalaman interaktif video 360 derajat di area lapangan tenis outdoor.",
+            "description": "Fitur video 360 ini memungkinkan pengguna melihat sekeliling lapangan tenis seolah-olah berada tepat di tengah lapangan. Pengunjung virtual bisa merasakan atmosfer dan detail lapangan dengan memutar layar mereka.",
+            "highlights": [
+                "Lapangan",
+                "Tribun",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 2",
+                "jalur eksplorasi",
+                "Kawasanolahragajatidiri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara menyewa lapangan tenis di sini dan berapa kisaran tarifnya?",
+                    "mode": "ai",
+                    "answer": "Penyewaan lapangan biasanya dapat dilakukan langsung melalui kantor pengelola Kawasan Olahraga Jatidiri atau melalui kontak admin yang tersedia. Tarif sewanya bervariasi tergantung waktu penggunaan (siang atau malam) dan hari (hari kerja atau akhir pekan), umumnya berkisar antara Rp 50.000 hingga Rp 150.000 per jam."
+                },
+                {
+                    "q": "Jam berapa lapangan tenis Jatidiri ini mulai buka dan tutup setiap harinya?",
+                    "mode": "ai",
+                    "answer": "Lapangan tenis di kawasan olahraga Jatidiri umumnya beroperasi setiap hari mulai pukul 06.00 WIB pagi hingga pukul 22.00 WIB malam. Lapangan ini juga sudah dilengkapi dengan sistem penerangan lampu yang memadai sehingga pengunjung tetap bisa bermain dengan nyaman di malam hari."
+                },
+                {
+                    "q": "Apakah di area lapangan ini terdapat fasilitas ruang ganti dan toilet?",
+                    "mode": "ai",
+                    "answer": "Ya, karena berada di dalam kompleks olahraga terpadu berskala provinsi, lapangan tenis ini dilengkapi dengan fasilitas pendukung yang memadai bagi para pengunjung, termasuk toilet, ruang ganti pakaian, tribun penonton kecil, dan area parkir kendaraan yang luas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Olahraga Jatidiri – Lapangan Tenis – Video 360.",
+                "describeHere": "Video360 2 adalah area di dalam kawasan Kawasanolahragajatidiri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

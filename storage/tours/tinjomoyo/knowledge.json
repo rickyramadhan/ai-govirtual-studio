@@ -1,0 +1,244 @@
+{
+    "version": 2,
+    "tourId": "tinjomoyo",
+    "updatedAt": "2026-09-29T09:52:45+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Tinjomoyo",
+            "aliases": [
+                "tinjomoyo"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "tinjomoyo"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Tinjomoyo.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Tinjomoyo",
+                    "content": "Pusat pengalaman virtual untuk Tinjomoyo."
+                },
+                "en": {
+                    "title": "Tinjomoyo",
+                    "content": "Pusat pengalaman virtual untuk Tinjomoyo."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Peralatantubing",
+            "aliases": [
+                "peralatantubing"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "tinjomoyo"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Peralatantubing",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Peralatantubing",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Bawah Jembatan Kaca",
+            "aliases": [
+                "bawah jembatan kaca"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "tinjomoyo"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Bawah Jembatan Kaca",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Bawah Jembatan Kaca",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "tinjomoyo"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:908",
+            "entityId": "objinfo2:908",
+            "title": "Jembatan Kaca",
+            "aliases": [
+                "jembatan kaca",
+                "objek 908"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Jembatan Kaca Tinjomoyo merupakan ikon wisata baru di Semarang yang menawarkan sensasi berjalan di atas ketinggian 20 meter dengan lantai kaca transparan sepanjang 64 meter. Destinasi pemacu adrenalin ini menyuguhkan pemandangan asri lembah sungai dan hutan Tinjomoyo yang hijau dari sudut pandang yang unik dan modern.",
+            "source": "webview-import",
+            "sourceId": "908",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jembatan Kaca",
+                    "content": "Jembatan Kaca Tinjomoyo merupakan ikon wisata baru di Semarang yang menawarkan sensasi berjalan di atas ketinggian 20 meter dengan lantai kaca transparan sepanjang 64 meter. Destinasi pemacu adrenalin ini menyuguhkan pemandangan asri lembah sungai dan hutan Tinjomoyo yang hijau dari sudut pandang yang unik dan modern."
+                },
+                "en": {
+                    "title": "Glass Bridge",
+                    "content": "Tinjomoyo Glass Bridge is a new tourism icon in Semarang that offers the thrill of walking 20 meters above the ground on a 64-meter-long transparent glass floor. This adrenaline-pumping destination provides a scenic view of the river valley and the green Tinjomoyo forest from a unique and modern perspective."
+                },
+                "zh": {
+                    "title": "玻璃桥",
+                    "content": "廷乔莫约玻璃桥是三宝垄的新旅游地标，游客可以在距地面 20 米高的 64 米长透明玻璃桥上行走，体验刺激。这个肾上腺素激增的景点可从独特而现代的角度欣赏河谷和郁郁葱葱的廷乔莫约森林美景。"
+                },
+                "ar": {
+                    "title": "الجسر الزجاجي",
+                    "content": "جسر الزجاج في تينجوموي هو رمز سياحي جديد في سيمارانغ، ويوفر تجربة السير على ارتفاع 20 مترًا فوق الأرض على أرضية زجاجية شفافة طولها 64 مترًا. تقدم هذه الوجهة المثيرة لمحبّي الأدرينالين إطلالات خلابة على وادي النهر وغابة تينجوموي الخضراء من منظور فريد وحديث"
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:909",
+            "entityId": "objinfo2:909",
+            "title": "Pasar Semarangan",
+            "aliases": [
+                "pasar semarangan",
+                "objek 909"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pasar Semarangan di Hutan Wisata Tinjomoyo adalah destinasi wisata kuliner bertema digital yang menyajikan berbagai jajanan tradisional di tengah suasana hutan pinus yang asri. Keunikan pasar ini terletak pada sistem pembayarannya yang eksklusif menggunakan transaksi nontunai atau aplikasi digital guna mendukung gaya hidup modern yang ramah lingkungan.",
+            "source": "webview-import",
+            "sourceId": "909",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pasar Semarangan",
+                    "content": "Pasar Semarangan di Hutan Wisata Tinjomoyo adalah destinasi wisata kuliner bertema digital yang menyajikan berbagai jajanan tradisional di tengah suasana hutan pinus yang asri. Keunikan pasar ini terletak pada sistem pembayarannya yang eksklusif menggunakan transaksi nontunai atau aplikasi digital guna mendukung gaya hidup modern yang ramah lingkungan."
+                },
+                "en": {
+                    "title": "Semarangan Market",
+                    "content": "Semarangan Market in Tinjomoyo Forest Tourism is a digital-themed culinary destination offering various traditional snacks amidst the lush pine forest atmosphere. The uniqueness of this market lies in its exclusive cashless payment system or digital app transactions, supporting a modern and eco-friendly lifestyle."
+                },
+                "zh": {
+                    "title": "三宝垄市场",
+                    "content": "廷乔莫约森林旅游区的三宝垄市场是一处数字主题的美食目的地，在郁郁葱葱的松林中供应各种传统小吃。这个市场的独特之处在于其专属的无现金支付系统或数字应用交易，以支持现代环保的生活方式。"
+                },
+                "ar": {
+                    "title": "سوق سيمارانغ",
+                    "content": "يقع سوق سيمارانغ في غابة سياحية تينجوموي، وهو وجهة طعام رقمية تعرض مجموعة متنوعة من الوجبات التقليدية وسط أجواء غابة الصنوبر الخضراء. تتميز هذه السوق بنظام دفع حصري بدون نقد أو عبر التطبيقات الرقمية، لدعم نمط حياة حديث وصديق للبيئة"
+                }
+            }
+        }
+    ]
+}

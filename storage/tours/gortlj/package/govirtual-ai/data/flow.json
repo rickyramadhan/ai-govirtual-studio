@@ -1,0 +1,83 @@
+{
+    "version": "1.0",
+    "tourId": "gortlj",
+    "tourName": "Gortlj",
+    "updatedAt": "2026-09-29T09:50:48+02:00",
+    "startScene": "node17",
+    "order": [
+        "node17",
+        "node1",
+        "node18",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16"
+    ],
+    "nodes": {
+        "node17": {
+            "displayName": "GOR Tri Lomba Juang – Lapangan Rumput Tri Lomba Juang"
+        },
+        "node1": {
+            "displayName": "GOR Tri Lomba Juang – Lintasan di Depan Tribun"
+        },
+        "node18": {
+            "displayName": "GOR Tri Lomba Juang – Area UMKM – Video 360"
+        },
+        "node2": {
+            "displayName": "GOR Tri Lomba Juang – Lintasan Lari – Sisi Mural"
+        },
+        "node3": {
+            "displayName": "GOR Tri Lomba Juang – Lapangan Bulu Tangkis Indoor"
+        },
+        "node4": {
+            "displayName": "GOR Tri Lomba Juang – Arena Skate – Bowl"
+        },
+        "node5": {
+            "displayName": "GOR Tri Lomba Juang – Area Latihan Luar Ruang"
+        },
+        "node6": {
+            "displayName": "GOR Tri Lomba Juang – Dinding Panjat Tebing"
+        },
+        "node7": {
+            "displayName": "GOR Tri Lomba Juang – Ruang Gym – Peralatan"
+        },
+        "node8": {
+            "displayName": "GOR Tri Lomba Juang – Pintu Ruang Fitness"
+        },
+        "node9": {
+            "displayName": "GOR Tri Lomba Juang – Lapangan Bola – Pandangan Tribun"
+        },
+        "node10": {
+            "displayName": "GOR Tri Lomba Juang – Arena Skate – Ramp"
+        },
+        "node11": {
+            "displayName": "GOR Tri Lomba Juang – Lapangan Tenis – Dekat Net"
+        },
+        "node12": {
+            "displayName": "GOR Tri Lomba Juang – Lapangan Tenis – Garis Samping"
+        },
+        "node13": {
+            "displayName": "GOR Tri Lomba Juang – Lapangan Tenis – Sisi Tribun"
+        },
+        "node14": {
+            "displayName": "GOR Tri Lomba Juang – Landmark Tri Lomba Juang"
+        },
+        "node15": {
+            "displayName": "GOR Tri Lomba Juang – Koridor Gerai UMKM"
+        },
+        "node16": {
+            "displayName": "GOR Tri Lomba Juang – Lintasan Lari – Sisi Pepohonan"
+        }
+    }
+}

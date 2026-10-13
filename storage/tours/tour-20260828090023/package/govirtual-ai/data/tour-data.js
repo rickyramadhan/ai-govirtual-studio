@@ -14,7 +14,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "pesawahan"
-            ]
+            ],
+            "pan": 27.54,
+            "tilt": -3.39,
+            "fov": 126.58
         },
         {
             "id": "node44",
@@ -27,7 +30,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Drone Sandi Buana Farm"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node45",
@@ -40,7 +46,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Drone Sandi Buana Farm"
-            ]
+            ],
+            "pan": 123.78,
+            "tilt": -49.92,
+            "fov": 103.78
         },
         {
             "id": "node46",
@@ -54,7 +63,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "bbq"
-            ]
+            ],
+            "pan": 98.65,
+            "tilt": 2.35,
+            "fov": 99.49
         },
         {
             "id": "node47",
@@ -67,7 +79,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Panggung"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node48",
@@ -80,7 +95,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Cafe Garden"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node49",
@@ -93,7 +111,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Cafe Garden"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node50",
@@ -106,7 +127,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Cafe Garden"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node51",
@@ -119,7 +143,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "closing"
-            ]
+            ],
+            "pan": 54.75,
+            "tilt": -2.43,
+            "fov": 120.03
         },
         {
             "id": "node52",
@@ -132,7 +159,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Hidroponik Buah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node54",
@@ -145,7 +175,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Penggilingan Padi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node55",
@@ -158,7 +191,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Hidroponik Buah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node56",
@@ -171,7 +207,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Hidroponik Buah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node57",
@@ -185,7 +224,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "melon"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node58",
@@ -198,7 +240,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Hidroponik Sayur"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node59",
@@ -211,7 +256,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Hidroponik Buah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node60",
@@ -225,7 +273,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "selada"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node61",
@@ -238,7 +289,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Pembibitan Tanaman"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node62",
@@ -251,7 +305,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Peremajaan Tanaman"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node63",
@@ -265,7 +322,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "sapi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node64",
@@ -278,7 +338,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Kandang Kambing"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node65",
@@ -291,7 +354,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Musholla"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node66",
@@ -304,7 +370,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Penggilingan Padi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node67",
@@ -318,7 +387,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "mesin"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node68",
@@ -331,7 +403,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Sawah"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         }
     ],
     "hotspots": [
@@ -1269,12 +1344,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Pesawahan merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pesawahan adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama di tepi area pesawahan yang memperlihatkan hamparan petak tanaman padi dari jarak dekat.",
+            "description": "Berdiri di titik ini, pandangan didominasi oleh petak-petak sawah hijau berundak dan pematang tanah. Pemandangan ini secara langsung menyorot area praktik pertanian, tempat di mana sistem tata air tradisional dan fase pertumbuhan tanaman padi dapat diamati secara langsung di depan mata.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Hamparan petak sawah",
+                "Pematang tanah",
+                "Area praktik tanam padi"
             ],
             "talkingPoints": [
                 "Pesawahan",
@@ -1282,16 +1358,28 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pesawahan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang sedang ditanam di lahan berlumpur depan ini?",
+                    "mode": "fix",
+                    "answer": "Di petak lahan basah yang membentang di depan ini, terdapat bibit padi yang sedang dalam masa pertumbuhan."
+                },
+                {
+                    "q": "Bagaimana fungsi parit kecil di sela-sela tanah tersebut?",
+                    "mode": "fix",
+                    "answer": "Parit atau pematang itu berfungsi menahan dan mengalirkan air dari satu petak ke petak lainnya agar tingkat kelembapan lumpur tetap ideal untuk padi."
+                },
+                {
+                    "q": "Apakah area lumpur ini digunakan untuk aktivitas pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, pada sesi edukasi tertentu, area ini menjadi tempat praktik langsung bagi pengunjung untuk turun ke lumpur dan belajar menanam padi."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2254"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pesawahan — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Pesawahan.",
                 "describeHere": "Pesawahan adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1299,18 +1387,19 @@ window.GoVirtualTourData = {
         },
         "node44": {
             "rawName": "Drone Sandi Buana Farm",
-            "displayName": "Drone Sandi Buana Farm",
-            "placeId": "drone-sandi-buana-farm",
-            "placeName": "Drone Sandi Buana Farm",
+            "displayName": "Drone Pintu Masuk Sandi Buana Farm",
+            "placeId": "drone-pintu-masuk-sandi-buana-farm",
+            "placeName": "Drone Pintu Masuk Sandi Buana Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Sandi Buana Farm merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Sandi Buana Farm adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tangkapan visual dari udara tepat di atas gerbang masuk kawasan agrowisata.",
+            "description": "Melalui sudut pandang ketinggian (drone) di titik ini, terlihat jelas wujud fisik gapura pintu masuk, area parkir, dan akses jalan utama. Titik udara ini memperlihatkan bagaimana posisi gerbang depan ini menjadi batas transisi antara jalan umum dengan kawasan agrowisata yang hijau.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Sudut pandang udara",
+                "Gerbang masuk kawasan",
+                "Akses jalan utama"
             ],
             "talkingPoints": [
                 "Drone Sandi Buana Farm",
@@ -1318,14 +1407,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Sandi Buana Farm.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang paling mencolok dari pemandangan udara di area masuk ini?",
+                    "mode": "fix",
+                    "answer": "Dari atas sini terlihat wujud gapura utama dan jalur masuk yang menyambut kendaraan pengunjung sebelum mereka memarkirkan kendaraannya."
+                },
+                {
+                    "q": "Bagaimana lalu lintas di jalan depan kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Terlihat jalan raya yang cukup lengang namun tertata rapi, memudahkan akses masuk rombongan kendaraan roda empat maupun bus pariwisata."
+                },
+                {
+                    "q": "Fasilitas apa yang letaknya paling dekat dengan pintu masuk ini?",
+                    "mode": "fix",
+                    "answer": "Area parkir dan plaza penyambutan adalah fasilitas pertama yang langsung terhubung dari titik gerbang udara ini."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Sandi Buana Farm — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Drone Pintu Masuk Sandi Buana Farm.",
                 "describeHere": "Drone Sandi Buana Farm adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1339,12 +1440,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Sandi Buana Farm merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Sandi Buana Farm adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pemandangan udara 360 derajat yang memetakan keseluruhan area hijau Sandi Buana Farm dari ketinggian.",
+            "description": "Berada tinggi di atas kawasan, panorama ini menyorot langsung topografi dan zonasi lahan. Dari atas sini, terhampar dengan jelas kontras antara area pesawahan terbuka, deretan atap putih greenhouse, serta rimbunnya pepohonan yang menjadi sabuk pembatas (greenbelt) alami kawasan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Peta udara kawasan",
+                "Zonasi area hijau",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Drone Sandi Buana Farm",
@@ -1352,14 +1454,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Sandi Buana Farm.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bangunan beratap putih memanjang apa yang terlihat dari atas ini?",
+                    "mode": "fix",
+                    "answer": "Itu adalah deretan greenhouse. Atap plastiknya dirancang untuk melindungi budidaya tanaman hidroponik dari air hujan langsung namun tetap menembuskan cahaya matahari."
+                },
+                {
+                    "q": "Bagaimana pembagian zona (layout) yang terlihat di lahan ini?",
+                    "mode": "fix",
+                    "answer": "Dari atas terlihat sangat jelas pemisahan antara zona ladang/sawah di tempat terbuka dengan zona fasilitas kuliner dan panggung yang dikelilingi pepohonan."
+                },
+                {
+                    "q": "Apa fungsi pepohonan lebat di batas luar kawasan tersebut?",
+                    "mode": "fix",
+                    "answer": "Pepohonan itu berfungsi sebagai sabuk hijau (buffer zone) penahan angin kencang sekaligus menjaga kualitas dan kelembapan udara di area pertanian."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Sandi Buana Farm — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Drone Sandi Buana Farm.",
                 "describeHere": "Drone Sandi Buana Farm adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1367,18 +1481,19 @@ window.GoVirtualTourData = {
         },
         "node46": {
             "rawName": "Bbq",
-            "displayName": "Bbq",
-            "placeId": "bbq",
-            "placeName": "Bbq",
+            "displayName": "Plaza",
+            "placeId": "plaza",
+            "placeName": "Plaza",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Bbq merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Bbq adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama di pelataran berlantai keras (plaza) yang menjadi ruang sirkulasi utama pengunjung.",
+            "description": "Berdiri di titik plaza ini, pengunjung dikelilingi oleh ruang terbuka tanpa sekat. Area berlantai paving/keras di sekeliling titik ini berfungsi sebagai ruang sirkulasi pejalan kaki, titik orientasi sebelum berpencar, dan ruang komunal yang menghubungkan area rekreasi dengan fasilitas kuliner.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Pelataran sirkulasi utama",
+                "Titik kumpul pengunjung",
+                "Ruang terbuka komunal"
             ],
             "talkingPoints": [
                 "Bbq",
@@ -1386,9 +1501,21 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Bbq.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari area berlantai keras di sekitar kita ini?",
+                    "mode": "fix",
+                    "answer": "Area plaza ini difungsikan sebagai titik kumpul komunal (meeting point) bagi rombongan wisatawan agar mudah diatur sebelum memulai tur."
+                },
+                {
+                    "q": "Fasilitas apa yang bisa diakses langsung dari titik plaza ini?",
+                    "mode": "fix",
+                    "answer": "Titik terbuka ini menghubungkan pengunjung ke berbagai akses, mulai dari pusat informasi, jalan menuju kebun, hingga rute ke area restoran."
+                },
+                {
+                    "q": "Mengapa area ini tidak ditanami rumput atau pepohonan besar?",
+                    "mode": "fix",
+                    "answer": "Area ini sengaja di-paving atau dibiarkan keras agar menjadi ruang sirkulasi yang tidak becek saat hujan dan mampu menampung pijakan puluhan orang sekaligus."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2255",
@@ -1396,7 +1523,7 @@ window.GoVirtualTourData = {
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Bbq — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Plaza.",
                 "describeHere": "Bbq adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1410,12 +1537,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Panggung merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Panggung adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama yang menghadap langsung ke struktur panggung hiburan semi-terbuka.",
+            "description": "Dari sudut ini, sorotan utama berada pada struktur panggung pementasan dan area penonton di depannya. Pemandangan ini menangkap detail lantai panggung, latar belakangnya yang bernuansa alam, serta ruang lapang di sekitarnya yang biasa dipadati penonton saat ada acara musik atau gathering.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Struktur panggung acara",
+                "Area penonton terbuka",
+                "Latar pementasan alam"
             ],
             "talkingPoints": [
                 "Panggung",
@@ -1423,14 +1551,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Panggung.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bentuk acara seperti apa yang dilangsungkan di panggung depan ini?",
+                    "mode": "fix",
+                    "answer": "Panggung ini biasa diisi dengan pertunjukan musik akustik (live music), perayaan penutupan outbound sekolah, atau acara seremonial rombongan keluarga."
+                },
+                {
+                    "q": "Apa yang menjadi latar belakang (backdrop) dari panggung ini?",
+                    "mode": "fix",
+                    "answer": "Berbeda dengan panggung di dalam gedung, latar belakang panggung ini dibiarkan terbuka memperlihatkan nuansa kebun hijau agar menyatu dengan konsep agrowisata."
+                },
+                {
+                    "q": "Di mana penonton biasanya duduk saat menonton pertunjukan?",
+                    "mode": "fix",
+                    "answer": "Penonton umumnya menyebar di area pelataran rumput di depan panggung, bisa menggunakan tikar atau kursi portabel yang disediakan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Panggung — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Panggung.",
                 "describeHere": "Panggung adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1444,12 +1584,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Cafe Garden merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Cafe Garden adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama di sela-sela area meja dan kursi makan Cafe Garden berkonsep ruang terbuka.",
+            "description": "Berada tepat di tengah titik ini, pengunjung dikelilingi oleh fasilitas tempat duduk tamu, meja-meja bundar, dan ornamen dekoratif milik Cafe Garden. Suasana di sekelilingnya memperlihatkan konsep ruang santap luar ruangan (alfresco) yang teduh karena dinaungi oleh kanopi dedaunan dari pohon-pohon di atasnya.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Meja makan luar ruangan",
+                "Konsep kafe taman (alfresco)",
+                "Suasana rimbun bersantap"
             ],
             "talkingPoints": [
                 "Cafe Garden",
@@ -1457,14 +1598,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Cafe Garden.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menjadi daya tarik bersantap di meja-meja area ini?",
+                    "mode": "fix",
+                    "answer": "Daya tariknya adalah konsep bersantap langsung di bawah rimbunnya pepohonan, menyatu dengan alam tanpa sekat dinding kaca seperti restoran konvensional."
+                },
+                {
+                    "q": "Bagaimana kondisi pencahayaan di area kafe ini saat malam hari?",
+                    "mode": "fix",
+                    "answer": "Terdapat instalasi lampu-lampu gantung temaram di antara pepohonan yang memberikan pencahayaan hangat dan kesan romantis di sekitar area meja makan."
+                },
+                {
+                    "q": "Apakah area meja ini aman jika tiba-tiba turun hujan gerimis?",
+                    "mode": "fix",
+                    "answer": "Sebagian area duduk terlindungi oleh tajuk pohon yang rimbun dan payung meja, namun pengelola biasanya memindahkan tamu ke area pendopo beratap jika hujan turun deras."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Cafe Garden — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Cafe Garden.",
                 "describeHere": "Cafe Garden adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1472,18 +1625,19 @@ window.GoVirtualTourData = {
         },
         "node49": {
             "rawName": "Cafe Garden",
-            "displayName": "Cafe Garden",
-            "placeId": "cafe-garden",
-            "placeName": "Cafe Garden",
+            "displayName": "BBQ Garden",
+            "placeId": "bbq-garden",
+            "placeName": "BBQ Garden",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Cafe Garden merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Cafe Garden adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area BBQ Garden yang memperlihatkan meja khusus untuk memanggang makanan.",
+            "description": "Panorama ini secara spesifik menyorot perlengkapan dan set meja di fasilitas BBQ Garden. Di depan mata, terlihat tata letak meja makan luar ruangan yang didesain agar tahan panas, dilengkapi ruang yang cukup luas bagi pengunjung untuk melakukan aktivitas memanggang daging secara interaktif bersama kelompoknya.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area pemanggang mandiri",
+                "Set meja tahan panas",
+                "Aktivitas kuliner interaktif"
             ],
             "talkingPoints": [
                 "Cafe Garden",
@@ -1491,14 +1645,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Cafe Garden.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Aktivitas apa yang bisa dilakukan secara mandiri di meja-meja ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menyewa perlengkapan tungku dan arang untuk memasak atau memanggang daging serta sosis sendiri (barbeque) langsung di meja mereka."
+                },
+                {
+                    "q": "Peralatan apa saja yang biasanya diletakkan di sekitar titik ini?",
+                    "mode": "fix",
+                    "answer": "Saat disewa, area ini akan dipenuhi dengan tungku panggangan (grill), kipas, capitan, dan piring-piring bahan mentah yang siap dimasak."
+                },
+                {
+                    "q": "Mengapa fasilitas memanggang ini diletakkan di area paling luar/terbuka?",
+                    "mode": "fix",
+                    "answer": "Tujuannya agar asap pembakaran dari arang bisa langsung menyebar ke udara bebas dan tidak membuat sesak pernapasan pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Cafe Garden — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di BBQ Garden.",
                 "describeHere": "Cafe Garden adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1506,18 +1672,19 @@ window.GoVirtualTourData = {
         },
         "node50": {
             "rawName": "Cafe Garden",
-            "displayName": "Cafe Garden",
-            "placeId": "cafe-garden",
-            "placeName": "Cafe Garden",
+            "displayName": "Terapi Ikan",
+            "placeId": "terapi-ikan",
+            "placeName": "Terapi Ikan",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Cafe Garden merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Cafe Garden adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama di bibir kolam terapi ikan yang memperlihatkan area rendam kaki dan undakan tempat duduk.",
+            "description": "Dari titik ini, pandangan tertuju langsung ke bawah menuju kolam air dangkal yang jernih. Di sekeliling pinggiran kolam terlihat undakan material batu alam tempat duduk pengunjung. Area ini secara khusus didesain untuk kenyamanan saat pengunjung menjuntaikan kakinya ke dalam air untuk merasakan terapi gigitan ikan kecil.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kolam dangkal air jernih",
+                "Undakan batu tempat duduk",
+                "Fasilitas terapi ikan mikro"
             ],
             "talkingPoints": [
                 "Cafe Garden",
@@ -1525,14 +1692,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Cafe Garden.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang ada di dalam kolam berair jernih di depan kita ini?",
+                    "mode": "fix",
+                    "answer": "Di dalam kolam ini terdapat ratusan ikan kecil (seperti jenis Garra Rufa) yang sengaja dibiakkan untuk terapi relaksasi kaki pengunjung."
+                },
+                {
+                    "q": "Bagaimana cara pengunjung menggunakan fasilitas pinggir kolam ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung cukup duduk di undakan berbatu yang mengelilingi kolam, menggulung celana, lalu menjuntaikan/merendam kaki mereka ke dalam air."
+                },
+                {
+                    "q": "Apakah air di kolam dangkal ini rutin dibersihkan?",
+                    "mode": "fix",
+                    "answer": "Ya, ada sistem pompa filter yang terus berputar untuk menjaga kejernihan dan sirkulasi oksigen air, sehingga tetap aman dan higienis meski sering digunakan pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Cafe Garden — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Terapi Ikan.",
                 "describeHere": "Cafe Garden adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1540,18 +1719,19 @@ window.GoVirtualTourData = {
         },
         "node51": {
             "rawName": "Closing",
-            "displayName": "Closing",
-            "placeId": "closing",
-            "placeName": "Closing",
+            "displayName": "Gerbang Utama",
+            "placeId": "gerbang-utama",
+            "placeName": "Gerbang Utama",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Closing merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Closing adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama yang menghadap tepat ke struktur pilar dan desain Gerbang Utama kawasan.",
+            "description": "Berada persis di ambang masuk, panorama ini menyorot struktur fisik gapura atau gerbang pembatas kawasan. Titik ini memperlihatkan detail ornamen pintu masuk, material bangunan gerbang, serta penunjuk arah yang menyambut kedatangan setiap pengunjung dari arah luar menuju zona dalam agrowisata.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Struktur fisik gapura",
+                "Batas transisi kawasan",
+                "Titik penyambutan pertama"
             ],
             "talkingPoints": [
                 "Closing",
@@ -1559,14 +1739,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Closing.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari struktur bangunan pembatas di depan ini?",
+                    "mode": "fix",
+                    "answer": "Bangunan gapura ini berfungsi sebagai batas wilayah fisik (landmark transisi) antara lingkungan luar dengan area konservasi/wisata di bagian dalam."
+                },
+                {
+                    "q": "Informasi apa yang biasa dipasang di sekitar gerbang masuk ini?",
+                    "mode": "fix",
+                    "answer": "Di sekitar titik ini umumnya terdapat papan nama (signage) destinasi, jam operasional, serta pusat loket verifikasi tiket masuk."
+                },
+                {
+                    "q": "Ke mana arah pandangan lurus dari gerbang ini membawa kita?",
+                    "mode": "fix",
+                    "answer": "Melangkah masuk melewati gerbang ini, pengunjung akan diarahkan langsung menuju area plaza utama dan berbagai titik fasilitas rekreasi."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Closing — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Gerbang Utama.",
                 "describeHere": "Closing adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1580,12 +1772,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Hidroponik Buah merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Area Hidroponik Buah",
@@ -1593,14 +1786,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Hidroponik Buah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Hidroponik Buah — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Area Hidroponik Buah.",
                 "describeHere": "Area Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1608,18 +1813,19 @@ window.GoVirtualTourData = {
         },
         "node54": {
             "rawName": "Penggilingan Padi",
-            "displayName": "Penggilingan Padi",
-            "placeId": "penggilingan-padi",
-            "placeName": "Penggilingan Padi",
+            "displayName": "Area Hidroponik Buah",
+            "placeId": "area-hidroponik-buah",
+            "placeName": "Area Hidroponik Buah",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Penggilingan Padi merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Penggilingan Padi adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Penggilingan Padi",
@@ -1627,14 +1833,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Penggilingan Padi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Penggilingan Padi — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Area Hidroponik Buah.",
                 "describeHere": "Penggilingan Padi adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1648,12 +1866,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Hidroponik Buah merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Hidroponik Buah",
@@ -1661,14 +1880,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Hidroponik Buah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Hidroponik Buah — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Hidroponik Buah.",
                 "describeHere": "Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1682,12 +1913,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Hidroponik Buah merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Area Hidroponik Buah",
@@ -1695,14 +1927,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Hidroponik Buah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Hidroponik Buah — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Area Hidroponik Buah.",
                 "describeHere": "Area Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1716,12 +1960,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Melon merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Melon adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Melon yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Melon, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Area Melon",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Melon",
@@ -1729,16 +1974,28 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Melon.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Melon ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Melon."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2238"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Melon — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Melon.",
                 "describeHere": "Melon adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1752,12 +2009,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Hidroponik Sayur merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Hidroponik Sayur adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Hidroponik Sayur",
@@ -1765,14 +2023,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Hidroponik Sayur.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Hidroponik Sayur — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Hidroponik Sayur.",
                 "describeHere": "Hidroponik Sayur adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1786,12 +2056,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Hidroponik Buah merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Hidroponik Buah",
@@ -1799,14 +2070,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Hidroponik Buah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Hidroponik Buah — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Hidroponik Buah.",
                 "describeHere": "Hidroponik Buah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1814,18 +2097,19 @@ window.GoVirtualTourData = {
         },
         "node60": {
             "rawName": "Selada",
-            "displayName": "Selada",
-            "placeId": "selada",
-            "placeName": "Selada",
+            "displayName": "Hidroponik Selada Air",
+            "placeId": "hidroponik-selada-air",
+            "placeName": "Hidroponik Selada Air",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Selada merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Selada adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama dari dalam rumah kaca (greenhouse) yang dipenuhi barisan pipa budidaya tanaman tanpa tanah.",
+            "description": "Berdiri di dalam titik ini, pengunjung dikelilingi oleh barisan instalasi pipa PVC putih yang tersusun rapi. Panorama memperlihatkan bagaimana tanaman-tanaman sayur atau buah tumbuh menyembul dari lubang-lubang pipa tanpa menggunakan tanah sedikit pun, di bawah perlindungan struktur atap plastik rumah kaca.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Instalasi pipa sirkulasi",
+                "Tanaman sayur/buah presisi",
+                "Atap pelindung greenhouse"
             ],
             "talkingPoints": [
                 "Selada",
@@ -1833,16 +2117,28 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Selada.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi dari deretan pipa panjang yang terlihat di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Pipa-pipa tersebut berfungsi sebagai wadah tanam sekaligus saluran sirkulasi air bernutrisi (AB Mix) yang mengalir terus-menerus membasahi akar tanaman di dalamnya."
+                },
+                {
+                    "q": "Mengapa di dalam ruangan ini tidak terlihat ada tanah atau lumpur?",
+                    "mode": "fix",
+                    "answer": "Karena ini adalah area metode Hidroponik. Akar tanaman ditopang oleh rockwool atau spons, lalu mengambil makanannya langsung dari aliran air, bukan dari tanah."
+                },
+                {
+                    "q": "Mengapa instalasi ini harus berada di bawah atap transparan (greenhouse)?",
+                    "mode": "fix",
+                    "answer": "Atap ini membiarkan sinar matahari masuk untuk fotosintesis, sekaligus memblokir air hujan agar campuran nutrisi di dalam pipa tidak meluap atau tercampur air tawar."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2239"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Selada — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Hidroponik Selada Air.",
                 "describeHere": "Selada adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1856,12 +2152,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Pembibitan Tanaman merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Pembibitan Tanaman adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Area Pembibitan Tanaman yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Area Pembibitan Tanaman, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area Area Pembibitan Tanaman",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Area Pembibitan Tanaman",
@@ -1869,14 +2166,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Pembibitan Tanaman.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Area Pembibitan Tanaman ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Area Pembibitan Tanaman."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Pembibitan Tanaman — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Area Pembibitan Tanaman.",
                 "describeHere": "Area Pembibitan Tanaman adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1890,12 +2199,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Peremajaan Tanaman merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Peremajaan Tanaman adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Area Peremajaan Tanaman yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Area Peremajaan Tanaman, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area Area Peremajaan Tanaman",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Area Peremajaan Tanaman",
@@ -1903,14 +2213,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Peremajaan Tanaman.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Area Peremajaan Tanaman ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Area Peremajaan Tanaman."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Peremajaan Tanaman — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Area Peremajaan Tanaman.",
                 "describeHere": "Area Peremajaan Tanaman adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1918,18 +2240,19 @@ window.GoVirtualTourData = {
         },
         "node63": {
             "rawName": "Sapi",
-            "displayName": "Sapi",
-            "placeId": "sapi",
-            "placeName": "Sapi",
+            "displayName": "Peternakan Sapi",
+            "placeId": "peternakan-sapi",
+            "placeName": "Peternakan Sapi",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Sapi merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Sapi adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Peternakan Sapi yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Peternakan Sapi, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Area Peternakan Sapi",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Sapi",
@@ -1937,16 +2260,28 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Sapi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Peternakan Sapi ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Peternakan Sapi."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2241"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Sapi — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Peternakan Sapi.",
                 "describeHere": "Sapi adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1954,18 +2289,19 @@ window.GoVirtualTourData = {
         },
         "node64": {
             "rawName": "Kandang Kambing",
-            "displayName": "Kandang Kambing",
-            "placeId": "kandang-kambing",
-            "placeName": "Kandang Kambing",
+            "displayName": "Peternakan Kambing",
+            "placeId": "peternakan-kambing",
+            "placeName": "Peternakan Kambing",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Kandang Kambing merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Kandang Kambing adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Peternakan Kambing yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Peternakan Kambing, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area Peternakan Kambing",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Kandang Kambing",
@@ -1973,14 +2309,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Kandang Kambing.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Peternakan Kambing ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Peternakan Kambing."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Kandang Kambing — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Peternakan Kambing.",
                 "describeHere": "Kandang Kambing adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1994,12 +2342,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Musholla merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Musholla adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Musholla yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Musholla, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area Musholla",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Musholla",
@@ -2007,14 +2356,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Musholla.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Musholla ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Musholla."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Musholla — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Musholla.",
                 "describeHere": "Musholla adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2028,12 +2389,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Penggilingan Padi merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Penggilingan Padi adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Penggilingan Padi yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Penggilingan Padi, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area Penggilingan Padi",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Penggilingan Padi",
@@ -2041,14 +2403,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Penggilingan Padi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Penggilingan Padi ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Penggilingan Padi."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Penggilingan Padi — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Penggilingan Padi.",
                 "describeHere": "Penggilingan Padi adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2056,18 +2430,19 @@ window.GoVirtualTourData = {
         },
         "node67": {
             "rawName": "Mesin",
-            "displayName": "Mesin",
-            "placeId": "mesin",
-            "placeName": "Mesin",
+            "displayName": "Penggilingan Padi",
+            "placeId": "penggilingan-padi",
+            "placeName": "Penggilingan Padi",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Mesin merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Mesin adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama di area Penggilingan Padi yang memperlihatkan fasilitas spesifik di sekelilingnya.",
+            "description": "Berada tepat di titik Penggilingan Padi, panorama ini memberikan pandangan 360 derajat ke sekeliling area. Pengunjung dapat mengamati detail tata letak, objek, dan suasana yang ada khusus di titik ini.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Area Penggilingan Padi",
+                "Titik eksplorasi virtual",
+                "Sudut pandang 360 derajat"
             ],
             "talkingPoints": [
                 "Mesin",
@@ -2075,16 +2450,28 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Mesin.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang terlihat di area Penggilingan Padi ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini menyorot langsung kondisi fisik dan fasilitas yang ada di area Penggilingan Padi."
+                },
+                {
+                    "q": "Ke mana arah jalan dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Titik ini terhubung dengan jalur pedestrian yang membawa pengunjung ke fasilitas agrowisata lainnya."
+                },
+                {
+                    "q": "Apa aktivitas utama di sudut ini?",
+                    "mode": "fix",
+                    "answer": "Bergantung pada titiknya, area ini dimanfaatkan untuk edukasi, relaksasi, atau sekadar titik transit pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2240"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Mesin — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Penggilingan Padi.",
                 "describeHere": "Mesin adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2098,12 +2485,13 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Sawah merupakan bagian dari kawasan Sandi Buana di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Sawah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama di tepi area pesawahan yang memperlihatkan hamparan petak tanaman padi dari jarak dekat.",
+            "description": "Berdiri di titik ini, pandangan didominasi oleh petak-petak sawah hijau berundak dan pematang tanah. Pemandangan ini secara langsung menyorot area praktik pertanian, tempat di mana sistem tata air tradisional dan fase pertumbuhan tanaman padi dapat diamati secara langsung di depan mata.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Hamparan petak sawah",
+                "Pematang tanah",
+                "Area praktik tanam padi"
             ],
             "talkingPoints": [
                 "Area Sawah",
@@ -2111,14 +2499,26 @@ window.GoVirtualTourData = {
                 "Sandi Buana"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Sawah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang sedang ditanam di lahan berlumpur depan ini?",
+                    "mode": "fix",
+                    "answer": "Di petak lahan basah yang membentang di depan ini, terdapat bibit padi yang sedang dalam masa pertumbuhan."
+                },
+                {
+                    "q": "Bagaimana fungsi parit kecil di sela-sela tanah tersebut?",
+                    "mode": "fix",
+                    "answer": "Parit atau pematang itu berfungsi menahan dan mengalirkan air dari satu petak ke petak lainnya agar tingkat kelembapan lumpur tetap ideal untuk padi."
+                },
+                {
+                    "q": "Apakah area lumpur ini digunakan untuk aktivitas pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, pada sesi edukasi tertentu, area ini menjadi tempat praktik langsung bagi pengunjung untuk turun ke lumpur dan belajar menanam padi."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Sawah — kawasan Sandi Buana.",
+                "currentLocation": "Anda sekarang berada di Area Sawah.",
                 "describeHere": "Area Sawah adalah area di dalam kawasan Sandi Buana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

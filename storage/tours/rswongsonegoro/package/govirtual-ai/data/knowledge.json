@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "rswongsonegoro",
+    "updatedAt": "2026-09-29T09:52:12+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Rswongsonegoro",
+            "aliases": [
+                "rswongsonegoro"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "rswongsonegoro"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Rswongsonegoro.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Rswongsonegoro",
+                    "content": "Pusat pengalaman virtual untuk Rswongsonegoro."
+                },
+                "en": {
+                    "title": "Rswongsonegoro",
+                    "content": "Pusat pengalaman virtual untuk Rswongsonegoro."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node24",
+            "aliases": [
+                "node24"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rswongsonegoro"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node24",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node24",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ballroom",
+            "aliases": [
+                "ballroom"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rswongsonegoro"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ballroom",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ballroom",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "rswongsonegoro"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1124",
+            "entityId": "objinfo2:1124",
+            "title": "Ballroom",
+            "aliases": [
+                "ballroom",
+                "objek 1124"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "RSWN memiliki fasilitas Ballroom yang terletak di gedung Paviliun Amarta. Ruangan ini tidak hanya berfungsi untuk kegiatan internal, tetapi juga menjadi pusat edukasi medis. Digunakan untuk seminar kesehatan, pertemuan ilmiah para dokter, serta acara-acara formal lainnya. Memiliki kapasitas yang cukup besar dengan fasilitas audio-visual modern, yang mencerminkan RSWN sebagai \"Smart Hospital.\"",
+            "source": "webview-import",
+            "sourceId": "1124",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ballroom",
+                    "content": "RSWN memiliki fasilitas Ballroom yang terletak di gedung Paviliun Amarta. Ruangan ini tidak hanya berfungsi untuk kegiatan internal, tetapi juga menjadi pusat edukasi medis. Digunakan untuk seminar kesehatan, pertemuan ilmiah para dokter, serta acara-acara formal lainnya. Memiliki kapasitas yang cukup besar dengan fasilitas audio-visual modern, yang mencerminkan RSWN sebagai \"Smart Hospital.\""
+                },
+                "en": {
+                    "title": "Ballroom",
+                    "content": "RSWN has a Ballroom facility located in the Amarta Pavilion building. This room is not only used for internal activities but also serves as a center for medical education. It is used for health seminars, scientific meetings for doctors, and other formal events. It has a fairly large capacity with modern audio-visual facilities, reflecting RSWN as a \"Smart Hospital.\""
+                },
+                "zh": {
+                    "title": "宴会厅",
+                    "content": "RSWN 拥有位于阿马尔塔馆的宴会厅设施。该房间不仅用于内部活动，还作为医疗教育中心。用于健康研讨会、医生学术会议以及其他正式活动。拥有相当大的容量和现代化视听设施，体现了 RSWN 作为“智慧医院”的特色。"
+                },
+                "ar": {
+                    "title": "قاعة احتفالات",
+                    "content": "تمتلك RSWN قاعة احتفالات تقع في مبنى جناح أمارتا. هذه الغرفة لا تُستخدم فقط للأنشطة الداخلية، بل تعمل أيضًا كمركز للتعليم الطبي. تُستخدم للندوات الصحية، والاجتماعات العلمية للأطباء، وغيرها من الفعاليات الرسمية. تمتلك سعة كبيرة مع مرافق صوتية ومرئية حديثة، مما يعكس RSWN كـ \"مستشفى ذكي\"."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1125",
+            "entityId": "objinfo2:1125",
+            "title": "Ruang Operasi",
+            "aliases": [
+                "ruang operasi",
+                "objek 1125"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "RSWN mengoperasikan kamar bedah yang terintegrasi untuk berbagai tindakan, mulai dari bedah umum hingga bedah saraf dan jantung. Menggunakan standar Modular Operating Theatre (MOT), sebuah sistem ruang operasi yang terintegrasi dalam satu panel kontrol sehingga lebih higienis, efisien, dan aman. Mendukung tindakan bedah minimal invasif (laparoskopi) yang memungkinkan pemulihan pasien jauh lebih cepat.",
+            "source": "webview-import",
+            "sourceId": "1125",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Operasi",
+                    "content": "RSWN mengoperasikan kamar bedah yang terintegrasi untuk berbagai tindakan, mulai dari bedah umum hingga bedah saraf dan jantung. Menggunakan standar Modular Operating Theatre (MOT), sebuah sistem ruang operasi yang terintegrasi dalam satu panel kontrol sehingga lebih higienis, efisien, dan aman. Mendukung tindakan bedah minimal invasif (laparoskopi) yang memungkinkan pemulihan pasien jauh lebih cepat."
+                },
+                "en": {
+                    "title": "Operating Room",
+                    "content": "RSWN operates an integrated operating room for various procedures, ranging from general surgery to neurosurgery and cardiac surgery. It uses the Modular Operating Theatre (MOT) standard, an operating room system integrated into a single control panel for improved hygiene, efficiency, and safety. It supports minimally invasive surgical procedures (laparoscopy) that allow much faster patient recovery."
+                },
+                "zh": {
+                    "title": "手术室",
+                    "content": "RSWN 运营一间综合手术室，可进行从普通外科到神经外科和心脏外科的各种手术。采用模块化手术室（MOT）标准，将手术室系统集成在单一控制面板中，以提高手术的卫生性、效率和安全性。支持微创手术（腹腔镜），使患者恢复速度大大加快。"
+                },
+                "ar": {
+                    "title": "غرفة العمليات",
+                    "content": "تدير RSWN غرفة عمليات متكاملة لمجموعة متنوعة من الإجراءات، بدءًا من الجراحة العامة وصولًا إلى جراحة المخ والأعصاب والقلب. تستخدم معيار غرفة العمليات المعيارية (MOT)، وهو نظام غرفة عمليات متكامل في لوحة تحكم واحدة مما يجعلها أكثر نظافة وكفاءة وأمانًا. تدعم الإجراءات الجراحية طفيفة التوغل (تنظير البطن) التي تسمح بتعافي المرضى بشكل أسرع بكثير."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1126",
+            "entityId": "objinfo2:1126",
+            "title": "Hidroterapi",
+            "aliases": [
+                "hidroterapi",
+                "objek 1126"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ini adalah salah satu fasilitas unggulan RSWN yang jarang dimiliki rumah sakit lain secara lengkap di Jawa Tengah. Terapi rehabilitasi yang memanfaatkan media air untuk pemulihan fisik. Sangat efektif bagi pasien pasca-stroke, pasien dengan masalah sendi, saraf terjepit (HNP), atau rehabilitasi cedera olahraga karena beban tubuh berkurang saat berada di dalam air.",
+            "source": "webview-import",
+            "sourceId": "1126",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Hidroterapi",
+                    "content": "Ini adalah salah satu fasilitas unggulan RSWN yang jarang dimiliki rumah sakit lain secara lengkap di Jawa Tengah. Terapi rehabilitasi yang memanfaatkan media air untuk pemulihan fisik. Sangat efektif bagi pasien pasca-stroke, pasien dengan masalah sendi, saraf terjepit (HNP), atau rehabilitasi cedera olahraga karena beban tubuh berkurang saat berada di dalam air."
+                },
+                "en": {
+                    "title": "Hydro Therapy",
+                    "content": "This is one of RSWN’s flagship facilities, rarely found fully equipped in other hospitals in Central Java. It is a rehabilitation therapy that uses water as a medium for physical recovery. It is highly effective for post-stroke patients, patients with joint problems, pinched nerves (HNP), or sports injury rehabilitation because body weight is reduced while in the water."
+                },
+                "zh": {
+                    "title": "水疗",
+                    "content": "这是 RSWN 的一项旗舰设施，在中爪哇的其他医院很少能完整配备。它是一种利用水作为介质进行身体康复的康复疗法。对于中风后患者、关节问题患者、神经受压（HNP）患者或运动损伤康复非常有效，因为在水中时身体负荷减轻。"
+                },
+                "ar": {
+                    "title": "العلاج المائي",
+                    "content": "هذه واحدة من المرافق المميزة في RSWN التي نادرًا ما تتوافر بالكامل في مستشفيات أخرى في وسط جاوة. هو علاج تأهيلي يستخدم الماء كوسيط للتعافي البدني. فعال جدًا للمرضى بعد السكتة الدماغية، والمرضى الذين يعانون من مشاكل المفاصل أو الانزلاق الغضروفي (HNP)، أو لإعادة تأهيل إصابات الرياضة لأن وزن الجسم يقل أثناء التواجد في الماء."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1127",
+            "entityId": "objinfo2:1127",
+            "title": "Teknologi Kanker",
+            "aliases": [
+                "teknologi kanker",
+                "objek 1127"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "RSWN terus mengembangkan layanan kanker dengan teknologi terbaru guna memfasilitasi deteksi dini dan pengobatan intensif. Mencakup layanan kemoterapi yang nyaman serta deteksi melalui laboratorium patologi anatomi yang akurat. Layanan ini biasanya didukung oleh dokter spesialis onkologi multidisiplin untuk menangani berbagai jenis kanker secara komprehensif.",
+            "source": "webview-import",
+            "sourceId": "1127",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Teknologi Kanker",
+                    "content": "RSWN terus mengembangkan layanan kanker dengan teknologi terbaru guna memfasilitasi deteksi dini dan pengobatan intensif. Mencakup layanan kemoterapi yang nyaman serta deteksi melalui laboratorium patologi anatomi yang akurat. Layanan ini biasanya didukung oleh dokter spesialis onkologi multidisiplin untuk menangani berbagai jenis kanker secara komprehensif."
+                },
+                "en": {
+                    "title": "Cancer Technology",
+                    "content": "RSWN continues to develop cancer services with the latest technology to facilitate early detection and intensive treatment. It includes comfortable chemotherapy services as well as detection through accurate anatomical pathology laboratories. These services are usually supported by multidisciplinary oncology specialists to comprehensively manage various types of cancer."
+                },
+                "zh": {
+                    "title": "癌症技术",
+                    "content": "RSWN 持续开发最新技术的癌症服务，以促进早期检测和强化治疗。包括舒适的化疗服务以及通过精确的解剖病理实验室进行检测。这些服务通常由多学科肿瘤专家支持，以全面处理各种类型的癌症。"
+                },
+                "ar": {
+                    "title": "تكنولوجيا السرطان",
+                    "content": "تواصل RSWN تطوير خدمات السرطان باستخدام أحدث التقنيات لتسهيل الكشف المبكر والعلاج المكثف. تشمل خدمات العلاج الكيميائي المريحة بالإضافة إلى الكشف عبر مختبرات التشريح المرضي الدقيقة. عادةً ما يدعم هذه الخدمات أطباء أخصائيون في الأورام من تخصصات متعددة لإدارة أنواع مختلفة من السرطان بشكل شامل."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1128",
+            "entityId": "objinfo2:1128",
+            "title": "Kateterisasi Laboratorium",
+            "aliases": [
+                "kateterisasi laboratorium",
+                "objek 1128"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas ini adalah tulang punggung layanan jantung dan pembuluh darah di RSWN. Digunakan untuk prosedur diagnostik dan intervensi jantung, seperti pemasangan ring (stent), pemetaan jantung, dan penanganan serangan jantung akut. Memungkinkan tindakan dilakukan tanpa bedah terbuka (minimal invasif), hanya melalui akses pembuluh darah kecil di pergelangan tangan atau paha.",
+            "source": "webview-import",
+            "sourceId": "1128",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kateterisasi Laboratorium",
+                    "content": "Fasilitas ini adalah tulang punggung layanan jantung dan pembuluh darah di RSWN. Digunakan untuk prosedur diagnostik dan intervensi jantung, seperti pemasangan ring (stent), pemetaan jantung, dan penanganan serangan jantung akut. Memungkinkan tindakan dilakukan tanpa bedah terbuka (minimal invasif), hanya melalui akses pembuluh darah kecil di pergelangan tangan atau paha."
+                },
+                "en": {
+                    "title": "Cathlab",
+                    "content": "This facility is the backbone of cardiac and vascular services at RSWN. It is used for diagnostic and interventional cardiac procedures, such as stent placement, cardiac mapping, and management of acute heart attacks. It allows procedures to be performed without open surgery (minimally invasive), using only small blood vessel access at the wrist or thigh."
+                },
+                "zh": {
+                    "title": "导管实验室",
+                    "content": "该设施是 RSWN 心脏和血管服务的核心。用于心脏诊断和介入手术，如支架植入、心脏映射和急性心脏病处理。允许通过小血管（手腕或大腿）进行微创操作，无需开放手术。"
+                },
+                "ar": {
+                    "title": "مختبر القسطرة",
+                    "content": "هذه المنشأة هي العمود الفقري لخدمات القلب والأوعية الدموية في RSWN. تُستخدم للإجراءات التشخيصية والتداخلية للقلب، مثل تركيب الدعامات، وتخطيط القلب، ومعالجة النوبات القلبية الحادة. تسمح بإجراء الإجراءات دون جراحة مفتوحة (حد أدنى من التدخل)، باستخدام الوصول عبر الأوعية الدموية الصغيرة في المعصم أو الفخذ."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1129",
+            "entityId": "objinfo2:1129",
+            "title": "Pemindaian MRI",
+            "aliases": [
+                "pemindaian mri",
+                "objek 1129"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "RSWN dilengkapi dengan unit MRI terbaru (biasanya 1.5 Tesla) untuk pemeriksaan radiologi tanpa radiasi sinar-X. Menghasilkan gambar organ tubuh bagian dalam (seperti otak, saraf tulang belakang, otot, dan jaringan lunak) dengan sangat detail. Sangat krusial untuk mendiagnosis penyakit saraf, tumor, hingga cedera ligamen secara akurat tanpa efek samping radiasi bagi pasien.",
+            "source": "webview-import",
+            "sourceId": "1129",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pemindaian MRI",
+                    "content": "RSWN dilengkapi dengan unit MRI terbaru (biasanya 1.5 Tesla) untuk pemeriksaan radiologi tanpa radiasi sinar-X. Menghasilkan gambar organ tubuh bagian dalam (seperti otak, saraf tulang belakang, otot, dan jaringan lunak) dengan sangat detail. Sangat krusial untuk mendiagnosis penyakit saraf, tumor, hingga cedera ligamen secara akurat tanpa efek samping radiasi bagi pasien."
+                },
+                "en": {
+                    "title": "MRI Scan",
+                    "content": "RSWN is equipped with the latest MRI unit (usually 1.5 Tesla) for radiology examinations without X-ray radiation. It produces highly detailed images of internal organs (such as the brain, spinal nerves, muscles, and soft tissues). It is crucial for accurately diagnosing neurological diseases, tumors, and ligament injuries without exposing patients to radiation side effects."
+                },
+                "zh": {
+                    "title": "核磁共振扫描",
+                    "content": "RSWN 配备最新的 MRI 设备（通常为 1.5 特斯拉），用于无 X 射线辐射的放射学检查。能够生成身体内部器官（如大脑、脊神经、肌肉和软组织）的高精度图像。对于准确诊断神经疾病、肿瘤以及韧带损伤非常关键，同时不会对患者造成辐射副作用。"
+                },
+                "ar": {
+                    "title": "مسح الرنين المغناطيسي",
+                    "content": "تمتلك RSWN أحدث وحدة تصوير بالرنين المغناطيسي (MRI) عادةً بقوة 1.5 تسلا لفحوصات الأشعة بدون إشعاع الأشعة السينية. تنتج صورًا مفصلة للغاية للأعضاء الداخلية (مثل الدماغ، الأعصاب الشوكية، العضلات والأنسجة الرخوة). من الضروري للغاية لتشخيص الأمراض العصبية والأورام وإصابات الأربطة بدقة دون تعريض المرضى لآثار جانبية للإشعاع."
+                }
+            }
+        }
+    ]
+}

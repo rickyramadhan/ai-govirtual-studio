@@ -1,0 +1,1009 @@
+{
+    "startNode": "node302",
+    "scenes": [
+        {
+            "id": "node302",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 5.82,
+            "tilt": -11.55,
+            "fov": 130,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node303",
+            "name": "Gedung Rektorat",
+            "displayName": "Gedung Rektorat",
+            "rawName": "",
+            "customNodeId": "-edung-ektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Gedung Rektorat"
+            ]
+        },
+        {
+            "id": "node304",
+            "name": "Lab Terpadu",
+            "displayName": "Lab Terpadu",
+            "rawName": "",
+            "customNodeId": "-ab-erpadu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Lab Terpadu"
+            ]
+        },
+        {
+            "id": "node305",
+            "name": "Walisongo Center",
+            "displayName": "Walisongo Center",
+            "rawName": "",
+            "customNodeId": "-alisongo-enter",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Walisongo Center"
+            ]
+        },
+        {
+            "id": "node306",
+            "name": "Sketsa",
+            "displayName": "Sketsa",
+            "rawName": "",
+            "customNodeId": "sketsa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "sketsa"
+            ]
+        },
+        {
+            "id": "node307",
+            "name": "Gedunglabterpadu",
+            "displayName": "Gedunglabterpadu",
+            "rawName": "",
+            "customNodeId": "gedunglabterpadu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "gedunglabterpadu"
+            ]
+        },
+        {
+            "id": "node308",
+            "name": "Tribun",
+            "displayName": "Tribun",
+            "rawName": "",
+            "customNodeId": "tribun",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "tribun"
+            ]
+        },
+        {
+            "id": "node309",
+            "name": "Gedung Serbaguna",
+            "displayName": "Gedung Serbaguna",
+            "rawName": "",
+            "customNodeId": "-edung-erbaguna",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Gedung Serbaguna"
+            ]
+        },
+        {
+            "id": "node310",
+            "name": "Walisongo Center",
+            "displayName": "Walisongo Center",
+            "rawName": "",
+            "customNodeId": "-alisongo-enter",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Walisongo Center"
+            ]
+        },
+        {
+            "id": "node311",
+            "name": "Fakultas Kedokteran",
+            "displayName": "Fakultas Kedokteran",
+            "rawName": "",
+            "customNodeId": "-akultas-edokteran",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Fakultas Kedokteran"
+            ]
+        },
+        {
+            "id": "node312",
+            "name": "Gedung Fakultas Kedokteran",
+            "displayName": "Gedung Fakultas Kedokteran",
+            "rawName": "",
+            "customNodeId": "-edung-akultas-edokteran",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Gedung Fakultas Kedokteran"
+            ]
+        },
+        {
+            "id": "node313",
+            "name": "Ruangkelas",
+            "displayName": "Ruangkelas",
+            "rawName": "",
+            "customNodeId": "ruangkelas",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "ruangkelas"
+            ]
+        },
+        {
+            "id": "node314",
+            "name": "Labbiologi",
+            "displayName": "Labbiologi",
+            "rawName": "",
+            "customNodeId": "labbiologi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "labbiologi"
+            ]
+        },
+        {
+            "id": "node315",
+            "name": "Labkomputer",
+            "displayName": "Labkomputer",
+            "rawName": "",
+            "customNodeId": "labkomputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "labkomputer"
+            ]
+        },
+        {
+            "id": "node316",
+            "name": "Lab Terpadu",
+            "displayName": "Lab Terpadu",
+            "rawName": "",
+            "customNodeId": "-ab-erpadu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Lab Terpadu"
+            ]
+        },
+        {
+            "id": "node317",
+            "name": "Depan",
+            "displayName": "Depan",
+            "rawName": "",
+            "customNodeId": "depan",
+            "pan": -2.76,
+            "tilt": 12.7,
+            "fov": 111.11,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "depan"
+            ]
+        },
+        {
+            "id": "node318",
+            "name": "Lapangan Basket",
+            "displayName": "Lapangan Basket",
+            "rawName": "",
+            "customNodeId": "-apangan-asket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Lapangan Basket"
+            ]
+        },
+        {
+            "id": "node319",
+            "name": "Lapangan",
+            "displayName": "Lapangan",
+            "rawName": "",
+            "customNodeId": "lapangan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "lapangan"
+            ]
+        },
+        {
+            "id": "node320",
+            "name": "Masjid Walisongo",
+            "displayName": "Masjid Walisongo",
+            "rawName": "",
+            "customNodeId": "-asjid-alisongo",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Masjid Walisongo"
+            ]
+        },
+        {
+            "id": "node321",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "-erpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Perpustakaan"
+            ]
+        },
+        {
+            "id": "node322",
+            "name": "Perpustakaandalam",
+            "displayName": "Perpustakaandalam",
+            "rawName": "",
+            "customNodeId": "perpustakaandalam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "perpustakaandalam"
+            ]
+        },
+        {
+            "id": "node323",
+            "name": "Perpus",
+            "displayName": "Perpus",
+            "rawName": "",
+            "customNodeId": "perpus",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "perpus"
+            ]
+        },
+        {
+            "id": "node324",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "-erpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Perpustakaan"
+            ]
+        },
+        {
+            "id": "node325",
+            "name": "Planetarium",
+            "displayName": "Planetarium",
+            "rawName": "",
+            "customNodeId": "-lanetarium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Planetarium"
+            ]
+        },
+        {
+            "id": "node326",
+            "name": "Gedung Rektorat",
+            "displayName": "Gedung Rektorat",
+            "rawName": "",
+            "customNodeId": "-edung-ektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "Gedung Rektorat"
+            ]
+        },
+        {
+            "id": "node327",
+            "name": "Planetarium",
+            "displayName": "Planetarium",
+            "rawName": "",
+            "customNodeId": "planetarium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "planetarium"
+            ]
+        },
+        {
+            "id": "node328",
+            "name": "Teaterrektorat",
+            "displayName": "Teaterrektorat",
+            "rawName": "",
+            "customNodeId": "teaterrektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "teaterrektorat"
+            ]
+        },
+        {
+            "id": "node329",
+            "name": "Walisongocenter",
+            "displayName": "Walisongocenter",
+            "rawName": "",
+            "customNodeId": "walisongocenter",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "walisongocenter"
+            ]
+        },
+        {
+            "id": "node330",
+            "name": "Peta",
+            "displayName": "Peta",
+            "rawName": "",
+            "customNodeId": "peta",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UINWalisongo"
+            ],
+            "aliases": [
+                "peta"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node302",
+            "target": "node317",
+            "title": "Landmark",
+            "id": "Point01",
+            "pan": -2.77,
+            "tilt": -44.03
+        },
+        {
+            "scene": "node302",
+            "target": "node321",
+            "title": "Perpustakaan",
+            "id": "Point02",
+            "pan": -162.73,
+            "tilt": -11.82
+        },
+        {
+            "scene": "node302",
+            "target": "node325",
+            "title": "Planetarium",
+            "id": "Point03",
+            "pan": -342.97,
+            "tilt": 4.07
+        },
+        {
+            "scene": "node302",
+            "target": "node303",
+            "title": "Gedung Rektorat",
+            "id": "Point04",
+            "pan": -323.01,
+            "tilt": 4.31
+        },
+        {
+            "scene": "node303",
+            "target": "node325",
+            "title": "Planetarium",
+            "id": "Point01",
+            "pan": -197.37,
+            "tilt": 2.57
+        },
+        {
+            "scene": "node303",
+            "target": "node326",
+            "title": "Gedung Rektorat",
+            "id": "Point02",
+            "pan": -0.37,
+            "tilt": -5.87
+        },
+        {
+            "scene": "node303",
+            "target": "node311",
+            "title": "Fakultas Kedokteran",
+            "id": "Point03",
+            "pan": -164.37,
+            "tilt": 3.04
+        },
+        {
+            "scene": "node304",
+            "target": "node307",
+            "title": "Lab Terpadu",
+            "id": "Point01",
+            "pan": -62.43,
+            "tilt": 1.81
+        },
+        {
+            "scene": "node304",
+            "target": "node311",
+            "title": "Fakultas Kedokteran",
+            "id": "Point02",
+            "pan": -258.06,
+            "tilt": -2.29
+        },
+        {
+            "scene": "node305",
+            "target": "node306",
+            "title": "Galeri Nusantara",
+            "id": "Point01",
+            "pan": -0.6,
+            "tilt": -4.5
+        },
+        {
+            "scene": "node305",
+            "target": "node325",
+            "title": "Planetarium",
+            "id": "Point02",
+            "pan": -186.35,
+            "tilt": -1.81
+        },
+        {
+            "scene": "node306",
+            "target": "node305",
+            "title": "Walisongo Center",
+            "id": "Point01",
+            "pan": -143.72,
+            "tilt": -9.36
+        },
+        {
+            "scene": "node307",
+            "target": "node314",
+            "title": "Lab Biologi",
+            "id": "Point01",
+            "pan": -44.64,
+            "tilt": -13.42
+        },
+        {
+            "scene": "node307",
+            "target": "node316",
+            "title": "Lab Terpadu",
+            "id": "Point02",
+            "pan": -268.5,
+            "tilt": -7.17
+        },
+        {
+            "scene": "node307",
+            "target": "node304",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -181.89,
+            "tilt": -21.39
+        },
+        {
+            "scene": "node308",
+            "target": "node309",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -349.12,
+            "tilt": 1.51
+        },
+        {
+            "scene": "node309",
+            "target": "node308",
+            "title": "Gedung Serbaguna",
+            "id": "Point01",
+            "pan": -358.9,
+            "tilt": -7.3
+        },
+        {
+            "scene": "node309",
+            "target": "node319",
+            "title": "Lapangan Bola",
+            "id": "Point02",
+            "pan": -246.59,
+            "tilt": 5.16
+        },
+        {
+            "scene": "node309",
+            "target": "node318",
+            "title": "Lapangan Basket",
+            "id": "Point03",
+            "pan": -82.45,
+            "tilt": 0.8
+        },
+        {
+            "scene": "node309",
+            "target": "node325",
+            "title": "Planetarium",
+            "id": "Point04",
+            "pan": -210.79,
+            "tilt": -2.55
+        },
+        {
+            "scene": "node310",
+            "target": "node329",
+            "title": "Walisongo Center",
+            "id": "Point01",
+            "pan": -283.8,
+            "tilt": -0.98
+        },
+        {
+            "scene": "node310",
+            "target": "node317",
+            "title": "Walisongo Center",
+            "id": "Point02",
+            "pan": -203.77,
+            "tilt": -6.81
+        },
+        {
+            "scene": "node310",
+            "target": "node321",
+            "title": "Perpustakaan",
+            "id": "Point03",
+            "pan": -157.74,
+            "tilt": -6.43
+        },
+        {
+            "scene": "node311",
+            "target": "node312",
+            "title": "Gedung Fakultas Kedokteran",
+            "id": "Point01",
+            "pan": -359.94,
+            "tilt": -4.03
+        },
+        {
+            "scene": "node311",
+            "target": "node303",
+            "title": "Walisongo Center",
+            "id": "Point02",
+            "pan": -260.96,
+            "tilt": -1.29
+        },
+        {
+            "scene": "node311",
+            "target": "node304",
+            "title": "Lab Terpadu",
+            "id": "Point03",
+            "pan": -274.87,
+            "tilt": 10.36
+        },
+        {
+            "scene": "node312",
+            "target": "node311",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -195.2,
+            "tilt": -12.35
+        },
+        {
+            "scene": "node312",
+            "target": "node313",
+            "title": "Ruang Kelas",
+            "id": "Point02",
+            "pan": -310.74,
+            "tilt": -6.4
+        },
+        {
+            "scene": "node313",
+            "target": "node312",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -34.11,
+            "tilt": -6.05
+        },
+        {
+            "scene": "node314",
+            "target": "node307",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -171.43,
+            "tilt": -6.72
+        },
+        {
+            "scene": "node315",
+            "target": "node316",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -46.19,
+            "tilt": -2.3
+        },
+        {
+            "scene": "node316",
+            "target": "node315",
+            "title": "Lab Komputer",
+            "id": "Point01",
+            "pan": -27.85,
+            "tilt": -10.11
+        },
+        {
+            "scene": "node316",
+            "target": "node307",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -219.02,
+            "tilt": -13.86
+        },
+        {
+            "scene": "node317",
+            "target": "node310",
+            "title": "Walisongo Center",
+            "id": "Point01",
+            "pan": -167.86,
+            "tilt": 0.97
+        },
+        {
+            "scene": "node317",
+            "target": "node325",
+            "title": "Planetarium",
+            "id": "Point02",
+            "pan": -249.3,
+            "tilt": 2.74
+        },
+        {
+            "scene": "node318",
+            "target": "node309",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -211.66,
+            "tilt": 3
+        },
+        {
+            "scene": "node319",
+            "target": "node309",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -69.84,
+            "tilt": 4.87
+        },
+        {
+            "scene": "node320",
+            "target": "node321",
+            "title": "Perpustakaan",
+            "id": "Point01",
+            "pan": -284.97,
+            "tilt": -1.74
+        },
+        {
+            "scene": "node321",
+            "target": "node310",
+            "title": "Walisongo Center",
+            "id": "Point01",
+            "pan": -226.72,
+            "tilt": -3.49
+        },
+        {
+            "scene": "node321",
+            "target": "node324",
+            "title": "Perpustakaan",
+            "id": "Point02",
+            "pan": -353.42,
+            "tilt": -1.87
+        },
+        {
+            "scene": "node321",
+            "target": "node320",
+            "title": "Masjid Walisongo",
+            "id": "Point03",
+            "pan": -136.63,
+            "tilt": -8.29
+        },
+        {
+            "scene": "node322",
+            "target": "node323",
+            "title": "Perpustakaan",
+            "id": "Point01",
+            "pan": -279.32,
+            "tilt": -15.16
+        },
+        {
+            "scene": "node323",
+            "target": "node324",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -312.18,
+            "tilt": -16.04
+        },
+        {
+            "scene": "node323",
+            "target": "node322",
+            "title": "Perpustakaan",
+            "id": "Point02",
+            "pan": -223.32,
+            "tilt": -14.92
+        },
+        {
+            "scene": "node324",
+            "target": "node323",
+            "title": "Perpustakaan",
+            "id": "Point01",
+            "pan": -56.35,
+            "tilt": -17.08
+        },
+        {
+            "scene": "node324",
+            "target": "node321",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -81.4,
+            "tilt": -6.58
+        },
+        {
+            "scene": "node325",
+            "target": "node317",
+            "title": "Landmark",
+            "id": "Point01",
+            "pan": -116.95,
+            "tilt": -3.25
+        },
+        {
+            "scene": "node325",
+            "target": "node327",
+            "title": "Ruang Planetarium",
+            "id": "Point02",
+            "pan": -337.14,
+            "tilt": -0.87
+        },
+        {
+            "scene": "node325",
+            "target": "node305",
+            "title": "Galeri Nusantara",
+            "id": "Point03",
+            "pan": -42.17,
+            "tilt": -2.01
+        },
+        {
+            "scene": "node325",
+            "target": "node309",
+            "title": "Gedung Serbaguna",
+            "id": "Point04",
+            "pan": -162.17,
+            "tilt": -0.43
+        },
+        {
+            "scene": "node325",
+            "target": "node303",
+            "title": "Gedung Rektorat",
+            "id": "Point05",
+            "pan": -292.61,
+            "tilt": -2.09
+        },
+        {
+            "scene": "node326",
+            "target": "node328",
+            "title": "Teater Rektorat",
+            "id": "Point01",
+            "pan": -118.67,
+            "tilt": -11.2
+        },
+        {
+            "scene": "node326",
+            "target": "node303",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -358.67,
+            "tilt": -16.04
+        },
+        {
+            "scene": "node327",
+            "target": "node325",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -67.71,
+            "tilt": -3.2
+        },
+        {
+            "scene": "node328",
+            "target": "node326",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -298.95,
+            "tilt": -10.02
+        },
+        {
+            "scene": "node329",
+            "target": "node310",
+            "title": "Walisongo Center",
+            "id": "Point01",
+            "pan": -191.14,
+            "tilt": -5.76
+        },
+        {
+            "scene": "node329",
+            "target": "node330",
+            "title": "Walisongo Center",
+            "id": "Point02",
+            "pan": -68.08,
+            "tilt": -11.64
+        },
+        {
+            "scene": "node330",
+            "target": "node329",
+            "title": "Walisongo Center",
+            "id": "Point01",
+            "pan": -126.26,
+            "tilt": -6.45
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 376,
+            "label": "Lab Biologi",
+            "description": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati.",
+            "fragment": "labbiologi",
+            "link": "uinwalisongo/index.html#labbiologi",
+            "sceneId": "node314"
+        },
+        {
+            "infoId": 377,
+            "label": "Gedung Lab Terpadu",
+            "description": "Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO.",
+            "fragment": "gedunglabterpadu",
+            "link": "uinwalisongo/index.html#gedunglabterpadu",
+            "sceneId": "node307"
+        },
+        {
+            "infoId": 378,
+            "label": "Ruang Kelas Kedokteran",
+            "description": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif.",
+            "fragment": "ruangkelas",
+            "link": "uinwalisongo/index.html#ruangkelas",
+            "sceneId": "node313"
+        },
+        {
+            "infoId": 379,
+            "label": "Teater Rektorat",
+            "description": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika.",
+            "fragment": "teaterrektorat",
+            "link": "uinwalisongo/index.html#teaterrektorat",
+            "sceneId": "node328"
+        },
+        {
+            "infoId": 380,
+            "label": "Lab Komputer",
+            "description": "Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa.",
+            "fragment": "labkomputer",
+            "link": "uinwalisongo/index.html#labkomputer",
+            "sceneId": "node315"
+        },
+        {
+            "infoId": 381,
+            "label": "Planetarium",
+            "description": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa.",
+            "fragment": "planetarium",
+            "link": "uinwalisongo/index.html#planetarium",
+            "sceneId": "node327"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "3ae5cd351d190053",
+        "skin.js": "bd9bacdc34272b82",
+        "index.html": "bcdeef352997aca5"
+    }
+}

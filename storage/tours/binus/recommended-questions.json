@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "binus",
+    "tourName": "BINUS University Semarang",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Pendaftaran BINUS",
+                "query": "Kapan gelombang pendaftaran mahasiswa baru BINUS Semarang dibuka?",
+                "desc": "Kapan gelombang pendaftaran mahasiswa baru BINUS Semarang dibuka?"
+            },
+            {
+                "label": "Lokasi POJ City",
+                "query": "Di mana letak pasti kampus BINUS Semarang di kawasan POJ City Marina?",
+                "desc": "Di mana letak pasti kampus BINUS Semarang di kawasan POJ City Marina?"
+            },
+            {
+                "label": "Beasiswa BINUS",
+                "query": "Apakah BINUS Semarang menawarkan beasiswa penuh hingga lulus untuk mahasiswa?",
+                "desc": "Apakah BINUS Semarang menawarkan beasiswa penuh hingga lulus untuk mahasiswa?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Kampus Teknologi Masa Depan",
+                "query": "Bagaimana BINUS University Semarang mengintegrasikan teknologi digital dalam setiap aspek perkuliahan?"
+            },
+            {
+                "label": "Smart Classroom",
+                "query": "Fasilitas interaktif apa saja yang terdapat di dalam Smart Classroom untuk mendukung belajar hybrid?"
+            },
+            {
+                "label": "Program Studi Unggulan",
+                "query": "Program studi berbasis teknologi dan bisnis apa yang menjadi fokus utama di kampus Semarang ini?"
+            },
+            {
+                "label": "Metaverse & AI Lab",
+                "query": "Bagaimana fasilitas Metaverse, AR/VR, dan AI Lab digunakan untuk riset serta praktik mahasiswa?"
+            },
+            {
+                "label": "Program Employability",
+                "query": "Bagaimana program 2+1+1 membekali mahasiswa dengan pengalaman kerja industri secara langsung?"
+            },
+            {
+                "label": "Kolaborasi Industri",
+                "query": "Perusahaan teknologi apa saja yang menjadi mitra strategis BINUS dalam penyaluran lulusan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama BINUS University Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari BINUS University Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah BINUS University Semarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

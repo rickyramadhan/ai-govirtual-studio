@@ -1,0 +1,391 @@
+{
+    "startNode": "node1",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Gerbangutama",
+            "displayName": "Gerbangutama",
+            "rawName": "",
+            "customNodeId": "gerbangutama",
+            "pan": 3.76,
+            "tilt": 18.79,
+            "fov": 148.04,
+            "tags": [
+                "KawasanPecinan",
+                "oi"
+            ],
+            "aliases": [
+                "gerbangutama"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 11.77,
+            "tilt": -16.27,
+            "fov": 120,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Pecinan Semawis",
+            "displayName": "Pecinan Semawis",
+            "rawName": "",
+            "customNodeId": "-ecinan-emawis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pecinan Semawis"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Pasar Malam",
+            "displayName": "Pasar Malam",
+            "rawName": "",
+            "customNodeId": "-asar-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pasar Malam"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Pasar Malam",
+            "displayName": "Pasar Malam",
+            "rawName": "",
+            "customNodeId": "-asar-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pasar Malam"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Mobilumkm",
+            "displayName": "Mobilumkm",
+            "rawName": "",
+            "customNodeId": "mobilumkm",
+            "pan": 2.09,
+            "tilt": 2.47,
+            "fov": 138.23,
+            "tags": [
+                "KawasanPecinan",
+                "oi"
+            ],
+            "aliases": [
+                "mobilumkm"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Pasar Malam",
+            "displayName": "Pasar Malam",
+            "rawName": "",
+            "customNodeId": "-asar-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pasar Malam"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Pasar Malam",
+            "displayName": "Pasar Malam",
+            "rawName": "",
+            "customNodeId": "-asar-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pasar Malam"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Pasar Malam",
+            "displayName": "Pasar Malam",
+            "rawName": "",
+            "customNodeId": "-asar-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pasar Malam"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Pasar Malam",
+            "displayName": "Pasar Malam",
+            "rawName": "",
+            "customNodeId": "-asar-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanPecinan"
+            ],
+            "aliases": [
+                "Pasar Malam"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node3",
+            "title": "Pecinan Semawis",
+            "id": "Point01",
+            "pan": -345.41,
+            "tilt": -1.42
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "",
+            "id": "Point01",
+            "pan": -2.68801,
+            "tilt": 0
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Pecinan Semawis",
+            "id": "Point02",
+            "pan": 0.01,
+            "tilt": -48.03
+        },
+        {
+            "scene": "node2",
+            "target": "node8",
+            "title": "",
+            "id": "Point03",
+            "pan": -11.1383,
+            "tilt": 0
+        },
+        {
+            "scene": "node2",
+            "target": "node6",
+            "title": "Pasar Malam",
+            "id": "Point07",
+            "pan": -169.69,
+            "tilt": -10.8
+        },
+        {
+            "scene": "node3",
+            "target": "node1",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 171.98,
+            "tilt": -3.75
+        },
+        {
+            "scene": "node3",
+            "target": "node4",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -2.82,
+            "tilt": -6.13
+        },
+        {
+            "scene": "node4",
+            "target": "node3",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 42.09,
+            "tilt": -4.33
+        },
+        {
+            "scene": "node4",
+            "target": "node5",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -141.01,
+            "tilt": -3.37
+        },
+        {
+            "scene": "node5",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 2.86999,
+            "tilt": -1.28
+        },
+        {
+            "scene": "node5",
+            "target": "node7",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -184.73,
+            "tilt": -7.76
+        },
+        {
+            "scene": "node6",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 305,
+            "tilt": -25.51
+        },
+        {
+            "scene": "node6",
+            "target": "node8",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -276.46,
+            "tilt": -6.33
+        },
+        {
+            "scene": "node6",
+            "target": "node9",
+            "title": "",
+            "id": "Point05",
+            "pan": -243.328,
+            "tilt": 0
+        },
+        {
+            "scene": "node6",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -74.61,
+            "tilt": -4.34
+        },
+        {
+            "scene": "node11",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 348.11,
+            "tilt": -13.71
+        },
+        {
+            "scene": "node7",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 3.46,
+            "tilt": -7.64
+        },
+        {
+            "scene": "node7",
+            "target": "node6",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -173.37,
+            "tilt": -8.9
+        },
+        {
+            "scene": "node8",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 7.37,
+            "tilt": -4.87
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -177.22,
+            "tilt": -4.2
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 2.19,
+            "tilt": -3.27
+        },
+        {
+            "scene": "node9",
+            "target": "node10",
+            "title": "Pasar Malam",
+            "id": "Point02",
+            "pan": -175.6,
+            "tilt": -1.36
+        },
+        {
+            "scene": "node10",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 262.95,
+            "tilt": -6.44
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 907,
+            "label": "Gerbang Utama Pecinan",
+            "description": "Gerbang utama Pecinan Semarang, yang dikenal sebagai Gapura Pecinan, merupakan struktur megah berwarna merah dominan dengan arsitektur khas Tiongkok yang menjadi pintu masuk ikonik menuju kawasan kuliner Semawis. Landmark ini tidak hanya berfungsi sebagai penanda visual yang menyambut pengunjung, tetapi juga melambangkan akulturasi budaya yang kental dan sejarah panjang komunitas Tionghoa di jantung Kota Semarang.",
+            "fragment": "gerbangutama",
+            "link": "pecinansemarang/index.html#gerbangutama",
+            "sceneId": "node1"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "d5a67fe93089f01f",
+        "skin.js": "07bc8f5e029b0a93",
+        "index.html": "d5eb4397a5cff2ed"
+    }
+}

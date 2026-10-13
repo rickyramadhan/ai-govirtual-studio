@@ -1,0 +1,79 @@
+{
+    "version": "1.0",
+    "tourId": "kampungmelayu",
+    "tourName": "Kampungmelayu",
+    "updatedAt": "2026-09-29T09:51:03+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node17",
+        "node18"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Taman Landmark Kawasan Kampung Melayu"
+        },
+        "node2": {
+            "displayName": "Tampak Udara Kawasan Kampung Melayu"
+        },
+        "node3": {
+            "displayName": "Area Ibadah Belakang Masjid Menara Layur"
+        },
+        "node4": {
+            "displayName": "Area Ibadah Utama Masjid Menara Layur"
+        },
+        "node5": {
+            "displayName": "Gerbang Utama Masjid Menara Layur"
+        },
+        "node7": {
+            "displayName": "Akses Masuk Kawasan Kampung Melayu Perlintasan Kereta Api"
+        },
+        "node8": {
+            "displayName": "Perlintasan Kereta Api Kawasan Kampung Melayu"
+        },
+        "node9": {
+            "displayName": "Akses Perkampungan Omah Lawas Kawasan Kampung Melayu"
+        },
+        "node10": {
+            "displayName": "Jembatan Merah Sisi Timur Kawasan Kampung Melayu"
+        },
+        "node11": {
+            "displayName": "Jembatan Merah Kawasan Kampung Melayu"
+        },
+        "node12": {
+            "displayName": "Jembatan Merah Sisi Barat Kawasan Kampung Melayu"
+        },
+        "node13": {
+            "displayName": "Altar Klenteng Kan Hok Bio"
+        },
+        "node14": {
+            "displayName": "Akses Masuk Klenteng Kan Hok Bio"
+        },
+        "node15": {
+            "displayName": "Area Parkir Masjid Menara Layur"
+        },
+        "node16": {
+            "displayName": "Akses Jembatan Merah Kawasan Kampung Melayu"
+        },
+        "node17": {
+            "displayName": "Pelataran Masjid Menara Layur"
+        },
+        "node18": {
+            "displayName": "Omah Lawas Kawasann Kampung Melayu"
+        }
+    }
+}

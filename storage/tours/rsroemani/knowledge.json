@@ -1,0 +1,474 @@
+{
+    "version": 2,
+    "tourId": "rsroemani",
+    "updatedAt": "2026-09-29T09:52:07+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Rsroemani",
+            "aliases": [
+                "rsroemani"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "rsroemani"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Rsroemani.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Rsroemani",
+                    "content": "Pusat pengalaman virtual untuk Rsroemani."
+                },
+                "en": {
+                    "title": "Rsroemani",
+                    "content": "Pusat pengalaman virtual untuk Rsroemani."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone RS Roemani Muhammadiyah",
+            "aliases": [
+                "drone rs roemani muhammadiyah"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rsroemani"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone RS Roemani Muhammadiyah",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone RS Roemani Muhammadiyah",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone RS Roemani Muhammadiyah",
+            "aliases": [
+                "drone rs roemani muhammadiyah"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rsroemani"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone RS Roemani Muhammadiyah",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone RS Roemani Muhammadiyah",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "rsroemani"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:188",
+            "entityId": "objinfo2:188",
+            "title": "Klinik Eksekutif (GIGI)",
+            "aliases": [
+                "klinik eksekutif (gigi)",
+                "objek 188"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Klinik Eksekutif Gigi di RS Roemani Semarang, yang juga dikenal sebagai Poli Eksekutif Yusuf, menyediakan layanan gigi dan mulut dengan fasilitas premium dan jadwal dokter spesialis yang lebih fleksibel. Layanan ini melayani pasien umum dan asuransi, menawarkan pemeriksaan dan perawatan spesialisasi seperti Orthodonti, Endodonsi (Konservasi Gigi), Bedah Mulut, dan Pedodontis (Gigi Anak).",
+            "source": "webview-import",
+            "sourceId": "188",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klinik Eksekutif (GIGI)",
+                    "content": "Klinik Eksekutif Gigi di RS Roemani Semarang, yang juga dikenal sebagai Poli Eksekutif Yusuf, menyediakan layanan gigi dan mulut dengan fasilitas premium dan jadwal dokter spesialis yang lebih fleksibel. Layanan ini melayani pasien umum dan asuransi, menawarkan pemeriksaan dan perawatan spesialisasi seperti Orthodonti, Endodonsi (Konservasi Gigi), Bedah Mulut, dan Pedodontis (Gigi Anak)."
+                },
+                "en": {
+                    "title": "Executive Dental Clinic",
+                    "content": "The Executive Dental Clinic at RS Roemani Semarang, also known as Poli Eksekutif Yusuf, provides premium dental and oral services with more flexible specialist schedules. This service caters to both general and insurance patients, offering specialized examinations and treatments such as Orthodontics, Endodontics (Dental Conservation), Oral Surgery, and Pedodontics (Children’s Dentistry)."
+                },
+                "zh": {
+                    "title": "牙科高级诊所",
+                    "content": "RS Roemani Semarang的牙科高级诊所（也称为Poli Eksekutif Yusuf）提供高端口腔与牙科服务，并具有更灵活的专科医生排班。该服务面向普通患者和保险患者，提供正畸、牙髓治疗（牙齿保护）、口腔外科以及儿童牙科等专业检查和治疗。"
+                },
+                "ar": {
+                    "title": "عيادة الأسنان التنفيذية",
+                    "content": "عيادة الأسنان التنفيذية في مستشفى روماني سيمارانج، والمعروفة أيضًا باسم Poli Eksekutif Yusuf، تقدم خدمات أسنان وفم راقية مع جداول أطباء متخصصين أكثر مرونة. تخدم هذه الخدمة المرضى العامين ومرضى التأمين، وتقدم فحوصات وعلاجات تخصصية مثل تقويم الأسنان، وعلاج جذور الأسنان (حفظ الأسنان)، وجراحة الفم، وطب أسنان الأطفال."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:189",
+            "entityId": "objinfo2:189",
+            "title": "Laboratorium",
+            "aliases": [
+                "laboratorium",
+                "objek 189"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas Laboratorium di RS Roemani Semarang adalah unit penunjang klinik vital yang melayani berbagai pemeriksaan kesehatan untuk diagnosis penyakit dan evaluasi terapi. Layanan laboratorium ini mencakup berbagai spesialisasi, seperti Patologi Klinik dan Patologi Anatomi, serta berfungsi untuk mendukung pelayanan rawat jalan, rawat inap, hingga Unit Gawat Darurat (UGD).",
+            "source": "webview-import",
+            "sourceId": "189",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Laboratorium",
+                    "content": "Fasilitas Laboratorium di RS Roemani Semarang adalah unit penunjang klinik vital yang melayani berbagai pemeriksaan kesehatan untuk diagnosis penyakit dan evaluasi terapi. Layanan laboratorium ini mencakup berbagai spesialisasi, seperti Patologi Klinik dan Patologi Anatomi, serta berfungsi untuk mendukung pelayanan rawat jalan, rawat inap, hingga Unit Gawat Darurat (UGD)."
+                },
+                "en": {
+                    "title": "Laboratory",
+                    "content": "The Laboratory facility at RS Roemani Semarang is a vital clinical support unit that conducts various health tests for disease diagnosis and therapy evaluation. This laboratory service covers multiple specialties, such as Clinical Pathology and Anatomical Pathology, and supports outpatient, inpatient, and Emergency Unit (ER) services."
+                },
+                "zh": {
+                    "title": "实验室",
+                    "content": "RS Roemani Semarang的实验室设施是重要的临床辅助单位，提供各种健康检查，用于疾病诊断和治疗评估。实验室服务涵盖多种专业，如临床病理学和解剖病理学，并支持门诊、住院及急诊科服务。"
+                },
+                "ar": {
+                    "title": "مختبر",
+                    "content": "تُعد منشأة المختبر في مستشفى روماني سيمارانج وحدة دعم سريرية حيوية تقدم فحوصات صحية متنوعة لتشخيص الأمراض وتقييم العلاج. تشمل خدمات المختبر تخصصات متعددة مثل علم الأمراض الإكلينيكي وعلم التشريح المرضي، وتدعم خدمات العيادات الخارجية والداخلية ووحدة الطوارئ (ER)."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:190",
+            "entityId": "objinfo2:190",
+            "title": "Kamar VIP",
+            "aliases": [
+                "kamar vip",
+                "objek 190"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas kamar rawat inap VIP di RS Roemani Semarang dirancang untuk memberikan kenyamanan maksimal dan privasi tinggi bagi pasien selama masa pemulihan. Kamar ini umumnya menawarkan fasilitas yang lengkap, meliputi tempat tidur pasien elektrik, kamar mandi dalam, TV, kulkas, serta sofa atau ruang tunggu terpisah untuk penunggu pasien.",
+            "source": "webview-import",
+            "sourceId": "190",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kamar VIP",
+                    "content": "Fasilitas kamar rawat inap VIP di RS Roemani Semarang dirancang untuk memberikan kenyamanan maksimal dan privasi tinggi bagi pasien selama masa pemulihan. Kamar ini umumnya menawarkan fasilitas yang lengkap, meliputi tempat tidur pasien elektrik, kamar mandi dalam, TV, kulkas, serta sofa atau ruang tunggu terpisah untuk penunggu pasien."
+                },
+                "en": {
+                    "title": "VIP Room",
+                    "content": "The VIP inpatient room facility at RS Roemani Semarang is designed to provide maximum comfort and high privacy for patients during their recovery. These rooms generally offer complete amenities, including electric patient beds, en-suite bathrooms, TV, refrigerator, and a separate sofa or waiting area for patient companions."
+                },
+                "zh": {
+                    "title": "贵宾病房",
+                    "content": "RS Roemani Semarang的VIP病房设施旨在为患者康复期间提供最大舒适度和高度隐私。这些房间通常提供齐全设施，包括电动病床、独立浴室、电视、冰箱，以及为陪护人员提供的沙发或独立候坐区。"
+                },
+                "ar": {
+                    "title": "غرفة كبار الشخصيات",
+                    "content": "تُصمم مرافق غرفة المرضى VIP في مستشفى روماني سيمارانج لتوفير أقصى درجات الراحة وخصوصية عالية للمرضى خلال فترة التعافي. عادةً ما تقدم هذه الغرف تجهيزات كاملة تشمل سرير كهربائي للمرضى، حمام داخلي، تلفاز، ثلاجة، بالإضافة إلى أريكة أو منطقة انتظار منفصلة لمرافقي المرضى."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:191",
+            "entityId": "objinfo2:191",
+            "title": "kamar VVIP",
+            "aliases": [
+                "kamar vvip",
+                "objek 191"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas kamar VVIP di RS Roemani Semarang, yang dikategorikan sebagai President Suite (misalnya Ruang Sulaiman 7), menawarkan akomodasi rawat inap paling eksklusif dengan desain modern dan elegan. Fasilitasnya mencakup kulkas, mini kitchen, microwave, kursi kerja, dan sofa penunggu, yang dirancang untuk memberikan pengalaman layanan kesehatan layaknya di hotel bintang lima.",
+            "source": "webview-import",
+            "sourceId": "191",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "kamar VVIP",
+                    "content": "Fasilitas kamar VVIP di RS Roemani Semarang, yang dikategorikan sebagai President Suite (misalnya Ruang Sulaiman 7), menawarkan akomodasi rawat inap paling eksklusif dengan desain modern dan elegan. Fasilitasnya mencakup kulkas, mini kitchen, microwave, kursi kerja, dan sofa penunggu, yang dirancang untuk memberikan pengalaman layanan kesehatan layaknya di hotel bintang lima."
+                },
+                "en": {
+                    "title": "VVIP Room",
+                    "content": "The VVIP room facility at RS Roemani Semarang, categorized as a President Suite (e.g., Ruang Sulaiman 7), offers the most exclusive inpatient accommodation with a modern and elegant design. Amenities include a refrigerator, mini kitchen, microwave, work chair, and companion sofa, designed to provide a five-star hotel-like healthcare experience."
+                },
+                "zh": {
+                    "title": "超贵宾病房",
+                    "content": "RS Roemani Semarang的VVIP病房设施，被归类为总统套房（例如Ruang Sulaiman 7），提供最为尊贵的住院住宿，设计现代且优雅。设施包括冰箱、小厨房、微波炉、办公椅和陪护沙发，为患者提供如五星级酒店般的医疗体验。"
+                },
+                "ar": {
+                    "title": "غرفة كبار الشخصيات المميزة جدًا",
+                    "content": "تقدم مرافق غرفة VVIP في مستشفى روماني سيمارانج، المصنفة على أنها جناح الرئيس (مثل Ruang Sulaiman 7)، أرقى سكن للمرضى الداخليين بتصميم حديث وأنيق. تشمل التجهيزات ثلاجة، مطبخ صغير، ميكروويف، كرسي عمل، وأريكة للمرافق، مصممة لتوفير تجربة رعاية صحية تشبه فندق خمس نجوم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:192",
+            "entityId": "objinfo2:192",
+            "title": "CT SCAN",
+            "aliases": [
+                "ct scan",
+                "objek 192"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas CT Scan (Computed Tomography Scan) di RS Roemani Semarang merupakan unit peralatan canggih yang berada di Instalasi Radiologi dan digunakan untuk menghasilkan gambar detail organ tubuh secara cross-sectional. Alat ini sangat vital untuk membantu diagnosis berbagai kondisi medis, termasuk mendeteksi kelainan pada kepala, paru-paru, tulang, dan organ internal lainnya dengan cepat dan akurat.",
+            "source": "webview-import",
+            "sourceId": "192",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "CT SCAN",
+                    "content": "Fasilitas CT Scan (Computed Tomography Scan) di RS Roemani Semarang merupakan unit peralatan canggih yang berada di Instalasi Radiologi dan digunakan untuk menghasilkan gambar detail organ tubuh secara cross-sectional. Alat ini sangat vital untuk membantu diagnosis berbagai kondisi medis, termasuk mendeteksi kelainan pada kepala, paru-paru, tulang, dan organ internal lainnya dengan cepat dan akurat."
+                },
+                "en": {
+                    "title": "CT Scan",
+                    "content": "The CT Scan (Computed Tomography Scan) facility at RS Roemani Semarang is an advanced equipment unit located in the Radiology Department, used to produce detailed cross-sectional images of body organs. This device is crucial for assisting in the diagnosis of various medical conditions, including detecting abnormalities in the head, lungs, bones, and other internal organs quickly and accurately."
+                },
+                "zh": {
+                    "title": "CT扫描",
+                    "content": "RS Roemani Semarang的CT扫描（计算机断层扫描）设施是放射科的一台先进设备，用于生成身体器官的横断面详细影像。该设备对快速、准确诊断各种医疗状况至关重要，包括检测头部、肺部、骨骼及其他内部器官的异常。"
+                },
+                "ar": {
+                    "title": "الأشعة المقطعية",
+                    "content": "تُعد منشأة الأشعة المقطعية (CT Scan) في مستشفى روماني سيمارانج وحدة أجهزة متقدمة تقع في قسم الأشعة، تُستخدم لإنتاج صور مقطعية مفصلة لأعضاء الجسم. هذا الجهاز حيوي للمساعدة في تشخيص حالات طبية متنوعة، بما في ذلك اكتشاف الشذوذات في الرأس والرئتين والعظام والأعضاء الداخلية الأخرى بسرعة ودقة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:193",
+            "entityId": "objinfo2:193",
+            "title": "ESWL",
+            "aliases": [
+                "eswl",
+                "objek 193"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas ESWL (Extracorporeal Shock Wave Lithotripsy) di RS Roemani Semarang adalah layanan unggulan di bidang Urologi untuk pemecahan batu saluran kemih (ginjal, ureter, atau kandung kemih) tanpa melalui tindakan pembedahan (operasi). Prosedur non-invasif ini menggunakan gelombang kejut yang diarahkan dari luar tubuh untuk menghancurkan batu menjadi serpihan kecil agar dapat dikeluarkan secara alami bersama urine, sehingga pasien tidak perlu rawat inap lama.",
+            "source": "webview-import",
+            "sourceId": "193",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "ESWL",
+                    "content": "Fasilitas ESWL (Extracorporeal Shock Wave Lithotripsy) di RS Roemani Semarang adalah layanan unggulan di bidang Urologi untuk pemecahan batu saluran kemih (ginjal, ureter, atau kandung kemih) tanpa melalui tindakan pembedahan (operasi). Prosedur non-invasif ini menggunakan gelombang kejut yang diarahkan dari luar tubuh untuk menghancurkan batu menjadi serpihan kecil agar dapat dikeluarkan secara alami bersama urine, sehingga pasien tidak perlu rawat inap lama."
+                },
+                "en": {
+                    "title": "Extracorporeal Shock Wave Lithotripsy",
+                    "content": "The ESWL (Extracorporeal Shock Wave Lithotripsy) facility at RS Roemani Semarang is a leading service in Urology for breaking urinary tract stones (kidney, ureter, or bladder) without surgical intervention. This non-invasive procedure uses externally directed shock waves to fragment stones into small pieces that can be naturally expelled with urine, allowing patients to avoid extended hospitalization."
+                },
+                "zh": {
+                    "title": "体外冲击波碎石术",
+                    "content": "RS Roemani Semarang的体外冲击波碎石术（ESWL）设施是泌尿科的重点服务，用于在无需手术干预的情况下碎解泌尿道结石（肾脏、输尿管或膀胱）。该非侵入性手术通过从体外发射冲击波将结石破碎成小块，使其可随尿液自然排出，从而患者无需长时间住院。"
+                },
+                "ar": {
+                    "title": "تفتيت الحصى بالموجات الصادمة خارج الجسم",
+                    "content": "تُعد منشأة تفتيت الحصى بالموجات الصادمة خارج الجسم (ESWL) في مستشفى روماني سيمارانج خدمة رائدة في مجال المسالك البولية لتفتيت حصى الجهاز البولي (الكلى، الحالب، أو المثانة) دون تدخل جراحي. يستخدم هذا الإجراء غير الجراحي موجات صادمة موجهة من خارج الجسم لتفتيت الحصى إلى قطع صغيرة يمكن التخلص منها طبيعيًا مع البول، مما يسمح للمرضى بتجنب الإقامة الطويلة في المستشفى."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:194",
+            "entityId": "objinfo2:194",
+            "title": "Ruang Operasi",
+            "aliases": [
+                "ruang operasi",
+                "objek 194"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas ruang operasi di RS Roemani Semarang didukung oleh Pelayanan Anestesiologi dan Bedah (PAB) serta Pelayanan Tindakan Khusus untuk berbagai spesialisasi, termasuk Bedah Umum, Kebidanan, dan Urologi. Ruang operasi ini dilengkapi dengan peralatan medis modern untuk menjamin keselamatan pasien dan mendukung prosedur bedah minimal invasif.",
+            "source": "webview-import",
+            "sourceId": "194",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Operasi",
+                    "content": "Fasilitas ruang operasi di RS Roemani Semarang didukung oleh Pelayanan Anestesiologi dan Bedah (PAB) serta Pelayanan Tindakan Khusus untuk berbagai spesialisasi, termasuk Bedah Umum, Kebidanan, dan Urologi. Ruang operasi ini dilengkapi dengan peralatan medis modern untuk menjamin keselamatan pasien dan mendukung prosedur bedah minimal invasif."
+                },
+                "en": {
+                    "title": "Operating Room (OR) / Surgery Room",
+                    "content": "The operating room facility at RS Roemani Semarang is supported by the Anesthesiology and Surgery Service (PAB) and Special Procedure Services for various specialties, including General Surgery, Obstetrics, and Urology. The operating rooms are equipped with modern medical devices to ensure patient safety and support minimally invasive surgical procedures."
+                },
+                "zh": {
+                    "title": "手术室",
+                    "content": "RS Roemani Semarang的手术室设施由麻醉与外科服务（PAB）以及各类专科特殊操作服务支持，包括普通外科、产科和泌尿科。手术室配备现代化医疗设备，以确保患者安全并支持微创手术。"
+                },
+                "ar": {
+                    "title": "غرفة العمليات",
+                    "content": "تُدعم مرافق غرفة العمليات في مستشفى روماني سيمارانج من خلال خدمة التخدير والجراحة (PAB) وخدمات الإجراءات الخاصة لمختلف التخصصات، بما في ذلك الجراحة العامة والتوليد والمسالك البولية. تم تجهيز غرف العمليات بأجهزة طبية حديثة لضمان سلامة المرضى ودعم الإجراءات الجراحية قليلة التدخل."
+                }
+            }
+        }
+    ]
+}

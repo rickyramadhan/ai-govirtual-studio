@@ -2,49 +2,49 @@
     "version": "1.0",
     "tourId": "rsud-tugu",
     "tourName": "RSUD Tugu",
-    "updatedAt": "2026-08-29T07:22:48+02:00",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
     "state1": {
         "starters": [
             {
-                "label": "Fasilitas Ruang X-Ray",
-                "query": "Apa saja alat medis yang tersedia di Ruang X-Ray RSUD Tugu?",
-                "desc": "Apa saja alat medis yang tersedia di Ruang X-Ray RSUD Tugu?"
+                "label": "Integrasi BPJS",
+                "query": "Bagaimana alur pendaftaran pasien BPJS secara mandiri melalui anjungan mesin pendaftaran?",
+                "desc": "Bagaimana alur pendaftaran pasien BPJS secara mandiri melalui anjungan mesin pendaftaran?"
             },
             {
-                "label": "Pusat Pendaftaran",
-                "query": "Bagaimana cara mengakses konter Pendaftaran Rawat Jalan di RSUD Tugu?",
-                "desc": "Bagaimana cara mengakses konter Pendaftaran Rawat Jalan di RSUD Tugu?"
+                "label": "Poli Paru",
+                "query": "Di lantai mana letak poliklinik spesialis paru dan pernapasan berada?",
+                "desc": "Di lantai mana letak poliklinik spesialis paru dan pernapasan berada?"
             },
             {
-                "label": "Tindakan Angiografi",
-                "query": "Seperti apa spesifikasi Meja Tindakan Angiografi/Kateterisasi di rumah sakit ini?",
-                "desc": "Seperti apa spesifikasi Meja Tindakan Angiografi/Kateterisasi di rumah sakit ini?"
+                "label": "Jam Besuk Pasien",
+                "query": "Apakah ada aturan khusus terkait jam kunjung keluarga di ruang rawat intensif (ICU)?",
+                "desc": "Apakah ada aturan khusus terkait jam kunjung keluarga di ruang rawat intensif (ICU)?"
             }
         ],
         "themes": [
             {
-                "label": "Mesin CT Scan",
-                "query": "Di mana letak Mesin CT Scan merek Siemens di RSUD Tugu dan apa fungsinya?"
+                "label": "RS Milik Provinsi",
+                "query": "Bagaimana peran RSUD dr. Adhyatma, MPH (RS Tugurejo) dalam memberikan layanan kesehatan milik Pemerintah Provinsi Jawa Tengah?"
             },
             {
-                "label": "Tempat Tidur Pasien",
-                "query": "Bagaimana kenyamanan fasilitas Tempat Tidur Pasien Elektrik di kamar rawat inap?"
+                "label": "Layanan Unggulan Paru",
+                "query": "Bagaimana fasilitas poli paru dan penanganan penyakit pernapasan yang menjadi salah satu unggulan rumah sakit ini?"
             },
             {
-                "label": "Mesin Rontgen",
-                "query": "Apa spesifikasi dari Mesin Rontgen Huestis Medical yang ada di ruang radiologi?"
+                "label": "Pusat Layanan Stroke",
+                "query": "Fasilitas dan tim medis apa saja yang disiapkan dalam Unit Stroke Terpadu untuk respons cepat serangan stroke?"
             },
             {
-                "label": "Jam Kunjungan",
-                "query": "Kapan saja jam kunjungan pasien yang berlaku di RSUD Tugu Semarang?"
+                "label": "Fasilitas Gedung Baru",
+                "query": "Apa saja peningkatan fasilitas pelayanan publik yang tersedia di area gedung poliklinik dan rawat inap baru?"
             },
             {
-                "label": "Instalasi Jantung",
-                "query": "Apa saja layanan medis unggulan yang ada di area Instalasi Jantung?"
+                "label": "Layanan Kegawatdaruratan",
+                "query": "Bagaimana sistem triage dan kecepatan penanganan pasien gawat darurat di IGD RS Tugurejo?"
             },
             {
-                "label": "Ruang Rawat VVIP",
-                "query": "Seperti apa fasilitas mewah yang ditawarkan di Ruang Rawat VVIP RSUD Tugu?"
+                "label": "Promosi Kesehatan",
+                "query": "Program promosi kesehatan dan edukasi masyarakat apa saja yang aktif dijalankan oleh rumah sakit ini?"
             }
         ]
     },

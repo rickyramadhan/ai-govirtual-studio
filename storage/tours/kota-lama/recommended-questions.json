@@ -2,49 +2,49 @@
     "version": "1.0",
     "tourId": "kota-lama",
     "tourName": "Kota Lama",
-    "updatedAt": "2026-08-29T07:22:37+02:00",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
     "state1": {
         "starters": [
             {
-                "label": "Gereja Blenduk",
-                "query": "Ceritakan sejarah Gereja Blenduk yang punya kubah tembaga besar di Kota Lama ini dong!",
-                "desc": "Ceritakan sejarah Gereja Blenduk yang punya kubah tembaga besar di Kota Lama ini dong!"
+                "label": "Bangunan tertua di sini",
+                "query": "Gedung apa yang usianya paling tua di kawasan Kota Lama Semarang ini?",
+                "desc": "Gedung apa yang usianya paling tua di kawasan Kota Lama Semarang ini?"
             },
             {
-                "label": "Gedung Marba",
-                "query": "Apa cerita di balik Gedung Marba yang punya arsitektur bata merah dari abad ke-19 ini?",
-                "desc": "Apa cerita di balik Gedung Marba yang punya arsitektur bata merah dari abad ke-19 ini?"
+                "label": "Aktivitas malam hari",
+                "query": "Apa saja yang bisa dinikmati wisatawan saat berkunjung ke Kota Lama di malam hari?",
+                "desc": "Apa saja yang bisa dinikmati wisatawan saat berkunjung ke Kota Lama di malam hari?"
             },
             {
-                "label": "Taman Sri Gunting",
-                "query": "Bagaimana suasana di Taman Sri Gunting yang menjadi pusat area Kota Lama Semarang?",
-                "desc": "Bagaimana suasana di Taman Sri Gunting yang menjadi pusat area Kota Lama Semarang?"
+                "label": "Rekomendasi kuliner",
+                "query": "Ada kafe atau restoran legendaris apa yang wajib dikunjungi saat berjalan-jalan di sini?",
+                "desc": "Ada kafe atau restoran legendaris apa yang wajib dikunjungi saat berjalan-jalan di sini?"
             }
         ],
         "themes": [
             {
+                "label": "Little Netherland",
+                "query": "Mengapa kawasan ini dijuluki sebagai Little Netherland dan bagaimana sejarah perkembangannya?"
+            },
+            {
                 "label": "Gereja Blenduk",
-                "query": "Bagaimana arsitektur dan sejarah pendirian Gereja Blenduk (GPIB Immanuel) di Kota Lama?"
+                "query": "Apa keistimewaan arsitektur Gereja Blenduk yang menjadi ikon utama dari kawasan Kota Lama ini?"
             },
             {
-                "label": "Gedung Marba",
-                "query": "Siapa pendiri Gedung Marba dan apa fungsi bangunan merah bata ini pada zaman kolonial?"
+                "label": "Taman Srigunting",
+                "query": "Bagaimana Taman Srigunting dahulu difungsikan pada zaman kolonial hingga menjadi spot favorit saat ini?"
             },
             {
-                "label": "Patung Soekarno",
-                "query": "Bagaimana detail monumen Patung Ir. Soekarno di dekat Stasiun Tawang Kota Lama?"
+                "label": "Pusat Perdagangan",
+                "query": "Bagaimana sibuknya kawasan ini saat menjadi pusat perdagangan utama di abad ke-19 dan 20?"
             },
             {
-                "label": "Lokomotif Fried Krupp",
-                "query": "Apa cerita sejarah di balik monumen Lokomotif Fried Krupp D30159 yang dipajang di sini?"
+                "label": "Gedung Marba & Jiwasraya",
+                "query": "Apa sejarah di balik bangunan megah peninggalan masa lalu seperti Gedung Marba dan Jiwasraya?"
             },
             {
-                "label": "Bangunan Spiegel",
-                "query": "Kapan Bangunan Spiegel didirikan dan apa fungsi awalnya di kawasan Kota Lama?"
-            },
-            {
-                "label": "Jam Berkunjung",
-                "query": "Kapan waktu terbaik dan jam operasional untuk berkunjung secara langsung ke Kota Lama?"
+                "label": "Revitalisasi Kawasan",
+                "query": "Bagaimana proses revitalisasi besar-besaran yang mengubah kawasan ini menjadi sangat tertata dan indah?"
             }
         ]
     },

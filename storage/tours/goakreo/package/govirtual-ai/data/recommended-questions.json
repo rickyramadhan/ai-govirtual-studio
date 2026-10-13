@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "goakreo",
+    "tourName": "Goakreo",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Kisah kera penjaga goa",
+                "query": "Benarkah monyet-monyet di sini dipercaya sebagai penjaga goa peninggalan Sunan Kalijaga?",
+                "desc": "Benarkah monyet-monyet di sini dipercaya sebagai penjaga goa peninggalan Sunan Kalijaga?"
+            },
+            {
+                "label": "Cara menyusuri waduk",
+                "query": "Apakah ada fasilitas perahu untuk berkeliling menikmati pemandangan Waduk Jatibarang?",
+                "desc": "Apakah ada fasilitas perahu untuk berkeliling menikmati pemandangan Waduk Jatibarang?"
+            },
+            {
+                "label": "Kapan waktu terbaik?",
+                "query": "Kapan waktu yang paling tepat untuk berkunjung agar bisa melihat tradisi budaya di sini?",
+                "desc": "Kapan waktu yang paling tepat untuk berkunjung agar bisa melihat tradisi budaya di sini?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Legenda Sunan Kalijaga",
+                "query": "Bagaimana kisah perjalanan Sunan Kalijaga dalam mencari kayu jati yang berkaitan dengan tempat ini?"
+            },
+            {
+                "label": "Monyet Ekor Panjang",
+                "query": "Kenapa banyak sekali monyet liar di sini dan bagaimana interaksi mereka dengan para wisatawan?"
+            },
+            {
+                "label": "Waduk Jatibarang",
+                "query": "Bagaimana pesona Waduk Jatibarang melengkapi keindahan alam di sekitar kawasan wisata Goa Kreo?"
+            },
+            {
+                "label": "Jembatan Merah Ikonik",
+                "query": "Apa daya tarik Jembatan Merah yang menghubungkan daratan dengan pulau tempat goa berada?"
+            },
+            {
+                "label": "Pesona Alam Asri",
+                "query": "Apa saja keindahan alam flora dan fauna yang bisa dieksplorasi di kawasan perbukitan ini?"
+            },
+            {
+                "label": "Tradisi Sesaji Rewanda",
+                "query": "Apa makna di balik penyelenggaraan tradisi tahunan Sesaji Rewanda oleh masyarakat setempat?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Goakreo?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Goakreo?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Goakreo?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

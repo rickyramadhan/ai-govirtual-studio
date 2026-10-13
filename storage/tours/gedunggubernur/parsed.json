@@ -1,0 +1,668 @@
+{
+    "startNode": "node87",
+    "scenes": [
+        {
+            "id": "node87",
+            "name": "node87",
+            "displayName": "node87",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -0.838953,
+            "tilt": -0.760819,
+            "fov": 141.423,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node80",
+            "name": "Depan Gedung B1",
+            "displayName": "Depan Gedung B1",
+            "rawName": "",
+            "customNodeId": "-epan-edung-1",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Depan Gedung B1"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Masuk Gedung B1",
+            "displayName": "Masuk Gedung B1",
+            "rawName": "",
+            "customNodeId": "-asuk-edung-1",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Masuk Gedung B1"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Lobidprd",
+            "displayName": "Lobidprd",
+            "rawName": "",
+            "customNodeId": "lobidprd",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "lobidprd"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Lobigubernur",
+            "displayName": "Lobigubernur",
+            "rawName": "",
+            "customNodeId": "lobigubernur",
+            "pan": -0.58,
+            "tilt": 5.78,
+            "fov": 140.63,
+            "tags": [
+                "GubernurJawaTengah",
+                "oi"
+            ],
+            "aliases": [
+                "lobigubernur"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Ornamen",
+            "displayName": "Ornamen",
+            "rawName": "",
+            "customNodeId": "ornamen",
+            "pan": -33.23,
+            "tilt": -5.48,
+            "fov": 120.18,
+            "tags": [
+                "GubernurJawaTengah",
+                "oi"
+            ],
+            "aliases": [
+                "ornamen"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Tugu",
+            "displayName": "Tugu",
+            "rawName": "",
+            "customNodeId": "tugu",
+            "pan": 21.99,
+            "tilt": 5.82,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah",
+                "oi"
+            ],
+            "aliases": [
+                "tugu"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "node85",
+            "displayName": "node85",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node86",
+            "name": "Ruangkonferensi",
+            "displayName": "Ruangkonferensi",
+            "rawName": "",
+            "customNodeId": "ruangkonferensi",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "ruangkonferensi"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Gedung DPRD",
+            "displayName": "Gedung DPRD",
+            "rawName": "",
+            "customNodeId": "-edung-",
+            "pan": 180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Gedung DPRD"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Depan Lobi Gradhika Bhakti",
+            "displayName": "Depan Lobi Gradhika Bhakti",
+            "rawName": "",
+            "customNodeId": "-epan-obi-radhika-hakti",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Depan Lobi Gradhika Bhakti"
+            ]
+        },
+        {
+            "id": "node92",
+            "name": "Masuk Musholla",
+            "displayName": "Masuk Musholla",
+            "rawName": "",
+            "customNodeId": "-asuk-usholla",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Masuk Musholla"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Lapangan Serbaguna",
+            "displayName": "Lapangan Serbaguna",
+            "rawName": "",
+            "customNodeId": "-apangan-erbaguna",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Lapangan Serbaguna"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Desain",
+            "displayName": "Desain",
+            "rawName": "",
+            "customNodeId": "desain",
+            "pan": 6.68,
+            "tilt": 16.72,
+            "fov": 124.25,
+            "tags": [
+                "GubernurJawaTengah",
+                "oi"
+            ],
+            "aliases": [
+                "desain"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Jalan Depan DPD",
+            "displayName": "Jalan Depan DPD",
+            "rawName": "",
+            "customNodeId": "-alan-epan-",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Jalan Depan DPD"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Lobi Depan DPRD",
+            "displayName": "Lobi Depan DPRD",
+            "rawName": "",
+            "customNodeId": "-obi-epan-",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Lobi Depan DPRD"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Lapangan Upacara",
+            "displayName": "Lapangan Upacara",
+            "rawName": "",
+            "customNodeId": "-apangan-pacara",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GubernurJawaTengah"
+            ],
+            "aliases": [
+                "Lapangan Upacara"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node87",
+            "target": "node89",
+            "title": "Lapangan Upacara",
+            "id": "Point01",
+            "pan": -0.95,
+            "tilt": -30.5
+        },
+        {
+            "scene": "node87",
+            "target": "node90",
+            "title": "Gedung DPRD",
+            "id": "Point02",
+            "pan": -48.79,
+            "tilt": -27.33
+        },
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "Masuk Gedung B1",
+            "id": "Point01",
+            "pan": -346.86,
+            "tilt": -4.61
+        },
+        {
+            "scene": "node80",
+            "target": "node91",
+            "title": "Depan Lobi Gradhika Bhakti",
+            "id": "Point02",
+            "pan": -102.22,
+            "tilt": -5.35
+        },
+        {
+            "scene": "node80",
+            "target": "node94",
+            "title": "Depan Lobi Gradhika Bhakti",
+            "id": "Point03",
+            "pan": 126.27,
+            "tilt": -6.33
+        },
+        {
+            "scene": "node81",
+            "target": "node80",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -113.31,
+            "tilt": -6.76
+        },
+        {
+            "scene": "node81",
+            "target": "node86",
+            "title": "Ruang Konferensi",
+            "id": "Point02",
+            "pan": -250.3,
+            "tilt": -8.57
+        },
+        {
+            "scene": "node82",
+            "target": "node93",
+            "title": "Musholla",
+            "id": "Point01",
+            "pan": 355.13,
+            "tilt": -6.42
+        },
+        {
+            "scene": "node82",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -179.82,
+            "tilt": -3.36
+        },
+        {
+            "scene": "node83",
+            "target": "node89",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -179.47,
+            "tilt": -8.49
+        },
+        {
+            "scene": "node83",
+            "target": "node86",
+            "title": "Ruang Konferensi",
+            "id": "Point02",
+            "pan": -48.48,
+            "tilt": -4.06
+        },
+        {
+            "scene": "node84",
+            "target": "node82",
+            "title": "Masuk",
+            "id": "Point01",
+            "pan": -0.58,
+            "tilt": -9.05
+        },
+        {
+            "scene": "node84",
+            "target": "node90",
+            "title": "Keluar Lobi DPRD",
+            "id": "Point02",
+            "pan": -177.88,
+            "tilt": -8.56
+        },
+        {
+            "scene": "node84",
+            "target": "node96",
+            "title": "Jalan Depan DPD",
+            "id": "Point03",
+            "pan": 130.54,
+            "tilt": -9.6
+        },
+        {
+            "scene": "node84",
+            "target": "node94",
+            "title": "Lapangan Serbaguna",
+            "id": "Point04",
+            "pan": -124.65,
+            "tilt": -9.99
+        },
+        {
+            "scene": "node88",
+            "target": "node85",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -177.72,
+            "tilt": -0.44
+        },
+        {
+            "scene": "node88",
+            "target": "node89",
+            "title": "Lapangan Upacara",
+            "id": "Point02",
+            "pan": -78.93,
+            "tilt": -0.41
+        },
+        {
+            "scene": "node88",
+            "target": "node91",
+            "title": "Depan Lobi Gradhika Bhakti",
+            "id": "Point03",
+            "pan": 60.91,
+            "tilt": -0.53
+        },
+        {
+            "scene": "node85",
+            "target": "node88",
+            "title": "Masuk",
+            "id": "Point01",
+            "pan": 359.42,
+            "tilt": -1
+        },
+        {
+            "scene": "node86",
+            "target": "node83",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.29,
+            "tilt": -7.49
+        },
+        {
+            "scene": "node86",
+            "target": "node81",
+            "title": "Gedung B1",
+            "id": "Point02",
+            "pan": 359.95,
+            "tilt": -6.92
+        },
+        {
+            "scene": "node90",
+            "target": "node84",
+            "title": "Lobi Masuk DPRD",
+            "id": "Point01",
+            "pan": 358.41,
+            "tilt": -2.98
+        },
+        {
+            "scene": "node90",
+            "target": "node95",
+            "title": "Lapangan Serbaguna",
+            "id": "Point02",
+            "pan": -89.94,
+            "tilt": -1.97
+        },
+        {
+            "scene": "node90",
+            "target": "node97",
+            "title": "Lobi Depan DPRD",
+            "id": "Point04",
+            "pan": 86.02,
+            "tilt": -1.68
+        },
+        {
+            "scene": "node91",
+            "target": "node88",
+            "title": "Jalan Lapangan Upacara",
+            "id": "Point01",
+            "pan": -97.29,
+            "tilt": -3.85
+        },
+        {
+            "scene": "node91",
+            "target": "node80",
+            "title": "Depan Gedung B1",
+            "id": "Point02",
+            "pan": -258.98,
+            "tilt": -4.02
+        },
+        {
+            "scene": "node92",
+            "target": "node93",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 149.68,
+            "tilt": -15.41
+        },
+        {
+            "scene": "node93",
+            "target": "node92",
+            "title": "Masuk Musholla",
+            "id": "Point01",
+            "pan": -358.81,
+            "tilt": -12.65
+        },
+        {
+            "scene": "node93",
+            "target": "node82",
+            "title": "Lobi DPRD",
+            "id": "Point02",
+            "pan": -87.57,
+            "tilt": -4.96
+        },
+        {
+            "scene": "node94",
+            "target": "node95",
+            "title": "Lapangan Serbaguna",
+            "id": "Point01",
+            "pan": -235.91,
+            "tilt": 0.15
+        },
+        {
+            "scene": "node94",
+            "target": "node80",
+            "title": "Lobi Gedung B1",
+            "id": "Point02",
+            "pan": -80.38,
+            "tilt": -1.93
+        },
+        {
+            "scene": "node94",
+            "target": "node84",
+            "title": "Pintu Masuk Gedung DPRD",
+            "id": "Point03",
+            "pan": -341.41,
+            "tilt": -4.93
+        },
+        {
+            "scene": "node95",
+            "target": "node90",
+            "title": "Depan Lobi DPRD",
+            "id": "Point01",
+            "pan": 48.88,
+            "tilt": -2.74
+        },
+        {
+            "scene": "node95",
+            "target": "node94",
+            "title": "Lapangan Serbaguna",
+            "id": "Point02",
+            "pan": 320.52,
+            "tilt": -2.92
+        },
+        {
+            "scene": "node96",
+            "target": "node97",
+            "title": "Jalan Depan Lobby",
+            "id": "Point01",
+            "pan": -134.59,
+            "tilt": -1.94
+        },
+        {
+            "scene": "node96",
+            "target": "node84",
+            "title": "Pintu Masuk Gedung DPRD",
+            "id": "Point02",
+            "pan": -9.71,
+            "tilt": -1
+        },
+        {
+            "scene": "node97",
+            "target": "node90",
+            "title": "Lobi DPRD",
+            "id": "Point01",
+            "pan": -1.22,
+            "tilt": -1.11
+        },
+        {
+            "scene": "node97",
+            "target": "node96",
+            "title": "Lobi DPRD",
+            "id": "Point02",
+            "pan": 38.32,
+            "tilt": -0.44
+        },
+        {
+            "scene": "node97",
+            "target": "node89",
+            "title": "Lapangan Upacara",
+            "id": "Point03",
+            "pan": 135.52,
+            "tilt": -1.57
+        },
+        {
+            "scene": "node89",
+            "target": "node97",
+            "title": "Jalan Lobi DPRD",
+            "id": "Point01",
+            "pan": -120.29,
+            "tilt": -1.2
+        },
+        {
+            "scene": "node89",
+            "target": "node88",
+            "title": "Gedung Gradhika Bhakti",
+            "id": "Point02",
+            "pan": 113.12,
+            "tilt": 1.19
+        },
+        {
+            "scene": "node89",
+            "target": "node83",
+            "title": "Masuk Lobi Gubernur",
+            "id": "Point03",
+            "pan": 4.63,
+            "tilt": -0.93
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 144,
+            "label": "Lobi Gedung DPRD",
+            "description": "Lobby gedung DPRD adalah area penerimaan utama dan titik pertemuan bagi tamu, masyarakat, dan anggota dewan sebelum memasuki ruang-ruang rapat penting. Area ini difungsikan sebagai pusat informasi dan sering dirancang untuk kesan formal dan terbuka, mencerminkan fungsi lembaga perwakilan rakyat.",
+            "fragment": "lobidprd",
+            "link": "gubernurjawatengah/index.html#lobidprd",
+            "sceneId": "node82"
+        },
+        {
+            "infoId": 145,
+            "label": "Lobi Gedung Gubernur",
+            "description": "Lobby gedung gubernur berfungsi sebagai pintu masuk sekaligus area layanan publik utama bagi masyarakat. Area di lantai 1 tersebut telah diresmikan sebagai \"Rumah Rakyat,\" yang difungsikan untuk menerima aduan, menyerap aspirasi, dan memfasilitasi komunikasi dua arah antara pemerintah dengan warga.",
+            "fragment": "lobigubernur",
+            "link": "gubernurjawatengah/index.html#lobigubernur",
+            "sceneId": "node83"
+        },
+        {
+            "infoId": 146,
+            "label": "Ruang Konferensi Gedung Gubernur",
+            "description": "Ruang rapat gedung gubernur adalah ruangan khusus yang dirancang dan dilengkapi secara teknis untuk memfasilitasi pertemuan, seminar, atau diskusi formal berskala besar hingga kecil di area gedung gubernur Jawa Tengah.",
+            "fragment": "ruangkonferensi",
+            "link": "gubernurjawatengah/index.html#ruangkonferensi",
+            "sceneId": "node86"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "99402434bfd13fee",
+        "skin.js": "9dd5e4cf585059f5",
+        "index.html": "26315de85b660f6b"
+    }
+}

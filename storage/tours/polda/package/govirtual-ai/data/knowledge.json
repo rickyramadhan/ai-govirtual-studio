@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "polda",
+    "updatedAt": "2026-09-29T09:51:44+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Polda",
+            "aliases": [
+                "polda"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "polda"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Polda.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Polda",
+                    "content": "Pusat pengalaman virtual untuk Polda."
+                },
+                "en": {
+                    "title": "Polda",
+                    "content": "Pusat pengalaman virtual untuk Polda."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Ruang110",
+            "aliases": [
+                "ruang110"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "polda"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruang110",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Ruang110",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruang SPKT",
+            "aliases": [
+                "ruang spkt"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "polda"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruang SPKT",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruang SPKT",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "polda"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:502",
+            "entityId": "objinfo2:502",
+            "title": "Ruang Pelayanan SKCK",
+            "aliases": [
+                "ruang pelayanan skck",
+                "objek 502"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang pelayanan SKCK adalah loket khusus di lingkungan kepolisian yang dirancang sebagai pusat kontak langsung bagi masyarakat. Fungsinya adalah memproses dan menerbitkan Surat Keterangan Catatan Kepolisian (SKCK) untuk berbagai keperluan administrasi.",
+            "source": "webview-import",
+            "sourceId": "502",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Pelayanan SKCK",
+                    "content": "Ruang pelayanan SKCK adalah loket khusus di lingkungan kepolisian yang dirancang sebagai pusat kontak langsung bagi masyarakat. Fungsinya adalah memproses dan menerbitkan Surat Keterangan Catatan Kepolisian (SKCK) untuk berbagai keperluan administrasi."
+                },
+                "en": {
+                    "title": "SKCK Service Room",
+                    "content": "The SKCK service room is a dedicated counter within the police environment designed as a direct contact point for the public. Its function is to process and issue Police Record Certificates (SKCK) for various administrative purposes."
+                },
+                "zh": {
+                    "title": "SKCK 服務室",
+                    "content": "SKCK 服務室是警察機構內的專用櫃台，設計為公眾的直接聯絡點。其功能是處理並發放各種行政用途的警察紀錄證明（SKCK）。"
+                },
+                "ar": {
+                    "title": "غرفة خدمة SKCK",
+                    "content": "غرفة خدمة SKCK هي شباك مخصص داخل بيئة الشرطة مصمم كنقطة اتصال مباشرة للجمهور. وظيفتها معالجة وإصدار شهادات السجل الشرطي (SKCK) لأغراض إدارية مختلفة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:503",
+            "entityId": "objinfo2:503",
+            "title": "Ruang SPKT",
+            "aliases": [
+                "ruang spkt",
+                "objek 503"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang SPKT (Sentra Pelayanan Kepolisian Terpadu) adalah unit layanan garis depan di kantor polisi yang bertugas menerima semua laporan dan pengaduan dari masyarakat selama 24 jam. Fungsi utamanya adalah memberikan pelayanan kepolisian terpadu, mulai dari Laporan Polisi (LP), laporan kehilangan, hingga permintaan bantuan dan pertolongan pertama.",
+            "source": "webview-import",
+            "sourceId": "503",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang SPKT",
+                    "content": "Ruang SPKT (Sentra Pelayanan Kepolisian Terpadu) adalah unit layanan garis depan di kantor polisi yang bertugas menerima semua laporan dan pengaduan dari masyarakat selama 24 jam. Fungsi utamanya adalah memberikan pelayanan kepolisian terpadu, mulai dari Laporan Polisi (LP), laporan kehilangan, hingga permintaan bantuan dan pertolongan pertama."
+                },
+                "en": {
+                    "title": "SPKT Room",
+                    "content": "The SPKT room (Integrated Police Service Center) is a frontline service unit at the police station responsible for receiving all reports and complaints from the public 24/7. Its primary function is to provide integrated police services, including Police Reports (LP), loss reports, and requests for assistance and first aid."
+                },
+                "zh": {
+                    "title": "SPKT 室",
+                    "content": "SPKT 室（綜合警務服務中心）是警察局的一線服務單位，負責全天候接收公眾的所有報告和投訴。其主要功能是提供綜合警務服務，包括警察報告（LP）、失物報告以及求助和急救請求。"
+                },
+                "ar": {
+                    "title": "غرفة SPKT",
+                    "content": "غرفة SPKT (مركز خدمة الشرطة المتكاملة) هي وحدة خدمة خط أول في مركز الشرطة مسؤولة عن استقبال جميع البلاغات والشكاوى من الجمهور على مدار 24 ساعة. وظيفتها الرئيسية تقديم خدمات الشرطة المتكاملة، بما في ذلك تقارير الشرطة (LP)، وتقارير فقدان الممتلكات، وطلبات المساعدة والإسعافات الأولية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:504",
+            "entityId": "objinfo2:504",
+            "title": "Ruang 110",
+            "aliases": [
+                "ruang 110",
+                "objek 504"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pusat layanan darurat (Call Center) Kepolisian Negara Republik Indonesia yang beroperasi 24 jam sehari dengan nomor telepon bebas pulsa 110. Fungsi utamanya adalah menerima laporan cepat dari masyarakat mengenai situasi darurat, tindak kejahatan, atau gangguan ketertiban, untuk ditindaklanjuti segera oleh petugas di lapangan.",
+            "source": "webview-import",
+            "sourceId": "504",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang 110",
+                    "content": "Pusat layanan darurat (Call Center) Kepolisian Negara Republik Indonesia yang beroperasi 24 jam sehari dengan nomor telepon bebas pulsa 110. Fungsi utamanya adalah menerima laporan cepat dari masyarakat mengenai situasi darurat, tindak kejahatan, atau gangguan ketertiban, untuk ditindaklanjuti segera oleh petugas di lapangan."
+                },
+                "en": {
+                    "title": "Room 110",
+                    "content": "The emergency service center (Call Center) of the Indonesian National Police operates 24/7 with the toll-free number 110. Its primary function is to receive urgent reports from the public regarding emergencies, criminal acts, or disturbances, to be immediately followed up by officers in the field."
+                },
+                "zh": {
+                    "title": "110 室",
+                    "content": "印尼國家警察緊急服務中心（呼叫中心）全天候24小時運作，免費電話號碼為110。其主要功能是接收公眾關於緊急情況、犯罪行為或治安干擾的即時報告，並由現場警員立即跟進。"
+                },
+                "ar": {
+                    "title": "غرفة 110",
+                    "content": "مركز خدمات الطوارئ (مركز الاتصال) للشرطة الوطنية الإندونيسية يعمل على مدار 24 ساعة يوميًا برقم مجاني 110. وظيفته الأساسية استقبال التقارير العاجلة من الجمهور حول حالات الطوارئ أو الجرائم أو الاضطرابات، ليتم متابعتها فورًا من قبل الضباط في الميدان."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:505",
+            "entityId": "objinfo2:505",
+            "title": "Lobby Utama",
+            "aliases": [
+                "lobby utama",
+                "objek 505"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan penerima tamu, pengunjung, atau masyarakat yang datang. Fungsinya adalah menyaring, mengarahkan, dan memberikan informasi awal kepada publik, sekaligus mencerminkan citra profesionalitas institusi kepolisian daerah tersebut.",
+            "source": "webview-import",
+            "sourceId": "505",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lobby Utama",
+                    "content": "Ruangan penerima tamu, pengunjung, atau masyarakat yang datang. Fungsinya adalah menyaring, mengarahkan, dan memberikan informasi awal kepada publik, sekaligus mencerminkan citra profesionalitas institusi kepolisian daerah tersebut."
+                },
+                "en": {
+                    "title": "Main Lobby",
+                    "content": "A reception area for guests, visitors, or the public. Its function is to screen, guide, and provide initial information to the public, while reflecting the professional image of the local police institution."
+                },
+                "zh": {
+                    "title": "主大廳",
+                    "content": "接待來賓、訪客或公眾的區域。其功能是篩選、引導並向公眾提供初步資訊，同時展現當地警察機構的專業形象。"
+                },
+                "ar": {
+                    "title": "الردهة الرئيسية",
+                    "content": "منطقة استقبال للضيوف والزوار أو الجمهور. وظيفتها تصفية وإرشاد وتقديم المعلومات الأولية للجمهور، مع عكس صورة الاحترافية لمؤسسة الشرطة المحلية."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1356 @@
+{
+    "version": "1.1-seed",
+    "tourId": "binus",
+    "generatedAt": "2026-10-01",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node380": {
+            "rawName": "Greenscreen",
+            "displayName": "Studio Green Screen",
+            "placeId": "binus-semarang-studio-green-screen",
+            "placeName": "BINUS Semarang – Studio Green Screen",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Studio Green Screen di BINUS Semarang memperlihatkan latar hijau dan lampu studio.",
+            "description": "Studio Green Screen di BINUS Semarang memperlihatkan latar hijau dan lampu studio. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Cahaya mengarahkan perhatian pada bidang kerja, objek, atau jalur tertentu. Perbedaan terang dan bayangan membuat susunan ruang lebih mudah dibaca.",
+            "highlights": [
+                "Latar hijau",
+                "Lampu studio"
+            ],
+            "talkingPoints": [
+                "Greenscreen",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Studio Green Screen di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Studio Green Screen di BINUS Semarang memperlihatkan latar hijau dan lampu studio."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Studio Green Screen?",
+                    "mode": "fix",
+                    "answer": "Latar hijau dan Lampu studio memperjelas susunan serta penggunaan ruang. Studio Green Screen di BINUS Semarang memperlihatkan latar hijau dan lampu studio."
+                },
+                {
+                    "q": "Apa fakta penting tentang BINUS Semarang – Studio Green Screen yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1099"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Studio Green Screen.",
+                "describeHere": "Greenscreen adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node381": {
+            "rawName": "Rotary",
+            "displayName": "Ruang Kerja Rotary",
+            "placeId": "binus-semarang-ruang-kerja-rotary",
+            "placeName": "BINUS Semarang – Ruang Kerja Rotary",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja kelompok dan rak terbuka menjadi unsur yang terlihat pada Ruang Kerja Rotary di BINUS Semarang.",
+            "description": "Meja kelompok dan rak terbuka menjadi unsur yang terlihat pada Ruang Kerja Rotary di BINUS Semarang. Ruang kerja dan pertemuan mendukung koordinasi serta pertukaran informasi. Meja, tempat duduk, dan area penerima memperlihatkan perbedaan antara kegiatan diskusi dan layanan tamu. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja kelompok",
+                "Rak terbuka"
+            ],
+            "talkingPoints": [
+                "Rotary",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Ruang Kerja Rotary menjadi bagian penting dari BINUS Semarang – Ruang Kerja Rotary?",
+                    "mode": "fix",
+                    "answer": "Meja kelompok dan rak terbuka menjadi unsur yang terlihat pada Ruang Kerja Rotary di BINUS Semarang. Meja kelompok dan rak terbuka menjadi unsur yang terlihat pada Ruang Kerja Rotary di BINUS Semarang. Ruang kerja dan pertemuan mendukung koordinasi serta pertukaran informasi. Meja, tempat duduk, dan area penerima memperlihatkan perbedaan antara kegiatan diskusi dan layanan tamu. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik."
+                },
+                {
+                    "q": "Apa hubungan Meja kelompok dengan aktivitas di Ruang Kerja Rotary?",
+                    "mode": "fix",
+                    "answer": "Meja kelompok menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Meja kelompok dan rak terbuka menjadi unsur yang terlihat pada Ruang Kerja Rotary di BINUS Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Ruang Kerja Rotary dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Meja kelompok dan Rak terbuka. Meja kelompok dan rak terbuka menjadi unsur yang terlihat pada Ruang Kerja Rotary di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Ruang Kerja Rotary.",
+                "describeHere": "Rotary adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node382": {
+            "rawName": "Lab Fisika Depan",
+            "displayName": "Koridor Depan Lab Fisika",
+            "placeId": "binus-semarang-koridor-depan-lab-fisika",
+            "placeName": "BINUS Semarang – Koridor Depan Lab Fisika",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Koridor Depan Lab Fisika menampilkan pagar atrium dan akses laboratorium di BINUS Semarang.",
+            "description": "Pandangan Koridor Depan Lab Fisika menampilkan pagar atrium dan akses laboratorium di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Pagar atrium",
+                "Akses laboratorium"
+            ],
+            "talkingPoints": [
+                "Lab Fisika Depan",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Koridor Depan Lab Fisika?",
+                    "mode": "fix",
+                    "answer": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Koridor Depan Lab Fisika mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Pagar atrium bersama Akses laboratorium menunjukkan cara area ini digunakan. Pandangan Koridor Depan Lab Fisika menampilkan pagar atrium dan akses laboratorium di BINUS Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Koridor Depan Lab Fisika?",
+                    "mode": "fix",
+                    "answer": "Pagar atrium menjadi detail utama, sedangkan Akses laboratorium melengkapi konteksnya. Pandangan Koridor Depan Lab Fisika menampilkan pagar atrium dan akses laboratorium di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Koridor Depan Lab Fisika.",
+                "describeHere": "Lab Fisika Depan adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node383": {
+            "rawName": "Labkomputer",
+            "displayName": "Lab Komputer – Sisi Jendela",
+            "placeId": "binus-semarang-lab-komputer-sisi-jendela",
+            "placeName": "BINUS Semarang – Lab Komputer – Sisi Jendela",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lab Komputer – Sisi Jendela, komputer dan meja berjajar membentuk tampilan bagian BINUS Semarang ini.",
+            "description": "Pada Lab Komputer – Sisi Jendela, komputer dan meja berjajar membentuk tampilan bagian BINUS Semarang ini. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Komputer",
+                "Meja berjajar"
+            ],
+            "talkingPoints": [
+                "Labkomputer",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Lab Komputer – Sisi Jendela dalam pengalaman pengunjung di BINUS Semarang – Lab Komputer – Sisi Jendela?",
+                    "mode": "fix",
+                    "answer": "Pada Lab Komputer – Sisi Jendela, komputer dan meja berjajar membentuk tampilan bagian BINUS Semarang ini. Pada Lab Komputer – Sisi Jendela, komputer dan meja berjajar membentuk tampilan bagian BINUS Semarang ini. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                },
+                {
+                    "q": "Mengapa Komputer penting pada Lab Komputer – Sisi Jendela?",
+                    "mode": "fix",
+                    "answer": "Komputer membantu menjelaskan identitas dan fungsi Lab Komputer – Sisi Jendela. Pada Lab Komputer – Sisi Jendela, komputer dan meja berjajar membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Lab Komputer – Sisi Jendela?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1097"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Lab Komputer – Sisi Jendela.",
+                "describeHere": "Labkomputer adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node384": {
+            "rawName": "Lab Komputer 2",
+            "displayName": "Lab Komputer – Area Tengah",
+            "placeId": "binus-semarang-lab-komputer-area-tengah",
+            "placeName": "BINUS Semarang – Lab Komputer – Area Tengah",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lab Komputer – Area Tengah menyorot kursi kerja dan barisan monitor, dengan konteks kunjungan di BINUS Semarang.",
+            "description": "Lab Komputer – Area Tengah menyorot kursi kerja dan barisan monitor, dengan konteks kunjungan di BINUS Semarang. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Kursi kerja",
+                "Barisan monitor"
+            ],
+            "talkingPoints": [
+                "Lab Komputer 2",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Lab Komputer – Area Tengah menunjukkan karakter BINUS Semarang – Lab Komputer – Area Tengah?",
+                    "mode": "fix",
+                    "answer": "Lab Komputer – Area Tengah menyorot kursi kerja dan barisan monitor, dengan konteks kunjungan di BINUS Semarang. Lab Komputer – Area Tengah menyorot kursi kerja dan barisan monitor, dengan konteks kunjungan di BINUS Semarang. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Kursi kerja dan Barisan monitor di Lab Komputer – Area Tengah?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Lab Komputer – Area Tengah menyorot kursi kerja dan barisan monitor, dengan konteks kunjungan di BINUS Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Lab Komputer – Area Tengah?",
+                    "mode": "fix",
+                    "answer": "Kursi kerja paling langsung membantu mengenali area ini. Lab Komputer – Area Tengah menyorot kursi kerja dan barisan monitor, dengan konteks kunjungan di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Lab Komputer – Area Tengah.",
+                "describeHere": "Lab Komputer 2 adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node385": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Koridor Laboratorium",
+            "placeId": "binus-semarang-koridor-laboratorium",
+            "placeName": "BINUS Semarang – Koridor Laboratorium",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Laboratorium di BINUS Semarang memperlihatkan pintu ruang dan pagar void.",
+            "description": "Koridor Laboratorium di BINUS Semarang memperlihatkan pintu ruang dan pagar void. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Pintu ruang",
+                "Pagar void"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Koridor Laboratorium?",
+                    "mode": "fix",
+                    "answer": "Koridor Laboratorium di BINUS Semarang memperlihatkan pintu ruang dan pagar void. Koridor Laboratorium di BINUS Semarang memperlihatkan pintu ruang dan pagar void. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Koridor Laboratorium?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Pintu ruang dan Pagar void memberi petunjuk tentang kegiatan yang berlangsung di sini. Koridor Laboratorium di BINUS Semarang memperlihatkan pintu ruang dan pagar void."
+                },
+                {
+                    "q": "Apa konteks BINUS Semarang – Koridor Laboratorium yang membuat Koridor Laboratorium lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Koridor Laboratorium.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node386": {
+            "rawName": "Labmanufacturing",
+            "displayName": "Lab Manufacturing – Area Praktik",
+            "placeId": "binus-semarang-lab-manufacturing-area-praktik",
+            "placeName": "BINUS Semarang – Lab Manufacturing – Area Praktik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Mesin praktik dan batas lantai menjadi unsur yang terlihat pada Lab Manufacturing – Area Praktik di BINUS Semarang.",
+            "description": "Mesin praktik dan batas lantai menjadi unsur yang terlihat pada Lab Manufacturing – Area Praktik di BINUS Semarang. Ruang praktik memperlihatkan alat dan meja kerja sebagai bagian pembelajaran keterampilan. Jalur di antara peralatan diperlukan untuk bekerja serta memperoleh pendampingan. Rak memanfaatkan ruang vertikal dan membagi benda dalam kelompok yang lebih mudah dilihat. Susunannya membantu pencarian serta penataan kembali setelah digunakan.",
+            "highlights": [
+                "Mesin praktik",
+                "Batas lantai"
+            ],
+            "talkingPoints": [
+                "Labmanufacturing",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lab Manufacturing – Area Praktik di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Mesin praktik dan batas lantai menjadi unsur yang terlihat pada Lab Manufacturing – Area Praktik di BINUS Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lab Manufacturing – Area Praktik?",
+                    "mode": "fix",
+                    "answer": "Mesin praktik dan Batas lantai memperjelas susunan serta penggunaan ruang. Mesin praktik dan batas lantai menjadi unsur yang terlihat pada Lab Manufacturing – Area Praktik di BINUS Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang BINUS Semarang – Lab Manufacturing – Area Praktik yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1100"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Lab Manufacturing – Area Praktik.",
+                "describeHere": "Labmanufacturing adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node387": {
+            "rawName": "Lab Manufacturing",
+            "displayName": "Akses Lab Manufacturing",
+            "placeId": "binus-semarang-akses-lab-manufacturing",
+            "placeName": "BINUS Semarang – Akses Lab Manufacturing",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Akses Lab Manufacturing menampilkan dinding bata dekoratif dan koridor di BINUS Semarang.",
+            "description": "Pandangan Akses Lab Manufacturing menampilkan dinding bata dekoratif dan koridor di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Dinding bata dekoratif",
+                "Koridor"
+            ],
+            "talkingPoints": [
+                "Lab Manufacturing",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Akses Lab Manufacturing menjadi bagian penting dari BINUS Semarang – Akses Lab Manufacturing?",
+                    "mode": "fix",
+                    "answer": "Pandangan Akses Lab Manufacturing menampilkan dinding bata dekoratif dan koridor di BINUS Semarang. Pandangan Akses Lab Manufacturing menampilkan dinding bata dekoratif dan koridor di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik."
+                },
+                {
+                    "q": "Apa hubungan Dinding bata dekoratif dengan aktivitas di Akses Lab Manufacturing?",
+                    "mode": "fix",
+                    "answer": "Dinding bata dekoratif menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Akses Lab Manufacturing menampilkan dinding bata dekoratif dan koridor di BINUS Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Akses Lab Manufacturing dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Dinding bata dekoratif dan Koridor. Pandangan Akses Lab Manufacturing menampilkan dinding bata dekoratif dan koridor di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Akses Lab Manufacturing.",
+                "describeHere": "Lab Manufacturing adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node388": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Ruang Meja Praktik",
+            "placeId": "binus-semarang-ruang-meja-praktik",
+            "placeName": "BINUS Semarang – Ruang Meja Praktik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Ruang Meja Praktik, meja kerja dan tirai membentuk tampilan bagian BINUS Semarang ini.",
+            "description": "Pada Ruang Meja Praktik, meja kerja dan tirai membentuk tampilan bagian BINUS Semarang ini. Ruang praktik memperlihatkan alat dan meja kerja sebagai bagian pembelajaran keterampilan. Jalur di antara peralatan diperlukan untuk bekerja serta memperoleh pendampingan. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja kerja",
+                "Tirai"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Ruang Meja Praktik?",
+                    "mode": "fix",
+                    "answer": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Ruang Meja Praktik mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Meja kerja bersama Tirai menunjukkan cara area ini digunakan. Pada Ruang Meja Praktik, meja kerja dan tirai membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Ruang Meja Praktik?",
+                    "mode": "fix",
+                    "answer": "Meja kerja menjadi detail utama, sedangkan Tirai melengkapi konteksnya. Pada Ruang Meja Praktik, meja kerja dan tirai membentuk tampilan bagian BINUS Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Ruang Meja Praktik.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node389": {
+            "rawName": "Lab Fotografi",
+            "displayName": "Studio Fotografi",
+            "placeId": "binus-semarang-studio-fotografi",
+            "placeName": "BINUS Semarang – Studio Fotografi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Studio Fotografi menyorot tripod dan latar studio, dengan konteks kunjungan di BINUS Semarang.",
+            "description": "Studio Fotografi menyorot tripod dan latar studio, dengan konteks kunjungan di BINUS Semarang. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman.",
+            "highlights": [
+                "Tripod",
+                "Latar studio"
+            ],
+            "talkingPoints": [
+                "Lab Fotografi",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Studio Fotografi dalam pengalaman pengunjung di BINUS Semarang – Studio Fotografi?",
+                    "mode": "fix",
+                    "answer": "Studio Fotografi menyorot tripod dan latar studio, dengan konteks kunjungan di BINUS Semarang. Studio Fotografi menyorot tripod dan latar studio, dengan konteks kunjungan di BINUS Semarang. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                },
+                {
+                    "q": "Mengapa Tripod penting pada Studio Fotografi?",
+                    "mode": "fix",
+                    "answer": "Tripod membantu menjelaskan identitas dan fungsi Studio Fotografi. Studio Fotografi menyorot tripod dan latar studio, dengan konteks kunjungan di BINUS Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Studio Fotografi?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Studio Fotografi.",
+                "describeHere": "Lab Fotografi adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node390": {
+            "rawName": "Lab Fotografi",
+            "displayName": "Pintu Studio Fotografi",
+            "placeId": "binus-semarang-pintu-studio-fotografi",
+            "placeName": "BINUS Semarang – Pintu Studio Fotografi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu Studio Fotografi di BINUS Semarang memperlihatkan pintu ganda dan koridor.",
+            "description": "Pintu Studio Fotografi di BINUS Semarang memperlihatkan pintu ganda dan koridor. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Pintu ganda",
+                "Koridor"
+            ],
+            "talkingPoints": [
+                "Lab Fotografi",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Pintu Studio Fotografi menunjukkan karakter BINUS Semarang – Pintu Studio Fotografi?",
+                    "mode": "fix",
+                    "answer": "Pintu Studio Fotografi di BINUS Semarang memperlihatkan pintu ganda dan koridor. Pintu Studio Fotografi di BINUS Semarang memperlihatkan pintu ganda dan koridor. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Pintu ganda dan Koridor di Pintu Studio Fotografi?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pintu Studio Fotografi di BINUS Semarang memperlihatkan pintu ganda dan koridor."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Pintu Studio Fotografi?",
+                    "mode": "fix",
+                    "answer": "Pintu ganda paling langsung membantu mengenali area ini. Pintu Studio Fotografi di BINUS Semarang memperlihatkan pintu ganda dan koridor."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Pintu Studio Fotografi.",
+                "describeHere": "Lab Fotografi adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node391": {
+            "rawName": "Labprinting",
+            "displayName": "Lab Printing – Ruang Kerja",
+            "placeId": "binus-semarang-lab-printing-ruang-kerja",
+            "placeName": "BINUS Semarang – Lab Printing – Ruang Kerja",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja dan jendela lebar menjadi unsur yang terlihat pada Lab Printing – Ruang Kerja di BINUS Semarang.",
+            "description": "Meja dan jendela lebar menjadi unsur yang terlihat pada Lab Printing – Ruang Kerja di BINUS Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Bukaan memberi hubungan visual dengan lingkungan luar dan memungkinkan cahaya masuk. Posisi serta luas bukaan memengaruhi bagian ruang yang terasa terang.",
+            "highlights": [
+                "Meja",
+                "Jendela lebar"
+            ],
+            "talkingPoints": [
+                "Labprinting",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Lab Printing – Ruang Kerja?",
+                    "mode": "fix",
+                    "answer": "Meja dan jendela lebar menjadi unsur yang terlihat pada Lab Printing – Ruang Kerja di BINUS Semarang. Meja dan jendela lebar menjadi unsur yang terlihat pada Lab Printing – Ruang Kerja di BINUS Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Bukaan memberi hubungan visual dengan lingkungan luar dan memungkinkan cahaya masuk. Posisi serta luas bukaan memengaruhi bagian ruang yang terasa terang. Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Lab Printing – Ruang Kerja?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Meja dan Jendela lebar memberi petunjuk tentang kegiatan yang berlangsung di sini. Meja dan jendela lebar menjadi unsur yang terlihat pada Lab Printing – Ruang Kerja di BINUS Semarang."
+                },
+                {
+                    "q": "Apa konteks BINUS Semarang – Lab Printing – Ruang Kerja yang membuat Lab Printing – Ruang Kerja lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1101"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Lab Printing – Ruang Kerja.",
+                "describeHere": "Labprinting adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node392": {
+            "rawName": "Lab Printing Depan",
+            "displayName": "Pintu Lab Printing",
+            "placeId": "binus-semarang-pintu-lab-printing",
+            "placeName": "BINUS Semarang – Pintu Lab Printing",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pintu Lab Printing menampilkan pintu ruang dan dinding koridor di BINUS Semarang.",
+            "description": "Pandangan Pintu Lab Printing menampilkan pintu ruang dan dinding koridor di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Pintu ruang",
+                "Dinding koridor"
+            ],
+            "talkingPoints": [
+                "Lab Printing Depan",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Pintu Lab Printing di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Pintu Lab Printing menampilkan pintu ruang dan dinding koridor di BINUS Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Pintu Lab Printing?",
+                    "mode": "fix",
+                    "answer": "Pintu ruang dan Dinding koridor memperjelas susunan serta penggunaan ruang. Pandangan Pintu Lab Printing menampilkan pintu ruang dan dinding koridor di BINUS Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang BINUS Semarang – Pintu Lab Printing yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Pintu Lab Printing.",
+                "describeHere": "Lab Printing Depan adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node393": {
+            "rawName": "Lobi",
+            "displayName": "Lobi Atrium",
+            "placeId": "binus-semarang-lobi-atrium",
+            "placeName": "BINUS Semarang – Lobi Atrium",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lobi Atrium, ruang tinggi dan jalur pengunjung membentuk tampilan bagian BINUS Semarang ini.",
+            "description": "Pada Lobi Atrium, ruang tinggi dan jalur pengunjung membentuk tampilan bagian BINUS Semarang ini. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang.",
+            "highlights": [
+                "Ruang tinggi",
+                "Jalur pengunjung"
+            ],
+            "talkingPoints": [
+                "Lobi",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Lobi Atrium menjadi bagian penting dari BINUS Semarang – Lobi Atrium?",
+                    "mode": "fix",
+                    "answer": "Pada Lobi Atrium, ruang tinggi dan jalur pengunjung membentuk tampilan bagian BINUS Semarang ini. Pada Lobi Atrium, ruang tinggi dan jalur pengunjung membentuk tampilan bagian BINUS Semarang ini. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik."
+                },
+                {
+                    "q": "Apa hubungan Ruang tinggi dengan aktivitas di Lobi Atrium?",
+                    "mode": "fix",
+                    "answer": "Ruang tinggi menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Lobi Atrium, ruang tinggi dan jalur pengunjung membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Apa yang membedakan Lobi Atrium dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Ruang tinggi dan Jalur pengunjung. Pada Lobi Atrium, ruang tinggi dan jalur pengunjung membentuk tampilan bagian BINUS Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Lobi Atrium.",
+                "describeHere": "Lobi adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node394": {
+            "rawName": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "placeId": "binus-semarang-perpustakaan",
+            "placeName": "BINUS Semarang – Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Perpustakaan menyorot rak buku dan meja baca, dengan konteks kunjungan di BINUS Semarang.",
+            "description": "Perpustakaan menyorot rak buku dan meja baca, dengan konteks kunjungan di BINUS Semarang. Perpustakaan menggabungkan penyimpanan koleksi, tempat membaca, dan layanan pengguna. Perbedaan susunan rak, meja, dan konter menunjukkan kegiatan yang dilayani. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Rak buku",
+                "Meja baca"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Perpustakaan mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Rak buku bersama Meja baca menunjukkan cara area ini digunakan. Perpustakaan menyorot rak buku dan meja baca, dengan konteks kunjungan di BINUS Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Rak buku menjadi detail utama, sedangkan Meja baca melengkapi konteksnya. Perpustakaan menyorot rak buku dan meja baca, dengan konteks kunjungan di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1102"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node395": {
+            "rawName": "Taman",
+            "displayName": "Taman Atap – Jalur Tanaman",
+            "placeId": "binus-semarang-taman-atap-jalur-tanaman",
+            "placeName": "BINUS Semarang – Taman Atap – Jalur Tanaman",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman Atap – Jalur Tanaman di BINUS Semarang memperlihatkan jalur melengkung dan planter.",
+            "description": "Taman Atap – Jalur Tanaman di BINUS Semarang memperlihatkan jalur melengkung dan planter. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan.",
+            "highlights": [
+                "Jalur melengkung",
+                "Planter"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Taman Atap – Jalur Tanaman dalam pengalaman pengunjung di BINUS Semarang – Taman Atap – Jalur Tanaman?",
+                    "mode": "fix",
+                    "answer": "Taman Atap – Jalur Tanaman di BINUS Semarang memperlihatkan jalur melengkung dan planter. Taman Atap – Jalur Tanaman di BINUS Semarang memperlihatkan jalur melengkung dan planter. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                },
+                {
+                    "q": "Mengapa Jalur melengkung penting pada Taman Atap – Jalur Tanaman?",
+                    "mode": "fix",
+                    "answer": "Jalur melengkung membantu menjelaskan identitas dan fungsi Taman Atap – Jalur Tanaman. Taman Atap – Jalur Tanaman di BINUS Semarang memperlihatkan jalur melengkung dan planter."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Taman Atap – Jalur Tanaman?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Taman Atap – Jalur Tanaman.",
+                "describeHere": "Taman adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node396": {
+            "rawName": "Taman",
+            "displayName": "Taman Atap – Area Pandang",
+            "placeId": "binus-semarang-taman-atap-area-pandang",
+            "placeName": "BINUS Semarang – Taman Atap – Area Pandang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pagar tepi dan bangku menjadi unsur yang terlihat pada Taman Atap – Area Pandang di BINUS Semarang.",
+            "description": "Pagar tepi dan bangku menjadi unsur yang terlihat pada Taman Atap – Area Pandang di BINUS Semarang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Pagar tepi",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Taman Atap – Area Pandang menunjukkan karakter BINUS Semarang – Taman Atap – Area Pandang?",
+                    "mode": "fix",
+                    "answer": "Pagar tepi dan bangku menjadi unsur yang terlihat pada Taman Atap – Area Pandang di BINUS Semarang. Pagar tepi dan bangku menjadi unsur yang terlihat pada Taman Atap – Area Pandang di BINUS Semarang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Pagar tepi dan Bangku di Taman Atap – Area Pandang?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pagar tepi dan bangku menjadi unsur yang terlihat pada Taman Atap – Area Pandang di BINUS Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Taman Atap – Area Pandang?",
+                    "mode": "fix",
+                    "answer": "Pagar tepi paling langsung membantu mengenali area ini. Pagar tepi dan bangku menjadi unsur yang terlihat pada Taman Atap – Area Pandang di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Taman Atap – Area Pandang.",
+                "describeHere": "Taman adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node397": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Galeri Seni",
+            "placeId": "binus-semarang-pintu-galeri-seni",
+            "placeName": "BINUS Semarang – Pintu Galeri Seni",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pintu Galeri Seni menampilkan panel karya dan ruang pamer di BINUS Semarang.",
+            "description": "Pandangan Pintu Galeri Seni menampilkan panel karya dan ruang pamer di BINUS Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan.",
+            "highlights": [
+                "Panel karya",
+                "Ruang pamer"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Pintu Galeri Seni?",
+                    "mode": "fix",
+                    "answer": "Pandangan Pintu Galeri Seni menampilkan panel karya dan ruang pamer di BINUS Semarang. Pandangan Pintu Galeri Seni menampilkan panel karya dan ruang pamer di BINUS Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Pintu Galeri Seni?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Panel karya dan Ruang pamer memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Pintu Galeri Seni menampilkan panel karya dan ruang pamer di BINUS Semarang."
+                },
+                {
+                    "q": "Apa konteks BINUS Semarang – Pintu Galeri Seni yang membuat Pintu Galeri Seni lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Pintu Galeri Seni.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node408": {
+            "rawName": "Video360 1",
+            "displayName": "Galeri Seni – Video 360",
+            "placeId": "binus-semarang-galeri-seni-video-360",
+            "placeName": "BINUS Semarang – Galeri Seni – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Galeri Seni – Video 360, panel karya dan pencahayaan pamer membentuk tampilan bagian BINUS Semarang ini.",
+            "description": "Pada Galeri Seni – Video 360, panel karya dan pencahayaan pamer membentuk tampilan bagian BINUS Semarang ini. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan.",
+            "highlights": [
+                "Panel karya",
+                "Pencahayaan pamer",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Galeri Seni – Video 360 di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Galeri Seni – Video 360, panel karya dan pencahayaan pamer membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Galeri Seni – Video 360?",
+                    "mode": "fix",
+                    "answer": "Panel karya dan Pencahayaan pamer memperjelas susunan serta penggunaan ruang. Pada Galeri Seni – Video 360, panel karya dan pencahayaan pamer membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang BINUS Semarang – Galeri Seni – Video 360 yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Galeri Seni – Video 360.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node398": {
+            "rawName": "Galeri Seni",
+            "displayName": "Koridor Galeri Seni",
+            "placeId": "binus-semarang-koridor-galeri-seni",
+            "placeName": "BINUS Semarang – Koridor Galeri Seni",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Galeri Seni menyorot bangku dan dinding kaca, dengan konteks kunjungan di BINUS Semarang.",
+            "description": "Koridor Galeri Seni menyorot bangku dan dinding kaca, dengan konteks kunjungan di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat.",
+            "highlights": [
+                "Bangku",
+                "Dinding kaca"
+            ],
+            "talkingPoints": [
+                "Galeri Seni",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Koridor Galeri Seni menjadi bagian penting dari BINUS Semarang – Koridor Galeri Seni?",
+                    "mode": "fix",
+                    "answer": "Koridor Galeri Seni menyorot bangku dan dinding kaca, dengan konteks kunjungan di BINUS Semarang. Koridor Galeri Seni menyorot bangku dan dinding kaca, dengan konteks kunjungan di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik."
+                },
+                {
+                    "q": "Apa hubungan Bangku dengan aktivitas di Koridor Galeri Seni?",
+                    "mode": "fix",
+                    "answer": "Bangku menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Koridor Galeri Seni menyorot bangku dan dinding kaca, dengan konteks kunjungan di BINUS Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Koridor Galeri Seni dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Bangku dan Dinding kaca. Koridor Galeri Seni menyorot bangku dan dinding kaca, dengan konteks kunjungan di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Koridor Galeri Seni.",
+                "describeHere": "Galeri Seni adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node399": {
+            "rawName": "Pendaftaran Mahasiswa",
+            "displayName": "Layanan Pendaftaran Mahasiswa",
+            "placeId": "binus-semarang-layanan-pendaftaran-mahasiswa",
+            "placeName": "BINUS Semarang – Layanan Pendaftaran Mahasiswa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Layanan Pendaftaran Mahasiswa di BINUS Semarang memperlihatkan meja layanan dan identitas BINUS.",
+            "description": "Layanan Pendaftaran Mahasiswa di BINUS Semarang memperlihatkan meja layanan dan identitas BINUS. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja layanan",
+                "Identitas BINUS"
+            ],
+            "talkingPoints": [
+                "Pendaftaran Mahasiswa",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Layanan Pendaftaran Mahasiswa?",
+                    "mode": "fix",
+                    "answer": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Layanan Pendaftaran Mahasiswa mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Meja layanan bersama Identitas BINUS menunjukkan cara area ini digunakan. Layanan Pendaftaran Mahasiswa di BINUS Semarang memperlihatkan meja layanan dan identitas BINUS."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Layanan Pendaftaran Mahasiswa?",
+                    "mode": "fix",
+                    "answer": "Meja layanan menjadi detail utama, sedangkan Identitas BINUS melengkapi konteksnya. Layanan Pendaftaran Mahasiswa di BINUS Semarang memperlihatkan meja layanan dan identitas BINUS."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Layanan Pendaftaran Mahasiswa.",
+                "describeHere": "Pendaftaran Mahasiswa adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node400": {
+            "rawName": "Artgallery",
+            "displayName": "Galeri Karya Visual",
+            "placeId": "binus-semarang-galeri-karya-visual",
+            "placeName": "BINUS Semarang – Galeri Karya Visual",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Poster karya dan panel pamer menjadi unsur yang terlihat pada Galeri Karya Visual di BINUS Semarang.",
+            "description": "Poster karya dan panel pamer menjadi unsur yang terlihat pada Galeri Karya Visual di BINUS Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan.",
+            "highlights": [
+                "Poster karya",
+                "Panel pamer"
+            ],
+            "talkingPoints": [
+                "Artgallery",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Galeri Karya Visual dalam pengalaman pengunjung di BINUS Semarang – Galeri Karya Visual?",
+                    "mode": "fix",
+                    "answer": "Poster karya dan panel pamer menjadi unsur yang terlihat pada Galeri Karya Visual di BINUS Semarang. Poster karya dan panel pamer menjadi unsur yang terlihat pada Galeri Karya Visual di BINUS Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                },
+                {
+                    "q": "Mengapa Poster karya penting pada Galeri Karya Visual?",
+                    "mode": "fix",
+                    "answer": "Poster karya membantu menjelaskan identitas dan fungsi Galeri Karya Visual. Poster karya dan panel pamer menjadi unsur yang terlihat pada Galeri Karya Visual di BINUS Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Galeri Karya Visual?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1098"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Galeri Karya Visual.",
+                "describeHere": "Artgallery adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node401": {
+            "rawName": "Aula Tengah Lantai 2",
+            "displayName": "Atrium Lantai 2",
+            "placeId": "binus-semarang-atrium-lantai-2",
+            "placeName": "BINUS Semarang – Atrium Lantai 2",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Atrium Lantai 2 menampilkan void tengah dan balkon koridor di BINUS Semarang.",
+            "description": "Pandangan Atrium Lantai 2 menampilkan void tengah dan balkon koridor di BINUS Semarang. Atrium memperlihatkan hubungan antarlantai melalui ruang yang terbuka secara vertikal. Tepi balkon, koridor, dan bidang tengah membantu membaca susunan bangunan. Balkon memberi posisi pandang terhadap ruang di bawah atau lingkungan di luar bangunan. Dari sana, hubungan antarlantai dan susunan kegiatan dapat lebih mudah terlihat.",
+            "highlights": [
+                "Void tengah",
+                "Balkon koridor"
+            ],
+            "talkingPoints": [
+                "Aula Tengah Lantai 2",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Atrium Lantai 2 menunjukkan karakter BINUS Semarang – Atrium Lantai 2?",
+                    "mode": "fix",
+                    "answer": "Pandangan Atrium Lantai 2 menampilkan void tengah dan balkon koridor di BINUS Semarang. Pandangan Atrium Lantai 2 menampilkan void tengah dan balkon koridor di BINUS Semarang. Atrium memperlihatkan hubungan antarlantai melalui ruang yang terbuka secara vertikal. Tepi balkon, koridor, dan bidang tengah membantu membaca susunan bangunan. Balkon memberi posisi pandang terhadap ruang di bawah atau lingkungan di luar bangunan. Dari sana, hubungan antarlantai dan susunan kegiatan dapat lebih mudah terlihat. Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Void tengah dan Balkon koridor di Atrium Lantai 2?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pandangan Atrium Lantai 2 menampilkan void tengah dan balkon koridor di BINUS Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Atrium Lantai 2?",
+                    "mode": "fix",
+                    "answer": "Void tengah paling langsung membantu mengenali area ini. Pandangan Atrium Lantai 2 menampilkan void tengah dan balkon koridor di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Atrium Lantai 2.",
+                "describeHere": "Aula Tengah Lantai 2 adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node402": {
+            "rawName": "Cafeteria",
+            "displayName": "Kafetaria",
+            "placeId": "binus-semarang-kafetaria",
+            "placeName": "BINUS Semarang – Kafetaria",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Kafetaria, meja makan dan area terbuka membentuk tampilan bagian BINUS Semarang ini.",
+            "description": "Pada Kafetaria, meja makan dan area terbuka membentuk tampilan bagian BINUS Semarang ini. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja makan",
+                "Area terbuka"
+            ],
+            "talkingPoints": [
+                "Cafeteria",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Kafetaria?",
+                    "mode": "fix",
+                    "answer": "Pada Kafetaria, meja makan dan area terbuka membentuk tampilan bagian BINUS Semarang ini. Pada Kafetaria, meja makan dan area terbuka membentuk tampilan bagian BINUS Semarang ini. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Kafetaria?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Meja makan dan Area terbuka memberi petunjuk tentang kegiatan yang berlangsung di sini. Pada Kafetaria, meja makan dan area terbuka membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Apa konteks BINUS Semarang – Kafetaria yang membuat Kafetaria lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Kafetaria.",
+                "describeHere": "Cafeteria adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node403": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Ruang Belajar Kolaboratif",
+            "placeId": "binus-semarang-ruang-belajar-kolaboratif",
+            "placeName": "BINUS Semarang – Ruang Belajar Kolaboratif",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Belajar Kolaboratif menyorot meja kelompok dan kursi warna, dengan konteks kunjungan di BINUS Semarang.",
+            "description": "Ruang Belajar Kolaboratif menyorot meja kelompok dan kursi warna, dengan konteks kunjungan di BINUS Semarang. Ruang belajar bersama memberi tempat untuk membaca, berdiskusi, atau mengerjakan tugas dalam kelompok. Penempatan meja dan kursi menentukan cara peserta saling berinteraksi. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Meja kelompok",
+                "Kursi warna"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Ruang Belajar Kolaboratif di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Ruang Belajar Kolaboratif menyorot meja kelompok dan kursi warna, dengan konteks kunjungan di BINUS Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Ruang Belajar Kolaboratif?",
+                    "mode": "fix",
+                    "answer": "Meja kelompok dan Kursi warna memperjelas susunan serta penggunaan ruang. Ruang Belajar Kolaboratif menyorot meja kelompok dan kursi warna, dengan konteks kunjungan di BINUS Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang BINUS Semarang – Ruang Belajar Kolaboratif yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Ruang Belajar Kolaboratif.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node404": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Koridor Atas Atrium",
+            "placeId": "binus-semarang-koridor-atas-atrium",
+            "placeName": "BINUS Semarang – Koridor Atas Atrium",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Atas Atrium di BINUS Semarang memperlihatkan pagar void dan lorong.",
+            "description": "Koridor Atas Atrium di BINUS Semarang memperlihatkan pagar void dan lorong. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Atrium memperlihatkan hubungan antarlantai melalui ruang yang terbuka secara vertikal. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Pagar void",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Koridor Atas Atrium menjadi bagian penting dari BINUS Semarang – Koridor Atas Atrium?",
+                    "mode": "fix",
+                    "answer": "Koridor Atas Atrium di BINUS Semarang memperlihatkan pagar void dan lorong. Koridor Atas Atrium di BINUS Semarang memperlihatkan pagar void dan lorong. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Atrium memperlihatkan hubungan antarlantai melalui ruang yang terbuka secara vertikal. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik."
+                },
+                {
+                    "q": "Apa hubungan Pagar void dengan aktivitas di Koridor Atas Atrium?",
+                    "mode": "fix",
+                    "answer": "Pagar void menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Koridor Atas Atrium di BINUS Semarang memperlihatkan pagar void dan lorong."
+                },
+                {
+                    "q": "Apa yang membedakan Koridor Atas Atrium dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Pagar void dan Lorong. Koridor Atas Atrium di BINUS Semarang memperlihatkan pagar void dan lorong."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Koridor Atas Atrium.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node405": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Koridor Sisi Jendela",
+            "placeId": "binus-semarang-koridor-sisi-jendela",
+            "placeName": "BINUS Semarang – Koridor Sisi Jendela",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Cahaya alami dan akses ruang menjadi unsur yang terlihat pada Koridor Sisi Jendela di BINUS Semarang.",
+            "description": "Cahaya alami dan akses ruang menjadi unsur yang terlihat pada Koridor Sisi Jendela di BINUS Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Cahaya alami",
+                "Akses ruang"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Koridor Sisi Jendela?",
+                    "mode": "fix",
+                    "answer": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Koridor Sisi Jendela mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Cahaya alami bersama Akses ruang menunjukkan cara area ini digunakan. Cahaya alami dan akses ruang menjadi unsur yang terlihat pada Koridor Sisi Jendela di BINUS Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Koridor Sisi Jendela?",
+                    "mode": "fix",
+                    "answer": "Cahaya alami menjadi detail utama, sedangkan Akses ruang melengkapi konteksnya. Cahaya alami dan akses ruang menjadi unsur yang terlihat pada Koridor Sisi Jendela di BINUS Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Koridor Sisi Jendela.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node406": {
+            "rawName": "Depan Lobi",
+            "displayName": "Pelataran Logo BINUS",
+            "placeId": "binus-semarang-pelataran-logo-binus",
+            "placeName": "BINUS Semarang – Pelataran Logo BINUS",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pelataran Logo BINUS menampilkan logo kampus dan kanopi besar di BINUS Semarang.",
+            "description": "Pandangan Pelataran Logo BINUS menampilkan logo kampus dan kanopi besar di BINUS Semarang. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan.",
+            "highlights": [
+                "Logo kampus",
+                "Kanopi besar"
+            ],
+            "talkingPoints": [
+                "Depan Lobi",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Pelataran Logo BINUS dalam pengalaman pengunjung di BINUS Semarang – Pelataran Logo BINUS?",
+                    "mode": "fix",
+                    "answer": "Pandangan Pelataran Logo BINUS menampilkan logo kampus dan kanopi besar di BINUS Semarang. Pandangan Pelataran Logo BINUS menampilkan logo kampus dan kanopi besar di BINUS Semarang. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan. Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                },
+                {
+                    "q": "Mengapa Logo kampus penting pada Pelataran Logo BINUS?",
+                    "mode": "fix",
+                    "answer": "Logo kampus membantu menjelaskan identitas dan fungsi Pelataran Logo BINUS. Pandangan Pelataran Logo BINUS menampilkan logo kampus dan kanopi besar di BINUS Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pelataran Logo BINUS?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Pelataran Logo BINUS.",
+                "describeHere": "Depan Lobi adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node407": {
+            "rawName": "default",
+            "displayName": "Fasad Utama BINUS",
+            "placeId": "binus-semarang-fasad-utama-binus",
+            "placeName": "BINUS Semarang – Fasad Utama BINUS",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Fasad Utama BINUS, kolom bangunan dan taman depan membentuk tampilan bagian BINUS Semarang ini.",
+            "description": "Pada Fasad Utama BINUS, kolom bangunan dan taman depan membentuk tampilan bagian BINUS Semarang ini. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia.",
+            "highlights": [
+                "Kolom bangunan",
+                "Taman depan"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "BINUS University Semarang"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Fasad Utama BINUS menunjukkan karakter BINUS Semarang – Fasad Utama BINUS?",
+                    "mode": "fix",
+                    "answer": "Pada Fasad Utama BINUS, kolom bangunan dan taman depan membentuk tampilan bagian BINUS Semarang ini. Pada Fasad Utama BINUS, kolom bangunan dan taman depan membentuk tampilan bagian BINUS Semarang ini. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia. Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Kolom bangunan dan Taman depan di Fasad Utama BINUS?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pada Fasad Utama BINUS, kolom bangunan dan taman depan membentuk tampilan bagian BINUS Semarang ini."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Fasad Utama BINUS?",
+                    "mode": "fix",
+                    "answer": "Kolom bangunan paling langsung membantu mengenali area ini. Pada Fasad Utama BINUS, kolom bangunan dan taman depan membentuk tampilan bagian BINUS Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di BINUS Semarang – Fasad Utama BINUS.",
+                "describeHere": "default adalah area di dalam kawasan BINUS University Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

@@ -2,9 +2,11 @@
     "version": "1.0",
     "tourId": "tour-20260828100342",
     "tourName": "lawang sewu",
-    "updatedAt": "2026-08-29T07:45:41+02:00",
+    "updatedAt": "2026-09-14T16:58:42+02:00",
     "startScene": "node39",
     "order": [
+        "node51",
+        "node57",
         "node39",
         "node40",
         "node41",
@@ -17,13 +19,11 @@
         "node48",
         "node49",
         "node50",
-        "node51",
         "node52",
         "node53",
         "node54",
         "node55",
         "node56",
-        "node57",
         "node58",
         "node59",
         "node60",
@@ -43,109 +43,109 @@
     ],
     "nodes": {
         "node39": {
-            "displayName": "Sapi"
+            "displayName": "Pelataran Monumen Sejarah Kereta Api"
         },
         "node40": {
-            "displayName": "Ruangpameransejarah"
+            "displayName": "Ruang Eksibisi Lini Masa NIS"
         },
         "node41": {
-            "displayName": "Galeriwarisan"
+            "displayName": "Galeri Konservasi Cagar Budaya"
         },
         "node42": {
-            "displayName": "Maket"
+            "displayName": "Etalase Maket 3D Kompleks Lawang Sewu"
         },
         "node43": {
-            "displayName": "Balkon Koridor"
+            "displayName": "Balkon Utama Menghadap Courtyard"
         },
         "node44": {
-            "displayName": "Cetakbiru"
+            "displayName": "Galeri Cetak Biru Arsitektur"
         },
         "node45": {
-            "displayName": "Gedungd"
+            "displayName": "Fasad Eksterior Gedung D"
         },
         "node46": {
-            "displayName": "Pintu Keluar"
+            "displayName": "Koridor Utama Simetris (Seribu Pintu)"
         },
         "node47": {
-            "displayName": "Bekastembakan"
+            "displayName": "Dinding Artefak Bekas Pertempuran"
         },
         "node48": {
-            "displayName": "Struktur Atap Arsitektur"
+            "displayName": "Loteng Rangka Baja (Attic) Gedung Utama"
         },
         "node49": {
-            "displayName": "Tokosuvenir"
+            "displayName": "Sentra Suvenir dan Produk UMKM"
         },
         "node50": {
-            "displayName": "main malam"
+            "displayName": "Fasad Utama Gedung A (Tampak Malam)"
         },
         "node51": {
-            "displayName": "main siang"
+            "displayName": "Fasad Utama Gedung A (Tampak Siang)"
         },
         "node52": {
-            "displayName": "default - night"
+            "displayName": "Pelataran Taman Tengah (Courtyard Malam)"
         },
         "node53": {
-            "displayName": "default - day"
+            "displayName": "Pelataran Taman Tengah (Courtyard Siang)"
         },
         "node54": {
-            "displayName": "default"
+            "displayName": "Titik Transisi Pelestarian Eksterior"
         },
         "node55": {
-            "displayName": "Balkon"
+            "displayName": "Balkon Sudut Menghadap Tugu Muda"
         },
         "node56": {
-            "displayName": "Foodcourt"
+            "displayName": "Pujasera (Food Court) Sayap Belakang"
         },
         "node57": {
-            "displayName": "Pintumasuk"
+            "displayName": "Gerbang Kedatangan & Loket Utama"
         },
         "node58": {
-            "displayName": "Pintu Keluar"
+            "displayName": "Koridor Sayap Barat (Perspektif Pintu)"
         },
         "node59": {
-            "displayName": "Pintu Masuk"
+            "displayName": "Ruang Koleksi Artefak Stasiun"
         },
         "node60": {
-            "displayName": "Lokomotiflistrik"
+            "displayName": "Monumen Lokomotif Perkeretaapian"
         },
         "node61": {
-            "displayName": "Hallsiang"
+            "displayName": "Aula Kaca Patri J.L. Schouten (Tampak Siang)"
         },
         "node62": {
-            "displayName": "Hallmalam"
+            "displayName": "Aula Kaca Patri J.L. Schouten (Tampak Malam)"
         },
         "node63": {
-            "displayName": "Keretamalam"
+            "displayName": "Monumen Kereta Taman (Tampak Malam)"
         },
         "node64": {
-            "displayName": "Keretasiang"
+            "displayName": "Monumen Kereta Taman (Tampak Siang)"
         },
         "node65": {
-            "displayName": "Lorong Gedung"
+            "displayName": "Lorong Lantai Dasar (Tegel Klasik)"
         },
         "node66": {
-            "displayName": "Lorong Gedung"
+            "displayName": "Persimpangan Lorong Sirkulasi Udara"
         },
         "node67": {
-            "displayName": "Gedung E"
+            "displayName": "Selasar Fungsional Gedung E"
         },
         "node68": {
-            "displayName": "Koridor UMKM"
+            "displayName": "Gerbang Keluar Menuju Pedestrian"
         },
         "node69": {
-            "displayName": "Koridor UMKM"
+            "displayName": "Lorong Pasar Kreatif UMKM"
         },
         "node70": {
-            "displayName": "Galeri Museum Kereta Api"
+            "displayName": "Koridor Galeri Seni Kontemporer"
         },
         "node71": {
-            "displayName": "Galeri Museum Kereta Api"
+            "displayName": "Eksibisi Telegraf & Sinyal Kuno"
         },
         "node72": {
-            "displayName": "Galeri Museum Kereta Api"
+            "displayName": "Eksibisi Tiket Edmondson & Seragam"
         },
         "node73": {
-            "displayName": "Galeri Museum Kereta Api"
+            "displayName": "Diorama Miniatur Stasiun & Rel"
         }
     }
 }

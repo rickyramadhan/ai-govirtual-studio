@@ -1,0 +1,2354 @@
+window.GoVirtualTourData = {
+    "id": "indonesiakaya",
+    "modernObjectInfo": {
+        "1439": {
+            "name": {
+                "id": "Prasasti Peresmian"
+            },
+            "description": {
+                "id": "Prasasti ini menandai selesainya penataan area taman dan pembangunan fasilitas seni di sana."
+            },
+            "image": "prasasti-peresmian-prasastiperesmian.webp",
+            "view": {
+                "pan": 20.37,
+                "tilt": -34.88,
+                "fov": 12.94
+            }
+        },
+        "1440": {
+            "name": {
+                "id": "Dinding Kreasi"
+            },
+            "description": {
+                "id": "Fasilitas ini dirancang sebagai tempat untuk memamerkan karya seni visual, khususnya hasil kreasi anak-anak dan remaja. Panel-panel tersebut biasanya berisi gambar atau lukisan bertema kebudayaan, persatuan, dan keindahan alam Indonesia."
+            },
+            "image": "dinding-kreasi-dindingkreasi.webp",
+            "view": {
+                "pan": -25.83,
+                "tilt": -2.48,
+                "fov": 13
+            }
+        },
+        "1441": {
+            "name": {
+                "id": "Patung Penari Tanpa Kepala"
+            },
+            "description": {
+                "id": "Ini berfungsi sebagai sarana edukasi sekaligus objek foto kreatif bagi pengunjung dengan merepresentasikan pakaian adat Jawa Tengah secara visual. Melalui perpaduan busana beskap lurik untuk pria dan kebaya merah yang anggun untuk wanita, instalasi ini mengajak masyarakat untuk lebih mengenal warisan budaya lokal dengan cara yang menyenangkan dan interaktif."
+            },
+            "image": "patung-penari-tanpa-kepala-patungpenaritanpakepala.webp",
+            "view": {
+                "pan": -49.77,
+                "tilt": -13.52,
+                "fov": 13
+            }
+        },
+        "1442": {
+            "name": {
+                "id": "Denah Taman"
+            },
+            "description": {
+                "id": "Papan ini berfungsi sebagai panduan navigasi bagi pengunjung dengan menyajikan tata letak area taman dalam bentuk grafis berwarna ungu yang elegan."
+            },
+            "image": "denah-taman-denahtaman.webp",
+            "view": {
+                "pan": -353.55,
+                "tilt": 7.28,
+                "fov": 13
+            }
+        },
+        "1443": {
+            "name": {
+                "id": "Gerbang Mural"
+            },
+            "description": {
+                "id": "Gerbang ini merupakan salah satu elemen visual paling mencolok yang memadukan seni modern dengan kekayaan budaya tradisional. Struktur melengkung ini berfungsi sebagai pintu masuk estetik yang menyambut pengunjung dengan ledakan warna dan ilustrasi bergaya pop-art. Mural tersebut menampilkan berbagai tokoh pewayangan, karakter rakyat, hingga elemen kuliner khas Nusantara yang digarap dengan garis-garis tegas dan ekspresi yang dinamis."
+            },
+            "image": "gerbang-mural-gerbangmural.webp",
+            "view": {
+                "pan": 330.95,
+                "tilt": 0.24,
+                "fov": 13
+            }
+        }
+    },
+    "name": "Taman Indonesia Kaya",
+    "scenes": [
+        {
+            "id": "node206",
+            "name": "node206",
+            "displayName": "node206",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node207",
+            "name": "node207",
+            "displayName": "node207",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node208",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node209",
+            "name": "Taman Indonesia Kaya",
+            "displayName": "Taman Indonesia Kaya",
+            "rawName": "",
+            "customNodeId": "-aman-ndonesia-aya",
+            "pan": -0.71,
+            "tilt": 10.46,
+            "fov": 120.69,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman Indonesia Kaya"
+            ]
+        },
+        {
+            "id": "node229",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node210",
+            "name": "Teater",
+            "displayName": "Teater",
+            "rawName": "",
+            "customNodeId": "-eater",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Teater"
+            ]
+        },
+        {
+            "id": "node211",
+            "name": "Prasasti",
+            "displayName": "Prasasti",
+            "rawName": "",
+            "customNodeId": "prasasti",
+            "pan": 0.96,
+            "tilt": -38.1,
+            "fov": 136.93,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "prasasti"
+            ]
+        },
+        {
+            "id": "node212",
+            "name": "Penari",
+            "displayName": "Penari",
+            "rawName": "",
+            "customNodeId": "penari",
+            "pan": -1.37,
+            "tilt": -9.08,
+            "fov": 136.93,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "penari"
+            ]
+        },
+        {
+            "id": "node213",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node214",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node215",
+            "name": "Teater",
+            "displayName": "Teater",
+            "rawName": "",
+            "customNodeId": "-eater",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Teater"
+            ]
+        },
+        {
+            "id": "node216",
+            "name": "Panggungbudaya",
+            "displayName": "Panggungbudaya",
+            "rawName": "",
+            "customNodeId": "panggungbudaya",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "panggungbudaya"
+            ]
+        },
+        {
+            "id": "node217",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node218",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node219",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node220",
+            "name": "Airmancur",
+            "displayName": "Airmancur",
+            "rawName": "",
+            "customNodeId": "airmancur",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "airmancur"
+            ]
+        },
+        {
+            "id": "node221",
+            "name": "Patungibu",
+            "displayName": "Patungibu",
+            "rawName": "",
+            "customNodeId": "patungibu",
+            "pan": -1.6,
+            "tilt": 16.43,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "patungibu"
+            ]
+        },
+        {
+            "id": "node222",
+            "name": "Gerbangmural",
+            "displayName": "Gerbangmural",
+            "rawName": "",
+            "customNodeId": "gerbangmural",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "gerbangmural"
+            ]
+        },
+        {
+            "id": "node223",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node224",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node225",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node226",
+            "name": "Dindingkreasi",
+            "displayName": "Dindingkreasi",
+            "rawName": "",
+            "customNodeId": "dindingkreasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "dindingkreasi"
+            ]
+        },
+        {
+            "id": "node227",
+            "name": "Patungpenari",
+            "displayName": "Patungpenari",
+            "rawName": "",
+            "customNodeId": "patungpenari",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "patungpenari"
+            ]
+        },
+        {
+            "id": "node228",
+            "name": "Patungwayang",
+            "displayName": "Patungwayang",
+            "rawName": "",
+            "customNodeId": "patungwayang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "patungwayang"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node206",
+            "target": "node216",
+            "title": "Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -338.82,
+            "tilt": -38.56
+        },
+        {
+            "scene": "node206",
+            "target": "node220",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -183.48,
+            "tilt": -59.21
+        },
+        {
+            "scene": "node207",
+            "target": "node217",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -82.54,
+            "tilt": -0.56
+        },
+        {
+            "scene": "node208",
+            "target": "node217",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -108.19,
+            "tilt": -1.13
+        },
+        {
+            "scene": "node208",
+            "target": "node214",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -258.59,
+            "tilt": -9.37
+        },
+        {
+            "scene": "node209",
+            "target": "node212",
+            "title": "Denah Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -278,
+            "tilt": -0.26
+        },
+        {
+            "scene": "node209",
+            "target": "node211",
+            "title": "Monumen Peresmian Taman",
+            "id": "Point02",
+            "pan": -93.21,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node209",
+            "target": "node215",
+            "title": "Teater",
+            "id": "Point03",
+            "pan": -1.92,
+            "tilt": -4.89
+        },
+        {
+            "scene": "node209",
+            "target": "node209",
+            "title": "Keluar",
+            "id": "Point05",
+            "pan": -244.83,
+            "tilt": -5.17
+        },
+        {
+            "scene": "node229",
+            "target": "node209",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -244.83,
+            "tilt": -5.17
+        },
+        {
+            "scene": "node210",
+            "target": "node213",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -263.17,
+            "tilt": -1.17
+        },
+        {
+            "scene": "node211",
+            "target": "node209",
+            "title": "Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -267.7,
+            "tilt": -1.42
+        },
+        {
+            "scene": "node211",
+            "target": "node219",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -63.47,
+            "tilt": -1.14
+        },
+        {
+            "scene": "node211",
+            "target": "node222",
+            "title": "Mural",
+            "id": "Point03",
+            "pan": -90.66,
+            "tilt": -2.25
+        },
+        {
+            "scene": "node212",
+            "target": "node209",
+            "title": "Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -101.69,
+            "tilt": 0.37
+        },
+        {
+            "scene": "node212",
+            "target": "node228",
+            "title": "Seni Patung Wayang",
+            "id": "Point02",
+            "pan": -249.22,
+            "tilt": -8.06
+        },
+        {
+            "scene": "node213",
+            "target": "node214",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -73.77,
+            "tilt": -6.32
+        },
+        {
+            "scene": "node213",
+            "target": "node210",
+            "title": "Teater",
+            "id": "Point02",
+            "pan": -192.49,
+            "tilt": 5.12
+        },
+        {
+            "scene": "node214",
+            "target": "node208",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -3.14,
+            "tilt": -5.77
+        },
+        {
+            "scene": "node214",
+            "target": "node213",
+            "title": "Teater",
+            "id": "Point02",
+            "pan": -90.46,
+            "tilt": 3.13
+        },
+        {
+            "scene": "node215",
+            "target": "node209",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -181.99,
+            "tilt": 6.14
+        },
+        {
+            "scene": "node215",
+            "target": "node216",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -5.95,
+            "tilt": -1.77
+        },
+        {
+            "scene": "node216",
+            "target": "node218",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -259.09,
+            "tilt": 0.78
+        },
+        {
+            "scene": "node216",
+            "target": "node220",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -179.78,
+            "tilt": 1.08
+        },
+        {
+            "scene": "node216",
+            "target": "node215",
+            "title": "Teater",
+            "id": "Point03",
+            "pan": 356.79,
+            "tilt": 4.68
+        },
+        {
+            "scene": "node217",
+            "target": "node207",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -253.98,
+            "tilt": -4.4
+        },
+        {
+            "scene": "node217",
+            "target": "node208",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -26.94,
+            "tilt": -5.92
+        },
+        {
+            "scene": "node218",
+            "target": "node219",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": 0.05,
+            "tilt": 0.47
+        },
+        {
+            "scene": "node218",
+            "target": "node216",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -152.36,
+            "tilt": -11.48
+        },
+        {
+            "scene": "node218",
+            "target": "node225",
+            "title": "Taman",
+            "id": "Point03",
+            "pan": -258.16,
+            "tilt": -11.25
+        },
+        {
+            "scene": "node219",
+            "target": "node211",
+            "title": "Monumen Peresmian",
+            "id": "Point01",
+            "pan": -104.57,
+            "tilt": -2.57
+        },
+        {
+            "scene": "node219",
+            "target": "node218",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -238.2,
+            "tilt": -8.56
+        },
+        {
+            "scene": "node220",
+            "target": "node216",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -298.44,
+            "tilt": -4.43
+        },
+        {
+            "scene": "node220",
+            "target": "node221",
+            "title": "Monumen Ibu & Anak",
+            "id": "Point02",
+            "pan": -179.2,
+            "tilt": -4.46
+        },
+        {
+            "scene": "node221",
+            "target": "node227",
+            "title": "Seni Patung",
+            "id": "Point01",
+            "pan": -69.26,
+            "tilt": -8.78
+        },
+        {
+            "scene": "node221",
+            "target": "node220",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -323.52,
+            "tilt": 0.5
+        },
+        {
+            "scene": "node221",
+            "target": "node222",
+            "title": "Mural",
+            "id": "Point03",
+            "pan": -277.33,
+            "tilt": -9.86
+        },
+        {
+            "scene": "node222",
+            "target": "node221",
+            "title": "Monumen Ibu & Anak",
+            "id": "Point01",
+            "pan": -66.47,
+            "tilt": -5.95
+        },
+        {
+            "scene": "node222",
+            "target": "node223",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -315.88,
+            "tilt": -2.96
+        },
+        {
+            "scene": "node222",
+            "target": "node211",
+            "title": "Monumen Peresmian",
+            "id": "Point03",
+            "pan": -277.75,
+            "tilt": -1.68
+        },
+        {
+            "scene": "node223",
+            "target": "node222",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -36.26,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node223",
+            "target": "node224",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -187.75,
+            "tilt": 0.04
+        },
+        {
+            "scene": "node224",
+            "target": "node223",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -168.35,
+            "tilt": -4.46
+        },
+        {
+            "scene": "node224",
+            "target": "node225",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -291.09,
+            "tilt": -4.98
+        },
+        {
+            "scene": "node225",
+            "target": "node224",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -41.16,
+            "tilt": 5.01
+        },
+        {
+            "scene": "node225",
+            "target": "node226",
+            "title": "Dinding Kreasi",
+            "id": "Point02",
+            "pan": -163.98,
+            "tilt": -0.05
+        },
+        {
+            "scene": "node225",
+            "target": "node218",
+            "title": "Taman",
+            "id": "Point03",
+            "pan": -217.27,
+            "tilt": -3.06
+        },
+        {
+            "scene": "node226",
+            "target": "node225",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -181.29,
+            "tilt": -2.21
+        },
+        {
+            "scene": "node227",
+            "target": "node228",
+            "title": "Seni Patung Wayang",
+            "id": "Point01",
+            "pan": -69.31,
+            "tilt": -3.54
+        },
+        {
+            "scene": "node227",
+            "target": "node221",
+            "title": "Monumen Ibu & Anak",
+            "id": "Point02",
+            "pan": -257.39,
+            "tilt": -3.34
+        },
+        {
+            "scene": "node228",
+            "target": "node212",
+            "title": "Denah Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -68.3,
+            "tilt": -3.56
+        },
+        {
+            "scene": "node228",
+            "target": "node227",
+            "title": "Seni Patung",
+            "id": "Point02",
+            "pan": -291.46,
+            "tilt": -8.01
+        }
+    ],
+    "panoExits": {
+        "node206": [
+            {
+                "target": "node216",
+                "title": "Taman Indonesia Kaya",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node220",
+                "title": "Air Mancur",
+                "suffix": "Point02"
+            }
+        ],
+        "node207": [
+            {
+                "target": "node217",
+                "title": "Taman",
+                "suffix": "Point02"
+            }
+        ],
+        "node208": [
+            {
+                "target": "node217",
+                "title": "Taman",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node214",
+                "title": "Keluar",
+                "suffix": "Point02"
+            }
+        ],
+        "node209": [
+            {
+                "target": "node212",
+                "title": "Denah Taman Indonesia Kaya",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node211",
+                "title": "Monumen Peresmian Taman",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node215",
+                "title": "Teater",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node209",
+                "title": "Keluar",
+                "suffix": "Point05"
+            }
+        ],
+        "node229": [
+            {
+                "target": "node209",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node210": [
+            {
+                "target": "node213",
+                "title": "Taman",
+                "suffix": "Point01"
+            }
+        ],
+        "node211": [
+            {
+                "target": "node209",
+                "title": "Taman Indonesia Kaya",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node219",
+                "title": "Taman",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node222",
+                "title": "Mural",
+                "suffix": "Point03"
+            }
+        ],
+        "node212": [
+            {
+                "target": "node209",
+                "title": "Taman Indonesia Kaya",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node228",
+                "title": "Seni Patung Wayang",
+                "suffix": "Point02"
+            }
+        ],
+        "node213": [
+            {
+                "target": "node214",
+                "title": "Taman",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node210",
+                "title": "Teater",
+                "suffix": "Point02"
+            }
+        ],
+        "node214": [
+            {
+                "target": "node208",
+                "title": "Taman",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node213",
+                "title": "Teater",
+                "suffix": "Point02"
+            }
+        ],
+        "node215": [
+            {
+                "target": "node209",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node216",
+                "title": "Air Mancur",
+                "suffix": "Point02"
+            }
+        ],
+        "node216": [
+            {
+                "target": "node218",
+                "title": "Taman",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node220",
+                "title": "Air Mancur",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node215",
+                "title": "Teater",
+                "suffix": "Point03"
+            }
+        ],
+        "node217": [
+            {
+                "target": "node207",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node208",
+                "title": "Taman",
+                "suffix": "Point02"
+            }
+        ],
+        "node218": [
+            {
+                "target": "node219",
+                "title": "Taman",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node216",
+                "title": "Keluar",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node225",
+                "title": "Taman",
+                "suffix": "Point03"
+            }
+        ],
+        "node219": [
+            {
+                "target": "node211",
+                "title": "Monumen Peresmian",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node218",
+                "title": "Taman",
+                "suffix": "Point02"
+            }
+        ],
+        "node220": [
+            {
+                "target": "node216",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node221",
+                "title": "Monumen Ibu & Anak",
+                "suffix": "Point02"
+            }
+        ],
+        "node221": [
+            {
+                "target": "node227",
+                "title": "Seni Patung",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node220",
+                "title": "Air Mancur",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node222",
+                "title": "Mural",
+                "suffix": "Point03"
+            }
+        ],
+        "node222": [
+            {
+                "target": "node221",
+                "title": "Monumen Ibu & Anak",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node223",
+                "title": "Taman",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node211",
+                "title": "Monumen Peresmian",
+                "suffix": "Point03"
+            }
+        ],
+        "node223": [
+            {
+                "target": "node222",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node224",
+                "title": "Taman",
+                "suffix": "Point02"
+            }
+        ],
+        "node224": [
+            {
+                "target": "node223",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node225",
+                "title": "Taman",
+                "suffix": "Point02"
+            }
+        ],
+        "node225": [
+            {
+                "target": "node224",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node226",
+                "title": "Dinding Kreasi",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node218",
+                "title": "Taman",
+                "suffix": "Point03"
+            }
+        ],
+        "node226": [
+            {
+                "target": "node225",
+                "title": "Taman",
+                "suffix": "Point01"
+            }
+        ],
+        "node227": [
+            {
+                "target": "node228",
+                "title": "Seni Patung Wayang",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node221",
+                "title": "Monumen Ibu & Anak",
+                "suffix": "Point02"
+            }
+        ],
+        "node228": [
+            {
+                "target": "node212",
+                "title": "Denah Taman Indonesia Kaya",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node227",
+                "title": "Seni Patung",
+                "suffix": "Point02"
+            }
+        ]
+    },
+    "thumbPrefix": "ht_node_thumb_10_",
+    "routes": [],
+    "objectInfo": [
+        {
+            "infoId": 938,
+            "label": "Panggung Budaya",
+            "description": "Area ini merupakan panggung seni pertunjukan terbuka (outdoor) pertama di Jawa Tengah dengan konsep taman cerdas yang memadukan hiburan, edukasi, dan pelestarian budaya. Struktur panggungnya mengusung desain modern dengan atap melengkung yang ikonik, didukung rangka baja yang megah, serta dilengkapi area duduk berundak menyerupai tribun mini yang mengelilingi panggung utama.",
+            "fragment": "panggungbudaya",
+            "link": "indonesiakaya/index.html#panggungbudaya",
+            "sceneId": "node216"
+        },
+        {
+            "infoId": 939,
+            "label": "Patung Ibu Menjaga Anaknya",
+            "description": "Area yang Anda unggah menampilkan salah satu ikon utama di Taman Indonesia Kaya Semarang, yaitu Patung Ibu Menjaga Anaknya. Area ini berfungsi sebagai titik fokus visual (landmark) yang melambangkan kasih sayang, pendidikan, dan masa depan generasi muda Indonesia, serta dikelilingi pelataran melingkar yang kerap digunakan pengunjung untuk berkumpul, beristirahat, atau berfoto.",
+            "fragment": "patungibu",
+            "link": "indonesiakaya/index.html#patungibu",
+            "sceneId": "node221"
+        },
+        {
+            "infoId": 940,
+            "label": "Air Mancur",
+            "description": "Dancing Fountain atau air mancur menari menjadi salah satu daya tarik utama taman ini. Area ini dirancang sebagai ruang ekspresi bagi seniman lokal maupun nasional, menampilkan perpaduan gerak air, cahaya, dan musik yang sering mengiringi pertunjukan tari tradisional hingga musik modern.",
+            "fragment": "airmancur",
+            "link": "indonesiakaya/index.html#airmancur",
+            "sceneId": "node220"
+        },
+        {
+            "infoId": 941,
+            "label": "Patung Penari",
+            "description": "Patung ikonik berwarna hitam dengan tekstur berlubang ini menggambarkan dua sosok manusia yang sedang menari atau bergerak dinamis, melambangkan kekayaan ekspresi budaya Indonesia. Patung ini berdiri di atas alas bertuliskan situs resmi indonesiakaya.com, menegaskan peran taman sebagai pusat literasi budaya.",
+            "fragment": "patungpenari",
+            "link": "indonesiakaya/index.html#patungpenari",
+            "sceneId": "node227"
+        },
+        {
+            "infoId": 942,
+            "label": "Patung Wayang",
+            "description": "Patung wayang orang ini terbuat dari instalasi logam modern dengan gaya artistik yang unik. Patung-patung tersebut merepresentasikan karakter pewayangan dalam pose menari, menjadi simbol pelestarian budaya tradisional di tengah ruang kota yang kontemporer.",
+            "fragment": "patungwayang",
+            "link": "indonesiakaya/index.html#patungwayang",
+            "sceneId": "node228"
+        }
+    ],
+    "video360": [],
+    "_sceneRegistry": {
+        "node206": {
+            "rawName": "node206",
+            "displayName": "Tampak Belakang Theater Taman Indonesia Kaya",
+            "placeId": "tampak-belakang-theater-taman-indonesia-kaya",
+            "placeName": "Tampak Belakang Theater Taman Indonesia Kaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jelajahi keindahan arsitektur dari sudut belakang Theater Taman Indonesia Kaya yang megah.",
+            "description": "Pemandangan dari belakang Theater Taman Indonesia Kaya ini memperlihatkan struktur bangunan yang fungsional dan terintegrasi dengan ruang terbuka hijau. Area ini memberikan perspektif berbeda tentang kemegahan fasilitas seni publik di kota Semarang.",
+            "highlights": [
+                "Panggung",
+                "Anak tangga"
+            ],
+            "talkingPoints": [
+                "node206",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang terlihat dari bagian belakang theater ini?",
+                    "mode": "ai",
+                    "answer": "Anda dapat melihat struktur penyangga panggung serta area hijau yang mengelilingi bangunan utama theater."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan melintas di area belakang panggung?",
+                    "mode": "ai",
+                    "answer": "Ya, jalur di sekitar panggung dirancang sebagai area publik pejalan kaki yang menyatu dengan taman."
+                },
+                {
+                    "q": "Bagaimana arsitektur belakang theater ini mendukung pertunjukan?",
+                    "mode": "ai",
+                    "answer": "Desainnya memfasilitasi akses logistik dan teknis tanpa mengganggu estetika keseluruhan taman."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tampak Belakang Theater Taman Indonesia Kaya.",
+                "describeHere": "Area NODE206 (ID: node206) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node207": {
+            "rawName": "node207",
+            "displayName": "Theater Taman Indonesia Kaya view Malam Hari",
+            "placeId": "theater-taman-indonesia-kaya-view-malam-hari",
+            "placeName": "Theater Taman Indonesia Kaya view Malam Hari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pesona panggung Theater Taman Indonesia Kaya yang bermandikan cahaya lampu saat malam hari.",
+            "description": "Pada malam hari, panggung Theater Taman Indonesia Kaya bertransformasi menjadi pusat perhatian berkat tata cahaya lampu yang indah dan atraktif. Kehangatan suasana malam di sini sering kali menjadi latar yang sempurna untuk menikmati udara segar Semarang.",
+            "highlights": [
+                "Air mancur",
+                "Lampu"
+            ],
+            "talkingPoints": [
+                "node207",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa panggung theater ini sangat terang di malam hari?",
+                    "mode": "ai",
+                    "answer": "Taman ini dilengkapi dengan tata lampu khusus untuk menonjolkan arsitektur panggung dan memberikan keamanan bagi pengunjung malam."
+                },
+                {
+                    "q": "Apakah ada pertunjukan rutin setiap malam?",
+                    "mode": "ai",
+                    "answer": "Meskipun tidak setiap malam, taman ini sering menjadi lokasi berbagai pertunjukan seni budaya pada akhir pekan."
+                },
+                {
+                    "q": "Apa yang membuat suasana malam di sini istimewa?",
+                    "mode": "ai",
+                    "answer": "Kombinasi antara udara sejuk, pencahayaan artistik, dan elemen air mancur menjadikannya sangat menawan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Theater Taman Indonesia Kaya view Malam Hari.",
+                "describeHere": "Area NODE207 (ID: node207) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node208": {
+            "rawName": "Taman",
+            "displayName": "Jalur Asri Taman Hijau view Malam Hari",
+            "placeId": "jalur-asri-taman-hijau-view-malam-hari",
+            "placeName": "Jalur Asri Taman Hijau view Malam Hari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Berjalan menyusuri jalur setapak taman hijau yang syahdu dan romantis di bawah temaram lampu malam.",
+            "description": "Jalur asri di dalam taman ini menawarkan pengalaman berjalan kaki yang tenang dengan pepohonan rindang yang disinari lampu-lampu taman estetik. Suasana malam yang damai menjadikannya tempat favorit warga untuk melepas penat setelah beraktivitas seharian.",
+            "highlights": [
+                "Tanaman",
+                "Lampu"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah aman berjalan di jalur asri ini saat malam hari?",
+                    "mode": "ai",
+                    "answer": "Sangat aman, karena taman ini dilengkapi dengan fasilitas penerangan yang memadai di sepanjang jalurnya."
+                },
+                {
+                    "q": "Fasilitas apa yang bisa ditemukan di sepanjang jalur ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat kursi-kursi taman yang nyaman dan lampu hias yang mempercantik pemandangan malam."
+                },
+                {
+                    "q": "Tanaman jenis apa yang mendominasi jalur ini?",
+                    "mode": "ai",
+                    "answer": "Area ini didominasi oleh tanaman peneduh dan semak hias yang tetap terlihat indah berkat pencahayaan taman."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jalur Asri Taman Hijau view Malam Hari.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node209": {
+            "rawName": "Taman Indonesia Kaya",
+            "displayName": "Amphitheater Taman Indonesia Kaya",
+            "placeId": "amphitheater-taman-indonesia-kaya",
+            "placeName": "Amphitheater Taman Indonesia Kaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat pertunjukan terbuka dengan konsep tribun melingkar yang dapat menampung ratusan penonton.",
+            "description": "Area amphitheater ini dirancang dengan tempat duduk berundak (tribun) untuk memastikan setiap penonton mendapatkan pandangan yang jelas ke arah panggung utama. Ruang terbuka ini merupakan jantung dari segala aktivitas seni dan budaya yang digelar di Taman Indonesia Kaya.",
+            "highlights": [
+                "Tribun rendah",
+                "Panggung"
+            ],
+            "talkingPoints": [
+                "Taman Indonesia Kaya",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa banyak penonton yang dapat ditampung di amphitheater ini?",
+                    "mode": "ai",
+                    "answer": "Tribun berundak di amphitheater ini mampu menampung ratusan pengunjung saat ada pertunjukan besar."
+                },
+                {
+                    "q": "Apakah pengunjung bisa duduk santai di sini meski tidak ada acara?",
+                    "mode": "ai",
+                    "answer": "Tentu, area tribun bebas digunakan oleh masyarakat umum untuk duduk santai menikmati suasana taman kapan saja."
+                },
+                {
+                    "q": "Apa keunggulan dari bentuk tribun melingkar ini?",
+                    "mode": "ai",
+                    "answer": "Bentuk ini memaksimalkan akustik suara dari panggung dan memberikan jarak pandang yang baik bagi semua penonton."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Amphitheater Taman Indonesia Kaya.",
+                "describeHere": "Taman Indonesia Kaya adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node229": {
+            "rawName": "Video360 1",
+            "displayName": "Aktifitas Panggung Theater Taman Indonesia Kaya",
+            "placeId": "aktifitas-panggung-theater-taman-indonesia-kaya",
+            "placeName": "Aktifitas Panggung Theater Taman Indonesia Kaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Rasakan nuansa enerjik dari pusat aktivitas dan kreativitas seni di atas panggung utama.",
+            "description": "Panggung theater ini tidak hanya menjadi monumen pasif, melainkan ruang hidup yang mewadahi berbagai aktivitas kreatif seniman lokal maupun nasional. Dari latihan tari hingga pementasan teater, area ini terus berdenyut dengan semangat pelestarian budaya.",
+            "highlights": [
+                "Kanopi panggung",
+                "Plaza",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kegiatan apa saja yang biasa dilakukan di atas panggung ini?",
+                    "mode": "ai",
+                    "answer": "Panggung ini sering digunakan untuk latihan menari, pertunjukan teater, konser musik, hingga acara komunitas."
+                },
+                {
+                    "q": "Siapa saja yang boleh menggunakan fasilitas panggung ini?",
+                    "mode": "ai",
+                    "answer": "Fasilitas ini dapat digunakan oleh berbagai kelompok seni dan masyarakat umum dengan izin dari pengelola taman."
+                },
+                {
+                    "q": "Bagaimana panggung ini mendukung pelestarian budaya?",
+                    "mode": "ai",
+                    "answer": "Dengan menyediakan ruang gratis dan representatif bagi seniman tradisional maupun modern untuk tampil dan berlatih."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Aktifitas Panggung Theater Taman Indonesia Kaya.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node210": {
+            "rawName": "Teater",
+            "displayName": "Tampak Belakang Theater Taman Indonesia Kaya view Malam Hari",
+            "placeId": "tampak-belakang-theater-taman-indonesia-kaya-view-malam-hari",
+            "placeName": "Tampak Belakang Theater Taman Indonesia Kaya view Malam Hari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Eksplorasi siluet arsitektur belakang panggung yang berpadu dengan pencahayaan malam yang dramatis.",
+            "description": "Sudut belakang theater saat malam hari menampilkan siluet bangunan yang elegan dengan sorotan lampu taman yang memikat. Kesunyian di area belakang ini sering kali memberikan nuansa yang lebih intim dan reflektif bagi para pengunjung.",
+            "highlights": [
+                "Panggung bercahaya",
+                "Paving"
+            ],
+            "talkingPoints": [
+                "Teater",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa area belakang theater ini tetap menarik di malam hari?",
+                    "mode": "ai",
+                    "answer": "Karena terdapat penataan lampu sorot yang menciptakan efek bayangan dan siluet arsitektur bangunan yang artistik."
+                },
+                {
+                    "q": "Apakah jalur ini terhubung langsung ke pintu keluar taman?",
+                    "mode": "ai",
+                    "answer": "Ya, jalur di belakang panggung ini terhubung dengan jalan pedestrian yang mengarah ke pintu keluar utama."
+                },
+                {
+                    "q": "Apakah area ini cenderung lebih sepi dibandingkan bagian depan?",
+                    "mode": "ai",
+                    "answer": "Benar, area belakang biasanya lebih tenang sehingga cocok bagi pengunjung yang ingin mencari suasana damai."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tampak Belakang Theater Taman Indonesia Kaya view Malam Hari.",
+                "describeHere": "Teater adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node211": {
+            "rawName": "Prasasti",
+            "displayName": "Prasasti Taman Indonesia Kaya",
+            "placeId": "prasasti-taman-indonesia-kaya",
+            "placeName": "Prasasti Taman Indonesia Kaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Monumen penanda peresmian Taman Indonesia Kaya yang bersejarah dan penuh makna.",
+            "description": "Prasasti ini menjadi penanda penting peresmian taman sebagai fasilitas publik yang didedikasikan untuk seni dan budaya. Ukiran pada prasasti ini mengingatkan pengunjung akan komitmen bersama dalam merawat warisan budaya bangsa di ruang publik.",
+            "highlights": [
+                "Papan prasasti",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Prasasti",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa informasi yang tertera pada prasasti ini?",
+                    "mode": "ai",
+                    "answer": "Prasasti ini berisi tanda tangan tokoh peresmian serta tanggal dibukanya Taman Indonesia Kaya untuk publik."
+                },
+                {
+                    "q": "Dimana letak pasti prasasti ini berada di taman?",
+                    "mode": "ai",
+                    "answer": "Prasasti terletak di area depan taman yang mudah terlihat oleh pengunjung saat pertama kali memasuki kawasan."
+                },
+                {
+                    "q": "Apa makna keberadaan prasasti ini bagi masyarakat?",
+                    "mode": "ai",
+                    "answer": "Ini adalah simbol persembahan dan dedikasi untuk pelestarian budaya di kota Semarang melalui ruang terbuka publik."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Prasasti Taman Indonesia Kaya.",
+                "describeHere": "Prasasti adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node212": {
+            "rawName": "Penari",
+            "displayName": "Ornamen Penari dan Denah Taman Indonesia  Kaya",
+            "placeId": "ornamen-penari-dan-denah-taman-indonesia-kaya",
+            "placeName": "Ornamen Penari dan Denah Taman Indonesia  Kaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Petunjuk arah interaktif yang dipadukan dengan keindahan ornamen penari tradisional.",
+            "description": "Fasilitas denah taman ini tidak hanya informatif tetapi juga dirancang dengan estetika tinggi melalui penambahan ornamen siluet penari. Papan informasi ini sangat membantu wisatawan untuk menavigasi berbagai area menarik di dalam taman dengan mudah.",
+            "highlights": [
+                "Figur penari",
+                "Petunjuk"
+            ],
+            "talkingPoints": [
+                "Penari",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari papan ornamen dan denah ini?",
+                    "mode": "ai",
+                    "answer": "Fungsi utamanya adalah memberikan panduan letak fasilitas taman sekaligus memperkuat identitas budaya melalui hiasan penarinya."
+                },
+                {
+                    "q": "Apakah informasi denah mudah dipahami oleh wisatawan baru?",
+                    "mode": "ai",
+                    "answer": "Ya, denah dibuat dengan ikon dan petunjuk visual yang jelas untuk memudahkan siapa pun bernavigasi."
+                },
+                {
+                    "q": "Tarian apa yang direpresentasikan oleh ornamen tersebut?",
+                    "mode": "ai",
+                    "answer": "Ornamen tersebut secara umum merepresentasikan keanggunan tari tradisional khas budaya Jawa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ornamen Penari dan Denah Taman Indonesia  Kaya.",
+                "describeHere": "Penari adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node213": {
+            "rawName": "Taman",
+            "displayName": "Patung Penari View Malam Hari",
+            "placeId": "patung-penari-view-malam-hari",
+            "placeName": "Patung Penari View Malam Hari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Keanggunan patung penari yang seolah hidup di bawah sorotan lampu malam temaram.",
+            "description": "Sorotan pencahayaan malam menonjolkan lekuk dinamis dari monumen patung penari, membuatnya tampak seolah sedang menari di tengah taman. Patung ini menjadi salah satu spot foto malam hari favorit yang memancarkan aura seni yang kuat.",
+            "highlights": [
+                "Patung",
+                "Penerangan"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana pencahayaan memengaruhi tampilan patung penari di malam hari?",
+                    "mode": "ai",
+                    "answer": "Cahaya lampu sorot menciptakan kontras bayangan yang mempertegas gerakan dinamis dari patung tersebut."
+                },
+                {
+                    "q": "Apakah pengunjung diizinkan berfoto tepat di bawah patung?",
+                    "mode": "ai",
+                    "answer": "Sangat diizinkan, area di sekitar patung memang dirancang sebagai plaza terbuka untuk berinteraksi dan berfoto."
+                },
+                {
+                    "q": "Apakah patung ini terbuat dari bahan khusus agar tahan cuaca?",
+                    "mode": "ai",
+                    "answer": "Ya, material patung dipilih dari logam dan bahan tahan karat agar awet meskipun terpapar cuaca luar ruang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Patung Penari View Malam Hari.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node214": {
+            "rawName": "Taman",
+            "displayName": "Area Pejalan Kaki Taman Indonesia Kaya",
+            "placeId": "area-pejalan-kaki-taman-indonesia-kaya",
+            "placeName": "Area Pejalan Kaki Taman Indonesia Kaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur pedestrian luas yang nyaman dan ramah bagi para penikmat jalan kaki di dalam taman.",
+            "description": "Area pejalan kaki ini didesain lebar dan bebas hambatan, memastikan kenyamanan bagi semua kalangan termasuk penyandang disabilitas. Pepohonan yang ditanam di tepian jalur memberikan keteduhan alami, menjadikan jalan santai di siang hari tetap menyenangkan.",
+            "highlights": [
+                "Papan",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah jalur pejalan kaki ini ramah bagi pengguna kursi roda?",
+                    "mode": "ai",
+                    "answer": "Ya, kontur jalannya dirancang datar dan landai sehingga sangat aksesibel bagi pengguna kursi roda maupun kereta bayi."
+                },
+                {
+                    "q": "Bahan apa yang digunakan untuk lantai area pedestrian ini?",
+                    "mode": "ai",
+                    "answer": "Lantainya menggunakan paving block dan batu alam yang tidak licin dan menyerap air hujan dengan baik."
+                },
+                {
+                    "q": "Apa aktivitas yang sering terlihat di jalur pejalan kaki ini?",
+                    "mode": "ai",
+                    "answer": "Banyak warga yang memanfaatkannya untuk jogging ringan, jalan sehat keluarga, atau sekadar berjalan-jalan sore."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Pejalan Kaki Taman Indonesia Kaya.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node215": {
+            "rawName": "Teater",
+            "displayName": "Panggung Theater",
+            "placeId": "panggung-theater",
+            "placeName": "Panggung Theater",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat gravitasi seni pertunjukan dengan panggung teater bergaya modern dan megah.",
+            "description": "Panggung teater utama ini memiliki atap kanopi ikonik yang melindungi area pementasan dari terik matahari dan hujan rintik. Struktur arsitekturnya yang terbuka memungkinkan sirkulasi udara yang baik sekaligus menyatukan pertunjukan dengan suasana alam di sekitarnya.",
+            "highlights": [
+                "Lantai panggung",
+                "Kanopi"
+            ],
+            "talkingPoints": [
+                "Teater",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa atap panggung ini dibuat dengan bentuk melengkung?",
+                    "mode": "ai",
+                    "answer": "Desain melengkung tidak hanya estetis, tetapi juga berfungsi ganda untuk mengatur pantulan suara ke arah penonton."
+                },
+                {
+                    "q": "Apakah panggung ini terbuat dari material kayu?",
+                    "mode": "ai",
+                    "answer": "Lantai panggung utama menggunakan material khusus yang menyerupai kayu namun lebih tahan terhadap cuaca terbuka."
+                },
+                {
+                    "q": "Seberapa besar ukuran panggung ini untuk menampung seniman?",
+                    "mode": "ai",
+                    "answer": "Panggung ini cukup luas untuk menampung puluhan penari atau orkestra musik skala menengah sekaligus."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Panggung Theater.",
+                "describeHere": "Teater adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node216": {
+            "rawName": "Panggungbudaya",
+            "displayName": "Fasad Belakang Panggung Theater",
+            "placeId": "fasad-belakang-panggung-theater",
+            "placeName": "Fasad Belakang Panggung Theater",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Keindahan struktural dan fungsionalitas di balik fasad belakang panggung theater.",
+            "description": "Sisi belakang fasad panggung menampilkan elemen arsitektur industrial yang rapi dan menyatu dengan lingkungan taman. Area ini membuktikan bahwa setiap sudut bangunan dirancang secara detail untuk mendukung baik fungsi teknis maupun nilai keindahannya.",
+            "highlights": [
+                "Struktur panggung",
+                "Tangga"
+            ],
+            "talkingPoints": [
+                "Panggungbudaya",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa tujuan estetika dari desain fasad belakang ini?",
+                    "mode": "ai",
+                    "answer": "Tujuannya adalah agar bangunan terlihat harmonis dan menarik dari segala penjuru, tidak hanya dari bagian depan."
+                },
+                {
+                    "q": "Apakah ada pintu khusus bagi para seniman di fasad belakang ini?",
+                    "mode": "ai",
+                    "answer": "Ya, terdapat akses masuk teknis di bagian belakang yang digunakan oleh pengisi acara sebelum tampil di panggung."
+                },
+                {
+                    "q": "Material apa yang menonjol pada fasad belakang bangunan?",
+                    "mode": "ai",
+                    "answer": "Material logam, baja ringan, dan dinding bertekstur menjadi elemen utama yang memperkuat kesan kokoh dan modern."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:938"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fasad Belakang Panggung Theater.",
+                "describeHere": "Panggungbudaya adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node217": {
+            "rawName": "Taman",
+            "displayName": "Area Pedestrian Taman view Malam Hari",
+            "placeId": "area-pedestrian-taman-view-malam-hari",
+            "placeName": "Area Pedestrian Taman view Malam Hari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Menyelami ketenangan malam dengan berjalan menyusuri area pedestrian taman yang benderang.",
+            "description": "Saat malam tiba, area pedestrian ini berubah menjadi jalur jalan santai yang eksotis dengan pencahayaan hangat. Ini adalah waktu terbaik bagi pengunjung untuk menikmati ketenangan kota Semarang sambil mengagumi lansekap taman yang tertata apik.",
+            "highlights": [
+                "Lampu",
+                "Vegetasi"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah lampu di area pedestrian menyala sepanjang malam?",
+                    "mode": "ai",
+                    "answer": "Ya, sistem pencahayaan diaktifkan sepanjang malam untuk menjaga keamanan dan keindahan visual taman."
+                },
+                {
+                    "q": "Suasana apa yang paling terasa saat berjalan di sini pada malam hari?",
+                    "mode": "ai",
+                    "answer": "Suasana yang terasa sangat tenang, romantis, dan santai, jauh dari hiruk-pikuk kebisingan jalan raya utama."
+                },
+                {
+                    "q": "Apakah banyak warga yang berolahraga malam di area ini?",
+                    "mode": "ai",
+                    "answer": "Beberapa warga memanfaatkan waktu malam untuk berjalan kaki atau jogging ringan karena udaranya yang lebih sejuk."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Pedestrian Taman view Malam Hari.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node218": {
+            "rawName": "Taman",
+            "displayName": "Jalur Asri Taman Hijau",
+            "placeId": "jalur-asri-taman-hijau",
+            "placeName": "Jalur Asri Taman Hijau",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Nikmati kesegaran dan kesejukan alam di sepanjang jalur asri taman hijau ini.",
+            "description": "Dikelilingi oleh berbagai jenis tanaman tropis, jalur ini menjadi oase hijau di tengah padatnya perkotaan. Udara yang segar dan suara gemerisik daun yang tertiup angin membuat setiap langkah pengunjung terasa lebih rileks dan menyegarkan.",
+            "highlights": [
+                "Panel gambar",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Tanaman apa saja yang menjadi daya tarik utama di jalur hijau ini?",
+                    "mode": "ai",
+                    "answer": "Jalur ini dihiasi oleh tanaman hias berdaun lebar, bunga tropis, serta pepohonan besar peneduh yang rimbun."
+                },
+                {
+                    "q": "Kapan waktu terbaik menyusuri jalur asri ini?",
+                    "mode": "ai",
+                    "answer": "Waktu terbaik adalah di pagi hari ketika udara masih segar, atau sore hari untuk menghindari terik matahari."
+                },
+                {
+                    "q": "Apakah jalur hijau ini bisa menjadi tempat piknik?",
+                    "mode": "ai",
+                    "answer": "Pengunjung bisa bersantai di kursi-kursi jalur ini, namun untuk piknik lesehan biasanya diarahkan ke area rumput terbuka yang diizinkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jalur Asri Taman Hijau.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node219": {
+            "rawName": "Taman",
+            "displayName": "Area Taman Sisi Panggung Theater",
+            "placeId": "area-taman-sisi-panggung-theater",
+            "placeName": "Area Taman Sisi Panggung Theater",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang hijau strategis di sisi panggung yang memberikan sudut pandang alternatif saat menonton.",
+            "description": "Area taman di sisi panggung menawarkan ruang bagi pengunjung yang ingin menikmati pertunjukan sambil duduk bersantai di bawah pohon. Tempat ini memberikan keseimbangan visual antara struktur megah panggung dan kelembutan alam berupa vegetasi hijau.",
+            "highlights": [
+                "Pepohonan",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah pengunjung bisa menonton acara dari sisi panggung ini?",
+                    "mode": "ai",
+                    "answer": "Sangat bisa, area ini menawarkan perspektif samping yang unik dan lebih santai dibanding duduk di tribun utama."
+                },
+                {
+                    "q": "Fasilitas apa yang tersedia di taman sisi panggung ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat lampu penerangan taman, tanaman hias, dan beberapa kursi taman untuk tempat istirahat pengunjung."
+                },
+                {
+                    "q": "Apakah suara dari panggung terdengar jelas dari sini?",
+                    "mode": "ai",
+                    "answer": "Ya, akustik panggung dan penempatan speaker luar ruang memastikan suara tetap jelas terdengar di sisi panggung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Taman Sisi Panggung Theater.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node220": {
+            "rawName": "Airmancur",
+            "displayName": "Kolam Air Mancur",
+            "placeId": "kolam-air-mancur",
+            "placeName": "Kolam Air Mancur",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pertunjukan air mancur menari yang memukau dan menyegarkan mata pengunjung taman.",
+            "description": "Kolam air mancur ini merupakan salah satu atraksi paling populer, terutama saat atraksi air yang bergerak selaras dengan musik atau cahaya (dancing fountain) diaktifkan. Percikan airnya memberikan efek sejuk di sekitar taman pada siang hari yang panas.",
+            "highlights": [
+                "Kolam bundar",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Airmancur",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan atraksi air mancur menari biasanya dinyalakan?",
+                    "mode": "ai",
+                    "answer": "Biasanya atraksi air mancur menari dengan iringan musik dan lampu diaktifkan pada jadwal tertentu, seringkali di akhir pekan atau malam hari."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan bermain air di dalam kolam?",
+                    "mode": "ai",
+                    "answer": "Tidak, kolam air mancur dirancang sebagai elemen estetika untuk dinikmati dari luar, bukan untuk tempat bermain air atau berenang."
+                },
+                {
+                    "q": "Bagaimana air mancur ini membantu menyejukkan taman?",
+                    "mode": "ai",
+                    "answer": "Percikan dan uap air dari kolam membantu menurunkan suhu udara di sekitarnya, sehingga area ini terasa lebih segar."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:940"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolam Air Mancur.",
+                "describeHere": "Airmancur adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node221": {
+            "rawName": "Patungibu",
+            "displayName": "Monumen Ibu dan Anak",
+            "placeId": "monumen-ibu-dan-anak",
+            "placeName": "Monumen Ibu dan Anak",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Karya patung bermakna mendalam yang menyimbolkan kasih sayang ibu dan generasi penerus.",
+            "description": "Monumen ini berdiri kokoh sebagai simbol kasih sayang yang tak terhingga dan peran penting keluarga dalam pendidikan budaya anak. Patung ini sering menjadi pusat perhatian keluarga yang berkunjung karena nilai emosional dan artistiknya yang kuat.",
+            "highlights": [
+                "Patung",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "Patungibu",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa pesan utama yang ingin disampaikan dari Monumen Ibu dan Anak ini?",
+                    "mode": "ai",
+                    "answer": "Monumen ini melambangkan cinta, perlindungan, dan proses pewarisan nilai-nilai luhur dari orang tua kepada generasi penerusnya."
+                },
+                {
+                    "q": "Material apa yang digunakan untuk membuat patung ini?",
+                    "mode": "ai",
+                    "answer": "Patung ini terbuat dari perunggu dan logam berkualitas tinggi dengan sentuhan akhir bertekstur yang memberikan kesan klasik."
+                },
+                {
+                    "q": "Dimana tepatnya lokasi monumen ini di dalam taman?",
+                    "mode": "ai",
+                    "answer": "Monumen ini terletak di salah satu plaza terbuka yang dikelilingi taman hijau, mudah diakses dari jalur utama pejalan kaki."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:939"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Monumen Ibu dan Anak.",
+                "describeHere": "Patungibu adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node222": {
+            "rawName": "Gerbangmural",
+            "displayName": "Gerbang Mural",
+            "placeId": "gerbang-mural",
+            "placeName": "Gerbang Mural",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Karya seni mural kontemporer yang menghiasi area gerbang masuk sebagai penyambut visual.",
+            "description": "Gerbang masuk ini dihiasi oleh mural karya seniman lokal yang penuh dengan warna dan motif kekayaan budaya Nusantara. Karya seni jalanan ini memberikan kesan dinamis dan kreatif, langsung menyambut setiap pengunjung yang melangkahkan kaki ke dalam taman.",
+            "highlights": [
+                "Lengkung bergambar",
+                "Jalur"
+            ],
+            "talkingPoints": [
+                "Gerbangmural",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa tema dari lukisan mural di gerbang ini?",
+                    "mode": "ai",
+                    "answer": "Tema mural menonjolkan kekayaan budaya lokal, mulai dari motif batik, alat musik tradisional, hingga ikon-ikon kesenian Jawa."
+                },
+                {
+                    "q": "Siapa yang melukis mural yang ada di gerbang taman ini?",
+                    "mode": "ai",
+                    "answer": "Mural ini digambar oleh komunitas seniman mural lokal Semarang sebagai bentuk partisipasi ruang publik kreatif."
+                },
+                {
+                    "q": "Apakah mural ini rutin diperbarui atau diganti?",
+                    "mode": "ai",
+                    "answer": "Umumnya mural ini dipertahankan sebagai karya permanen, namun sesekali dapat diperbarui untuk menjaga kecerahan warna atau tema khusus."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gerbang Mural.",
+                "describeHere": "Gerbangmural adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node223": {
+            "rawName": "Taman",
+            "displayName": "Akses Masuk Jalan Kaki Area Taman",
+            "placeId": "akses-masuk-jalan-kaki-area-taman",
+            "placeName": "Akses Masuk Jalan Kaki Area Taman",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik awal petualangan Anda melintasi kenyamanan fasilitas Taman Indonesia Kaya.",
+            "description": "Akses masuk bagi pejalan kaki dirancang sangat lebar, aman, dan menyambut ramah setiap pengunjung yang datang. Di area ini, Anda dapat langsung merasakan transisi dari sibuknya jalanan kota menuju oase ruang budaya yang asri dan tertata.",
+            "highlights": [
+                "Kanopi pohon",
+                "Tanah hijau"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah ada biaya tiket saat melewati akses masuk ini?",
+                    "mode": "ai",
+                    "answer": "Tidak ada, Taman Indonesia Kaya adalah fasilitas publik yang dapat diakses oleh siapa saja secara gratis."
+                },
+                {
+                    "q": "Apakah akses masuk ini dijaga oleh petugas keamanan?",
+                    "mode": "ai",
+                    "answer": "Ya, terdapat pos keamanan di sekitar akses masuk utama untuk memastikan keamanan dan ketertiban area taman."
+                },
+                {
+                    "q": "Adakah fasilitas parkir di dekat akses jalan kaki ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat kantong parkir khusus di luar area taman, sementara bagian dalam taman difokuskan murni untuk pejalan kaki."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Akses Masuk Jalan Kaki Area Taman.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node224": {
+            "rawName": "Taman",
+            "displayName": "Fasilitas Penunjuka Arah Area Taman",
+            "placeId": "fasilitas-penunjuka-arah-area-taman",
+            "placeName": "Fasilitas Penunjuka Arah Area Taman",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Informasi penunjuk arah estetik yang siap memandu pengunjung ke setiap sudut taman.",
+            "description": "Papan penunjuk arah di Taman Indonesia Kaya tidak hanya fungsional tetapi juga didesain selaras dengan nuansa budaya taman itu sendiri. Dengan informasi yang jelas dan terstruktur, fasilitas ini memastikan setiap wisatawan tidak akan tersesat saat mengeksplorasi.",
+            "highlights": [
+                "Papan arah",
+                "Jalur"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Informasi apa saja yang biasanya tercantum di papan penunjuk arah ini?",
+                    "mode": "ai",
+                    "answer": "Papan ini menunjukkan lokasi amphitheater, toilet, kolam air mancur, pintu keluar, dan spot-spot ikonik lainnya."
+                },
+                {
+                    "q": "Apakah penunjuk arah ini mudah dibaca pada malam hari?",
+                    "mode": "ai",
+                    "answer": "Ya, beberapa penunjuk arah diletakkan di dekat lampu taman dan didesain dengan warna yang kontras agar mudah dibaca saat malam."
+                },
+                {
+                    "q": "Bagaimana desain penunjuk arah ini mendukung tema taman?",
+                    "mode": "ai",
+                    "answer": "Desainnya menggunakan unsur-unsur tradisional seperti motif ornamen atau warna material alam yang menyatu dengan estetika taman."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fasilitas Penunjuka Arah Area Taman.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node225": {
+            "rawName": "Taman",
+            "displayName": "Area Tengah Taman Hijau",
+            "placeId": "area-tengah-taman-hijau",
+            "placeName": "Area Tengah Taman Hijau",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jantung taman yang dipenuhi hamparan rumput hijau, cocok untuk bersantai dan berkumpul.",
+            "description": "Area tengah taman ini merupakan ruang komunal yang paling luas, tempat di mana sinar matahari menyinari hamparan rumput hijau secara maksimal. Titik ini menjadi lokasi yang sangat digemari oleh anak-anak berlarian maupun kelompok pengunjung yang sedang piknik ringan.",
+            "highlights": [
+                "Bangku",
+                "Pagar tanaman"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bolehkah pengunjung menggelar tikar di area rumput tengah ini?",
+                    "mode": "ai",
+                    "answer": "Biasanya ada aturan khusus; beberapa area rumput bebas digunakan untuk duduk, sementara area rumput lainnya dilindungi agar tidak rusak."
+                },
+                {
+                    "q": "Kegiatan apa yang paling sering dilakukan di area tengah ini?",
+                    "mode": "ai",
+                    "answer": "Banyak pengunjung yang duduk bersantai, berfoto bersama, atau berkumpul dengan komunitas mereka menikmati suasana terbuka."
+                },
+                {
+                    "q": "Apakah banyak pepohonan peneduh di area tengah?",
+                    "mode": "ai",
+                    "answer": "Di area tengah didominasi oleh ruang terbuka, sedangkan pepohonan peneduh ditanam di pinggiran mengelilingi lapangan rumput."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Tengah Taman Hijau.",
+                "describeHere": "Taman adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node226": {
+            "rawName": "Dindingkreasi",
+            "displayName": "Galeri Karya Terbuka",
+            "placeId": "galeri-karya-terbuka",
+            "placeName": "Galeri Karya Terbuka",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran seni tanpa batas yang menyatu harmonis dengan elemen luar ruang Taman Indonesia Kaya.",
+            "description": "Galeri terbuka ini menjadi ruang pamer bagi instalasi seni, patung, maupun karya rupa lainnya secara outdoor yang dapat diapresiasi dari jarak dekat. Menggabungkan unsur alam dan kreativitas, area ini menstimulasi inspirasi pengunjung yang menyusuri lorong-lorong seninya.",
+            "highlights": [
+                "Panel lukisan",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Dindingkreasi",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Karya seni jenis apa saja yang biasa dipamerkan di galeri terbuka ini?",
+                    "mode": "ai",
+                    "answer": "Karya seni yang dipamerkan meliputi instalasi patung, seni kriya logam, hingga seni visual kontemporer bernuansa budaya."
+                },
+                {
+                    "q": "Apakah galeri ini buka 24 jam?",
+                    "mode": "ai",
+                    "answer": "Karena berada di ruang terbuka publik, pameran instalasi ini dapat dilihat kapan saja selama jam operasional taman."
+                },
+                {
+                    "q": "Siapa yang biasanya menyumbangkan karya di galeri terbuka ini?",
+                    "mode": "ai",
+                    "answer": "Karya-karya tersebut bisa berasal dari koleksi permanen pengelola taman atau hasil kolaborasi pameran seniman lokal."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Karya Terbuka.",
+                "describeHere": "Dindingkreasi adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node227": {
+            "rawName": "Patungpenari",
+            "displayName": "Patung Penari",
+            "placeId": "patung-penari",
+            "placeName": "Patung Penari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ikon memukau yang menggambarkan keluwesan dan dinamika seni tari tradisional Indonesia.",
+            "description": "Monumen patung penari ini diukir dengan detail yang luar biasa untuk merepresentasikan gerakan gemulai seorang seniman tari. Hadirnya patung ini menjadi penghormatan visual terhadap kekayaan budaya pertunjukan yang menjadi jiwa dari Taman Indonesia Kaya.",
+            "highlights": [
+                "Figur bergerak",
+                "Pedestal"
+            ],
+            "talkingPoints": [
+                "Patungpenari",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Makna filosofis apa yang terkandung dalam patung penari ini?",
+                    "mode": "ai",
+                    "answer": "Patung ini menyimbolkan kebebasan berekspresi, keanggunan, serta komitmen kuat untuk melestarikan seni pertunjukan Indonesia."
+                },
+                {
+                    "q": "Tarian spesifik apa yang sedang diperagakan oleh patung ini?",
+                    "mode": "ai",
+                    "answer": "Secara umum, posturnya menggabungkan elemen dasar berbagai tarian Nusantara, menciptakan identitas penari universal Indonesia."
+                },
+                {
+                    "q": "Bahan apa yang membuat patung penari ini terlihat begitu artistik?",
+                    "mode": "ai",
+                    "answer": "Patung ini umumnya dibuat menggunakan material logam perunggu atau kuningan yang dapat menampilkan tekstur dan siluet yang tegas."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:941"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Patung Penari.",
+                "describeHere": "Patungpenari adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node228": {
+            "rawName": "Patungwayang",
+            "displayName": "Patung Wayang",
+            "placeId": "patung-wayang",
+            "placeName": "Patung Wayang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Siluet karakter wayang megah yang menghidupkan kisah pewayangan epik di tengah taman kota.",
+            "description": "Instalasi patung wayang ini menjulang tinggi sebagai perwujudan pelestarian kisah sastra dan tradisi pewayangan Jawa. Bentuk siluetnya yang transparan dan modern memberikan sentuhan kontemporer pada warisan klasik tanpa mengurangi kesakralan karakternya.",
+            "highlights": [
+                "Figur wayang",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Patungwayang",
+                "jalur eksplorasi",
+                "Indonesiakaya"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Tokoh wayang siapa yang direpresentasikan pada patung ini?",
+                    "mode": "ai",
+                    "answer": "Biasanya patung ini merepresentasikan tokoh ksatria atau karakter Pandawa yang menyimbolkan kebaikan dan keberanian."
+                },
+                {
+                    "q": "Bagaimana instalasi wayang ini dibuat agar tampak modern?",
+                    "mode": "ai",
+                    "answer": "Instalasi ini dibuat dari potongan plat logam yang dirangkai sedemikian rupa, sehingga menciptakan ilusi tembus pandang atau efek pop-art."
+                },
+                {
+                    "q": "Apakah patung wayang ini memiliki pencahayaan khusus di malam hari?",
+                    "mode": "ai",
+                    "answer": "Ya, patung ini disorot dengan tata cahaya khusus dari bawah, yang membuat siluet karakternya tampak hidup di malam hari."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:942"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Patung Wayang.",
+                "describeHere": "Patungwayang adalah area di dalam kawasan Indonesiakaya, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    }
+};

@@ -1,0 +1,91 @@
+{
+    "version": "1.0",
+    "tourId": "rsunimus",
+    "tourName": "Rsunimus",
+    "updatedAt": "2026-09-29T09:52:11+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node6",
+        "node7",
+        "node9",
+        "node10",
+        "node16",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node24",
+        "node26",
+        "node27",
+        "node28",
+        "node29",
+        "node30",
+        "node31",
+        "node32"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "RS UNIMUS – RS UNIMUS – Udara Sisi Jalan"
+        },
+        "node2": {
+            "displayName": "RS UNIMUS – RS UNIMUS – Udara Fasad Lengkung"
+        },
+        "node6": {
+            "displayName": "RS UNIMUS – Lobi Meja Pelayanan"
+        },
+        "node7": {
+            "displayName": "RS UNIMUS – Pelataran Prasasti"
+        },
+        "node9": {
+            "displayName": "RS UNIMUS – Ruang Tunggu Farmasi"
+        },
+        "node10": {
+            "displayName": "RS UNIMUS – Jalan Masuk RS UNIMUS"
+        },
+        "node16": {
+            "displayName": "RS UNIMUS – Lobi Wellness"
+        },
+        "node19": {
+            "displayName": "RS UNIMUS – Ruang IGD"
+        },
+        "node20": {
+            "displayName": "RS UNIMUS – Stasiun Perawat"
+        },
+        "node21": {
+            "displayName": "RS UNIMUS – Ruang PICU"
+        },
+        "node22": {
+            "displayName": "RS UNIMUS – Ruang Operasi – Pandangan Peralatan"
+        },
+        "node23": {
+            "displayName": "RS UNIMUS – Ruang NICU"
+        },
+        "node24": {
+            "displayName": "RS UNIMUS – Pintu Ruang Terapi"
+        },
+        "node26": {
+            "displayName": "RS UNIMUS – Rehabilitasi – Area Latihan"
+        },
+        "node27": {
+            "displayName": "RS UNIMUS – Ruang CT Scan"
+        },
+        "node28": {
+            "displayName": "RS UNIMUS – Aula RS UNIMUS"
+        },
+        "node29": {
+            "displayName": "RS UNIMUS – Ruang Operasi – Pandangan Lampu"
+        },
+        "node30": {
+            "displayName": "RS UNIMUS – Ruang Tindakan"
+        },
+        "node31": {
+            "displayName": "RS UNIMUS – Ruang Fitness"
+        },
+        "node32": {
+            "displayName": "RS UNIMUS – Ruang Pendukung Perawatan"
+        }
+    }
+}

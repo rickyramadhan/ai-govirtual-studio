@@ -1,0 +1,107 @@
+{
+    "version": "1.0",
+    "tourId": "indonesiakaya",
+    "tourName": "Indonesiakaya",
+    "updatedAt": "2026-09-29T09:50:53+02:00",
+    "startScene": "node206",
+    "order": [
+        "node206",
+        "node207",
+        "node208",
+        "node209",
+        "node229",
+        "node210",
+        "node211",
+        "node212",
+        "node213",
+        "node214",
+        "node215",
+        "node216",
+        "node217",
+        "node218",
+        "node219",
+        "node220",
+        "node221",
+        "node222",
+        "node223",
+        "node224",
+        "node225",
+        "node226",
+        "node227",
+        "node228"
+    ],
+    "nodes": {
+        "node206": {
+            "displayName": "Tampak Belakang Theater Taman Indonesia Kaya"
+        },
+        "node207": {
+            "displayName": "Theater Taman Indonesia Kaya view Malam Hari"
+        },
+        "node208": {
+            "displayName": "Jalur Asri Taman Hijau view Malam Hari"
+        },
+        "node209": {
+            "displayName": "Amphitheater Taman Indonesia Kaya"
+        },
+        "node229": {
+            "displayName": "Aktifitas Panggung Theater Taman Indonesia Kaya"
+        },
+        "node210": {
+            "displayName": "Tampak Belakang Theater Taman Indonesia Kaya view Malam Hari"
+        },
+        "node211": {
+            "displayName": "Prasasti Taman Indonesia Kaya"
+        },
+        "node212": {
+            "displayName": "Ornamen Penari dan Denah Taman Indonesia  Kaya"
+        },
+        "node213": {
+            "displayName": "Patung Penari View Malam Hari"
+        },
+        "node214": {
+            "displayName": "Area Pejalan Kaki Taman Indonesia Kaya"
+        },
+        "node215": {
+            "displayName": "Panggung Theater"
+        },
+        "node216": {
+            "displayName": "Fasad Belakang Panggung Theater"
+        },
+        "node217": {
+            "displayName": "Area Pedestrian Taman view Malam Hari"
+        },
+        "node218": {
+            "displayName": "Jalur Asri Taman Hijau"
+        },
+        "node219": {
+            "displayName": "Area Taman Sisi Panggung Theater"
+        },
+        "node220": {
+            "displayName": "Kolam Air Mancur"
+        },
+        "node221": {
+            "displayName": "Monumen Ibu dan Anak"
+        },
+        "node222": {
+            "displayName": "Gerbang Mural"
+        },
+        "node223": {
+            "displayName": "Akses Masuk Jalan Kaki Area Taman"
+        },
+        "node224": {
+            "displayName": "Fasilitas Penunjuka Arah Area Taman"
+        },
+        "node225": {
+            "displayName": "Area Tengah Taman Hijau"
+        },
+        "node226": {
+            "displayName": "Galeri Karya Terbuka"
+        },
+        "node227": {
+            "displayName": "Patung Penari"
+        },
+        "node228": {
+            "displayName": "Patung Wayang"
+        }
+    }
+}

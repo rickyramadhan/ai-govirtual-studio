@@ -1,0 +1,244 @@
+{
+    "version": 2,
+    "tourId": "wingkobabad",
+    "updatedAt": "2026-09-29T09:52:56+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Wingkobabad",
+            "aliases": [
+                "wingkobabad"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "wingkobabad"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Wingkobabad.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Wingkobabad",
+                    "content": "Pusat pengalaman virtual untuk Wingkobabad."
+                },
+                "en": {
+                    "title": "Wingkobabad",
+                    "content": "Pusat pengalaman virtual untuk Wingkobabad."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node1",
+            "aliases": [
+                "node1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "wingkobabad"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node1",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node1",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Wingko Babat",
+            "aliases": [
+                "wingko babat"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "wingkobabad"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Wingko Babat",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Wingko Babat",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "wingkobabad"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1173",
+            "entityId": "objinfo2:1173",
+            "title": "Area Belanja",
+            "aliases": [
+                "area belanja",
+                "objek 1173"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pengunjung dapat menemukan wingko babad dalam berbagai rasa mulai dari kelapa original, nangka, hingga cokelat, yang dikemas secara higienis dalam kotak-kotak ikonik untuk menjaga kesegarannya sebagai buah tangan.",
+            "source": "webview-import",
+            "sourceId": "1173",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Belanja",
+                    "content": "Pengunjung dapat menemukan wingko babad dalam berbagai rasa mulai dari kelapa original, nangka, hingga cokelat, yang dikemas secara higienis dalam kotak-kotak ikonik untuk menjaga kesegarannya sebagai buah tangan."
+                },
+                "en": {
+                    "title": "Shopping Area",
+                    "content": "Visitors can find wingko babad in various flavors, from original coconut, jackfruit, to chocolate, hygienically packaged in iconic boxes to preserve their freshness as souvenirs."
+                },
+                "zh": {
+                    "title": "购物区",
+                    "content": "游客可以找到各种口味的 wingko babad，从原味椰子、菠萝蜜到巧克力，采用卫生包装于标志性盒子中，以保持其新鲜度作为伴手礼。"
+                },
+                "ar": {
+                    "title": "منطقة التسوق",
+                    "content": "يمكن للزوار العثور على Wingko Babad بنكهات مختلفة، من جوز الهند الأصلي، والجاك فروت، وحتى الشوكولاتة، معبأة بطريقة صحية في صناديق أيقونية للحفاظ على نضارتها كهدية تذكارية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1174",
+            "entityId": "objinfo2:1174",
+            "title": "Area Tunggu",
+            "aliases": [
+                "area tunggu",
+                "objek 1174"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini memberikan kenyamanan bagi wisatawan yang mungkin merasa lelah setelah berkeliling kawasan Kota Lama Semarang sebelum melanjutkan perjalanan mereka.",
+            "source": "webview-import",
+            "sourceId": "1174",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Tunggu",
+                    "content": "Area ini memberikan kenyamanan bagi wisatawan yang mungkin merasa lelah setelah berkeliling kawasan Kota Lama Semarang sebelum melanjutkan perjalanan mereka."
+                },
+                "en": {
+                    "title": "Waiting Area",
+                    "content": "This area provides comfort for tourists who may feel tired after exploring the Semarang Old Town area before continuing their journey."
+                },
+                "zh": {
+                    "title": "等候区",
+                    "content": "该区域为游客提供舒适的休息空间，让他们在游览三宝垄老城区后能够放松身心，然后继续行程。"
+                },
+                "ar": {
+                    "title": "منطقة الانتظار",
+                    "content": "توفر هذه المنطقة الراحة للسياح الذين قد يشعرون بالتعب بعد استكشاف منطقة المدينة القديمة في سيمارانغ قبل متابعة رحلتهم."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,705 @@
+{
+    "version": "1.0",
+    "tourId": "menarasiger",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Apa yang bisa saya jelajahi di Menara Siger?",
+            "answer": "Menara Siger adalah lokasi di Lampung Selatan yang dapat dijelajahi melalui tur virtual ini. Tur menampilkan sejumlah area dan titik pandang yang dapat dibuka melalui navigasi hotspot.",
+            "aliases": [
+                "Ada apa di Menara Siger?",
+                "Gambaran tur Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "tur virtual",
+                "jelajah"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Di kota atau wilayah mana Menara Siger berada?",
+            "answer": "Menara Siger tercatat berada di Lampung Selatan.",
+            "aliases": [
+                "Lokasi Menara Siger",
+                "Menara Siger ada di mana?"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Lampung Selatan",
+                "lokasi"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Bagaimana cara berpindah area dalam tur Menara Siger?",
+            "answer": "Gunakan hotspot navigasi pada panorama untuk berpindah ke area yang terhubung. Nama area aktif membantu memastikan posisi saat menjelajah.",
+            "aliases": [
+                "Cara navigasi Menara Siger",
+                "Pindah panorama bagaimana?"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "hotspot",
+                "navigasi"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Apakah tur Menara Siger dapat dijelajahi tanpa datang langsung?",
+            "answer": "Ya. Tur virtual menampilkan panorama dan area Menara Siger secara digital. Informasi operasional kunjungan fisik harus dikonfirmasi melalui kanal resmi lokasi.",
+            "aliases": [
+                "Bisa lihat Menara Siger secara virtual?",
+                "Tur online Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "virtual",
+                "online"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apa yang perlu diketahui tentang node15?",
+            "answer": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "aliases": [
+                "Jelaskan node15.",
+                "Informasi node15"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "node15",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Apa fungsi atau makna Jam kunjungan di Menara Siger?",
+            "answer": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "aliases": [
+                "Fungsi Jam kunjungan",
+                "Tentang Jam kunjungan"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Jam kunjungan",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apa yang dapat dilihat di area Pembuka Menara Siger?",
+            "answer": "Pembuka Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Pembuka Menara Siger?",
+                "Jelaskan area Pembuka Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Pembuka Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Apa yang dapat dilihat di area Panorama 2?",
+            "answer": "Panorama 2 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 2?",
+                "Jelaskan area Panorama 2"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 2",
+                "area"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apa yang dapat dilihat di area Tampilan Udara Menara Siger?",
+            "answer": "Tampilan Udara Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Tampilan Udara Menara Siger?",
+                "Jelaskan area Tampilan Udara Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Tampilan Udara Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apa yang dapat dilihat di area Panorama 4?",
+            "answer": "Panorama 4 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 4?",
+                "Jelaskan area Panorama 4"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 4",
+                "area"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Apa yang dapat dilihat di area Panorama 5?",
+            "answer": "Panorama 5 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 5?",
+                "Jelaskan area Panorama 5"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 5",
+                "area"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apa yang dapat dilihat di area Panorama 6?",
+            "answer": "Panorama 6 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 6?",
+                "Jelaskan area Panorama 6"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 6",
+                "area"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apa yang dapat dilihat di area Panorama 7?",
+            "answer": "Panorama 7 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 7?",
+                "Jelaskan area Panorama 7"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 7",
+                "area"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apa yang dapat dilihat di area Panorama 8?",
+            "answer": "Panorama 8 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 8?",
+                "Jelaskan area Panorama 8"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 8",
+                "area"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apa yang dapat dilihat di area Panorama 9?",
+            "answer": "Panorama 9 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 9?",
+                "Jelaskan area Panorama 9"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 9",
+                "area"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apa yang dapat dilihat di area Panorama 10?",
+            "answer": "Panorama 10 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 10?",
+                "Jelaskan area Panorama 10"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 10",
+                "area"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apa yang dapat dilihat di area Pelabuhan Bakauheni?",
+            "answer": "Pelabuhan Bakauheni merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Pelabuhan Bakauheni?",
+                "Jelaskan area Pelabuhan Bakauheni"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Pelabuhan Bakauheni",
+                "area"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Apa yang dapat dilihat di area Menara Siger?",
+            "answer": "Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Menara Siger?",
+                "Jelaskan area Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Apa yang dapat dilihat di area Museum Mini Siger?",
+            "answer": "Museum Mini Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Museum Mini Siger?",
+                "Jelaskan area Museum Mini Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Museum Mini Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apa yang dapat dilihat di area Panorama 14?",
+            "answer": "Panorama 14 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 14?",
+                "Jelaskan area Panorama 14"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 14",
+                "area"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Apa yang dapat dilihat di area Panorama 15?",
+            "answer": "Panorama 15 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 15?",
+                "Jelaskan area Panorama 15"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 15",
+                "area"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Apa yang dapat dilihat di area Panorama 16?",
+            "answer": "Panorama 16 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 16?",
+                "Jelaskan area Panorama 16"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 16",
+                "area"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apa yang dapat dilihat di area Panorama 17?",
+            "answer": "Panorama 17 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 17?",
+                "Jelaskan area Panorama 17"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 17",
+                "area"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apa yang dapat dilihat di area Panorama 18?",
+            "answer": "Panorama 18 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 18?",
+                "Jelaskan area Panorama 18"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 18",
+                "area"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apa yang dapat dilihat di area Panorama 19?",
+            "answer": "Panorama 19 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 19?",
+                "Jelaskan area Panorama 19"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 19",
+                "area"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apa yang dapat dilihat di area Panorama 20?",
+            "answer": "Panorama 20 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 20?",
+                "Jelaskan area Panorama 20"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 20",
+                "area"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apa yang dapat dilihat di area Panorama 21?",
+            "answer": "Panorama 21 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 21?",
+                "Jelaskan area Panorama 21"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 21",
+                "area"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apa yang dapat dilihat di area Puncak Menara Siger?",
+            "answer": "Puncak Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Puncak Menara Siger?",
+                "Jelaskan area Puncak Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Puncak Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apa yang dapat dilihat di area Taman Siger?",
+            "answer": "Taman Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Taman Siger?",
+                "Jelaskan area Taman Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Taman Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Apa yang dapat dilihat di area Panorama 24?",
+            "answer": "Panorama 24 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 24?",
+                "Jelaskan area Panorama 24"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 24",
+                "area"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Apa yang dapat dilihat di area Panorama 25?",
+            "answer": "Panorama 25 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 25?",
+                "Jelaskan area Panorama 25"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 25",
+                "area"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Apa yang dapat dilihat di area Motif Kain Siger?",
+            "answer": "Motif Kain Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Motif Kain Siger?",
+                "Jelaskan area Motif Kain Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Motif Kain Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Apa yang dapat dilihat di area Panorama 27?",
+            "answer": "Panorama 27 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Ada apa di Panorama 27?",
+                "Jelaskan area Panorama 27"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 27",
+                "area"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Saya sedang berada di Pembuka Menara Siger, area apa ini?",
+            "answer": "Pembuka Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Pembuka Menara Siger?",
+                "Tentang lokasi Pembuka Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Pembuka Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Saya sedang berada di Panorama 2, area apa ini?",
+            "answer": "Panorama 2 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 2?",
+                "Tentang lokasi Panorama 2"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 2",
+                "area"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Saya sedang berada di Tampilan Udara Menara Siger, area apa ini?",
+            "answer": "Tampilan Udara Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Tampilan Udara Menara Siger?",
+                "Tentang lokasi Tampilan Udara Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Tampilan Udara Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Saya sedang berada di Panorama 4, area apa ini?",
+            "answer": "Panorama 4 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 4?",
+                "Tentang lokasi Panorama 4"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 4",
+                "area"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Saya sedang berada di Panorama 5, area apa ini?",
+            "answer": "Panorama 5 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 5?",
+                "Tentang lokasi Panorama 5"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 5",
+                "area"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Saya sedang berada di Panorama 6, area apa ini?",
+            "answer": "Panorama 6 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 6?",
+                "Tentang lokasi Panorama 6"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 6",
+                "area"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Saya sedang berada di Panorama 7, area apa ini?",
+            "answer": "Panorama 7 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 7?",
+                "Tentang lokasi Panorama 7"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 7",
+                "area"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Saya sedang berada di Panorama 8, area apa ini?",
+            "answer": "Panorama 8 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 8?",
+                "Tentang lokasi Panorama 8"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 8",
+                "area"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Saya sedang berada di Panorama 9, area apa ini?",
+            "answer": "Panorama 9 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 9?",
+                "Tentang lokasi Panorama 9"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 9",
+                "area"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Saya sedang berada di Panorama 10, area apa ini?",
+            "answer": "Panorama 10 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 10?",
+                "Tentang lokasi Panorama 10"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 10",
+                "area"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Saya sedang berada di Pelabuhan Bakauheni, area apa ini?",
+            "answer": "Pelabuhan Bakauheni merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Pelabuhan Bakauheni?",
+                "Tentang lokasi Pelabuhan Bakauheni"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Pelabuhan Bakauheni",
+                "area"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Saya sedang berada di Menara Siger, area apa ini?",
+            "answer": "Menara Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Menara Siger?",
+                "Tentang lokasi Menara Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Saya sedang berada di Museum Mini Siger, area apa ini?",
+            "answer": "Museum Mini Siger merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Museum Mini Siger?",
+                "Tentang lokasi Museum Mini Siger"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Museum Mini Siger",
+                "area"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Saya sedang berada di Panorama 14, area apa ini?",
+            "answer": "Panorama 14 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 14?",
+                "Tentang lokasi Panorama 14"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 14",
+                "area"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Saya sedang berada di Panorama 15, area apa ini?",
+            "answer": "Panorama 15 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 15?",
+                "Tentang lokasi Panorama 15"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 15",
+                "area"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Saya sedang berada di Panorama 16, area apa ini?",
+            "answer": "Panorama 16 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 16?",
+                "Tentang lokasi Panorama 16"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 16",
+                "area"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Saya sedang berada di Panorama 17, area apa ini?",
+            "answer": "Panorama 17 merupakan salah satu titik yang dapat dijelajahi dalam tur virtual Menara Siger. Gunakan hotspot yang tersedia untuk berpindah ke area terhubung.",
+            "aliases": [
+                "Di mana saya sekarang di Panorama 17?",
+                "Tentang lokasi Panorama 17"
+            ],
+            "keywords": [
+                "Menara Siger",
+                "Panorama 17",
+                "area"
+            ]
+        }
+    ]
+}

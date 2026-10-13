@@ -1,0 +1,1245 @@
+{
+    "startNode": "node82",
+    "scenes": [
+        {
+            "id": "node80",
+            "name": "Politeknik Bumi Akpelni",
+            "displayName": "Politeknik Bumi Akpelni",
+            "rawName": "",
+            "customNodeId": "-oliteknik-umi-kpelni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Politeknik Bumi Akpelni"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Politeknik Bumi Akpelni",
+            "displayName": "Politeknik Bumi Akpelni",
+            "rawName": "",
+            "customNodeId": "-oliteknik-umi-kpelni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Politeknik Bumi Akpelni"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Politeknik Bumi Akpelni",
+            "displayName": "Politeknik Bumi Akpelni",
+            "rawName": "",
+            "customNodeId": "-oliteknik-umi-kpelni",
+            "pan": -4.10273,
+            "tilt": -15.3519,
+            "fov": 108.2,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Politeknik Bumi Akpelni"
+            ]
+        },
+        {
+            "id": "node113",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Politeknik Bumi Akpelni",
+            "displayName": "Politeknik Bumi Akpelni",
+            "rawName": "",
+            "customNodeId": "-oliteknik-umi-kpelni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Politeknik Bumi Akpelni"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Masuk Kapal Haji Soenarto",
+            "displayName": "Masuk Kapal Haji Soenarto",
+            "rawName": "",
+            "customNodeId": "-asuk-apal-aji-oenarto",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Masuk Kapal Haji Soenarto"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Pintu Masuk Asrama",
+            "displayName": "Pintu Masuk Asrama",
+            "rawName": "",
+            "customNodeId": "-intu-asuk-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Pintu Masuk Asrama"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Mesin ATM",
+            "displayName": "Mesin ATM",
+            "rawName": "",
+            "customNodeId": "-esin-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Mesin ATM"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Bridge Navigation Simulation",
+            "displayName": "Bridge Navigation Simulation",
+            "rawName": "",
+            "customNodeId": "-ridge-avigation-imulation",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Bridge Navigation Simulation"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Depan Lab Bahasa",
+            "displayName": "Depan Lab Bahasa",
+            "rawName": "",
+            "customNodeId": "-epan-ab-ahasa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Depan Lab Bahasa"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Anjungankapal",
+            "displayName": "Anjungankapal",
+            "rawName": "",
+            "customNodeId": "anjungankapal",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "anjungankapal"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Masuk",
+            "displayName": "Masuk",
+            "rawName": "",
+            "customNodeId": "-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Masuk"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Gmdss",
+            "displayName": "Gmdss",
+            "rawName": "",
+            "customNodeId": "gmdss",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "gmdss"
+            ]
+        },
+        {
+            "id": "node92",
+            "name": "Kampus Politeknik Bumi Akpelni",
+            "displayName": "Kampus Politeknik Bumi Akpelni",
+            "rawName": "",
+            "customNodeId": "-ampus-oliteknik-umi-kpelni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Kampus Politeknik Bumi Akpelni"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Kapal Haji Soenarto",
+            "displayName": "Kapal Haji Soenarto",
+            "rawName": "",
+            "customNodeId": "-apal-aji-oenarto",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Kapal Haji Soenarto"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Labfmers",
+            "displayName": "Labfmers",
+            "rawName": "",
+            "customNodeId": "labfmers",
+            "pan": -5.56,
+            "tilt": -1.08,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "labfmers"
+            ]
+        },
+        {
+            "id": "node114",
+            "name": "Video360 2",
+            "displayName": "Video360 2",
+            "rawName": "",
+            "customNodeId": "video360_2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI",
+                "video360"
+            ],
+            "aliases": [
+                "video360_2"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Labkomputer",
+            "displayName": "Labkomputer",
+            "rawName": "",
+            "customNodeId": "labkomputer",
+            "pan": -19.34,
+            "tilt": -0.04,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "labkomputer"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Labbahasa",
+            "displayName": "Labbahasa",
+            "rawName": "",
+            "customNodeId": "labbahasa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "labbahasa"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Lapangan Dalam",
+            "displayName": "Lapangan Dalam",
+            "rawName": "",
+            "customNodeId": "-apangan-alam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Lapangan Dalam"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Masuk Lobi Asrama",
+            "displayName": "Masuk Lobi Asrama",
+            "rawName": "",
+            "customNodeId": "-asuk-obi-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Masuk Lobi Asrama"
+            ]
+        },
+        {
+            "id": "node99",
+            "name": "Masuk",
+            "displayName": "Masuk",
+            "rawName": "",
+            "customNodeId": "-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Masuk"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Pos Jaga Taruna",
+            "displayName": "Pos Jaga Taruna",
+            "rawName": "",
+            "customNodeId": "-os-aga-aruna",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Pos Jaga Taruna"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Kampus Politeknik Bumi Akpelni",
+            "displayName": "Kampus Politeknik Bumi Akpelni",
+            "rawName": "",
+            "customNodeId": "-ampus-oliteknik-umi-kpelni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Kampus Politeknik Bumi Akpelni"
+            ]
+        },
+        {
+            "id": "node104",
+            "name": "Teknisi",
+            "displayName": "Teknisi",
+            "rawName": "",
+            "customNodeId": "teknisi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "teknisi"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Ruang Departemen Teknisi",
+            "displayName": "Ruang Departemen Teknisi",
+            "rawName": "",
+            "customNodeId": "-uang-epartemen-eknisi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Ruang Departemen Teknisi"
+            ]
+        },
+        {
+            "id": "node106",
+            "name": "Ruang Makan Asrama",
+            "displayName": "Ruang Makan Asrama",
+            "rawName": "",
+            "customNodeId": "-uang-akan-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Ruang Makan Asrama"
+            ]
+        },
+        {
+            "id": "node107",
+            "name": "Ruang Pelayanan",
+            "displayName": "Ruang Pelayanan",
+            "rawName": "",
+            "customNodeId": "-uang-elayanan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Ruang Pelayanan"
+            ]
+        },
+        {
+            "id": "node108",
+            "name": "Pusatsimulatornavigasi",
+            "displayName": "Pusatsimulatornavigasi",
+            "rawName": "",
+            "customNodeId": "pusatsimulatornavigasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "pusatsimulatornavigasi"
+            ]
+        },
+        {
+            "id": "node109",
+            "name": "Simulatorjembatan",
+            "displayName": "Simulatorjembatan",
+            "rawName": "",
+            "customNodeId": "simulatorjembatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "simulatorjembatan"
+            ]
+        },
+        {
+            "id": "node110",
+            "name": "Labmesinkapal",
+            "displayName": "Labmesinkapal",
+            "rawName": "",
+            "customNodeId": "labmesinkapal",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "labmesinkapal"
+            ]
+        },
+        {
+            "id": "node111",
+            "name": "Teknikmesin",
+            "displayName": "Teknikmesin",
+            "rawName": "",
+            "customNodeId": "teknikmesin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "teknikmesin"
+            ]
+        },
+        {
+            "id": "node115",
+            "name": "Video360 3",
+            "displayName": "Video360 3",
+            "rawName": "",
+            "customNodeId": "video360_3",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI",
+                "video360"
+            ],
+            "aliases": [
+                "video360_3"
+            ]
+        },
+        {
+            "id": "node112",
+            "name": "Ruang Tidur Asrama",
+            "displayName": "Ruang Tidur Asrama",
+            "rawName": "",
+            "customNodeId": "-uang-idur-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "PoliteknikAKPELNI"
+            ],
+            "aliases": [
+                "Ruang Tidur Asrama"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node80",
+            "target": "node85",
+            "title": "Pintu Masuk Asrama",
+            "id": "Point01",
+            "pan": 2.54,
+            "tilt": -17.67
+        },
+        {
+            "scene": "node80",
+            "target": "node83",
+            "title": "Politeknik Bumi Akpelni",
+            "id": "Point02",
+            "pan": -13.18,
+            "tilt": 8.07
+        },
+        {
+            "scene": "node81",
+            "target": "node82",
+            "title": "Politeknik Bumi Akpelni",
+            "id": "Point01",
+            "pan": 44.91,
+            "tilt": 0
+        },
+        {
+            "scene": "node81",
+            "target": "node93",
+            "title": "Kapal Haji Soenarto",
+            "id": "Point02",
+            "pan": -349.54,
+            "tilt": -28.77
+        },
+        {
+            "scene": "node82",
+            "target": "node83",
+            "title": "Politeknik Bumi Akpelni",
+            "id": "Point01",
+            "pan": 51.32,
+            "tilt": 0.85
+        },
+        {
+            "scene": "node82",
+            "target": "node81",
+            "title": "Politeknik Bumi Akpelni",
+            "id": "Point02",
+            "pan": 285.48,
+            "tilt": -1.93
+        },
+        {
+            "scene": "node82",
+            "target": "node103",
+            "title": "Kampus Politeknik Bumi Akpelni",
+            "id": "Point03",
+            "pan": 39.41,
+            "tilt": -21.22
+        },
+        {
+            "scene": "node82",
+            "target": "node93",
+            "title": "Kapal Haji Soenarto",
+            "id": "Point05",
+            "pan": 331.21,
+            "tilt": -21.52
+        },
+        {
+            "scene": "node82",
+            "target": "node92",
+            "title": "Kampus Politeknik Bumi Akpelni",
+            "id": "Point08",
+            "pan": -1.02,
+            "tilt": -21.29
+        },
+        {
+            "scene": "node82",
+            "target": "node108",
+            "title": "Keluar",
+            "id": "Point10",
+            "pan": -185.91,
+            "tilt": -11.8
+        },
+        {
+            "scene": "node113",
+            "target": "node108",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -185.91,
+            "tilt": -11.8
+        },
+        {
+            "scene": "node83",
+            "target": "node80",
+            "title": "Politeknik Bumi Akpelni",
+            "id": "Point01",
+            "pan": 42.35,
+            "tilt": -0.49
+        },
+        {
+            "scene": "node83",
+            "target": "node82",
+            "title": "Politeknik Bumi Akpelni",
+            "id": "Point02",
+            "pan": -36.49,
+            "tilt": -1.3
+        },
+        {
+            "scene": "node83",
+            "target": "node103",
+            "title": "Kampus Politeknik Bumi Akpelni",
+            "id": "Point03",
+            "pan": -359.33,
+            "tilt": -23.3
+        },
+        {
+            "scene": "node83",
+            "target": "node92",
+            "title": "Kampus Politeknik Bumi Akpelni",
+            "id": "Point04",
+            "pan": -20.29,
+            "tilt": -15.45
+        },
+        {
+            "scene": "node84",
+            "target": "node109",
+            "title": "Ruang Simulator",
+            "id": "Point01",
+            "pan": 170.62,
+            "tilt": -8.05
+        },
+        {
+            "scene": "node84",
+            "target": "node93",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -172.09,
+            "tilt": -8.17
+        },
+        {
+            "scene": "node85",
+            "target": "node86",
+            "title": "Mesin ATM",
+            "id": "Point02",
+            "pan": -179.13,
+            "tilt": -9.09
+        },
+        {
+            "scene": "node85",
+            "target": "node98",
+            "title": "Masuk Lobi Asrama",
+            "id": "Point03",
+            "pan": 0.10999,
+            "tilt": 0.88
+        },
+        {
+            "scene": "node86",
+            "target": "node85",
+            "title": "Pintu Masuk Asrama",
+            "id": "Point01",
+            "pan": 164.75,
+            "tilt": -3.99
+        },
+        {
+            "scene": "node86",
+            "target": "node102",
+            "title": "Pos Jaga Taruna",
+            "id": "Point02",
+            "pan": -316,
+            "tilt": 0.67
+        },
+        {
+            "scene": "node87",
+            "target": "node88",
+            "title": "Depan Lab Bahasa",
+            "id": "Point01",
+            "pan": 267.91,
+            "tilt": -8.03
+        },
+        {
+            "scene": "node87",
+            "target": "node99",
+            "title": "Masuk",
+            "id": "Point02",
+            "pan": -342.1,
+            "tilt": -13.97
+        },
+        {
+            "scene": "node87",
+            "target": "node97",
+            "title": "Lapangan Dalam",
+            "id": "Point03",
+            "pan": 189.33,
+            "tilt": -11.28
+        },
+        {
+            "scene": "node87",
+            "target": "node94",
+            "title": "Lab FMERS",
+            "id": "Point04",
+            "pan": 86.6,
+            "tilt": -4.25
+        },
+        {
+            "scene": "node88",
+            "target": "node95",
+            "title": "Lab Komputer",
+            "id": "Point01",
+            "pan": 95.43,
+            "tilt": -5.68
+        },
+        {
+            "scene": "node88",
+            "target": "node96",
+            "title": "Masuk Lab MPLM",
+            "id": "Point02",
+            "pan": 2.9,
+            "tilt": -17.58
+        },
+        {
+            "scene": "node88",
+            "target": "node87",
+            "title": "Bridge Navigation Simulation",
+            "id": "Point03",
+            "pan": 276.92,
+            "tilt": -5.21
+        },
+        {
+            "scene": "node88",
+            "target": "node97",
+            "title": "Lapangan Dalam",
+            "id": "Point04",
+            "pan": 191.82,
+            "tilt": -13.97
+        },
+        {
+            "scene": "node89",
+            "target": "node109",
+            "title": "Ruang Simulator",
+            "id": "Point01",
+            "pan": -26.04,
+            "tilt": -8.8
+        },
+        {
+            "scene": "node89",
+            "target": "node93",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -337.16,
+            "tilt": -8.79
+        },
+        {
+            "scene": "node90",
+            "target": "node92",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -181.02,
+            "tilt": -17.63
+        },
+        {
+            "scene": "node90",
+            "target": "node97",
+            "title": "Lapangan Dalam",
+            "id": "Point02",
+            "pan": 282.74,
+            "tilt": -9.54
+        },
+        {
+            "scene": "node90",
+            "target": "node91",
+            "title": "Lab GMDSS",
+            "id": "Point03",
+            "pan": 76.99,
+            "tilt": -9.2
+        },
+        {
+            "scene": "node91",
+            "target": "node90",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -230.15,
+            "tilt": -12.72
+        },
+        {
+            "scene": "node92",
+            "target": "node105",
+            "title": "Ruang Departemen Teknisi",
+            "id": "Point01",
+            "pan": -94.19,
+            "tilt": -0.92
+        },
+        {
+            "scene": "node92",
+            "target": "node93",
+            "title": "Kapal Haji Soenarto",
+            "id": "Point02",
+            "pan": 88.83,
+            "tilt": -0.73
+        },
+        {
+            "scene": "node92",
+            "target": "node90",
+            "title": "Masuk",
+            "id": "Point03",
+            "pan": 357.29,
+            "tilt": -2.04
+        },
+        {
+            "scene": "node93",
+            "target": "node92",
+            "title": "Kampus Politeknik Bumi Akpelni",
+            "id": "Point01",
+            "pan": -235.47,
+            "tilt": -4.68
+        },
+        {
+            "scene": "node93",
+            "target": "node84",
+            "title": "Masuk Kapal Haji Soenarto",
+            "id": "Point02",
+            "pan": 3.44,
+            "tilt": 1.13
+        },
+        {
+            "scene": "node94",
+            "target": "node87",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -300.03,
+            "tilt": -12.11
+        },
+        {
+            "scene": "node94",
+            "target": "node94",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -19.99,
+            "tilt": -22.85
+        },
+        {
+            "scene": "node114",
+            "target": "node94",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -19.99,
+            "tilt": -22.85
+        },
+        {
+            "scene": "node95",
+            "target": "node88",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 199.49,
+            "tilt": -17.16
+        },
+        {
+            "scene": "node96",
+            "target": "node88",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -260.43,
+            "tilt": -14.08
+        },
+        {
+            "scene": "node97",
+            "target": "node90",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -224.91,
+            "tilt": 2.68
+        },
+        {
+            "scene": "node97",
+            "target": "node88",
+            "title": "Depan Lab Bahasa",
+            "id": "Point02",
+            "pan": 36.82,
+            "tilt": 4.13
+        },
+        {
+            "scene": "node97",
+            "target": "node107",
+            "title": "Ruang Pelayanan",
+            "id": "Point03",
+            "pan": -37.07,
+            "tilt": 2.38
+        },
+        {
+            "scene": "node97",
+            "target": "node87",
+            "title": "Bridge Navigation Simulation",
+            "id": "Point04",
+            "pan": -146.93,
+            "tilt": 1.94
+        },
+        {
+            "scene": "node98",
+            "target": "node85",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 0.26,
+            "tilt": -15.58
+        },
+        {
+            "scene": "node98",
+            "target": "node106",
+            "title": "Ruang Makan Asrama",
+            "id": "Point02",
+            "pan": 181.94,
+            "tilt": -5.09
+        },
+        {
+            "scene": "node99",
+            "target": "node87",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 145.16,
+            "tilt": -12.22
+        },
+        {
+            "scene": "node99",
+            "target": "node108",
+            "title": "Ruang Simulator",
+            "id": "Point02",
+            "pan": -2.64,
+            "tilt": -13.75
+        },
+        {
+            "scene": "node102",
+            "target": "node103",
+            "title": "Ruang Teknik Mesin",
+            "id": "Point01",
+            "pan": 121.72,
+            "tilt": -10.73
+        },
+        {
+            "scene": "node102",
+            "target": "node86",
+            "title": "Asrama Taruna",
+            "id": "Point02",
+            "pan": 204.84,
+            "tilt": -11.73
+        },
+        {
+            "scene": "node103",
+            "target": "node111",
+            "title": "Masuk Ruang Mesin Teknik",
+            "id": "Point01",
+            "pan": 4.34,
+            "tilt": -6.46
+        },
+        {
+            "scene": "node103",
+            "target": "node105",
+            "title": "Ruang Departemen Teknisi",
+            "id": "Point02",
+            "pan": -295.76,
+            "tilt": -7.64
+        },
+        {
+            "scene": "node103",
+            "target": "node102",
+            "title": "Pos Jaga Taruna",
+            "id": "Point03",
+            "pan": -237.98,
+            "tilt": -3.59
+        },
+        {
+            "scene": "node104",
+            "target": "node105",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 40.24,
+            "tilt": -12.45
+        },
+        {
+            "scene": "node105",
+            "target": "node103",
+            "title": "Ruang Teknik Mesin",
+            "id": "Point01",
+            "pan": 166,
+            "tilt": -5.19
+        },
+        {
+            "scene": "node105",
+            "target": "node104",
+            "title": "Masuk",
+            "id": "Point02",
+            "pan": 7.54,
+            "tilt": -2.47
+        },
+        {
+            "scene": "node105",
+            "target": "node92",
+            "title": "Kampus Politeknik Bumi Akpelni",
+            "id": "Point03",
+            "pan": 266.43,
+            "tilt": -2.8
+        },
+        {
+            "scene": "node105",
+            "target": "node102",
+            "title": "Pos Jaga Taruna",
+            "id": "Point04",
+            "pan": -275.09,
+            "tilt": -4.33
+        },
+        {
+            "scene": "node106",
+            "target": "node98",
+            "title": "Lobi Asrama",
+            "id": "Point01",
+            "pan": -163.54,
+            "tilt": -12.81
+        },
+        {
+            "scene": "node106",
+            "target": "node112",
+            "title": "Ruang Tidur Asrama",
+            "id": "Point02",
+            "pan": 60.1,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node107",
+            "target": "node97",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 179.98,
+            "tilt": -15.7
+        },
+        {
+            "scene": "node108",
+            "target": "node99",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 182.61,
+            "tilt": -13.98
+        },
+        {
+            "scene": "node108",
+            "target": "node108",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -186.74,
+            "tilt": -14.22
+        },
+        {
+            "scene": "node109",
+            "target": "node89",
+            "title": "Dermaga",
+            "id": "Point01",
+            "pan": 111.82,
+            "tilt": -18.29
+        },
+        {
+            "scene": "node109",
+            "target": "node84",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -148.89,
+            "tilt": -17.5
+        },
+        {
+            "scene": "node110",
+            "target": "node111",
+            "title": "Ruang Teknik Mesin",
+            "id": "Point01",
+            "pan": -352.08,
+            "tilt": -10.38
+        },
+        {
+            "scene": "node111",
+            "target": "node103",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 144.04,
+            "tilt": -11.88
+        },
+        {
+            "scene": "node111",
+            "target": "node110",
+            "title": "Ruang Teknik Mesin",
+            "id": "Point02",
+            "pan": 267.94,
+            "tilt": -9.2
+        },
+        {
+            "scene": "node111",
+            "target": "node111",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -255.46,
+            "tilt": -22.57
+        },
+        {
+            "scene": "node115",
+            "target": "node111",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -255.46,
+            "tilt": -22.57
+        },
+        {
+            "scene": "node112",
+            "target": "node106",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -213.56,
+            "tilt": -14.34
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 169,
+            "label": "Simulator Jembatan",
+            "description": "Fasilitas pelatihan canggih berupa replika anjungan kapal sesungguhnya yang digunakan untuk mensimulasikan olah gerak dan navigasi kapal. Simulator ini bertujuan meningkatkan kompetensi taruna Nautika agar mampu mengendalikan kapal, menguasai peralatan navigasi, dan merespons berbagai kondisi laut sebelum mereka berlayar di laut nyata.",
+            "fragment": "simulatorjembatan",
+            "link": "politeknikakpelni/index.html#simulatorjembatan",
+            "sceneId": "node109"
+        },
+        {
+            "infoId": 170,
+            "label": "Anjungan Kapal",
+            "description": "Fasilitas replika anjungan kapal di Politeknik Bumi Akpelni Semarang adalah Full Mission Ship Handling Simulator (FMSS) yang meniru secara persis ruang kemudi (anjungan) kapal sungguhan. Fasilitas ini digunakan untuk melatih taruna Nautika secara realistis dalam manuver, navigasi, dan manajemen sumber daya anjungan (BRM) untuk menghadapi berbagai skenario operasional dan darurat di laut.",
+            "fragment": "anjungankapal",
+            "link": "politeknikakpelni/index.html#anjungankapal",
+            "sceneId": "node89"
+        },
+        {
+            "infoId": 171,
+            "label": "Lab Bahasa",
+            "description": "Sarana pendukung akademik yang dirancang khusus untuk pengembangan intensif keterampilan berbahasa asing para taruna, terutama Bahasa Inggris. Lab ini memiliki peran penting dalam menunjang kompetensi lulusan agar memiliki standarisasi Bahasa Inggris yang diakui secara internasional, sesuai tuntutan dunia maritim global.",
+            "fragment": "labbahasa",
+            "link": "politeknikakpelni/index.html#labbahasa",
+            "sceneId": "node96"
+        },
+        {
+            "infoId": 172,
+            "label": "LAB KOMPUTER",
+            "description": "Sarana praktik yang menyediakan perangkat keras (PC) dan perangkat lunak yang memadai, dilengkapi dengan akses internet dan AC, untuk menunjang kegiatan akademik taruna. Laboratorium ini berfungsi sebagai pendukung utama kegiatan praktikum, perkuliahan, dan pengembangan keterampilan digital yang esensial dalam menunjang kompetensi lulusan di dunia kerja maritim.",
+            "fragment": "labkomputer",
+            "link": "politeknikakpelni/index.html#labkomputer",
+            "sceneId": "node95"
+        },
+        {
+            "infoId": 173,
+            "label": "Pusat Simulator Navigasi",
+            "description": "Navigation Simulator Center adalah ruangan simulasi canggih yang digunakan untuk melatih taruna Nautika dalam olah gerak dan navigasi kapal niaga secara virtual. Simulator ini penting untuk meningkatkan kompetensi taruna dalam hal watch keeping, meteorologi, dan penerapan aturan pencegahan tabrakan di laut (Collision Regulation).",
+            "fragment": "pusatsimulatornavigasi",
+            "link": "politeknikakpelni/index.html#pusatsimulatornavigasi",
+            "sceneId": "node108"
+        },
+        {
+            "infoId": 174,
+            "label": "LAB FMERS",
+            "description": "Fasilitas Full Mission Engine Room Simulator (FMERS) di Politeknik Bumi Akpelni Semarang adalah replika ruang kontrol kamar mesin kapal lengkap yang dirancang untuk mensimulasikan operasional dan kondisi mesin di atas kapal. Simulator ini bertujuan melatih taruna Teknika secara intensif dalam mengelola, mengoperasikan, dan mengatasi gangguan pada sistem utama mesin kapal sebelum mereka terjun ke praktik laut.",
+            "fragment": "labfmers",
+            "link": "politeknikakpelni/index.html#labfmers",
+            "sceneId": "node94"
+        },
+        {
+            "infoId": 175,
+            "label": "GMDSS",
+            "description": "Global Maritime Distress and Safety System (GMDSS) di Politeknik Bumi Akpelni Semarang adalah laboratorium simulator komunikasi maritim yang berfokus pada sistem keselamatan global untuk pelayaran. Simulator ini digunakan untuk melatih taruna mengoperasikan peralatan komunikasi darurat seperti VHF, EPIRB, dan SART, guna memastikan mereka kompeten dalam mengirim dan menerima berita marabahaya di laut sesuai standar internasional.",
+            "fragment": "gmdss",
+            "link": "politeknikakpelni/index.html#gmdss",
+            "sceneId": "node91"
+        },
+        {
+            "infoId": 176,
+            "label": "Lab Mesin Kapal induk",
+            "description": "Lab Mesin Kapal Induk (Engine Simulator) Fasilitas ini sebenarnya dikenal sebagai Engine Simulator (Simulator Mesin Kapal) dan bukan spesifik kapal induk. Engine Simulator adalah ruang praktik yang digunakan taruna Teknika Kapal untuk mempelajari dan mengoperasikan sistem permesinan kapal, termasuk main engine, sistem pendinginan, dan sistem bahan bakar.",
+            "fragment": "labmesinkapal",
+            "link": "politeknikakpelni/index.html#labmesinkapal",
+            "sceneId": "node110"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "0056f725bcae3e70",
+        "skin.js": "07cc130f7ace3ceb",
+        "index.html": "b85b32c102da4e61"
+    }
+}

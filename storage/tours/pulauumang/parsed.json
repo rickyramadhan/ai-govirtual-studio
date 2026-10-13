@@ -1,0 +1,497 @@
+{
+    "startNode": "Pulau Umang (Tampilan Drone)",
+    "scenes": [
+        {
+            "id": "Pulau Umang (Tampilan Drone)",
+            "name": "Pulau Umang (Tampilan Drone)",
+            "displayName": "Pulau Umang (Tampilan Drone)",
+            "rawName": "Pulau Umang Default Drone",
+            "customNodeId": "PulauUmangUmang",
+            "pan": -6.35,
+            "tilt": -11.91,
+            "fov": 127.48,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "PulauUmangUmang",
+                "Pulau Umang Default Drone"
+            ]
+        },
+        {
+            "id": "Pantai Umang",
+            "name": "Pantai Umang",
+            "displayName": "Pantai Umang",
+            "rawName": "",
+            "customNodeId": "PantaiUmangUmang",
+            "pan": 8.93,
+            "tilt": -23.39,
+            "fov": 127.92,
+            "tags": [
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "PantaiUmangUmang"
+            ]
+        },
+        {
+            "id": "Penyewaan Perahu",
+            "name": "Penyewaan Perahu",
+            "displayName": "Penyewaan Perahu",
+            "rawName": "",
+            "customNodeId": "SewaPerahu",
+            "pan": -0.73,
+            "tilt": 3.84,
+            "fov": 138.38,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "SewaPerahu"
+            ]
+        },
+        {
+            "id": "Gunung Sebesi",
+            "name": "Gunung Sebesi",
+            "displayName": "Gunung Sebesi",
+            "rawName": "",
+            "customNodeId": "gunungsebesi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "gunungsebesi"
+            ]
+        },
+        {
+            "id": "Dermaga Pulau Umang",
+            "name": "Dermaga Pulau Umang",
+            "displayName": "Dermaga Pulau Umang",
+            "rawName": "",
+            "customNodeId": "Dermaga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "Dermaga"
+            ]
+        },
+        {
+            "id": "Spot Matahari Terbit",
+            "name": "Spot Matahari Terbit",
+            "displayName": "Spot Matahari Terbit",
+            "rawName": "",
+            "customNodeId": "matahari",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "matahari"
+            ]
+        },
+        {
+            "id": "Pohon Ketapang",
+            "name": "Pohon Ketapang",
+            "displayName": "Pohon Ketapang",
+            "rawName": "",
+            "customNodeId": "pohonketapang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "pohonketapang"
+            ]
+        },
+        {
+            "id": "Penyimpanan Kayak",
+            "name": "Penyimpanan Kayak",
+            "displayName": "Penyimpanan Kayak",
+            "rawName": "",
+            "customNodeId": "penyimpanankayak",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "penyimpanankayak"
+            ]
+        },
+        {
+            "id": "Pantai Pasir Putih",
+            "name": "Pantai Pasir Putih",
+            "displayName": "Pantai Pasir Putih",
+            "rawName": "",
+            "customNodeId": "pantaipasirputih",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "PulauUmangUmang"
+            ],
+            "aliases": [
+                "pantaipasirputih"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "Pulau Umang (Tampilan Drone)",
+            "target": "Pantai Umang",
+            "title": "Drone Tampak Utara",
+            "id": "Point04",
+            "pan": -10.24,
+            "tilt": 7.98
+        },
+        {
+            "scene": "Pulau Umang (Tampilan Drone)",
+            "target": "Spot Matahari Terbit",
+            "title": "Pulau Umang Umang",
+            "id": "Point07",
+            "pan": -5.22,
+            "tilt": -28.67
+        },
+        {
+            "scene": "Pulau Umang (Tampilan Drone)",
+            "target": "Pohon Ketapang",
+            "title": "Pesisir Pantai",
+            "id": "Point08",
+            "pan": -318.85,
+            "tilt": -12.21
+        },
+        {
+            "scene": "Pulau Umang (Tampilan Drone)",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Pantai Umang",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Drone Tampak Selatan",
+            "id": "Point01",
+            "pan": -12.01,
+            "tilt": -1.39
+        },
+        {
+            "scene": "Pantai Umang",
+            "target": "Gunung Sebesi",
+            "title": "Dermaga Pulau Umang",
+            "id": "Point06",
+            "pan": -348.21,
+            "tilt": -21.32
+        },
+        {
+            "scene": "Pantai Umang",
+            "target": "Pohon Ketapang",
+            "title": "Pulau Umang Umang",
+            "id": "Point07",
+            "pan": -17.01,
+            "tilt": -17.96
+        },
+        {
+            "scene": "Pantai Umang",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Penyewaan Perahu",
+            "target": "Dermaga Pulau Umang",
+            "title": "Dermaga Pulau Umang",
+            "id": "Point01",
+            "pan": -216.7,
+            "tilt": -5.64
+        },
+        {
+            "scene": "Penyewaan Perahu",
+            "target": "Penyimpanan Kayak",
+            "title": "Pulau Umang Umang",
+            "id": "Point02",
+            "pan": -349,
+            "tilt": -4.39
+        },
+        {
+            "scene": "Penyewaan Perahu",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Gunung Sebesi",
+            "target": "Dermaga Pulau Umang",
+            "title": "Dermaga Pulau Umang",
+            "id": "Point01",
+            "pan": -186.56,
+            "tilt": 0.43
+        },
+        {
+            "scene": "Gunung Sebesi",
+            "target": "Spot Matahari Terbit",
+            "title": "Pesisir Pantai",
+            "id": "Point02",
+            "pan": -124.64,
+            "tilt": -1.41
+        },
+        {
+            "scene": "Gunung Sebesi",
+            "target": "Pantai Pasir Putih",
+            "title": "Pulau Umang Umang",
+            "id": "Point03",
+            "pan": -227.44,
+            "tilt": -1.15
+        },
+        {
+            "scene": "Gunung Sebesi",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Dermaga Pulau Umang",
+            "target": "Gunung Sebesi",
+            "title": "Dermaga Pulau Umang",
+            "id": "Point01",
+            "pan": -266.3,
+            "tilt": -3.3
+        },
+        {
+            "scene": "Dermaga Pulau Umang",
+            "target": "Penyewaan Perahu",
+            "title": "Gerbang Pulau Umang",
+            "id": "Point02",
+            "pan": -118.97,
+            "tilt": 1.99
+        },
+        {
+            "scene": "Dermaga Pulau Umang",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Spot Matahari Terbit",
+            "target": "Gunung Sebesi",
+            "title": "Dermaga Pulau Umang",
+            "id": "Point01",
+            "pan": -291.29,
+            "tilt": -2.09
+        },
+        {
+            "scene": "Spot Matahari Terbit",
+            "target": "Pohon Ketapang",
+            "title": "Pesisir Pantai",
+            "id": "Point02",
+            "pan": -168.57,
+            "tilt": -1.39
+        },
+        {
+            "scene": "Spot Matahari Terbit",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Pohon Ketapang",
+            "target": "Pantai Pasir Putih",
+            "title": "Pulau Umang Umang",
+            "id": "Point01",
+            "pan": -143.08,
+            "tilt": 0.44
+        },
+        {
+            "scene": "Pohon Ketapang",
+            "target": "Spot Matahari Terbit",
+            "title": "Pesisir Pantai",
+            "id": "Point02",
+            "pan": -261.57,
+            "tilt": 0.22
+        },
+        {
+            "scene": "Pohon Ketapang",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Penyimpanan Kayak",
+            "target": "Penyewaan Perahu",
+            "title": "Gerbang Pulau Umang",
+            "id": "Point01",
+            "pan": -193.28,
+            "tilt": -4.9
+        },
+        {
+            "scene": "Penyimpanan Kayak",
+            "target": "Pantai Pasir Putih",
+            "title": "Pulau Umang Umang",
+            "id": "Point02",
+            "pan": -81.88,
+            "tilt": -5.18
+        },
+        {
+            "scene": "Penyimpanan Kayak",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -170,
+            "tilt": 5.72
+        },
+        {
+            "scene": "Pantai Pasir Putih",
+            "target": "Penyimpanan Kayak",
+            "title": "Pulau Umang Umang",
+            "id": "Point01",
+            "pan": -215.22,
+            "tilt": -10.73
+        },
+        {
+            "scene": "Pantai Pasir Putih",
+            "target": "Pohon Ketapang",
+            "title": "Pesisir Pantai",
+            "id": "Point02",
+            "pan": -305.79,
+            "tilt": 0.45
+        },
+        {
+            "scene": "Pantai Pasir Putih",
+            "target": "Gunung Sebesi",
+            "title": "Dermaga Pulau Umang",
+            "id": "Point03",
+            "pan": -80.72,
+            "tilt": -1.96
+        },
+        {
+            "scene": "Pantai Pasir Putih",
+            "target": "Pulau Umang (Tampilan Drone)",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -170,
+            "tilt": 5.72
+        }
+    ],
+    "objects": [],
+    "video360": [],
+    "oiPositions": {
+        "Pulau Umang (Tampilan Drone)": [
+            {
+                "pan": -21.95,
+                "tilt": -15.46,
+                "fov": 13
+            },
+            {
+                "pan": -150.64,
+                "tilt": -52.39,
+                "fov": 18
+            }
+        ],
+        "Penyewaan Perahu": [
+            {
+                "pan": -33.64,
+                "tilt": -3.35,
+                "fov": 17
+            }
+        ],
+        "Gunung Sebesi": [
+            {
+                "pan": -355.64,
+                "tilt": 7.82,
+                "fov": 13
+            },
+            {
+                "pan": -224.19,
+                "tilt": 13.97,
+                "fov": 13
+            }
+        ],
+        "Dermaga Pulau Umang": [
+            {
+                "pan": -282.44,
+                "tilt": -13.94,
+                "fov": 14.61
+            }
+        ],
+        "Spot Matahari Terbit": [
+            {
+                "pan": -40.22,
+                "tilt": -1.6,
+                "fov": 13
+            },
+            {
+                "pan": -353.81,
+                "tilt": 17.3,
+                "fov": 10
+            }
+        ],
+        "Pohon Ketapang": [
+            {
+                "pan": -21.09,
+                "tilt": 4.25,
+                "fov": 13
+            },
+            {
+                "pan": -193.06,
+                "tilt": 5.45,
+                "fov": 13
+            }
+        ],
+        "Penyimpanan Kayak": [
+            {
+                "pan": -125.72,
+                "tilt": -1.89,
+                "fov": 13
+            }
+        ],
+        "Pantai Pasir Putih": [
+            {
+                "pan": -325.11,
+                "tilt": -17.14,
+                "fov": 13
+            }
+        ]
+    },
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "14247344024a8df1",
+        "skin.js": "5da0385a7940251e",
+        "index.html": "f32ff89a15f7b370"
+    }
+}

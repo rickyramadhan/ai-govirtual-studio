@@ -1,0 +1,774 @@
+{
+    "version": "1.0",
+    "tourId": "green-fresh-farm",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Jam berapa Green Fresh Farm buka?",
+            "answer": "Green Fresh Farm beroperasi setiap hari mulai pukul 08.00 hingga 17.00 WIB.",
+            "aliases": [
+                "jam operasional",
+                "kapan buka",
+                "jam kerja",
+                "jam berapa buka"
+            ],
+            "keywords": [
+                "jam",
+                "buka",
+                "operasional",
+                "jam kerja"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Di mana lokasi Kampung Edu Wisata Green Fresh Farm?",
+            "answer": "Green Fresh Farm berlokasi di Kelurahan Jatirejo, Kecamatan Gunungpati, Kota Semarang.",
+            "aliases": [
+                "alamat green fresh farm",
+                "letak gff",
+                "di mana gff"
+            ],
+            "keywords": [
+                "lokasi",
+                "alamat",
+                "tempat",
+                "kota semarang"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Apa nama lain atau singkatan dari Green Fresh Farm?",
+            "answer": "Green Fresh Farm sering disingkat sebagai GFF.",
+            "aliases": [
+                "singkatan green fresh farm",
+                "apa itu gff"
+            ],
+            "keywords": [
+                "singkatan",
+                "gff",
+                "nama lain"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Di wilayah RT dan RW berapa Green Fresh Farm berada?",
+            "answer": "Green Fresh Farm terletak di wilayah RW 04 yang mencakup RT 01, RT 02, dan RT 03, di Kampung Blabak.",
+            "aliases": [
+                "rt rw gff",
+                "wilayah gff",
+                "kampung blabak"
+            ],
+            "keywords": [
+                "rt",
+                "rw",
+                "blabak",
+                "wilayah"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apa konsep utama yang diusung oleh Green Fresh Farm?",
+            "answer": "Green Fresh Farm mengusung konsep wisata edukasi (eduwisata) lingkungan dan pertanian.",
+            "aliases": [
+                "konsep gff",
+                "tema green fresh farm",
+                "eduwisata apa"
+            ],
+            "keywords": [
+                "konsep",
+                "eduwisata",
+                "edukasi",
+                "pertanian"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Kapan Kampung Tematik Edukasi Wisata GFF diusulkan dan disetujui?",
+            "answer": "Kampung Tematik Edukasi Wisata GFF diusulkan ke Bappeda Pemerintah Kota Semarang pada tahun 2023 dan disetujui melalui SK Walikota Semarang.",
+            "aliases": [
+                "tahun berapa gff disahkan",
+                "sejarah gff",
+                "sk walikota gff"
+            ],
+            "keywords": [
+                "sk",
+                "walikota",
+                "2023",
+                "usulan",
+                "bappeda"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Pihak universitas mana yang bekerja sama dalam pengembangan Green Fresh Farm?",
+            "answer": "Pengembangan Green Fresh Farm melibatkan kerja sama dengan tim peneliti Kedaireka dari Universitas Soegijapranata (SCU).",
+            "aliases": [
+                "unika soegijapranata",
+                "kedaireka gff",
+                "kampus pendamping gff"
+            ],
+            "keywords": [
+                "universitas",
+                "soegijapranata",
+                "kedaireka",
+                "scu"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Apa saja fasilitas fisik wahana bermain anak di Green Fresh Farm?",
+            "answer": "Fasilitas fisik yang tersedia meliputi wahana bermain anak, jungkit-jungkit, dan kora-kora.",
+            "aliases": [
+                "wahana anak gff",
+                "mainan anak gff",
+                "jungkit jungkit"
+            ],
+            "keywords": [
+                "wahana",
+                "anak",
+                "bermain",
+                "jungkit",
+                "kora kora"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah ada fasilitas edukasi hewan kelinci di Green Fresh Farm?",
+            "answer": "Ya, terdapat fasilitas taman kelinci lengkap beserta pembelian hewan kelincinya.",
+            "aliases": [
+                "taman kelinci gff",
+                "ada kelinci di gff",
+                "edukasi kelinci"
+            ],
+            "keywords": [
+                "kelinci",
+                "taman",
+                "hewan",
+                "edukasi"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apakah tersedia fasilitas kandang burung atau aviary di Green Fresh Farm?",
+            "answer": "Ya, tersedia fasilitas kandang burung (aviary) beserta koleksi burung di dalamnya.",
+            "aliases": [
+                "aviary gff",
+                "kandang burung gff",
+                "burung apa saja"
+            ],
+            "keywords": [
+                "aviary",
+                "kandang burung",
+                "burung"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Apakah terdapat fasilitas hewan kalkun di Green Fresh Farm?",
+            "answer": "Ya, tersedia pembuatan kandang kalkun serta pengadaan hewan kalkun untuk edukasi.",
+            "aliases": [
+                "kalkun gff",
+                "kandang kalkun",
+                "ada kalkun"
+            ],
+            "keywords": [
+                "kalkun",
+                "kandang",
+                "ternak"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apakah ada fasilitas hewan kambing di Green Fresh Farm?",
+            "answer": "Ya, terdapat fasilitas kandang kambing serta pengadaan kambing sebagai sarana edukasi peternakan.",
+            "aliases": [
+                "kambing gff",
+                "kandang kambing",
+                "peternakan kambing"
+            ],
+            "keywords": [
+                "kambing",
+                "kandang",
+                "peternakan"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apa saja fasilitas pendukung akses dan penunjuk arah di lokasi?",
+            "answer": "Fasilitas pendukungnya meliputi pembuatan gapura masuk, papan penunjuk arah, serta para-para masuk ke kawasan GFF.",
+            "aliases": [
+                "gapura gff",
+                "petunjuk arah gff",
+                "jalan masuk gff"
+            ],
+            "keywords": [
+                "gapura",
+                "petunjuk arah",
+                "para para",
+                "akses"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Fasilitas gazebo apa yang dibangun di kawasan Green Fresh Farm?",
+            "answer": "Di kawasan ini dibangun gazebo tematik yang dikelola oleh kelompok UMKM tingkat RW.",
+            "aliases": [
+                "gazebo gff",
+                "gazebo tematik",
+                "tempat istirahat gff"
+            ],
+            "keywords": [
+                "gazebo",
+                "tematik",
+                "umkm",
+                "istirahat"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apakah tersedia peta wisata di Green Fresh Farm?",
+            "answer": "Ya, terdapat fasilitas peta wisata yang memudahkan pengunjung dalam menjelajahi area GFF.",
+            "aliases": [
+                "peta gff",
+                "denah lokasi gff",
+                "map eduwisata"
+            ],
+            "keywords": [
+                "peta",
+                "denah",
+                "wisata"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Bagaimana infrastruktur air dan listrik di Green Fresh Farm?",
+            "answer": "Kawasan ini telah dilengkapi dengan pemasangan instalasi air bersih serta jaringan instalasi listrik.",
+            "aliases": [
+                "air gff",
+                "listrik gff",
+                "instalasi air dan listrik"
+            ],
+            "keywords": [
+                "instalasi",
+                "air",
+                "listrik",
+                "fasilitas"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apa saja program pelatihan non-fisik yang pernah diadakan di Green Fresh Farm?",
+            "answer": "Program pelatihan non-fisik meliputi pelatihan budidaya tanaman dan pelatihan pembuatan aneka olahan produk lokal.",
+            "aliases": [
+                "pelatihan gff",
+                "kursus gff",
+                "program edukasi warga"
+            ],
+            "keywords": [
+                "pelatihan",
+                "non fisik",
+                "olahan",
+                "budidaya"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Tanaman apa yang menjadi fokus dalam pelatihan budidaya di GFF?",
+            "answer": "Salah satu fokus pelatihan budidaya di tempat ini adalah budidaya tanaman buah jambu kristal.",
+            "aliases": [
+                "budidaya jambu gff",
+                "jambu kristal gff",
+                "kebun jambu"
+            ],
+            "keywords": [
+                "jambu",
+                "kristal",
+                "budidaya",
+                "tanaman"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Olahan produk lokal apa yang dilatihkan kepada warga di Green Fresh Farm?",
+            "answer": "Warga pernah dilatih membuat produk olahan lokal seperti es krim susu, yogurt susu, serta aneka olahan produk lokal lainnya.",
+            "aliases": [
+                "es krim gff",
+                "yogurt gff",
+                "olahan susu gff"
+            ],
+            "keywords": [
+                "es krim",
+                "yogurt",
+                "susu",
+                "olahan lokal"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Siapa yang memimpin pengelolaan wilayah RW 04 Green Fresh Farm?",
+            "answer": "Wilayah RW 04 GFF dipimpin oleh Bapak Purwito selaku Ketua RW setempat.",
+            "aliases": [
+                "ketua rw gff",
+                "siapa ketua rw 04 jatirejo",
+                "purwito gff"
+            ],
+            "keywords": [
+                "ketua rw",
+                "purwito",
+                "pengampu wilayah"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Siapa pejabat yang menyerahkan hasil pembangunan tematik GFF secara simbolis pada Januari 2025?",
+            "answer": "Penyerahan hasil pembangunan diserahkan secara simbolis oleh Plt. Camat Gunungpati saat itu, Al Frida Very Sanavel, S.STP, M.Si.",
+            "aliases": [
+                "camat gunungpati gff",
+                "al frida very sanavel"
+            ],
+            "keywords": [
+                "camat",
+                "gunungpati",
+                "al frida",
+                "pejabat"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Apa nama kampung lain yang ada di Kelurahan Jatirejo selain GFF?",
+            "answer": "Kelurahan Jatirejo juga memiliki Kampung Kokolaka (Olahan Kolang-kaling di RW 1), Kampung Kambera (Cabe Rawit di RW 2), dan Kampung Kajera (Jahe Merah di RW 3).",
+            "aliases": [
+                "kampung tematik jatirejo",
+                "kokolaka",
+                "kambera",
+                "kajera"
+            ],
+            "keywords": [
+                "kampung tematik",
+                "kokolaka",
+                "kambera",
+                "kajera"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Makanan khas apa yang disajikan saat verifikasi lapangan di Kelurahan Jatirejo?",
+            "answer": "Saat verifikasi lapangan disajikan makanan khas Nasi Guling, yaitu akronim dari Gudangan dan Osengan Kolang-kaling.",
+            "aliases": [
+                "nasi guling jatirejo",
+                "makanan khas gff",
+                "gudangan kolang kaling"
+            ],
+            "keywords": [
+                "nasi guling",
+                "makanan khas",
+                "gudangan"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Bagaimana metode pelaksanaan pembangunan fisik fasilitas di Green Fresh Farm?",
+            "answer": "Pembangunan fisik dilakukan secara swakelola yang dikerjakan langsung oleh warga masyarakat dan kelompok setempat.",
+            "aliases": [
+                "swakelola gff",
+                "siapa yang membangun gff",
+                "gotong royong gff"
+            ],
+            "keywords": [
+                "swakelola",
+                "warga",
+                "pembangunan fisik"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apa fungsi utama dari gazebo tematik di Green Fresh Farm?",
+            "answer": "Gazebo tematik berfungsi bagi kelompok UMKM tingkat RW untuk menjajakan produk lokal saat ada kunjungan wisata maupun jualan sehari-hari.",
+            "aliases": [
+                "fungsi gazebo gff",
+                "tempat jualan umkm gff"
+            ],
+            "keywords": [
+                "fungsi gazebo",
+                "umkm",
+                "jualan",
+                "produk"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apakah Green Fresh Farm cocok untuk wisata keluarga dan anak-anak?",
+            "answer": "Ya, sangat cocok karena menyediakan taman kelinci, wahana bermain, serta edukasi alam yang ramah anak.",
+            "aliases": [
+                "wisata keluarga gff",
+                "liburan anak gff",
+                "tempat anak semarang"
+            ],
+            "keywords": [
+                "keluarga",
+                "anak",
+                "ramah anak",
+                "liburan"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Bagaimana cara menuju ke lokasi Green Fresh Farm?",
+            "answer": "Pengunjung dapat menggunakan kendaraan pribadi atau umum menuju ke Kelurahan Jatirejo, Kecamatan Gunungpati, Kota Semarang dengan mengikuti papan petunjuk arah ke Kampung Blabak RW 04.",
+            "aliases": [
+                "rute gff",
+                "jalan ke green fresh farm",
+                "akses gff"
+            ],
+            "keywords": [
+                "rute",
+                "akses",
+                "jalan",
+                "petunjuk"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apa saja potensi unggulan di Kampung Blabak Jatirejo?",
+            "answer": "Potensi unggulannya adalah Kampung Edu Wisata Green Fresh Farm (GFF) yang berbasis edukasi pertanian dan peternakan.",
+            "aliases": [
+                "potensi gff",
+                "keunggulan gff",
+                "kampung blabak"
+            ],
+            "keywords": [
+                "potensi",
+                "unggulan",
+                "blabak",
+                "eduwisata"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apakah ada kegiatan rutin UMKM di kawasan Green Fresh Farm?",
+            "answer": "Ya, terdapat aktivitas pemberdayaan UMKM lokal RW yang menjajakan produk olahan khas di area gazebo tematik.",
+            "aliases": [
+                "umkm gff",
+                "produk lokal gff",
+                "dagangan warga gff"
+            ],
+            "keywords": [
+                "umkm",
+                "produk lokal",
+                "wirausaha"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Kapan anggaran DPA pemerintah kota mulai merealisasikan pembangunan fisik GFF?",
+            "answer": "Realisasi anggaran pembangunan fisik GFF dilanjutkan dan direalisasikan pada tahun anggaran 2024.",
+            "aliases": [
+                "anggaran gff 2024",
+                "dpa gff",
+                "tahun pembangunan gff"
+            ],
+            "keywords": [
+                "anggaran",
+                "dpa",
+                "2024",
+                "fisik"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Apakah Green Fresh Farm melibatkan peran pemuda setempat?",
+            "answer": "Ya, kegiatan acara di kawasan ini, seperti susunan acara peresmian dan pengelolaan, turut melibatkan Karang Taruna setempat.",
+            "aliases": [
+                "karang taruna gff",
+                "pemuda gff",
+                "peran pemuda jatirejo"
+            ],
+            "keywords": [
+                "karang taruna",
+                "pemuda",
+                "warga"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Apa bentuk dukungan dari Kelompok Tani Ternak di Green Fresh Farm?",
+            "answer": "Kelompok Tani Ternak berperan dalam mengelola sektor peternakan seperti sapi dan kambing serta mengikuti pelatihan kemandirian SDM.",
+            "aliases": [
+                "kelompok tani ternak gff",
+                "peternak gff"
+            ],
+            "keywords": [
+                "tani",
+                "ternak",
+                "kelompok",
+                "mandiri"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Apakah ada papan penunjuk lokasi khusus untuk masuk area GFF?",
+            "answer": "Ya, pemerintah telah membuatkan papan penunjuk arah dan gapura masuk khusus untuk memudahkan pengunjung menemukan kawasan GFF.",
+            "aliases": [
+                "papan arah gff",
+                "petunjuk jalan gff"
+            ],
+            "keywords": [
+                "papan",
+                "penunjuk arah",
+                "gapura"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Apa peran Babinsa dan Bhabinkamtibmas di Green Fresh Farm?",
+            "answer": "Babinsa dan Bhabinkamtibmas turut hadir dan berperan dalam mengawal keamanan serta kelancaran kegiatan peresmian hasil pembangunan di Kelurahan Jatirejo.",
+            "aliases": [
+                "keamanan gff",
+                "babinsa jatirejo",
+                "bhabinkamtibmas gff"
+            ],
+            "keywords": [
+                "babinsa",
+                "bhabinkamtibmas",
+                "keamanan"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apakah Green Fresh Farm merupakan bagian dari program kampung tematik Semarang?",
+            "answer": "Ya, GFF adalah salah satu kampung tematik resmi yang dikembangkan oleh Pemerintah Kota Semarang di bawah Bappeda.",
+            "aliases": [
+                "kampung tematik semarang",
+                "program kota semarang gff"
+            ],
+            "keywords": [
+                "kampung tematik",
+                "pemkot semarang",
+                "bappeda"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Bagaimana kualitas SDM peternak setelah mendapat pembinaan di GFF?",
+            "answer": "Pembinaan bertujuan agar tim peternak di desa Jatirejo menjadi SDM yang mandiri dan mampu meningkatkan kualitas hidup serta beradaptasi dengan baik.",
+            "aliases": [
+                "kemandirian peternak gff",
+                "sdm gff"
+            ],
+            "keywords": [
+                "sdm",
+                "mandiri",
+                "peternak",
+                "kualitas"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Apa saja hewan ternak utama yang ada dalam program edukasi GFF?",
+            "answer": "Hewan ternak utamanya meliputi sapi, kambing, kelinci, burung (aviary), dan kalkun.",
+            "aliases": [
+                "hewan gff",
+                "binatang di gff",
+                "ternak gff"
+            ],
+            "keywords": [
+                "hewan",
+                "ternak",
+                "sapi",
+                "kambing",
+                "kelinci"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Di mana pusat pemerintahan kelurahan yang membawahi Green Fresh Farm?",
+            "answer": "Kawasan ini berada di bawah administrasi Kelurahan Jatirejo, Kecamatan Gunungpati, Kota Semarang.",
+            "aliases": [
+                "kelurahan jatirejo",
+                "kecamatan gunungpati",
+                "kantor kelurahan"
+            ],
+            "keywords": [
+                "kelurahan jatirejo",
+                "kecamatan gunungpati"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Apakah ada fasilitas pagar kebun buah di Green Fresh Farm?",
+            "answer": "Ya, terdapat fasilitas pembuatan pagar jambu serta area kebun jambu.",
+            "aliases": [
+                "pagar jambu gff",
+                "kebun jambu gff"
+            ],
+            "keywords": [
+                "pagar jambu",
+                "kebun",
+                "tanaman"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Siapa yang memegang peran sebagai Ketua LPMK Kelurahan Jatirejo?",
+            "answer": "Ketua LPMK Kelurahan Jatirejo turut dilibatkan dan hadir dalam struktur koordinasi pembangunan wilayah eduwisata GFF.",
+            "aliases": [
+                "lpmk jatirejo",
+                "ketua lpmk gff"
+            ],
+            "keywords": [
+                "lpmk",
+                "kelurahan jatirejo"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Apakah Green Fresh Farm terbuka untuk kunjungan study tour sekolah?",
+            "answer": "Ya, sebagai pusat eduwisata pertanian dan peternakan, tempat ini sangat ideal dikunjungi untuk kegiatan study tour anak sekolah.",
+            "aliases": [
+                "study tour gff",
+                "wisata sekolah gff",
+                "edukasi siswa"
+            ],
+            "keywords": [
+                "study tour",
+                "sekolah",
+                "siswa",
+                "kunjungan"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Apa bentuk sinergi antara akademisi dan masyarakat di Green Fresh Farm?",
+            "answer": "Sinergi terwujud melalui program Kedaireka perguruan tinggi yang mendampingi warga dalam pengembangan wisata edukasi dan pengolahan hasil ternak.",
+            "aliases": [
+                "sinergi kampus gff",
+                "akademisi gff"
+            ],
+            "keywords": [
+                "sinergi",
+                "akademisi",
+                "masyarakat",
+                "pendampingan"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Bagaimana kebun dan tanaman dirawat di Green Fresh Farm?",
+            "answer": "Perawatan tanaman dan kebun dilakukan secara gotong royong oleh warga melalui sistem swakelola dan kelompok sadar wisata (Deswita).",
+            "aliases": [
+                "perawatan gff",
+                "deswita jatirejo",
+                "sadar wisata"
+            ],
+            "keywords": [
+                "perawatan",
+                "deswita",
+                "gotong royong"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Apakah ada acara pemotongan tumpeng saat peresmian hasil pembangunan GFF?",
+            "answer": "Ya, acara peresmian hasil pembangunan fisik GFF pada Januari 2025 ditandai dengan prosesi pemotongan tumpeng dan ramah tamah warga.",
+            "aliases": [
+                "tumpeng gff",
+                "peresmian gff"
+            ],
+            "keywords": [
+                "tumpeng",
+                "peresmian",
+                "syukuran"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Bagaimana pengelolaan aset fisik setelah proyek pembangunan selesai?",
+            "answer": "Aset fisik diserahkan kepada masyarakat melalui Ketua RW dan kelompok GFF agar dirawat dan dijaga kelangsungannya.",
+            "aliases": [
+                "perawatan aset gff",
+                "pemeliharaan gff"
+            ],
+            "keywords": [
+                "aset",
+                "pemeliharaan",
+                "pengelolaan"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Apa media atau wadah promosi bagi produk olahan warga di GFF?",
+            "answer": "Wadah promosi produk olahan warga menggunakan Gazebo Tematik yang dikelola oleh UMKM tingkat RW.",
+            "aliases": [
+                "promosi gff",
+                "jualan warga gff",
+                "umkm rw gff"
+            ],
+            "keywords": [
+                "promosi",
+                "wadah",
+                "umkm",
+                "gazebo"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah Green Fresh Farm memiliki fokus pada produk susu sapi?",
+            "answer": "Ya, salah satu sorotan utama dalam program eduwisata ini adalah peternakan dan pengolahan produk susu sapi di Jatirejo.",
+            "aliases": [
+                "susu sapi gff",
+                "peternakan sapi jatirejo"
+            ],
+            "keywords": [
+                "susu sapi",
+                "peternakan",
+                "olahan susu"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apa nama dusun atau wilayah kampung tempat GFF berpusat?",
+            "answer": "Kampung Edu Wisata Green Fresh Farm berpusat di wilayah Kampung Blabak.",
+            "aliases": [
+                "kampung blabak gff",
+                "dusun blabak jatirejo"
+            ],
+            "keywords": [
+                "kampung blabak",
+                "dusun",
+                "wilayah"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Apakah ada unsur rekreasi selain edukasi di Green Fresh Farm?",
+            "answer": "Ya, tersedia unsur rekreasi berupa wahana permainan anak, kora-kora, jungkit-jungkit, serta interaksi dengan hewan-hewan lucu.",
+            "aliases": [
+                "rekreasi gff",
+                "hiburan gff",
+                "mainan gff"
+            ],
+            "keywords": [
+                "rekreasi",
+                "hiburan",
+                "permainan"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Bagaimana peran PKK dalam mendukung Kampung Edu Wisata Green Fresh Farm?",
+            "answer": "Tim Penggerak PKK (TP PKK) tingkat RT dan RW turut aktif berpartisipasi dalam mendukung kegiatan kemasyarakatan dan pengelolaan GFF.",
+            "aliases": [
+                "pkk gff",
+                "pkk rt rw gff",
+                "ibu ibu pkk jatirejo"
+            ],
+            "keywords": [
+                "pkk",
+                "tp pkk",
+                "warga",
+                "peranan"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "mandhalabakti",
+    "tourName": "Mandhalabakti",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Senjata paling bersejarah?",
+                "query": "Apa koleksi senjata yang dinilai paling bersejarah atau tertua di museum ini?",
+                "desc": "Apa koleksi senjata yang dinilai paling bersejarah atau tertua di museum ini?"
+            },
+            {
+                "label": "Kapan museum ini diresmikan?",
+                "query": "Kapan tepatnya bangunan ini dialihfungsikan dan diresmikan sebagai museum perjuangan?",
+                "desc": "Kapan tepatnya bangunan ini dialihfungsikan dan diresmikan sebagai museum perjuangan?"
+            },
+            {
+                "label": "Apakah ada pemandu museum?",
+                "query": "Apakah disediakan pemandu wisata (guide) untuk menjelaskan detail koleksi museum?",
+                "desc": "Apakah disediakan pemandu wisata (guide) untuk menjelaskan detail koleksi museum?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Koleksi Senjata Pejuang",
+                "query": "Apa saja jenis senjata tradisional dan modern yang pernah digunakan para pahlawan dan dipamerkan di museum ini?"
+            },
+            {
+                "label": "Diorama Pertempuran",
+                "query": "Bagaimana diorama-diorama di museum ini menceritakan kembali heroisme prajurit TNI dan rakyat Jawa Tengah?"
+            },
+            {
+                "label": "Arsitektur Bangunan",
+                "query": "Bisa ceritakan sejarah gedung yang dulunya difungsikan sebagai Raad van Justitie (Pengadilan Tinggi) di masa Belanda?"
+            },
+            {
+                "label": "Kisah Kodam IV/Diponegoro",
+                "query": "Seperti apa jejak sejarah dan peran penting Kodam IV/Diponegoro yang diabadikan dalam museum ini?"
+            },
+            {
+                "label": "Peninggalan Kendaraan Militer",
+                "query": "Kendaraan tempur atau meriam bersejarah apa saja yang bisa dilihat di area pelataran luar museum?"
+            },
+            {
+                "label": "Ruang Tata Pamer",
+                "query": "Ruang pameran spesifik apa saja yang menyimpan benda-benda pusaka dan dokumen penting masa kemerdekaan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Mandhalabakti?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Mandhalabakti?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Mandhalabakti?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

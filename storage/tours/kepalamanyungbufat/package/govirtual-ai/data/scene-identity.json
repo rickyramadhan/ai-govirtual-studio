@@ -1,0 +1,335 @@
+{
+    "version": "1.1-seed",
+    "tourId": "kepalamanyungbufat",
+    "generatedAt": "2026-09-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "Ruangmakanac",
+            "displayName": "Ruangmakanac",
+            "placeId": "ruangmakanac",
+            "placeName": "Ruangmakanac",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Ruangmakanac merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruangmakanac adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruangmakanac",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Ruangmakanac?",
+                    "mode": "fix",
+                    "answer": "Ruangmakanac merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Ruangmakanac dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruangmakanac adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruangmakanac. Ruangmakanac merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1053"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruangmakanac — kawasan Kepalamanyungbufat.",
+                "describeHere": "Ruangmakanac adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Botok",
+            "displayName": "Botok",
+            "placeId": "botok",
+            "placeName": "Botok",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Botok merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Botok adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Botok",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Botok?",
+                    "mode": "fix",
+                    "answer": "Botok merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Botok dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Botok adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Botok. Botok merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Botok — kawasan Kepalamanyungbufat.",
+                "describeHere": "Botok adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Mushola",
+            "displayName": "Mushola",
+            "placeId": "mushola",
+            "placeName": "Mushola",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Mushola merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Mushola adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Mushola",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Mushola?",
+                    "mode": "fix",
+                    "answer": "Mushola merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Mushola dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Mushola adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Mushola. Mushola merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Mushola — kawasan Kepalamanyungbufat.",
+                "describeHere": "Mushola adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Kepala Manyung Bu Fat",
+            "displayName": "Kepala Manyung Bu Fat",
+            "placeId": "kepala-manyung-bu-fat",
+            "placeName": "Kepala Manyung Bu Fat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Kepala Manyung Bu Fat merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Kepala Manyung Bu Fat adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Kepala Manyung Bu Fat",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Kepala Manyung Bu Fat?",
+                    "mode": "fix",
+                    "answer": "Kepala Manyung Bu Fat merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Kepala Manyung Bu Fat dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Kepala Manyung Bu Fat adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kepala Manyung Bu Fat. Kepala Manyung Bu Fat merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kepala Manyung Bu Fat — kawasan Kepalamanyungbufat.",
+                "describeHere": "Kepala Manyung Bu Fat adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Toilet",
+            "displayName": "Toilet",
+            "placeId": "toilet",
+            "placeName": "Toilet",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Toilet merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Toilet adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Toilet?",
+                    "mode": "fix",
+                    "answer": "Toilet merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Toilet dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Toilet adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Toilet. Toilet merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toilet — kawasan Kepalamanyungbufat.",
+                "describeHere": "Toilet adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "node6",
+            "displayName": "Area NODE6",
+            "placeId": "node6",
+            "placeName": "Area NODE6",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator (placeholder name)",
+            "shortDescription": "Area NODE6 adalah salah satu titik panorama di kawasan Kepalamanyungbufat, Semarang — terhubung dengan jalur eksplorasi agrowisata.",
+            "description": "Area NODE6 (ID: node6) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "node6",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Area NODE6?",
+                    "mode": "fix",
+                    "answer": "Area NODE6 adalah salah satu titik panorama di kawasan Kepalamanyungbufat, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                },
+                {
+                    "q": "Apa peran Area NODE6 dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area NODE6 (ID: node6) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area NODE6. Area NODE6 adalah salah satu titik panorama di kawasan Kepalamanyungbufat, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area NODE6 — kawasan Kepalamanyungbufat.",
+                "describeHere": "Area NODE6 (ID: node6) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Ruangmakanprasmanan",
+            "displayName": "Ruangmakanprasmanan",
+            "placeId": "ruangmakanprasmanan",
+            "placeName": "Ruangmakanprasmanan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Ruangmakanprasmanan merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruangmakanprasmanan adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruangmakanprasmanan",
+                "jalur eksplorasi",
+                "Kepalamanyungbufat"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Ruangmakanprasmanan?",
+                    "mode": "fix",
+                    "answer": "Ruangmakanprasmanan merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Ruangmakanprasmanan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruangmakanprasmanan adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruangmakanprasmanan. Ruangmakanprasmanan merupakan bagian dari kawasan Kepalamanyungbufat di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1052"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruangmakanprasmanan — kawasan Kepalamanyungbufat.",
+                "describeHere": "Ruangmakanprasmanan adalah area di dalam kawasan Kepalamanyungbufat, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

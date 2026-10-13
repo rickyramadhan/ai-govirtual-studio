@@ -1,0 +1,119 @@
+{
+    "version": "1.0",
+    "tourId": "menarasiger",
+    "tourName": "Menara Siger",
+    "updatedAt": "2026-09-08T05:46:36+02:00",
+    "startScene": "node14",
+    "order": [
+        "node14",
+        "node15",
+        "node16",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node24",
+        "node25",
+        "node26",
+        "node27",
+        "node28",
+        "node29",
+        "node30",
+        "node31",
+        "node32",
+        "node33",
+        "node34",
+        "node35",
+        "node36",
+        "node37",
+        "node39",
+        "node40",
+        "node41",
+        "node42"
+    ],
+    "nodes": {
+        "node14": {
+            "displayName": "Pembuka Menara Siger"
+        },
+        "node15": {
+            "displayName": "Panorama 2"
+        },
+        "node16": {
+            "displayName": "Tampilan Udara Menara Siger"
+        },
+        "node18": {
+            "displayName": "Panorama 4"
+        },
+        "node19": {
+            "displayName": "Panorama 5"
+        },
+        "node20": {
+            "displayName": "Panorama 6"
+        },
+        "node21": {
+            "displayName": "Panorama 7"
+        },
+        "node22": {
+            "displayName": "Panorama 8"
+        },
+        "node23": {
+            "displayName": "Panorama 9"
+        },
+        "node24": {
+            "displayName": "Panorama 10"
+        },
+        "node25": {
+            "displayName": "Pelabuhan Bakauheni"
+        },
+        "node26": {
+            "displayName": "Menara Siger"
+        },
+        "node27": {
+            "displayName": "Museum Mini Siger"
+        },
+        "node28": {
+            "displayName": "Panorama 14"
+        },
+        "node29": {
+            "displayName": "Panorama 15"
+        },
+        "node30": {
+            "displayName": "Panorama 16"
+        },
+        "node31": {
+            "displayName": "Panorama 17"
+        },
+        "node32": {
+            "displayName": "Panorama 18"
+        },
+        "node33": {
+            "displayName": "Panorama 19"
+        },
+        "node34": {
+            "displayName": "Panorama 20"
+        },
+        "node35": {
+            "displayName": "Panorama 21"
+        },
+        "node36": {
+            "displayName": "Puncak Menara Siger"
+        },
+        "node37": {
+            "displayName": "Taman Siger"
+        },
+        "node39": {
+            "displayName": "Panorama 24"
+        },
+        "node40": {
+            "displayName": "Panorama 25"
+        },
+        "node41": {
+            "displayName": "Motif Kain Siger"
+        },
+        "node42": {
+            "displayName": "Panorama 27"
+        }
+    }
+}

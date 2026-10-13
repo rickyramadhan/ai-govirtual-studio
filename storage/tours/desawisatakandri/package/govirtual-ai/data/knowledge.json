@@ -1,0 +1,886 @@
+{
+    "version": 2,
+    "tourId": "desawisatakandri",
+    "updatedAt": "2026-09-29T06:34:25+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Desa Wisata Kandri",
+            "aliases": [
+                "desa wisata kandri"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "desawisatakandri"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Desa Wisata Kandri.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Desa Wisata Kandri",
+                    "content": "Pusat pengalaman virtual untuk Desa Wisata Kandri."
+                },
+                "en": {
+                    "title": "Desa Wisata Kandri",
+                    "content": "Pusat pengalaman virtual untuk Desa Wisata Kandri."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Waduk Jatibarang",
+            "aliases": [
+                "waduk jatibarang"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "desawisatakandri"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Waduk Jatibarang",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Waduk Jatibarang",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Sendanggede",
+            "aliases": [
+                "sendanggede"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "desawisatakandri"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Sendanggede",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Sendanggede",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "desawisatakandri"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:991",
+            "entityId": "objinfo2:991",
+            "title": "Gedung A",
+            "aliases": [
+                "gedung a",
+                "objek 991"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Bangunan utama yang Anda lihat ini merupakan pusat dari kompleks Lawang Sewu. Pada masa lalu, gedung ini berfungsi sebagai kantor pusat NIS (Nederlandsch-Indische Spoorweg Maatschappij), perusahaan kereta api pertama di Indonesia yang sekaligus menjadi titik awal sejarah perkeretaapian Nusantara. Saat ini, bangunan tersebut telah beralih fungsi menjadi museum yang menyajikan informasi mengenai sejarah panjang perkeretaapian nasional secara komprehensif dan mudah dipahami.",
+            "source": "webview-import",
+            "sourceId": "991",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung A",
+                    "content": "Bangunan utama yang Anda lihat ini merupakan pusat dari kompleks Lawang Sewu. Pada masa lalu, gedung ini berfungsi sebagai kantor pusat NIS (Nederlandsch-Indische Spoorweg Maatschappij), perusahaan kereta api pertama di Indonesia yang sekaligus menjadi titik awal sejarah perkeretaapian Nusantara. Saat ini, bangunan tersebut telah beralih fungsi menjadi museum yang menyajikan informasi mengenai sejarah panjang perkeretaapian nasional secara komprehensif dan mudah dipahami."
+                },
+                "en": {
+                    "title": "Building A",
+                    "content": "The main building you see before you is the centerpiece of the Lawang Sewu complex. In the past, this building served as the headquarters of NIS (Nederlandsch-Indische Spoorweg Maatschappij), the first railway company in Indonesia, marking the starting point of the archipelago's railway history. Today, the building has been converted into a museum that presents the extensive history of the national railway system in an informative and accessible manner."
+                },
+                "zh": {
+                    "title": "A号楼",
+                    "content": "您所看到的这座主建筑是千门之阁（Lawang Sewu）建筑群的中心。过去，这座建筑曾是印尼第一家铁路公司——荷印铁路公司（NIS）的总部，也是印尼群岛铁路历史的起点。如今，这座建筑已改建为一座博物馆，以内容丰富且通俗易懂的方式，向游客展示了国家铁路的悠久历史。"
+                },
+                "ar": {
+                    "title": "المبنى A",
+                    "content": "هذا المبنى الرئيسي الذي ترونه أمامكم هو قلب مجمع لاوانغ سيو (Lawang Sewu). في الماضي، كان هذا المبنى بمثابة المقر الرئيسي لشركة (NIS)، وهي أول شركة للسكك الحديدية في إندونيسيا، ونقطة الانطلاق لتاريخ السكك الحديدية في الأرخبيل. أما اليوم، فقد تم تحويل المبنى إلى متحف يعرض التاريخ الطويل للسكك الحديدية الوطنية بطريقة غنية بالمعلومات ويسهل فهمها."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1199",
+            "entityId": "objinfo2:1199",
+            "title": "Bekas Tembakan",
+            "aliases": [
+                "bekas tembakan",
+                "objek 1199"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Atap Lawang Sewu pernah digunakan sebagai posisi strategis oleh penembak jitu Jepang untuk membidik pejuang Indonesia saat Pertempuran Lima Hari di Semarang. Area atas bangunan ini menjadi saksi sejarah pertempuran sengit di kawasan Tugu Muda dalam upaya mempertahankan kemerdekaan.",
+            "source": "webview-import",
+            "sourceId": "1199",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bekas Tembakan",
+                    "content": "Atap Lawang Sewu pernah digunakan sebagai posisi strategis oleh penembak jitu Jepang untuk membidik pejuang Indonesia saat Pertempuran Lima Hari di Semarang. Area atas bangunan ini menjadi saksi sejarah pertempuran sengit di kawasan Tugu Muda dalam upaya mempertahankan kemerdekaan."
+                },
+                "en": {
+                    "title": "Object 1199",
+                    "content": "Information for Object 1199."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1200",
+            "entityId": "objinfo2:1200",
+            "title": "Maket Proyek Perbaikan dan Perawatan",
+            "aliases": [
+                "maket proyek perbaikan dan perawatan",
+                "objek 1200"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Maket proyek perawatan Lawang Sewu ini menampilkan secara jelas tahapan restorasi yang dilakukan demi menjaga keaslian bangunan bersejarah ini. Lewat maket ini, pengunjung diajak untuk belajar dan memahami proses yang kompleks dan berkelanjutan dalam melestarikan arsitektur cagar budaya kita.",
+            "source": "webview-import",
+            "sourceId": "1200",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Maket Proyek Perbaikan dan Perawatan",
+                    "content": "Maket proyek perawatan Lawang Sewu ini menampilkan secara jelas tahapan restorasi yang dilakukan demi menjaga keaslian bangunan bersejarah ini. Lewat maket ini, pengunjung diajak untuk belajar dan memahami proses yang kompleks dan berkelanjutan dalam melestarikan arsitektur cagar budaya kita."
+                },
+                "en": {
+                    "title": "Object 1200",
+                    "content": "Information for Object 1200."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1198",
+            "entityId": "objinfo2:1198",
+            "title": "Mini Show Anne Avantie Merenda Kasih",
+            "aliases": [
+                "mini show anne avantie merenda kasih",
+                "objek 1198"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Potret ini mengabadikan momen peragaan busana bertajuk \"Mini Show Anne Avantie Merenda Kasih\" yang digelar pada 27 Oktober 2014. Di atas panggung, para model tampil anggun mengenakan mahakarya berkain megah yang mencerminkan gaya khas Anne Avantie, desainer ternama Indonesia yang terkenal dengan desain kebaya modernnya yang sarat makna.",
+            "source": "webview-import",
+            "sourceId": "1198",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mini Show Anne Avantie Merenda Kasih",
+                    "content": "Potret ini mengabadikan momen peragaan busana bertajuk \"Mini Show Anne Avantie Merenda Kasih\" yang digelar pada 27 Oktober 2014. Di atas panggung, para model tampil anggun mengenakan mahakarya berkain megah yang mencerminkan gaya khas Anne Avantie, desainer ternama Indonesia yang terkenal dengan desain kebaya modernnya yang sarat makna."
+                },
+                "en": {
+                    "title": "Object 1198",
+                    "content": "Information for Object 1198."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1201",
+            "entityId": "objinfo2:1201",
+            "title": "Sejarah Revitalisasi",
+            "aliases": [
+                "sejarah revitalisasi",
+                "objek 1201"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Perbandingan foto 'Before' dan 'After' ini menjadi bukti nyata keberhasilan pemugaran bangunan bersejarah menjadi destinasi wisata yang terawat. Dokumentasi ini hadir untuk mengedukasi publik tentang upaya pelestarian arsitektur, sekaligus menumbuhkan apresiasi terhadap sejarah kereta api kita.",
+            "source": "webview-import",
+            "sourceId": "1201",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Sejarah Revitalisasi",
+                    "content": "Perbandingan foto 'Before' dan 'After' ini menjadi bukti nyata keberhasilan pemugaran bangunan bersejarah menjadi destinasi wisata yang terawat. Dokumentasi ini hadir untuk mengedukasi publik tentang upaya pelestarian arsitektur, sekaligus menumbuhkan apresiasi terhadap sejarah kereta api kita."
+                },
+                "en": {
+                    "title": "Object 1201",
+                    "content": "Information for Object 1201."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:631",
+            "entityId": "objinfo2:631",
+            "title": "Cetak Biru Lawang Sewu",
+            "aliases": [
+                "cetak biru lawang sewu",
+                "objek 631"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Blue print Lawang Sewu adalah lembaran yang menjelaskan rencana rancang bangun gedung secara detail. Bangunan Lawang Sewu ini sejak awal sudah dibangun dengan sistem drainase, pendingin gedung dengan air, dan struktur potensi banjir di wilayah sekitar.",
+            "source": "webview-import",
+            "sourceId": "631",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Cetak Biru Lawang Sewu",
+                    "content": "Blue print Lawang Sewu adalah lembaran yang menjelaskan rencana rancang bangun gedung secara detail. Bangunan Lawang Sewu ini sejak awal sudah dibangun dengan sistem drainase, pendingin gedung dengan air, dan struktur potensi banjir di wilayah sekitar."
+                },
+                "en": {
+                    "title": "Object 631",
+                    "content": "Information for Object 631."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:632",
+            "entityId": "objinfo2:632",
+            "title": "Tugu Marmer",
+            "aliases": [
+                "tugu marmer",
+                "objek 632"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tugu marmer setinggi 1 meter ditujukan untuk mengenang G. C. Daum, direktur pertama perusahaan kereta api swasta di era penjajahan Belanda, Nederlands-Indische Spoorweg Maatschappij (NISM).",
+            "source": "webview-import",
+            "sourceId": "632",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tugu Marmer",
+                    "content": "Tugu marmer setinggi 1 meter ditujukan untuk mengenang G. C. Daum, direktur pertama perusahaan kereta api swasta di era penjajahan Belanda, Nederlands-Indische Spoorweg Maatschappij (NISM)."
+                },
+                "en": {
+                    "title": "Object 632",
+                    "content": "Information for Object 632."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:995",
+            "entityId": "objinfo2:995",
+            "title": "Tugu",
+            "aliases": [
+                "tugu",
+                "objek 995"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Monumen ini didirikan khusus untuk menghormati para pegawai kereta api (saat itu bernama Djawatan Kereta Api Republik Indonesia atau DKARI) yang gugur melawan tentara Jepang dalam peristiwa Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Pada tugu tersebut terdapat kutipan kalimat patriotik yang sangat kuat:\r\n\r\n\"Djiwamu bagaikan sajap pendukung tjita-tjita bangsa. Raga bagaikan alas kemerdekaan nusa.\"\r\n\r\nKalimat ini ditulis dalam ejaan lama sebagai bentuk penghormatan abadi kepada mereka yang menjadikan raga mereka sebagai \"landasan\" bagi kemerdekaan Indonesia.",
+            "source": "webview-import",
+            "sourceId": "995",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tugu",
+                    "content": "Monumen ini didirikan khusus untuk menghormati para pegawai kereta api (saat itu bernama Djawatan Kereta Api Republik Indonesia atau DKARI) yang gugur melawan tentara Jepang dalam peristiwa Pertempuran Lima Hari di Semarang pada 14–19 Oktober 1945. Pada tugu tersebut terdapat kutipan kalimat patriotik yang sangat kuat:\r\n\r\n\"Djiwamu bagaikan sajap pendukung tjita-tjita bangsa. Raga bagaikan alas kemerdekaan nusa.\"\r\n\r\nKalimat ini ditulis dalam ejaan lama sebagai bentuk penghormatan abadi kepada mereka yang menjadikan raga mereka sebagai \"landasan\" bagi kemerdekaan Indonesia."
+                },
+                "en": {
+                    "title": "Monument",
+                    "content": "This monument was established to honor railway employees (then known as the Djawatan Kereta Api Republik Indonesia or DKARI) who fell fighting against Japanese forces during the Five-Day Battle in Semarang from 14–19 October 1945. Inscribed on the monument is a powerful patriotic quote:\r\n\r\n\"Your soul is like wings supporting the nation’s ideals. Your body is like the foundation of the homeland’s independence.\"\r\n\r\nThe sentence is written in old Indonesian spelling as an eternal tribute to those who made their bodies the “foundation” of Indonesia’s independence."
+                },
+                "zh": {
+                    "title": "纪念碑",
+                    "content": "这座纪念碑是为纪念在 1945 年 10 月 14 日至 19 日塞马朗五日战役中，为对抗日本军队而牺牲的铁路员工（当时隶属印度尼西亚共和国铁路局，简称 DKARI）而建立的。纪念碑上刻有一段极具爱国精神的文字：\r\n\r\n“你的灵魂如同支撑民族理想的翅膀，你的身躯如同祖国独立的基石。”\r\n\r\n这段文字采用旧式印尼拼写书写，作为对那些以自身躯体成为印尼独立“基石”的英雄们的永恒致敬。"
+                },
+                "ar": {
+                    "title": "نصب تذكاري",
+                    "content": "أُقيم هذا النصب التذكاري خصيصًا لتكريم موظفي السكك الحديدية (الذين كانوا يُعرفون آنذاك باسم دائرة سكك حديد جمهورية إندونيسيا أو DKARI) الذين استُشهدوا في مواجهة القوات اليابانية خلال معركة الأيام الخمسة في سيمارانغ في الفترة من 14 إلى 19 أكتوبر 1945. وقد نُقشت على النصب عبارة وطنية قوية تقول:\r\n\r\n«روحك كالأجنحة التي تسند مُثل الأمة، وجسدك كأُسُس استقلال الوطن.»\r\n\r\nكُتبت هذه العبارة بالإملاء الإندونيسي القديم تعبيرًا عن تكريمٍ خالد لأولئك الذين جعلوا من أجسادهم «أساسًا» لاستقلال إندونيسيا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:977",
+            "entityId": "objinfo2:977",
+            "title": "Lokomotif Uap C23",
+            "aliases": [
+                "lokomotif uap c23",
+                "objek 977"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lokomotif Uap C23 adalah lokomotif uap buatan Hartmann, Jerman ini menjadi monumen kereta api asli yang ada di Lawang Sewu. Lokomotif yang dahulu memiliki rumah di Depo Lokomotif Gundih Grobogan ini, memiliki kecepatan maksimum dengan kecepatan sebesar 55 km/jam.",
+            "source": "webview-import",
+            "sourceId": "977",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lokomotif Uap C23",
+                    "content": "Lokomotif Uap C23 adalah lokomotif uap buatan Hartmann, Jerman ini menjadi monumen kereta api asli yang ada di Lawang Sewu. Lokomotif yang dahulu memiliki rumah di Depo Lokomotif Gundih Grobogan ini, memiliki kecepatan maksimum dengan kecepatan sebesar 55 km/jam."
+                },
+                "en": {
+                    "title": "C23 Steam Locomotive",
+                    "content": "The C23 Steam Locomotive is a steam locomotive manufactured by Hartmann, Germany, and has become an original railway monument located at Lawang Sewu. This locomotive, which was formerly based at the Gundih Grobogan Locomotive Depot, has a maximum speed of 55 km/h."
+                },
+                "zh": {
+                    "title": "C23 蒸汽机车",
+                    "content": "C23 蒸汽机车由德国哈特曼公司制造，现已成为位于拉旺塞乌的原始铁路纪念物。这台机车曾驻扎于格罗博根贡迪机务段，最高时速可达 55 公里。"
+                },
+                "ar": {
+                    "title": "قاطرة بخارية C23",
+                    "content": "قاطرة البخار C23 هي قاطرة بخارية من تصنيع شركة هارتمان الألمانية، وأصبحت معلمًا أصليًا للسكك الحديدية يقع في لاوانغ سيوو. كانت هذه القاطرة سابقًا متمركزة في مستودع قاطرات جونديه غروبوغان، وتبلغ سرعتها القصوى 55 كم/ساعة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:978",
+            "entityId": "objinfo2:978",
+            "title": "Lokomotif Listrik Ess",
+            "aliases": [
+                "lokomotif listrik ess",
+                "objek 978"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lokomotif Listrik ESS merupakan lokomotif yang menjadi saksi bisu perkembangan KRL di wilayah Jabodetabek. Dirintis tahun 1919 dan mulai beroperasi pada 1925, dengan koridor layanan relasi Tanjung Priok – Meester Cornelis (Jatinegara).",
+            "source": "webview-import",
+            "sourceId": "978",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lokomotif Listrik Ess",
+                    "content": "Lokomotif Listrik ESS merupakan lokomotif yang menjadi saksi bisu perkembangan KRL di wilayah Jabodetabek. Dirintis tahun 1919 dan mulai beroperasi pada 1925, dengan koridor layanan relasi Tanjung Priok – Meester Cornelis (Jatinegara)."
+                },
+                "en": {
+                    "title": "ESS Electric Locomotive",
+                    "content": "The ESS Electric Locomotive is a locomotive that stands as a silent witness to the development of commuter rail (KRL) in the Jabodetabek area. Initiated in 1919 and beginning operation in 1925, it served the Tanjung Priok – Meester Cornelis (Jatinegara) corridor."
+                },
+                "zh": {
+                    "title": "ESS 电力机车",
+                    "content": "ESS 电力机车是见证雅加达大都市圈（Jabodetabek）通勤列车（KRL）发展历程的重要历史机车。该机车于 1919 年开始规划，并于 1925 年投入运营，服务线路为丹戎不碌至米斯特·科尔内利斯（现为贾蒂内加拉）。"
+                },
+                "ar": {
+                    "title": "قاطرة كهربائية ESS",
+                    "content": "قاطرة ESS الكهربائية هي قاطرة تُعد شاهدًا صامتًا على تطور قطارات الركاب الكهربائية (KRL) في منطقة جابوديتابك. بدأ تطويرها عام 1919 وبدأ تشغيلها عام 1925، وكانت تخدم ممر خط تانجونغ بريوك – ميستر كورنيليس (جاتينيغارا)."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:994",
+            "entityId": "objinfo2:994",
+            "title": "Gedung D",
+            "aliases": [
+                "gedung d",
+                "objek 994"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung D menunjukkan sisi lain dari desain Belanda yang lebih sederhana dan kokoh. Tanpa ornamen yang berlebihan, gedung ini dirancang untuk keamanan dan ketahanan material, menjadikannya contoh bangunan pendukung (service building) yang sangat efektif pada zamannya.",
+            "source": "webview-import",
+            "sourceId": "994",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung D",
+                    "content": "Gedung D menunjukkan sisi lain dari desain Belanda yang lebih sederhana dan kokoh. Tanpa ornamen yang berlebihan, gedung ini dirancang untuk keamanan dan ketahanan material, menjadikannya contoh bangunan pendukung (service building) yang sangat efektif pada zamannya."
+                },
+                "en": {
+                    "title": "Building D",
+                    "content": "Building D shows another side of Dutch design that is simpler and more robust. Without excessive ornamentation, this building was designed for safety and material durability, making it an excellent example of an effective supporting (service) building of its era."
+                },
+                "zh": {
+                    "title": "D号楼",
+                    "content": "D号楼展现了荷兰建筑设计中更为简洁而坚固的一面。该建筑没有过多装饰，注重安全性与材料耐久性，是当时极为高效的辅助性建筑（服务建筑）典范。"
+                },
+                "ar": {
+                    "title": "المبنى D",
+                    "content": "يُظهر المبنى D جانبًا آخر من التصميم الهولندي الأكثر بساطة ومتانة. فدون زخارف مفرطة، صُمم هذا المبنى لتحقيق الأمان ومتانة المواد، مما يجعله مثالًا فعّالًا للغاية على المباني الداعمة (الخدمية) في عصره."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:993",
+            "entityId": "objinfo2:993",
+            "title": "Gedung C",
+            "aliases": [
+                "gedung c",
+                "objek 993"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Melalui Ruang Informasi Pemugaran, pengunjung diajak melihat bukti nyata melalui dokumentasi foto dan artefak material. Di sinilah terlihat jelas bagaimana sebuah aset sejarah yang nyaris hancur dapat dihidupkan kembali melalui komitmen revitalisasi yang tepat dan berkelanjutan!",
+            "source": "webview-import",
+            "sourceId": "993",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung C",
+                    "content": "Melalui Ruang Informasi Pemugaran, pengunjung diajak melihat bukti nyata melalui dokumentasi foto dan artefak material. Di sinilah terlihat jelas bagaimana sebuah aset sejarah yang nyaris hancur dapat dihidupkan kembali melalui komitmen revitalisasi yang tepat dan berkelanjutan!"
+                },
+                "en": {
+                    "title": "Building C",
+                    "content": "Through the Restoration Information Room, visitors are presented with tangible evidence (through photo documentation and material artifacts) of how a historical asset that was nearly destroyed can be revived through a well-executed revitalization commitment."
+                },
+                "zh": {
+                    "title": "C号楼",
+                    "content": "通过修复信息空间，参观者可以通过照片记录和实物遗存，直观了解一处几近毁坏的历史资产如何在恰当的复兴承诺下重获新生。"
+                },
+                "ar": {
+                    "title": "المبنى C",
+                    "content": "من خلال غرفة معلومات الترميم، يُقدَّم للزوار دليل ملموس (عبر التوثيق الفوتوغرافي والقطع المادية) يوضح كيف يمكن إحياء أصلٍ تاريخي كاد أن يندثر من خلال التزامٍ مدروس بعملية إعادة التأهيل."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:992",
+            "entityId": "objinfo2:992",
+            "title": "Gedung B",
+            "aliases": [
+                "gedung b",
+                "objek 992"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung B merupakan bukti kejeniusan arsitek Belanda dalam mengatasi iklim panas melalui sistem pendingin alami berupa ruang bawah tanah. Teknologi ini membuat gedung tetap terasa sejuk tanpa listrik— sebuah konsep bangunan ramah lingkungan yang benar-benar mendahului zamannya!",
+            "source": "webview-import",
+            "sourceId": "992",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung B",
+                    "content": "Gedung B merupakan bukti kejeniusan arsitek Belanda dalam mengatasi iklim panas melalui sistem pendingin alami berupa ruang bawah tanah. Teknologi ini membuat gedung tetap terasa sejuk tanpa listrik— sebuah konsep bangunan ramah lingkungan yang benar-benar mendahului zamannya!"
+                },
+                "en": {
+                    "title": "Building B",
+                    "content": "Building B is proof of the ingenuity of Dutch architects in overcoming the hot climate through a natural cooling system (underground spaces). This technology keeps the building cool without electricity, an environmentally friendly architectural concept that was ahead of its time."
+                },
+                "zh": {
+                    "title": "B号楼",
+                    "content": "B号楼体现了荷兰建筑师通过自然降温系统（地下空间）应对炎热气候的卓越智慧。这项技术无需电力即可保持建筑凉爽，是一种超前于时代的环保建筑理念。"
+                },
+                "ar": {
+                    "title": "المبنى B",
+                    "content": "يُعد المبنى B دليلاً على عبقرية المعماريين الهولنديين في مواجهة المناخ الحار من خلال نظام تبريد طبيعي (المساحات تحت الأرض). تتيح هذه التقنية بقاء المبنى بارداً دون استخدام الكهرباء، وهو مفهوم معماري صديق للبيئة سبق عصره."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:116",
+            "entityId": "objinfo2:116",
+            "title": "Auditorium",
+            "aliases": [
+                "auditorium",
+                "objek 116"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas ini merupakan tempat berkumpul, pementasan, maupun penampilan beberapa pagelaran seni dan budaya, maupun sekadar meeting point pengunjung di Waduk Kandri. Auditorium ini merupakan salah satu sarana prasarana umum penting yang mendukung aktivitas masyarakat lokal dan acara kepariwisataan di Desa Wisata Kandri.",
+            "source": "webview-import",
+            "sourceId": "116",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Auditorium",
+                    "content": "Fasilitas ini merupakan tempat berkumpul, pementasan, maupun penampilan beberapa pagelaran seni dan budaya, maupun sekadar meeting point pengunjung di Waduk Kandri. Auditorium ini merupakan salah satu sarana prasarana umum penting yang mendukung aktivitas masyarakat lokal dan acara kepariwisataan di Desa Wisata Kandri."
+                },
+                "en": {
+                    "title": "Auditorium",
+                    "content": "This facility serves as a gathering place, performance venue, and stage for various arts and cultural events, as well as a meeting point for visitors at Kandri Reservoir. The auditorium is an essential public facility supporting local community activities and tourism events in Desa Wisata Kandri."
+                },
+                "zh": {
+                    "title": "礼堂",
+                    "content": "该设施是三宝垄坎德里水库的聚会场所、表演舞台以及各类艺术文化活动的举办地，同时也是游客的会合点。礼堂是支持当地社区活动和坎德里旅游村活动的重要公共设施。"
+                },
+                "ar": {
+                    "title": "المدرج",
+                    "content": "تُعد هذه المنشأة مكاناً للتجمع وإقامة العروض الفنية والثقافية المختلفة، وكذلك نقطة اجتماع للزوار في خزان كاندري. يُعتبر المدرج من المرافق العامة المهمة التي تدعم أنشطة المجتمع المحلي والفعاليات السياحية في قرية كاندري السياحية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:117",
+            "entityId": "objinfo2:117",
+            "title": "Kantor Desa Wisata Kandri",
+            "aliases": [
+                "kantor desa wisata kandri",
+                "objek 117"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kantor & Sekretariat Pengelola Desa Wisata Kandri merupakan pusat administrasi yang menjadi bagian dari sarana dan prasarana penunjang pariwisata. Tempat ini biasa menjadi titik kumpul wisatawan di Desa Wisata Kandri maupun sekadar sebagai sumber informasi objek wisata yang ada di Kandri.",
+            "source": "webview-import",
+            "sourceId": "117",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kantor Desa Wisata Kandri",
+                    "content": "Kantor & Sekretariat Pengelola Desa Wisata Kandri merupakan pusat administrasi yang menjadi bagian dari sarana dan prasarana penunjang pariwisata. Tempat ini biasa menjadi titik kumpul wisatawan di Desa Wisata Kandri maupun sekadar sebagai sumber informasi objek wisata yang ada di Kandri."
+                },
+                "en": {
+                    "title": "Kandri Tourism Village Office",
+                    "content": "The Office & Secretariat of Desa Wisata Kandri Management serves as an administrative center and part of the supporting infrastructure for tourism. It is often a gathering point for visitors and a source of information about tourist attractions in Kandri."
+                },
+                "zh": {
+                    "title": "坎德里旅游村办公室",
+                    "content": "坎德里旅游村管理办公室及秘书处是行政中心，也是支持旅游的基础设施组成部分。这里通常是游客的聚集点，也是了解坎德里旅游景点信息的来源。"
+                },
+                "ar": {
+                    "title": "कन्द्रि पर्यटन ग्राम कार्यालय",
+                    "content": "مكتب وأمانة إدارة قرية كاندري السياحية هو مركز إداري وجزء من البنية التحتية الداعمة للسياحة. غالباً ما يكون نقطة تجمع للزوار ومصدر معلومات عن المعالم السياحية في كاندري."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:118",
+            "entityId": "objinfo2:118",
+            "title": "Omah Alas",
+            "aliases": [
+                "omah alas",
+                "objek 118"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Omah Alas di Desa Wisata Kandri adalah sebuah sanggar seni yang menjadi pusat kebudayaan dan kesenian lokal, seperti gamelan, karawitan, dan tari tradisional. Tempat ini juga difungsikan sebagai area edukasi dan rekreasi yang mengangkat kembali permainan tradisional atau dolanan bocah di tengah suasana alam yang sejuk.",
+            "source": "webview-import",
+            "sourceId": "118",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Omah Alas",
+                    "content": "Omah Alas di Desa Wisata Kandri adalah sebuah sanggar seni yang menjadi pusat kebudayaan dan kesenian lokal, seperti gamelan, karawitan, dan tari tradisional. Tempat ini juga difungsikan sebagai area edukasi dan rekreasi yang mengangkat kembali permainan tradisional atau dolanan bocah di tengah suasana alam yang sejuk."
+                },
+                "en": {
+                    "title": "Omah Alas",
+                    "content": "Omah Alas in Desa Wisata Kandri is an art studio serving as a center for local culture and arts, such as gamelan, karawitan, and traditional dance. It also functions as an educational and recreational area, reviving traditional games or dolanan bocah amid a cool natural environment."
+                },
+                "zh": {
+                    "title": "奥玛阿拉斯",
+                    "content": "坎德里旅游村的Omah Alas是艺术工作室，是当地文化和艺术的中心，如甘美兰、卡拉维坦音乐及传统舞蹈。这里也是教育和休闲区域，在清新的自然环境中重现传统儿童游戏。"
+                },
+                "ar": {
+                    "title": "ओमह अलस",
+                    "content": "أوماه ألاس في قرية كاندري السياحية هو ورشة فنية تُعد مركزاً للثقافة والفنون المحلية مثل الغاملان والكاراويتان والرقص التقليدي. كما يُستخدم كمكان للتعليم والترفيه يعيد إحياء الألعاب التقليدية وسط أجواء طبيعية منعشة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:119",
+            "entityId": "objinfo2:119",
+            "title": "Sendang Gede",
+            "aliases": [
+                "sendang gede",
+                "objek 119"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sendang Gede di Desa Wisata Kandri berfungsi sebagai sumber mata air utama untuk kebutuhan masyarakat serta objek daya tarik wisata budaya karena menjadi lokasi diselenggarakannya prosesi adat Nyadran Sendang/Kali.",
+            "source": "webview-import",
+            "sourceId": "119",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Sendang Gede",
+                    "content": "Sendang Gede di Desa Wisata Kandri berfungsi sebagai sumber mata air utama untuk kebutuhan masyarakat serta objek daya tarik wisata budaya karena menjadi lokasi diselenggarakannya prosesi adat Nyadran Sendang/Kali."
+                },
+                "en": {
+                    "title": "Big Spring",
+                    "content": "Sendang Gede in Desa Wisata Kandri serves as the main water source for the community and as a cultural tourism attraction, being the site of the traditional Nyadran Sendang/Kali ceremony."
+                },
+                "zh": {
+                    "title": "森当格德",
+                    "content": "坎德里旅游村的Sendang Gede是社区的主要水源，也是文化旅游景点，因为这里举办传统的Nyadran Sendang/Kali仪式。"
+                },
+                "ar": {
+                    "title": "سندانج جيده",
+                    "content": "سيندانغ جيديه في قرية كاندري السياحية يُعد المصدر الرئيسي للمياه للمجتمع، وكذلك معلم جذب سياحي ثقافي، حيث يُقام فيه مراسم Nyadran Sendang/Kali التقليدية."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "tourId": "kawasanpecinan",
+    "tourName": "Kawasanpecinan",
+    "updatedAt": "2026-09-29T09:51:06+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node11",
+        "node7",
+        "node8",
+        "node9",
+        "node10"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Gerbangutama (Titik 1)"
+        },
+        "node2": {
+            "displayName": "Sudut Panorama (Titik 2)"
+        },
+        "node3": {
+            "displayName": "Pecinan Semawis (Titik 3)"
+        },
+        "node4": {
+            "displayName": "Pasar Malam (Titik 4)"
+        },
+        "node5": {
+            "displayName": "Pasar Malam (Titik 5)"
+        },
+        "node6": {
+            "displayName": "Mobilumkm (Titik 6)"
+        },
+        "node11": {
+            "displayName": "Video360 1 (Titik 11)"
+        },
+        "node7": {
+            "displayName": "Pasar Malam (Titik 7)"
+        },
+        "node8": {
+            "displayName": "Pasar Malam (Titik 8)"
+        },
+        "node9": {
+            "displayName": "Pasar Malam (Titik 9)"
+        },
+        "node10": {
+            "displayName": "Pasar Malam (Titik 10)"
+        }
+    }
+}

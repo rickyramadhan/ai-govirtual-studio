@@ -1,0 +1,841 @@
+{
+    "startNode": "node104",
+    "scenes": [
+        {
+            "id": "node104",
+            "name": "Universitas Muhammadiyah Semarang",
+            "displayName": "Universitas Muhammadiyah Semarang",
+            "rawName": "",
+            "customNodeId": "-niversitas-uhammadiyah-emarang",
+            "pan": 76.3386,
+            "tilt": -16.9878,
+            "fov": 115.266,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Universitas Muhammadiyah Semarang"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Unimustv",
+            "displayName": "Unimustv",
+            "rawName": "",
+            "customNodeId": "unimustv",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "unimus"
+            ],
+            "aliases": [
+                "unimustv"
+            ]
+        },
+        {
+            "id": "node106",
+            "name": "Masjid Lantai 2",
+            "displayName": "Masjid Lantai 2",
+            "rawName": "",
+            "customNodeId": "-asjid-antai-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Masjid Lantai 2"
+            ]
+        },
+        {
+            "id": "node107",
+            "name": "Ruang Asrama",
+            "displayName": "Ruang Asrama",
+            "rawName": "",
+            "customNodeId": "-uang-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Ruang Asrama"
+            ]
+        },
+        {
+            "id": "node108",
+            "name": "Ruang Boga",
+            "displayName": "Ruang Boga",
+            "rawName": "",
+            "customNodeId": "-uang-oga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Ruang Boga"
+            ]
+        },
+        {
+            "id": "node109",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node110",
+            "name": "Gedung Fakultas Kedokteran",
+            "displayName": "Gedung Fakultas Kedokteran",
+            "rawName": "",
+            "customNodeId": "-edung-akultas-edokteran",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Gedung Fakultas Kedokteran"
+            ]
+        },
+        {
+            "id": "node111",
+            "name": "Gedung Fakultas Kesehatan",
+            "displayName": "Gedung Fakultas Kesehatan",
+            "rawName": "",
+            "customNodeId": "-edung-akultas-esehatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Gedung Fakultas Kesehatan"
+            ]
+        },
+        {
+            "id": "node112",
+            "name": "Fitness",
+            "displayName": "Fitness",
+            "rawName": "",
+            "customNodeId": "fitness",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "fitness"
+            ]
+        },
+        {
+            "id": "node113",
+            "name": "Gedung Asrama",
+            "displayName": "Gedung Asrama",
+            "rawName": "",
+            "customNodeId": "-edung-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Gedung Asrama"
+            ]
+        },
+        {
+            "id": "node114",
+            "name": "Gedung Rektorat",
+            "displayName": "Gedung Rektorat",
+            "rawName": "",
+            "customNodeId": "-edung-ektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Gedung Rektorat"
+            ]
+        },
+        {
+            "id": "node115",
+            "name": "Laboratorium",
+            "displayName": "Laboratorium",
+            "rawName": "",
+            "customNodeId": "laboratorium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "unimus"
+            ],
+            "aliases": [
+                "laboratorium"
+            ]
+        },
+        {
+            "id": "node116",
+            "name": "Labsimulasi",
+            "displayName": "Labsimulasi",
+            "rawName": "",
+            "customNodeId": "labsimulasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "unimus"
+            ],
+            "aliases": [
+                "labsimulasi"
+            ]
+        },
+        {
+            "id": "node117",
+            "name": "Badminton",
+            "displayName": "Badminton",
+            "rawName": "",
+            "customNodeId": "badminton",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "badminton"
+            ]
+        },
+        {
+            "id": "node118",
+            "name": "Lapanganbasket",
+            "displayName": "Lapanganbasket",
+            "rawName": "",
+            "customNodeId": "lapanganbasket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "lapanganbasket"
+            ]
+        },
+        {
+            "id": "node119",
+            "name": "Wallclimbing",
+            "displayName": "Wallclimbing",
+            "rawName": "",
+            "customNodeId": "wallclimbing",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "unimus"
+            ],
+            "aliases": [
+                "wallclimbing"
+            ]
+        },
+        {
+            "id": "node120",
+            "name": "Lapangan Tenis",
+            "displayName": "Lapangan Tenis",
+            "rawName": "",
+            "customNodeId": "-apangan-enis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Lapangan Tenis"
+            ]
+        },
+        {
+            "id": "node121",
+            "name": "Masuk Lobi Rektorat",
+            "displayName": "Masuk Lobi Rektorat",
+            "rawName": "",
+            "customNodeId": "-asuk-obi-ektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Masuk Lobi Rektorat"
+            ]
+        },
+        {
+            "id": "node122",
+            "name": "Masjid Lantai 1",
+            "displayName": "Masjid Lantai 1",
+            "rawName": "",
+            "customNodeId": "-asjid-antai-1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Masjid Lantai 1"
+            ]
+        },
+        {
+            "id": "node123",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "perpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "unimus"
+            ],
+            "aliases": [
+                "perpustakaan"
+            ]
+        },
+        {
+            "id": "node124",
+            "name": "Masuk Sudut Belajar",
+            "displayName": "Masuk Sudut Belajar",
+            "rawName": "",
+            "customNodeId": "-asuk-udut-elajar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Masuk Sudut Belajar"
+            ]
+        },
+        {
+            "id": "node125",
+            "name": "Asrama",
+            "displayName": "Asrama",
+            "rawName": "",
+            "customNodeId": "-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "unimus"
+            ],
+            "aliases": [
+                "Asrama"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node104",
+            "target": "node105",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -156.82,
+            "tilt": 2.64
+        },
+        {
+            "scene": "node104",
+            "target": "node111",
+            "title": "Gedung Fakultas Kesehatan",
+            "id": "Point02",
+            "pan": -10.17,
+            "tilt": -15.43
+        },
+        {
+            "scene": "node104",
+            "target": "node120",
+            "title": "Lapangan Tenis",
+            "id": "Point03",
+            "pan": -303.82,
+            "tilt": -18.43
+        },
+        {
+            "scene": "node104",
+            "target": "node110",
+            "title": "Gedung Fakultas Kedokteran",
+            "id": "Point04",
+            "pan": -229.88,
+            "tilt": -18.19
+        },
+        {
+            "scene": "node104",
+            "target": "node114",
+            "title": "Gedung Rektorat",
+            "id": "Point06",
+            "pan": -137.93,
+            "tilt": -24.29
+        },
+        {
+            "scene": "node105",
+            "target": "node104",
+            "title": "Universitas Muhammadiyah Semarang",
+            "id": "Point01",
+            "pan": 24.07,
+            "tilt": 13.02
+        },
+        {
+            "scene": "node105",
+            "target": "node114",
+            "title": "Gedung Rektorat",
+            "id": "Point02",
+            "pan": 347.22,
+            "tilt": -13.44
+        },
+        {
+            "scene": "node103",
+            "target": "node123",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -221.03,
+            "tilt": -13.31
+        },
+        {
+            "scene": "node106",
+            "target": "node122",
+            "title": "Masjid Lantai 1",
+            "id": "Point02",
+            "pan": -121.38,
+            "tilt": -10.73
+        },
+        {
+            "scene": "node107",
+            "target": "node113",
+            "title": "",
+            "id": "Point01",
+            "pan": -26.6572,
+            "tilt": 0
+        },
+        {
+            "scene": "node107",
+            "target": "node113",
+            "title": "Gedung Asrama",
+            "id": "Point02",
+            "pan": -206.36,
+            "tilt": -10.42
+        },
+        {
+            "scene": "node108",
+            "target": "node125",
+            "title": "Asrama",
+            "id": "Point01",
+            "pan": -74.02,
+            "tilt": -8.82
+        },
+        {
+            "scene": "node109",
+            "target": "node114",
+            "title": "Gedung Rektorat",
+            "id": "Point01",
+            "pan": -165.22,
+            "tilt": -6.15
+        },
+        {
+            "scene": "node109",
+            "target": "node120",
+            "title": "Lapangan Tenis",
+            "id": "Point02",
+            "pan": 292.02,
+            "tilt": -3.39
+        },
+        {
+            "scene": "node109",
+            "target": "node110",
+            "title": "Gedung Fakultas Kedokteran",
+            "id": "Point03",
+            "pan": 71.43,
+            "tilt": -2.6
+        },
+        {
+            "scene": "node109",
+            "target": "node122",
+            "title": "Masuk Masjid",
+            "id": "Point04",
+            "pan": 358.08,
+            "tilt": -3.67
+        },
+        {
+            "scene": "node110",
+            "target": "node109",
+            "title": "Masjid",
+            "id": "Point02",
+            "pan": -173.7,
+            "tilt": -8.27
+        },
+        {
+            "scene": "node110",
+            "target": "node124",
+            "title": "Masuk Sudut Belajar",
+            "id": "Point01",
+            "pan": 1.87,
+            "tilt": -3
+        },
+        {
+            "scene": "node110",
+            "target": "node120",
+            "title": "Lapangan Tenis",
+            "id": "Point03",
+            "pan": -82.9,
+            "tilt": -6.22
+        },
+        {
+            "scene": "node111",
+            "target": "node116",
+            "title": "Ruang Praktik",
+            "id": "Point02",
+            "pan": 56.81,
+            "tilt": -5.77
+        },
+        {
+            "scene": "node111",
+            "target": "node112",
+            "title": "Ruang Olahraga",
+            "id": "Point03",
+            "pan": -46.21,
+            "tilt": -6.39
+        },
+        {
+            "scene": "node111",
+            "target": "node120",
+            "title": "Lapangan Tenis",
+            "id": "Point01",
+            "pan": -175.71,
+            "tilt": -4.94
+        },
+        {
+            "scene": "node112",
+            "target": "node111",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -17.46,
+            "tilt": -8.29
+        },
+        {
+            "scene": "node113",
+            "target": "node125",
+            "title": "Koridor Toilet",
+            "id": "Point01",
+            "pan": -203.11,
+            "tilt": -6.7
+        },
+        {
+            "scene": "node113",
+            "target": "node118",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": -320.2,
+            "tilt": -6.98
+        },
+        {
+            "scene": "node113",
+            "target": "node107",
+            "title": "Ruang Asrama",
+            "id": "Point03",
+            "pan": 310,
+            "tilt": -4
+        },
+        {
+            "scene": "node114",
+            "target": "node121",
+            "title": "Masuk Lobi Rektorat",
+            "id": "Point01",
+            "pan": 359.18,
+            "tilt": -3.8
+        },
+        {
+            "scene": "node114",
+            "target": "node109",
+            "title": "Masjid",
+            "id": "Point02",
+            "pan": 69.05,
+            "tilt": -2.87
+        },
+        {
+            "scene": "node115",
+            "target": "node124",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -0.66,
+            "tilt": -11.58
+        },
+        {
+            "scene": "node116",
+            "target": "node111",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -161.97,
+            "tilt": -7.93
+        },
+        {
+            "scene": "node117",
+            "target": "node118",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": -119.74,
+            "tilt": -0.25
+        },
+        {
+            "scene": "node118",
+            "target": "node119",
+            "title": "Lapangan Sepak Bola",
+            "id": "Point01",
+            "pan": -270.92,
+            "tilt": -5.21
+        },
+        {
+            "scene": "node118",
+            "target": "node117",
+            "title": "Lapangan Badminton",
+            "id": "Point02",
+            "pan": 0.26,
+            "tilt": -2.9
+        },
+        {
+            "scene": "node118",
+            "target": "node113",
+            "title": "Gedung Asrama",
+            "id": "Point03",
+            "pan": -179.72,
+            "tilt": -3.02
+        },
+        {
+            "scene": "node119",
+            "target": "node120",
+            "title": "Lapangan Tenis",
+            "id": "Point01",
+            "pan": -88.16,
+            "tilt": -3.81
+        },
+        {
+            "scene": "node119",
+            "target": "node118",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": 88.43,
+            "tilt": -2.96
+        },
+        {
+            "scene": "node120",
+            "target": "node109",
+            "title": "Masjid",
+            "id": "Point02",
+            "pan": -300.5,
+            "tilt": -1.29
+        },
+        {
+            "scene": "node120",
+            "target": "node119",
+            "title": "Lapangan Sepak Bola",
+            "id": "Point01",
+            "pan": -68.84,
+            "tilt": 1.11
+        },
+        {
+            "scene": "node120",
+            "target": "node111",
+            "title": "Gedung Fakultas Kesehatan",
+            "id": "Point03",
+            "pan": -178.59,
+            "tilt": -3.96
+        },
+        {
+            "scene": "node121",
+            "target": "node114",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -188.46,
+            "tilt": -14.73
+        },
+        {
+            "scene": "node122",
+            "target": "node106",
+            "title": "Masjid Lantai 2",
+            "id": "Point02",
+            "pan": 151.7,
+            "tilt": -3.76
+        },
+        {
+            "scene": "node122",
+            "target": "node109",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -168.38,
+            "tilt": -3.53
+        },
+        {
+            "scene": "node123",
+            "target": "node124",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -207.45,
+            "tilt": -12.11
+        },
+        {
+            "scene": "node123",
+            "target": "node103",
+            "title": "Studio UNIMUS TV",
+            "id": "Point02",
+            "pan": -346.93,
+            "tilt": -10.34
+        },
+        {
+            "scene": "node124",
+            "target": "node110",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -66.98,
+            "tilt": -10.13
+        },
+        {
+            "scene": "node124",
+            "target": "node115",
+            "title": "Ruang Lab",
+            "id": "Point02",
+            "pan": -144.05,
+            "tilt": -7.03
+        },
+        {
+            "scene": "node124",
+            "target": "node123",
+            "title": "Perpustakaan",
+            "id": "Point03",
+            "pan": 329.78,
+            "tilt": -10.02
+        },
+        {
+            "scene": "node125",
+            "target": "node108",
+            "title": "Ruang Boga",
+            "id": "Point02",
+            "pan": -0.240012,
+            "tilt": -2.31
+        },
+        {
+            "scene": "node125",
+            "target": "node113",
+            "title": "Gedung Asrama",
+            "id": "Point03",
+            "pan": 179.53,
+            "tilt": -4.54
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1109,
+            "label": "Fitness",
+            "description": "Fitness Fasilitas ini menyediakan berbagai alat olahraga modern untuk mendukung kesehatan dan kebugaran fisik seluruh civitas akademika. Ruang ini dirancang sebagai sarana penunjang gaya hidup sehat di sela-sela rutinitas kegiatan kampus.",
+            "fragment": "fitness",
+            "link": "unimus/index.html#fitness",
+            "sceneId": "node112"
+        },
+        {
+            "infoId": 1110,
+            "label": "Unimus Tv",
+            "description": "Unimus Tv Layanan media ini berfungsi sebagai sarana informasi, komunikasi, dan wadah kreativitas mahasiswa dalam bidang penyiaran digital. Fasilitas ini juga menjadi laboratorium praktis bagi pengembangan konten audiovisual yang edukatif di lingkungan universitas.",
+            "fragment": "unimustv",
+            "link": "unimus/index.html#unimustv",
+            "sceneId": "node103"
+        },
+        {
+            "infoId": 1111,
+            "label": "Lab Simulasi Dokter",
+            "description": "Lab Simulasi Dokter Laboratorium ini dirancang menyerupai lingkungan medis nyata untuk melatih keterampilan klinis mahasiswa kedokteran sebelum terjun ke rumah sakit. Ruangan ini dilengkapi dengan manekin dan peralatan medis canggih guna memastikan standar kompetensi praktik yang tinggi.",
+            "fragment": "labsimulasi",
+            "link": "unimus/index.html#labsimulasi",
+            "sceneId": "node116"
+        },
+        {
+            "infoId": 1112,
+            "label": "Perpustakaan",
+            "description": "Perpustakaan Pusat sumber belajar ini menyediakan koleksi literatur yang lengkap, baik dalam bentuk cetak maupun akses jurnal digital internasional. Suasana yang tenang dan fasilitas ruang diskusi menjadikannya tempat ideal untuk riset dan pengembangan akademik.",
+            "fragment": "perpustakaan",
+            "link": "unimus/index.html#perpustakaan",
+            "sceneId": "node123"
+        },
+        {
+            "infoId": 1113,
+            "label": "Laboratorium",
+            "description": "Laboratorium Fasilitas ini mencakup berbagai ruang praktik spesifik yang disesuaikan dengan kebutuhan setiap program studi, mulai dari kesehatan hingga teknik. Setiap ruang dilengkapi dengan instrumen penelitian standar industri untuk mendukung kegiatan praktikum dan inovasi mahasiswa.",
+            "fragment": "laboratorium",
+            "link": "unimus/index.html#laboratorium",
+            "sceneId": "node115"
+        },
+        {
+            "infoId": 1114,
+            "label": "Lapangan Badminton",
+            "description": "Lapangan Badminton Fasilitas olahraga dalam ruangan ini menyediakan lapangan yang standar untuk menunjang minat dan bakat mahasiswa di cabang bulu tangkis. Area ini menjadi pusat latihan rutin bagi unit kegiatan mahasiswa untuk mempersiapkan diri menghadapi berbagai kejuaraan.",
+            "fragment": "badminton",
+            "link": "unimus/index.html#badminton",
+            "sceneId": "node117"
+        },
+        {
+            "infoId": 1115,
+            "label": "Lapangan Basket",
+            "description": "Lapangan Basket Lapangan ini difungsikan sebagai sarana olahraga bola basket yang dapat digunakan oleh seluruh mahasiswa baik untuk latihan maupun pertandingan. Lokasinya yang strategis menjadikannya tempat populer untuk interaksi sosial dan pengembangan bakat olahraga di lingkungan kampus.",
+            "fragment": "lapanganbasket",
+            "link": "unimus/index.html#lapanganbasket",
+            "sceneId": "node118"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "4eff2f101a1fa6ed",
+        "skin.js": "f6d454b1144fd1a6",
+        "index.html": "d025c9ce21fae432"
+    }
+}

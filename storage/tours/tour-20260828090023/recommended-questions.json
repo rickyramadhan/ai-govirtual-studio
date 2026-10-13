@@ -2,49 +2,49 @@
     "version": "1.0",
     "tourId": "tour-20260828090023",
     "tourName": "Sandi Buana",
-    "updatedAt": "2026-08-29T07:22:57+02:00",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
     "state1": {
         "starters": [
             {
-                "label": "Tentang Sandi Buana",
-                "query": "Apa saja daya tarik utama yang bisa saya temukan di kawasan agrowisata Sandi Buana Farm?",
-                "desc": "Apa saja daya tarik utama yang bisa saya temukan di kawasan agrowisata Sandi Buana Farm?"
+                "label": "Harga paket edukasi?",
+                "query": "Berapa harga paket wisata edukasi untuk rombongan sekolah atau anak TK?",
+                "desc": "Berapa harga paket wisata edukasi untuk rombongan sekolah atau anak TK?"
             },
             {
-                "label": "Melon Inthanon",
-                "query": "Bagaimana proses budidaya Melon Inthanon dengan sistem hidroponik di Sandi Buana Farm?",
-                "desc": "Bagaimana proses budidaya Melon Inthanon dengan sistem hidroponik di Sandi Buana Farm?"
+                "label": "Boleh ikut memerah susu?",
+                "query": "Apakah ada sesi khusus di mana pengunjung bisa mencoba langsung memerah susu sapi?",
+                "desc": "Apakah ada sesi khusus di mana pengunjung bisa mencoba langsung memerah susu sapi?"
             },
             {
-                "label": "Peternakan Sapi",
-                "query": "Bagaimana peran Peternakan Sapi dalam sistem pertanian terintegrasi di Sandi Buana Farm?",
-                "desc": "Bagaimana peran Peternakan Sapi dalam sistem pertanian terintegrasi di Sandi Buana Farm?"
+                "label": "Hewan apa saja yang ada?",
+                "query": "Selain kambing dan sapi, apakah ada jenis hewan lain seperti unggas atau kelinci di peternakan ini?",
+                "desc": "Selain kambing dan sapi, apakah ada jenis hewan lain seperti unggas atau kelinci di peternakan ini?"
             }
         ],
         "themes": [
             {
-                "label": "Hidroponik Selada",
-                "query": "Bagaimana cara merawat Hidroponik Selada Air di Sandi Buana Farm agar tumbuh subur?"
+                "label": "Wisata Edukasi Peternakan",
+                "query": "Bagaimana konsep wisata edukasi yang mengajak anak-anak berinteraksi langsung dengan hewan ternak seperti kambing dan sapi?"
             },
             {
-                "label": "Mesin Penggilingan Padi",
-                "query": "Bagaimana cara kerja Mesin Penggilingan Padi modern yang ada di kawasan Sandi Buana Farm?"
+                "label": "Budidaya Pertanian Organik",
+                "query": "Bisa jelaskan sistem penanaman sayur organik dan hidroponik yang diaplikasikan di area Sandi Buana Farm?"
             },
             {
-                "label": "BBQ Garden Cafe",
-                "query": "Apa saja menu andalan dan suasana santai di BBQ Garden Cafe Sandi Buana Farm?"
+                "label": "Fasilitas Area Bermain",
+                "query": "Fasilitas rekreasi outdoor apa saja yang tersedia untuk menunjang aktivitas bermain sambil belajar bagi rombongan keluarga?"
             },
             {
-                "label": "Jam Kunjungan",
-                "query": "Kapan jam operasional terbaik untuk merencanakan kunjungan langsung ke Sandi Buana Farm?"
+                "label": "Proses Pembuatan Kompos",
+                "query": "Bagaimana cara pihak pengelola mengolah limbah kotoran hewan menjadi pupuk kompos yang berguna untuk tanaman?"
             },
             {
-                "label": "Area Sawah & Pesawahan",
-                "query": "Bagaimana pemandangan dan suasana di area Pesawahan serta Area Sawah di Sandi Buana Farm?"
+                "label": "Kuliner Sehat Hasil Kebun",
+                "query": "Apakah ada restoran atau kafe di dalam kawasan farm yang menyajikan menu makanan dari hasil panen sendiri?"
             },
             {
-                "label": "Rute dari Pesawahan",
-                "query": "Spot menarik mana saja yang bisa saya kunjungi selanjutnya jika saya sedang berada di area Pesawahan?"
+                "label": "Pemberdayaan Masyarakat",
+                "query": "Seperti apa kontribusi peternakan ini dalam memberdayakan dan menyerap tenaga kerja lokal di sekitar lokasi farm?"
             }
         ]
     },

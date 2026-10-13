@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "viharawatugong",
+    "updatedAt": "2026-09-29T09:52:56+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Viharawatugong",
+            "aliases": [
+                "viharawatugong"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "viharawatugong"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Viharawatugong.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Viharawatugong",
+                    "content": "Pusat pengalaman virtual untuk Viharawatugong."
+                },
+                "en": {
+                    "title": "Viharawatugong",
+                    "content": "Pusat pengalaman virtual untuk Viharawatugong."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Pagoda",
+            "aliases": [
+                "pagoda"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "viharawatugong"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pagoda",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Pagoda",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Patungdua",
+            "aliases": [
+                "patungdua"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "viharawatugong"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Patungdua",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Patungdua",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "viharawatugong"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:315",
+            "entityId": "objinfo2:315",
+            "title": "Pagoda Avalokitesvara",
+            "aliases": [
+                "pagoda avalokitesvara",
+                "objek 315"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pagoda ini adalah ikon utama Vihara Watugong, berdiri setinggi 45 meter dan tercatat sebagai pagoda tertinggi di Indonesia. Bangunan berarsitektur Tiongkok ini memiliki tujuh tingkatan dan didedikasikan sebagai perwujudan cinta kasih (Metta Karuna) Sang Buddha.",
+            "source": "webview-import",
+            "sourceId": "315",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pagoda Avalokitesvara",
+                    "content": "Pagoda ini adalah ikon utama Vihara Watugong, berdiri setinggi 45 meter dan tercatat sebagai pagoda tertinggi di Indonesia. Bangunan berarsitektur Tiongkok ini memiliki tujuh tingkatan dan didedikasikan sebagai perwujudan cinta kasih (Metta Karuna) Sang Buddha."
+                },
+                "en": {
+                    "title": "Pagoda Avalokitesvara",
+                    "content": "This pagoda is the main icon of Watugong Vihara, standing 45 meters tall and recognized as the tallest pagoda in Indonesia. The Chinese-style building has seven levels and is dedicated as an embodiment of the Buddha’s loving-kindness (Metta Karuna)."
+                },
+                "zh": {
+                    "title": "觀音寶塔",
+                    "content": "這座寶塔是瓦圖貢寺的主要象徵，高達45米，被譽為印尼最高的寶塔。這座中國風建築共有七層，象徵佛陀的慈悲（Metta Karuna）。"
+                },
+                "ar": {
+                    "title": "باكوذا أفالوكيتسفارا",
+                    "content": "هذه الباغودة هي الرمز الرئيسي لمعبد واتوجونغ، ويبلغ ارتفاعها 45 مترًا وتُعتبر أطول باغودة في إندونيسيا. المبنى على الطراز الصيني مكون من سبعة طوابق ومكرس لتجسيد محبة ورحمة بوذا (Metta Karuna)."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:316",
+            "entityId": "objinfo2:316",
+            "title": "Gedung Dammasala",
+            "aliases": [
+                "gedung dammasala",
+                "objek 316"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung Dammasala merupakan bangunan utama vihara yang berfungsi sebagai pusat kegiatan keagamaan dan spiritual umat Buddha. Bangunan dua lantai ini memiliki aula serbaguna di lantai dasar dan ruang ibadah utama dengan patung Buddha besar di lantai atas.",
+            "source": "webview-import",
+            "sourceId": "316",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung Dammasala",
+                    "content": "Gedung Dammasala merupakan bangunan utama vihara yang berfungsi sebagai pusat kegiatan keagamaan dan spiritual umat Buddha. Bangunan dua lantai ini memiliki aula serbaguna di lantai dasar dan ruang ibadah utama dengan patung Buddha besar di lantai atas."
+                },
+                "en": {
+                    "title": "Dammasala Building",
+                    "content": "The Dammasala Building is the main structure of the vihara, serving as the center for religious and spiritual activities of Buddhists. This two-story building has a multipurpose hall on the ground floor and a main prayer room with a large Buddha statue on the upper floor."
+                },
+                "zh": {
+                    "title": "達摩薩拉大樓",
+                    "content": "達摩薩拉大樓是寺廟的主要建築，作為佛教徒宗教與靈修活動的中心。這棟兩層樓建築在一樓設有多功能大廳，上樓則為主禮拜大廳，內有巨大的佛像。"
+                },
+                "ar": {
+                    "title": "مبنى دامماسالا",
+                    "content": "مبنى دامماسالا هو المبنى الرئيسي للفيهارا ويعمل كمركز للأنشطة الدينية والروحية للبوذيين. يحتوي هذا المبنى المكون من طابقين على قاعة متعددة الأغراض في الطابق الأرضي وغرفة صلاة رئيسية بها تمثال بوذا كبير في الطابق العلوي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:317",
+            "entityId": "objinfo2:317",
+            "title": "Patung Buddha dan Dewi Kwan In",
+            "aliases": [
+                "patung buddha dan dewi kwan in",
+                "objek 317"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung Dewi Kwan Im (Bodhisattva Avalokitesvara) yang besar berada di dalam Pagoda Avalokitesvara, serta terdapat pula patung-patung kecil Dewi Kwan Im di setiap tingkat pagoda. Dewi Kwan Im melambangkan dewi welas asih yang memancarkan kasih sayangnya ke empat penjuru mata angin.",
+            "source": "webview-import",
+            "sourceId": "317",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Buddha dan Dewi Kwan In",
+                    "content": "Patung Dewi Kwan Im (Bodhisattva Avalokitesvara) yang besar berada di dalam Pagoda Avalokitesvara, serta terdapat pula patung-patung kecil Dewi Kwan Im di setiap tingkat pagoda. Dewi Kwan Im melambangkan dewi welas asih yang memancarkan kasih sayangnya ke empat penjuru mata angin."
+                },
+                "en": {
+                    "title": "Buddha and Dewi Kwan In Statue",
+                    "content": "A large statue of Dewi Kwan Im (Bodhisattva Avalokitesvara) is located inside the Avalokitesvara Pagoda, with smaller statues on each level of the pagoda. Dewi Kwan Im symbolizes the goddess of compassion who spreads her love to the four corners of the world."
+                },
+                "zh": {
+                    "title": "佛陀與觀音菩薩雕像",
+                    "content": "觀音菩薩（Avalokitesvara）的巨型雕像位於觀音寶塔內，每層寶塔也設有小型觀音雕像。觀音菩薩象徵慈悲女神，將愛與慈悲傳向四方。"
+                },
+                "ar": {
+                    "title": "تمثال بوذا والإلهة كوان يين",
+                    "content": "يوجد تمثال كبير للإلهة كوان يين (البوديساتفا أفالوكيتسفارا) داخل باغودة أفالوكيتسفارا، مع وجود تماثيل صغيرة في كل مستوى من الباغودة. ترمز كوان يين إلى إلهة الرحمة التي تنشر حبها إلى الأربع جهات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:318",
+            "entityId": "objinfo2:318",
+            "title": "Watugong",
+            "aliases": [
+                "watugong",
+                "objek 318"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Watugong adalah batu alam berbentuk unik menyerupai gong yang menjadi asal usul nama kompleks vihara ini. Batu ini dianggap sebagai peninggalan bersejarah dan menjadi salah satu ikon yang menyambut pengunjung di dekat pintu masuk vihara.",
+            "source": "webview-import",
+            "sourceId": "318",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Watugong",
+                    "content": "Watugong adalah batu alam berbentuk unik menyerupai gong yang menjadi asal usul nama kompleks vihara ini. Batu ini dianggap sebagai peninggalan bersejarah dan menjadi salah satu ikon yang menyambut pengunjung di dekat pintu masuk vihara."
+                },
+                "en": {
+                    "title": "Watugong",
+                    "content": "Watugong is a naturally shaped stone resembling a gong, which inspired the name of this vihara complex. The stone is considered a historical relic and serves as one of the welcoming icons near the vihara entrance."
+                },
+                "zh": {
+                    "title": "瓦圖貢石",
+                    "content": "瓦圖貢石是一塊天然形成、形似鑼的石頭，也是該寺廟園區名稱的由來。此石被視為歷史遺跡，是位於寺廟入口附近的迎賓象徵之一。"
+                },
+                "ar": {
+                    "title": "واتوجونغ",
+                    "content": "واتوجونغ هو حجر طبيعي على شكل جُونغ، وقد ألهم اسم هذا المجمع الديني (الفيهارا). يُعتبر الحجر أثرًا تاريخيًا ويعمل كأحد الرموز الترحيبية بالقرب من مدخل الفيهارا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:319",
+            "entityId": "objinfo2:319",
+            "title": "Pohon Bodhi",
+            "aliases": [
+                "pohon bodhi",
+                "objek 319"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pohon Bodhi di Vihara Watugong merupakan keturunan langsung dari Pohon Bodhi di India tempat Pangeran Sidharta mencapai pencerahan. Pohon ini ditanam pada tahun 1955 oleh Bhante Narada Mahathera dan melambangkan tempat keabadian serta menjadi situs suci di vihara.",
+            "source": "webview-import",
+            "sourceId": "319",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pohon Bodhi",
+                    "content": "Pohon Bodhi di Vihara Watugong merupakan keturunan langsung dari Pohon Bodhi di India tempat Pangeran Sidharta mencapai pencerahan. Pohon ini ditanam pada tahun 1955 oleh Bhante Narada Mahathera dan melambangkan tempat keabadian serta menjadi situs suci di vihara."
+                },
+                "en": {
+                    "title": "Bodhi Tree",
+                    "content": "The Bodhi Tree at Watugong Vihara is a direct descendant of the Bodhi Tree in India where Prince Siddhartha attained enlightenment. It was planted in 1955 by Bhante Narada Mahathera and symbolizes immortality, serving as a sacred site within the vihara."
+                },
+                "zh": {
+                    "title": "菩提樹",
+                    "content": "瓦圖貢寺的菩提樹是印度菩提樹的直系後裔，印度菩提樹是悉達多太子獲得覺悟之地。此樹於1955年由Bhante Narada Mahathera種植，象徵永恆，並成為寺廟內的聖地。"
+                },
+                "ar": {
+                    "title": "شجرة بودهي",
+                    "content": "شجرة بودهي في فيهارا واتوجونغ هي من نسل مباشر لشجرة بودهي في الهند حيث بلغ الأمير سيدهارتا التنوير. تم زرعها في عام 1955 بواسطة بانت نارادا ماثيرا وترمز إلى الخلود وتعد موقعًا مقدسًا داخل الفيهارا."
+                }
+            }
+        }
+    ]
+}

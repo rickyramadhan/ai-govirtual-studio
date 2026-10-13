@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "politeknikbumiakpelni",
+    "tourName": "Politeknikbumiakpelni",
+    "updatedAt": "2026-09-29T09:51:47+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Politeknikbumiakpelni?",
+                "query": "Mengapa disebut Politeknikbumiakpelni?",
+                "desc": "Mengapa disebut Politeknikbumiakpelni?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Politeknikbumiakpelni",
+                "desc": "Ceritakan tentang Politeknikbumiakpelni"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Politeknikbumiakpelni"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Politeknikbumiakpelni"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Politeknikbumiakpelni?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Politeknikbumiakpelni?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Politeknikbumiakpelni?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Politeknikbumiakpelni?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

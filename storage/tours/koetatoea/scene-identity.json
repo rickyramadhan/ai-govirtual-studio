@@ -1,0 +1,1100 @@
+{
+    "version": "1.1-seed",
+    "tourId": "koetatoea",
+    "generatedAt": "2026-10-06",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "default",
+            "displayName": "Parkiran",
+            "placeId": "parkiran",
+            "placeName": "Parkiran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area parkir luas dan tertata untuk kendaraan pengunjung Koeta Toea.",
+            "description": "Area parkir dirancang luas dengan perkerasan yang rapi untuk mengakomodasi kendaraan roda dua dan roda empat, menjadi titik awal kedatangan yang nyaman sebelum memasuki kawasan wisata.",
+            "highlights": [
+                "Eksplorasi visual Sudut Panorama",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana fasilitas dan keamanan area parkir di sini?",
+                    "mode": "fix",
+                    "answer": "Area parkir dijaga petugas keamanan dengan sistem penataan yang rapi untuk menjamin keamanan kendaraan."
+                },
+                {
+                    "q": "Di mana letak akses masuk dari area parkir?",
+                    "mode": "fix",
+                    "answer": "Akses masuk terhubung langsung dengan gerbang utama dan loket penyambutan pengunjung."
+                },
+                {
+                    "q": "Apakah area parkir mampu menampung bus pariwisata?",
+                    "mode": "fix",
+                    "answer": "Tersedia ruang khusus untuk kendaraan besar dan rombongan bus wisata yang datang berkunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Parkiran.",
+                "describeHere": "default adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Koeta Toea",
+            "displayName": "Koeta Toea",
+            "placeId": "koeta-toea",
+            "placeName": "Koeta Toea",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan wisata tematik dengan deretan bangunan bergaya klasik Eropa penuh warna.",
+            "description": "Koeta Toea menyuguhkan lanskap ikonik ala perkotaan klasik Eropa dengan bangunan ber-cat warna-warni cerah (pastel), menjadi pusat swafoto dan destinasi rekreasi keluarga yang sangat populer di Semarang.",
+            "highlights": [
+                "Eksplorasi visual Koeta Toea",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Koeta Toea",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa daya tarik utama dari kawasan Koeta Toea?",
+                    "mode": "fix",
+                    "answer": "Arsitektur bangunan klasik ala Eropa dengan warna-warna pastel yang sangat fotogenik."
+                },
+                {
+                    "q": "Aktivitas apa saja yang bisa dilakukan pengunjung di sini?",
+                    "mode": "fix",
+                    "answer": "Berswafoto, berwisata kuliner, berbelanja oleh-oleh, dan menikmati suasana kawasan yang estetis."
+                },
+                {
+                    "q": "Kapan waktu terbaik untuk mengunjungi Koeta Toea?",
+                    "mode": "fix",
+                    "answer": "Sore hingga malam hari saat cuaca lebih sejuk dan lampu-lampu hias mulai menyala indah."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koeta Toea.",
+                "describeHere": "Koeta Toea adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Food Court",
+            "displayName": "Food Court",
+            "placeId": "food-court",
+            "placeName": "Food Court",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat kuliner indoor dengan beragam pilihan makanan lezat dan tempat duduk nyaman.",
+            "description": "Food Court Koeta Toea menyajikan aneka kuliner Nusantara hingga modern dalam ruangan yang bersih dan lapang, menjadi tempat bersantap favorit bersama keluarga setelah lelah berkeliling.",
+            "highlights": [
+                "Eksplorasi visual Food Court",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Food Court",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis kuliner apa saja yang tersedia di food court ini?",
+                    "mode": "fix",
+                    "answer": "Beragam menu makanan tradisional khas Semarang hingga jajanan kekinian dan kuliner nusantara."
+                },
+                {
+                    "q": "Bagaimana sistem pemesanan makanan di area ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat memesan langsung di masing-masing stan tenant kuliner yang tersedia."
+                },
+                {
+                    "q": "Apakah area tempat duduknya cukup luas untuk rombongan?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia banyak meja dan kursi komunal yang nyaman untuk kapasitas pengunjung yang besar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Food Court.",
+                "describeHere": "Food Court adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Panggungentertaiment",
+            "displayName": "Panggung entertaiment",
+            "placeId": "panggung-entertaiment",
+            "placeName": "Panggung entertaiment",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panggung hiburan terbuka untuk pertunjukan musik live dan event menarik.",
+            "description": "Area panggung hiburan dirancang dinamis untuk menampilkan live music, akustik, maupun berbagai pertunjukan seni guna menghibur para pengunjung yang sedang bersantap dan bersantai di area sekitar.",
+            "highlights": [
+                "Eksplorasi visual Panggungentertaiment",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Panggungentertaiment",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Hiburan apa saja yang biasa ditampilkan di panggung ini?",
+                    "mode": "fix",
+                    "answer": "Pertunjukan musik live akustik, hiburan seni, dan berbagai acara panggung tematik."
+                },
+                {
+                    "q": "Kapan jadwal pertunjukan musik biasanya diadakan?",
+                    "mode": "fix",
+                    "answer": "Biasanya diselenggarakan lebih meriah pada akhir pekan serta hari libur nasional."
+                },
+                {
+                    "q": "Di mana pengunjung bisa menikmati jalannya pertunjukan?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menonton sambil duduk bersantap di area food court terbuka terdekat."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:540"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Panggung entertaiment.",
+                "describeHere": "Panggungentertaiment adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Foodcourtoutdoor",
+            "displayName": "Food court outdoor",
+            "placeId": "food-court-outdoor",
+            "placeName": "Food court outdoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area bersantap luar ruangan di bawah naungan langit dan lampu gantung estetis.",
+            "description": "Food Court Outdoor menawarkan pengalaman kuliner alfresco dengan deretan meja di ruang terbuka, dikelilingi arsitektur warna-warni dan temaram lampu hias yang romantis saat malam hari.",
+            "highlights": [
+                "Eksplorasi visual Foodcourtoutdoor",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Foodcourtoutdoor",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Suasana seperti apa yang ditawarkan di area outdoor ini?",
+                    "mode": "fix",
+                    "answer": "Suasana santai di ruang terbuka dengan pencahayaan lampu gantung yang sangat estetis di malam hari."
+                },
+                {
+                    "q": "Apakah tersedia fasilitas peneduh untuk siang hari?",
+                    "mode": "fix",
+                    "answer": "Area ini dirancang optimal untuk bersantai terutama saat sore menjelang malam hari."
+                },
+                {
+                    "q": "Kuliner apa yang paling dicari pengunjung di zona ini?",
+                    "mode": "fix",
+                    "answer": "Aneka makanan santai, camilan ringan, dan minuman segar pendamping waktu bersantai."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:539"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Food court outdoor.",
+                "describeHere": "Foodcourtoutdoor adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Tokooleholeh",
+            "displayName": "Toko oleh-oleh",
+            "placeId": "toko-oleh-oleh",
+            "placeName": "Toko oleh-oleh",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat suvenir dan cinderamata khas untuk dibawa pulang oleh wisatawan.",
+            "description": "Toko Oleh-oleh menyediakan berbagai macam pernak-pernik khas, suvenir bertema Koeta Toea, dan kerajinan lokal berkualitas yang cocok sebagai kenang-kenangan kunjungan.",
+            "highlights": [
+                "Eksplorasi visual Tokooleholeh",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Tokooleholeh",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Produk apa saja yang dijual di toko oleh-oleh ini?",
+                    "mode": "fix",
+                    "answer": "Aneka suvenir khas, kerajinan tangan lokal, dan cenderamata bertema Koeta Toea."
+                },
+                {
+                    "q": "Apakah suvenir yang dijual di sini ramah di kantong?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia beragam pilihan cinderamata dengan kisaran harga yang bervariasi dan terjangkau."
+                },
+                {
+                    "q": "Mengapa penting mampir ke toko suvenir ini?",
+                    "mode": "fix",
+                    "answer": "Untuk melengkapi pengalaman berwisata dan membawa pulang kenang-kenangan khas dari Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:542"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toko oleh-oleh.",
+                "describeHere": "Tokooleholeh adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Tokomainan",
+            "displayName": "Tokomainan",
+            "placeId": "tokomainan",
+            "placeName": "Tokomainan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Toko mainan seru yang menyajikan ragam mainan anak edukatif dan koleksi menarik.",
+            "description": "Tokomainan menjadi surga kecil bagi anak-anak dan keluarga, menawarkan berbagai pilihan mainan edukatif, boneka, serta permainan seru yang menghibur selama berwisata.",
+            "highlights": [
+                "Eksplorasi visual Tokomainan",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Tokomainan",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Produk mainan apa saja yang ditawarkan di toko ini?",
+                    "mode": "fix",
+                    "answer": "Mainan edukatif anak, boneka, dan aneka permainan seru untuk berbagai usia."
+                },
+                {
+                    "q": "Apakah toko ini cocok dikunjungi bersama anak-anak?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena menyediakan ragam mainan menarik yang disukai anak-anak."
+                },
+                {
+                    "q": "Bagaimana penataan produk di dalam toko mainan ini?",
+                    "mode": "fix",
+                    "answer": "Ditata rapi di rak-rak display yang cerah dan mudah dijangkau oleh pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tokomainan.",
+                "describeHere": "Tokomainan adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Goedang Lampoe",
+            "displayName": "Goedang Lampoe",
+            "placeId": "goedang-lampoe",
+            "placeName": "Goedang Lampoe",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri unik yang memamerkan koleksi lampu antik dan hiasan pencahayaan klasik.",
+            "description": "Goedang Lampoe menampilkan ragam lampu gantung antik, lampu hias bergaya vintage, dan pernak-pernik interior klasik yang memukau para pecinta seni dan dekorasi retro.",
+            "highlights": [
+                "Eksplorasi visual Goedang Lampoe",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Goedang Lampoe",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang dipamerkan di dalam Goedang Lampoe?",
+                    "mode": "fix",
+                    "answer": "Koleksi lampu gantung antik, lampu hias retro, dan aksesoris dekorasi interior klasik."
+                },
+                {
+                    "q": "Apakah koleksi lampu antik di sini juga diperjualbelikan?",
+                    "mode": "fix",
+                    "answer": "Sebagian besar koleksi dekorasi dan lampu antik dapat dibeli oleh para kolektor atau pengunjung."
+                },
+                {
+                    "q": "Bagaimana nuansa ruang di dalam galeri lampu ini?",
+                    "mode": "fix",
+                    "answer": "Nuansanya hangat dan artistik dengan pencahayaan temaram yang menonjolkan detail klasik."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Goedang Lampoe.",
+                "describeHere": "Goedang Lampoe adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Gudanglampu",
+            "displayName": "Spot Foto Goedang lampoe",
+            "placeId": "spot-foto-goedang-lampoe",
+            "placeName": "Spot Foto Goedang lampoe",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Spot swafoto artistik dengan latar kelap-kelip koleksi lampu antik.",
+            "description": "Spot Foto Goedang Lampoe dirancang khusus bagi pengunjung yang ingin berpose di antara instalasi pencahayaan artistik dan lampu-lampu antik yang estetik.",
+            "highlights": [
+                "Eksplorasi visual Gudanglampu",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Gudanglampu",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keunikan spot foto di area Goedang Lampoe?",
+                    "mode": "fix",
+                    "answer": "Latar belakang instalasi lampu antik yang memancarkan cahaya artistik dan sangat Instagramable."
+                },
+                {
+                    "q": "Apakah area ini sering menjadi favorit pengunjung?",
+                    "mode": "fix",
+                    "answer": "Sangat diminati oleh pengunjung yang mencari latar foto bernuansa vintage dan estetik."
+                },
+                {
+                    "q": "Bagaimana tips mendapatkan hasil foto terbaik di sini?",
+                    "mode": "fix",
+                    "answer": "Manfaatkan pencahayaan alami dari lampu gantung untuk menciptakan efek visual yang dramatis."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:541"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Spot Foto Goedang lampoe.",
+                "describeHere": "Gudanglampu adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Olahanmakanan",
+            "displayName": "Toko oleh-oleh makanan",
+            "placeId": "toko-oleh-oleh-makanan",
+            "placeName": "Toko oleh-oleh makanan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat jajanan dan produk kuliner khas tradisional untuk oleh-oleh.",
+            "description": "Toko oleh-oleh makanan menawarkan berbagai camilan khas, kue tradisional, dan produk kuliner olahan khas daerah yang lezat untuk buah tangan keluarga di rumah.",
+            "highlights": [
+                "Eksplorasi visual Olahanmakanan",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Olahanmakanan",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Produk makanan apa saja yang menjadi unggulan di sini?",
+                    "mode": "fix",
+                    "answer": "Aneka kue tradisional, camilan gurih, dan produk kuliner khas lokal berkualitas."
+                },
+                {
+                    "q": "Apakah kemasan produk makanannya aman untuk dibawa perjalanan jauh?",
+                    "mode": "fix",
+                    "answer": "Ya, sebagian besar produk dikemas rapi dan higienis sehingga aman untuk dibawa ke luar kota."
+                },
+                {
+                    "q": "Mengapa wajib berbelanja oleh-oleh makanan di tempat ini?",
+                    "mode": "fix",
+                    "answer": "Karena menyediakan cita rasa kuliner khas yang autentik dan praktis sebagai buah tangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toko oleh-oleh makanan.",
+                "describeHere": "Olahanmakanan adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Minizoo",
+            "displayName": "Mini zoo",
+            "placeId": "mini-zoo",
+            "placeName": "Mini zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kebun binatang mini interaktif yang ramah anak dan penuh satwa jinak.",
+            "description": "Mini Zoo menyuguhkan pengalaman berinteraksi langsung dengan berbagai satwa jinak dan ramah anak, menjadi sarana edukasi satwa yang menyenangkan bagi keluarga.",
+            "highlights": [
+                "Eksplorasi visual Minizoo",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Minizoo",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Satwa apa saja yang dapat dilihat di mini zoo ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis burung, kelinci, rusa, dan satwa jinak lain yang ramah anak."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan memberi makan satwa?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat memberi makan satwa tertentu menggunakan pakan yang disediakan khusus."
+                },
+                {
+                    "q": "Apakah zona ini aman untuk dikunjungi anak-anak?",
+                    "mode": "fix",
+                    "answer": "Sangat aman dan edukatif untuk mengenalkan anak-anak pada dunia satwa sejak dini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Mini zoo.",
+                "describeHere": "Minizoo adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Minizoo",
+            "displayName": "Koridor Mini zoo",
+            "placeId": "koridor-mini-zoo",
+            "placeName": "Koridor Mini zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur koridor jalan santai di area sekitar kandang satwa mini zoo.",
+            "description": "Koridor Mini Zoo adalah jalur setapak teduh yang mengarahkan pengunjung menyusuri area penangkaran satwa dengan pemandangan hijau dan kandang yang tertata bersih.",
+            "highlights": [
+                "Eksplorasi visual Minizoo",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Minizoo",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana penataan jalur koridor di area mini zoo?",
+                    "mode": "fix",
+                    "answer": "Jalur setapak bersih dan teduh yang memudahkan pengunjung berjalan kaki sambil melihat satwa."
+                },
+                {
+                    "q": "Fasilitas apa saja yang ada sepanjang koridor ini?",
+                    "mode": "fix",
+                    "answer": "Papan informasi edukasi satwa dan pembatas kandang yang aman bagi pengunjung."
+                },
+                {
+                    "q": "Mengapa koridor ini nyaman untuk dijelajahi?",
+                    "mode": "fix",
+                    "answer": "Karena suasananya asri, bersih, dan terlindung dari terik matahari langsung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:538"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor Mini zoo.",
+                "describeHere": "Minizoo adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Mini Zoo",
+            "displayName": "Depan Mini Zoo",
+            "placeId": "depan-mini-zoo",
+            "placeName": "Depan Mini Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area pelataran depan pintu masuk kawasan interaksi satwa mini zoo.",
+            "description": "Zona Depan Mini Zoo merupakan titik sambut utama sebelum pengunjung memasuki area interaksi satwa, dilengkapi papan petunjuk arah dan informasi edukatif.",
+            "highlights": [
+                "Eksplorasi visual Mini Zoo",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Mini Zoo",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari area depan mini zoo ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai titik kumpul dan area orientasi sebelum pengunjung masuk ke zona satwa."
+                },
+                {
+                    "q": "Informasi apa yang bisa dibaca pengunjung di sini?",
+                    "mode": "fix",
+                    "answer": "Papan petunjuk tata tertib interaksi satwa dan jam operasional mini zoo."
+                },
+                {
+                    "q": "Bagaimana aksesibilitas menuju area ini?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah dijangkau melalui jalur utama pejalan kaki di dalam kawasan Koeta Toea."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Depan Mini Zoo.",
+                "describeHere": "Mini Zoo adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Musholla",
+            "displayName": "Musholla",
+            "placeId": "musholla",
+            "placeName": "Musholla",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas rumah ibadah yang bersih dan nyaman bagi pengunjung.",
+            "description": "Musholla menyediakan tempat beribadah yang tenang, lengkap dengan perlengkapan salat serta tempat wudu terpisah yang bersih untuk kenyamanan pengunjung beragama Islam.",
+            "highlights": [
+                "Eksplorasi visual Musholla",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang tersedia di area musholla?",
+                    "mode": "fix",
+                    "answer": "Ruang salat bersih, mukena, sajadah, serta tempat wudu terpisah untuk pria dan wanita."
+                },
+                {
+                    "q": "Apakah lokasi musholla mudah diakses dari berbagai area?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah dijangkau karena terletak di lokasi yang strategis di dalam kawasan wisata."
+                },
+                {
+                    "q": "Bagaimana tingkat kebersihan fasilitas ibadah ini?",
+                    "mode": "fix",
+                    "answer": "Selalu dijaga kebersihannya secara berkala demi kenyamanan beribadah para pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Musholla.",
+                "describeHere": "Musholla adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "placeId": "pintu-masuk",
+            "placeName": "Pintu Masuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang penyambutan utama bagi wisatawan yang memasuki Koeta Toea.",
+            "description": "Pintu Masuk menampilkan gerbang megah berarsitektur klasik Eropa yang menyambut setiap pengunjung, menandai batas awal dimulainya petualangan seru di kawasan wisata ini.",
+            "highlights": [
+                "Eksplorasi visual Pintu Masuk",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa kesan pertama yang dihadirkan di pintu masuk ini?",
+                    "mode": "fix",
+                    "answer": "Kemegahan arsitektur klasik Eropa dan sambutan hangat bagi setiap wisatawan yang datang."
+                },
+                {
+                    "q": "Apakah terdapat layanan informasi di dekat gerbang masuk?",
+                    "mode": "fix",
+                    "answer": "Tersedia papan informasi peta kawasan untuk memandu arah eksplorasi pengunjung."
+                },
+                {
+                    "q": "Mengapa gerbang ini menjadi spot foto favorit?",
+                    "mode": "fix",
+                    "answer": "Karena bentuk arsitekturnya yang megah dan sangat ikonik sebagai latar foto kedatangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Tempat Bermain",
+            "displayName": "Playground",
+            "placeId": "playground",
+            "placeName": "Playground",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman bermain anak ceria dengan berbagai wahana permainan seru dan aman.",
+            "description": "Playground menyediakan area bermain luar dan dalam ruangan yang aman bagi anak-anak, dilengkapi seluncuran, ayunan, dan permainan interaktif yang melatih motorik.",
+            "highlights": [
+                "Eksplorasi visual Tempat Bermain",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Tempat Bermain",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Wahana permainan apa saja yang tersedia di playground ini?",
+                    "mode": "fix",
+                    "answer": "Seluncuran anak, ayunan, mandi bola, dan berbagai permainan motorik yang menyenangkan."
+                },
+                {
+                    "q": "Apakah area bermain ini aman untuk anak balita?",
+                    "mode": "fix",
+                    "answer": "Sangat aman dengan lantai berpelindung khusus dan pengawasan yang baik."
+                },
+                {
+                    "q": "Mengapa area ini sangat disukai oleh keluarga?",
+                    "mode": "fix",
+                    "answer": "Karena anak-anak dapat bermain dengan gembira sementara orang tua bersantai di sekitarnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Playground.",
+                "describeHere": "Tempat Bermain adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Video360 1",
+            "displayName": "Video 360 experience playground",
+            "placeId": "video-360-experience-playground",
+            "placeName": "Video 360 experience playground",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Wahana rekam video 360 derajat interaktif di area taman bermain.",
+            "description": "Video 360 Experience menawarkan keseruan merekam video sinematik berputar 360 derajat bagi anak-anak dan keluarga, menghasilkan kenangan liburan yang unik dan mengesankan.",
+            "highlights": [
+                "Eksplorasi visual Video360 1",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara kerja wahana video 360 experience ini?",
+                    "mode": "fix",
+                    "answer": "Kamera khusus berputar mengelilingi platform untuk merekam video aksi bergaya sinematik."
+                },
+                {
+                    "q": "Siapa saja yang bisa menikmati keseruan wahana ini?",
+                    "mode": "fix",
+                    "answer": "Anak-anak, remaja, hingga keluarga yang ingin mengabadikan momen liburan seru."
+                },
+                {
+                    "q": "Hasil video dapat dikirimkan ke mana?",
+                    "mode": "fix",
+                    "answer": "Hasil rekaman video dapat langsung diunduh dan dibagikan ke media sosial."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Video 360 experience playground.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Tempatmakan",
+            "displayName": "Tempat makan",
+            "placeId": "tempat-makan",
+            "placeName": "Tempat makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area bersantap santai dengan pilihan ragam menu kuliner menggugah selera.",
+            "description": "Tempat Makan menyediakan pilihan gerai kuliner lezat dengan suasana nyaman, menjadi destinasi kuliner yang pas untuk melepas penat dan menikmati hidangan bersama kerabat.",
+            "highlights": [
+                "Eksplorasi visual Tempatmakan",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Tempatmakan",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Makanan apa saja yang disajikan di tempat makan ini?",
+                    "mode": "fix",
+                    "answer": "Beraneka hidangan makanan berat, camilan lezat, dan minuman pelepas dahaga."
+                },
+                {
+                    "q": "Bagaimana suasana di area tempat makan ini?",
+                    "mode": "fix",
+                    "answer": "Suasananya bersih, lapang, dan nyaman untuk bersantap bersama keluarga."
+                },
+                {
+                    "q": "Apakah pelayanannya cepat dan ramah?",
+                    "mode": "fix",
+                    "answer": "Ya, setiap gerai kuliner dikelola secara profesional untuk melayani pengunjung dengan baik."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tempat makan.",
+                "describeHere": "Tempatmakan adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Topengtiki",
+            "displayName": "Tempat makan Lt.2",
+            "placeId": "tempat-makan-lt-2",
+            "placeName": "Tempat makan Lt.2",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area bersantap lantai atas dengan sudut pandang pemandangan kawasan yang luas.",
+            "description": "Tempat Makan Lantai 2 menawarkan pengalaman kuliner dari ketinggian, memungkinkan pengunjung menikmati hidangan sembari memandang keindahan arsitektur warna-warni Koeta Toea.",
+            "highlights": [
+                "Eksplorasi visual Topengtiki",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Topengtiki",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa kelebihan bersantap di area lantai 2 ini?",
+                    "mode": "fix",
+                    "answer": "Menyuguhkan pemandangan lanskap kawasan Koeta Toea dari sudut pandang yang lebih tinggi."
+                },
+                {
+                    "q": "Apakah udaranya lebih sejuk di lantai atas?",
+                    "mode": "fix",
+                    "answer": "Ya, sirkulasi udara di lantai dua terasa lebih terbuka dan menyegarkan."
+                },
+                {
+                    "q": "Menu apa yang menjadi favorit di lantai ini?",
+                    "mode": "fix",
+                    "answer": "Beraneka ragam menu kuliner nusantara dan hidangan modern pilihan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tempat makan Lt.2.",
+                "describeHere": "Topengtiki adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Designruangan",
+            "displayName": "Area tempat makan Lt.2",
+            "placeId": "area-tempat-makan-lt-2",
+            "placeName": "Area tempat makan Lt.2",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona tempat duduk komunal di lantai dua dengan tata ruang yang estetis.",
+            "description": "Area Tempat Makan Lt.2 dirancang dengan konsep tempat duduk modern dan pencahayaan yang hangat, memberikan kenyamanan ekstra bagi pengunjung yang ingin bersantap lebih tenang.",
+            "highlights": [
+                "Eksplorasi visual Designruangan",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Designruangan",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana konsep penataan ruang di lantai dua ini?",
+                    "mode": "fix",
+                    "answer": "Penataan kursi komunal yang rapi dengan estetika interior yang hangat dan modern."
+                },
+                {
+                    "q": "Apakah area ini cocok untuk acara makan bersama keluarga besar?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena menyediakan kapasitas meja dan kursi yang luas."
+                },
+                {
+                    "q": "Bagaimana akses menuju area tempat makan lantai dua?",
+                    "mode": "fix",
+                    "answer": "Tersedia tangga akses yang aman dan mudah dijangkau dari lantai dasar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area tempat makan Lt.2.",
+                "describeHere": "Designruangan adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "Restoran",
+            "displayName": "Restoran",
+            "placeId": "restoran",
+            "placeName": "Restoran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Restoran utama dengan menu spesial dan kenyamanan ruang ber-AC.",
+            "description": "Restoran utama menyajikan hidangan pilihan berkualitas tinggi dalam ruang ber-AC yang elegan, cocok untuk jamuan makan formal maupun santap santai bersama keluarga besar.",
+            "highlights": [
+                "Eksplorasi visual Restoran",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Restoran",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang ditawarkan di restoran utama ini?",
+                    "mode": "fix",
+                    "answer": "Ruangan ber-AC yang nyaman, interior elegan, dan pelayanan bersantap kelas prima."
+                },
+                {
+                    "q": "Menu apa yang menjadi andalan di restoran ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai hidangan chef spesial mulai dari masakan lokal hingga sajian oriental dan barat."
+                },
+                {
+                    "q": "Apakah restoran ini perlu reservasi untuk rombongan besar?",
+                    "mode": "fix",
+                    "answer": "Disarankan melakukan reservasi terlebih dahulu jika datang bersama rombongan besar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Restoran.",
+                "describeHere": "Restoran adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "Lantai 2",
+            "displayName": "Restoran lantai 2",
+            "placeId": "restoran-lantai-2",
+            "placeName": "Restoran lantai 2",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Restoran tingkat atas dengan suasana privat dan pemandangan menawan.",
+            "description": "Restoran Lantai 2 menawarkan pengalaman kuliner eksklusif dengan privasi ruang yang lebih terjaga serta panorama indah kawasan wisata dari ketinggian lantai dua.",
+            "highlights": [
+                "Eksplorasi visual Lantai 2",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Lantai 2",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keistimewaan bersantap di restoran lantai dua?",
+                    "mode": "fix",
+                    "answer": "Suasana yang lebih privat dan pemandangan panorama kawasan wisata dari ketinggian."
+                },
+                {
+                    "q": "Cocok untuk acara apa restoran di lantai ini?",
+                    "mode": "fix",
+                    "answer": "Sangat ideal untuk jamuan makan malam keluarga, perayaan, atau acara spesial."
+                },
+                {
+                    "q": "Bagaimana kualitas pelayanan di restoran ini?",
+                    "mode": "fix",
+                    "answer": "Dilayani oleh staf profesional dengan standar pelayanan kuliner yang prima."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Restoran lantai 2.",
+                "describeHere": "Lantai 2 adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Toilet",
+            "displayName": "Toilet",
+            "placeId": "toilet",
+            "placeName": "Toilet",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas toilet umum yang bersih, higienis, dan terawat dengan baik.",
+            "description": "Fasilitas toilet umum disediakan di titik strategis kawasan dengan standar kebersihan tinggi, dilengkapi wastafel dan air bersih untuk kenyamanan seluruh pengunjung.",
+            "highlights": [
+                "Eksplorasi visual Toilet",
+                "Atmosfer otentik Wisata Tematik Koeta Toea",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Koetatoea"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana standar kebersihan fasilitas toilet di sini?",
+                    "mode": "fix",
+                    "answer": "Selalu dijaga kebersihannya secara rutin oleh petugas kebersihan setiap hari."
+                },
+                {
+                    "q": "Apakah toilet tersedia secara terpisah?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia fasilitas toilet terpisah antara pria dan wanita serta akses disabilitas."
+                },
+                {
+                    "q": "Di mana lokasi toilet ini dapat ditemukan?",
+                    "mode": "fix",
+                    "answer": "Terletak di titik-titik strategis yang mudah diakses dari area publik dan pusat kuliner."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toilet.",
+                "describeHere": "Toilet adalah area di dalam kawasan Koetatoea, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

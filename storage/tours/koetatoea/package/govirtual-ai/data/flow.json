@@ -1,0 +1,103 @@
+{
+    "version": "1.0",
+    "tourId": "koetatoea",
+    "tourName": "Koetatoea",
+    "updatedAt": "2026-09-29T09:51:15+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node23",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Sudut Panorama (Titik 1)"
+        },
+        "node2": {
+            "displayName": "Koeta Toea (Titik 2)"
+        },
+        "node3": {
+            "displayName": "Food Court (Titik 3)"
+        },
+        "node4": {
+            "displayName": "Panggungentertaiment (Titik 4)"
+        },
+        "node5": {
+            "displayName": "Foodcourtoutdoor (Titik 5)"
+        },
+        "node6": {
+            "displayName": "Tokooleholeh (Titik 6)"
+        },
+        "node7": {
+            "displayName": "Tokomainan (Titik 7)"
+        },
+        "node8": {
+            "displayName": "Goedang Lampoe (Titik 8)"
+        },
+        "node9": {
+            "displayName": "Gudanglampu (Titik 9)"
+        },
+        "node10": {
+            "displayName": "Olahanmakanan (Titik 10)"
+        },
+        "node11": {
+            "displayName": "Minizoo (Titik 11)"
+        },
+        "node12": {
+            "displayName": "Minizoo (Titik 12)"
+        },
+        "node13": {
+            "displayName": "Mini Zoo (Titik 13)"
+        },
+        "node14": {
+            "displayName": "Musholla (Titik 14)"
+        },
+        "node15": {
+            "displayName": "Pintu Masuk (Titik 15)"
+        },
+        "node16": {
+            "displayName": "Tempat Bermain (Titik 16)"
+        },
+        "node23": {
+            "displayName": "Video360 1 (Titik 23)"
+        },
+        "node17": {
+            "displayName": "Tempatmakan (Titik 17)"
+        },
+        "node18": {
+            "displayName": "Topengtiki (Titik 18)"
+        },
+        "node19": {
+            "displayName": "Designruangan (Titik 19)"
+        },
+        "node20": {
+            "displayName": "Restoran (Titik 20)"
+        },
+        "node21": {
+            "displayName": "Lantai 2 (Titik 21)"
+        },
+        "node22": {
+            "displayName": "Toilet (Titik 22)"
+        }
+    }
+}

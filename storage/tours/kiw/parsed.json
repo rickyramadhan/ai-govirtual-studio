@@ -1,0 +1,747 @@
+{
+    "startNode": "node2",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": -129.54,
+            "tilt": -34.51,
+            "fov": 120,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Office",
+            "displayName": "Office",
+            "rawName": "",
+            "customNodeId": "office",
+            "pan": 1.5,
+            "tilt": 10.15,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "office"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Plakat",
+            "displayName": "Plakat",
+            "rawName": "",
+            "customNodeId": "plakat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "plakat"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Transit Point",
+            "displayName": "Transit Point",
+            "rawName": "",
+            "customNodeId": "-ransit-oint",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Transit Point"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Food Court Depan",
+            "displayName": "Food Court Depan",
+            "rawName": "",
+            "customNodeId": "-ood-ourt-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court Depan"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Landmark",
+            "displayName": "Landmark",
+            "rawName": "",
+            "customNodeId": "landmark",
+            "pan": 3.92,
+            "tilt": -8.06,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "landmark"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Foodcourt",
+            "displayName": "Foodcourt",
+            "rawName": "",
+            "customNodeId": "foodcourt",
+            "pan": -19.53,
+            "tilt": 0.99,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "foodcourt"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "PT. Kingda Marine Technical Indonesia",
+            "displayName": "PT. Kingda Marine Technical Indonesia",
+            "rawName": "",
+            "customNodeId": "-ingda-arine-echnical-ndonesia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "PT. Kingda Marine Technical Indonesia"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Masarya",
+            "displayName": "Masarya",
+            "rawName": "",
+            "customNodeId": "masarya",
+            "pan": -0.74,
+            "tilt": 0.72,
+            "fov": 129.14,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "masarya"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "PT. Morta Utama",
+            "displayName": "PT. Morta Utama",
+            "rawName": "",
+            "customNodeId": "-orta-tama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "PT. Morta Utama"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Pengelolaanair",
+            "displayName": "Pengelolaanair",
+            "rawName": "",
+            "customNodeId": "pengelolaanair",
+            "pan": 5.41,
+            "tilt": -5,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "pengelolaanair"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Kolamairbakau",
+            "displayName": "Kolamairbakau",
+            "rawName": "",
+            "customNodeId": "kolamairbakau",
+            "pan": -1.41,
+            "tilt": -13.19,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "kolamairbakau"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Unitinstalasi",
+            "displayName": "Unitinstalasi",
+            "rawName": "",
+            "customNodeId": "unitinstalasi",
+            "pan": 171.46,
+            "tilt": 0.93,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "unitinstalasi"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Ikmsentralogam",
+            "displayName": "Ikmsentralogam",
+            "rawName": "",
+            "customNodeId": "ikmsentralogam",
+            "pan": 2.25,
+            "tilt": 11.08,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "ikmsentralogam"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Pengelolaanairbersih",
+            "displayName": "Pengelolaanairbersih",
+            "rawName": "",
+            "customNodeId": "pengelolaanairbersih",
+            "pan": 8.25,
+            "tilt": -29.67,
+            "fov": 128.3,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "pengelolaanairbersih"
+            ]
+        },
+        {
+            "id": "node37",
+            "name": "KIW Edge",
+            "displayName": "KIW Edge",
+            "rawName": "",
+            "customNodeId": "-dge",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "KIW Edge"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "PT. Massilueta Indonesia",
+            "displayName": "PT. Massilueta Indonesia",
+            "rawName": "",
+            "customNodeId": "-assilueta-ndonesia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KawasanIndustriWijayakusuma"
+            ],
+            "aliases": [
+                "PT. Massilueta Indonesia"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "Landmarktransitpoint",
+            "displayName": "Landmarktransitpoint",
+            "rawName": "",
+            "customNodeId": "landmarktransitpoint",
+            "pan": 104.67,
+            "tilt": -5.36,
+            "fov": 139.7,
+            "tags": [
+                "KawasanIndustriWijayakusuma",
+                "oi"
+            ],
+            "aliases": [
+                "landmarktransitpoint"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "PT. Kawasan Industri Wijayakusuma",
+            "id": "Point01",
+            "pan": -157,
+            "tilt": -30.66
+        },
+        {
+            "scene": "node2",
+            "target": "node11",
+            "title": "KIW Edge",
+            "id": "Point03",
+            "pan": -138.06,
+            "tilt": 4.11
+        },
+        {
+            "scene": "node2",
+            "target": "node23",
+            "title": "PT. Mas Arya Indonesia",
+            "id": "Point04",
+            "pan": -163,
+            "tilt": -0.05
+        },
+        {
+            "scene": "node2",
+            "target": "node41",
+            "title": "Transit Point",
+            "id": "Point02",
+            "pan": -181.96,
+            "tilt": -2.2
+        },
+        {
+            "scene": "node2",
+            "target": "node33",
+            "title": "IKM Sentra Logam",
+            "id": "Point05",
+            "pan": -213.17,
+            "tilt": -3.53
+        },
+        {
+            "scene": "node3",
+            "target": "node9",
+            "title": "Food Court Depan",
+            "id": "Point01",
+            "pan": -234.28,
+            "tilt": -1.09
+        },
+        {
+            "scene": "node5",
+            "target": "node31",
+            "title": "IKM Sentra Logam",
+            "id": "Point01",
+            "pan": -359.28,
+            "tilt": 2.32
+        },
+        {
+            "scene": "node5",
+            "target": "node33",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -210.5,
+            "tilt": -1.4
+        },
+        {
+            "scene": "node7",
+            "target": "node41",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -354.52,
+            "tilt": 5.22
+        },
+        {
+            "scene": "node7",
+            "target": "node33",
+            "title": "IKM Sentra Logam",
+            "id": "Point02",
+            "pan": -166.29,
+            "tilt": 4
+        },
+        {
+            "scene": "node9",
+            "target": "node41",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -259.92,
+            "tilt": -2.98
+        },
+        {
+            "scene": "node9",
+            "target": "node3",
+            "title": "PT. Kawasan Industri Wijayakusuma",
+            "id": "Point02",
+            "pan": -83.54,
+            "tilt": -16.38
+        },
+        {
+            "scene": "node11",
+            "target": "node37",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.25,
+            "tilt": -2.54
+        },
+        {
+            "scene": "node11",
+            "target": "node13",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -48.44,
+            "tilt": -7.2
+        },
+        {
+            "scene": "node13",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -163.31,
+            "tilt": -8.99
+        },
+        {
+            "scene": "node13",
+            "target": "node15",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -359.38,
+            "tilt": -4.69
+        },
+        {
+            "scene": "node15",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -251.89,
+            "tilt": -7.27
+        },
+        {
+            "scene": "node15",
+            "target": "node17",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -96.35,
+            "tilt": -6.13
+        },
+        {
+            "scene": "node17",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -297.6,
+            "tilt": -7.1
+        },
+        {
+            "scene": "node17",
+            "target": "node19",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -42.34,
+            "tilt": -15.4
+        },
+        {
+            "scene": "node19",
+            "target": "node17",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -351.28,
+            "tilt": -7.92
+        },
+        {
+            "scene": "node21",
+            "target": "node39",
+            "title": "PT. Massilueta Indonesia",
+            "id": "Point01",
+            "pan": -96.47,
+            "tilt": -2.82
+        },
+        {
+            "scene": "node21",
+            "target": "node25",
+            "title": "PT. Morta Utama",
+            "id": "Point02",
+            "pan": -255.19,
+            "tilt": -2.66
+        },
+        {
+            "scene": "node23",
+            "target": "node25",
+            "title": "PT. Morta Utama",
+            "id": "Point01",
+            "pan": -97.21,
+            "tilt": 1.16
+        },
+        {
+            "scene": "node23",
+            "target": "node41",
+            "title": "PT. Wijaya Kusuma",
+            "id": "Point02",
+            "pan": -259.95,
+            "tilt": 2.08
+        },
+        {
+            "scene": "node25",
+            "target": "node21",
+            "title": "PT. Kingda Marine Technical Indonesia",
+            "id": "Point01",
+            "pan": -88.74,
+            "tilt": 3.93
+        },
+        {
+            "scene": "node25",
+            "target": "node23",
+            "title": "PT. Mas Arya Indonesia",
+            "id": "Point02",
+            "pan": -264.85,
+            "tilt": -2.99
+        },
+        {
+            "scene": "node27",
+            "target": "node31",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -69.26,
+            "tilt": -6.07
+        },
+        {
+            "scene": "node27",
+            "target": "node29",
+            "title": "Penampungan Air",
+            "id": "Point02",
+            "pan": -180.11,
+            "tilt": -0.8
+        },
+        {
+            "scene": "node29",
+            "target": "node27",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -244.36,
+            "tilt": -0.38
+        },
+        {
+            "scene": "node31",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -86.66,
+            "tilt": -1.12
+        },
+        {
+            "scene": "node31",
+            "target": "node35",
+            "title": "Pengolahan Air Bersih",
+            "id": "Point02",
+            "pan": -250.67,
+            "tilt": -11.88
+        },
+        {
+            "scene": "node31",
+            "target": "node27",
+            "title": "IKM Sentra Logam",
+            "id": "Point03",
+            "pan": -131.87,
+            "tilt": -6.66
+        },
+        {
+            "scene": "node33",
+            "target": "node5",
+            "title": "IKM Sentra Logam",
+            "id": "Point01",
+            "pan": -6.63,
+            "tilt": -0.13
+        },
+        {
+            "scene": "node35",
+            "target": "node31",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -351.93,
+            "tilt": -31.4
+        },
+        {
+            "scene": "node37",
+            "target": "node11",
+            "title": "KIW Edge",
+            "id": "Point01",
+            "pan": 0.9,
+            "tilt": 0.76
+        },
+        {
+            "scene": "node37",
+            "target": "node39",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -182.64,
+            "tilt": -0.6
+        },
+        {
+            "scene": "node39",
+            "target": "node37",
+            "title": "KIW Edge",
+            "id": "Point01",
+            "pan": -136.32,
+            "tilt": -0.46
+        },
+        {
+            "scene": "node39",
+            "target": "node21",
+            "title": "PT. Kingda Marine Technical Indonesia",
+            "id": "Point02",
+            "pan": -282,
+            "tilt": 1.14
+        },
+        {
+            "scene": "node41",
+            "target": "node23",
+            "title": "PT. Mas Arya Indonesia",
+            "id": "Point01",
+            "pan": -174.96,
+            "tilt": 0.21
+        },
+        {
+            "scene": "node41",
+            "target": "node7",
+            "title": "Transit Point",
+            "id": "Point02",
+            "pan": -349.74,
+            "tilt": -6.33
+        },
+        {
+            "scene": "node41",
+            "target": "node9",
+            "title": "Food Court Depan",
+            "id": "Point03",
+            "pan": -62.84,
+            "tilt": 5.83
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1154,
+            "label": "Office",
+            "description": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka.",
+            "fragment": "office",
+            "link": "kawasanindustriwijayakusuma/index.html#office",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 1155,
+            "label": "Tempat Pengelolaan Air",
+            "description": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan.",
+            "fragment": "pengelolaanair",
+            "link": "kawasanindustriwijayakusuma/index.html#pengelolaanair",
+            "sceneId": "node27"
+        },
+        {
+            "infoId": 1156,
+            "label": "Foodcourt",
+            "description": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau.",
+            "fragment": "foodcourt",
+            "link": "kawasanindustriwijayakusuma/index.html#foodcourt",
+            "sceneId": "node13"
+        },
+        {
+            "infoId": 1157,
+            "label": "Pengelolaan Air Bersih",
+            "description": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif.",
+            "fragment": "pengelolaanairbersih",
+            "link": "kawasanindustriwijayakusuma/index.html#pengelolaanairbersih",
+            "sceneId": "node35"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "1147036726a618b0",
+        "skin.js": "fc4fac21b9edcd05",
+        "index.html": "a56fd718f37ae68b"
+    }
+}

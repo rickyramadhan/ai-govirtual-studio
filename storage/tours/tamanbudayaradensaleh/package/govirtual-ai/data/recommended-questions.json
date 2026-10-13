@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "tamanbudayaradensaleh",
+    "tourName": "Tamanbudayaradensaleh",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jadwal pertunjukan wayang?",
+                "query": "Kapan jadwal rutin pertunjukan wayang orang atau ketoprak yang bisa ditonton oleh publik?",
+                "desc": "Kapan jadwal rutin pertunjukan wayang orang atau ketoprak yang bisa ditonton oleh publik?"
+            },
+            {
+                "label": "Cara sewa gedung?",
+                "query": "Bagaimana prosedur dan biaya untuk menyewa gedung pertunjukan di kompleks ini?",
+                "desc": "Bagaimana prosedur dan biaya untuk menyewa gedung pertunjukan di kompleks ini?"
+            },
+            {
+                "label": "Spot foto kesenian?",
+                "query": "Di mana titik terbaik untuk berfoto dengan latar belakang arsitektur atau karya seni di TBRS?",
+                "desc": "Di mana titik terbaik untuk berfoto dengan latar belakang arsitektur atau karya seni di TBRS?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Nama Raden Saleh",
+                "query": "Mengapa taman budaya ini diberi nama Raden Saleh dan bagaimana jejak sang pelukis legendaris diabadikan di sini?"
+            },
+            {
+                "label": "Gedung Ki Narto Sabdo",
+                "query": "Bisa jelaskan fasilitas dan pementasan apa saja yang sering diadakan di dalam Gedung Ki Narto Sabdo?"
+            },
+            {
+                "label": "Aktivitas Seniman Lokal",
+                "query": "Bagaimana rutinitas dan aktivitas para seniman Semarang yang berkumpul dan berlatih di kawasan taman budaya ini?"
+            },
+            {
+                "label": "Seni Tari dan Teater",
+                "query": "Sebutkan jenis pertunjukan tari tradisional, teater, maupun musik yang rutin digelar untuk masyarakat umum!"
+            },
+            {
+                "label": "Ruang Pameran Seni Rupa",
+                "query": "Di mana letak galeri seni rupa yang biasa digunakan untuk pameran lukisan dan karya seni visual?"
+            },
+            {
+                "label": "Pelestarian Budaya Jawa",
+                "query": "Bagaimana peran Taman Budaya Raden Saleh dalam menjaga dan melestarikan warisan budaya Jawa di tengah modernisasi Kota Semarang?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Tamanbudayaradensaleh?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Tamanbudayaradensaleh?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Tamanbudayaradensaleh?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

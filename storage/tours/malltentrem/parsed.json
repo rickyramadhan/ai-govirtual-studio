@@ -1,0 +1,706 @@
+{
+    "startNode": "node85",
+    "scenes": [
+        {
+            "id": "node85",
+            "name": "node85",
+            "displayName": "node85",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -1.95893,
+            "tilt": -4.62128,
+            "fov": 132.365,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node80",
+            "name": "Southlobby",
+            "displayName": "Southlobby",
+            "rawName": "",
+            "customNodeId": "southlobby",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "southlobby"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Summerpalace",
+            "displayName": "Summerpalace",
+            "rawName": "",
+            "customNodeId": "summerpalace",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "summerpalace"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Videotron",
+            "displayName": "Videotron",
+            "rawName": "",
+            "customNodeId": "videotron",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "videotron"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Ruang VIP 2",
+            "displayName": "Ruang VIP 2",
+            "rawName": "",
+            "customNodeId": "-uang-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Ruang VIP 2"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Viproom",
+            "displayName": "Viproom",
+            "rawName": "",
+            "customNodeId": "viproom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "viproom"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Akuarium",
+            "displayName": "Akuarium",
+            "rawName": "",
+            "customNodeId": "akuarium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "akuarium"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Parkir Mobil",
+            "displayName": "Parkir Mobil",
+            "rawName": "",
+            "customNodeId": "-arkir-obil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Parkir Mobil"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Lantai 3",
+            "displayName": "Lantai 3",
+            "rawName": "",
+            "customNodeId": "-antai-3",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Lantai 3"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Imigrasi",
+            "displayName": "Imigrasi",
+            "rawName": "",
+            "customNodeId": "imigrasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "imigrasi"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Koena-Koeni",
+            "displayName": "Koena-Koeni",
+            "rawName": "",
+            "customNodeId": "-oena-oeni",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Koena-Koeni"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Farmersmarket",
+            "displayName": "Farmersmarket",
+            "rawName": "",
+            "customNodeId": "farmersmarket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "farmersmarket"
+            ]
+        },
+        {
+            "id": "node92",
+            "name": "Lantai 2",
+            "displayName": "Lantai 2",
+            "rawName": "",
+            "customNodeId": "-antai-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Lantai 2"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Atrium",
+            "displayName": "Atrium",
+            "rawName": "",
+            "customNodeId": "atrium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "atrium"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Mainlobby",
+            "displayName": "Mainlobby",
+            "rawName": "",
+            "customNodeId": "mainlobby",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "mainlobby"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Information",
+            "displayName": "Information",
+            "rawName": "",
+            "customNodeId": "information",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem",
+                "oi"
+            ],
+            "aliases": [
+                "information"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Lantai 2",
+            "displayName": "Lantai 2",
+            "rawName": "",
+            "customNodeId": "-antai-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Lantai 2"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Parkir Motor",
+            "displayName": "Parkir Motor",
+            "rawName": "",
+            "customNodeId": "-arkir-otor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "malltentrem"
+            ],
+            "aliases": [
+                "Parkir Motor"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node85",
+            "target": "node80",
+            "title": "Lobi Selatan Mall",
+            "id": "Point01",
+            "pan": -354.48,
+            "tilt": -44.02
+        },
+        {
+            "scene": "node80",
+            "target": "node94",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -87.22,
+            "tilt": -0.77
+        },
+        {
+            "scene": "node80",
+            "target": "node87",
+            "title": "Parkir Mobil",
+            "id": "Point03",
+            "pan": 79.03,
+            "tilt": -0.28
+        },
+        {
+            "scene": "node80",
+            "target": "node82",
+            "title": "Mall Tentrem",
+            "id": "Point04",
+            "pan": -188.32,
+            "tilt": -6.91
+        },
+        {
+            "scene": "node80",
+            "target": "node86",
+            "title": "Lobi Selatan",
+            "id": "Point01",
+            "pan": 326.45,
+            "tilt": 0.11
+        },
+        {
+            "scene": "node81",
+            "target": "node93",
+            "title": "Keluar Atrium",
+            "id": "Point01",
+            "pan": -275.53,
+            "tilt": -8.67
+        },
+        {
+            "scene": "node81",
+            "target": "node84",
+            "title": "Ruang VIP 1",
+            "id": "Point02",
+            "pan": -60.14,
+            "tilt": -5.44
+        },
+        {
+            "scene": "node81",
+            "target": "node83",
+            "title": "Ruang VIP 2",
+            "id": "Point03",
+            "pan": -87.21,
+            "tilt": -3.92
+        },
+        {
+            "scene": "node82",
+            "target": "node80",
+            "title": "Lobi Selatan Mall",
+            "id": "Point01",
+            "pan": -78.99,
+            "tilt": 3.34
+        },
+        {
+            "scene": "node83",
+            "target": "node81",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -182.54,
+            "tilt": -12.6
+        },
+        {
+            "scene": "node84",
+            "target": "node81",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 94.16,
+            "tilt": -16.55
+        },
+        {
+            "scene": "node86",
+            "target": "node80",
+            "title": "Lobi Selatan Mall",
+            "id": "Point02",
+            "pan": -254.6,
+            "tilt": -4.8
+        },
+        {
+            "scene": "node86",
+            "target": "node95",
+            "title": "Lobi Utama",
+            "id": "Point01",
+            "pan": -196.2,
+            "tilt": -6.5
+        },
+        {
+            "scene": "node86",
+            "target": "node91",
+            "title": "Farmers Market",
+            "id": "Point03",
+            "pan": -131.2,
+            "tilt": -13.26
+        },
+        {
+            "scene": "node87",
+            "target": "node80",
+            "title": "Lobi Selatan Mall",
+            "id": "Point02",
+            "pan": -296.48,
+            "tilt": -5.48
+        },
+        {
+            "scene": "node87",
+            "target": "node91",
+            "title": "Farmers Market",
+            "id": "Point01",
+            "pan": -124.37,
+            "tilt": -5.36
+        },
+        {
+            "scene": "node87",
+            "target": "node97",
+            "title": "Parkir Motor",
+            "id": "Point03",
+            "pan": -228.13,
+            "tilt": -4.94
+        },
+        {
+            "scene": "node88",
+            "target": "node92",
+            "title": "Lantai 2",
+            "id": "Point01",
+            "pan": -179.55,
+            "tilt": -3.81
+        },
+        {
+            "scene": "node88",
+            "target": "node93",
+            "title": "Atrium",
+            "id": "Point02",
+            "pan": -314.1,
+            "tilt": -4.82
+        },
+        {
+            "scene": "node89",
+            "target": "node91",
+            "title": "",
+            "id": "Point01",
+            "pan": -128.7,
+            "tilt": 0
+        },
+        {
+            "scene": "node89",
+            "target": "node91",
+            "title": "Farmers Market",
+            "id": "Point02",
+            "pan": -37.76,
+            "tilt": -7.94
+        },
+        {
+            "scene": "node89",
+            "target": "node93",
+            "title": "Atrium",
+            "id": "Point03",
+            "pan": -345.05,
+            "tilt": -10.3
+        },
+        {
+            "scene": "node90",
+            "target": "node93",
+            "title": "Atrium",
+            "id": "Point02",
+            "pan": -127.61,
+            "tilt": -2.37
+        },
+        {
+            "scene": "node90",
+            "target": "node95",
+            "title": "Lobi Utama",
+            "id": "Point03",
+            "pan": -182.34,
+            "tilt": -3.12
+        },
+        {
+            "scene": "node91",
+            "target": "node86",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -111.1,
+            "tilt": -9.65
+        },
+        {
+            "scene": "node91",
+            "target": "node87",
+            "title": "Parkir Mobil",
+            "id": "Point02",
+            "pan": -280.97,
+            "tilt": -6.64
+        },
+        {
+            "scene": "node91",
+            "target": "node89",
+            "title": "Pelayanan Passport",
+            "id": "Point03",
+            "pan": 121.54,
+            "tilt": -7.81
+        },
+        {
+            "scene": "node92",
+            "target": "node96",
+            "title": "Lantai 2",
+            "id": "Point02",
+            "pan": -189.65,
+            "tilt": -3.92
+        },
+        {
+            "scene": "node92",
+            "target": "node88",
+            "title": "Lantai 3",
+            "id": "Point01",
+            "pan": -298.5,
+            "tilt": -4.43
+        },
+        {
+            "scene": "node92",
+            "target": "node93",
+            "title": "Atrium",
+            "id": "Point03",
+            "pan": -79.64,
+            "tilt": -6.94
+        },
+        {
+            "scene": "node93",
+            "target": "node95",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -340.61,
+            "tilt": -1.02
+        },
+        {
+            "scene": "node93",
+            "target": "node96",
+            "title": "Lantai 2",
+            "id": "Point03",
+            "pan": 258.26,
+            "tilt": -0.4
+        },
+        {
+            "scene": "node93",
+            "target": "node90",
+            "title": "Koena-Koeni",
+            "id": "Point01",
+            "pan": 329.87,
+            "tilt": -1.06
+        },
+        {
+            "scene": "node93",
+            "target": "node81",
+            "title": "Summer Palace",
+            "id": "Point04",
+            "pan": -209.3,
+            "tilt": -3.78
+        },
+        {
+            "scene": "node94",
+            "target": "node80",
+            "title": "Lobi Selatan Mall",
+            "id": "Point02",
+            "pan": -271.27,
+            "tilt": -2.75
+        },
+        {
+            "scene": "node94",
+            "target": "node95",
+            "title": "Lobi Utama",
+            "id": "Point03",
+            "pan": 0.32,
+            "tilt": -3.31
+        },
+        {
+            "scene": "node94",
+            "target": "node97",
+            "title": "Parkir Motor",
+            "id": "Point01",
+            "pan": 266.78,
+            "tilt": -1.2
+        },
+        {
+            "scene": "node95",
+            "target": "node86",
+            "title": "Lobi Selatan",
+            "id": "Point03",
+            "pan": -164.84,
+            "tilt": -5.16
+        },
+        {
+            "scene": "node95",
+            "target": "node94",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -30.52,
+            "tilt": -6.47
+        },
+        {
+            "scene": "node95",
+            "target": "node93",
+            "title": "Atrium",
+            "id": "Point01",
+            "pan": 147.22,
+            "tilt": -9.91
+        },
+        {
+            "scene": "node96",
+            "target": "node93",
+            "title": "Atrium",
+            "id": "Point02",
+            "pan": -66.72,
+            "tilt": -4
+        },
+        {
+            "scene": "node96",
+            "target": "node92",
+            "title": "Lantai 2",
+            "id": "Point01",
+            "pan": 61.25,
+            "tilt": -4.06
+        },
+        {
+            "scene": "node97",
+            "target": "node94",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -90.54,
+            "tilt": -1.78
+        },
+        {
+            "scene": "node97",
+            "target": "node87",
+            "title": "Parkir Mobil",
+            "id": "Point01",
+            "pan": -240.06,
+            "tilt": -6.06
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 533,
+            "label": "Farmers Market",
+            "description": "Farmers Market adalah tenant supermarket di Mall Tentrem yang menyediakan berbagai kebutuhan harian, mulai dari buah, sayuran, daging, seafood, hingga produk dairy dan frozen food dengan fokus pada kualitas dan kesegaran. Pasar modern ini menjamin produk makanan yang sehat, aman, dan memuaskan bagi pelanggan.",
+            "fragment": "farmersmarket",
+            "link": "tentremmall/index.html#farmersmarket",
+            "sceneId": "node91"
+        },
+        {
+            "infoId": 534,
+            "label": "South Lobby",
+            "description": "South Lobby adalah salah satu akses masuk utama Mall Tentrem, yang berfungsi sebagai titik awal bagi pengunjung untuk masuk ke area perbelanjaan dan terhubung dengan mixed-use building lainnya. Area lobi ini juga sering menjadi lokasi penting untuk pick-up point atau area informasi.",
+            "fragment": "southlobby",
+            "link": "tentremmall/index.html#southlobby",
+            "sceneId": "node80"
+        },
+        {
+            "infoId": 535,
+            "label": "Summer Palace",
+            "description": "Summer Palace sebenarnya adalah restoran Chinese fine dining mewah yang berlokasi di Hotel Tentrem, bukan di dalam Mall Tentrem, meskipun keduanya terhubung. Restoran ini menyajikan hidangan oriental dengan cita rasa premium, menawarkan pengalaman kuliner yang elegan bagi tamu hotel dan pengunjung.",
+            "fragment": "summerpalace",
+            "link": "tentremmall/index.html#summerpalace",
+            "sceneId": "node81"
+        },
+        {
+            "infoId": 536,
+            "label": "Main Atrium",
+            "description": "Main Atrium adalah area utama di pusat mal yang paling ikonik karena menampilkan videotron langit-langit terpanjang di Indonesia. Videotron ini sering menampilkan visual 3D yang memukau, seperti suasana bawah laut (hiu dan paus), yang menjadi daya tarik utama Mall Tentrem.",
+            "fragment": "atrium",
+            "link": "tentremmall/index.html#atrium",
+            "sceneId": "node93"
+        },
+        {
+            "infoId": 537,
+            "label": "Akuarium",
+            "description": "Aquarium adalah fasilitas aquarium berukuran besar yang menampung berbagai spesies jenis ikan air laut.",
+            "fragment": "akuarium",
+            "link": "tentremmall/index.html#akuarium",
+            "sceneId": "node86"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "9258a4e05aa3d295",
+        "skin.js": "61fc59eaf4abe4c2",
+        "index.html": "b3f77d29b7999f10"
+    }
+}

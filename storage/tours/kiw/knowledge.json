@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "kiw",
+    "updatedAt": "2026-09-29T09:51:09+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kiw",
+            "aliases": [
+                "kiw"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kiw"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kiw.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kiw",
+                    "content": "Pusat pengalaman virtual untuk Kiw."
+                },
+                "en": {
+                    "title": "Kiw",
+                    "content": "Pusat pengalaman virtual untuk Kiw."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kiw"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kiw"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kiw"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1154",
+            "entityId": "objinfo2:1154",
+            "title": "Office",
+            "aliases": [
+                "office",
+                "objek 1154"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka.",
+            "source": "webview-import",
+            "sourceId": "1154",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Office",
+                    "content": "Sebagai pengelola kawasan, PT KIW menyediakan berbagai layanan terpadu di kantornya, mulai dari penyediaan Lahan Industri Siap Bangun (LISB) hingga Bangunan Pabrik Siap Pakai (BPSP). Selain itu, kantor ini juga menjadi pusat koordinasi untuk fasilitas pendukung seperti pengolahan air bersih, sistem pengolahan limbah terpadu, keamanan 24 jam, serta layanan perizinan satu pintu untuk memudahkan investor memulai bisnis mereka."
+                },
+                "en": {
+                    "title": "Office",
+                    "content": "As the area manager, PT KIW provides integrated services at its office, ranging from the provision of Ready-to-Build Industrial Land (LISB) to Ready-to-Use Factory Buildings (BPSP). Additionally, the office serves as a coordination center for supporting facilities such as clean water treatment, integrated waste management systems, 24-hour security, and one-stop licensing services to facilitate investors in starting their businesses."
+                },
+                "zh": {
+                    "title": "办公室",
+                    "content": "作为区域管理者，PT KIW 在其办公室提供综合服务，包括提供可建工业用地（LISB）和可用厂房建筑（BPSP）。此外，该办公室还作为支持设施的协调中心，如清洁水处理、综合废物管理系统、24 小时安保以及一站式许可服务，以方便投资者开展业务。"
+                },
+                "ar": {
+                    "title": "مكتب",
+                    "content": "بصفتها مديرة المنطقة، توفر PT KIW خدمات متكاملة في مكتبها، بدءًا من توفير الأراضي الصناعية الجاهزة للبناء (LISB) إلى مباني المصانع الجاهزة للاستخدام (BPSP). بالإضافة إلى ذلك، يعمل المكتب كمركز تنسيق للمرافق الداعمة مثل معالجة المياه النظيفة، ونظام إدارة النفايات المتكامل، والأمن على مدار 24 ساعة، وخدمات الترخيص من نقطة واحدة لتسهيل بدء المستثمرين لأعمالهم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1155",
+            "entityId": "objinfo2:1155",
+            "title": "Tempat Pengelolaan Air",
+            "aliases": [
+                "tempat pengelolaan air",
+                "objek 1155"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan.",
+            "source": "webview-import",
+            "sourceId": "1155",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Tempat Pengelolaan Air",
+                    "content": "Pengelolaan ini terbagi menjadi dua aspek utama: penyediaan air bersih dan pengolahan limbah cair. Untuk air bersih, PT KIW mengoperasikan sistem pembersihan mandiri yang memastikan pasokan air memenuhi standar industri secara kontinu. Sementara itu, untuk penanganan limbah, KIW mewajibkan setiap tenant melakukan pengolahan awal (pre-treatment) sebelum mengalirkan limbahnya ke Instalasi Pengolahan Air Limbah (IPAL) Terpusat milik kawasan."
+                },
+                "en": {
+                    "title": "Water Treatment Facility",
+                    "content": "This management is divided into two main aspects: clean water supply and wastewater treatment. For clean water, PT KIW operates an independent purification system that ensures a continuous supply meeting industrial standards. Meanwhile, for wastewater management, KIW requires each tenant to perform pre-treatment before discharging their waste into the area’s centralized Wastewater Treatment Plant (WWTP)."
+                },
+                "zh": {
+                    "title": "水处理设施",
+                    "content": "该管理分为两个主要方面：清洁水供应和废水处理。在清洁水方面，PT KIW 运营独立净化系统，确保水源持续供应并符合工业标准。而在废水处理方面，KIW 要求每个租户在将废水排入区域集中废水处理厂（WWTP）前进行预处理。"
+                },
+                "ar": {
+                    "title": "منشأة معالجة المياه",
+                    "content": "ينقسم هذا الإدارة إلى جانبين رئيسيين: توفير المياه النظيفة ومعالجة مياه الصرف الصحي. بالنسبة للمياه النظيفة، تدير PT KIW نظام تنقية مستقل يضمن توافر المياه بشكل مستمر وفقًا للمعايير الصناعية. أما بالنسبة لمعالجة مياه الصرف، فتتطلب KIW من كل مستأجر إجراء المعالجة الأولية قبل تصريف مياههم إلى محطة معالجة مياه الصرف المركزية (WWTP) الخاصة بالمنطقة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1156",
+            "entityId": "objinfo2:1156",
+            "title": "Foodcourt",
+            "aliases": [
+                "foodcourt",
+                "objek 1156"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau.",
+            "source": "webview-import",
+            "sourceId": "1156",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Foodcourt",
+                    "content": "Foodcourt PT Kawasan Industri Wijayakusuma (KIW) dirancang sebagai pusat kuliner terpadu yang melayani ribuan karyawan, manajemen, serta pengunjung yang beraktivitas di dalam kawasan industri tersebut. Terletak di lokasi yang strategis dan mudah dijangkau dari berbagai blok pabrik, fasilitas ini menyediakan beragam pilihan menu makanan, mulai dari masakan tradisional khas Semarang hingga hidangan populer lainnya dengan harga yang relatif terjangkau."
+                },
+                "en": {
+                    "title": "Foodcourt",
+                    "content": "The Foodcourt at PT Kawasan Industri Wijayakusuma (KIW) is designed as an integrated culinary center serving thousands of employees, management staff, and visitors within the industrial area. Strategically located and easily accessible from various factory blocks, this facility offers a wide variety of menu options, ranging from traditional Semarang dishes to other popular meals at relatively affordable prices."
+                },
+                "zh": {
+                    "title": "美食广场",
+                    "content": "PT Kawasan Industri Wijayakusuma (KIW) 的美食广场被设计为一个综合餐饮中心，为工业区内的数千名员工、管理人员及访客提供服务。该设施地理位置优越，可轻松从各个工厂区块到达，提供多种餐饮选择，从三宝垄传统菜肴到其他受欢迎的美食，价格相对实惠。"
+                },
+                "ar": {
+                    "title": "ساحة طعام",
+                    "content": "تم تصميم ساحة طعام PT Kawasan Industri Wijayakusuma (KIW) كمركز طهي متكامل يخدم الآلاف من الموظفين والإدارة والزوار داخل المنطقة الصناعية. تقع هذه المرافق في موقع استراتيجي وسهل الوصول منه من مختلف كتل المصانع، وتوفر مجموعة متنوعة من خيارات الطعام، بدءًا من الأطباق التقليدية المميزة لمدينة سيمارانغ إلى وجبات أخرى شعبية بأسعار معقولة نسبيًا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1157",
+            "entityId": "objinfo2:1157",
+            "title": "Pengelolaan Air Bersih",
+            "aliases": [
+                "pengelolaan air bersih",
+                "objek 1157"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif.",
+            "source": "webview-import",
+            "sourceId": "1157",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pengelolaan Air Bersih",
+                    "content": "PT Kawasan Industri Wijayakusuma (KIW) mengelola sistem penyediaan air bersih secara mandiri melalui fasilitas Water Treatment Plant (WTP) yang dirancang untuk memenuhi kebutuhan debit air industri yang besar dan stabil. Sistem ini menggunakan air permukaan sebagai sumber baku yang kemudian diproses melalui beberapa tahapan teknis, mulai dari koagulasi dan flokulasi untuk mengikat partikel kotoran, sedimentasi, hingga filtrasi menggunakan media pasir atau karbon aktif."
+                },
+                "en": {
+                    "title": "Clean Water Management",
+                    "content": "PT Kawasan Industri Wijayakusuma (KIW) independently manages its clean water supply system through a Water Treatment Plant (WTP) designed to meet the large and stable industrial water demand. The system uses surface water as the raw source, which is then processed through several technical stages, starting from coagulation and flocculation to bind dirt particles, sedimentation, and filtration using sand or activated carbon media."
+                },
+                "zh": {
+                    "title": "清洁水管理",
+                    "content": "PT Kawasan Industri Wijayakusuma (KIW) 独立管理其水处理系统（WTP），以满足大规模且稳定的工业用水需求。该系统以地表水为原水，通过多个技术步骤处理，包括混凝和絮凝以结合杂质颗粒、沉淀，以及使用砂或活性炭介质进行过滤。"
+                },
+                "ar": {
+                    "title": "إدارة المياه النظيفة",
+                    "content": "تدير PT Kawasan Industri Wijayakusuma (KIW) نظام توفير المياه النظيفة بشكل مستقل من خلال محطة معالجة المياه (WTP) المصممة لتلبية الطلب الكبير والمستقر على المياه الصناعية. يستخدم النظام المياه السطحية كمصدر أولي، ثم يُعالج عبر عدة مراحل تقنية، بدءًا من التخثر والتلبيد لربط الجزيئات العالقة، والترسيب، وصولًا إلى الترشيح باستخدام وسائط من الرمل أو الكربون النشط."
+                }
+            }
+        }
+    ]
+}

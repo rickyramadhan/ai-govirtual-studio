@@ -1,0 +1,1451 @@
+{
+    "version": "1.1-seed",
+    "tourId": "semarangzoo",
+    "generatedAt": "2026-10-06",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node97": {
+            "rawName": "Harimau",
+            "displayName": "Area Harimau – Jendela Pengamatan",
+            "placeId": "semarang-zoo-area-harimau-jendela-pengamatan",
+            "placeName": "Semarang Zoo – Area Harimau – Jendela Pengamatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jendela pengamatan khusus untuk melihat harimau dari dekat secara aman di Semarang Zoo.",
+            "description": "Jendela pengamatan ini dirancang dengan kaca tebal berlapis khusus yang memungkinkan pengunjung mengamati aktivitas harimau secara langsung. Keselamatan dan kenyamanan pengunjung tetap terjaga sambil menikmati aksi satwa buas yang memukau.",
+            "highlights": [
+                "Kaca",
+                "Papan harimau"
+            ],
+            "talkingPoints": [
+                "Harimau",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah jendela pengamatan ini aman dari jangkauan harimau?",
+                    "mode": "fix",
+                    "answer": "Sangat aman karena menggunakan material kaca khusus tebal berlapis ganda yang kuat."
+                },
+                {
+                    "q": "Kapan waktu terbaik untuk melihat harimau aktif di area ini?",
+                    "mode": "fix",
+                    "answer": "Biasanya pada pagi hari saat pemberian makan atau saat cuaca tidak terlalu panas."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan mengetuk kaca jendela pengamatan?",
+                    "mode": "fix",
+                    "answer": "Tidak dianjurkan agar satwa tidak terkejut atau stres selama berada di kandang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Area Harimau – Jendela Pengamatan.",
+                "describeHere": "Harimau adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node98": {
+            "rawName": "Kandangorangutan",
+            "displayName": "Area Orangutan",
+            "placeId": "semarang-zoo-area-orangutan",
+            "placeName": "Semarang Zoo – Area Orangutan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Habitat konservasi orangutan yang cerdas dan aktif di kawasan Semarang Zoo Kota Semarang.",
+            "description": "Area orangutan menyediakan ruang hidup tiruan yang menyerupai habitat aslinya di hutan tropis. Pengunjung dapat menyaksikan tingkah laku cerdas dan menggemaskan dari primata khas Indonesia ini.",
+            "highlights": [
+                "Pulau kandang",
+                "Struktur panjat"
+            ],
+            "talkingPoints": [
+                "Kandangorangutan",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Makanan apa saja yang menjadi menu harian orangutan di zoo ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis buah-buahan segar, sayuran hijau, dan suplemen vitamin khusus satwa."
+                },
+                {
+                    "q": "Apakah pengunjung boleh memberi makan orangutan secara langsung?",
+                    "mode": "fix",
+                    "answer": "Dilarang keras memberi makan sembarangan demi kesehatan dan keselamatan satwa."
+                },
+                {
+                    "q": "Bagaimana struktur kandang orangutan dirancang?",
+                    "mode": "fix",
+                    "answer": "Dilengkapi tiang panjat, tali tambang, dan pohon tiruan untuk melatih kelincahan mereka."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:203"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Area Orangutan.",
+                "describeHere": "Kandangorangutan adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node99": {
+            "rawName": "Kandangprimata",
+            "displayName": "Jalur Kandang Primata",
+            "placeId": "semarang-zoo-jalur-kandang-primata",
+            "placeName": "Semarang Zoo – Jalur Kandang Primata",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur setapak pejalan kaki yang menyusuri deretan kandang primata di Semarang Zoo.",
+            "description": "Jalur kandang primata menuntun pengunjung melihat berbagai jenis kera dan monyet koleksi kebun binatang. Suasana di sepanjang jalur ini sangat teduh berkat rimbunnya pohon pelindung.",
+            "highlights": [
+                "Pagar",
+                "Papan"
+            ],
+            "talkingPoints": [
+                "Kandangprimata",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis primata apa saja yang dapat ditemui di sepanjang jalur ini?",
+                    "mode": "fix",
+                    "answer": "Mulai dari siamang, owa jawa, lutung, hingga berbagai jenis monyet endemik nusantara."
+                },
+                {
+                    "q": "Apakah jalur ini nyaman dilalui oleh pejalan kaki?",
+                    "mode": "fix",
+                    "answer": "Sangat nyaman dengan jalan paving bersih dan naungan pohon yang rindang."
+                },
+                {
+                    "q": "Bagaimana aturan berinteraksi di area kandang primata?",
+                    "mode": "fix",
+                    "answer": "Pengunjung diminta menjaga jarak aman dan tidak mengganggu ketenangan satwa."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:204"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Jalur Kandang Primata.",
+                "describeHere": "Kandangprimata adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node100": {
+            "rawName": "Kandangrusatimor",
+            "displayName": "Kandang Rusa Timor",
+            "placeId": "semarang-zoo-kandang-rusa-timor",
+            "placeName": "Semarang Zoo – Kandang Rusa Timor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area konservasi rusa timor yang anggun di kawasan hijau Semarang Zoo Kota Semarang.",
+            "description": "Kandang rusa timor menampung sekumpulan rusa bertanduk indah dalam hamparan berumput hijau yang luas. Pengunjung dapat berinteraksi dari dekat sambil memberi makan rusa dengan pengawasan petugas.",
+            "highlights": [
+                "Pagar",
+                "Tanah"
+            ],
+            "talkingPoints": [
+                "Kandangrusatimor",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah pengunjung diizinkan memberi makan rusa secara langsung?",
+                    "mode": "fix",
+                    "answer": "Bisa, pengunjung dapat membeli pakan khusus wortel yang disediakan di dekat kandang."
+                },
+                {
+                    "q": "Dari mana asal usul rusa timor yang dikonservasi di sini?",
+                    "mode": "fix",
+                    "answer": "Rusa timor merupakan satwa asli kepulauan Nusantara yang dilindungi dan dikembangbiakkan."
+                },
+                {
+                    "q": "Bagaimana kondisi lingkungan kandang rusa ini?",
+                    "mode": "fix",
+                    "answer": "Berupa lahan terbuka berumput dengan peneduh pohon besar yang nyaman bagi rusa."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:206"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Kandang Rusa Timor.",
+                "describeHere": "Kandangrusatimor adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node101": {
+            "rawName": "Kandangunta",
+            "displayName": "Kandang Unta",
+            "placeId": "semarang-zoo-kandang-unta",
+            "placeName": "Semarang Zoo – Kandang Unta",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kandang konservasi unta berpunuk yang eksotis di area satwa Semarang Zoo.",
+            "description": "Kandang unta memperlihatkan mamalia gurun berukuran besar yang menjadi daya tarik favorit wisatawan. Pengunjung dapat mengamati ciri fisik unik unta dari dekat secara aman dan edukatif.",
+            "highlights": [
+                "Pembatas",
+                "Pohon"
+            ],
+            "talkingPoints": [
+                "Kandangunta",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari punuk di punggung unta?",
+                    "mode": "fix",
+                    "answer": "Punuk unta berfungsi sebagai cadangan penyimpanan jaringan lemak tubuh untuk bertahan hidup."
+                },
+                {
+                    "q": "Apa makanan utama yang dikonsumsi oleh unta di kebun binatang?",
+                    "mode": "fix",
+                    "answer": "Rumput kering, dedaunan, serta pakan hijauan bernutrisi tinggi lainnya."
+                },
+                {
+                    "q": "Apakah pengunjung bisa merasakan pengalaman menunggang unta?",
+                    "mode": "fix",
+                    "answer": "Tersedia wahana khusus menunggang unta pada hari libur dengan pendampingan pawang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:205"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Kandang Unta.",
+                "describeHere": "Kandangunta adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node102": {
+            "rawName": "Area Herbivora",
+            "displayName": "Gerbang Area Herbivora",
+            "placeId": "semarang-zoo-gerbang-area-herbivora",
+            "placeName": "Semarang Zoo – Gerbang Area Herbivora",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang pembatas menuju zona satwa herbivora (pemakan tumbuhan) di Semarang Zoo.",
+            "description": "Gerbang area herbivora menyambut wisatawan masuk ke kawasan satwa penjinak yang ramah keluarga. Zona ini mengumpulkan berbagai satwa pemakan tumbuhan dalam lanskap kandang terbuka.",
+            "highlights": [
+                "Papan",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Area Herbivora",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Satwa apa saja yang berada di balik gerbang zona herbivora ini?",
+                    "mode": "fix",
+                    "answer": "Rusa, gajah, unta, kuda, kapibara, dan berbagai satwa pemakan tumbuhan lainnya."
+                },
+                {
+                    "q": "Apakah zona ini aman dikunjungi oleh anak-anak?",
+                    "mode": "fix",
+                    "answer": "Sangat aman karena satwa di zona ini umumnya jinak dan berada di bawah pengawasan."
+                },
+                {
+                    "q": "Apa tujuan pengelompokan zona herbivora ini?",
+                    "mode": "fix",
+                    "answer": "Untuk memudahkan edukasi pengunjung mengenai klasifikasi jenis makanan satwa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Gerbang Area Herbivora.",
+                "describeHere": "Area Herbivora adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node103": {
+            "rawName": "Loket",
+            "displayName": "Loket Tiket Zoo",
+            "placeId": "semarang-zoo-loket-tiket-zoo",
+            "placeName": "Semarang Zoo – Loket Tiket Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Loket resmi penjualan tiket masuk utama pengunjung di kawasan Semarang Zoo.",
+            "description": "Loket tiket zoo melayani pembelian karcis masuk bagi wisatawan yang ingin berekreasi. Petugas melayani transaksi dengan ramah dan menyediakan informasi tarif kunjungan terkini.",
+            "highlights": [
+                "Jendela loket",
+                "Antrean"
+            ],
+            "talkingPoints": [
+                "Loket",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa harga tiket masuk reguler ke Semarang Zoo?",
+                    "mode": "fix",
+                    "answer": "Tarif tiket sangat terjangkau, dengan penyesuaian khusus untuk hari biasa dan akhir pekan."
+                },
+                {
+                    "q": "Apakah anak-anak di bawah umur tertentu mendapat tiket gratis?",
+                    "mode": "fix",
+                    "answer": "Anak dengan tinggi badan di bawah batas tertentu biasanya gratis atau berlaku tarif khusus."
+                },
+                {
+                    "q": "Metode pembayaran apa saja yang diterima di loket tiket?",
+                    "mode": "fix",
+                    "answer": "Menerima pembayaran tunai serta pembayaran non-tunai via QRIS atau transfer."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Loket Tiket Zoo.",
+                "describeHere": "Loket adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node104": {
+            "rawName": "Aviary",
+            "displayName": "Pintu Aviary",
+            "placeId": "semarang-zoo-pintu-aviary",
+            "placeName": "Semarang Zoo – Pintu Aviary",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang masuk khusus menuju kawasan sangkar burung raksasa (Aviary) Semarang Zoo.",
+            "description": "Pintu aviary mengantar wisatawan menembus gerbang pengaman ganda menuju habitat burung bebas. Tempat ini dirancang agar pengunjung dapat masuk ke dalam kubah dan berinteraksi dengan burung.",
+            "highlights": [
+                "Gerbang",
+                "Jaring"
+            ],
+            "talkingPoints": [
+                "Aviary",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pintu masuk aviary menggunakan sistem ganda?",
+                    "mode": "fix",
+                    "answer": "Sistem pintu ganda mencegah burung peliharaan di dalam agar tidak terbang keluar area."
+                },
+                {
+                    "q": "Aturan apa yang harus dipatuhi saat melewati pintu aviary?",
+                    "mode": "fix",
+                    "answer": "Pengunjung wajib menutup pintu dengan rapat segera setelah masuk atau keluar."
+                },
+                {
+                    "q": "Apa saja koleksi burung di dalam kubah aviary ini?",
+                    "mode": "fix",
+                    "answer": "Ratusan burung warna-warni mulai dari merpati, nuri, jalak, hingga rangkong."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Pintu Aviary.",
+                "describeHere": "Aviary adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node105": {
+            "rawName": "Parkir Mobil",
+            "displayName": "Parkir Mobil Zoo",
+            "placeId": "semarang-zoo-parkir-mobil-zoo",
+            "placeName": "Semarang Zoo – Parkir Mobil Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area parkir kendaraan roda empat yang luas dan aman di kompleks Semarang Zoo.",
+            "description": "Parkir mobil zoo dirancang lapang untuk menampung kendaraan pribadi maupun mobil rombongan wisatawan. Lokasinya yang strategis memudahkan akses cepat menuju loket tiket utama.",
+            "highlights": [
+                "Mobil",
+                "Pohon"
+            ],
+            "talkingPoints": [
+                "Parkir Mobil",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tarif retribusi parkir untuk kendaraan roda empat?",
+                    "mode": "fix",
+                    "answer": "Tarif parkir mobil disesuaikan dengan ketentuan resmi retribusi pariwisata Kota Semarang."
+                },
+                {
+                    "q": "Apakah area parkir mobil ini dijaga oleh petugas keamanan?",
+                    "mode": "fix",
+                    "answer": "Ya, dijaga ketat oleh petugas parkir berpengalaman untuk menjamin keamanan kendaraan."
+                },
+                {
+                    "q": "Apakah area parkir berjarak dekat dengan pintu masuk?",
+                    "mode": "fix",
+                    "answer": "Sangat dekat dan dapat dicapai hanya dengan berjalan kaki beberapa meter saja."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Parkir Mobil Zoo.",
+                "describeHere": "Parkir Mobil adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node106": {
+            "rawName": "Parkir Motor",
+            "displayName": "Parkir Motor Beratap",
+            "placeId": "semarang-zoo-parkir-motor-beratap",
+            "placeName": "Semarang Zoo – Parkir Motor Beratap",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas area parkir sepeda motor beratap peneduh di kawasan Semarang Zoo.",
+            "description": "Parkir motor beratap memberikan perlindungan optimal bagi kendaraan roda dua dari terik matahari maupun hujan. Penataan ruang parkirnya rapi sehingga memudahkan sirkulasi keluar masuk motor.",
+            "highlights": [
+                "Kanopi",
+                "Motor"
+            ],
+            "talkingPoints": [
+                "Parkir Motor",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tarif parkir untuk sepeda motor di sini?",
+                    "mode": "fix",
+                    "answer": "Tarif parkir motor sangat terjangkau sesuai ketentuan resmi pengelola."
+                },
+                {
+                    "q": "Apakah helm pengunjung aman dititipkan di area parkir?",
+                    "mode": "fix",
+                    "answer": "Tersedia layanan penitipan helm atau pengamanan area parkir oleh petugas."
+                },
+                {
+                    "q": "Apakah atap peneduh menutupi seluruh area parkir motor?",
+                    "mode": "fix",
+                    "answer": "Ya, sebagian besar slot parkir roda dua dilengkapi kanopi peneduh yang luas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Parkir Motor Beratap.",
+                "describeHere": "Parkir Motor adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node107": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk Zoo",
+            "placeId": "semarang-zoo-pintu-masuk-zoo",
+            "placeName": "Semarang Zoo – Pintu Masuk Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang pintu masuk resmi utama bagi pengunjung yang memasuki area Semarang Zoo.",
+            "description": "Pintu masuk zoo menyambut setiap wisatawan dengan nuansa ramah dan dekorasi khas kebun binatang. Di sinilah pemeriksaan tiket dilakukan sebelum pengunjung memulai petualangan rekreasi.",
+            "highlights": [
+                "Papan selamat datang",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa saja yang diperiksa oleh petugas di pintu masuk?",
+                    "mode": "fix",
+                    "answer": "Petugas melakukan scan atau pengecekan tiket masuk serta pemeriksaan barang bawaan."
+                },
+                {
+                    "q": "Apakah peta lokasi wisata dibagikan di dekat pintu masuk?",
+                    "mode": "fix",
+                    "answer": "Tersedia papan peta informasi denah kebun binatang di dekat area gerbang."
+                },
+                {
+                    "q": "Jam berapa pintu masuk mulai dibuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Umumnya beroperasi mulai pukul 08.00 pagi hingga sore hari setiap hari."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Pintu Masuk Zoo.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node108": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Jalur Keluar Kawasan",
+            "placeId": "semarang-zoo-jalur-keluar-kawasan",
+            "placeName": "Semarang Zoo – Jalur Keluar Kawasan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor jalur khusus pejalan kaki menuju area keluar kawasan Semarang Zoo.",
+            "description": "Jalur keluar kawasan menuntun wisatawan kembali menuju area parkir dan gerbang perpisahan. Jalurnya ditata rapi dengan deretan kios suvenir di sisi jalurnya.",
+            "highlights": [
+                "Jalan",
+                "Gerbang"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kemana arah akhir dari jalur keluar kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Mengarah langsung ke area parkir utama dan gerbang keluar kebun binatang."
+                },
+                {
+                    "q": "Apakah ada fasilitas perbelanjaan di sepanjang jalur keluar?",
+                    "mode": "fix",
+                    "answer": "Terdapat kios penjual oleh-oleh, suvenir khas zoo, dan pedagang cendera mata."
+                },
+                {
+                    "q": "Apakah jalur keluar terpisah dari jalur masuk utama?",
+                    "mode": "fix",
+                    "answer": "Ya, dipisahkan agar arus pergerakan pengunjung tertib dan tidak berdesakan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Jalur Keluar Kawasan.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node109": {
+            "rawName": "Reptile Cave",
+            "displayName": "Fasad Reptile Cave",
+            "placeId": "semarang-zoo-fasad-reptile-cave",
+            "placeName": "Semarang Zoo – Fasad Reptile Cave",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tampilan luar bangunan gua reptil (Reptile Cave) yang unik di Semarang Zoo.",
+            "description": "Fasad Reptile Cave menampilkan arsitektur gua buatan berornamen bebatuan purba yang sangat eksotis. Desain pintu masuknya langsung mencerminkan habitat satwa melata di dalam ruangan.",
+            "highlights": [
+                "Mulut gua buatan",
+                "Papan"
+            ],
+            "talkingPoints": [
+                "Reptile Cave",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Satwa apa saja yang dikonservasi di dalam Reptile Cave?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis ular sanca, buaya, kura-kura, iguana, dan kadal eksotis."
+                },
+                {
+                    "q": "Mengapa bangunan dibuat menyerupai bentuk gua?",
+                    "mode": "fix",
+                    "answer": "Untuk menciptakan suasana tiruan habitat alami yang gelap, sejuk, dan lembap bagi reptil."
+                },
+                {
+                    "q": "Apakah area fasad goa ini bagus untuk berfoto?",
+                    "mode": "fix",
+                    "answer": "Sangat bagus dan unik karena bentuk batuannya menyerupai petualangan purba."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Fasad Reptile Cave.",
+                "describeHere": "Reptile Cave adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node110": {
+            "rawName": "Guareptil",
+            "displayName": "Taman Depan Reptile Cave",
+            "placeId": "semarang-zoo-taman-depan-reptile-cave",
+            "placeName": "Semarang Zoo – Taman Depan Reptile Cave",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman lanskap hijau di depan pintu masuk gedung Reptile Cave Semarang Zoo.",
+            "description": "Taman depan Reptile Cave mempercantik area sekitar gua reptil dengan tanaman hias dan rumput terawat. Tempat ini memberikan suasana sejuk sebelum pengunjung masuk ke dalam ruang pameran satwa.",
+            "highlights": [
+                "Batu",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Guareptil",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Tanaman apa yang menghiasi taman depan gua reptil?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis tanaman tropis, pakis-pakisan, dan bunga hias penyejuk mata."
+                },
+                {
+                    "q": "Apakah tersedia tempat duduk santai di taman ini?",
+                    "mode": "fix",
+                    "answer": "Tersedia bangku taman bagi pengunjung yang ingin beristirahat sejenak."
+                },
+                {
+                    "q": "Bagaimana kebersihan area taman ini dijaga?",
+                    "mode": "fix",
+                    "answer": "Dibersihkan secara berkala oleh petugas keamanan dan pertamanan kebun binatang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:199"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Taman Depan Reptile Cave.",
+                "describeHere": "Guareptil adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node111": {
+            "rawName": "Reptile Cave",
+            "displayName": "Reptile Cave – Vitrin Dalam",
+            "placeId": "semarang-zoo-reptile-cave-vitrin-dalam",
+            "placeName": "Semarang Zoo – Reptile Cave – Vitrin Dalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Display kotak kaca (vitrin) pameran satwa reptil di dalam gedung Reptile Cave.",
+            "description": "Reptile Cave – Vitrin Dalam menyajikan koleksi satwa melata dalam terrarium kaca berlampu khusus. Setiap kandang kaca dilengkapi pengaturan suhu dan kelembapan sesuai kebutuhan reptil.",
+            "highlights": [
+                "Vitrin",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Reptile Cave",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara pengaturan suhu di dalam kotak kaca vitrin?",
+                    "mode": "fix",
+                    "answer": "Menggunakan lampu penghangat khusus serta ventilasi pengatur kelembapan udara."
+                },
+                {
+                    "q": "Apakah satwa di dalam vitrin aktif bergerak?",
+                    "mode": "fix",
+                    "answer": "Beberapa aktif merayap, sementara sebagian besar beristirahat menyesuaikan karakternya."
+                },
+                {
+                    "q": "Apakah terdapat label informasi pada setiap kotak kaca vitrin?",
+                    "mode": "fix",
+                    "answer": "Ya, tertera papan nama ilmiah, asal daerah, dan karakteristik singkat satwa reptil."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Reptile Cave – Vitrin Dalam.",
+                "describeHere": "Reptile Cave adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node112": {
+            "rawName": "Reptile Cave",
+            "displayName": "Reptile Cave – Lorong Terang",
+            "placeId": "semarang-zoo-reptile-cave-lorong-terang",
+            "placeName": "Semarang Zoo – Reptile Cave – Lorong Terang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lorong pameran dalam ruangan yang terang dan edukatif di Reptile Cave Semarang Zoo.",
+            "description": "Reptile Cave – Lorong Terang memudahkan pengunjung berjalan menyusuri sarang reptil dengan pencahayaan optimal. Lorong ini menampilkan informasi edukasi interaktif di dindingnya.",
+            "highlights": [
+                "Jendela kandang",
+                "Atap"
+            ],
+            "talkingPoints": [
+                "Reptile Cave",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Informasi apa saja yang disajikan di dinding lorong terang?",
+                    "mode": "fix",
+                    "answer": "Pengetahuan seputar anatomi reptil, habitat asli, dan status konservasi satwa."
+                },
+                {
+                    "q": "Apakah pencahayaan di dalam lorong ini nyaman bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Sangat nyaman dengan kombinasi lampu penerangan terang dan estetis."
+                },
+                {
+                    "q": "Apakah lorong ini ramah bagi pengguna kursi roda?",
+                    "mode": "fix",
+                    "answer": "Ya, lantai lorong dibuat datar dan mulus tanpa tangga penghalang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Reptile Cave – Lorong Terang.",
+                "describeHere": "Reptile Cave adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node113": {
+            "rawName": "Panggung",
+            "displayName": "Panggung Zoo",
+            "placeId": "semarang-zoo-panggung-zoo",
+            "placeName": "Semarang Zoo – Panggung Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panggung hiburan terbuka untuk pertunjukan satwa edukatif di Semarang Zoo.",
+            "description": "Panggung zoo sering digunakan untuk menyuguhkan atraksi pertunjukan satwa cerdas yang menghibur. Tempat duduk penonton beratap melindungi penonton dari panas terik matahari.",
+            "highlights": [
+                "Panggung",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Panggung",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Pertunjukan apa saja yang sering digelar di panggung ini?",
+                    "mode": "fix",
+                    "answer": "Show edukasi satwa cerdas seperti burung, berang-berang, dan pentas seni hiburan keluarga."
+                },
+                {
+                    "q": "Jam berapa jadwal pertunjukan satwa biasanya dimulai?",
+                    "mode": "fix",
+                    "answer": "Biasanya dijadwalkan pada akhir pekan atau jam tertentu siang hari secara berkala."
+                },
+                {
+                    "q": "Berapa kapasitas kursi penonton di depan panggung?",
+                    "mode": "fix",
+                    "answer": "Mampu menampung ratusan penonton dalam area tribun tertutup atap."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Panggung Zoo.",
+                "describeHere": "Panggung adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node114": {
+            "rawName": "Danau",
+            "displayName": "Jalur Dekat Danau",
+            "placeId": "semarang-zoo-jalur-dekat-danau",
+            "placeName": "Semarang Zoo – Jalur Dekat Danau",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur pejalan kaki teduh yang menyusuri tepian danau buatan di Semarang Zoo.",
+            "description": "Jalur dekat danau menawarkan pemandangan perairan tenang dengan semilir angin yang menyegarkan. Tempat ini sangat digemari pengunjung untuk bersantai menikmati panorama alam.",
+            "highlights": [
+                "Pohon",
+                "Paving"
+            ],
+            "talkingPoints": [
+                "Danau",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Aktivitas apa yang populer di sekitar jalur danau ini?",
+                    "mode": "fix",
+                    "answer": "Berjalan santai, berfoto dengan latar danau, atau menaiki wahana air perahu."
+                },
+                {
+                    "q": "Apakah terdapat pagar pengaman di sepanjang tepian danau?",
+                    "mode": "fix",
+                    "answer": "Ya, dipasang pembatas pengaman demi keselamatan pengunjung yang melintas."
+                },
+                {
+                    "q": "Ikan apa saja yang hidup di dalam perairan danau buatan ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis ikan air tawar konsumsi dan hias yang dikembangbiakkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Jalur Dekat Danau.",
+                "describeHere": "Danau adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node115": {
+            "rawName": "Semarang Zoo",
+            "displayName": "Bangunan Penerima Zoo",
+            "placeId": "semarang-zoo-bangunan-penerima-zoo",
+            "placeName": "Semarang Zoo – Bangunan Penerima Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung pusat penerimaan tamu dan informasi utama di kawasan Semarang Zoo.",
+            "description": "Bangunan penerima zoo menyambut wisatawan dengan fasilitas informasi lengkap seputar kebun binatang. Gedung ini juga berfungsi sebagai pos layanan darurat dan administrasi pengunjung.",
+            "highlights": [
+                "Fasad",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Semarang Zoo",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Layanan apa saja yang tersedia di bangunan penerima ini?",
+                    "mode": "fix",
+                    "answer": "Pusat informasi wisata, layanan kehilangan barang, dan pos kesehatan darurat."
+                },
+                {
+                    "q": "Apakah staf di gedung penerima siaga melayani wisatawan?",
+                    "mode": "fix",
+                    "answer": "Ya, petugas customer service siap melayani pertanyaan dan kebutuhan pengunjung."
+                },
+                {
+                    "q": "Dimana letak posisi bangunan penerima ini?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di dekat area pintu masuk utama setelah loket tiket."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Bangunan Penerima Zoo.",
+                "describeHere": "Semarang Zoo adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node116": {
+            "rawName": "Mushola",
+            "displayName": "Musala Zoo",
+            "placeId": "semarang-zoo-musala-zoo",
+            "placeName": "Semarang Zoo – Musala Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas rumah ibadah musala yang bersih dan nyaman bagi pengunjung Semarang Zoo.",
+            "description": "Musala zoo menyediakan tempat beribadah yang tenang dan representatif bagi wisatawan Muslim. Perlengkapan salat serta tempat wudu terpisah tersedia dengan sangat baik.",
+            "highlights": [
+                "Teras",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Mushola",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah musala ini menyediakan mukena dan sarung pinjaman?",
+                    "mode": "fix",
+                    "answer": "Ya, disediakan perlengkapan salat dasar yang bersih untuk digunakan jamaah."
+                },
+                {
+                    "q": "Bagaimana kebersihan fasilitas wudu dan ruang salat?",
+                    "mode": "fix",
+                    "answer": "Dijaga sangat bersih dan disterilkan secara rutin oleh petugas kebersihan."
+                },
+                {
+                    "q": "Apakah lokasi musala mudah dijangkau dari area tengah zoo?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah dijangkau karena berada di titik strategis dekat fasilitas umum."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Musala Zoo.",
+                "describeHere": "Mushola adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node117": {
+            "rawName": "Kolamrenang",
+            "displayName": "Kolam Rekreasi Air",
+            "placeId": "semarang-zoo-kolam-rekreasi-air",
+            "placeName": "Semarang Zoo – Kolam Rekreasi Air",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kolam rekreasi air dan wahana permainan air keluarga di Semarang Zoo.",
+            "description": "Kolam rekreasi air menyajikan keseruan bermain air yang menyegarkan bagi anak-anak dan keluarga. Suasana ceria dan gemercik air menambah semarak liburan di kebun binatang.",
+            "highlights": [
+                "Kolam dangkal",
+                "Permainan"
+            ],
+            "talkingPoints": [
+                "Kolamrenang",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Wahana permainan air apa saja yang tersedia di kolam ini?",
+                    "mode": "fix",
+                    "answer": "Seluncuran air mini, pancuran air tumpah, dan kolam dangkal untuk anak-anak."
+                },
+                {
+                    "q": "Apakah anak-anak wajib mengenakan ban pelampung?",
+                    "mode": "fix",
+                    "answer": "Sangat dianjurkan demi keselamatan, dan tersedia tempat penyewaan ban di lokasi."
+                },
+                {
+                    "q": "Apakah air kolam rekreasi ini dibersihkan secara rutin?",
+                    "mode": "fix",
+                    "answer": "Ya, sirkulasi dan penjernihan air dilakukan secara berkala demi kesehatan pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Kolam Rekreasi Air.",
+                "describeHere": "Kolamrenang adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node118": {
+            "rawName": "Waterboom",
+            "displayName": "Akses Waterboom",
+            "placeId": "semarang-zoo-akses-waterboom",
+            "placeName": "Semarang Zoo – Akses Waterboom",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur gerbang penghubung khusus menuju kawasan waterboom rekreasi air Semarang Zoo.",
+            "description": "Akses waterboom mengantar pengunjung menuju kompleks kolam renang dan seluncuran air raksasa. Area ini menjadi salah satu daya tarik favorit wisatawan saat cuaca panas.",
+            "highlights": [
+                "Papan aturan",
+                "Gerbang"
+            ],
+            "talkingPoints": [
+                "Waterboom",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah tiket masuk waterboom terpisah dari tiket utama zoo?",
+                    "mode": "fix",
+                    "answer": "Terkadang tersedia tiket terusan atau tiket khusus wahana waterboom di loket."
+                },
+                {
+                    "q": "Fasilitas apa saja yang ada di area waterboom?",
+                    "mode": "fix",
+                    "answer": "Kamar bilas, ruang ganti pakaian, penyewaan ban, dan kantin makanan."
+                },
+                {
+                    "q": "Apakah ada petugas penyelamat (lifeguard) di kolam waterboom?",
+                    "mode": "fix",
+                    "answer": "Ya, petugas lifeguard siaga di sekitar kolam untuk mengawasi keamanan pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Akses Waterboom.",
+                "describeHere": "Waterboom adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node119": {
+            "rawName": "node119",
+            "displayName": "Gerbang Landmark Semarang Zoo",
+            "placeId": "semarang-zoo-gerbang-landmark-semarang-zoo",
+            "placeName": "Semarang Zoo – Gerbang Landmark Semarang Zoo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang monumen landmark bertuliskan Semarang Zoo yang ikonik dan megah.",
+            "description": "Gerbang landmark Semarang Zoo menjadi spot swafoto paling populer bagi wisatawan yang baru datang. Desain arsitekturnya yang megah dihiasi patung satwa menyambut keceriaan liburan.",
+            "highlights": [
+                "Lengkung",
+                "Papan nama"
+            ],
+            "talkingPoints": [
+                "node119",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa gerbang landmark ini sangat populer di kalangan pengunjung?",
+                    "mode": "fix",
+                    "answer": "Karena tulisan 'Semarang Zoo' yang besar sangat ikonik sebagai bukti kunjungan."
+                },
+                {
+                    "q": "Apakah area depan landmark ramai oleh wisatawan yang berfoto?",
+                    "mode": "fix",
+                    "answer": "Sangat ramai terutama pada pagi hari atau saat akhir pekan tiba."
+                },
+                {
+                    "q": "Apakah pencahayaan di sekitar gerbang bagus pada malam hari?",
+                    "mode": "fix",
+                    "answer": "Ya, dilengkapi lampu sorot estetika yang menerangi monumen saat sore menjelang malam."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Gerbang Landmark Semarang Zoo.",
+                "describeHere": "Area NODE119 (ID: node119) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node120": {
+            "rawName": "Aves Garden",
+            "displayName": "Aves Garden",
+            "placeId": "semarang-zoo-aves-garden",
+            "placeName": "Semarang Zoo – Aves Garden",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman koleksi burung (Aves Garden) dengan lanskap hijau yang asri di Semarang Zoo.",
+            "description": "Aves Garden memamerkan berbagai spesies burung eksotis dalam sangkar pameran terbuka yang luas. Suasana taman dipenuhi kicauan merdu yang menenangkan jiwa pengunjung.",
+            "highlights": [
+                "Kandang burung",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Aves Garden",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis burung apa saja yang menjadi koleksi unggulan di Aves Garden?",
+                    "mode": "fix",
+                    "answer": "Burung kakatua, nuri kepala hitam, betet, dan berbagai jenis burung berkicau."
+                },
+                {
+                    "q": "Apakah pengunjung boleh berinteraksi langsung dengan burung di taman?",
+                    "mode": "fix",
+                    "answer": "Hanya di area tertentu di bawah pengawasan pawang dan petugas kebun binatang."
+                },
+                {
+                    "q": "Bagaimana penataan lingkungan di dalam Aves Garden?",
+                    "mode": "fix",
+                    "answer": "Ditanam banyak pohon buah dan tanaman bunga sebagai pakan alami sekaligus peneduh."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Aves Garden.",
+                "describeHere": "Aves Garden adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node121": {
+            "rawName": "Wahanaair",
+            "displayName": "Dermaga Wahana Danau",
+            "placeId": "semarang-zoo-dermaga-wahana-danau",
+            "placeName": "Semarang Zoo – Dermaga Wahana Danau",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Dermaga kayu tepi perairan untuk penyewaan sepeda air dan perahu wisata danau.",
+            "description": "Dermaga wahana danau menjadi tempat naik turun penumpang perahu bebek gowes dan perahu wisata. Pengunjung dapat menikmati keseruan mengelilingi perairan danau buatan dari dekat.",
+            "highlights": [
+                "Perahu",
+                "Air"
+            ],
+            "talkingPoints": [
+                "Wahanaair",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Wahana air apa saja yang bisa disewa di dermaga ini?",
+                    "mode": "fix",
+                    "answer": "Sepeda air (bebek air) kayuh pedal serta perahu wisata mesin tempel."
+                },
+                {
+                    "q": "Berapa tarif sewa untuk satu kali putaran sepeda air?",
+                    "mode": "fix",
+                    "answer": "Tarif sewa sangat terjangkau untuk durasi waktu per sesi putaran."
+                },
+                {
+                    "q": "Apakah penumpang wajib memakai jaket pelampung di perahu?",
+                    "mode": "fix",
+                    "answer": "Ya, demi keamanan seluruh penumpang wajib mengenakan pelampung yang disediakan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Dermaga Wahana Danau.",
+                "describeHere": "Wahanaair adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node122": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Gerbang Keluar – Sisi Dalam",
+            "placeId": "semarang-zoo-gerbang-keluar-sisi-dalam",
+            "placeName": "Semarang Zoo – Gerbang Keluar – Sisi Dalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang perbatasan sisi dalam sebelum wisatawan meninggalkan kawasan Semarang Zoo.",
+            "description": "Gerbang keluar sisi dalam menandai titik akhir perjalanan rekreasi di dalam kebun binatang. Dari sini pengunjung melangkah menuju area parkir dan mengakhiri liburan.",
+            "highlights": [
+                "Lengkung",
+                "Jalur"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang harus ditunjukkan saat melewati gerbang keluar ini?",
+                    "mode": "fix",
+                    "answer": "Biasanya pemeriksaan karcis tiket terakhir atau cap tangan penanda kunjungan."
+                },
+                {
+                    "q": "Fasilitas apa saja yang ada tepat setelah melewati gerbang keluar?",
+                    "mode": "fix",
+                    "answer": "Deretan kios suvenir, toilet luar, dan akses langsung menuju area parkir kendaraan."
+                },
+                {
+                    "q": "Bagaimana kesan yang ditinggalkan di akhir kunjungan zoo?",
+                    "mode": "fix",
+                    "answer": "Memberikan pengalaman liburan edukatif yang berkesan bersama keluarga tercinta."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Gerbang Keluar – Sisi Dalam.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node123": {
+            "rawName": "Aviary",
+            "displayName": "Aviary – Area Berjaring",
+            "placeId": "semarang-zoo-aviary-area-berjaring",
+            "placeName": "Semarang Zoo – Aviary – Area Berjaring",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kubah besar area berjaring tempat ratusan burung terbang bebas di Semarang Zoo.",
+            "description": "Aviary area berjaring menyuguhkan ekosistem tiruan luas dengan kawat jaring pelindung baja yang kokoh. Pengunjung dapat berjalan di dalam kubah sambil menikmati kebebasan satwa burung.",
+            "highlights": [
+                "Jaring atas",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Aviary",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tinggi kubah jaring aviary pelindung burung ini?",
+                    "mode": "fix",
+                    "answer": "Kubahnya dibangun sangat tinggi dan luas agar burung dapat terbang leluasa di dalam."
+                },
+                {
+                    "q": "Bagaimana interaksi burung dengan pengunjung di dalam jaring?",
+                    "mode": "fix",
+                    "answer": "Burung terbiasa dengan kehadiran manusia namun tetap menjaga jarak alami mereka."
+                },
+                {
+                    "q": "Apa saja tanaman yang ditanam di dalam area berjaring aviary?",
+                    "mode": "fix",
+                    "answer": "Pohon-pohon tinggi berkanopi rimbun dan tanaman perdu sebagai tempat bertengger."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Aviary – Area Berjaring.",
+                "describeHere": "Aviary adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node124": {
+            "rawName": "Kandangburungkasuari",
+            "displayName": "Kandang Kasuari",
+            "placeId": "semarang-zoo-kandang-kasuari",
+            "placeName": "Semarang Zoo – Kandang Kasuari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kandang konservasi burung kasuari berukuran besar yang eksotis di Semarang Zoo.",
+            "description": "Kandang kasuari menampilkan burung pelari besar asal Papua yang memiliki ciri fisik khas dan unik. Pengunjung dapat mengamati postur tubuh dan tanduk kepala kasuari dari balik pagar pengaman.",
+            "highlights": [
+                "Pagar",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Kandangburungkasuari",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Dari mana asal daerah asli burung kasuari di alam liar?",
+                    "mode": "fix",
+                    "answer": "Kasuaris merupakan satwa endemik hutan hujan tropis Papua dan Australia utara."
+                },
+                {
+                    "q": "Apa ciri fisik paling mencolok dari burung kasuari?",
+                    "mode": "fix",
+                    "answer": "Memiliki bulu hitam lebat, helm (tenggeran tanduk) di kepala, dan kaki berotot kuat."
+                },
+                {
+                    "q": "Mengapa pengunjung harus menjaga jarak dari kandang kasuari?",
+                    "mode": "fix",
+                    "answer": "Karena kasuari memiliki tendangan kaki yang kuat sebagai mekanisme pertahanan diri."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:200"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Kandang Kasuari.",
+                "describeHere": "Kandangburungkasuari adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node125": {
+            "rawName": "Capybara",
+            "displayName": "Area Kapibara",
+            "placeId": "semarang-zoo-area-kapibara",
+            "placeName": "Semarang Zoo – Area Kapibara",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kandang konservasi kapibara, hewan pengerat terbesar di dunia, di Semarang Zoo.",
+            "description": "Area kapibara memperlihatkan mamalia setengah berair yang berkarakter tenang dan bersahabat. Pengunjung gemar melihat tingkah laku menggemaskan kapibara yang gemar berendam di air.",
+            "highlights": [
+                "Pembatas",
+                "Ruang satwa"
+            ],
+            "talkingPoints": [
+                "Capybara",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Hewan apa sebenarnya kapibara itu?",
+                    "mode": "fix",
+                    "answer": "Kapibara adalah spesies hewan pengerat (rodent) terbesar di dunia yang berasal dari Amerika Selatan."
+                },
+                {
+                    "q": "Mengapa kapibara sering terlihat berendam di dalam kolam?",
+                    "mode": "fix",
+                    "answer": "Karena mereka adalah hewan semi-akuatik yang menyukai air untuk mendinginkan tubuh."
+                },
+                {
+                    "q": "Apakah kapibara termasuk hewan yang jinak?",
+                    "mode": "fix",
+                    "answer": "Sangat jinak, tenang, dan bahkan dikenal ramah dengan berbagai jenis hewan lain."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Area Kapibara.",
+                "describeHere": "Capybara adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node126": {
+            "rawName": "Kandanggajah",
+            "displayName": "Kandang Gajah",
+            "placeId": "semarang-zoo-kandang-gajah",
+            "placeName": "Semarang Zoo – Kandang Gajah",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kandang konservasi gajah Sumatera berukuran raksasa di kawasan Semarang Zoo.",
+            "description": "Kandang gajah menyediakan ruang terbuka lapang dengan kubangan lumpur dan tempat berteduh gajah. Wisatawan dapat menyaksikan kegemasan satwa berbelalai panjang ini dari jarak dekat.",
+            "highlights": [
+                "Atap",
+                "Pembatas"
+            ],
+            "talkingPoints": [
+                "Kandanggajah",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis gajah apa yang dirawat di konservasi Semarang Zoo ini?",
+                    "mode": "fix",
+                    "answer": "Gajah Sumatera (Elephas maximus sumatranus) yang merupakan satwa terancam punah."
+                },
+                {
+                    "q": "Apa makanan favorit gajah yang dikonsumsi setiap hari?",
+                    "mode": "fix",
+                    "answer": "Batang pisang, rumput gajah segar, tebu, serta buah-buahan dalam jumlah besar."
+                },
+                {
+                    "q": "Apakah gajah di sini dilatih untuk edukasi wisatawan?",
+                    "mode": "fix",
+                    "answer": "Gajah dirawat oleh mahout profesional dan kadang dilibatkan dalam edukasi interaktif."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:201"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Kandang Gajah.",
+                "describeHere": "Kandanggajah adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node127": {
+            "rawName": "Kandangharimau",
+            "displayName": "Area Harimau – Bangunan Kandang",
+            "placeId": "semarang-zoo-area-harimau-bangunan-kandang",
+            "placeName": "Semarang Zoo – Area Harimau – Bangunan Kandang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kompleks bangunan kandang utama tempat istirahat harimau di Semarang Zoo.",
+            "description": "Area harimau bangunan kandang berfungsi sebagai tempat perlindungan malam dan perawatan medis satwa buas. Arsitekturnya dirancang kokoh dengan standar keamanan tinggi bagi perawat satwa.",
+            "highlights": [
+                "Jendela pengamatan",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Kandangharimau",
+                "jalur eksplorasi",
+                "Semarangzoo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana standar keamanan bangunan kandang harimau ini?",
+                    "mode": "fix",
+                    "answer": "Menggunakan teralis baja tebal ganda serta sistem pintu geser otomatis yang sangat aman."
+                },
+                {
+                    "q": "Kapan harimau biasanya dimasukkan ke dalam bangunan kandang?",
+                    "mode": "fix",
+                    "answer": "Biasanya pada sore hari menjelang malam atau saat dilakukan pembersihan kandang pameran."
+                },
+                {
+                    "q": "Apakah perawat satwa masuk langsung ke dalam kandang harimau?",
+                    "mode": "fix",
+                    "answer": "Tidak, perawat menggunakan sistem sekat pengaman khusus demi keselamatan kerja."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:202"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Zoo – Area Harimau – Bangunan Kandang.",
+                "describeHere": "Kandangharimau adalah area di dalam kawasan Semarangzoo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

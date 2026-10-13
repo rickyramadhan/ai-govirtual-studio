@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "kampungbustaman",
+    "tourName": "Kampungbustaman",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Kapan Perang Air diadakan?",
+                "query": "Kapan persisnya tradisi Perang Air atau Gebyar Bustaman biasa diselenggarakan setiap tahunnya?",
+                "desc": "Kapan persisnya tradisi Perang Air atau Gebyar Bustaman biasa diselenggarakan setiap tahunnya?"
+            },
+            {
+                "label": "Rekomendasi warung gulai?",
+                "query": "Di mana letak warung gulai kambing asli Bustaman yang rasanya paling otentik?",
+                "desc": "Di mana letak warung gulai kambing asli Bustaman yang rasanya paling otentik?"
+            },
+            {
+                "label": "Cara menuju Kampung Bustaman?",
+                "query": "Bagaimana rute untuk masuk ke dalam gang Kampung Bustaman dari jalan raya besar?",
+                "desc": "Bagaimana rute untuk masuk ke dalam gang Kampung Bustaman dari jalan raya besar?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Tradisi Gebyar Bustaman",
+                "query": "Bagaimana kemeriahan acara Gebyar Bustaman (Perang Air) yang diadakan menjelang bulan suci Ramadhan?"
+            },
+            {
+                "label": "Legenda Kiai Bustam",
+                "query": "Siapakah sosok Kiai Bustam dan bagaimana pengaruh beliau terhadap pembentukan sejarah Kampung Bustaman?"
+            },
+            {
+                "label": "Sentra Olahan Daging",
+                "query": "Bagaimana sejarahnya hingga kampung ini dikenal sebagai pusat pemotongan hewan dan pengolahan daging di Semarang?"
+            },
+            {
+                "label": "Gulai Kambing Legendaris",
+                "query": "Apa rahasia bumbu rempah dari Gulai Kambing khas Bustaman yang membuatnya begitu terkenal dan lezat?"
+            },
+            {
+                "label": "Seni Mural Perkampungan",
+                "query": "Pesan moral dan cerita sejarah apa yang terkandung dalam karya-karya seni mural di dinding gang Kampung Bustaman?"
+            },
+            {
+                "label": "Dinamika Sosial Warga",
+                "query": "Bagaimana gotong royong dan ikatan sosial warga Bustaman dalam menjaga kelestarian tradisi leluhur mereka?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Kampungbustaman?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Kampungbustaman?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Kampungbustaman?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

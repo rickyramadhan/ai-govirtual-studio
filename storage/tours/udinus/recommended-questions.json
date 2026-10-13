@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "udinus",
+    "tourName": "Udinus",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Pendaftaran PMB",
+                "query": "Bagaimana cara melakukan pendaftaran online PMB UDINUS dan kapan ujian masuknya?",
+                "desc": "Bagaimana cara melakukan pendaftaran online PMB UDINUS dan kapan ujian masuknya?"
+            },
+            {
+                "label": "Beasiswa Prestasi",
+                "query": "Apakah sertifikat kejuaraan E-Sport bisa digunakan untuk mendaftar jalur prestasi UDINUS?",
+                "desc": "Apakah sertifikat kejuaraan E-Sport bisa digunakan untuk mendaftar jalur prestasi UDINUS?"
+            },
+            {
+                "label": "Fasilitas Komputer",
+                "query": "Seberapa lengkap spesifikasi PC di laboratorium komputer untuk praktik desain dan pemrograman?",
+                "desc": "Seberapa lengkap spesifikasi PC di laboratorium komputer untuk praktik desain dan pemrograman?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Kampus IT Terkemuka",
+                "query": "Bagaimana reputasi UDINUS sebagai salah satu kampus berbasis teknologi dan informasi terbaik di Jawa Tengah?"
+            },
+            {
+                "label": "TVKU & Broadcasting",
+                "query": "Bagaimana fasilitas studio penyiaran TVKU digunakan sebagai lab praktik mahasiswa ilmu komunikasi?"
+            },
+            {
+                "label": "E-Sport & Game Lab",
+                "query": "Fasilitas apa saja yang disediakan di lab E-Sport dan Game Development untuk mendukung industri kreatif?"
+            },
+            {
+                "label": "Prestasi Robotika",
+                "query": "Apa saja karya dan prestasi robotika mahasiswa UDINUS yang berhasil menjuarai kompetisi nasional?"
+            },
+            {
+                "label": "Fakultas Ilmu Komputer",
+                "query": "Program studi unggulan apa saja yang ditawarkan oleh Fakultas Ilmu Komputer UDINUS?"
+            },
+            {
+                "label": "Inkubator Wirausaha",
+                "query": "Bagaimana kampus memfasilitasi dan mendanai startup mahasiswa melalui program inkubator bisnis?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Udinus?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Udinus?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Udinus?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

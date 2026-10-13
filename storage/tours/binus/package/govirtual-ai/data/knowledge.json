@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "binus",
+    "updatedAt": "2026-09-29T06:34:20+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "BINUS University Semarang",
+            "aliases": [
+                "binus university semarang"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "binus"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk BINUS University Semarang.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "BINUS University Semarang",
+                    "content": "Pusat pengalaman virtual untuk BINUS University Semarang."
+                },
+                "en": {
+                    "title": "BINUS University Semarang",
+                    "content": "Pusat pengalaman virtual untuk BINUS University Semarang."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Greenscreen",
+            "aliases": [
+                "greenscreen"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "binus"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Greenscreen",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Greenscreen",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Rotary",
+            "aliases": [
+                "rotary"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "binus"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Rotary",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Rotary",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "binus"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1097",
+            "entityId": "objinfo2:1097",
+            "title": "Lab Komputer",
+            "aliases": [
+                "lab komputer",
+                "objek 1097"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi.",
+            "source": "webview-import",
+            "sourceId": "1097",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Komputer",
+                    "content": "Ruang ini dilengkapi dengan perangkat keras terkini untuk menunjang kegiatan pemrograman, desain grafis, hingga analisis data. Fasilitas ini menjadi pusat praktik utama bagi mahasiswa dalam mengasah kemampuan teknis di bidang teknologi informasi."
+                },
+                "en": {
+                    "title": "Computer Lab",
+                    "content": "This room is equipped with the latest hardware to support programming, graphic design, and data analysis activities. The facility serves as the main practical center for students to sharpen their technical skills in information technology."
+                },
+                "zh": {
+                    "title": "计算机实验室",
+                    "content": "该空间配备最新硬件，支持编程、平面设计以及数据分析等活动。该设施是学生提升信息技术专业技能的主要实践中心。"
+                },
+                "ar": {
+                    "title": "مختبر الحاسوب",
+                    "content": "تحتوي هذه الغرفة على أحدث الأجهزة لدعم أنشطة البرمجة وتصميم الجرافيك وتحليل البيانات. وتُعد هذه المنشأة المركز الرئيسي للتدريب العملي للطلاب لصقل مهاراتهم التقنية في مجال تكنولوجيا المعلومات"
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1098",
+            "entityId": "objinfo2:1098",
+            "title": "Art Gallery",
+            "aliases": [
+                "art gallery",
+                "objek 1098"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik.",
+            "source": "webview-import",
+            "sourceId": "1098",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Art Gallery",
+                    "content": "Area ini berfungsi sebagai wadah pameran untuk menampilkan karya kreatif, desain, dan inovasi terbaik dari mahasiswa. Galeri ini dirancang untuk mengapresiasi estetika serta menginspirasi komunitas kampus melalui visualisasi ide yang artistik."
+                },
+                "en": {
+                    "title": "Galeri Seni",
+                    "content": "This area serves as an exhibition space to showcase the best creative works, designs, and innovations from students. The gallery is designed to appreciate aesthetics and inspire the campus community through artistic visualization of ideas."
+                },
+                "zh": {
+                    "title": "艺术画廊",
+                    "content": "该区域作为展示空间，用于呈现学生的优秀创意作品、设计与创新成果。画廊旨在欣赏美学并通过艺术化的视觉表达激发校园社区的灵感。"
+                },
+                "ar": {
+                    "title": "معرض فني",
+                    "content": "تعمل هذه المنطقة كمساحة عرض لعرض أفضل الأعمال الإبداعية والتصاميم والابتكارات من الطلاب. تم تصميم المعرض لتقدير الجماليات وإلهام مجتمع الحرم الجامعي من خلال تصور الأفكار بشكل فني."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1099",
+            "entityId": "objinfo2:1099",
+            "title": "Greenscreen",
+            "aliases": [
+                "greenscreen",
+                "objek 1099"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel.",
+            "source": "webview-import",
+            "sourceId": "1099",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Greenscreen",
+                    "content": "Greenscreen Studio ini menyediakan latar belakang hijau khusus untuk kebutuhan produksi video dan teknik efek visual digital (chroma key). Mahasiswa dapat memanfaatkan ruangan ini untuk menciptakan konten multimedia berkualitas profesional dengan latar belakang yang fleksibel."
+                },
+                "en": {
+                    "title": "Greenscreen",
+                    "content": "This greenscreen studio provides a special green background for video production and digital visual effects techniques (chroma key). Students can use this room to create professional-quality multimedia content with flexible backgrounds."
+                },
+                "zh": {
+                    "title": "绿幕",
+                    "content": "该绿幕摄影棚提供专用绿色背景，用于视频制作与数字视觉特效（色键/抠像）技术。学生可以利用该空间制作具有专业水准的多媒体内容，并自由替换背景。"
+                },
+                "ar": {
+                    "title": "الشاشة الخضراء",
+                    "content": "يوفر استوديو الشاشة الخضراء هذا خلفية خضراء خاصة لاحتياجات إنتاج الفيديو وتقنيات المؤثرات البصرية الرقمية (chroma key). يمكن للطلاب استخدام هذه الغرفة لإنشاء محتوى متعدد الوسائط بجودة احترافية مع خلفيات مرنة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1100",
+            "entityId": "objinfo2:1100",
+            "title": "Lab Manufacturing",
+            "aliases": [
+                "lab manufacturing",
+                "objek 1100"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata.",
+            "source": "webview-import",
+            "sourceId": "1100",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Manufacturing",
+                    "content": "Fasilitas ini difungsikan untuk mempelajari proses produksi industri, mulai dari perancangan hingga pembuatan prototipe fisik. Lab ini dilengkapi dengan mesin-mesin teknis yang memungkinkan mahasiswa memahami alur manufaktur secara nyata."
+                },
+                "en": {
+                    "title": "Manufacturing Lab",
+                    "content": "This facility is used to study industrial production processes, from design to the creation of physical prototypes. The lab is equipped with technical machines that allow students to understand the manufacturing workflow in a real-world context."
+                },
+                "zh": {
+                    "title": "制造实验室",
+                    "content": "该设施用于学习工业生产流程，从设计到实体原型制作。实验室配备多种技术设备，使学生能够真实地理解制造流程。"
+                },
+                "ar": {
+                    "title": "مختبر التصنيع",
+                    "content": "تُستخدم هذه المنشأة لدراسة عمليات الإنتاج الصناعي، بدءًا من التصميم وحتى صنع النماذج الأولية الفيزيائية. المختبر مجهز بآلات تقنية تُمكّن الطلاب من فهم سير عمل التصنيع بشكل واقعي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1101",
+            "entityId": "objinfo2:1101",
+            "title": "Lab Printing",
+            "aliases": [
+                "lab printing",
+                "objek 1101"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi.",
+            "source": "webview-import",
+            "sourceId": "1101",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Printing",
+                    "content": "Ruangan ini dikhususkan untuk mencetak berbagai hasil desain dan dokumen teknis dengan beragam media serta format. Fasilitas ini mendukung mahasiswa dalam memvisualisasikan proyek mereka dari bentuk digital ke bentuk fisik yang presisi."
+                },
+                "en": {
+                    "title": "Printing Lab",
+                    "content": "This room is dedicated to printing various design outputs and technical documents in a range of media and formats. The facility supports students in visualizing their projects from digital form into precise physical form."
+                },
+                "zh": {
+                    "title": "印刷实验室",
+                    "content": "该空间专用于打印各类设计成果与技术文档，支持多种介质与格式。该设施帮助学生将项目从数字形式转化为精确的实体成品。"
+                },
+                "ar": {
+                    "title": "مختبر الطباعة",
+                    "content": "تُخصص هذه الغرفة لطباعة مختلف نتائج التصميم والوثائق الفنية على وسائط وتنسيقات متعددة. تدعم هذه المنشأة الطلاب في تحويل مشاريعهم من الشكل الرقمي إلى شكل مادي دقيق."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1102",
+            "entityId": "objinfo2:1102",
+            "title": "Perpustakaan",
+            "aliases": [
+                "perpustakaan",
+                "objek 1102"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang.",
+            "source": "webview-import",
+            "sourceId": "1102",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaan",
+                    "content": "Pusat literasi ini menyediakan koleksi referensi fisik dan digital yang luas untuk mendukung kegiatan akademik dan riset. Lingkungannya dirancang modern dan nyaman agar mahasiswa dapat belajar mandiri maupun berkolaborasi dengan tenang."
+                },
+                "en": {
+                    "title": "Library",
+                    "content": "This literacy center provides a wide collection of physical and digital references to support academic activities and research. The environment is designed to be modern and comfortable so that students can study independently or collaborate in a calm atmosphere."
+                },
+                "zh": {
+                    "title": "图书馆",
+                    "content": "该阅读中心提供丰富的实体与数字参考书藏，以支持学术活动与研究。其环境设计现代舒适，便于学生独立学习或安静地进行合作。"
+                },
+                "ar": {
+                    "title": "مكتبة",
+                    "content": "يوفر هذا المركز الثقافي مجموعة واسعة من المراجع المادية والرقمية لدعم الأنشطة الأكاديمية والبحثية. تم تصميم البيئة بشكل حديث ومريح لتمكين الطلاب من الدراسة بشكل مستقل أو التعاون بهدوء."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "version": "1.0",
+    "tourId": "smpdomsav",
+    "tourName": "Smpdomsav",
+    "updatedAt": "2026-09-29T09:52:26+02:00",
+    "startScene": "node81",
+    "order": [
+        "node81",
+        "node80",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105"
+    ],
+    "nodes": {
+        "node81": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Fasad SMP Domenico Savio"
+        },
+        "node80": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Landmark DOMSAV"
+        },
+        "node82": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Area Penjemputan"
+        },
+        "node83": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Auditorium – Panggung"
+        },
+        "node84": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Aula Serbaguna"
+        },
+        "node85": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Selasar Area Makan"
+        },
+        "node86": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Pintu Kafetaria"
+        },
+        "node87": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Ruang Kelas"
+        },
+        "node89": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Jalan Antargedung"
+        },
+        "node90": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Pintu Lab Komputer"
+        },
+        "node91": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Jalur Masuk Sekolah"
+        },
+        "node92": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Akses Koperasi Sekolah"
+        },
+        "node93": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Lab IPA – Lemari Alat"
+        },
+        "node94": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Lab Komputer – Ruang Praktik"
+        },
+        "node96": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Lapangan Sekolah"
+        },
+        "node97": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Galeri Prestasi"
+        },
+        "node98": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Parkir Sekolah"
+        },
+        "node99": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Relung Patung Sekolah"
+        },
+        "node100": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Aula Tangga Lantai 2"
+        },
+        "node101": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Ruang Boga"
+        },
+        "node102": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Pintu Ruang Kepala Sekolah"
+        },
+        "node103": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Taman Kolam"
+        },
+        "node104": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Taman Dekat Mading"
+        },
+        "node105": {
+            "displayName": "SMP Pangudi Luhur Domenico Savio – Lorong Tanaman"
+        }
+    }
+}

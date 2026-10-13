@@ -1,0 +1,564 @@
+{
+    "version": 2,
+    "tourId": "simpanglima",
+    "updatedAt": "2026-09-29T09:52:21+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Simpanglima",
+            "aliases": [
+                "simpanglima"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "simpanglima"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Simpanglima.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Simpanglima",
+                    "content": "Pusat pengalaman virtual untuk Simpanglima."
+                },
+                "en": {
+                    "title": "Simpanglima",
+                    "content": "Pusat pengalaman virtual untuk Simpanglima."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Defaultsiang",
+            "aliases": [
+                "defaultsiang"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "simpanglima"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Defaultsiang",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Defaultsiang",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "ahmaddahlan-siang",
+            "aliases": [
+                "ahmaddahlan-siang"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "simpanglima"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "ahmaddahlan-siang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "ahmaddahlan-siang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "simpanglima"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:659",
+            "entityId": "objinfo2:659",
+            "title": "Dimensi Simpang Lima",
+            "aliases": [
+                "dimensi simpang lima",
+                "objek 659"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area yang memiliki lima persimpangan dengan lapangan hijau dengan luas 3,3 hektare setara dengan 33.000 hingga 33.400 meter persegi (m²).",
+            "source": "webview-import",
+            "sourceId": "659",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Dimensi Simpang Lima",
+                    "content": "Area yang memiliki lima persimpangan dengan lapangan hijau dengan luas 3,3 hektare setara dengan 33.000 hingga 33.400 meter persegi (m²)."
+                },
+                "en": {
+                    "title": "Object 659",
+                    "content": "Information for Object 659."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1211",
+            "entityId": "objinfo2:1211",
+            "title": "Jl. Ahmad Dahlan",
+            "aliases": [
+                "jl. ahmad dahlan",
+                "objek 1211"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Nama jalan ini diambil dari K.H. Ahmad Dahlan, pahlawan nasional sekaligus pendiri Muhammadiyah. Penggunaan nama ini sangat relevan karena di ruas jalan ini berdiri salah satu amal usaha Muhammadiyah terbesar di Jawa Tengah, yaitu RS Roemani Muhammadiyah.",
+            "source": "webview-import",
+            "sourceId": "1211",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jl. Ahmad Dahlan",
+                    "content": "Nama jalan ini diambil dari K.H. Ahmad Dahlan, pahlawan nasional sekaligus pendiri Muhammadiyah. Penggunaan nama ini sangat relevan karena di ruas jalan ini berdiri salah satu amal usaha Muhammadiyah terbesar di Jawa Tengah, yaitu RS Roemani Muhammadiyah."
+                },
+                "en": {
+                    "title": "Object 1211",
+                    "content": "Information for Object 1211."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:2030",
+            "entityId": "objinfo2:2030",
+            "title": "Jl. Pahlawan",
+            "aliases": [
+                "jl. pahlawan",
+                "objek 2030"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Di ujung utara jalan ini (tepat di Simpang Lima), dulu pernah ada monumen kecil, namun kini semangat \"Pahlawan\" tersebut lebih terasa melalui kemegahan gedung-gedung pemerintahan dan kehadiran TMP Giri Tunggal yang tetap terjaga asri. Nama \"Pahlawan\" disematkan untuk menghormati jasa para pejuang yang gugur dalam mempertahankan kemerdekaan Indonesia di tanah Semarang.",
+            "source": "webview-import",
+            "sourceId": "2030",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jl. Pahlawan",
+                    "content": "Di ujung utara jalan ini (tepat di Simpang Lima), dulu pernah ada monumen kecil, namun kini semangat \"Pahlawan\" tersebut lebih terasa melalui kemegahan gedung-gedung pemerintahan dan kehadiran TMP Giri Tunggal yang tetap terjaga asri. Nama \"Pahlawan\" disematkan untuk menghormati jasa para pejuang yang gugur dalam mempertahankan kemerdekaan Indonesia di tanah Semarang."
+                },
+                "en": {
+                    "title": "Object 2030",
+                    "content": "Information for Object 2030."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1210",
+            "entityId": "objinfo2:1210",
+            "title": "Jl. Ahmad Yani",
+            "aliases": [
+                "jl. ahmad yani",
+                "objek 1210"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Momentum terbesar pembangunan Jalan Ahmad Yani dan Simpang Lima terjadi ketika Semarang ditunjuk sebagai tuan rumah Pekan Olahraga Nasional (PON) VII pada tahun 1969. Pemerintah kota mempercepat pembangunan infrastruktur, dengan lima jalan besar bertemu di satu titik (Lapangan Pancasila): Jl. Pahlawan, Jl. Pandanaran, Jl. Gajah Mada, dan Jl. Ahmad Yani. Jalan Ahmad Yani dirancang sebagai akses utama dari arah Timur kota Semarang menuju pusat baru tersebut.",
+            "source": "webview-import",
+            "sourceId": "1210",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jl. Ahmad Yani",
+                    "content": "Momentum terbesar pembangunan Jalan Ahmad Yani dan Simpang Lima terjadi ketika Semarang ditunjuk sebagai tuan rumah Pekan Olahraga Nasional (PON) VII pada tahun 1969. Pemerintah kota mempercepat pembangunan infrastruktur, dengan lima jalan besar bertemu di satu titik (Lapangan Pancasila): Jl. Pahlawan, Jl. Pandanaran, Jl. Gajah Mada, dan Jl. Ahmad Yani. Jalan Ahmad Yani dirancang sebagai akses utama dari arah Timur kota Semarang menuju pusat baru tersebut."
+                },
+                "en": {
+                    "title": "Object 1210",
+                    "content": "Information for Object 1210."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1208",
+            "entityId": "objinfo2:1208",
+            "title": "Jl. Gajah Mada",
+            "aliases": [
+                "jl. gajah mada",
+                "objek 1208"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Dahulu: Area ini dulunya didominasi oleh bangunan-bangunan kolonial dan pemukiman etnis Tionghoa yang berbatasan dengan kawasan Pecinan. Sekarang: Jalan ini telah bertransformasi total menjadi Central Business District (CBD). Kehadiran gedung-gedung seperti Tentrem (yang terlihat di gambar) menandai pergeseran Semarang menjadi kota metropolitan modern.",
+            "source": "webview-import",
+            "sourceId": "1208",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jl. Gajah Mada",
+                    "content": "Dahulu: Area ini dulunya didominasi oleh bangunan-bangunan kolonial dan pemukiman etnis Tionghoa yang berbatasan dengan kawasan Pecinan. Sekarang: Jalan ini telah bertransformasi total menjadi Central Business District (CBD). Kehadiran gedung-gedung seperti Tentrem (yang terlihat di gambar) menandai pergeseran Semarang menjadi kota metropolitan modern."
+                },
+                "en": {
+                    "title": "Object 1208",
+                    "content": "Information for Object 1208."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1209",
+            "entityId": "objinfo2:1209",
+            "title": "Jl. Pandanaran",
+            "aliases": [
+                "jl. pandanaran",
+                "objek 1209"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pusat Oleh-oleh dan Bisnis: Secara histori dan fungsi, Jl. Pandanaran dikenal sebagai urat nadi ekonomi kota Semarang yang menghubungkan area perkantoran di pusat kota dengan kawasan pemukiman di Semarang Barat. Jalan ini sangat populer sebagai pusat oleh-oleh khas Semarang (seperti Bandeng Presto dan Wingko Babat).",
+            "source": "webview-import",
+            "sourceId": "1209",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jl. Pandanaran",
+                    "content": "Pusat Oleh-oleh dan Bisnis: Secara histori dan fungsi, Jl. Pandanaran dikenal sebagai urat nadi ekonomi kota Semarang yang menghubungkan area perkantoran di pusat kota dengan kawasan pemukiman di Semarang Barat. Jalan ini sangat populer sebagai pusat oleh-oleh khas Semarang (seperti Bandeng Presto dan Wingko Babat)."
+                },
+                "en": {
+                    "title": "Object 1209",
+                    "content": "Information for Object 1209."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:910",
+            "entityId": "objinfo2:910",
+            "title": "Lapangan Voli",
+            "aliases": [
+                "lapangan voli",
+                "objek 910"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lapangan voli di Simpang Lima Semarang merupakan fasilitas olahraga publik strategis yang terletak tepat di jantung kota sebagai pusat aktivitas fisik masyarakat. Area ini menjadi ruang terbuka favorit warga untuk berlatih maupun bertanding voli sambil menikmati suasana keramaian ikonik Jawa Tengah.",
+            "source": "webview-import",
+            "sourceId": "910",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lapangan Voli",
+                    "content": "Lapangan voli di Simpang Lima Semarang merupakan fasilitas olahraga publik strategis yang terletak tepat di jantung kota sebagai pusat aktivitas fisik masyarakat. Area ini menjadi ruang terbuka favorit warga untuk berlatih maupun bertanding voli sambil menikmati suasana keramaian ikonik Jawa Tengah."
+                },
+                "en": {
+                    "title": "Volleyball Court",
+                    "content": "The volleyball court at Simpang Lima Semarang is a strategic public sports facility located in the heart of the city as a center for community physical activities. This area is a favorite open space for residents to practice or play volleyball while enjoying the iconic bustling atmosphere of Central Java."
+                },
+                "zh": {
+                    "title": "排球场",
+                    "content": "三宝垄辛庞利玛的排球场是一处战略性的公共体育设施，位于市中心，是社区体育活动的中心。这里是居民喜爱的开放空间，可以练习或进行排球比赛，同时享受中爪哇标志性的热闹氛围。"
+                },
+                "ar": {
+                    "title": "ملعب الكرة الطائرة",
+                    "content": "ملعب الكرة الطائرة في سيمبانغ ليما سيمارانغ هو منشأة رياضية عامة استراتيجية تقع في قلب المدينة كمركز للأنشطة البدنية للمجتمع. تُعد هذه المنطقة مساحة مفتوحة مفضلة للسكان لممارسة أو لعب الكرة الطائرة أثناء الاستمتاع بأجواء الحيوية الأيقونية في جاوة الوسطى."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:911",
+            "entityId": "objinfo2:911",
+            "title": "Lapangan Pancasila",
+            "aliases": [
+                "lapangan pancasila",
+                "objek 911"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lapangan Pancasila di Simpang Lima merupakan ruang terbuka hijau ikonik yang berfungsi sebagai pusat kegiatan masyarakat sekaligus paru-paru Kota Semarang. Area luas ini menjadi titik temu strategis untuk berbagai aktivitas, mulai dari upacara resmi, olahraga pagi, hingga pusat wisata kuliner di malam hari.",
+            "source": "webview-import",
+            "sourceId": "911",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lapangan Pancasila",
+                    "content": "Lapangan Pancasila di Simpang Lima merupakan ruang terbuka hijau ikonik yang berfungsi sebagai pusat kegiatan masyarakat sekaligus paru-paru Kota Semarang. Area luas ini menjadi titik temu strategis untuk berbagai aktivitas, mulai dari upacara resmi, olahraga pagi, hingga pusat wisata kuliner di malam hari."
+                },
+                "en": {
+                    "title": "Pancasila Field",
+                    "content": "Pancasila Field at Simpang Lima is an iconic green open space serving as a center for community activities and the “lungs” of Semarang City. This spacious area acts as a strategic meeting point for various activities, ranging from official ceremonies, morning exercise, to a culinary hub at night."
+                },
+                "zh": {
+                    "title": "潘查西拉广场",
+                    "content": "辛庞利玛的潘查西拉广场是一片标志性的绿色开放空间，既是社区活动中心，也是三宝垄市的“绿肺”。这片宽阔的区域是进行各种活动的战略性汇聚点，从官方仪式、晨间运动到晚上的美食中心。"
+                },
+                "ar": {
+                    "title": "ملعب بانشاسيلا",
+                    "content": "ملعب بانشاسيلا في سيمبانغ ليما هو مساحة خضراء مفتوحة أيقونية تعمل كمركز للأنشطة المجتمعية و«رئة» مدينة سيمارانغ. تُعد هذه المنطقة الواسعة نقطة التقاء استراتيجية لمختلف الأنشطة، بدءًا من الاحتفالات الرسمية والتمارين الصباحية وصولًا إلى مركز الطعام الليلي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:912",
+            "entityId": "objinfo2:912",
+            "title": "Taman Hati",
+            "aliases": [
+                "taman hati",
+                "objek 912"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Spot swafoto berbentuk hati yang terletak di Lapangan Pancasila, jantung pusat Kota Semarang. Ikon estetis ini menjadi daya tarik utama bagi pengunjung untuk mengabadikan momen dengan latar belakang lampu kota yang romantis saat malam hari.",
+            "source": "webview-import",
+            "sourceId": "912",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Taman Hati",
+                    "content": "Spot swafoto berbentuk hati yang terletak di Lapangan Pancasila, jantung pusat Kota Semarang. Ikon estetis ini menjadi daya tarik utama bagi pengunjung untuk mengabadikan momen dengan latar belakang lampu kota yang romantis saat malam hari."
+                },
+                "en": {
+                    "title": "Heart Park",
+                    "content": "The heart-shaped selfie spot located at Pancasila Field, in the heart of Semarang City. This aesthetic icon is a major attraction for visitors to capture moments with the romantic city lights as the backdrop at night."
+                },
+                "zh": {
+                    "title": "心形公园",
+                    "content": "位于潘查西拉广场心形的自拍点，位于三宝垄市中心。这一美学地标是游客的主要吸引点，可在夜晚以浪漫的城市灯光为背景记录美好瞬间。"
+                },
+                "ar": {
+                    "title": "حديقة القلب",
+                    "content": "نقطة السيلفي على شكل قلب الموجودة في ملعب بانشاسيلا، قلب مدينة سيمارانغ. تُعد هذه العلامة الجمالية من أبرز عوامل الجذب للزوار لالتقاط اللحظات مع أضواء المدينة الرومانسية كخلفية ليلية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:913",
+            "entityId": "objinfo2:913",
+            "title": "Landmark Simpang Lima",
+            "aliases": [
+                "landmark simpang lima",
+                "objek 913"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Landmark Simpang Lima Semarang merupakan lokasi bertuliskan \"Lapangan Pancasila Simpang Lima\" merupakan ikon kebanggaan kota yang menandai titik pertemuan lima jalan utama di Jawa Tengah. Kehadiran struktur visual yang modern dan estetik ini mempertegas identitas kawasan sebagai pusat aktivitas publik sekaligus menjadi spot foto favorit bagi wisatawan yang berkunjung ke jantung Kota Semarang.",
+            "source": "webview-import",
+            "sourceId": "913",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Landmark Simpang Lima",
+                    "content": "Landmark Simpang Lima Semarang merupakan lokasi bertuliskan \"Lapangan Pancasila Simpang Lima\" merupakan ikon kebanggaan kota yang menandai titik pertemuan lima jalan utama di Jawa Tengah. Kehadiran struktur visual yang modern dan estetik ini mempertegas identitas kawasan sebagai pusat aktivitas publik sekaligus menjadi spot foto favorit bagi wisatawan yang berkunjung ke jantung Kota Semarang."
+                },
+                "en": {
+                    "title": "Simpang Lima Landmark",
+                    "content": "The Simpang Lima Semarang Landmark, bearing the inscription \"Lapangan Pancasila Simpang Lima,\" is a city pride icon marking the intersection of five main roads in Central Java. This modern and aesthetic visual structure reinforces the area’s identity as a center for public activities and serves as a favorite photo spot for tourists visiting the heart of Semarang City."
+                },
+                "zh": {
+                    "title": "辛庞利玛地标",
+                    "content": "三宝垄辛庞利玛地标，上面刻有“Lapangan Pancasila Simpang Lima”，是城市的骄傲地标，标志着中爪哇五条主要道路的交汇点。这一现代而美观的视觉结构强化了该地区作为公共活动中心的身份，同时成为游客到访三宝垄市中心的热门拍照点。"
+                },
+                "ar": {
+                    "title": "معلم سيمبانغ ليما",
+                    "content": "معلم سيمبانغ ليما سيمارانغ، الذي يحمل نقش \"ملعب بانشاسيلا سيمبانغ ليما\"، هو رمز فخر المدينة ويحدد نقطة التقاء خمسة طرق رئيسية في جاوة الوسطى. تعزز هذه البنية المرئية الحديثة والجمالية هوية المنطقة كمركز للأنشطة العامة وتعد نقطة تصوير مفضلة للسياح الزائرين لقلب مدينة سيمارانغ."
+                }
+            }
+        }
+    ]
+}

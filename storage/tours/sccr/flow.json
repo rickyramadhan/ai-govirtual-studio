@@ -1,0 +1,131 @@
+{
+    "version": "1.0",
+    "tourId": "sccr",
+    "tourName": "Sccr",
+    "updatedAt": "2026-09-29T09:52:15+02:00",
+    "startScene": "node80",
+    "order": [
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108",
+        "node109"
+    ],
+    "nodes": {
+        "node80": {
+            "displayName": "SCCR – Sistem Pasokan Udara Laboratorium"
+        },
+        "node81": {
+            "displayName": "SCCR – Gedung Animal Research"
+        },
+        "node82": {
+            "displayName": "SCCR – Koridor Transgenik"
+        },
+        "node83": {
+            "displayName": "SCCR – Lobi Riset – Area Penerima"
+        },
+        "node84": {
+            "displayName": "SCCR – Ruang Operasi Riset"
+        },
+        "node85": {
+            "displayName": "SCCR – Pintu Animal Research"
+        },
+        "node86": {
+            "displayName": "SCCR – Drop-off Gedung SCCR"
+        },
+        "node87": {
+            "displayName": "SCCR – Parkir Gedung Riset"
+        },
+        "node88": {
+            "displayName": "SCCR – Integrated Laboratory"
+        },
+        "node89": {
+            "displayName": "SCCR – Kamar Karenina Resort"
+        },
+        "node90": {
+            "displayName": "SCCR – Kolam Privat Resort"
+        },
+        "node91": {
+            "displayName": "SCCR – Kamar Mandi Resort"
+        },
+        "node92": {
+            "displayName": "SCCR – Fasad Karenina Resort"
+        },
+        "node93": {
+            "displayName": "SCCR – Gerbang Penginapan"
+        },
+        "node94": {
+            "displayName": "SCCR – Teras Pendapa"
+        },
+        "node95": {
+            "displayName": "SCCR – Lobi Resort"
+        },
+        "node96": {
+            "displayName": "SCCR – Kolam Resort – Area Terbuka"
+        },
+        "node97": {
+            "displayName": "SCCR – Lobi Klinik Dermanina"
+        },
+        "node98": {
+            "displayName": "SCCR – Laboratorium Produksi"
+        },
+        "node99": {
+            "displayName": "SCCR – Gerbang SCCR"
+        },
+        "node100": {
+            "displayName": "SCCR – Koridor Lantai 2"
+        },
+        "node101": {
+            "displayName": "SCCR – Identitas SCCR Lantai 3"
+        },
+        "node102": {
+            "displayName": "SCCR – Panel Informasi SCCR"
+        },
+        "node103": {
+            "displayName": "SCCR – Konter Laboratorium"
+        },
+        "node104": {
+            "displayName": "SCCR – Koridor Lantai 4"
+        },
+        "node105": {
+            "displayName": "SCCR – Pelataran Titik Kumpul"
+        },
+        "node106": {
+            "displayName": "SCCR – Pendapa – Pandangan Taman"
+        },
+        "node107": {
+            "displayName": "SCCR – Ruang Rapat SCCR"
+        },
+        "node108": {
+            "displayName": "SCCR – SCCR – Udara Taman dan Resort"
+        },
+        "node109": {
+            "displayName": "SCCR – SCCR – Udara Gedung Riset"
+        }
+    }
+}

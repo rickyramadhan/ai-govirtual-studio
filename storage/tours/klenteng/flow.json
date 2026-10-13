@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "tourId": "klenteng",
+    "tourName": "Klenteng",
+    "updatedAt": "2026-09-29T09:51:12+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Kelenteng – Fasad Kelenteng"
+        },
+        "node2": {
+            "displayName": "Kelenteng – Altar Hok Tek"
+        },
+        "node3": {
+            "displayName": "Kelenteng – Altar Tan Kha Pee"
+        },
+        "node4": {
+            "displayName": "Kelenteng – Altar Poo Seng"
+        },
+        "node5": {
+            "displayName": "Kelenteng – Lorong Altar Utama"
+        },
+        "node6": {
+            "displayName": "Kelenteng – Serambi Hiolo"
+        },
+        "node8": {
+            "displayName": "Kelenteng – Altar Tian Kong"
+        },
+        "node9": {
+            "displayName": "Kelenteng – Altar Gay – Detail Meja"
+        },
+        "node10": {
+            "displayName": "Kelenteng – Altar Gay Tjiang – Ruang Ibadah"
+        },
+        "node11": {
+            "displayName": "Kelenteng – Pelataran Depan Kelenteng"
+        },
+        "node12": {
+            "displayName": "Kelenteng – Pintu Utama Kelenteng"
+        }
+    }
+}

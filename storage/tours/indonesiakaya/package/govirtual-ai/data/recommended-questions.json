@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "indonesiakaya",
+    "tourName": "Indonesiakaya",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jadwal Pentas",
+                "query": "Kapan biasanya ada pertunjukan seni gratis di panggung terbuka ini?",
+                "desc": "Kapan biasanya ada pertunjukan seni gratis di panggung terbuka ini?"
+            },
+            {
+                "label": "Air Mancur Malam",
+                "query": "Apakah pertunjukan air mancur menari bisa dinikmati setiap malam?",
+                "desc": "Apakah pertunjukan air mancur menari bisa dinikmati setiap malam?"
+            },
+            {
+                "label": "Spot Foto",
+                "query": "Di mana spot foto terbaik yang menunjukkan ciri khas Taman Indonesia Kaya?",
+                "desc": "Di mana spot foto terbaik yang menunjukkan ciri khas Taman Indonesia Kaya?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Konsep Taman Budaya",
+                "query": "Bagaimana gagasan awal pembangunan Taman Indonesia Kaya sebagai ruang publik berbasis seni dan budaya?"
+            },
+            {
+                "label": "Panggung Edutainment",
+                "query": "Apa saja jenis pertunjukan seni yang sering dipentaskan di panggung terbuka edutainment ini?"
+            },
+            {
+                "label": "Patung Penari Ikonik",
+                "query": "Siapa seniman di balik pembuatan patung penari yang menjadi ikon utama taman ini?"
+            },
+            {
+                "label": "Air Mancur Menari",
+                "query": "Bagaimana jadwal dan pertunjukan air mancur menari (dancing fountain) yang menghiasi taman saat malam?"
+            },
+            {
+                "label": "Fasilitas Publik",
+                "query": "Fasilitas apa saja yang disediakan bagi pengunjung untuk bersantai dan menikmati suasana taman?"
+            },
+            {
+                "label": "Pelestarian Seni",
+                "query": "Bagaimana taman ini berperan aktif dalam melestarikan seni tradisional dan modern di kalangan anak muda?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Indonesiakaya?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Indonesiakaya?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Indonesiakaya?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

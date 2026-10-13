@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "museumranggawarsita",
+    "updatedAt": "2026-09-29T09:51:29+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Museumranggawarsita",
+            "aliases": [
+                "museumranggawarsita"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "museumranggawarsita"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Museumranggawarsita.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Museumranggawarsita",
+                    "content": "Pusat pengalaman virtual untuk Museumranggawarsita."
+                },
+                "en": {
+                    "title": "Museumranggawarsita",
+                    "content": "Pusat pengalaman virtual untuk Museumranggawarsita."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Museum Ranggawarsita",
+            "aliases": [
+                "museum ranggawarsita"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "museumranggawarsita"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Museum Ranggawarsita",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Museum Ranggawarsita",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Gamelan",
+            "aliases": [
+                "gamelan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "museumranggawarsita"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gamelan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Gamelan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "museumranggawarsita"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:210",
+            "entityId": "objinfo2:210",
+            "title": "Gedung A",
+            "aliases": [
+                "gedung a",
+                "objek 210"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sebuah bangunan fungsional yang menawarkan ruang serbaguna untuk acara akademik dan komunitas. Merupakan pusat berbagai aktivitas di kawasan Ranggawarsita, dilengkapi dengan fasilitas modern.",
+            "source": "webview-import",
+            "sourceId": "210",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung A",
+                    "content": "Sebuah bangunan fungsional yang menawarkan ruang serbaguna untuk acara akademik dan komunitas. Merupakan pusat berbagai aktivitas di kawasan Ranggawarsita, dilengkapi dengan fasilitas modern."
+                },
+                "en": {
+                    "title": "Building A",
+                    "content": "A functional building offering versatile spaces for both academic and community events. It is a central hub for many activities within the Ranggawarsita area, equipped with modern amenities."
+                },
+                "zh": {
+                    "title": "A座",
+                    "content": "一座功能齊全的建築，為學術和社區活動提供多功能空間。它是朗加瓦西塔地區許多活動的中心樞紐，配備了現代化的設施。"
+                },
+                "ar": {
+                    "title": "مبنى أ",
+                    "content": "\"مرحبًا بك في لاوانغ سيوو!👋\nالمبنى الذي تراه الآن هو قلب مجمّع لاوانغ سيوو. في الماضي، كان هذا المكان المقر الرئيسي لشركة NIS، أول شركة سكك حديدية في إندونيسيا—ومن هنا بدأت قصة السكك الحديدية في البلاد 🚆\nاليوم، تحوّل هذا المبنى التاريخي إلى متحف يأخذك في رحلة ممتعة للتعرّف على التاريخ الطويل للسكك الحديدية الإندونيسية🌿 بطريقة سهلة ومسلّية.\""
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:211",
+            "entityId": "objinfo2:211",
+            "title": "Gedung B",
+            "aliases": [
+                "gedung b",
+                "objek 211"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung ini menyediakan ruang untuk lokakarya, seminar, dan pertemuan, yang berfungsi sebagai fasilitas penting untuk pertemuan pendidikan dan profesional.",
+            "source": "webview-import",
+            "sourceId": "211",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung B",
+                    "content": "Gedung ini menyediakan ruang untuk lokakarya, seminar, dan pertemuan, yang berfungsi sebagai fasilitas penting untuk pertemuan pendidikan dan profesional."
+                },
+                "en": {
+                    "title": "Building B",
+                    "content": "This building provides spaces for workshops, seminars, and meetings, serving as an essential facility for educational and professional gatherings."
+                },
+                "zh": {
+                    "title": "B座",
+                    "content": "該建築為研討會、研討會和會議提供了空間，是教育和專業聚會的重要設施。"
+                },
+                "ar": {
+                    "title": "المبنى ب",
+                    "content": "يوفر هذا المبنى مساحات لورش العمل والندوات والاجتماعات، وهو بمثابة مرفق أساسي للتجمعات التعليمية والمهنية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:212",
+            "entityId": "objinfo2:212",
+            "title": "Gedung C",
+            "aliases": [
+                "gedung c",
+                "objek 212"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung serba guna yang dirancang untuk acara publik dan pribadi. Dilengkapi untuk mendukung berbagai kegiatan, termasuk pameran dan pertemuan kolaboratif.",
+            "source": "webview-import",
+            "sourceId": "212",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung C",
+                    "content": "Gedung serba guna yang dirancang untuk acara publik dan pribadi. Dilengkapi untuk mendukung berbagai kegiatan, termasuk pameran dan pertemuan kolaboratif."
+                },
+                "en": {
+                    "title": "Building C",
+                    "content": "A multi-purpose building designed for both public and private events. It is equipped to support various activities, including exhibitions and collaborative meetings."
+                },
+                "zh": {
+                    "title": "C座",
+                    "content": "一座多功能建築，專為公共和私人活動而設計。它可以支持各種活動，包括展覽和協作會議。"
+                },
+                "ar": {
+                    "title": "المبنى ج",
+                    "content": "مبنى متعدد الأغراض مصمم للمناسبات العامة والخاصة. وهي مجهزة لدعم الأنشطة المختلفة، بما في ذلك المعارض والاجتماعات التعاونية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:213",
+            "entityId": "objinfo2:213",
+            "title": "Gedung D",
+            "aliases": [
+                "gedung d",
+                "objek 213"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sebuah bangunan besar yang menawarkan ruang fleksibel untuk berbagai acara, mulai dari seminar akademik hingga kegiatan komunitas. Ini berfungsi sebagai tempat utama untuk beragam fungsi.",
+            "source": "webview-import",
+            "sourceId": "213",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung D",
+                    "content": "Sebuah bangunan besar yang menawarkan ruang fleksibel untuk berbagai acara, mulai dari seminar akademik hingga kegiatan komunitas. Ini berfungsi sebagai tempat utama untuk beragam fungsi."
+                },
+                "en": {
+                    "title": "Building D",
+                    "content": "A large building offering flexible spaces for different events, from academic seminars to community activities. It serves as a key venue for diverse functions."
+                },
+                "zh": {
+                    "title": "D棟",
+                    "content": "一座大型建築，為從學術研討會到社區活動等不同活動提供靈活的空間。它是舉辦各種活動的重要場所。"
+                },
+                "ar": {
+                    "title": "مبنى د",
+                    "content": "مبنى كبير يوفر مساحات مرنة لمختلف الفعاليات، بدءًا من الندوات الأكاديمية وحتى الأنشطة المجتمعية. إنه بمثابة مكان رئيسي لوظائف متنوعة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:214",
+            "entityId": "objinfo2:214",
+            "title": "Ruang Emas",
+            "aliases": [
+                "ruang emas",
+                "objek 214"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang elegan dan eksklusif yang ideal untuk acara formal, pertemuan, dan pertemuan pribadi. Dengan desainnya yang canggih, hotel ini menyediakan suasana kelas atas untuk acara-acara khusus.",
+            "source": "webview-import",
+            "sourceId": "214",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Emas",
+                    "content": "Ruang elegan dan eksklusif yang ideal untuk acara formal, pertemuan, dan pertemuan pribadi. Dengan desainnya yang canggih, hotel ini menyediakan suasana kelas atas untuk acara-acara khusus."
+                },
+                "en": {
+                    "title": "Gold Room",
+                    "content": "An elegant and exclusive space ideal for formal events, meetings, and private gatherings. With its sophisticated design, it provides an upscale setting for special occasions."
+                },
+                "zh": {
+                    "title": "黃金房",
+                    "content": "優雅而獨特的空間，非常適合舉辦正式活動、會議和私人聚會。憑藉其精緻的設計，它為特殊場合提供了高檔的環境。"
+                },
+                "ar": {
+                    "title": "غرفة الذهب",
+                    "content": "مساحة أنيقة وحصرية مثالية للمناسبات الرسمية والاجتماعات والتجمعات الخاصة. بفضل تصميمه المتطور، فإنه يوفر بيئة راقية للمناسبات الخاصة."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1082 @@
+{
+    "startNode": "node109",
+    "scenes": [
+        {
+            "id": "node97",
+            "name": "Harimau",
+            "displayName": "Harimau",
+            "rawName": "",
+            "customNodeId": "-arimau",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Harimau"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Kandangorangutan",
+            "displayName": "Kandangorangutan",
+            "rawName": "",
+            "customNodeId": "kandangorangutan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandangorangutan"
+            ]
+        },
+        {
+            "id": "node99",
+            "name": "Kandangprimata",
+            "displayName": "Kandangprimata",
+            "rawName": "",
+            "customNodeId": "kandangprimata",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandangprimata"
+            ]
+        },
+        {
+            "id": "node100",
+            "name": "Kandangrusatimor",
+            "displayName": "Kandangrusatimor",
+            "rawName": "",
+            "customNodeId": "kandangrusatimor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandangrusatimor"
+            ]
+        },
+        {
+            "id": "node101",
+            "name": "Kandangunta",
+            "displayName": "Kandangunta",
+            "rawName": "",
+            "customNodeId": "kandangunta",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandangunta"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Area Herbivora",
+            "displayName": "Area Herbivora",
+            "rawName": "",
+            "customNodeId": "-rea-erbivora",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Area Herbivora"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Loket",
+            "displayName": "Loket",
+            "rawName": "",
+            "customNodeId": "loket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "loket"
+            ]
+        },
+        {
+            "id": "node104",
+            "name": "Aviary",
+            "displayName": "Aviary",
+            "rawName": "",
+            "customNodeId": "-viary",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Aviary"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Parkir Mobil",
+            "displayName": "Parkir Mobil",
+            "rawName": "",
+            "customNodeId": "-arkir-obil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Parkir Mobil"
+            ]
+        },
+        {
+            "id": "node106",
+            "name": "Parkir Motor",
+            "displayName": "Parkir Motor",
+            "rawName": "",
+            "customNodeId": "-arkir-otor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Parkir Motor"
+            ]
+        },
+        {
+            "id": "node107",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node108",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node109",
+            "name": "Reptile Cave",
+            "displayName": "Reptile Cave",
+            "rawName": "",
+            "customNodeId": "-eptile-ave",
+            "pan": -2.23,
+            "tilt": 5.37,
+            "fov": 129.2,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Reptile Cave"
+            ]
+        },
+        {
+            "id": "node110",
+            "name": "Guareptil",
+            "displayName": "Guareptil",
+            "rawName": "",
+            "customNodeId": "guareptil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "guareptil"
+            ]
+        },
+        {
+            "id": "node111",
+            "name": "Reptile Cave",
+            "displayName": "Reptile Cave",
+            "rawName": "",
+            "customNodeId": "-eptile-ave",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Reptile Cave"
+            ]
+        },
+        {
+            "id": "node112",
+            "name": "Reptile Cave",
+            "displayName": "Reptile Cave",
+            "rawName": "",
+            "customNodeId": "-eptile-ave",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Reptile Cave"
+            ]
+        },
+        {
+            "id": "node113",
+            "name": "Panggung",
+            "displayName": "Panggung",
+            "rawName": "",
+            "customNodeId": "-anggung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Panggung"
+            ]
+        },
+        {
+            "id": "node114",
+            "name": "Danau",
+            "displayName": "Danau",
+            "rawName": "",
+            "customNodeId": "-anau",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Danau"
+            ]
+        },
+        {
+            "id": "node115",
+            "name": "Semarang Zoo",
+            "displayName": "Semarang Zoo",
+            "rawName": "",
+            "customNodeId": "-emarang-oo",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Semarang Zoo"
+            ]
+        },
+        {
+            "id": "node116",
+            "name": "Mushola",
+            "displayName": "Mushola",
+            "rawName": "",
+            "customNodeId": "-ushola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Mushola"
+            ]
+        },
+        {
+            "id": "node117",
+            "name": "Kolamrenang",
+            "displayName": "Kolamrenang",
+            "rawName": "",
+            "customNodeId": "kolamrenang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kolamrenang"
+            ]
+        },
+        {
+            "id": "node118",
+            "name": "Waterboom",
+            "displayName": "Waterboom",
+            "rawName": "",
+            "customNodeId": "-aterboom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Waterboom"
+            ]
+        },
+        {
+            "id": "node119",
+            "name": "node119",
+            "displayName": "node119",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -0.408417,
+            "tilt": -24.7853,
+            "fov": 111.235,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node120",
+            "name": "Aves Garden",
+            "displayName": "Aves Garden",
+            "rawName": "",
+            "customNodeId": "-ves-arden",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Aves Garden"
+            ]
+        },
+        {
+            "id": "node121",
+            "name": "Wahanaair",
+            "displayName": "Wahanaair",
+            "rawName": "",
+            "customNodeId": "wahanaair",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "wahanaair"
+            ]
+        },
+        {
+            "id": "node122",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 1.83036,
+            "tilt": 7.09011,
+            "fov": 121.136,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node123",
+            "name": "Aviary",
+            "displayName": "Aviary",
+            "rawName": "",
+            "customNodeId": "-viary",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Aviary"
+            ]
+        },
+        {
+            "id": "node124",
+            "name": "Kandangburungkasuari",
+            "displayName": "Kandangburungkasuari",
+            "rawName": "",
+            "customNodeId": "kandangburungkasuari",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandangburungkasuari"
+            ]
+        },
+        {
+            "id": "node125",
+            "name": "Capybara",
+            "displayName": "Capybara",
+            "rawName": "",
+            "customNodeId": "-apybara",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "Capybara"
+            ]
+        },
+        {
+            "id": "node126",
+            "name": "Kandanggajah",
+            "displayName": "Kandanggajah",
+            "rawName": "",
+            "customNodeId": "kandanggajah",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandanggajah"
+            ]
+        },
+        {
+            "id": "node127",
+            "name": "Kandangharimau",
+            "displayName": "Kandangharimau",
+            "rawName": "",
+            "customNodeId": "kandangharimau",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "semarangzoo"
+            ],
+            "aliases": [
+                "kandangharimau"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node97",
+            "target": "node127",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 171.89,
+            "tilt": -11.25
+        },
+        {
+            "scene": "node98",
+            "target": "node112",
+            "title": "Reptile Cave",
+            "id": "Point01",
+            "pan": 219.94,
+            "tilt": -10.47
+        },
+        {
+            "scene": "node98",
+            "target": "node125",
+            "title": "Capybara",
+            "id": "Point02",
+            "pan": -306.72,
+            "tilt": -9.85
+        },
+        {
+            "scene": "node99",
+            "target": "node101",
+            "title": "Unta",
+            "id": "Point01",
+            "pan": 287.28,
+            "tilt": 2.57
+        },
+        {
+            "scene": "node99",
+            "target": "node127",
+            "title": "Harimau",
+            "id": "Point02",
+            "pan": 235.48,
+            "tilt": 4.08
+        },
+        {
+            "scene": "node100",
+            "target": "node102",
+            "title": "Area Herbivora",
+            "id": "Point01",
+            "pan": 103.16,
+            "tilt": -1.81
+        },
+        {
+            "scene": "node100",
+            "target": "node101",
+            "title": "Unta",
+            "id": "Point02",
+            "pan": -107.28,
+            "tilt": -1.61
+        },
+        {
+            "scene": "node101",
+            "target": "node100",
+            "title": "Rusa Timor",
+            "id": "Point01",
+            "pan": -68.46,
+            "tilt": -2.27
+        },
+        {
+            "scene": "node101",
+            "target": "node99",
+            "title": "Area Primata",
+            "id": "Point02",
+            "pan": -207.44,
+            "tilt": -2
+        },
+        {
+            "scene": "node101",
+            "target": "node126",
+            "title": "Gajah",
+            "id": "Point03",
+            "pan": 108.76,
+            "tilt": -3.86
+        },
+        {
+            "scene": "node101",
+            "target": "node114",
+            "title": "Danau",
+            "id": "Point04",
+            "pan": 75.63,
+            "tilt": -4.15
+        },
+        {
+            "scene": "node102",
+            "target": "node124",
+            "title": "Kasuari",
+            "id": "Point01",
+            "pan": 94.88,
+            "tilt": -5.11
+        },
+        {
+            "scene": "node102",
+            "target": "node100",
+            "title": "Rusa Timor",
+            "id": "Point02",
+            "pan": -97.22,
+            "tilt": -4.82
+        },
+        {
+            "scene": "node103",
+            "target": "node115",
+            "title": "Semarang Zoo",
+            "id": "Point01",
+            "pan": 201.47,
+            "tilt": -0.98
+        },
+        {
+            "scene": "node103",
+            "target": "node107",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -89.29,
+            "tilt": -5.04
+        },
+        {
+            "scene": "node104",
+            "target": "node120",
+            "title": "Aves Garden",
+            "id": "Point01",
+            "pan": 86.09,
+            "tilt": -6.79
+        },
+        {
+            "scene": "node104",
+            "target": "node123",
+            "title": "Aviary",
+            "id": "Point02",
+            "pan": 268.62,
+            "tilt": -4.92
+        },
+        {
+            "scene": "node105",
+            "target": "node108",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 213.37,
+            "tilt": -0.5
+        },
+        {
+            "scene": "node106",
+            "target": "node108",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 172.86,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node107",
+            "target": "node115",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 90.37,
+            "tilt": -8.4
+        },
+        {
+            "scene": "node107",
+            "target": "node109",
+            "title": "Reptile Cave",
+            "id": "Point02",
+            "pan": -358.63,
+            "tilt": -12.22
+        },
+        {
+            "scene": "node108",
+            "target": "node122",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -167.79,
+            "tilt": -8.21
+        },
+        {
+            "scene": "node108",
+            "target": "node106",
+            "title": "Parkir Motor",
+            "id": "Point02",
+            "pan": -67.85,
+            "tilt": -6.5
+        },
+        {
+            "scene": "node108",
+            "target": "node105",
+            "title": "Parkir Mobil",
+            "id": "Point03",
+            "pan": -302.13,
+            "tilt": -4.56
+        },
+        {
+            "scene": "node108",
+            "target": "node115",
+            "title": "Semarang Zoo",
+            "id": "Point04",
+            "pan": -0.78,
+            "tilt": -2.53
+        },
+        {
+            "scene": "node109",
+            "target": "node107",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 182.64,
+            "tilt": -5.03
+        },
+        {
+            "scene": "node109",
+            "target": "node110",
+            "title": "Reptile Cave",
+            "id": "Point02",
+            "pan": -1.39,
+            "tilt": -5.39
+        },
+        {
+            "scene": "node109",
+            "target": "node109",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -70.38,
+            "tilt": -2.74
+        },
+        {
+            "scene": "node110",
+            "target": "node109",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 180.62,
+            "tilt": -5.58
+        },
+        {
+            "scene": "node110",
+            "target": "node111",
+            "title": "Reptile Cave",
+            "id": "Point02",
+            "pan": -75.39,
+            "tilt": -10.78
+        },
+        {
+            "scene": "node111",
+            "target": "node110",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 171.36,
+            "tilt": -8.85
+        },
+        {
+            "scene": "node111",
+            "target": "node112",
+            "title": "Reptile Cave",
+            "id": "Point02",
+            "pan": -342.02,
+            "tilt": -12.5
+        },
+        {
+            "scene": "node112",
+            "target": "node111",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 214.89,
+            "tilt": -11.69
+        },
+        {
+            "scene": "node112",
+            "target": "node98",
+            "title": "Orang Utan",
+            "id": "Point02",
+            "pan": -341.1,
+            "tilt": -7.18
+        },
+        {
+            "scene": "node113",
+            "target": "node114",
+            "title": "Area Istirahat",
+            "id": "Point01",
+            "pan": -185.9,
+            "tilt": -1.2
+        },
+        {
+            "scene": "node113",
+            "target": "node118",
+            "title": "Waterboom",
+            "id": "Point02",
+            "pan": 61.36,
+            "tilt": -7.01
+        },
+        {
+            "scene": "node113",
+            "target": "node115",
+            "title": "Pintu Keluar",
+            "id": "Point03",
+            "pan": 234.29,
+            "tilt": -1.74
+        },
+        {
+            "scene": "node114",
+            "target": "node101",
+            "title": "Unta",
+            "id": "Point01",
+            "pan": -85.5,
+            "tilt": -2.71
+        },
+        {
+            "scene": "node114",
+            "target": "node113",
+            "title": "Panggung",
+            "id": "Point02",
+            "pan": 82.65,
+            "tilt": -0.92
+        },
+        {
+            "scene": "node115",
+            "target": "node108",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 159.44,
+            "tilt": 1.77
+        },
+        {
+            "scene": "node115",
+            "target": "node103",
+            "title": "Loket",
+            "id": "Point02",
+            "pan": -349.3,
+            "tilt": -0.67
+        },
+        {
+            "scene": "node116",
+            "target": "node118",
+            "title": "Waterboom",
+            "id": "Point01",
+            "pan": -203.69,
+            "tilt": -3.04
+        },
+        {
+            "scene": "node116",
+            "target": "node113",
+            "title": "Panggung",
+            "id": "Point02",
+            "pan": -148.6,
+            "tilt": 0.04
+        },
+        {
+            "scene": "node117",
+            "target": "node118",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 354.32,
+            "tilt": -7.17
+        },
+        {
+            "scene": "node118",
+            "target": "node116",
+            "title": "Mushola",
+            "id": "Point01",
+            "pan": 245.02,
+            "tilt": -4.77
+        },
+        {
+            "scene": "node118",
+            "target": "node117",
+            "title": "Pintu Masuk Waterboom",
+            "id": "Point02",
+            "pan": -4.36,
+            "tilt": -8.17
+        },
+        {
+            "scene": "node118",
+            "target": "node113",
+            "title": "Panggung",
+            "id": "Point03",
+            "pan": -188.27,
+            "tilt": -1.96
+        },
+        {
+            "scene": "node118",
+            "target": "node121",
+            "title": "Danau",
+            "id": "Point04",
+            "pan": -310.83,
+            "tilt": -4.82
+        },
+        {
+            "scene": "node119",
+            "target": "node122",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -358.79,
+            "tilt": -42.51
+        },
+        {
+            "scene": "node120",
+            "target": "node124",
+            "title": "Kasuari",
+            "id": "Point01",
+            "pan": -167.41,
+            "tilt": -9.33
+        },
+        {
+            "scene": "node120",
+            "target": "node104",
+            "title": "Aviary",
+            "id": "Point02",
+            "pan": -326.7,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node121",
+            "target": "node118",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 235.86,
+            "tilt": -4.93
+        },
+        {
+            "scene": "node122",
+            "target": "node108",
+            "title": "Semarang Zoo",
+            "id": "Point01",
+            "pan": 23.28,
+            "tilt": -4.15
+        },
+        {
+            "scene": "node123",
+            "target": "node104",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -165.19,
+            "tilt": -20.91
+        },
+        {
+            "scene": "node124",
+            "target": "node102",
+            "title": "Area Herbivora",
+            "id": "Point01",
+            "pan": -262.42,
+            "tilt": -1.02
+        },
+        {
+            "scene": "node124",
+            "target": "node120",
+            "title": "Aves Garden",
+            "id": "Point02",
+            "pan": 286.64,
+            "tilt": -9.11
+        },
+        {
+            "scene": "node125",
+            "target": "node98",
+            "title": "Orang Utan",
+            "id": "Point01",
+            "pan": 96.61,
+            "tilt": -4.4
+        },
+        {
+            "scene": "node125",
+            "target": "node127",
+            "title": "Harimau",
+            "id": "Point02",
+            "pan": -173.72,
+            "tilt": -5.71
+        },
+        {
+            "scene": "node126",
+            "target": "node101",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -50.77,
+            "tilt": -6.12
+        },
+        {
+            "scene": "node127",
+            "target": "node125",
+            "title": "Capybara",
+            "id": "Point01",
+            "pan": 141.09,
+            "tilt": -4.73
+        },
+        {
+            "scene": "node127",
+            "target": "node97",
+            "title": "Harimau",
+            "id": "Point02",
+            "pan": -345.83,
+            "tilt": 0.77
+        },
+        {
+            "scene": "node127",
+            "target": "node101",
+            "title": "Unta",
+            "id": "Point03",
+            "pan": -92.34,
+            "tilt": 1.77
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 199,
+            "label": "Gua Reptil",
+            "description": "Area ini menampilkan beragam koleksi reptil seperti ular, kadal, dan iguana dalam lingkungan yang terkontrol. Pengunjung dapat mengamati adaptasi unik satwa-satwa ini dan belajar mengenai peran mereka dalam ekosistem.",
+            "fragment": "guareptil",
+            "link": "semarangzoo/index.html#guareptil",
+            "sceneId": "node110"
+        },
+        {
+            "infoId": 200,
+            "label": "Kandang Burung Kasuari",
+            "description": "Kasuari merupakan salah satu koleksi burung besar di kebun binatang ini yang ditempatkan di area khusus burung. Kandang ini memungkinkan pengunjung mengamati burung yang terkenal dengan jambul tanduk (helm) di kepalanya.",
+            "fragment": "kandangburungkasuari",
+            "link": "semarangzoo/index.html#kandangburungkasuari",
+            "sceneId": "node124"
+        },
+        {
+            "infoId": 201,
+            "label": "Kandang Gajah",
+            "description": "Kandang ini adalah rumah bagi koleksi Gajah Sumatera di Semarang Zoo, menempati area yang cukup lapang untuk pergerakan mereka. Di sekitar area ini, pengunjung juga bisa mencoba wahana menunggang gajah atau berinteraksi langsung dengan memberi makan.",
+            "fragment": "kandanggajah",
+            "link": "semarangzoo/index.html#kandanggajah",
+            "sceneId": "node126"
+        },
+        {
+            "infoId": 202,
+            "label": "Kandang Harimau",
+            "description": "Kandang Harimau Benggala dan predator lainnya dirancang khusus dengan pengamanan ketat untuk menjamin keamanan pengunjung. Salah satu atraksi di area ini adalah kesempatan bagi pengunjung untuk berfoto bersama anak harimau di bawah pengawasan petugas.",
+            "fragment": "kandangharimau",
+            "link": "semarangzoo/index.html#kandangharimau",
+            "sceneId": "node127"
+        },
+        {
+            "infoId": 203,
+            "label": "Kandang Orang Utan",
+            "description": "Orang Utan ditempatkan di kandang khusus yang menyerupai habitat aslinya dan merupakan bagian penting dari koleksi primata. Kandang ini menjadi sarana edukasi konservasi satwa endemik Indonesia yang statusnya terancam punah.",
+            "fragment": "kandangorangutan",
+            "link": "semarangzoo/index.html#kandangorangutan",
+            "sceneId": "node98"
+        },
+        {
+            "infoId": 204,
+            "label": "Kandang Primata",
+            "description": "Area ini menyajikan berbagai jenis kera, mulai dari siamang hingga beruk, selain orang utan. Kandang primata berfungsi sebagai pusat pengamatan perilaku satwa yang cerdas dan lincah.",
+            "fragment": "kandangprimata",
+            "link": "semarangzoo/index.html#kandangprimata",
+            "sceneId": "node99"
+        },
+        {
+            "infoId": 205,
+            "label": "Kandang Unta",
+            "description": "Koleksi Unta ditempatkan di kandang terbuka yang cukup luas, merepresentasikan satwa khas daerah gurun. Satwa ini seringkali menarik perhatian pengunjung karena ukurannya yang tinggi dan punuk khasnya.",
+            "fragment": "kandangunta",
+            "link": "semarangzoo/index.html#kandangunta",
+            "sceneId": "node101"
+        },
+        {
+            "infoId": 206,
+            "label": "Kandang Rusa Timor",
+            "description": "Kandang ini dihuni oleh Rusa Timor (atau sejenisnya) dan satwa herbivora lainnya dalam lingkungan yang mendukung. Pengunjung diizinkan untuk memberi makan rusa secara langsung di area ini, menjadikannya aktivitas interaktif yang populer.",
+            "fragment": "kandangrusatimor",
+            "link": "semarangzoo/index.html#kandangrusatimor",
+            "sceneId": "node100"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "96ab323a30ea085b",
+        "skin.js": "0f6f5b9504c698bb",
+        "index.html": "2789d94f41b8ce00"
+    }
+}

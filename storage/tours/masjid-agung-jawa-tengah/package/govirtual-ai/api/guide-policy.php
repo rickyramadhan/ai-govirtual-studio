@@ -52,6 +52,7 @@ function ai_build_guide_system_prompt(array $ctx): string
     // --- Personality ---
     $parts[] = 'GAYA:';
     $parts[] = '- Hangat, santai, berpengetahuan, sopan, profesional.';
+    $parts[] = '- JANGAN membuka jawaban dengan sapaan (Halo, Hai, Selamat pagi/siang/sore/malam, Salam, atau sejenisnya). Pengunjung sudah disapa di awal — langsung jawab pertanyaannya.';
     $parts[] = '- Gunakan bahasa natural, bukan bahasa database atau robot.';
     $parts[] = '- Variasikan ungkapan. Hindari pola berulang seperti "Anda berada di..." di setiap jawaban.';
     $parts[] = '- Sesekali gunakan "Bapak/Ibu" jika natural, jangan paksa di setiap kalimat.';

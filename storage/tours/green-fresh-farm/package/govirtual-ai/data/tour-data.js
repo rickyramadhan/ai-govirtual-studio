@@ -1,5 +1,6 @@
 window.GoVirtualTourData = {
     "id": "green-fresh-farm",
+    "modernObjectInfo": [],
     "name": "Green Fresh Farm",
     "scenes": [
         {
@@ -14,7 +15,10 @@ window.GoVirtualTourData = {
             "aliases": [
                 "drone",
                 "default"
-            ]
+            ],
+            "pan": 146.074,
+            "tilt": -6.76055,
+            "fov": 97.7255
         },
         {
             "id": "node33",
@@ -27,7 +31,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Masuk"
-            ]
+            ],
+            "pan": 180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node35",
@@ -40,7 +47,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "patunggff"
-            ]
+            ],
+            "pan": 19.3,
+            "tilt": -1,
+            "fov": 140.626
         },
         {
             "id": "node37",
@@ -53,7 +63,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "areakandangsapi"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node39",
@@ -66,7 +79,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "areamejaedukasi"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node41",
@@ -79,7 +95,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Parkir"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node43",
@@ -92,7 +111,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "kandangkambing"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node45",
@@ -105,7 +127,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Masuk Tempat Berfoto"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node47",
@@ -118,7 +143,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "bibittanaman"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node49",
@@ -131,7 +159,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gazebo"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node51",
@@ -144,7 +175,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Peternakan Sapi dan Pendidikan"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node55",
@@ -157,7 +191,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "minizooplayground"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node57",
@@ -170,7 +207,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "jambukristal"
-            ]
+            ],
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130
         }
     ],
     "hotspots": [
@@ -571,18 +611,17 @@ window.GoVirtualTourData = {
     "_sceneRegistry": {
         "node56": {
             "rawName": "Area Utama",
-            "displayName": "Area Utama",
-            "placeId": "area-utama",
-            "placeName": "Area Utama",
+            "displayName": "Tampak Udara Area Masuk Green Fresh Farm",
+            "placeId": "tampak-udara-area-masuk-green-fresh-farm",
+            "placeName": "Tampak Udara Area Masuk Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Utama merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Utama adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pemandangan udara memukau yang memperlihatkan gerbang masuk utama kawasan Green Fresh Farm Semarang.",
+            "description": "Pemandangan dari udara ini menampilkan tata letak gerbang masuk kawasan Green Fresh Farm yang hijau dan asri. Dari sini terlihat jelas bagaimana kawasan wisata edukasi ini memadukan konsep peternakan dan perkebunan di tengah Kota Semarang.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ikon sapi perah\\nArea depan kawasan\\nDekat parkir dan area UMKM"
             ],
             "talkingPoints": [
                 "Area Utama",
@@ -590,14 +629,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Utama.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Seberapa luas kawasan wisata Green Fresh Farm ini?",
+                    "mode": "ai",
+                    "answer": "Kawasan ini cukup luas, menampung area parkir, peternakan, perkebunan, serta fasilitas edukasi dalam satu area terpadu."
+                },
+                {
+                    "q": "Apakah lahan parkir dekat dari pintu gerbang masuk?",
+                    "mode": "ai",
+                    "answer": "Ya, lahan parkir berada tepat di area depan tak jauh dari pintu gerbang masuk kawasan."
+                },
+                {
+                    "q": "Apa saja spot utama yang terlihat dari sudut pandang udara ini?",
+                    "mode": "ai",
+                    "answer": "Dari atas terlihat gerbang masuk, area parkir, serta beberapa atap fasilitas edukasi dan taman hijau."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Utama — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Tampak Udara Area Masuk Green Fresh Farm.",
                 "describeHere": "Area Utama adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -605,18 +656,17 @@ window.GoVirtualTourData = {
         },
         "node33": {
             "rawName": "Area Masuk",
-            "displayName": "Area Masuk",
-            "placeId": "area-masuk",
-            "placeName": "Area Masuk",
+            "displayName": "Area Masuk Green Fresh Farm",
+            "placeId": "area-masuk-green-fresh-farm",
+            "placeName": "Area Masuk Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Masuk merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Masuk adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik awal petualangan wisata edukasi dan alam Anda di Green Fresh Farm.",
+            "description": "Area Masuk Green Fresh Farm didesain dengan ramah dan nyaman untuk menyambut setiap pengunjung yang datang. Di titik ini, Anda dapat mulai merasakan suasana peternakan dan perkebunan yang menyegarkan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Lorong tanaman rambat\\nAkses utama kawasan\\nPenghubung area depan dan dalam"
             ],
             "talkingPoints": [
                 "Area Masuk",
@@ -624,14 +674,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Masuk.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Jam berapa loket di area masuk ini mulai dibuka?",
+                    "mode": "ai",
+                    "answer": "Kawasan wisata umumnya mulai dibuka pada pagi hari, sekitar pukul 08.00 WIB untuk pengunjung umum."
+                },
+                {
+                    "q": "Apakah diperbolehkan membawa makanan dari luar?",
+                    "mode": "ai",
+                    "answer": "Pengelola biasanya memiliki aturan khusus terkait makanan luar demi menjaga kebersihan lingkungan kawasan."
+                },
+                {
+                    "q": "Apakah ada pusat informasi di area masuk ini?",
+                    "mode": "ai",
+                    "answer": "Ya, terdapat petugas dan pusat informasi di area loket untuk membantu mengarahkan pengunjung."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Masuk — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Area Masuk Green Fresh Farm.",
                 "describeHere": "Area Masuk adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -639,18 +701,17 @@ window.GoVirtualTourData = {
         },
         "node35": {
             "rawName": "Patung GFF",
-            "displayName": "Patung GFF",
-            "placeId": "patung-gff",
-            "placeName": "Patung GFF",
+            "displayName": "Area Patung Sapi Green Fresh Farm",
+            "placeId": "area-patung-sapi-green-fresh-farm",
+            "placeName": "Area Patung Sapi Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Patung GFF merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Patung GFF adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ikon patung sapi perah yang menjadi spot foto favorit dan penanda kawasan peternakan.",
+            "description": "Area Patung Sapi merupakan salah satu ikon kebanggaan Green Fresh Farm yang sering dijadikan latar berfoto oleh wisatawan. Ikon ini juga merepresentasikan fokus edukasi kawasan pada peternakan sapi perah unggulan.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Patung sapi dan wadah susu\\nPengenalan peternakan sapi perah\\nFasilitas depan kawasan"
             ],
             "talkingPoints": [
                 "Patung GFF",
@@ -658,16 +719,28 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Patung GFF.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apakah patung sapi ini boleh dinaiki oleh anak-anak?",
+                    "mode": "ai",
+                    "answer": "Untuk alasan keamanan dan perawatan properti, pengunjung disarankan hanya berfoto di samping atau di depan patung."
+                },
+                {
+                    "q": "Di mana letak patung sapi ini dari pintu masuk utama?",
+                    "mode": "ai",
+                    "answer": "Patung ini terletak di lokasi strategis tidak jauh dari akses masuk menuju kawasan peternakan."
+                },
+                {
+                    "q": "Apakah ini area favorit untuk mengambil foto keluarga?",
+                    "mode": "ai",
+                    "answer": "Betul, ini adalah salah satu spot paling ikonik yang menjadi favorit rombongan keluarga dan sekolah."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1238"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Patung GFF — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Area Patung Sapi Green Fresh Farm.",
                 "describeHere": "Patung GFF adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -675,18 +748,17 @@ window.GoVirtualTourData = {
         },
         "node37": {
             "rawName": "Area Kandang Sapi",
-            "displayName": "Area Kandang Sapi",
-            "placeId": "area-kandang-sapi",
-            "placeName": "Area Kandang Sapi",
+            "displayName": "Area Kandang Sapi Green Fresh Farm",
+            "placeId": "area-kandang-sapi-green-fresh-farm",
+            "placeName": "Area Kandang Sapi Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Area Kandang Sapi merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Kandang Sapi adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas peternakan sapi modern tempat pengunjung bisa belajar proses pemerahan susu.",
+            "description": "Area Kandang Sapi di Green Fresh Farm dikelola dengan standar kebersihan tinggi untuk memastikan kesehatan hewan ternak. Pengunjung dapat melihat langsung bagaimana sapi-sapi perah dirawat dan diberi makan setiap harinya.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Pemeliharaan sapi perah\\nPemberian pakan\\nKebersihan pemerahan susu"
             ],
             "talkingPoints": [
                 "Area Kandang Sapi",
@@ -694,16 +766,28 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Kandang Sapi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Berapa kali sapi-sapi di peternakan ini diperah dalam sehari?",
+                    "mode": "ai",
+                    "answer": "Sapi perah umumnya diperah dua kali sehari, yakni pada pagi dan sore hari secara terjadwal."
+                },
+                {
+                    "q": "Apakah pengunjung boleh ikut memberi makan sapi?",
+                    "mode": "ai",
+                    "answer": "Terdapat jam dan sesi edukasi khusus di mana pengunjung diperbolehkan memberi makan sapi dengan pakan yang disediakan petugas."
+                },
+                {
+                    "q": "Susu sapi dari peternakan ini diolah menjadi apa saja?",
+                    "mode": "ai",
+                    "answer": "Susu murni dipasteurisasi untuk diminum langsung, atau diolah menjadi produk turunan seperti yoghurt."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1236"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Kandang Sapi — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Area Kandang Sapi Green Fresh Farm.",
                 "describeHere": "Area Kandang Sapi adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -711,18 +795,17 @@ window.GoVirtualTourData = {
         },
         "node39": {
             "rawName": "Area Meja Edukasi",
-            "displayName": "Area Meja Edukasi",
-            "placeId": "area-meja-edukasi",
-            "placeName": "Area Meja Edukasi",
+            "displayName": "Area Meja Edukasi Green Fresh Farm",
+            "placeId": "area-meja-edukasi-green-fresh-farm",
+            "placeName": "Area Meja Edukasi Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Meja Edukasi merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Meja Edukasi adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tempat belajar yang nyaman dan interaktif untuk mengenal lebih jauh tentang dunia pertanian dan peternakan.",
+            "description": "Area Meja Edukasi disediakan khusus bagi rombongan sekolah atau keluarga yang ingin mendengarkan penjelasan dari pemandu. Di sini, pengunjung bisa mengikuti kelas singkat mengenai cara bercocok tanam dan memelihara hewan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Panel informasi di bawah kaca\\nWawasan pertanian\\nRuang istirahat semi-terbuka"
             ],
             "talkingPoints": [
                 "Area Meja Edukasi",
@@ -730,14 +813,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Meja Edukasi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apakah ada paket edukasi khusus untuk rombongan anak sekolah?",
+                    "mode": "ai",
+                    "answer": "Ya, pengelola menyediakan paket edukasi yang disesuaikan untuk anak TK maupun SD beserta alat peraganya."
+                },
+                {
+                    "q": "Berapa lama durasi kegiatan edukasi di area ini?",
+                    "mode": "ai",
+                    "answer": "Sesi penjelasan di meja edukasi biasanya berlangsung singkat, sekitar 15 hingga 30 menit sebelum praktik lapangan."
+                },
+                {
+                    "q": "Bisakah tempat ini digunakan untuk rombongan keluarga?",
+                    "mode": "ai",
+                    "answer": "Tentu, keluarga besar juga bisa memesan sesi pemanduan untuk belajar bersama di area edukasi ini."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Meja Edukasi — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Area Meja Edukasi Green Fresh Farm.",
                 "describeHere": "Area Meja Edukasi adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -745,18 +840,17 @@ window.GoVirtualTourData = {
         },
         "node41": {
             "rawName": "Area Parkir",
-            "displayName": "Area Parkir",
-            "placeId": "area-parkir",
-            "placeName": "Area Parkir",
+            "displayName": "Area Parkir Green Fresh Farm",
+            "placeId": "area-parkir-green-fresh-farm",
+            "placeName": "Area Parkir Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Parkir merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Parkir adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lahan parkir yang luas dan aman bagi pengunjung Green Fresh Farm.",
+            "description": "Fasilitas Area Parkir ini dirancang cukup luas untuk menampung kendaraan roda dua, mobil, hingga bus rombongan wisata. Area ini dijaga oleh petugas untuk memastikan keamanan dan kenyamanan kendaraan pengunjung selama berwisata.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Parkir kendaraan\\nGazebo Tematik\\nProduk UMKM sekitar"
             ],
             "talkingPoints": [
                 "Area Parkir",
@@ -764,14 +858,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Parkir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apakah area parkir ini cukup teduh untuk kendaraan?",
+                    "mode": "ai",
+                    "answer": "Terdapat beberapa pohon peneduh di sekitar, meskipun sebagian area masih terbuka untuk memaksimalkan kapasitas."
+                },
+                {
+                    "q": "Apakah area parkir ini bisa menampung bus pariwisata ukuran besar?",
+                    "mode": "ai",
+                    "answer": "Ya, lahan parkir didesain untuk bisa mengakomodasi kendaraan rombongan seperti bus wisata menengah hingga besar."
+                },
+                {
+                    "q": "Apakah jarak parkiran ke loket tiket cukup jauh?",
+                    "mode": "ai",
+                    "answer": "Jaraknya sangat dekat, memudahkan aksesibilitas bagi anak-anak dan lansia dari kendaraan menuju pintu masuk."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Parkir — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Area Parkir Green Fresh Farm.",
                 "describeHere": "Area Parkir adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -779,18 +885,17 @@ window.GoVirtualTourData = {
         },
         "node43": {
             "rawName": "Kandang Kambing",
-            "displayName": "Kandang Kambing",
-            "placeId": "kandang-kambing",
-            "placeName": "Kandang Kambing",
+            "displayName": "Mini Zoo Green Fresh Farm",
+            "placeId": "mini-zoo-green-fresh-farm",
+            "placeName": "Mini Zoo Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Kandang Kambing merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Kandang Kambing adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kebun binatang mini yang menampilkan berbagai satwa jinak dan lucu untuk edukasi anak.",
+            "description": "Mini Zoo Green Fresh Farm menjadi daya tarik utama bagi anak-anak untuk berinteraksi langsung dengan aneka satwa jinak. Koleksi hewannya dirawat dengan baik dan ditempatkan dalam kandang yang didesain menyerupai habitat aslinya.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Pengenalan satwa\\nKalkun dan kambing\\nRekreasi keluarga"
             ],
             "talkingPoints": [
                 "Kandang Kambing",
@@ -798,16 +903,28 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Kandang Kambing.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Hewan apa saja yang bisa dilihat di Mini Zoo ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat beragam satwa jinak seperti kelinci, unggas, kambing kerdil, dan beberapa reptil berukuran kecil."
+                },
+                {
+                    "q": "Bolehkah pengunjung memberi makan hewan di sini?",
+                    "mode": "ai",
+                    "answer": "Pengunjung diizinkan memberi makan hewan menggunakan pakan khusus yang sudah disiapkan oleh petugas di lokasi."
+                },
+                {
+                    "q": "Apakah ada pawang yang mendampingi saat berinteraksi dengan satwa?",
+                    "mode": "ai",
+                    "answer": "Ya, petugas profesional selalu bersiaga di area kandang untuk memastikan keamanan pengunjung saat berinteraksi."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1240"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Kandang Kambing — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Mini Zoo Green Fresh Farm.",
                 "describeHere": "Kandang Kambing adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -815,18 +932,17 @@ window.GoVirtualTourData = {
         },
         "node45": {
             "rawName": "Masuk Tempat Berfoto",
-            "displayName": "Masuk Tempat Berfoto",
-            "placeId": "masuk-tempat-berfoto",
-            "placeName": "Masuk Tempat Berfoto",
+            "displayName": "Tempat Swafoto Green Fresh Farm",
+            "placeId": "tempat-swafoto-green-fresh-farm",
+            "placeName": "Tempat Swafoto Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Masuk Tempat Berfoto merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Masuk Tempat Berfoto adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Spot berfoto estetik dengan latar belakang keindahan alam dan ornamen menarik.",
+            "description": "Tempat Swafoto disediakan secara khusus dengan berbagai properti dan latar belakang alam yang indah untuk memanjakan pengunjung. Spot ini sangat instagenic dan menjadi lokasi wajib bagi wisatawan yang ingin mengabadikan momen liburan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Lorong berbentuk segitiga\\nRangka kemerahan dan atap rumbia\\nLatar tanaman hijau"
             ],
             "talkingPoints": [
                 "Masuk Tempat Berfoto",
@@ -834,14 +950,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Masuk Tempat Berfoto.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Kapan waktu terbaik untuk berfoto di spot ini?",
+                    "mode": "ai",
+                    "answer": "Pagi hari atau sore hari adalah waktu terbaik karena cahaya matahari lembut (golden hour) membuat foto lebih estetik."
+                },
+                {
+                    "q": "Apakah ada properti tambahan yang disediakan pengelola?",
+                    "mode": "ai",
+                    "answer": "Beberapa spot memiliki properti ornamen pertanian atau peternakan lucu yang bisa dimanfaatkan sebagai gaya berfoto."
+                },
+                {
+                    "q": "Apakah ada biaya tambahan untuk berfoto di area ini?",
+                    "mode": "ai",
+                    "answer": "Tidak ada biaya khusus, fasilitas berfoto ini biasanya sudah termasuk dalam tiket masuk utama."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Masuk Tempat Berfoto — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Tempat Swafoto Green Fresh Farm.",
                 "describeHere": "Masuk Tempat Berfoto adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -849,18 +977,17 @@ window.GoVirtualTourData = {
         },
         "node47": {
             "rawName": "Area Bibit Tanaman",
-            "displayName": "Area Bibit Tanaman",
-            "placeId": "area-bibit-tanaman",
-            "placeName": "Area Bibit Tanaman",
+            "displayName": "Area Pembibitan Tanaman Green Fresh Farm",
+            "placeId": "area-pembibitan-tanaman-green-fresh-farm",
+            "placeName": "Area Pembibitan Tanaman Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Area Bibit Tanaman merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Bibit Tanaman adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat pengembangan dan pembibitan aneka tanaman produktif serta tanaman hias.",
+            "description": "Di Area Pembibitan Tanaman, para ahli pertanian merawat bibit-bibit unggul mulai dari sayuran hingga tanaman buah. Pengunjung dapat belajar cara menyemai benih dan merawat tanaman pada tahap awal pertumbuhannya.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Pot dari botol plastik bekas\\nRak bambu dan polybag\\nPengembangan bibit tanaman buah"
             ],
             "talkingPoints": [
                 "Area Bibit Tanaman",
@@ -868,16 +995,28 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Bibit Tanaman.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bibit tanaman apa yang paling banyak dikembangkan di sini?",
+                    "mode": "ai",
+                    "answer": "Area ini fokus pada pembibitan sayuran organik, tanaman buah unggul, serta beberapa jenis tanaman hias tropis."
+                },
+                {
+                    "q": "Bisakah pengunjung membeli bibit tanaman dari sini?",
+                    "mode": "ai",
+                    "answer": "Ya, pengelola biasanya menyediakan beberapa bibit dalam polybag yang bisa dibeli oleh wisatawan untuk ditanam di rumah."
+                },
+                {
+                    "q": "Apakah ada sesi belajar mencangkok di area pembibitan ini?",
+                    "mode": "ai",
+                    "answer": "Tersedia jika Anda mengikuti paket edukasi pertanian khusus yang mencakup materi perbanyakan vegetatif."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1242"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Bibit Tanaman — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Area Pembibitan Tanaman Green Fresh Farm.",
                 "describeHere": "Area Bibit Tanaman adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -885,18 +1024,17 @@ window.GoVirtualTourData = {
         },
         "node49": {
             "rawName": "Gazebo",
-            "displayName": "Gazebo",
-            "placeId": "gazebo",
-            "placeName": "Gazebo",
+            "displayName": "Gazebo Green Fresh Farm",
+            "placeId": "gazebo-green-fresh-farm",
+            "placeName": "Gazebo Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gazebo merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gazebo adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tempat istirahat bersantai berupa gazebo bambu di tengah sejuknya area perkebunan.",
+            "description": "Gazebo Green Fresh Farm menawarkan tempat beristirahat yang rindang bagi keluarga setelah lelah berkeliling kawasan wisata. Dengan desain tradisional, gazebo ini menyatu harmonis dengan pemandangan hijau di sekelilingnya.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Tempat berkumpul pengurus\\nPenghubung meja edukasi dan kebun\\nFasilitas terapi ikan"
             ],
             "talkingPoints": [
                 "Gazebo",
@@ -904,14 +1042,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gazebo.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apakah pengunjung bebas menempati gazebo yang kosong?",
+                    "mode": "ai",
+                    "answer": "Gazebo ini merupakan fasilitas publik yang bisa digunakan secara gratis dan bergantian oleh siapa saja."
+                },
+                {
+                    "q": "Berapa kapasitas satu gazebo ini?",
+                    "mode": "ai",
+                    "answer": "Satu gazebo umumnya cukup nyaman digunakan untuk satu keluarga kecil berkapasitas 4 hingga 6 orang."
+                },
+                {
+                    "q": "Apakah ada colokan listrik di sekitar gazebo ini?",
+                    "mode": "ai",
+                    "answer": "Beberapa gazebo utama mungkin memiliki fasilitas listrik, namun sebagian didesain murni untuk beristirahat menikmati alam."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gazebo — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Gazebo Green Fresh Farm.",
                 "describeHere": "Gazebo adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -919,18 +1069,17 @@ window.GoVirtualTourData = {
         },
         "node51": {
             "rawName": "Peternakan Sapi dan Pendidikan",
-            "displayName": "Peternakan Sapi dan Pendidikan",
-            "placeId": "peternakan-sapi-dan-pendidikan",
-            "placeName": "Peternakan Sapi dan Pendidikan",
+            "displayName": "Akses Peternakan dan Playground Green Fresh Farm",
+            "placeId": "akses-peternakan-dan-playground-green-fresh-farm",
+            "placeName": "Akses Peternakan dan Playground Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Peternakan Sapi dan Pendidikan merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Peternakan Sapi dan Pendidikan adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalan penghubung yang asri menuju kawasan peternakan sapi dan taman bermain anak.",
+            "description": "Akses Peternakan dan Playground ini merupakan jalur pedestrian yang aman, bersih, dan bebas dari kendaraan bermotor. Jalur ini membimbing pengunjung menyusuri pepohonan rindang menuju area bermain dan interaksi satwa.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Jalur dari area masuk\\nAkses menuju gazebo\\nPenghubung ke playground"
             ],
             "talkingPoints": [
                 "Peternakan Sapi dan Pendidikan",
@@ -938,14 +1087,26 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Peternakan Sapi dan Pendidikan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apakah akses jalan ini landai dan aman untuk lansia?",
+                    "mode": "ai",
+                    "answer": "Jalan akses dirancang cukup datar dan menggunakan paving block atau beton, sehingga aman untuk dilalui lansia."
+                },
+                {
+                    "q": "Bisa dilewati dengan menggunakan stroller bayi?",
+                    "mode": "ai",
+                    "answer": "Sangat bisa, akses jalan ini cukup lebar dan rata sehingga nyaman bagi keluarga yang membawa kereta dorong bayi."
+                },
+                {
+                    "q": "Apakah banyak pepohonan peneduh di sepanjang jalan akses ini?",
+                    "mode": "ai",
+                    "answer": "Ya, sepanjang jalur ditanami pepohonan hijau yang menjaga area tetap sejuk saat dilewati siang hari."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Peternakan Sapi dan Pendidikan — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Akses Peternakan dan Playground Green Fresh Farm.",
                 "describeHere": "Peternakan Sapi dan Pendidikan adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -953,18 +1114,19 @@ window.GoVirtualTourData = {
         },
         "node55": {
             "rawName": "Mini Zoo Playground",
-            "displayName": "Mini Zoo Playground",
-            "placeId": "mini-zoo-playground",
-            "placeName": "Mini Zoo Playground",
+            "displayName": "Playground Green Fresh Farm",
+            "placeId": "playground-green-fresh-farm",
+            "placeName": "Playground Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Mini Zoo Playground merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Mini Zoo Playground adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman bermain anak yang seru, aman, dan dikelilingi udara segar pedesaan.",
+            "description": "Playground Green Fresh Farm dilengkapi dengan beragam permainan fisik yang merangsang motorik anak-anak di ruang terbuka. Tempat ini didesain menggunakan alas yang aman dan berada di bawah pengawasan agar anak-anak dapat bermain dengan riang.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Ayunan",
+                "perosotan",
+                "dan jungkat-jungkit\\nTanaman mentimun di dekat area bermain\\nBangunan hijau bermotif sapi"
             ],
             "talkingPoints": [
                 "Mini Zoo Playground",
@@ -972,16 +1134,28 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Mini Zoo Playground.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Permainan apa saja yang ada di area playground ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat fasilitas seperti ayunan, perosotan, jungkat-jungkit, dan arena memanjat untuk anak-anak."
+                },
+                {
+                    "q": "Apakah area ini disediakan khusus untuk balita?",
+                    "mode": "ai",
+                    "answer": "Playground dirancang untuk anak-anak, namun balita tetap memerlukan pendampingan dan pengawasan langsung dari orang tua."
+                },
+                {
+                    "q": "Apakah ada kursi tunggu untuk orang tua di dekat playground?",
+                    "mode": "ai",
+                    "answer": "Ya, pengelola telah menyediakan bangku taman dan gazebo di sekitar playground agar orang tua bisa memantau anak-anaknya bermain."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1231"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Mini Zoo Playground — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Playground Green Fresh Farm.",
                 "describeHere": "Mini Zoo Playground adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -989,18 +1163,17 @@ window.GoVirtualTourData = {
         },
         "node57": {
             "rawName": "Jambu Kristal",
-            "displayName": "Jambu Kristal",
-            "placeId": "jambu-kristal",
-            "placeName": "Jambu Kristal",
+            "displayName": "Perkebunan Jambu Kristal Green Fresh Farm",
+            "placeId": "perkebunan-jambu-kristal-green-fresh-farm",
+            "placeName": "Perkebunan Jambu Kristal Green Fresh Farm",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Jambu Kristal merupakan bagian dari kawasan Green Fresh Farm di Ungaran, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Jambu Kristal adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Hamparan kebun jambu kristal yang subur dengan buah manis dan renyah.",
+            "description": "Perkebunan Jambu Kristal menjadi primadona di Green Fresh Farm karena hasil panennya yang berkualitas tinggi dan bebas hama. Pengunjung tidak hanya bisa melihat rimbunnya pohon jambu, tetapi juga belajar teknik pembungkusan buah agar tetap segar.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Kebun jambu kristal\\nPengenalan tanaman buah\\nPengalaman petik buah sesuai ketersediaan"
             ],
             "talkingPoints": [
                 "Jambu Kristal",
@@ -1008,16 +1181,28 @@ window.GoVirtualTourData = {
                 "Green Fresh Farm"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Jambu Kristal.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bolehkah memetik jambu kristal langsung dari pohonnya?",
+                    "mode": "ai",
+                    "answer": "Aktivitas petik buah biasanya dibuka saat musim panen, dan pengunjung akan didampingi petugas saat melakukannya."
+                },
+                {
+                    "q": "Apa keunggulan jambu kristal yang ditanam di sini?",
+                    "mode": "ai",
+                    "answer": "Jambu kristal di sini terkenal karena dagingnya yang tebal, teksturnya renyah, manis, dan hampir tidak memiliki biji."
+                },
+                {
+                    "q": "Bagaimana cara merawat buah agar tidak busuk diserang hama?",
+                    "mode": "ai",
+                    "answer": "Petani menggunakan teknik pembungkusan plastik sejak buah masih muda untuk menghindari lalat buah tanpa bahan kimia berlebih."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1244"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Jambu Kristal — kawasan Green Fresh Farm.",
+                "currentLocation": "Anda sekarang berada di Perkebunan Jambu Kristal Green Fresh Farm.",
                 "describeHere": "Jambu Kristal adalah area di dalam kawasan Green Fresh Farm, Ungaran. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

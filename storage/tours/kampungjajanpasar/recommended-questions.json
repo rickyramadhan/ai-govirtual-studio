@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "kampungjajanpasar",
+    "tourName": "Kampungjajanpasar",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jajanan paling laris?",
+                "query": "Apa jenis jajanan pasar yang paling laris dan sering dipesan untuk acara hajatan?",
+                "desc": "Apa jenis jajanan pasar yang paling laris dan sering dipesan untuk acara hajatan?"
+            },
+            {
+                "label": "Bisa beli eceran?",
+                "query": "Apakah pengunjung yang datang bisa membeli kue-kue tradisional ini secara eceran?",
+                "desc": "Apakah pengunjung yang datang bisa membeli kue-kue tradisional ini secara eceran?"
+            },
+            {
+                "label": "Jam operasional pembuatan?",
+                "query": "Jam berapa warga mulai sibuk beraktivitas membuat jajanan di dapur mereka?",
+                "desc": "Jam berapa warga mulai sibuk beraktivitas membuat jajanan di dapur mereka?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Jajan Pasar",
+                "query": "Bagaimana sejarah awal terbentuknya sentra pembuatan jajan pasar tradisional di Bangetayu Kulon?"
+            },
+            {
+                "label": "Ragam Jajanan Tradisional",
+                "query": "Apa saja aneka jenis kue basah dan jajanan tradisional nusantara yang diproduksi oleh warga di kampung ini?"
+            },
+            {
+                "label": "Proses Pembuatan",
+                "query": "Bisa ceritakan tahapan pembuatan jajanan pasar mulai dari penyiapan bahan hingga proses mengemas?"
+            },
+            {
+                "label": "Kualitas Bahan Alami",
+                "query": "Bagaimana cara para pembuat kue mempertahankan cita rasa otentik dengan menggunakan bahan pewarna dan pemanis alami?"
+            },
+            {
+                "label": "Distribusi dan Pemasaran",
+                "query": "Ke mana saja produk jajan pasar dari Bangetayu Kulon ini didistribusikan setiap harinya?"
+            },
+            {
+                "label": "Pemberdayaan Ekonomi Warga",
+                "query": "Bagaimana sentra jajan pasar ini mampu meningkatkan taraf ekonomi dan menyerap tenaga kerja dari warga sekitar?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Kampungjajanpasar?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Kampungjajanpasar?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Kampungjajanpasar?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

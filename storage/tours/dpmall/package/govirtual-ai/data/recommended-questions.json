@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "dpmall",
+    "tourName": "DP Mall Semarang",
+    "updatedAt": "2026-09-29T06:34:26+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut DP Mall Semarang?",
+                "query": "Mengapa disebut DP Mall Semarang?",
+                "desc": "Mengapa disebut DP Mall Semarang?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang DP Mall Semarang",
+                "desc": "Ceritakan tentang DP Mall Semarang"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah DP Mall Semarang"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur DP Mall Semarang"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari DP Mall Semarang?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama DP Mall Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari DP Mall Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah DP Mall Semarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "universitassemarang",
+    "tourName": "Universitassemarang",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Biaya Kuliah USM",
+                "query": "Benarkah biaya kuliah di USM bisa diangsur pembayarannya setiap bulan oleh mahasiswa?",
+                "desc": "Benarkah biaya kuliah di USM bisa diangsur pembayarannya setiap bulan oleh mahasiswa?"
+            },
+            {
+                "label": "Pendaftaran Mahasiswa",
+                "query": "Kapan jadwal pendaftaran mahasiswa baru USM gelombang berikutnya akan ditutup?",
+                "desc": "Kapan jadwal pendaftaran mahasiswa baru USM gelombang berikutnya akan ditutup?"
+            },
+            {
+                "label": "Lokasi Tlogosari",
+                "query": "Bagaimana rute jalan menuju kampus utama USM yang terletak strategis di Jalan Soekarno-Hatta Tlogosari?",
+                "desc": "Bagaimana rute jalan menuju kampus utama USM yang terletak strategis di Jalan Soekarno-Hatta Tlogosari?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Kampus Merakyat & Berkualitas",
+                "query": "Bagaimana USM memposisikan diri sebagai kampus swasta dengan biaya terjangkau namun memiliki fasilitas akademik yang sangat megah?"
+            },
+            {
+                "label": "Menara USM (USM Tower)",
+                "query": "Apa saja fasilitas modern yang terdapat di dalam gedung pencakar langit Menara USM yang kini menjadi ikon baru kampus?"
+            },
+            {
+                "label": "Gelora USM & Olahraga",
+                "query": "Bagaimana megahnya Gelora Prof. Sudarto dan fasilitas olahraga kampus yang sering digunakan untuk turnamen skala nasional?"
+            },
+            {
+                "label": "Fakultas Unggulan",
+                "query": "Apa keunggulan dari Fakultas Hukum dan Fakultas Ekonomi USM yang tercatat memiliki ribuan mahasiswa aktif setiap tahunnya?"
+            },
+            {
+                "label": "Studio TV & Radio Kampus",
+                "query": "Bagaimana mahasiswa program studi ilmu komunikasi memanfaatkan fasilitas studio TV dan radio kampus untuk praktik penyiaran?"
+            },
+            {
+                "label": "Waktu Kuliah Fleksibel",
+                "query": "Bagaimana pilihan kelas pagi dan kelas sore di USM sangat membantu para pekerja profesional yang ingin melanjutkan kuliah?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Universitassemarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Universitassemarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Universitassemarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

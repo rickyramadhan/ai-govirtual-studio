@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "semarangroyalegolf",
+    "updatedAt": "2026-09-29T09:52:16+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Semarangroyalegolf",
+            "aliases": [
+                "semarangroyalegolf"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "semarangroyalegolf"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Semarangroyalegolf.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Semarangroyalegolf",
+                    "content": "Pusat pengalaman virtual untuk Semarangroyalegolf."
+                },
+                "en": {
+                    "title": "Semarangroyalegolf",
+                    "content": "Pusat pengalaman virtual untuk Semarangroyalegolf."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone Royale Golf",
+            "aliases": [
+                "drone royale golf"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "semarangroyalegolf"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Royale Golf",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone Royale Golf",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Lobi Semarang Royale Golf",
+            "aliases": [
+                "lobi semarang royale golf"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "semarangroyalegolf"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Lobi Semarang Royale Golf",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Lobi Semarang Royale Golf",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "semarangroyalegolf"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:272",
+            "entityId": "objinfo2:272",
+            "title": "Golf Car Finish",
+            "aliases": [
+                "golf car finish",
+                "objek 272"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Golf Car Finish adalah area penempatan akhir atau dropping point untuk golf cart (mobil golf) setelah digunakan pemain mengelilingi lapangan. Area ini memastikan mobil-mobil golf dikelola dengan baik dan selalu siap untuk round berikutnya.",
+            "source": "webview-import",
+            "sourceId": "272",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Golf Car Finish",
+                    "content": "Golf Car Finish adalah area penempatan akhir atau dropping point untuk golf cart (mobil golf) setelah digunakan pemain mengelilingi lapangan. Area ini memastikan mobil-mobil golf dikelola dengan baik dan selalu siap untuk round berikutnya."
+                },
+                "en": {
+                    "title": "Golf Car Finish",
+                    "content": "The Golf Car Finish is the final placement or dropping point area for golf carts after players have completed their rounds on the course. This area ensures that the golf carts are well-managed and always ready for the next round."
+                },
+                "zh": {
+                    "title": "高爾夫球車停放區",
+                    "content": "高爾夫球車停放區是球員結束球場行程後，用於停放或歸還高爾夫球車的最終區域。此區域確保所有球車管理良好，並隨時為下一輪使用做好準備。"
+                },
+                "ar": {
+                    "title": "منطقة انتهاء عربات الغولف",
+                    "content": "منطقة انتهاء عربات الغولف هي المكان المخصص لإيقاف أو إعادة عربات الغولف بعد أن ينهي اللاعبون جولتهم في الملعب. تضمن هذه المنطقة إدارة العربات بشكل جيد وجاهزيتها الدائمة للجولة التالية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:273",
+            "entityId": "objinfo2:273",
+            "title": "Lapangan Golf",
+            "aliases": [
+                "lapangan golf",
+                "objek 273"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lapangan Golf merupakan fasilitas inti yang menyediakan area bermain 18 hole dengan tata letak yang indah dan menantang. Lapangan ini dirancang dengan kualitas premium dan memiliki unsur-unsur seperti tee box, fairway, rough, dan green yang terawat.",
+            "source": "webview-import",
+            "sourceId": "273",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lapangan Golf",
+                    "content": "Lapangan Golf merupakan fasilitas inti yang menyediakan area bermain 18 hole dengan tata letak yang indah dan menantang. Lapangan ini dirancang dengan kualitas premium dan memiliki unsur-unsur seperti tee box, fairway, rough, dan green yang terawat."
+                },
+                "en": {
+                    "title": "Golf Course",
+                    "content": "The Golf Course is the main facility that provides an 18-hole playing area with a beautiful and challenging layout. It is designed with premium quality and includes elements such as tee boxes, fairways, roughs, and well-maintained greens."
+                },
+                "zh": {
+                    "title": "高爾夫球場",
+                    "content": "高爾夫球場是主要設施，提供18洞的比賽區域，擁有美觀且具挑戰性的布局。球場以高品質設計，包含開球台、球道、長草區及維護良好的果嶺等要素。"
+                },
+                "ar": {
+                    "title": "ملعب الغولف",
+                    "content": "ملعب الغولف هو المرفق الرئيسي الذي يوفر منطقة لعب مكوّنة من 18 حفرة بتصميم جميل وتحدٍّ ممتع. صُمم بجودة عالية ويضم عناصر مثل منطقة الانطلاق، الممر الأخضر، المنطقة الوعرة، والمساحات الخضراء المعتنى بها جيدًا."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:274",
+            "entityId": "objinfo2:274",
+            "title": "Cafe dan Resto",
+            "aliases": [
+                "cafe dan resto",
+                "objek 274"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Cafe dan Resto adalah fasilitas tempat bersantap yang menyajikan beragam pilihan makanan dan minuman bagi para pegolf maupun pengunjung umum. Restoran ini terletak di clubhouse modern dan menawarkan pemandangan lapangan yang menenangkan.",
+            "source": "webview-import",
+            "sourceId": "274",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Cafe dan Resto",
+                    "content": "Cafe dan Resto adalah fasilitas tempat bersantap yang menyajikan beragam pilihan makanan dan minuman bagi para pegolf maupun pengunjung umum. Restoran ini terletak di clubhouse modern dan menawarkan pemandangan lapangan yang menenangkan."
+                },
+                "en": {
+                    "title": "Cafe and Restaurant",
+                    "content": "The Cafe and Restaurant is a dining facility that offers a variety of food and beverage options for both golfers and general visitors. Located in a modern clubhouse, it provides a relaxing view of the golf course."
+                },
+                "zh": {
+                    "title": "咖啡廳與餐廳",
+                    "content": "咖啡廳與餐廳是提供多樣餐飲選擇的用餐設施，服務對象包括高爾夫球員與一般訪客。該餐廳位於現代化會館內，可欣賞令人放鬆的球場景觀。"
+                },
+                "ar": {
+                    "title": "المقهى والمطعم",
+                    "content": "المقهى والمطعم هما مرفقان لتناول الطعام يقدمان مجموعة متنوعة من المأكولات والمشروبات لكل من لاعبي الغولف والزوار بشكل عام. يقع المطعم داخل النادي الحديث ويُوفر إطلالة مريحة على ملعب الغولف."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:275",
+            "entityId": "objinfo2:275",
+            "title": "Ruang VIP",
+            "aliases": [
+                "ruang vip",
+                "objek 275"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang VIP merupakan ruangan privat atau eksklusif yang disediakan untuk pertemuan bisnis, acara khusus, atau networking informal dengan privasi lebih. Ruangan ini cocok untuk acara korporat atau komunitas karena menawarkan suasana yang nyaman dan profesional.",
+            "source": "webview-import",
+            "sourceId": "275",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang VIP",
+                    "content": "Ruang VIP merupakan ruangan privat atau eksklusif yang disediakan untuk pertemuan bisnis, acara khusus, atau networking informal dengan privasi lebih. Ruangan ini cocok untuk acara korporat atau komunitas karena menawarkan suasana yang nyaman dan profesional."
+                },
+                "en": {
+                    "title": "VIP Room",
+                    "content": "The VIP Room is a private or exclusive space provided for business meetings, special events, or informal networking with greater privacy. It is suitable for corporate or community gatherings as it offers a comfortable and professional atmosphere."
+                },
+                "zh": {
+                    "title": "貴賓室",
+                    "content": "貴賓室是一個專屬私人空間，提供給商務會議、特別活動或非正式交流使用，並具備更高的隱私性。此空間非常適合企業或社群活動，因其提供舒適且專業的氛圍。"
+                },
+                "ar": {
+                    "title": "غرفة كبار الشخصيات",
+                    "content": "غرفة كبار الشخصيات هي مساحة خاصة أو حصرية مخصصة للاجتماعات التجارية أو الفعاليات الخاصة أو اللقاءات غير الرسمية مع مزيد من الخصوصية. وهي مناسبة للمناسبات المؤسسية أو المجتمعية لأنها توفر أجواء مريحة ومهنية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:276",
+            "entityId": "objinfo2:276",
+            "title": "Pro Shop",
+            "aliases": [
+                "pro shop",
+                "objek 276"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Pro Shop adalah toko ritel khusus yang menjual berbagai macam perlengkapan dan aksesori golf yang berkualitas, mulai dari stik, bola, hingga pakaian. Fasilitas ini memudahkan pegolf untuk mendapatkan atau mengganti peralatan yang dibutuhkan sebelum maupun sesudah bermain.",
+            "source": "webview-import",
+            "sourceId": "276",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pro Shop",
+                    "content": "Pro Shop adalah toko ritel khusus yang menjual berbagai macam perlengkapan dan aksesori golf yang berkualitas, mulai dari stik, bola, hingga pakaian. Fasilitas ini memudahkan pegolf untuk mendapatkan atau mengganti peralatan yang dibutuhkan sebelum maupun sesudah bermain."
+                },
+                "en": {
+                    "title": "Pro Shop",
+                    "content": "The Pro Shop is a specialized retail store that sells a wide range of high-quality golf equipment and accessories, from clubs and balls to apparel. This facility makes it convenient for golfers to purchase or replace the gear they need before or after playing."
+                },
+                "zh": {
+                    "title": "專業高爾夫商店",
+                    "content": "專業高爾夫商店是一家專門販售高品質高爾夫用品與配件的零售店，商品範圍涵蓋球桿、球以及服裝。此設施讓球員能在賽前或賽後輕鬆購買或更換所需裝備。"
+                },
+                "ar": {
+                    "title": "متجر الغولف المحترف",
+                    "content": "متجر الغولف المحترف هو متجر تجزئة متخصص يبيع مجموعة واسعة من معدات وإكسسوارات الغولف عالية الجودة، من العصي والكرات إلى الملابس. يُسهّل هذا المرفق على لاعبي الغولف الحصول على المعدات التي يحتاجونها أو استبدالها قبل اللعب أو بعده."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:277",
+            "entityId": "objinfo2:277",
+            "title": "Driving Range 2",
+            "aliases": [
+                "driving range 2",
+                "objek 277"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Driving Range adalah area latihan terbuka yang dirancang khusus bagi pegolf untuk melatih swing dan akurasi pukulan jarak jauh. Fasilitas ini ideal digunakan untuk pemanasan atau untuk mengasah kemampuan memukul tanpa harus bermain di lapangan utama.",
+            "source": "webview-import",
+            "sourceId": "277",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Driving Range 2",
+                    "content": "Driving Range adalah area latihan terbuka yang dirancang khusus bagi pegolf untuk melatih swing dan akurasi pukulan jarak jauh. Fasilitas ini ideal digunakan untuk pemanasan atau untuk mengasah kemampuan memukul tanpa harus bermain di lapangan utama."
+                },
+                "en": {
+                    "title": "Driving Range 2",
+                    "content": "The Driving Range is an open practice area specifically designed for golfers to train their swing and long-distance shot accuracy. This facility is ideal for warming up or improving hitting skills without the need to play on the main course."
+                },
+                "zh": {
+                    "title": "高爾夫練習場 2",
+                    "content": "高爾夫練習場是一個專門設計的開放式練習區，用於讓球員訓練揮桿及遠距離擊球的準確度。此設施非常適合賽前熱身或在不進入主球場的情況下練習擊球技巧。"
+                },
+                "ar": {
+                    "title": "منطقة التدريب على الضرب 2",
+                    "content": "منطقة التدريب على الضرب هي مساحة مفتوحة مصممة خصيصًا للاعبي الغولف لتدريب حركة التأرجح ودقة التسديدات البعيدة. يُعد هذا المرفق مثاليًا لتمارين الإحماء أو لتحسين مهارة الضرب دون الحاجة للعب في الملعب الرئيسي."
+                }
+            }
+        }
+    ]
+}

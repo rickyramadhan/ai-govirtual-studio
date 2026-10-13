@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "ciputramall",
+    "tourName": "Ciputra Mall Semarang",
+    "updatedAt": "2026-09-29T06:34:23+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Ciputra Mall Semarang?",
+                "query": "Mengapa disebut Ciputra Mall Semarang?",
+                "desc": "Mengapa disebut Ciputra Mall Semarang?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Ciputra Mall Semarang",
+                "desc": "Ceritakan tentang Ciputra Mall Semarang"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Ciputra Mall Semarang"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Ciputra Mall Semarang"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Ciputra Mall Semarang?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Ciputra Mall Semarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Ciputra Mall Semarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Ciputra Mall Semarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

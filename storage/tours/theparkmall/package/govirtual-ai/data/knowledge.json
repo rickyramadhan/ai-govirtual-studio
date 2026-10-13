@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "theparkmall",
+    "updatedAt": "2026-09-29T09:52:43+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Theparkmall",
+            "aliases": [
+                "theparkmall"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "theparkmall"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Theparkmall.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Theparkmall",
+                    "content": "Pusat pengalaman virtual untuk Theparkmall."
+                },
+                "en": {
+                    "title": "Theparkmall",
+                    "content": "Pusat pengalaman virtual untuk Theparkmall."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone Indoor",
+            "aliases": [
+                "drone indoor"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "theparkmall"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Indoor",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone Indoor",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone Indoor",
+            "aliases": [
+                "drone indoor"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "theparkmall"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Indoor",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone Indoor",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "theparkmall"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:139",
+            "entityId": "objinfo2:139",
+            "title": "Ruang Terbuka",
+            "aliases": [
+                "ruang terbuka",
+                "objek 139"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Open Space di The Park Mall merujuk pada area indoor dan outdoor di sekitar mall yang sering dimanfaatkan untuk bekerja remote maupun tempat bersantai.",
+            "source": "webview-import",
+            "sourceId": "139",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Terbuka",
+                    "content": "Open Space di The Park Mall merujuk pada area indoor dan outdoor di sekitar mall yang sering dimanfaatkan untuk bekerja remote maupun tempat bersantai."
+                },
+                "en": {
+                    "title": "Open Space",
+                    "content": "The Open Space at The Park Mall refers to the indoor and outdoor areas around the mall, often used for remote work or relaxing."
+                },
+                "zh": {
+                    "title": "开放空间",
+                    "content": "The Park Mall的开放空间指商场周边的室内和室外区域，常被用作远程办公或休闲场所。"
+                },
+                "ar": {
+                    "title": "المساحة المفتوحة",
+                    "content": "يشير مفهوم المساحة المفتوحة في The Park Mall إلى المناطق الداخلية والخارجية حول المركز التجاري، والتي غالباً ما تُستخدم للعمل عن بُعد أو للاسترخاء."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:140",
+            "entityId": "objinfo2:140",
+            "title": "Foodcourt",
+            "aliases": [
+                "foodcourt",
+                "objek 140"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Foodcourt adalah area kuliner terpusat yang menampung beragam tenant makanan dan minuman. Fasilitas ini menyediakan tempat duduk yang luas dan nyaman bagi pengunjung untuk bersantap.",
+            "source": "webview-import",
+            "sourceId": "140",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Foodcourt",
+                    "content": "Foodcourt adalah area kuliner terpusat yang menampung beragam tenant makanan dan minuman. Fasilitas ini menyediakan tempat duduk yang luas dan nyaman bagi pengunjung untuk bersantap."
+                },
+                "en": {
+                    "title": "Food Court",
+                    "content": "A food court is a centralized dining area housing various food and beverage tenants. This facility provides spacious and comfortable seating for visitors to enjoy their meals."
+                },
+                "zh": {
+                    "title": "美食广场",
+                    "content": "美食广场是一个集中式的餐饮区域，汇集了各种餐饮商户。该设施为顾客提供宽敞舒适的座位，让他们享用美食。"
+                },
+                "ar": {
+                    "title": "ساحة الطعام",
+                    "content": "المطعم الجماعي هو منطقة طعام مركزية تضم مجموعة متنوعة من منافذ الطعام والمشروبات. يوفر هذا المرفق مقاعد واسعة ومريحة للزوار للاستمتاع بوجباتهم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:141",
+            "entityId": "objinfo2:141",
+            "title": "Bioskop",
+            "aliases": [
+                "bioskop",
+                "objek 141"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas Cinema di The Park Mall adalah Cinema XXI, yang menyajikan pengalaman menonton film-film terbaru dengan kualitas studio yang nyaman dan modern. Bioskop ini menjadi salah satu pusat hiburan utama di mall tersebut.",
+            "source": "webview-import",
+            "sourceId": "141",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bioskop",
+                    "content": "Fasilitas Cinema di The Park Mall adalah Cinema XXI, yang menyajikan pengalaman menonton film-film terbaru dengan kualitas studio yang nyaman dan modern. Bioskop ini menjadi salah satu pusat hiburan utama di mall tersebut."
+                },
+                "en": {
+                    "title": "Cinema",
+                    "content": "The Cinema facility at The Park Mall is Cinema XXI, offering a comfortable and modern studio-quality experience for watching the latest movies. This cinema serves as one of the main entertainment hubs in the mall."
+                },
+                "zh": {
+                    "title": "电影院",
+                    "content": "The Park Mall的影院设施为Cinema XXI，提供舒适现代的影院体验，播放最新电影。该影院是商场主要的娱乐中心之一。"
+                },
+                "ar": {
+                    "title": "سينما",
+                    "content": "تتمثل مرافق السينما في The Park Mall في Cinema XXI، التي تقدم تجربة مشاهدة أفلام حديثة بجودة استوديو مريحة وعصرية. تُعد هذه السينما واحدة من أبرز مراكز الترفيه في المركز التجاري."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:142",
+            "entityId": "objinfo2:142",
+            "title": "Dunia VR",
+            "aliases": [
+                "dunia vr",
+                "objek 142"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "VR World mengacu pada pusat hiburan modern yang menyediakan permainan dengan teknologi Virtual Reality (VR) atau arcade games lainnya, yang di The Park Mall umumnya diwakili oleh tenant seperti Funworld atau Happy Time. Area ini menawarkan berbagai jenis permainan interaktif untuk menghibur anak-anak dan keluarga.",
+            "source": "webview-import",
+            "sourceId": "142",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Dunia VR",
+                    "content": "VR World mengacu pada pusat hiburan modern yang menyediakan permainan dengan teknologi Virtual Reality (VR) atau arcade games lainnya, yang di The Park Mall umumnya diwakili oleh tenant seperti Funworld atau Happy Time. Area ini menawarkan berbagai jenis permainan interaktif untuk menghibur anak-anak dan keluarga."
+                },
+                "en": {
+                    "title": "VR World",
+                    "content": "VR World refers to a modern entertainment center offering Virtual Reality (VR) games or other arcade games, commonly represented in The Park Mall by tenants like Funworld or Happy Time. This area provides various interactive games to entertain children and families."
+                },
+                "zh": {
+                    "title": "虚拟现实世界",
+                    "content": "VR World指现代娱乐中心，提供虚拟现实（VR）游戏或其他街机游戏，在The Park Mall中通常由Funworld或Happy Time等商户代表。该区域提供多种互动游戏，供儿童和家庭娱乐。"
+                },
+                "ar": {
+                    "title": "عالم الواقع الافتراضي",
+                    "content": "يشير VR World إلى مركز ترفيهي حديث يقدم ألعاب الواقع الافتراضي (VR) أو ألعاب الأركيد الأخرى، والتي يتم تمثيلها في The Park Mall عادةً من خلال منافذ مثل Funworld أو Happy Time. توفر هذه المنطقة أنواعاً مختلفة من الألعاب التفاعلية لتسلية الأطفال والعائلات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:143",
+            "entityId": "objinfo2:143",
+            "title": "Mushola",
+            "aliases": [
+                "mushola",
+                "objek 143"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas Musala tersedia di The Park Mall untuk memudahkan pengunjung melaksanakan ibadah salat dengan tenang dan bersih. Area ibadah ini dilengkapi dengan tempat wudu yang memadai dan berlokasi strategis di dalam mall.",
+            "source": "webview-import",
+            "sourceId": "143",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mushola",
+                    "content": "Fasilitas Musala tersedia di The Park Mall untuk memudahkan pengunjung melaksanakan ibadah salat dengan tenang dan bersih. Area ibadah ini dilengkapi dengan tempat wudu yang memadai dan berlokasi strategis di dalam mall."
+                },
+                "en": {
+                    "title": "Prayer Room",
+                    "content": "The Musala facility at The Park Mall allows visitors to perform prayers comfortably and in a clean environment. The prayer area is equipped with adequate ablution facilities and is strategically located within the mall."
+                },
+                "zh": {
+                    "title": "小礼拜堂",
+                    "content": "The Park Mall的祈祷室设施方便顾客在干净安静的环境中进行祷告。祈祷区配备了充足的洗净设施，并位于商场的便利位置。"
+                },
+                "ar": {
+                    "title": "المصلى",
+                    "content": "تتوفر مرافق المصلى في The Park Mall لتسهيل أداء الزوار للصلاة بشكل هادئ ونظيف. تم تجهيز منطقة العبادة بمرافق وضوء مناسبة وتقع في موقع استراتيجي داخل المركز التجاري."
+                }
+            }
+        }
+    ]
+}

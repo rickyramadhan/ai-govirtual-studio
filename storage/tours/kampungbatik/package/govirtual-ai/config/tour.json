@@ -1,0 +1,51 @@
+{
+    "configSchemaVersion": 2,
+    "runtimeVersion": "2.1.0-voice-demo",
+    "tourId": "kampungbatik",
+    "tourName": "Kampung Batik",
+    "location": "Semarang",
+    "nearbyLabel": "Kampung Batik dan Semarang",
+    "language": "id",
+    "features": {
+        "exploreKnowledge": true,
+        "publicService": true,
+        "destinationDiscovery": true,
+        "destinationCatalog": true,
+        "sceneIdentity": true,
+        "answerability": true
+    },
+    "voice": {
+        "mode": "off",
+        "realtime_configured": false,
+        "provider": "gemini-live",
+        "model": "gemini-2.5-flash-native-audio-latest",
+        "voice": "Kore",
+        "language": "id",
+        "idle_timeout": 60,
+        "session_duration": 300,
+        "max_concurrent": 2,
+        "allowedOrigin": "",
+        "answerPolicy": "curated"
+    },
+    "data": {
+        "visitorTipsPath": "data/visitor-tips.json",
+        "nearbyPath": "data/nearby.json"
+    },
+    "frontend": {
+        "catalogPath": "data/semarang-destinations.json",
+        "catalogSrc": "C:/xampp/htdocs/govirtual-ai/govirtual-ai/data/semarang-destinations.json",
+        "catalogLabel": "Semarang",
+        "categoryPage": "https://semarang.govirtual.id/webview/kategori.php?lang=id",
+        "objectInfoBase": "https://webview-govirtual.id/semarang-v2/assets/images/objekinfo/lawang_sewu",
+        "objectInfoPage": "https://semarang.govirtual.id/webview/objinfo2.php",
+        "objectInfoDetailParam": "info",
+        "objectInfoExtra": "&vd=1&tp=m",
+        "langMap": {
+            "id": "id",
+            "en": "en",
+            "sa": "sa",
+            "zh": "zh"
+        },
+        "nearbyLabel": "Kampung Batik dan Semarang"
+    }
+}

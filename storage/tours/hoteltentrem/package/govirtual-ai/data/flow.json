@@ -1,0 +1,115 @@
+{
+    "version": "1.0",
+    "tourId": "hoteltentrem",
+    "tourName": "Hoteltentrem",
+    "updatedAt": "2026-09-29T09:50:50+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node8",
+        "node9",
+        "node10",
+        "node14",
+        "node15",
+        "node16",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node24",
+        "node25",
+        "node26",
+        "node27",
+        "node28",
+        "node29",
+        "node30"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Hotel Tentrem Semarang – Kamar Mandi Tamu"
+        },
+        "node2": {
+            "displayName": "Hotel Tentrem Semarang – Galeri Sido Muncul"
+        },
+        "node3": {
+            "displayName": "Hotel Tentrem Semarang – Ruang Gaharu Spa"
+        },
+        "node4": {
+            "displayName": "Hotel Tentrem Semarang – Ruang Tunggu Gaharu Spa"
+        },
+        "node5": {
+            "displayName": "Hotel Tentrem Semarang – Area Kedatangan Dalam"
+        },
+        "node6": {
+            "displayName": "Hotel Tentrem Semarang – Ballroom Tentrem"
+        },
+        "node8": {
+            "displayName": "Hotel Tentrem Semarang – Eboni Bar and Lounge"
+        },
+        "node9": {
+            "displayName": "Hotel Tentrem Semarang – Executive Lounge"
+        },
+        "node10": {
+            "displayName": "Hotel Tentrem Semarang – Ruang Rapat"
+        },
+        "node14": {
+            "displayName": "Hotel Tentrem Semarang – Studio Kebugaran Gaharu"
+        },
+        "node15": {
+            "displayName": "Hotel Tentrem Semarang – Indoor Playground"
+        },
+        "node16": {
+            "displayName": "Hotel Tentrem Semarang – Area Jacuzzi"
+        },
+        "node17": {
+            "displayName": "Hotel Tentrem Semarang – Koridor Keluar"
+        },
+        "node18": {
+            "displayName": "Hotel Tentrem Semarang – Lobi Utama Tentrem"
+        },
+        "node19": {
+            "displayName": "Hotel Tentrem Semarang – Drop-off Dalam Hotel"
+        },
+        "node20": {
+            "displayName": "Hotel Tentrem Semarang – Lantai 6 – Resepsionis Fasilitas"
+        },
+        "node21": {
+            "displayName": "Hotel Tentrem Semarang – Koridor Lobi Lift"
+        },
+        "node22": {
+            "displayName": "Hotel Tentrem Semarang – Ruang Serbaguna Berjendela"
+        },
+        "node23": {
+            "displayName": "Hotel Tentrem Semarang – Kolam Renang Utama"
+        },
+        "node24": {
+            "displayName": "Hotel Tentrem Semarang – Area Makan Dekat Bar"
+        },
+        "node25": {
+            "displayName": "Hotel Tentrem Semarang – Area Rekreasi Anak Outdoor"
+        },
+        "node26": {
+            "displayName": "Hotel Tentrem Semarang – Presidential Suite – Area Mandi"
+        },
+        "node27": {
+            "displayName": "Hotel Tentrem Semarang – Presidential Suite – Kamar Tidur"
+        },
+        "node28": {
+            "displayName": "Hotel Tentrem Semarang – Presidential Suite – Akses Kamar"
+        },
+        "node29": {
+            "displayName": "Hotel Tentrem Semarang – Presidential Suite – Ruang Tamu"
+        },
+        "node30": {
+            "displayName": "Hotel Tentrem Semarang – Presidential Suite – Koridor Privat"
+        }
+    }
+}

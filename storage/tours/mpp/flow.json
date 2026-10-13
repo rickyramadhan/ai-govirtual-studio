@@ -1,0 +1,107 @@
+{
+    "version": "1.0",
+    "tourId": "mpp",
+    "tourName": "Mpp",
+    "updatedAt": "2026-09-29T09:51:26+02:00",
+    "startScene": "node159",
+    "order": [
+        "node159",
+        "node160",
+        "node161",
+        "node162",
+        "node163",
+        "node164",
+        "node165",
+        "node166",
+        "node167",
+        "node168",
+        "node169",
+        "node170",
+        "node171",
+        "node172",
+        "node173",
+        "node174",
+        "node175",
+        "node176",
+        "node177",
+        "node178",
+        "node179",
+        "node180",
+        "node181",
+        "node182"
+    ],
+    "nodes": {
+        "node159": {
+            "displayName": "Mal Pelayanan Publik Semarang – MPP Mangkang – Tampak Udara Depan"
+        },
+        "node160": {
+            "displayName": "Mal Pelayanan Publik Semarang – Kompleks Terminal dan MPP – Tampak Udara"
+        },
+        "node161": {
+            "displayName": "Mal Pelayanan Publik Semarang – Ruang Layanan Anoman"
+        },
+        "node162": {
+            "displayName": "Mal Pelayanan Publik Semarang – Cafe Investasi – Area Diskusi"
+        },
+        "node163": {
+            "displayName": "Mal Pelayanan Publik Semarang – Pintu Masuk MPP"
+        },
+        "node164": {
+            "displayName": "Mal Pelayanan Publik Semarang – Serambi Kedatangan MPP"
+        },
+        "node165": {
+            "displayName": "Mal Pelayanan Publik Semarang – Papan Identitas Terminal Mangkang"
+        },
+        "node166": {
+            "displayName": "Mal Pelayanan Publik Semarang – Landmark Terminal dan MPP"
+        },
+        "node167": {
+            "displayName": "Mal Pelayanan Publik Semarang – Lobi Anoman"
+        },
+        "node168": {
+            "displayName": "Mal Pelayanan Publik Semarang – Lobi DPMPTSP"
+        },
+        "node169": {
+            "displayName": "Mal Pelayanan Publik Semarang – Lobi Lantai 2"
+        },
+        "node170": {
+            "displayName": "Mal Pelayanan Publik Semarang – Lobi Terminal Mangkang"
+        },
+        "node171": {
+            "displayName": "Mal Pelayanan Publik Semarang – Lorong Layanan – Deretan Konter"
+        },
+        "node172": {
+            "displayName": "Mal Pelayanan Publik Semarang – Konter Pelayanan – Sisi Koridor"
+        },
+        "node173": {
+            "displayName": "Mal Pelayanan Publik Semarang – Meja Informasi dan Antrean"
+        },
+        "node174": {
+            "displayName": "Mal Pelayanan Publik Semarang – Pintu Zona Pelayanan"
+        },
+        "node175": {
+            "displayName": "Mal Pelayanan Publik Semarang – Ruang Tunggu – Sisi Partisi"
+        },
+        "node176": {
+            "displayName": "Mal Pelayanan Publik Semarang – Ruang Tunggu – Antarkonter"
+        },
+        "node177": {
+            "displayName": "Mal Pelayanan Publik Semarang – Ruang Pelayanan Terpadu"
+        },
+        "node178": {
+            "displayName": "Mal Pelayanan Publik Semarang – Area Parkir Motor"
+        },
+        "node179": {
+            "displayName": "Mal Pelayanan Publik Semarang – Pelataran Parkir MPP"
+        },
+        "node180": {
+            "displayName": "Mal Pelayanan Publik Semarang – Akses Parkir Mobil"
+        },
+        "node181": {
+            "displayName": "Mal Pelayanan Publik Semarang – Jalur Masuk Kompleks"
+        },
+        "node182": {
+            "displayName": "Mal Pelayanan Publik Semarang – Jalur Keluar Kompleks"
+        }
+    }
+}

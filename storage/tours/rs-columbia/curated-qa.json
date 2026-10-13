@@ -1,0 +1,707 @@
+{
+    "version": "1.0",
+    "tourId": "rs-columbia",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Apa yang bisa saya jelajahi di RS Columbia?",
+            "answer": "RS Columbia adalah lokasi di Semarang yang dapat dijelajahi melalui tur virtual ini. Tur menampilkan sejumlah area dan titik pandang yang dapat dibuka melalui navigasi hotspot.",
+            "aliases": [
+                "Ada apa di RS Columbia?",
+                "Gambaran tur RS Columbia"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "tur virtual",
+                "jelajah"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Di kota atau wilayah mana RS Columbia berada?",
+            "answer": "RS Columbia tercatat berada di Semarang.",
+            "aliases": [
+                "Lokasi RS Columbia",
+                "RS Columbia ada di mana?"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Semarang",
+                "lokasi"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Bagaimana cara berpindah area dalam tur RS Columbia?",
+            "answer": "Gunakan hotspot navigasi pada panorama untuk berpindah ke area yang terhubung. Nama area aktif membantu memastikan posisi saat menjelajah.",
+            "aliases": [
+                "Cara navigasi RS Columbia",
+                "Pindah panorama bagaimana?"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "hotspot",
+                "navigasi"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Apakah tur RS Columbia dapat dijelajahi tanpa datang langsung?",
+            "answer": "Ya. Tur virtual menampilkan panorama dan area RS Columbia secara digital. Informasi operasional kunjungan fisik harus dikonfirmasi melalui kanal resmi lokasi.",
+            "aliases": [
+                "Bisa lihat RS Columbia secara virtual?",
+                "Tur online RS Columbia"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "virtual",
+                "online"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apa yang perlu diketahui tentang Ruang Tindakan Obgyn?",
+            "answer": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "aliases": [
+                "Jelaskan Ruang Tindakan Obgyn.",
+                "Informasi Ruang Tindakan Obgyn"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Tindakan Obgyn",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Apa fungsi atau makna Jam kunjungan di RS Columbia?",
+            "answer": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "aliases": [
+                "Fungsi Jam kunjungan",
+                "Tentang Jam kunjungan"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Jam kunjungan",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Mengapa Laboratorium menarik untuk diperhatikan?",
+            "answer": "Laboratorium ini berfungsi sebagai pusat analisis sampel biologis pasien untuk mendukung penegakan diagnosis medis secara komprehensif. Penggunaan instrumen analitik berteknologi tinggi di fasilitas ini memastikan hasil pemeriksaan keluar dengan cepat dan presisi yang sangat akurat, sehingga penanganan medis lanjutan dapat segera dieksekusi.",
+            "aliases": [
+                "Keunikan Laboratorium",
+                "Hal menarik Laboratorium"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Laboratorium",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Bisakah kamu menceritakan Ruang X Ray secara singkat?",
+            "answer": "Ruang X-Ray difungsikan untuk pelaksanaan pencitraan radiologi dasar yang esensial dalam mengevaluasi integritas struktur tulang, persendian, serta melihat gambaran kondisi organ dalam tubuh. Keunggulannya terletak pada transisi ke teknologi radiografi digital modern yang mampu memproses dan mengirimkan gambar secara instan ke sistem informasi medis, menjadikan proses penegakan diagnosis jauh lebih efisien dan akurat.",
+            "aliases": [
+                "Cerita Ruang X Ray",
+                "Deskripsi Ruang X Ray"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang X Ray",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apa yang perlu diketahui tentang Ruang Operasi?",
+            "answer": "Ruang Operasi merupakan fasilitas krusial yang digunakan untuk memfasilitasi berbagai macam tindakan pembedahan medis di dalam lingkungan yang sangat steril dan terkontrol secara ketat. Kelebihan utama ruangan ini adalah penerapan sistem tata udara berstandar tinggi yang sangat efektif dalam meminimalkan risiko infeksi nosokomial, serta terintegrasi dengan instrumen bedah termutakhir yang mendukung efisiensi kerja tim dokter spesialis.",
+            "aliases": [
+                "Jelaskan Ruang Operasi.",
+                "Informasi Ruang Operasi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Operasi",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apa fungsi atau makna Labor and delivery room di RS Columbia?",
+            "answer": "Labor and Delivery Room (LDR) berfungsi untuk mengakomodasi seluruh rangkaian persalinan—mulai dari tahap observasi kontraksi, proses melahirkan, hingga masa pemulihan pascapersalinan—di dalam satu ruangan yang terintegrasi. Pendekatan ruang terpadu ini memberikan kenyamanan dan privasi maksimal bagi sang ibu karena meminimalkan perpindahan ruangan, serta selalu siap sedia dengan peralatan resusitasi neonatal untuk mengantisipasi kegawatdaruratan secara instan.",
+            "aliases": [
+                "Fungsi Labor and delivery room",
+                "Tentang Labor and delivery room"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Labor and delivery room",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Mengapa Ruang CT Scan menarik untuk diperhatikan?",
+            "answer": "Ruang CT Scan dirancang untuk menghasilkan gambar penampang melintang dari organ dalam tubuh pasien guna mendeteksi berbagai anomali medis seperti tumor, pendarahan, atau infeksi secara non-invasif. Pemindai ini menawarkan teknologi canggih yang mampu mempercepat waktu pemeriksaan dengan paparan radiasi yang ditekan seminimal mungkin, sekaligus menghasilkan kualitas pencitraan tiga dimensi yang sangat tajam bagi dokter.",
+            "aliases": [
+                "Keunikan Ruang CT Scan",
+                "Hal menarik Ruang CT Scan"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang CT Scan",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Bisakah kamu menceritakan Fasilitas Cathlab secara singkat?",
+            "answer": "Fasilitas Cathlab didedikasikan untuk pelaksanaan prosedur intervensi minimal invasif yang berfokus pada diagnosis serta penanganan penyakit jantung dan pembuluh darah. Keunggulannya terletak pada penggunaan sistem pencitraan diagnostik real-time beresolusi tinggi yang memungkinkan dokter memvisualisasikan anatomi pembuluh darah secara mendetail, sehingga meningkatkan keamanan dan tingkat keberhasilan tindakan bedah.",
+            "aliases": [
+                "Cerita Fasilitas Cathlab",
+                "Deskripsi Fasilitas Cathlab"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Fasilitas Cathlab",
+                "informasi"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apa yang dapat dilihat di area Ruang CT Scan?",
+            "answer": "Ruang pemeriksaan medis yang didesain secara steril dan modern, menampilkan perangkat CT Scan canggih sebagai titik fokus utama. Unit pemindai berwarna abu-abu dan krem mendominasi ruangan, bersebelahan dengan meja pasien yang dapat disesuaikan posisinya. Di area sekitarnya terdapat peralatan pendukung seperti tiang infus dan monitor. Ruangan memiliki pencahayaan merata dari lampu panel di langit-langit dan sistem ventilasi udara. Sebuah jendela observasi kaca besar di dinding kanan memberikan pandangan ke ruang kontrol terpisah, tempat petugas operator memantau prosedur. Akses ke ruangan ini melalui dua pintu ganda yang kokoh di dinding belakang, dan terdapat area terpisah yang tertutup kaca di sudut kiri. Seluruh ruangan mempertahankan suasana klinis yang bersih dan terorganisir.",
+            "aliases": [
+                "Ada apa di Ruang CT Scan?",
+                "Jelaskan area Ruang CT Scan"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang CT Scan",
+                "area"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apa yang dapat dilihat di area Ruang Tindakan Obgyn?",
+            "answer": "Ruangan ini dirancang khusus untuk memberikan kenyamanan dan efisiensi bagi pasien dan tenaga medis. Fitur utamanya adalah kursi pemeriksaan ginekologi elektrik berwarna hijau toska yang dapat disesuaikan posisinya secara ergonomis. Kursi ini dilengkapi dengan sandaran kaki yang dapat dilepas dan disesuaikan (adjustable stirrups) serta sandaran kepala dan lengan. Di sebelah kanan, terdapat lampu sorot mobile yang terpasang pada tiang dengan roda, memungkinkan pencahayaan yang terarah dan optimal saat prosedur berlangsung. Ruangan ini memiliki dinding putih bersih dan lantai ubin berwarna terang, menciptakan suasana yang higienis dan profesional. Selain itu, tersedia juga tempat sampah medis dan akses listrik di dinding untuk mendukung peralatan tambahan.",
+            "aliases": [
+                "Ada apa di Ruang Tindakan Obgyn?",
+                "Jelaskan area Ruang Tindakan Obgyn"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Tindakan Obgyn",
+                "area"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apa yang dapat dilihat di area Ruang Konsultasi Dokter?",
+            "answer": "Ruang konsultasi ini didesain secara komprehensif untuk mendukung alur kerja medis di rumah sakit modern. Ruangan dilengkapi dengan area meja kerja yang ergonomis bagi dokter untuk melakukan konsultasi, pencatatan rekam medis elektronik, dan peninjauan hasil rontgen melalui light box. Selain itu, terdapat tempat tidur pemeriksaan khusus yang dapat disesuaikan dan tangga pijakan, memungkinkan dokter untuk melakukan pemeriksaan fisik awal atau tindakan medis ringan secara langsung kepada pasien dalam satu ruangan yang efisien dan bersih. Tersedia juga wastafel untuk menjaga standar kebersihan dan sterilitas. Tata letak ini dirancang untuk memaksimalkan fungsionalitas dan kenyamanan baik bagi dokter maupun pasien.",
+            "aliases": [
+                "Ada apa di Ruang Konsultasi Dokter?",
+                "Jelaskan area Ruang Konsultasi Dokter"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Konsultasi Dokter",
+                "area"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apa yang dapat dilihat di area Area Lobi?",
+            "answer": "Area lobi rumah sakit ini didesain dengan gaya modern yang bersih dan pencahayaan hangat, menciptakan suasana yang profesional namun nyaman. Di sisi kiri terdapat meja pendaftaran utama yang luas berwarna putih dengan aksen hijau toska, dilengkapi dengan logo Columbia Asia dan layar komputer, berfungsi sebagai titik kontak utama untuk pasien dan pengunjung melakukan registrasi dan administrasi. Di bagian belakang meja terdapat akses menuju area klinik yang lebih dalam. Di sebelah kanan, terdapat pintu kayu ganda dengan tanda bertuliskan \"STROKE CENTER,\" menunjukkan akses khusus ke unit layanan neurologi. Di depannya tersedia deretan kursi tunggu berbahan kulit hitam untuk kenyamanan pasien selama menunggu giliran. Di sudut kanan jauh, terdapat tangga terbuka dengan pegangan baja yang melingkar ke atas, memberikan akses ke tingkat berikutnya. Area ini juga dilengkapi dengan fitur keselamatan seperti alat pemadam api dan lampu darurat yang dipasang di dinding.",
+            "aliases": [
+                "Ada apa di Area Lobi?",
+                "Jelaskan area Area Lobi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Area Lobi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apa yang dapat dilihat di area Ruang Rawat Inap?",
+            "answer": "Ruang rawat inap ini dirancang untuk memberikan kenyamanan optimal dan kemudahan perawatan bagi pasien. Dilengkapi dengan tempat tidur pasien elektrik yang dapat disesuaikan posisinya untuk menunjang kenyamanan dan proses penyembuhan. Di sisi tempat tidur terdapat nakas untuk barang-barang pribadi dan tiang infus untuk pemberian cairan obat. Fasilitas penunjang lainnya mencakup sofa panjang sebagai area duduk bagi keluarga atau pendamping pasien, serta meja makan portabel yang dapat didekatkan ke tempat tidur. Pencahayaan alami disediakan oleh jendela besar dengan gorden, sementara pencahayaan buatan terintegrasi di atas tempat tidur. Ruangan ini juga dilengkapi dengan panel kontrol panggilan perawat, telepon, dan sistem pendingin udara untuk kenyamanan lingkungan pasien. Hiasan dinding berupa lukisan bunga memberikan sentuhan keindahan dan ketenangan. Secara keseluruhan, tata letak dan fasilitas ruangan ini mendukung pemantauan medis yang efisien sekaligus menciptakan suasana yang mendukung bagi pemulihan pasien.",
+            "aliases": [
+                "Ada apa di Ruang Rawat Inap?",
+                "Jelaskan area Ruang Rawat Inap"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Rawat Inap",
+                "area"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Apa yang dapat dilihat di area Ruang Bersalin?",
+            "answer": "Ruang bersalin ini dirancang khusus untuk memberikan kenyamanan dan keamanan maksimal bagi ibu dan bayi. Dilengkapi dengan teknologi terkini, ruangan ini memiliki inkubator bayi untuk perawatan pasca persalinan yang mendesak, meja resusitasi untuk penanganan darurat, monitor detak jantung janin (CTG) untuk memantau kesehatan bayi secara berkala, dan tempat tidur pemeriksaan ginekologi yang ergonomis. Lingkungan yang tenang dan staf medis yang berpengalaman siap memberikan pelayanan prima selama proses persalinan.",
+            "aliases": [
+                "Ada apa di Ruang Bersalin?",
+                "Jelaskan area Ruang Bersalin"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Bersalin",
+                "area"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Apa yang dapat dilihat di area Poliklinik?",
+            "answer": "Area tunggu poliklinik yang luas dan dirancang untuk kenyamanan pasien. Koridor ini memiliki lantai berkarpet biru yang dipadukan dengan lantai ubin di pinggirnya, dan dilengkapi dengan deretan kursi baja tahan lama untuk pasien dan pengunjung. Dinding berwarna hijau muda memberikan kesan tenang dan bersih. Pencahayaan langit-langit terdiri dari lampu tanam dan lampu cove melingkar yang memberikan suasana hangat. Di sepanjang koridor terdapat beberapa pintu kayu yang mengarah ke ruang konsultasi dan pemeriksaan dokter. Sebuah meja resepsionis kecil terlihat di kejauhan di samping area tunggu, dan terdapat layar televisi yang dipasang di dinding untuk kenyamanan pasien selama menunggu. Desainnya modern, fungsional, dan mudah dinavigasi.",
+            "aliases": [
+                "Ada apa di Poliklinik?",
+                "Jelaskan area Poliklinik"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Poliklinik",
+                "area"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apa yang dapat dilihat di area Ruang Bayi?",
+            "answer": "Ruang perawatan bayi ini dirancang dengan standar medis tinggi dan kenyamanan optimal. Dilengkapi dengan dua inkubator neonatus (satu model tertutup dan satu model terbuka dengan penghangat radiasi) yang memiliki fitur lengkap, termasuk tiang infus dan troli medis terintegrasi, untuk memberikan perawatan intensif dan pemantauan terus-menerus bagi bayi baru lahir yang membutuhkan perhatian khusus. Terdapat pula wastafel khusus untuk menjaga kebersihan tenaga medis. Desain interior dinding berwarna biru muda dengan stiker motif balon udara yang ceria menciptakan suasana yang menenangkan dan tidak menakutkan bagi keluarga, sementara peralatan medis tertata rapi dan mudah diakses untuk efisiensi penanganan gawat darurat. Sistem pencahayaan dan ventilasi langit-langit memastikan lingkungan yang steril dan terkontrol.",
+            "aliases": [
+                "Ada apa di Ruang Bayi?",
+                "Jelaskan area Ruang Bayi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Bayi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Apa yang dapat dilihat di area Area Masuk?",
+            "answer": "Area masuk fasilitas kesehatan ini dirancang untuk kemudahan aksesibilitas pasien dan pengunjung. Terdapat jalur kendaraan aspal yang lebar yang membentuk lingkaran (drop-off zone) di depan pintu masuk utama, memungkinkan kendaraan untuk berhenti dan menurunkan penumpang dengan mudah, bahkan dalam keadaan hujan berkat adanya kanopi modern. Area ini memiliki lanskap yang tertata rapi dengan tanaman hijau, yang memperindah pemandangan dan menciptakan suasana yang ramah. Fasad gedung yang didominasi oleh dinding kaca dan panel logam memberikan kesan modern dan profesional. Area ini juga menyediakan akses parkir yang luas di sekeliling gedung serta trotoar bagi pejalan kaki, memastikan kelancaran arus lalu lintas baik untuk kendaraan maupun pejalan kaki.",
+            "aliases": [
+                "Ada apa di Area Masuk?",
+                "Jelaskan area Area Masuk"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Area Masuk",
+                "area"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Apa yang dapat dilihat di area Loket Bank Darah?",
+            "answer": "Area pelayanan bank darah ini dirancang dengan nuansa warna putih dan hijau toska yang bersih serta profesional. Bagian depan dilengkapi dengan meja konter panjang yang berfungsi sebagai pusat informasi, pendaftaran, serta pemrosesan administrasi terkait kebutuhan darah pasien. Di sebelah area konter terdapat ruang tindakan yang dilengkapi dengan kursi medis khusus berwarna hijau cerah, yang digunakan untuk kenyamanan pasien atau pendonor selama proses pengambilan sampel darah maupun prosedur medis terkait berlangsung. Ruangan ini juga memiliki pencahayaan alami yang baik dari jendela besar untuk menciptakan suasana yang steril, nyaman, dan ramah bagi pengunjung.",
+            "aliases": [
+                "Ada apa di Loket Bank Darah?",
+                "Jelaskan area Loket Bank Darah"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Loket Bank Darah",
+                "area"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apa yang dapat dilihat di area Nurse Station?",
+            "answer": "Area pusat pelayanan perawat ini berfungsi sebagai titik koordinasi utama bagi tenaga medis dalam mengelola alur pelayanan pasien, termasuk proses administrasi awal, penjadwalan konsultasi, serta pemantauan rekam medis sebelum pasien diarahkan ke ruang pemeriksaan dokter. Dilengkapi dengan fasilitas pendukung yang modern dan steril, area ini memastikan setiap pasien mendapatkan pelayanan yang cepat, ramah, dan terstruktur dengan baik sesuai standar operasional RS Columbia Asia.",
+            "aliases": [
+                "Ada apa di Nurse Station?",
+                "Jelaskan area Nurse Station"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Nurse Station",
+                "area"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apa yang dapat dilihat di area Loket Radiologi?",
+            "answer": "Ini adalah area loket dan ruang tunggu Radiologi di RS Columbia Asia, dirancang dengan estetika modern dan cerah. Area ini menampilkan meja resepsionis melengkung yang memisahkan ruang kerja staf dari ruang tunggu pasien. Di bagian depan terdapat kursi hijau untuk pasien, dan di sepanjang dinding terdapat barisan kursi tunggu berwarna hijau limau yang panjang. Dindingnya didekorasi dengan dua karya seni yang penuh warna, memberikan sentuhan artistik pada suasana medis. Lantai area resepsionis memiliki desain khas dengan bentuk amuba berwarna ungu dan biru yang menonjol di atas lantai netral, menciptakan alur visual yang menarik. Semua elemen ini dirancang untuk menciptakan lingkungan yang efisien, nyaman, dan menenangkan bagi pasien yang akan menjalani prosedur pencitraan medis.",
+            "aliases": [
+                "Ada apa di Loket Radiologi?",
+                "Jelaskan area Loket Radiologi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Loket Radiologi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apa yang dapat dilihat di area Ruang Operasi?",
+            "answer": "Ruang operasi ini dirancang untuk mendukung berbagai prosedur bedah dengan efisiensi tinggi. Dilengkapi dengan dua lampu bedah LED ganda yang memberikan pencahayaan optimal dan dapat disesuaikan. Di tengah ruangan terdapat meja operasi tertutup kain steril. Area ini juga memiliki sistem kontrol medis terintegrasi yang dipasang di dinding, menampilkan jam, pengatur waktu, indikator gas medis, dan sakelar lampu. Berbagai peralatan pendukung, termasuk troli instrumen, tiang infus, dan perangkat elektronik medis, tertata rapi di sekeliling meja. Pencahayaan utama menggunakan lampu tabung di langit-langit, dan terdapat unit pendingin atau ventilasi di dinding. Secara keseluruhan, ruangan ini mencerminkan fasilitas medis yang fungsional dan siap pakai.",
+            "aliases": [
+                "Ada apa di Ruang Operasi?",
+                "Jelaskan area Ruang Operasi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Operasi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apa yang dapat dilihat di area Nurse Station Poliklinik Umum?",
+            "answer": "Nurse Station Poliklinik Umum RS Columbia Asia dirancang untuk efisiensi operasional. Area ini adalah tempat perawat melakukan triase awal, mengelola rekam medis, dan berkomunikasi dengan tim medis lainnya. Selain itu, station ini dilengkapi dengan teknologi pemantauan dan peralatan pendukung untuk memastikan pasien menerima perawatan yang tepat waktu dan berkualitas. Ruang tunggu yang nyaman bagi pasien berada tepat di samping area ini.",
+            "aliases": [
+                "Ada apa di Nurse Station Poliklinik Umum?",
+                "Jelaskan area Nurse Station Poliklinik Umum"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Nurse Station Poliklinik Umum",
+                "area"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apa yang dapat dilihat di area Ruang X-Ray?",
+            "answer": "Ruangan ini dilengkapi dengan peralatan pencitraan medis radiografi digital (DR) yang canggih, menampilkan sistem Philips yang terdiri dari tabung X-ray di atas kepala (overheard) untuk berbagai proyeksi dan stand Bucky vertikal terpisah untuk pemeriksaan dada atau berdiri. Tata letak ini memfasilitasi akuisisi gambar yang efisien dan berkualitas tinggi untuk diagnosis yang akurat. Dilengkapi dengan tempat tidur pasien dan tirai privasi, ruangan ini memastikan kenyamanan pasien selama prosedur pencitraan sinar-X rutin.",
+            "aliases": [
+                "Ada apa di Ruang X-Ray?",
+                "Jelaskan area Ruang X-Ray"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang X-Ray",
+                "area"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apa yang dapat dilihat di area Laboratorium?",
+            "answer": "Fasilitas laboratorium yang dirancang untuk presisi, menampilkan penganalisis kimia otomatis canggih dan stasiun kerja mikroskopi khusus untuk hematologi. Didukung oleh sistem TI yang terintegrasi, laboratorium ini memastikan pemrosesan sampel yang efisien dan pelaporan hasil yang cepat serta andal, menjaga standar tertinggi dalam perawatan pasien.",
+            "aliases": [
+                "Ada apa di Laboratorium?",
+                "Jelaskan area Laboratorium"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Laboratorium",
+                "area"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apa yang dapat dilihat di area Ruang Cath Lab?",
+            "answer": "Ruang Cath Lab RS Columbia Asia adalah unit khusus yang dirancang untuk prosedur diagnostik dan intervensi kardiovaskular. Fasilitas ini dilengkapi dengan sistem pencitraan sinar-X digital terkini, yang memungkinkan tim medis untuk memvisualisasikan pembuluh darah jantung dan organ lainnya secara real-time. Ruangan ini memfasilitasi berbagai tindakan minimal invasif, termasuk angiografi koroner, pemasangan stent (angioplasti), studi elektrofisiologi, dan prosedur pembuluh darah perifer, yang dilakukan dengan presisi tinggi untuk diagnosis dan pengobatan yang cepat.",
+            "aliases": [
+                "Ada apa di Ruang Cath Lab?",
+                "Jelaskan area Ruang Cath Lab"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Cath Lab",
+                "area"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Saya sedang berada di Ruang CT Scan, area apa ini?",
+            "answer": "Ruang pemeriksaan medis yang didesain secara steril dan modern, menampilkan perangkat CT Scan canggih sebagai titik fokus utama. Unit pemindai berwarna abu-abu dan krem mendominasi ruangan, bersebelahan dengan meja pasien yang dapat disesuaikan posisinya. Di area sekitarnya terdapat peralatan pendukung seperti tiang infus dan monitor. Ruangan memiliki pencahayaan merata dari lampu panel di langit-langit dan sistem ventilasi udara. Sebuah jendela observasi kaca besar di dinding kanan memberikan pandangan ke ruang kontrol terpisah, tempat petugas operator memantau prosedur. Akses ke ruangan ini melalui dua pintu ganda yang kokoh di dinding belakang, dan terdapat area terpisah yang tertutup kaca di sudut kiri. Seluruh ruangan mempertahankan suasana klinis yang bersih dan terorganisir.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang CT Scan?",
+                "Tentang lokasi Ruang CT Scan"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang CT Scan",
+                "area"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Saya sedang berada di Ruang Tindakan Obgyn, area apa ini?",
+            "answer": "Ruangan ini dirancang khusus untuk memberikan kenyamanan dan efisiensi bagi pasien dan tenaga medis. Fitur utamanya adalah kursi pemeriksaan ginekologi elektrik berwarna hijau toska yang dapat disesuaikan posisinya secara ergonomis. Kursi ini dilengkapi dengan sandaran kaki yang dapat dilepas dan disesuaikan (adjustable stirrups) serta sandaran kepala dan lengan. Di sebelah kanan, terdapat lampu sorot mobile yang terpasang pada tiang dengan roda, memungkinkan pencahayaan yang terarah dan optimal saat prosedur berlangsung. Ruangan ini memiliki dinding putih bersih dan lantai ubin berwarna terang, menciptakan suasana yang higienis dan profesional. Selain itu, tersedia juga tempat sampah medis dan akses listrik di dinding untuk mendukung peralatan tambahan.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Tindakan Obgyn?",
+                "Tentang lokasi Ruang Tindakan Obgyn"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Tindakan Obgyn",
+                "area"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Saya sedang berada di Ruang Konsultasi Dokter, area apa ini?",
+            "answer": "Ruang konsultasi ini didesain secara komprehensif untuk mendukung alur kerja medis di rumah sakit modern. Ruangan dilengkapi dengan area meja kerja yang ergonomis bagi dokter untuk melakukan konsultasi, pencatatan rekam medis elektronik, dan peninjauan hasil rontgen melalui light box. Selain itu, terdapat tempat tidur pemeriksaan khusus yang dapat disesuaikan dan tangga pijakan, memungkinkan dokter untuk melakukan pemeriksaan fisik awal atau tindakan medis ringan secara langsung kepada pasien dalam satu ruangan yang efisien dan bersih. Tersedia juga wastafel untuk menjaga standar kebersihan dan sterilitas. Tata letak ini dirancang untuk memaksimalkan fungsionalitas dan kenyamanan baik bagi dokter maupun pasien.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Konsultasi Dokter?",
+                "Tentang lokasi Ruang Konsultasi Dokter"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Konsultasi Dokter",
+                "area"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Saya sedang berada di Area Lobi, area apa ini?",
+            "answer": "Area lobi rumah sakit ini didesain dengan gaya modern yang bersih dan pencahayaan hangat, menciptakan suasana yang profesional namun nyaman. Di sisi kiri terdapat meja pendaftaran utama yang luas berwarna putih dengan aksen hijau toska, dilengkapi dengan logo Columbia Asia dan layar komputer, berfungsi sebagai titik kontak utama untuk pasien dan pengunjung melakukan registrasi dan administrasi. Di bagian belakang meja terdapat akses menuju area klinik yang lebih dalam. Di sebelah kanan, terdapat pintu kayu ganda dengan tanda bertuliskan \"STROKE CENTER,\" menunjukkan akses khusus ke unit layanan neurologi. Di depannya tersedia deretan kursi tunggu berbahan kulit hitam untuk kenyamanan pasien selama menunggu giliran. Di sudut kanan jauh, terdapat tangga terbuka dengan pegangan baja yang melingkar ke atas, memberikan akses ke tingkat berikutnya. Area ini juga dilengkapi dengan fitur keselamatan seperti alat pemadam api dan lampu darurat yang dipasang di dinding.",
+            "aliases": [
+                "Di mana saya sekarang di Area Lobi?",
+                "Tentang lokasi Area Lobi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Area Lobi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Saya sedang berada di Ruang Rawat Inap, area apa ini?",
+            "answer": "Ruang rawat inap ini dirancang untuk memberikan kenyamanan optimal dan kemudahan perawatan bagi pasien. Dilengkapi dengan tempat tidur pasien elektrik yang dapat disesuaikan posisinya untuk menunjang kenyamanan dan proses penyembuhan. Di sisi tempat tidur terdapat nakas untuk barang-barang pribadi dan tiang infus untuk pemberian cairan obat. Fasilitas penunjang lainnya mencakup sofa panjang sebagai area duduk bagi keluarga atau pendamping pasien, serta meja makan portabel yang dapat didekatkan ke tempat tidur. Pencahayaan alami disediakan oleh jendela besar dengan gorden, sementara pencahayaan buatan terintegrasi di atas tempat tidur. Ruangan ini juga dilengkapi dengan panel kontrol panggilan perawat, telepon, dan sistem pendingin udara untuk kenyamanan lingkungan pasien. Hiasan dinding berupa lukisan bunga memberikan sentuhan keindahan dan ketenangan. Secara keseluruhan, tata letak dan fasilitas ruangan ini mendukung pemantauan medis yang efisien sekaligus menciptakan suasana yang mendukung bagi pemulihan pasien.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Rawat Inap?",
+                "Tentang lokasi Ruang Rawat Inap"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Rawat Inap",
+                "area"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Saya sedang berada di Ruang Bersalin, area apa ini?",
+            "answer": "Ruang bersalin ini dirancang khusus untuk memberikan kenyamanan dan keamanan maksimal bagi ibu dan bayi. Dilengkapi dengan teknologi terkini, ruangan ini memiliki inkubator bayi untuk perawatan pasca persalinan yang mendesak, meja resusitasi untuk penanganan darurat, monitor detak jantung janin (CTG) untuk memantau kesehatan bayi secara berkala, dan tempat tidur pemeriksaan ginekologi yang ergonomis. Lingkungan yang tenang dan staf medis yang berpengalaman siap memberikan pelayanan prima selama proses persalinan.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Bersalin?",
+                "Tentang lokasi Ruang Bersalin"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Bersalin",
+                "area"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Saya sedang berada di Poliklinik, area apa ini?",
+            "answer": "Area tunggu poliklinik yang luas dan dirancang untuk kenyamanan pasien. Koridor ini memiliki lantai berkarpet biru yang dipadukan dengan lantai ubin di pinggirnya, dan dilengkapi dengan deretan kursi baja tahan lama untuk pasien dan pengunjung. Dinding berwarna hijau muda memberikan kesan tenang dan bersih. Pencahayaan langit-langit terdiri dari lampu tanam dan lampu cove melingkar yang memberikan suasana hangat. Di sepanjang koridor terdapat beberapa pintu kayu yang mengarah ke ruang konsultasi dan pemeriksaan dokter. Sebuah meja resepsionis kecil terlihat di kejauhan di samping area tunggu, dan terdapat layar televisi yang dipasang di dinding untuk kenyamanan pasien selama menunggu. Desainnya modern, fungsional, dan mudah dinavigasi.",
+            "aliases": [
+                "Di mana saya sekarang di Poliklinik?",
+                "Tentang lokasi Poliklinik"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Poliklinik",
+                "area"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Saya sedang berada di Ruang Bayi, area apa ini?",
+            "answer": "Ruang perawatan bayi ini dirancang dengan standar medis tinggi dan kenyamanan optimal. Dilengkapi dengan dua inkubator neonatus (satu model tertutup dan satu model terbuka dengan penghangat radiasi) yang memiliki fitur lengkap, termasuk tiang infus dan troli medis terintegrasi, untuk memberikan perawatan intensif dan pemantauan terus-menerus bagi bayi baru lahir yang membutuhkan perhatian khusus. Terdapat pula wastafel khusus untuk menjaga kebersihan tenaga medis. Desain interior dinding berwarna biru muda dengan stiker motif balon udara yang ceria menciptakan suasana yang menenangkan dan tidak menakutkan bagi keluarga, sementara peralatan medis tertata rapi dan mudah diakses untuk efisiensi penanganan gawat darurat. Sistem pencahayaan dan ventilasi langit-langit memastikan lingkungan yang steril dan terkontrol.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Bayi?",
+                "Tentang lokasi Ruang Bayi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Bayi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Saya sedang berada di Area Masuk, area apa ini?",
+            "answer": "Area masuk fasilitas kesehatan ini dirancang untuk kemudahan aksesibilitas pasien dan pengunjung. Terdapat jalur kendaraan aspal yang lebar yang membentuk lingkaran (drop-off zone) di depan pintu masuk utama, memungkinkan kendaraan untuk berhenti dan menurunkan penumpang dengan mudah, bahkan dalam keadaan hujan berkat adanya kanopi modern. Area ini memiliki lanskap yang tertata rapi dengan tanaman hijau, yang memperindah pemandangan dan menciptakan suasana yang ramah. Fasad gedung yang didominasi oleh dinding kaca dan panel logam memberikan kesan modern dan profesional. Area ini juga menyediakan akses parkir yang luas di sekeliling gedung serta trotoar bagi pejalan kaki, memastikan kelancaran arus lalu lintas baik untuk kendaraan maupun pejalan kaki.",
+            "aliases": [
+                "Di mana saya sekarang di Area Masuk?",
+                "Tentang lokasi Area Masuk"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Area Masuk",
+                "area"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Saya sedang berada di Loket Bank Darah, area apa ini?",
+            "answer": "Area pelayanan bank darah ini dirancang dengan nuansa warna putih dan hijau toska yang bersih serta profesional. Bagian depan dilengkapi dengan meja konter panjang yang berfungsi sebagai pusat informasi, pendaftaran, serta pemrosesan administrasi terkait kebutuhan darah pasien. Di sebelah area konter terdapat ruang tindakan yang dilengkapi dengan kursi medis khusus berwarna hijau cerah, yang digunakan untuk kenyamanan pasien atau pendonor selama proses pengambilan sampel darah maupun prosedur medis terkait berlangsung. Ruangan ini juga memiliki pencahayaan alami yang baik dari jendela besar untuk menciptakan suasana yang steril, nyaman, dan ramah bagi pengunjung.",
+            "aliases": [
+                "Di mana saya sekarang di Loket Bank Darah?",
+                "Tentang lokasi Loket Bank Darah"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Loket Bank Darah",
+                "area"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Saya sedang berada di Nurse Station, area apa ini?",
+            "answer": "Area pusat pelayanan perawat ini berfungsi sebagai titik koordinasi utama bagi tenaga medis dalam mengelola alur pelayanan pasien, termasuk proses administrasi awal, penjadwalan konsultasi, serta pemantauan rekam medis sebelum pasien diarahkan ke ruang pemeriksaan dokter. Dilengkapi dengan fasilitas pendukung yang modern dan steril, area ini memastikan setiap pasien mendapatkan pelayanan yang cepat, ramah, dan terstruktur dengan baik sesuai standar operasional RS Columbia Asia.",
+            "aliases": [
+                "Di mana saya sekarang di Nurse Station?",
+                "Tentang lokasi Nurse Station"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Nurse Station",
+                "area"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Saya sedang berada di Loket Radiologi, area apa ini?",
+            "answer": "Ini adalah area loket dan ruang tunggu Radiologi di RS Columbia Asia, dirancang dengan estetika modern dan cerah. Area ini menampilkan meja resepsionis melengkung yang memisahkan ruang kerja staf dari ruang tunggu pasien. Di bagian depan terdapat kursi hijau untuk pasien, dan di sepanjang dinding terdapat barisan kursi tunggu berwarna hijau limau yang panjang. Dindingnya didekorasi dengan dua karya seni yang penuh warna, memberikan sentuhan artistik pada suasana medis. Lantai area resepsionis memiliki desain khas dengan bentuk amuba berwarna ungu dan biru yang menonjol di atas lantai netral, menciptakan alur visual yang menarik. Semua elemen ini dirancang untuk menciptakan lingkungan yang efisien, nyaman, dan menenangkan bagi pasien yang akan menjalani prosedur pencitraan medis.",
+            "aliases": [
+                "Di mana saya sekarang di Loket Radiologi?",
+                "Tentang lokasi Loket Radiologi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Loket Radiologi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Saya sedang berada di Ruang Operasi, area apa ini?",
+            "answer": "Ruang operasi ini dirancang untuk mendukung berbagai prosedur bedah dengan efisiensi tinggi. Dilengkapi dengan dua lampu bedah LED ganda yang memberikan pencahayaan optimal dan dapat disesuaikan. Di tengah ruangan terdapat meja operasi tertutup kain steril. Area ini juga memiliki sistem kontrol medis terintegrasi yang dipasang di dinding, menampilkan jam, pengatur waktu, indikator gas medis, dan sakelar lampu. Berbagai peralatan pendukung, termasuk troli instrumen, tiang infus, dan perangkat elektronik medis, tertata rapi di sekeliling meja. Pencahayaan utama menggunakan lampu tabung di langit-langit, dan terdapat unit pendingin atau ventilasi di dinding. Secara keseluruhan, ruangan ini mencerminkan fasilitas medis yang fungsional dan siap pakai.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Operasi?",
+                "Tentang lokasi Ruang Operasi"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Operasi",
+                "area"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Saya sedang berada di Nurse Station Poliklinik Umum, area apa ini?",
+            "answer": "Nurse Station Poliklinik Umum RS Columbia Asia dirancang untuk efisiensi operasional. Area ini adalah tempat perawat melakukan triase awal, mengelola rekam medis, dan berkomunikasi dengan tim medis lainnya. Selain itu, station ini dilengkapi dengan teknologi pemantauan dan peralatan pendukung untuk memastikan pasien menerima perawatan yang tepat waktu dan berkualitas. Ruang tunggu yang nyaman bagi pasien berada tepat di samping area ini.",
+            "aliases": [
+                "Di mana saya sekarang di Nurse Station Poliklinik Umum?",
+                "Tentang lokasi Nurse Station Poliklinik Umum"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Nurse Station Poliklinik Umum",
+                "area"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Saya sedang berada di Ruang X-Ray, area apa ini?",
+            "answer": "Ruangan ini dilengkapi dengan peralatan pencitraan medis radiografi digital (DR) yang canggih, menampilkan sistem Philips yang terdiri dari tabung X-ray di atas kepala (overheard) untuk berbagai proyeksi dan stand Bucky vertikal terpisah untuk pemeriksaan dada atau berdiri. Tata letak ini memfasilitasi akuisisi gambar yang efisien dan berkualitas tinggi untuk diagnosis yang akurat. Dilengkapi dengan tempat tidur pasien dan tirai privasi, ruangan ini memastikan kenyamanan pasien selama prosedur pencitraan sinar-X rutin.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang X-Ray?",
+                "Tentang lokasi Ruang X-Ray"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang X-Ray",
+                "area"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Saya sedang berada di Laboratorium, area apa ini?",
+            "answer": "Fasilitas laboratorium yang dirancang untuk presisi, menampilkan penganalisis kimia otomatis canggih dan stasiun kerja mikroskopi khusus untuk hematologi. Didukung oleh sistem TI yang terintegrasi, laboratorium ini memastikan pemrosesan sampel yang efisien dan pelaporan hasil yang cepat serta andal, menjaga standar tertinggi dalam perawatan pasien.",
+            "aliases": [
+                "Di mana saya sekarang di Laboratorium?",
+                "Tentang lokasi Laboratorium"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Laboratorium",
+                "area"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Saya sedang berada di Ruang Cath Lab, area apa ini?",
+            "answer": "Ruang Cath Lab RS Columbia Asia adalah unit khusus yang dirancang untuk prosedur diagnostik dan intervensi kardiovaskular. Fasilitas ini dilengkapi dengan sistem pencitraan sinar-X digital terkini, yang memungkinkan tim medis untuk memvisualisasikan pembuluh darah jantung dan organ lainnya secara real-time. Ruangan ini memfasilitasi berbagai tindakan minimal invasif, termasuk angiografi koroner, pemasangan stent (angioplasti), studi elektrofisiologi, dan prosedur pembuluh darah perifer, yang dilakukan dengan presisi tinggi untuk diagnosis dan pengobatan yang cepat.",
+            "aliases": [
+                "Di mana saya sekarang di Ruang Cath Lab?",
+                "Tentang lokasi Ruang Cath Lab"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Cath Lab",
+                "area"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apa peran Ruang CT Scan dalam tur virtual RS Columbia?",
+            "answer": "Ruang pemeriksaan medis yang didesain secara steril dan modern, menampilkan perangkat CT Scan canggih sebagai titik fokus utama. Unit pemindai berwarna abu-abu dan krem mendominasi ruangan, bersebelahan dengan meja pasien yang dapat disesuaikan posisinya. Di area sekitarnya terdapat peralatan pendukung seperti tiang infus dan monitor. Ruangan memiliki pencahayaan merata dari lampu panel di langit-langit dan sistem ventilasi udara. Sebuah jendela observasi kaca besar di dinding kanan memberikan pandangan ke ruang kontrol terpisah, tempat petugas operator memantau prosedur. Akses ke ruangan ini melalui dua pintu ganda yang kokoh di dinding belakang, dan terdapat area terpisah yang tertutup kaca di sudut kiri. Seluruh ruangan mempertahankan suasana klinis yang bersih dan terorganisir.",
+            "aliases": [
+                "Fungsi area Ruang CT Scan",
+                "Mengapa ada Ruang CT Scan?"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang CT Scan",
+                "area"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apa peran Ruang Tindakan Obgyn dalam tur virtual RS Columbia?",
+            "answer": "Ruangan ini dirancang khusus untuk memberikan kenyamanan dan efisiensi bagi pasien dan tenaga medis. Fitur utamanya adalah kursi pemeriksaan ginekologi elektrik berwarna hijau toska yang dapat disesuaikan posisinya secara ergonomis. Kursi ini dilengkapi dengan sandaran kaki yang dapat dilepas dan disesuaikan (adjustable stirrups) serta sandaran kepala dan lengan. Di sebelah kanan, terdapat lampu sorot mobile yang terpasang pada tiang dengan roda, memungkinkan pencahayaan yang terarah dan optimal saat prosedur berlangsung. Ruangan ini memiliki dinding putih bersih dan lantai ubin berwarna terang, menciptakan suasana yang higienis dan profesional. Selain itu, tersedia juga tempat sampah medis dan akses listrik di dinding untuk mendukung peralatan tambahan.",
+            "aliases": [
+                "Fungsi area Ruang Tindakan Obgyn",
+                "Mengapa ada Ruang Tindakan Obgyn?"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Tindakan Obgyn",
+                "area"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Apa peran Ruang Konsultasi Dokter dalam tur virtual RS Columbia?",
+            "answer": "Ruang konsultasi ini didesain secara komprehensif untuk mendukung alur kerja medis di rumah sakit modern. Ruangan dilengkapi dengan area meja kerja yang ergonomis bagi dokter untuk melakukan konsultasi, pencatatan rekam medis elektronik, dan peninjauan hasil rontgen melalui light box. Selain itu, terdapat tempat tidur pemeriksaan khusus yang dapat disesuaikan dan tangga pijakan, memungkinkan dokter untuk melakukan pemeriksaan fisik awal atau tindakan medis ringan secara langsung kepada pasien dalam satu ruangan yang efisien dan bersih. Tersedia juga wastafel untuk menjaga standar kebersihan dan sterilitas. Tata letak ini dirancang untuk memaksimalkan fungsionalitas dan kenyamanan baik bagi dokter maupun pasien.",
+            "aliases": [
+                "Fungsi area Ruang Konsultasi Dokter",
+                "Mengapa ada Ruang Konsultasi Dokter?"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Ruang Konsultasi Dokter",
+                "area"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Apa peran Area Lobi dalam tur virtual RS Columbia?",
+            "answer": "Area lobi rumah sakit ini didesain dengan gaya modern yang bersih dan pencahayaan hangat, menciptakan suasana yang profesional namun nyaman. Di sisi kiri terdapat meja pendaftaran utama yang luas berwarna putih dengan aksen hijau toska, dilengkapi dengan logo Columbia Asia dan layar komputer, berfungsi sebagai titik kontak utama untuk pasien dan pengunjung melakukan registrasi dan administrasi. Di bagian belakang meja terdapat akses menuju area klinik yang lebih dalam. Di sebelah kanan, terdapat pintu kayu ganda dengan tanda bertuliskan \"STROKE CENTER,\" menunjukkan akses khusus ke unit layanan neurologi. Di depannya tersedia deretan kursi tunggu berbahan kulit hitam untuk kenyamanan pasien selama menunggu giliran. Di sudut kanan jauh, terdapat tangga terbuka dengan pegangan baja yang melingkar ke atas, memberikan akses ke tingkat berikutnya. Area ini juga dilengkapi dengan fitur keselamatan seperti alat pemadam api dan lampu darurat yang dipasang di dinding.",
+            "aliases": [
+                "Fungsi area Area Lobi",
+                "Mengapa ada Area Lobi?"
+            ],
+            "keywords": [
+                "RS Columbia",
+                "Area Lobi",
+                "area"
+            ]
+        }
+    ]
+}

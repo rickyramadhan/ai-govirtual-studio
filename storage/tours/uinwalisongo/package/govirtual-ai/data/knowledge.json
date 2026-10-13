@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "uinwalisongo",
+    "updatedAt": "2026-09-29T09:52:50+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Uinwalisongo",
+            "aliases": [
+                "uinwalisongo"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "uinwalisongo"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Uinwalisongo.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Uinwalisongo",
+                    "content": "Pusat pengalaman virtual untuk Uinwalisongo."
+                },
+                "en": {
+                    "title": "Uinwalisongo",
+                    "content": "Pusat pengalaman virtual untuk Uinwalisongo."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "uinwalisongo"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Gedung Rektorat",
+            "aliases": [
+                "gedung rektorat"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "uinwalisongo"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gedung Rektorat",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Gedung Rektorat",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "uinwalisongo"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:376",
+            "entityId": "objinfo2:376",
+            "title": "Lab Biologi",
+            "aliases": [
+                "lab biologi",
+                "objek 376"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati.",
+            "source": "webview-import",
+            "sourceId": "376",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Biologi",
+                    "content": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati."
+                },
+                "en": {
+                    "title": "Biology Lab",
+                    "content": "The Biology Lab at UIN Walisongo consists of specific units such as the Ecology Lab, Biotechnology Lab, and Tissue Culture Lab to support student practicals and research. The facility is equipped with modern laboratory equipment to fulfill learning outcomes in biological sciences."
+                },
+                "zh": {
+                    "title": "生物實驗室",
+                    "content": "UIN Walisongo 的生物實驗室由多個專門單位組成，如生態實驗室、生物技術實驗室和組織培養實驗室，以支持學生的實驗和研究。該設施配備現代化實驗設備，以達成生命科學的學習成果。"
+                },
+                "ar": {
+                    "title": "مختبر الأحياء",
+                    "content": "مختبر الأحياء في جامعة ووليسونغو يتكون من وحدات محددة مثل مختبر البيئة، مختبر التكنولوجيا الحيوية، ومختبر زراعة الأنسجة لدعم التجارب والبحث العلمي للطلاب. المرفق مجهز بأدوات مختبرية حديثة لتحقيق مخرجات التعلم في علوم الحياة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:377",
+            "entityId": "objinfo2:377",
+            "title": "Gedung Lab Terpadu",
+            "aliases": [
+                "gedung lab terpadu",
+                "objek 377"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO.",
+            "source": "webview-import",
+            "sourceId": "377",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gedung Lab Terpadu",
+                    "content": "Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO."
+                },
+                "en": {
+                    "title": "Integrated Laboratory Building",
+                    "content": "The Integrated Laboratory Building (often called LST FST or ICT Center Building) is the university’s research hub managing various labs such as Physics, Chemistry, and Computational labs. The building plays a crucial role in providing research, testing, and calibration services while striving to meet ISO accreditation standards."
+                },
+                "zh": {
+                    "title": "綜合實驗大樓",
+                    "content": "綜合實驗大樓（通常稱為 LST FST 或 ICT 中心大樓）是大學的研究中心，管理各類實驗室，如物理、化學和計算實驗室。該大樓在提供研究、測試和校準服務方面扮演重要角色，並努力達到 ISO 認證標準。"
+                },
+                "ar": {
+                    "title": "مبنى المختبر المتكامل",
+                    "content": "مبنى المختبر المتكامل (المعروف غالبًا باسم LST FST أو مبنى مركز تكنولوجيا المعلومات والاتصالات) هو مركز البحوث الجامعي الذي يدير مختبرات مختلفة مثل الفيزياء والكيمياء والحوسبة. يلعب المبنى دورًا مهمًا في تقديم خدمات البحث والاختبار والمعايرة مع السعي لتحقيق معايير الاعتماد ISO."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:378",
+            "entityId": "objinfo2:378",
+            "title": "Ruang Kelas Kedokteran",
+            "aliases": [
+                "ruang kelas kedokteran",
+                "objek 378"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif.",
+            "source": "webview-import",
+            "sourceId": "378",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Kelas Kedokteran",
+                    "content": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif."
+                },
+                "en": {
+                    "title": "Medical Classroom",
+                    "content": "The classroom at the Faculty of Medicine, UIN Walisongo (recently inaugurated), is designed as a modern tutorial and lecture room. It is equipped with advanced technology, such as a large touch screen, to support interactive medical learning methods."
+                },
+                "zh": {
+                    "title": "醫學教室",
+                    "content": "位於瓦利松戈國立伊斯蘭大學醫學院的新教室（最近啟用）被設計為現代化的教程與講座教室。該教室配備先進技術，如大型觸控屏，以支持互動式醫學學習方法。"
+                },
+                "ar": {
+                    "title": "قاعة الطب",
+                    "content": "تم تصميم قاعة الطب في كلية الطب بجامعة UIN Walisongo (التي تم افتتاحها مؤخرًا) كغرفة دروس ومحاضرات حديثة. الغرفة مجهزة بتقنية متقدمة مثل شاشة لمس كبيرة لدعم طرق التعلم التفاعلي في الطب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:379",
+            "entityId": "objinfo2:379",
+            "title": "Teater Rektorat",
+            "aliases": [
+                "teater rektorat",
+                "objek 379"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika.",
+            "source": "webview-import",
+            "sourceId": "379",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Teater Rektorat",
+                    "content": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                },
+                "en": {
+                    "title": "Rectorate Theater",
+                    "content": "The Rectorate Theater is a large multi-purpose hall. This facility is used for academic activities such as seminars, workshops, and art performances (such as the Theater Student Activity Unit) by the campus community."
+                },
+                "zh": {
+                    "title": "校長辦公樓劇院",
+                    "content": "校長辦公樓劇院是一個大型多功能大廳。此設施供校園社群舉辦學術活動，如研討會、工作坊及藝術表演（如戲劇社）。"
+                },
+                "ar": {
+                    "title": "مسرح المستشار الجامعي",
+                    "content": "يعد مسرح المستشار الجامعي قاعة متعددة الاستخدامات كبيرة. تُستخدم هذه المرافق للأنشطة الأكاديمية مثل الندوات وورش العمل والعروض الفنية (مثل وحدة الأنشطة الطلابية للمسرح) من قبل مجتمع الجامعة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:380",
+            "entityId": "objinfo2:380",
+            "title": "Lab Komputer",
+            "aliases": [
+                "lab komputer",
+                "objek 380"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa.",
+            "source": "webview-import",
+            "sourceId": "380",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Komputer",
+                    "content": "Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa."
+                },
+                "en": {
+                    "title": "Computer Lab",
+                    "content": "The Computer Lab at UIN Walisongo is available in the ICT Center building and across various faculties, such as the Physics Computing Lab and Smart Classrooms. The facility provides high-speed internet access and adequate computer equipment to support student research, learning, and digital project development."
+                },
+                "zh": {
+                    "title": "電腦實驗室",
+                    "content": "烏寧瓦利松戈大學的電腦實驗室設於ICT中心大樓，並分布於各學院，如物理計算實驗室及智慧教室。該設施提供高速網路及足夠的電腦設備，以支持學生研究、學習及數位專案開發。"
+                },
+                "ar": {
+                    "title": "مختبر الحاسوب",
+                    "content": "مختبر الحاسوب في جامعة ووليسونغو متاح في مبنى مركز تكنولوجيا المعلومات والاتصالات وينتشر في مختلف الكليات، مثل مختبر الحوسبة الفيزيائية والفصول الذكية. توفر المرافق اتصالاً بالإنترنت عالي السرعة ومعدات حاسوب كافية لدعم أبحاث الطلاب وتعلمهم وتطوير مشاريعهم الرقمية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:381",
+            "entityId": "objinfo2:381",
+            "title": "Planetarium",
+            "aliases": [
+                "planetarium",
+                "objek 381"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa.",
+            "source": "webview-import",
+            "sourceId": "381",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Planetarium",
+                    "content": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                },
+                "en": {
+                    "title": "Planetarium",
+                    "content": "The KH. Zubair Umar Al-Jailany Planetarium is an educational and tourism facility claimed to be one of the largest university planetariums in the world. It features shows simulating celestial bodies and space phenomena, providing an immersive experience as if being in outer space."
+                },
+                "zh": {
+                    "title": "天文館",
+                    "content": "KH. Zubair Umar Al-Jailany 天文館是一個教育與觀光設施，被稱為世界上最大的校園天文館之一。該設施展示模擬天體及太空現象的表演，提供如同置身外太空的沉浸式體驗。"
+                },
+                "ar": {
+                    "title": "القبة السماوية",
+                    "content": "قبة KH. زبیر عمر الجیلاني السماوية هي منشأة تعليمية وسياحية تُعتبر واحدة من أكبر قباب الجامعات في العالم. تعرض العروض محاكاة للأجرام السماوية وظواهر الفضاء، مما يوفر تجربة غامرة وكأنك في الفضاء الخارجي."
+                }
+            }
+        }
+    ]
+}

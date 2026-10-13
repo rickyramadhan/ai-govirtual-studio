@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "queencity",
+    "tourName": "Queencity",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Beda dengan Sri Ratu?",
+                "query": "Apa perbedaan terbesar mall ini sekarang jika dibandingkan saat masih bernama Sri Ratu?",
+                "desc": "Apa perbedaan terbesar mall ini sekarang jika dibandingkan saat masih bernama Sri Ratu?"
+            },
+            {
+                "label": "Tempat nongkrong estetik?",
+                "query": "Di lantai berapa area food court atau tempat nongkrong yang memiliki desain paling bagus?",
+                "desc": "Di lantai berapa area food court atau tempat nongkrong yang memiliki desain paling bagus?"
+            },
+            {
+                "label": "Event akhir pekan?",
+                "query": "Apakah setiap akhir pekan selalu ada live music atau event pameran di atrium utamanya?",
+                "desc": "Apakah setiap akhir pekan selalu ada live music atau event pameran di atrium utamanya?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Transformasi Sri Ratu",
+                "query": "Bagaimana sejarah revitalisasi bangunan pusat perbelanjaan legendaris Sri Ratu menjadi Queens City Mall yang modern?"
+            },
+            {
+                "label": "Desain Interior Estetik",
+                "query": "Seperti apa keunikan desain tata ruang dan interior kontemporer yang menjadi magnet baru bagi anak muda?"
+            },
+            {
+                "label": "Pusat Kuliner Terpadu",
+                "query": "Bisa jelaskan konsep sentra makanan (pujasera) modern yang mengumpulkan puluhan tenan kuliner lokal terbaik?"
+            },
+            {
+                "label": "Area Hiburan Keluarga",
+                "query": "Sebutkan fasilitas hiburan interaktif dan permainan arcade apa saja yang seru untuk dimainkan bersama keluarga!"
+            },
+            {
+                "label": "Event & Pameran Kekinian",
+                "query": "Apa saja jenis kegiatan seni, pameran buku, hingga bazar fesyen yang secara rutin meramaikan hall utama?"
+            },
+            {
+                "label": "Ruang Terbuka Outdoor",
+                "query": "Bagaimana kenyamanan area outdoor atau balkon yang didesain secara khusus untuk tempat bersantai pengunjung?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Queencity?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Queencity?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Queencity?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

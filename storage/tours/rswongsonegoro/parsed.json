@@ -1,0 +1,608 @@
+{
+    "startNode": "node24",
+    "scenes": [
+        {
+            "id": "node24",
+            "name": "node24",
+            "displayName": "node24",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -16.02,
+            "tilt": -24.03,
+            "fov": 121.3,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node25",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "ballroom",
+            "pan": 1.75,
+            "tilt": 0.04,
+            "fov": 141.94,
+            "tags": [
+                "oi",
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "ballroom"
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "Teknologikanker",
+            "displayName": "Teknologikanker",
+            "rawName": "",
+            "customNodeId": "teknologikanker",
+            "pan": 24.3,
+            "tilt": -9.62,
+            "fov": 153.85,
+            "tags": [
+                "oi",
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "teknologikanker"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Cathlab",
+            "displayName": "Cathlab",
+            "rawName": "",
+            "customNodeId": "cathlab",
+            "pan": 26.43,
+            "tilt": -5.34,
+            "fov": 153.85,
+            "tags": [
+                "oi",
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "cathlab"
+            ]
+        },
+        {
+            "id": "node28",
+            "name": "IGD",
+            "displayName": "IGD",
+            "rawName": "",
+            "customNodeId": "-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "IGD"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "-allroom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Ballroom"
+            ]
+        },
+        {
+            "id": "node30",
+            "name": "Mriscan",
+            "displayName": "Mriscan",
+            "rawName": "",
+            "customNodeId": "mriscan",
+            "pan": 4.22,
+            "tilt": -13.27,
+            "fov": 153.85,
+            "tags": [
+                "oi",
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "mriscan"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Ruangoperasi",
+            "displayName": "Ruangoperasi",
+            "rawName": "",
+            "customNodeId": "ruangoperasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "ruangoperasi"
+            ]
+        },
+        {
+            "id": "node32",
+            "name": "Kamar Rawat Inap VVIP",
+            "displayName": "Kamar Rawat Inap VVIP",
+            "rawName": "",
+            "customNodeId": "-amar-awat-nap-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Kamar Rawat Inap VVIP"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Kamar VVIP",
+            "displayName": "Kamar VVIP",
+            "rawName": "",
+            "customNodeId": "-amar-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Kamar VVIP"
+            ]
+        },
+        {
+            "id": "node38",
+            "name": "Kamar Rawat Inap",
+            "displayName": "Kamar Rawat Inap",
+            "rawName": "",
+            "customNodeId": "-amar-awat-nap",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Kamar Rawat Inap"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "Kamar Rawat Inap",
+            "displayName": "Kamar Rawat Inap",
+            "rawName": "",
+            "customNodeId": "-amar-awat-nap",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Kamar Rawat Inap"
+            ]
+        },
+        {
+            "id": "node40",
+            "name": "Ruang Sport Injury",
+            "displayName": "Ruang Sport Injury",
+            "rawName": "",
+            "customNodeId": "-uang-port-njury",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Ruang Sport Injury"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "Hidroterapi",
+            "displayName": "Hidroterapi",
+            "rawName": "",
+            "customNodeId": "hidroterapi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "hidroterapi"
+            ]
+        },
+        {
+            "id": "node42",
+            "name": "Ruang Terapi Anak Berkebutuhan Khusus",
+            "displayName": "Ruang Terapi Anak Berkebutuhan Khusus",
+            "rawName": "",
+            "customNodeId": "-uang-erapi-nak-erkebutuhan-husus",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Ruang Terapi Anak Berkebutuhan Khusus"
+            ]
+        },
+        {
+            "id": "node43",
+            "name": "Paviliun Gatotkaca",
+            "displayName": "Paviliun Gatotkaca",
+            "rawName": "",
+            "customNodeId": "-aviliun-atotkaca",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Paviliun Gatotkaca"
+            ]
+        },
+        {
+            "id": "node44",
+            "name": "Gedung Pelayanan Kanker Terpadu",
+            "displayName": "Gedung Pelayanan Kanker Terpadu",
+            "rawName": "",
+            "customNodeId": "-edung-elayanan-anker-erpadu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "RSWongsonegoro"
+            ],
+            "aliases": [
+                "Gedung Pelayanan Kanker Terpadu"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node24",
+            "target": "node28",
+            "title": "IGD",
+            "id": "Point01",
+            "pan": -323.85,
+            "tilt": -14.12
+        },
+        {
+            "scene": "node24",
+            "target": "node43",
+            "title": "Paviliun Gatotkaca",
+            "id": "Point02",
+            "pan": -3.98,
+            "tilt": -47.17
+        },
+        {
+            "scene": "node24",
+            "target": "node44",
+            "title": "Gedung Pelayanan Kanker Terpadu",
+            "id": "Point03",
+            "pan": -38.81,
+            "tilt": -22.35
+        },
+        {
+            "scene": "node25",
+            "target": "node29",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -140.34,
+            "tilt": -3.85
+        },
+        {
+            "scene": "node26",
+            "target": "node44",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -75.77,
+            "tilt": -10.1
+        },
+        {
+            "scene": "node27",
+            "target": "node30",
+            "title": "MRI Scan",
+            "id": "Point01",
+            "pan": -63.87,
+            "tilt": -15.9
+        },
+        {
+            "scene": "node27",
+            "target": "node40",
+            "title": "Ruang Sport Injury",
+            "id": "Point02",
+            "pan": -119.67,
+            "tilt": -27.62
+        },
+        {
+            "scene": "node28",
+            "target": "node40",
+            "title": "Ruang Sport Injury",
+            "id": "Point01",
+            "pan": -274.66,
+            "tilt": -2.48
+        },
+        {
+            "scene": "node28",
+            "target": "node29",
+            "title": "Ballroom",
+            "id": "Point02",
+            "pan": -130.68,
+            "tilt": -3.83
+        },
+        {
+            "scene": "node29",
+            "target": "node25",
+            "title": "Ballroom",
+            "id": "Point01",
+            "pan": -89.82,
+            "tilt": -3.69
+        },
+        {
+            "scene": "node29",
+            "target": "node28",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -27.09,
+            "tilt": -8.88
+        },
+        {
+            "scene": "node29",
+            "target": "node43",
+            "title": "Pavilium Gatot Kaca",
+            "id": "Point03",
+            "pan": -5.7,
+            "tilt": -0.6
+        },
+        {
+            "scene": "node30",
+            "target": "node27",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -191.54,
+            "tilt": -20.22
+        },
+        {
+            "scene": "node30",
+            "target": "node31",
+            "title": "Ruang Operasi",
+            "id": "Point02",
+            "pan": -69.35,
+            "tilt": -17.09
+        },
+        {
+            "scene": "node31",
+            "target": "node30",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -66.55,
+            "tilt": -9.5
+        },
+        {
+            "scene": "node32",
+            "target": "node43",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -105.91,
+            "tilt": -9.04
+        },
+        {
+            "scene": "node32",
+            "target": "node33",
+            "title": "Kamar VVIP",
+            "id": "Point02",
+            "pan": -3.65,
+            "tilt": -14.54
+        },
+        {
+            "scene": "node33",
+            "target": "node32",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -140.73,
+            "tilt": -15.9
+        },
+        {
+            "scene": "node38",
+            "target": "node43",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -15,
+            "tilt": -19.79
+        },
+        {
+            "scene": "node38",
+            "target": "node39",
+            "title": "Kamar Rawat Inap",
+            "id": "Point02",
+            "pan": -195.74,
+            "tilt": -7.23
+        },
+        {
+            "scene": "node39",
+            "target": "node38",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -64.28,
+            "tilt": -4.91
+        },
+        {
+            "scene": "node40",
+            "target": "node41",
+            "title": "Ruang Hydrotheraphy",
+            "id": "Point01",
+            "pan": -115.97,
+            "tilt": -6.34
+        },
+        {
+            "scene": "node40",
+            "target": "node42",
+            "title": "Ruang Terapi Anak Berkebutuhan Khusus",
+            "id": "Point02",
+            "pan": -90.05,
+            "tilt": -2.92
+        },
+        {
+            "scene": "node40",
+            "target": "node28",
+            "title": "IGD",
+            "id": "Point03",
+            "pan": -151.27,
+            "tilt": -6.42
+        },
+        {
+            "scene": "node40",
+            "target": "node27",
+            "title": "Gedung Laboratorium",
+            "id": "Point04",
+            "pan": -33.83,
+            "tilt": -5.63
+        },
+        {
+            "scene": "node41",
+            "target": "node40",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -215.77,
+            "tilt": -14.42
+        },
+        {
+            "scene": "node42",
+            "target": "node40",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -253,
+            "tilt": -23
+        },
+        {
+            "scene": "node43",
+            "target": "node32",
+            "title": "Kamar Rawat Inap VVIP",
+            "id": "Point01",
+            "pan": -51.05,
+            "tilt": -4.01
+        },
+        {
+            "scene": "node43",
+            "target": "node38",
+            "title": "Kamar Rawat Inap",
+            "id": "Point02",
+            "pan": -319.94,
+            "tilt": -4.46
+        },
+        {
+            "scene": "node43",
+            "target": "node29",
+            "title": "Ballroom",
+            "id": "Point03",
+            "pan": -230.99,
+            "tilt": -8.56
+        },
+        {
+            "scene": "node43",
+            "target": "node44",
+            "title": "Gedung Unit Layanan Kanker Terpadu",
+            "id": "Point04",
+            "pan": -140.15,
+            "tilt": -6.87
+        },
+        {
+            "scene": "node44",
+            "target": "node43",
+            "title": "Paviliun Gatotkaca",
+            "id": "Point01",
+            "pan": -235.9,
+            "tilt": -9.05
+        },
+        {
+            "scene": "node44",
+            "target": "node26",
+            "title": "LINAC",
+            "id": "Point02",
+            "pan": -306.97,
+            "tilt": -11.83
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1124,
+            "label": "Ballroom",
+            "description": "RSWN memiliki fasilitas Ballroom yang terletak di gedung Paviliun Amarta. Ruangan ini tidak hanya berfungsi untuk kegiatan internal, tetapi juga menjadi pusat edukasi medis. Digunakan untuk seminar kesehatan, pertemuan ilmiah para dokter, serta acara-acara formal lainnya. Memiliki kapasitas yang cukup besar dengan fasilitas audio-visual modern, yang mencerminkan RSWN sebagai \"Smart Hospital.\"",
+            "fragment": "ballroom",
+            "link": "rswongsonegoro/index.html#ballroom",
+            "sceneId": "node25"
+        },
+        {
+            "infoId": 1125,
+            "label": "Ruang Operasi",
+            "description": "RSWN mengoperasikan kamar bedah yang terintegrasi untuk berbagai tindakan, mulai dari bedah umum hingga bedah saraf dan jantung. Menggunakan standar Modular Operating Theatre (MOT), sebuah sistem ruang operasi yang terintegrasi dalam satu panel kontrol sehingga lebih higienis, efisien, dan aman. Mendukung tindakan bedah minimal invasif (laparoskopi) yang memungkinkan pemulihan pasien jauh lebih cepat.",
+            "fragment": "ruangoperasi",
+            "link": "rswongsonegoro/index.html#ruangoperasi",
+            "sceneId": "node31"
+        },
+        {
+            "infoId": 1126,
+            "label": "Hidroterapi",
+            "description": "Ini adalah salah satu fasilitas unggulan RSWN yang jarang dimiliki rumah sakit lain secara lengkap di Jawa Tengah. Terapi rehabilitasi yang memanfaatkan media air untuk pemulihan fisik. Sangat efektif bagi pasien pasca-stroke, pasien dengan masalah sendi, saraf terjepit (HNP), atau rehabilitasi cedera olahraga karena beban tubuh berkurang saat berada di dalam air.",
+            "fragment": "hidroterapi",
+            "link": "rswongsonegoro/index.html#hidroterapi",
+            "sceneId": "node41"
+        },
+        {
+            "infoId": 1127,
+            "label": "Teknologi Kanker",
+            "description": "RSWN terus mengembangkan layanan kanker dengan teknologi terbaru guna memfasilitasi deteksi dini dan pengobatan intensif. Mencakup layanan kemoterapi yang nyaman serta deteksi melalui laboratorium patologi anatomi yang akurat. Layanan ini biasanya didukung oleh dokter spesialis onkologi multidisiplin untuk menangani berbagai jenis kanker secara komprehensif.",
+            "fragment": "teknologikanker",
+            "link": "rswongsonegoro/index.html#teknologikanker",
+            "sceneId": "node26"
+        },
+        {
+            "infoId": 1128,
+            "label": "Kateterisasi Laboratorium",
+            "description": "Fasilitas ini adalah tulang punggung layanan jantung dan pembuluh darah di RSWN. Digunakan untuk prosedur diagnostik dan intervensi jantung, seperti pemasangan ring (stent), pemetaan jantung, dan penanganan serangan jantung akut. Memungkinkan tindakan dilakukan tanpa bedah terbuka (minimal invasif), hanya melalui akses pembuluh darah kecil di pergelangan tangan atau paha.",
+            "fragment": "cathlab",
+            "link": "rswongsonegoro/index.html#cathlab",
+            "sceneId": "node27"
+        },
+        {
+            "infoId": 1129,
+            "label": "Pemindaian MRI",
+            "description": "RSWN dilengkapi dengan unit MRI terbaru (biasanya 1.5 Tesla) untuk pemeriksaan radiologi tanpa radiasi sinar-X. Menghasilkan gambar organ tubuh bagian dalam (seperti otak, saraf tulang belakang, otot, dan jaringan lunak) dengan sangat detail. Sangat krusial untuk mendiagnosis penyakit saraf, tumor, hingga cedera ligamen secara akurat tanpa efek samping radiasi bagi pasien.",
+            "fragment": "mriscan",
+            "link": "rswongsonegoro/index.html#mriscan",
+            "sceneId": "node30"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "acc5a3370580478c",
+        "skin.js": "46db6a527f6f5c0e",
+        "index.html": "a70cff8d016d2670"
+    }
+}

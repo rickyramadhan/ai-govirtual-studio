@@ -1,0 +1,1382 @@
+{
+    "version": "1.0",
+    "tourId": "dharmaboutique",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Dimana persisnya alamat dari DHARMA BOUTIQUE ROASTERY jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi DHARMA BOUTIQUE ROASTERY beralamat di Kawasan pusat kota Semarang spesialis biji kopi nusantara, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 1 dharma boutique roastery"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 1"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Apa menu kuliner andalan yang wajib dicoba saat mampir ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Menu primadona yang paling diincar pengunjung di DHARMA BOUTIQUE ROASTERY adalah manual brew single origin dan espresso-based coffee.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 2 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 2"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke DHARMA BOUTIQUE ROASTERY adalah sekitar 11-13 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 3 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 3"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Jam operasional harian DHARMA BOUTIQUE ROASTERY dimulai pukul berapa sampai jam berapa?",
+            "answer": "DHARMA BOUTIQUE ROASTERY siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 4 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 4"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apakah DHARMA BOUTIQUE ROASTERY memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, DHARMA BOUTIQUE ROASTERY dikenal karena roastery dan kedai kopi kurasi premium untuk coffee enthusiast yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 5 dharma boutique roastery"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 5"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Fasilitas pendukung apa saja yang disediakan oleh DHARMA BOUTIQUE ROASTERY untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di DHARMA BOUTIQUE ROASTERY sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta suasana tenang, minimalis, dengan aroma biji kopi segar.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 6 dharma boutique roastery"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 6"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah suasana di DHARMA BOUTIQUE ROASTERY cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena DHARMA BOUTIQUE ROASTERY menawarkan suasana tenang, minimalis, dengan aroma biji kopi segar yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 7 dharma boutique roastery"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 7"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Sebagai pelengkap, DHARMA BOUTIQUE ROASTERY juga menyediakan biji kopi kemasan siap seduh dan artisan cookies yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 8 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 8"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah lokasi DHARMA BOUTIQUE ROASTERY dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, DHARMA BOUTIQUE ROASTERY berada di dekat Pusat Kota Semarang, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 9 dharma boutique roastery"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 9"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apakah DHARMA BOUTIQUE ROASTERY menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan DHARMA BOUTIQUE ROASTERY sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 10 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 10"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Bagaimana cara terbaik menuju DHARMA BOUTIQUE ROASTERY jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Kawasan pusat kota Semarang spesialis biji kopi nusantara dengan berkendara sekitar sekitar 11-13 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 11 dharma boutique roastery"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 11"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apakah restoran atau tempat DHARMA BOUTIQUE ROASTERY ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 12 dharma boutique roastery"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 12"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Adakah rekomendasi waktu terbaik untuk berkunjung ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 13 dharma boutique roastery"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 13"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apakah tersedia area khusus indoor maupun outdoor di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Tergantung pada zona area tempatnya, DHARMA BOUTIQUE ROASTERY menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 14 dharma boutique roastery"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 14"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 15 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 15"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apakah staf atau pelayan di DHARMA BOUTIQUE ROASTERY sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di DHARMA BOUTIQUE ROASTERY terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 16 dharma boutique roastery"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 16"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Halo, saya ingin bertanya, dimana persisnya alamat dari DHARMA BOUTIQUE ROASTERY jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi DHARMA BOUTIQUE ROASTERY beralamat di Kawasan pusat kota Semarang spesialis biji kopi nusantara, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 17 dharma boutique roastery"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 17"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Halo, saya ingin bertanya, apa menu kuliner andalan yang wajib dicoba saat mampir ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Menu primadona yang paling diincar pengunjung di DHARMA BOUTIQUE ROASTERY adalah manual brew single origin dan espresso-based coffee.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 18 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 18"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Halo, saya ingin bertanya, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke DHARMA BOUTIQUE ROASTERY adalah sekitar 11-13 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 19 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 19"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Halo, saya ingin bertanya, jam operasional harian DHARMA BOUTIQUE ROASTERY dimulai pukul berapa sampai jam berapa?",
+            "answer": "DHARMA BOUTIQUE ROASTERY siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 20 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 20"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Halo, saya ingin bertanya, apakah DHARMA BOUTIQUE ROASTERY memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, DHARMA BOUTIQUE ROASTERY dikenal karena roastery dan kedai kopi kurasi premium untuk coffee enthusiast yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 21 dharma boutique roastery"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 21"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Halo, saya ingin bertanya, fasilitas pendukung apa saja yang disediakan oleh DHARMA BOUTIQUE ROASTERY untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di DHARMA BOUTIQUE ROASTERY sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta suasana tenang, minimalis, dengan aroma biji kopi segar.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 22 dharma boutique roastery"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 22"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Halo, saya ingin bertanya, apakah suasana di DHARMA BOUTIQUE ROASTERY cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena DHARMA BOUTIQUE ROASTERY menawarkan suasana tenang, minimalis, dengan aroma biji kopi segar yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 23 dharma boutique roastery"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 23"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Halo, saya ingin bertanya, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Sebagai pelengkap, DHARMA BOUTIQUE ROASTERY juga menyediakan biji kopi kemasan siap seduh dan artisan cookies yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 24 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 24"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Halo, saya ingin bertanya, apakah lokasi DHARMA BOUTIQUE ROASTERY dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, DHARMA BOUTIQUE ROASTERY berada di dekat Pusat Kota Semarang, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 25 dharma boutique roastery"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 25"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Halo, saya ingin bertanya, apakah DHARMA BOUTIQUE ROASTERY menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan DHARMA BOUTIQUE ROASTERY sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 26 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 26"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Halo, saya ingin bertanya, bagaimana cara terbaik menuju DHARMA BOUTIQUE ROASTERY jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Kawasan pusat kota Semarang spesialis biji kopi nusantara dengan berkendara sekitar sekitar 11-13 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 27 dharma boutique roastery"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 27"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Halo, saya ingin bertanya, apakah restoran atau tempat DHARMA BOUTIQUE ROASTERY ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 28 dharma boutique roastery"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 28"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Halo, saya ingin bertanya, adakah rekomendasi waktu terbaik untuk berkunjung ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 29 dharma boutique roastery"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 29"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Halo, saya ingin bertanya, apakah tersedia area khusus indoor maupun outdoor di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Tergantung pada zona area tempatnya, DHARMA BOUTIQUE ROASTERY menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 30 dharma boutique roastery"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 30"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Halo, saya ingin bertanya, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 31 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 31"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Halo, saya ingin bertanya, apakah staf atau pelayan di DHARMA BOUTIQUE ROASTERY sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di DHARMA BOUTIQUE ROASTERY terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 32 dharma boutique roastery"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 32"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Bisa jelaskan kepada saya, dimana persisnya alamat dari DHARMA BOUTIQUE ROASTERY jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi DHARMA BOUTIQUE ROASTERY beralamat di Kawasan pusat kota Semarang spesialis biji kopi nusantara, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 33 dharma boutique roastery"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 33"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Bisa jelaskan kepada saya, apa menu kuliner andalan yang wajib dicoba saat mampir ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Menu primadona yang paling diincar pengunjung di DHARMA BOUTIQUE ROASTERY adalah manual brew single origin dan espresso-based coffee.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 34 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 34"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Bisa jelaskan kepada saya, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke DHARMA BOUTIQUE ROASTERY adalah sekitar 11-13 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 35 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 35"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Bisa jelaskan kepada saya, jam operasional harian DHARMA BOUTIQUE ROASTERY dimulai pukul berapa sampai jam berapa?",
+            "answer": "DHARMA BOUTIQUE ROASTERY siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 36 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 36"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Bisa jelaskan kepada saya, apakah DHARMA BOUTIQUE ROASTERY memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, DHARMA BOUTIQUE ROASTERY dikenal karena roastery dan kedai kopi kurasi premium untuk coffee enthusiast yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 37 dharma boutique roastery"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 37"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Bisa jelaskan kepada saya, fasilitas pendukung apa saja yang disediakan oleh DHARMA BOUTIQUE ROASTERY untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di DHARMA BOUTIQUE ROASTERY sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta suasana tenang, minimalis, dengan aroma biji kopi segar.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 38 dharma boutique roastery"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 38"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Bisa jelaskan kepada saya, apakah suasana di DHARMA BOUTIQUE ROASTERY cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena DHARMA BOUTIQUE ROASTERY menawarkan suasana tenang, minimalis, dengan aroma biji kopi segar yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 39 dharma boutique roastery"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 39"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Bisa jelaskan kepada saya, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Sebagai pelengkap, DHARMA BOUTIQUE ROASTERY juga menyediakan biji kopi kemasan siap seduh dan artisan cookies yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 40 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 40"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Bisa jelaskan kepada saya, apakah lokasi DHARMA BOUTIQUE ROASTERY dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, DHARMA BOUTIQUE ROASTERY berada di dekat Pusat Kota Semarang, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 41 dharma boutique roastery"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 41"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Bisa jelaskan kepada saya, apakah DHARMA BOUTIQUE ROASTERY menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan DHARMA BOUTIQUE ROASTERY sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 42 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 42"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Bisa jelaskan kepada saya, bagaimana cara terbaik menuju DHARMA BOUTIQUE ROASTERY jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Kawasan pusat kota Semarang spesialis biji kopi nusantara dengan berkendara sekitar sekitar 11-13 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 43 dharma boutique roastery"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 43"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Bisa jelaskan kepada saya, apakah restoran atau tempat DHARMA BOUTIQUE ROASTERY ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 44 dharma boutique roastery"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 44"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Bisa jelaskan kepada saya, adakah rekomendasi waktu terbaik untuk berkunjung ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 45 dharma boutique roastery"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 45"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Bisa jelaskan kepada saya, apakah tersedia area khusus indoor maupun outdoor di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Tergantung pada zona area tempatnya, DHARMA BOUTIQUE ROASTERY menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 46 dharma boutique roastery"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 46"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Bisa jelaskan kepada saya, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 47 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 47"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Bisa jelaskan kepada saya, apakah staf atau pelayan di DHARMA BOUTIQUE ROASTERY sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di DHARMA BOUTIQUE ROASTERY terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 48 dharma boutique roastery"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 48"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Tolong infokan, dimana persisnya alamat dari DHARMA BOUTIQUE ROASTERY jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi DHARMA BOUTIQUE ROASTERY beralamat di Kawasan pusat kota Semarang spesialis biji kopi nusantara, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 49 dharma boutique roastery"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 49"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Tolong infokan, apa menu kuliner andalan yang wajib dicoba saat mampir ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Menu primadona yang paling diincar pengunjung di DHARMA BOUTIQUE ROASTERY adalah manual brew single origin dan espresso-based coffee.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 50 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 50"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Tolong infokan, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke DHARMA BOUTIQUE ROASTERY adalah sekitar 11-13 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 51 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 51"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Tolong infokan, jam operasional harian DHARMA BOUTIQUE ROASTERY dimulai pukul berapa sampai jam berapa?",
+            "answer": "DHARMA BOUTIQUE ROASTERY siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 52 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 52"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Tolong infokan, apakah DHARMA BOUTIQUE ROASTERY memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, DHARMA BOUTIQUE ROASTERY dikenal karena roastery dan kedai kopi kurasi premium untuk coffee enthusiast yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 53 dharma boutique roastery"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 53"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Tolong infokan, fasilitas pendukung apa saja yang disediakan oleh DHARMA BOUTIQUE ROASTERY untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di DHARMA BOUTIQUE ROASTERY sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta suasana tenang, minimalis, dengan aroma biji kopi segar.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 54 dharma boutique roastery"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 54"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Tolong infokan, apakah suasana di DHARMA BOUTIQUE ROASTERY cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena DHARMA BOUTIQUE ROASTERY menawarkan suasana tenang, minimalis, dengan aroma biji kopi segar yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 55 dharma boutique roastery"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 55"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Tolong infokan, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Sebagai pelengkap, DHARMA BOUTIQUE ROASTERY juga menyediakan biji kopi kemasan siap seduh dan artisan cookies yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 56 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 56"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Tolong infokan, apakah lokasi DHARMA BOUTIQUE ROASTERY dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, DHARMA BOUTIQUE ROASTERY berada di dekat Pusat Kota Semarang, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 57 dharma boutique roastery"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 57"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Tolong infokan, apakah DHARMA BOUTIQUE ROASTERY menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan DHARMA BOUTIQUE ROASTERY sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 58 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 58"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Tolong infokan, bagaimana cara terbaik menuju DHARMA BOUTIQUE ROASTERY jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Kawasan pusat kota Semarang spesialis biji kopi nusantara dengan berkendara sekitar sekitar 11-13 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 59 dharma boutique roastery"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 59"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Tolong infokan, apakah restoran atau tempat DHARMA BOUTIQUE ROASTERY ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 60 dharma boutique roastery"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 60"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Tolong infokan, adakah rekomendasi waktu terbaik untuk berkunjung ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 61 dharma boutique roastery"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 61"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Tolong infokan, apakah tersedia area khusus indoor maupun outdoor di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Tergantung pada zona area tempatnya, DHARMA BOUTIQUE ROASTERY menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 62 dharma boutique roastery"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 62"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Tolong infokan, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 63 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 63"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Tolong infokan, apakah staf atau pelayan di DHARMA BOUTIQUE ROASTERY sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di DHARMA BOUTIQUE ROASTERY terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 64 dharma boutique roastery"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 64"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Bagaimana detail mengenai dimana persisnya alamat dari DHARMA BOUTIQUE ROASTERY jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi DHARMA BOUTIQUE ROASTERY beralamat di Kawasan pusat kota Semarang spesialis biji kopi nusantara, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 65 dharma boutique roastery"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 65"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Bagaimana detail mengenai apa menu kuliner andalan yang wajib dicoba saat mampir ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Menu primadona yang paling diincar pengunjung di DHARMA BOUTIQUE ROASTERY adalah manual brew single origin dan espresso-based coffee.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 66 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 66"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Bagaimana detail mengenai kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke DHARMA BOUTIQUE ROASTERY adalah sekitar 11-13 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 67 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 67"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Bagaimana detail mengenai jam operasional harian DHARMA BOUTIQUE ROASTERY dimulai pukul berapa sampai jam berapa?",
+            "answer": "DHARMA BOUTIQUE ROASTERY siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 68 dharma boutique roastery"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 68"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Bagaimana detail mengenai apakah DHARMA BOUTIQUE ROASTERY memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, DHARMA BOUTIQUE ROASTERY dikenal karena roastery dan kedai kopi kurasi premium untuk coffee enthusiast yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 69 dharma boutique roastery"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 69"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Bagaimana detail mengenai fasilitas pendukung apa saja yang disediakan oleh DHARMA BOUTIQUE ROASTERY untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di DHARMA BOUTIQUE ROASTERY sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta suasana tenang, minimalis, dengan aroma biji kopi segar.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 70 dharma boutique roastery"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 70"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Bagaimana detail mengenai apakah suasana di DHARMA BOUTIQUE ROASTERY cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena DHARMA BOUTIQUE ROASTERY menawarkan suasana tenang, minimalis, dengan aroma biji kopi segar yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 71 dharma boutique roastery"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 71"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Bagaimana detail mengenai selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Sebagai pelengkap, DHARMA BOUTIQUE ROASTERY juga menyediakan biji kopi kemasan siap seduh dan artisan cookies yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 72 dharma boutique roastery"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 72"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Bagaimana detail mengenai apakah lokasi DHARMA BOUTIQUE ROASTERY dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, DHARMA BOUTIQUE ROASTERY berada di dekat Pusat Kota Semarang, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 73 dharma boutique roastery"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 73"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana detail mengenai apakah DHARMA BOUTIQUE ROASTERY menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan DHARMA BOUTIQUE ROASTERY sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 74 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 74"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana detail mengenai bagaimana cara terbaik menuju DHARMA BOUTIQUE ROASTERY jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Kawasan pusat kota Semarang spesialis biji kopi nusantara dengan berkendara sekitar sekitar 11-13 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 75 dharma boutique roastery"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 75"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Bagaimana detail mengenai apakah restoran atau tempat DHARMA BOUTIQUE ROASTERY ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 76 dharma boutique roastery"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 76"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Bagaimana detail mengenai adakah rekomendasi waktu terbaik untuk berkunjung ke DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 77 dharma boutique roastery"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 77"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Bagaimana detail mengenai apakah tersedia area khusus indoor maupun outdoor di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Tergantung pada zona area tempatnya, DHARMA BOUTIQUE ROASTERY menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 78 dharma boutique roastery"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 78"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Bagaimana detail mengenai bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di DHARMA BOUTIQUE ROASTERY?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 79 dharma boutique roastery"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 79"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Bagaimana detail mengenai apakah staf atau pelayan di DHARMA BOUTIQUE ROASTERY sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di DHARMA BOUTIQUE ROASTERY terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 80 dharma boutique roastery"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 80"
+            ]
+        }
+    ]
+}

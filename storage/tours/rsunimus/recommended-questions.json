@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "rsunimus",
+    "tourName": "Rsunimus",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jadwal Dokter",
+                "query": "Bagaimana cara melihat jadwal dokter spesialis yang praktik hari ini?",
+                "desc": "Bagaimana cara melihat jadwal dokter spesialis yang praktik hari ini?"
+            },
+            {
+                "label": "Pasien BPJS",
+                "query": "Apakah RS Unimus menerima pasien dengan tanggungan BPJS Kesehatan?",
+                "desc": "Apakah RS Unimus menerima pasien dengan tanggungan BPJS Kesehatan?"
+            },
+            {
+                "label": "Lokasi Strategis",
+                "query": "Di mana letak pasti RS Unimus dan bagaimana akses transportasi menuju ke sana?",
+                "desc": "Di mana letak pasti RS Unimus dan bagaimana akses transportasi menuju ke sana?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Rumah Sakit Pendidikan",
+                "query": "Bagaimana integrasi pelayanan medis dan pendidikan di RS Universitas Muhammadiyah Semarang ini?"
+            },
+            {
+                "label": "Layanan Unggulan",
+                "query": "Apa saja poli spesialis dan layanan unggulan yang tersedia bagi pasien di RS Unimus?"
+            },
+            {
+                "label": "Konsep Islami",
+                "query": "Bagaimana penerapan nilai-nilai dan pelayanan kesehatan berbasis Islami di lingkungan rumah sakit?"
+            },
+            {
+                "label": "Fasilitas Rawat Inap",
+                "query": "Apa saja pilihan kelas ruang rawat inap dan fasilitas kenyamanan yang ditawarkan untuk pasien?"
+            },
+            {
+                "label": "IGD 24 Jam",
+                "query": "Bagaimana kesiapan fasilitas Instalasi Gawat Darurat dan armada ambulans dalam menangani kondisi kritis?"
+            },
+            {
+                "label": "Pendaftaran Digital",
+                "query": "Bagaimana sistem pendaftaran online untuk memudahkan pasien menjadwalkan kunjungan ke dokter?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Rsunimus?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Rsunimus?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Rsunimus?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

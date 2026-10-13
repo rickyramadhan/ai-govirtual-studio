@@ -1,0 +1,888 @@
+window.GoVirtualTourData = {
+    "id": "bandengjuwana",
+    "name": "Bandeng Juwana",
+    "scenes": [
+        {
+            "id": "node2",
+            "name": "Aisle",
+            "displayName": "Aisle",
+            "rawName": "",
+            "customNodeId": "aisle",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina"
+            ],
+            "aliases": [
+                "aisle"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Expresscounter",
+            "displayName": "Expresscounter",
+            "rawName": "",
+            "customNodeId": "expresscounter",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina",
+                "oi"
+            ],
+            "aliases": [
+                "expresscounter"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Kasir",
+            "displayName": "Kasir",
+            "rawName": "",
+            "customNodeId": "kasir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina",
+                "oi"
+            ],
+            "aliases": [
+                "kasir"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Tangga",
+            "displayName": "Tangga",
+            "rawName": "",
+            "customNodeId": "tangga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina",
+                "oi"
+            ],
+            "aliases": [
+                "tangga"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Pemesanan",
+            "displayName": "Pemesanan",
+            "rawName": "",
+            "customNodeId": "pemesanan",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "BandengJuanaErlina",
+                "oi"
+            ],
+            "aliases": [
+                "pemesanan"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Area Makan",
+            "displayName": "Area Makan",
+            "rawName": "",
+            "customNodeId": "-rea-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina"
+            ],
+            "aliases": [
+                "Area Makan"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Areamakan",
+            "displayName": "Areamakan",
+            "rawName": "",
+            "customNodeId": "areamakan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina",
+                "oi"
+            ],
+            "aliases": [
+                "areamakan"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "BandengJuanaErlina"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0.17,
+            "tilt": 5.24,
+            "fov": 100.31,
+            "tags": [
+                "BandengJuanaErlina"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node2",
+            "target": "node5",
+            "title": "Kasir",
+            "id": "Point01",
+            "pan": -320.42,
+            "tilt": -5.31
+        },
+        {
+            "scene": "node4",
+            "target": "node8",
+            "title": "Antrian Pembeli",
+            "id": "Point01",
+            "pan": -160.73,
+            "tilt": -15.62
+        },
+        {
+            "scene": "node4",
+            "target": "node5",
+            "title": "Kasir",
+            "id": "Point02",
+            "pan": -282.07,
+            "tilt": -15.27
+        },
+        {
+            "scene": "node5",
+            "target": "node4",
+            "title": "Konter Ekspress",
+            "id": "Point01",
+            "pan": -289.63,
+            "tilt": -11.4
+        },
+        {
+            "scene": "node5",
+            "target": "node2",
+            "title": "Etalase Produk",
+            "id": "Point02",
+            "pan": -162.17,
+            "tilt": -12.52
+        },
+        {
+            "scene": "node5",
+            "target": "node15",
+            "title": "Pintu Keluar",
+            "id": "Point03",
+            "pan": -348.63,
+            "tilt": -17.05
+        },
+        {
+            "scene": "node6",
+            "target": "node8",
+            "title": "Konter Ekspress",
+            "id": "Point01",
+            "pan": -274.72,
+            "tilt": -14.21
+        },
+        {
+            "scene": "node6",
+            "target": "node12",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": 0.71,
+            "tilt": -1.76
+        },
+        {
+            "scene": "node8",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -178.73,
+            "tilt": -7.27
+        },
+        {
+            "scene": "node8",
+            "target": "node4",
+            "title": "Konter Ekspres",
+            "id": "Point02",
+            "pan": -280.31,
+            "tilt": -4.25
+        },
+        {
+            "scene": "node8",
+            "target": "node6",
+            "title": "Lantai 2",
+            "id": "Point03",
+            "pan": -129.86,
+            "tilt": -9.07
+        },
+        {
+            "scene": "node11",
+            "target": "node12",
+            "title": "Food Court",
+            "id": "Point01",
+            "pan": -38.5,
+            "tilt": -7.59
+        },
+        {
+            "scene": "node12",
+            "target": "node11",
+            "title": "Area Makan",
+            "id": "Point01",
+            "pan": -276.53,
+            "tilt": -3.82
+        },
+        {
+            "scene": "node12",
+            "target": "node6",
+            "title": "Lantai 1",
+            "id": "Point02",
+            "pan": -84.3,
+            "tilt": -8.11
+        },
+        {
+            "scene": "node15",
+            "target": "node5",
+            "title": "Bandeng Juana Erlina",
+            "id": "Point01",
+            "pan": 8.33,
+            "tilt": -20.5
+        },
+        {
+            "scene": "node15",
+            "target": "node16",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -209.76,
+            "tilt": -15.19
+        },
+        {
+            "scene": "node16",
+            "target": "node8",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": 359.66,
+            "tilt": -14.64
+        },
+        {
+            "scene": "node16",
+            "target": "node15",
+            "title": "Pintu Keluar",
+            "id": "Point02",
+            "pan": -175.82,
+            "tilt": -16.41
+        }
+    ],
+    "panoExits": {
+        "node2": [
+            {
+                "target": "node5",
+                "title": "Kasir",
+                "suffix": "Point01"
+            }
+        ],
+        "node4": [
+            {
+                "target": "node8",
+                "title": "Antrian Pembeli",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node5",
+                "title": "Kasir",
+                "suffix": "Point02"
+            }
+        ],
+        "node5": [
+            {
+                "target": "node4",
+                "title": "Konter Ekspress",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node2",
+                "title": "Etalase Produk",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node15",
+                "title": "Pintu Keluar",
+                "suffix": "Point03"
+            }
+        ],
+        "node6": [
+            {
+                "target": "node8",
+                "title": "Konter Ekspress",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node12",
+                "title": "Food Court",
+                "suffix": "Point02"
+            }
+        ],
+        "node8": [
+            {
+                "target": "node16",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node4",
+                "title": "Konter Ekspres",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node6",
+                "title": "Lantai 2",
+                "suffix": "Point03"
+            }
+        ],
+        "node11": [
+            {
+                "target": "node12",
+                "title": "Food Court",
+                "suffix": "Point01"
+            }
+        ],
+        "node12": [
+            {
+                "target": "node11",
+                "title": "Area Makan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node6",
+                "title": "Lantai 1",
+                "suffix": "Point02"
+            }
+        ],
+        "node15": [
+            {
+                "target": "node5",
+                "title": "Bandeng Juana Erlina",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node16",
+                "title": "Pintu Masuk",
+                "suffix": "Point02"
+            }
+        ],
+        "node16": [
+            {
+                "target": "node8",
+                "title": "Pintu Masuk",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node15",
+                "title": "Pintu Keluar",
+                "suffix": "Point02"
+            }
+        ]
+    },
+    "thumbPrefix": "ht_node_thumb_10_",
+    "routes": [],
+    "objectInfo": [
+        {
+            "infoId": 1170,
+            "label": "Aisle",
+            "description": "Toko oleh-oleh Bandeng Juwana Erlina di Semarang menata produknya dalam lorong (aisle) yang memudahkan pelanggan untuk memilih berbagai jenis olahan bandeng duri lunak (basah, kering, otak-otak) dan produk lain. Selain produk bandeng utama, lorong-lorong tersebut juga memajang aneka oleh-oleh khas Jawa Tengah lainnya, seperti tahu bakso, wingko, dan lumpia, dalam satu tempat.",
+            "fragment": "aisle",
+            "link": "bandengjuwana/index.html#aisle",
+            "sceneId": "node2"
+        },
+        {
+            "infoId": 1171,
+            "label": "Area Makan Makanan Olahan Bandeng",
+            "description": "Beberapa cabang toko oleh-oleh Bandeng Juwana Erlina (khususnya yang di Pandanaran) memiliki \"Warung Bandeng Juwana\" di lantai atas yang menyediakan area makan indoor khusus bagi pengunjung. Area ini menawarkan berbagai menu olahan bandeng yang bisa dinikmati langsung di tempat, seperti Garang Bandeng, Sop Bandeng, atau Tongseng Bandeng.",
+            "fragment": "areamakan",
+            "link": "bandengjuwana/index.html#areamakan",
+            "sceneId": "node12"
+        },
+        {
+            "infoId": 1172,
+            "label": "Express Counter",
+            "description": "Express counter (konter cepat) di Bandeng Juwana Erlina adalah jalur pelayanan yang dirancang untuk mempercepat transaksi pembelian oleh-oleh bagi pelanggan yang sudah tahu pasti produk yang akan dibeli. Fasilitas ini bertujuan untuk mengurangi antrean dan mempersingkat waktu belanja, terutama di saat ramai atau bagi para wisatawan yang terburu-buru.",
+            "fragment": "expresscounter",
+            "link": "bandengjuwana/index.html#expresscounter",
+            "sceneId": "node4"
+        }
+    ],
+    "video360": [],
+    "_sceneRegistry": {
+        "node2": {
+            "rawName": "Aisle",
+            "displayName": "Lorong Produk Oleh-oleh",
+            "placeId": "bandeng-juwana-lorong-produk-oleh-oleh",
+            "placeName": "Bandeng Juwana – Lorong Produk Oleh-oleh",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lorong Produk Oleh-oleh di Bandeng Juwana memperlihatkan rak kemasan dan lorong belanja.",
+            "description": "Lorong Produk Oleh-oleh di Bandeng Juwana memperlihatkan rak kemasan dan lorong belanja. Area belanja menampilkan barang melalui rak, etalase, atau konter. Susunan pajangan membantu pengunjung membandingkan pilihan sebelum bertransaksi. Rak memanfaatkan ruang vertikal dan membagi benda dalam kelompok yang lebih mudah dilihat. Susunannya membantu pencarian serta penataan kembali setelah digunakan.",
+            "highlights": [
+                "Rak kemasan",
+                "Lorong belanja"
+            ],
+            "talkingPoints": [
+                "Aisle",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lorong Produk Oleh-oleh di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Lorong Produk Oleh-oleh di Bandeng Juwana memperlihatkan rak kemasan dan lorong belanja."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lorong Produk Oleh-oleh?",
+                    "mode": "fix",
+                    "answer": "Rak kemasan dan Lorong belanja memperjelas susunan serta penggunaan ruang. Lorong Produk Oleh-oleh di Bandeng Juwana memperlihatkan rak kemasan dan lorong belanja."
+                },
+                {
+                    "q": "Apa fakta penting tentang Bandeng Juwana – Lorong Produk Oleh-oleh yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Toko oleh-oleh Bandeng Juwana Erlina di Semarang menata produknya dalam lorong (aisle) yang memudahkan pelanggan untuk memilih berbagai jenis olahan bandeng duri lunak (basah, kering, otak-otak) dan produk lain. Selain produk bandeng utama, lorong-lorong tersebut juga memajang aneka oleh-oleh khas Jawa Tengah lainnya, seperti tahu bakso, wingko, dan lumpia, dalam satu tempat."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1170"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Lorong Produk Oleh-oleh.",
+                "describeHere": "Aisle adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Expresscounter",
+            "displayName": "Konter Layanan Cepat",
+            "placeId": "bandeng-juwana-konter-layanan-cepat",
+            "placeName": "Bandeng Juwana – Konter Layanan Cepat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Papan produk dan etalase menjadi unsur yang terlihat pada Konter Layanan Cepat di Bandeng Juwana.",
+            "description": "Papan produk dan etalase menjadi unsur yang terlihat pada Konter Layanan Cepat di Bandeng Juwana. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan produk",
+                "Etalase"
+            ],
+            "talkingPoints": [
+                "Expresscounter",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Konter Layanan Cepat menjadi bagian penting dari Bandeng Juwana – Konter Layanan Cepat?",
+                    "mode": "fix",
+                    "answer": "Papan produk dan etalase menjadi unsur yang terlihat pada Konter Layanan Cepat di Bandeng Juwana. Papan produk dan etalase menjadi unsur yang terlihat pada Konter Layanan Cepat di Bandeng Juwana. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Beberapa cabang toko oleh-oleh Bandeng Juwana Erlina (khususnya yang di Pandanaran) memiliki \"Warung Bandeng Juwana\" di lantai atas yang menyediakan area makan indoor khusus bagi pengunjung. Area ini menawarkan berbagai menu olahan bandeng yang bisa dinikmati langsung di tempat, seperti Garang Bandeng, Sop Bandeng, atau Tongseng Bandeng."
+                },
+                {
+                    "q": "Apa hubungan Papan produk dengan aktivitas di Konter Layanan Cepat?",
+                    "mode": "fix",
+                    "answer": "Papan produk menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Papan produk dan etalase menjadi unsur yang terlihat pada Konter Layanan Cepat di Bandeng Juwana."
+                },
+                {
+                    "q": "Apa yang membedakan Konter Layanan Cepat dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Papan produk dan Etalase. Papan produk dan etalase menjadi unsur yang terlihat pada Konter Layanan Cepat di Bandeng Juwana."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1172"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Konter Layanan Cepat.",
+                "describeHere": "Expresscounter adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Kasir",
+            "displayName": "Kasir dan Antrean",
+            "placeId": "bandeng-juwana-kasir-dan-antrean",
+            "placeName": "Bandeng Juwana – Kasir dan Antrean",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Kasir dan Antrean menampilkan pembatas antrean dan meja kasir di Bandeng Juwana.",
+            "description": "Pandangan Kasir dan Antrean menampilkan pembatas antrean dan meja kasir di Bandeng Juwana. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Pembatas antrean",
+                "Meja kasir"
+            ],
+            "talkingPoints": [
+                "Kasir",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Kasir dan Antrean?",
+                    "mode": "fix",
+                    "answer": "Express counter (konter cepat) di Bandeng Juwana Erlina adalah jalur pelayanan yang dirancang untuk mempercepat transaksi pembelian oleh-oleh bagi pelanggan yang sudah tahu pasti produk yang akan dibeli. Fasilitas ini bertujuan untuk mengurangi antrean dan mempersingkat waktu belanja, terutama di saat ramai atau bagi para wisatawan yang terburu-buru."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Kasir dan Antrean mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Pembatas antrean bersama Meja kasir menunjukkan cara area ini digunakan. Pandangan Kasir dan Antrean menampilkan pembatas antrean dan meja kasir di Bandeng Juwana."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Kasir dan Antrean?",
+                    "mode": "fix",
+                    "answer": "Pembatas antrean menjadi detail utama, sedangkan Meja kasir melengkapi konteksnya. Pandangan Kasir dan Antrean menampilkan pembatas antrean dan meja kasir di Bandeng Juwana."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Kasir dan Antrean.",
+                "describeHere": "Kasir adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Tangga",
+            "displayName": "Tangga Menuju Area Makan",
+            "placeId": "bandeng-juwana-tangga-menuju-area-makan",
+            "placeName": "Bandeng Juwana – Tangga Menuju Area Makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Tangga Menuju Area Makan, anak tangga dan pegangan membentuk tampilan bagian Bandeng Juwana ini.",
+            "description": "Pada Tangga Menuju Area Makan, anak tangga dan pegangan membentuk tampilan bagian Bandeng Juwana ini. Sarana penghubung membantu perpindahan antarbagian atau ketinggian ruang. Pegangan, bidang pijak, dan bukaan memberi petunjuk cara jalur ini digunakan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Anak tangga",
+                "Pegangan"
+            ],
+            "talkingPoints": [
+                "Tangga",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Tangga Menuju Area Makan dalam pengalaman pengunjung di Bandeng Juwana – Tangga Menuju Area Makan?",
+                    "mode": "fix",
+                    "answer": "Pada Tangga Menuju Area Makan, anak tangga dan pegangan membentuk tampilan bagian Bandeng Juwana ini. Pada Tangga Menuju Area Makan, anak tangga dan pegangan membentuk tampilan bagian Bandeng Juwana ini. Sarana penghubung membantu perpindahan antarbagian atau ketinggian ruang. Pegangan, bidang pijak, dan bukaan memberi petunjuk cara jalur ini digunakan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju. Toko oleh-oleh Bandeng Juwana Erlina di Semarang menata produknya dalam lorong (aisle) yang memudahkan pelanggan untuk memilih berbagai jenis olahan bandeng duri lunak (basah, kering, otak-otak) dan produk lain. Selain produk bandeng utama, lorong-lorong tersebut juga memajang aneka oleh-oleh khas Jawa Tengah lainnya, seperti tahu bakso, wingko, dan lumpia, dalam satu tempat."
+                },
+                {
+                    "q": "Mengapa Anak tangga penting pada Tangga Menuju Area Makan?",
+                    "mode": "fix",
+                    "answer": "Anak tangga membantu menjelaskan identitas dan fungsi Tangga Menuju Area Makan. Pada Tangga Menuju Area Makan, anak tangga dan pegangan membentuk tampilan bagian Bandeng Juwana ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Tangga Menuju Area Makan?",
+                    "mode": "fix",
+                    "answer": "Toko oleh-oleh Bandeng Juwana Erlina di Semarang menata produknya dalam lorong (aisle) yang memudahkan pelanggan untuk memilih berbagai jenis olahan bandeng duri lunak (basah, kering, otak-otak) dan produk lain. Selain produk bandeng utama, lorong-lorong tersebut juga memajang aneka oleh-oleh khas Jawa Tengah lainnya, seperti tahu bakso, wingko, dan lumpia, dalam satu tempat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Tangga Menuju Area Makan.",
+                "describeHere": "Tangga adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Pemesanan",
+            "displayName": "Konter Pemesanan",
+            "placeId": "bandeng-juwana-konter-pemesanan",
+            "placeName": "Bandeng Juwana – Konter Pemesanan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Konter Pemesanan menyorot papan menu dan meja layanan, dengan konteks kunjungan di Bandeng Juwana.",
+            "description": "Konter Pemesanan menyorot papan menu dan meja layanan, dengan konteks kunjungan di Bandeng Juwana. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan menu",
+                "Meja layanan"
+            ],
+            "talkingPoints": [
+                "Pemesanan",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Konter Pemesanan menunjukkan karakter Bandeng Juwana – Konter Pemesanan?",
+                    "mode": "fix",
+                    "answer": "Konter Pemesanan menyorot papan menu dan meja layanan, dengan konteks kunjungan di Bandeng Juwana. Konter Pemesanan menyorot papan menu dan meja layanan, dengan konteks kunjungan di Bandeng Juwana. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Beberapa cabang toko oleh-oleh Bandeng Juwana Erlina (khususnya yang di Pandanaran) memiliki \"Warung Bandeng Juwana\" di lantai atas yang menyediakan area makan indoor khusus bagi pengunjung. Area ini menawarkan berbagai menu olahan bandeng yang bisa dinikmati langsung di tempat, seperti Garang Bandeng, Sop Bandeng, atau Tongseng Bandeng."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Papan menu dan Meja layanan di Konter Pemesanan?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Konter Pemesanan menyorot papan menu dan meja layanan, dengan konteks kunjungan di Bandeng Juwana."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Konter Pemesanan?",
+                    "mode": "fix",
+                    "answer": "Papan menu paling langsung membantu mengenali area ini. Konter Pemesanan menyorot papan menu dan meja layanan, dengan konteks kunjungan di Bandeng Juwana."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Konter Pemesanan.",
+                "describeHere": "Pemesanan adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Area Makan",
+            "displayName": "Ruang Makan",
+            "placeId": "bandeng-juwana-ruang-makan",
+            "placeName": "Bandeng Juwana – Ruang Makan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Makan di Bandeng Juwana memperlihatkan meja kursi dan jalur antarmeja.",
+            "description": "Ruang Makan di Bandeng Juwana memperlihatkan meja kursi dan jalur antarmeja. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Meja kursi",
+                "Jalur antarmeja"
+            ],
+            "talkingPoints": [
+                "Area Makan",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Ruang Makan?",
+                    "mode": "fix",
+                    "answer": "Ruang Makan di Bandeng Juwana memperlihatkan meja kursi dan jalur antarmeja. Ruang Makan di Bandeng Juwana memperlihatkan meja kursi dan jalur antarmeja. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Express counter (konter cepat) di Bandeng Juwana Erlina adalah jalur pelayanan yang dirancang untuk mempercepat transaksi pembelian oleh-oleh bagi pelanggan yang sudah tahu pasti produk yang akan dibeli. Fasilitas ini bertujuan untuk mengurangi antrean dan mempersingkat waktu belanja, terutama di saat ramai atau bagi para wisatawan yang terburu-buru."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Ruang Makan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Meja kursi dan Jalur antarmeja memberi petunjuk tentang kegiatan yang berlangsung di sini. Ruang Makan di Bandeng Juwana memperlihatkan meja kursi dan jalur antarmeja."
+                },
+                {
+                    "q": "Apa konteks Bandeng Juwana – Ruang Makan yang membuat Ruang Makan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Express counter (konter cepat) di Bandeng Juwana Erlina adalah jalur pelayanan yang dirancang untuk mempercepat transaksi pembelian oleh-oleh bagi pelanggan yang sudah tahu pasti produk yang akan dibeli. Fasilitas ini bertujuan untuk mengurangi antrean dan mempersingkat waktu belanja, terutama di saat ramai atau bagi para wisatawan yang terburu-buru."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Ruang Makan.",
+                "describeHere": "Area Makan adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Areamakan",
+            "displayName": "Konter Hidangan",
+            "placeId": "bandeng-juwana-konter-hidangan",
+            "placeName": "Bandeng Juwana – Konter Hidangan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Etalase makanan dan papan menu menjadi unsur yang terlihat pada Konter Hidangan di Bandeng Juwana.",
+            "description": "Etalase makanan dan papan menu menjadi unsur yang terlihat pada Konter Hidangan di Bandeng Juwana. Area makan menata tempat duduk berdekatan dengan layanan hidangan. Susunan meja dan konter membantu memperlihatkan apakah pengunjung datang untuk memesan, mengambil makanan, atau duduk bersama. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Etalase makanan",
+                "Papan menu"
+            ],
+            "talkingPoints": [
+                "Areamakan",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Konter Hidangan di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Etalase makanan dan papan menu menjadi unsur yang terlihat pada Konter Hidangan di Bandeng Juwana."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Konter Hidangan?",
+                    "mode": "fix",
+                    "answer": "Etalase makanan dan Papan menu memperjelas susunan serta penggunaan ruang. Etalase makanan dan papan menu menjadi unsur yang terlihat pada Konter Hidangan di Bandeng Juwana."
+                },
+                {
+                    "q": "Apa fakta penting tentang Bandeng Juwana – Konter Hidangan yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Toko oleh-oleh Bandeng Juwana Erlina di Semarang menata produknya dalam lorong (aisle) yang memudahkan pelanggan untuk memilih berbagai jenis olahan bandeng duri lunak (basah, kering, otak-otak) dan produk lain. Selain produk bandeng utama, lorong-lorong tersebut juga memajang aneka oleh-oleh khas Jawa Tengah lainnya, seperti tahu bakso, wingko, dan lumpia, dalam satu tempat."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1171"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Konter Hidangan.",
+                "describeHere": "Areamakan adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar Toko",
+            "placeId": "bandeng-juwana-pintu-keluar-toko",
+            "placeName": "Bandeng Juwana – Pintu Keluar Toko",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pintu Keluar Toko menampilkan pintu kaca dan patung ikan di Bandeng Juwana.",
+            "description": "Pandangan Pintu Keluar Toko menampilkan pintu kaca dan patung ikan di Bandeng Juwana. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum.",
+            "highlights": [
+                "Pintu kaca",
+                "Patung ikan"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Pintu Keluar Toko menjadi bagian penting dari Bandeng Juwana – Pintu Keluar Toko?",
+                    "mode": "fix",
+                    "answer": "Pandangan Pintu Keluar Toko menampilkan pintu kaca dan patung ikan di Bandeng Juwana. Pandangan Pintu Keluar Toko menampilkan pintu kaca dan patung ikan di Bandeng Juwana. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum. Beberapa cabang toko oleh-oleh Bandeng Juwana Erlina (khususnya yang di Pandanaran) memiliki \"Warung Bandeng Juwana\" di lantai atas yang menyediakan area makan indoor khusus bagi pengunjung. Area ini menawarkan berbagai menu olahan bandeng yang bisa dinikmati langsung di tempat, seperti Garang Bandeng, Sop Bandeng, atau Tongseng Bandeng."
+                },
+                {
+                    "q": "Apa hubungan Pintu kaca dengan aktivitas di Pintu Keluar Toko?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Pintu Keluar Toko menampilkan pintu kaca dan patung ikan di Bandeng Juwana."
+                },
+                {
+                    "q": "Apa yang membedakan Pintu Keluar Toko dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Pintu kaca dan Patung ikan. Pandangan Pintu Keluar Toko menampilkan pintu kaca dan patung ikan di Bandeng Juwana."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Pintu Keluar Toko.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk Toko",
+            "placeId": "bandeng-juwana-pintu-masuk-toko",
+            "placeName": "Bandeng Juwana – Pintu Masuk Toko",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Pintu Masuk Toko, papan nama dan etalase depan membentuk tampilan bagian Bandeng Juwana ini.",
+            "description": "Pada Pintu Masuk Toko, papan nama dan etalase depan membentuk tampilan bagian Bandeng Juwana ini. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan nama",
+                "Etalase depan"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Bandeng Juwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Pintu Masuk Toko?",
+                    "mode": "fix",
+                    "answer": "Express counter (konter cepat) di Bandeng Juwana Erlina adalah jalur pelayanan yang dirancang untuk mempercepat transaksi pembelian oleh-oleh bagi pelanggan yang sudah tahu pasti produk yang akan dibeli. Fasilitas ini bertujuan untuk mengurangi antrean dan mempersingkat waktu belanja, terutama di saat ramai atau bagi para wisatawan yang terburu-buru."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Pintu Masuk Toko mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Papan nama bersama Etalase depan menunjukkan cara area ini digunakan. Pada Pintu Masuk Toko, papan nama dan etalase depan membentuk tampilan bagian Bandeng Juwana ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Pintu Masuk Toko?",
+                    "mode": "fix",
+                    "answer": "Papan nama menjadi detail utama, sedangkan Etalase depan melengkapi konteksnya. Pada Pintu Masuk Toko, papan nama dan etalase depan membentuk tampilan bagian Bandeng Juwana ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bandeng Juwana – Pintu Masuk Toko.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Bandeng Juwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "modernObjectInfo": {
+        "1709": {
+            "name": {
+                "id": "Stasiun Pengisian Daya"
+            },
+            "image": "stasiun-pengisian-daya-chargingstation.webp"
+        },
+        "1710": {
+            "name": {
+                "id": "Loket Layanan Cepat"
+            },
+            "image": "loket-layanan-cepat-expresscounter.webp"
+        },
+        "1711": {
+            "name": {
+                "id": "Alat Cek Harga Mandiri"
+            },
+            "image": "alat-cek-harga-mandiri-alatcekhargamandiri.webp"
+        },
+        "2254": {
+            "name": {
+                "id": "Pesawahan"
+            },
+            "image": "pesawahan-pesawahan-objek-info.webp"
+        }
+    }
+};

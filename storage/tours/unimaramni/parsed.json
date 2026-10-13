@@ -1,0 +1,977 @@
+{
+    "startNode": "node15",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Asrama Putri",
+            "displayName": "Asrama Putri",
+            "rawName": "",
+            "customNodeId": "-srama-utri",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Asrama Putri"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Rumah Tamu",
+            "displayName": "Rumah Tamu",
+            "rawName": "",
+            "customNodeId": "-umah-amu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Rumah Tamu"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Gedung KM Nias",
+            "displayName": "Gedung KM Nias",
+            "rawName": "",
+            "customNodeId": "-edung-ias",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Gedung KM Nias"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Area Depan",
+            "displayName": "Area Depan",
+            "rawName": "",
+            "customNodeId": "-rea-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Area Depan"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Plaza Nusantara",
+            "displayName": "Plaza Nusantara",
+            "rawName": "",
+            "customNodeId": "-laza-usantara",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Plaza Nusantara"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Area Depan",
+            "displayName": "Area Depan",
+            "rawName": "",
+            "customNodeId": "-rea-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Area Depan"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Ruang Buku",
+            "displayName": "Ruang Buku",
+            "rawName": "",
+            "customNodeId": "-uang-uku",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Ruang Buku"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Rektorat",
+            "displayName": "Rektorat",
+            "rawName": "",
+            "customNodeId": "-ektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Rektorat"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "node15",
+            "displayName": "node15",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0.429339,
+            "tilt": -16.3879,
+            "fov": 138.008,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node16",
+            "name": "Bumi",
+            "displayName": "Bumi",
+            "rawName": "",
+            "customNodeId": "bumi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "bumi"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Auditorium",
+            "displayName": "Auditorium",
+            "rawName": "",
+            "customNodeId": "auditorium",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "auditorium"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Gerbang Masuk",
+            "displayName": "Gerbang Masuk",
+            "rawName": "",
+            "customNodeId": "-erbang-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Gerbang Masuk"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Ruang Kelas",
+            "displayName": "Ruang Kelas",
+            "rawName": "",
+            "customNodeId": "-uang-elas",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Ruang Kelas"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Sekoci",
+            "displayName": "Sekoci",
+            "rawName": "",
+            "customNodeId": "sekoci",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "sekoci"
+            ]
+        },
+        {
+            "id": "node22",
+            "name": "Labbridgesimulator",
+            "displayName": "Labbridgesimulator",
+            "rawName": "",
+            "customNodeId": "labbridgesimulator",
+            "pan": -0.94,
+            "tilt": -0.51,
+            "fov": 155.32,
+            "tags": [
+                "oi",
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "labbridgesimulator"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Lab Bridge  Simulator",
+            "displayName": "Lab Bridge  Simulator",
+            "rawName": "",
+            "customNodeId": "-ab-ridge-imulator",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Lab Bridge  Simulator"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "Labcbau",
+            "displayName": "Labcbau",
+            "rawName": "",
+            "customNodeId": "labcbau",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "labcbau"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "Labenginesimulator",
+            "displayName": "Labenginesimulator",
+            "rawName": "",
+            "customNodeId": "labenginesimulator",
+            "pan": -36.02,
+            "tilt": -1.15,
+            "fov": 143.47,
+            "tags": [
+                "oi",
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "labenginesimulator"
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "Labgmdss",
+            "displayName": "Labgmdss",
+            "rawName": "",
+            "customNodeId": "labgmdss",
+            "pan": -7.29,
+            "tilt": -15.73,
+            "fov": 152.83,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "labgmdss"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Lab GMDSS",
+            "displayName": "Lab GMDSS",
+            "rawName": "",
+            "customNodeId": "-ab-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Lab GMDSS"
+            ]
+        },
+        {
+            "id": "node28",
+            "name": "Mesin",
+            "displayName": "Mesin",
+            "rawName": "",
+            "customNodeId": "mesin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "mesin"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Labpermesinan",
+            "displayName": "Labpermesinan",
+            "rawName": "",
+            "customNodeId": "labpermesinan",
+            "pan": -153.39,
+            "tilt": -15.04,
+            "fov": 152.83,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "labpermesinan"
+            ]
+        },
+        {
+            "id": "node30",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "universitasmaritimamnisemarang"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node16",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -268.6,
+            "tilt": -7.35
+        },
+        {
+            "scene": "node2",
+            "target": "node30",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -177.28,
+            "tilt": -5.56
+        },
+        {
+            "scene": "node2",
+            "target": "node27",
+            "title": "Lab GMDSS",
+            "id": "Point03",
+            "pan": -0.229987,
+            "tilt": -12.6
+        },
+        {
+            "scene": "node2",
+            "target": "node26",
+            "title": "Lab Engine Simulator",
+            "id": "Point04",
+            "pan": -321.08,
+            "tilt": -5.48
+        },
+        {
+            "scene": "node2",
+            "target": "node23",
+            "title": "Lab Bridge  Simulator",
+            "id": "Point02",
+            "pan": -35.6,
+            "tilt": -5.66
+        },
+        {
+            "scene": "node3",
+            "target": "node16",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -164.08,
+            "tilt": -13.22
+        },
+        {
+            "scene": "node4",
+            "target": "node7",
+            "title": "Plaza Nusantara",
+            "id": "Point01",
+            "pan": -260.88,
+            "tilt": -1.46
+        },
+        {
+            "scene": "node4",
+            "target": "node12",
+            "title": "Rektorat",
+            "id": "Point02",
+            "pan": -84.22,
+            "tilt": -2.18
+        },
+        {
+            "scene": "node5",
+            "target": "node9",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -170.45,
+            "tilt": -4.82
+        },
+        {
+            "scene": "node6",
+            "target": "node8",
+            "title": "Area Depan",
+            "id": "Point01",
+            "pan": -47.47,
+            "tilt": -2.11
+        },
+        {
+            "scene": "node6",
+            "target": "node7",
+            "title": "Plaza Nusantara",
+            "id": "Point02",
+            "pan": -269.83,
+            "tilt": -0.33
+        },
+        {
+            "scene": "node7",
+            "target": "node6",
+            "title": "Area Depan",
+            "id": "Point01",
+            "pan": -131.87,
+            "tilt": 2.8
+        },
+        {
+            "scene": "node7",
+            "target": "node17",
+            "title": "Gedung Dewa Ruci",
+            "id": "Point02",
+            "pan": -2.58,
+            "tilt": 2.3
+        },
+        {
+            "scene": "node7",
+            "target": "node30",
+            "title": "Arah Gedung KM Wetar",
+            "id": "Point03",
+            "pan": -332.76,
+            "tilt": 2.34
+        },
+        {
+            "scene": "node7",
+            "target": "node4",
+            "title": "Gedung KM Nias",
+            "id": "Point04",
+            "pan": -56.92,
+            "tilt": 1.3
+        },
+        {
+            "scene": "node8",
+            "target": "node19",
+            "title": "Gerbang Masuk",
+            "id": "Point01",
+            "pan": -264.94,
+            "tilt": 0.64
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -108.42,
+            "tilt": -1.03
+        },
+        {
+            "scene": "node8",
+            "target": "node6",
+            "title": "Plaza Nusantara",
+            "id": "Point03",
+            "pan": 0.47,
+            "tilt": -3.76
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Area Depan",
+            "id": "Point01",
+            "pan": -189.94,
+            "tilt": -1.25
+        },
+        {
+            "scene": "node9",
+            "target": "node5",
+            "title": "Masjid",
+            "id": "Point02",
+            "pan": -134.27,
+            "tilt": -1.94
+        },
+        {
+            "scene": "node9",
+            "target": "node16",
+            "title": "Asrama & Rumah Tamu",
+            "id": "Point03",
+            "pan": -59.34,
+            "tilt": -0.37
+        },
+        {
+            "scene": "node10",
+            "target": "node11",
+            "title": "Ruang Buku",
+            "id": "Point01",
+            "pan": -95.87,
+            "tilt": -6.63
+        },
+        {
+            "scene": "node10",
+            "target": "node13",
+            "title": "Pintu Keluar",
+            "id": "Point02",
+            "pan": -167.41,
+            "tilt": -13.15
+        },
+        {
+            "scene": "node11",
+            "target": "node10",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -15,
+            "tilt": -4.48
+        },
+        {
+            "scene": "node12",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -196.73,
+            "tilt": -8.61
+        },
+        {
+            "scene": "node12",
+            "target": "node13",
+            "title": "Lobi Rektorat",
+            "id": "Point02",
+            "pan": -342.37,
+            "tilt": -9.89
+        },
+        {
+            "scene": "node13",
+            "target": "node12",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -163.25,
+            "tilt": -6.62
+        },
+        {
+            "scene": "node13",
+            "target": "node20",
+            "title": "Ruang Kelas",
+            "id": "Point02",
+            "pan": -105.1,
+            "tilt": -11.22
+        },
+        {
+            "scene": "node13",
+            "target": "node10",
+            "title": "Perpustakaan",
+            "id": "Point03",
+            "pan": -250.89,
+            "tilt": -9.92
+        },
+        {
+            "scene": "node15",
+            "target": "node17",
+            "title": "Gedung Dewa Ruci",
+            "id": "Point01",
+            "pan": -1.33,
+            "tilt": -31.06
+        },
+        {
+            "scene": "node15",
+            "target": "node19",
+            "title": "Gerbang Masuk",
+            "id": "Point02",
+            "pan": -135.05,
+            "tilt": -20.97
+        },
+        {
+            "scene": "node15",
+            "target": "node4",
+            "title": "Gedung KM Nias",
+            "id": "Point03",
+            "pan": -64.09,
+            "tilt": -31.36
+        },
+        {
+            "scene": "node16",
+            "target": "node9",
+            "title": "Area Parkir",
+            "id": "Point01",
+            "pan": -175.3,
+            "tilt": -4.47
+        },
+        {
+            "scene": "node16",
+            "target": "node3",
+            "title": "Rumah Tamu",
+            "id": "Point02",
+            "pan": -41.14,
+            "tilt": -4.64
+        },
+        {
+            "scene": "node16",
+            "target": "node1",
+            "title": "Asrama Putri",
+            "id": "Point03",
+            "pan": -300.14,
+            "tilt": -6.79
+        },
+        {
+            "scene": "node17",
+            "target": "node7",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -178.85,
+            "tilt": 0.58
+        },
+        {
+            "scene": "node19",
+            "target": "node8",
+            "title": "Area Depan",
+            "id": "Point01",
+            "pan": -250.6,
+            "tilt": -3.65
+        },
+        {
+            "scene": "node20",
+            "target": "node13",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -324.64,
+            "tilt": -6.94
+        },
+        {
+            "scene": "node21",
+            "target": "node30",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -327.14,
+            "tilt": -1.03
+        },
+        {
+            "scene": "node22",
+            "target": "node22",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -249.86,
+            "tilt": -14.59
+        },
+        {
+            "scene": "node22",
+            "target": "node23",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -185.25,
+            "tilt": -35.14
+        },
+        {
+            "scene": "node31",
+            "target": "node22",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -249.86,
+            "tilt": -14.59
+        },
+        {
+            "scene": "node23",
+            "target": "node22",
+            "title": "Lab Bridge",
+            "id": "Point01",
+            "pan": -323.03,
+            "tilt": -0.94
+        },
+        {
+            "scene": "node23",
+            "target": "node24",
+            "title": "Lab CBAU",
+            "id": "Point02",
+            "pan": -228.26,
+            "tilt": -8.16
+        },
+        {
+            "scene": "node24",
+            "target": "node2",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -351.89,
+            "tilt": -0.36
+        },
+        {
+            "scene": "node25",
+            "target": "node26",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -216.24,
+            "tilt": -8.54
+        },
+        {
+            "scene": "node26",
+            "target": "node2",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -303.86,
+            "tilt": -9.51
+        },
+        {
+            "scene": "node26",
+            "target": "node25",
+            "title": "Lab Engine Simulator",
+            "id": "Point02",
+            "pan": -89.2,
+            "tilt": -19.43
+        },
+        {
+            "scene": "node27",
+            "target": "node2",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -2.11,
+            "tilt": -7.17
+        },
+        {
+            "scene": "node28",
+            "target": "node30",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -277.08,
+            "tilt": -6.87
+        },
+        {
+            "scene": "node28",
+            "target": "node29",
+            "title": "Lab Permesinan",
+            "id": "Point02",
+            "pan": 0.22,
+            "tilt": -8.37
+        },
+        {
+            "scene": "node29",
+            "target": "node28",
+            "title": "Lab Permesinan",
+            "id": "Point01",
+            "pan": -185.04,
+            "tilt": -9.71
+        },
+        {
+            "scene": "node30",
+            "target": "node7",
+            "title": "Plaza Nusantara",
+            "id": "Point01",
+            "pan": -236.34,
+            "tilt": -1.84
+        },
+        {
+            "scene": "node30",
+            "target": "node21",
+            "title": "Kolam Latih",
+            "id": "Point02",
+            "pan": -318.68,
+            "tilt": -4.71
+        },
+        {
+            "scene": "node30",
+            "target": "node28",
+            "title": "Lab Permesinan",
+            "id": "Point03",
+            "pan": -92,
+            "tilt": -1.73
+        },
+        {
+            "scene": "node30",
+            "target": "node2",
+            "title": "Gedung KM Wetar",
+            "id": "Point04",
+            "pan": -56.38,
+            "tilt": -1.39
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 395,
+            "label": "Lab Engine Simulator",
+            "description": "Lab Engine Simulator merupakan fasilitas yang menyajikan simulasi virtual ruang kontrol mesin kapal (Engine Room Management). Laboratorium ini melatih taruna Teknika dalam pengoperasian, pengawasan, dan penanganan kondisi darurat mesin kapal secara realistis.",
+            "fragment": "labenginesimulator",
+            "link": "unimaramni/index.html#labenginesimulator",
+            "sceneId": "node25"
+        },
+        {
+            "infoId": 396,
+            "label": "Lab Bridge Simulator",
+            "description": "Lab Bridge Simulator mereplikasi anjungan kapal secara keseluruhan, lengkap dengan sistem navigasi, RADAR/ARPA, dan peralatan canggih lainnya. Fasilitas ini digunakan oleh taruna Nautika untuk praktik manuver, navigasi, dan pengambilan keputusan di laut dalam berbagai kondisi cuaca.",
+            "fragment": "labbridgesimulator",
+            "link": "unimaramni/index.html#labbridgesimulator",
+            "sceneId": "node22"
+        },
+        {
+            "infoId": 397,
+            "label": "Lab Permesinan (Real Engine)",
+            "description": "Lab Real Engine (Laboratorium Mesin Sesungguhnya) adalah bengkel praktik yang dilengkapi dengan mesin-mesin kapal yang berfungsi secara nyata dan komponen-komponennya. Laboratorium ini memberikan pengalaman langsung kepada taruna Teknika untuk membongkar, merawat, dan memperbaiki mesin-mesin kapal.",
+            "fragment": "labpermesinan",
+            "link": "unimaramni/index.html#labpermesinan",
+            "sceneId": "node29"
+        },
+        {
+            "infoId": 398,
+            "label": "Lab GMDSS",
+            "description": "Lab GMDSS (Global Maritime Distress and Safety System) adalah simulator yang digunakan untuk pelatihan komunikasi maritim, khususnya dalam situasi bahaya dan keselamatan pelayaran. Taruna dilatih mengoperasikan perangkat komunikasi radio sesuai standar internasional untuk mengirim dan menerima sinyal darurat.",
+            "fragment": "labgmdss",
+            "link": "unimaramni/index.html#labgmdss",
+            "sceneId": "node26"
+        },
+        {
+            "infoId": 399,
+            "label": "Lab CBAU",
+            "description": "Lab CBAU (Computer Based Assessment Unit) berfungsi sebagai unit pelatihan dan pengujian berbasis komputer untuk taruna. Fasilitas ini mendukung ujian sertifikasi STCW (Standards of Training, Certification and Watchkeeping) dan pelatihan keterampilan lain yang terkomputerisasi.",
+            "fragment": "labcbau",
+            "link": "unimaramni/index.html#labcbau",
+            "sceneId": "node24"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "59599f84d06ccf89",
+        "skin.js": "48243508e71aab2c",
+        "index.html": "df5a7e1b5e3b725a"
+    }
+}

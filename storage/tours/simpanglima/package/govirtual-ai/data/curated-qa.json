@@ -1,0 +1,1465 @@
+{
+    "version": "1.0",
+    "tourId": "simpanglima",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Di mana lokasi Simpang Lima Semarang?",
+            "answer": "Simpang Lima Semarang terletak di pusat kota Semarang, bertemunya lima jalan utama yaitu Jl. Pahlawan, Jl. Pandanaran, Jl. Gajah Mada, Jl. Ahmad Yani, dan Jl. Pleburan.",
+            "aliases": [
+                "alamat simpang lima",
+                "dimana simpang lima",
+                "letak simpang lima"
+            ],
+            "keywords": [
+                "lokasi",
+                "alamat",
+                "pusat kota",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Bagaimana cara menuju Simpang Lima dari Stasiun Tawang?",
+            "answer": "Dari Stasiun Tawang, Anda bisa naik taksi, ojek online, atau Trans Jateng/Trans Semarang koridor tertentu dengan waktu tempuh sekitar 15-20 menit.",
+            "aliases": [
+                "rute dari stasiun tawang ke simpang lima",
+                "cara ke simpang lima"
+            ],
+            "keywords": [
+                "stasiun tawang",
+                "rute",
+                "transportasi",
+                "taksi"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Bagaimana cara menuju Simpang Lima dari Stasiun Poncol?",
+            "answer": "Dari Stasiun Poncol, jarak ke Simpang Lima sangat dekat, dapat ditempuh sekitar 10 menit menggunakan kendaraan bermotor atau ojek online.",
+            "aliases": [
+                "rute stasiun poncol ke simpang lima",
+                "dari poncol"
+            ],
+            "keywords": [
+                "stasiun poncol",
+                "rute",
+                "jarak",
+                "ojek online"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Berapa jarak Bandara Ahmad Yani ke Simpang Lima?",
+            "answer": "Jarak dari Bandara Ahmad Yani ke Simpang Lima sekitar 7-8 kilometer dengan waktu tempuh sekitar 20-30 menit tergantung kondisi lalu lintas.",
+            "aliases": [
+                "jarak bandara ke simpang lima",
+                "dari bandara ahmad yani"
+            ],
+            "keywords": [
+                "bandara ahmad yani",
+                "jarak",
+                "waktu tempuh"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Transportasi umum apa saja yang melewati Simpang Lima?",
+            "answer": "Simpang Lima dilayani oleh berbagai koridor Bus Trans Semarang (BRT) serta angkutan kota (angkot) dan taksi online.",
+            "aliases": [
+                "angkutan umum simpang lima",
+                "bus trans semarang ke simpang lima"
+            ],
+            "keywords": [
+                "trans semarang",
+                "brt",
+                "angkot",
+                "transportasi umum"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Apakah ada halte Trans Semarang di dekat Simpang Lima?",
+            "answer": "Ya, terdapat Halte BRT Trans Semarang tepat di kawasan Simpang Lima, memudahkan penumpang yang turun di area ini.",
+            "aliases": [
+                "halte brt simpang lima",
+                "halte trans semarang"
+            ],
+            "keywords": [
+                "halte",
+                "brt",
+                "trans semarang",
+                "pemberhentian"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Di mana area parkir kendaraan roda empat di sekitar Simpang Lima?",
+            "answer": "Area parkir roda empat tersedia di sekitar lapangan Pancasila, area mall seperti Ciputra Mall, Plaza Simpang Lima, dan kantong parkir resmi lainnya.",
+            "aliases": [
+                "parkir mobil simpang lima",
+                "dimana parkir mobil"
+            ],
+            "keywords": [
+                "parkir mobil",
+                "mall ciputra",
+                "plaza simpang lima",
+                "tempat parkir"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Di mana area parkir motor yang aman dekat Simpang Lima?",
+            "answer": "Parkir motor resmi tersedia di sekeliling lapangan Pancasila, area trotoar yang ditentukan, serta pusat perbelanjaan terdekat.",
+            "aliases": [
+                "parkir motor simpang lima",
+                "tempat parkir sepeda motor"
+            ],
+            "keywords": [
+                "parkir motor",
+                "tempat parkir",
+                "aman"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah akses jalan ke Simpang Lima sering macet saat akhir pekan?",
+            "answer": "Ya, kawasan Simpang Lima cukup padat dan sering mengalami kemacetan terutama pada sore hingga malam hari di akhir pekan atau hari libur nasional.",
+            "aliases": [
+                "kemacetan simpang lima",
+                "macet malam minggu"
+            ],
+            "keywords": [
+                "macet",
+                "weekend",
+                "akhir pekan",
+                "padat lalu lintas"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apakah ada rekayasa lalu lintas khusus di malam hari di Simpang Lima?",
+            "answer": "Pada malam hari atau hari tertentu, kepolisian setempat terkadang memberlakukan rekayasa atau pengalihan arus untuk mengurai kepadatan.",
+            "aliases": [
+                "rekayasa lalu lintas simpang lima",
+                "pengalihan arus"
+            ],
+            "keywords": [
+                "rekayasa lalu lintas",
+                "pengalihan",
+                "jalan ditutup"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Kuliner legendaris apa saja yang wajib dicoba di Simpang Lima Semarang?",
+            "answer": "Beberapa kuliner legendaris di sekitar Simpang Lima antara lain Nasi Gandul Pak Memet, Tahu Gimbal Pak H. Edy, Lumpia Semarang, dan Pisang Plenet.",
+            "aliases": [
+                "makanan khas simpang lima",
+                "kuliner legendaris semarang"
+            ],
+            "keywords": [
+                "kuliner",
+                "makanan khas",
+                "legendaris",
+                "nasi gandul",
+                "tahu gimbal"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Di mana pusat jajanan malam atau pujasera di Simpang Lima?",
+            "answer": "Pusat jajanan malam berpusat di sekeliling lapangan Pancasila Simpang Lima yang dipenuhi puluhan warung tenda lesehan.",
+            "aliases": [
+                "pusat kuliner malam simpang lima",
+                "lesehan simpang lima"
+            ],
+            "keywords": [
+                "kuliner malam",
+                "tenda lesehan",
+                "pujasera",
+                "jajanan"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apa itu Pisang Plenet dan di mana mencarinya di Simpang Lima?",
+            "answer": "Pisang Plenet adalah pisang bakar yang ditekan (plenet) lalu diberi berbagai isian seperti cokelat, keju, atau selai, banyak dijual di sekitar trotoar Jl. Pemuda/Pandanaran dekat Simpang Lima.",
+            "aliases": [
+                "pisang planet semarang",
+                "beli pisang penet"
+            ],
+            "keywords": [
+                "pisang planet",
+                "pisang plenit",
+                "jajanan tradisional"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Di mana tempat makan Tahu Gimbal terenak dekat Simpang Lima?",
+            "answer": "Salah satu warung Tahu Gimbal paling terkenal dekat Simpang Lima adalah Tahu Gimbal Pak H. Edy di Jalan Menteri Supeno (depan Kantor Gubernur).",
+            "aliases": [
+                "tahu gimbal pak edy",
+                "tahu gimbal terenak"
+            ],
+            "keywords": [
+                "tahu gimbal",
+                "pak edy",
+                "kuliner enak"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apakah makanan di tenda kuliner Simpang Lima harganya terjangkau?",
+            "answer": "Sebagian besar warung tenda di Simpang Lima menawarkan harga yang cukup bervariasi dan ramah di kantong, namun disarankan untuk menanyakan daftar harga terlebih dahulu.",
+            "aliases": [
+                "harga makanan simpang lima",
+                "mahal atau murah"
+            ],
+            "keywords": [
+                "harga",
+                "terjangkau",
+                "warung tenda",
+                "kuliner"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Jam berapa warung tenda kuliner malam di Simpang Lima mulai buka?",
+            "answer": "Warung tenda kuliner malam biasanya mulai buka sekitar pukul 17.00 WIB hingga larut malam sekitar pukul 00.00 WIB atau lebih.",
+            "aliases": [
+                "jam buka kuliner malam simpang lima",
+                "jam berapa warung buka"
+            ],
+            "keywords": [
+                "jam buka",
+                "kuliner malam",
+                "warung tenda"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apakah tersedia makanan halal di sekitar Simpang Lima?",
+            "answer": "Sebagian besar kuliner di kawasan Simpang Lima menyajikan makanan halal, namun Anda tetap bisa menanyakan langsung kepada penjualnya.",
+            "aliases": [
+                "makanan halal simpang lima",
+                "kuliner halal"
+            ],
+            "keywords": [
+                "halal",
+                "makanan",
+                "kuliner muslim"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Di mana bisa menemukan Lumpia khas Semarang terdekat dari Simpang Lima?",
+            "answer": "Lumpia Semarang terdekat dapat ditemukan di pusat oleh-oleh di Jalan Pandanaran yang hanya berjarak beberapa ratus meter dari Simpang Lima.",
+            "aliases": [
+                "lumpia semarang terdekat simpang lima",
+                "beli lumpia pandanaran"
+            ],
+            "keywords": [
+                "lumpia semarang",
+                "pusat oleh",
+                "oleh",
+                "pandanaran"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Apakah ada restoran cepat saji internasional di sekitar Simpang Lima?",
+            "answer": "Ya, di sekitar kawasan Simpang Lima terdapat beberapa restoran cepat saji global seperti McDonald's, KFC, dan Pizza Hut.",
+            "aliases": [
+                "fast food simpang lima",
+                "kfc mcd dekat simpang lima"
+            ],
+            "keywords": [
+                "mcdonalds",
+                "kfc",
+                "pizza hut",
+                "restoran cepat saji"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apa rekomendasi minuman khas yang bisa dicoba di Simpang Lima?",
+            "answer": "Anda bisa mencoba Es Dawet Durian, Wedang Tahu, atau Es Cong Lik yang terkenal segar di sekitar pusat kota Semarang.",
+            "aliases": [
+                "minuman khas semarang simpang lima",
+                "es dawet durian"
+            ],
+            "keywords": [
+                "minuman khas",
+                "es dawet durian",
+                "wedang tahu",
+                "es cong lik"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Apa nama lapangan utama di tengah kawasan Simpang Lima?",
+            "answer": "Lapangan utama di tengah kawasan Simpang Lima dinamakan Lapangan Pancasila.",
+            "aliases": [
+                "nama lapangan simpang lima",
+                "lapangan pancasila semarang"
+            ],
+            "keywords": [
+                "lapangan pancasila",
+                "alun",
+                "pusat kota"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Aktivitas apa saja yang bisa dilakukan di Lapangan Pancasila Simpang Lima?",
+            "answer": "Anda dapat berolahraga (jogging, senam), bersantai, bermain sepeda, menyewa odong-odong/becak hias, atau menikmati kuliner.",
+            "aliases": [
+                "kegiatan di simpang lima",
+                "olahraga pagi simpang lima"
+            ],
+            "keywords": [
+                "aktivitas",
+                "olahraga",
+                "jogging",
+                "sepeda",
+                "rekreasi"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apakah ada fasilitas sewa sepeda atau becak lampu di Simpang Lima?",
+            "answer": "Ya, pada sore hingga malam hari banyak penyedia jasa sewa becak hias berlampu warna-warni dan skuter listrik di sekitar lapangan.",
+            "aliases": [
+                "sewa becak hias simpang lima",
+                "sewa skuter lampu"
+            ],
+            "keywords": [
+                "sewa becak hias",
+                "becak lampu",
+                "skuter",
+                "hiburan malam"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apakah Lapangan Pancasila Simpang Lima buka 24 jam?",
+            "answer": "Kawasan terbuka Lapangan Pancasila dapat diakses publik kapan saja, namun keramaian puncak biasanya terjadi dari pagi hingga tengah malam.",
+            "aliases": [
+                "jam operasional simpang lima",
+                "buka jam berapa"
+            ],
+            "keywords": [
+                "buka 24 jam",
+                "akses publik",
+                "jam operasional"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apakah ada fasilitas toilet umum di sekitar Simpang Lima?",
+            "answer": "Toilet umum dapat ditemukan di area pusat perbelanjaan sekitar Simpang Lima seperti Mal Ciputra, Plaza Simpang Lima, atau fasilitas umum lainnya.",
+            "aliases": [
+                "toilet umum simpang lima",
+                "kamar mandi terdekat"
+            ],
+            "keywords": [
+                "toilet umum",
+                "kamar mandi",
+                "fasilitas publik"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apakah ada tempat ibadah atau masjid di dekat Simpang Lima?",
+            "answer": "Ya, terdapat beberapa masjid di sekitar kawasan Simpang Lima, salah satunya Masjid Baiturrahman yang terletak di Jalan Pandanaran.",
+            "aliases": [
+                "masjid dekat simpang lima",
+                "sholat di simpang lima"
+            ],
+            "keywords": [
+                "masjid",
+                "baiturrahman",
+                "tempat ibadah",
+                "sholat"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apakah kawasan Simpang Lima ramah penyandang disabilitas?",
+            "answer": "Sebagian besar trotoar di sekitar Simpang Lima telah dilengkapi jalur pemandu (guiding block) untuk pejalan kaki dan penyandang disabilitas.",
+            "aliases": [
+                "akses disabilitas simpang lima",
+                "fasilitas ramah disabilitas"
+            ],
+            "keywords": [
+                "disabilitas",
+                "ramah difabel",
+                "trotoar",
+                "pejalan kaki"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apakah ada ruang terbuka hijau di Simpang Lima?",
+            "answer": "Lapangan Pancasila berfungsi sebagai ruang terbuka hijau utama di tengah kota Semarang yang dikelilingi pepohonan rindang.",
+            "aliases": [
+                "ruang terbuka hijau simpang lima",
+                "taman kota semarang"
+            ],
+            "keywords": [
+                "ruang terbuka hijau",
+                "rth",
+                "taman",
+                "pohon"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apakah di Simpang Lima sering diadakan event atau konser musik?",
+            "answer": "Ya, Lapangan Pancasila sering menjadi venue utama pergelaran konser musik, festival budaya, pameran UMKM, hingga perayaan tahun baru.",
+            "aliases": [
+                "event di simpang lima",
+                "konser musik lapangan pancasila"
+            ],
+            "keywords": [
+                "event",
+                "konser musik",
+                "festival",
+                "perayaan"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Apakah ada area bermain anak di sekitar Simpang Lima?",
+            "answer": "Di sekitar area lapangan terbuka terdapat ruang lapang yang sering digunakan anak-anak bermain, serta fasilitas hiburan keluarga di mall terdekat.",
+            "aliases": [
+                "tempat bermain anak simpang lima",
+                "playground anak"
+            ],
+            "keywords": [
+                "bermain anak",
+                "playground",
+                "keluarga"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Pusat perbelanjaan apa saja yang berdiri di sekitar Simpang Lima?",
+            "answer": "Mall besar di sekitar Simpang Lima antara lain Mal Ciputra (ClCBD), Plaza Simpang Lima, dan E-Walk / Queen City Mall.",
+            "aliases": [
+                "mall dekat simpang lima",
+                "pusat perbelanjaan simpang lima"
+            ],
+            "keywords": [
+                "mall",
+                "ciputra",
+                "plaza simpang lima",
+                "pusat perbelanjaan"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Di mana pusat oleh-oleh khas Semarang terdekat dari Simpang Lima?",
+            "answer": "Pusat oleh-oleh bandeng presto, lumpia, dan wingko babat terpusat di sepanjang Jalan Pandanaran yang terhubung langsung dengan Simpang Lima.",
+            "aliases": [
+                "pusat oleh oleh pandanaran semarang",
+                "beli oleh oleh dekat simpang lima"
+            ],
+            "keywords": [
+                "oleh",
+                "pandanaran",
+                "bandeng presto",
+                "wingko babat"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Apakah Mal Ciputra Semarang terhubung langsung dengan Simpang Lima?",
+            "answer": "Ya, Mal Ciputra terletak persis di sisi barat laut kawasan Simpang Lima dan menjadi salah satu landmark perbelanjaan utama.",
+            "aliases": [
+                "mal ciputra semarang",
+                "dimana mal ciputra"
+            ],
+            "keywords": [
+                "mal ciputra",
+                "cl",
+                "lokasi mall"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Apa yang dijual di Plaza Simpang Lima?",
+            "answer": "Plaza Simpang Lima menyediakan berbagai gerai fashion, pusat gawai/elektronik, supermarket, serta area hiburan keluarga.",
+            "aliases": [
+                "plaza simpang lima semarang",
+                "isi plaza simpang lima"
+            ],
+            "keywords": [
+                "plaza simpang lima",
+                "fashion",
+                "elektronik",
+                "supermarket"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apakah ada toko buku besar di dekat Simpang Lima?",
+            "answer": "Terdapat beberapa toko buku dan gerai alat tulis di pusat perbelanjaan sekitar Simpang Lima serta toko buku mandiri di sekitarnya.",
+            "aliases": [
+                "toko buku dekat simpang lima",
+                "gramedia simpang lima"
+            ],
+            "keywords": [
+                "toko buku",
+                "alat tulis",
+                "gramedia"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Di mana sentra penjualan handphone dan aksesoris dekat Simpang Lima?",
+            "answer": "Beberapa pusat perbelanjaan di sekitar Simpang Lima memiliki lantai khusus yang menjual gawai, handphone, dan aksesoris elektronik.",
+            "aliases": [
+                "pusat hp simpang lima",
+                "beli handphone dekat simpang lima"
+            ],
+            "keywords": [
+                "pusat hp",
+                "handphone",
+                "gawai",
+                "aksesoris"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Apakah ada ATM center di sekitar kawasan Simpang Lima?",
+            "answer": "Sangat mudah menemukan mesin ATM dari berbagai bank nasional (BCA, Mandiri, BRI, BNI, dll) di area mall dan ruko sekitar Simpang Lima.",
+            "aliases": [
+                "atm center simpang lima",
+                "mesin atm terdekat"
+            ],
+            "keywords": [
+                "atm center",
+                "bank",
+                "bca",
+                "mandiri",
+                "bni"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Apakah ada minimarket 24 jam di sekitar Simpang Lima?",
+            "answer": "Ya, banyak gerai minimarket seperti Indomaret dan Alfamart yang beroperasi 24 jam di sekeliling jalan utama Simpang Lima.",
+            "aliases": [
+                "minimarket simpang lima",
+                "indomaret alfamart terdekat"
+            ],
+            "keywords": [
+                "minimarket",
+                "indomaret",
+                "alfamart",
+                "24 jam"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Di mana sentra kerajinan tangan atau suvenir di dekat Simpang Lima?",
+            "answer": "Sentra suvenir dan suvenir khas Jawa Tengah dapat ditemukan di toko-toko oleh-oleh di Jalan Pandanaran.",
+            "aliases": [
+                "souvenir semarang dekat simpang lima",
+                "kerajinan tangan"
+            ],
+            "keywords": [
+                "souvenir",
+                "kerajinan tangan",
+                "suvenir",
+                "oleh"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Apakah ada pasar tradisional dekat Simpang Lima?",
+            "answer": "Pasar tradisional terdekat dari Simpang Lima antara lain Pasar Peterongan yang berjarak sekitar 10-15 menit berkendara.",
+            "aliases": [
+                "pasar tradisional dekat simpang lima",
+                "pasar peterongan"
+            ],
+            "keywords": [
+                "pasar tradisional",
+                "pasar peterongan",
+                "belanja"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Hotel apa saja yang berada tepat di pinggir kawasan Simpang Lima?",
+            "answer": "Beberapa hotel terkenal di sekitar Simpang Lima antara lain Hotel Horison, Hotel Ciputra, Hotel Quest, dan Louis Kienne.",
+            "aliases": [
+                "hotel di simpang lima",
+                "penginapan dekat simpang lima"
+            ],
+            "keywords": [
+                "hotel",
+                "penginapan",
+                "horison",
+                "louis kienne",
+                "ciputra"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Berapa kisaran tarif hotel berbintang di sekitar Simpang Lima?",
+            "answer": "Tarif hotel di sekitar Simpang Lima sangat bervariasi mulai dari Rp300.000 hingga lebih dari Rp1.500.000 per malam tergantung kelas bintang dan fasilitas.",
+            "aliases": [
+                "harga hotel simpang lima",
+                "tarif penginapan"
+            ],
+            "keywords": [
+                "tarif hotel",
+                "harga kamar",
+                "bintang",
+                "penginapan"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Apakah ada hotel budget atau hostel backpacker di dekat Simpang Lima?",
+            "answer": "Ya, terdapat banyak pilihan hotel kapsul, guesthouse, dan oyo/reddoorz dengan harga ekonomis di sekitar radius 1 km dari Simpang Lima.",
+            "aliases": [
+                "hotel murah simpang lima",
+                "hostel backpacker semarang"
+            ],
+            "keywords": [
+                "hotel murah",
+                "budget hotel",
+                "guesthouse",
+                "reddoorz"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Hotel mana di Simpang Lima yang memiliki kolam renang rooftop dengan pemandangan kota?",
+            "answer": "Beberapa hotel seperti Louis Kienne Simpang Lima menawarkan kolam renang rooftop dengan pemandangan panorama kota Semarang dari ketinggian.",
+            "aliases": [
+                "hotel rooftop pool simpang lima",
+                "louis kienne view"
+            ],
+            "keywords": [
+                "rooftop pool",
+                "kolam renang",
+                "pemandangan kota"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Apakah mudah mencari transportasi dari hotel di Simpang Lima?",
+            "answer": "Sangat mudah karena area Simpang Lima merupakan titik sentral kota di mana taksi online, ojek, dan taksi konvensional selalu standby.",
+            "aliases": [
+                "transportasi dari hotel simpang lima",
+                "kemudahan akses"
+            ],
+            "keywords": [
+                "transportasi",
+                "taksi online",
+                "ojek",
+                "akses mudah"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Apakah hotel di sekitar Simpang Lima menyediakan fasilitas sarapan khas Semarang?",
+            "answer": "Banyak hotel berbintang di area ini menyajikan menu sarapan tradisional khas Semarang seperti Lumpia, Soto Bangkong, atau Tahu Gimbal.",
+            "aliases": [
+                "sarapan khas semarang di hotel",
+                "menu hotel simpang lima"
+            ],
+            "keywords": [
+                "sarapan",
+                "menu tradisional",
+                "soto bangkong"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah ada hotel bintang 5 di dekat Simpang Lima?",
+            "answer": "Sebagian besar hotel di sekitar Simpang Lima masuk kategori bintang 3 dan bintang 4, dengan beberapa pilihan hotel mewah berstandar tinggi.",
+            "aliases": [
+                "hotel bintang 5 simpang lima",
+                "hotel mewah semarang"
+            ],
+            "keywords": [
+                "hotel bintang 5",
+                "hotel mewah",
+                "akomodasi"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apakah hotel di Simpang Lima ramah keluarga?",
+            "answer": "Ya, hampir seluruh hotel di kawasan Simpang Lima menyediakan fasilitas kamar keluarga dan ramah anak.",
+            "aliases": [
+                "hotel keluarga simpang lima",
+                "family hotel semarang"
+            ],
+            "keywords": [
+                "hotel keluarga",
+                "ramah anak",
+                "family room"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Bagaimana akses dari hotel Simpang Lima ke tempat wisata sejarah Lawang Sewu?",
+            "answer": "Dari hotel di Simpang Lima, Anda hanya butuh waktu sekitar 5-10 menit berkendara untuk sampai ke Lawang Sewu di Jalan Pemuda.",
+            "aliases": [
+                "jarak hotel simpang lima ke lawang sewu"
+            ],
+            "keywords": [
+                "lawang sewu",
+                "jarak hotel",
+                "wisata sejarah"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Apakah disarankan memesan hotel jauh-jauh hari saat akhir pekan di Simpang Lima?",
+            "answer": "Sangat disarankan untuk melakukan reservasi lebih awal karena tingkat hunian (occupancy) hotel di Simpang Lima cukup tinggi saat akhir pekan dan libur panjang.",
+            "aliases": [
+                "pesan hotel akhir pekan semarang",
+                "tips booking hotel"
+            ],
+            "keywords": [
+                "reservasi",
+                "booking hotel",
+                "weekend",
+                "libur panjang"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Apa saja objek wisata terdekat dari Simpang Lima Semarang?",
+            "answer": "Objek wisata terdekat meliputi Lawang Sewu, Tugu Muda, Masjid Agung Jawa Tengah (MAJT), dan Kawasan Kota Lama Semarang.",
+            "aliases": [
+                "wisata dekat simpang lima",
+                "tempat rekreasi sekitar simpang lima"
+            ],
+            "keywords": [
+                "wisata",
+                "lawang sewu",
+                "tugu muda",
+                "kota lama"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Berapa jarak dari Simpang Lima ke Kawasan Kota Lama Semarang?",
+            "answer": "Jarak dari Simpang Lima ke Kota Lama sekitar 3,5 hingga 4 kilometer dengan waktu tempuh berkendara sekitar 10-15 menit.",
+            "aliases": [
+                "jarak simpang lima ke kota lama",
+                "dari simpang lima ke kota lama"
+            ],
+            "keywords": [
+                "kota lama",
+                "jarak",
+                "waktu tempuh"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Apa landmark ikonik yang bisa dilihat langsung di Simpang Lima?",
+            "answer": "Landmark ikonik di Simpang Lima meliputi Lapangan Pancasila, tugu monumen, serta pemandangan gedung-gedung pencakar langit perkotaan.",
+            "aliases": [
+                "landmark simpang lima",
+                "ikon kota semarang"
+            ],
+            "keywords": [
+                "landmark",
+                "ikon",
+                "tugu",
+                "monumen"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Apakah ada taman kota lain yang dekat dengan Simpang Lima?",
+            "answer": "Taman Indonesia Kaya dan Taman Menteri Supeno (Taman KB) terletak sangat dekat dan dapat ditempuh dengan berjalan kaki dari Simpang Lima.",
+            "aliases": [
+                "taman dekat simpang lima",
+                "taman indonesia kaya",
+                "taman kb"
+            ],
+            "keywords": [
+                "taman indonesia kaya",
+                "taman kb",
+                "taman kota"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Apa itu Taman Indonesia Kaya dan di mana lokasinya?",
+            "answer": "Taman Indonesia Kaya adalah ruang publik terbuka ramah seni di Jalan Pahlawan (dekat Simpang Lima) yang memiliki panggung pertunjukan terbuka.",
+            "aliases": [
+                "taman indonesia kaya semarang",
+                "lokasi taman indonesia kaya"
+            ],
+            "keywords": [
+                "taman indonesia kaya",
+                "panggung seni",
+                "jalan pahlawan"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Bagaimana cara ke Tugu Muda dari Simpang Lima?",
+            "answer": "Anda dapat berkendara atau naik taksi/ojek online melewati Jalan Pandanaran ke arah barat laut selama kurang lebih 5 menit.",
+            "aliases": [
+                "rute simpang lima ke tugu muda",
+                "dari simpang lima ke tugu muda"
+            ],
+            "keywords": [
+                "tugu muda",
+                "rute",
+                "jalan pandanaran"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Apakah ada museum di dekat kawasan Simpang Lima?",
+            "answer": "Museum Mandala Bhakti di area Tugu Muda serta Museum Ronggowarsito agak ke barat adalah museum terdekat dari pusat kota.",
+            "aliases": [
+                "museum dekat simpang lima",
+                "museum mandala bhakti"
+            ],
+            "keywords": [
+                "museum",
+                "mandala bhakti",
+                "sejarah"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Apakah kawasan Simpang Lima indah dikunjungi pada malam hari?",
+            "answer": "Sangat indah, karena di malam hari Lapangan Pancasila dipenuhi lampu warna-warni, hiasan lampu sepeda, dan kerlap-kerlip lampu kota.",
+            "aliases": [
+                "simpang lima malam hari",
+                "pemandangan malam simpang lima"
+            ],
+            "keywords": [
+                "malam hari",
+                "lampu warna",
+                "warni",
+                "pemandangan indah"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Apakah ada tempat ibadah ikonik di dekat Simpang Lima selain masjid?",
+            "answer": "Di sekitar pusat kota Semarang terdapat Gereja Katedral Semarang di Jalan Pandanaran yang bernilai arsitektur tinggi.",
+            "aliases": [
+                "gereja katedral semarang dekat simpang lima"
+            ],
+            "keywords": [
+                "gereja katedral",
+                "tempat ibadah",
+                "pandanaran"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Apakah Simpang Lima sering menjadi titik awal perayaan malam tahun baru?",
+            "answer": "Ya, Simpang Lima adalah pusat perayaan pergantian tahun utama di Kota Semarang yang dipadati lautan manusia dan pesta kembang api.",
+            "aliases": [
+                "perayaan tahun baru di simpang lima",
+                "kembang api simpang lima"
+            ],
+            "keywords": [
+                "tahun baru",
+                "kembang api",
+                "perayaan",
+                "pusat kota"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Kapan waktu terbaik untuk mengunjungi Simpang Lima Semarang?",
+            "answer": "Waktu terbaik adalah sore menjelang malam hari (pukul 16.00 - 21.00 WIB) saat cuaca lebih sejuk dan suasananya hidup.",
+            "aliases": [
+                "waktu terbaik ke simpang lima",
+                "jam berkunjung simpang lima"
+            ],
+            "keywords": [
+                "waktu terbaik",
+                "sore hari",
+                "malam hari",
+                "cuaca sejuk"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Apakah aman berjalan-jalan di sekitar Simpang Lima pada malam hari?",
+            "answer": "Kawasan Simpang Lima relatif aman karena ramai pengunjung dan dijaga petugas kepolisian, namun tetap waspada terhadap barang bawaan pribadi.",
+            "aliases": [
+                "keamanan simpang lima malam hari",
+                "apakah aman di simpang lima"
+            ],
+            "keywords": [
+                "keamanan",
+                "aman",
+                "malam hari",
+                "waspada"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Bagaimana kondisi cuaca di Simpang Lima pada siang hari?",
+            "answer": "Pada siang hari, suhu udara di pusat kota bisa cukup terik, sehingga disarankan memakai pelindung seperti payung atau topi.",
+            "aliases": [
+                "cuaca siang hari di simpang lima",
+                "panas di semarang"
+            ],
+            "keywords": [
+                "cuaca",
+                "siang hari",
+                "terik",
+                "panas"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Apakah tersedia layanan Wi-Fi publik di sekitar Simpang Lima?",
+            "answer": "Beberapa titik ruang publik dan area komersial/mall menyediakan akses Wi-Fi gratis bagi pengunjung.",
+            "aliases": [
+                "wifi publik simpang lima",
+                "internet gratis di simpang lima"
+            ],
+            "keywords": [
+                "wifi publik",
+                "internet gratis",
+                "koneksi"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Bagaimana tips memilih warung kuliner lesehan di Simpang Lima agar nyaman?",
+            "answer": "Disarankan menanyakan harga menu terlebih dahulu sebelum memesan untuk menghindari kesalahpahaman harga.",
+            "aliases": [
+                "tips makan di simpang lima",
+                "tips warung lesehan"
+            ],
+            "keywords": [
+                "tips kuliner",
+                "lesehan",
+                "harga makanan"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Di mana kantor polisi terdekat dari Simpang Lima?",
+            "answer": "Terdapat Pos Polantas di sekitar bundaran Simpang Lima serta Polsek Semarang Selatan yang tidak jauh dari lokasi.",
+            "aliases": [
+                "kantor polisi terdekat simpang lima",
+                "pos polisi simpang lima"
+            ],
+            "keywords": [
+                "kantor polisi",
+                "pos polantas",
+                "polsek semarang selatan"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Apakah ada fasilitas kesehatan atau rumah sakit dekat Simpang Lima?",
+            "answer": "Rumah Sakit Telogorejo dan RS Elisabeth adalah beberapa fasilitas kesehatan terdekat dengan standar medis yang baik.",
+            "aliases": [
+                "rumah sakit dekat simpang lima",
+                "rs telogorejo semarang"
+            ],
+            "keywords": [
+                "rumah sakit",
+                "rs telogorejo",
+                "rs elisabeth",
+                "kesehatan"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Apakah ada layanan penukaran mata uang (money changer) di sekitar Simpang Lima?",
+            "answer": "Money changer dapat ditemukan di dalam pusat perbelanjaan atau area komersial di sekitar pusat kota Semarang.",
+            "aliases": [
+                "money changer dekat simpang lima",
+                "tempat tukar uang"
+            ],
+            "keywords": [
+                "money changer",
+                "tukar uang",
+                "valuta asing"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Bagaimana cara memesan transportasi online di Simpang Lima?",
+            "answer": "Anda bisa dengan mudah menggunakan aplikasi Grab, Gojek, atau Maxim dengan menentukan titik jemput (pickup point) resmi di sekitar trotoar atau mall.",
+            "aliases": [
+                "pesan gojek grab di simpang lima",
+                "titik jemput online"
+            ],
+            "keywords": [
+                "transportasi online",
+                "grab",
+                "gojek",
+                "maxim"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Apa arti nama 'Simpang Lima' bagi Kota Semarang?",
+            "answer": "Simpang Lima melambangkan titik pertemuan lima jalan utama yang dirintis oleh Ir. Soekarno pada tahun 1950-an sebagai pusat keramaian baru.",
+            "aliases": [
+                "sejarah nama simpang lima",
+                "arti simpang lima semarang"
+            ],
+            "keywords": [
+                "sejarah",
+                "arti nama",
+                "ir soekarno",
+                "pusat kota"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Di mana bisa membeli Bandeng Presto duri lunak dekat Simpang Lima?",
+            "answer": "Sentra penjualan Bandeng Presto paling terkenal berada di Jalan Pandanaran, pusat oleh-oleh utama dekat Simpang Lima.",
+            "aliases": [
+                "beli bandeng presto semarang dekat simpang lima"
+            ],
+            "keywords": [
+                "bandeng presto",
+                "pandanaran",
+                "oleh",
+                "oleh khas"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Apa itu Wingko Babat dan di mana mencarinya dekat Simpang Lima?",
+            "answer": "Wingko Babat adalah kue tradisional berbahan kelapa parut dan ketan, banyak dijual di toko oleh-oleh Jalan Pandanaran.",
+            "aliases": [
+                "beli wingko babat semarang",
+                "oleh",
+                "oleh wingko babat"
+            ],
+            "keywords": [
+                "wingko babat",
+                "kue tradisional",
+                "pandanaran"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Apakah ada sentra batik di sekitar Simpang Lima?",
+            "answer": "Beberapa butik dan pusat galeri batik khas Semarang serta Jawa Tengah dapat ditemukan di pusat perbelanjaan dan ruko sekitar jalan utama.",
+            "aliases": [
+                "sentra batik semarang dekat simpang lima",
+                "beli batik"
+            ],
+            "keywords": [
+                "batik",
+                "galeri batik",
+                "pakaian tradisional"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Di mana mencari kerajinan suvenir berupa lumpia frozen untuk dibawa pulang?",
+            "answer": "Toko oleh-oleh di Jalan Pandanaran menyediakan kemasan vakum (frozen) untuk lumpia agar tahan lama dibawa ke luar kota.",
+            "aliases": [
+                "lumpia frozen semarang di pandanaran"
+            ],
+            "keywords": [
+                "lumpia frozen",
+                "vakum",
+                "oleh",
+                "oleh tahan lama"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Apakah ada pasar swalayan besar di sekitar Simpang Lima?",
+            "answer": "Supermarket besar seperti Hero atau supermarket lokal dan hipermarket tersedia di dalam Mal Ciputra dan Plaza Simpang Lima.",
+            "aliases": [
+                "supermarket dekat simpang lima",
+                "swalayan semarang"
+            ],
+            "keywords": [
+                "supermarket",
+                "swalayan",
+                "hypermarket",
+                "belanja kebutuhan"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Apakah ada toko buah segar di sekitar Simpang Lima?",
+            "answer": "Toko buah segar dan penjual buah musiman (seperti durian saat musimnya) kerap dijajakan di beberapa sudut jalan sekitar pusat kota.",
+            "aliases": [
+                "toko buah segar simpang lima",
+                "beli buah di semarang"
+            ],
+            "keywords": [
+                "toko buah",
+                "buah segar",
+                "durian musiman"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Di mana membeli perlengkapan ibadah muslim di dekat Simpang Lima?",
+            "answer": "Toko perlengkapan muslim dan sajadah dapat ditemukan di area sekitar Masjid Baiturrahman Jalan Pandanaran.",
+            "aliases": [
+                "toko perlengkapan muslim simpang lima",
+                "beli baju koko"
+            ],
+            "keywords": [
+                "perlengkapan muslim",
+                "sajadah",
+                "masjid baiturrahman"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Apakah ada toko bunga (florist) di sekitar Simpang Lima?",
+            "answer": "Beberapa penjual dan toko bunga segar dapat ditemukan di beberapa titik jalan utama yang melayani karangan bunga ucapan.",
+            "aliases": [
+                "toko bunga simpang lima",
+                "florist semarang terdekat"
+            ],
+            "keywords": [
+                "toko bunga",
+                "florist",
+                "karangan bunga"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Apakah ada toko kacamata atau optik terdekat dari Simpang Lima?",
+            "answer": "Sejumlah gerai optik terkemuka tersedia di dalam Mal Ciputra dan pertokoan sekitar Simpang Lima.",
+            "aliases": [
+                "optik kacamata simpang lima",
+                "toko kacamata semarang"
+            ],
+            "keywords": [
+                "optik",
+                "kacamata",
+                "toko kacamata"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Apakah ada apotek atau toko obat 24 jam di dekat Simpang Lima?",
+            "answer": "Apotek berjejaring seperti Kimia Farma dan apotek lokal yang buka 24 jam tersedia di sekitar Jalan Pandanaran dan Gajah Mada.",
+            "aliases": [
+                "apotek 24 jam simpang lima",
+                "beli obat malam hari"
+            ],
+            "keywords": [
+                "apotek",
+                "toko obat",
+                "kimia farma",
+                "24 jam"
+            ]
+        },
+        {
+            "id": "QA81",
+            "question": "Apakah Lapangan Pancasila Simpang Lima sering dipakai untuk senam pagi?",
+            "answer": "Ya, setiap hari Minggu pagi area Lapangan Pancasila dipenuhi warga yang melakukan senam massal, jogging, dan bersepeda.",
+            "aliases": [
+                "senam pagi minggu di simpang lima",
+                "car free day semarang"
+            ],
+            "keywords": [
+                "senam pagi",
+                "minggu pagi",
+                "car free day",
+                "olahraga"
+            ]
+        },
+        {
+            "id": "QA82",
+            "question": "Apakah ada kegiatan Car Free Day (CFD) di sekitar Simpang Lima?",
+            "answer": "Kawasan Jalan Pahlawan hingga Simpang Lima sering menjadi pusat kegiatan Car Free Day pada Minggu pagi.",
+            "aliases": [
+                "car free day jalan pahlawan simpang lima",
+                "cfd semarang"
+            ],
+            "keywords": [
+                "car free day",
+                "cfd",
+                "minggu pagi",
+                "jalan pahlawan"
+            ]
+        },
+        {
+            "id": "QA83",
+            "question": "Komunitas apa saja yang sering berkumpul di Simpang Lima?",
+            "answer": "Berbagai komunitas seperti komunitas sepeda tua, skateboard, seniman jalanan, dan pecinta hewan sering berkumpul di akhir pekan.",
+            "aliases": [
+                "komunitas di simpang lima",
+                "perkumpulan hobi semarang"
+            ],
+            "keywords": [
+                "komunitas",
+                "perkumpulan",
+                "hobi",
+                "aktivitas sosial"
+            ]
+        },
+        {
+            "id": "QA84",
+            "question": "Apakah ada pertunjukan musik jalanan atau musisi lokal di Simpang Lima?",
+            "answer": "Pada malam hari, beberapa musisi jalanan dan penyanyi akustik sering menghibur para pengunjung di area trotoar dan tenda kuliner.",
+            "aliases": [
+                "musisi jalanan simpang lima",
+                "live music semarang"
+            ],
+            "keywords": [
+                "musisi jalanan",
+                "live music",
+                "hiburan",
+                "akustik"
+            ]
+        },
+        {
+            "id": "QA85",
+            "question": "Bagaimana perizinan jika ingin mengadakan acara atau pameran di Lapangan Pancasila?",
+            "answer": "Perizinan acara di Lapangan Pancasila harus melalui birokrasi Pemerintah Kota Semarang serta pihak kepolisian setempat.",
+            "aliases": [
+                "izin acara di simpang lima",
+                "sewa lapangan pancasila"
+            ],
+            "keywords": [
+                "perizinan",
+                "acara",
+                "pemkot semarang",
+                "event publik"
+            ]
+        },
+        {
+            "id": "QA86",
+            "question": "Apakah ada pameran UMKM yang rutin diadakan di Simpang Lima?",
+            "answer": "Pemerintah Kota Semarang sering menyelenggarakan bazar dan pameran produk UMKM lokal di sekitar kawasan Simpang Lima.",
+            "aliases": [
+                "pameran umkm simpang lima",
+                "bazar produk lokal semarang"
+            ],
+            "keywords": [
+                "pameran umkm",
+                "bazar",
+                "produk lokal",
+                "pemerintah kota"
+            ]
+        },
+        {
+            "id": "QA87",
+            "question": "Bagaimana suasana Simpang Lima saat perayaan malam Tahun Baru Imlek atau hari besar?",
+            "answer": "Suasana sangat meriah dengan dekorasi lampu, pertunjukan seni budaya, dan ramainya warga yang berkumpul.",
+            "aliases": [
+                "perayaan imlek di simpang lima",
+                "suasana hari besar"
+            ],
+            "keywords": [
+                "tahun baru imlek",
+                "hari besar",
+                "perayaan budaya"
+            ]
+        },
+        {
+            "id": "QA88",
+            "question": "Apakah ada kegiatan sosial atau donor darah yang sering diadakan di sekitar Simpang Lima?",
+            "answer": "Mobil unit donor darah PMI atau kegiatan sosial kerap hadir di area publik mall dan titik keramaian Simpang Lima.",
+            "aliases": [
+                "donor darah simpang lima",
+                "pmi semarang di mall"
+            ],
+            "keywords": [
+                "donor darah",
+                "pmi",
+                "kegiatan sosial"
+            ]
+        },
+        {
+            "id": "QA89",
+            "question": "Apakah para fotografer sering menjadikan Simpang Lima sebagai objek foto malam (night photography)?",
+            "answer": "Ya, kelap-kelip lampu kendaraan dan keramaian kota menjadikan Simpang Lima spot favorit untuk fotografi malam hari.",
+            "aliases": [
+                "fotografi malam simpang lima",
+                "night photography semarang"
+            ],
+            "keywords": [
+                "fotografi malam",
+                "night photography",
+                "spot foto"
+            ]
+        },
+        {
+            "id": "QA90",
+            "question": "Bagaimana antusiasme warga lokal terhadap pusat kota Simpang Lima?",
+            "answer": "Simpang Lima menjadi jantung kebanggaan warga Semarang sebagai pusat rekreasi, sosial, dan ekonomi yang tak pernah tidur.",
+            "aliases": [
+                "antusiasme warga simpang lima",
+                "jantung kota semarang"
+            ],
+            "keywords": [
+                "warga lokal",
+                "jantung kota",
+                "kebanggaan",
+                "pusat sosial"
+            ]
+        },
+        {
+            "id": "QA91",
+            "question": "Jajanan tradisional apa saja yang populer di pinggir jalan Simpang Lima?",
+            "answer": "Selain Pisang Plenet, terdapat Lekker Semarang, Wedang Ronde, Jagung Bakar, dan Tahu Petis.",
+            "aliases": [
+                "jajanan tradisional simpang lima",
+                "kuliner kaki lima semarang"
+            ],
+            "keywords": [
+                "jajanan tradisional",
+                "lekker",
+                "wedang ronde",
+                "tahu petis"
+            ]
+        },
+        {
+            "id": "QA92",
+            "question": "Di mana bisa mencicipi Wedang Ronde hangat di malam hari di Simpang Lima?",
+            "answer": "Pedagang wedang ronde gerobak keliling dan mangkal mudah ditemukan di sekeliling trotoar Lapangan Pancasila saat malam hari.",
+            "aliases": [
+                "wedang ronde malam simpang lima",
+                "wedang ronde hangat"
+            ],
+            "keywords": [
+                "wedang ronde",
+                "minuman hangat",
+                "malam hari"
+            ]
+        },
+        {
+            "id": "QA93",
+            "question": "Apa itu Tahu Petis dan di mana menemukannya dekat Simpang Lima?",
+            "answer": "Tahu Petis adalah tahu goreng khas yang disajikan dengan saus hitam legit berasa gurih manis (petis), banyak dijual di warung gorengan malam.",
+            "aliases": [
+                "tahu petis semarang di simpang lima",
+                "beli tahu petis"
+            ],
+            "keywords": [
+                "tahu petis",
+                "saus petis",
+                "gorengan",
+                "kuliner lokal"
+            ]
+        },
+        {
+            "id": "QA94",
+            "question": "Di mana lokasi penjual Lekker legendaris di sekitar Simpang Lima?",
+            "answer": "Penjual kue lekker tipis renyah dengan berbagai pilihan isi cokelat dan pisang sering mangkal di trotoar depan mall atau sudut lapangan.",
+            "aliases": [
+                "kue lekker simpang lima",
+                "beli lekker semarang"
+            ],
+            "keywords": [
+                "kue lekker",
+                "jajanan anak",
+                "renyah",
+                "manis"
+            ]
+        },
+        {
+            "id": "QA95",
+            "question": "Apakah ada penjual jagung bakar di sekitar Lapangan Pancasila?",
+            "answer": "Ya, saat sore dan malam hari, banyak pedagang menjajakan jagung bakar aneka rasa di pinggir lapangan.",
+            "aliases": [
+                "jagung bakar simpang lima",
+                "kuliner jagung bakar malam"
+            ],
+            "keywords": [
+                "jagung bakar",
+                "jagung manis",
+                "malam hari"
+            ]
+        },
+        {
+            "id": "QA96",
+            "question": "Apakah harga makanan kaki lima di Simpang Lima tercantum jelas?",
+            "answer": "Sebagian besar warung tenda memiliki daftar menu dengan harga, namun disarankan untuk selalu bertanya sebelum memesan untuk kenyamanan.",
+            "aliases": [
+                "harga kaki lima simpang lima",
+                "transparansi harga makanan"
+            ],
+            "keywords": [
+                "harga kaki lima",
+                "transparan",
+                "warung tenda"
+            ]
+        },
+        {
+            "id": "QA97",
+            "question": "Apakah kuliner malam di Simpang Lima bersih dan higienis?",
+            "answer": "Para pedagang berupaya menjaga kebersihan, namun sebagai kawasan terbuka publik, disarankan memilih warung yang tampak tertib dan bersih.",
+            "aliases": [
+                "kebersihan kuliner simpang lima",
+                "higienitas makanan"
+            ],
+            "keywords": [
+                "kebersihan",
+                "higienis",
+                "warung makan"
+            ]
+        },
+        {
+            "id": "QA98",
+            "question": "Bagaimana cara memesan makanan di tenda lesehan Simpang Lima?",
+            "answer": "Anda bisa duduk di tikar yang disediakan, meminta buku menu atau langsung memesan ke pelayan yang menghampiri meja Anda.",
+            "aliases": [
+                "cara pesan makanan di lesehan simpang lima"
+            ],
+            "keywords": [
+                "cara pesan",
+                "lesehan",
+                "warung tenda"
+            ]
+        },
+        {
+            "id": "QA99",
+            "question": "Apakah tersedia minuman tradisional seperti beras kencur atau kunyit asam di Simpang Lima?",
+            "answer": "Beberapa pedagang minuman tradisional keliling atau warung menjajakan jamu beras kencur dan kunyit asam segar.",
+            "aliases": [
+                "jamu tradisional simpang lima",
+                "beras kencur kunyit asam"
+            ],
+            "keywords": [
+                "jamu tradisional",
+                "beras kencur",
+                "kunyit asam",
+                "sehat"
+            ]
+        },
+        {
+            "id": "QA100",
+            "question": "Apa kesan kuliner paling khas yang dirasakan saat berkunjung ke Simpang Lima?",
+            "answer": "Kombinasi aroma masakan khas nusantara, suasana keramaian malam, dan keramahan warga lokal memberikan pengalaman kuliner yang tak terlupakan.",
+            "aliases": [
+                "pengalaman kuliner simpang lima",
+                "kesan kuliner semarang"
+            ],
+            "keywords": [
+                "pengalaman kuliner",
+                "kesan khas",
+                "suasana malam"
+            ]
+        }
+    ]
+}

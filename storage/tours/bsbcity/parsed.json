@@ -1,0 +1,368 @@
+{
+    "startNode": "node8",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Danaubsb",
+            "displayName": "Danaubsb",
+            "rawName": "",
+            "customNodeId": "danaubsb",
+            "pan": 50.01,
+            "tilt": -8.43,
+            "fov": 129.45,
+            "tags": [
+                "bsbcity",
+                "oi"
+            ],
+            "aliases": [
+                "danaubsb"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Tepi Danau",
+            "displayName": "Tepi Danau",
+            "rawName": "",
+            "customNodeId": "-epi-anau",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "bsbcity"
+            ],
+            "aliases": [
+                "Tepi Danau"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Basement Uptown Mall BSB City",
+            "displayName": "Basement Uptown Mall BSB City",
+            "rawName": "",
+            "customNodeId": "-asement-ptown-all-ity",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "bsbcity"
+            ],
+            "aliases": [
+                "Basement Uptown Mall BSB City"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Keretamini",
+            "displayName": "Keretamini",
+            "rawName": "",
+            "customNodeId": "keretamini",
+            "pan": 6.35,
+            "tilt": -8.17,
+            "fov": 100,
+            "tags": [
+                "bsbcity",
+                "oi"
+            ],
+            "aliases": [
+                "keretamini"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Mallbsb",
+            "displayName": "Mallbsb",
+            "rawName": "",
+            "customNodeId": "mallbsb",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "bsbcity"
+            ],
+            "aliases": [
+                "mallbsb"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Area Parkir Mall Uptown BSB City",
+            "displayName": "Area Parkir Mall Uptown BSB City",
+            "rawName": "",
+            "customNodeId": "-rea-arkir-all-ptown-ity",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "bsbcity"
+            ],
+            "aliases": [
+                "Area Parkir Mall Uptown BSB City"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Pintu Masuk BSB City",
+            "displayName": "Pintu Masuk BSB City",
+            "rawName": "",
+            "customNodeId": "-intu-asuk-ity",
+            "pan": -30.4,
+            "tilt": -7.95,
+            "fov": 127.66,
+            "tags": [
+                "bsbcity"
+            ],
+            "aliases": [
+                "Pintu Masuk BSB City"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Danau",
+            "displayName": "Danau",
+            "rawName": "",
+            "customNodeId": "danau",
+            "pan": 66.03,
+            "tilt": -35.86,
+            "fov": 100,
+            "tags": [
+                "bsbcity",
+                "oi"
+            ],
+            "aliases": [
+                "danau"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "BSB City Uptown Mall",
+            "displayName": "BSB City Uptown Mall",
+            "rawName": "",
+            "customNodeId": "-ity-ptown-all",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "bsbcity"
+            ],
+            "aliases": [
+                "BSB City Uptown Mall"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Halte",
+            "displayName": "Halte",
+            "rawName": "",
+            "customNodeId": "halte",
+            "pan": -149.12,
+            "tilt": -7.35,
+            "fov": 109.91,
+            "tags": [
+                "bsbcity",
+                "oi"
+            ],
+            "aliases": [
+                "halte"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node2",
+            "title": "Tepi Danau",
+            "id": "Point01",
+            "pan": -259.07,
+            "tilt": -7.23
+        },
+        {
+            "scene": "node1",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -21.69,
+            "tilt": -4.37
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Tepi Danau",
+            "id": "Point01",
+            "pan": -356.72,
+            "tilt": -9.75
+        },
+        {
+            "scene": "node3",
+            "target": "node5",
+            "title": "Lobi Uptown Mall BSB City",
+            "id": "Point01",
+            "pan": -168.9,
+            "tilt": -9.27
+        },
+        {
+            "scene": "node3",
+            "target": "node7",
+            "title": "Keluar Area Parkir",
+            "id": "Point02",
+            "pan": -41.7,
+            "tilt": -8.18
+        },
+        {
+            "scene": "node4",
+            "target": "node5",
+            "title": "Lobi Mall",
+            "id": "Point01",
+            "pan": -269.75,
+            "tilt": -9.11
+        },
+        {
+            "scene": "node5",
+            "target": "node7",
+            "title": "Area Parkir",
+            "id": "Point01",
+            "pan": -236.19,
+            "tilt": 1.15
+        },
+        {
+            "scene": "node5",
+            "target": "node4",
+            "title": "Uptown Mall BSB City Fun World",
+            "id": "Point02",
+            "pan": -92.26,
+            "tilt": 1.34
+        },
+        {
+            "scene": "node5",
+            "target": "node3",
+            "title": "Basement Uptown Mall BSB City",
+            "id": "Point03",
+            "pan": -316.3,
+            "tilt": -0.89
+        },
+        {
+            "scene": "node7",
+            "target": "node11",
+            "title": "Danau BSB City",
+            "id": "Point01",
+            "pan": -264.11,
+            "tilt": -6.29
+        },
+        {
+            "scene": "node7",
+            "target": "node5",
+            "title": "Lobi Uptown Mall BSB City",
+            "id": "Point02",
+            "pan": -156.54,
+            "tilt": -10.91
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Danau BSB City",
+            "id": "Point01",
+            "pan": 346.5,
+            "tilt": 2.88
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Pintu Masuk BSB City",
+            "id": "Point01",
+            "pan": -71.45,
+            "tilt": -2.82
+        },
+        {
+            "scene": "node9",
+            "target": "node10",
+            "title": "BSB City Uptown Mall",
+            "id": "Point02",
+            "pan": -315.57,
+            "tilt": -1.07
+        },
+        {
+            "scene": "node9",
+            "target": "node2",
+            "title": "Tepi Danau",
+            "id": "Point03",
+            "pan": -0.28,
+            "tilt": -40.08
+        },
+        {
+            "scene": "node9",
+            "target": "node1",
+            "title": "Tepi Danau",
+            "id": "Point04",
+            "pan": -338.54,
+            "tilt": -58.02
+        },
+        {
+            "scene": "node10",
+            "target": "node9",
+            "title": "Danau BSB City",
+            "id": "Point01",
+            "pan": -1.08,
+            "tilt": 1.51
+        },
+        {
+            "scene": "node10",
+            "target": "node7",
+            "title": "Area Parkir Mall Uptown BSB City",
+            "id": "Point02",
+            "pan": -24.72,
+            "tilt": -10.81
+        },
+        {
+            "scene": "node11",
+            "target": "node1",
+            "title": "Tepi Danau",
+            "id": "Point01",
+            "pan": -200.24,
+            "tilt": -10.86
+        },
+        {
+            "scene": "node11",
+            "target": "node7",
+            "title": "Area Parkir Mall Uptown BSB City",
+            "id": "Point02",
+            "pan": -21.84,
+            "tilt": -9.63
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1151,
+            "label": "Danau BSB",
+            "description": "Fasilitas Penunjang Kawasan Danau BSB kini telah berkembang menjadi pusat gaya hidup (lifestyle) baru di Semarang Atas. Di tepian danau, terdapat sentra kuliner seperti \"Tepi Danau Food Market\" serta berbagai kafe dan restoran kekinian yang memungkinkan pengunjung bersantap sembari menikmati panorama air.",
+            "fragment": "danaubsb",
+            "link": "bsbcity/index.html#danaubsb",
+            "sceneId": "node1"
+        },
+        {
+            "infoId": 1152,
+            "label": "Uptown Mall BSB City",
+            "description": "Lokasi dan Konsep \"Green Mall\" Uptown Mall BSB City adalah pusat perbelanjaan modern yang terletak di jantung kawasan mandiri Bukit Semarang Baru (BSB City), Mijen, Kota Semarang. Berbeda dengan mal pada umumnya yang tertutup rapat, mal ini mengusung konsep Lifestyle Mall yang ramah lingkungan dan terbuka (open-air). Arsitekturnya dirancang dengan banyak ruang terbuka hijau (RTH) dan sirkulasi udara alami, memanfaatkan letak geografisnya di dataran tinggi yang sejuk.",
+            "fragment": "mallbsb",
+            "link": "bsbcity/index.html#mallbsb",
+            "sceneId": "node5"
+        },
+        {
+            "infoId": 1153,
+            "label": "Gama Candi Resto BSB",
+            "description": "Gama Candi BSB City dirancang dengan kesan megah dan elegan, memadukan kenyamanan modern dengan sentuhan keramahan khas Jawa. Ruang makannya sangat lapang (spacious), terbagi menjadi area indoor berpendingin ruangan, ruang VIP untuk privasi, serta area semi-outdoor yang nyaman.",
+            "fragment": "",
+            "link": "NULL",
+            "sceneId": ""
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "e4bd22965449e6ef",
+        "skin.js": "4e47330bbfaf5d3e",
+        "index.html": "ee0891952b516582"
+    }
+}

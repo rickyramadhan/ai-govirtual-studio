@@ -1,0 +1,862 @@
+{
+    "startNode": "node209",
+    "scenes": [
+        {
+            "id": "node206",
+            "name": "node206",
+            "displayName": "node206",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node207",
+            "name": "node207",
+            "displayName": "node207",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node208",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node209",
+            "name": "Taman Indonesia Kaya",
+            "displayName": "Taman Indonesia Kaya",
+            "rawName": "",
+            "customNodeId": "-aman-ndonesia-aya",
+            "pan": -0.71,
+            "tilt": 10.46,
+            "fov": 120.69,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman Indonesia Kaya"
+            ]
+        },
+        {
+            "id": "node229",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node210",
+            "name": "Teater",
+            "displayName": "Teater",
+            "rawName": "",
+            "customNodeId": "-eater",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Teater"
+            ]
+        },
+        {
+            "id": "node211",
+            "name": "Prasasti",
+            "displayName": "Prasasti",
+            "rawName": "",
+            "customNodeId": "prasasti",
+            "pan": 0.96,
+            "tilt": -38.1,
+            "fov": 136.93,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "prasasti"
+            ]
+        },
+        {
+            "id": "node212",
+            "name": "Penari",
+            "displayName": "Penari",
+            "rawName": "",
+            "customNodeId": "penari",
+            "pan": -1.37,
+            "tilt": -9.08,
+            "fov": 136.93,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "penari"
+            ]
+        },
+        {
+            "id": "node213",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node214",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node215",
+            "name": "Teater",
+            "displayName": "Teater",
+            "rawName": "",
+            "customNodeId": "-eater",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Teater"
+            ]
+        },
+        {
+            "id": "node216",
+            "name": "Panggungbudaya",
+            "displayName": "Panggungbudaya",
+            "rawName": "",
+            "customNodeId": "panggungbudaya",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "panggungbudaya"
+            ]
+        },
+        {
+            "id": "node217",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node218",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node219",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node220",
+            "name": "Airmancur",
+            "displayName": "Airmancur",
+            "rawName": "",
+            "customNodeId": "airmancur",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "airmancur"
+            ]
+        },
+        {
+            "id": "node221",
+            "name": "Patungibu",
+            "displayName": "Patungibu",
+            "rawName": "",
+            "customNodeId": "patungibu",
+            "pan": -1.6,
+            "tilt": 16.43,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "patungibu"
+            ]
+        },
+        {
+            "id": "node222",
+            "name": "Gerbangmural",
+            "displayName": "Gerbangmural",
+            "rawName": "",
+            "customNodeId": "gerbangmural",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "gerbangmural"
+            ]
+        },
+        {
+            "id": "node223",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node224",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node225",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "-aman",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "Taman"
+            ]
+        },
+        {
+            "id": "node226",
+            "name": "Dindingkreasi",
+            "displayName": "Dindingkreasi",
+            "rawName": "",
+            "customNodeId": "dindingkreasi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 126.58,
+            "tags": [
+                "oi",
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "dindingkreasi"
+            ]
+        },
+        {
+            "id": "node227",
+            "name": "Patungpenari",
+            "displayName": "Patungpenari",
+            "rawName": "",
+            "customNodeId": "patungpenari",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "patungpenari"
+            ]
+        },
+        {
+            "id": "node228",
+            "name": "Patungwayang",
+            "displayName": "Patungwayang",
+            "rawName": "",
+            "customNodeId": "patungwayang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanIndonesiaKaya"
+            ],
+            "aliases": [
+                "patungwayang"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node206",
+            "target": "node216",
+            "title": "Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -338.82,
+            "tilt": -38.56
+        },
+        {
+            "scene": "node206",
+            "target": "node220",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -183.48,
+            "tilt": -59.21
+        },
+        {
+            "scene": "node207",
+            "target": "node217",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -82.54,
+            "tilt": -0.56
+        },
+        {
+            "scene": "node208",
+            "target": "node217",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -108.19,
+            "tilt": -1.13
+        },
+        {
+            "scene": "node208",
+            "target": "node214",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -258.59,
+            "tilt": -9.37
+        },
+        {
+            "scene": "node209",
+            "target": "node212",
+            "title": "Denah Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -278,
+            "tilt": -0.26
+        },
+        {
+            "scene": "node209",
+            "target": "node211",
+            "title": "Monumen Peresmian Taman",
+            "id": "Point02",
+            "pan": -93.21,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node209",
+            "target": "node215",
+            "title": "Teater",
+            "id": "Point03",
+            "pan": -1.92,
+            "tilt": -4.89
+        },
+        {
+            "scene": "node209",
+            "target": "node209",
+            "title": "Keluar",
+            "id": "Point05",
+            "pan": -244.83,
+            "tilt": -5.17
+        },
+        {
+            "scene": "node229",
+            "target": "node209",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -244.83,
+            "tilt": -5.17
+        },
+        {
+            "scene": "node210",
+            "target": "node213",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -263.17,
+            "tilt": -1.17
+        },
+        {
+            "scene": "node211",
+            "target": "node209",
+            "title": "Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -267.7,
+            "tilt": -1.42
+        },
+        {
+            "scene": "node211",
+            "target": "node219",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -63.47,
+            "tilt": -1.14
+        },
+        {
+            "scene": "node211",
+            "target": "node222",
+            "title": "Mural",
+            "id": "Point03",
+            "pan": -90.66,
+            "tilt": -2.25
+        },
+        {
+            "scene": "node212",
+            "target": "node209",
+            "title": "Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -101.69,
+            "tilt": 0.37
+        },
+        {
+            "scene": "node212",
+            "target": "node228",
+            "title": "Seni Patung Wayang",
+            "id": "Point02",
+            "pan": -249.22,
+            "tilt": -8.06
+        },
+        {
+            "scene": "node213",
+            "target": "node214",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -73.77,
+            "tilt": -6.32
+        },
+        {
+            "scene": "node213",
+            "target": "node210",
+            "title": "Teater",
+            "id": "Point02",
+            "pan": -192.49,
+            "tilt": 5.12
+        },
+        {
+            "scene": "node214",
+            "target": "node208",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -3.14,
+            "tilt": -5.77
+        },
+        {
+            "scene": "node214",
+            "target": "node213",
+            "title": "Teater",
+            "id": "Point02",
+            "pan": -90.46,
+            "tilt": 3.13
+        },
+        {
+            "scene": "node215",
+            "target": "node209",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -181.99,
+            "tilt": 6.14
+        },
+        {
+            "scene": "node215",
+            "target": "node216",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -5.95,
+            "tilt": -1.77
+        },
+        {
+            "scene": "node216",
+            "target": "node218",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -259.09,
+            "tilt": 0.78
+        },
+        {
+            "scene": "node216",
+            "target": "node220",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -179.78,
+            "tilt": 1.08
+        },
+        {
+            "scene": "node216",
+            "target": "node215",
+            "title": "Teater",
+            "id": "Point03",
+            "pan": 356.79,
+            "tilt": 4.68
+        },
+        {
+            "scene": "node217",
+            "target": "node207",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -253.98,
+            "tilt": -4.4
+        },
+        {
+            "scene": "node217",
+            "target": "node208",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -26.94,
+            "tilt": -5.92
+        },
+        {
+            "scene": "node218",
+            "target": "node219",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": 0.05,
+            "tilt": 0.47
+        },
+        {
+            "scene": "node218",
+            "target": "node216",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -152.36,
+            "tilt": -11.48
+        },
+        {
+            "scene": "node218",
+            "target": "node225",
+            "title": "Taman",
+            "id": "Point03",
+            "pan": -258.16,
+            "tilt": -11.25
+        },
+        {
+            "scene": "node219",
+            "target": "node211",
+            "title": "Monumen Peresmian",
+            "id": "Point01",
+            "pan": -104.57,
+            "tilt": -2.57
+        },
+        {
+            "scene": "node219",
+            "target": "node218",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -238.2,
+            "tilt": -8.56
+        },
+        {
+            "scene": "node220",
+            "target": "node216",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -298.44,
+            "tilt": -4.43
+        },
+        {
+            "scene": "node220",
+            "target": "node221",
+            "title": "Monumen Ibu & Anak",
+            "id": "Point02",
+            "pan": -179.2,
+            "tilt": -4.46
+        },
+        {
+            "scene": "node221",
+            "target": "node227",
+            "title": "Seni Patung",
+            "id": "Point01",
+            "pan": -69.26,
+            "tilt": -8.78
+        },
+        {
+            "scene": "node221",
+            "target": "node220",
+            "title": "Air Mancur",
+            "id": "Point02",
+            "pan": -323.52,
+            "tilt": 0.5
+        },
+        {
+            "scene": "node221",
+            "target": "node222",
+            "title": "Mural",
+            "id": "Point03",
+            "pan": -277.33,
+            "tilt": -9.86
+        },
+        {
+            "scene": "node222",
+            "target": "node221",
+            "title": "Monumen Ibu & Anak",
+            "id": "Point01",
+            "pan": -66.47,
+            "tilt": -5.95
+        },
+        {
+            "scene": "node222",
+            "target": "node223",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -315.88,
+            "tilt": -2.96
+        },
+        {
+            "scene": "node222",
+            "target": "node211",
+            "title": "Monumen Peresmian",
+            "id": "Point03",
+            "pan": -277.75,
+            "tilt": -1.68
+        },
+        {
+            "scene": "node223",
+            "target": "node222",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -36.26,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node223",
+            "target": "node224",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -187.75,
+            "tilt": 0.04
+        },
+        {
+            "scene": "node224",
+            "target": "node223",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -168.35,
+            "tilt": -4.46
+        },
+        {
+            "scene": "node224",
+            "target": "node225",
+            "title": "Taman",
+            "id": "Point02",
+            "pan": -291.09,
+            "tilt": -4.98
+        },
+        {
+            "scene": "node225",
+            "target": "node224",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -41.16,
+            "tilt": 5.01
+        },
+        {
+            "scene": "node225",
+            "target": "node226",
+            "title": "Dinding Kreasi",
+            "id": "Point02",
+            "pan": -163.98,
+            "tilt": -0.05
+        },
+        {
+            "scene": "node225",
+            "target": "node218",
+            "title": "Taman",
+            "id": "Point03",
+            "pan": -217.27,
+            "tilt": -3.06
+        },
+        {
+            "scene": "node226",
+            "target": "node225",
+            "title": "Taman",
+            "id": "Point01",
+            "pan": -181.29,
+            "tilt": -2.21
+        },
+        {
+            "scene": "node227",
+            "target": "node228",
+            "title": "Seni Patung Wayang",
+            "id": "Point01",
+            "pan": -69.31,
+            "tilt": -3.54
+        },
+        {
+            "scene": "node227",
+            "target": "node221",
+            "title": "Monumen Ibu & Anak",
+            "id": "Point02",
+            "pan": -257.39,
+            "tilt": -3.34
+        },
+        {
+            "scene": "node228",
+            "target": "node212",
+            "title": "Denah Taman Indonesia Kaya",
+            "id": "Point01",
+            "pan": -68.3,
+            "tilt": -3.56
+        },
+        {
+            "scene": "node228",
+            "target": "node227",
+            "title": "Seni Patung",
+            "id": "Point02",
+            "pan": -291.46,
+            "tilt": -8.01
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 938,
+            "label": "Panggung Budaya",
+            "description": "Area ini merupakan panggung seni pertunjukan terbuka (outdoor) pertama di Jawa Tengah dengan konsep taman cerdas yang memadukan hiburan, edukasi, dan pelestarian budaya. Struktur panggungnya mengusung desain modern dengan atap melengkung yang ikonik, didukung rangka baja yang megah, serta dilengkapi area duduk berundak menyerupai tribun mini yang mengelilingi panggung utama.",
+            "fragment": "panggungbudaya",
+            "link": "indonesiakaya/index.html#panggungbudaya",
+            "sceneId": "node216"
+        },
+        {
+            "infoId": 939,
+            "label": "Patung Ibu Menjaga Anaknya",
+            "description": "Area yang Anda unggah menampilkan salah satu ikon utama di Taman Indonesia Kaya Semarang, yaitu Patung Ibu Menjaga Anaknya. Area ini berfungsi sebagai titik fokus visual (landmark) yang melambangkan kasih sayang, pendidikan, dan masa depan generasi muda Indonesia, serta dikelilingi pelataran melingkar yang kerap digunakan pengunjung untuk berkumpul, beristirahat, atau berfoto.",
+            "fragment": "patungibu",
+            "link": "indonesiakaya/index.html#patungibu",
+            "sceneId": "node221"
+        },
+        {
+            "infoId": 940,
+            "label": "Air Mancur",
+            "description": "Dancing Fountain atau air mancur menari menjadi salah satu daya tarik utama taman ini. Area ini dirancang sebagai ruang ekspresi bagi seniman lokal maupun nasional, menampilkan perpaduan gerak air, cahaya, dan musik yang sering mengiringi pertunjukan tari tradisional hingga musik modern.",
+            "fragment": "airmancur",
+            "link": "indonesiakaya/index.html#airmancur",
+            "sceneId": "node220"
+        },
+        {
+            "infoId": 941,
+            "label": "Patung Penari",
+            "description": "Patung ikonik berwarna hitam dengan tekstur berlubang ini menggambarkan dua sosok manusia yang sedang menari atau bergerak dinamis, melambangkan kekayaan ekspresi budaya Indonesia. Patung ini berdiri di atas alas bertuliskan situs resmi indonesiakaya.com, menegaskan peran taman sebagai pusat literasi budaya.",
+            "fragment": "patungpenari",
+            "link": "indonesiakaya/index.html#patungpenari",
+            "sceneId": "node227"
+        },
+        {
+            "infoId": 942,
+            "label": "Patung Wayang",
+            "description": "Patung wayang orang ini terbuat dari instalasi logam modern dengan gaya artistik yang unik. Patung-patung tersebut merepresentasikan karakter pewayangan dalam pose menari, menjadi simbol pelestarian budaya tradisional di tengah ruang kota yang kontemporer.",
+            "fragment": "patungwayang",
+            "link": "indonesiakaya/index.html#patungwayang",
+            "sceneId": "node228"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "af0af960f90e9b2a",
+        "skin.js": "7d6efbe27eb31480",
+        "index.html": "c15c0b4fc5d101bd"
+    }
+}

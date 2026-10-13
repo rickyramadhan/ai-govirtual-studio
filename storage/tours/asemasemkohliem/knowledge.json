@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "asemasemkohliem",
+    "updatedAt": "2026-09-29T06:34:16+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Asem-Asem Koh Liem",
+            "aliases": [
+                "asem-asem koh liem"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "asemasemkohliem"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Asem-Asem Koh Liem.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Asem-Asem Koh Liem",
+                    "content": "Pusat pengalaman virtual untuk Asem-Asem Koh Liem."
+                },
+                "en": {
+                    "title": "Asem-Asem Koh Liem",
+                    "content": "Pusat pengalaman virtual untuk Asem-Asem Koh Liem."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Musholla",
+            "aliases": [
+                "musholla"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "asemasemkohliem"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Musholla",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Musholla",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Oleholeh",
+            "aliases": [
+                "oleholeh"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "asemasemkohliem"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Oleholeh",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Oleholeh",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "asemasemkohliem"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1048",
+            "entityId": "objinfo2:1048",
+            "title": "Pusat Oleh-Oleh",
+            "aliases": [
+                "pusat oleh-oleh",
+                "objek 1048"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Rumah Makan Asem-Asem Koh Liem tidak hanya menjual makanan siap santap, tetapi juga menyediakan kemasan beku (frozen) dari menu andalannya, Asem-Asem Daging, yang praktis untuk dibawa pulang sebagai oleh-oleh. Selain itu, mereka sering menawarkan berbagai menu lauk khas rumahan lainnya yang juga bisa dibeli dalam jumlah banyak untuk dibawa pulang.",
+            "source": "webview-import",
+            "sourceId": "1048",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Pusat Oleh-Oleh",
+                    "content": "Rumah Makan Asem-Asem Koh Liem tidak hanya menjual makanan siap santap, tetapi juga menyediakan kemasan beku (frozen) dari menu andalannya, Asem-Asem Daging, yang praktis untuk dibawa pulang sebagai oleh-oleh. Selain itu, mereka sering menawarkan berbagai menu lauk khas rumahan lainnya yang juga bisa dibeli dalam jumlah banyak untuk dibawa pulang."
+                },
+                "en": {
+                    "title": "Souvenir Center",
+                    "content": "Asem-Asem Koh Liem Restaurant not only serves ready-to-eat meals but also offers frozen packaging of its signature dish, Asem-Asem Daging, which is convenient to take home as a souvenir. In addition, they often offer various other home-style side dishes that can also be purchased in bulk to take home."
+                },
+                "zh": {
+                    "title": "特产纪念品中心",
+                    "content": "Asem-Asem Koh Liem 餐厅不仅提供即食餐点，还提供其招牌菜酸酸牛肉（Asem-Asem Daging）的冷冻包装，方便作为伴手礼带回家。此外，他们还经常提供其他多种家常配菜，也可大量购买带回。"
+                },
+                "ar": {
+                    "title": "مركز الهدايا التذكارية",
+                    "content": "مطعم Asem-Asem Koh Liem لا يقدّم فقط وجبات جاهزة للأكل، بل يوفر أيضًا عبوات مجمدة من طبقهم المميز Asem-Asem Daging، مما يجعلها سهلة الحمل كهدية تذكارية. بالإضافة إلى ذلك، غالبًا ما يقدمون أطباق جانبية منزلية أخرى يمكن شراؤها بكميات كبيرة لأخذها إلى المنزل."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1049",
+            "entityId": "objinfo2:1049",
+            "title": "Sejarah dan Area Makan",
+            "aliases": [
+                "sejarah dan area makan",
+                "objek 1049"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Warung Asem-Asem Koh Liem adalah kuliner legendaris Semarang yang telah berdiri sejak tahun 1978 oleh pendirinya, Piek Swie Liem, bermula dari jualan kaki lima hingga kini dikelola generasi penerusnya. Area makannya mengusung nuansa klasik mirip warteg, di mana aneka lauk pauk disusun di lemari kaca dan tempat duduk pelanggan mengelilingi bar tempat peracikan makanan.",
+            "source": "webview-import",
+            "sourceId": "1049",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Sejarah dan Area Makan",
+                    "content": "Warung Asem-Asem Koh Liem adalah kuliner legendaris Semarang yang telah berdiri sejak tahun 1978 oleh pendirinya, Piek Swie Liem, bermula dari jualan kaki lima hingga kini dikelola generasi penerusnya. Area makannya mengusung nuansa klasik mirip warteg, di mana aneka lauk pauk disusun di lemari kaca dan tempat duduk pelanggan mengelilingi bar tempat peracikan makanan."
+                },
+                "en": {
+                    "title": "History and Dining Area",
+                    "content": "Warung Asem-Asem Koh Liem is a legendary Semarang culinary spot established in 1978 by its founder, Piek Swie Liem, starting from a street food stall and now run by his successors. The dining area features a classic, warteg-like atmosphere, with various side dishes arranged in a glass display cabinet and seating that surrounds the food preparation bar."
+                },
+                "zh": {
+                    "title": "历史与用餐区",
+                    "content": "Warung Asem-Asem Koh Liem 是三宝垄的传奇美食，自 1978 年由创始人 Piek Swie Liem 创办，起初为路边摊，如今由后代经营。其用餐区呈现类似传统小食店（warteg）的经典氛围，各种菜肴陈列在玻璃柜中，顾客座位围绕着食品制作吧台。"
+                },
+                "ar": {
+                    "title": "قسم التاريخ ومنطقة تناول الطعام",
+                    "content": "Warung Asem-Asem Koh Liem هو مطبخ أسطوري في سيمارانغ تأسس عام 1978 على يد مؤسسه Piek Swie Liem، بدأ كبائع متجول والآن يديره الجيل التالي. تتميز منطقة الطعام بأجواء كلاسيكية تشبه warteg، حيث تُعرض الأطباق الجانبية في خزانة زجاجية ويحيط مقعد الزبائن ببار إعداد الطعام."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1050",
+            "entityId": "objinfo2:1050",
+            "title": "Ruang Rapat",
+            "aliases": [
+                "ruang rapat",
+                "objek 1050"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Warung Asem-Asem Koh Liem dikenal dengan konsep warung makan sederhana yang fokus pada kuliner legendaris bergaya warteg atau masakan rumahan. Restoran ini memiliki fasilitas ruang meeting khusus, dengan ruang makan utama yang dilengkapi meja dan kursi.",
+            "source": "webview-import",
+            "sourceId": "1050",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Rapat",
+                    "content": "Warung Asem-Asem Koh Liem dikenal dengan konsep warung makan sederhana yang fokus pada kuliner legendaris bergaya warteg atau masakan rumahan. Restoran ini memiliki fasilitas ruang meeting khusus, dengan ruang makan utama yang dilengkapi meja dan kursi."
+                },
+                "en": {
+                    "title": "Meeting Room",
+                    "content": "Warung Asem-Asem Koh Liem is known for its simple dining concept focused on legendary home-style cuisine similar to a warteg (local canteen). The restaurant also offers a dedicated meeting room facility, with a main dining area furnished with tables and chairs."
+                },
+                "zh": {
+                    "title": "会议室",
+                    "content": "Warung Asem-Asem Koh Liem 以简朴的餐馆概念著称，专注于类似 warteg（本地小食店）风格的传奇家常菜。该餐厅还提供专用会议室设施，主用餐区配备桌椅。"
+                },
+                "ar": {
+                    "title": "غرفة اجتماعات",
+                    "content": "يشتهر Warung Asem-Asem Koh Liem بمفهوم مطعم بسيط يركز على المأكولات المنزلية الأسطورية على غرار warteg. كما يوفّر المطعم غرفة اجتماعات مخصصة، مع منطقة طعام رئيسية مجهزة بطاولات وكراسي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1051",
+            "entityId": "objinfo2:1051",
+            "title": "Area Makan Ruang Merokok",
+            "aliases": [
+                "area makan ruang merokok",
+                "objek 1051"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Warung Asem-Asem Koh Liem dikenal dengan konsep warung makan sederhana yang fokus pada kuliner legendaris bergaya warteg atau masakan rumahan yang juga menyediakan area khusus untuk smoking room.",
+            "source": "webview-import",
+            "sourceId": "1051",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Makan Ruang Merokok",
+                    "content": "Warung Asem-Asem Koh Liem dikenal dengan konsep warung makan sederhana yang fokus pada kuliner legendaris bergaya warteg atau masakan rumahan yang juga menyediakan area khusus untuk smoking room."
+                },
+                "en": {
+                    "title": "Smoking Dining Area",
+                    "content": "Warung Asem-Asem Koh Liem is known for its simple dining concept focused on legendary warteg-style or home-cooked cuisine, and it also provides a dedicated smoking room area."
+                },
+                "zh": {
+                    "title": "吸烟用餐区",
+                    "content": "Warung Asem-Asem Koh Liem 以简朴的餐饮概念著称，专注于传奇的 warteg 风格或家常菜，同时还设有专用吸烟区。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام للمدخنين",
+                    "content": "يشتهر Warung Asem-Asem Koh Liem بمفهوم مطعم بسيط يركز على المأكولات الأسطورية على طراز warteg أو الأطباق المنزلية، كما يوفر أيضًا منطقة مخصصة للمدخنين."
+                }
+            }
+        }
+    ]
+}

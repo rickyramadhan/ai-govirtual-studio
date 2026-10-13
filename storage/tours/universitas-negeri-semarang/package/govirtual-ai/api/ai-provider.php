@@ -153,6 +153,13 @@ function ai_parse_provider_content(string $provider, array $result): array
     $body = $result['body'] ?? '';
     $decoded = json_decode($body, true);
     if (!is_array($decoded)) return ['success' => false, 'provider' => $provider, 'model' => '', 'content' => '', 'latency_ms' => 0, 'error' => 'invalid_json', 'raw' => $body, 'http_code' => (int)($result['code'] ?? 0)];
+    // HTTP non-2xx = gagal, walau body berisi JSON (mis. error 429/402/401).
+    $httpCode = (int)($result['code'] ?? 0);
+    if ($httpCode >= 400) {
+        $err = $decoded['error'] ?? $decoded['message'] ?? null;
+        $msg = is_array($err) ? (string)($err['message'] ?? json_encode($err)) : (string)($err ?? 'http_error');
+        return ['success' => false, 'provider' => $provider, 'model' => '', 'content' => '', 'latency_ms' => 0, 'error' => 'http_' . $httpCode . ': ' . mb_substr($msg, 0, 200), 'raw' => $decoded, 'http_code' => $httpCode];
+    }
 
     switch ($provider) {
         case 'groq':
@@ -276,6 +283,8 @@ function ai_provider_request(string $provider, array $messages, array $options):
     foreach ($apiKeys as $keyIdx => $key) {
         $headers = ['Content-Type: application/json', 'Authorization: Bearer ' . $key];
         if ($provider === 'openrouter') $headers[] = 'HTTP-Referer: ' . (getenv('APP_URL') ?: 'https://localhost');
+        // OpenCode Zen: endpoint butuh header sesi (dipakai juga oleh free tier).
+        if ($provider === 'opencode') $headers[] = 'x-opencode-session: ' . (getenv('OPENCODE_SESSION') ?: 'govirtual-app');
         $payload = ['model' => $model, 'messages' => $messages, 'temperature' => $temperature, 'max_tokens' => $maxTokens];
         if ($jsonMode) $payload['response_format'] = ['type' => 'json_object'];
         $result = ai_http_post_json($base . '/chat/completions', $payload, $headers, $timeout);
@@ -296,14 +305,25 @@ function ai_provider_router(array $messages, array $options = []): array
     $candidates = array_values(array_unique(array_filter(array_merge([$primary], $config['fallbacks'], ['ollama']))));
     $attempts = [];
     $last = null;
+    // Anggaran waktu total lintas-provider: bila provider lambat/hang, jangan
+    // menunggu timeout penuh — sisa waktu dibagi agar total tetap terkendali.
+    $budget = (float)(getenv('AI_PROVIDER_BUDGET_S') ?: 8);
+    if ($budget <= 0) $budget = 8;
+    $deadline = microtime(true) + $budget;
 
     foreach ($candidates as $provider) {
         if (ai_provider_in_cooldown($provider)) {
             $attempts[] = ['provider' => $provider, 'success' => false, 'http_code' => 0, 'latency_ms' => 0, 'error' => 'circuit_open'];
             continue;
         }
+        $remaining = (int)ceil($deadline - microtime(true));
+        if ($remaining < 1) {
+            $attempts[] = ['provider' => $provider, 'success' => false, 'http_code' => 0, 'latency_ms' => 0, 'error' => 'budget_exhausted'];
+            break;
+        }
         $request = $options['request_callback'] ?? null;
-        $result = is_callable($request) ? $request($provider, $messages, $options) : ai_provider_request($provider, $messages, $options + ['timeout' => $config['request_timeout']]);
+        $reqOptions = $options + ['timeout' => min($config['request_timeout'], $remaining)];
+        $result = is_callable($request) ? $request($provider, $messages, $reqOptions) : ai_provider_request($provider, $messages, $reqOptions);
         $validStructured = !($options['json_mode'] ?? true) || ai_parse_json((string)($result['content'] ?? '')) !== null;
         if (($result['success'] ?? false) && !$validStructured) { $result['success'] = false; $result['error'] = 'malformed_structured_output'; }
         $attempts[] = ['provider' => $provider, 'success' => (bool)($result['success'] ?? false), 'http_code' => (int)($result['http_code'] ?? 0), 'latency_ms' => (int)($result['latency_ms'] ?? 0), 'error' => $result['error'] ?? null];
@@ -313,10 +333,186 @@ function ai_provider_router(array $messages, array $options = []): array
         }
         $last = $result;
         ai_provider_record($provider, false, (string)($result['error'] ?? 'provider_error'));
-        if (($result['error'] ?? '') !== 'malformed_structured_output' && !ai_is_retryable_provider_error($result)) break;
+        // Lanjut ke provider berikutnya apa pun jenis error-nya: penolakan
+        // auth/kuota/kredit pada satu provider TIDAK boleh menghentikan rantai
+        // cadangan (tujuan: AI tetap menjawab walau free tier habis). Provider
+        // yang gagal berulang otomatis masuk cooldown.
     }
 
     return ['success' => false, 'provider' => $primary, 'model' => ai_provider_model($primary), 'content' => '', 'latency_ms' => (int)($last['latency_ms'] ?? 0), 'error' => $last['error'] ?? 'provider_unavailable', 'fallback_used' => count($attempts) > 1, 'attempted_providers' => $attempts];
+}
+
+/**
+ * Web search fallback via Gemini Google Search grounding.
+ * Dipakai saat knowledge internal tidak punya jawaban. Mengembalikan
+ * ['reply'=>..., 'sources'=>[{title,url}], 'provider'=>'gemini-search', 'model'=>...]
+ * atau null bila tidak tersedia/gagal.
+ */
+function ai_gemini_web_search(string $query, string $system, int $timeout = 20): ?array
+{
+    $query = trim($query);
+    if ($query === '') return null;
+    if (filter_var(getenv('AI_WEB_SEARCH') ?: 'false', FILTER_VALIDATE_BOOLEAN) === false) return null;
+    $keys = ai_env_keys('GEMINI_API_KEY');
+    if (!$keys) return null;
+    // Model yang mendukung Google Search grounding (ID terbaru; 2.5 sudah pensiun).
+    $preferred = ['gemini-3.6-flash', 'gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash-lite'];
+    $models = array_values(array_unique(array_merge($preferred, ai_gemini_models())));
+    foreach ($keys as $key) {
+        foreach ($models as $model) {
+            $url = 'https://generativelanguage.googleapis.com/v1beta/models/' . rawurlencode($model) . ':generateContent?key=' . rawurlencode($key);
+            $payload = [
+                'systemInstruction' => ['parts' => [['text' => $system]]],
+                'contents' => [['role' => 'user', 'parts' => [['text' => $query]]]],
+                'tools' => [['google_search' => new stdClass()]],
+                'generationConfig' => ['temperature' => 0.2, 'maxOutputTokens' => 600],
+            ];
+            $result = ai_http_post_json($url, $payload, ['Content-Type: application/json'], $timeout);
+            $decoded = json_decode((string)($result['body'] ?? ''), true);
+            $cand = is_array($decoded) ? ($decoded['candidates'][0] ?? null) : null;
+            if (is_array($cand)) {
+                $text = '';
+                foreach ((array)($cand['content']['parts'] ?? []) as $part) {
+                    if (isset($part['text'])) $text .= (string)$part['text'];
+                }
+                $text = trim(preg_replace('/\s+/', ' ', $text));
+                if ($text !== '') {
+                    $sources = [];
+                    $seen = [];
+                    foreach ((array)($cand['groundingMetadata']['groundingChunks'] ?? []) as $ch) {
+                        $web = is_array($ch) ? ($ch['web'] ?? null) : null;
+                        if (!is_array($web)) continue;
+                        $uri = trim((string)($web['uri'] ?? ''));
+                        if ($uri === '' || isset($seen[$uri])) continue;
+                        $seen[$uri] = 1;
+                        $sources[] = ['title' => trim((string)($web['title'] ?? $uri)), 'url' => $uri];
+                    }
+                    return ['reply' => $text, 'sources' => array_slice($sources, 0, 5), 'provider' => 'gemini-search', 'model' => $model];
+                }
+            }
+            $code = (int)($result['code'] ?? 0);
+            if ($code === 429) break; // kuota key ini habis → coba key berikutnya
+            // 400/404 (model tak mendukung) → coba model berikutnya
+        }
+    }
+    return null;
+}
+
+/**
+ * Bersihkan jawaban hasil web search agar enak diucapkan (buang markdown link & URL).
+ */
+function ai_clean_web_reply(string $text): string
+{
+    $text = (string)preg_replace('/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/', '$1', $text);
+    $text = (string)preg_replace('#https?://\S+#i', '', $text);
+    $text = trim((string)preg_replace('/\s+/', ' ', $text));
+    return $text;
+}
+
+/**
+ * Ambil daftar sumber dari hasil provider web search (annotations OpenRouter
+ * atau URL di dalam teks). Return [['title'=>..,'url'=>..], ...].
+ */
+function ai_web_sources_from_result(array $parsed, string $content = ''): array
+{
+    $out = [];
+    $raw = $parsed['raw'] ?? null;
+    $msg = is_array($raw) ? ($raw['choices'][0]['message'] ?? null) : null;
+    if (is_array($msg) && !empty($msg['annotations'])) {
+        foreach ((array)$msg['annotations'] as $a) {
+            $url = trim((string)($a['url_citation']['url'] ?? ($a['url'] ?? '')));
+            if ($url === '') continue;
+            $title = trim((string)($a['url_citation']['title'] ?? ($a['title'] ?? $url)));
+            $out[] = ['title' => $title !== '' ? $title : $url, 'url' => $url];
+        }
+    }
+    if (!$out && $content !== '' && preg_match_all('#https?://[^\s\)\]\}"<>]+#i', $content, $m)) {
+        $seen = [];
+        foreach ($m[0] as $url) {
+            $url = rtrim((string)$url, '.,;:');
+            if ($url === '' || isset($seen[$url])) continue;
+            $seen[$url] = 1;
+            $out[] = ['title' => (string)(parse_url($url, PHP_URL_HOST) ?: $url), 'url' => $url];
+        }
+    }
+    return array_slice($out, 0, 5);
+}
+
+/**
+ * Web search generik untuk provider OpenAI-compatible:
+ *  - groq      : model "groq/compound" (web search bawaan, tanpa parameter tambahan)
+ *  - openrouter: plugin web ({id:"web"}) pada model apa pun
+ */
+function ai_openai_compat_web_search(string $provider, string $query, string $system, int $timeout = 20): ?array
+{
+    $query = trim($query);
+    if ($query === '') return null;
+    $keys = ai_provider_keys($provider);
+    if (!$keys) return null;
+    if ($provider === 'groq') {
+        $base = rtrim((string)(getenv('GROQ_BASE_URL') ?: 'https://api.groq.com/openai/v1'), '/');
+    } elseif ($provider === 'openrouter') {
+        $base = rtrim((string)(getenv('OPENROUTER_BASE_URL') ?: 'https://openrouter.ai/api/v1'), '/');
+    } else {
+        return null;
+    }
+    $model = ai_provider_model($provider);
+    if ($model === '') return null;
+    $messages = [
+        ['role' => 'system', 'content' => $system],
+        ['role' => 'user', 'content' => $query],
+    ];
+    foreach ($keys as $key) {
+        $headers = ['Content-Type: application/json', 'Authorization: Bearer ' . $key];
+        if ($provider === 'openrouter') $headers[] = 'HTTP-Referer: ' . (getenv('APP_URL') ?: 'https://localhost');
+        $payload = ['model' => $model, 'messages' => $messages, 'temperature' => 0.2, 'max_tokens' => 650];
+        if ($provider === 'openrouter') $payload['plugins'] = [['id' => 'web', 'max_results' => 4]];
+        $result = ai_http_post_json($base . '/chat/completions', $payload, $headers, $timeout);
+        $parsed = ai_parse_provider_content($provider, $result);
+        $content = ai_clean_web_reply((string)($parsed['content'] ?? ''));
+        if (($parsed['success'] ?? false) && mb_strlen(trim($content)) >= 20) {
+            return [
+                'reply' => $content,
+                'sources' => ai_web_sources_from_result($parsed, $content),
+                'provider' => $provider . '-search',
+                'model' => (string)($parsed['model'] ?? $model),
+            ];
+        }
+        if ((int)($result['code'] ?? 0) === 429) break; // kuota key ini habis → key berikutnya
+    }
+    return null;
+}
+
+/**
+ * Web search dengan rantai cadangan lintas provider. Urutan dapat diatur lewat
+ * env AI_WEB_SEARCH_PROVIDERS (default: groq,openrouter,gemini). Bila satu
+ * provider gagal/kuota habis, lanjut ke berikutnya — sehingga AI tetap menjawab.
+ * Return ['reply'=>..,'sources'=>[..],'provider'=>..,'model'=>..] atau null.
+ */
+function ai_web_search_backup(string $query, string $system, int $timeout = 20): ?array
+{
+    $query = trim($query);
+    if ($query === '') return null;
+    if (filter_var(getenv('AI_WEB_SEARCH') ?: 'false', FILTER_VALIDATE_BOOLEAN) === false) return null;
+
+    $order = array_values(array_filter(array_map('trim', explode(',', strtolower((string)(getenv('AI_WEB_SEARCH_PROVIDERS') ?: 'groq,openrouter,gemini'))))));
+    $order = array_values(array_intersect($order, ['groq', 'openrouter', 'gemini']));
+    if (!$order) $order = ['groq', 'openrouter', 'gemini'];
+
+    foreach ($order as $provider) {
+        if ($provider === 'gemini') {
+            $gemini = ai_gemini_web_search($query, $system, $timeout);
+            if ($gemini && trim((string)$gemini['reply']) !== '') {
+                $gemini['reply'] = ai_clean_web_reply((string)$gemini['reply']);
+                return $gemini;
+            }
+        } else {
+            $res = ai_openai_compat_web_search($provider, $query, $system, $timeout);
+            if ($res && trim((string)$res['reply']) !== '') return $res;
+        }
+    }
+
+    return null;
 }
 
 function get_ai_provider_health(): array
@@ -332,7 +528,7 @@ function get_ai_provider_health(): array
         }
     }
     // Also scan actual env (getenv list not available directly; check known patterns too).
-    $extra = ['mistral', 'anthropic', 'together', 'cohere', 'deepseek', 'perplexity', 'xai', 'groqcloud', 'fireworks', 'openai'];
+    $extra = ['mistral', 'anthropic', 'together', 'cohere', 'deepseek', 'perplexity', 'xai', 'groqcloud', 'fireworks', 'openai', 'opencode'];
     foreach ($extra as $name) {
         if (count(ai_provider_keys($name)) > 0 && !in_array($name, $providers, true)) $providers[] = $name;
     }

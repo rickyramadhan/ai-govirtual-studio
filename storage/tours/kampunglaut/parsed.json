@@ -1,0 +1,735 @@
+{
+    "startNode": "node85",
+    "scenes": [
+        {
+            "id": "node80",
+            "name": "Areamakanoutdoor",
+            "displayName": "Areamakanoutdoor",
+            "rawName": "",
+            "customNodeId": "areamakanoutdoor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "areamakanoutdoor"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Alatpancing",
+            "displayName": "Alatpancing",
+            "rawName": "",
+            "customNodeId": "alatpancing",
+            "pan": 93.94,
+            "tilt": -7.82,
+            "fov": 110.14,
+            "tags": [
+                "KampungLaut",
+                "oi"
+            ],
+            "aliases": [
+                "alatpancing"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Tamanbermain",
+            "displayName": "Tamanbermain",
+            "rawName": "",
+            "customNodeId": "tamanbermain",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "tamanbermain"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Meja Makan",
+            "displayName": "Meja Makan",
+            "rawName": "",
+            "customNodeId": "-eja-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Meja Makan"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Resepsionis",
+            "displayName": "Resepsionis",
+            "rawName": "",
+            "customNodeId": "-esepsionis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 149.69,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Resepsionis"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Ruangmakan",
+            "displayName": "Ruangmakan",
+            "rawName": "",
+            "customNodeId": "ruangmakan",
+            "pan": 6.94,
+            "tilt": -7.82,
+            "fov": 110.14,
+            "tags": [
+                "KampungLaut",
+                "oi"
+            ],
+            "aliases": [
+                "ruangmakan"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Selasar",
+            "displayName": "Selasar",
+            "rawName": "",
+            "customNodeId": "selasar",
+            "pan": 88.69,
+            "tilt": -21.33,
+            "fov": 110.14,
+            "tags": [
+                "KampungLaut",
+                "oi"
+            ],
+            "aliases": [
+                "selasar"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Aula",
+            "displayName": "Aula",
+            "rawName": "",
+            "customNodeId": "aula",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "aula"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "node90",
+            "displayName": "node90",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node92",
+            "name": "Meja Makan",
+            "displayName": "Meja Makan",
+            "rawName": "",
+            "customNodeId": "-eja-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Meja Makan"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Jembatan",
+            "displayName": "Jembatan",
+            "rawName": "",
+            "customNodeId": "-embatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Jembatan"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Landmark",
+            "displayName": "Landmark",
+            "rawName": "",
+            "customNodeId": "landmark",
+            "pan": 23.82,
+            "tilt": -4.35,
+            "fov": 74.22,
+            "tags": [
+                "KampungLaut",
+                "oi"
+            ],
+            "aliases": [
+                "landmark"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Area Foto",
+            "displayName": "Area Foto",
+            "rawName": "",
+            "customNodeId": "-rea-oto",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Area Foto"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Jembatan",
+            "displayName": "Jembatan",
+            "rawName": "",
+            "customNodeId": "-embatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Jembatan"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Areamemancing",
+            "displayName": "Areamemancing",
+            "rawName": "",
+            "customNodeId": "areamemancing",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "areamemancing"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Ruangvip2",
+            "displayName": "Ruangvip2",
+            "rawName": "",
+            "customNodeId": "ruangvip2",
+            "pan": -64.59,
+            "tilt": -1.72,
+            "fov": 114.21,
+            "tags": [
+                "KampungLaut",
+                "oi"
+            ],
+            "aliases": [
+                "ruangvip2"
+            ]
+        },
+        {
+            "id": "node99",
+            "name": "Pondok Makan",
+            "displayName": "Pondok Makan",
+            "rawName": "",
+            "customNodeId": "-ondok-akan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Pondok Makan"
+            ]
+        },
+        {
+            "id": "node101",
+            "name": "Ruangvip",
+            "displayName": "Ruangvip",
+            "rawName": "",
+            "customNodeId": "ruangvip",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "ruangvip"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Kafe",
+            "displayName": "Kafe",
+            "rawName": "",
+            "customNodeId": "-afe",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Kafe"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Kafe",
+            "displayName": "Kafe",
+            "rawName": "",
+            "customNodeId": "-afe",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Kafe"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Tempat Karaoke",
+            "displayName": "Tempat Karaoke",
+            "rawName": "",
+            "customNodeId": "-empat-araoke",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "KampungLaut"
+            ],
+            "aliases": [
+                "Tempat Karaoke"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node80",
+            "target": "node98",
+            "title": "Resto",
+            "id": "Point01",
+            "pan": 241.03,
+            "tilt": -9.69
+        },
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "Peralatan Mancing",
+            "id": "Point02",
+            "pan": 173.65,
+            "tilt": -4.93
+        },
+        {
+            "scene": "node81",
+            "target": "node80",
+            "title": "Kafe",
+            "id": "Point01",
+            "pan": 242.09,
+            "tilt": -12.26
+        },
+        {
+            "scene": "node81",
+            "target": "node82",
+            "title": "Area Bermain",
+            "id": "Point02",
+            "pan": -0.02,
+            "tilt": -10.15
+        },
+        {
+            "scene": "node82",
+            "target": "node81",
+            "title": "Peralatan Mancing",
+            "id": "Point01",
+            "pan": -80.41,
+            "tilt": -11.6
+        },
+        {
+            "scene": "node82",
+            "target": "node97",
+            "title": "Pemancingan",
+            "id": "Point02",
+            "pan": -339.53,
+            "tilt": -9.28
+        },
+        {
+            "scene": "node82",
+            "target": "node102",
+            "title": "Kafe",
+            "id": "Point03",
+            "pan": -259.23,
+            "tilt": -6.23
+        },
+        {
+            "scene": "node84",
+            "target": "node86",
+            "title": "Meja Makan",
+            "id": "Point01",
+            "pan": -303.28,
+            "tilt": -17.66
+        },
+        {
+            "scene": "node84",
+            "target": "node96",
+            "title": "Jembatan",
+            "id": "Point02",
+            "pan": -97.5,
+            "tilt": -12.13
+        },
+        {
+            "scene": "node85",
+            "target": "node87",
+            "title": "Restoran",
+            "id": "Point01",
+            "pan": -0.47,
+            "tilt": -5.54
+        },
+        {
+            "scene": "node85",
+            "target": "node98",
+            "title": "Area Terbuka",
+            "id": "Point02",
+            "pan": -68.71,
+            "tilt": -15.81
+        },
+        {
+            "scene": "node85",
+            "target": "node90",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -182.44,
+            "tilt": -4.13
+        },
+        {
+            "scene": "node86",
+            "target": "node84",
+            "title": "Meja Makan",
+            "id": "Point01",
+            "pan": 110.76,
+            "tilt": -13.18
+        },
+        {
+            "scene": "node86",
+            "target": "node87",
+            "title": "Area Tengah",
+            "id": "Point02",
+            "pan": -176.5,
+            "tilt": -22.59
+        },
+        {
+            "scene": "node87",
+            "target": "node86",
+            "title": "Meja Makan",
+            "id": "Point01",
+            "pan": 358.89,
+            "tilt": -5.92
+        },
+        {
+            "scene": "node87",
+            "target": "node96",
+            "title": "Meja Makan",
+            "id": "Point02",
+            "pan": 57.35,
+            "tilt": -6.11
+        },
+        {
+            "scene": "node87",
+            "target": "node85",
+            "title": "Resepsionis",
+            "id": "Point03",
+            "pan": -183.3,
+            "tilt": -5.35
+        },
+        {
+            "scene": "node89",
+            "target": "node99",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 342.03,
+            "tilt": -8.69
+        },
+        {
+            "scene": "node90",
+            "target": "node85",
+            "title": "Masuk Kampung Laut",
+            "id": "Point01",
+            "pan": 39.0041,
+            "tilt": -6.28
+        },
+        {
+            "scene": "node92",
+            "target": "node91",
+            "title": "Kafe",
+            "id": "Point01",
+            "pan": 208.36,
+            "tilt": -8.35
+        },
+        {
+            "scene": "node93",
+            "target": "node95",
+            "title": "Area Foto",
+            "id": "Point01",
+            "pan": -25.23,
+            "tilt": 3.91
+        },
+        {
+            "scene": "node93",
+            "target": "node94",
+            "title": "Area Foto",
+            "id": "Point02",
+            "pan": 25.93,
+            "tilt": 2.87
+        },
+        {
+            "scene": "node93",
+            "target": "node96",
+            "title": "Restoran",
+            "id": "Point03",
+            "pan": -180.46,
+            "tilt": -3.61
+        },
+        {
+            "scene": "node94",
+            "target": "node95",
+            "title": "Area Foto",
+            "id": "Point01",
+            "pan": -67.44,
+            "tilt": 1.27
+        },
+        {
+            "scene": "node94",
+            "target": "node93",
+            "title": "Jembatan",
+            "id": "Point02",
+            "pan": -137.69,
+            "tilt": 3.14
+        },
+        {
+            "scene": "node95",
+            "target": "node94",
+            "title": "Area Foto",
+            "id": "Point01",
+            "pan": 82.45,
+            "tilt": 2.2
+        },
+        {
+            "scene": "node95",
+            "target": "node93",
+            "title": "Jembatan",
+            "id": "Point02",
+            "pan": -219.78,
+            "tilt": 3.41
+        },
+        {
+            "scene": "node96",
+            "target": "node93",
+            "title": "Jembatan",
+            "id": "Point01",
+            "pan": 1.86,
+            "tilt": -6.77
+        },
+        {
+            "scene": "node96",
+            "target": "node87",
+            "title": "Restoran",
+            "id": "Point02",
+            "pan": -177.49,
+            "tilt": -6.27
+        },
+        {
+            "scene": "node96",
+            "target": "node103",
+            "title": "Tempat Karaoke",
+            "id": "Point03",
+            "pan": 80.18,
+            "tilt": -9.23
+        },
+        {
+            "scene": "node97",
+            "target": "node82",
+            "title": "Area Bermain",
+            "id": "Point01",
+            "pan": -69.09,
+            "tilt": -8.66
+        },
+        {
+            "scene": "node98",
+            "target": "node99",
+            "title": "Pondok Makan",
+            "id": "Point01",
+            "pan": -92.69,
+            "tilt": -10.2
+        },
+        {
+            "scene": "node98",
+            "target": "node85",
+            "title": "Resepsionis",
+            "id": "Point02",
+            "pan": 176,
+            "tilt": -9.29
+        },
+        {
+            "scene": "node98",
+            "target": "node80",
+            "title": "Kafe",
+            "id": "Point03",
+            "pan": 87.65,
+            "tilt": -8.43
+        },
+        {
+            "scene": "node99",
+            "target": "node98",
+            "title": "Area Terbuka",
+            "id": "Point01",
+            "pan": 90.01,
+            "tilt": -4.75
+        },
+        {
+            "scene": "node99",
+            "target": "node101",
+            "title": "Pondok Makan",
+            "id": "Point02",
+            "pan": 36.55,
+            "tilt": -0.89
+        },
+        {
+            "scene": "node99",
+            "target": "node89",
+            "title": "Aula Pernikahan",
+            "id": "Point03",
+            "pan": -89.09,
+            "tilt": -7.43
+        },
+        {
+            "scene": "node101",
+            "target": "node99",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 184.76,
+            "tilt": -18.77
+        },
+        {
+            "scene": "node91",
+            "target": "node92",
+            "title": "Meja Makan",
+            "id": "Point01",
+            "pan": 110.63,
+            "tilt": -6.76
+        },
+        {
+            "scene": "node102",
+            "target": "node82",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -181.88,
+            "tilt": -10.34
+        },
+        {
+            "scene": "node103",
+            "target": "node96",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -0.25,
+            "tilt": -7.09
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1075,
+            "label": "Aula",
+            "description": "Fasilitas ini merupakan ruang pertemuan berkapasitas besar yang ideal untuk menyelenggarakan acara formal seperti pernikahan atau pertemuan perusahaan. Ruangannya dirancang dengan arsitektur kayu khas pesisir yang memberikan kesan megah namun tetap menyatu dengan suasana pesisir.",
+            "fragment": "aula",
+            "link": "kampunglaut/index.html#aula",
+            "sceneId": "node89"
+        },
+        {
+            "infoId": 1076,
+            "label": "Ruang Makan",
+            "description": "Area ini berupa ruangan dengan sirkulasi terbuka yang berisi beberapa meja makan dan dilengkapi dengan fasilitas live music. Sehingga suasana bersantap hidangan laut di kampung laut menjadi lebih nyaman dan lebih hidup.",
+            "fragment": "ruangmakan",
+            "link": "kampunglaut/index.html#ruangmakan",
+            "sceneId": "node86"
+        },
+        {
+            "infoId": 1077,
+            "label": "Area Makan Outdoor",
+            "description": "Area makan outdoor di Kampung Laut Semarang menawarkan suasana santai dengan konsep semi-terbuka yang menghadap ke danau, sehingga pengunjung dapat menikmati hidangan sambil merasakan angin sepoi-sepoi dan pemandangan alam sekitar. Restoran ini terkenal dengan menu seafood dan masakan khas Nusantara yang cocok dinikmati bersama keluarga maupun rombongan. Tersedia gazebo, tempat duduk lesehan, serta meja kursi di area terbuka yang membuat suasana makan terasa lebih nyaman dan alami. Selain itu, fasilitas seperti area parkir luas, mushola, dan playground anak juga menambah kenyamanan pengunjung yang datang.",
+            "fragment": "areamakanoutdoor",
+            "link": "kampunglaut/index.html#areamakanoutdoor",
+            "sceneId": "node80"
+        },
+        {
+            "infoId": 1078,
+            "label": "Ruang VIP",
+            "description": "Ruangan eksklusif yang lebih privat dan tenang serta dilengkapi dengan pendingin ruangan (AC), sangat cocok untuk pertemuan bisnis atau acara keluarga yang membutuhkan privasi tinggi. Fasilitas ini dilengkapi dengan layanan khusus dan interior yang lebih mewah dibandingkan area umum lainnya.",
+            "fragment": "ruangvip",
+            "link": "kampunglaut/index.html#ruangvip",
+            "sceneId": "node101"
+        },
+        {
+            "infoId": 1079,
+            "label": "Area Memancing",
+            "description": "Fasilitas rekreasi yang memungkinkan pengunjung menyalurkan hobi memancing sambil menunggu hidangan disiapkan. Area ini mengelilingi restoran dan menjadi daya tarik utama bagi keluarga yang ingin menikmati suasana santai di tepi tambak.",
+            "fragment": "areamemancing",
+            "link": "kampunglaut/index.html#areamemancing",
+            "sceneId": "node97"
+        },
+        {
+            "infoId": 1080,
+            "label": "Taman Bermain",
+            "description": "Untuk menjaga si kecil tetap terhibur. Lokasinya strategis sehingga orang tua tetap bisa mengawasi anak-anak bermain sambil menikmati hidangan dengan tenang.",
+            "fragment": "tamanbermain",
+            "link": "kampunglaut/index.html#tamanbermain",
+            "sceneId": "node82"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "c3e7a6a9b47abf3e",
+        "skin.js": "8ba0a6645c4d1315",
+        "index.html": "b47963315d4e9dab"
+    }
+}

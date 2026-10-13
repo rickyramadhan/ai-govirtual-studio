@@ -1,0 +1,1382 @@
+{
+    "version": "1.0",
+    "tourId": "kepalamanyungbufat",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Dimana persisnya alamat dari KEPALA MANYUNG BU FAT jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi KEPALA MANYUNG BU FAT beralamat di Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 1 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 1"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Apa menu kuliner andalan yang wajib dicoba saat mampir ke KEPALA MANYUNG BU FAT?",
+            "answer": "Menu primadona yang paling diincar pengunjung di KEPALA MANYUNG BU FAT adalah gulai kepala ikan manyung berukuran besar dengan kuah santan pedas.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 2 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 2"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju KEPALA MANYUNG BU FAT?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke KEPALA MANYUNG BU FAT adalah sekitar 13-15 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 3 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 3"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Jam operasional harian KEPALA MANYUNG BU FAT dimulai pukul berapa sampai jam berapa?",
+            "answer": "KEPALA MANYUNG BU FAT siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 4 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 4"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apakah KEPALA MANYUNG BU FAT memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, KEPALA MANYUNG BU FAT dikenal karena pelopor olahan kepala manyung paling terkenal di Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 5 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 5"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Fasilitas pendukung apa saja yang disediakan oleh KEPALA MANYUNG BU FAT untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di KEPALA MANYUNG BU FAT sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta rumah makan khas kuliner pedas menggugah selera.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 6 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 6"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah suasana di KEPALA MANYUNG BU FAT cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena KEPALA MANYUNG BU FAT menawarkan rumah makan khas kuliner pedas menggugah selera yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 7 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 7"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di KEPALA MANYUNG BU FAT?",
+            "answer": "Sebagai pelengkap, KEPALA MANYUNG BU FAT juga menyediakan aneka pepesan dan tahu tempe bacem yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 8 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 8"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah lokasi KEPALA MANYUNG BU FAT dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, KEPALA MANYUNG BU FAT berada di dekat Kawasan Jalan Dr. Cipto, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 9 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 9"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apakah KEPALA MANYUNG BU FAT menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan KEPALA MANYUNG BU FAT sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 10 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 10"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Bagaimana cara terbaik menuju KEPALA MANYUNG BU FAT jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur dengan berkendara sekitar sekitar 13-15 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 11 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 11"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apakah restoran atau tempat KEPALA MANYUNG BU FAT ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 12 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 12"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Adakah rekomendasi waktu terbaik untuk berkunjung ke KEPALA MANYUNG BU FAT?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 13 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 13"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apakah tersedia area khusus indoor maupun outdoor di KEPALA MANYUNG BU FAT?",
+            "answer": "Tergantung pada zona area tempatnya, KEPALA MANYUNG BU FAT menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 14 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 14"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di KEPALA MANYUNG BU FAT?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 15 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 15"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apakah staf atau pelayan di KEPALA MANYUNG BU FAT sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di KEPALA MANYUNG BU FAT terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 16 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 16"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Halo, saya ingin bertanya, dimana persisnya alamat dari KEPALA MANYUNG BU FAT jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi KEPALA MANYUNG BU FAT beralamat di Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 17 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 17"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Halo, saya ingin bertanya, apa menu kuliner andalan yang wajib dicoba saat mampir ke KEPALA MANYUNG BU FAT?",
+            "answer": "Menu primadona yang paling diincar pengunjung di KEPALA MANYUNG BU FAT adalah gulai kepala ikan manyung berukuran besar dengan kuah santan pedas.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 18 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 18"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Halo, saya ingin bertanya, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju KEPALA MANYUNG BU FAT?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke KEPALA MANYUNG BU FAT adalah sekitar 13-15 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 19 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 19"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Halo, saya ingin bertanya, jam operasional harian KEPALA MANYUNG BU FAT dimulai pukul berapa sampai jam berapa?",
+            "answer": "KEPALA MANYUNG BU FAT siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 20 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 20"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Halo, saya ingin bertanya, apakah KEPALA MANYUNG BU FAT memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, KEPALA MANYUNG BU FAT dikenal karena pelopor olahan kepala manyung paling terkenal di Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 21 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 21"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Halo, saya ingin bertanya, fasilitas pendukung apa saja yang disediakan oleh KEPALA MANYUNG BU FAT untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di KEPALA MANYUNG BU FAT sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta rumah makan khas kuliner pedas menggugah selera.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 22 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 22"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Halo, saya ingin bertanya, apakah suasana di KEPALA MANYUNG BU FAT cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena KEPALA MANYUNG BU FAT menawarkan rumah makan khas kuliner pedas menggugah selera yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 23 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 23"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Halo, saya ingin bertanya, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di KEPALA MANYUNG BU FAT?",
+            "answer": "Sebagai pelengkap, KEPALA MANYUNG BU FAT juga menyediakan aneka pepesan dan tahu tempe bacem yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 24 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 24"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Halo, saya ingin bertanya, apakah lokasi KEPALA MANYUNG BU FAT dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, KEPALA MANYUNG BU FAT berada di dekat Kawasan Jalan Dr. Cipto, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 25 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 25"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Halo, saya ingin bertanya, apakah KEPALA MANYUNG BU FAT menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan KEPALA MANYUNG BU FAT sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 26 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 26"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Halo, saya ingin bertanya, bagaimana cara terbaik menuju KEPALA MANYUNG BU FAT jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur dengan berkendara sekitar sekitar 13-15 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 27 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 27"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Halo, saya ingin bertanya, apakah restoran atau tempat KEPALA MANYUNG BU FAT ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 28 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 28"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Halo, saya ingin bertanya, adakah rekomendasi waktu terbaik untuk berkunjung ke KEPALA MANYUNG BU FAT?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 29 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 29"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Halo, saya ingin bertanya, apakah tersedia area khusus indoor maupun outdoor di KEPALA MANYUNG BU FAT?",
+            "answer": "Tergantung pada zona area tempatnya, KEPALA MANYUNG BU FAT menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 30 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 30"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Halo, saya ingin bertanya, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di KEPALA MANYUNG BU FAT?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 31 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 31"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Halo, saya ingin bertanya, apakah staf atau pelayan di KEPALA MANYUNG BU FAT sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di KEPALA MANYUNG BU FAT terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 32 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 32"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Bisa jelaskan kepada saya, dimana persisnya alamat dari KEPALA MANYUNG BU FAT jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi KEPALA MANYUNG BU FAT beralamat di Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 33 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 33"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Bisa jelaskan kepada saya, apa menu kuliner andalan yang wajib dicoba saat mampir ke KEPALA MANYUNG BU FAT?",
+            "answer": "Menu primadona yang paling diincar pengunjung di KEPALA MANYUNG BU FAT adalah gulai kepala ikan manyung berukuran besar dengan kuah santan pedas.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 34 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 34"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Bisa jelaskan kepada saya, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju KEPALA MANYUNG BU FAT?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke KEPALA MANYUNG BU FAT adalah sekitar 13-15 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 35 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 35"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Bisa jelaskan kepada saya, jam operasional harian KEPALA MANYUNG BU FAT dimulai pukul berapa sampai jam berapa?",
+            "answer": "KEPALA MANYUNG BU FAT siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 36 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 36"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Bisa jelaskan kepada saya, apakah KEPALA MANYUNG BU FAT memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, KEPALA MANYUNG BU FAT dikenal karena pelopor olahan kepala manyung paling terkenal di Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 37 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 37"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Bisa jelaskan kepada saya, fasilitas pendukung apa saja yang disediakan oleh KEPALA MANYUNG BU FAT untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di KEPALA MANYUNG BU FAT sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta rumah makan khas kuliner pedas menggugah selera.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 38 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 38"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Bisa jelaskan kepada saya, apakah suasana di KEPALA MANYUNG BU FAT cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena KEPALA MANYUNG BU FAT menawarkan rumah makan khas kuliner pedas menggugah selera yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 39 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 39"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Bisa jelaskan kepada saya, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di KEPALA MANYUNG BU FAT?",
+            "answer": "Sebagai pelengkap, KEPALA MANYUNG BU FAT juga menyediakan aneka pepesan dan tahu tempe bacem yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 40 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 40"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Bisa jelaskan kepada saya, apakah lokasi KEPALA MANYUNG BU FAT dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, KEPALA MANYUNG BU FAT berada di dekat Kawasan Jalan Dr. Cipto, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 41 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 41"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Bisa jelaskan kepada saya, apakah KEPALA MANYUNG BU FAT menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan KEPALA MANYUNG BU FAT sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 42 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 42"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Bisa jelaskan kepada saya, bagaimana cara terbaik menuju KEPALA MANYUNG BU FAT jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur dengan berkendara sekitar sekitar 13-15 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 43 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 43"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Bisa jelaskan kepada saya, apakah restoran atau tempat KEPALA MANYUNG BU FAT ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 44 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 44"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Bisa jelaskan kepada saya, adakah rekomendasi waktu terbaik untuk berkunjung ke KEPALA MANYUNG BU FAT?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 45 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 45"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Bisa jelaskan kepada saya, apakah tersedia area khusus indoor maupun outdoor di KEPALA MANYUNG BU FAT?",
+            "answer": "Tergantung pada zona area tempatnya, KEPALA MANYUNG BU FAT menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 46 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 46"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Bisa jelaskan kepada saya, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di KEPALA MANYUNG BU FAT?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 47 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 47"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Bisa jelaskan kepada saya, apakah staf atau pelayan di KEPALA MANYUNG BU FAT sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di KEPALA MANYUNG BU FAT terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 48 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 48"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Tolong infokan, dimana persisnya alamat dari KEPALA MANYUNG BU FAT jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi KEPALA MANYUNG BU FAT beralamat di Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 49 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 49"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Tolong infokan, apa menu kuliner andalan yang wajib dicoba saat mampir ke KEPALA MANYUNG BU FAT?",
+            "answer": "Menu primadona yang paling diincar pengunjung di KEPALA MANYUNG BU FAT adalah gulai kepala ikan manyung berukuran besar dengan kuah santan pedas.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 50 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 50"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Tolong infokan, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju KEPALA MANYUNG BU FAT?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke KEPALA MANYUNG BU FAT adalah sekitar 13-15 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 51 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 51"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Tolong infokan, jam operasional harian KEPALA MANYUNG BU FAT dimulai pukul berapa sampai jam berapa?",
+            "answer": "KEPALA MANYUNG BU FAT siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 52 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 52"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Tolong infokan, apakah KEPALA MANYUNG BU FAT memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, KEPALA MANYUNG BU FAT dikenal karena pelopor olahan kepala manyung paling terkenal di Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 53 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 53"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Tolong infokan, fasilitas pendukung apa saja yang disediakan oleh KEPALA MANYUNG BU FAT untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di KEPALA MANYUNG BU FAT sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta rumah makan khas kuliner pedas menggugah selera.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 54 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 54"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Tolong infokan, apakah suasana di KEPALA MANYUNG BU FAT cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena KEPALA MANYUNG BU FAT menawarkan rumah makan khas kuliner pedas menggugah selera yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 55 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 55"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Tolong infokan, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di KEPALA MANYUNG BU FAT?",
+            "answer": "Sebagai pelengkap, KEPALA MANYUNG BU FAT juga menyediakan aneka pepesan dan tahu tempe bacem yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 56 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 56"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Tolong infokan, apakah lokasi KEPALA MANYUNG BU FAT dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, KEPALA MANYUNG BU FAT berada di dekat Kawasan Jalan Dr. Cipto, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 57 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 57"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Tolong infokan, apakah KEPALA MANYUNG BU FAT menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan KEPALA MANYUNG BU FAT sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 58 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 58"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Tolong infokan, bagaimana cara terbaik menuju KEPALA MANYUNG BU FAT jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur dengan berkendara sekitar sekitar 13-15 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 59 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 59"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Tolong infokan, apakah restoran atau tempat KEPALA MANYUNG BU FAT ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 60 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 60"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Tolong infokan, adakah rekomendasi waktu terbaik untuk berkunjung ke KEPALA MANYUNG BU FAT?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 61 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 61"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Tolong infokan, apakah tersedia area khusus indoor maupun outdoor di KEPALA MANYUNG BU FAT?",
+            "answer": "Tergantung pada zona area tempatnya, KEPALA MANYUNG BU FAT menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 62 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 62"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Tolong infokan, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di KEPALA MANYUNG BU FAT?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 63 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 63"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Tolong infokan, apakah staf atau pelayan di KEPALA MANYUNG BU FAT sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di KEPALA MANYUNG BU FAT terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 64 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 64"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Bagaimana detail mengenai dimana persisnya alamat dari KEPALA MANYUNG BU FAT jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi KEPALA MANYUNG BU FAT beralamat di Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 65 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 65"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Bagaimana detail mengenai apa menu kuliner andalan yang wajib dicoba saat mampir ke KEPALA MANYUNG BU FAT?",
+            "answer": "Menu primadona yang paling diincar pengunjung di KEPALA MANYUNG BU FAT adalah gulai kepala ikan manyung berukuran besar dengan kuah santan pedas.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 66 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 66"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Bagaimana detail mengenai kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju KEPALA MANYUNG BU FAT?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke KEPALA MANYUNG BU FAT adalah sekitar 13-15 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 67 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 67"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Bagaimana detail mengenai jam operasional harian KEPALA MANYUNG BU FAT dimulai pukul berapa sampai jam berapa?",
+            "answer": "KEPALA MANYUNG BU FAT siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 68 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 68"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Bagaimana detail mengenai apakah KEPALA MANYUNG BU FAT memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, KEPALA MANYUNG BU FAT dikenal karena pelopor olahan kepala manyung paling terkenal di Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 69 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 69"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Bagaimana detail mengenai fasilitas pendukung apa saja yang disediakan oleh KEPALA MANYUNG BU FAT untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di KEPALA MANYUNG BU FAT sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta rumah makan khas kuliner pedas menggugah selera.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 70 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 70"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Bagaimana detail mengenai apakah suasana di KEPALA MANYUNG BU FAT cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena KEPALA MANYUNG BU FAT menawarkan rumah makan khas kuliner pedas menggugah selera yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 71 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 71"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Bagaimana detail mengenai selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di KEPALA MANYUNG BU FAT?",
+            "answer": "Sebagai pelengkap, KEPALA MANYUNG BU FAT juga menyediakan aneka pepesan dan tahu tempe bacem yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 72 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 72"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Bagaimana detail mengenai apakah lokasi KEPALA MANYUNG BU FAT dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, KEPALA MANYUNG BU FAT berada di dekat Kawasan Jalan Dr. Cipto, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 73 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 73"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana detail mengenai apakah KEPALA MANYUNG BU FAT menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan KEPALA MANYUNG BU FAT sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 74 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 74"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana detail mengenai bagaimana cara terbaik menuju KEPALA MANYUNG BU FAT jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Dr. Cipto No.12, Karangturi, Kec. Semarang Timur dengan berkendara sekitar sekitar 13-15 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 75 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 75"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Bagaimana detail mengenai apakah restoran atau tempat KEPALA MANYUNG BU FAT ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 76 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 76"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Bagaimana detail mengenai adakah rekomendasi waktu terbaik untuk berkunjung ke KEPALA MANYUNG BU FAT?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 77 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 77"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Bagaimana detail mengenai apakah tersedia area khusus indoor maupun outdoor di KEPALA MANYUNG BU FAT?",
+            "answer": "Tergantung pada zona area tempatnya, KEPALA MANYUNG BU FAT menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 78 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 78"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Bagaimana detail mengenai bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di KEPALA MANYUNG BU FAT?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 79 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 79"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Bagaimana detail mengenai apakah staf atau pelayan di KEPALA MANYUNG BU FAT sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di KEPALA MANYUNG BU FAT terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 80 kepala manyung bu fat"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 80"
+            ]
+        }
+    ]
+}

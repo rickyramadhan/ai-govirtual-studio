@@ -1,0 +1,1730 @@
+{
+    "version": "1.0",
+    "tourId": "unimus",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Di mana alamat lengkap lokasi Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) beralamat di Kota Semarang, Jawa Tengah, dengan akses strategis yang mudah dijangkau dari berbagai titik kota.",
+            "aliases": [
+                "alamat Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lokasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "di mana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "letak Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "letak",
+                "semarang",
+                "universitas muhammadiyah semarang (unimus)"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Di mana alamat lengkap lokasi Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) beralamat di Kota Semarang, Jawa Tengah, dengan akses strategis yang mudah dijangkau dari berbagai titik kota.",
+            "aliases": [
+                "alamat Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lokasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "di mana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "letak Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "letak",
+                "semarang",
+                "universitas muhammadiyah semarang (unimus)"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Di mana alamat lengkap lokasi Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) beralamat di Kota Semarang, Jawa Tengah, dengan akses strategis yang mudah dijangkau dari berbagai titik kota.",
+            "aliases": [
+                "alamat Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lokasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "di mana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "letak Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "letak",
+                "semarang",
+                "universitas muhammadiyah semarang (unimus)"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Bagaimana sejarah singkat berdirinya Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) memiliki sejarah panjang sebagai salah satu institusi pendidikan terkemuka di Semarang yang terus berkembang mencetak lulusan berkualitas.",
+            "aliases": [
+                "sejarah Universitas Muhammadiyah Semarang (UNIMUS)",
+                "profil Universitas Muhammadiyah Semarang (UNIMUS)",
+                "latar belakang Universitas Muhammadiyah Semarang (UNIMUS)",
+                "tentang Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "sejarah",
+                "profil",
+                "latar belakang",
+                "tentang",
+                "universitas muhammadiyah semarang (unimus)"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Bagaimana sejarah singkat berdirinya Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) memiliki sejarah panjang sebagai salah satu institusi pendidikan terkemuka di Semarang yang terus berkembang mencetak lulusan berkualitas.",
+            "aliases": [
+                "sejarah Universitas Muhammadiyah Semarang (UNIMUS)",
+                "profil Universitas Muhammadiyah Semarang (UNIMUS)",
+                "latar belakang Universitas Muhammadiyah Semarang (UNIMUS)",
+                "tentang Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "sejarah",
+                "profil",
+                "latar belakang",
+                "tentang",
+                "universitas muhammadiyah semarang (unimus)"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Bagaimana sejarah singkat berdirinya Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) memiliki sejarah panjang sebagai salah satu institusi pendidikan terkemuka di Semarang yang terus berkembang mencetak lulusan berkualitas.",
+            "aliases": [
+                "sejarah Universitas Muhammadiyah Semarang (UNIMUS)",
+                "profil Universitas Muhammadiyah Semarang (UNIMUS)",
+                "latar belakang Universitas Muhammadiyah Semarang (UNIMUS)",
+                "tentang Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "sejarah",
+                "profil",
+                "latar belakang",
+                "tentang",
+                "universitas muhammadiyah semarang (unimus)"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apa saja fakultas atau program studi unggulan yang ada di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) menyediakan berbagai pilihan program studi dan fakultas terakreditasi yang didukung oleh tenaga pengajar profesional dan kurikulum modern.",
+            "aliases": [
+                "fakultas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "jurusan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "prodi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "program studi Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "fakultas",
+                "jurusan",
+                "prodi",
+                "program studi",
+                "unggulan"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Apa saja fakultas atau program studi unggulan yang ada di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) menyediakan berbagai pilihan program studi dan fakultas terakreditasi yang didukung oleh tenaga pengajar profesional dan kurikulum modern.",
+            "aliases": [
+                "fakultas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "jurusan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "prodi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "program studi Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "fakultas",
+                "jurusan",
+                "prodi",
+                "program studi",
+                "unggulan"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Apa saja fakultas atau program studi unggulan yang ada di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) menyediakan berbagai pilihan program studi dan fakultas terakreditasi yang didukung oleh tenaga pengajar profesional dan kurikulum modern.",
+            "aliases": [
+                "fakultas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "jurusan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "prodi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "program studi Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "fakultas",
+                "jurusan",
+                "prodi",
+                "program studi",
+                "unggulan"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Fasilitas apa saja yang tersedia di dalam area virtual tour Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Di area virtual tour Universitas Muhammadiyah Semarang (UNIMUS), pengunjung dapat melihat fasilitas modern seperti gedung kuliah/kelas, laboratorium, perpustakaan, aula, sarana olahraga, dan area hijau.",
+            "aliases": [
+                "fasilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "sarana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "laboratorium Universitas Muhammadiyah Semarang (UNIMUS)",
+                "perpustakaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "laboratorium",
+                "perpustakaan",
+                "gedung"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Fasilitas apa saja yang tersedia di dalam area virtual tour Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Di area virtual tour Universitas Muhammadiyah Semarang (UNIMUS), pengunjung dapat melihat fasilitas modern seperti gedung kuliah/kelas, laboratorium, perpustakaan, aula, sarana olahraga, dan area hijau.",
+            "aliases": [
+                "fasilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "sarana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "laboratorium Universitas Muhammadiyah Semarang (UNIMUS)",
+                "perpustakaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "laboratorium",
+                "perpustakaan",
+                "gedung"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Fasilitas apa saja yang tersedia di dalam area virtual tour Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Di area virtual tour Universitas Muhammadiyah Semarang (UNIMUS), pengunjung dapat melihat fasilitas modern seperti gedung kuliah/kelas, laboratorium, perpustakaan, aula, sarana olahraga, dan area hijau.",
+            "aliases": [
+                "fasilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "sarana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "laboratorium Universitas Muhammadiyah Semarang (UNIMUS)",
+                "perpustakaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "fasilitas",
+                "sarana",
+                "laboratorium",
+                "perpustakaan",
+                "gedung"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Bagaimana cara pendaftaran dan informasi PMB di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Pendaftaran mahasiswa/siswa baru di Universitas Muhammadiyah Semarang (UNIMUS) dapat dilakukan secara online melalui website resmi penerimaan atau datang langsung ke kampus.",
+            "aliases": [
+                "pendaftaran Universitas Muhammadiyah Semarang (UNIMUS)",
+                "pmb Universitas Muhammadiyah Semarang (UNIMUS)",
+                "cara daftar Universitas Muhammadiyah Semarang (UNIMUS)",
+                "biaya kuliah Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "pendaftaran",
+                "pmb",
+                "daftar",
+                "biaya",
+                "kuliah",
+                "sekolah"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Bagaimana cara pendaftaran dan informasi PMB di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Pendaftaran mahasiswa/siswa baru di Universitas Muhammadiyah Semarang (UNIMUS) dapat dilakukan secara online melalui website resmi penerimaan atau datang langsung ke kampus.",
+            "aliases": [
+                "pendaftaran Universitas Muhammadiyah Semarang (UNIMUS)",
+                "pmb Universitas Muhammadiyah Semarang (UNIMUS)",
+                "cara daftar Universitas Muhammadiyah Semarang (UNIMUS)",
+                "biaya kuliah Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "pendaftaran",
+                "pmb",
+                "daftar",
+                "biaya",
+                "kuliah",
+                "sekolah"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana cara pendaftaran dan informasi PMB di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Pendaftaran mahasiswa/siswa baru di Universitas Muhammadiyah Semarang (UNIMUS) dapat dilakukan secara online melalui website resmi penerimaan atau datang langsung ke kampus.",
+            "aliases": [
+                "pendaftaran Universitas Muhammadiyah Semarang (UNIMUS)",
+                "pmb Universitas Muhammadiyah Semarang (UNIMUS)",
+                "cara daftar Universitas Muhammadiyah Semarang (UNIMUS)",
+                "biaya kuliah Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "pendaftaran",
+                "pmb",
+                "daftar",
+                "biaya",
+                "kuliah",
+                "sekolah"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Apa saja kegiatan kemahasiswaan atau ekstrakurikuler di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) aktif menyelenggarakan berbagai kegiatan unit kegiatan mahasiswa (UKM), organisasi, serta ekstrakurikuler untuk mengembangkan bakat dan minat.",
+            "aliases": [
+                "ukm Universitas Muhammadiyah Semarang (UNIMUS)",
+                "ekstrakurikuler Universitas Muhammadiyah Semarang (UNIMUS)",
+                "organisasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "kegiatan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "ukm",
+                "ekstrakurikuler",
+                "organisasi",
+                "kegiatan",
+                "mahasiswa"
+            ]
+        },
+        {
+            "id": "QA81",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA82",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA83",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA84",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA85",
+            "question": "Apa saja kegiatan kemahasiswaan atau ekstrakurikuler di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) aktif menyelenggarakan berbagai kegiatan unit kegiatan mahasiswa (UKM), organisasi, serta ekstrakurikuler untuk mengembangkan bakat dan minat.",
+            "aliases": [
+                "ukm Universitas Muhammadiyah Semarang (UNIMUS)",
+                "ekstrakurikuler Universitas Muhammadiyah Semarang (UNIMUS)",
+                "organisasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "kegiatan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "ukm",
+                "ekstrakurikuler",
+                "organisasi",
+                "kegiatan",
+                "mahasiswa"
+            ]
+        },
+        {
+            "id": "QA86",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA87",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA88",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA89",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA90",
+            "question": "Apa saja kegiatan kemahasiswaan atau ekstrakurikuler di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) aktif menyelenggarakan berbagai kegiatan unit kegiatan mahasiswa (UKM), organisasi, serta ekstrakurikuler untuk mengembangkan bakat dan minat.",
+            "aliases": [
+                "ukm Universitas Muhammadiyah Semarang (UNIMUS)",
+                "ekstrakurikuler Universitas Muhammadiyah Semarang (UNIMUS)",
+                "organisasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "kegiatan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "ukm",
+                "ekstrakurikuler",
+                "organisasi",
+                "kegiatan",
+                "mahasiswa"
+            ]
+        },
+        {
+            "id": "QA91",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA92",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA93",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA94",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA95",
+            "question": "Bagaimana akses transportasi umum menuju Universitas Muhammadiyah Semarang (UNIMUS) di Semarang?",
+            "answer": "Lokasi Universitas Muhammadiyah Semarang (UNIMUS) sangat strategis dan mudah diakses menggunakan kendaraan pribadi maupun transportasi umum seperti BRT Trans Semarang.",
+            "aliases": [
+                "transportasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "rute Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses menuju Universitas Muhammadiyah Semarang (UNIMUS)",
+                "angkutan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "transportasi",
+                "rute",
+                "akses",
+                "angkutan",
+                "umum"
+            ]
+        },
+        {
+            "id": "QA96",
+            "question": "Bagaimana suasana lingkungan di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Lingkungan Universitas Muhammadiyah Semarang (UNIMUS) dirancang sangat kondusif, nyaman, asri, dan mendukung proses kegiatan belajar mengajar secara optimal.",
+            "aliases": [
+                "suasana Universitas Muhammadiyah Semarang (UNIMUS)",
+                "lingkungan Universitas Muhammadiyah Semarang (UNIMUS)",
+                "keadaan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "suasana",
+                "lingkungan",
+                "kampus",
+                "sekolah",
+                "nyaman"
+            ]
+        },
+        {
+            "id": "QA97",
+            "question": "Apakah ada layanan informasi atau pusat bantuan bagi pengunjung di Universitas Muhammadiyah Semarang (UNIMUS)?",
+            "answer": "Ya, Universitas Muhammadiyah Semarang (UNIMUS) menyediakan layanan pusat informasi dan helpdesk resmi yang dapat dihubungi melalui kontak resmi institusi.",
+            "aliases": [
+                "kontak Universitas Muhammadiyah Semarang (UNIMUS)",
+                "informasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "helpdesk Universitas Muhammadiyah Semarang (UNIMUS)",
+                "nomor telepon Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "kontak",
+                "informasi",
+                "helpdesk",
+                "telepon",
+                "layanan"
+            ]
+        },
+        {
+            "id": "QA98",
+            "question": "Apakah fasilitas di Universitas Muhammadiyah Semarang (UNIMUS) sudah ramah bagi penyandang disabilitas?",
+            "answer": "Universitas Muhammadiyah Semarang (UNIMUS) terus berkomitmen menyediakan fasilitas inklusif dan aksesibilitas yang ramah bagi seluruh sivitas akademika dan tamu.",
+            "aliases": [
+                "disabilitas Universitas Muhammadiyah Semarang (UNIMUS)",
+                "fasilitas inklusif Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses disabilitas Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "disabilitas",
+                "inklusif",
+                "aksesibilitas",
+                "ramah"
+            ]
+        },
+        {
+            "id": "QA99",
+            "question": "Bagaimana cara menjelajahi area Universitas Muhammadiyah Semarang (UNIMUS) menggunakan virtual tour ini?",
+            "answer": "Pengunjung dapat menggunakan navigasi panah, peta interaktif, hotspot 360 derajat, dan menu direktori untuk berkeliling di setiap sudut Universitas Muhammadiyah Semarang (UNIMUS).",
+            "aliases": [
+                "cara virtual tour Universitas Muhammadiyah Semarang (UNIMUS)",
+                "navigasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "panduan tour Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "virtual tour",
+                "navigasi",
+                "panduan",
+                "360",
+                "interaktif"
+            ]
+        },
+        {
+            "id": "QA100",
+            "question": "Bagaimana akses transportasi umum menuju Universitas Muhammadiyah Semarang (UNIMUS) di Semarang?",
+            "answer": "Lokasi Universitas Muhammadiyah Semarang (UNIMUS) sangat strategis dan mudah diakses menggunakan kendaraan pribadi maupun transportasi umum seperti BRT Trans Semarang.",
+            "aliases": [
+                "transportasi Universitas Muhammadiyah Semarang (UNIMUS)",
+                "rute Universitas Muhammadiyah Semarang (UNIMUS)",
+                "akses menuju Universitas Muhammadiyah Semarang (UNIMUS)",
+                "angkutan Universitas Muhammadiyah Semarang (UNIMUS)"
+            ],
+            "keywords": [
+                "transportasi",
+                "rute",
+                "akses",
+                "angkutan",
+                "umum"
+            ]
+        }
+    ]
+}

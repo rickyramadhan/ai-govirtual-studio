@@ -1,0 +1,1173 @@
+{
+    "version": "1.1-seed",
+    "tourId": "semarangroyalegolf",
+    "generatedAt": "2026-10-12",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node84": {
+            "rawName": "Drone Royale Golf",
+            "displayName": "Landmark Depan Semarang Royale Golf",
+            "placeId": "landmark-depan-semarang-royale-golf",
+            "placeName": "Landmark Depan Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Landmark Depan di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Landmark Depan yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Huruf nama",
+                "Fairway"
+            ],
+            "talkingPoints": [
+                "Drone Royale Golf",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Landmark Depan ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Landmark Depan Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Landmark Depan?",
+                    "mode": "fix",
+                    "answer": "Landmark Depan ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Landmark Depan ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Landmark Depan dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Landmark Depan Semarang Royale Golf.",
+                "describeHere": "Drone Royale Golf adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node80": {
+            "rawName": "Lobi Semarang Royale Golf",
+            "displayName": "Area Depan Semarang Royale Golf",
+            "placeId": "area-depan-semarang-royale-golf",
+            "placeName": "Area Depan Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Area Depan di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Area Depan yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Mobil",
+                "Fasad"
+            ],
+            "talkingPoints": [
+                "Lobi Semarang Royale Golf",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Area Depan ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Area Depan Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Area Depan?",
+                    "mode": "fix",
+                    "answer": "Area Depan ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Area Depan ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Area Depan dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Depan Semarang Royale Golf.",
+                "describeHere": "Lobi Semarang Royale Golf adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node81": {
+            "rawName": "Balkon",
+            "displayName": "Balkon Club House Semarang Royale Golf",
+            "placeId": "balkon-club-house-semarang-royale-golf",
+            "placeName": "Balkon Club House Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Balkon Club House di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Balkon Club House yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Pagar",
+                "Lapangan"
+            ],
+            "talkingPoints": [
+                "Balkon",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Balkon Club House ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Balkon Club House Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Balkon Club House?",
+                    "mode": "fix",
+                    "answer": "Balkon Club House ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Balkon Club House ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Balkon Club House dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Balkon Club House Semarang Royale Golf.",
+                "describeHere": "Balkon adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node82": {
+            "rawName": "Ruangvip",
+            "displayName": "VIP Room Semarang Royale Golf",
+            "placeId": "vip-room-semarang-royale-golf",
+            "placeName": "VIP Room Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area VIP Room di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di VIP Room yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Sofa",
+                "Meja"
+            ],
+            "talkingPoints": [
+                "Ruangvip",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area VIP Room ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area VIP Room Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari VIP Room?",
+                    "mode": "fix",
+                    "answer": "VIP Room ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di VIP Room ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di VIP Room dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:275"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di VIP Room Semarang Royale Golf.",
+                "describeHere": "Ruangvip adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node83": {
+            "rawName": "Ruang Loker",
+            "displayName": "Ruang Loker Semarang Royale Golf",
+            "placeId": "ruang-loker-semarang-royale-golf",
+            "placeName": "Ruang Loker Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Ruang Loker di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Ruang Loker yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Lemari",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Ruang Loker",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Ruang Loker ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Ruang Loker Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Ruang Loker?",
+                    "mode": "fix",
+                    "answer": "Ruang Loker ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Ruang Loker ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Ruang Loker dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Loker Semarang Royale Golf.",
+                "describeHere": "Ruang Loker adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node85": {
+            "rawName": "Kolam",
+            "displayName": "Kolam Air Mancur Semarang Royale Golf",
+            "placeId": "kolam-air-mancur-semarang-royale-golf",
+            "placeName": "Kolam Air Mancur Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Kolam Air Mancur di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Kolam Air Mancur yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Air",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Kolam",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Kolam Air Mancur ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Kolam Air Mancur Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Kolam Air Mancur?",
+                    "mode": "fix",
+                    "answer": "Kolam Air Mancur ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Kolam Air Mancur ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Kolam Air Mancur dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolam Air Mancur Semarang Royale Golf.",
+                "describeHere": "Kolam adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node86": {
+            "rawName": "Lapangan Golf",
+            "displayName": "Lapangan Golf 4 Semarang Royale Golf",
+            "placeId": "lapangan-golf-4-semarang-royale-golf",
+            "placeName": "Lapangan Golf 4 Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Lapangan Golf 4 di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Lapangan Golf 4 yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Rumput",
+                "Lereng"
+            ],
+            "talkingPoints": [
+                "Lapangan Golf",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Lapangan Golf 4 ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Lapangan Golf 4 Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Lapangan Golf 4?",
+                    "mode": "fix",
+                    "answer": "Lapangan Golf 4 ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Lapangan Golf 4 ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Lapangan Golf 4 dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Golf 4 Semarang Royale Golf.",
+                "describeHere": "Lapangan Golf adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node87": {
+            "rawName": "Lapangan Golf",
+            "displayName": "Lapangan Golf 6 Semarang Royale Golf",
+            "placeId": "lapangan-golf-6-semarang-royale-golf",
+            "placeName": "Lapangan Golf 6 Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Lapangan Golf 6 di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Lapangan Golf 6 yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Bendera",
+                "Rumput pendek"
+            ],
+            "talkingPoints": [
+                "Lapangan Golf",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Lapangan Golf 6 ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Lapangan Golf 6 Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Lapangan Golf 6?",
+                    "mode": "fix",
+                    "answer": "Lapangan Golf 6 ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Lapangan Golf 6 ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Lapangan Golf 6 dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Golf 6 Semarang Royale Golf.",
+                "describeHere": "Lapangan Golf adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node88": {
+            "rawName": "node88",
+            "displayName": "Lapangan Golf 9 Semarang Royale Golf",
+            "placeId": "lapangan-golf-9-semarang-royale-golf",
+            "placeName": "Lapangan Golf 9 Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Lapangan Golf 9 di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Lapangan Golf 9 yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Pagar tanaman",
+                "Lapangan"
+            ],
+            "talkingPoints": [
+                "node88",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Lapangan Golf 9 ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Lapangan Golf 9 Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Lapangan Golf 9?",
+                    "mode": "fix",
+                    "answer": "Lapangan Golf 9 ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Lapangan Golf 9 ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Lapangan Golf 9 dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Golf 9 Semarang Royale Golf.",
+                "describeHere": "Area NODE88 (ID: node88) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node91": {
+            "rawName": "Area Kafe",
+            "displayName": "Kafe Semarang Royale Golf",
+            "placeId": "kafe-semarang-royale-golf",
+            "placeName": "Kafe Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Kafe di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Kafe yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Meja",
+                "Kursi"
+            ],
+            "talkingPoints": [
+                "Area Kafe",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Kafe ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Kafe Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Kafe?",
+                    "mode": "fix",
+                    "answer": "Kafe ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Kafe ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Kafe dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kafe Semarang Royale Golf.",
+                "describeHere": "Area Kafe adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node92": {
+            "rawName": "Aicafe",
+            "displayName": "Konter Kafe Semarang Royale Golf",
+            "placeId": "konter-kafe-semarang-royale-golf",
+            "placeName": "Konter Kafe Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Konter Kafe di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Konter Kafe yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Meja layanan",
+                "Menu"
+            ],
+            "talkingPoints": [
+                "Aicafe",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Konter Kafe ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Konter Kafe Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Konter Kafe?",
+                    "mode": "fix",
+                    "answer": "Konter Kafe ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Konter Kafe ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Konter Kafe dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:274"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Konter Kafe Semarang Royale Golf.",
+                "describeHere": "Aicafe adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node93": {
+            "rawName": "Semarang Royale Golf",
+            "displayName": "Pelataran Club House Semarang Royale Golf",
+            "placeId": "pelataran-club-house-semarang-royale-golf",
+            "placeName": "Pelataran Club House Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Pelataran Club House di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Pelataran Club House yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Tangga",
+                "Toko"
+            ],
+            "talkingPoints": [
+                "Semarang Royale Golf",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Pelataran Club House ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Pelataran Club House Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Pelataran Club House?",
+                    "mode": "fix",
+                    "answer": "Pelataran Club House ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Pelataran Club House ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Pelataran Club House dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pelataran Club House Semarang Royale Golf.",
+                "describeHere": "Semarang Royale Golf adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node94": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Akses Masuk Semarang Royale Golf",
+            "placeId": "akses-masuk-semarang-royale-golf",
+            "placeName": "Akses Masuk Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Akses Masuk di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Akses Masuk yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Jalan",
+                "Pohon"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Akses Masuk ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Akses Masuk Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Akses Masuk?",
+                    "mode": "fix",
+                    "answer": "Akses Masuk ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Akses Masuk ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Akses Masuk dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Akses Masuk Semarang Royale Golf.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node96": {
+            "rawName": "Mobil",
+            "displayName": "Landmark Semarang Royale Golf",
+            "placeId": "landmark-semarang-royale-golf",
+            "placeName": "Landmark Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Landmark di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Landmark yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Huruf nama",
+                "Rumput"
+            ],
+            "talkingPoints": [
+                "Mobil",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Landmark ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Landmark Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Landmark?",
+                    "mode": "fix",
+                    "answer": "Landmark ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Landmark ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Landmark dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Landmark Semarang Royale Golf.",
+                "describeHere": "Mobil adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node97": {
+            "rawName": "Drivingrange",
+            "displayName": "Area Driving Range Semarang Royale Golf",
+            "placeId": "area-driving-range-semarang-royale-golf",
+            "placeName": "Area Driving Range Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Area Driving Range di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Area Driving Range yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Matras",
+                "Lapangan"
+            ],
+            "talkingPoints": [
+                "Drivingrange",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Area Driving Range ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Area Driving Range Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Area Driving Range?",
+                    "mode": "fix",
+                    "answer": "Area Driving Range ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Area Driving Range ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Area Driving Range dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:277"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Driving Range Semarang Royale Golf.",
+                "describeHere": "Drivingrange adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node98": {
+            "rawName": "node98",
+            "displayName": "Semarang Royale Golf",
+            "placeId": "semarang-royale-golf",
+            "placeName": "Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Kawasan ini di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Kawasan ini yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Lokasi induk: Semarang Royale Golf",
+                "Identitas ruang belum terverifikasi"
+            ],
+            "talkingPoints": [
+                "node98",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Kawasan ini ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Kawasan ini Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Kawasan ini ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Kawasan ini ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Kawasan ini dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Semarang Royale Golf.",
+                "describeHere": "Area NODE98 (ID: node98) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node99": {
+            "rawName": "Driving Range",
+            "displayName": "Fasad Driving Range Semarang Royale Golf",
+            "placeId": "fasad-driving-range-semarang-royale-golf",
+            "placeName": "Fasad Driving Range Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Fasad Driving Range di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Fasad Driving Range yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Papan nama",
+                "Parkir"
+            ],
+            "talkingPoints": [
+                "Driving Range",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Fasad Driving Range ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Fasad Driving Range Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Fasad Driving Range?",
+                    "mode": "fix",
+                    "answer": "Fasad Driving Range ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Fasad Driving Range ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Fasad Driving Range dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fasad Driving Range Semarang Royale Golf.",
+                "describeHere": "Driving Range adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node100": {
+            "rawName": "Golfcarfinish",
+            "displayName": "Golf Car Finish Semarang Royale Golf",
+            "placeId": "golf-car-finish-semarang-royale-golf",
+            "placeName": "Golf Car Finish Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Golf Car Finish di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Golf Car Finish yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Kursi",
+                "Pandangan lapangan"
+            ],
+            "talkingPoints": [
+                "Golfcarfinish",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Golf Car Finish ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Golf Car Finish Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Golf Car Finish?",
+                    "mode": "fix",
+                    "answer": "Golf Car Finish ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Golf Car Finish ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Golf Car Finish dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:272"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Golf Car Finish Semarang Royale Golf.",
+                "describeHere": "Golfcarfinish adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node101": {
+            "rawName": "Proshop",
+            "displayName": "Loby Utama Semarang Royale Golf",
+            "placeId": "loby-utama-semarang-royale-golf",
+            "placeName": "Loby Utama Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Loby Utama di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Loby Utama yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Konter",
+                "Layar"
+            ],
+            "talkingPoints": [
+                "Proshop",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Loby Utama ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Loby Utama Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Loby Utama?",
+                    "mode": "fix",
+                    "answer": "Loby Utama ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Loby Utama ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Loby Utama dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:276"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Loby Utama Semarang Royale Golf.",
+                "describeHere": "Proshop adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node102": {
+            "rawName": "Sejarah",
+            "displayName": "Lounge VIP Room Semarang Royale Golf",
+            "placeId": "lounge-vip-room-semarang-royale-golf",
+            "placeName": "Lounge VIP Room Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Lounge VIP Room di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Lounge VIP Room yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Sofa",
+                "Gambar dinding"
+            ],
+            "talkingPoints": [
+                "Sejarah",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Lounge VIP Room ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Lounge VIP Room Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Lounge VIP Room?",
+                    "mode": "fix",
+                    "answer": "Lounge VIP Room ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Lounge VIP Room ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Lounge VIP Room dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lounge VIP Room Semarang Royale Golf.",
+                "describeHere": "Sejarah adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node103": {
+            "rawName": "Musholla",
+            "displayName": "Musholla Semarang Royale Golf",
+            "placeId": "musholla-semarang-royale-golf",
+            "placeName": "Musholla Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Musholla di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Musholla yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Karpet",
+                "Mihrab"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Musholla ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Musholla Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Musholla?",
+                    "mode": "fix",
+                    "answer": "Musholla ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Musholla ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Musholla dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Musholla Semarang Royale Golf.",
+                "describeHere": "Musholla adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node104": {
+            "rawName": "Area Parkir",
+            "displayName": "Parkir Mobil Semarang Royale Golf",
+            "placeId": "parkir-mobil-semarang-royale-golf",
+            "placeName": "Parkir Mobil Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Parkir Mobil di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Parkir Mobil yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Paving miring",
+                "Mobil"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Parkir Mobil ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Parkir Mobil Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Parkir Mobil?",
+                    "mode": "fix",
+                    "answer": "Parkir Mobil ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Parkir Mobil ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Parkir Mobil dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Parkir Mobil Semarang Royale Golf.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node105": {
+            "rawName": "Lapangangolf",
+            "displayName": "Lapangan Golf 16 Semarang Royale Golf",
+            "placeId": "lapangan-golf-16-semarang-royale-golf",
+            "placeName": "Lapangan Golf 16 Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Lapangan Golf 16 di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Lapangan Golf 16 yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Pohon",
+                "Rumput"
+            ],
+            "talkingPoints": [
+                "Lapangangolf",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Lapangan Golf 16 ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Lapangan Golf 16 Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Lapangan Golf 16?",
+                    "mode": "fix",
+                    "answer": "Lapangan Golf 16 ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Lapangan Golf 16 ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Lapangan Golf 16 dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:273"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Golf 16 Semarang Royale Golf.",
+                "describeHere": "Lapangangolf adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node106": {
+            "rawName": "Video360 1",
+            "displayName": "Video 360 Permainan Golf Di Semarang Royale Golf",
+            "placeId": "video-360-permainan-golf-di-semarang-royale-golf",
+            "placeName": "Video 360 Permainan Golf Di Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Video 360 Permainan Golf Di di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Video 360 Permainan Golf Di yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Fairway",
+                "Taman",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Video 360 Permainan Golf Di ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Video 360 Permainan Golf Di Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Video 360 Permainan Golf Di?",
+                    "mode": "fix",
+                    "answer": "Video 360 Permainan Golf Di ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Video 360 Permainan Golf Di ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Video 360 Permainan Golf Di dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Video 360 Permainan Golf Di Semarang Royale Golf.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node107": {
+            "rawName": "Video360 2",
+            "displayName": "Tampak Udara Semarang Royale Golf",
+            "placeId": "tampak-udara-semarang-royale-golf",
+            "placeName": "Tampak Udara Semarang Royale Golf",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ini adalah area Tampak Udara di Kawasan Semarang Royale Golf yang menawarkan pemandangan dan fasilitas terbaik.",
+            "description": "Selamat datang di Tampak Udara yang berada di dalam Kawasan Semarang Royale Golf Kota Semarang. Area ini dirancang untuk memberikan kenyamanan dan pengalaman tak terlupakan bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Jalan",
+                "Pohon",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 2",
+                "jalur eksplorasi",
+                "Semarangroyalegolf"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dilakukan pengunjung di area Tampak Udara ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati suasana dan fasilitas khusus yang disediakan di area Tampak Udara Kawasan Semarang Royale Golf ini."
+                },
+                {
+                    "q": "Dimana lokasi pasti dari Tampak Udara?",
+                    "mode": "fix",
+                    "answer": "Tampak Udara ini terletak di titik strategis dalam Kawasan Semarang Royale Golf Kota Semarang."
+                },
+                {
+                    "q": "Apakah fasilitas di Tampak Udara ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, fasilitas di Tampak Udara dapat dinikmati sesuai dengan syarat dan ketentuan yang berlaku di Semarang Royale Golf."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tampak Udara Semarang Royale Golf.",
+                "describeHere": "Video360 2 adalah area di dalam kawasan Semarangroyalegolf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

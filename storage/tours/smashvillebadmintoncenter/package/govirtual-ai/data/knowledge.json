@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "smashvillebadmintoncenter",
+    "updatedAt": "2026-09-29T09:52:23+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Smashvillebadmintoncenter",
+            "aliases": [
+                "smashvillebadmintoncenter"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "smashvillebadmintoncenter"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Smashvillebadmintoncenter.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Smashvillebadmintoncenter",
+                    "content": "Pusat pengalaman virtual untuk Smashvillebadmintoncenter."
+                },
+                "en": {
+                    "title": "Smashvillebadmintoncenter",
+                    "content": "Pusat pengalaman virtual untuk Smashvillebadmintoncenter."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node1",
+            "aliases": [
+                "node1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "smashvillebadmintoncenter"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node1",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node1",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Area Billiard",
+            "aliases": [
+                "area billiard"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "smashvillebadmintoncenter"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Area Billiard",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Area Billiard",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "smashvillebadmintoncenter"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:932",
+            "entityId": "objinfo2:932",
+            "title": "Phoenix Billiard",
+            "aliases": [
+                "phoenix billiard",
+                "objek 932"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tempat ini mengusung konsep interior premium dengan perpaduan elemen kayu dan pencahayaan lampu LED dekoratif yang menghadirkan atmosfer elegan dan futuristik bagi para pengunjung. Dari sisi fasilitas, setiap meja biliar dilengkapi pencahayaan panel atas yang optimal untuk mendukung akurasi permainan, serta ruangan berpendingin udara (AC) penuh guna menjaga kenyamanan selama bermain.",
+            "source": "webview-import",
+            "sourceId": "932",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Phoenix Billiard",
+                    "content": "Tempat ini mengusung konsep interior premium dengan perpaduan elemen kayu dan pencahayaan lampu LED dekoratif yang menghadirkan atmosfer elegan dan futuristik bagi para pengunjung. Dari sisi fasilitas, setiap meja biliar dilengkapi pencahayaan panel atas yang optimal untuk mendukung akurasi permainan, serta ruangan berpendingin udara (AC) penuh guna menjaga kenyamanan selama bermain."
+                },
+                "en": {
+                    "title": "Phoenix Billiard",
+                    "content": "This venue features a premium interior concept that combines wooden elements with decorative LED lighting, creating an elegant and futuristic atmosphere for visitors. In terms of facilities, each billiard table is equipped with optimal overhead panel lighting to support playing accuracy, along with fully air-conditioned rooms to ensure comfort during play."
+                },
+                "zh": {
+                    "title": "凤凰台球",
+                    "content": "该场所采用高端室内设计理念，融合木质元素与装饰性LED灯光，为访客营造出优雅且富有未来感的氛围。在设施方面，每张台球桌均配备了优化的顶部照明，以提升击球精准度，同时场地全程空调开放，确保舒适的游戏体验。"
+                },
+                "ar": {
+                    "title": "بلياردو فينيكس",
+                    "content": "يعتمد هذا المكان مفهوم تصميم داخلي فاخر يجمع بين عناصر الخشب وإضاءة LED الزخرفية، ليمنح الزوار أجواءً أنيقة وعصرية ذات طابع مستقبلي. ومن حيث المرافق، تم تجهيز كل طاولة بلياردو بإضاءة علوية مثالية لدعم دقة اللعب، إضافةً إلى تكييف هواء كامل في جميع أرجاء المكان لضمان الراحة أثناء اللعب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:933",
+            "entityId": "objinfo2:933",
+            "title": "Badminton",
+            "aliases": [
+                "badminton",
+                "objek 933"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tempat ini dikenal luas sebagai destinasi olahraga yang nyaman karena memiliki 8 lapangan yang telah memenuhi standar Federasi Bulu Tangkis Dunia (BWF) dengan lantai berbahan vinyl berkualitas tinggi agar tidak licin saat digunakan. Selain area lapangan yang luas, Smashville juga dilengkapi dengan fasilitas pendukung seperti papan skor digital, sirkulasi udara yang segar, area parkir yang memadai, serta toilet yang sangat bersih.",
+            "source": "webview-import",
+            "sourceId": "933",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Badminton",
+                    "content": "Tempat ini dikenal luas sebagai destinasi olahraga yang nyaman karena memiliki 8 lapangan yang telah memenuhi standar Federasi Bulu Tangkis Dunia (BWF) dengan lantai berbahan vinyl berkualitas tinggi agar tidak licin saat digunakan. Selain area lapangan yang luas, Smashville juga dilengkapi dengan fasilitas pendukung seperti papan skor digital, sirkulasi udara yang segar, area parkir yang memadai, serta toilet yang sangat bersih."
+                },
+                "en": {
+                    "title": "Badminton",
+                    "content": "This place is widely known as a comfortable sports destination, featuring eight courts that meet World Badminton Federation (BWF) standards with high-quality vinyl flooring to prevent slipping during play. In addition to its spacious courts, Smashville is equipped with supporting facilities such as digital scoreboards, fresh air circulation, ample parking areas, and exceptionally clean restrooms."
+                },
+                "zh": {
+                    "title": "羽毛球",
+                    "content": "该场所作为舒适的运动目的地广受欢迎，拥有8个符合世界羽毛球联合会（BWF）标准的场地，地面采用高品质防滑乙烯基材料。除了宽敞的比赛区域外，Smashville 还配备了数字记分牌、良好的空气流通、充足的停车位以及非常整洁的卫生间等配套设施。"
+                },
+                "ar": {
+                    "title": "كرة الريشة",
+                    "content": "يُعرف هذا المكان على نطاق واسع كوجهة رياضية مريحة، حيث يضم 8 ملاعب مطابقة لمعايير الاتحاد الدولي لكرة الريشة (BWF)، بأرضيات من مادة الفينيل عالية الجودة لمنع الانزلاق أثناء اللعب. وإلى جانب المساحات الواسعة للملاعب، تم تجهيز Smashville بمرافق داعمة مثل لوحات نتائج رقمية، وتهوية منعشة، ومواقف سيارات كافية، ودورات مياه نظيفة للغاية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:934",
+            "entityId": "objinfo2:934",
+            "title": "Cafe",
+            "aliases": [
+                "cafe",
+                "objek 934"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Cafe di Phoenix Billiard Semarang menawarkan konsep area tunggu dan bersantai yang modern dengan desain interior industrial yang hangat. Selain itu, tersedia bar pelayanan dengan aksen kayu yang rapi serta fasilitas stopkontak di bawah deretan sofa panjang, menjadikannya tempat yang fungsional bagi pengunjung untuk mengisi daya perangkat elektronik sambil menikmati suasana di sela-sela permainan biliar.",
+            "source": "webview-import",
+            "sourceId": "934",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Cafe",
+                    "content": "Cafe di Phoenix Billiard Semarang menawarkan konsep area tunggu dan bersantai yang modern dengan desain interior industrial yang hangat. Selain itu, tersedia bar pelayanan dengan aksen kayu yang rapi serta fasilitas stopkontak di bawah deretan sofa panjang, menjadikannya tempat yang fungsional bagi pengunjung untuk mengisi daya perangkat elektronik sambil menikmati suasana di sela-sela permainan biliar."
+                },
+                "en": {
+                    "title": "Cafe",
+                    "content": "The café at Phoenix Billiard Semarang offers a modern waiting and relaxation area with a warm industrial interior design. It also features a neatly accented wooden service bar and power outlets beneath rows of long sofas, making it a functional space for visitors to charge their electronic devices while enjoying the atmosphere between billiard games."
+                },
+                "zh": {
+                    "title": "咖啡馆",
+                    "content": "凤凰台球三宝垄的咖啡馆提供现代化的等候与休闲空间，采用温暖的工业风室内设计。此外，咖啡馆设有带有整齐木质装饰的服务吧台，并在长排沙发下方配备电源插座，方便访客在台球间隙为电子设备充电并享受舒适氛围。"
+                },
+                "ar": {
+                    "title": "مقهى",
+                    "content": "يقدّم مقهى Phoenix Billiard في سيمارانغ مساحة انتظار واسترخاء عصرية بتصميم داخلي صناعي دافئ. كما يضم بار خدمة بلمسات خشبية أنيقة، مع توفير مقابس كهرباء أسفل صفوف الأرائك الطويلة، مما يجعله مكانًا عمليًا للزوار لشحن أجهزتهم الإلكترونية والاستمتاع بالأجواء بين جولات لعب البلياردو."
+                }
+            }
+        }
+    ]
+}

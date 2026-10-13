@@ -1,0 +1,474 @@
+{
+    "version": 2,
+    "tourId": "nirwana",
+    "updatedAt": "2026-09-29T09:51:30+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Nirwana",
+            "aliases": [
+                "nirwana"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "nirwana"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Nirwana.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Nirwana",
+                    "content": "Pusat pengalaman virtual untuk Nirwana."
+                },
+                "en": {
+                    "title": "Nirwana",
+                    "content": "Pusat pengalaman virtual untuk Nirwana."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Villa Transit",
+            "aliases": [
+                "villa transit"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "nirwana"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Villa Transit",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Villa Transit",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruellia Garden",
+            "aliases": [
+                "ruellia garden"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "nirwana"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruellia Garden",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruellia Garden",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "nirwana"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:682",
+            "entityId": "objinfo2:682",
+            "title": "Aviary dan Playground",
+            "aliases": [
+                "aviary dan playground",
+                "objek 682"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Aviary adalah kandang burung besar yang menampung koleksi unggas, termasuk burung-burung eksotis, untuk dilihat dan terkadang diberi makan oleh pengunjung. Area ini seringkali terintegrasi dengan playground (tempat bermain) yang dilengkapi wahana sederhana seperti ayunan dan perosotan untuk anak-anak.",
+            "source": "webview-import",
+            "sourceId": "682",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Aviary dan Playground",
+                    "content": "Aviary adalah kandang burung besar yang menampung koleksi unggas, termasuk burung-burung eksotis, untuk dilihat dan terkadang diberi makan oleh pengunjung. Area ini seringkali terintegrasi dengan playground (tempat bermain) yang dilengkapi wahana sederhana seperti ayunan dan perosotan untuk anak-anak."
+                },
+                "en": {
+                    "title": "Aviary and Playground",
+                    "content": "\"An aviary is a large bird enclosure that houses a collection of birds, including exotic species, for visitors to observe and occasionally feed.\r\nThis area is often integrated with a playground equipped with simple facilities such as swings and slides for children.\""
+                },
+                "zh": {
+                    "title": "鸟类园与游乐场",
+                    "content": "鸟类园是一种大型鸟类围栏，用于饲养包括珍稀鸟类在内的多种鸟类，供游客观赏，有时也可进行喂食。该区域通常与游乐场相结合，配备秋千、滑梯等适合儿童的简易游乐设施。"
+                },
+                "ar": {
+                    "title": "قفص الطيور ومنطقة الألعاب",
+                    "content": "الـAviary هو قفص كبير للطيور يضم مجموعة من الطيور، بما في ذلك الطيور النادرة، ليتمكن الزوار من مشاهدتها وأحيانًا إطعامها. وغالبًا ما تكون هذه المنطقة مدمجة مع ساحة ألعاب تحتوي على مرافق بسيطة مثل الأراجيح والزحاليق المخصصة للأطفال."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:683",
+            "entityId": "objinfo2:683",
+            "title": "Kandang Kuda",
+            "aliases": [
+                "kandang kuda",
+                "objek 683"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Stable adalah kandang utama tempat koleksi kuda, termasuk kuda poni, dirawat dan dipersiapkan untuk kegiatan berkuda. Di sini pengunjung dapat mengenal berbagai jenis kuda dan melihat langsung proses perawatan kuda-kuda yang terawat.",
+            "source": "webview-import",
+            "sourceId": "683",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Kuda",
+                    "content": "Stable adalah kandang utama tempat koleksi kuda, termasuk kuda poni, dirawat dan dipersiapkan untuk kegiatan berkuda. Di sini pengunjung dapat mengenal berbagai jenis kuda dan melihat langsung proses perawatan kuda-kuda yang terawat."
+                },
+                "en": {
+                    "title": "Stable",
+                    "content": "\"A stable is the main enclosure where horses, including ponies, are cared for and prepared for horse-riding activities.\r\nHere, visitors can learn about various types of horses and directly observe the care and maintenance process of these well-kept animals.\""
+                },
+                "zh": {
+                    "title": "马厩",
+                    "content": "马厩是饲养和照料马匹（包括小马）的主要场所，并用于为骑马活动做准备。在这里，游客可以了解不同品种的马，并亲眼观看马匹的日常护理过程。"
+                },
+                "ar": {
+                    "title": "إسطبل الخيول",
+                    "content": "الإسطبل هو المكان الرئيسي الذي تُربّى فيه الخيول، بما في ذلك خيول البوني، ويتم فيه الاعتناء بها وتجهيزها لأنشطة ركوب الخيل. هنا يمكن للزوار التعرف على أنواع مختلفة من الخيول ومشاهدة عملية العناية بالخيول عن قرب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:684",
+            "entityId": "objinfo2:684",
+            "title": "Rumah Kaca",
+            "aliases": [
+                "rumah kaca",
+                "objek 684"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Greenhouse (rumah kaca) adalah area yang digunakan untuk membudidayakan tanaman, termasuk sistem hidroponik, meskipun aksesnya mungkin terbatas atau tidak selalu dijaga petugas. Area ini menambah unsur edukasi pertanian dan keasrian lingkungan di sekitar restoran.",
+            "source": "webview-import",
+            "sourceId": "684",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Rumah Kaca",
+                    "content": "Greenhouse (rumah kaca) adalah area yang digunakan untuk membudidayakan tanaman, termasuk sistem hidroponik, meskipun aksesnya mungkin terbatas atau tidak selalu dijaga petugas. Area ini menambah unsur edukasi pertanian dan keasrian lingkungan di sekitar restoran."
+                },
+                "en": {
+                    "title": "Greenhouse",
+                    "content": "\"A greenhouse is an area used to cultivate plants, including hydroponic systems, although access may be limited or not always supervised by staff.\r\nThis area adds an element of agricultural education and enhances the environmental greenery around the restaurant.\""
+                },
+                "zh": {
+                    "title": "温室",
+                    "content": "温室（玻璃房）是用于种植植物的区域，包括水培系统，尽管进入可能受限或并非始终有工作人员看守。该区域为餐厅周边环境增添了农业教育元素和自然绿意。"
+                },
+                "ar": {
+                    "title": "البيت الزجاجي",
+                    "content": "البيت الزجاجي (Greenhouse) هو منطقة تُستخدم لزراعة النباتات، بما في ذلك أنظمة الزراعة المائية، رغم أن الوصول إليه قد يكون محدودًا أو غير مُراقَب دائمًا من قبل الموظفين. تضيف هذه المنطقة عنصرًا من التثقيف الزراعي وتعزز الطابع الطبيعي والاخضرار في محيط المطعم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:685",
+            "entityId": "objinfo2:685",
+            "title": "Nirwana Resto",
+            "aliases": [
+                "nirwana resto",
+                "objek 685"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Nirwana Resto adalah restoran utama di lokasi tersebut yang menyajikan beragam pilihan menu, mulai dari hidangan khas Nusantara hingga menu Western. Restoran ini menawarkan pengalaman bersantap yang nyaman dengan pemandangan alam sekitar yang hijau dan menenangkan.",
+            "source": "webview-import",
+            "sourceId": "685",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Nirwana Resto",
+                    "content": "Nirwana Resto adalah restoran utama di lokasi tersebut yang menyajikan beragam pilihan menu, mulai dari hidangan khas Nusantara hingga menu Western. Restoran ini menawarkan pengalaman bersantap yang nyaman dengan pemandangan alam sekitar yang hijau dan menenangkan."
+                },
+                "en": {
+                    "title": "Nirwana Restaurant",
+                    "content": "\"Nirwana Resto is the main restaurant at the location, serving a wide variety of menu options ranging from traditional Indonesian dishes to Western cuisine.\r\nThe restaurant offers a comfortable dining experience with views of the surrounding green and calming natural scenery.\""
+                },
+                "zh": {
+                    "title": "尼尔瓦纳餐厅",
+                    "content": "尼尔瓦纳餐厅是该地点的主要餐厅，提供多样化的菜单选择，从印尼传统美食到西式料理一应俱全。餐厅为顾客带来舒适的用餐体验，并可欣赏周围郁郁葱葱、宁静宜人的自然景观。"
+                },
+                "ar": {
+                    "title": "مطعم نيروانا",
+                    "content": "مطعم نيروانا هو المطعم الرئيسي في الموقع، ويقدم مجموعة متنوعة من الأطباق التي تتراوح بين المأكولات الإندونيسية التقليدية والمأكولات الغربية. ويوفر المطعم تجربة تناول طعام مريحة مع إطلالة على الطبيعة الخضراء المحيطة التي تبعث على الهدوء والاسترخاء."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:686",
+            "entityId": "objinfo2:686",
+            "title": "Kafe",
+            "aliases": [
+                "kafe",
+                "objek 686"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Caffe adalah area santai yang khusus menyajikan minuman, terutama kopi khas, serta makanan ringan atau snack. Tempat ini ideal untuk nongkrong, Work From Cafe (WFC), atau sekadar menikmati live music di akhir pekan.",
+            "source": "webview-import",
+            "sourceId": "686",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kafe",
+                    "content": "Caffe adalah area santai yang khusus menyajikan minuman, terutama kopi khas, serta makanan ringan atau snack. Tempat ini ideal untuk nongkrong, Work From Cafe (WFC), atau sekadar menikmati live music di akhir pekan."
+                },
+                "en": {
+                    "title": "Cafe",
+                    "content": "\"The cafe is a relaxed area that specifically serves beverages, especially specialty coffee, along with light meals or snacks.\r\nThis place is ideal for hanging out, Work From Cafe (WFC), or simply enjoying live music on weekends.\""
+                },
+                "zh": {
+                    "title": "咖啡馆",
+                    "content": "咖啡馆是一个轻松的休闲区域，主要提供各类饮品，尤其是特色咖啡，以及小吃或轻食。这里非常适合聚会、在咖啡馆办公（WFC），或在周末欣赏现场音乐表演。"
+                },
+                "ar": {
+                    "title": "مقهى",
+                    "content": "المقهى هو منطقة استرخاء مخصصة لتقديم المشروبات، وخاصة القهوة المميزة، بالإضافة إلى الوجبات الخفيفة. ويُعد هذا المكان مثاليًا للتجمع، أو العمل من المقهى (WFC)، أو مجرد الاستمتاع بالموسيقى الحية في عطلة نهاية الأسبوع."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:687",
+            "entityId": "objinfo2:687",
+            "title": "Arena Latihan Berkuda",
+            "aliases": [
+                "arena latihan berkuda",
+                "objek 687"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Arena Latihan Berkuda adalah fasilitas utama untuk kegiatan rekreasi dan edukasi berkuda bagi pengunjung dari berbagai kalangan. Tempat ini menawarkan paket belajar berkuda, di mana pengunjung akan didampingi pelatih berpengalaman dengan perlengkapan lengkap.",
+            "source": "webview-import",
+            "sourceId": "687",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Arena Latihan Berkuda",
+                    "content": "Arena Latihan Berkuda adalah fasilitas utama untuk kegiatan rekreasi dan edukasi berkuda bagi pengunjung dari berbagai kalangan. Tempat ini menawarkan paket belajar berkuda, di mana pengunjung akan didampingi pelatih berpengalaman dengan perlengkapan lengkap."
+                },
+                "en": {
+                    "title": "Horse Riding Training Arena",
+                    "content": "\"The Horse Riding Training Arena is the main facility for recreational and educational horse-riding activities for visitors from various backgrounds.\r\nThis place offers horse-riding lesson packages, where visitors are accompanied by experienced instructors and provided with complete equipment.\""
+                },
+                "zh": {
+                    "title": "骑马训练场",
+                    "content": "骑马训练场是面向各类游客开展骑马休闲与教育活动的主要设施。这里提供骑马学习套餐，由经验丰富的教练全程陪同，并配备完善的骑马装备。"
+                },
+                "ar": {
+                    "title": "ساحة تدريب ركوب الخيل",
+                    "content": "ساحة تدريب ركوب الخيل هي المنشأة الرئيسية للأنشطة الترفيهية والتعليمية المتعلقة بركوب الخيل للزوار من مختلف الفئات. يوفر هذا المكان باقات لتعلم ركوب الخيل، حيث يُرافق الزوار مدربون ذوو خبرة مع توفير معدات كاملة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:688",
+            "entityId": "objinfo2:688",
+            "title": "Reulian Garden",
+            "aliases": [
+                "reulian garden",
+                "objek 688"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area outdoor yang disediakan oleh pengelola untuk bisa digunakan guna berbagai aktivitas, seperti pernikahan, maupun acara besar lainnya.",
+            "source": "webview-import",
+            "sourceId": "688",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Reulian Garden",
+                    "content": "Area outdoor yang disediakan oleh pengelola untuk bisa digunakan guna berbagai aktivitas, seperti pernikahan, maupun acara besar lainnya."
+                },
+                "en": {
+                    "title": "Reulian Garden",
+                    "content": "An outdoor area provided by the management that can be used for various activities, such as weddings and other large-scale events."
+                },
+                "zh": {
+                    "title": "瑞利安花园",
+                    "content": "由管理方提供的户外区域，可用于多种活动，例如婚礼及其他大型活动。"
+                },
+                "ar": {
+                    "title": "حديقة ريوليان",
+                    "content": "منطقة خارجية يوفرها القائمون على المكان لاستخدامها في مختلف الأنشطة، مثل حفلات الزفاف وغيرها من الفعاليات الكبرى."
+                }
+            }
+        }
+    ]
+}

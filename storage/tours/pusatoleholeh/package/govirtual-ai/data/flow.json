@@ -1,0 +1,35 @@
+{
+    "version": "1.0",
+    "tourId": "pusatoleholeh",
+    "tourName": "Pusatoleholeh",
+    "updatedAt": "2026-09-29T09:51:54+02:00",
+    "startScene": "node81",
+    "order": [
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86"
+    ],
+    "nodes": {
+        "node81": {
+            "displayName": "Pusat Oleh-Oleh – Lorong Produk – Sisi Pendingin"
+        },
+        "node82": {
+            "displayName": "Pusat Oleh-Oleh – Etalase Oleh-oleh"
+        },
+        "node83": {
+            "displayName": "Pusat Oleh-Oleh – Lorong Produk – Kemasan Ringan"
+        },
+        "node84": {
+            "displayName": "Pusat Oleh-Oleh – Ambang Keluar Toko"
+        },
+        "node85": {
+            "displayName": "Pusat Oleh-Oleh – Sudut Tunggu Toko"
+        },
+        "node86": {
+            "displayName": "Pusat Oleh-Oleh – Pintu Pusat Oleh-oleh Djoe"
+        }
+    }
+}

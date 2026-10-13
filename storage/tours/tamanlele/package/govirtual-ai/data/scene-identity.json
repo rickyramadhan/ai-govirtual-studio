@@ -1,0 +1,1147 @@
+{
+    "version": "1.1-seed",
+    "tourId": "tamanlele",
+    "generatedAt": "2026-10-01",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node38": {
+            "rawName": "Kolamlele",
+            "displayName": "Kolamlele (Titik 38)",
+            "placeId": "kolamlele-titik-38",
+            "placeName": "Kolamlele (Titik 38)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Kolamlele (Titik 38), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Kolamlele (Titik 38), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Kolamlele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Kolamlele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kapasitas sepeda air (bebekan)?",
+                    "mode": "fix",
+                    "answer": "Satu unit rata-rata dua dewasa pengayuh pedal, sangat santai dan aman berpelampung."
+                },
+                {
+                    "q": "Fasilitas apa saat lewat gerbang masuk?",
+                    "mode": "fix",
+                    "answer": "Loket tiket resmi, pusat informasi, dan parkir luas rindang untuk rombongan."
+                },
+                {
+                    "q": "Siapa yang sering transit menginap di sini?",
+                    "mode": "fix",
+                    "answer": "Pelancong lintas kota jalur utama (Pantura) yang lelah perjalanan jauh."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:904"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolamlele (Titik 38).",
+                "describeHere": "Kolamlele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node27": {
+            "rawName": "Gerbang Masuk",
+            "displayName": "Gerbang Masuk (Titik 27)",
+            "placeId": "gerbang-masuk-titik-27",
+            "placeName": "Gerbang Masuk (Titik 27)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Gerbang Masuk (Titik 27), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Gerbang Masuk (Titik 27), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Gerbang Masuk",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Gerbang Masuk",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas kolam renang di sini?",
+                    "mode": "fix",
+                    "answer": "Kolam air bersih kedalaman terpisah anak/dewasa, dikelilingi rindang pohon."
+                },
+                {
+                    "q": "Mitos apa di danau/kolam ini?",
+                    "mode": "fix",
+                    "answer": "Legenda ikan lele keramat tanpa patil (trondol) penunggu mata air abadi."
+                },
+                {
+                    "q": "Aktivitas anak di area playground?",
+                    "mode": "fix",
+                    "answer": "Bebas berlarian, ayunan, perosotan melatih ketangkasan fisik di ruang terbuka hijau."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gerbang Masuk (Titik 27).",
+                "describeHere": "Gerbang Masuk adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node28": {
+            "rawName": "Wisma Taman Lele",
+            "displayName": "Wisma Taman Lele (Titik 28)",
+            "placeId": "wisma-taman-lele-titik-28",
+            "placeName": "Wisma Taman Lele (Titik 28)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Wisma Taman Lele (Titik 28), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Wisma Taman Lele (Titik 28), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Wisma Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Wisma Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fungsi mata air kolam alami ini?",
+                    "mode": "fix",
+                    "answer": "Tidak pernah kering walau kemarau, sumber air vital bagi ekosistem pohon taman."
+                },
+                {
+                    "q": "Bolehkah memancing di danau keramat?",
+                    "mode": "fix",
+                    "answer": "Dilarang keras demi menjaga kelestarian cerita budaya dan ekosistem mata air."
+                },
+                {
+                    "q": "Target utama pengunjung wisata ini?",
+                    "mode": "fix",
+                    "answer": "Rekreasi keluarga (family tourism) dan anak sekolah cari wisata alam terjangkau."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wisma Taman Lele (Titik 28).",
+                "describeHere": "Wisma Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node29": {
+            "rawName": "Playground",
+            "displayName": "Playground (Titik 29)",
+            "placeId": "playground-titik-29",
+            "placeName": "Playground (Titik 29)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Playground (Titik 29), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Playground (Titik 29), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Playground",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Playground",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Keuntungan menginap di wisma Taman Lele?",
+                    "mode": "fix",
+                    "answer": "Suasana tenang pedesaan, bebas polusi, akses langsung taman dan kolam renang pagi."
+                },
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Playground (Titik 29) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Playground (Titik 29). Panorama spesifik di Playground (Titik 29), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Playground (Titik 29).",
+                "describeHere": "Playground adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node30": {
+            "rawName": "Playground",
+            "displayName": "Playground (Titik 30)",
+            "placeId": "playground-titik-30",
+            "placeName": "Playground (Titik 30)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Playground (Titik 30), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Playground (Titik 30), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Playground",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Playground",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Playground (Titik 30) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Playground (Titik 30) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Playground (Titik 30), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Playground (Titik 30). Panorama spesifik di Playground (Titik 30), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Playground (Titik 30).",
+                "describeHere": "Playground adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node31": {
+            "rawName": "Taman Lele Forest",
+            "displayName": "Taman Lele Forest (Titik 31)",
+            "placeId": "taman-lele-forest-titik-31",
+            "placeName": "Taman Lele Forest (Titik 31)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Taman Lele Forest (Titik 31), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Taman Lele Forest (Titik 31), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Taman Lele Forest",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Taman Lele Forest",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Taman Lele Forest (Titik 31) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Taman Lele Forest (Titik 31) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Taman Lele Forest (Titik 31), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Taman Lele Forest (Titik 31). Panorama spesifik di Taman Lele Forest (Titik 31), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman Lele Forest (Titik 31).",
+                "describeHere": "Taman Lele Forest adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node33": {
+            "rawName": "Wisma Taman Lele",
+            "displayName": "Wisma Taman Lele (Titik 33)",
+            "placeId": "wisma-taman-lele-titik-33",
+            "placeName": "Wisma Taman Lele (Titik 33)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Wisma Taman Lele (Titik 33), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Wisma Taman Lele (Titik 33), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Wisma Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Wisma Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Wisma Taman Lele (Titik 33) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Wisma Taman Lele (Titik 33) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Wisma Taman Lele (Titik 33), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Wisma Taman Lele (Titik 33). Panorama spesifik di Wisma Taman Lele (Titik 33), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wisma Taman Lele (Titik 33).",
+                "describeHere": "Wisma Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node34": {
+            "rawName": "Wahanaair",
+            "displayName": "Wahanaair (Titik 34)",
+            "placeId": "wahanaair-titik-34",
+            "placeName": "Wahanaair (Titik 34)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Wahanaair (Titik 34), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Wahanaair (Titik 34), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Wahanaair",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Wahanaair",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Wahanaair (Titik 34) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Wahanaair (Titik 34) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Wahanaair (Titik 34), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Wahanaair (Titik 34). Panorama spesifik di Wahanaair (Titik 34), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wahanaair (Titik 34).",
+                "describeHere": "Wahanaair adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node35": {
+            "rawName": "Danau Taman Lele",
+            "displayName": "Danau Taman Lele (Titik 35)",
+            "placeId": "danau-taman-lele-titik-35",
+            "placeName": "Danau Taman Lele (Titik 35)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Danau Taman Lele (Titik 35), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Danau Taman Lele (Titik 35), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Danau Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Danau Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Danau Taman Lele (Titik 35) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Danau Taman Lele (Titik 35) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Danau Taman Lele (Titik 35), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Danau Taman Lele (Titik 35). Panorama spesifik di Danau Taman Lele (Titik 35), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Danau Taman Lele (Titik 35).",
+                "describeHere": "Danau Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node36": {
+            "rawName": "Kolam Renang",
+            "displayName": "Kolam Renang (Titik 36)",
+            "placeId": "kolam-renang-titik-36",
+            "placeName": "Kolam Renang (Titik 36)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Kolam Renang (Titik 36), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Kolam Renang (Titik 36), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Kolam Renang",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Kolam Renang",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Kolam Renang (Titik 36) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Kolam Renang (Titik 36) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Kolam Renang (Titik 36), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kolam Renang (Titik 36). Panorama spesifik di Kolam Renang (Titik 36), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolam Renang (Titik 36).",
+                "describeHere": "Kolam Renang adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node37": {
+            "rawName": "Kolamrenang",
+            "displayName": "Kolamrenang (Titik 37)",
+            "placeId": "kolamrenang-titik-37",
+            "placeName": "Kolamrenang (Titik 37)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Kolamrenang (Titik 37), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Kolamrenang (Titik 37), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Kolamrenang",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Kolamrenang",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Kolamrenang (Titik 37) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Kolamrenang (Titik 37) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Kolamrenang (Titik 37), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kolamrenang (Titik 37). Panorama spesifik di Kolamrenang (Titik 37), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:903"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolamrenang (Titik 37).",
+                "describeHere": "Kolamrenang adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node39": {
+            "rawName": "Panggung Taman Lele",
+            "displayName": "Panggung Taman Lele (Titik 39)",
+            "placeId": "panggung-taman-lele-titik-39",
+            "placeName": "Panggung Taman Lele (Titik 39)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Panggung Taman Lele (Titik 39), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Panggung Taman Lele (Titik 39), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Panggung Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Panggung Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Panggung Taman Lele (Titik 39) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Panggung Taman Lele (Titik 39) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Panggung Taman Lele (Titik 39), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Panggung Taman Lele (Titik 39). Panorama spesifik di Panggung Taman Lele (Titik 39), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Panggung Taman Lele (Titik 39).",
+                "describeHere": "Panggung Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node40": {
+            "rawName": "Area Parkir",
+            "displayName": "Area Parkir (Titik 40)",
+            "placeId": "area-parkir-titik-40",
+            "placeName": "Area Parkir (Titik 40)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Area Parkir (Titik 40), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Area Parkir (Titik 40), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Area Parkir",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Area Parkir (Titik 40) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Area Parkir (Titik 40) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Area Parkir (Titik 40), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Parkir (Titik 40). Panorama spesifik di Area Parkir (Titik 40), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Parkir (Titik 40).",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node41": {
+            "rawName": "Pendopo",
+            "displayName": "Pendopo (Titik 41)",
+            "placeId": "pendopo-titik-41",
+            "placeName": "Pendopo (Titik 41)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Pendopo (Titik 41), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Pendopo (Titik 41), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Pendopo",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Pendopo",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Pendopo (Titik 41) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Pendopo (Titik 41) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Pendopo (Titik 41), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pendopo (Titik 41). Panorama spesifik di Pendopo (Titik 41), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pendopo (Titik 41).",
+                "describeHere": "Pendopo adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node42": {
+            "rawName": "Areabermainanak",
+            "displayName": "Areabermainanak (Titik 42)",
+            "placeId": "areabermainanak-titik-42",
+            "placeName": "Areabermainanak (Titik 42)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Areabermainanak (Titik 42), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Areabermainanak (Titik 42), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Areabermainanak",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Areabermainanak",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Areabermainanak (Titik 42) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Areabermainanak (Titik 42) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Areabermainanak (Titik 42), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Areabermainanak (Titik 42). Panorama spesifik di Areabermainanak (Titik 42), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Areabermainanak (Titik 42).",
+                "describeHere": "Areabermainanak adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node43": {
+            "rawName": "Areabersantai",
+            "displayName": "Areabersantai (Titik 43)",
+            "placeId": "areabersantai-titik-43",
+            "placeName": "Areabersantai (Titik 43)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Areabersantai (Titik 43), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Areabersantai (Titik 43), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Areabersantai",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Areabersantai",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Areabersantai (Titik 43) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Areabersantai (Titik 43) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Areabersantai (Titik 43), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Areabersantai (Titik 43). Panorama spesifik di Areabersantai (Titik 43), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Areabersantai (Titik 43).",
+                "describeHere": "Areabersantai adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node44": {
+            "rawName": "Pendopo",
+            "displayName": "Pendopo (Titik 44)",
+            "placeId": "pendopo-titik-44",
+            "placeName": "Pendopo (Titik 44)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Pendopo (Titik 44), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Pendopo (Titik 44), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Pendopo",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Pendopo",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Pendopo (Titik 44) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Pendopo (Titik 44) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Pendopo (Titik 44), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pendopo (Titik 44). Panorama spesifik di Pendopo (Titik 44), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pendopo (Titik 44).",
+                "describeHere": "Pendopo adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node45": {
+            "rawName": "Taman Lele",
+            "displayName": "Taman Lele (Titik 45)",
+            "placeId": "taman-lele-titik-45",
+            "placeName": "Taman Lele (Titik 45)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Taman Lele (Titik 45), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Taman Lele (Titik 45), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Taman Lele (Titik 45) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Taman Lele (Titik 45) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Taman Lele (Titik 45), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Taman Lele (Titik 45). Panorama spesifik di Taman Lele (Titik 45), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman Lele (Titik 45).",
+                "describeHere": "Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node46": {
+            "rawName": "Hutan",
+            "displayName": "Hutan (Titik 46)",
+            "placeId": "hutan-titik-46",
+            "placeName": "Hutan (Titik 46)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Hutan (Titik 46), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Hutan (Titik 46), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Hutan",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Hutan",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Hutan (Titik 46) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Hutan (Titik 46) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Hutan (Titik 46), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Hutan (Titik 46). Panorama spesifik di Hutan (Titik 46), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Hutan (Titik 46).",
+                "describeHere": "Hutan adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node47": {
+            "rawName": "Danautamanlele",
+            "displayName": "Danautamanlele (Titik 47)",
+            "placeId": "danautamanlele-titik-47",
+            "placeName": "Danautamanlele (Titik 47)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Danautamanlele (Titik 47), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Danautamanlele (Titik 47), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Danautamanlele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Danautamanlele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Danautamanlele (Titik 47) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Danautamanlele (Titik 47) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Danautamanlele (Titik 47), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Danautamanlele (Titik 47). Panorama spesifik di Danautamanlele (Titik 47), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:902"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Danautamanlele (Titik 47).",
+                "describeHere": "Danautamanlele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node48": {
+            "rawName": "Sendangnyituksari",
+            "displayName": "Sendangnyituksari (Titik 48)",
+            "placeId": "sendangnyituksari-titik-48",
+            "placeName": "Sendangnyituksari (Titik 48)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Sendangnyituksari (Titik 48), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Sendangnyituksari (Titik 48), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Sendangnyituksari",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Sendangnyituksari",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Sendangnyituksari (Titik 48) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Sendangnyituksari (Titik 48) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Sendangnyituksari (Titik 48), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Sendangnyituksari (Titik 48). Panorama spesifik di Sendangnyituksari (Titik 48), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:906"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Sendangnyituksari (Titik 48).",
+                "describeHere": "Sendangnyituksari adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node49": {
+            "rawName": "Drone Kampung Wisata Taman Lele",
+            "displayName": "Drone Kampung Wisata Taman Lele (Titik 49)",
+            "placeId": "drone-kampung-wisata-taman-lele-titik-49",
+            "placeName": "Drone Kampung Wisata Taman Lele (Titik 49)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Drone Kampung Wisata Taman Lele (Titik 49), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Drone Kampung Wisata Taman Lele (Titik 49), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Drone Kampung Wisata Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Drone Kampung Wisata Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Drone Kampung Wisata Taman Lele (Titik 49) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Drone Kampung Wisata Taman Lele (Titik 49) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Drone Kampung Wisata Taman Lele (Titik 49), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Drone Kampung Wisata Taman Lele (Titik 49). Panorama spesifik di Drone Kampung Wisata Taman Lele (Titik 49), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Drone Kampung Wisata Taman Lele (Titik 49).",
+                "describeHere": "Drone Kampung Wisata Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node50": {
+            "rawName": "Drone Kampung Wisata Taman Lele",
+            "displayName": "Drone Kampung Wisata Taman Lele (Titik 50)",
+            "placeId": "drone-kampung-wisata-taman-lele-titik-50",
+            "placeName": "Drone Kampung Wisata Taman Lele (Titik 50)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Drone Kampung Wisata Taman Lele (Titik 50), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Drone Kampung Wisata Taman Lele (Titik 50), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Drone Kampung Wisata Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Drone Kampung Wisata Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Drone Kampung Wisata Taman Lele (Titik 50) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Drone Kampung Wisata Taman Lele (Titik 50) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Drone Kampung Wisata Taman Lele (Titik 50), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Drone Kampung Wisata Taman Lele (Titik 50). Panorama spesifik di Drone Kampung Wisata Taman Lele (Titik 50), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Drone Kampung Wisata Taman Lele (Titik 50).",
+                "describeHere": "Drone Kampung Wisata Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node51": {
+            "rawName": "Penginapan",
+            "displayName": "Penginapan (Titik 51)",
+            "placeId": "penginapan-titik-51",
+            "placeName": "Penginapan (Titik 51)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama spesifik di Penginapan (Titik 51), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele.",
+            "description": "Berada tepat di Penginapan (Titik 51), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi.",
+            "highlights": [
+                "Eksplorasi visual Penginapan",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Penginapan",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa hal menarik yang bisa diamati dari Penginapan (Titik 51) ini?",
+                    "mode": "fix",
+                    "answer": "Dari titik ini, pengunjung bisa melihat harmoni tata ruang di Kampoeng Wisata Taman Lele yang sangat khas dan terjaga dengan baik."
+                },
+                {
+                    "q": "Apa peran Penginapan (Titik 51) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Berada tepat di Penginapan (Titik 51), pengunjung dapat memutar sudut pandang 360 derajat untuk meneliti elemen-elemen unik di Kampoeng Wisata Taman Lele. Dari tata letak ruang hingga interaksi di sekelilingnya, titik ini menceritakan sepenggal kisah yang membuat kawasan ini menjadi destinasi wisata unggulan yang selalu menarik untuk dieksplorasi."
+                },
+                {
+                    "q": "Mengapa detail tata ruang spesifik menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Penginapan (Titik 51). Panorama spesifik di Penginapan (Titik 51), menangkap detail arsitektur dan atmosfer otentik di Kampoeng Wisata Taman Lele."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:905"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Penginapan (Titik 51).",
+                "describeHere": "Penginapan adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

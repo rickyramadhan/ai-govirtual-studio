@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "immoderma",
+    "tourName": "Immoderma",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Reservasi Online",
+                "query": "Apakah pelanggan bisa melakukan reservasi jadwal treatment secara online sebelum datang?",
+                "desc": "Apakah pelanggan bisa melakukan reservasi jadwal treatment secara online sebelum datang?"
+            },
+            {
+                "label": "Pilihan Facial",
+                "query": "Jenis facial apa yang paling direkomendasikan untuk kulit sensitif dan mudah berjerawat?",
+                "desc": "Jenis facial apa yang paling direkomendasikan untuk kulit sensitif dan mudah berjerawat?"
+            },
+            {
+                "label": "Treatment Populer",
+                "query": "Apa nama treatment paling populer di Immoderma untuk mencerahkan wajah secara instan?",
+                "desc": "Apa nama treatment paling populer di Immoderma untuk mencerahkan wajah secara instan?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Teknologi Laser Canggih",
+                "query": "Bagaimana penggunaan teknologi laser medis terkini di Immoderma untuk mengatasi flek dan masalah pigmentasi kulit?"
+            },
+            {
+                "label": "Perawatan Facial Glowing",
+                "query": "Apa saja tahapan dan manfaat dari signature facial glowing yang menjadi favorit pengunjung klinik ini?"
+            },
+            {
+                "label": "Treatment Body Slimming",
+                "query": "Bagaimana prosedur dan alat yang digunakan dalam perawatan body slimming atau pembentukan kontur tubuh?"
+            },
+            {
+                "label": "Ruang VIP Eksklusif",
+                "query": "Fasilitas dan privasi seperti apa yang didapatkan pelanggan jika memilih perawatan di ruang VIP?"
+            },
+            {
+                "label": "Pengawasan Medis Ketat",
+                "query": "Bagaimana standar operasional dan pengawasan langsung oleh dokter spesialis kulit selama proses treatment?"
+            },
+            {
+                "label": "Produk Perawatan Kulit",
+                "query": "Apa saja formulasi unggulan dari produk perawatan kulit Immoderma yang disesuaikan dengan iklim tropis?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Immoderma?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Immoderma?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Immoderma?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

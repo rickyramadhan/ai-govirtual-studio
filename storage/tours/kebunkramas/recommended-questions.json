@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "kebunkramas",
+    "tourName": "Kebunkramas",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Musim durian bulan apa?",
+                "query": "Kapan biasanya musim panen durian tiba agar bisa menikmati durian langsung dari kebun?",
+                "desc": "Kapan biasanya musim panen durian tiba agar bisa menikmati durian langsung dari kebun?"
+            },
+            {
+                "label": "Berapa biaya camping?",
+                "query": "Berapa biaya yang harus disiapkan untuk menyewa lokasi atau peralatan camping di sini?",
+                "desc": "Berapa biaya yang harus disiapkan untuk menyewa lokasi atau peralatan camping di sini?"
+            },
+            {
+                "label": "Cocok untuk anak-anak?",
+                "query": "Apakah kontur tanah dan fasilitas wisata di Kebun Kramas ini aman untuk anak-anak?",
+                "desc": "Apakah kontur tanah dan fasilitas wisata di Kebun Kramas ini aman untuk anak-anak?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Varian Buah Unggulan",
+                "query": "Berbagai jenis buah-buahan lokal seperti durian dan alpukat apa saja yang menjadi daya tarik utama Kebun Kramas?"
+            },
+            {
+                "label": "Camping Ground",
+                "query": "Bagaimana fasilitas dan keseruan berkemah (camping ground) di tengah rindangnya pepohonan Agro Wisata Kebun Kramas?"
+            },
+            {
+                "label": "Edukasi Flora Alam",
+                "query": "Apa saja program edukasi mengenai berbagai macam flora dan cara perawatannya yang bisa dipelajari pengunjung?"
+            },
+            {
+                "label": "Keasrian Alam Pedesaan",
+                "query": "Seperti apa keasrian lingkungan dan udara sejuk pegunungan yang ditawarkan oleh agrowisata ini?"
+            },
+            {
+                "label": "Interaksi Satwa Ternak",
+                "query": "Apakah terdapat area interaksi dengan satwa atau peternakan yang aman untuk sarana bermain anak-anak?"
+            },
+            {
+                "label": "Fasilitas Outbound",
+                "query": "Sebutkan jenis-jenis permainan atau fasilitas outbound yang bisa dinikmati oleh rombongan wisatawan!"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Kebunkramas?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Kebunkramas?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Kebunkramas?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

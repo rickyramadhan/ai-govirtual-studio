@@ -1,0 +1,832 @@
+{
+    "startNode": "node276",
+    "scenes": [
+        {
+            "id": "node276",
+            "name": "node276",
+            "displayName": "node276",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -14.8,
+            "tilt": -6.2,
+            "fov": 110.93,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node279",
+            "name": "Jurusan Administrasi Bisnis",
+            "displayName": "Jurusan Administrasi Bisnis",
+            "rawName": "",
+            "customNodeId": "-urusan-dministrasi-isnis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Jurusan Administrasi Bisnis"
+            ]
+        },
+        {
+            "id": "node280",
+            "name": "Lapanganbasket",
+            "displayName": "Lapanganbasket",
+            "rawName": "",
+            "customNodeId": "lapanganbasket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "lapanganbasket"
+            ]
+        },
+        {
+            "id": "node281",
+            "name": "Kantin",
+            "displayName": "Kantin",
+            "rawName": "",
+            "customNodeId": "-antin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Kantin"
+            ]
+        },
+        {
+            "id": "node282",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node283",
+            "name": "Politeknik Negeri Semarang",
+            "displayName": "Politeknik Negeri Semarang",
+            "rawName": "",
+            "customNodeId": "-oliteknik-egeri-emarang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Politeknik Negeri Semarang"
+            ]
+        },
+        {
+            "id": "node284",
+            "name": "Labmesin",
+            "displayName": "Labmesin",
+            "rawName": "",
+            "customNodeId": "labmesin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "Polines"
+            ],
+            "aliases": [
+                "labmesin"
+            ]
+        },
+        {
+            "id": "node285",
+            "name": "Labelektro",
+            "displayName": "Labelektro",
+            "rawName": "",
+            "customNodeId": "labelektro",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "Polines"
+            ],
+            "aliases": [
+                "labelektro"
+            ]
+        },
+        {
+            "id": "node301",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node286",
+            "name": "Direktoratdalam",
+            "displayName": "Direktoratdalam",
+            "rawName": "",
+            "customNodeId": "direktoratdalam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "Polines"
+            ],
+            "aliases": [
+                "direktoratdalam"
+            ]
+        },
+        {
+            "id": "node287",
+            "name": "Direktorat",
+            "displayName": "Direktorat",
+            "rawName": "",
+            "customNodeId": "-irektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Direktorat"
+            ]
+        },
+        {
+            "id": "node288",
+            "name": "Gedung Direktorat",
+            "displayName": "Gedung Direktorat",
+            "rawName": "",
+            "customNodeId": "-edung-irektorat",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Gedung Direktorat"
+            ]
+        },
+        {
+            "id": "node289",
+            "name": "Gedung Kuliah Terpadu Bisnis",
+            "displayName": "Gedung Kuliah Terpadu Bisnis",
+            "rawName": "",
+            "customNodeId": "-edung-uliah-erpadu-isnis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Gedung Kuliah Terpadu Bisnis"
+            ]
+        },
+        {
+            "id": "node290",
+            "name": "Labakuntansi",
+            "displayName": "Labakuntansi",
+            "rawName": "",
+            "customNodeId": "labakuntansi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "Polines"
+            ],
+            "aliases": [
+                "labakuntansi"
+            ]
+        },
+        {
+            "id": "node291",
+            "name": "Gedung Lab Akuntansi",
+            "displayName": "Gedung Lab Akuntansi",
+            "rawName": "",
+            "customNodeId": "-edung-ab-kuntansi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Gedung Lab Akuntansi"
+            ]
+        },
+        {
+            "id": "node292",
+            "name": "Politeknik Negeri Semarang",
+            "displayName": "Politeknik Negeri Semarang",
+            "rawName": "",
+            "customNodeId": "-oliteknik-egeri-emarang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Politeknik Negeri Semarang"
+            ]
+        },
+        {
+            "id": "node293",
+            "name": "Lapanganbola",
+            "displayName": "Lapanganbola",
+            "rawName": "",
+            "customNodeId": "lapanganbola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "Polines"
+            ],
+            "aliases": [
+                "lapanganbola"
+            ]
+        },
+        {
+            "id": "node294",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node295",
+            "name": "Politeknik Negeri Semarang",
+            "displayName": "Politeknik Negeri Semarang",
+            "rawName": "",
+            "customNodeId": "-oliteknik-egeri-emarang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Politeknik Negeri Semarang"
+            ]
+        },
+        {
+            "id": "node296",
+            "name": "Gedung Magister Terapan",
+            "displayName": "Gedung Magister Terapan",
+            "rawName": "",
+            "customNodeId": "-edung-agister-erapan",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Gedung Magister Terapan"
+            ]
+        },
+        {
+            "id": "node297",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node298",
+            "name": "Jurusan Administrasi Bisnis",
+            "displayName": "Jurusan Administrasi Bisnis",
+            "rawName": "",
+            "customNodeId": "-urusan-dministrasi-isnis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Jurusan Administrasi Bisnis"
+            ]
+        },
+        {
+            "id": "node299",
+            "name": "Lapangantenis",
+            "displayName": "Lapangantenis",
+            "rawName": "",
+            "customNodeId": "lapangantenis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "lapangantenis"
+            ]
+        },
+        {
+            "id": "node300",
+            "name": "Tugu",
+            "displayName": "Tugu",
+            "rawName": "",
+            "customNodeId": "-ugu",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "Polines"
+            ],
+            "aliases": [
+                "Tugu"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node276",
+            "target": "node293",
+            "title": "Lapangan Bola",
+            "id": "Point01",
+            "pan": -36.13,
+            "tilt": -5.76
+        },
+        {
+            "scene": "node276",
+            "target": "node280",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": -10.13,
+            "tilt": -2.33
+        },
+        {
+            "scene": "node276",
+            "target": "node282",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": -346.05,
+            "tilt": -5.14
+        },
+        {
+            "scene": "node276",
+            "target": "node279",
+            "title": "Jurusan Administrasi Bisnis",
+            "id": "Point04",
+            "pan": -15.43,
+            "tilt": -23.77
+        },
+        {
+            "scene": "node279",
+            "target": "node289",
+            "title": "Gedung Kuliah Terpadu Bisnis",
+            "id": "Point02",
+            "pan": -178.56,
+            "tilt": -1.66
+        },
+        {
+            "scene": "node279",
+            "target": "node298",
+            "title": "Jurusan Administrasi Bisnis",
+            "id": "Point03",
+            "pan": -3.13,
+            "tilt": -2.23
+        },
+        {
+            "scene": "node280",
+            "target": "node289",
+            "title": "Gedung Kuliah Terpadu Bisnis",
+            "id": "Point01",
+            "pan": -155.72,
+            "tilt": -0.94
+        },
+        {
+            "scene": "node280",
+            "target": "node293",
+            "title": "Lapangan Bola",
+            "id": "Point02",
+            "pan": -250.58,
+            "tilt": -2.57
+        },
+        {
+            "scene": "node281",
+            "target": "node283",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -4.24,
+            "tilt": 0.16
+        },
+        {
+            "scene": "node281",
+            "target": "node295",
+            "title": "Gedung Magister Terapan",
+            "id": "Point02",
+            "pan": -252.91,
+            "tilt": 2.65
+        },
+        {
+            "scene": "node282",
+            "target": "node300",
+            "title": "Tugu",
+            "id": "Point01",
+            "pan": -214,
+            "tilt": -0.47
+        },
+        {
+            "scene": "node282",
+            "target": "node283",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point02",
+            "pan": 12.64,
+            "tilt": -2.98
+        },
+        {
+            "scene": "node283",
+            "target": "node282",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -131.59,
+            "tilt": 5.95
+        },
+        {
+            "scene": "node283",
+            "target": "node288",
+            "title": "Gedung Direktorat",
+            "id": "Point02",
+            "pan": -193.61,
+            "tilt": 4.77
+        },
+        {
+            "scene": "node283",
+            "target": "node280",
+            "title": "Lapangan Basket",
+            "id": "Point03",
+            "pan": -71.92,
+            "tilt": 7.07
+        },
+        {
+            "scene": "node283",
+            "target": "node281",
+            "title": "Kantin",
+            "id": "Point04",
+            "pan": -270.97,
+            "tilt": 2.71
+        },
+        {
+            "scene": "node284",
+            "target": "node285",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -269.98,
+            "tilt": -6.83
+        },
+        {
+            "scene": "node284",
+            "target": "node295",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -129.85,
+            "tilt": -15.48
+        },
+        {
+            "scene": "node285",
+            "target": "node295",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -178.57,
+            "tilt": -5.77
+        },
+        {
+            "scene": "node285",
+            "target": "node285",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -260.35,
+            "tilt": -4.88
+        },
+        {
+            "scene": "node301",
+            "target": "node285",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -260.35,
+            "tilt": -4.88
+        },
+        {
+            "scene": "node286",
+            "target": "node287",
+            "title": "Direktorat",
+            "id": "Point01",
+            "pan": -326.35,
+            "tilt": -11.2
+        },
+        {
+            "scene": "node286",
+            "target": "node288",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -179.56,
+            "tilt": -15.32
+        },
+        {
+            "scene": "node287",
+            "target": "node286",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -327.45,
+            "tilt": -11.1
+        },
+        {
+            "scene": "node288",
+            "target": "node286",
+            "title": "Direktorat",
+            "id": "Point01",
+            "pan": -358.68,
+            "tilt": -19.5
+        },
+        {
+            "scene": "node288",
+            "target": "node283",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point02",
+            "pan": -101.19,
+            "tilt": 1.39
+        },
+        {
+            "scene": "node289",
+            "target": "node279",
+            "title": "Jurusan Administrasi Bisnis",
+            "id": "Point01",
+            "pan": -141.2,
+            "tilt": -1.52
+        },
+        {
+            "scene": "node289",
+            "target": "node283",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -51.83,
+            "tilt": 2.06
+        },
+        {
+            "scene": "node289",
+            "target": "node294",
+            "title": "Area Parkir",
+            "id": "Point03",
+            "pan": -200.34,
+            "tilt": -3.07
+        },
+        {
+            "scene": "node289",
+            "target": "node291",
+            "title": "Gedung Lab Akuntansi",
+            "id": "Point04",
+            "pan": -309,
+            "tilt": -1.11
+        },
+        {
+            "scene": "node289",
+            "target": "node280",
+            "title": "Lapangan Basket",
+            "id": "Point05",
+            "pan": -71.28,
+            "tilt": 2.42
+        },
+        {
+            "scene": "node290",
+            "target": "node291",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -162.19,
+            "tilt": -14.09
+        },
+        {
+            "scene": "node291",
+            "target": "node289",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -122.49,
+            "tilt": -5.38
+        },
+        {
+            "scene": "node291",
+            "target": "node290",
+            "title": "Lab Akuntansi",
+            "id": "Point02",
+            "pan": -0.31,
+            "tilt": -6.35
+        },
+        {
+            "scene": "node292",
+            "target": "node297",
+            "title": "Masjid",
+            "id": "Point01",
+            "pan": -184.54,
+            "tilt": -10.47
+        },
+        {
+            "scene": "node292",
+            "target": "node300",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -88.05,
+            "tilt": 1.45
+        },
+        {
+            "scene": "node293",
+            "target": "node280",
+            "title": "Lapangan Basket",
+            "id": "Point01",
+            "pan": -222.55,
+            "tilt": 4.1
+        },
+        {
+            "scene": "node294",
+            "target": "node289",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -86,
+            "tilt": -9.75
+        },
+        {
+            "scene": "node295",
+            "target": "node281",
+            "title": "Kantin",
+            "id": "Point01",
+            "pan": -90.75,
+            "tilt": -2.08
+        },
+        {
+            "scene": "node295",
+            "target": "node296",
+            "title": "Gedung Magister Terapan",
+            "id": "Point02",
+            "pan": -336.08,
+            "tilt": -6.14
+        },
+        {
+            "scene": "node295",
+            "target": "node284",
+            "title": "Gedung Elektro",
+            "id": "Point03",
+            "pan": -278.9,
+            "tilt": 0.9
+        },
+        {
+            "scene": "node296",
+            "target": "node295",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -193.4,
+            "tilt": -10.37
+        },
+        {
+            "scene": "node297",
+            "target": "node292",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -257.67,
+            "tilt": -4.67
+        },
+        {
+            "scene": "node298",
+            "target": "node279",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point01",
+            "pan": -149.94,
+            "tilt": -18.88
+        },
+        {
+            "scene": "node299",
+            "target": "node292",
+            "title": "Gedung PKM",
+            "id": "Point01",
+            "pan": -356.69,
+            "tilt": 2.65
+        },
+        {
+            "scene": "node300",
+            "target": "node282",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -124.89,
+            "tilt": -0.14
+        },
+        {
+            "scene": "node300",
+            "target": "node299",
+            "title": "Politeknik Negeri Semarang",
+            "id": "Point02",
+            "pan": -245.09,
+            "tilt": 0.78
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 370,
+            "label": "Lab Mesin",
+            "description": "Lab Mesin adalah fasilitas praktik yang menyediakan berbagai peralatan dan mesin industri yang relevan dengan bidang teknik mesin. Laboratorium ini digunakan oleh mahasiswa untuk mengaplikasikan teori, merancang, dan menguji komponen-komponen mekanik.",
+            "fragment": "labmesin",
+            "link": "polines/index.html#labmesin",
+            "sceneId": "node284"
+        },
+        {
+            "infoId": 371,
+            "label": "Lab Akuntansi",
+            "description": "Lab Akuntansi merupakan ruang praktik yang dilengkapi dengan perangkat lunak dan simulasi keuangan untuk mendukung kegiatan praktikum mahasiswa akuntansi. Laboratorium ini bertujuan untuk melatih keahlian mahasiswa dalam pencatatan transaksi, analisis laporan keuangan, dan audit.",
+            "fragment": "labakuntansi",
+            "link": "polines/index.html#labakuntansi",
+            "sceneId": "node290"
+        },
+        {
+            "infoId": 372,
+            "label": "Lab Elektro",
+            "description": "Lab Elektro adalah fasilitas yang dilengkapi dengan perangkat keras dan perangkat lunak untuk praktik bidang elektronika, listrik, dan kendali. Laboratorium ini memungkinkan mahasiswa untuk merangkai sirkuit, menguji perangkat, dan mengembangkan sistem otomatisasi.",
+            "fragment": "labelektro",
+            "link": "polines/index.html#labelektro",
+            "sceneId": "node285"
+        },
+        {
+            "infoId": 373,
+            "label": "Lapangan Tennis",
+            "description": "Lapangan Tennis adalah fasilitas olahraga yang digunakan oleh mahasiswa dan civitas akademika untuk latihan maupun pertandingan tenis. Lapangan ini menunjang aktivitas kebugaran dan kegiatan Unit Kegiatan Mahasiswa (UKM) olahraga.",
+            "fragment": "lapangantenis",
+            "link": "polines/index.html#lapangantenis",
+            "sceneId": "node299"
+        },
+        {
+            "infoId": 374,
+            "label": "Lapangan Basket",
+            "description": "Lapangan Basket adalah area yang disediakan untuk kegiatan olahraga bola basket, baik untuk perkuliahan mata kuliah umum maupun untuk pengembangan bakat. Lapangan ini menjadi salah satu sarana utama dalam memfasilitasi kegiatan Unit Kegiatan Mahasiswa (UKM) dan turnamen internal.",
+            "fragment": "lapanganbasket",
+            "link": "polines/index.html#lapanganbasket",
+            "sceneId": "node280"
+        },
+        {
+            "infoId": 375,
+            "label": "Lapangan Bola",
+            "description": "Lapangan Bola adalah area terbuka yang digunakan untuk kegiatan olahraga sepak bola dan terkadang untuk upacara, apel, atau kegiatan outdoor kampus lainnya. Lapangan ini menjadi sarana penting untuk melatih fisik dan mendukung kegiatan Unit Kegiatan Mahasiswa (UKM) sepak bola/futsal.",
+            "fragment": "lapanganbola",
+            "link": "polines/index.html#lapanganbola",
+            "sceneId": "node293"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "d76394c19781ec13",
+        "skin.js": "5bc162f1ab36684e",
+        "index.html": "5b4ef1296fd76edf"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "hotelpadma",
+    "tourName": "Hotelpadma",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Berapa tarif menginap semalam?",
+                "query": "Berapa kisaran harga sewa kamar per malam di Hotel Padma Semarang?",
+                "desc": "Berapa kisaran harga sewa kamar per malam di Hotel Padma Semarang?"
+            },
+            {
+                "label": "Kolam renang buka jam berapa?",
+                "query": "Jam berapa area kolam renang mulai dibuka untuk tamu hotel?",
+                "desc": "Jam berapa area kolam renang mulai dibuka untuk tamu hotel?"
+            },
+            {
+                "label": "Layanan antar-jemput bandara?",
+                "query": "Apakah pihak hotel menyediakan layanan antar-jemput dari dan ke bandara?",
+                "desc": "Apakah pihak hotel menyediakan layanan antar-jemput dari dan ke bandara?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Fasilitas Resor Mewah",
+                "query": "Apa saja fasilitas resor bintang lima yang ditawarkan oleh Hotel Padma Semarang untuk memanjakan tamunya?"
+            },
+            {
+                "label": "Kolam Renang Estetik",
+                "query": "Bagaimana suasana dan fasilitas di area kolam renang air hangat yang menjadi spot favorit pengunjung?"
+            },
+            {
+                "label": "Tipe Kamar Premium",
+                "query": "Bisa jelaskan berbagai tipe kamar premium dan pemandangan yang bisa dinikmati dari balkon kamar?"
+            },
+            {
+                "label": "Pengalaman Kuliner",
+                "query": "Restoran dan sajian kuliner apa saja yang bisa dinikmati tamu saat menginap di Hotel Padma?"
+            },
+            {
+                "label": "Ruang Rapat dan Ballroom",
+                "query": "Seperti apa kemegahan dan kapasitas ballroom yang sering digunakan untuk acara pernikahan atau konferensi?"
+            },
+            {
+                "label": "Aktivitas Anak dan Keluarga",
+                "query": "Fasilitas Kids Club dan aktivitas rekreasi apa saja yang disediakan khusus untuk tamu yang membawa anak-anak?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Hotelpadma?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Hotelpadma?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Hotelpadma?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

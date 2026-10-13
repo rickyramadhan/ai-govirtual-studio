@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "rscolumbiaasia",
+    "tourName": "Rscolumbiaasia",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Asuransi Swasta",
+                "query": "Asuransi kesehatan swasta apa saja yang telah bekerja sama dengan rumah sakit ini?",
+                "desc": "Asuransi kesehatan swasta apa saja yang telah bekerja sama dengan rumah sakit ini?"
+            },
+            {
+                "label": "Estimasi Biaya",
+                "query": "Di mana pasien bisa mendapatkan informasi perkiraan biaya untuk tindakan operasi tertentu?",
+                "desc": "Di mana pasien bisa mendapatkan informasi perkiraan biaya untuk tindakan operasi tertentu?"
+            },
+            {
+                "label": "Layanan Telekonsultasi",
+                "query": "Apakah tersedia layanan konsultasi dokter secara virtual tanpa harus datang ke rumah sakit?",
+                "desc": "Apakah tersedia layanan konsultasi dokter secara virtual tanpa harus datang ke rumah sakit?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Standar Internasional",
+                "query": "Bagaimana penerapan standar pelayanan kesehatan bertaraf internasional di RS Columbia Asia Semarang?"
+            },
+            {
+                "label": "Fasilitas Premium",
+                "query": "Apa saja fasilitas premium dan kenyamanan seperti hotel yang diberikan di ruang rawat inap VIP?"
+            },
+            {
+                "label": "Pusat Bedah Unggulan",
+                "query": "Bagaimana teknologi dan keahlian tim medis dalam layanan bedah minimal invasif di rumah sakit ini?"
+            },
+            {
+                "label": "Medical Check Up",
+                "query": "Paket layanan Medical Check Up (MCU) komprehensif apa saja yang tersedia untuk perusahaan dan individu?"
+            },
+            {
+                "label": "Penunjang Medis",
+                "query": "Apa saja peralatan penunjang diagnostik mutakhir yang tersedia di fasilitas radiologi dan laboratorium?"
+            },
+            {
+                "label": "Layanan Kegawatdaruratan",
+                "query": "Bagaimana respons cepat tim medis di unit gawat darurat dan penyediaan layanan ambulans 24 jam?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Rscolumbiaasia?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Rscolumbiaasia?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Rscolumbiaasia?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

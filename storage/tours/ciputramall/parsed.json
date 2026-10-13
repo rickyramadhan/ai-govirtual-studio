@@ -1,0 +1,965 @@
+{
+    "startNode": "node3",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Drone Indoor",
+            "displayName": "Drone Indoor",
+            "rawName": "",
+            "customNodeId": "-rone-ndoor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Drone Indoor"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Drone Indoor",
+            "displayName": "Drone Indoor",
+            "rawName": "",
+            "customNodeId": "-rone-ndoor",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Drone Indoor"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Drone- Main",
+            "displayName": "Drone- Main",
+            "rawName": "Drone- Main",
+            "customNodeId": "drone",
+            "pan": -1.24,
+            "tilt": -9.65,
+            "fov": 117.03,
+            "tags": [
+                "CiputraMall",
+                "oi"
+            ],
+            "aliases": [
+                "drone",
+                "Drone- Main"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "node4",
+            "displayName": "node4",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node5",
+            "name": "Foodfair",
+            "displayName": "Foodfair",
+            "rawName": "",
+            "customNodeId": "foodfair",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall",
+                "oi"
+            ],
+            "aliases": [
+                "foodfair"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Lobi Depan",
+            "displayName": "Lobi Depan",
+            "rawName": "",
+            "customNodeId": "-obi-epan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Lobi Depan"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Lobby",
+            "displayName": "Lobby",
+            "rawName": "",
+            "customNodeId": "lobby",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "lobby"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Food Court",
+            "displayName": "Food Court",
+            "rawName": "",
+            "customNodeId": "-ood-ourt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Food Court"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Food Fair",
+            "displayName": "Food Fair",
+            "rawName": "",
+            "customNodeId": "-ood-air",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Food Fair"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Food Fair",
+            "displayName": "Food Fair",
+            "rawName": "",
+            "customNodeId": "-ood-air",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Food Fair"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Food Fair",
+            "displayName": "Food Fair",
+            "rawName": "",
+            "customNodeId": "-ood-air",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Food Fair"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Supermarket",
+            "displayName": "Supermarket",
+            "rawName": "",
+            "customNodeId": "-upermarket",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Supermarket"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Lobi Belakang",
+            "displayName": "Lobi Belakang",
+            "rawName": "",
+            "customNodeId": "-obi-elakang",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Lobi Belakang"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Pusat Belanja",
+            "displayName": "Pusat Belanja",
+            "rawName": "",
+            "customNodeId": "-usat-elanja",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Pusat Belanja"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Supermarket",
+            "displayName": "Supermarket",
+            "rawName": "",
+            "customNodeId": "-upermarket",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Supermarket"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Supermarket",
+            "displayName": "Supermarket",
+            "rawName": "",
+            "customNodeId": "-upermarket",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Supermarket"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Kidsbox",
+            "displayName": "Kidsbox",
+            "rawName": "",
+            "customNodeId": "kidsbox",
+            "pan": -39.71,
+            "tilt": -0.31,
+            "fov": 137.34,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "kidsbox"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Playground",
+            "displayName": "Playground",
+            "rawName": "",
+            "customNodeId": "-layground",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Playground"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Playground",
+            "displayName": "Playground",
+            "rawName": "",
+            "customNodeId": "-layground",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Playground"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Playground",
+            "displayName": "Playground",
+            "rawName": "",
+            "customNodeId": "-layground",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Playground"
+            ]
+        },
+        {
+            "id": "node22",
+            "name": "Pusat Belanja",
+            "displayName": "Pusat Belanja",
+            "rawName": "",
+            "customNodeId": "-usat-elanja",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Pusat Belanja"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Robinson",
+            "displayName": "Robinson",
+            "rawName": "",
+            "customNodeId": "robinson",
+            "pan": -4.13,
+            "tilt": 6.29,
+            "fov": 126.58,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "robinson"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "Pusat Belanja Lt. 1",
+            "displayName": "Pusat Belanja Lt. 1",
+            "rawName": "",
+            "customNodeId": "-usat-elanja-t-1",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Pusat Belanja Lt. 1"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "Bioskop",
+            "displayName": "Bioskop",
+            "rawName": "",
+            "customNodeId": "-ioskop",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "Bioskop"
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "Cinema",
+            "displayName": "Cinema",
+            "rawName": "",
+            "customNodeId": "cinema",
+            "pan": 122.23,
+            "tilt": -3.31,
+            "fov": 100,
+            "tags": [
+                "CiputraMall"
+            ],
+            "aliases": [
+                "cinema"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node5",
+            "title": "Food Fair",
+            "id": "Point01",
+            "pan": -312.24,
+            "tilt": 10.82
+        },
+        {
+            "scene": "node2",
+            "target": "node26",
+            "title": "Bioskop",
+            "id": "Point01",
+            "pan": -19.22,
+            "tilt": 3.4
+        },
+        {
+            "scene": "node3",
+            "target": "node7",
+            "title": "Mall Ciputra",
+            "id": "Point01",
+            "pan": -359.36,
+            "tilt": -20.32
+        },
+        {
+            "scene": "node5",
+            "target": "node8",
+            "title": "Food Court",
+            "id": "Point01",
+            "pan": -85.93,
+            "tilt": -7.43
+        },
+        {
+            "scene": "node5",
+            "target": "node11",
+            "title": "Food Fair",
+            "id": "Point02",
+            "pan": -54.37,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node5",
+            "target": "node10",
+            "title": "Food Fair",
+            "id": "Point03",
+            "pan": -305.42,
+            "tilt": -11.79
+        },
+        {
+            "scene": "node5",
+            "target": "node1",
+            "title": "Drone Indoor",
+            "id": "Point04",
+            "pan": -225.89,
+            "tilt": -10.64
+        },
+        {
+            "scene": "node6",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -32.75,
+            "tilt": -12.1
+        },
+        {
+            "scene": "node6",
+            "target": "node15",
+            "title": "Pusat Belanja",
+            "id": "Point02",
+            "pan": -224.15,
+            "tilt": -13.24
+        },
+        {
+            "scene": "node7",
+            "target": "node6",
+            "title": "Lobi Depan",
+            "id": "Point01",
+            "pan": -0.15,
+            "tilt": -7.91
+        },
+        {
+            "scene": "node7",
+            "target": "node14",
+            "title": "Lobi Belakang",
+            "id": "Point02",
+            "pan": -73.26,
+            "tilt": -2.4
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Food Court",
+            "id": "Point01",
+            "pan": -252.29,
+            "tilt": -2.36
+        },
+        {
+            "scene": "node8",
+            "target": "node26",
+            "title": "Bioskop",
+            "id": "Point02",
+            "pan": -144.64,
+            "tilt": -11.72
+        },
+        {
+            "scene": "node8",
+            "target": "node5",
+            "title": "Food Fair",
+            "id": "Point03",
+            "pan": -339.12,
+            "tilt": -2.75
+        },
+        {
+            "scene": "node9",
+            "target": "node23",
+            "title": "Pusat Belanja",
+            "id": "Point01",
+            "pan": -335.81,
+            "tilt": 0.26
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -90.92,
+            "tilt": -3.32
+        },
+        {
+            "scene": "node9",
+            "target": "node26",
+            "title": "Bioskop",
+            "id": "Point03",
+            "pan": -265.8,
+            "tilt": -6.19
+        },
+        {
+            "scene": "node9",
+            "target": "node18",
+            "title": "Playground",
+            "id": "Point04",
+            "pan": -23.46,
+            "tilt": 0.9
+        },
+        {
+            "scene": "node10",
+            "target": "node12",
+            "title": "Food Fair",
+            "id": "Point01",
+            "pan": -255.1,
+            "tilt": -12.14
+        },
+        {
+            "scene": "node10",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -72.78,
+            "tilt": -14.15
+        },
+        {
+            "scene": "node11",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -274.2,
+            "tilt": -1.99
+        },
+        {
+            "scene": "node11",
+            "target": "node12",
+            "title": "Food Fair",
+            "id": "Point02",
+            "pan": -95.93,
+            "tilt": -2.94
+        },
+        {
+            "scene": "node12",
+            "target": "node10",
+            "title": "Food Fair",
+            "id": "Point01",
+            "pan": -297.06,
+            "tilt": -11.64
+        },
+        {
+            "scene": "node12",
+            "target": "node11",
+            "title": "Food Fair",
+            "id": "Point02",
+            "pan": -204.3,
+            "tilt": -10.75
+        },
+        {
+            "scene": "node13",
+            "target": "node17",
+            "title": "Supermarket",
+            "id": "Point01",
+            "pan": -207.79,
+            "tilt": -22.58
+        },
+        {
+            "scene": "node13",
+            "target": "node16",
+            "title": "Supermarket",
+            "id": "Point02",
+            "pan": -18.18,
+            "tilt": -22.08
+        },
+        {
+            "scene": "node14",
+            "target": "node15",
+            "title": "Mall Ciputra",
+            "id": "Point01",
+            "pan": -358.69,
+            "tilt": -7.14
+        },
+        {
+            "scene": "node14",
+            "target": "node16",
+            "title": "Supermarket",
+            "id": "Point02",
+            "pan": -305.28,
+            "tilt": -24.16
+        },
+        {
+            "scene": "node14",
+            "target": "node7",
+            "title": "Mall Ciputra",
+            "id": "Point03",
+            "pan": -176.8,
+            "tilt": -20.02
+        },
+        {
+            "scene": "node15",
+            "target": "node6",
+            "title": "Lobi Depan",
+            "id": "Point01",
+            "pan": -44.92,
+            "tilt": -8.17
+        },
+        {
+            "scene": "node15",
+            "target": "node14",
+            "title": "Lobi Belakang",
+            "id": "Point02",
+            "pan": -310.01,
+            "tilt": -4.34
+        },
+        {
+            "scene": "node15",
+            "target": "node17",
+            "title": "Supermarket",
+            "id": "Point03",
+            "pan": -17.55,
+            "tilt": -13.72
+        },
+        {
+            "scene": "node15",
+            "target": "node23",
+            "title": "Pusat Belanja ",
+            "id": "Point04",
+            "pan": -219.86,
+            "tilt": -9.75
+        },
+        {
+            "scene": "node16",
+            "target": "node14",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -79.74,
+            "tilt": -22.81
+        },
+        {
+            "scene": "node16",
+            "target": "node17",
+            "title": "Supermarket",
+            "id": "Point02",
+            "pan": -303.1,
+            "tilt": -12.88
+        },
+        {
+            "scene": "node16",
+            "target": "node13",
+            "title": "Supermarket",
+            "id": "Point03",
+            "pan": -200.57,
+            "tilt": -12.33
+        },
+        {
+            "scene": "node17",
+            "target": "node16",
+            "title": "Supermarket",
+            "id": "Point01",
+            "pan": -5.26,
+            "tilt": -9.99
+        },
+        {
+            "scene": "node17",
+            "target": "node13",
+            "title": "Supermarket",
+            "id": "Point02",
+            "pan": -96.59,
+            "tilt": -9.53
+        },
+        {
+            "scene": "node17",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -184.46,
+            "tilt": -13.31
+        },
+        {
+            "scene": "node18",
+            "target": "node23",
+            "title": "Pusat Belanja",
+            "id": "Point01",
+            "pan": -268.72,
+            "tilt": -2.7
+        },
+        {
+            "scene": "node18",
+            "target": "node19",
+            "title": "Playground",
+            "id": "Point02",
+            "pan": -70,
+            "tilt": -10.68
+        },
+        {
+            "scene": "node18",
+            "target": "node9",
+            "title": "Food Court",
+            "id": "Point03",
+            "pan": -92.69,
+            "tilt": -2.93
+        },
+        {
+            "scene": "node19",
+            "target": "node20",
+            "title": "Playground",
+            "id": "Point01",
+            "pan": -309.82,
+            "tilt": -9.3
+        },
+        {
+            "scene": "node19",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -131.78,
+            "tilt": -18.19
+        },
+        {
+            "scene": "node19",
+            "target": "node21",
+            "title": "Playground",
+            "id": "Point03",
+            "pan": -57.39,
+            "tilt": -9.46
+        },
+        {
+            "scene": "node20",
+            "target": "node19",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -78.05,
+            "tilt": -15.67
+        },
+        {
+            "scene": "node20",
+            "target": "node21",
+            "title": "Playground",
+            "id": "Point02",
+            "pan": -2.99,
+            "tilt": -9.47
+        },
+        {
+            "scene": "node21",
+            "target": "node20",
+            "title": "Playground",
+            "id": "Point01",
+            "pan": -55.01,
+            "tilt": -4.15
+        },
+        {
+            "scene": "node21",
+            "target": "node19",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -2.94,
+            "tilt": -6.5
+        },
+        {
+            "scene": "node22",
+            "target": "node24",
+            "title": "Pusat Belanja Lt. 1",
+            "id": "Point01",
+            "pan": -344.61,
+            "tilt": -20.66
+        },
+        {
+            "scene": "node22",
+            "target": "node23",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -289.61,
+            "tilt": -20.86
+        },
+        {
+            "scene": "node23",
+            "target": "node15",
+            "title": "Pusat Belanja Lt. 1",
+            "id": "Point01",
+            "pan": -91.05,
+            "tilt": -19.76
+        },
+        {
+            "scene": "node23",
+            "target": "node22",
+            "title": "Pusat Belanja",
+            "id": "Point02",
+            "pan": 9.5,
+            "tilt": -8.6
+        },
+        {
+            "scene": "node23",
+            "target": "node9",
+            "title": "Food Court",
+            "id": "Point03",
+            "pan": -165.33,
+            "tilt": -6.67
+        },
+        {
+            "scene": "node23",
+            "target": "node18",
+            "title": "Playground",
+            "id": "Point04",
+            "pan": -36.53,
+            "tilt": -4.38
+        },
+        {
+            "scene": "node24",
+            "target": "node22",
+            "title": "Pusat Belanja Lt. 2",
+            "id": "Point01",
+            "pan": -341.72,
+            "tilt": -23.19
+        },
+        {
+            "scene": "node25",
+            "target": "node26",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -93.85,
+            "tilt": -7.23
+        },
+        {
+            "scene": "node26",
+            "target": "node8",
+            "title": "Food Court",
+            "id": "Point01",
+            "pan": -147.59,
+            "tilt": -4.79
+        },
+        {
+            "scene": "node26",
+            "target": "node9",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -320.16,
+            "tilt": -3.75
+        },
+        {
+            "scene": "node26",
+            "target": "node25",
+            "title": "Bioskop",
+            "id": "Point03",
+            "pan": -237.38,
+            "tilt": -11.4
+        },
+        {
+            "scene": "node26",
+            "target": "node2",
+            "title": "Drone Indoor",
+            "id": "Point04",
+            "pan": -89.8,
+            "tilt": -14.59
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1158,
+            "label": "XXI",
+            "description": "Sebuah fasilitas hiburan yang menjadi salah satu destinasi utama bagi para pencinta film di Kota Semarang. Lobi ini memiliki desain modern yang khas dengan pencahayaan hangat serta langit-langit berornamen geometris, serta letaknya yang strategis menghadap langsung ke arah atrium mal sehingga memberikan pandangan terbuka ke lantai-lantai di bawahnya.",
+            "fragment": "cinema",
+            "link": "ciputramall/index.html#cinema",
+            "sceneId": "node26"
+        },
+        {
+            "infoId": 1159,
+            "label": "Robinson",
+            "description": "Robinson Department Store merupakan salah satu tenant utama yang berlokasi di Mal Ciputra Semarang (juga dikenal sebagai Mal Citraland), tepatnya di Lantai 1 dan Lantai 2. Toko ini dikenal sebagai destinasi belanja yang menawarkan berbagai kebutuhan mode dengan harga yang relatif terjangkau dan sering mengadakan program diskon, terutama pada musim liburan atau menjelang hari raya.",
+            "fragment": "robinson",
+            "link": "ciputramall/index.html#robinson",
+            "sceneId": "node23"
+        },
+        {
+            "infoId": 1160,
+            "label": "Kids Box Jumbo",
+            "description": "Tempat ini menjadi salah satu titik keramaian utama bagi orang tua yang ingin memberikan waktu rekreasi bagi anak-anak mereka sambil berbelanja di lingkungan mal yang nyaman. Dengan dekorasi menyerupai lelehan es krim dan balon-balon besar, area ini memberikan suasana yang ceria dan modern di tengah pusat perbelanjaan legendaris di Semarang tersebut.",
+            "fragment": "kidsbox",
+            "link": "ciputramall/index.html#kidsbox",
+            "sceneId": "node18"
+        },
+        {
+            "infoId": 1161,
+            "label": "Lobby",
+            "description": "Area ini merupakan lantai dasar Mal Ciputra Semarang yang difungsikan sebagai koridor penghubung utama dengan akses langsung menuju area parkir dan jalan raya. Di lorong ini, pengunjung dapat menemukan berbagai gerai kuliner populer seperti restoran cepat saji HokBen dan area makan santai Fun Time yang menyatu dengan supermarket Gelael.",
+            "fragment": "lobby",
+            "link": "ciputramall/index.html#lobby",
+            "sceneId": "node7"
+        },
+        {
+            "infoId": 1162,
+            "label": "Food Fair",
+            "description": "Sebuah kawasan pusat kuliner populer yang menyajikan beragam pilihan hidangan lokal maupun internasional bagi para pengunjung. Sebagai area food court utama, tempat ini didesain dengan konsep terbuka yang luas dan nyaman, menjadikannya titik kumpul favorit bagi keluarga serta kaum muda yang ingin bersantap setelah berbelanja.",
+            "fragment": "foodfair",
+            "link": "ciputramall/index.html#foodfair",
+            "sceneId": "node5"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "2aaeaf7e25d035cd",
+        "skin.js": "04a2a6f1b75f3dbb",
+        "index.html": "c665854773f349fe"
+    }
+}

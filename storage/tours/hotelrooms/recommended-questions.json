@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "hotelrooms",
+    "tourName": "Hotelrooms",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Berapa tipe kamar yang tersedia?",
+                "query": "Ada berapa pilihan tipe kamar yang bisa dipesan di Rooms Inc Semarang?",
+                "desc": "Ada berapa pilihan tipe kamar yang bisa dipesan di Rooms Inc Semarang?"
+            },
+            {
+                "label": "Pesan makanan via aplikasi?",
+                "query": "Apakah benar tamu bisa memesan makanan atau layanan kamar langsung dari smartphone?",
+                "desc": "Apakah benar tamu bisa memesan makanan atau layanan kamar langsung dari smartphone?"
+            },
+            {
+                "label": "Ada akses WiFi cepat?",
+                "query": "Apakah disediakan fasilitas koneksi internet WiFi berkecepatan tinggi untuk bekerja?",
+                "desc": "Apakah disediakan fasilitas koneksi internet WiFi berkecepatan tinggi untuk bekerja?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Desain Industrial Modern",
+                "query": "Bagaimana keunikan konsep desain interior bergaya industrial yang diterapkan di seluruh area Rooms Inc?"
+            },
+            {
+                "label": "Akses Langsung DP Mall",
+                "query": "Seperti apa kemudahan tamu hotel yang bisa mengakses langsung kawasan perbelanjaan DP Mall?"
+            },
+            {
+                "label": "Smart Room Technology",
+                "query": "Fasilitas teknologi pintar dan hiburan apa saja yang disematkan di dalam setiap kamar Rooms Inc?"
+            },
+            {
+                "label": "Meet N' Eat Resto",
+                "query": "Makanan kekinian apa yang menjadi andalan di area komunal Meet N' Eat yang sering jadi tempat nongkrong?"
+            },
+            {
+                "label": "Area Komunal & Co-working",
+                "query": "Bagaimana kenyamanan area co-working space dan ruang komunal yang disediakan bagi para tamu bisnis?"
+            },
+            {
+                "label": "Spot Foto Instagramable",
+                "query": "Di mana saja sudut-sudut estetis dan instagramable yang paling sering diabadikan oleh pengunjung?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Hotelrooms?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Hotelrooms?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Hotelrooms?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

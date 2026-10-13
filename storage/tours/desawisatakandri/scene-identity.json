@@ -1,0 +1,1445 @@
+{
+    "version": "1.1-seed",
+    "tourId": "desawisatakandri",
+    "generatedAt": "2026-10-06",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node128": {
+            "rawName": "Waduk Jatibarang",
+            "displayName": "Jalur Kedatangan Wisata Waduk",
+            "placeId": "desa-wisata-kandri-jalur-kedatangan-wisata-waduk",
+            "placeName": "Desa Wisata Kandri – Jalur Kedatangan Wisata Waduk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur akses kedatangan wisata menuju kawasan waduk di Desa Wisata Kandri Kota Semarang.",
+            "description": "Jalur kedatangan ini menyambut wisatawan yang akan memasuki kawasan wisata waduk dengan pemandangan alam yang memukau. Suasana sejuk dan tertata rapi menjadi kesan pertama bagi pengunjung yang tiba di lokasi.",
+            "highlights": [
+                "Jalan desa",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Waduk Jatibarang",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kemana arah jalur kedatangan wisata waduk ini mengarahkan pengunjung?",
+                    "mode": "fix",
+                    "answer": "Jalur ini mengarahkan pengunjung langsung menuju area utama waduk dan dermaga wisata."
+                },
+                {
+                    "q": "Bagaimana kondisi akses jalan di sepanjang jalur kedatangan?",
+                    "mode": "fix",
+                    "answer": "Akses jalan tertata rapi, mulus, dan sangat nyaman dilalui oleh pejalan kaki maupun kendaraan."
+                },
+                {
+                    "q": "Apa pemandangan yang bisa dinikmati saat melintasi jalur ini?",
+                    "mode": "fix",
+                    "answer": "Pemandangan perbukitan hijau serta hamparan perairan waduk yang luas dan menenangkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Jalur Kedatangan Wisata Waduk.",
+                "describeHere": "Waduk Jatibarang adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node149": {
+            "rawName": "Sendanggede",
+            "displayName": "Pelataran Sendang Gede",
+            "placeId": "desa-wisata-kandri-pelataran-sendang-gede",
+            "placeName": "Desa Wisata Kandri – Pelataran Sendang Gede",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas di sekitar mata air bersejarah Sendang Gede Desa Wisata Kandri Kota Semarang.",
+            "description": "Pelataran Sendang Gede menjadi ruang terbuka publik yang bersih dan asri di dekat sumber mata air legendaris. Tempat ini sering dijadikan titik berkumpul wisatawan sebelum menikmati wisata budaya dan alam.",
+            "highlights": [
+                "Pohon besar",
+                "Bangunan kecil"
+            ],
+            "talkingPoints": [
+                "Sendanggede",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama pelataran Sendang Gede bagi wisatawan?",
+                    "mode": "fix",
+                    "answer": "Berfungsi sebagai ruang terbuka untuk berkumpul dan titik awal kunjungan ke situs mata air."
+                },
+                {
+                    "q": "Bagaimana suasana di sekitar pelataran Sendang Gede?",
+                    "mode": "fix",
+                    "answer": "Sangat sejuk dan rindang karena dinaungi oleh pepohonan besar di sekelilingnya."
+                },
+                {
+                    "q": "Nilai apa yang melekat pada kawasan Sendang Gede?",
+                    "mode": "fix",
+                    "answer": "Nilai sejarah dan budaya lokal sebagai sumber air suci yang dijaga kelestariannya."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:119"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Pelataran Sendang Gede.",
+                "describeHere": "Sendanggede adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node142": {
+            "rawName": "Pohonbendo",
+            "displayName": "Pohon Bendo",
+            "placeId": "desa-wisata-kandri-pohon-bendo",
+            "placeName": "Desa Wisata Kandri – Pohon Bendo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pohon Bendo besar yang menjadi landmark alami dan peneduh di Desa Wisata Kandri Kota Semarang.",
+            "description": "Pohon Bendo ini berdiri megah memberikan keteduhan alami di tengah kawasan Desa Wisata Kandri. Keberadaannya menjadi tetenger (tanda) alam yang ikonik serta titik istirahat favorit bagi wisatawan.",
+            "highlights": [
+                "Pangkal batang",
+                "Akar besar"
+            ],
+            "talkingPoints": [
+                "Pohonbendo",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Pohon Bendo ini menjadi ikon penting di desa wisata?",
+                    "mode": "fix",
+                    "answer": "Karena ukurannya yang besar dan usianya yang tua menjadikannya landmark alami yang bersejarah."
+                },
+                {
+                    "q": "Apakah area di bawah pohon bendo nyaman untuk berteduh?",
+                    "mode": "fix",
+                    "answer": "Sangat teduh dan sejuk sehingga sering dijadikan tempat singgah pejalan kaki."
+                },
+                {
+                    "q": "Apakah pohon ini dirawat khusus oleh warga setempat?",
+                    "mode": "fix",
+                    "answer": "Ya, warga lokal menjaga kelestarian pohon ini sebagai bagian dari warisan alam desa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Pohon Bendo.",
+                "describeHere": "Pohonbendo adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node150": {
+            "rawName": "Sendangjambu",
+            "displayName": "Sendang Jambu",
+            "placeId": "desa-wisata-kandri-sendang-jambu",
+            "placeName": "Desa Wisata Kandri – Sendang Jambu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sumber mata air jernih Sendang Jambu di kawasan Desa Wisata Kandri Kota Semarang.",
+            "description": "Sendang Jambu menawarkan kesegaran mata air alami yang mengalir jernih di lingkungan pedesaan yang asri. Keasrian dan kebersihan tempat ini terus dijaga sebagai daya tarik wisata tirta.",
+            "highlights": [
+                "Kolam mata air",
+                "Bangunan pelindung"
+            ],
+            "talkingPoints": [
+                "Sendangjambu",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Darimana sumber air di Sendang Jambu berasal?",
+                    "mode": "fix",
+                    "answer": "Berasal dari mata air alami pegunungan yang keluar secara terus-menerus sepanjang tahun."
+                },
+                {
+                    "q": "Apakah air di Sendang Jambu ini bisa digunakan langsung?",
+                    "mode": "fix",
+                    "answer": "Airnya sangat jernih dan biasa dimanfaatkan untuk kebutuhan warga serta kebersihan area sendang."
+                },
+                {
+                    "q": "Bagaimana suasana lingkungan di sekitar Sendang Jambu?",
+                    "mode": "fix",
+                    "answer": "Sangat tenang, alami, dan dikelilingi oleh pepohonan hijau yang menyegarkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Sendang Jambu.",
+                "describeHere": "Sendangjambu adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node129": {
+            "rawName": "Tempatdoa",
+            "displayName": "Tempat Doa",
+            "placeId": "desa-wisata-kandri-tempat-doa",
+            "placeName": "Desa Wisata Kandri – Tempat Doa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Spot tempat doa dan renungan yang tenang di Desa Wisata Kandri Kota Semarang.",
+            "description": "Tempat doa ini menyediakan ruang yang khusyuk dan tenang bagi pengunjung untuk beribadah atau merenung. Suasana lingkungannya yang damai sangat mendukung ketenangan batin.",
+            "highlights": [
+                "Bangunan kecil beratap",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Tempatdoa",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Untuk siapa fasilitas tempat doa ini disediakan?",
+                    "mode": "fix",
+                    "answer": "Disediakan bagi pengunjung atau musafir yang ingin menjalankan ibadah dengan tenang."
+                },
+                {
+                    "q": "Bagaimana suasana di sekitar tempat doa tersebut?",
+                    "mode": "fix",
+                    "answer": "Sangat tenang, bersih, dan jauh dari kebisingan aktivitas ramai."
+                },
+                {
+                    "q": "Apakah fasilitas pendukung ibadah tersedia dengan baik?",
+                    "mode": "fix",
+                    "answer": "Ya, sarana kebersihan dan perlengkapan ibadah dasar dijaga dengan baik oleh pengelola."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Tempat Doa.",
+                "describeHere": "Tempatdoa adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node130": {
+            "rawName": "Haltewisatahebat",
+            "displayName": "Halte Wisata Hebat",
+            "placeId": "desa-wisata-kandri-halte-wisata-hebat",
+            "placeName": "Desa Wisata Kandri – Halte Wisata Hebat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Halte transit transportasi wisata yang modern di Desa Wisata Kandri Kota Semarang.",
+            "description": "Halte Wisata Hebat berfungsi sebagai titik naik turun penumpang bagi kendaraan wisata keliling desa. Fasilitas ini dirancang rapi untuk memberikan kenyamanan dan kemudahan mobilitas pelancong.",
+            "highlights": [
+                "Tempat duduk",
+                "Kanopi merah"
+            ],
+            "talkingPoints": [
+                "Haltewisatahebat",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Halte Wisata Hebat ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai tempat pemberhentian dan transit bagi kendaraan shuttle atau angkutan wisata."
+                },
+                {
+                    "q": "Apakah halte ini mudah ditemukan oleh wisatawan?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah karena berada di jalur utama lintasan kunjungan desa wisata."
+                },
+                {
+                    "q": "Fasilitas apa yang tersedia di sekitar halte?",
+                    "mode": "fix",
+                    "answer": "Tersedia tempat duduk tunggu yang nyaman serta papan informasi rute wisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Halte Wisata Hebat.",
+                "describeHere": "Haltewisatahebat adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node131": {
+            "rawName": "Sendang Gede",
+            "displayName": "Gapura Sendang Gede",
+            "placeId": "desa-wisata-kandri-gapura-sendang-gede",
+            "placeName": "Desa Wisata Kandri – Gapura Sendang Gede",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gapura penyambutan menuju situs budaya Sendang Gede di Desa Wisata Kandri Kota Semarang.",
+            "description": "Gapura Sendang Gede menampilkan arsitektur tradisional yang menyambut pengunjung memasuki kawasan sakral bersejarah. Gapura ini menjadi penanda batas wilayah yang sarat akan kearifan lokal.",
+            "highlights": [
+                "Gapura bata",
+                "Jalur masuk"
+            ],
+            "talkingPoints": [
+                "Sendang Gede",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa makna arsitektur pada gapura Sendang Gede ini?",
+                    "mode": "fix",
+                    "answer": "Mencerminkan nilai budaya lokal khas pedesaan Jawa yang ramah dan sarat tradisi."
+                },
+                {
+                    "q": "Ke mana arah jalan setelah melewati gapura ini?",
+                    "mode": "fix",
+                    "answer": "Mengarahkan pengunjung langsung menuju pelataran utama mata air Sendang Gede."
+                },
+                {
+                    "q": "Apakah spot gapura ini sering dijadikan tempat berfoto?",
+                    "mode": "fix",
+                    "answer": "Ya, bentuknya yang unik sering menarik perhatian wisatawan untuk berfoto."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Gapura Sendang Gede.",
+                "describeHere": "Sendang Gede adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node132": {
+            "rawName": "Ruang Terbuka",
+            "displayName": "Teras Ruang Berkumpul",
+            "placeId": "desa-wisata-kandri-teras-ruang-berkumpul",
+            "placeName": "Desa Wisata Kandri – Teras Ruang Berkumpul",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Teras ruang terbuka untuk berkumpul dan berinteraksi di Desa Wisata Kandri Kota Semarang.",
+            "description": "Teras Ruang Berkumpul menyediakan area duduk yang lapang untuk kegiatan diskusi maupun santap bersama rombongan. Suasana kekeluargaan sangat terasa berkat desain tempat yang terbuka dan ramah.",
+            "highlights": [
+                "Meja panjang",
+                "Kanopi"
+            ],
+            "talkingPoints": [
+                "Ruang Terbuka",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa kegunaan utama dari Teras Ruang Berkumpul ini?",
+                    "mode": "fix",
+                    "answer": "Digunakan sebagai tempat briefing kelompok, istirahat rombongan, atau acara ramah tamah."
+                },
+                {
+                    "q": "Berapa kapasitas tampung di teras terbuka ini?",
+                    "mode": "fix",
+                    "answer": "Mampu menampung puluhan orang dalam satu waktu dengan pengaturan tempat duduk yang fleksibel."
+                },
+                {
+                    "q": "Bagaimana pemandangan yang terlihat dari teras ini?",
+                    "mode": "fix",
+                    "answer": "Menampilkan pemandangan lingkungan desa wisata yang asri dan sejuk."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Teras Ruang Berkumpul.",
+                "describeHere": "Ruang Terbuka adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node133": {
+            "rawName": "Bukit Kumala dan Resto",
+            "displayName": "Jalan Masuk Bukit Kumala",
+            "placeId": "desa-wisata-kandri-jalan-masuk-bukit-kumala",
+            "placeName": "Desa Wisata Kandri – Jalan Masuk Bukit Kumala",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalan akses menanjak yang asri menuju kawasan wisata Bukit Kumala Desa Wisata Kandri.",
+            "description": "Jalan Masuk Bukit Kumala mengantar pengunjung menelusuri jalur perbukitan dengan panorama alam yang indah. Jalur ini tertata rapi dan dikelilingi oleh pepohonan hijau di sisi kiri dan kanannya.",
+            "highlights": [
+                "Papan nama",
+                "Jalan menanjak"
+            ],
+            "talkingPoints": [
+                "Bukit Kumala dan Resto",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menuju ke destinasi mana jalan masuk ini mengarah?",
+                    "mode": "fix",
+                    "answer": "Mengarah langsung ke kawasan rekreasi dan rest area Bukit Kumala."
+                },
+                {
+                    "q": "Apakah jalurnya aman dilalui oleh kendaraan bermotor?",
+                    "mode": "fix",
+                    "answer": "Aman, namun pengunjung diimbau berhati-hati karena kontur jalannya sedikit menanjak."
+                },
+                {
+                    "q": "Pemandangan apa yang disajikan sepanjang jalan masuk?",
+                    "mode": "fix",
+                    "answer": "Pemandangan lembah, perbukitan hijau, dan udara pegunungan yang sangat segar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Jalan Masuk Bukit Kumala.",
+                "describeHere": "Bukit Kumala dan Resto adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node134": {
+            "rawName": "Bukit Kumala dan Resto",
+            "displayName": "Ruang Makan Bukit Kumala",
+            "placeId": "desa-wisata-kandri-ruang-makan-bukit-kumala",
+            "placeName": "Desa Wisata Kandri – Ruang Makan Bukit Kumala",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ruang makan berkonsep terbuka dengan pemandangan alam di Bukit Kumala Kandri.",
+            "description": "Ruang Makan Bukit Kumala menyajikan tempat bersantap kuliner khas pedesaan dengan latar pemandangan alam terbuka. Pengunjung dapat menikmati hidangan lezat sambil merasakan semilir angin perbukitan.",
+            "highlights": [
+                "Meja kayu",
+                "Atap terbuka"
+            ],
+            "talkingPoints": [
+                "Bukit Kumala dan Resto",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kuliner apa saja yang biasanya disajikan di ruang makan ini?",
+                    "mode": "fix",
+                    "answer": "Menyajikan menu masakan tradisional khas pedesaan Semarang dan aneka olahan hasil bumi lokal."
+                },
+                {
+                    "q": "Bagaimana suasana bersantap di Bukit Kumala?",
+                    "mode": "fix",
+                    "answer": "Sangat santai dan menenangkan dengan panorama hamparan hijau di sekitarnya."
+                },
+                {
+                    "q": "Apakah ruang makan ini cocok untuk acara keluarga?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena kapasitasnya luas dan suasananya sangat mendukung kebersamaan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Ruang Makan Bukit Kumala.",
+                "describeHere": "Bukit Kumala dan Resto adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node135": {
+            "rawName": "Bukit Kumala dan Resto",
+            "displayName": "Fasad Bukit Kumala",
+            "placeId": "desa-wisata-kandri-fasad-bukit-kumala",
+            "placeName": "Desa Wisata Kandri – Fasad Bukit Kumala",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tampilan luar (fasad) bangunan Bukit Kumala yang estetik di Desa Wisata Kandri Kota Semarang.",
+            "description": "Fasad Bukit Kumala menampilkan arsitektur bangunan yang menyatu secara harmonis dengan lanskap perbukitan. Desain eksteriornya menjadi daya tarik visual yang menarik bagi setiap pengunjung yang datang.",
+            "highlights": [
+                "Teras beratap",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "Bukit Kumala dan Resto",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana konsep desain dari fasad Bukit Kumala ini?",
+                    "mode": "fix",
+                    "answer": "Mengusung perpaduan gaya arsitektur modern dan tradisional yang menyatu dengan alam."
+                },
+                {
+                    "q": "Apa fungsi utama dari bangunan berfasad indah ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai pusat fasilitas restoran, tempat bersantai, dan titik pandang panorama alam."
+                },
+                {
+                    "q": "Apakah area depan fasad bagus untuk berfoto?",
+                    "mode": "fix",
+                    "answer": "Sangat bagus karena latar belakang bangunannya estetik dan berlatar pemandangan bukit."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Fasad Bukit Kumala.",
+                "describeHere": "Bukit Kumala dan Resto adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node136": {
+            "rawName": "Musholla",
+            "displayName": "Musala – Area Mihrab",
+            "placeId": "desa-wisata-kandri-musala-area-mihrab",
+            "placeName": "Desa Wisata Kandri – Musala – Area Mihrab",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bagian mihrab musala yang tenang dan khusyuk di kawasan Desa Wisata Kandri Kota Semarang.",
+            "description": "Area mihrab musala ini dirancang bersih dan rapi untuk mendukung kenyamanan imam serta jamaah dalam beribadah. Suasana di dalam ruangan terasa sangat damai dan menyejukkan hati.",
+            "highlights": [
+                "Dinding bata",
+                "Mihrab hijau"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Di mana lokasi spesifik area mihrab ini?",
+                    "mode": "fix",
+                    "answer": "Berada di bagian depan ruang utama musala tempat imam memimpin salat berjemaah."
+                },
+                {
+                    "q": "Bagaimana kebersihan dan penataan interior musala?",
+                    "mode": "fix",
+                    "answer": "Dijaga sangat bersih, harum, dan dilengkapi sajadah yang tertata rapi."
+                },
+                {
+                    "q": "Apakah musala ini terbuka bagi wisatawan umum?",
+                    "mode": "fix",
+                    "answer": "Ya, terbuka luas bagi wisatawan yang ingin menunaikan kewajiban salat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Musala – Area Mihrab.",
+                "describeHere": "Musholla adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node137": {
+            "rawName": "Musholla Sendang Gede",
+            "displayName": "Musala Sendang Gede",
+            "placeId": "desa-wisata-kandri-musala-sendang-gede",
+            "placeName": "Desa Wisata Kandri – Musala Sendang Gede",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas musala bersih di dekat situs wisata Sendang Gede Desa Wisata Kandri Kota Semarang.",
+            "description": "Musala Sendang Gede menyediakan tempat beribadah yang nyaman bagi wisatawan di sekitar situs mata air. Fasilitas wudu dan perlengkapan salat tersedia lengkap untuk kemudahan pengunjung.",
+            "highlights": [
+                "Mihrab",
+                "Ruang salat"
+            ],
+            "talkingPoints": [
+                "Musholla Sendang Gede",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa musala ini sangat strategis bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Karena letaknya berdekatan dengan area wisata utama Sendang Gede."
+                },
+                {
+                    "q": "Fasilitas apa saja yang disediakan di musala ini?",
+                    "mode": "fix",
+                    "answer": "Tempat wudu air bersih, ruang salat berkarpet, serta mukena dan sarung."
+                },
+                {
+                    "q": "Apakah lingkungan sekitar musala terasa tenang?",
+                    "mode": "fix",
+                    "answer": "Sangat tenang dan sejuk berkat naungan pepohonan di sekitarnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Musala Sendang Gede.",
+                "describeHere": "Musholla Sendang Gede adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node138": {
+            "rawName": "Musholla",
+            "displayName": "Musala – Serambi Kayu",
+            "placeId": "desa-wisata-kandri-musala-serambi-kayu",
+            "placeName": "Desa Wisata Kandri – Musala – Serambi Kayu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Serambi kayu musala berarsitektur tradisional yang sejuk di Desa Wisata Kandri Kota Semarang.",
+            "description": "Serambi kayu musala ini menghadirkan sentuhan arsitektur khas Jawa yang terbuka dan sirkulasi udara lancar. Tempat ini biasa digunakan jamaah untuk beristirahat sejenak sebelum atau sesudah beribadah.",
+            "highlights": [
+                "Lantai kayu",
+                "Atap joglo"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keunikan dari serambi musala ini?",
+                    "mode": "fix",
+                    "answer": "Menggunakan lantai dan struktur dominan kayu berkonsep joglo tradisional."
+                },
+                {
+                    "q": "Bagaimana sirkulasi udara di serambi kayu?",
+                    "mode": "fix",
+                    "answer": "Sangat sejuk dan semilir karena terbuka tanpa dinding penghalang masif."
+                },
+                {
+                    "q": "Fungsi tambahan apa yang sering dimanfaatkan di serambi?",
+                    "mode": "fix",
+                    "answer": "Sebagai tempat santai sejenak sambil menikmati suasana pedesaan yang tenang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Musala – Serambi Kayu.",
+                "describeHere": "Musholla adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node139": {
+            "rawName": "Omahalas",
+            "displayName": "Halaman Omah Alas",
+            "placeId": "desa-wisata-kandri-halaman-omah-alas",
+            "placeName": "Desa Wisata Kandri – Halaman Omah Alas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Halaman asri Omah Alas yang menjadi pusat kegiatan edukasi di Desa Wisata Kandri Kota Semarang.",
+            "description": "Halaman Omah Alas dikelilingi oleh tanaman hijau subur dan suasana pedesaan yang sangat autentik. Tempat ini sering dimanfaatkan untuk kegiatan outbond, pelatihan, dan gathering kelompok.",
+            "highlights": [
+                "Bangunan kayu",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Omahalas",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari halaman luas di Omah Alas ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai area kegiatan luar ruangan, outbond, dan ramah tamah wisatawan."
+                },
+                {
+                    "q": "Bagaimana suasana alam di sekitar halaman Omah Alas?",
+                    "mode": "fix",
+                    "answer": "Sangat asri, tenang, dan dikelilingi oleh pepohonan rimbun khas pedesaan."
+                },
+                {
+                    "q": "Apakah tempat ini sering dikunjungi rombongan pelajar?",
+                    "mode": "fix",
+                    "answer": "Ya, sering menjadi lokasi studi wisata, kemah, dan edukasi alam."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:118"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Halaman Omah Alas.",
+                "describeHere": "Omahalas adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node140": {
+            "rawName": "Pesanggaran Alas",
+            "displayName": "Detail Dinding Omah Alas",
+            "placeId": "desa-wisata-kandri-detail-dinding-omah-alas",
+            "placeName": "Desa Wisata Kandri – Detail Dinding Omah Alas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Detail arsitektur dinding tradisional Omah Alas di Desa Wisata Kandri Kota Semarang.",
+            "description": "Detail dinding Omah Alas menampilkan keindahan seni bangunan kayu etnik khas pedesaan Jawa. Setiap ukiran dan susunan kayunya mencerminkan nilai estetika lokal yang tinggi.",
+            "highlights": [
+                "Anyaman bambu",
+                "Papan identitas"
+            ],
+            "talkingPoints": [
+                "Pesanggaran Alas",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bahan apa yang mendominasi struktur dinding Omah Alas?",
+                    "mode": "fix",
+                    "answer": "Didominasi oleh papan kayu jati pilihan dengan ukiran khas tradisional."
+                },
+                {
+                    "q": "Apa kesan arsitektural yang ditunjukkan dari detail dinding ini?",
+                    "mode": "fix",
+                    "answer": "Kesan klasik, hangat, dan sangat menghargai warisan budaya lokal."
+                },
+                {
+                    "q": "Apakah bangunan ini dirawat dengan teknik khusus?",
+                    "mode": "fix",
+                    "answer": "Ya, perawatan kayu dilakukan secara berkala agar keaslian dan kekuatannya tetap terjaga."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Detail Dinding Omah Alas.",
+                "describeHere": "Pesanggaran Alas adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node141": {
+            "rawName": "Rumah Alas",
+            "displayName": "Kebun Rumah Alas",
+            "placeId": "desa-wisata-kandri-kebun-rumah-alas",
+            "placeName": "Desa Wisata Kandri – Kebun Rumah Alas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area kebun botani dan tanaman produktif di sekitar Rumah Alas Desa Wisata Kandri.",
+            "description": "Kebun Rumah Alas ditanami berbagai jenis tanaman obat, sayuran, dan buah-buahan lokal yang edukatif. Pengunjung dapat belajar langsung mengenai budidaya pertanian organik di tempat ini.",
+            "highlights": [
+                "Pohon tinggi",
+                "Saung"
+            ],
+            "talkingPoints": [
+                "Rumah Alas",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Tanaman apa saja yang dibudidayakan di kebun ini?",
+                    "mode": "fix",
+                    "answer": "Tanaman apotek hidup, sayuran organik, serta aneka tanaman buah tropis."
+                },
+                {
+                    "q": "Apakah pengunjung bisa belajar bercocok tanam di sini?",
+                    "mode": "fix",
+                    "answer": "Ya, kebun ini sering menjadi sarana edukasi pertanian ramah lingkungan."
+                },
+                {
+                    "q": "Bagaimana sistem perawatan tanaman di kebun Rumah Alas?",
+                    "mode": "fix",
+                    "answer": "Menggunakan metode alami dan organik tanpa bahan kimia berbahaya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Kebun Rumah Alas.",
+                "describeHere": "Rumah Alas adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node143": {
+            "rawName": "Sewaperahu",
+            "displayName": "Tepian Sewa Perahu",
+            "placeId": "desa-wisata-kandri-tepian-sewa-perahu",
+            "placeName": "Desa Wisata Kandri – Tepian Sewa Perahu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area dermaga tepian waduk tempat penyewaan perahu wisata di Desa Wisata Kandri.",
+            "description": "Tepian Sewa Perahu menjadi titik sibuk tempat wisatawan bersiap menaiki perahu keliling waduk. Dari sini, pengunjung dapat menikmati keseruan berlayar di atas perairan waduk yang tenang.",
+            "highlights": [
+                "Perahu tertutup",
+                "Perairan"
+            ],
+            "talkingPoints": [
+                "Sewaperahu",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Wahana apa yang bisa disewa di tepian dermaga ini?",
+                    "mode": "fix",
+                    "answer": "Perahu wisata tradisional dan perahu motor tempel untuk berkeliling waduk."
+                },
+                {
+                    "q": "Berapa kapasitas satu perahu wisata untuk penumpang?",
+                    "mode": "fix",
+                    "answer": "Rata-rata perahu dapat menampung 6 hingga 10 orang dewasa dengan pelampung pengaman."
+                },
+                {
+                    "q": "Apakah fasilitas keselamatan disediakan bagi penyewa perahu?",
+                    "mode": "fix",
+                    "answer": "Ya, setiap penumpang wajib mengenakan jaket pelampung (life jacket) demi keselamatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Tepian Sewa Perahu.",
+                "describeHere": "Sewaperahu adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node144": {
+            "rawName": "Kantor",
+            "displayName": "Kantor Omah Alas",
+            "placeId": "desa-wisata-kandri-kantor-omah-alas",
+            "placeName": "Desa Wisata Kandri – Kantor Omah Alas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat kantor pengelola dan sekretariat Omah Alas di Desa Wisata Kandri Kota Semarang.",
+            "description": "Kantor Omah Alas berfungsi sebagai pusat administrasi, informasi, dan koordinasi kegiatan wisata. Bangunannya mengusung arsitektur rumah kayu tradisional yang ramah dan bersahaja.",
+            "highlights": [
+                "Jendela kayu",
+                "Meja layanan"
+            ],
+            "talkingPoints": [
+                "Kantor",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Kantor Omah Alas ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai pusat layanan informasi, reservasi kegiatan, dan administrasi pengelola."
+                },
+                {
+                    "q": "Bagaimana bentuk arsitektur bangunan kantor ini?",
+                    "mode": "fix",
+                    "answer": "Berbentuk rumah tradisional Jawa berstruktur kayu yang hangat dan klasik."
+                },
+                {
+                    "q": "Apakah wisatawan dapat bertanya langsung seputar paket wisata di sini?",
+                    "mode": "fix",
+                    "answer": "Ya, petugas pengelola siap melayani pertanyaan dan pendaftaran paket wisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Kantor Omah Alas.",
+                "describeHere": "Kantor adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node145": {
+            "rawName": "Rumah Alas",
+            "displayName": "Teras Koleksi Rumah Alas",
+            "placeId": "desa-wisata-kandri-teras-koleksi-rumah-alas",
+            "placeName": "Desa Wisata Kandri – Teras Koleksi Rumah Alas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Teras pameran koleksi budaya dan kerajinan di Rumah Alas Desa Wisata Kandri.",
+            "description": "Teras Koleksi Rumah Alas memamerkan berbagai barang antik, kerajinan tangan, dan artefak lokal. Tempat ini memperkaya wawasan wisatawan mengenai sejarah dan budaya masyarakat setempat.",
+            "highlights": [
+                "Perabot kayu",
+                "Atap genteng"
+            ],
+            "talkingPoints": [
+                "Rumah Alas",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Koleksi apa saja yang dipamerkan di teras ini?",
+                    "mode": "fix",
+                    "answer": "Barang-barang antik tradisional, alat pertanian kuno, dan kerajinan tangan warga."
+                },
+                {
+                    "q": "Apakah koleksi tersebut boleh disentuh oleh pengunjung?",
+                    "mode": "fix",
+                    "answer": "Sebagian besar dapat dilihat langsung, dengan beberapa barang koleksi khusus yang dilindungi."
+                },
+                {
+                    "q": "Apa tujuan dari pameran koleksi di teras ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai sarana pelestarian budaya dan edukasi sejarah lokal bagi generasi muda."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Teras Koleksi Rumah Alas.",
+                "describeHere": "Rumah Alas adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node146": {
+            "rawName": "Kantordesa",
+            "displayName": "Kantor Desa – Halaman Depan",
+            "placeId": "desa-wisata-kandri-kantor-desa-halaman-depan",
+            "placeName": "Desa Wisata Kandri – Kantor Desa – Halaman Depan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Halaman depan Kantor Desa Kandri yang bersih dan tertata di pusat desa wisata.",
+            "description": "Halaman depan Kantor Desa Kandri menjadi pusat sambutan administratif serta titik orientasi wisatawan. Area ini tertata rapi dengan tanaman hias dan fasilitas publik yang memadai.",
+            "highlights": [
+                "Bangunan layanan",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "Kantordesa",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Kantor Desa Kandri dalam mendukung pariwisata?",
+                    "mode": "fix",
+                    "answer": "Berperan sebagai pusat koordinasi utama antara pemerintah desa dan pengelola desa wisata."
+                },
+                {
+                    "q": "Bagaimana kondisi kebersihan di halaman depan kantor desa?",
+                    "mode": "fix",
+                    "answer": "Selalu dijaga bersih, rapi, dan asri setiap harinya oleh petugas desa."
+                },
+                {
+                    "q": "Apakah tersedia papan informasi desa wisata di halaman ini?",
+                    "mode": "fix",
+                    "answer": "Ya, terdapat peta dan informasi seputar destinasi menarik di Desa Wisata Kandri."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:117"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Kantor Desa – Halaman Depan.",
+                "describeHere": "Kantordesa adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node147": {
+            "rawName": "Kolambudidaya",
+            "displayName": "Kolam Budidaya",
+            "placeId": "desa-wisata-kandri-kolam-budidaya",
+            "placeName": "Desa Wisata Kandri – Kolam Budidaya",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kolam budidaya ikan air tawar produktif di kawasan Desa Wisata Kandri Kota Semarang.",
+            "description": "Kolam budidaya ini menjadi sarana perikanan darat sekaligus destinasi edukasi bagi pengunjung. Di sini wisatawan dapat melihat langsung proses pemeliharaan ikan air tawar secara mandiri.",
+            "highlights": [
+                "Kolam",
+                "Jalur tepi"
+            ],
+            "talkingPoints": [
+                "Kolambudidaya",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis ikan apa yang dibudidayakan di kolam ini?",
+                    "mode": "fix",
+                    "answer": "Ikan air tawar konsumsi seperti ikan nila, lele, dan gurame."
+                },
+                {
+                    "q": "Apakah pengunjung bisa ikut serta memberi makan ikan?",
+                    "mode": "fix",
+                    "answer": "Ya, pada waktu tertentu pengunjung diperbolehkan memberi makan ikan di kolam."
+                },
+                {
+                    "q": "Apa manfaat kolam budidaya bagi desa wisata?",
+                    "mode": "fix",
+                    "answer": "Sebagai sumber ketahanan pangan lokal sekaligus daya tarik wisata edukasi perikanan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Kolam Budidaya.",
+                "describeHere": "Kolambudidaya adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node158": {
+            "rawName": "Video360 1",
+            "displayName": "Kantor Desa – Video 360",
+            "placeId": "desa-wisata-kandri-kantor-desa-video-360",
+            "placeName": "Desa Wisata Kandri – Kantor Desa – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik pandang panorama 360 derajat interaktif di sekitar Kantor Desa Kandri.",
+            "description": "Kantor Desa – Video 360 menyajikan pengalaman visual menyeluruh di pusat pemerintahan desa wisata. Melalui sudut pandang ini, pengunjung dapat melihat tata ruang lingkungan kantor secara utuh.",
+            "highlights": [
+                "Teras kantor",
+                "Halaman",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keunggulan dari sudut pandang video 360 kantor desa ini?",
+                    "mode": "fix",
+                    "answer": "Memungkinkan pengunjung melihat suasana sekeliling kantor desa secara interaktif ke segala arah."
+                },
+                {
+                    "q": "Bagaimana cara menikmati fitur panorama 360 ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menggeser layar perangkat digital untuk memutar sudut pandang."
+                },
+                {
+                    "q": "Apa saja yang tampak jelas dari titik video 360 ini?",
+                    "mode": "fix",
+                    "answer": "Halaman kantor, akses jalan utama desa, serta vegetasi hijau di sekitarnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Kantor Desa – Video 360.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node148": {
+            "rawName": "Kantor Sekretariat",
+            "displayName": "Akses Kantor Sekretariat",
+            "placeId": "desa-wisata-kandri-akses-kantor-sekretariat",
+            "placeName": "Desa Wisata Kandri – Akses Kantor Sekretariat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur akses menuju kantor sekretariat pengelola Desa Wisata Kandri Kota Semarang.",
+            "description": "Akses Kantor Sekretariat menghubungkan jalur utama desa dengan pusat koordinasi pengelolaan wisata. Jalurnya tertata rapi dan mudah dijangkau oleh setiap tamu yang datang.",
+            "highlights": [
+                "Papan informasi",
+                "Jalan masuk"
+            ],
+            "talkingPoints": [
+                "Kantor Sekretariat",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kemana jalur akses sekretariat ini terhubung?",
+                    "mode": "fix",
+                    "answer": "Terhubung langsung ke ruang pengurus dan posko utama sekretariat desa wisata."
+                },
+                {
+                    "q": "Apakah jalur ini dapat dilalui kendaraan roda empat?",
+                    "mode": "fix",
+                    "answer": "Ya, jalurnya cukup untuk kendaraan roda dua maupun mobil operasional."
+                },
+                {
+                    "q": "Mengapa akses sekretariat ini penting bagi wisatawan?",
+                    "mode": "fix",
+                    "answer": "Sebagai tempat pengurusan perizinan kegiatan, homestay, dan pemandu wisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Akses Kantor Sekretariat.",
+                "describeHere": "Kantor Sekretariat adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node151": {
+            "rawName": "Desa Wisata Kandri",
+            "displayName": "Taman Nama Kandri",
+            "placeId": "desa-wisata-kandri-taman-nama-kandri",
+            "placeName": "Desa Wisata Kandri – Taman Nama Kandri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman landmark bertuliskan nama Desa Wisata Kandri yang estetik dan instagramable.",
+            "description": "Taman Nama Kandri menampilkan papan identitas desa wisata yang dikelilingi taman bunga warna-warni. Spot ini menjadi lokasi favorit wisatawan untuk mengambil foto kenang-kenangan.",
+            "highlights": [
+                "Huruf nama",
+                "Anak tangga"
+            ],
+            "talkingPoints": [
+                "Desa Wisata Kandri",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Taman Nama Kandri ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai landmark identitas sambutan selamat datang di Desa Wisata Kandri."
+                },
+                {
+                    "q": "Apakah taman ini sering dijadikan spot foto utama?",
+                    "mode": "fix",
+                    "answer": "Sangat sering karena latar tulisan namanya sangat jelas dan berlatar taman asri."
+                },
+                {
+                    "q": "Bagaimana perawatan tanaman di taman ini?",
+                    "mode": "fix",
+                    "answer": "Tanaman hias dan bunga dirawat serta disiram secara rutin oleh petugas kebersihan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Taman Nama Kandri.",
+                "describeHere": "Desa Wisata Kandri adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node152": {
+            "rawName": "Saung",
+            "displayName": "Saung Kebun",
+            "placeId": "desa-wisata-kandri-saung-kebun",
+            "placeName": "Desa Wisata Kandri – Saung Kebun",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Saung atau gazebo peristirahatan di tengah area kebun Desa Wisata Kandri.",
+            "description": "Saung Kebun menyediakan tempat berteduh yang nyaman sambil menikmati panorama alam hijau di sekitarnya. Suasana pedesaan yang tenang membuat tempat ini sangat ideal untuk melepas penat.",
+            "highlights": [
+                "Tempat duduk beratap",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Saung",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana suasana di dalam saung kebun ini?",
+                    "mode": "fix",
+                    "answer": "Sangat sejuk, tenang, dan dikelilingi semilir angin perbukitan kebun warga."
+                },
+                {
+                    "q": "Berapa kapasitas orang yang dapat duduk di dalam satu saung?",
+                    "mode": "fix",
+                    "answer": "Mampu menampung sekitar 4 hingga 8 orang untuk duduk bersantai bersama."
+                },
+                {
+                    "q": "Aktivitas apa yang pas dilakukan di saung kebun?",
+                    "mode": "fix",
+                    "answer": "Beristirahat sejenak, menikmati camilan lokal, atau berdiskusi santai."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Saung Kebun.",
+                "describeHere": "Saung adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node159": {
+            "rawName": "Video360 2",
+            "displayName": "Jalur Kebun – Video 360",
+            "placeId": "desa-wisata-kandri-jalur-kebun-video-360",
+            "placeName": "Desa Wisata Kandri – Jalur Kebun – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik pandang panorama 360 derajat menelusuri keindahan jalur kebun di Desa Wisata Kandri.",
+            "description": "Jalur Kebun – Video 360 memberikan sensasi visual interaktif menyusuri jalan setapak di tengah area perkebunan warga. Pengunjung virtual dapat menikmati kerindangan tanaman hijau dari segala arah.",
+            "highlights": [
+                "Jalan berpaving",
+                "Lahan terbuka",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 2",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa disaksikan melalui video 360 jalur kebun ini?",
+                    "mode": "fix",
+                    "answer": "Pemandangan rimbunnya tanaman kebun, jalur setapak, dan suasana alam desa yang asri."
+                },
+                {
+                    "q": "Bagaimana cara menjelajahi titik panorama ini?",
+                    "mode": "fix",
+                    "answer": "Dengan menggeser layar interaktif pada perangkat penampil virtual tour."
+                },
+                {
+                    "q": "Mengapa jalur kebun ini menarik untuk dieksplorasi?",
+                    "mode": "fix",
+                    "answer": "Menampilkan sisi kealamian agrowisata pedesaan yang menenangkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Jalur Kebun – Video 360.",
+                "describeHere": "Video360 2 adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node153": {
+            "rawName": "Auditorium",
+            "displayName": "Amfiteater Terbuka",
+            "placeId": "desa-wisata-kandri-amfiteater-terbuka",
+            "placeName": "Desa Wisata Kandri – Amfiteater Terbuka",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panggung pertunjukan seni budaya amfiteater terbuka di Desa Wisata Kandri Kota Semarang.",
+            "description": "Amfiteater Terbuka dirancang khusus untuk pementasan kesenian tradisional, tari daerah, dan event budaya desa. Tempat penonton berundak melingkar memberikan pandangan yang sempurna ke arah panggung.",
+            "highlights": [
+                "Panggung bundar",
+                "Tribun"
+            ],
+            "talkingPoints": [
+                "Auditorium",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Pertunjukan apa saja yang sering digelar di amfiteater ini?",
+                    "mode": "fix",
+                    "answer": "Pentas tari tradisional, pertunjukan musik lokal, dan festival budaya desa."
+                },
+                {
+                    "q": "Berapa kapasitas penonton di amfiteater terbuka ini?",
+                    "mode": "fix",
+                    "answer": "Mampu menampung ratusan penonton dalam susunan tempat duduk berundak melingkar."
+                },
+                {
+                    "q": "Bagaimana akustik dan pencahayaan di panggung terbuka ini?",
+                    "mode": "fix",
+                    "answer": "Sangat mendukung karena dirancang di ruang terbuka dengan latar panorama alam."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:116"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Amfiteater Terbuka.",
+                "describeHere": "Auditorium adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node154": {
+            "rawName": "Waduk Jatibarang",
+            "displayName": "Gerbang Kawasan Waduk",
+            "placeId": "desa-wisata-kandri-gerbang-kawasan-waduk",
+            "placeName": "Desa Wisata Kandri – Gerbang Kawasan Waduk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang megah penanda batas masuk kawasan wisata Waduk Jatibarang di Desa Kandri.",
+            "description": "Gerbang Kawasan Waduk menyambut kedatangan wisatawan yang hendak menikmati panorama perairan waduk yang luas. Arsitekturnya yang megah menjadi penanda penting batas destinasi wisata air.",
+            "highlights": [
+                "Gapura",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Waduk Jatibarang",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Waduk apa yang diakses melalui gerbang kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Waduk Jatibarang yang menjadi ikon kebanggaan di wilayah Semarang barat."
+                },
+                {
+                    "q": "Apakah ada petugas penjaga di gerbang kawasan waduk?",
+                    "mode": "fix",
+                    "answer": "Ya, terdapat pos penjagaan tiket dan keamanan wisata di dekat gerbang."
+                },
+                {
+                    "q": "Bagaimana kondisi lalu lintas di sekitar gerbang waduk?",
+                    "mode": "fix",
+                    "answer": "Tertib dan lancar dengan jalur jalan beraspal yang mulus bagi kendaraan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Gerbang Kawasan Waduk.",
+                "describeHere": "Waduk Jatibarang adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node156": {
+            "rawName": "Desakandrisemarang",
+            "displayName": "Kandri – Tampak Udara Permukiman",
+            "placeId": "desa-wisata-kandri-kandri-tampak-udara-permukiman",
+            "placeName": "Desa Wisata Kandri – Kandri – Tampak Udara Permukiman",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama udara (bird-eye view) memperlihatkan tata letak permukiman Desa Wisata Kandri.",
+            "description": "Tampak udara permukiman ini menampilkan keharmonisan tata letak rumah warga yang berpadu dengan lanskap hijau. Sudut pandang dari atas memperlihatkan keasrian desa wisata secara menyeluruh.",
+            "highlights": [
+                "Rumah",
+                "Lahan hijau"
+            ],
+            "talkingPoints": [
+                "Desakandrisemarang",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang paling menonjol dari pandangan udara permukiman Kandri?",
+                    "mode": "fix",
+                    "answer": "Tata letak rumah penduduk yang tertata rapi di antara rimbunnya pepohonan dan lembah."
+                },
+                {
+                    "q": "Seberapa luas area permukiman desa wisata ini dari atas?",
+                    "mode": "fix",
+                    "answer": "Mencakup wilayah perkampungan luas yang berbatasan langsung dengan kawasan waduk."
+                },
+                {
+                    "q": "Bagaimana karakteristik lanskap desa jika dilihat dari udara?",
+                    "mode": "fix",
+                    "answer": "Sangat hijau, berbukit-bukit, dan mencerminkan tipikal pedesaan pegunungan yang subur."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Kandri – Tampak Udara Permukiman.",
+                "describeHere": "Desakandrisemarang adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node157": {
+            "rawName": "Waduk Jati Barang",
+            "displayName": "Waduk Jatibarang – Tampak Udara",
+            "placeId": "desa-wisata-kandri-waduk-jatibarang-tampak-udara",
+            "placeName": "Desa Wisata Kandri – Waduk Jatibarang – Tampak Udara",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pemandangan udara spektakuler hamparan perairan Waduk Jatibarang di Desa Wisata Kandri.",
+            "description": "Waduk Jatibarang – Tampak Udara memperlihatkan kemegahan genangan air waduk yang dikelilingi perbukitan hijau. Sudut pandang udara ini menyuguhkan panorama alam yang sangat luas dan memukau.",
+            "highlights": [
+                "Genangan waduk",
+                "Pulau hijau"
+            ],
+            "talkingPoints": [
+                "Waduk Jati Barang",
+                "jalur eksplorasi",
+                "Desa Wisata Kandri"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa luas cakupan Waduk Jatibarang yang terlihat dari udara?",
+                    "mode": "fix",
+                    "answer": "Menampilkan bentangan perairan luas yang membendung aliran sungai di wilayah Semarang."
+                },
+                {
+                    "q": "Apa saja objek menarik yang terlihat di sekitar waduk dari atas?",
+                    "mode": "fix",
+                    "answer": "Pulau kecil di tengah waduk, keramba ikan, serta perbukitan hijau di sekelilingnya."
+                },
+                {
+                    "q": "Mengapa sudut pandang udara waduk ini sangat populer?",
+                    "mode": "fix",
+                    "answer": "Karena menyajikan keindahan lanskap air dan daratan yang berpadu secara dramatis."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Desa Wisata Kandri – Waduk Jatibarang – Tampak Udara.",
+                "describeHere": "Waduk Jati Barang adalah area di dalam kawasan Desa Wisata Kandri, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

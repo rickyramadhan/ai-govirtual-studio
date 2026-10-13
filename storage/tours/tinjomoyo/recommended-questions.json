@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "tinjomoyo",
+    "tourName": "Tinjomoyo",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jejak kebun binatang lama",
+                "query": "Apakah masih ada sisa-sisa bangunan atau jejak dari kebun binatang lama yang bisa dilihat?",
+                "desc": "Apakah masih ada sisa-sisa bangunan atau jejak dari kebun binatang lama yang bisa dilihat?"
+            },
+            {
+                "label": "Aktivitas memacu adrenalin",
+                "query": "Apakah flying fox dan jembatan tali di sini aman digunakan untuk pemula dan anak-anak?",
+                "desc": "Apakah flying fox dan jembatan tali di sini aman digunakan untuk pemula dan anak-anak?"
+            },
+            {
+                "label": "Spot foto nuansa alam",
+                "query": "Di bagian hutan mana yang memiliki pencahayaan alami terbaik untuk keperluan fotografi?",
+                "desc": "Di bagian hutan mana yang memiliki pencahayaan alami terbaik untuk keperluan fotografi?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Kebun Binatang",
+                "query": "Bagaimana cerita sejarah kawasan hutan ini yang dulunya merupakan kebun binatang legendaris di Semarang?"
+            },
+            {
+                "label": "Jembatan Merah Gantung",
+                "query": "Apa keunikan dari jembatan gantung berwarna merah yang sering dijadikan spot foto pre-wedding ini?"
+            },
+            {
+                "label": "Hutan Wisata Asri",
+                "query": "Bagaimana sensasi menjelajahi rimbunnya hutan Tinjomoyo yang sangat cocok untuk mencari ketenangan?"
+            },
+            {
+                "label": "Fasilitas Outbound",
+                "query": "Wahana pemacu adrenalin seperti flying fox dan area outbound apa saja yang bisa dicoba di sini?"
+            },
+            {
+                "label": "Camping Ground",
+                "query": "Bagaimana fasilitas area perkemahan bagi pengunjung yang ingin merasakan tidur di alam bebas?"
+            },
+            {
+                "label": "Eksplorasi Sungai",
+                "query": "Bagaimana keindahan aliran sungai bebatuan di Tinjomoyo yang menambah asri suasana hutan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Tinjomoyo?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Tinjomoyo?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Tinjomoyo?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

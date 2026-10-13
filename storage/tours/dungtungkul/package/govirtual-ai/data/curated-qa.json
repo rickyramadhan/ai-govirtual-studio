@@ -1,0 +1,1389 @@
+{
+    "version": "1.0",
+    "tourId": "dungtungkul",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Di mana lokasi Kampung Tematik Dung Tungkul di Semarang?",
+            "answer": "Kampung Tematik Dung Tungkul terletak di wilayah Kelurahan Meteseh / Tembalang, Kota Semarang, Jawa Tengah (berada di kawasan perbukitan Semarang atas dekat perbatasan Undip/Meteseh).",
+            "aliases": [
+                "alamat kampung tematik dung tungkul semarang",
+                "dimana dung tungkul tembalang",
+                "letak kampung tematik meteseh"
+            ],
+            "keywords": [
+                "lokasi",
+                "alamat",
+                "kampung tematik dung tungkul",
+                "tembalang",
+                "meteseh",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Berapa harga tiket masuk ke kawasan Kampung Tematik Dung Tungkul?",
+            "answer": "Kawasan Kampung Tematik Dung Tungkul merupakan perkampungan wisata tematik terbuka, sehingga pengunjung tidak dikenakan tiket masuk (gratis) kecuali membeli kuliner atau membayar parkir.",
+            "aliases": [
+                "harga tiket masuk dung tungkul",
+                "htm kampung tematik semarang",
+                "biaya masuk dung tungkul"
+            ],
+            "keywords": [
+                "harga tiket",
+                "htm",
+                "biaya masuk",
+                "kampung tematik dung tungkul",
+                "gratis"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Jam berapa sebaiknya pengunjung datang ke Kampung Tematik Dung Tungkul?",
+            "answer": "Kawasan ini dapat dikunjungi setiap hari, dengan waktu terbaik pukul 08.00 hingga 17.00 WIB untuk menikmati suasana pedesaan dan spot wisata air atau taman.",
+            "aliases": [
+                "jam buka kampung tematik dung tungkul",
+                "jam operasional dung tungkul semarang"
+            ],
+            "keywords": [
+                "jam buka",
+                "jam operasional",
+                "kampung tematik",
+                "waktu berkunjung"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Apakah Kampung Tematik Dung Tungkul buka setiap hari termasuk hari libur?",
+            "answer": "Ya, karena merupakan perkampungan warga aktif sekaligus destinasi wisata tematik, kawasan ini terbuka setiap hari sepanjang tahun.",
+            "aliases": [
+                "apakah dung tungkul buka hari minggu",
+                "libur nasional kampung tematik buka"
+            ],
+            "keywords": [
+                "buka setiap hari",
+                "libur nasional",
+                "akhir pekan",
+                "setiap hari"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Berapa jarak Kampung Tematik Dung Tungkul dari pusat Kota Semarang (Simpang Lima)?",
+            "answer": "Jarak dari Simpang Lima ke Dung Tungkul Tembalang sekitar 11 hingga 14 kilometer dengan waktu tempuh berkendara kurang lebih 30 menit ke arah tenggara.",
+            "aliases": [
+                "jarak dung tungkul dari simpang lima",
+                "dari pusat kota ke kampung tematik semarang"
+            ],
+            "keywords": [
+                "jarak",
+                "pusat kota",
+                "simpang lima",
+                "waktu tempuh",
+                "tembalang"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Bagaimana rute terbaik menuju Dung Tungkul dari pusat Kota Semarang?",
+            "answer": "Dari Simpang Lima, ambil arah ke selatan menuju Jalan Tentara Pelajar atau Candisari, lalu melanjutkan perjalanan ke arah Tembalang, Undip, dan wilayah Meteseh menuju lokasi kampung.",
+            "aliases": [
+                "rute ke kampung tematik dung tungkul",
+                "jalan ke dung tungkul dari simpang lima"
+            ],
+            "keywords": [
+                "rute",
+                "petunjuk jalan",
+                "tembalang",
+                "undip",
+                "meteseh"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah tersedia area parkir kendaraan di Kampung Tematik Dung Tungkul?",
+            "answer": "Tersedia area parkir di sekitar jalan utama kampung atau memanfaatkan halaman dekat pos warga untuk kendaraan roda dua maupun roda empat.",
+            "aliases": [
+                "tempat parkir dung tungkul",
+                "parkir motor mobil kampung tematik semarang"
+            ],
+            "keywords": [
+                "parkir",
+                "area parkir",
+                "motor",
+                "mobil",
+                "fasilitas"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Berapa tarif retribusi parkir di kawasan Kampung Tematik Dung Tungkul?",
+            "answer": "Tarif parkir standar yang berlaku mengikuti ketentuan lokal warga, berkisar Rp3.000 untuk sepeda motor dan Rp5.000 untuk mobil.",
+            "aliases": [
+                "biaya parkir dung tungkul",
+                "tarif parkir motor mobil kampung tematik"
+            ],
+            "keywords": [
+                "tarif parkir",
+                "biaya parkir",
+                "motor",
+                "mobil",
+                "retribusi"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah Kampung Tematik Dung Tungkul dapat dijangkau dengan transportasi umum?",
+            "answer": "Akses transportasi umum langsung ke titik dalam kampung cukup terbatas, sehingga disarankan menggunakan kendaraan pribadi, taksi online, atau ojek online.",
+            "aliases": [
+                "naik ojek online ke dung tungkul",
+                "transportasi umum kampung tematik"
+            ],
+            "keywords": [
+                "kendaraan pribadi",
+                "taksi online",
+                "ojek online",
+                "akses jalan"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apa waktu terbaik dalam sehari untuk berkunjung ke Dung Tungkul?",
+            "answer": "Waktu terbaik adalah pagi hari pukul 08.00 - 10.00 WIB atau sore hari saat udara perbukitan Tembalang terasa sejuk, asri, dan segar.",
+            "aliases": [
+                "waktu terbaik berkunjung ke dung tungkul",
+                "jam berapa bagus ke kampung tematik"
+            ],
+            "keywords": [
+                "waktu terbaik",
+                "pagi hari",
+                "sore hari",
+                "udara sejuk",
+                "perbukitan"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Apa sejarah dan asal-usul nama 'Dung Tungkul' pada kampung tematik ini?",
+            "answer": "Nama 'Dung Tungkul' berasal dari kondisi geografis masa lalu atau cerita leluhur setempat yang merujuk pada cekungan atau sumber air (dung) serta pohon atau tunggul besar di wilayah tersebut.",
+            "aliases": [
+                "sejarah dung tungkul semarang",
+                "asal usul nama kampung tematik dung tungkul"
+            ],
+            "keywords": [
+                "sejarah",
+                "asal usul",
+                "nama dung tungkul",
+                "cekungan air",
+                "leluhur"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apa konsep dan tema utama yang diusung oleh Kampung Tematik Dung Tungkul?",
+            "answer": "Kampung ini mengusung konsep wisata tematik berbasis lingkungan asri, pemanfaatan ruang publik kreatif, budidaya pertanian/perikanan warga, serta wisata air sungai.",
+            "aliases": [
+                "konsep kampung tematik dung tungkul",
+                "tema wisata lingkungan semarang"
+            ],
+            "keywords": [
+                "konsep wisata",
+                "lingkungan asri",
+                "ruang publik kreatif",
+                "wisata air"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Bagaimana peran warga lokal dalam membangun Kampung Tematik Dung Tungkul?",
+            "answer": "Warga bersama pengurus RT/RW dan pemuda karang taruna bergotong royong mengubah lingkungan sekitar menjadi kawasan hijau, bersih, dan menarik dikunjungi.",
+            "aliases": [
+                "peran warga dung tungkul",
+                "gotong royong kampung tematik semarang"
+            ],
+            "keywords": [
+                "peran warga",
+                "gotong royong",
+                "karang taruna",
+                "kawasan hijau"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apa saja daya tarik wisata utama yang ditawarkan di kampung ini?",
+            "answer": "Daya tarik utamanya meliputi penataan lingkungan bersih, mural tematik, aliran sungai bersih, spot swafoto kreatif, serta keramahan warga desa.",
+            "aliases": [
+                "daya tarik dung tungkul",
+                "objek wisata kampung tematik semarang"
+            ],
+            "keywords": [
+                "daya tarik",
+                "mural tematik",
+                "sungai bersih",
+                "spot swafoto"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Apakah ada aliran sungai atau sumber air yang menjadi bagian wisata?",
+            "answer": "Ya, pemanfaatan aliran sungai atau saluran air bersih di perkampungan ditata rapi dengan penebaran ikan hias dan penataan jalan setapak di tepiannya.",
+            "aliases": [
+                "sungai dung tungkul",
+                "wisata air kampung tematik semarang"
+            ],
+            "keywords": [
+                "sungai bersih",
+                "saluran air",
+                "ikan hias",
+                "jalan setapak"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apakah ada budidaya ikan atau urban farming di Kampung Tematik Dung Tungkul?",
+            "answer": "Warga aktif mengembangkan kolam ikan air tawar mandiri serta penanaman tanaman obat keluarga (toga) dan sayuran di pekarangan rumah.",
+            "aliases": [
+                "urban farming dung tungkul",
+                "budidaya ikan kampung tematik semarang"
+            ],
+            "keywords": [
+                "urban farming",
+                "budidaya ikan",
+                "tanaman obat",
+                "toga",
+                "pekarangan"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Bagaimana kebersihan lingkungan di dalam perkampungan Dung Tungkul?",
+            "answer": "Kebersihan lingkungan dijaga sangat ketat oleh warga melalui gerakan sadar lingkungan dan pemilahan sampah mandiri di tiap rumah.",
+            "aliases": [
+                "kebersihan dung tungkul",
+                "lingkungan bersih kampung tematik"
+            ],
+            "keywords": [
+                "kebersihan lingkungan",
+                "sadar lingkungan",
+                "pemilahan sampah"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Apakah ada pemandu wisata lokal yang siap mendampingi pengunjung?",
+            "answer": "Pengurus kampung atau pemuda setempat siap mendampingi kelompok wisata yang ingin berkeliling menikmati sudut-sudut tematik kampung.",
+            "aliases": [
+                "pemandu wisata dung tungkul",
+                "tour guide kampung tematik semarang"
+            ],
+            "keywords": [
+                "pemandu wisata",
+                "tour guide lokal",
+                "pengurus kampung"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Apakah spot foto Instagramable banyak dijumpai di Dung Tungkul?",
+            "answer": "Banyak sudut estetis, mulai dari gapura selamat datang berukir unik, dinding mural warna-warni, hingga jembatan kecil di atas saluran air bersih.",
+            "aliases": [
+                "spot foto dung tungkul",
+                "tempat instagramable kampung tematik"
+            ],
+            "keywords": [
+                "spot foto",
+                "instagramable",
+                "mural warna",
+                "warni",
+                "jembatan kecil"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apakah kampung ini sering dikunjungi untuk studi tiru kampung tematik?",
+            "answer": "Ya, berbagai perwakilan kelurahan atau instansi dari luar daerah sering datang melakukan studi banding mengenai suksesnya penataan kampung tematik.",
+            "aliases": [
+                "studi tiru dung tungkul",
+                "studi banding kampung tematik semarang"
+            ],
+            "keywords": [
+                "studi tiru",
+                "studi banding",
+                "penataan kampung",
+                "instansi"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Apa saja kuliner atau jajanan yang bisa dinikmati di Kampung Tematik Dung Tungkul?",
+            "answer": "Di sekitar kampung terdapat warung rumahan warga yang menyajikan aneka jajanan pasar tradisional, makanan ringan, dan minuman segar.",
+            "aliases": [
+                "kuliner dung tungkul",
+                "makanan di kampung tematik semarang"
+            ],
+            "keywords": [
+                "kuliner",
+                "jajanan pasar",
+                "warung rumahan",
+                "makanan ringan"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Berapa kisaran harga makanan di warung sekitar Dung Tungkul?",
+            "answer": "Harga makanan dan minuman di warung lokal sangat terjangkau, berkisar antara Rp5.000 hingga Rp20.000 per porsi.",
+            "aliases": [
+                "harga makanan dung tungkul",
+                "murah meriah kampung tematik"
+            ],
+            "keywords": [
+                "kisaran harga",
+                "terjangkau",
+                "murah meriah",
+                "warung lokal"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apakah pengunjung boleh membawa bekal makanan dari luar?",
+            "answer": "Pengunjung diperbolehkan membawa bekal ringan pribadi, namun diimbau untuk selalu menjaga kebersihan dan tidak membuang sampah sembarangan.",
+            "aliases": [
+                "bawa makanan dari luar ke dung tungkul",
+                "aturan bekal kampung tematik"
+            ],
+            "keywords": [
+                "bawa makanan",
+                "bekal dari luar",
+                "aturan",
+                "kebersihan"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apakah ada produk olahan pangan rumahan (UMKM) khas warga setempat?",
+            "answer": "Beberapa pelaku UMKM rumahan memproduksi keripik, aneka kue kering, serta produk pangan lokal hasil pekarangan.",
+            "aliases": [
+                "umkm dung tungkul",
+                "produk olahan warga kampung tematik semarang"
+            ],
+            "keywords": [
+                "umkm",
+                "produk olahan",
+                "keripik",
+                "kue kering",
+                "pangan lokal"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Bagaimana sistem pembayaran di warung warga sekitar?",
+            "answer": "Sebagian besar warung rumahan menggunakan sistem pembayaran tunai (cash), sehingga disiapkan uang tunai secukupnya.",
+            "aliases": [
+                "pembayaran tunai dung tungkul",
+                "cash di kampung tematik semarang"
+            ],
+            "keywords": [
+                "pembayaran tunai",
+                "cash",
+                "transaksi",
+                "warung warga"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apakah ada penjual keliling yang melintas di area perkampungan?",
+            "answer": "Terkadang terdapat pedagang kaki lima keliling yang menjajakan jajanan anak atau minuman segar di sekitar area taman kampung.",
+            "aliases": [
+                "pedagang keliling dung tungkul",
+                "jajanan anak kampung tematik"
+            ],
+            "keywords": [
+                "pedagang keliling",
+                "jajanan anak",
+                "minuman segar",
+                "taman kampung"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Apakah tersedia air minum atau warung kelontong di dalam kampung?",
+            "answer": "Tersedia warung kelontong milik warga yang menjual air mineral, mi instan, dan kebutuhan ringan sehari-hari.",
+            "aliases": [
+                "warung kelontong dung tungkul",
+                "beli air mineral kampung tematik"
+            ],
+            "keywords": [
+                "warung kelontong",
+                "air mineral",
+                "mi instan",
+                "kebutuhan harian"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apakah ada makanan tradisional musiman yang disajikan warga?",
+            "answer": "Saat momen perayaan desa atau kegiatan gotong royong, warga kerap menyajikan hidangan tradisional bersama secara mandiri.",
+            "aliases": [
+                "makanan tradisional dung tungkul",
+                "hidangan gotong royong semarang"
+            ],
+            "keywords": [
+                "makanan tradisional",
+                "hidangan gotong royong",
+                "perayaan desa"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apakah ada tempat khusus untuk bersantai dan menikmati makanan?",
+            "answer": "Tersedia beberapa saung peristirahatan dan bangku taman di dekat ruang publik kampung bagi pengunjung yang ingin menikmati suasana.",
+            "aliases": [
+                "tempat santai dung tungkul",
+                "saung istirahat kampung tematik"
+            ],
+            "keywords": [
+                "tempat santai",
+                "saung istirahat",
+                "bangku taman",
+                "ruang publik"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Apa minuman herbal favorit yang sering disajikan di perkampungan ini?",
+            "answer": "Warga sering menyajikan wedang jahe hangat atau teh poci gula batu sebagai suguhan ramah tamah bagi tamu yang berkunjung.",
+            "aliases": [
+                "minuman herbal dung tungkul",
+                "wedang jahe kampung tematik semarang"
+            ],
+            "keywords": [
+                "minuman herbal",
+                "wedang jahe",
+                "teh poci",
+                "ramah tamah"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Fasilitas umum apa saja yang tersedia di Kampung Tematik Dung Tungkul?",
+            "answer": "Fasilitas meliputi jalan kampung beraspal/paving bersih, pos ronda, taman terbuka, musala, dan saung warga.",
+            "aliases": [
+                "fasilitas umum dung tungkul",
+                "kelengkapan kampung tematik semarang"
+            ],
+            "keywords": [
+                "fasilitas umum",
+                "jalan paving",
+                "pos ronda",
+                "taman terbuka",
+                "musala"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Apakah tersedia musala atau tempat sholat di dalam perkampungan?",
+            "answer": "Ya, terdapat musala warga yang bersih dan aktif digunakan untuk sholat berjemaah bagi warga maupun pengunjung.",
+            "aliases": [
+                "musala dung tungkul",
+                "tempat sholat kampung tematik semarang"
+            ],
+            "keywords": [
+                "musala",
+                "tempat ibadah",
+                "sholat",
+                "muslim",
+                "fasilitas"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Bagaimana kondisi kebersihan jalan di dalam Kampung Tematik Dung Tungkul?",
+            "answer": "Jalan lingkungan di dalam kampung sangat bersih, tertata, dengan tanaman hijau di setiap sisi pagar rumah warga.",
+            "aliases": [
+                "kebersihan jalan dung tungkul",
+                "lingkungan bersih kampung tematik"
+            ],
+            "keywords": [
+                "kebersihan jalan",
+                "lingkungan bersih",
+                "tertata",
+                "tanaman hijau"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Apakah area Kampung Tematik Dung Tungkul ramah bagi penyandang disabilitas?",
+            "answer": "Sebagian besar jalan kampung cukup datar dan berpaving rapi, sehingga cukup mudah diakses oleh pengguna kursi roda dengan pendampingan ringan.",
+            "aliases": [
+                "akses disabilitas dung tungkul",
+                "kursi roda kampung tematik semarang"
+            ],
+            "keywords": [
+                "disabilitas",
+                "kursi roda",
+                "berpaving rapi",
+                "mudah diakses"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apakah ada pos keamanan lingkungan (siskamling) di kampung?",
+            "answer": "Ya, sistem keamanan kampung dijaga aktif oleh warga melalui pos ronda malam dan pengawasan lingkungan swadaya.",
+            "aliases": [
+                "keamanan dung tungkul",
+                "siskamling kampung tematik semarang"
+            ],
+            "keywords": [
+                "keamanan",
+                "siskamling",
+                "pos ronda",
+                "warga",
+                "swadaya"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Apakah sinyal seluler dan internet lancar di dalam kampung?",
+            "answer": "Sinyal seluler dari semua operator utama sangat lancar di seluruh area perkampungan karena letaknya di kawasan padat Tembalang atas.",
+            "aliases": [
+                "sinyal hp dung tungkul",
+                "internet seluler kampung tematik semarang"
+            ],
+            "keywords": [
+                "sinyal seluler",
+                "internet",
+                "operator",
+                "lancar",
+                "tembalang"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Apakah ada ruang laktasi khusus ibu menyusui di kawasan wisata?",
+            "answer": "Belum tersedia ruang laktasi khusus komersial, namun area istirahat di pos warga atau ruang bersih dapat dimanfaatkan secara darurat.",
+            "aliases": [
+                "ruang laktasi dung tungkul",
+                "tempat menyusui kampung tematik"
+            ],
+            "keywords": [
+                "ruang laktasi",
+                "tempat menyusui",
+                "darurat",
+                "pos warga"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Apakah ada pos kesehatan terdekat dari lokasi Dung Tungkul?",
+            "answer": "Puskesmas pembantu atau klinik kesehatan terdekat dapat dijangkau dengan cepat menuju pusat Kelurahan Meteseh.",
+            "aliases": [
+                "pos kesehatan dung tungkul",
+                "puskesmas terdekat meteseh semarang"
+            ],
+            "keywords": [
+                "pos kesehatan",
+                "puskesmas",
+                "klinik",
+                "meteseh",
+                "terdekat"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Apakah tersedia tempat sampah umum di dalam perkampungan?",
+            "answer": "Warga dan pengelola menyediakan tempat sampah terpilah di berbagai titik sudut kampung guna menjaga kebersihan lingkungan.",
+            "aliases": [
+                "tempat sampah dung tungkul",
+                "jaga kebersihan kampung tematik"
+            ],
+            "keywords": [
+                "tempat sampah",
+                "jaga kebersihan",
+                "sudut kampung",
+                "terpilah"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Apakah ada area khusus merokok di ruang publik kampung?",
+            "answer": "Pengunjung diimbau merokok secara bijak di area terbuka di luar zona taman bermain anak atau ruang publik utama.",
+            "aliases": [
+                "aturan merokok dung tungkul",
+                "kawasan bebas rokok kampung tematik"
+            ],
+            "keywords": [
+                "aturan merokok",
+                "bijak",
+                "area terbuka",
+                "taman bermain"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Apakah Kampung Tematik Dung Tungkul cocok untuk kegiatan study tour pelajar?",
+            "answer": "Sangat cocok! Pelajar sekolah dapat belajar langsung mengenai praktik penataan lingkungan hijau, bank sampah, dan urban farming.",
+            "aliases": [
+                "study tour dung tungkul",
+                "wisata edukasi lingkungan kampung tematik"
+            ],
+            "keywords": [
+                "study tour",
+                "wisata edukasi lingkungan",
+                "bank sampah",
+                "urban farming"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Apakah ada pemandu khusus untuk rombongan study tour lingkungan?",
+            "answer": "Untuk rombongan sekolah, pengurus kampung atau kader lingkungan siap mendampingi tur edukasi penataan kawasan.",
+            "aliases": [
+                "pemandu study tour dung tungkul",
+                "tour guide lingkungan semarang"
+            ],
+            "keywords": [
+                "pemandu",
+                "study tour",
+                "tour guide",
+                "kader lingkungan"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Apakah ada biaya retribusi khusus untuk rombongan pelajar?",
+            "answer": "Kawasan ini bersifat terbuka, sehingga tidak ada tiket masuk wajib, namun disarankan melakukan koordinasi reservasi jika membawa rombongan besar.",
+            "aliases": [
+                "retribusi rombongan dung tungkul",
+                "biaya masuk study tour kampung"
+            ],
+            "keywords": [
+                "retribusi rombongan",
+                "biaya masuk",
+                "gratis",
+                "koordinasi"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Bagaimana akses jalan untuk bus pariwisata ukuran besar ke lokasi?",
+            "answer": "Bus pariwisata berukuran besar biasanya menurunkan penumpang di area transit jalan raya utama terdekat, lalu rombongan berjalan kaki singkat.",
+            "aliases": [
+                "bus pariwisata dung tungkul",
+                "akses bus rombongan kampung tematik"
+            ],
+            "keywords": [
+                "bus pariwisata",
+                "rombongan",
+                "area transit",
+                "jalan raya utama"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Apakah ada lembar kerja edukasi (LKS) observasi lingkungan bagi siswa?",
+            "answer": "Beberapa sekolah menyusun sendiri lembar tugas observasi lapangan bagi siswa yang meneliti daur ulang sampah dan penghijauan.",
+            "aliases": [
+                "modul edukasi dung tungkul",
+                "lks lingkungan hidup semarang"
+            ],
+            "keywords": [
+                "modul edukasi",
+                "lks lingkungan hidup",
+                "observasi lapangan",
+                "siswa"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Apakah aman membawa anak-anak sekolah berjalan-jalan di kampung ini?",
+            "answer": "Sangat aman karena jalan perkampungan tertata rapi dan bersih dari kendaraan laju, namun guru tetap diimbau mengawasi siswa.",
+            "aliases": [
+                "aman bawa anak sekolah ke dung tungkul",
+                "wisata edukasi anak"
+            ],
+            "keywords": [
+                "aman",
+                "anak sekolah",
+                "pengawasan guru",
+                "jalan rapi"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah ada tempat berkumpul yang luas untuk rombongan di dalam kampung?",
+            "answer": "Rombongan dapat memanfaatkan area balai warga atau ruang terbuka hijau di dekat gerbang masuk untuk briefing pemandu.",
+            "aliases": [
+                "tempat berkumpul rombongan dung tungkul",
+                "balai warga semarang"
+            ],
+            "keywords": [
+                "tempat berkumpul",
+                "rombongan",
+                "balai warga",
+                "ruang terbuka"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apakah mahasiswa lingkungan hidup sering meneliti penataan kampung di sini?",
+            "answer": "Ya, mahasiswa sering melakukan observasi sistem pengelolaan sampah mandiri dan tata ruang hijau perkotaan untuk tugas kuliah.",
+            "aliases": [
+                "penelitian lingkungan dung tungkul",
+                "tugas mahasiswa semarang"
+            ],
+            "keywords": [
+                "penelitian lingkungan",
+                "tugas mahasiswa",
+                "pengelolaan sampah",
+                "tata ruang"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Apakah ada suvenir atau cinderamata edukasi yang bisa dibawa pulang?",
+            "answer": "Suvenir edukasi dapat berupa kerajinan daur ulang botol plastik atau hasil karya bank sampah warga setempat.",
+            "aliases": [
+                "suvenir daur ulang dung tungkul",
+                "kerajinan bank sampah semarang"
+            ],
+            "keywords": [
+                "suvenir daur ulang",
+                "kerajinan",
+                "bank sampah",
+                "karya warga"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Apa pesan moral edukasi utama saat berkunjung ke Kampung Tematik Dung Tungkul?",
+            "answer": "Pengunjung diajak memahami pentingnya kepedulian menjaga kebersihan lingkungan dari tingkat rumah tangga serta kekuatan gotong royong warga.",
+            "aliases": [
+                "pesan moral edukasi dung tungkul",
+                "kepedulian lingkungan semarang"
+            ],
+            "keywords": [
+                "pesan moral",
+                "kepedulian lingkungan",
+                "tingkat rumah tangga",
+                "gotong royong"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Di mana rekomendasi hotel atau penginapan terdekat dari Kampung Tematik Dung Tungkul?",
+            "answer": "Hotel dan penginapan terdekat dapat ditemukan di kawasan Tembalang (sekitar Undip), Banyumanik, atau wilayah Semarang Selatan.",
+            "aliases": [
+                "hotel dekat dung tungkul",
+                "penginapan terdekat tembalang semarang"
+            ],
+            "keywords": [
+                "hotel",
+                "penginapan",
+                "tembalang",
+                "undip",
+                "banyumanik"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Apa saja objek wisata lain yang berada di dekat Dung Tungkul?",
+            "answer": "Objek wisata terdekat meliputi Kawasan Wisata Meteseh, Waduk Jatibarang, atau bergeser ke area kampus Undip Tembalang.",
+            "aliases": [
+                "wisata dekat dung tungkul",
+                "destinasi sekitar meteseh semarang"
+            ],
+            "keywords": [
+                "wisata sekitar",
+                "meteseh",
+                "tembalang",
+                "waduk jatibarang",
+                "undip"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Berapa jarak Kampung Tematik Dung Tungkul dari Bandara Internasional Jenderal Ahmad Yani?",
+            "answer": "Jarak dari Bandara Ahmad Yani ke Dung Tungkul sekitar 16 hingga 19 kilometer dengan waktu tempuh berkendara kurang lebih 40 menit.",
+            "aliases": [
+                "jarak bandara ahmad yani ke dung tungkul",
+                "dari airport ke kampung tematik"
+            ],
+            "keywords": [
+                "jarak",
+                "bandara ahmad yani",
+                "bandara semarang",
+                "waktu tempuh"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Berapa jarak Kampung Tematik Dung Tungkul dari Stasiun Tawang atau Poncol?",
+            "answer": "Jarak dari Stasiun Tawang maupun Poncol ke Dung Tungkul berkisar antara 13 hingga 15 kilometer dengan waktu tempuh sekitar 35 menit berkendara.",
+            "aliases": [
+                "jarak stasiun tawang ke dung tungkul",
+                "dari stasiun poncol ke kampung tematik"
+            ],
+            "keywords": [
+                "jarak",
+                "stasiun tawang",
+                "stasiun poncol",
+                "kereta api",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Apakah transportasi online (GoRide/Grab/Maxim) sangat mudah didapatkan?",
+            "answer": "Sangat mudah dan cepat karena wilayah Meteseh / Tembalang terhubung dengan jaringan transportasi online perkotaan Semarang.",
+            "aliases": [
+                "gojek grab ke dung tungkul semarang",
+                "taksi online meteseh"
+            ],
+            "keywords": [
+                "transportasi online",
+                "gojek",
+                "grab",
+                "maxim",
+                "tembalang meteseh"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Bagaimana kondisi akses jalan raya menuju kawasan Dung Tungkul?",
+            "answer": "Akses jalan raya utama beraspal baik, namun mendekati area permukiman kampung kontur jalan menanjak khas perbukitan Tembalang atas.",
+            "aliases": [
+                "akses jalan raya dung tungkul",
+                "mulus beraspal perbukitan"
+            ],
+            "keywords": [
+                "akses jalan raya",
+                "beraspal",
+                "menanjak",
+                "perbukitan tembalang"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Apakah ada SPBU Pertamina terdekat dari lokasi Dung Tungkul?",
+            "answer": "Stasiun Pengisian Bahan Bakar Umum (SPBU) terdekat dapat dijumpai di jalur utama Tembalang (dekat Undip) atau Jalan Setiabudi Banyumanik.",
+            "aliases": [
+                "spbu dekat dung tungkul",
+                "pom bensin terdekat tembalang semarang"
+            ],
+            "keywords": [
+                "spbu",
+                "pom bensin",
+                "pertamina",
+                "tembalang undip",
+                "setiabudi"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Apakah ada mesin ATM perbankan terdekat dari kawasan kampung?",
+            "answer": "Mesin ATM tunai dari berbagai bank tersedia lengkap di area komersial Tembalang dan kawasan kampus Undip.",
+            "aliases": [
+                "atm terdekat dung tungkul",
+                "mesin tarik tunai tembalang semarang"
+            ],
+            "keywords": [
+                "atm",
+                "mesin tarik tunai",
+                "tembalang undip",
+                "area komersial"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Apakah kawasan Meteseh Tembalang rawan macet saat jam sibuk?",
+            "answer": "Jalur utama di sekitar Tembalang dan gerbang kampus kerap mengalami kepadatan lalu lintas pada jam berangkat dan pulang kuliah/kerja.",
+            "aliases": [
+                "kemacetan di dung tungkul semarang",
+                "macet tembalang undip"
+            ],
+            "keywords": [
+                "macet",
+                "kemacetan",
+                "jam sibuk",
+                "tembalang",
+                "undip"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Apakah ada jasa rental mobil atau motor di Semarang untuk wisata kampung tematik?",
+            "answer": "Banyak penyedia rental kendaraan di Kota Semarang yang menawarkan paket harian untuk memudahkan pelancong menjelajahi kampung-kampung tematik.",
+            "aliases": [
+                "sewa mobil semarang",
+                "rental motor keliling kampung tematik"
+            ],
+            "keywords": [
+                "sewa mobil",
+                "rental motor",
+                "harian",
+                "kampung tematik",
+                "semarang"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Apakah Kampung Tematik Dung Tungkul sering menjadi lokasi berburu foto?",
+            "answer": "Sangat sering, terutama bagi pencinta fotografi lingkungan, mural kreatif, dan dokumentasi keasrian kampung hijau.",
+            "aliases": [
+                "fotografi dung tungkul",
+                "foto mural kreatif kampung tematik"
+            ],
+            "keywords": [
+                "fotografi",
+                "mural kreatif",
+                "kampung hijau",
+                "dokumentasi"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Apakah ada komunitas kreatif yang aktif berkolaborasi di kampung ini?",
+            "answer": "Komunitas pemuda dan kader lingkungan Semarang sering mengadakan kegiatan pengecatan mural dan penanaman pohon bersama warga.",
+            "aliases": [
+                "komunitas kreatif dung tungkul",
+                "pegiat lingkungan semarang"
+            ],
+            "keywords": [
+                "komunitas kreatif",
+                "pegiat lingkungan",
+                "mural",
+                "penanaman pohon"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Bagaimana aturan izin pengambilan foto komersial di area pemukiman?",
+            "answer": "Untuk pemotretan komersial skala besar atau syuting video di area kampung, disarankan berkoordinasi dengan pengurus RT/RW setempat.",
+            "aliases": [
+                "izin foto komersial dung tungkul",
+                "syuting video kampung tematik"
+            ],
+            "keywords": [
+                "izin foto komersial",
+                "syuting video",
+                "pengurus warga",
+                "rt rw"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Apakah ada pameran karya daur ulang sampah yang diadakan warga?",
+            "answer": "Secara berkala, bank sampah warga memamerkan produk kerajinan tangan dari barang bekas saat ada kunjungan atau lomba kebersihan kota.",
+            "aliases": [
+                "pameran daur ulang dung tungkul",
+                "kerajinan bank sampah semarang"
+            ],
+            "keywords": [
+                "pameran daur ulang",
+                "kerajinan tangan",
+                "bank sampah",
+                "lomba kebersihan"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Apakah content creator lingkungan sering meliput keunikan Dung Tungkul?",
+            "answer": "Banyak kreator konten YouTube dan TikTok mengeksplorasi keberhasilan transformasi kampung ini menjadi kawasan hijau percontohan.",
+            "aliases": [
+                "vlogger lingkungan dung tungkul",
+                "youtube kampung tematik semarang"
+            ],
+            "keywords": [
+                "vlogger lingkungan",
+                "content creator",
+                "youtube",
+                "tiktok",
+                "kampung hijau"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Apakah tripod kamera bebas digunakan di area gang kampung?",
+            "answer": "Tripod kamera bebas digunakan selama tidak menutup jalan atau menghalang aktivitas pejalan kaki warga.",
+            "aliases": [
+                "pakai tripod dung tungkul",
+                "aturan kamera gang kampung"
+            ],
+            "keywords": [
+                "tripod",
+                "aturan kamera",
+                "gang kampung",
+                "pejalan kaki"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Apakah ada sudut visual favorit bagi pelukis sketsa (sketchwalk)?",
+            "answer": "Taman hijau publik dan saung asri warga sering dipilih komunitas pelukis sketsa sebagai objek gambar langsung.",
+            "aliases": [
+                "sketchwalk dung tungkul",
+                "pelukis sketsa taman publik"
+            ],
+            "keywords": [
+                "sketchwalk",
+                "pelukis sketsa",
+                "taman publik",
+                "saung asri",
+                "objek gambar"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Bagaimana cara membagikan ulasan positif untuk Kampung Tematik Dung Tungkul?",
+            "answer": "Anda dapat membagikan pengalaman berkesan melalui ulasan Google Maps, postingan Instagram, atau video TikTok dengan tagar Kampung Tematik Semarang.",
+            "aliases": [
+                "review google maps dung tungkul",
+                "ulasan kampung tematik"
+            ],
+            "keywords": [
+                "review",
+                "google maps",
+                "ulasan",
+                "tiktok",
+                "instagram",
+                "tagar"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Apakah ada pencahayaan lampu hias di gang kampung saat malam hari?",
+            "answer": "Penerangan jalan lingkungan tertata cukup baik, dan lampu hias warga menciptakan suasana malam pedesaan yang asri dan damai.",
+            "aliases": [
+                "lampu malam dung tungkul",
+                "penerangan jalan kampung tematik"
+            ],
+            "keywords": [
+                "lampu malam",
+                "penerangan jalan",
+                "suasana asri",
+                "damai"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Apa harapan warga lokal terhadap kunjungan wisatawan ke Dung Tungkul?",
+            "answer": "Warga berharap pengunjung dapat ikut meramaikan kampung, menjaga kebersihan lingkungan, serta terinspirasi melakukan gerakan hijau di tempat asal.",
+            "aliases": [
+                "harapan warga dung tungkul",
+                "pesan kampung tematik semarang"
+            ],
+            "keywords": [
+                "harapan warga",
+                "meramaikan kampung",
+                "jaga kebersihan",
+                "gerakan hijau"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Apa saja tips pakaian yang disarankan saat berkunjung ke Kampung Tematik Dung Tungkul?",
+            "answer": "Disarankan mengenakan pakaian kasual yang nyaman, menyerap keringat, serta alas kaki tapak rata karena Anda akan berjalan menyusuri area perbukitan.",
+            "aliases": [
+                "tips pakaian dung tungkul",
+                "baju nyaman jalan kaki kampung"
+            ],
+            "keywords": [
+                "tips pakaian",
+                "casual nyaman",
+                "menyerap keringat",
+                "alas kaki rata",
+                "perbukitan"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Kapan waktu terbaik untuk menikmati udara sejuk di perkampungan?",
+            "answer": "Waktu terbaik adalah datang pada pagi hari pukul 08.00 - 10.00 WIB saat udara perbukitan Tembalang masih sangat segar.",
+            "aliases": [
+                "waktu terbaik udara sejuk dung tungkul",
+                "datang pagi semarang"
+            ],
+            "keywords": [
+                "waktu terbaik",
+                "udara sejuk",
+                "datang pagi",
+                "segar"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Apa yang harus disiapkan jika berkunjung saat musim hujan?",
+            "answer": "Siapkan payung atau jas hujan ringkas karena sebagian jalan lingkungan kampung merupakan area terbuka.",
+            "aliases": [
+                "tips musim hujan dung tungkul",
+                "sedia payung kampung tematik"
+            ],
+            "keywords": [
+                "musim hujan",
+                "payung",
+                "jas hujan",
+                "area terbuka",
+                "lingkungan"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana etika bersosialisasi yang baik dengan warga setempat?",
+            "answer": "Berikan sapaan ramah, hargai kebersihan lingkungan rumah warga, dan mintalah izin dengan sopan jika ingin mengambil foto.",
+            "aliases": [
+                "etika sosialisasi dung tungkul",
+                "sopan santun warga kampung tematik"
+            ],
+            "keywords": [
+                "etika sosialisasi",
+                "sopan santun",
+                "sapaan ramah",
+                "hargai kebersihan"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana prosedur pelaporan jika ada barang tertinggal di area kampung?",
+            "answer": "Segera laporkan kepada pengurus RT/RW setempat atau pos ronda warga terdekat untuk bantuan pencarian.",
+            "aliases": [
+                "barang tertinggal dung tungkul",
+                "kehilangan barang kampung tematik"
+            ],
+            "keywords": [
+                "barang tertinggal",
+                "kehilangan",
+                "pengurus rt rw",
+                "pos ronda"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Apakah ada imbauan khusus terkait batasan jam berkunjung malam hari?",
+            "answer": "Karena merupakan perkampungan tenang, pengunjung diimbau tidak berisik atau bergerombol terlalu larut malam demi menjaga ketenangan warga.",
+            "aliases": [
+                "jam malam dung tungkul",
+                "batas waktu kunjungan warga semarang"
+            ],
+            "keywords": [
+                "jam malam",
+                "batasan waktu",
+                "ketenangan warga",
+                "perkampungan"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Apakah diperbolehkan menerbangkan drone di atas kawasan Kampung Tematik Dung Tungkul?",
+            "answer": "Penerbangan drone di atas permukiman warga memerlukan kehati-hatian ekstra dan izin etika privasi penduduk setempat.",
+            "aliases": [
+                "izin drone dung tungkul",
+                "pakai drone di permukiman semarang"
+            ],
+            "keywords": [
+                "drone",
+                "etika privasi",
+                "permukiman warga",
+                "penduduk"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Bagaimana cara menyampaikan masukan atau kritik terkait fasilitas kampung?",
+            "answer": "Masukan dapat disampaikan melalui ulasan digital Google Maps atau langsung kepada pengurus RT/RW setempat.",
+            "aliases": [
+                "kritik saran dung tungkul",
+                "pengaduan fasilitas kampung tematik"
+            ],
+            "keywords": [
+                "kritik saran",
+                "pengaduan",
+                "google maps",
+                "pengurus rt rw"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Apakah kawasan Kampung Tematik Dung Tungkul aman dikunjungi wisatawan?",
+            "answer": "Sangat aman, didukung keaktifan siskamling warga dan keramahan penduduk lokal yang menyambut baik pelancong.",
+            "aliases": [
+                "keamanan dung tungkul",
+                "aman untuk wisatawan kampung tematik"
+            ],
+            "keywords": [
+                "aman",
+                "siskamling warga",
+                "keramahan penduduk",
+                "pelancong"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Apa imbauan utama bagi setiap pengunjung yang datang ke Dung Tungkul?",
+            "answer": "Pengunjung diimbau untuk selalu menjaga kesopanan, menjaga kebersihan lingkungan hijau, serta menghargai kerja keras penataan warga.",
+            "aliases": [
+                "pesan pengunjung dung tungkul",
+                "imbauan wisata lingkungan hijau"
+            ],
+            "keywords": [
+                "pesan pengelola",
+                "kesopanan",
+                "jaga kebersihan",
+                "lingkungan hijau",
+                "penataan warga"
+            ]
+        },
+        {
+            "id": "QA81",
+            "question": "Bagaimana cara menghubungi pengurus atau ketua RT/RW di Kampung Tematik Dung Tungkul?",
+            "answer": "Informasi seputar jadwal kunjungan studi banding atau kegiatan kelompok dapat dikoordinasikan melalui kantor kelurahan Meteseh atau perwakilan warga.",
+            "aliases": [
+                "kontak pengurus dung tungkul",
+                "nomor telepon kampung tematik semarang"
+            ],
+            "keywords": [
+                "kontak pengurus",
+                "nomor telepon",
+                "studi banding",
+                "kelurahan meteseh"
+            ]
+        },
+        {
+            "id": "QA82",
+            "question": "Apa akun media sosial resmi yang membahas Kampung Tematik Dung Tungkul?",
+            "answer": "Informasi seputar kampung tematik dan program hijau kota dapat dipantau melalui portal resmi Dinas Perumahan dan Kawasan Permukiman (Disperkim) Semarang.",
+            "aliases": [
+                "instagram dung tungkul",
+                "disperkim semarang kampung tematik"
+            ],
+            "keywords": [
+                "media sosial",
+                "instagram",
+                "disperkim semarang",
+                "informasi kampung hijau"
+            ]
+        },
+        {
+            "id": "QA83",
+            "question": "Apakah ada situs web resmi profil Kampung Tematik Dung Tungkul?",
+            "answer": "Profil kampung tematik dan direktori wisata kota dapat diakses melalui situs web resmi pusat data pemerintah Kota Semarang.",
+            "aliases": [
+                "website dung tungkul",
+                "situs resmi pemkot semarang"
+            ],
+            "keywords": [
+                "website",
+                "situs resmi",
+                "pemkot semarang",
+                "direktori wisata"
+            ]
+        },
+        {
+            "id": "QA84",
+            "question": "Apakah kampung tetap buka saat hari besar keagamaan atau tahun baru?",
+            "answer": "Kawasan permukiman terbuka setiap hari, namun suasana kegiatan warga pada hari besar mengikuti tradisi silaturahmi keluarga.",
+            "aliases": [
+                "buka hari besar dung tungkul",
+                "libur nasional kampung tematik semarang"
+            ],
+            "keywords": [
+                "hari besar",
+                "libur nasional",
+                "silaturahmi keluarga",
+                "terbuka"
+            ]
+        },
+        {
+            "id": "QA85",
+            "question": "Apakah ada fasilitas ATM tunai di dekat gerbang masuk kampung?",
+            "answer": "Gerai ATM perbankan terdekat dapat dijumpai dengan berkendara singkat menuju area komersial Tembalang atau Undip.",
+            "aliases": [
+                "atm terdekat dung tungkul",
+                "mesin tarik tunai tembalang semarang"
+            ],
+            "keywords": [
+                "atm",
+                "mesin tarik tunai",
+                "tembalang",
+                "undip",
+                "terdekat"
+            ]
+        },
+        {
+            "id": "QA86",
+            "question": "Apakah ada area khusus parkir bus pariwisata rombongan studi banding?",
+            "answer": "Bus pariwisata rombongan besar biasanya berkoordinasi dengan pengurus warga untuk penentuan titik parkir transit bus di jalur raya terdekat.",
+            "aliases": [
+                "parkir bus dung tungkul",
+                "bus pariwisata kampung tematik semarang"
+            ],
+            "keywords": [
+                "parkir bus",
+                "bus pariwisata",
+                "titik transit",
+                "studi banding"
+            ]
+        },
+        {
+            "id": "QA87",
+            "question": "Apakah ada fasilitas pengisian daya ponsel darurat di pos warga?",
+            "answer": "Fasilitas pengisian daya ponsel darurat dapat ditanyakan kepada pengurus RT atau pemilik warung terdekat jika membutuhkan bantuan.",
+            "aliases": [
+                "charging station dung tungkul",
+                "colokan listrik pos warga semarang"
+            ],
+            "keywords": [
+                "charging station",
+                "colokan listrik",
+                "pos warga",
+                "darurat"
+            ]
+        },
+        {
+            "id": "QA88",
+            "question": "Apa kesan atau pengalaman utama yang didapat pengunjung di Kampung Tematik Dung Tungkul?",
+            "answer": "Pengunjung merasakan pengalaman berharga melihat langsung keberhasilan gotong royong warga menyulap lingkungan menjadi kampung tematik hijau yang asri.",
+            "aliases": [
+                "kesan pengunjung dung tungkul",
+                "pengalaman kampung tematik semarang"
+            ],
+            "keywords": [
+                "kesan pengunjung",
+                "pengalaman",
+                "gotong royong warga",
+                "kampung hijau",
+                "asri"
+            ]
+        },
+        {
+            "id": "QA89",
+            "question": "Apakah ada tiket masuk khusus kunjungan ke kampung tematik ini?",
+            "answer": "Tidak ada tiket masuk karena kawasan ini bersifat terbuka sebagai permukiman warga yang mengusung konsep wisata edukasi lingkungan.",
+            "aliases": [
+                "tiket masuk dung tungkul",
+                "bebas biaya masuk kampung tematik"
+            ],
+            "keywords": [
+                "tiket masuk",
+                "bebas biaya masuk",
+                "permukiman warga",
+                "edukasi lingkungan"
+            ]
+        },
+        {
+            "id": "QA90",
+            "question": "Bagaimana komitmen jangka panjang warga dalam merawat Kampung Tematik Dung Tungkul?",
+            "answer": "Komitmen dijaga kuat melalui kesadaran kolektif warga dalam merawat kebersihan, menghijaukan lingkungan, dan menyambut tamu dengan keramahtamahan.",
+            "aliases": [
+                "komitmen jangka panjang dung tungkul",
+                "pelestarian lingkungan semarang"
+            ],
+            "keywords": [
+                "komitmen jangka panjang",
+                "kesadaran kolektif",
+                "kebersihan",
+                "keramahtamahan"
+            ]
+        }
+    ]
+}

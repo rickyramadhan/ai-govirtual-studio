@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "semarangzoo",
+    "tourName": "Semarangzoo",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Satwa ikonik Semarang Zoo",
+                "query": "Hewan apa yang paling populer dan selalu dicari oleh wisatawan saat berkunjung ke sini?",
+                "desc": "Hewan apa yang paling populer dan selalu dicari oleh wisatawan saat berkunjung ke sini?"
+            },
+            {
+                "label": "Jadwal pertunjukan satwa",
+                "query": "Apakah ada jadwal tertentu untuk atraksi satwa edukatif yang bisa disaksikan pengunjung?",
+                "desc": "Apakah ada jadwal tertentu untuk atraksi satwa edukatif yang bisa disaksikan pengunjung?"
+            },
+            {
+                "label": "Fasilitas wisata air",
+                "query": "Apakah di Semarang Zoo juga terdapat wahana perahu atau permainan air lainnya?",
+                "desc": "Apakah di Semarang Zoo juga terdapat wahana perahu atau permainan air lainnya?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Koleksi Satwa Beragam",
+                "query": "Apa saja satwa eksotis langka dan dilindungi yang menjadi daya tarik utama dari kebun binatang ini?"
+            },
+            {
+                "label": "Wahana Bermain Anak",
+                "query": "Selain melihat satwa, fasilitas permainan seru apa saja yang tersedia untuk hiburan anak-anak?"
+            },
+            {
+                "label": "Edukasi Konservasi",
+                "query": "Bagaimana program edukasi di Semarang Zoo mengajarkan pentingnya menjaga kelestarian hewan liar?"
+            },
+            {
+                "label": "Interaksi Satwa Edukatif",
+                "query": "Satwa apa saja yang aman untuk diajak berinteraksi langsung atau diberi makan oleh pengunjung?"
+            },
+            {
+                "label": "Fasilitas Kereta Mini",
+                "query": "Bagaimana rute perjalanan kereta mini dan pemandangan apa yang bisa dinikmati saat menaikinya?"
+            },
+            {
+                "label": "Ruang Terbuka Hijau",
+                "query": "Bagaimana kesejukan pepohonan di kawasan ini membuatnya ideal untuk piknik keluarga di akhir pekan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Semarangzoo?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Semarangzoo?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Semarangzoo?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

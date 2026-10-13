@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "rswongsonegoro",
+    "tourName": "Rswongsonegoro",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Daftar Online",
+                "query": "Apakah ada aplikasi khusus untuk mendaftar antrean poliklinik secara online?",
+                "desc": "Apakah ada aplikasi khusus untuk mendaftar antrean poliklinik secara online?"
+            },
+            {
+                "label": "Jam Besuk",
+                "query": "Jam berapa saja waktu besuk yang diperbolehkan untuk mengunjungi pasien rawat inap?",
+                "desc": "Jam berapa saja waktu besuk yang diperbolehkan untuk mengunjungi pasien rawat inap?"
+            },
+            {
+                "label": "Akses Transportasi",
+                "query": "Apakah ada angkutan umum atau BRT yang langsung berhenti di depan rumah sakit?",
+                "desc": "Apakah ada angkutan umum atau BRT yang langsung berhenti di depan rumah sakit?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah RSUD",
+                "query": "Bagaimana sejarah dan transformasi RSUD K.R.M.T Wongsonegoro sebagai rumah sakit andalan warga Semarang?"
+            },
+            {
+                "label": "Layanan Trauma Center",
+                "query": "Bagaimana kesiapan dan fasilitas Trauma Center dalam menangani pasien kecelakaan tingkat berat?"
+            },
+            {
+                "label": "Gedung Rawat Inap Baru",
+                "query": "Apa saja fasilitas modern yang ada di gedung rawat inap baru bagi kenyamanan proses penyembuhan pasien?"
+            },
+            {
+                "label": "Pelayanan BPJS Terpadu",
+                "query": "Bagaimana alur pelayanan dan antrean khusus bagi pasien pengguna layanan BPJS Kesehatan?"
+            },
+            {
+                "label": "Fasilitas Penunjang Medis",
+                "query": "Apa saja alat penunjang medis canggih seperti radiologi dan laboratorium yang dimiliki RS ini?"
+            },
+            {
+                "label": "Inovasi Layanan",
+                "query": "Inovasi pelayanan publik apa saja yang telah dikembangkan RSUD Wongsonegoro untuk kepuasan pasien?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Rswongsonegoro?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Rswongsonegoro?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Rswongsonegoro?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

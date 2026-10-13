@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "kebunkramas",
+    "updatedAt": "2026-09-29T09:51:07+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kebunkramas",
+            "aliases": [
+                "kebunkramas"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kebunkramas"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kebunkramas.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kebunkramas",
+                    "content": "Pusat pengalaman virtual untuk Kebunkramas."
+                },
+                "en": {
+                    "title": "Kebunkramas",
+                    "content": "Pusat pengalaman virtual untuk Kebunkramas."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Perkebunankelengkeng",
+            "aliases": [
+                "perkebunankelengkeng"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kebunkramas"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Perkebunankelengkeng",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Perkebunankelengkeng",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone Dinas Pertanian Semarang",
+            "aliases": [
+                "drone dinas pertanian semarang"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kebunkramas"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Dinas Pertanian Semarang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone Dinas Pertanian Semarang",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kebunkramas"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:288",
+            "entityId": "objinfo2:288",
+            "title": "Greenhouse",
+            "aliases": [
+                "greenhouse",
+                "objek 288"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Greenhouse di Kebun Kramas Semarang (yang dikelola oleh Dinas Pertanian) secara spesifik menanam komoditas seperti jambu kristal dan klengkeng. Terdapat greenhouse yang berfungsi juga untuk menciptakan lingkungan tumbuh yang terkontrol, melindungi tanaman dari cuaca ekstrem, hama/penyakit. Perkebunan Kramas memfungsikan greenhouse untuk media terkontrol tanaman anggur.",
+            "source": "webview-import",
+            "sourceId": "288",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Greenhouse",
+                    "content": "Greenhouse di Kebun Kramas Semarang (yang dikelola oleh Dinas Pertanian) secara spesifik menanam komoditas seperti jambu kristal dan klengkeng. Terdapat greenhouse yang berfungsi juga untuk menciptakan lingkungan tumbuh yang terkontrol, melindungi tanaman dari cuaca ekstrem, hama/penyakit. Perkebunan Kramas memfungsikan greenhouse untuk media terkontrol tanaman anggur."
+                },
+                "en": {
+                    "title": "Greenhouse",
+                    "content": "The greenhouse at Kramas Garden Semarang (managed by the Agriculture Department) specifically cultivates commodities such as crystal guava and longan. The greenhouse also functions to create a controlled growing environment, protecting plants from extreme weather and pests/diseases. Kramas Garden uses the greenhouse as a controlled medium for grape cultivation."
+                },
+                "zh": {
+                    "title": "溫室",
+                    "content": "三寶壟克拉馬斯農園（由農業局管理）的溫室專門種植水晶番石榴和龍眼等作物。溫室還用於創造可控的生長環境，保護植物免受極端天氣及病蟲害影響。克拉馬斯農園將溫室作為葡萄栽培的可控培養介質。"
+                },
+                "ar": {
+                    "title": "البيت البلاستيكي (الزراعي)",
+                    "content": "البيت البلاستيكي في حديقة كراماس سمارانغ (تديره دائرة الزراعة) يزرع بشكل محدد محاصيل مثل الجوافة الكريستالية واللونجان. كما يعمل البيت البلاستيكي على توفير بيئة نمو مُسيطر عليها لحماية النباتات من الطقس القاسي والآفات/الأمراض. تستخدم حديقة كراماس البيت البلاستيكي كوسط مُسيطر عليه لزراعة العنب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:289",
+            "entityId": "objinfo2:289",
+            "title": "Perkebunan Kelengkeng",
+            "aliases": [
+                "perkebunan kelengkeng",
+                "objek 289"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Agrowisata Kebun Kramas berfokus pada budidaya jambu kristal dan klengkeng. Budidaya kelengkeng berada di area belakang kawasan kantor Dinas Pertanian.",
+            "source": "webview-import",
+            "sourceId": "289",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perkebunan Kelengkeng",
+                    "content": "Agrowisata Kebun Kramas berfokus pada budidaya jambu kristal dan klengkeng. Budidaya kelengkeng berada di area belakang kawasan kantor Dinas Pertanian."
+                },
+                "en": {
+                    "title": "Longan Plantation",
+                    "content": "Kramas Garden Agro-tourism focuses on cultivating crystal guava and longan. The longan plantation is located at the rear area of the Agriculture Department office."
+                },
+                "zh": {
+                    "title": "龍眼種植園",
+                    "content": "克拉馬斯農園觀光農業專注於水晶番石榴與龍眼的栽培。龍眼種植園位於農業局辦公室後方區域。"
+                },
+                "ar": {
+                    "title": "مزرعة اللُّونجان",
+                    "content": "تركز السياحة الزراعية في حديقة كراماس على زراعة الجوافة الكريستالية واللونجان. تقع مزرعة اللُّونجان في المنطقة الخلفية لمكتب دائرة الزراعة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:290",
+            "entityId": "objinfo2:290",
+            "title": "Perkebunan Jambu Kristal",
+            "aliases": [
+                "perkebunan jambu kristal",
+                "objek 290"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Agrowisata Kebun Kramas berfokus pada budidaya jambu kristal dan klengkeng. Budidaya jambu kristal berada di area belakang kawasan kantor Dinas Pertanian.",
+            "source": "webview-import",
+            "sourceId": "290",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perkebunan Jambu Kristal",
+                    "content": "Agrowisata Kebun Kramas berfokus pada budidaya jambu kristal dan klengkeng. Budidaya jambu kristal berada di area belakang kawasan kantor Dinas Pertanian."
+                },
+                "en": {
+                    "title": "Crystal Guava Plantation",
+                    "content": "Kramas Garden Agro-tourism focuses on cultivating crystal guava and longan. The crystal guava plantation is located at the rear area of the Agriculture Department office."
+                },
+                "zh": {
+                    "title": "水晶番石榴種植園",
+                    "content": "克拉馬斯農園觀光農業專注於水晶番石榴與龍眼的栽培。水晶番石榴種植園位於農業局辦公室後方區域。"
+                },
+                "ar": {
+                    "title": "مزرعة الجوافة الكريستالية",
+                    "content": "تركز السياحة الزراعية في حديقة كراماس على زراعة الجوافة الكريستالية واللونجان. تقع مزرعة الجوافة الكريستالية في المنطقة الخلفية لمكتب دائرة الزراعة."
+                }
+            }
+        }
+    ]
+}

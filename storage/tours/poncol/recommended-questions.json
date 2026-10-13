@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "poncol",
+    "tourName": "Poncol",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Poncol vs Tawang",
+                "query": "Apa perbedaan utama fungsi Stasiun Poncol dibandingkan dengan Stasiun Tawang?",
+                "desc": "Apa perbedaan utama fungsi Stasiun Poncol dibandingkan dengan Stasiun Tawang?"
+            },
+            {
+                "label": "Gaya Bangunan",
+                "query": "Kenapa bentuk atap dan jendela Stasiun Poncol terlihat sangat klasik?",
+                "desc": "Kenapa bentuk atap dan jendela Stasiun Poncol terlihat sangat klasik?"
+            },
+            {
+                "label": "Kereta Lokal",
+                "query": "Kereta tujuan lokal mana saja yang biasanya berangkat dari stasiun ini?",
+                "desc": "Kereta tujuan lokal mana saja yang biasanya berangkat dari stasiun ini?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah SCS",
+                "query": "Bagaimana sejarah berdirinya Stasiun Poncol oleh Semarang-Cheribon Stoomtram Maatschappij?"
+            },
+            {
+                "label": "Arsitektur Art Deco",
+                "query": "Apa saja ciri khas gaya arsitektur Art Deco yang masih terlihat pada bangunan stasiun?"
+            },
+            {
+                "label": "Pusat KA Ekonomi",
+                "query": "Bagaimana peran stasiun ini sebagai pusat pemberangkatan kereta kelas ekonomi dan lokal?"
+            },
+            {
+                "label": "Rute Komuter",
+                "query": "Apa saja rute kereta aglomerasi dan komuter yang melayani penumpang dari Poncol?"
+            },
+            {
+                "label": "Modernisasi Fasilitas",
+                "query": "Apa saja fasilitas modern yang telah ditambahkan untuk kenyamanan penumpang saat ini?"
+            },
+            {
+                "label": "Dinamika Kawasan",
+                "query": "Bagaimana keramaian dan dinamika masyarakat di sekitar area Stasiun Poncol?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Poncol?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Poncol?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Poncol?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

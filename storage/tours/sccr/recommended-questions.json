@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "sccr",
+    "tourName": "Sccr",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Informasi Terapi",
+                "query": "Bagaimana masyarakat bisa mendapatkan informasi terkait uji klinis terapi stem cell yang sedang berjalan?",
+                "desc": "Bagaimana masyarakat bisa mendapatkan informasi terkait uji klinis terapi stem cell yang sedang berjalan?"
+            },
+            {
+                "label": "Kerjasama Riset",
+                "query": "Apakah fasilitas ini menerima proposal kerja sama penelitian dari mahasiswa pascasarjana?",
+                "desc": "Apakah fasilitas ini menerima proposal kerja sama penelitian dari mahasiswa pascasarjana?"
+            },
+            {
+                "label": "Lokasi Laboratorium",
+                "query": "Di mana alamat pasti pusat laboratorium SCCR ini dan apakah terbuka untuk kunjungan edukasi?",
+                "desc": "Di mana alamat pasti pusat laboratorium SCCR ini dan apakah terbuka untuk kunjungan edukasi?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Pusat Riset Stem Cell",
+                "query": "Bagaimana Stem Cell and Cancer Research (SCCR) Semarang memimpin inovasi pengobatan regeneratif dan terapi sel punca di Indonesia?"
+            },
+            {
+                "label": "Penelitian Kanker Lanjutan",
+                "query": "Apa saja fokus riset terkini di SCCR dalam menemukan metode pengobatan kanker yang lebih efektif dan bertarget?"
+            },
+            {
+                "label": "Fasilitas Laboratorium Inti",
+                "query": "Bagaimana tingkat sterilitas dan kecanggihan teknologi peralatan yang ada di laboratorium penelitian stem cell ini?"
+            },
+            {
+                "label": "Kolaborasi Akademis & Medis",
+                "query": "Bagaimana bentuk kerja sama SCCR dengan berbagai universitas dan rumah sakit dalam mengaplikasikan hasil riset klinis?"
+            },
+            {
+                "label": "Terapi Regeneratif",
+                "query": "Penyakit degeneratif apa saja yang menjadi fokus utama uji klinis terapi stem cell di fasilitas ini?"
+            },
+            {
+                "label": "Bank Sel (Cell Banking)",
+                "query": "Bagaimana prosedur dan standar penyimpanan sel atau cell banking yang ditawarkan oleh SCCR untuk keperluan masa depan?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Sccr?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Sccr?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Sccr?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

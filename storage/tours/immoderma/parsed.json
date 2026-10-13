@@ -1,0 +1,351 @@
+{
+    "startNode": "node8",
+    "scenes": [
+        {
+            "id": "node8",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": -0.785386,
+            "tilt": -11.5172,
+            "fov": 148.758,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node1",
+            "name": "Ruang Perawatan Lantai 2",
+            "displayName": "Ruang Perawatan Lantai 2",
+            "rawName": "",
+            "customNodeId": "-uang-erawatan-antai-2",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "Ruang Perawatan Lantai 2"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Lantai 3 Ruang Perawatan",
+            "displayName": "Lantai 3 Ruang Perawatan",
+            "rawName": "",
+            "customNodeId": "-antai-3-uang-erawatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "Lantai 3 Ruang Perawatan"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Ruangtindakan",
+            "displayName": "Ruangtindakan",
+            "rawName": "",
+            "customNodeId": "ruangtindakan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "ruangtindakan"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Ruangperawatan",
+            "displayName": "Ruangperawatan",
+            "rawName": "",
+            "customNodeId": "ruangperawatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "ruangperawatan"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Ruangperawatankhusus",
+            "displayName": "Ruangperawatankhusus",
+            "rawName": "",
+            "customNodeId": "ruangperawatankhusus",
+            "pan": 21.07,
+            "tilt": -21.78,
+            "fov": 125.34,
+            "tags": [
+                "immoderma",
+                "oi"
+            ],
+            "aliases": [
+                "ruangperawatankhusus"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Lantai 1",
+            "displayName": "Lantai 1",
+            "rawName": "",
+            "customNodeId": "-antai-1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "Lantai 1"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Lantai 3",
+            "displayName": "Lantai 3",
+            "rawName": "",
+            "customNodeId": "-antai-3",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "immoderma"
+            ],
+            "aliases": [
+                "Lantai 3"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Valet",
+            "displayName": "Valet",
+            "rawName": "",
+            "customNodeId": "valet",
+            "pan": -4.23,
+            "tilt": -5.61,
+            "fov": 135.59,
+            "tags": [
+                "immoderma",
+                "oi"
+            ],
+            "aliases": [
+                "valet"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Receptionist",
+            "displayName": "Receptionist",
+            "rawName": "",
+            "customNodeId": "receptionist",
+            "pan": -52.13,
+            "tilt": -14.48,
+            "fov": 135.07,
+            "tags": [
+                "immoderma",
+                "oi"
+            ],
+            "aliases": [
+                "receptionist"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Klinik Immoderma",
+            "id": "Point04",
+            "pan": -358.48,
+            "tilt": -37.04
+        },
+        {
+            "scene": "node1",
+            "target": "node7",
+            "title": "Lantai 3",
+            "id": "Point01",
+            "pan": 341.13,
+            "tilt": -0.47
+        },
+        {
+            "scene": "node1",
+            "target": "node6",
+            "title": "Lantai 1",
+            "id": "Point02",
+            "pan": 43.05,
+            "tilt": -26.59
+        },
+        {
+            "scene": "node2",
+            "target": "node7",
+            "title": "Lantai 2 Ruang Perawatan",
+            "id": "Point01",
+            "pan": 92.85,
+            "tilt": -17.91
+        },
+        {
+            "scene": "node2",
+            "target": "node4",
+            "title": "Ruang Perawatan",
+            "id": "Point02",
+            "pan": -88.48,
+            "tilt": -7.06
+        },
+        {
+            "scene": "node2",
+            "target": "node5",
+            "title": "Ruang Perawatan Khusus",
+            "id": "Point03",
+            "pan": -22.21,
+            "tilt": -25.88
+        },
+        {
+            "scene": "node3",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -37.3,
+            "tilt": -7.19
+        },
+        {
+            "scene": "node4",
+            "target": "node2",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 66,
+            "tilt": -5.24
+        },
+        {
+            "scene": "node4",
+            "target": "node3",
+            "title": "Area Perawatan",
+            "id": "Point02",
+            "pan": -13.65,
+            "tilt": -19.29
+        },
+        {
+            "scene": "node5",
+            "target": "node2",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -143.28,
+            "tilt": -9.62
+        },
+        {
+            "scene": "node6",
+            "target": "node1",
+            "title": "Ruang Perawatan Lantai 2",
+            "id": "Point01",
+            "pan": -24.69,
+            "tilt": 4.26
+        },
+        {
+            "scene": "node6",
+            "target": "node10",
+            "title": "Resepsionis",
+            "id": "Point02",
+            "pan": 235.14,
+            "tilt": -20.49
+        },
+        {
+            "scene": "node7",
+            "target": "node1",
+            "title": "Lantai 2 Ruang Perawatan",
+            "id": "Point02",
+            "pan": -347.43,
+            "tilt": -25.9
+        },
+        {
+            "scene": "node7",
+            "target": "node2",
+            "title": "Lantai 3 Ruang Perawatan",
+            "id": "Point01",
+            "pan": -11.16,
+            "tilt": 11.82
+        },
+        {
+            "scene": "node9",
+            "target": "node10",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -0.73,
+            "tilt": -0.21
+        },
+        {
+            "scene": "node10",
+            "target": "node9",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 81.21,
+            "tilt": -17.08
+        },
+        {
+            "scene": "node10",
+            "target": "node6",
+            "title": "Menuju Ruang Perawatan",
+            "id": "Point02",
+            "pan": -104.59,
+            "tilt": -15.39
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1145,
+            "label": "Ruang Perawatan",
+            "description": "Ruang Perawatan (Treatment Room) di Imoderna Aesthetic & Skin Care Clinic Semarang merupakan pusat tindakan medis estetika yang dirancang untuk efisiensi alur kerja tenaga medis sekaligus kenyamanan maksimal bagi pasien. Ruangan ini menggunakan sistem open-ward dengan sekat tirai yang memungkinkan fleksibilitas penggunaan ruang; tirai dapat ditutup rapat untuk menjamin privasi selama tindakan laser atau facial, namun tetap memudahkan mobilitas staf klinis antar-bed.",
+            "fragment": "ruangperawatan",
+            "link": "immoderma/index.html#ruangperawatan",
+            "sceneId": "node4"
+        },
+        {
+            "infoId": 1146,
+            "label": "Ruang Tindakan",
+            "description": "Ruangan ini dirancang untuk memberikan pengalaman perawatan yang privat dan nyaman, sesuai dengan standar layanan Imoderma yang mengedepankan profesionalitas dalam lingkungan yang suportif bagi kesehatan kulit dan kesejahteraan diri.",
+            "fragment": "ruangtindakan",
+            "link": "immoderma/index.html#ruangtindakan",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 1147,
+            "label": "Ruang Perawatan Khusus",
+            "description": "Ruangan ini dirancang sebagai area multifungsi yang mampu menangani berbagai prosedur, mulai dari perawatan kulit wajah dasar hingga tindakan medis tingkat lanjut menggunakan teknologi laser.",
+            "fragment": "ruangperawatankhusus",
+            "link": "immoderma/index.html#ruangperawatankhusus",
+            "sceneId": "node5"
+        },
+        {
+            "infoId": 1148,
+            "label": "Resepsionis",
+            "description": "Area ini menjadi titik tunggal untuk pendaftaran, manajemen janji temu (appointment), hingga transaksi pembayaran (kasir), sehingga alur kunjungan pasien menjadi lebih efisien dan terorganisir.",
+            "fragment": "receptionist",
+            "link": "immoderma/index.html#receptionist",
+            "sceneId": "node10"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "cde6817d46e20332",
+        "skin.js": "63e0f509608b3267",
+        "index.html": "b8e5153dd03b364d"
+    }
+}

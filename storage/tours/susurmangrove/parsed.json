@@ -1,0 +1,301 @@
+{
+    "startNode": "node81",
+    "scenes": [
+        {
+            "id": "node81",
+            "name": "node81",
+            "displayName": "node81",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -42.2,
+            "tilt": -11.01,
+            "fov": 120.35,
+            "tags": [
+                "SusurMangrove",
+                "Desktop"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node82",
+            "name": "Jalan",
+            "displayName": "Jalan",
+            "rawName": "",
+            "customNodeId": "-alan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "Jalan"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Jalan",
+            "displayName": "Jalan",
+            "rawName": "",
+            "customNodeId": "-alan",
+            "pan": -12.23,
+            "tilt": 9.55,
+            "fov": 111.08,
+            "tags": [
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "Jalan"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Pemberitahuan",
+            "displayName": "Pemberitahuan",
+            "rawName": "",
+            "customNodeId": "pemberitahuan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "pemberitahuan"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Dermaga",
+            "displayName": "Dermaga",
+            "rawName": "",
+            "customNodeId": "dermaga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "dermaga"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Areapembenihan",
+            "displayName": "Areapembenihan",
+            "rawName": "",
+            "customNodeId": "areapembenihan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "areapembenihan"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Pembenihan Ikan",
+            "displayName": "Pembenihan Ikan",
+            "rawName": "",
+            "customNodeId": "-embenihan-kan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "Pembenihan Ikan"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Susur Mangrove",
+            "displayName": "Susur Mangrove",
+            "rawName": "",
+            "customNodeId": "-usur-angrove",
+            "pan": -93.55,
+            "tilt": 0.54,
+            "fov": 129.98,
+            "tags": [
+                "SusurMangrove"
+            ],
+            "aliases": [
+                "Susur Mangrove"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node81",
+            "target": "node86",
+            "title": "Perahu",
+            "id": "Point01",
+            "pan": 1.41,
+            "tilt": -11.74
+        },
+        {
+            "scene": "node81",
+            "target": "node82",
+            "title": "Jalan",
+            "id": "Point05",
+            "pan": -195.48,
+            "tilt": -17.17
+        },
+        {
+            "scene": "node82",
+            "target": "node83",
+            "title": "Jalan",
+            "id": "Point01",
+            "pan": 0.67,
+            "tilt": -0.08
+        },
+        {
+            "scene": "node82",
+            "target": "node88",
+            "title": "Pembenihan Ikan",
+            "id": "Point02",
+            "pan": -139.97,
+            "tilt": 1.6
+        },
+        {
+            "scene": "node82",
+            "target": "node84",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": 170.66,
+            "tilt": 0.51
+        },
+        {
+            "scene": "node83",
+            "target": "node86",
+            "title": "Perahu",
+            "id": "Point01",
+            "pan": 41.46,
+            "tilt": -0.22
+        },
+        {
+            "scene": "node83",
+            "target": "node82",
+            "title": "Jalan",
+            "id": "Point02",
+            "pan": 213.82,
+            "tilt": -0.64
+        },
+        {
+            "scene": "node84",
+            "target": "node82",
+            "title": "Perahu",
+            "id": "Point01",
+            "pan": -85.21,
+            "tilt": -1.45
+        },
+        {
+            "scene": "node84",
+            "target": "node88",
+            "title": "Pembenihan Ikan",
+            "id": "Point02",
+            "pan": 204.19,
+            "tilt": 2.23
+        },
+        {
+            "scene": "node86",
+            "target": "node83",
+            "title": "Jalan",
+            "id": "Point01",
+            "pan": -262.33,
+            "tilt": -3.63
+        },
+        {
+            "scene": "node86",
+            "target": "node89",
+            "title": "Susur Mangrove",
+            "id": "Point02",
+            "pan": -196.39,
+            "tilt": -6.19
+        },
+        {
+            "scene": "node87",
+            "target": "node88",
+            "title": "Pembenihan Ikan",
+            "id": "Point01",
+            "pan": -73.84,
+            "tilt": -13.23
+        },
+        {
+            "scene": "node87",
+            "target": "node82",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": 57.47,
+            "tilt": -7.9
+        },
+        {
+            "scene": "node88",
+            "target": "node82",
+            "title": "Jalan",
+            "id": "Point01",
+            "pan": 130.42,
+            "tilt": -8.54
+        },
+        {
+            "scene": "node88",
+            "target": "node87",
+            "title": "Pembenihan Ikan",
+            "id": "Point02",
+            "pan": 254.37,
+            "tilt": -5.42
+        },
+        {
+            "scene": "node89",
+            "target": "node86",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -173.1,
+            "tilt": -5.55
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 695,
+            "label": "Dermaga",
+            "description": "Dermaga di kawasan wisata Mangrove Desa Tapak, Tugurejo, berfungsi sebagai gerbang utama sekaligus titik sentral dimulainya eksplorasi menyusuri ekosistem pesisir Semarang. Lebih dari sekadar tempat menambatkan perahu, dermaga ini menjadi zona transisi vital yang menghubungkan area daratan desa dengan jalur perairan Sungai Tapak yang mengarah ke hutan bakau dan laut lepas.",
+            "fragment": "dermaga",
+            "link": "susurmangrove/index.html#dermaga",
+            "sceneId": "node86"
+        },
+        {
+            "infoId": 696,
+            "label": "Area Pembenihan Ikan",
+            "description": "Area pembenihan ikan di kawasan wisata Susur Mangrove Desa Tapak, Tugurejo, merupakan representasi nyata dari penerapan sistem Silvofishery atau Wanamina, sebuah metode budidaya yang mengintegrasikan tambak perikanan dengan kelestarian hutan bakau dalam satu kawasan.",
+            "fragment": "areapembenihan",
+            "link": "susurmangrove/index.html#areapembenihan",
+            "sceneId": "node87"
+        },
+        {
+            "infoId": 697,
+            "label": "Papan Pemberitahuan Pemerintah Kota Semarang",
+            "description": "Papan ini berfungsi sebagai peringatan hukum agar kawasan konservasi bakau dan aliran sungai tersebut tidak disalahgunakan (misalnya untuk bangunan ilegal atau pembuangan sampah) yang dapat merusak ekosistem pengendali banjir di Semarang.",
+            "fragment": "pemberitahuan",
+            "link": "susurmangrove/index.html#pemberitahuan",
+            "sceneId": "node84"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "fea76825bc65c0b9",
+        "skin.js": "9a66308b7b700650",
+        "index.html": "362757420a055fee"
+    }
+}

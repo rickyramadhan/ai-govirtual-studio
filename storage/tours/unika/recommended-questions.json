@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "unika",
+    "tourName": "Unika",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Pendaftaran Baru",
+                "query": "Bagaimana cara dan syarat mendaftar sebagai mahasiswa baru di UNIKA?",
+                "desc": "Bagaimana cara dan syarat mendaftar sebagai mahasiswa baru di UNIKA?"
+            },
+            {
+                "label": "Lokasi Kampus",
+                "query": "Di mana letak Kampus Bendan Duwur dan bagaimana akses menuju ke sana?",
+                "desc": "Di mana letak Kampus Bendan Duwur dan bagaimana akses menuju ke sana?"
+            },
+            {
+                "label": "Beasiswa",
+                "query": "Apakah ada program beasiswa yang tersedia untuk calon mahasiswa berprestasi?",
+                "desc": "Apakah ada program beasiswa yang tersedia untuk calon mahasiswa berprestasi?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Nilai & Sejarah",
+                "query": "Bagaimana sejarah berdirinya UNIKA Soegijapranata dan penerapan nilai-nilai Katolik dalam pendidikan?"
+            },
+            {
+                "label": "Kampus Bendan",
+                "query": "Apa saja ciri khas arsitektur dan suasana lingkungan belajar di Kampus Utama Bendan Duwur?"
+            },
+            {
+                "label": "Fasilitas Perpustakaan",
+                "query": "Bagaimana kelengkapan koleksi buku dan fasilitas ruang diskusi di perpustakaan UNIKA?"
+            },
+            {
+                "label": "Fakultas Unggulan",
+                "query": "Apa saja program studi atau fakultas yang menjadi unggulan dan favorit di universitas ini?"
+            },
+            {
+                "label": "Unit Kegiatan Mahasiswa",
+                "query": "Organisasi dan unit kegiatan mahasiswa (UKM) apa saja yang aktif di lingkungan kampus?"
+            },
+            {
+                "label": "Jaringan Alumni",
+                "query": "Bagaimana peran ikatan alumni dalam mendukung karir dan peluang kerja lulusan UNIKA?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Unika?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Unika?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Unika?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

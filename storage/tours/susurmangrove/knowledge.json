@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "susurmangrove",
+    "updatedAt": "2026-09-29T09:52:31+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Susurmangrove",
+            "aliases": [
+                "susurmangrove"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "susurmangrove"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Susurmangrove.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Susurmangrove",
+                    "content": "Pusat pengalaman virtual untuk Susurmangrove."
+                },
+                "en": {
+                    "title": "Susurmangrove",
+                    "content": "Pusat pengalaman virtual untuk Susurmangrove."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node81",
+            "aliases": [
+                "node81"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "susurmangrove"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node81",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node81",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Jalan",
+            "aliases": [
+                "jalan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "susurmangrove"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jalan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Jalan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "susurmangrove"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:695",
+            "entityId": "objinfo2:695",
+            "title": "Dermaga",
+            "aliases": [
+                "dermaga",
+                "objek 695"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Dermaga di kawasan wisata Mangrove Desa Tapak, Tugurejo, berfungsi sebagai gerbang utama sekaligus titik sentral dimulainya eksplorasi menyusuri ekosistem pesisir Semarang. Lebih dari sekadar tempat menambatkan perahu, dermaga ini menjadi zona transisi vital yang menghubungkan area daratan desa dengan jalur perairan Sungai Tapak yang mengarah ke hutan bakau dan laut lepas.",
+            "source": "webview-import",
+            "sourceId": "695",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Dermaga",
+                    "content": "Dermaga di kawasan wisata Mangrove Desa Tapak, Tugurejo, berfungsi sebagai gerbang utama sekaligus titik sentral dimulainya eksplorasi menyusuri ekosistem pesisir Semarang. Lebih dari sekadar tempat menambatkan perahu, dermaga ini menjadi zona transisi vital yang menghubungkan area daratan desa dengan jalur perairan Sungai Tapak yang mengarah ke hutan bakau dan laut lepas."
+                },
+                "en": {
+                    "title": "Pier",
+                    "content": "\"The pier in the Mangrove tourism area of Tapak Village, Tugurejo, functions as the main gateway as well as the central starting point for exploring Semarang’s coastal ecosystem.\r\nMore than just a place to dock boats, this pier serves as a vital transition zone that connects the village’s land area with the waterways of the Tapak River leading to the mangrove forest and open sea.\""
+                },
+                "zh": {
+                    "title": "码头",
+                    "content": "塔帕克村（图古雷霍）红树林旅游区的码头是进入景区的主要门户，也是探索三宝垄沿海生态系统的起点。这座码头不仅是船只停泊之处，更是连接村庄陆地区域与通往红树林和外海的塔帕克河水道的重要过渡空间。"
+                },
+                "ar": {
+                    "title": "رصيف بحري",
+                    "content": "يعمل الرصيف في منطقة سياحة المانغروف بقرية تاباك، توغوريجو، كبوابة رئيسية ونقطة انطلاق مركزية لاستكشاف النظام البيئي الساحلي في سيمارانغ. وهو ليس مجرد مكان لرسو القوارب، بل يمثل منطقة انتقال حيوية تربط المنطقة البرية للقرية بالممرات المائية لنهر تاباك المؤدية إلى غابات المانغروف والبحر المفتوح."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:696",
+            "entityId": "objinfo2:696",
+            "title": "Area Pembenihan Ikan",
+            "aliases": [
+                "area pembenihan ikan",
+                "objek 696"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area pembenihan ikan di kawasan wisata Susur Mangrove Desa Tapak, Tugurejo, merupakan representasi nyata dari penerapan sistem Silvofishery atau Wanamina, sebuah metode budidaya yang mengintegrasikan tambak perikanan dengan kelestarian hutan bakau dalam satu kawasan.",
+            "source": "webview-import",
+            "sourceId": "696",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Pembenihan Ikan",
+                    "content": "Area pembenihan ikan di kawasan wisata Susur Mangrove Desa Tapak, Tugurejo, merupakan representasi nyata dari penerapan sistem Silvofishery atau Wanamina, sebuah metode budidaya yang mengintegrasikan tambak perikanan dengan kelestarian hutan bakau dalam satu kawasan."
+                },
+                "en": {
+                    "title": "Fish Hatchery Area",
+                    "content": "The fish hatchery area in the Mangrove Tour tourism zone of Tapak Village, Tugurejo, is a tangible representation of the implementation of the Silvofishery or Wanamina system, a cultivation method that integrates fish ponds with mangrove forest conservation within a single area."
+                },
+                "zh": {
+                    "title": "鱼类繁育区",
+                    "content": "塔帕克村（图古雷霍）红树林旅游区的鱼类育苗区，是丝沃渔业（Silvofishery）或“瓦纳米纳”系统应用的真实体现，这是一种将水产养殖池与红树林生态保护相结合的养殖方法。"
+                },
+                "ar": {
+                    "title": "منطقة تفريخ الأسماك",
+                    "content": "تُعد منطقة تفريخ الأسماك في منطقة سياحة سُسور المانغروف بقرية تاباك، توغوريجو، تجسيدًا حقيقيًا لتطبيق نظام السيلفو فيشري أو «وانامينا»، وهو أسلوب استزراع يدمج بين أحواض تربية الأسماك والحفاظ على غابات المانغروف ضمن منطقة واحدة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:697",
+            "entityId": "objinfo2:697",
+            "title": "Papan Pemberitahuan Pemerintah Kota Semarang",
+            "aliases": [
+                "papan pemberitahuan pemerintah kota semarang",
+                "objek 697"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Papan ini berfungsi sebagai peringatan hukum agar kawasan konservasi bakau dan aliran sungai tersebut tidak disalahgunakan (misalnya untuk bangunan ilegal atau pembuangan sampah) yang dapat merusak ekosistem pengendali banjir di Semarang.",
+            "source": "webview-import",
+            "sourceId": "697",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Papan Pemberitahuan Pemerintah Kota Semarang",
+                    "content": "Papan ini berfungsi sebagai peringatan hukum agar kawasan konservasi bakau dan aliran sungai tersebut tidak disalahgunakan (misalnya untuk bangunan ilegal atau pembuangan sampah) yang dapat merusak ekosistem pengendali banjir di Semarang."
+                },
+                "en": {
+                    "title": "Semarang City Government Information Board",
+                    "content": "This board serves as a legal warning to prevent the misuse of mangrove conservation areas and river flows (such as illegal construction or waste dumping), which could damage Semarang’s flood-control ecosystem."
+                },
+                "zh": {
+                    "title": "三宝垄市政府公告牌",
+                    "content": "该公告牌起到法律警示作用，防止红树林保护区和河道被滥用（例如非法建筑或倾倒垃圾），以免破坏三宝垄的防洪生态系统。"
+                },
+                "ar": {
+                    "title": "لوحة إعلانات حكومة مدينة سيمارانغ",
+                    "content": "تعمل هذه اللوحة كتحذير قانوني لمنع إساءة استخدام مناطق حماية غابات المانغروف ومجاري الأنهار (مثل البناء غير القانوني أو رمي النفايات)، لما قد يسببه ذلك من أضرار للنظام البيئي المسؤول عن الحد من الفيضانات في سيمارانغ."
+                }
+            }
+        }
+    ]
+}

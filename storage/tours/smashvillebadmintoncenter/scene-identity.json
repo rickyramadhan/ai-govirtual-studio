@@ -1,0 +1,751 @@
+{
+    "version": "1.1-seed",
+    "tourId": "smashvillebadmintoncenter",
+    "generatedAt": "2026-10-12",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "node1",
+            "displayName": "Gerbang Smashville",
+            "placeId": "gerbang-smashville",
+            "placeName": "Gerbang Smashville",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang utama kompleks Smashville Badminton Center dan Billiard.",
+            "description": "Gerbang Smashville menyambut setiap pengunjung yang datang dengan papan penanda kawasan yang jelas, menjadi akses pembuka menuju fasilitas olahraga badminton dan biliar berstandar premium.",
+            "highlights": [
+                "Pagar",
+                "Gedung"
+            ],
+            "talkingPoints": [
+                "node1",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari gerbang masuk utama ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai gerbang penyambutan dan akses kontrol utama bagi pengunjung pusat olahraga."
+                },
+                {
+                    "q": "Informasi apa yang tampak di sekitar area gerbang?",
+                    "mode": "fix",
+                    "answer": "Papan nama identitas Smashville Badminton Center dan Billiard."
+                },
+                {
+                    "q": "Bagaimana aksesibilitas dari gerbang menuju area dalam?",
+                    "mode": "fix",
+                    "answer": "Terhubung langsung dengan area parkir dan jalur kedatangan kendaraan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gerbang Smashville.",
+                "describeHere": "Area NODE1 (ID: node1) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Area Billiard",
+            "displayName": "Area Billiard",
+            "placeId": "area-billiard",
+            "placeName": "Area Billiard",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area ruang biliar yang luas dengan deretan meja berkualitas tinggi.",
+            "description": "Area Billiard menyuguhkan fasilitas meja biliar berstandar profesional lengkap dengan pencahayaan panel atas yang optimal, menciptakan suasana bermain yang kompetitif dan elegan.",
+            "highlights": [
+                "Meja biru",
+                "Lampu"
+            ],
+            "talkingPoints": [
+                "Area Billiard",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang tersedia di ruang biliar ini?",
+                    "mode": "fix",
+                    "answer": "Deretan meja biliar profesional, stik berkualitas, dan pencahayaan lampu sorot khusus."
+                },
+                {
+                    "q": "Bagaimana penataan meja di area biliar tersebut?",
+                    "mode": "fix",
+                    "answer": "Disusun rapi dengan ruang gerak yang luas di setiap sisi meja permainan."
+                },
+                {
+                    "q": "Apakah ruangan biliar ini ber-AC?",
+                    "mode": "fix",
+                    "answer": "Ya, ruangan tertutup penuh dengan pendingin udara untuk kenyamanan pemain."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Billiard.",
+                "describeHere": "Area Billiard adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Cafe",
+            "displayName": "Cafe Smashville",
+            "placeId": "cafe-smashville",
+            "placeName": "Cafe Smashville",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kafe modern tempat bersantai dan menikmati hidangan di Smashville.",
+            "description": "Cafe Smashville menawarkan area santai berkonsep modern industrial yang nyaman, menyediakan aneka makanan dan minuman untuk menyegarkan diri setelah berolahraga.",
+            "highlights": [
+                "Meja makan",
+                "Kaca"
+            ],
+            "talkingPoints": [
+                "Cafe",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari area kafe di kompleks olahraga ini?",
+                    "mode": "fix",
+                    "answer": "Tempat bersantai, memesan makanan, dan menikmati minuman bagi pengunjung."
+                },
+                {
+                    "q": "Bagaimana konsep desain interior kafe tersebut?",
+                    "mode": "fix",
+                    "answer": "Mengusung konsep modern industrial dengan bar bernuansa kayu yang hangat."
+                },
+                {
+                    "q": "Fasilitas apa yang tersedia untuk kenyamanan pengunjung kafe?",
+                    "mode": "fix",
+                    "answer": "Deretan meja santai, sofa nyaman, serta fasilitas stopkontak perangkat."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:934"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Cafe Smashville.",
+                "describeHere": "Cafe adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Area Billiard",
+            "displayName": "Ruang Billiard",
+            "placeId": "ruang-billiard",
+            "placeName": "Ruang Billiard",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona ruang biliar eksklusif untuk menyalurkan hobi dan kompetisi.",
+            "description": "Ruang Billiard menghadirkan lingkungan bermain indoor yang tertata rapi dengan estetika modern, menjadi tempat favorit bagi para pehobi maupun atlet biliar berkumpul.",
+            "highlights": [
+                "Meja",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Area Billiard",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Siapa saja yang sering memanfaatkan ruang biliar ini?",
+                    "mode": "fix",
+                    "answer": "Pehobi biliar, komunitas olahraga, hingga pengunjung yang ingin bersantai."
+                },
+                {
+                    "q": "Bagaimana kondisi pencahayaan di atas meja biliar?",
+                    "mode": "fix",
+                    "answer": "Menggunakan lampu gantung khusus yang menyorot tepat ke bidang meja permainan."
+                },
+                {
+                    "q": "Bagaimana suasana di dalam ruang biliar tersebut?",
+                    "mode": "fix",
+                    "answer": "Suasananya sportif, eksklusif, dan sangat nyaman untuk bermain lama."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Billiard.",
+                "describeHere": "Area Billiard adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Billiard",
+            "displayName": "Meja Billiard",
+            "placeId": "meja-billiard",
+            "placeName": "Meja Billiard",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Close-up meja biliar profesional siap pakai dengan kain laken hijau/biru.",
+            "description": "Meja Billiard memperlihatkan detail permukaan bidang permainan yang rata, bola biliar tersusun rapi, dan stik berkualitas tinggi yang siap digunakan untuk bertanding.",
+            "highlights": [
+                "Bola",
+                "Bidang permainan"
+            ],
+            "talkingPoints": [
+                "Billiard",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana kondisi permukaan meja biliar yang disediakan?",
+                    "mode": "fix",
+                    "answer": "Rata sempurna dengan balutan kain laken berkualitas tinggi untuk akurasi bola."
+                },
+                {
+                    "q": "Perlengkapan apa saja yang selalu tersedia di meja?",
+                    "mode": "fix",
+                    "answer": "Set bola biliar lengkap, segitiga pengumpul, dan stik sodok pilihan."
+                },
+                {
+                    "q": "Apakah meja biliar dirawat secara berkala?",
+                    "mode": "fix",
+                    "answer": "Ya, kebersihan dan ketegangan kain laken selalu dijaga oleh pengelola."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:932"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Meja Billiard.",
+                "describeHere": "Billiard adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Locker",
+            "displayName": "Loker penitipan barang",
+            "placeId": "loker-penitipan-barang",
+            "placeName": "Loker penitipan barang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas loket laker penitipan barang pribadi yang aman.",
+            "description": "Loker Penitipan Barang menyediakan lemari penyimpanan aman bagi pengunjung untuk menaruh tas, raket, atau barang berharga selama beraktivitas di dalam gedung.",
+            "highlights": [
+                "Net",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Locker",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari fasilitas loker penitipan ini?",
+                    "mode": "fix",
+                    "answer": "Menyimpan tas, raket, dan barang bawaan pengunjung dengan aman."
+                },
+                {
+                    "q": "Bagaimana sistem pengamanan pada loker penyimpanan?",
+                    "mode": "fix",
+                    "answer": "Menggunakan kunci pengaman tersendiri untuk setiap kotak penyewa."
+                },
+                {
+                    "q": "Di mana lokasi loker penitipan ini dapat ditemukan?",
+                    "mode": "fix",
+                    "answer": "Terletak di dekat jalur utama sirkulasi menuju lapangan dan ruang biliar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Loker penitipan barang.",
+                "describeHere": "Locker adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Badminton",
+            "displayName": "Depan Mushola",
+            "placeId": "depan-mushola",
+            "placeName": "Depan Mushola",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area selasar koridor di depan fasilitas sarana ibadah musala.",
+            "description": "Depan Mushola adalah area transisi bersih yang menghubungkan koridor utama dengan tempat ibadah, memudahkan jamaah bersiap sebelum menunaikan salat.",
+            "highlights": [
+                "Garis",
+                "Net"
+            ],
+            "talkingPoints": [
+                "Badminton",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menghubungkan kemanakah area di depan musala ini?",
+                    "mode": "fix",
+                    "answer": "Menghubungkan jalur koridor utama dengan pintu masuk ruang musala."
+                },
+                {
+                    "q": "Fasilitas apa yang dapat dijumpai di area ini?",
+                    "mode": "fix",
+                    "answer": "Rak penyimpanan alas kaki dan tempat wudu yang bersih."
+                },
+                {
+                    "q": "Bagaimana kebersihan di sekitar area musala dijaga?",
+                    "mode": "fix",
+                    "answer": "Selalu dibersihkan secara rutin oleh petugas kebersihan pusat olahraga."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:933"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Depan Mushola.",
+                "describeHere": "Badminton adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Lift",
+            "displayName": "Kasir",
+            "placeId": "kasir",
+            "placeName": "Kasir",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja kasir pusat pelayanan transaksi sewa lapangan dan kafe.",
+            "description": "Kasir merupakan titik layanan pembayaran terpadu untuk penyewaan lapangan bulu tangkis, meja biliar, pemesanan makanan kafe, serta registrasi pengunjung.",
+            "highlights": [
+                "Etalase",
+                "Kursi"
+            ],
+            "talkingPoints": [
+                "Lift",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa saja layanan yang dilayani di meja kasir ini?",
+                    "mode": "fix",
+                    "answer": "Pembayaran sewa lapangan bulu tangkis, biliar, dan transaksi kafe."
+                },
+                {
+                    "q": "Metode pembayaran apa saja yang diterima di kasir?",
+                    "mode": "fix",
+                    "answer": "Menerima pembayaran tunai maupun non-tunai (QRIS/transfer digital)."
+                },
+                {
+                    "q": "Bagaimana petugas kasir membantu pengunjung?",
+                    "mode": "fix",
+                    "answer": "Melayani pemesanan jadwal lapangan dan informasi ketersediaan meja dengan ramah."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kasir.",
+                "describeHere": "Lift adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Musholla",
+            "displayName": "Mushola",
+            "placeId": "mushola",
+            "placeName": "Mushola",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang musala yang suci, bersih, dan nyaman untuk beribadah.",
+            "description": "Musala menyediakan fasilitas tempat beribadah yang tenang dan representatif bagi pengunjung maupun staf yang ingin melaksanakan salat di tengah waktu berolahraga.",
+            "highlights": [
+                "Sajadah",
+                "Dinding"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang tersedia di dalam musala?",
+                    "mode": "fix",
+                    "answer": "Karpet suci, mukena, sajadah, serta pendingin ruangan yang sejuk."
+                },
+                {
+                    "q": "Bagaimana suasana di dalam ruang musala Smashville?",
+                    "mode": "fix",
+                    "answer": "Tenang, bersih, dan sangat khusyuk untuk beribadah."
+                },
+                {
+                    "q": "Apakah fasilitas musala ini dapat diakses oleh semua pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, terbuka bagi seluruh pengunjung dan atlet yang beraktivitas di sini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Mushola.",
+                "describeHere": "Musholla adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Parkiran",
+            "displayName": "Parkir Kendaraan",
+            "placeId": "parkir-kendaraan",
+            "placeName": "Parkir Kendaraan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area kantong parkir kendaraan yang luas dan tertata aman.",
+            "description": "Parkir Kendaraan menyediakan lahan luas beraspal dan berkanopi bagi sepeda motor maupun mobil pengunjung, memastikan keamanan kendaraan selama beraktivitas.",
+            "highlights": [
+                "Motor",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Parkiran",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana kapasitas dan penataan area parkir di sini?",
+                    "mode": "fix",
+                    "answer": "Luas dan tertata rapi dengan pembagian zona khusus motor serta mobil."
+                },
+                {
+                    "q": "Apakah area parkir dijaga oleh petugas keamanan?",
+                    "mode": "fix",
+                    "answer": "Ya, area parkir diawasi oleh petugas keamanan dan sistem karcis resmi."
+                },
+                {
+                    "q": "Apakah lokasi parkir dekat dengan pintu masuk utama?",
+                    "mode": "fix",
+                    "answer": "Sangat dekat dan terhubung langsung dengan selasar depan gedung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Parkir Kendaraan.",
+                "describeHere": "Parkiran adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Panelsurya",
+            "displayName": "Ruang santai",
+            "placeId": "ruang-santai",
+            "placeName": "Ruang santai",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona ruang santai tempat istirahat bagi pengunjung dan penonton.",
+            "description": "Ruang Santai menyuguhkan deretan tempat duduk nyaman bagi pengunjung yang ingin beristirahat sejenak, menunggu giliran main, atau memantau pertandingan dari luar lapangan.",
+            "highlights": [
+                "Bangku",
+                "Kanopi"
+            ],
+            "talkingPoints": [
+                "Panelsurya",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari ruang santai ini?",
+                    "mode": "fix",
+                    "answer": "Tempat beristirahat bagi pemain atau menunggu rekan yang sedang bertanding."
+                },
+                {
+                    "q": "Bagaimana fasilitas tempat duduk di ruang santai?",
+                    "mode": "fix",
+                    "answer": "Dilengkapi kursi dan sofa yang empuk serta pencahayaan yang terang."
+                },
+                {
+                    "q": "Bagaimana suasana di sekitar ruang santai tersebut?",
+                    "mode": "fix",
+                    "answer": "Santai, nyaman, dan strategis karena dekat dengan area fasilitas utama."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang santai.",
+                "describeHere": "Panelsurya adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "placeId": "pintu-masuk",
+            "placeName": "Pintu Masuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu masuk utama gedung pusat olahraga Smashville.",
+            "description": "Pintu Masuk menyambut setiap kedatangan tamu dengan akses luas yang menghubungkan area luar langsung ke lobi utama dan pusat informasi pusat olahraga.",
+            "highlights": [
+                "Gerbang",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menuju kemana arah pintu masuk utama ini?",
+                    "mode": "fix",
+                    "answer": "Menuju langsung ke area lobi, meja kasir, dan pusat orientasi gedung."
+                },
+                {
+                    "q": "Bagaimana desain arsitektur pintu masuk utama?",
+                    "mode": "fix",
+                    "answer": "Terbuka, modern, dan dilengkapi kaca transparan yang elegan."
+                },
+                {
+                    "q": "Apakah pintu masuk ini mudah diakses oleh semua pengunjung?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah dijangkau dari area parkir utama gedung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk.",
+                "describeHere": "Pintu Masuk adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Lapangan",
+            "displayName": "Lapangan Badminton",
+            "placeId": "lapangan-bulu-tangkis",
+            "placeName": "Lapangan Bulu Tangkis",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan memanjang deretan lapangan bulu tangkis berstandar internasional.",
+            "description": "Lapangan Badminton menampilkan fasilitas 8 lapangan bulu tangkis berstandar BWF lengkap dengan lantai vinyl berkualitas tinggi serta pencahayaan lampu terang tanpa silau.",
+            "highlights": [
+                "Net",
+                "Papan skor"
+            ],
+            "talkingPoints": [
+                "Lapangan",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa jumlah lapangan bulu tangkis yang tersedia di sini?",
+                    "mode": "fix",
+                    "answer": "Tersedia 8 lapangan bulu tangkis berkualitas tinggi yang siap digunakan."
+                },
+                {
+                    "q": "Standar apa yang digunakan pada lapangan bulu tangkis ini?",
+                    "mode": "fix",
+                    "answer": "Telah memenuhi standar BWF dengan jenis lantai vinyl anti-slip."
+                },
+                {
+                    "q": "Bagaimana kualitas pencahayaan di area lapangan?",
+                    "mode": "fix",
+                    "answer": "Terang merata dan dirancang agar tidak menyilaukan pandangan pemain."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Bulu Tangkis.",
+                "describeHere": "Lapangan adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Area Bulutangkis",
+            "displayName": "Lapangan Bulut Tangkis Smashville",
+            "placeId": "lapangan-bulut-tangkis-smashville",
+            "placeName": "Lapangan Bulut Tangkis Smashville",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area permainan utama lapangan bulu tangkis dengan garis batas jelas.",
+            "description": "Lapangan Bulutangkis Smashville menyediakan arena bertanding yang luas dengan jaring net profesional dan garis lapangan presisi, ideal untuk latihan maupun turnamen.",
+            "highlights": [
+                "Pemain",
+                "Garis"
+            ],
+            "talkingPoints": [
+                "Area Bulutangkis",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana spesifikasi permukaan lantai lapangan bulu tangkis?",
+                    "mode": "fix",
+                    "answer": "Menggunakan matras vinyl khusus olahraga bulu tangkis yang kesat dan empuk."
+                },
+                {
+                    "q": "Fasilitas apa yang tersedia di tepi lapangan untuk pemain?",
+                    "mode": "fix",
+                    "answer": "Tersedia bangku istirahat dan papan skor digital di setiap sisi lapangan."
+                },
+                {
+                    "q": "Apakah sirkulasi udara di area lapangan terasa sejuk?",
+                    "mode": "fix",
+                    "answer": "Ya, dilengkapi sistem ventilasi dan exhaust yang menjaga kesegaran udara."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Lapangan Bulut Tangkis Smashville.",
+                "describeHere": "Area Bulutangkis adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Toilet",
+            "displayName": "Toilet",
+            "placeId": "toilet",
+            "placeName": "Toilet",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas toilet umum yang bersih, higienis, dan terawat.",
+            "description": "Toilet menyediakan fasilitas sanitasi bersih terpisah untuk pria dan wanita, selalu dijaga kebersihannya demi kenyamanan seluruh pengunjung dan atlet.",
+            "highlights": [
+                "Pintu bertanda",
+                "Koridor"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana standar kebersihan fasilitas toilet di Smashville?",
+                    "mode": "fix",
+                    "answer": "Selalu dijaga kebersihannya secara rutin setiap hari oleh petugas."
+                },
+                {
+                    "q": "Apakah tersedia fasilitas toilet terpisah?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia fasilitas kamar kecil terpisah antara pria dan wanita."
+                },
+                {
+                    "q": "Di mana lokasi toilet ini dapat dijumpai?",
+                    "mode": "fix",
+                    "answer": "Terletak di titik strategis dekat area lapangan dan lobi utama."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toilet.",
+                "describeHere": "Toilet adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Toilet",
+            "displayName": "Ruang Bilas Pemain",
+            "placeId": "ruang-bilas-pemain",
+            "placeName": "Ruang Bilas Pemain",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang bilas dan kamar mandi ganti khusus pemain yang bersih.",
+            "description": "Ruang Bilas Pemain menyediakan fasilitas pancuran air (shower) dan tempat ganti pakaian yang higienis, sangat membantu atlet atau pengunjung membersihkan diri usai berolahraga.",
+            "highlights": [
+                "Sekat",
+                "Akses bilas"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Smashvillebadmintoncenter"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari ruang bilas pemain ini?",
+                    "mode": "fix",
+                    "answer": "Tempat mandi, membersihkan diri, dan mengganti pakaian usai berolahraga."
+                },
+                {
+                    "q": "Fasilitas apa saja yang ada di dalam ruang bilas?",
+                    "mode": "fix",
+                    "answer": "Pancuran air bersih, sekat privasi, dan area ganti yang nyaman."
+                },
+                {
+                    "q": "Apakah ruang bilas ini terawat dengan baik?",
+                    "mode": "fix",
+                    "answer": "Ya, kebersihan air dan ruangan selalu dijaga secara profesional."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Bilas Pemain.",
+                "describeHere": "Toilet adalah area di dalam kawasan Smashvillebadmintoncenter, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

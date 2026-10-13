@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "gamacandiresto",
+    "updatedAt": "2026-09-29T09:50:47+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Gamacandiresto",
+            "aliases": [
+                "gamacandiresto"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "gamacandiresto"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Gamacandiresto.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gamacandiresto",
+                    "content": "Pusat pengalaman virtual untuk Gamacandiresto."
+                },
+                "en": {
+                    "title": "Gamacandiresto",
+                    "content": "Pusat pengalaman virtual untuk Gamacandiresto."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node19",
+            "aliases": [
+                "node19"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "gamacandiresto"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node19",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node19",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Gama Candi Resto",
+            "aliases": [
+                "gama candi resto"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "gamacandiresto"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gama Candi Resto",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Gama Candi Resto",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "gamacandiresto"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1054",
+            "entityId": "objinfo2:1054",
+            "title": "Hall Besar",
+            "aliases": [
+                "hall besar",
+                "objek 1054"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Hall Besar di restoran ini merupakan ruang serbaguna utama yang memiliki kapasitas sangat luas, mampu menampung ratusan hingga ribuan tamu dalam satu waktu. Ruangan ini menjadi pilihan utama bagi mereka yang ingin melangsungkan acara berskala besar seperti resepsi pernikahan, seminar nasional, acara gathering perusahaan, hingga peluncuran produk.",
+            "source": "webview-import",
+            "sourceId": "1054",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Hall Besar",
+                    "content": "Hall Besar di restoran ini merupakan ruang serbaguna utama yang memiliki kapasitas sangat luas, mampu menampung ratusan hingga ribuan tamu dalam satu waktu. Ruangan ini menjadi pilihan utama bagi mereka yang ingin melangsungkan acara berskala besar seperti resepsi pernikahan, seminar nasional, acara gathering perusahaan, hingga peluncuran produk."
+                },
+                "en": {
+                    "title": "Grand Hall",
+                    "content": "The Grand Hall in this restaurant is the main multipurpose space with a very large capacity, able to accommodate hundreds to thousands of guests at once. This room is the primary choice for those who want to host large-scale events such as wedding receptions, national seminars, corporate gatherings, and product launches."
+                },
+                "zh": {
+                    "title": "大礼堂",
+                    "content": "该餐厅的大礼堂是主要的多功能空间，拥有极大的容纳能力，可同时容纳数百至数千名宾客。对于举办大型活动的人士而言，这里是首选场地，例如婚礼宴会、全国研讨会、企业聚会以及产品发布会等。"
+                },
+                "ar": {
+                    "title": "القاعة الكبرى",
+                    "content": "القاعة الكبرى في هذا المطعم هي المساحة متعددة الاستخدامات الرئيسية ذات السعة الكبيرة جدًا، حيث يمكنها استيعاب مئات إلى آلاف الضيوف في وقت واحد. وتُعد هذه القاعة الخيار الأساسي لمن يرغب في إقامة فعاليات ضخمة مثل حفلات الزفاف، والندوات الوطنية، والتجمعات الشركاتية، وحتى إطلاق المنتجات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1055",
+            "entityId": "objinfo2:1055",
+            "title": "Taman",
+            "aliases": [
+                "taman",
+                "objek 1055"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Taman ini dirancang dengan konsep resort yang menonjolkan nuansa natural, lengkap dengan pepohonan tinggi dan tanaman hijau yang memberikan kesegaran udara khas perbukitan Mijen. Taman ini juga sering kali dialihfungsikan menjadi venue untuk acara luar ruangan seperti outdoor wedding, gathering perusahaan, hingga kegiatan outbound ringan.",
+            "source": "webview-import",
+            "sourceId": "1055",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Taman",
+                    "content": "Taman ini dirancang dengan konsep resort yang menonjolkan nuansa natural, lengkap dengan pepohonan tinggi dan tanaman hijau yang memberikan kesegaran udara khas perbukitan Mijen. Taman ini juga sering kali dialihfungsikan menjadi venue untuk acara luar ruangan seperti outdoor wedding, gathering perusahaan, hingga kegiatan outbound ringan."
+                },
+                "en": {
+                    "title": "Garden",
+                    "content": "This garden is designed with a resort concept that highlights a natural atmosphere, complete with tall trees and greenery that provide the fresh air typical of the Mijen hills. The garden is often repurposed as a venue for outdoor events such as outdoor weddings, corporate gatherings, and light outbound activities."
+                },
+                "zh": {
+                    "title": "花园",
+                    "content": "该花园以度假村概念设计，突出自然氛围，配有高大树木与绿色植物，带来米詹山丘特有的清新空气。该花园也常被改造为户外活动场地，如户外婚礼、企业聚会以及轻度拓展活动等。"
+                },
+                "ar": {
+                    "title": "الحديقة",
+                    "content": "تم تصميم هذه الحديقة بمفهوم منتجع يبرز الأجواء الطبيعية، مزودة بأشجار عالية ونباتات خضراء تمنح الهواء النقي المميز لتلال ميجن. وغالبًا ما تُستخدم الحديقة كمنصة لاستضافة فعاليات خارجية مثل حفلات الزفاف في الهواء الطلق، وتجمعات الشركات، وحتى أنشطة الخروج الخفيفة (outbound)."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1056",
+            "entityId": "objinfo2:1056",
+            "title": "Ruang Rapat Besar",
+            "aliases": [
+                "ruang rapat besar",
+                "objek 1056"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gama Candi Resto merupakan fasilitas utama bagi perusahaan atau instansi yang ingin menyelenggarakan agenda berskala luas, seperti rapat koordinasi tahunan, pelatihan karyawan (training), atau seminar. Ruangan ini memiliki kapasitas yang cukup besar untuk menampung banyak peserta.",
+            "source": "webview-import",
+            "sourceId": "1056",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Rapat Besar",
+                    "content": "Gama Candi Resto merupakan fasilitas utama bagi perusahaan atau instansi yang ingin menyelenggarakan agenda berskala luas, seperti rapat koordinasi tahunan, pelatihan karyawan (training), atau seminar. Ruangan ini memiliki kapasitas yang cukup besar untuk menampung banyak peserta."
+                },
+                "en": {
+                    "title": "Large Meeting Room",
+                    "content": "Gama Candi Resto is a primary facility for companies or institutions that want to host large-scale events such as annual coordination meetings, employee training, or seminars. This room has a fairly large capacity to accommodate many participants."
+                },
+                "zh": {
+                    "title": "大型会议室",
+                    "content": "Gama Candi Resto 是企业或机构举办大规模活动的主要场地，如年度协调会议、员工培训或研讨会。该房间拥有较大的容量，可容纳众多参与者。"
+                },
+                "ar": {
+                    "title": "غرفة اجتماعات كبيرة",
+                    "content": "يُعد Gama Candi Resto منشأة رئيسية للشركات أو المؤسسات التي ترغب في عقد فعاليات واسعة النطاق مثل اجتماعات التنسيق السنوية، أو تدريب الموظفين، أو الندوات. تتميز هذه القاعة بسعة كبيرة بما يكفي لاستيعاب عدد كبير من المشاركين."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1057",
+            "entityId": "objinfo2:1057",
+            "title": "Ruang VIP",
+            "aliases": [
+                "ruang vip",
+                "objek 1057"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini sangat ideal untuk pertemuan bisnis tertutup, rapat staf, arisan keluarga, atau perayaan ulang tahun terbatas dengan kapasitas mulai dari belasan hingga puluhan orang. Meskipun ukurannya lebih kompak, Hall Kecil tetap dilengkapi dengan fasilitas modern seperti pendingin ruangan (AC), proyektor, dan jaringan Wi-Fi untuk mendukung produktivitas.",
+            "source": "webview-import",
+            "sourceId": "1057",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang VIP",
+                    "content": "Ruangan ini sangat ideal untuk pertemuan bisnis tertutup, rapat staf, arisan keluarga, atau perayaan ulang tahun terbatas dengan kapasitas mulai dari belasan hingga puluhan orang. Meskipun ukurannya lebih kompak, Hall Kecil tetap dilengkapi dengan fasilitas modern seperti pendingin ruangan (AC), proyektor, dan jaringan Wi-Fi untuk mendukung produktivitas."
+                },
+                "en": {
+                    "title": "VIP Room",
+                    "content": "This room is very ideal for closed business meetings, staff meetings, family gatherings, or small birthday celebrations with a capacity ranging from a dozen to several dozen people. Although more compact in size, the Small Hall is still equipped with modern facilities such as air conditioning (AC), a projector, and Wi-Fi network to support productivity."
+                },
+                "zh": {
+                    "title": "贵宾室",
+                    "content": "该房间非常适合举办封闭式商务会议、员工会议、家庭聚会或小型生日庆祝活动，容纳人数从十几人到数十人不等。尽管面积较小，但小礼堂仍配备现代设施，如空调、投影仪和无线网络，以支持高效活动。"
+                },
+                "ar": {
+                    "title": "غرفة كبار الشخصيات",
+                    "content": "هذه الغرفة مثالية جدًا للاجتماعات التجارية المغلقة، واجتماعات الموظفين، أو تجمعات العائلة، أو حفلات أعياد الميلاد الصغيرة، بسعة تتراوح من العشرات القليلة إلى العشرات. وعلى الرغم من صغر حجمها، إلا أن القاعة الصغيرة مزودة بمرافق حديثة مثل تكييف الهواء، وجهاز عرض، وشبكة Wi-Fi لدعم الإنتاجية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1058",
+            "entityId": "objinfo2:1058",
+            "title": "Ruang Rapat Kecil",
+            "aliases": [
+                "ruang rapat kecil",
+                "objek 1058"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang Rapat Kecil disediakan bagi mereka yang membutuhkan ruang diskusi yang lebih fokus, privat, dan eksklusif. Ruangan ini sangat ideal untuk pertemuan direksi, negosiasi bisnis dengan klien, atau rapat tim kecil yang memerlukan ketenangan tanpa gangguan dari area publik restoran.",
+            "source": "webview-import",
+            "sourceId": "1058",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Rapat Kecil",
+                    "content": "Ruang Rapat Kecil disediakan bagi mereka yang membutuhkan ruang diskusi yang lebih fokus, privat, dan eksklusif. Ruangan ini sangat ideal untuk pertemuan direksi, negosiasi bisnis dengan klien, atau rapat tim kecil yang memerlukan ketenangan tanpa gangguan dari area publik restoran."
+                },
+                "en": {
+                    "title": "Small Meeting Room",
+                    "content": "The Small Meeting Room is provided for those who need a more focused, private, and exclusive discussion space. This room is ideal for board meetings, business negotiations with clients, or small team meetings that require tranquility without distractions from the restaurant’s public area."
+                },
+                "zh": {
+                    "title": "小型会议室",
+                    "content": "小型会议室为需要更专注、私密且高端讨论空间的人群提供服务。该房间非常适合董事会会议、与客户的商务谈判或需要安静环境、不受餐厅公共区域干扰的小型团队会议。"
+                },
+                "ar": {
+                    "title": "غرفة اجتماعات صغيرة",
+                    "content": "تُخصص غرفة الاجتماعات الصغيرة لمن يحتاج إلى مساحة نقاش أكثر تركيزًا وخصوصية وحصرية. وتُعد هذه الغرفة مثالية لاجتماعات الإدارة العليا، أو المفاوضات التجارية مع العملاء، أو اجتماعات الفرق الصغيرة التي تتطلب هدوءًا دون إزعاج من مناطق المطعم العامة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1059",
+            "entityId": "objinfo2:1059",
+            "title": "Bar",
+            "aliases": [
+                "bar",
+                "objek 1059"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area bar di Gama Candi Resto Semarang hadir dengan konsep yang elegan dan modern, berfungsi sebagai pusat penyajian aneka minuman segar yang melengkapi hidangan utama seafood dan masakan Nusantara. Bar ini dirancang dengan penataan yang rapi dan estetis, sering kali menjadi titik fokus visual yang menarik bagi pengunjung saat baru memasuki area restoran.",
+            "source": "webview-import",
+            "sourceId": "1059",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Bar",
+                    "content": "Area bar di Gama Candi Resto Semarang hadir dengan konsep yang elegan dan modern, berfungsi sebagai pusat penyajian aneka minuman segar yang melengkapi hidangan utama seafood dan masakan Nusantara. Bar ini dirancang dengan penataan yang rapi dan estetis, sering kali menjadi titik fokus visual yang menarik bagi pengunjung saat baru memasuki area restoran."
+                },
+                "en": {
+                    "title": "Bar",
+                    "content": "The bar area at Gama Candi Resto Semarang features an elegant and modern concept, serving as the central point for serving a variety of refreshing beverages that complement the main dishes of seafood and Nusantara cuisine. The bar is designed with neat and aesthetic arrangement, often becoming an attractive visual focal point for visitors as they enter the restaurant area."
+                },
+                "zh": {
+                    "title": "酒吧",
+                    "content": "Gama Candi Resto Semarang 的吧台区域采用优雅且现代的设计理念，作为提供各类清爽饮品的核心区域，以搭配海鲜和印尼传统料理等主菜。吧台布局整齐美观，常常成为顾客进入餐厅时的视觉焦点。"
+                },
+                "ar": {
+                    "title": "بار",
+                    "content": "تتميز منطقة البار في Gama Candi Resto Semarang بمفهوم أنيق وحديث، وتعمل كمركز لتقديم مجموعة متنوعة من المشروبات المنعشة التي تُكمل الأطباق الرئيسية من المأكولات البحرية والمأكولات النوسانتارا. تم تصميم البار بشكل مرتب وجمالي، وغالبًا ما يكون نقطة جذب بصرية للزوار عند دخولهم إلى منطقة المطعم."
+                }
+            }
+        }
+    ]
+}

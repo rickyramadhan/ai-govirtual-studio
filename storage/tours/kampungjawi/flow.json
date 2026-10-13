@@ -1,0 +1,59 @@
+{
+    "version": "1.0",
+    "tourId": "kampungjawi",
+    "tourName": "Kampungjawi",
+    "updatedAt": "2026-09-29T09:51:00+02:00",
+    "startScene": "node110",
+    "order": [
+        "node110",
+        "node111",
+        "node112",
+        "node113",
+        "node114",
+        "node115",
+        "node116",
+        "node117",
+        "node118",
+        "node119",
+        "node120",
+        "node121"
+    ],
+    "nodes": {
+        "node110": {
+            "displayName": "Sign Kampung Jawi"
+        },
+        "node111": {
+            "displayName": "Musholla"
+        },
+        "node112": {
+            "displayName": "Pintu Masuk"
+        },
+        "node113": {
+            "displayName": "Pangung Musik"
+        },
+        "node114": {
+            "displayName": "Umkm"
+        },
+        "node115": {
+            "displayName": "UMKM"
+        },
+        "node116": {
+            "displayName": "Spot foto"
+        },
+        "node117": {
+            "displayName": "Counter penukaran koin kepeng"
+        },
+        "node118": {
+            "displayName": "Aula pendopo"
+        },
+        "node119": {
+            "displayName": "Parkiran"
+        },
+        "node120": {
+            "displayName": "Area Terbuka"
+        },
+        "node121": {
+            "displayName": "Parkiran"
+        }
+    }
+}

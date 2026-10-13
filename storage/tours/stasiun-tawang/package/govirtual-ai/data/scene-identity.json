@@ -1,23 +1,23 @@
 {
     "version": "1.1-seed",
     "tourId": "stasiun-tawang",
-    "generatedAt": "2026-08-29",
+    "generatedAt": "2026-10-01",
     "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
     "scenes": {
         "node1": {
             "rawName": "Area Tunggu Keberangkatan",
-            "displayName": "Area Tunggu Keberangkatan",
-            "placeId": "area-tunggu-keberangkatan",
-            "placeName": "Area Tunggu Keberangkatan",
+            "displayName": "Ruang Tunggu Keberangkatan",
+            "placeId": "stasiun-semarang-tawang-ruang-tunggu-keberangkatan",
+            "placeName": "Stasiun Semarang Tawang – Ruang Tunggu Keberangkatan",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Tunggu Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Tunggu Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Tunggu Keberangkatan di Stasiun Semarang Tawang memperlihatkan kursi dan atap peron.",
+            "description": "Ruang Tunggu Keberangkatan di Stasiun Semarang Tawang memperlihatkan kursi dan atap peron. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kursi",
+                "Atap peron"
             ],
             "talkingPoints": [
                 "Area Tunggu Keberangkatan",
@@ -25,14 +25,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Tunggu Keberangkatan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama Ruang Tunggu Keberangkatan di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Ruang Tunggu Keberangkatan di Stasiun Semarang Tawang memperlihatkan kursi dan atap peron."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Ruang Tunggu Keberangkatan?",
+                    "mode": "fix",
+                    "answer": "Kursi dan Atap peron memperjelas susunan serta penggunaan ruang. Ruang Tunggu Keberangkatan di Stasiun Semarang Tawang memperlihatkan kursi dan atap peron."
+                },
+                {
+                    "q": "Apa fakta penting tentang Stasiun Semarang Tawang – Ruang Tunggu Keberangkatan yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lokomotif Fried Krupp D 301 59 Monumen lokomotif diesel hidrolik buatan Jerman ini dipajang di area depan stasiun sebagai ikon sejarah perkeretaapian Indonesia. Kehadirannya berfungsi sebagai sarana edukasi sekaligus spot foto populer yang menunjukkan kejayaan transportasi rel di masa lalu."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Tunggu Keberangkatan — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Ruang Tunggu Keberangkatan.",
                 "describeHere": "Area Tunggu Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -40,18 +52,18 @@
         },
         "node2": {
             "rawName": "Drone Tawang",
-            "displayName": "Drone Tawang",
-            "placeId": "drone-tawang",
-            "placeName": "Drone Tawang",
+            "displayName": "Tawang – Udara Jalur Rel",
+            "placeId": "stasiun-semarang-tawang-tawang-udara-jalur-rel",
+            "placeName": "Stasiun Semarang Tawang – Tawang – Udara Jalur Rel",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Tawang merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Rel dan kota menjadi unsur yang terlihat pada Tawang – Udara Jalur Rel di Stasiun Semarang Tawang.",
+            "description": "Rel dan kota menjadi unsur yang terlihat pada Tawang – Udara Jalur Rel di Stasiun Semarang Tawang. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Rel",
+                "Kota"
             ],
             "talkingPoints": [
                 "Drone Tawang",
@@ -59,14 +71,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Tawang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa Tawang – Udara Jalur Rel menjadi bagian penting dari Stasiun Semarang Tawang – Tawang – Udara Jalur Rel?",
+                    "mode": "fix",
+                    "answer": "Rel dan kota menjadi unsur yang terlihat pada Tawang – Udara Jalur Rel di Stasiun Semarang Tawang. Rel dan kota menjadi unsur yang terlihat pada Tawang – Udara Jalur Rel di Stasiun Semarang Tawang. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah. Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                },
+                {
+                    "q": "Apa hubungan Rel dengan aktivitas di Tawang – Udara Jalur Rel?",
+                    "mode": "fix",
+                    "answer": "Rel menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Rel dan kota menjadi unsur yang terlihat pada Tawang – Udara Jalur Rel di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa yang membedakan Tawang – Udara Jalur Rel dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Rel dan Kota. Rel dan kota menjadi unsur yang terlihat pada Tawang – Udara Jalur Rel di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Tawang — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Tawang – Udara Jalur Rel.",
                 "describeHere": "Drone Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -74,18 +98,19 @@
         },
         "node25": {
             "rawName": "Video360 1",
-            "displayName": "Video360 1",
-            "placeId": "video360-1",
-            "placeName": "Video360 1",
+            "displayName": "Tawang – Video 360 Udara",
+            "placeId": "stasiun-semarang-tawang-tawang-video-360-udara",
+            "placeName": "Stasiun Semarang Tawang – Tawang – Video 360 Udara",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Video360 1 merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Video360 1 adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Tawang – Video 360 Udara menampilkan kompleks stasiun dan permukiman di Stasiun Semarang Tawang.",
+            "description": "Pandangan Tawang – Video 360 Udara menampilkan kompleks stasiun dan permukiman di Stasiun Semarang Tawang. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kompleks stasiun",
+                "Permukiman",
+                "Media berlabel video 360 pada sumber"
             ],
             "talkingPoints": [
                 "Video360 1",
@@ -93,14 +118,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Video360 1.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa latar tempat yang membantu memahami Tawang – Video 360 Udara?",
+                    "mode": "fix",
+                    "answer": "Ruang Loket & Layanan Pelanggan Area ini merupakan pusat informasi dan penanganan administrasi tiket yang dilayani oleh staf profesional untuk membantu kendala penumpang. Ruangannya tertata rapi dan dilengkapi sistem antrean digital serta mesin ctak kartu otomais untuk menjamin ketertiban serta kenyamanan pengguna jasa."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Tawang – Video 360 Udara mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Kompleks stasiun bersama Permukiman menunjukkan cara area ini digunakan. Pandangan Tawang – Video 360 Udara menampilkan kompleks stasiun dan permukiman di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Tawang – Video 360 Udara?",
+                    "mode": "fix",
+                    "answer": "Kompleks stasiun menjadi detail utama, sedangkan Permukiman melengkapi konteksnya. Pandangan Tawang – Video 360 Udara menampilkan kompleks stasiun dan permukiman di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Video360 1 — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Tawang – Video 360 Udara.",
                 "describeHere": "Video360 1 adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -108,18 +145,18 @@
         },
         "node3": {
             "rawName": "Stasiun Tawang",
-            "displayName": "Stasiun Tawang",
-            "placeId": "stasiun-tawang",
-            "placeName": "Stasiun Tawang",
+            "displayName": "Tawang – Udara Jalan Depan",
+            "placeId": "stasiun-semarang-tawang-tawang-udara-jalan-depan",
+            "placeName": "Stasiun Semarang Tawang – Tawang – Udara Jalan Depan",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Stasiun Tawang merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Stasiun Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Tawang – Udara Jalan Depan, jalan dan gedung membentuk tampilan bagian Stasiun Semarang Tawang ini.",
+            "description": "Pada Tawang – Udara Jalan Depan, jalan dan gedung membentuk tampilan bagian Stasiun Semarang Tawang ini. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Jalan",
+                "Gedung"
             ],
             "talkingPoints": [
                 "Stasiun Tawang",
@@ -127,14 +164,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Stasiun Tawang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peran Tawang – Udara Jalan Depan dalam pengalaman pengunjung di Stasiun Semarang Tawang – Tawang – Udara Jalan Depan?",
+                    "mode": "fix",
+                    "answer": "Pada Tawang – Udara Jalan Depan, jalan dan gedung membentuk tampilan bagian Stasiun Semarang Tawang ini. Pada Tawang – Udara Jalan Depan, jalan dan gedung membentuk tampilan bagian Stasiun Semarang Tawang ini. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah. KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                },
+                {
+                    "q": "Mengapa Jalan penting pada Tawang – Udara Jalan Depan?",
+                    "mode": "fix",
+                    "answer": "Jalan membantu menjelaskan identitas dan fungsi Tawang – Udara Jalan Depan. Pada Tawang – Udara Jalan Depan, jalan dan gedung membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Tawang – Udara Jalan Depan?",
+                    "mode": "fix",
+                    "answer": "KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Stasiun Tawang — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Tawang – Udara Jalan Depan.",
                 "describeHere": "Stasiun Tawang adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -143,17 +192,17 @@
         "node6": {
             "rawName": "Pelayanan Pelanggan",
             "displayName": "Pelayanan Pelanggan",
-            "placeId": "pelayanan-pelanggan",
-            "placeName": "Pelayanan Pelanggan",
+            "placeId": "stasiun-semarang-tawang-pelayanan-pelanggan",
+            "placeName": "Stasiun Semarang Tawang – Pelayanan Pelanggan",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Pelayanan Pelanggan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pelayanan Pelanggan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelayanan Pelanggan menyorot meja dan kursi, dengan konteks kunjungan di Stasiun Semarang Tawang.",
+            "description": "Pelayanan Pelanggan menyorot meja dan kursi, dengan konteks kunjungan di Stasiun Semarang Tawang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Meja",
+                "Kursi"
             ],
             "talkingPoints": [
                 "Pelayanan Pelanggan",
@@ -161,16 +210,28 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pelayanan Pelanggan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana Pelayanan Pelanggan menunjukkan karakter Stasiun Semarang Tawang – Pelayanan Pelanggan?",
+                    "mode": "fix",
+                    "answer": "Pelayanan Pelanggan menyorot meja dan kursi, dengan konteks kunjungan di Stasiun Semarang Tawang. Pelayanan Pelanggan menyorot meja dan kursi, dengan konteks kunjungan di Stasiun Semarang Tawang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Lokomotif Fried Krupp D 301 59 Monumen lokomotif diesel hidrolik buatan Jerman ini dipajang di area depan stasiun sebagai ikon sejarah perkeretaapian Indonesia. Kehadirannya berfungsi sebagai sarana edukasi sekaligus spot foto populer yang menunjukkan kejayaan transportasi rel di masa lalu."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Meja dan Kursi di Pelayanan Pelanggan?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pelayanan Pelanggan menyorot meja dan kursi, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Pelayanan Pelanggan?",
+                    "mode": "fix",
+                    "answer": "Meja paling langsung membantu mengenali area ini. Pelayanan Pelanggan menyorot meja dan kursi, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1412"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pelayanan Pelanggan — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Pelayanan Pelanggan.",
                 "describeHere": "Pelayanan Pelanggan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -178,18 +239,18 @@
         },
         "node7": {
             "rawName": "Depan Gerbong",
-            "displayName": "Depan Gerbong",
-            "placeId": "depan-gerbong",
-            "placeName": "Depan Gerbong",
+            "displayName": "Peron – Sisi Kereta",
+            "placeId": "stasiun-semarang-tawang-peron-sisi-kereta",
+            "placeName": "Stasiun Semarang Tawang – Peron – Sisi Kereta",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Depan Gerbong merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Depan Gerbong adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Peron – Sisi Kereta di Stasiun Semarang Tawang memperlihatkan kereta dan garis batas.",
+            "description": "Peron – Sisi Kereta di Stasiun Semarang Tawang memperlihatkan kereta dan garis batas. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kereta",
+                "Garis batas"
             ],
             "talkingPoints": [
                 "Depan Gerbong",
@@ -197,14 +258,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Depan Gerbong.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Peron – Sisi Kereta?",
+                    "mode": "fix",
+                    "answer": "Peron – Sisi Kereta di Stasiun Semarang Tawang memperlihatkan kereta dan garis batas. Peron – Sisi Kereta di Stasiun Semarang Tawang memperlihatkan kereta dan garis batas. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Peron – Sisi Kereta?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Kereta dan Garis batas memberi petunjuk tentang kegiatan yang berlangsung di sini. Peron – Sisi Kereta di Stasiun Semarang Tawang memperlihatkan kereta dan garis batas."
+                },
+                {
+                    "q": "Apa konteks Stasiun Semarang Tawang – Peron – Sisi Kereta yang membuat Peron – Sisi Kereta lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Depan Gerbong — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Peron – Sisi Kereta.",
                 "describeHere": "Depan Gerbong adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -212,18 +285,18 @@
         },
         "node8": {
             "rawName": "Depan Peron",
-            "displayName": "Depan Peron",
-            "placeId": "depan-peron",
-            "placeName": "Depan Peron",
+            "displayName": "Peron – Akses Tangga",
+            "placeId": "stasiun-semarang-tawang-peron-akses-tangga",
+            "placeName": "Stasiun Semarang Tawang – Peron – Akses Tangga",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Depan Peron merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Depan Peron adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tangga dan petunjuk menjadi unsur yang terlihat pada Peron – Akses Tangga di Stasiun Semarang Tawang.",
+            "description": "Tangga dan petunjuk menjadi unsur yang terlihat pada Peron – Akses Tangga di Stasiun Semarang Tawang. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Tangga",
+                "Petunjuk"
             ],
             "talkingPoints": [
                 "Depan Peron",
@@ -231,14 +304,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Depan Peron.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama Peron – Akses Tangga di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Tangga dan petunjuk menjadi unsur yang terlihat pada Peron – Akses Tangga di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Peron – Akses Tangga?",
+                    "mode": "fix",
+                    "answer": "Tangga dan Petunjuk memperjelas susunan serta penggunaan ruang. Tangga dan petunjuk menjadi unsur yang terlihat pada Peron – Akses Tangga di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Stasiun Semarang Tawang – Peron – Akses Tangga yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang Loket & Layanan Pelanggan Area ini merupakan pusat informasi dan penanganan administrasi tiket yang dilayani oleh staf profesional untuk membantu kendala penumpang. Ruangannya tertata rapi dan dilengkapi sistem antrean digital serta mesin ctak kartu otomais untuk menjamin ketertiban serta kenyamanan pengguna jasa."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Depan Peron — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Peron – Akses Tangga.",
                 "describeHere": "Depan Peron adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -246,18 +331,18 @@
         },
         "node9": {
             "rawName": "Area Keberangkatan",
-            "displayName": "Area Keberangkatan",
-            "placeId": "area-keberangkatan",
-            "placeName": "Area Keberangkatan",
+            "displayName": "Lobi – Panel Cagar Budaya",
+            "placeId": "stasiun-semarang-tawang-lobi-panel-cagar-budaya",
+            "placeName": "Stasiun Semarang Tawang – Lobi – Panel Cagar Budaya",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Lobi – Panel Cagar Budaya menampilkan panel gambar dan kolom di Stasiun Semarang Tawang.",
+            "description": "Pandangan Lobi – Panel Cagar Budaya menampilkan panel gambar dan kolom di Stasiun Semarang Tawang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Panel gambar",
+                "Kolom"
             ],
             "talkingPoints": [
                 "Area Keberangkatan",
@@ -265,14 +350,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Keberangkatan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa Lobi – Panel Cagar Budaya menjadi bagian penting dari Stasiun Semarang Tawang – Lobi – Panel Cagar Budaya?",
+                    "mode": "fix",
+                    "answer": "Pandangan Lobi – Panel Cagar Budaya menampilkan panel gambar dan kolom di Stasiun Semarang Tawang. Pandangan Lobi – Panel Cagar Budaya menampilkan panel gambar dan kolom di Stasiun Semarang Tawang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia. KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                },
+                {
+                    "q": "Apa hubungan Panel gambar dengan aktivitas di Lobi – Panel Cagar Budaya?",
+                    "mode": "fix",
+                    "answer": "Panel gambar menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Lobi – Panel Cagar Budaya menampilkan panel gambar dan kolom di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa yang membedakan Lobi – Panel Cagar Budaya dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Panel gambar dan Kolom. Pandangan Lobi – Panel Cagar Budaya menampilkan panel gambar dan kolom di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Keberangkatan — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Lobi – Panel Cagar Budaya.",
                 "describeHere": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -280,18 +377,18 @@
         },
         "node10": {
             "rawName": "Lobby Keberangkatan",
-            "displayName": "Lobby Keberangkatan",
-            "placeId": "lobby-keberangkatan",
-            "placeName": "Lobby Keberangkatan",
+            "displayName": "Lobi Keberangkatan – Sisi Gerai",
+            "placeId": "stasiun-semarang-tawang-lobi-keberangkatan-sisi-gerai",
+            "placeName": "Stasiun Semarang Tawang – Lobi Keberangkatan – Sisi Gerai",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Lobby Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lobby Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lobi Keberangkatan – Sisi Gerai, gerai dan lampu membentuk tampilan bagian Stasiun Semarang Tawang ini.",
+            "description": "Pada Lobi Keberangkatan – Sisi Gerai, gerai dan lampu membentuk tampilan bagian Stasiun Semarang Tawang ini. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Area belanja menampilkan barang melalui rak, etalase, atau konter. Cahaya mengarahkan perhatian pada bidang kerja, objek, atau jalur tertentu. Perbedaan terang dan bayangan membuat susunan ruang lebih mudah dibaca.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gerai",
+                "Lampu"
             ],
             "talkingPoints": [
                 "Lobby Keberangkatan",
@@ -299,14 +396,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lobby Keberangkatan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa latar tempat yang membantu memahami Lobi Keberangkatan – Sisi Gerai?",
+                    "mode": "fix",
+                    "answer": "Lokomotif Fried Krupp D 301 59 Monumen lokomotif diesel hidrolik buatan Jerman ini dipajang di area depan stasiun sebagai ikon sejarah perkeretaapian Indonesia. Kehadirannya berfungsi sebagai sarana edukasi sekaligus spot foto populer yang menunjukkan kejayaan transportasi rel di masa lalu."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Lobi Keberangkatan – Sisi Gerai mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Gerai bersama Lampu menunjukkan cara area ini digunakan. Pada Lobi Keberangkatan – Sisi Gerai, gerai dan lampu membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Lobi Keberangkatan – Sisi Gerai?",
+                    "mode": "fix",
+                    "answer": "Gerai menjadi detail utama, sedangkan Lampu melengkapi konteksnya. Pada Lobi Keberangkatan – Sisi Gerai, gerai dan lampu membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lobby Keberangkatan — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Lobi Keberangkatan – Sisi Gerai.",
                 "describeHere": "Lobby Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -314,18 +423,18 @@
         },
         "node11": {
             "rawName": "Area Keberangkatan",
-            "displayName": "Area Keberangkatan",
-            "placeId": "area-keberangkatan",
-            "placeName": "Area Keberangkatan",
+            "displayName": "Lobi Keberangkatan – Tengah Ruang",
+            "placeId": "stasiun-semarang-tawang-lobi-keberangkatan-tengah-ruang",
+            "placeName": "Stasiun Semarang Tawang – Lobi Keberangkatan – Tengah Ruang",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Keberangkatan merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lobi Keberangkatan – Tengah Ruang menyorot plafon tinggi dan pintu, dengan konteks kunjungan di Stasiun Semarang Tawang.",
+            "description": "Lobi Keberangkatan – Tengah Ruang menyorot plafon tinggi dan pintu, dengan konteks kunjungan di Stasiun Semarang Tawang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Plafon tinggi",
+                "Pintu"
             ],
             "talkingPoints": [
                 "Area Keberangkatan",
@@ -333,14 +442,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Keberangkatan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peran Lobi Keberangkatan – Tengah Ruang dalam pengalaman pengunjung di Stasiun Semarang Tawang – Lobi Keberangkatan – Tengah Ruang?",
+                    "mode": "fix",
+                    "answer": "Lobi Keberangkatan – Tengah Ruang menyorot plafon tinggi dan pintu, dengan konteks kunjungan di Stasiun Semarang Tawang. Lobi Keberangkatan – Tengah Ruang menyorot plafon tinggi dan pintu, dengan konteks kunjungan di Stasiun Semarang Tawang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                },
+                {
+                    "q": "Mengapa Plafon tinggi penting pada Lobi Keberangkatan – Tengah Ruang?",
+                    "mode": "fix",
+                    "answer": "Plafon tinggi membantu menjelaskan identitas dan fungsi Lobi Keberangkatan – Tengah Ruang. Lobi Keberangkatan – Tengah Ruang menyorot plafon tinggi dan pintu, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Lobi Keberangkatan – Tengah Ruang?",
+                    "mode": "fix",
+                    "answer": "Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Keberangkatan — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Lobi Keberangkatan – Tengah Ruang.",
                 "describeHere": "Area Keberangkatan adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -348,18 +469,18 @@
         },
         "node12": {
             "rawName": "Area Ticketing",
-            "displayName": "Area Ticketing",
-            "placeId": "area-ticketing",
-            "placeName": "Area Ticketing",
+            "displayName": "Area Loket Tiket",
+            "placeId": "stasiun-semarang-tawang-area-loket-tiket",
+            "placeName": "Stasiun Semarang Tawang – Area Loket Tiket",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Ticketing merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Ticketing adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area Loket Tiket di Stasiun Semarang Tawang memperlihatkan loket dan ruang tunggu.",
+            "description": "Area Loket Tiket di Stasiun Semarang Tawang memperlihatkan loket dan ruang tunggu. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Loket",
+                "Ruang tunggu"
             ],
             "talkingPoints": [
                 "Area Ticketing",
@@ -367,14 +488,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Ticketing.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana Area Loket Tiket menunjukkan karakter Stasiun Semarang Tawang – Area Loket Tiket?",
+                    "mode": "fix",
+                    "answer": "Area Loket Tiket di Stasiun Semarang Tawang memperlihatkan loket dan ruang tunggu. Area Loket Tiket di Stasiun Semarang Tawang memperlihatkan loket dan ruang tunggu. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Ruang Loket & Layanan Pelanggan Area ini merupakan pusat informasi dan penanganan administrasi tiket yang dilayani oleh staf profesional untuk membantu kendala penumpang. Ruangannya tertata rapi dan dilengkapi sistem antrean digital serta mesin ctak kartu otomais untuk menjamin ketertiban serta kenyamanan pengguna jasa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Loket dan Ruang tunggu di Area Loket Tiket?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Area Loket Tiket di Stasiun Semarang Tawang memperlihatkan loket dan ruang tunggu."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Area Loket Tiket?",
+                    "mode": "fix",
+                    "answer": "Loket paling langsung membantu mengenali area ini. Area Loket Tiket di Stasiun Semarang Tawang memperlihatkan loket dan ruang tunggu."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Ticketing — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Area Loket Tiket.",
                 "describeHere": "Area Ticketing adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -382,18 +515,18 @@
         },
         "node13": {
             "rawName": "Gerbang Keluar",
-            "displayName": "Gerbang Keluar",
-            "placeId": "gerbang-keluar",
-            "placeName": "Gerbang Keluar",
+            "displayName": "Jalur Keluar Stasiun",
+            "placeId": "stasiun-semarang-tawang-jalur-keluar-stasiun",
+            "placeName": "Stasiun Semarang Tawang – Jalur Keluar Stasiun",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gerbang Keluar merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalan dan taman menjadi unsur yang terlihat pada Jalur Keluar Stasiun di Stasiun Semarang Tawang.",
+            "description": "Jalan dan taman menjadi unsur yang terlihat pada Jalur Keluar Stasiun di Stasiun Semarang Tawang. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Jalan",
+                "Taman"
             ],
             "talkingPoints": [
                 "Gerbang Keluar",
@@ -401,14 +534,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gerbang Keluar.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Jalur Keluar Stasiun?",
+                    "mode": "fix",
+                    "answer": "Jalan dan taman menjadi unsur yang terlihat pada Jalur Keluar Stasiun di Stasiun Semarang Tawang. Jalan dan taman menjadi unsur yang terlihat pada Jalur Keluar Stasiun di Stasiun Semarang Tawang. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan. KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Jalur Keluar Stasiun?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Jalan dan Taman memberi petunjuk tentang kegiatan yang berlangsung di sini. Jalan dan taman menjadi unsur yang terlihat pada Jalur Keluar Stasiun di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa konteks Stasiun Semarang Tawang – Jalur Keluar Stasiun yang membuat Jalur Keluar Stasiun lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gerbang Keluar — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Jalur Keluar Stasiun.",
                 "describeHere": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -416,18 +561,18 @@
         },
         "node14": {
             "rawName": "Gerbang Keluar",
-            "displayName": "Gerbang Keluar",
-            "placeId": "gerbang-keluar",
-            "placeName": "Gerbang Keluar",
+            "displayName": "Gerbang Kendaraan Keluar",
+            "placeId": "stasiun-semarang-tawang-gerbang-kendaraan-keluar",
+            "placeName": "Stasiun Semarang Tawang – Gerbang Kendaraan Keluar",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gerbang Keluar merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Gerbang Kendaraan Keluar menampilkan pos dan palang di Stasiun Semarang Tawang.",
+            "description": "Pandangan Gerbang Kendaraan Keluar menampilkan pos dan palang di Stasiun Semarang Tawang. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pos",
+                "Palang"
             ],
             "talkingPoints": [
                 "Gerbang Keluar",
@@ -435,14 +580,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gerbang Keluar.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama Gerbang Kendaraan Keluar di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Gerbang Kendaraan Keluar menampilkan pos dan palang di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Gerbang Kendaraan Keluar?",
+                    "mode": "fix",
+                    "answer": "Pos dan Palang memperjelas susunan serta penggunaan ruang. Pandangan Gerbang Kendaraan Keluar menampilkan pos dan palang di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Stasiun Semarang Tawang – Gerbang Kendaraan Keluar yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lokomotif Fried Krupp D 301 59 Monumen lokomotif diesel hidrolik buatan Jerman ini dipajang di area depan stasiun sebagai ikon sejarah perkeretaapian Indonesia. Kehadirannya berfungsi sebagai sarana edukasi sekaligus spot foto populer yang menunjukkan kejayaan transportasi rel di masa lalu."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gerbang Keluar — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Gerbang Kendaraan Keluar.",
                 "describeHere": "Gerbang Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -451,17 +608,17 @@
         "node16": {
             "rawName": "Masjid Al-Istiqomah",
             "displayName": "Masjid Al-Istiqomah",
-            "placeId": "masjid-al-istiqomah",
-            "placeName": "Masjid Al-Istiqomah",
+            "placeId": "stasiun-semarang-tawang-masjid-al-istiqomah",
+            "placeName": "Stasiun Semarang Tawang – Masjid Al-Istiqomah",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Masjid Al-Istiqomah merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Masjid Al-Istiqomah adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Masjid Al-Istiqomah, mihrab dan ruang salat membentuk tampilan bagian Stasiun Semarang Tawang ini.",
+            "description": "Pada Masjid Al-Istiqomah, mihrab dan ruang salat membentuk tampilan bagian Stasiun Semarang Tawang ini. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Mihrab",
+                "Ruang salat"
             ],
             "talkingPoints": [
                 "Masjid Al-Istiqomah",
@@ -469,14 +626,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Masjid Al-Istiqomah.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa Masjid Al-Istiqomah menjadi bagian penting dari Stasiun Semarang Tawang – Masjid Al-Istiqomah?",
+                    "mode": "fix",
+                    "answer": "Pada Masjid Al-Istiqomah, mihrab dan ruang salat membentuk tampilan bagian Stasiun Semarang Tawang ini. Pada Masjid Al-Istiqomah, mihrab dan ruang salat membentuk tampilan bagian Stasiun Semarang Tawang ini. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama. Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                },
+                {
+                    "q": "Apa hubungan Mihrab dengan aktivitas di Masjid Al-Istiqomah?",
+                    "mode": "fix",
+                    "answer": "Mihrab menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Masjid Al-Istiqomah, mihrab dan ruang salat membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                },
+                {
+                    "q": "Apa yang membedakan Masjid Al-Istiqomah dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Mihrab dan Ruang salat. Pada Masjid Al-Istiqomah, mihrab dan ruang salat membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Masjid Al-Istiqomah — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Masjid Al-Istiqomah.",
                 "describeHere": "Masjid Al-Istiqomah adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -484,18 +653,18 @@
         },
         "node17": {
             "rawName": "Pintu Keluar",
-            "displayName": "Pintu Keluar",
-            "placeId": "pintu-keluar",
-            "placeName": "Pintu Keluar",
+            "displayName": "Koridor Pintu Keluar",
+            "placeId": "stasiun-semarang-tawang-koridor-pintu-keluar",
+            "placeName": "Stasiun Semarang Tawang – Koridor Pintu Keluar",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pintu Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Pintu Keluar menyorot kanopi dan jalur warna, dengan konteks kunjungan di Stasiun Semarang Tawang.",
+            "description": "Koridor Pintu Keluar menyorot kanopi dan jalur warna, dengan konteks kunjungan di Stasiun Semarang Tawang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kanopi",
+                "Jalur warna"
             ],
             "talkingPoints": [
                 "Pintu Keluar",
@@ -503,14 +672,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pintu Keluar.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa latar tempat yang membantu memahami Koridor Pintu Keluar?",
+                    "mode": "fix",
+                    "answer": "Ruang Loket & Layanan Pelanggan Area ini merupakan pusat informasi dan penanganan administrasi tiket yang dilayani oleh staf profesional untuk membantu kendala penumpang. Ruangannya tertata rapi dan dilengkapi sistem antrean digital serta mesin ctak kartu otomais untuk menjamin ketertiban serta kenyamanan pengguna jasa."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Koridor Pintu Keluar mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Kanopi bersama Jalur warna menunjukkan cara area ini digunakan. Koridor Pintu Keluar menyorot kanopi dan jalur warna, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Koridor Pintu Keluar?",
+                    "mode": "fix",
+                    "answer": "Kanopi menjadi detail utama, sedangkan Jalur warna melengkapi konteksnya. Koridor Pintu Keluar menyorot kanopi dan jalur warna, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Koridor Pintu Keluar.",
                 "describeHere": "Pintu Keluar adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -518,18 +699,18 @@
         },
         "node18": {
             "rawName": "Lokomotif",
-            "displayName": "Lokomotif",
-            "placeId": "lokomotif",
-            "placeName": "Lokomotif",
+            "displayName": "Parkir Mobil Tawang",
+            "placeId": "stasiun-semarang-tawang-parkir-mobil-tawang",
+            "placeName": "Stasiun Semarang Tawang – Parkir Mobil Tawang",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Lokomotif merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lokomotif adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Parkir Mobil Tawang di Stasiun Semarang Tawang memperlihatkan mobil dan halaman.",
+            "description": "Parkir Mobil Tawang di Stasiun Semarang Tawang memperlihatkan mobil dan halaman. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Mobil",
+                "Halaman"
             ],
             "talkingPoints": [
                 "Lokomotif",
@@ -537,16 +718,28 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lokomotif.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peran Parkir Mobil Tawang dalam pengalaman pengunjung di Stasiun Semarang Tawang – Parkir Mobil Tawang?",
+                    "mode": "fix",
+                    "answer": "Parkir Mobil Tawang di Stasiun Semarang Tawang memperlihatkan mobil dan halaman. Parkir Mobil Tawang di Stasiun Semarang Tawang memperlihatkan mobil dan halaman. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat. KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                },
+                {
+                    "q": "Mengapa Mobil penting pada Parkir Mobil Tawang?",
+                    "mode": "fix",
+                    "answer": "Mobil membantu menjelaskan identitas dan fungsi Parkir Mobil Tawang. Parkir Mobil Tawang di Stasiun Semarang Tawang memperlihatkan mobil dan halaman."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Parkir Mobil Tawang?",
+                    "mode": "fix",
+                    "answer": "KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1410"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lokomotif — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Parkir Mobil Tawang.",
                 "describeHere": "Lokomotif adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -554,18 +747,18 @@
         },
         "node19": {
             "rawName": "Pintu Masuk",
-            "displayName": "Pintu Masuk",
-            "placeId": "pintu-masuk",
-            "placeName": "Pintu Masuk",
+            "displayName": "Selasar Komersial dan Tunggu",
+            "placeId": "stasiun-semarang-tawang-selasar-komersial-dan-tunggu",
+            "placeName": "Stasiun Semarang Tawang – Selasar Komersial dan Tunggu",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pintu Masuk merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pintu Masuk adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerai dan kursi menjadi unsur yang terlihat pada Selasar Komersial dan Tunggu di Stasiun Semarang Tawang.",
+            "description": "Gerai dan kursi menjadi unsur yang terlihat pada Selasar Komersial dan Tunggu di Stasiun Semarang Tawang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Gerai",
+                "Kursi"
             ],
             "talkingPoints": [
                 "Pintu Masuk",
@@ -573,14 +766,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pintu Masuk.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagaimana Selasar Komersial dan Tunggu menunjukkan karakter Stasiun Semarang Tawang – Selasar Komersial dan Tunggu?",
+                    "mode": "fix",
+                    "answer": "Gerai dan kursi menjadi unsur yang terlihat pada Selasar Komersial dan Tunggu di Stasiun Semarang Tawang. Gerai dan kursi menjadi unsur yang terlihat pada Selasar Komersial dan Tunggu di Stasiun Semarang Tawang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Lokomotif Fried Krupp D 301 59 Monumen lokomotif diesel hidrolik buatan Jerman ini dipajang di area depan stasiun sebagai ikon sejarah perkeretaapian Indonesia. Kehadirannya berfungsi sebagai sarana edukasi sekaligus spot foto populer yang menunjukkan kejayaan transportasi rel di masa lalu."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Gerai dan Kursi di Selasar Komersial dan Tunggu?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Gerai dan kursi menjadi unsur yang terlihat pada Selasar Komersial dan Tunggu di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Selasar Komersial dan Tunggu?",
+                    "mode": "fix",
+                    "answer": "Gerai paling langsung membantu mengenali area ini. Gerai dan kursi menjadi unsur yang terlihat pada Selasar Komersial dan Tunggu di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pintu Masuk — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Selasar Komersial dan Tunggu.",
                 "describeHere": "Pintu Masuk adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -588,18 +793,18 @@
         },
         "node20": {
             "rawName": "Ruang Luxury",
-            "displayName": "Ruang Luxury",
-            "placeId": "ruang-luxury",
-            "placeName": "Ruang Luxury",
+            "displayName": "Luxury Lounge – Area Duduk",
+            "placeId": "stasiun-semarang-tawang-luxury-lounge-area-duduk",
+            "placeName": "Stasiun Semarang Tawang – Luxury Lounge – Area Duduk",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Ruang Luxury merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Luxury Lounge – Area Duduk menampilkan kursi dan meja di Stasiun Semarang Tawang.",
+            "description": "Pandangan Luxury Lounge – Area Duduk menampilkan kursi dan meja di Stasiun Semarang Tawang. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Kursi",
+                "Meja"
             ],
             "talkingPoints": [
                 "Ruang Luxury",
@@ -607,16 +812,28 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Luxury.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Luxury Lounge – Area Duduk?",
+                    "mode": "fix",
+                    "answer": "Pandangan Luxury Lounge – Area Duduk menampilkan kursi dan meja di Stasiun Semarang Tawang. Pandangan Luxury Lounge – Area Duduk menampilkan kursi dan meja di Stasiun Semarang Tawang. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Luxury Lounge – Area Duduk?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Kursi dan Meja memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Luxury Lounge – Area Duduk menampilkan kursi dan meja di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa konteks Stasiun Semarang Tawang – Luxury Lounge – Area Duduk yang membuat Luxury Lounge – Area Duduk lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1416"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Luxury — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Luxury Lounge – Area Duduk.",
                 "describeHere": "Ruang Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -624,18 +841,18 @@
         },
         "node21": {
             "rawName": "Ruang Tunggu Luxury",
-            "displayName": "Ruang Tunggu Luxury",
-            "placeId": "ruang-tunggu-luxury",
-            "placeName": "Ruang Tunggu Luxury",
+            "displayName": "Luxury Lounge – Konter",
+            "placeId": "stasiun-semarang-tawang-luxury-lounge-konter",
+            "placeName": "Stasiun Semarang Tawang – Luxury Lounge – Konter",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Tunggu Luxury merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Tunggu Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Luxury Lounge – Konter, konter dan sofa membentuk tampilan bagian Stasiun Semarang Tawang ini.",
+            "description": "Pada Luxury Lounge – Konter, konter dan sofa membentuk tampilan bagian Stasiun Semarang Tawang ini. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. Papan informasi serta jalur menuju peron membantu penumpang menyesuaikan tujuan perjalanan. Sofa menyediakan tempat duduk untuk jeda atau percakapan sebelum kegiatan berikutnya. Penempatannya membantu membedakan bagian yang dapat digunakan untuk berhenti dari jalur yang harus tetap terbuka.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Konter",
+                "Sofa"
             ],
             "talkingPoints": [
                 "Ruang Tunggu Luxury",
@@ -643,14 +860,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Tunggu Luxury.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi utama Luxury Lounge – Konter di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Luxury Lounge – Konter, konter dan sofa membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Luxury Lounge – Konter?",
+                    "mode": "fix",
+                    "answer": "Konter dan Sofa memperjelas susunan serta penggunaan ruang. Pada Luxury Lounge – Konter, konter dan sofa membentuk tampilan bagian Stasiun Semarang Tawang ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang Stasiun Semarang Tawang – Luxury Lounge – Konter yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang Loket & Layanan Pelanggan Area ini merupakan pusat informasi dan penanganan administrasi tiket yang dilayani oleh staf profesional untuk membantu kendala penumpang. Ruangannya tertata rapi dan dilengkapi sistem antrean digital serta mesin ctak kartu otomais untuk menjamin ketertiban serta kenyamanan pengguna jasa."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Tunggu Luxury — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Luxury Lounge – Konter.",
                 "describeHere": "Ruang Tunggu Luxury adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -658,18 +887,18 @@
         },
         "node22": {
             "rawName": "Ruang Tunggu",
-            "displayName": "Ruang Tunggu",
-            "placeId": "ruang-tunggu",
-            "placeName": "Ruang Tunggu",
+            "displayName": "Koridor Peron Beratap",
+            "placeId": "stasiun-semarang-tawang-koridor-peron-beratap",
+            "placeName": "Stasiun Semarang Tawang – Koridor Peron Beratap",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Tunggu merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Tunggu adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Peron Beratap menyorot bangku dan peron, dengan konteks kunjungan di Stasiun Semarang Tawang.",
+            "description": "Koridor Peron Beratap menyorot bangku dan peron, dengan konteks kunjungan di Stasiun Semarang Tawang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Bangku",
+                "Peron"
             ],
             "talkingPoints": [
                 "Ruang Tunggu",
@@ -677,14 +906,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Tunggu.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa Koridor Peron Beratap menjadi bagian penting dari Stasiun Semarang Tawang – Koridor Peron Beratap?",
+                    "mode": "fix",
+                    "answer": "Koridor Peron Beratap menyorot bangku dan peron, dengan konteks kunjungan di Stasiun Semarang Tawang. Koridor Peron Beratap menyorot bangku dan peron, dengan konteks kunjungan di Stasiun Semarang Tawang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Fasilitas stasiun membagi kegiatan pembelian, menunggu, dan naik kereta. KAI Terrace Area semi-terbuka ini dirancang sebagai ruang tunggu modern yang nyaman dengan berbagai gerai makanan dan minuman pilihan. Fasilitas ini memungkinkan penumpang bersantai menikmati suasana stasiun sebelum keberangkatan tanpa merasa jenuh."
+                },
+                {
+                    "q": "Apa hubungan Bangku dengan aktivitas di Koridor Peron Beratap?",
+                    "mode": "fix",
+                    "answer": "Bangku menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Koridor Peron Beratap menyorot bangku dan peron, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Apa yang membedakan Koridor Peron Beratap dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Bangku dan Peron. Koridor Peron Beratap menyorot bangku dan peron, dengan konteks kunjungan di Stasiun Semarang Tawang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Tunggu — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Koridor Peron Beratap.",
                 "describeHere": "Ruang Tunggu adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -692,18 +933,18 @@
         },
         "node23": {
             "rawName": "Smoking Area",
-            "displayName": "Smoking Area",
-            "placeId": "smoking-area",
-            "placeName": "Smoking Area",
+            "displayName": "Area Merokok",
+            "placeId": "stasiun-semarang-tawang-area-merokok",
+            "placeName": "Stasiun Semarang Tawang – Area Merokok",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Smoking Area merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Smoking Area adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area Merokok di Stasiun Semarang Tawang memperlihatkan tempat duduk dan atap.",
+            "description": "Area Merokok di Stasiun Semarang Tawang memperlihatkan tempat duduk dan atap. Area duduk menyediakan tempat berhenti di antara kegiatan. Posisi kursi dan hubungannya dengan jalur membantu membedakan ruang menunggu dari ruang kerja atau aktivitas utama. Bentuk atap memengaruhi siluet bangunan dan hubungan ruang terlindung dengan area luar. Bagian tepi, bentang, serta bukaan memberi petunjuk cara ruang dinaungi.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Tempat duduk",
+                "Atap"
             ],
             "talkingPoints": [
                 "Smoking Area",
@@ -711,14 +952,26 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Smoking Area.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa latar tempat yang membantu memahami Area Merokok?",
+                    "mode": "fix",
+                    "answer": "Lokomotif Fried Krupp D 301 59 Monumen lokomotif diesel hidrolik buatan Jerman ini dipajang di area depan stasiun sebagai ikon sejarah perkeretaapian Indonesia. Kehadirannya berfungsi sebagai sarana edukasi sekaligus spot foto populer yang menunjukkan kejayaan transportasi rel di masa lalu."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Area Merokok mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Tempat duduk bersama Atap menunjukkan cara area ini digunakan. Area Merokok di Stasiun Semarang Tawang memperlihatkan tempat duduk dan atap."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Area Merokok?",
+                    "mode": "fix",
+                    "answer": "Tempat duduk menjadi detail utama, sedangkan Atap melengkapi konteksnya. Area Merokok di Stasiun Semarang Tawang memperlihatkan tempat duduk dan atap."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Smoking Area — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Area Merokok.",
                 "describeHere": "Smoking Area adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -726,18 +979,18 @@
         },
         "node24": {
             "rawName": "Teras",
-            "displayName": "Teras",
-            "placeId": "teras",
-            "placeName": "Teras",
+            "displayName": "Pusat Kuliner Tawang",
+            "placeId": "stasiun-semarang-tawang-pusat-kuliner-tawang",
+            "placeName": "Stasiun Semarang Tawang – Pusat Kuliner Tawang",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Teras merupakan bagian dari kawasan Stasiun Tawang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Teras adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerai bertingkat dan plaza menjadi unsur yang terlihat pada Pusat Kuliner Tawang di Stasiun Semarang Tawang.",
+            "description": "Gerai bertingkat dan plaza menjadi unsur yang terlihat pada Pusat Kuliner Tawang di Stasiun Semarang Tawang. Area belanja menampilkan barang melalui rak, etalase, atau konter. Susunan pajangan membantu pengunjung membandingkan pilihan sebelum bertransaksi.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Gerai bertingkat",
+                "Plaza"
             ],
             "talkingPoints": [
                 "Teras",
@@ -745,16 +998,28 @@
                 "Stasiun Tawang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Teras.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peran Pusat Kuliner Tawang dalam pengalaman pengunjung di Stasiun Semarang Tawang – Pusat Kuliner Tawang?",
+                    "mode": "fix",
+                    "answer": "Gerai bertingkat dan plaza menjadi unsur yang terlihat pada Pusat Kuliner Tawang di Stasiun Semarang Tawang. Gerai bertingkat dan plaza menjadi unsur yang terlihat pada Pusat Kuliner Tawang di Stasiun Semarang Tawang. Area belanja menampilkan barang melalui rak, etalase, atau konter. Susunan pajangan membantu pengunjung membandingkan pilihan sebelum bertransaksi. Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                },
+                {
+                    "q": "Mengapa Gerai bertingkat penting pada Pusat Kuliner Tawang?",
+                    "mode": "fix",
+                    "answer": "Gerai bertingkat membantu menjelaskan identitas dan fungsi Pusat Kuliner Tawang. Gerai bertingkat dan plaza menjadi unsur yang terlihat pada Pusat Kuliner Tawang di Stasiun Semarang Tawang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pusat Kuliner Tawang?",
+                    "mode": "fix",
+                    "answer": "Layanan Ruang Luxury Fasilitas ini menyediakan area tunggu eksklusif dengan interior elegan yang dilengkapi bar makanan kecil, minuman segar, dan perangkat pemanas makanan (microwave). Ruangan ini didesain untuk memberikan kenyamanan maksimal bagi penumpang kelas premium sebelum memulai perjalanan kereta api."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1411"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Teras — kawasan Stasiun Tawang.",
+                "currentLocation": "Anda sekarang berada di Stasiun Semarang Tawang – Pusat Kuliner Tawang.",
                 "describeHere": "Teras adalah area di dalam kawasan Stasiun Tawang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

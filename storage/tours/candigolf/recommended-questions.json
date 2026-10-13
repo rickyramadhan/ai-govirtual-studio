@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "candigolf",
+    "tourName": "Candi Golf",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Pemandangan Perbukitan",
+                "query": "Dari hole berapa kita bisa melihat pemandangan terbaik perbukitan Semarang?",
+                "desc": "Dari hole berapa kita bisa melihat pemandangan terbaik perbukitan Semarang?"
+            },
+            {
+                "label": "Fasilitas Kolam",
+                "query": "Apakah ada fasilitas kolam renang yang bisa digunakan untuk anggota keluarga?",
+                "desc": "Apakah ada fasilitas kolam renang yang bisa digunakan untuk anggota keluarga?"
+            },
+            {
+                "label": "Turnamen Member",
+                "query": "Seberapa sering turnamen khusus member diadakan di country club ini?",
+                "desc": "Seberapa sering turnamen khusus member diadakan di country club ini?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Desain Eksklusif",
+                "query": "Siapa arsitek di balik desain lapangan golf mewah yang menyatu dengan perbukitan ini?"
+            },
+            {
+                "label": "View Kota Semarang",
+                "query": "Bagaimana pemandangan lanskap kota Semarang dari ketinggian lapangan Candi Golf?"
+            },
+            {
+                "label": "Hole Signature",
+                "query": "Apa keunikan dan tantangan dari hole signature yang menjadi daya tarik utama lapangan ini?"
+            },
+            {
+                "label": "Fasilitas Keluarga",
+                "query": "Fasilitas apa saja yang disediakan untuk hiburan keluarga selain dari area permainan golf?"
+            },
+            {
+                "label": "Keanggotaan Golf",
+                "query": "Apa saja keuntungan eksklusif yang didapatkan dengan menjadi anggota di country club ini?"
+            },
+            {
+                "label": "Restoran & Kuliner",
+                "query": "Bagaimana pengalaman bersantap dengan pemandangan hijau di restoran dan lounge clubhouse?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Candi Golf?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Candi Golf?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Candi Golf?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

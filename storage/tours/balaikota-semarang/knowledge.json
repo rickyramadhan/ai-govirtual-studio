@@ -515,52 +515,6 @@
                     "content": "الطراز المعماري اليوناني-الروماني (إحياء الطراز اليوناني-الروماني). يُعد هذا المبنى مثالًا واضحًا على الطراز المعماري الكلاسيكي الجديد أو اليوناني-الروماني، الذي كان شائعًا جدًا خلال فترة الاستعمار في القرن التاسع عشر وبداية القرن العشرين."
                 }
             }
-        },
-        {
-            "id": "webview:objinfo2:1373",
-            "entityId": "objinfo2:1373",
-            "title": "KM Dharma Kartika VII",
-            "aliases": [
-                "km dharma kartika vii",
-                "objek 1373"
-            ],
-            "type": "information",
-            "categories": [
-                "informasi"
-            ],
-            "tags": [
-                "webview",
-                "objinfo2",
-                "auto"
-            ],
-            "sceneIds": [],
-            "content": "Panjang Keseluruhan (LOA): Sekitar 145 – 150 meter. Lebar (Breadth): Sekitar 22 – 24 meter. Draft (Kedalaman bagian kapal di bawah air): Sekitar 5 – 6 meter. Tonase Kotor (Gross Tonnage): Kapal ini berada di kisaran 10.000 – 11.000 GT.",
-            "source": "webview-import",
-            "sourceId": "1373",
-            "sourceType": "objinfo2",
-            "sourceFile": "semarang-260828.sql",
-            "sourceLine": 0,
-            "mappingConfidence": "WEBVIEW",
-            "mappingEvidence": "webview-knowledge auto-plant",
-            "provenance": "webview-import",
-            "translations": {
-                "id": {
-                    "title": "KM Dharma Kartika VII",
-                    "content": "Panjang Keseluruhan (LOA): Sekitar 145 – 150 meter. Lebar (Breadth): Sekitar 22 – 24 meter. Draft (Kedalaman bagian kapal di bawah air): Sekitar 5 – 6 meter. Tonase Kotor (Gross Tonnage): Kapal ini berada di kisaran 10.000 – 11.000 GT."
-                },
-                "en": {
-                    "title": "KM Dharma Kartika VII",
-                    "content": "Overall Length (LOA): Approximately 145–150 meters. Breadth: Approximately 22–24 meters. Draft (depth of the ship below water): Approximately 5–6 meters. Gross Tonnage: The vessel ranges around 10,000–11,000 GT."
-                },
-                "zh": {
-                    "title": "KM Dharma Kartika VII",
-                    "content": "总长度（LOA）：约 145–150 米。宽度：约 22–24 米。吃水深度（船体水下部分）：约 5–6 米。总吨位：该船约为 10,000–11,000 总吨。"
-                },
-                "ar": {
-                    "title": "سفينة KM دارما كارتكا السابعة",
-                    "content": "الطول الإجمالي (LOA): حوالي 145–150 متر. العرض (Breadth): حوالي 22–24 متر. الغاطس (عمق الجزء السفلي من السفينة تحت الماء): حوالي 5–6 متر. الوزن الإجمالي: السفينة تتراوح حوالي 10,000–11,000 طن إجمالي."
-                }
-            }
         }
     ]
 }

@@ -13,7 +13,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Keberangkatan Internasional"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node2",
@@ -27,7 +30,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "areapublikpenumpang"
-            ]
+            ],
+            "pan": 80.58,
+            "tilt": -0.5,
+            "fov": 142.29
         },
         {
             "id": "node3",
@@ -40,7 +46,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Kedatangan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node4",
@@ -54,7 +63,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "kontertaksi"
-            ]
+            ],
+            "pan": 11.84,
+            "tilt": -3.58,
+            "fov": 138.77
         },
         {
             "id": "node5",
@@ -67,7 +79,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Sensorik"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node6",
@@ -80,7 +95,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Kedatangan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node8",
@@ -93,7 +111,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Tunggu"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node9",
@@ -106,7 +127,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Monumen Kapal"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node11",
@@ -120,7 +144,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "pusatcheckin"
-            ]
+            ],
+            "pan": -13.44,
+            "tilt": 5.51,
+            "fov": 113.77
         },
         {
             "id": "node12",
@@ -133,7 +160,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Replika Sam Poo Kong"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node13",
@@ -146,7 +176,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Replika Sam Poo Kong"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node14",
@@ -159,7 +192,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Zona Antar Umum"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node15",
@@ -172,7 +208,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "hallutama"
-            ]
+            ],
+            "pan": 0.4,
+            "tilt": -1.09,
+            "fov": 114.98
         },
         {
             "id": "node16",
@@ -186,7 +225,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "layananimigrasi"
-            ]
+            ],
+            "pan": -149.85,
+            "tilt": -1.42,
+            "fov": 109.63
         },
         {
             "id": "node17",
@@ -199,7 +241,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Kedatangan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node18",
@@ -212,7 +257,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pemeriksaan Bagasi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node19",
@@ -225,7 +273,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Belanja"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node20",
@@ -238,7 +289,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Parkir Mobil"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node21",
@@ -251,7 +305,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Parkir VIP"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node22",
@@ -264,7 +321,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "paviliun"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node23",
@@ -277,7 +337,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Belanja"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node26",
@@ -290,7 +353,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Klaim Bagasi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node29",
@@ -303,7 +369,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pemeriksaan Keberangkatan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node30",
@@ -316,7 +385,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "restoranvip"
-            ]
+            ],
+            "pan": -4.7,
+            "tilt": -6.21,
+            "fov": 100
         },
         {
             "id": "node31",
@@ -329,7 +401,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Tunggu Disabilitas"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node32",
@@ -342,7 +417,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Tempat Bermain"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node33",
@@ -355,7 +433,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Tunggu VIP"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node34",
@@ -368,7 +449,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Belanja"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node35",
@@ -381,7 +465,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Keberangkatan Internasional"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node36",
@@ -395,7 +482,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "pojokbaca"
-            ]
+            ],
+            "pan": -76.32,
+            "tilt": 1.27,
+            "fov": 98.26
         },
         {
             "id": "node38",
@@ -408,7 +498,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Ruang Tunggu"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node39",
@@ -422,7 +515,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "pengambilanbagasi"
-            ]
+            ],
+            "pan": -31.78,
+            "tilt": 3.73,
+            "fov": 107.41
         },
         {
             "id": "node40",
@@ -435,7 +531,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Merokok"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node41",
@@ -448,7 +547,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Titik Turun Penumpang"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node42",
@@ -461,7 +563,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pengambilan Bagasi"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         }
     ],
     "hotspots": [
@@ -1518,9 +1623,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Keberangkatan Internasional merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Keberangkatan Internasional adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Terminal keberangkatan penerbangan luar negeri modern dengan fasilitas imigrasi dan boarding yang nyaman.",
+            "description": "Area Keberangkatan Internasional Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi fasilitas check-in, konter imigrasi, dan ruang tunggu khusus penerbangan luar negeri yang modern, bersih, dan berstandar internasional.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1531,14 +1636,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Keberangkatan Internasional.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Keberangkatan Internasional?",
+                    "mode": "ai",
+                    "answer": "Area ini menyuguhkan fasilitas terminal modern dengan tata ruang luas, layanan imigrasi cepat, serta gerai bebas bea (duty-free) eksklusif."
+                },
+                {
+                    "q": "Apa peran Keberangkatan Internasional dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Keberangkatan Internasional Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi fasilitas check-in, konter imigrasi, dan ruang tunggu khusus penerbangan luar negeri yang modern, bersih, dan berstandar internasional."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Keberangkatan Internasional. Terminal keberangkatan penerbangan luar negeri modern dengan fasilitas imigrasi dan boarding yang nyaman."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Keberangkatan Internasional — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Keberangkatan Internasional.",
                 "describeHere": "Keberangkatan Internasional adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1552,9 +1669,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Area Publik Penumpang merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Publik Penumpang adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona terbuka umum yang ramah pengunjung, pusat temu penumpang, dan area fasilitas pendukung.",
+            "description": "Area Publik Penumpang Bandara Internasional Jenderal Ahmad Yani Semarang merupakan ruang luas yang dapat diakses oleh pengantar, pengunjung, dan calon penumpang sebelum memasuki area check-in, lengkap dengan berbagai fasilitas penunjang.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1565,16 +1682,28 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Publik Penumpang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Area Publik Penumpang?",
+                    "mode": "ai",
+                    "answer": "Ruang publik yang lapang dengan tata cahaya terang, suasana modern, serta kemudahan akses ke berbagai fasilitas bandara."
+                },
+                {
+                    "q": "Apa peran Area Publik Penumpang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Publik Penumpang Bandara Internasional Jenderal Ahmad Yani Semarang merupakan ruang luas yang dapat diakses oleh pengantar, pengunjung, dan calon penumpang sebelum memasuki area check-in, lengkap dengan berbagai fasilitas penunjang."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Publik Penumpang. Zona terbuka umum yang ramah pengunjung, pusat temu penumpang, dan area fasilitas pendukung."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1381"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Publik Penumpang — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Area Publik Penumpang.",
                 "describeHere": "Area Publik Penumpang adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1588,9 +1717,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Kedatangan merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Kedatangan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu kedatangan penumpang pesawat dilengkapi fasilitas bagasi dan akses transportasi lanjutan.",
+            "description": "Area Kedatangan Bandara Internasional Jenderal Ahmad Yani Semarang menyambut para penumpang yang baru turun dari penerbangan, terhubung langsung dengan klaim bagasi serta koridor keluar menuju moda transportasi darat.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1601,14 +1730,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Kedatangan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Kedatangan?",
+                    "mode": "ai",
+                    "answer": "Suasana terminal yang menyambut dengan fasilitas lorong kedatangan yang nyaman serta kemudahan navigasi menuju area pengambilan bagasi."
+                },
+                {
+                    "q": "Apa peran Kedatangan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Kedatangan Bandara Internasional Jenderal Ahmad Yani Semarang menyambut para penumpang yang baru turun dari penerbangan, terhubung langsung dengan klaim bagasi serta koridor keluar menuju moda transportasi darat."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kedatangan. Pintu kedatangan penumpang pesawat dilengkapi fasilitas bagasi dan akses transportasi lanjutan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Kedatangan — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Kedatangan.",
                 "describeHere": "Kedatangan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1622,9 +1763,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Konter Taksi merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Konter Taksi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat pemesanan layanan transportasi taksi resmi yang aman dan terpercaya di bandara.",
+            "description": "Konter Taksi Bandara Internasional Jenderal Ahmad Yani menyediakan layanan pemesanan armada taksi resmi bandara yang siap mengantar penumpang menuju berbagai destinasi di Kota Semarang dan sekitarnya dengan aman dan transparan.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1635,16 +1776,28 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Konter Taksi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Konter Taksi?",
+                    "mode": "ai",
+                    "answer": "Kemudahan dan kepastian tarif resmi pemesanan transportasi lanjutan bagi penumpang yang baru tiba."
+                },
+                {
+                    "q": "Apa peran Konter Taksi dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Konter Taksi Bandara Internasional Jenderal Ahmad Yani menyediakan layanan pemesanan armada taksi resmi bandara yang siap mengantar penumpang menuju berbagai destinasi di Kota Semarang dan sekitarnya dengan aman dan transparan."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Konter Taksi. Pusat pemesanan layanan transportasi taksi resmi yang aman dan terpercaya di bandara."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1384"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Konter Taksi — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Konter Taksi.",
                 "describeHere": "Konter Taksi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1658,9 +1811,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Sensorik merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Sensorik adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ruang khusus ramah sensorik yang tenang untuk kenyamanan penumpang berkebutuhan khusus.",
+            "description": "Ruang Sensorik di Bandara Internasional Jenderal Ahmad Yani Semarang adalah fasilitas inklusif yang dirancang untuk memberikan ketenangan bagi penumpang dengan kebutuhan sensorik khusus, seperti anak-anak autis atau individu dengan sensitivitas tinggi terhadap kebisingan.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1671,14 +1824,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Sensorik.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Ruang Sensorik?",
+                    "mode": "ai",
+                    "answer": "Ruangan khusus berdesain menenangkan, minim kebisingan, serta dilengkapi sarana relaksasi yang ramah dan inklusif."
+                },
+                {
+                    "q": "Apa peran Ruang Sensorik dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruang Sensorik di Bandara Internasional Jenderal Ahmad Yani Semarang adalah fasilitas inklusif yang dirancang untuk memberikan ketenangan bagi penumpang dengan kebutuhan sensorik khusus, seperti anak-anak autis atau individu dengan sensitivitas tinggi terhadap kebisingan."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang Sensorik. Fasilitas ruang khusus ramah sensorik yang tenang untuk kenyamanan penumpang berkebutuhan khusus."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Sensorik — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Ruang Sensorik.",
                 "describeHere": "Ruang Sensorik adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1692,9 +1857,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Kedatangan merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Kedatangan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu kedatangan penumpang pesawat dilengkapi fasilitas bagasi dan akses transportasi lanjutan.",
+            "description": "Area Kedatangan Bandara Internasional Jenderal Ahmad Yani Semarang menyambut para penumpang yang baru turun dari penerbangan, terhubung langsung dengan klaim bagasi serta koridor keluar menuju moda transportasi darat.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1705,14 +1870,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Kedatangan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Kedatangan?",
+                    "mode": "ai",
+                    "answer": "Suasana terminal yang menyambut dengan fasilitas lorong kedatangan yang nyaman serta kemudahan navigasi menuju area pengambilan bagasi."
+                },
+                {
+                    "q": "Apa peran Kedatangan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Kedatangan Bandara Internasional Jenderal Ahmad Yani Semarang menyambut para penumpang yang baru turun dari penerbangan, terhubung langsung dengan klaim bagasi serta koridor keluar menuju moda transportasi darat."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kedatangan. Pintu kedatangan penumpang pesawat dilengkapi fasilitas bagasi dan akses transportasi lanjutan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Kedatangan — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Kedatangan.",
                 "describeHere": "Kedatangan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1726,9 +1903,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Tunggu merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Tunggu adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area tempat duduk nyaman berfasilitas lengkap menanti waktu keberangkatan penerbangan.",
+            "description": "Ruang Tunggu Bandara Internasional Jenderal Ahmad Yani Semarang menawarkan kursi yang ergonomis, pemandangan langsung ke area landasan (apron), serta fasilitas pengisian daya dan akses informasi penerbangan yang jelas.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1739,14 +1916,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Tunggu.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Ruang Tunggu?",
+                    "mode": "ai",
+                    "answer": "Pemandangan lalu lintas pesawat terbang di apron yang megah serta kenyamanan kursi tunggu berfasilitas modern."
+                },
+                {
+                    "q": "Apa peran Ruang Tunggu dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruang Tunggu Bandara Internasional Jenderal Ahmad Yani Semarang menawarkan kursi yang ergonomis, pemandangan langsung ke area landasan (apron), serta fasilitas pengisian daya dan akses informasi penerbangan yang jelas."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang Tunggu. Area tempat duduk nyaman berfasilitas lengkap menanti waktu keberangkatan penerbangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Tunggu — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Ruang Tunggu.",
                 "describeHere": "Ruang Tunggu adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1760,9 +1949,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Monumen Kapal merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Monumen Kapal adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Monumen ikonik bersejarah yang memperingati jejak kedirgantaraan dan maritim di Semarang.",
+            "description": "Monumen Kapal di kawasan Bandara Internasional Jenderal Ahmad Yani Semarang menjadi landmark unik yang merefleksikan sejarah serta identitas daerah pesisir Semarang yang kaya akan warisan bahari dan penerbangan.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1773,14 +1962,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Monumen Kapal.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Monumen Kapal?",
+                    "mode": "ai",
+                    "answer": "Bentuk monumen yang artistik dan sarat nilai sejarah, menjadi spot foto menarik bagi para pengunjung bandara."
+                },
+                {
+                    "q": "Apa peran Monumen Kapal dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Monumen Kapal di kawasan Bandara Internasional Jenderal Ahmad Yani Semarang menjadi landmark unik yang merefleksikan sejarah serta identitas daerah pesisir Semarang yang kaya akan warisan bahari dan penerbangan."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Monumen Kapal. Monumen ikonik bersejarah yang memperingati jejak kedirgantaraan dan maritim di Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Monumen Kapal — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Monumen Kapal.",
                 "describeHere": "Monumen Kapal adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1794,9 +1995,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pusat Check-in merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pusat Check-in adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area layanan cetak boarding pass dan penyerahan bagasi maskapai penerbangan.",
+            "description": "Pusat Check-in Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi konter pelayanan maskapai serta mesin self check-in otomatis untuk mempercepat proses administrasi penerbangan para penumpang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1807,14 +2008,28 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pusat Check-in.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Pusat Check-in?",
+                    "mode": "ai",
+                    "answer": "Sistem pelayanan yang terintegrasi dengan mesin mandiri modern serta petugas maskapai yang sigap."
+                },
+                {
+                    "q": "Apa peran Pusat Check-in dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pusat Check-in Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi konter pelayanan maskapai serta mesin self check-in otomatis untuk mempercepat proses administrasi penerbangan para penumpang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pusat Check-in. Area layanan cetak boarding pass dan penyerahan bagasi maskapai penerbangan."
+                }
             ],
-            "relatedKnowledgeIds": [],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1379"
+            ],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pusat Check-in — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Pusat Check-in.",
                 "describeHere": "Pusat Check-in adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1828,9 +2043,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Replika Sam Poo Kong merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Replika Sam Poo Kong adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Miniatur ikon budaya bersejarah Kelenteng Sam Poo Kong di area pameran bandara.",
+            "description": "Replika Sam Poo Kong di Bandara Internasional Jenderal Ahmad Yani Semarang menampilkan keindahan arsitektur khas klenteng bersejarah Laksamana Cheng Ho, menyambut wisatawan dengan pesona budaya khas Kota Semarang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1841,14 +2056,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Replika Sam Poo Kong.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Replika Sam Poo Kong?",
+                    "mode": "fix",
+                    "answer": "Miniatur ikon budaya bersejarah Kelenteng Sam Poo Kong di area pameran bandara."
+                },
+                {
+                    "q": "Apa peran Replika Sam Poo Kong dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Replika Sam Poo Kong di Bandara Internasional Jenderal Ahmad Yani Semarang menampilkan keindahan arsitektur khas klenteng bersejarah Laksamana Cheng Ho, menyambut wisatawan dengan pesona budaya khas Kota Semarang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Replika Sam Poo Kong. Miniatur ikon budaya bersejarah Kelenteng Sam Poo Kong di area pameran bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Replika Sam Poo Kong — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Replika Sam Poo Kong.",
                 "describeHere": "Replika Sam Poo Kong adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1862,9 +2089,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Replika Sam Poo Kong merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Replika Sam Poo Kong adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Miniatur ikon budaya bersejarah Kelenteng Sam Poo Kong di area pameran bandara.",
+            "description": "Replika Sam Poo Kong di Bandara Internasional Jenderal Ahmad Yani Semarang menampilkan keindahan arsitektur khas klenteng bersejarah Laksamana Cheng Ho, menyambut wisatawan dengan pesona budaya khas Kota Semarang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1875,14 +2102,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Replika Sam Poo Kong.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Replika Sam Poo Kong?",
+                    "mode": "fix",
+                    "answer": "Miniatur ikon budaya bersejarah Kelenteng Sam Poo Kong di area pameran bandara."
+                },
+                {
+                    "q": "Apa peran Replika Sam Poo Kong dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Replika Sam Poo Kong di Bandara Internasional Jenderal Ahmad Yani Semarang menampilkan keindahan arsitektur khas klenteng bersejarah Laksamana Cheng Ho, menyambut wisatawan dengan pesona budaya khas Kota Semarang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Replika Sam Poo Kong. Miniatur ikon budaya bersejarah Kelenteng Sam Poo Kong di area pameran bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Replika Sam Poo Kong — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Replika Sam Poo Kong.",
                 "describeHere": "Replika Sam Poo Kong adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1896,9 +2135,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Zona Antar Umum merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Zona Antar Umum adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area drop-off dan sirkulasi kendaraan pengantar penumpang di depan gedung terminal.",
+            "description": "Zona Antar Umum Bandara Internasional Jenderal Ahmad Yani Semarang adalah area khusus penURUNan penumpang (drop-off zone) yang luas dan tertib untuk kelancaran arus lalu lintas kendaraan pengantar.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1909,14 +2148,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Zona Antar Umum.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Zona Antar Umum?",
+                    "mode": "ai",
+                    "answer": "Kawasan jalur kedatangan kendaraan yang lapang, tertib, dan langsung terhubung dengan selasar depan terminal."
+                },
+                {
+                    "q": "Apa peran Zona Antar Umum dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Zona Antar Umum Bandara Internasional Jenderal Ahmad Yani Semarang adalah area khusus penURUNan penumpang (drop-off zone) yang luas dan tertib untuk kelancaran arus lalu lintas kendaraan pengantar."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Zona Antar Umum. Area drop-off dan sirkulasi kendaraan pengantar penumpang di depan gedung terminal."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Zona Antar Umum — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Zona Antar Umum.",
                 "describeHere": "Zona Antar Umum adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1930,9 +2181,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Hall Utama merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Hall Utama adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lobi utama terminal yang megah, luas, dan menyambut setiap pengunjung yang datang.",
+            "description": "Hall Utama Bandara Internasional Jenderal Ahmad Yani Semarang merupakan ruang sirkulasi sentral berarsitektur modern dengan pencahayaan alami yang megah, menjadi pusat orientasi utama di dalam gedung terminal.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1943,14 +2194,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Hall Utama.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Hall Utama?",
+                    "mode": "ai",
+                    "answer": "Ruang lobi yang sangat luas, megah, berdesain arsitektur modern kontemporer yang elegan."
+                },
+                {
+                    "q": "Apa peran Hall Utama dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Hall Utama Bandara Internasional Jenderal Ahmad Yani Semarang merupakan ruang sirkulasi sentral berarsitektur modern dengan pencahayaan alami yang megah, menjadi pusat orientasi utama di dalam gedung terminal."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Hall Utama. Lobi utama terminal yang megah, luas, dan menyambut setiap pengunjung yang datang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Hall Utama — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Hall Utama.",
                 "describeHere": "Hall Utama adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1964,9 +2227,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Layanan Imigrasi merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Layanan Imigrasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Konter pemeriksaan dokumen keimigrasian paspor bagi pelaku perjalanan internasional.",
+            "description": "Layanan Imigrasi Bandara Internasional Jenderal Ahmad Yani Semarang melayani pemeriksaan paspor, visa, dan clearance keimigrasian bagi penumpang yang akan berangkat atau tiba dari luar negeri secara profesional.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1977,16 +2240,28 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Layanan Imigrasi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Layanan Imigrasi?",
+                    "mode": "ai",
+                    "answer": "Fasilitas konter imigrasi modern dengan sistem pemeriksaan cepat dan petugas yang siaga melayani."
+                },
+                {
+                    "q": "Apa peran Layanan Imigrasi dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Layanan Imigrasi Bandara Internasional Jenderal Ahmad Yani Semarang melayani pemeriksaan paspor, visa, dan clearance keimigrasian bagi penumpang yang akan berangkat atau tiba dari luar negeri secara profesional."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Layanan Imigrasi. Konter pemeriksaan dokumen keimigrasian paspor bagi pelaku perjalanan internasional."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1376"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Layanan Imigrasi — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Layanan Imigrasi.",
                 "describeHere": "Layanan Imigrasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2000,9 +2275,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Kedatangan merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Kedatangan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona penyambutan penumpang tiba lengkap dengan fasilitas bagasi dan informasi.",
+            "description": "Area Kedatangan Bandara Internasional Jenderal Ahmad Yani Semarang menyediakan alur keluar yang nyaman bagi penumpang pesawat setelah mendarat, lengkap dengan papan informasi penerbangan dan fasilitas pendukung.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2013,14 +2288,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Kedatangan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Area Kedatangan?",
+                    "mode": "ai",
+                    "answer": "Suasana terminal yang ramah, bersih, serta navigasi penunjuk arah yang sangat jelas bagi para pendatang."
+                },
+                {
+                    "q": "Apa peran Area Kedatangan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Kedatangan Bandara Internasional Jenderal Ahmad Yani Semarang menyediakan alur keluar yang nyaman bagi penumpang pesawat setelah mendarat, lengkap dengan papan informasi penerbangan dan fasilitas pendukung."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Kedatangan. Zona penyambutan penumpang tiba lengkap dengan fasilitas bagasi dan informasi."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Kedatangan — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Area Kedatangan.",
                 "describeHere": "Area Kedatangan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2034,9 +2321,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pemeriksaan Bagasi merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pemeriksaan Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona pemindaian keamanan bagasi penumpang menggunakan teknologi X-ray modern.",
+            "description": "Area Pemeriksaan Bagasi Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi perangkat mesin pemindai sinar-X canggih guna memastikan keamanan seluruh barang bawaan sebelum masuk ke lambung pesawat.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2047,14 +2334,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pemeriksaan Bagasi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Pemeriksaan Bagasi?",
+                    "mode": "ai",
+                    "answer": "Sistem keamanan bagasi berteknologi tinggi yang memastikan prosedur keselamatan penerbangan berjalan optimal."
+                },
+                {
+                    "q": "Apa peran Pemeriksaan Bagasi dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Pemeriksaan Bagasi Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi perangkat mesin pemindai sinar-X canggih guna memastikan keamanan seluruh barang bawaan sebelum masuk ke lambung pesawat."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pemeriksaan Bagasi. Zona pemindaian keamanan bagasi penumpang menggunakan teknologi X-ray modern."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pemeriksaan Bagasi — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Pemeriksaan Bagasi.",
                 "describeHere": "Pemeriksaan Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2068,9 +2367,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Belanja merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Belanja adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat gerai ritel, oleh-oleh khas Semarang, dan cinderamata di dalam terminal bandara.",
+            "description": "Area Belanja Bandara Internasional Jenderal Ahmad Yani Semarang menghadirkan berbagai tenant terkemuka yang menjual suvenir khas Jawa Tengah, makanan tradisional, produk fesyen, dan kebutuhan perjalanan.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2081,14 +2380,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Belanja.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Area Belanja?",
+                    "mode": "ai",
+                    "answer": "Beraneka ragam pilihan toko oleh-oleh khas, jajanan tradisional lumpia, bandeng, hingga pernak-pernik unik."
+                },
+                {
+                    "q": "Apa peran Area Belanja dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Belanja Bandara Internasional Jenderal Ahmad Yani Semarang menghadirkan berbagai tenant terkemuka yang menjual suvenir khas Jawa Tengah, makanan tradisional, produk fesyen, dan kebutuhan perjalanan."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Belanja. Pusat gerai ritel, oleh-oleh khas Semarang, dan cinderamata di dalam terminal bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Belanja — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Area Belanja.",
                 "describeHere": "Area Belanja adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2102,9 +2413,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Parkir Mobil merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Parkir Mobil adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung dan area parkir kendaraan roda empat yang luas, teduh, dan tertib.",
+            "description": "Area Parkir Mobil Bandara Internasional Jenderal Ahmad Yani Semarang menyediakan kapasitas tampung kendaraan yang sangat luas dan tertata rapi untuk menjamin keamanan kendaraan para pengunjung dan penumpang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2115,14 +2426,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Parkir Mobil.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Parkir Mobil?",
+                    "mode": "ai",
+                    "answer": "Area parkir yang luas, bersih, bernomor jelas, serta terintegrasi langsung dengan selasar terminal bandara."
+                },
+                {
+                    "q": "Apa peran Parkir Mobil dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Parkir Mobil Bandara Internasional Jenderal Ahmad Yani Semarang menyediakan kapasitas tampung kendaraan yang sangat luas dan tertata rapi untuk menjamin keamanan kendaraan para pengunjung dan penumpang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Parkir Mobil. Gedung dan area parkir kendaraan roda empat yang luas, teduh, dan tertib."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Parkir Mobil — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Parkir Mobil.",
                 "describeHere": "Parkir Mobil adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2136,9 +2459,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Parkir VIP merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Parkir VIP adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area parkir khusus kendaraan VVIP dan tamu penting dengan pengamanan khusus.",
+            "description": "Area Parkir VIP Bandara Internasional Jenderal Ahmad Yani Semarang merupakan zona parkir khusus yang diperuntukkan bagi kendaraan kenegaraan, tamu penting, dan delegasi khusus dengan standar pengamanan ketat.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2149,14 +2472,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Parkir VIP.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Parkir VIP?",
+                    "mode": "ai",
+                    "answer": "Lokasi parkir eksklusif yang dekat dengan akses masuk ruang tunggu VVIP dan pengawalan khusus."
+                },
+                {
+                    "q": "Apa peran Parkir VIP dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Parkir VIP Bandara Internasional Jenderal Ahmad Yani Semarang merupakan zona parkir khusus yang diperuntukkan bagi kendaraan kenegaraan, tamu penting, dan delegasi khusus dengan standar pengamanan ketat."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Parkir VIP. Area parkir khusus kendaraan VVIP dan tamu penting dengan pengamanan khusus."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Parkir VIP — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Parkir VIP.",
                 "describeHere": "Parkir VIP adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2170,9 +2505,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Paviliun merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Paviliun adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area lounge dan paviliun khusus pelayanan tamu VVIP serta acara kenegaraan.",
+            "description": "Paviliun Bandara Internasional Jenderal Ahmad Yani Semarang berfungsi sebagai fasilitas penyambutan tamu VVIP, pejabat negara, serta pelaksanaan acara khusus dengan fasilitas interior yang mewah.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2183,14 +2518,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Paviliun.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Paviliun?",
+                    "mode": "ai",
+                    "answer": "Desain interior mewah, suasana privat yang tenang, serta pelayanan eksklusif bagi tamu penting."
+                },
+                {
+                    "q": "Apa peran Paviliun dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Paviliun Bandara Internasional Jenderal Ahmad Yani Semarang berfungsi sebagai fasilitas penyambutan tamu VVIP, pejabat negara, serta pelaksanaan acara khusus dengan fasilitas interior yang mewah."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Paviliun. Area lounge dan paviliun khusus pelayanan tamu VVIP serta acara kenegaraan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Paviliun — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Paviliun.",
                 "describeHere": "Paviliun adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2204,9 +2551,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Belanja merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Belanja adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat gerai ritel, oleh-oleh khas Semarang, dan cinderamata di dalam terminal bandara.",
+            "description": "Area Belanja Bandara Internasional Jenderal Ahmad Yani Semarang menghadirkan berbagai tenant terkemuka yang menjual suvenir khas Jawa Tengah, makanan tradisional, produk fesyen, dan kebutuhan perjalanan.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2217,14 +2564,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Belanja.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Area Belanja?",
+                    "mode": "ai",
+                    "answer": "Beraneka ragam pilihan toko oleh-oleh khas, jajanan tradisional lumpia, bandeng, hingga pernak-pernik unik."
+                },
+                {
+                    "q": "Apa peran Area Belanja dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Belanja Bandara Internasional Jenderal Ahmad Yani Semarang menghadirkan berbagai tenant terkemuka yang menjual suvenir khas Jawa Tengah, makanan tradisional, produk fesyen, dan kebutuhan perjalanan."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Belanja. Pusat gerai ritel, oleh-oleh khas Semarang, dan cinderamata di dalam terminal bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Belanja — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Area Belanja.",
                 "describeHere": "Area Belanja adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2238,9 +2597,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Klaim Bagasi merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Klaim Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area pengambilan bagasi dan koper penumpang setelah mendarat di bandara.",
+            "description": "Area Klaim Bagasi (Baggage Claim) Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi ban berjalan (conveyor belt) yang efisien untuk memudahkan penumpang mengambil barang bawaan mereka.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2251,14 +2610,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Klaim Bagasi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Klaim Bagasi?",
+                    "mode": "ai",
+                    "answer": "Layar informasi nomor penerbangan yang jelas serta sistem penyerahan bagasi yang cepat dan teratur."
+                },
+                {
+                    "q": "Apa peran Klaim Bagasi dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Klaim Bagasi (Baggage Claim) Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi ban berjalan (conveyor belt) yang efisien untuk memudahkan penumpang mengambil barang bawaan mereka."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Klaim Bagasi. Area pengambilan bagasi dan koper penumpang setelah mendarat di bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Klaim Bagasi — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Klaim Bagasi.",
                 "describeHere": "Klaim Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2272,9 +2643,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pemeriksaan Keberangkatan merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pemeriksaan Keberangkatan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pos pemeriksaan keamanan screening awal tiket dan barang bawaan penumpang keberangkatan.",
+            "description": "Pemeriksaan Keberangkatan (Security Check Point) di Bandara Internasional Jenderal Ahmad Yani Semarang adalah pos validasi tiket dan pemindaian keamanan barang bawaan penumpang sebelum menuju ruang tunggu.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2285,14 +2656,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pemeriksaan Keberangkatan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Pemeriksaan Keberangkatan?",
+                    "mode": "ai",
+                    "answer": "Prosedur pemeriksaan profesional dengan alat pemindai canggih untuk menjamin keselamatan penerbangan."
+                },
+                {
+                    "q": "Apa peran Pemeriksaan Keberangkatan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pemeriksaan Keberangkatan (Security Check Point) di Bandara Internasional Jenderal Ahmad Yani Semarang adalah pos validasi tiket dan pemindaian keamanan barang bawaan penumpang sebelum menuju ruang tunggu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pemeriksaan Keberangkatan. Pos pemeriksaan keamanan screening awal tiket dan barang bawaan penumpang keberangkatan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pemeriksaan Keberangkatan — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Pemeriksaan Keberangkatan.",
                 "describeHere": "Pemeriksaan Keberangkatan adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2306,9 +2689,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Restoran VIP merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Restoran VIP adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Restoran eksklusif menyajikan kuliner pilihan dengan kenyamanan bersantap kelas atas.",
+            "description": "Restoran VIP di Bandara Internasional Jenderal Ahmad Yani Semarang menawarkan menu kuliner berkualitas tinggi dalam suasana ruang bersantap yang elegan, tenang, dan privat bagi para tamu.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2319,14 +2702,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Restoran VIP.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Restoran VIP?",
+                    "mode": "ai",
+                    "answer": "Pilihan menu hidangan lezat dan suasana restoran yang tenang serta eksklusif di dalam kawasan bandara."
+                },
+                {
+                    "q": "Apa peran Restoran VIP dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Restoran VIP di Bandara Internasional Jenderal Ahmad Yani Semarang menawarkan menu kuliner berkualitas tinggi dalam suasana ruang bersantap yang elegan, tenang, dan privat bagi para tamu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Restoran VIP. Restoran eksklusif menyajikan kuliner pilihan dengan kenyamanan bersantap kelas atas."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Restoran VIP — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Restoran VIP.",
                 "describeHere": "Restoran VIP adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2340,9 +2735,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Tunggu Disabilitas merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Tunggu Disabilitas adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas ruang tunggu khusus yang ramah aksesibilitas bagi penyandang disabilitas.",
+            "description": "Ruang Tunggu Disabilitas di Bandara Internasional Jenderal Ahmad Yani Semarang dirancang khusus dengan fasilitas kursi roda, akses landai tanpa tangga, dan ruang gerak luas untuk kenyamanan penumpang berkebutuhan khusus.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2353,14 +2748,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Tunggu Disabilitas.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Ruang Tunggu Disabilitas?",
+                    "mode": "ai",
+                    "answer": "Fasilitas penunjang mobilitas yang lengkap, kursi ergonomis khusus, dan kemudahan aksesibilitas total."
+                },
+                {
+                    "q": "Apa peran Ruang Tunggu Disabilitas dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruang Tunggu Disabilitas di Bandara Internasional Jenderal Ahmad Yani Semarang dirancang khusus dengan fasilitas kursi roda, akses landai tanpa tangga, dan ruang gerak luas untuk kenyamanan penumpang berkebutuhan khusus."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang Tunggu Disabilitas. Fasilitas ruang tunggu khusus yang ramah aksesibilitas bagi penyandang disabilitas."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Tunggu Disabilitas — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Ruang Tunggu Disabilitas.",
                 "describeHere": "Ruang Tunggu Disabilitas adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2374,9 +2781,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Tempat Bermain merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Tempat Bermain adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area anak-anak yang ceria, aman, dan menyenangkan untuk bermain sebelum penerbangan.",
+            "description": "Tempat Bermain Anak (Kids Zone) di Bandara Internasional Jenderal Ahmad Yani Semarang menyediakan berbagai permainan edukatif yang aman dan menyenangkan untuk buah hati tercinta selama menunggu jadwal terbang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2387,14 +2794,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Tempat Bermain.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Tempat Bermain?",
+                    "mode": "ai",
+                    "answer": "Wahana permainan anak yang berwarna-warni, aman, dan bersih untuk mengusir kebosanan anak-anak."
+                },
+                {
+                    "q": "Apa peran Tempat Bermain dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Tempat Bermain Anak (Kids Zone) di Bandara Internasional Jenderal Ahmad Yani Semarang menyediakan berbagai permainan edukatif yang aman dan menyenangkan untuk buah hati tercinta selama menunggu jadwal terbang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Tempat Bermain. Area anak-anak yang ceria, aman, dan menyenangkan untuk bermain sebelum penerbangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Tempat Bermain — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Tempat Bermain.",
                 "describeHere": "Tempat Bermain adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2408,9 +2827,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Tunggu VIP merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Tunggu VIP adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lounge eksklusif berfasilitas mewah untuk kenyamanan beristirahat tamu VVIP.",
+            "description": "Ruang Tunggu VIP Bandara Internasional Jenderal Ahmad Yani Semarang menyajikan fasilitas istirahat premium, hidangan ringan, sofa empuk, dan layanan personal bagi para pejabat serta tamu penting.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2421,14 +2840,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Tunggu VIP.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Ruang Tunggu VIP?",
+                    "mode": "ai",
+                    "answer": "Fasilitas lounge eksklusif, suasana tenang, dan layanan prima kelas atas."
+                },
+                {
+                    "q": "Apa peran Ruang Tunggu VIP dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruang Tunggu VIP Bandara Internasional Jenderal Ahmad Yani Semarang menyajikan fasilitas istirahat premium, hidangan ringan, sofa empuk, dan layanan personal bagi para pejabat serta tamu penting."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang Tunggu VIP. Lounge eksklusif berfasilitas mewah untuk kenyamanan beristirahat tamu VVIP."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Tunggu VIP — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Ruang Tunggu VIP.",
                 "describeHere": "Ruang Tunggu VIP adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2442,9 +2873,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Belanja merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Belanja adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat gerai ritel, oleh-oleh khas Semarang, dan cinderamata di dalam terminal bandara.",
+            "description": "Area Belanja Bandara Internasional Jenderal Ahmad Yani Semarang menghadirkan berbagai tenant terkemuka yang menjual suvenir khas Jawa Tengah, makanan tradisional, produk fesyen, dan kebutuhan perjalanan.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2455,14 +2886,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Belanja.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Area Belanja?",
+                    "mode": "ai",
+                    "answer": "Beraneka ragam pilihan toko oleh-oleh khas, jajanan tradisional lumpia, bandeng, hingga pernak-pernik unik."
+                },
+                {
+                    "q": "Apa peran Area Belanja dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Belanja Bandara Internasional Jenderal Ahmad Yani Semarang menghadirkan berbagai tenant terkemuka yang menjual suvenir khas Jawa Tengah, makanan tradisional, produk fesyen, dan kebutuhan perjalanan."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Belanja. Pusat gerai ritel, oleh-oleh khas Semarang, dan cinderamata di dalam terminal bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Belanja — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Area Belanja.",
                 "describeHere": "Area Belanja adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2476,9 +2919,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Keberangkatan Internasional merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Keberangkatan Internasional adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Terminal keberangkatan penerbangan luar negeri modern dengan fasilitas imigrasi dan boarding yang nyaman.",
+            "description": "Area Keberangkatan Internasional Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi fasilitas check-in, konter imigrasi, dan ruang tunggu khusus penerbangan luar negeri yang modern, bersih, dan berstandar internasional.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2489,14 +2932,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Keberangkatan Internasional.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Keberangkatan Internasional?",
+                    "mode": "ai",
+                    "answer": "Area ini menyuguhkan fasilitas terminal modern dengan tata ruang luas, layanan imigrasi cepat, serta gerai bebas bea (duty-free) eksklusif."
+                },
+                {
+                    "q": "Apa peran Keberangkatan Internasional dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Keberangkatan Internasional Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi fasilitas check-in, konter imigrasi, dan ruang tunggu khusus penerbangan luar negeri yang modern, bersih, dan berstandar internasional."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Keberangkatan Internasional. Terminal keberangkatan penerbangan luar negeri modern dengan fasilitas imigrasi dan boarding yang nyaman."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Keberangkatan Internasional — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Keberangkatan Internasional.",
                 "describeHere": "Keberangkatan Internasional adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2510,9 +2965,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Pojok Baca merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pojok Baca adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut literasi nyaman menyediakan aneka buku bacaan berkualitas bagi penumpang.",
+            "description": "Pojok Baca (Reading Corner) di Bandara Internasional Jenderal Ahmad Yani Semarang adalah area tenang yang menyediakan koleksi buku bacaan inspiratif bagi penumpang untuk mengisi waktu luang sambil menunggu keberangkatan.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -2523,16 +2978,28 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pojok Baca.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Pojok Baca?",
+                    "mode": "ai",
+                    "answer": "Koleksi buku bacaan yang menarik serta suasana pojok ruangan yang tenang dan nyaman untuk membaca."
+                },
+                {
+                    "q": "Apa peran Pojok Baca dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Pojok Baca (Reading Corner) di Bandara Internasional Jenderal Ahmad Yani Semarang adalah area tenang yang menyediakan koleksi buku bacaan inspiratif bagi penumpang untuk mengisi waktu luang sambil menunggu keberangkatan."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pojok Baca. Sudut literasi nyaman menyediakan aneka buku bacaan berkualitas bagi penumpang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1387"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pojok Baca — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Pojok Baca.",
                 "describeHere": "Pojok Baca adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2546,9 +3013,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Ruang Tunggu merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Tunggu adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area tempat duduk nyaman berfasilitas lengkap menanti waktu keberangkatan penerbangan.",
+            "description": "Ruang Tunggu Bandara Internasional Jenderal Ahmad Yani Semarang menawarkan kursi yang ergonomis, pemandangan langsung ke area landasan (apron), serta fasilitas pengisian daya dan akses informasi penerbangan yang jelas.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2559,14 +3026,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Tunggu.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Ruang Tunggu?",
+                    "mode": "ai",
+                    "answer": "Pemandangan lalu lintas pesawat terbang di apron yang megah serta kenyamanan kursi tunggu berfasilitas modern."
+                },
+                {
+                    "q": "Apa peran Ruang Tunggu dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruang Tunggu Bandara Internasional Jenderal Ahmad Yani Semarang menawarkan kursi yang ergonomis, pemandangan langsung ke area landasan (apron), serta fasilitas pengisian daya dan akses informasi penerbangan yang jelas."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang Tunggu. Area tempat duduk nyaman berfasilitas lengkap menanti waktu keberangkatan penerbangan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Tunggu — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Ruang Tunggu.",
                 "describeHere": "Ruang Tunggu adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2580,9 +3059,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Pengambilan Bagasi merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pengambilan Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona conveyor belt tempat penumpang mengambil koper dan barang bawaan setibanya di bandara.",
+            "description": "Area Pengambilan Bagasi Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi sistem ban berjalan otomatis yang cepat dan tertib untuk memudahkan proses serah terima bagasi penumpang.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -2593,16 +3072,28 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pengambilan Bagasi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Pengambilan Bagasi?",
+                    "mode": "ai",
+                    "answer": "Proses keluarnya koper bagasi yang terpantau jelas di layar monitor dengan sistem conveyor yang efisien."
+                },
+                {
+                    "q": "Apa peran Pengambilan Bagasi dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Pengambilan Bagasi Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi sistem ban berjalan otomatis yang cepat dan tertib untuk memudahkan proses serah terima bagasi penumpang."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pengambilan Bagasi. Zona conveyor belt tempat penumpang mengambil koper dan barang bawaan setibanya di bandara."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1383"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pengambilan Bagasi — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Pengambilan Bagasi.",
                 "describeHere": "Pengambilan Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2616,9 +3107,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Merokok merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Merokok adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruangan khusus merokok tertutup dan berventilasi baik bagi perokok di dalam terminal.",
+            "description": "Area Merokok (Smoking Area) di Bandara Internasional Jenderal Ahmad Yani Semarang adalah ruangan khusus kedap asap dengan sistem penyaring udara modern agar kenyamanan seluruh penumpang tetap terjaga.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2629,14 +3120,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Merokok.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Area Merokok?",
+                    "mode": "ai",
+                    "answer": "Fasilitas ruangan merokok tertutup yang bersih dengan sistem sirkulasi udara khusus yang memadai."
+                },
+                {
+                    "q": "Apa peran Area Merokok dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Merokok (Smoking Area) di Bandara Internasional Jenderal Ahmad Yani Semarang adalah ruangan khusus kedap asap dengan sistem penyaring udara modern agar kenyamanan seluruh penumpang tetap terjaga."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Merokok. Ruangan khusus merokok tertutup dan berventilasi baik bagi perokok di dalam terminal."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Merokok — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Area Merokok.",
                 "describeHere": "Area Merokok adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2650,9 +3153,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Titik Turun Penumpang merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Titik Turun Penumpang adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lokasi drop-off strategis di depan lobi utama untuk menurunkan penumpang dan bagasi.",
+            "description": "Titik Turun Penumpang (Drop-off Zone) Bandara Internasional Jenderal Ahmad Yani Semarang adalah area pelataran depan terminal yang dirancang luas dan steril untuk kelancaran arus penurunan penumpang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2663,14 +3166,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Titik Turun Penumpang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Titik Turun Penumpang?",
+                    "mode": "ai",
+                    "answer": "Akses langsung yang dekat ke pintu masuk lobi utama terminal dengan alur kendaraan yang teratur."
+                },
+                {
+                    "q": "Apa peran Titik Turun Penumpang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Titik Turun Penumpang (Drop-off Zone) Bandara Internasional Jenderal Ahmad Yani Semarang adalah area pelataran depan terminal yang dirancang luas dan steril untuk kelancaran arus penurunan penumpang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Titik Turun Penumpang. Lokasi drop-off strategis di depan lobi utama untuk menurunkan penumpang dan bagasi."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Titik Turun Penumpang — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Titik Turun Penumpang.",
                 "describeHere": "Titik Turun Penumpang adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -2684,9 +3199,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pengambilan Bagasi merupakan bagian dari kawasan Bandara Ahmad Yani di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pengambilan Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona conveyor belt tempat penumpang mengambil koper dan barang bawaan setibanya di bandara.",
+            "description": "Area Pengambilan Bagasi Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi sistem ban berjalan otomatis yang cepat dan tertib untuk memudahkan proses serah terima bagasi penumpang.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -2697,14 +3212,26 @@ window.GoVirtualTourData = {
                 "Bandara Ahmad Yani"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pengambilan Bagasi.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang menarik di Pengambilan Bagasi?",
+                    "mode": "ai",
+                    "answer": "Proses keluarnya koper bagasi yang terpantau jelas di layar monitor dengan sistem conveyor yang efisien."
+                },
+                {
+                    "q": "Apa peran Pengambilan Bagasi dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Pengambilan Bagasi Bandara Internasional Jenderal Ahmad Yani Semarang dilengkapi sistem ban berjalan otomatis yang cepat dan tertib untuk memudahkan proses serah terima bagasi penumpang."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pengambilan Bagasi. Zona conveyor belt tempat penumpang mengambil koper dan barang bawaan setibanya di bandara."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pengambilan Bagasi — kawasan Bandara Ahmad Yani.",
+                "currentLocation": "Anda sekarang berada di Pengambilan Bagasi.",
                 "describeHere": "Pengambilan Bagasi adalah area di dalam kawasan Bandara Ahmad Yani, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

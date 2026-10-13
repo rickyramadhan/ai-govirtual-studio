@@ -1,0 +1,847 @@
+{
+    "version": "1.1-seed",
+    "tourId": "gamacandiresto",
+    "generatedAt": "2026-09-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node19": {
+            "rawName": "node19",
+            "displayName": "Area NODE19",
+            "placeId": "node19",
+            "placeName": "Area NODE19",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator (placeholder name)",
+            "shortDescription": "Area NODE19 adalah salah satu titik panorama di kawasan Gamacandiresto, Semarang — terhubung dengan jalur eksplorasi agrowisata.",
+            "description": "Area NODE19 (ID: node19) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "node19",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Area NODE19?",
+                    "mode": "fix",
+                    "answer": "Area NODE19 adalah salah satu titik panorama di kawasan Gamacandiresto, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                },
+                {
+                    "q": "Apa peran Area NODE19 dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area NODE19 (ID: node19) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area NODE19. Area NODE19 adalah salah satu titik panorama di kawasan Gamacandiresto, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area NODE19 — kawasan Gamacandiresto.",
+                "describeHere": "Area NODE19 (ID: node19) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Gama Candi Resto",
+            "displayName": "Gama Candi Resto",
+            "placeId": "gama-candi-resto",
+            "placeName": "Gama Candi Resto",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gama Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gama Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gama Candi Resto",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Gama Candi Resto?",
+                    "mode": "fix",
+                    "answer": "Gama Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Gama Candi Resto dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Gama Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Gama Candi Resto. Gama Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gama Candi Resto — kawasan Gamacandiresto.",
+                "describeHere": "Gama Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Gema Candi Resto",
+            "displayName": "Gema Candi Resto",
+            "placeId": "gema-candi-resto",
+            "placeName": "Gema Candi Resto",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gema Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gema Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gema Candi Resto",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Gema Candi Resto?",
+                    "mode": "fix",
+                    "answer": "Gema Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Gema Candi Resto dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Gema Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Gema Candi Resto. Gema Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gema Candi Resto — kawasan Gamacandiresto.",
+                "describeHere": "Gema Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Hallbesar",
+            "displayName": "Hallbesar",
+            "placeId": "hallbesar",
+            "placeName": "Hallbesar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Hallbesar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Hallbesar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Hallbesar",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Hallbesar?",
+                    "mode": "fix",
+                    "answer": "Hallbesar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Hallbesar dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Hallbesar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Hallbesar. Hallbesar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1054"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Hallbesar — kawasan Gamacandiresto.",
+                "describeHere": "Hallbesar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Ruang VIP",
+            "displayName": "Ruang VIP",
+            "placeId": "ruang-vip",
+            "placeName": "Ruang VIP",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Ruang VIP merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruang VIP adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruang VIP",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Ruang VIP?",
+                    "mode": "fix",
+                    "answer": "Ruang VIP merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Ruang VIP dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruang VIP adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang VIP. Ruang VIP merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang VIP — kawasan Gamacandiresto.",
+                "describeHere": "Ruang VIP adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Gama Candi Resto",
+            "displayName": "Gama Candi Resto",
+            "placeId": "gama-candi-resto",
+            "placeName": "Gama Candi Resto",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Gama Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Gama Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Gama Candi Resto",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Gama Candi Resto?",
+                    "mode": "fix",
+                    "answer": "Gama Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Gama Candi Resto dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Gama Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Gama Candi Resto. Gama Candi Resto merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gama Candi Resto — kawasan Gamacandiresto.",
+                "describeHere": "Gama Candi Resto adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Meetingkecil",
+            "displayName": "Meetingkecil",
+            "placeId": "meetingkecil",
+            "placeName": "Meetingkecil",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Meetingkecil merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Meetingkecil adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Meetingkecil",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Meetingkecil?",
+                    "mode": "fix",
+                    "answer": "Meetingkecil merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Meetingkecil dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Meetingkecil adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Meetingkecil. Meetingkecil merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1058"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Meetingkecil — kawasan Gamacandiresto.",
+                "describeHere": "Meetingkecil adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Meetingbesar",
+            "displayName": "Meetingbesar",
+            "placeId": "meetingbesar",
+            "placeName": "Meetingbesar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Meetingbesar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Meetingbesar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Meetingbesar",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Meetingbesar?",
+                    "mode": "fix",
+                    "answer": "Meetingbesar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Meetingbesar dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Meetingbesar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Meetingbesar. Meetingbesar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1056"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Meetingbesar — kawasan Gamacandiresto.",
+                "describeHere": "Meetingbesar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Area Parkir",
+            "displayName": "Area Parkir",
+            "placeId": "area-parkir",
+            "placeName": "Area Parkir",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Area Parkir merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Area Parkir adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Area Parkir?",
+                    "mode": "fix",
+                    "answer": "Area Parkir merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Area Parkir dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Parkir adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Parkir. Area Parkir merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Parkir — kawasan Gamacandiresto.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Tempat Bermain",
+            "displayName": "Tempat Bermain",
+            "placeId": "tempat-bermain",
+            "placeName": "Tempat Bermain",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Tempat Bermain merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Tempat Bermain adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Tempat Bermain",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Tempat Bermain?",
+                    "mode": "fix",
+                    "answer": "Tempat Bermain merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Tempat Bermain dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Tempat Bermain adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Tempat Bermain. Tempat Bermain merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tempat Bermain — kawasan Gamacandiresto.",
+                "describeHere": "Tempat Bermain adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Taman",
+            "displayName": "Taman",
+            "placeId": "taman",
+            "placeName": "Taman",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Taman merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Taman adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Taman?",
+                    "mode": "fix",
+                    "answer": "Taman merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Taman dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Taman adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Taman. Taman merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1055"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman — kawasan Gamacandiresto.",
+                "describeHere": "Taman adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Toilet",
+            "displayName": "Toilet",
+            "placeId": "toilet",
+            "placeName": "Toilet",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Toilet merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Toilet adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Toilet?",
+                    "mode": "fix",
+                    "answer": "Toilet merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Toilet dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Toilet adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Toilet. Toilet merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Toilet — kawasan Gamacandiresto.",
+                "describeHere": "Toilet adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Meetingvip",
+            "displayName": "Meetingvip",
+            "placeId": "meetingvip",
+            "placeName": "Meetingvip",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Meetingvip merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Meetingvip adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Meetingvip",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Meetingvip?",
+                    "mode": "fix",
+                    "answer": "Meetingvip merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Meetingvip dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Meetingvip adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Meetingvip. Meetingvip merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1057"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Meetingvip — kawasan Gamacandiresto.",
+                "describeHere": "Meetingvip adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "node14",
+            "displayName": "Area NODE14",
+            "placeId": "node14",
+            "placeName": "Area NODE14",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator (placeholder name)",
+            "shortDescription": "Area NODE14 adalah salah satu titik panorama di kawasan Gamacandiresto, Semarang — terhubung dengan jalur eksplorasi agrowisata.",
+            "description": "Area NODE14 (ID: node14) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "node14",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Area NODE14?",
+                    "mode": "fix",
+                    "answer": "Area NODE14 adalah salah satu titik panorama di kawasan Gamacandiresto, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                },
+                {
+                    "q": "Apa peran Area NODE14 dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area NODE14 (ID: node14) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area NODE14. Area NODE14 adalah salah satu titik panorama di kawasan Gamacandiresto, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area NODE14 — kawasan Gamacandiresto.",
+                "describeHere": "Area NODE14 (ID: node14) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Bar",
+            "displayName": "Bar",
+            "placeId": "bar",
+            "placeName": "Bar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Bar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Bar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Bar",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Bar?",
+                    "mode": "fix",
+                    "answer": "Bar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Bar dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Bar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Bar. Bar merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Bar — kawasan Gamacandiresto.",
+                "describeHere": "Bar adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Kasir",
+            "displayName": "Kasir",
+            "placeId": "kasir",
+            "placeName": "Kasir",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Kasir merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Kasir adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Kasir",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Kasir?",
+                    "mode": "fix",
+                    "answer": "Kasir merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Kasir dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Kasir adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kasir. Kasir merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kasir — kawasan Gamacandiresto.",
+                "describeHere": "Kasir adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Mushola",
+            "displayName": "Mushola",
+            "placeId": "mushola",
+            "placeName": "Mushola",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Mushola merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Mushola adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Mushola",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Mushola?",
+                    "mode": "fix",
+                    "answer": "Mushola merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Mushola dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Mushola adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Mushola. Mushola merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Mushola — kawasan Gamacandiresto.",
+                "describeHere": "Mushola adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Musholla",
+            "displayName": "Musholla",
+            "placeId": "musholla",
+            "placeName": "Musholla",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Musholla merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Musholla adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Gamacandiresto"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Musholla?",
+                    "mode": "fix",
+                    "answer": "Musholla merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Musholla dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Musholla adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Musholla. Musholla merupakan bagian dari kawasan Gamacandiresto di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Musholla — kawasan Gamacandiresto.",
+                "describeHere": "Musholla adalah area di dalam kawasan Gamacandiresto, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

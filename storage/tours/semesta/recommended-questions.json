@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "semesta",
+    "tourName": "Semesta",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Beasiswa Pendidikan",
+                "query": "Apakah Sekolah Semesta membuka program beasiswa penuh untuk siswa berprestasi dari luar daerah?",
+                "desc": "Apakah Sekolah Semesta membuka program beasiswa penuh untuk siswa berprestasi dari luar daerah?"
+            },
+            {
+                "label": "Biaya SPP & Asrama",
+                "query": "Di mana orang tua bisa mendapatkan rincian lengkap biaya pendidikan dan bulanan asrama?",
+                "desc": "Di mana orang tua bisa mendapatkan rincian lengkap biaya pendidikan dan bulanan asrama?"
+            },
+            {
+                "label": "Aturan Penggunaan Gadget",
+                "query": "Apakah siswa diperbolehkan membawa dan menggunakan ponsel pintar (gadget) selama tinggal di asrama?",
+                "desc": "Apakah siswa diperbolehkan membawa dan menggunakan ponsel pintar (gadget) selama tinggal di asrama?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sekolah Berbasis Asrama",
+                "query": "Bagaimana konsep pendidikan berasrama (boarding school) di Semesta membentuk kemandirian dan karakter siswa?"
+            },
+            {
+                "label": "Kurikulum Internasional",
+                "query": "Bagaimana integrasi antara kurikulum nasional dengan program pendidikan standar internasional (Cambridge) di sekolah ini?"
+            },
+            {
+                "label": "Prestasi Olimpiade Sains",
+                "query": "Bagaimana sistem pembinaan khusus yang membuat siswa SMP/SMA Semesta langganan juara olimpiade sains internasional?"
+            },
+            {
+                "label": "Fasilitas Olahraga & Seni",
+                "query": "Apa saja fasilitas penunjang bakat non-akademik seperti lapangan olahraga indoor yang megah dan ruang kesenian?"
+            },
+            {
+                "label": "Lingkungan Hijau Gunungpati",
+                "query": "Bagaimana suasana asri dan sejuk di lingkungan sekolah yang berada di dataran tinggi Gunungpati mendukung fokus belajar?"
+            },
+            {
+                "label": "Program Pembinaan Karakter",
+                "query": "Bagaimana penerapan pendidikan moral, kedisiplinan, dan kegiatan keagamaan sehari-hari di lingkungan asrama?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Semesta?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Semesta?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Semesta?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

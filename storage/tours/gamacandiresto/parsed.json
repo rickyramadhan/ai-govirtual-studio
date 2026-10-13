@@ -1,0 +1,627 @@
+{
+    "startNode": "node3",
+    "scenes": [
+        {
+            "id": "node19",
+            "name": "node19",
+            "displayName": "node19",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node2",
+            "name": "Gama Candi Resto",
+            "displayName": "Gama Candi Resto",
+            "rawName": "",
+            "customNodeId": "-ama-andi-esto",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Gama Candi Resto"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Gema Candi Resto",
+            "displayName": "Gema Candi Resto",
+            "rawName": "",
+            "customNodeId": "-ema-andi-esto",
+            "pan": 3.2,
+            "tilt": 4.63,
+            "fov": 129.81,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Gema Candi Resto"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Hallbesar",
+            "displayName": "Hallbesar",
+            "rawName": "",
+            "customNodeId": "hallbesar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "hallbesar"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Ruang VIP",
+            "displayName": "Ruang VIP",
+            "rawName": "",
+            "customNodeId": "-uang-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Ruang VIP"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Gama Candi Resto",
+            "displayName": "Gama Candi Resto",
+            "rawName": "",
+            "customNodeId": "-ama-andi-esto",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Gama Candi Resto"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Meetingkecil",
+            "displayName": "Meetingkecil",
+            "rawName": "",
+            "customNodeId": "meetingkecil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "meetingkecil"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Meetingbesar",
+            "displayName": "Meetingbesar",
+            "rawName": "",
+            "customNodeId": "meetingbesar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto",
+                "oi"
+            ],
+            "aliases": [
+                "meetingbesar"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Tempat Bermain",
+            "displayName": "Tempat Bermain",
+            "rawName": "",
+            "customNodeId": "-empat-ermain",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Tempat Bermain"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Taman",
+            "displayName": "Taman",
+            "rawName": "",
+            "customNodeId": "taman",
+            "pan": -34.93,
+            "tilt": 5.1,
+            "fov": 100,
+            "tags": [
+                "GamaCandiResto",
+                "oi"
+            ],
+            "aliases": [
+                "taman"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Toilet",
+            "displayName": "Toilet",
+            "rawName": "",
+            "customNodeId": "-oilet",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Toilet"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Meetingvip",
+            "displayName": "Meetingvip",
+            "rawName": "",
+            "customNodeId": "meetingvip",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "meetingvip"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "node14",
+            "displayName": "node14",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node15",
+            "name": "Bar",
+            "displayName": "Bar",
+            "rawName": "",
+            "customNodeId": "-ar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Bar"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Kasir",
+            "displayName": "Kasir",
+            "rawName": "",
+            "customNodeId": "kasir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto",
+                "oi"
+            ],
+            "aliases": [
+                "kasir"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Mushola",
+            "displayName": "Mushola",
+            "rawName": "",
+            "customNodeId": "-ushola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Mushola"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "GamaCandiResto"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node19",
+            "target": "node3",
+            "title": "Gema Candi Resto",
+            "id": "Point01",
+            "pan": -0.09,
+            "tilt": -24.77
+        },
+        {
+            "scene": "node19",
+            "target": "node9",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -56.18,
+            "tilt": -18.2
+        },
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -285.57,
+            "tilt": -10.74
+        },
+        {
+            "scene": "node2",
+            "target": "node16",
+            "title": "Lobi",
+            "id": "Point02",
+            "pan": -0.9,
+            "tilt": -3.83
+        },
+        {
+            "scene": "node3",
+            "target": "node2",
+            "title": "Gama Candi Resto",
+            "id": "Point01",
+            "pan": -2.3,
+            "tilt": -6.61
+        },
+        {
+            "scene": "node3",
+            "target": "node9",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -206,
+            "tilt": 9.9
+        },
+        {
+            "scene": "node4",
+            "target": "node10",
+            "title": "Tempat Bermain",
+            "id": "Point01",
+            "pan": -224.27,
+            "tilt": -8.78
+        },
+        {
+            "scene": "node4",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -304.08,
+            "tilt": -1.98
+        },
+        {
+            "scene": "node4",
+            "target": "node11",
+            "title": "Area Outdoor",
+            "id": "Point03",
+            "pan": -124.48,
+            "tilt": -10.1
+        },
+        {
+            "scene": "node5",
+            "target": "node6",
+            "title": "Gama Candi Resto",
+            "id": "Point01",
+            "pan": -272.92,
+            "tilt": 4.35
+        },
+        {
+            "scene": "node5",
+            "target": "node13",
+            "title": "Ruang VIP",
+            "id": "Point02",
+            "pan": -293.54,
+            "tilt": -2.96
+        },
+        {
+            "scene": "node5",
+            "target": "node18",
+            "title": "Musholla",
+            "id": "Point03",
+            "pan": -58.2,
+            "tilt": -1.21
+        },
+        {
+            "scene": "node5",
+            "target": "node11",
+            "title": "Area Outdoor",
+            "id": "Point04",
+            "pan": -207.19,
+            "tilt": -9.18
+        },
+        {
+            "scene": "node6",
+            "target": "node12",
+            "title": "Toilet",
+            "id": "Point01",
+            "pan": -294.29,
+            "tilt": -5.94
+        },
+        {
+            "scene": "node6",
+            "target": "node15",
+            "title": "Bar",
+            "id": "Point02",
+            "pan": -6.7,
+            "tilt": -5.72
+        },
+        {
+            "scene": "node6",
+            "target": "node8",
+            "title": "Ruang Rapat",
+            "id": "Point03",
+            "pan": -80.79,
+            "tilt": -5.52
+        },
+        {
+            "scene": "node6",
+            "target": "node5",
+            "title": "Ruang VIP",
+            "id": "Point04",
+            "pan": -105.73,
+            "tilt": -5.94
+        },
+        {
+            "scene": "node6",
+            "target": "node4",
+            "title": "Aula Makan",
+            "id": "Point05",
+            "pan": -224.86,
+            "tilt": -13.02
+        },
+        {
+            "scene": "node7",
+            "target": "node16",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -187.38,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node8",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -198.67,
+            "tilt": -3.13
+        },
+        {
+            "scene": "node9",
+            "target": "node3",
+            "title": "Gama Candi Resto",
+            "id": "Point01",
+            "pan": -129.97,
+            "tilt": 1.99
+        },
+        {
+            "scene": "node10",
+            "target": "node4",
+            "title": "Gema Candi Resto",
+            "id": "Point01",
+            "pan": -97.44,
+            "tilt": -4.71
+        },
+        {
+            "scene": "node11",
+            "target": "node5",
+            "title": "Ruang VIP",
+            "id": "Point01",
+            "pan": -47.08,
+            "tilt": -0.36
+        },
+        {
+            "scene": "node11",
+            "target": "node4",
+            "title": "Gama Candi Resto",
+            "id": "Point02",
+            "pan": -311.05,
+            "tilt": -1.33
+        },
+        {
+            "scene": "node12",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -280.15,
+            "tilt": -17.51
+        },
+        {
+            "scene": "node13",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -350.57,
+            "tilt": -4.86
+        },
+        {
+            "scene": "node15",
+            "target": "node16",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -239.87,
+            "tilt": -7.47
+        },
+        {
+            "scene": "node15",
+            "target": "node6",
+            "title": "Gama Candi Resto",
+            "id": "Point03",
+            "pan": -81.44,
+            "tilt": -4.44
+        },
+        {
+            "scene": "node16",
+            "target": "node2",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -82.95,
+            "tilt": -5.96
+        },
+        {
+            "scene": "node16",
+            "target": "node7",
+            "title": "Mini Meeting Room",
+            "id": "Point02",
+            "pan": -154.38,
+            "tilt": -5.49
+        },
+        {
+            "scene": "node16",
+            "target": "node15",
+            "title": "Bar",
+            "id": "Point03",
+            "pan": -288.25,
+            "tilt": -6.1
+        },
+        {
+            "scene": "node17",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -44.44,
+            "tilt": -14.62
+        },
+        {
+            "scene": "node18",
+            "target": "node5",
+            "title": "Gama Candi Resto",
+            "id": "Point01",
+            "pan": -186.85,
+            "tilt": -5.79
+        },
+        {
+            "scene": "node18",
+            "target": "node17",
+            "title": "Mushola",
+            "id": "Point02",
+            "pan": -357.85,
+            "tilt": -1.29
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 1054,
+            "label": "Hall Besar",
+            "description": "Hall Besar di restoran ini merupakan ruang serbaguna utama yang memiliki kapasitas sangat luas, mampu menampung ratusan hingga ribuan tamu dalam satu waktu. Ruangan ini menjadi pilihan utama bagi mereka yang ingin melangsungkan acara berskala besar seperti resepsi pernikahan, seminar nasional, acara gathering perusahaan, hingga peluncuran produk.",
+            "fragment": "hallbesar",
+            "link": "gamacandiresto/index.html#hallbesar",
+            "sceneId": "node4"
+        },
+        {
+            "infoId": 1055,
+            "label": "Taman",
+            "description": "Taman ini dirancang dengan konsep resort yang menonjolkan nuansa natural, lengkap dengan pepohonan tinggi dan tanaman hijau yang memberikan kesegaran udara khas perbukitan Mijen. Taman ini juga sering kali dialihfungsikan menjadi venue untuk acara luar ruangan seperti outdoor wedding, gathering perusahaan, hingga kegiatan outbound ringan.",
+            "fragment": "taman",
+            "link": "gamacandiresto/index.html#taman",
+            "sceneId": "node11"
+        },
+        {
+            "infoId": 1056,
+            "label": "Ruang Rapat Besar",
+            "description": "Gama Candi Resto merupakan fasilitas utama bagi perusahaan atau instansi yang ingin menyelenggarakan agenda berskala luas, seperti rapat koordinasi tahunan, pelatihan karyawan (training), atau seminar. Ruangan ini memiliki kapasitas yang cukup besar untuk menampung banyak peserta.",
+            "fragment": "meetingbesar",
+            "link": "gamacandiresto/index.html#meetingbesar",
+            "sceneId": "node8"
+        },
+        {
+            "infoId": 1057,
+            "label": "Ruang VIP",
+            "description": "Ruangan ini sangat ideal untuk pertemuan bisnis tertutup, rapat staf, arisan keluarga, atau perayaan ulang tahun terbatas dengan kapasitas mulai dari belasan hingga puluhan orang. Meskipun ukurannya lebih kompak, Hall Kecil tetap dilengkapi dengan fasilitas modern seperti pendingin ruangan (AC), proyektor, dan jaringan Wi-Fi untuk mendukung produktivitas.",
+            "fragment": "meetingvip",
+            "link": "gamacandiresto/index.html#meetingvip",
+            "sceneId": "node13"
+        },
+        {
+            "infoId": 1058,
+            "label": "Ruang Rapat Kecil",
+            "description": "Ruang Rapat Kecil disediakan bagi mereka yang membutuhkan ruang diskusi yang lebih fokus, privat, dan eksklusif. Ruangan ini sangat ideal untuk pertemuan direksi, negosiasi bisnis dengan klien, atau rapat tim kecil yang memerlukan ketenangan tanpa gangguan dari area publik restoran.",
+            "fragment": "meetingkecil",
+            "link": "gamacandiresto/index.html#meetingkecil",
+            "sceneId": "node7"
+        },
+        {
+            "infoId": 1059,
+            "label": "Bar",
+            "description": "Area bar di Gama Candi Resto Semarang hadir dengan konsep yang elegan dan modern, berfungsi sebagai pusat penyajian aneka minuman segar yang melengkapi hidangan utama seafood dan masakan Nusantara. Bar ini dirancang dengan penataan yang rapi dan estetis, sering kali menjadi titik fokus visual yang menarik bagi pengunjung saat baru memasuki area restoran.",
+            "fragment": "bar",
+            "link": "gamacandiresto/index.html#bar",
+            "sceneId": ""
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "ed548bac03eb75d0",
+        "skin.js": "5419f48f91a10a26",
+        "index.html": "a9a0ce7230341cbe"
+    }
+}

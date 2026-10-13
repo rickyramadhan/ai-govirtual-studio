@@ -15,7 +15,10 @@ window.GoVirtualTourData = {
                 "drone",
                 "default",
                 "Drone Gereja Santo Yusup"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node2",
@@ -29,7 +32,10 @@ window.GoVirtualTourData = {
             "aliases": [
                 "default",
                 "Drone Gereja Santo Yusup"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130
         },
         {
             "id": "node3",
@@ -42,7 +48,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "altar"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node4",
@@ -55,7 +64,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gedung Bintang Timur"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node5",
@@ -68,7 +80,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gereja Santo Yusup"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node6",
@@ -81,7 +96,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gedung Bintang Laut"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node7",
@@ -94,7 +112,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "gedungbintanglaut"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node8",
@@ -107,7 +128,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gedung Bintang Laut"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node9",
@@ -120,7 +144,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gereja Santo Yusup Lt 2"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node10",
@@ -134,7 +161,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "patungyesus"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node11",
@@ -147,7 +177,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "sekretariat"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node12",
@@ -160,7 +193,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Museum Mini Gereja"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node13",
@@ -173,7 +209,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Parkir"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node14",
@@ -187,7 +226,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "patungsantoyusuf"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node15",
@@ -200,7 +242,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gereja Santo Yusup"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node16",
@@ -214,7 +259,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "ruangpengakuandosa"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node17",
@@ -227,7 +275,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Belakang"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node18",
@@ -240,7 +291,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Parkir"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node19",
@@ -254,7 +308,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "guamaria"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node20",
@@ -268,7 +325,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "monumen"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node21",
@@ -281,7 +341,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Taman Doa"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node22",
@@ -295,7 +358,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "tkteresia"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node23",
@@ -308,7 +374,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gereja Santo Yusup"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node24",
@@ -321,7 +390,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Area Parkir"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         }
     ],
     "hotspots": [
@@ -1051,15 +1123,15 @@ window.GoVirtualTourData = {
     "_sceneRegistry": {
         "node1": {
             "rawName": "Drone Gereja Santo Yusuf",
-            "displayName": "Drone Gereja Santo Yusuf",
-            "placeId": "drone-gereja-santo-yusuf",
-            "placeName": "Drone Gereja Santo Yusuf",
+            "displayName": "Tampak Depan Gereja Santo Yusuf",
+            "placeId": "tampak-depan-gereja-santo-yusuf",
+            "placeName": "Tampak Depan Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Gereja Santo Yusuf merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Tampak Depan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Tampak Depan Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1070,14 +1142,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Gereja Santo Yusuf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Tampak Depan Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Tampak Depan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Tampak Depan Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Tampak Depan Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Tampak Depan Gereja Santo Yusuf. Titik panorama Tampak Depan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Gereja Santo Yusuf — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Tampak Depan Gereja Santo Yusuf.",
                 "describeHere": "Drone Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1085,15 +1169,15 @@ window.GoVirtualTourData = {
         },
         "node2": {
             "rawName": "Drone Gereja Santo Yusuf",
-            "displayName": "Drone Gereja Santo Yusuf",
-            "placeId": "drone-gereja-santo-yusuf",
-            "placeName": "Drone Gereja Santo Yusuf",
+            "displayName": "Kawasan Gereja Santo Yusuf",
+            "placeId": "kawasan-gereja-santo-yusuf",
+            "placeName": "Kawasan Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Drone Gereja Santo Yusuf merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Kawasan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Kawasan Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1104,14 +1188,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone Gereja Santo Yusuf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Kawasan Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Kawasan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Kawasan Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Kawasan Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Kawasan Gereja Santo Yusuf. Titik panorama Kawasan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone Gereja Santo Yusuf — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Kawasan Gereja Santo Yusuf.",
                 "describeHere": "Drone Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1119,15 +1215,15 @@ window.GoVirtualTourData = {
         },
         "node3": {
             "rawName": "Altar",
-            "displayName": "Altar",
-            "placeId": "altar",
-            "placeName": "Altar",
+            "displayName": "Altar Gereja Santo Yusuf",
+            "placeId": "altar-gereja-santo-yusuf",
+            "placeName": "Altar Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Altar merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Altar adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Altar Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Altar Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1138,14 +1234,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Altar.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Altar Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Altar Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Altar Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Altar Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Altar Gereja Santo Yusuf. Titik panorama Altar Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Altar — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Altar Gereja Santo Yusuf.",
                 "describeHere": "Altar adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1159,9 +1267,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Bintang Timur merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Bintang Timur adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Gedung Bintang Timur di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Gedung Bintang Timur merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1172,14 +1280,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Bintang Timur.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Gedung Bintang Timur?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Gedung Bintang Timur di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Gedung Bintang Timur dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Gedung Bintang Timur merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Gedung Bintang Timur. Titik panorama Gedung Bintang Timur di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Bintang Timur — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Gedung Bintang Timur.",
                 "describeHere": "Gedung Bintang Timur adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1187,15 +1307,15 @@ window.GoVirtualTourData = {
         },
         "node5": {
             "rawName": "Gereja Santo Yusuf",
-            "displayName": "Gereja Santo Yusuf",
-            "placeId": "gereja-santo-yusuf",
-            "placeName": "Gereja Santo Yusuf",
+            "displayName": "Pintu Masuk Gedung Gereja Santo Yusuf",
+            "placeId": "pintu-masuk-gedung-gereja-santo-yusuf",
+            "placeName": "Pintu Masuk Gedung Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gereja Santo Yusuf merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Pintu Masuk Gedung Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Pintu Masuk Gedung Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1206,14 +1326,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gereja Santo Yusuf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Pintu Masuk Gedung Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Pintu Masuk Gedung Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Pintu Masuk Gedung Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Pintu Masuk Gedung Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Pintu Masuk Gedung Gereja Santo Yusuf. Titik panorama Pintu Masuk Gedung Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gereja Santo Yusuf — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Pintu Masuk Gedung Gereja Santo Yusuf.",
                 "describeHere": "Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1221,15 +1353,15 @@ window.GoVirtualTourData = {
         },
         "node6": {
             "rawName": "Gedung Bintang Laut",
-            "displayName": "Gedung Bintang Laut",
-            "placeId": "gedung-bintang-laut",
-            "placeName": "Gedung Bintang Laut",
+            "displayName": "Aula Gedung Bintang Laut",
+            "placeId": "aula-gedung-bintang-laut",
+            "placeName": "Aula Gedung Bintang Laut",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Bintang Laut merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Bintang Laut adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Aula Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Aula Gedung Bintang Laut merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1240,14 +1372,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Bintang Laut.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Aula Gedung Bintang Laut?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Aula Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Aula Gedung Bintang Laut dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Aula Gedung Bintang Laut merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Aula Gedung Bintang Laut. Titik panorama Aula Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Bintang Laut — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Aula Gedung Bintang Laut.",
                 "describeHere": "Gedung Bintang Laut adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1255,15 +1399,15 @@ window.GoVirtualTourData = {
         },
         "node7": {
             "rawName": "Gedung Bintang Laut",
-            "displayName": "Gedung Bintang Laut",
-            "placeId": "gedung-bintang-laut",
-            "placeName": "Gedung Bintang Laut",
+            "displayName": "Area Masuk Gedung Bintang Laut",
+            "placeId": "area-masuk-gedung-bintang-laut",
+            "placeName": "Area Masuk Gedung Bintang Laut",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Bintang Laut merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Bintang Laut adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Masuk Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Masuk Gedung Bintang Laut merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1274,14 +1418,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Bintang Laut.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Masuk Gedung Bintang Laut?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Masuk Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Masuk Gedung Bintang Laut dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Masuk Gedung Bintang Laut merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Masuk Gedung Bintang Laut. Titik panorama Area Masuk Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Bintang Laut — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Masuk Gedung Bintang Laut.",
                 "describeHere": "Gedung Bintang Laut adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1289,15 +1445,15 @@ window.GoVirtualTourData = {
         },
         "node8": {
             "rawName": "Gedung Bintang Laut",
-            "displayName": "Gedung Bintang Laut",
-            "placeId": "gedung-bintang-laut",
-            "placeName": "Gedung Bintang Laut",
+            "displayName": "Area Serbaguna Gedung Bintang Laut",
+            "placeId": "area-serbaguna-gedung-bintang-laut",
+            "placeName": "Area Serbaguna Gedung Bintang Laut",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Bintang Laut merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Bintang Laut adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Serbaguna Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Serbaguna Gedung Bintang Laut merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1308,14 +1464,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Bintang Laut.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Serbaguna Gedung Bintang Laut?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Serbaguna Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Serbaguna Gedung Bintang Laut dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Serbaguna Gedung Bintang Laut merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Serbaguna Gedung Bintang Laut. Titik panorama Area Serbaguna Gedung Bintang Laut di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Bintang Laut — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Serbaguna Gedung Bintang Laut.",
                 "describeHere": "Gedung Bintang Laut adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1323,15 +1491,15 @@ window.GoVirtualTourData = {
         },
         "node9": {
             "rawName": "Gereja Santo Yusuf Lt 2",
-            "displayName": "Gereja Santo Yusuf Lt 2",
-            "placeId": "gereja-santo-yusuf-lt-2",
-            "placeName": "Gereja Santo Yusuf Lt 2",
+            "displayName": "Lantai 2 Gereja Santo Yusuf",
+            "placeId": "lantai-2-gereja-santo-yusuf",
+            "placeName": "Lantai 2 Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gereja Santo Yusuf Lt 2 merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gereja Santo Yusuf Lt 2 adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Lantai 2 Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Lantai 2 Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1342,14 +1510,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gereja Santo Yusuf Lt 2.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Lantai 2 Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Lantai 2 Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Lantai 2 Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Lantai 2 Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Lantai 2 Gereja Santo Yusuf. Titik panorama Lantai 2 Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gereja Santo Yusuf Lt 2 — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Lantai 2 Gereja Santo Yusuf.",
                 "describeHere": "Gereja Santo Yusuf Lt 2 adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1357,15 +1537,15 @@ window.GoVirtualTourData = {
         },
         "node10": {
             "rawName": "Patung Yesus",
-            "displayName": "Patung Yesus",
-            "placeId": "patung-yesus",
-            "placeName": "Patung Yesus",
+            "displayName": "Nisan J.Lijnen",
+            "placeId": "nisan-j-lijnen",
+            "placeName": "Nisan J.Lijnen",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Patung Yesus merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Patung Yesus adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Nisan J.Lijnen di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Nisan J.Lijnen merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1376,16 +1556,28 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Patung Yesus.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Nisan J.Lijnen?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Nisan J.Lijnen di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Nisan J.Lijnen dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Nisan J.Lijnen merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Nisan J.Lijnen. Titik panorama Nisan J.Lijnen di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1599"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Patung Yesus — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Nisan J.Lijnen.",
                 "describeHere": "Patung Yesus adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1393,15 +1585,15 @@ window.GoVirtualTourData = {
         },
         "node11": {
             "rawName": "Sekretariat",
-            "displayName": "Sekretariat",
-            "placeId": "sekretariat",
-            "placeName": "Sekretariat",
+            "displayName": "Gedung Sekretariat (Soegijapranata)",
+            "placeId": "gedung-sekretariat-soegijapranata",
+            "placeName": "Gedung Sekretariat (Soegijapranata)",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Sekretariat merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Sekretariat adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Gedung Sekretariat (Soegijapranata) di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Gedung Sekretariat (Soegijapranata) merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1412,14 +1604,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Sekretariat.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Gedung Sekretariat (Soegijapranata)?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Gedung Sekretariat (Soegijapranata) di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Gedung Sekretariat (Soegijapranata) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Gedung Sekretariat (Soegijapranata) merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Gedung Sekretariat (Soegijapranata). Titik panorama Gedung Sekretariat (Soegijapranata) di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Sekretariat — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Gedung Sekretariat (Soegijapranata).",
                 "describeHere": "Sekretariat adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1427,15 +1631,15 @@ window.GoVirtualTourData = {
         },
         "node12": {
             "rawName": "Museum Mini Gereja",
-            "displayName": "Museum Mini Gereja",
-            "placeId": "museum-mini-gereja",
-            "placeName": "Museum Mini Gereja",
+            "displayName": "Perjalanan Gereja St. Yusuf Gedangan",
+            "placeId": "perjalanan-gereja-st-yusuf-gedangan",
+            "placeName": "Perjalanan Gereja St. Yusuf Gedangan",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Museum Mini Gereja merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Museum Mini Gereja adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Perjalanan Gereja St. Yusuf Gedangan di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Perjalanan Gereja St. Yusuf Gedangan merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1446,14 +1650,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Museum Mini Gereja.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Perjalanan Gereja St. Yusuf Gedangan?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Perjalanan Gereja St. Yusuf Gedangan di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Perjalanan Gereja St. Yusuf Gedangan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Perjalanan Gereja St. Yusuf Gedangan merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Perjalanan Gereja St. Yusuf Gedangan. Titik panorama Perjalanan Gereja St. Yusuf Gedangan di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Museum Mini Gereja — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Perjalanan Gereja St. Yusuf Gedangan.",
                 "describeHere": "Museum Mini Gereja adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1467,9 +1683,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Parkir merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Parkir adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Parkir di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Parkir merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1480,14 +1696,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Parkir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Parkir?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Parkir di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Parkir dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Parkir merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Parkir. Titik panorama Area Parkir di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Parkir — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Parkir.",
                 "describeHere": "Area Parkir adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1501,9 +1729,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Patung Santo Yusuf merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Patung Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Patung Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Patung Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1514,16 +1742,28 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Patung Santo Yusuf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Patung Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Patung Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Patung Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Patung Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Patung Santo Yusuf. Titik panorama Patung Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1613"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Patung Santo Yusuf — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Patung Santo Yusuf.",
                 "describeHere": "Patung Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1531,15 +1771,15 @@ window.GoVirtualTourData = {
         },
         "node15": {
             "rawName": "Gereja Santo Yusuf",
-            "displayName": "Gereja Santo Yusuf",
-            "placeId": "gereja-santo-yusuf",
-            "placeName": "Gereja Santo Yusuf",
+            "displayName": "Area Dalam Gereja Santo Yusuf",
+            "placeId": "area-dalam-gereja-santo-yusuf",
+            "placeName": "Area Dalam Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gereja Santo Yusuf merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Dalam Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Dalam Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1550,14 +1790,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gereja Santo Yusuf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Dalam Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Dalam Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Dalam Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Dalam Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Dalam Gereja Santo Yusuf. Titik panorama Area Dalam Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gereja Santo Yusuf — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Dalam Gereja Santo Yusuf.",
                 "describeHere": "Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1571,9 +1823,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Ruang Pengakuan Dosa merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Ruang Pengakuan Dosa adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Ruang Pengakuan Dosa di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Ruang Pengakuan Dosa merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1584,16 +1836,28 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Ruang Pengakuan Dosa.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Ruang Pengakuan Dosa?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Ruang Pengakuan Dosa di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Ruang Pengakuan Dosa dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Ruang Pengakuan Dosa merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruang Pengakuan Dosa. Titik panorama Ruang Pengakuan Dosa di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1602"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Ruang Pengakuan Dosa — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Ruang Pengakuan Dosa.",
                 "describeHere": "Ruang Pengakuan Dosa adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1607,9 +1871,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Belakang merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Belakang adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Belakang di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Belakang merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1620,14 +1884,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Belakang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Belakang?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Belakang di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Belakang dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Belakang merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Belakang. Titik panorama Area Belakang di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Belakang — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Belakang.",
                 "describeHere": "Area Belakang adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1635,15 +1911,15 @@ window.GoVirtualTourData = {
         },
         "node18": {
             "rawName": "Area Parkir",
-            "displayName": "Area Parkir",
-            "placeId": "area-parkir",
-            "placeName": "Area Parkir",
+            "displayName": "Area Parkir Samping",
+            "placeId": "area-parkir-samping",
+            "placeName": "Area Parkir Samping",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Parkir merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Parkir adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Parkir Samping di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Parkir Samping merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1654,14 +1930,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Parkir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Parkir Samping?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Parkir Samping di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Parkir Samping dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Parkir Samping merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Parkir Samping. Titik panorama Area Parkir Samping di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Parkir — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Parkir Samping.",
                 "describeHere": "Area Parkir adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1675,9 +1963,9 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Gua Maria merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gua Maria adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Gua Maria di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Gua Maria merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1688,16 +1976,28 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gua Maria.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Gua Maria?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Gua Maria di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Gua Maria dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Gua Maria merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Gua Maria. Titik panorama Gua Maria di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1609"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gua Maria — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Gua Maria.",
                 "describeHere": "Gua Maria adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1705,15 +2005,15 @@ window.GoVirtualTourData = {
         },
         "node20": {
             "rawName": "Monumen",
-            "displayName": "Monumen",
-            "placeId": "monumen",
-            "placeName": "Monumen",
+            "displayName": "Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria)",
+            "placeId": "patung-keluarga-yusuf-santo-yusuf-dan-bunda-maria",
+            "placeName": "Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria)",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Monumen merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Monumen adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria) di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria) merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1724,16 +2024,28 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Monumen.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria)?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria) di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria) dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria) merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria). Titik panorama Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria) di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1610"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Monumen — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Patung Keluarga Yusuf (Santo Yusuf dan Bunda Maria).",
                 "describeHere": "Monumen adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1741,15 +2053,15 @@ window.GoVirtualTourData = {
         },
         "node21": {
             "rawName": "Taman Doa",
-            "displayName": "Taman Doa",
-            "placeId": "taman-doa",
-            "placeName": "Taman Doa",
+            "displayName": "Area Penghubung Gereja dan Sekretariat",
+            "placeId": "area-penghubung-gereja-dan-sekretariat",
+            "placeName": "Area Penghubung Gereja dan Sekretariat",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Taman Doa merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Taman Doa adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Penghubung Gereja dan Sekretariat di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Penghubung Gereja dan Sekretariat merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1760,14 +2072,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Taman Doa.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Penghubung Gereja dan Sekretariat?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Penghubung Gereja dan Sekretariat di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Penghubung Gereja dan Sekretariat dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Penghubung Gereja dan Sekretariat merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Penghubung Gereja dan Sekretariat. Titik panorama Area Penghubung Gereja dan Sekretariat di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Taman Doa — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Penghubung Gereja dan Sekretariat.",
                 "describeHere": "Taman Doa adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1775,15 +2099,15 @@ window.GoVirtualTourData = {
         },
         "node22": {
             "rawName": "TK Teresa",
-            "displayName": "TK Teresa",
-            "placeId": "tk-teresa",
-            "placeName": "TK Teresa",
+            "displayName": "Taman Kanak-Kanak Teresia",
+            "placeId": "taman-kanak-kanak-teresia",
+            "placeName": "Taman Kanak-Kanak Teresia",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "TK Teresa merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "TK Teresa adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Taman Kanak-Kanak Teresia di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Taman Kanak-Kanak Teresia merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik dengan objek info",
                 "Terhubung jalur eksplorasi"
@@ -1794,16 +2118,28 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area TK Teresa.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Taman Kanak-Kanak Teresia?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Taman Kanak-Kanak Teresia di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Taman Kanak-Kanak Teresia dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Taman Kanak-Kanak Teresia merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Taman Kanak-Kanak Teresia. Titik panorama Taman Kanak-Kanak Teresia di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1608"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di TK Teresa — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Taman Kanak-Kanak Teresia.",
                 "describeHere": "TK Teresa adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1811,15 +2147,15 @@ window.GoVirtualTourData = {
         },
         "node23": {
             "rawName": "Gereja Santo Yusuf",
-            "displayName": "Gereja Santo Yusuf",
-            "placeId": "gereja-santo-yusuf",
-            "placeName": "Gereja Santo Yusuf",
+            "displayName": "Area Peribdatan Gereja Santo Yusuf",
+            "placeId": "area-peribdatan-gereja-santo-yusuf",
+            "placeName": "Area Peribdatan Gereja Santo Yusuf",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gereja Santo Yusuf merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Area Peribdatan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Area Peribdatan Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1830,14 +2166,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gereja Santo Yusuf.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Area Peribdatan Gereja Santo Yusuf?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Area Peribdatan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Area Peribdatan Gereja Santo Yusuf dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Area Peribdatan Gereja Santo Yusuf merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area Peribdatan Gereja Santo Yusuf. Titik panorama Area Peribdatan Gereja Santo Yusuf di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gereja Santo Yusuf — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Area Peribdatan Gereja Santo Yusuf.",
                 "describeHere": "Gereja Santo Yusuf adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1845,15 +2193,15 @@ window.GoVirtualTourData = {
         },
         "node24": {
             "rawName": "Area Parkir",
-            "displayName": "Area Parkir",
-            "placeId": "area-parkir",
-            "placeName": "Area Parkir",
+            "displayName": "Sekretariat Paroki",
+            "placeId": "sekretariat-paroki",
+            "placeName": "Sekretariat Paroki",
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Area Parkir merupakan bagian dari kawasan Gereja Santo Yusuf di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Area Parkir adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik panorama Sekretariat Paroki di kompleks Gereja Santo Yusuf Gedangan Semarang.",
+            "description": "Area Sekretariat Paroki merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif.",
             "highlights": [
                 "Titik panorama",
                 "Terhubung jalur eksplorasi"
@@ -1864,14 +2212,26 @@ window.GoVirtualTourData = {
                 "Gereja Santo Yusuf"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Area Parkir.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa ciri utama Sekretariat Paroki?",
+                    "mode": "fix",
+                    "answer": "Titik panorama Sekretariat Paroki di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                },
+                {
+                    "q": "Apa peran Sekretariat Paroki dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area Sekretariat Paroki merupakan salah satu bagian penting yang berada di dalam lingkungan Kompleks Gereja Santo Yusuf Gedangan Semarang. Pengunjung dapat mengeksplorasi keindahan arsitektur serta fasilitas yang tersedia di titik ini secara interaktif."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Sekretariat Paroki. Titik panorama Sekretariat Paroki di kompleks Gereja Santo Yusuf Gedangan Semarang."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Area Parkir — kawasan Gereja Santo Yusuf.",
+                "currentLocation": "Anda sekarang berada di Sekretariat Paroki.",
                 "describeHere": "Area Parkir adalah area di dalam kawasan Gereja Santo Yusuf, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

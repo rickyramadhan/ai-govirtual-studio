@@ -1,0 +1,1215 @@
+{
+    "version": "1.1-seed",
+    "tourId": "mandhalabakti",
+    "generatedAt": "2026-10-06",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node1": {
+            "rawName": "default",
+            "displayName": "Pintu Masuk Museum Mandala Bhakti",
+            "placeId": "pintu-masuk-museum-mandala-bhakti",
+            "placeName": "Pintu Masuk Museum Mandala Bhakti",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang pintu masuk utama Museum Mandala Bhakti Semarang.",
+            "description": "Pintu Masuk menyambut setiap pengunjung yang datang ke Museum Mandala Bhakti, menjadi titik awal gerbang kedatangan sebelum mengeksplorasi ragam koleksi sejarah perjuangan militer.",
+            "highlights": [
+                "Papan museum",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama pintu masuk museum ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai gerbang utama penyambutan dan akses awal bagi pengunjung museum."
+                },
+                {
+                    "q": "Informasi apa yang bisa dilihat di area depan ini?",
+                    "mode": "fix",
+                    "answer": "Papan nama resmi museum serta petunjuk arah awal bagi wisatawan."
+                },
+                {
+                    "q": "Bagaimana kesan pertama yang ditunjukkan di area ini?",
+                    "mode": "fix",
+                    "answer": "Kesan megah dan bersejarah dari bangunan peninggalan kolonial yang terawat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pintu Masuk Museum Mandala Bhakti.",
+                "describeHere": "default adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Perpustakaandalam",
+            "displayName": "Ruang administrasi perpustakaan",
+            "placeId": "ruang-administrasi-perpustakaan",
+            "placeName": "Ruang administrasi perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang meja administrasi dan layanan referensi perpustakaan museum.",
+            "description": "Ruang Administrasi Perpustakaan berfungsi sebagai pusat pelayanan peminjaman, pendataan buku, serta bantuan literatur sejarah bagi para pengunjung atau peneliti yang datang.",
+            "highlights": [
+                "Meja",
+                "Rak buku"
+            ],
+            "talkingPoints": [
+                "Perpustakaandalam",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa layanan utama di ruang administrasi ini?",
+                    "mode": "fix",
+                    "answer": "Pengelolaan data pengunjung, keanggotaan, serta layanan referensi pustaka."
+                },
+                {
+                    "q": "Siapa saja yang dapat memanfaatkan fasilitas perpustakaan ini?",
+                    "mode": "fix",
+                    "answer": "Umum, pelajar, mahasiswa, dan peneliti sejarah militer."
+                },
+                {
+                    "q": "Bagaimana penataan meja layanan di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Tertata rapi untuk memudahkan interaksi antara pustakawan dan pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang administrasi perpustakaan.",
+                "describeHere": "Perpustakaandalam adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Perpustakaan",
+            "displayName": "Ruang Baca Perpustakaan",
+            "placeId": "ruang-baca-perpustakaan",
+            "placeName": "Ruang Baca Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang baca perpustakaan dengan koleksi literatur sejarah dan militer yang lengkap.",
+            "description": "Ruang Baca Perpustakaan menyediakan area nyaman bagi pengunjung untuk membaca buku-buku referensi sejarah, dokumentasi perjuangan, dan arsip kemerdekaan Indonesia.",
+            "highlights": [
+                "Rak tinggi",
+                "Jendela"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Koleksi apa saja yang tersedia di ruang baca ini?",
+                    "mode": "fix",
+                    "answer": "Buku sejarah perjuangan kemerdekaan, biografi tokoh, dan literatur militer."
+                },
+                {
+                    "q": "Bagaimana suasana di dalam ruang baca perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Tenang, nyaman, dan kondusif untuk kegiatan belajar maupun membaca."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan membaca di tempat?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia meja dan kursi baca khusus untuk pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Baca Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Galeri Pangeran Diponegoro",
+            "displayName": "Galeri Penangkapan Pangeran Diponegoro",
+            "placeId": "galeri-penangkapan-pangeran-diponegoro",
+            "placeName": "Galeri Penangkapan Pangeran Diponegoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri yang mengisahkan detik-detik dramatis penangkapan Pangeran Diponegoro.",
+            "description": "Galeri Penangkapan Pangeran Diponegoro menampilkan lukisan sejarah berukuran besar serta diorama yang menggambarkan peristiwa pengkhianatan di Magelang tahun 1830.",
+            "highlights": [
+                "Lukisan sejarah",
+                "Figur"
+            ],
+            "talkingPoints": [
+                "Galeri Pangeran Diponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Peristiwa apa yang diabadikan dalam galeri ini?",
+                    "mode": "fix",
+                    "answer": "Momen penangkapan Pangeran Diponegoro oleh pihak kolonial Belanda."
+                },
+                {
+                    "q": "Karya apa yang menjadi sorotan utama di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Lukisan sejarah monumental karya maestro Raden Saleh."
+                },
+                {
+                    "q": "Apa nilai edukasi yang disampaikan kepada pengunjung?",
+                    "mode": "fix",
+                    "answer": "Memahami babak akhir Perang Jawa dan perjuangan gigih Pangeran Diponegoro."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Penangkapan Pangeran Diponegoro.",
+                "describeHere": "Galeri Pangeran Diponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Kisahdiponegoro",
+            "displayName": "Galeri Perang Jawa Pangeran Diponogoro",
+            "placeId": "galeri-perang-jawa-pangeran-diponogoro",
+            "placeName": "Galeri Perang Jawa Pangeran Diponogoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri khusus yang merekam strategi dan pertempuran sengit Perang Jawa.",
+            "description": "Galeri Perang Jawa Pangeran Diponegoro memamerkan taktik gerilya, peta strategi pertempuran, serta kisah perlawanan rakyat Jawa terhadap penjajahan kolonial (1825-1830).",
+            "highlights": [
+                "Mural berkuda",
+                "Adegan perang"
+            ],
+            "talkingPoints": [
+                "Kisahdiponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa lama rentang waktu Perang Jawa yang diulas di sini?",
+                    "mode": "fix",
+                    "answer": "Berlangsung selama lima tahun dari tahun 1825 hingga 1830."
+                },
+                {
+                    "q": "Strategi apa yang menjadi ciri khas pasukan Pangeran Diponegoro?",
+                    "mode": "fix",
+                    "answer": "Strategi perang gerilya dan pemanfaatan dukungan masyarakat lokal."
+                },
+                {
+                    "q": "Media apa saja yang digunakan untuk menyampaikan sejarah perang ini?",
+                    "mode": "fix",
+                    "answer": "Panel narasi, peta strategi, dan ilustrasi visual pertempuran."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:125"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Perang Jawa Pangeran Diponogoro.",
+                "describeHere": "Kisahdiponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Meriamlapangan",
+            "displayName": "Fasad Museum",
+            "placeId": "fasad-museum",
+            "placeName": "Fasad Museum",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tampak depan arsitektur kolonial megah bangunan Museum Mandala Bhakti.",
+            "description": "Fasad Museum menampilkan kemegahan arsitektur gedung bersejarah peninggalan kolonial Belanda yang kini diabadikan sebagai museum pusat perjuangan TNI dan Kodam IV/Diponegoro.",
+            "highlights": [
+                "Fasad",
+                "Halaman"
+            ],
+            "talkingPoints": [
+                "Meriamlapangan",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Gaya arsitektur apa yang tampak pada bangunan museum ini?",
+                    "mode": "fix",
+                    "answer": "Gaya arsitektur kolonial Eropa klasik yang kokoh dan simetris."
+                },
+                {
+                    "q": "Apa fungsi historis bangunan ini di masa lalu?",
+                    "mode": "fix",
+                    "answer": "Pernah digunakan sebagai markas dan instansi penting pada masa kolonial hingga militer."
+                },
+                {
+                    "q": "Mengapa fasad museum ini menjadi ikon kota Semarang?",
+                    "mode": "fix",
+                    "answer": "Karena mempertahankan keaslian bentuk bangunannya sebagai cagar budaya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fasad Museum.",
+                "describeHere": "Meriamlapangan adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Museum Perjuangan Mandala Bhakti",
+            "displayName": "Loket Museum",
+            "placeId": "loket-museum",
+            "placeName": "Loket Museum",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Loket resmi pembelian tiket masuk dan pusat informasi museum.",
+            "description": "Loket Museum adalah titik pelayanan pertama bagi wisatawan untuk memperoleh tiket masuk, brosur panduan, serta informasi seputar tata tertib kunjungan di dalam museum.",
+            "highlights": [
+                "Tangga",
+                "Mural"
+            ],
+            "talkingPoints": [
+                "Museum Perjuangan Mandala Bhakti",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Di mana lokasi loket penjualan tiket masuk museum?",
+                    "mode": "fix",
+                    "answer": "Terletak di dekat area gerbang masuk utama museum."
+                },
+                {
+                    "q": "Informasi apa yang bisa diperoleh pengunjung di loket?",
+                    "mode": "fix",
+                    "answer": "Harga tiket, jam operasional, dan peta lokasi galeri pameran."
+                },
+                {
+                    "q": "Apakah tersedia layanan pemandu wisata di sini?",
+                    "mode": "fix",
+                    "answer": "Ya, pengunjung dapat memesan jasa pemandu museum untuk penjelasan lebih mendalam."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Loket Museum.",
+                "describeHere": "Museum Perjuangan Mandala Bhakti adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Goaselarang",
+            "displayName": "Replika Goa Selarong",
+            "placeId": "replika-goa-selarong",
+            "placeName": "Replika Goa Selarong",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Replika Goa Selarong, markas gerilya bersejarah Pangeran Diponegoro.",
+            "description": "Replika Goa Selarong menyajikan tiruan gua batu tempat persembunyian dan markas komando Pangeran Diponegoro saat merancang strategi perang gerilya melawan pasukan kolonial.",
+            "highlights": [
+                "Lorong batu buatan",
+                "Pencahayaan"
+            ],
+            "talkingPoints": [
+                "Goaselarang",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi historis Goa Selarong yang asli bagi Pangeran Diponegoro?",
+                    "mode": "fix",
+                    "answer": "Sebagai markas pertahanan dan pusat komando gerilya melawan Belanda."
+                },
+                {
+                    "q": "Bagaimana suasana replika gua yang dibuat di dalam museum?",
+                    "mode": "fix",
+                    "answer": "Dibuat menyerupai kondisi gua berbatu asli lengkap dengan pencahayaan temaram."
+                },
+                {
+                    "q": "Mengapa replika ini penting untuk dihadirkan di museum?",
+                    "mode": "fix",
+                    "answer": "Untuk memberi gambaran nyata kondisi markas persembunyian sang pangeran."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Replika Goa Selarong.",
+                "describeHere": "Goaselarang adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "Corpcacatveteran",
+            "displayName": "Galeri Veteran (Alat bedah dan corp cacat veteran)",
+            "placeId": "galeri-veteran-alat-bedah-dan-corp-cacat-veteran",
+            "placeName": "Galeri Veteran (Alat bedah dan corp cacat veteran)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri Veteran yang memamerkan alat medis darurat dan kisah pejuang cacat veteran.",
+            "description": "Galeri Veteran mendedikasikan penghormatan bagi para prajurit dan veteran perang, memamerkan peralatan medis lapangan kuno serta kisah pengorbanan pejuang yang cacat dalam medan laga.",
+            "highlights": [
+                "Vitrin",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Corpcacatveteran",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Koleksi apa saja yang dipamerkan di Galeri Veteran ini?",
+                    "mode": "fix",
+                    "answer": "Alat bedah lapangan medis militer dan dokumentasi perjuangan para veteran."
+                },
+                {
+                    "q": "Apa pesan moral utama yang ingin disampaikan galeri ini?",
+                    "mode": "fix",
+                    "answer": "Menghormati pengorbanan besar dan cacat tubuh pejuang demi kemerdekaan."
+                },
+                {
+                    "q": "Siapa saja yang dikisahkan dalam pameran khusus veteran ini?",
+                    "mode": "fix",
+                    "answer": "Para prajurit dan korps cacat veteran yang ikut bertempur membela Republik."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Veteran (Alat bedah dan corp cacat veteran).",
+                "describeHere": "Corpcacatveteran adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Galeri Pangeran Diponegoro",
+            "displayName": "Peta dharma bakti iv diponogoro",
+            "placeId": "peta-dharma-bakti-iv-diponogoro",
+            "placeName": "Peta dharma bakti iv diponogoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Peta visual dokumentasi dharma bakti dan sejarah perjuangan Kodam IV/Diponegoro.",
+            "description": "Peta Dharma Bakti IV Diponegoro memuat catatan wilayah penugasan, operasi militer, serta rekam jejak pengabdian Kodam IV/Diponegoro dalam menjaga kedaulatan NKRI.",
+            "highlights": [
+                "Peta Jawa",
+                "Foto tokoh"
+            ],
+            "talkingPoints": [
+                "Galeri Pangeran Diponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa isi utama dari Peta Dharma Bakti ini?",
+                    "mode": "fix",
+                    "answer": "Catatan wilayah operasi dan bakti sosial militer Kodam IV/Diponegoro."
+                },
+                {
+                    "q": "Mengapa peta ini menjadi bagian penting di museum?",
+                    "mode": "fix",
+                    "answer": "Menunjukkan kontribusi nyata satuan militer dalam mempertahankan keutuhan bangsa."
+                },
+                {
+                    "q": "Bagaimana informasi pada peta disajikan kepada pengunjung?",
+                    "mode": "fix",
+                    "answer": "Disajikan secara visual menggunakan peta wilayah dan catatan kronologis."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Peta dharma bakti iv diponogoro.",
+                "describeHere": "Galeri Pangeran Diponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Galeri Pangeran Diponegoro",
+            "displayName": "Adegan Perundingan Galeri Pangeran Diponegoro",
+            "placeId": "adegan-perundingan-galeri-pangeran-diponegoro",
+            "placeName": "Adegan Perundingan Galeri Pangeran Diponegoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Diorama dan lukisan adegan perundingan bersejarah Pangeran Diponegoro.",
+            "description": "Adegan Perundingan memperlihatkan momen diplomasi dan keteguhan sikap Pangeran Diponegoro saat berhadapan dengan pihak musuh sebelum pecahnya pertempuran besar.",
+            "highlights": [
+                "Lukisan",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Galeri Pangeran Diponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Perundingan apa yang digambarkan dalam adegan ini?",
+                    "mode": "fix",
+                    "answer": "Momen dialog antara Pangeran Diponegoro dengan pihak kolonial Belanda."
+                },
+                {
+                    "q": "Apa makna dari adegan perundingan tersebut?",
+                    "mode": "fix",
+                    "answer": "Menunjukkan prinsip dan ketegasan sang pangeran dalam mempertahankan kedaulatan."
+                },
+                {
+                    "q": "Bagaimana peristiwa ini divisualisasikan di museum?",
+                    "mode": "fix",
+                    "answer": "Melalui lukisan dinding ekspresif dan tata pamer yang informatif."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Adegan Perundingan Galeri Pangeran Diponegoro.",
+                "describeHere": "Galeri Pangeran Diponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Museum Perjuangan Mandala Bhakti",
+            "displayName": "Ruang peristiwa perjalanan hidup Pangeran Diponegoro",
+            "placeId": "ruang-peristiwa-perjalanan-hidup-pangeran-diponegoro",
+            "placeName": "Ruang peristiwa perjalanan hidup Pangeran Diponegoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang kisah perjalanan hidup dan biografi Pangeran Diponegoro.",
+            "description": "Ruang Perjalanan Hidup Pangeran Diponegoro menelusuri jejak masa kecil, masa muda, hingga kepemimpinannya sebagai pemimpin kharismatik dalam Perang Jawa.",
+            "highlights": [
+                "Meja display",
+                "Mural"
+            ],
+            "talkingPoints": [
+                "Museum Perjuangan Mandala Bhakti",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fase apa saja dari kehidupan Pangeran Diponegoro yang diceritakan?",
+                    "mode": "fix",
+                    "answer": "Mulai dari masa kecil di keraton, kepribadian, hingga kepemimpinan perang."
+                },
+                {
+                    "q": "Apa keunikan sosok Pangeran Diponegoro yang disorot di sini?",
+                    "mode": "fix",
+                    "answer": "Kedalaman ilmu agama, jiwa kerakyatan, dan ketegasannya menolak penjajahan."
+                },
+                {
+                    "q": "Media apa yang digunakan untuk merangkum biografi beliau?",
+                    "mode": "fix",
+                    "answer": "Panel teks biografi, arsip foto, dan lukisan perjalanan hidup."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang peristiwa perjalanan hidup Pangeran Diponegoro.",
+                "describeHere": "Museum Perjuangan Mandala Bhakti adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Teater",
+            "displayName": "Teater",
+            "placeId": "teater",
+            "placeName": "Teater",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang teater mini pemutaran film dokumenter sejarah perjuangan.",
+            "description": "Teater Museum memutar film dokumenter edukatif mengenai sejarah pertempuran, kisah pahlawan nasional, serta dokumenter khusus perjuangan kemerdekaan bagi para pengunjung.",
+            "highlights": [
+                "Pintu ruang",
+                "Foto"
+            ],
+            "talkingPoints": [
+                "Teater",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari ruang teater mini di museum ini?",
+                    "mode": "fix",
+                    "answer": "Memutar film dokumenter sejarah perjuangan dan profil kepahlawanan."
+                },
+                {
+                    "q": "Siapa target penonton utama dari pemutaran film ini?",
+                    "mode": "fix",
+                    "answer": "Pelajar, rombongan sekolah, dan masyarakat umum pengunjung museum."
+                },
+                {
+                    "q": "Bagaimana fasilitas tempat duduk di ruang teater?",
+                    "mode": "fix",
+                    "answer": "Nyaman dan tertata rapi untuk menampung penonton dalam jumlah kelompok."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Teater.",
+                "describeHere": "Teater adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Galeri G30S",
+            "displayName": "Galeri kejadian G30SPKI",
+            "placeId": "galeri-kejadian-g30spki",
+            "placeName": "Galeri kejadian G30SPKI",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri dokumentasi arsip sejarah peristiwa nasional G30S/PKI.",
+            "description": "Galeri Kejadian G30S/PKI menyajikan arsip foto, dokumen penting, dan kronologi penumpasan pemberontakan G30S/PKI sebagai bagian dari sejarah kelam pertahanan bangsa.",
+            "highlights": [
+                "Panel narasi",
+                "Foto"
+            ],
+            "talkingPoints": [
+                "Galeri G30S",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Peristiwa apa yang didokumentasikan dalam galeri ini?",
+                    "mode": "fix",
+                    "answer": "Sejarah pemberontakan Gerakan 30 September dan operasi penumpasannya."
+                },
+                {
+                    "q": "Apa tujuan pameran sejarah G30S/PKI ditampilkan di museum?",
+                    "mode": "fix",
+                    "answer": "Sebagai sarana edukasi sejarah dan pengingat kewaspadaan nasional."
+                },
+                {
+                    "q": "Bentuk arsip apa saja yang dipamerkan di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Dokumentasi foto koran lama, teks laporan, dan panel kronologi peristiwa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri kejadian G30SPKI.",
+                "describeHere": "Galeri G30S adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "Galerikejadian",
+            "displayName": "Ruang G30S",
+            "placeId": "ruang-g30s",
+            "placeName": "Ruang G30S",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang pamer khusus arsip dan barang bukti peristiwa G30S.",
+            "description": "Ruang G30S memuat koleksi visual dan informasi mendalam mengenai para pahlawan revolusi yang gugur serta penumpasan gerakan separatis di masa lampau.",
+            "highlights": [
+                "Foto tokoh",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Galerikejadian",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Siapa saja tokoh pahlawan revolusi yang dikenang di ruangan ini?",
+                    "mode": "fix",
+                    "answer": "Para perwira tinggi TNI Angkatan Darat yang gugur dalam tragedi G30S."
+                },
+                {
+                    "q": "Bagaimana suasana galeri di ruangan khusus ini?",
+                    "mode": "fix",
+                    "answer": "Khidmat, serius, dan sarat akan nilai sejarah perjuangan bangsa."
+                },
+                {
+                    "q": "Apa pesan yang ingin ditanamkan kepada generasi muda?",
+                    "mode": "fix",
+                    "answer": "Pentingnya menjaga persatuan dan kesatuan bangsa dari ancaman perpecahan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang G30S.",
+                "describeHere": "Galerikejadian adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Peralatandiponegoro",
+            "displayName": "Ruang Koleksi Pangeran Diponogoro",
+            "placeId": "ruang-koleksi-pangeran-diponogoro",
+            "placeName": "Ruang Koleksi Pangeran Diponogoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang penyimpanan koleksi pribadi dan atribut Pangeran Diponegoro.",
+            "description": "Ruang Koleksi Pangeran Diponegoro memamerkan barang-barang peninggalan replika, jubah, dan atribut busana kebesaran yang mencerminkan identitas sang pangeran.",
+            "highlights": [
+                "Benda pamer",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Peralatandiponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Koleksi apa saja yang disimpan di ruang khusus ini?",
+                    "mode": "fix",
+                    "answer": "Replika pakaian, jubah, dan atribut kepemimpinan Pangeran Diponegoro."
+                },
+                {
+                    "q": "Bagaimana cara pengamanan koleksi berharga tersebut?",
+                    "mode": "fix",
+                    "answer": "Disimpan dalam vitrin kaca khusus dengan pengawasan ketat."
+                },
+                {
+                    "q": "Mengapa koleksi atribut ini penting bagi sejarah?",
+                    "mode": "fix",
+                    "answer": "Menggambarkan simbol otoritas dan budaya kepemimpinan masa lampau."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Pangeran Diponogoro.",
+                "describeHere": "Peralatandiponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Ruangg30spki",
+            "displayName": "Galeri Senjata",
+            "placeId": "galeri-senjata",
+            "placeName": "Galeri Senjata",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri senjata pusaka dan perlengkapan militer tradisional pejuang.",
+            "description": "Galeri Senjata menampilkan beragam koleksi persenjataan kuno mulai dari tombak, keris, senapan sundut, hingga pedang perjuangan yang digunakan dalam pertempuran tempo dulu.",
+            "highlights": [
+                "Senjata pajang",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Ruangg30spki",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis senjata apa saja yang mendominasi koleksi galeri ini?",
+                    "mode": "fix",
+                    "answer": "Senjata tradisional Nusantara seperti keris, tombak, dan pedang kuno."
+                },
+                {
+                    "q": "Apakah terdapat senjata api masa kolonial yang dipamerkan?",
+                    "mode": "fix",
+                    "answer": "Ya, termasuk beberapa pucuk senapan locok atau senjata api kuno pejuang."
+                },
+                {
+                    "q": "Bagaimana kondisi persenjataan kuno tersebut dirawat?",
+                    "mode": "fix",
+                    "answer": "Dirawat secara berkala dan dipajang dalam lemari kaca pelindung khusus."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:126"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Senjata.",
+                "describeHere": "Ruangg30spki adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node24": {
+            "rawName": "Sejarahpemberontakan",
+            "displayName": "Galeri peristiwa pertempuran 5 hari Semarang",
+            "placeId": "galeri-peristiwa-pertempuran-5-hari-semarang",
+            "placeName": "Galeri peristiwa pertempuran 5 hari Semarang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri diorama peristiwa heroik Pertempuran 5 Hari di Semarang.",
+            "description": "Galeri Pertempuran 5 Hari di Semarang merekam ketegangan dan heroisme rakyat serta para pemuda Semarang dalam melawan tentara Jepang pada bulan Oktober 1945.",
+            "highlights": [
+                "Dokumen",
+                "Foto"
+            ],
+            "talkingPoints": [
+                "Sejarahpemberontakan",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan peristiwa Pertempuran 5 Hari di Semarang terjadi?",
+                    "mode": "fix",
+                    "answer": "Terjadi pada bulan Oktober 1945 di kota Semarang."
+                },
+                {
+                    "q": "Siapa saja pihak yang terlibat dalam pertempuran heroik ini?",
+                    "mode": "fix",
+                    "answer": "Para pemuda pejuang Semarang melawan tentara pendudukan Jepang."
+                },
+                {
+                    "q": "Monumen apa yang dibangun untuk mengenang peristiwa ini?",
+                    "mode": "fix",
+                    "answer": "Monumen Tugu Muda yang terletak di pusat kota Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri peristiwa pertempuran 5 hari Semarang.",
+                "describeHere": "Sejarahpemberontakan adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node25": {
+            "rawName": "Panglimakodam",
+            "displayName": "Galeri Panglima Kodam",
+            "placeId": "galeri-panglima-kodam",
+            "placeName": "Galeri Panglima Kodam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri potret dan biografi para Panglima Kodam IV/Diponegoro.",
+            "description": "Galeri Panglima Kodam memajang deretan foto resmi serta rekam jejak kepemimpinan para jenderal yang pernah memegang komando di Kodam IV/Diponegoro dari masa ke masa.",
+            "highlights": [
+                "Potret",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Panglimakodam",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Siapa saja tokoh yang dipajang di galeri panglima ini?",
+                    "mode": "fix",
+                    "answer": "Para perwira tinggi yang pernah menjabat sebagai Panglima Kodam IV/Diponegoro."
+                },
+                {
+                    "q": "Apa fungsi dari galeri kepemimpinan militer ini?",
+                    "mode": "fix",
+                    "answer": "Merekam estafet kepemimpinan dan sejarah komando teritorial militer di Jawa Tengah."
+                },
+                {
+                    "q": "Bagaimana galeri potret ini ditata secara visual?",
+                    "mode": "fix",
+                    "answer": "Disusun berderet rapi lengkap dengan papan nama dan masa jabatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Panglima Kodam.",
+                "describeHere": "Panglimakodam adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node26": {
+            "rawName": "Perpustakaan",
+            "displayName": "Koridor Perpustakaan",
+            "placeId": "koridor-perpustakaan",
+            "placeName": "Koridor Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor penghubung menuju ruang koleksi perpustakaan museum.",
+            "description": "Koridor Perpustakaan adalah jalur sirkulasi bersih yang mengantar pengunjung menyusuri rak-rak buku referensi dan ruang baca literatur sejarah militer.",
+            "highlights": [
+                "Pintu kaca",
+                "Rak"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menghubungkan ke mana area koridor perpustakaan ini?",
+                    "mode": "fix",
+                    "answer": "Menghubungkan ruang administrasi menuju area ruang baca dan koleksi buku."
+                },
+                {
+                    "q": "Bagaimana suasana di sepanjang koridor perpustakaan?",
+                    "mode": "ai",
+                    "answer": "Tenang, bersih, dan dihiasi pencahayaan yang terang."
+                },
+                {
+                    "q": "Fasilitas apa yang dapat ditemui di sekitar koridor?",
+                    "mode": "fix",
+                    "answer": "Rak katalog buku dan akses pintu masuk ruang baca utama."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:127"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node27": {
+            "rawName": "Ruangsenjata",
+            "displayName": "Koleksi Senjata Tradisional Prajurit Pangeran Diponogoro",
+            "placeId": "koleksi-senjata-tradisional-prajurit-pangeran-diponogoro",
+            "placeName": "Koleksi Senjata Tradisional Prajurit Pangeran Diponogoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Vitrin khusus koleksi senjata tradisional prajurit pengikut Pangeran Diponegoro.",
+            "description": "Koleksi Senjata Tradisional Prajurit memamerkan ragam tombak, panah, dan pedang andalan pasukan laskar rakyat yang bertempur mendampingi Pangeran Diponegoro.",
+            "highlights": [
+                "Vitrin",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Ruangsenjata",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Prajurit siapa yang menggunakan senjata-senjata tradisional ini?",
+                    "mode": "fix",
+                    "answer": "Pasukan laskar dan prajurit pengikut setia Pangeran Diponegoro."
+                },
+                {
+                    "q": "Senjata tradisional apa yang paling menonjol dalam vitrin?",
+                    "mode": "fix",
+                    "answer": "Tombak bermata tajam dan keris pusaka buatan empu masa lampau."
+                },
+                {
+                    "q": "Bagaimana cara museum menjaga keaslian senjata tersebut?",
+                    "mode": "fix",
+                    "answer": "Disimpan dalam lemari kaca pengontrol kelembaban udara."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:128"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koleksi Senjata Tradisional Prajurit Pangeran Diponogoro.",
+                "describeHere": "Ruangsenjata adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node29": {
+            "rawName": "Ruang Peninggalan Pangeran Diponegoro",
+            "displayName": "Galeri Tokoh Perang Jawa",
+            "placeId": "galeri-tokoh-perang-jawa",
+            "placeName": "Galeri Tokoh Perang Jawa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri yang memperkenalkan tokoh-tokoh penting pendukung Perang Jawa.",
+            "description": "Galeri Tokoh Perang Jawa menampilkan profil para panglima perang, ulama, dan loyalis setia yang menjadi tangan kanan Pangeran Diponegoro dalam mengatur perlawanan.",
+            "highlights": [
+                "Vitrin",
+                "Foto"
+            ],
+            "talkingPoints": [
+                "Ruang Peninggalan Pangeran Diponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Siapa saja tokoh penting yang dibahas dalam galeri ini?",
+                    "mode": "fix",
+                    "answer": "Kyai Maja, Sentot Prawirodirjo, dan para panglima kepercayaan Pangeran Diponegoro."
+                },
+                {
+                    "q": "Apa peranan para tokoh tersebut dalam Perang Jawa?",
+                    "mode": "fix",
+                    "answer": "Memimpin pasukan di berbagai front pertempuran strategis."
+                },
+                {
+                    "q": "Bagaimana profil para tokoh ini disajikan?",
+                    "mode": "fix",
+                    "answer": "Melalui lukisan potret wajah, biografi singkat, dan peran strategisnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Tokoh Perang Jawa.",
+                "describeHere": "Ruang Peninggalan Pangeran Diponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node30": {
+            "rawName": "Tokohperangjawa",
+            "displayName": "Koleksi senjata (Pedang pribumi)",
+            "placeId": "koleksi-senjata-pedang-pribumi",
+            "placeName": "Koleksi senjata (Pedang pribumi)",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koleksi khusus pedang pribumi dan senjata tajam khas Nusantara.",
+            "description": "Koleksi Senjata Pedang Pribumi memperlihatkan keahlian para pembuat senjata tradisional lokal dalam menempa bilah pedang tajam yang digunakan oleh para pejuang.",
+            "highlights": [
+                "Potret",
+                "Lemari pamer"
+            ],
+            "talkingPoints": [
+                "Tokohperangjawa",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kekuatan apa yang menjadi ciri khas pedang pribumi tempo dulu?",
+                    "mode": "fix",
+                    "answer": "Kualitas tempaan besi lokal dan bentuk bilah yang ergonomis untuk pertempuran."
+                },
+                {
+                    "q": "Darimana asal koleksi pedang pribumi yang dipamerkan?",
+                    "mode": "fix",
+                    "answer": "Berbagai daerah di Jawa yang menjadi basis perlawanan masa lalu."
+                },
+                {
+                    "q": "Mengapa senjata tajam ini menjadi koleksi berharga museum?",
+                    "mode": "fix",
+                    "answer": "Sebagai bukti mahakarya seni metalurgi tradisional para leluhur Nusantara."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koleksi senjata (Pedang pribumi).",
+                "describeHere": "Tokohperangjawa adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node31": {
+            "rawName": "Sejarahkodam",
+            "displayName": "Sejarah Kodam Diponogoro",
+            "placeId": "sejarah-kodam-diponogoro",
+            "placeName": "Sejarah Kodam Diponogoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran panel sejarah lahir dan berkembangnya Kodam IV/Diponegoro.",
+            "description": "Sejarah Kodam Diponegoro menyajikan kronologi pembentukan satuan militer wilayah Jawa Tengah serta peran aktifnya dalam mengawal kedaulatan bangsa dari masa ke masa.",
+            "highlights": [
+                "Panel tulisan",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Sejarahkodam",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan cikal bakal Kodam IV/Diponegoro mulai terbentuk?",
+                    "mode": "fix",
+                    "answer": "Terbentuk pada masa awal kemerdekaan Republik Indonesia."
+                },
+                {
+                    "q": "Apa wilayah teritorial yang menjadi tanggung jawab Kodam ini?",
+                    "mode": "fix",
+                    "answer": "Wilayah pertahanan provinsi Jawa Tengah dan Daerah Istimewa Yogyakarta."
+                },
+                {
+                    "q": "Bagaimana sejarah satuan ini dirangkum dalam pameran?",
+                    "mode": "fix",
+                    "answer": "Melalui panel foto dokumentasi sejarah, panji satuan, dan teks naratif."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:129"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Sejarah Kodam Diponogoro.",
+                "describeHere": "Sejarahkodam adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node32": {
+            "rawName": "Ruang Peninggalan Pangeran Diponegoro",
+            "displayName": "Ruang Foto menggunakan pakaian zaman dahulu",
+            "placeId": "ruang-foto-menggunakan-pakaian-zaman-dahulu",
+            "placeName": "Ruang Foto menggunakan pakaian zaman dahulu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Wahana studio foto interaktif mengenakan pakaian adat atau militer tempo dulu.",
+            "description": "Ruang Foto Pakaian Zaman Dulu memberikan pengalaman seru bagi pengunjung untuk berpose mengenakan kostum pejuang kemerdekaan atau pakaian tradisional masa lampau.",
+            "highlights": [
+                "Lemari kaca",
+                "Benda pamer"
+            ],
+            "talkingPoints": [
+                "Ruang Peninggalan Pangeran Diponegoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kostum apa saja yang disewakan untuk berfoto di sini?",
+                    "mode": "fix",
+                    "answer": "Seragam pejuang tempo dulu, pakaian kolonial, dan busana adat tradisional."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan berfoto menggunakan kamera pribadi?",
+                    "mode": "fix",
+                    "answer": "Ya, pengunjung dapat mengabadikan momen seru bersama keluarga atau kerabat."
+                },
+                {
+                    "q": "Apa tujuan disediakan wahana foto tematik ini?",
+                    "mode": "fix",
+                    "answer": "Memberikan pengalaman wisata edukasi yang interaktif dan menyenangkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Foto menggunakan pakaian zaman dahulu.",
+                "describeHere": "Ruang Peninggalan Pangeran Diponegoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node33": {
+            "rawName": "Sejarahdipenogoro",
+            "displayName": "Replika area ibadah Pangeran Diponogoro",
+            "placeId": "replika-area-ibadah-pangeran-diponogoro",
+            "placeName": "Replika area ibadah Pangeran Diponogoro",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Replika sudut tempat ibadah pribadi Pangeran Diponegoro.",
+            "description": "Replika Area Ibadah Pangeran Diponegoro menggambarkan tempat sang pangeran bermunajat dan mendekatkan diri kepada Sang Pencipta di tengah kesibukan memimpin perang.",
+            "highlights": [
+                "Panel",
+                "Bangku"
+            ],
+            "talkingPoints": [
+                "Sejarahdipenogoro",
+                "jalur eksplorasi",
+                "Mandhalabakti"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa makna spiritual dari replika tempat ibadah ini?",
+                    "mode": "fix",
+                    "answer": "Menggambarkan ketaatan beragama dan landasan spiritual perjuangan Pangeran Diponegoro."
+                },
+                {
+                    "q": "Bagaimana suasana di area replika sudut ibadah tersebut?",
+                    "mode": "fix",
+                    "answer": "Tenang, sederhana, dan mencerminkan kepribadian sang pangeran yang religius."
+                },
+                {
+                    "q": "Objek apa saja yang terlihat di sekitar area replika ini?",
+                    "mode": "fix",
+                    "answer": "Perlengkapan salat sederhana dan tiruan sajadah kuno."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Replika area ibadah Pangeran Diponogoro.",
+                "describeHere": "Sejarahdipenogoro adalah area di dalam kawasan Mandhalabakti, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

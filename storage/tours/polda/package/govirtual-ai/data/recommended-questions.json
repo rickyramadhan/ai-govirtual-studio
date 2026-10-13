@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "polda",
+    "tourName": "Polda",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Layanan Masyarakat",
+                "query": "Di bagian mana masyarakat bisa melaporkan kejadian atau mengurus administrasi?",
+                "desc": "Di bagian mana masyarakat bisa melaporkan kejadian atau mengurus administrasi?"
+            },
+            {
+                "label": "Lokasi Strategis",
+                "query": "Bagaimana letak strategis markas ini di sepanjang jalan utama Pahlawan Semarang?",
+                "desc": "Bagaimana letak strategis markas ini di sepanjang jalan utama Pahlawan Semarang?"
+            },
+            {
+                "label": "CCTV & Komando",
+                "query": "Apakah markas ini dilengkapi dengan sistem pantauan CCTV lalu lintas terpusat?",
+                "desc": "Apakah markas ini dilengkapi dengan sistem pantauan CCTV lalu lintas terpusat?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Markas Kepolisian",
+                "query": "Bagaimana peran Markas Polda Jateng dalam menjaga keamanan dan ketertiban di Jawa Tengah?"
+            },
+            {
+                "label": "Fasilitas Pelayanan",
+                "query": "Apa saja fasilitas pelayanan masyarakat, seperti SPKT dan pembuatan SKCK, di kompleks ini?"
+            },
+            {
+                "label": "Sejarah Bangunan",
+                "query": "Bagaimana sejarah perkembangan bangunan markas polisi di kawasan Pahlawan Semarang ini?"
+            },
+            {
+                "label": "Pusat Kendali",
+                "query": "Bagaimana pusat kendali operasi dan teknologi informasi kepolisian diatur di markas ini?"
+            },
+            {
+                "label": "Satuan Kerja",
+                "query": "Apa saja satuan kerja utama seperti Ditreskrimum dan Ditlantas yang berkantor di sini?"
+            },
+            {
+                "label": "Lapangan Apel",
+                "query": "Bagaimana rutinitas upacara dan fungsi lapangan apel utama di kompleks Polda Jateng?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Polda?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Polda?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Polda?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

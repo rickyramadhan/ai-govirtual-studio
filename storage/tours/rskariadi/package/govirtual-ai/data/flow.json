@@ -1,0 +1,127 @@
+{
+    "version": "1.0",
+    "tourId": "rskariadi",
+    "tourName": "Rskariadi",
+    "updatedAt": "2026-09-29T09:52:06+02:00",
+    "startScene": "node85",
+    "order": [
+        "node85",
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108"
+    ],
+    "nodes": {
+        "node85": {
+            "displayName": "RSUP Dr. Kariadi – Gerbang Kariadi – Pandangan dari Jalan"
+        },
+        "node80": {
+            "displayName": "RSUP Dr. Kariadi – Pintu Masuk 3"
+        },
+        "node81": {
+            "displayName": "RSUP Dr. Kariadi – Pintu Masuk IGD"
+        },
+        "node82": {
+            "displayName": "RSUP Dr. Kariadi – Konter Radiologi"
+        },
+        "node83": {
+            "displayName": "RSUP Dr. Kariadi – Fasad Paviliun Garuda"
+        },
+        "node84": {
+            "displayName": "RSUP Dr. Kariadi – Taman Prasasti"
+        },
+        "node86": {
+            "displayName": "RSUP Dr. Kariadi – Lobi Paviliun"
+        },
+        "node87": {
+            "displayName": "RSUP Dr. Kariadi – Fasad Gedung Darmojo"
+        },
+        "node88": {
+            "displayName": "RSUP Dr. Kariadi – Interior Aula"
+        },
+        "node89": {
+            "displayName": "RSUP Dr. Kariadi – Lobi Aula – Relief"
+        },
+        "node90": {
+            "displayName": "RSUP Dr. Kariadi – Gerbang Utama – Area Pos"
+        },
+        "node91": {
+            "displayName": "RSUP Dr. Kariadi – Drop-off IGD"
+        },
+        "node92": {
+            "displayName": "RSUP Dr. Kariadi – Gedung Instalasi Jantung"
+        },
+        "node93": {
+            "displayName": "RSUP Dr. Kariadi – Pintu Gedung Aula"
+        },
+        "node94": {
+            "displayName": "RSUP Dr. Kariadi – Stasiun Perawat – Area Kontrol"
+        },
+        "node95": {
+            "displayName": "RSUP Dr. Kariadi – Pelataran Gedung Merpati"
+        },
+        "node96": {
+            "displayName": "RSUP Dr. Kariadi – Pintu Gedung Rajawali"
+        },
+        "node97": {
+            "displayName": "RSUP Dr. Kariadi – Lobi Cendrawasih"
+        },
+        "node98": {
+            "displayName": "RSUP Dr. Kariadi – Lobi Tangga Utama"
+        },
+        "node99": {
+            "displayName": "RSUP Dr. Kariadi – Lobi Rajawali"
+        },
+        "node100": {
+            "displayName": "RSUP Dr. Kariadi – Radiologi – Ruang Tunggu"
+        },
+        "node101": {
+            "displayName": "RSUP Dr. Kariadi – Radiologi – Koridor Dalam"
+        },
+        "node102": {
+            "displayName": "RSUP Dr. Kariadi – Pintu Area Radiologi"
+        },
+        "node103": {
+            "displayName": "RSUP Dr. Kariadi – Koridor Informasi Rumah Sakit"
+        },
+        "node104": {
+            "displayName": "RSUP Dr. Kariadi – Stasiun Perawat – Meja Layanan"
+        },
+        "node105": {
+            "displayName": "RSUP Dr. Kariadi – Gerai Kebutuhan Pengunjung"
+        },
+        "node106": {
+            "displayName": "RSUP Dr. Kariadi – Jalur Keluar Rumah Sakit"
+        },
+        "node107": {
+            "displayName": "RSUP Dr. Kariadi – Pintu Masuk 2"
+        },
+        "node108": {
+            "displayName": "RSUP Dr. Kariadi – Jalan Samping Gedung Aula"
+        }
+    }
+}

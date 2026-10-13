@@ -1,0 +1,244 @@
+{
+    "version": 2,
+    "tourId": "kepalamanyungbufat",
+    "updatedAt": "2026-09-29T09:51:08+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kepalamanyungbufat",
+            "aliases": [
+                "kepalamanyungbufat"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kepalamanyungbufat"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kepalamanyungbufat.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kepalamanyungbufat",
+                    "content": "Pusat pengalaman virtual untuk Kepalamanyungbufat."
+                },
+                "en": {
+                    "title": "Kepalamanyungbufat",
+                    "content": "Pusat pengalaman virtual untuk Kepalamanyungbufat."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Ruangmakanac",
+            "aliases": [
+                "ruangmakanac"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kepalamanyungbufat"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruangmakanac",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Ruangmakanac",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Botok",
+            "aliases": [
+                "botok"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kepalamanyungbufat"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Botok",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Botok",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kepalamanyungbufat"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1052",
+            "entityId": "objinfo2:1052",
+            "title": "Ruang Makan Prasmanan",
+            "aliases": [
+                "ruang makan prasmanan",
+                "objek 1052"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini menawarkan pengalaman kuliner autentik yang dibalut dalam suasana semi-terbuka yang hangat dan komunal. Di sini, para tamu dapat menikmati kebebasan untuk memilih langsung deretan hidangan khas yang disajikan, menciptakan interaksi yang dinamis dengan kekayaan rempah nusantara.",
+            "source": "webview-import",
+            "sourceId": "1052",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Makan Prasmanan",
+                    "content": "Area ini menawarkan pengalaman kuliner autentik yang dibalut dalam suasana semi-terbuka yang hangat dan komunal. Di sini, para tamu dapat menikmati kebebasan untuk memilih langsung deretan hidangan khas yang disajikan, menciptakan interaksi yang dinamis dengan kekayaan rempah nusantara."
+                },
+                "en": {
+                    "title": "Buffet Dining Area",
+                    "content": "This area offers an authentic culinary experience wrapped in a warm and communal semi-open atmosphere. Here, guests can enjoy the freedom to choose directly from a row of served signature dishes, creating a dynamic interaction with the richness of Indonesian spices."
+                },
+                "zh": {
+                    "title": "自助餐用餐区",
+                    "content": "该区域提供真实的美食体验，营造出温暖且具有社交氛围的半开放空间。客人可以自由地从一排摆放的特色菜中挑选，体验与印尼香料丰富风味的互动。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام بنظام البوفيه",
+                    "content": "تقدم هذه المنطقة تجربة طعام أصيلة في أجواء شبه مفتوحة دافئة وجماعية. هنا يمكن للضيوف الاستمتاع بحرية اختيار الأطباق المميزة المعروضة مباشرة، مما يخلق تفاعلًا ديناميكيًا مع ثراء التوابل الإندونيسية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1053",
+            "entityId": "objinfo2:1053",
+            "title": "Ruang Makan AC",
+            "aliases": [
+                "ruang makan ac",
+                "objek 1053"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Menyediakan ketenangan yang sejuk, ruang ini dirancang bagi Anda yang memprioritaskan privasi dan kenyamanan ekstra saat bersantap. Atmosfernya yang lebih tertata dan eksklusif menjadikannya pilihan sempurna untuk menjamu tamu spesial maupun menikmati momen berharga dalam suasana yang lebih intim.",
+            "source": "webview-import",
+            "sourceId": "1053",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Makan AC",
+                    "content": "Menyediakan ketenangan yang sejuk, ruang ini dirancang bagi Anda yang memprioritaskan privasi dan kenyamanan ekstra saat bersantap. Atmosfernya yang lebih tertata dan eksklusif menjadikannya pilihan sempurna untuk menjamu tamu spesial maupun menikmati momen berharga dalam suasana yang lebih intim."
+                },
+                "en": {
+                    "title": "Air-Conditioned Dining Area",
+                    "content": "Providing cool tranquility, this room is designed for those who prioritize privacy and extra comfort while dining. Its more organized and exclusive atmosphere makes it the perfect choice for hosting special guests or enjoying precious moments in a more intimate setting."
+                },
+                "zh": {
+                    "title": "空调用餐区",
+                    "content": "该空间提供清凉宁静，专为重视隐私和额外舒适度的用餐者设计。更为有序且专属的氛围使其成为招待贵宾或在更私密环境中享受珍贵时刻的理想选择。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام مكيفة",
+                    "content": "توفر هذه الغرفة هدوءًا باردًا، وقد صُممت لأولئك الذين يفضلون الخصوصية والراحة الإضافية أثناء تناول الطعام. إن أجواءها الأكثر تنظيمًا وحصرية تجعلها الخيار المثالي لاستضافة الضيوف المميزين أو الاستمتاع بلحظات ثمينة في بيئة أكثر حميمية."
+                }
+            }
+        }
+    ]
+}

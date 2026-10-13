@@ -1,0 +1,520 @@
+{
+    "version": 2,
+    "tourId": "semarangzoo",
+    "updatedAt": "2026-09-29T09:52:18+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Semarangzoo",
+            "aliases": [
+                "semarangzoo"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "semarangzoo"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Semarangzoo.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Semarangzoo",
+                    "content": "Pusat pengalaman virtual untuk Semarangzoo."
+                },
+                "en": {
+                    "title": "Semarangzoo",
+                    "content": "Pusat pengalaman virtual untuk Semarangzoo."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Harimau",
+            "aliases": [
+                "harimau"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "semarangzoo"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Harimau",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Harimau",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Kandangorangutan",
+            "aliases": [
+                "kandangorangutan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "semarangzoo"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kandangorangutan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Kandangorangutan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "semarangzoo"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:199",
+            "entityId": "objinfo2:199",
+            "title": "Gua Reptil",
+            "aliases": [
+                "gua reptil",
+                "objek 199"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini menampilkan beragam koleksi reptil seperti ular, kadal, dan iguana dalam lingkungan yang terkontrol. Pengunjung dapat mengamati adaptasi unik satwa-satwa ini dan belajar mengenai peran mereka dalam ekosistem.",
+            "source": "webview-import",
+            "sourceId": "199",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gua Reptil",
+                    "content": "Area ini menampilkan beragam koleksi reptil seperti ular, kadal, dan iguana dalam lingkungan yang terkontrol. Pengunjung dapat mengamati adaptasi unik satwa-satwa ini dan belajar mengenai peran mereka dalam ekosistem."
+                },
+                "en": {
+                    "title": "Reptile Cave",
+                    "content": "This area showcases a diverse collection of reptiles such as snakes, lizards, and iguanas in a controlled environment. Visitors can observe the unique adaptations of these creatures and learn about their roles in the ecosystem."
+                },
+                "zh": {
+                    "title": "爬行动物洞穴",
+                    "content": "该区域展示了各种爬行动物，如蛇、蜥蜴和鬣蜥，置于受控环境中。游客可以观察这些动物独特的适应特征，并了解它们在生态系统中的作用。"
+                },
+                "ar": {
+                    "title": "كهف الزواحف",
+                    "content": "يعرض هذا المكان مجموعة متنوعة من الزواحف مثل الثعابين والسحالي والإغوانا في بيئة مُتحكَّم بها. يمكن للزوار ملاحظة تكيفات هذه الكائنات الفريدة والتعرّف على دورها في النظام البيئي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:200",
+            "entityId": "objinfo2:200",
+            "title": "Kandang Burung Kasuari",
+            "aliases": [
+                "kandang burung kasuari",
+                "objek 200"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kasuari merupakan salah satu koleksi burung besar di kebun binatang ini yang ditempatkan di area khusus burung. Kandang ini memungkinkan pengunjung mengamati burung yang terkenal dengan jambul tanduk (helm) di kepalanya.",
+            "source": "webview-import",
+            "sourceId": "200",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Burung Kasuari",
+                    "content": "Kasuari merupakan salah satu koleksi burung besar di kebun binatang ini yang ditempatkan di area khusus burung. Kandang ini memungkinkan pengunjung mengamati burung yang terkenal dengan jambul tanduk (helm) di kepalanya."
+                },
+                "en": {
+                    "title": "Cassowary Bird Enclosure",
+                    "content": "The cassowary is one of the large bird species in this zoo, housed in a special bird area. This enclosure allows visitors to observe the bird known for its distinctive horn-like casque on its head."
+                },
+                "zh": {
+                    "title": "食火鸡鸟舍",
+                    "content": "食火鸡是这座动物园中大型鸟类收藏之一，被安置在专门的鸟类区域。这个鸟舍让游客能够观察这种以头上角状头盔而闻名的鸟类。"
+                },
+                "ar": {
+                    "title": "قفص طائر الكاسوار",
+                    "content": "الكاسوار هو أحد أنواع الطيور الكبيرة في هذه الحديقة، ويوضع في منطقة مخصصة للطيور. يتيح هذا القفص للزوار مراقبة الطائر المعروف بعُرفه الشبيه بالخوذة على رأسه."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:201",
+            "entityId": "objinfo2:201",
+            "title": "Kandang Gajah",
+            "aliases": [
+                "kandang gajah",
+                "objek 201"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kandang ini adalah rumah bagi koleksi Gajah Sumatera di Semarang Zoo, menempati area yang cukup lapang untuk pergerakan mereka. Di sekitar area ini, pengunjung juga bisa mencoba wahana menunggang gajah atau berinteraksi langsung dengan memberi makan.",
+            "source": "webview-import",
+            "sourceId": "201",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Gajah",
+                    "content": "Kandang ini adalah rumah bagi koleksi Gajah Sumatera di Semarang Zoo, menempati area yang cukup lapang untuk pergerakan mereka. Di sekitar area ini, pengunjung juga bisa mencoba wahana menunggang gajah atau berinteraksi langsung dengan memberi makan."
+                },
+                "en": {
+                    "title": "Elephant Enclosure",
+                    "content": "This enclosure is home to the Sumatran elephants at Semarang Zoo, occupying a spacious area that allows them to move freely. Around this area, visitors can also experience elephant rides or interact directly by feeding them."
+                },
+                "zh": {
+                    "title": "大象围栏",
+                    "content": "这个围栏是三宝垄动物园苏门答腊大象的家，占地宽敞，方便它们自由活动。在此区域周围，游客还可以体验骑大象或亲自喂食互动。"
+                },
+                "ar": {
+                    "title": "قفص الأفيال",
+                    "content": "يُعد هذا القفص موطنًا لفيلة سومطرة في حديقة حيوان سمارانغ، ويقع في منطقة واسعة تسمح لها بالحركة بحرية. يمكن للزوار في هذه المنطقة أيضًا تجربة ركوب الفيلة أو التفاعل معها مباشرة من خلال إطعامها."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:202",
+            "entityId": "objinfo2:202",
+            "title": "Kandang Harimau",
+            "aliases": [
+                "kandang harimau",
+                "objek 202"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kandang Harimau Benggala dan predator lainnya dirancang khusus dengan pengamanan ketat untuk menjamin keamanan pengunjung. Salah satu atraksi di area ini adalah kesempatan bagi pengunjung untuk berfoto bersama anak harimau di bawah pengawasan petugas.",
+            "source": "webview-import",
+            "sourceId": "202",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Harimau",
+                    "content": "Kandang Harimau Benggala dan predator lainnya dirancang khusus dengan pengamanan ketat untuk menjamin keamanan pengunjung. Salah satu atraksi di area ini adalah kesempatan bagi pengunjung untuk berfoto bersama anak harimau di bawah pengawasan petugas."
+                },
+                "en": {
+                    "title": "Tiger Enclosure",
+                    "content": "The Bengal tiger and other predator enclosures are specially designed with strict security measures to ensure visitor safety. One of the attractions in this area is the opportunity for visitors to take photos with tiger cubs under staff supervision."
+                },
+                "zh": {
+                    "title": "老虎围栏",
+                    "content": "孟加拉虎和其他食肉动物的围栏经过特别设计，配备严格的安全措施以确保游客安全。该区域的亮点之一是游客可以在工作人员的监督下与小老虎合影。"
+                },
+                "ar": {
+                    "title": "قفص النمور",
+                    "content": "يتم تصميم قفص النمر البنغالي والمفترسات الأخرى خصيصًا بإجراءات أمنية مشددة لضمان سلامة الزوار. من أبرز الأنشطة في هذه المنطقة إمكانية التقاط الصور مع أشبال النمور تحت إشراف الموظفين."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:203",
+            "entityId": "objinfo2:203",
+            "title": "Kandang Orang Utan",
+            "aliases": [
+                "kandang orang utan",
+                "objek 203"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Orang Utan ditempatkan di kandang khusus yang menyerupai habitat aslinya dan merupakan bagian penting dari koleksi primata. Kandang ini menjadi sarana edukasi konservasi satwa endemik Indonesia yang statusnya terancam punah.",
+            "source": "webview-import",
+            "sourceId": "203",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Orang Utan",
+                    "content": "Orang Utan ditempatkan di kandang khusus yang menyerupai habitat aslinya dan merupakan bagian penting dari koleksi primata. Kandang ini menjadi sarana edukasi konservasi satwa endemik Indonesia yang statusnya terancam punah."
+                },
+                "en": {
+                    "title": "Orangutan Enclosure",
+                    "content": "The orangutans are housed in a special enclosure that resembles their natural habitat and form an important part of the primate collection. This enclosure serves as an educational medium for the conservation of Indonesia’s endemic species that are currently endangered."
+                },
+                "zh": {
+                    "title": "红毛猩猩围栏",
+                    "content": "红毛猩猩被安置在一个特别的围栏中，该围栏仿照其自然栖息地建造，是灵长类动物收藏的重要部分。这个围栏也作为印尼特有濒危物种保护的教育场所。"
+                },
+                "ar": {
+                    "title": "قفص إنسان الغاب",
+                    "content": "يتم وضع إنسان الغاب في قفص خاص يشبه موطنه الطبيعي، ويُعد جزءًا مهمًا من مجموعة الرئيسيات. يُستخدم هذا القفص كوسيلة تعليمية للحفاظ على الحيوانات المستوطنة في إندونيسيا والمهددة بالانقراض."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:204",
+            "entityId": "objinfo2:204",
+            "title": "Kandang Primata",
+            "aliases": [
+                "kandang primata",
+                "objek 204"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini menyajikan berbagai jenis kera, mulai dari siamang hingga beruk, selain orang utan. Kandang primata berfungsi sebagai pusat pengamatan perilaku satwa yang cerdas dan lincah.",
+            "source": "webview-import",
+            "sourceId": "204",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Primata",
+                    "content": "Area ini menyajikan berbagai jenis kera, mulai dari siamang hingga beruk, selain orang utan. Kandang primata berfungsi sebagai pusat pengamatan perilaku satwa yang cerdas dan lincah."
+                },
+                "en": {
+                    "title": "Primate Enclosure",
+                    "content": "This area features various species of monkeys, from siamangs to macaques, in addition to orangutans. The primate enclosure serves as a center for observing the behavior of these intelligent and agile animals."
+                },
+                "zh": {
+                    "title": "灵长类动物围栏",
+                    "content": "该区域展示了多种猴类，从长臂猿到猕猴，还有红毛猩猩。灵长类动物围栏是观察这些聪明敏捷动物行为的中心。"
+                },
+                "ar": {
+                    "title": "قفص الرئيسيات",
+                    "content": "تُعرض في هذه المنطقة أنواع مختلفة من القِرَدَة، من السيامانغ إلى البيروك، إضافةً إلى إنسان الغاب. يعمل قفص الرئيسيات كمركز لمراقبة سلوك هذه الحيوانات الذكية والرشيقة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:205",
+            "entityId": "objinfo2:205",
+            "title": "Kandang Unta",
+            "aliases": [
+                "kandang unta",
+                "objek 205"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Koleksi Unta ditempatkan di kandang terbuka yang cukup luas, merepresentasikan satwa khas daerah gurun. Satwa ini seringkali menarik perhatian pengunjung karena ukurannya yang tinggi dan punuk khasnya.",
+            "source": "webview-import",
+            "sourceId": "205",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Unta",
+                    "content": "Koleksi Unta ditempatkan di kandang terbuka yang cukup luas, merepresentasikan satwa khas daerah gurun. Satwa ini seringkali menarik perhatian pengunjung karena ukurannya yang tinggi dan punuk khasnya."
+                },
+                "en": {
+                    "title": "Camel Enclosure",
+                    "content": "The camel collection is housed in a spacious open enclosure, representing animals typical of desert regions. These animals often attract visitors’ attention due to their tall stature and distinctive humps."
+                },
+                "zh": {
+                    "title": "骆驼围栏",
+                    "content": "骆驼被安置在宽敞的开放式围栏中，代表着沙漠地区特有的动物。由于其高大的体型和独特的驼峰，这种动物常常吸引游客的注意。"
+                },
+                "ar": {
+                    "title": "قفص الجِمال",
+                    "content": "تُوضع الجِمال في قفص مفتوح واسع، يُمثّل الحيوانات المميزة لمناطق الصحراء. وغالبًا ما تجذب هذه الحيوانات انتباه الزوار بسبب طولها ووجود السنام المميز على ظهورها."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:206",
+            "entityId": "objinfo2:206",
+            "title": "Kandang Rusa Timor",
+            "aliases": [
+                "kandang rusa timor",
+                "objek 206"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kandang ini dihuni oleh Rusa Timor (atau sejenisnya) dan satwa herbivora lainnya dalam lingkungan yang mendukung. Pengunjung diizinkan untuk memberi makan rusa secara langsung di area ini, menjadikannya aktivitas interaktif yang populer.",
+            "source": "webview-import",
+            "sourceId": "206",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kandang Rusa Timor",
+                    "content": "Kandang ini dihuni oleh Rusa Timor (atau sejenisnya) dan satwa herbivora lainnya dalam lingkungan yang mendukung. Pengunjung diizinkan untuk memberi makan rusa secara langsung di area ini, menjadikannya aktivitas interaktif yang populer."
+                },
+                "en": {
+                    "title": "Timor Deer Enclosure",
+                    "content": "This enclosure is home to Timor deer (and similar species) along with other herbivorous animals in a supportive environment. Visitors are allowed to feed the deer directly in this area, making it a popular interactive activity."
+                },
+                "zh": {
+                    "title": "帝汶鹿围栏",
+                    "content": "该围栏饲养着帝汶鹿（或类似种类）以及其他草食动物，环境十分适宜。游客可以在此区域直接喂鹿，使其成为受欢迎的互动活动。"
+                },
+                "ar": {
+                    "title": "قفص غزال تيمور",
+                    "content": "يأوي هذا القفص غزلان تيمور (أو أنواعًا مشابهة) وغيرها من الحيوانات العاشبة في بيئة داعمة. يُسمح للزوار بإطعام الغزلان مباشرة في هذه المنطقة، مما يجعلها نشاطًا تفاعليًا شائعًا."
+                }
+            }
+        }
+    ]
+}

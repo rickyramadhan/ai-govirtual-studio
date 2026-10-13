@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "semesta",
+    "updatedAt": "2026-09-29T09:52:20+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Semesta",
+            "aliases": [
+                "semesta"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "semesta"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Semesta.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Semesta",
+                    "content": "Pusat pengalaman virtual untuk Semesta."
+                },
+                "en": {
+                    "title": "Semesta",
+                    "content": "Pusat pengalaman virtual untuk Semesta."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node81",
+            "aliases": [
+                "node81"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "semesta"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node81",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node81",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruang Guru",
+            "aliases": [
+                "ruang guru"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "semesta"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruang Guru",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruang Guru",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "semesta"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:382",
+            "entityId": "objinfo2:382",
+            "title": "Aula Graha Semesta",
+            "aliases": [
+                "aula graha semesta",
+                "objek 382"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Aula Graha Semesta berfungsi sebagai auditorium atau ruang pertemuan besar untuk menampung berbagai acara formal dan kegiatan sekolah. Tempat ini menjadi pusat kegiatan komunitas sekolah, mulai dari upacara hingga pertunjukan seni atau seminar.",
+            "source": "webview-import",
+            "sourceId": "382",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Aula Graha Semesta",
+                    "content": "Aula Graha Semesta berfungsi sebagai auditorium atau ruang pertemuan besar untuk menampung berbagai acara formal dan kegiatan sekolah. Tempat ini menjadi pusat kegiatan komunitas sekolah, mulai dari upacara hingga pertunjukan seni atau seminar."
+                },
+                "en": {
+                    "title": "Graha Semesta Hall",
+                    "content": "Graha Semesta Hall serves as an auditorium or large meeting space to accommodate various formal events and school activities. This venue acts as the central hub for school community events, ranging from ceremonies to art performances and seminars."
+                },
+                "zh": {
+                    "title": "宇宙大廳",
+                    "content": "宇宙大廳作為禮堂或大型會議空間，用於舉辦各種正式活動和學校活動。該場所是學校社區活動的中心，包括典禮、藝術表演及研討會。"
+                },
+                "ar": {
+                    "title": "قاعة غراها سمستا",
+                    "content": "تعمل قاعة غراها سمستا كقاعة محاضرات أو مساحة اجتماعات كبيرة لاستيعاب مختلف الأحداث الرسمية وأنشطة المدرسة. تُعد هذه القاعة مركزاً لأنشطة مجتمع المدرسة، بدءاً من الاحتفالات وصولاً إلى العروض الفنية والندوات."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:383",
+            "entityId": "objinfo2:383",
+            "title": "Lab IPA",
+            "aliases": [
+                "lab ipa",
+                "objek 383"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab IPA (Biologi) Sekolah ini memiliki laboratorium sains terpisah untuk Fisika, Kimia, dan Biologi yang mendukung kurikulum internasional. Laboratorium ini dilengkapi dengan peralatan modern untuk memfasilitasi praktikum dan persiapan siswa dalam olimpiade sains.",
+            "source": "webview-import",
+            "sourceId": "383",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab IPA",
+                    "content": "Lab IPA (Biologi) Sekolah ini memiliki laboratorium sains terpisah untuk Fisika, Kimia, dan Biologi yang mendukung kurikulum internasional. Laboratorium ini dilengkapi dengan peralatan modern untuk memfasilitasi praktikum dan persiapan siswa dalam olimpiade sains."
+                },
+                "en": {
+                    "title": "Science Lab",
+                    "content": "The Science Lab (Biology) at this school has separate laboratories for Physics, Chemistry, and Biology to support the international curriculum. The lab is equipped with modern tools to facilitate experiments and prepare students for science olympiads."
+                },
+                "zh": {
+                    "title": "科學實驗室",
+                    "content": "這所學校的科學實驗室（生物學）設有獨立的物理、化學和生物實驗室，以支持國際課程。實驗室配備現代化設備，以促進實驗並幫助學生準備科學奧林匹克競賽。"
+                },
+                "ar": {
+                    "title": "مختبر العلوم",
+                    "content": "مختبر العلوم (علم الأحياء) في هذه المدرسة يحتوي على مختبرات منفصلة للفيزياء والكيمياء وعلم الأحياء لدعم المنهج الدولي. المختبر مجهز بأدوات حديثة لتسهيل التجارب وتحضير الطلاب أولمبياد العلوم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:384",
+            "entityId": "objinfo2:384",
+            "title": "Lab Komputer",
+            "aliases": [
+                "lab komputer",
+                "objek 384"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Komputer menyediakan fasilitas teknologi digital untuk mendukung model pembelajaran Technology Integrated Classroom. Ruangan ini digunakan siswa untuk praktik komputasi dan riset berbasis teknologi sebagai bagian dari kurikulum.",
+            "source": "webview-import",
+            "sourceId": "384",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Komputer",
+                    "content": "Lab Komputer menyediakan fasilitas teknologi digital untuk mendukung model pembelajaran Technology Integrated Classroom. Ruangan ini digunakan siswa untuk praktik komputasi dan riset berbasis teknologi sebagai bagian dari kurikulum."
+                },
+                "en": {
+                    "title": "Computer Lab",
+                    "content": "The Computer Lab provides digital technology facilities to support the Technology Integrated Classroom learning model. Students use this space for computing practice and technology-based research as part of the curriculum."
+                },
+                "zh": {
+                    "title": "電腦實驗室",
+                    "content": "電腦實驗室提供數位技術設施，以支持科技整合課堂的學習模式。學生使用此空間進行計算實踐和基於技術的研究，作為課程的一部分。"
+                },
+                "ar": {
+                    "title": "مختبر الحاسوب",
+                    "content": "مختبر الحاسوب يوفر مرافق التكنولوجيا الرقمية لدعم نموذج التعلم المتكامل بالتكنولوجيا. يستخدم الطلاب هذه الغرفة لممارسة الحوسبة والبحث القائم على التكنولوجيا كجزء من المنهج الدراسي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:385",
+            "entityId": "objinfo2:385",
+            "title": "Lab Kimia",
+            "aliases": [
+                "lab kimia",
+                "objek 385"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Kimia adalah salah satu ruang praktik sains yang lengkap, dirancang untuk melaksanakan eksperimen dan penelitian kimia secara mendalam. Fasilitas ini mendukung pembelajaran interaktif dan persiapan siswa untuk meraih prestasi akademik di bidang Kimia.",
+            "source": "webview-import",
+            "sourceId": "385",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Kimia",
+                    "content": "Lab Kimia adalah salah satu ruang praktik sains yang lengkap, dirancang untuk melaksanakan eksperimen dan penelitian kimia secara mendalam. Fasilitas ini mendukung pembelajaran interaktif dan persiapan siswa untuk meraih prestasi akademik di bidang Kimia."
+                },
+                "en": {
+                    "title": "Chemistry Lab",
+                    "content": "The Chemistry Lab is a comprehensive science practice room designed for conducting in-depth chemical experiments and research. This facility supports interactive learning and prepares students to achieve academic excellence in Chemistry."
+                },
+                "zh": {
+                    "title": "化學實驗室",
+                    "content": "化學實驗室是一個完整的科學實驗室，專為進行深入的化學實驗和研究而設計。此設施支持互動式學習，並幫助學生在化學領域取得學術成就。"
+                },
+                "ar": {
+                    "title": "مختبر الكيمياء",
+                    "content": "مختبر الكيمياء هو غرفة ممارسة علمية شاملة مصممة لإجراء التجارب الكيميائية والبحوث المتعمقة. هذه المرافق تدعم التعلم التفاعلي وتعد الطلاب لتحقيق التميز الأكاديمي في مجال الكيمياء."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:386",
+            "entityId": "objinfo2:386",
+            "title": "Kelas",
+            "aliases": [
+                "kelas",
+                "objek 386"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang kelas di Semesta Boarding School umumnya nyaman dan ber-AC, mendukung sistem pembelajaran bilingual (dwibahasa) dengan kurikulum Nasional dan Cambridge. Ruangan ini dirancang untuk menciptakan lingkungan belajar yang kondusif dan terintegrasi dengan teknologi digital.",
+            "source": "webview-import",
+            "sourceId": "386",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kelas",
+                    "content": "Ruang kelas di Semesta Boarding School umumnya nyaman dan ber-AC, mendukung sistem pembelajaran bilingual (dwibahasa) dengan kurikulum Nasional dan Cambridge. Ruangan ini dirancang untuk menciptakan lingkungan belajar yang kondusif dan terintegrasi dengan teknologi digital."
+                },
+                "en": {
+                    "title": "Classroom",
+                    "content": "The classrooms at Semesta Boarding School are generally comfortable and air-conditioned, supporting a bilingual learning system with National and Cambridge curricula. The rooms are designed to create a conducive learning environment integrated with digital technology."
+                },
+                "zh": {
+                    "title": "教室",
+                    "content": "Semesta寄宿學校的教室通常舒適並配備空調，支持國家課程與劍橋課程的雙語學習系統。教室設計旨在營造有利於學習的環境，並與數字技術整合。"
+                },
+                "ar": {
+                    "title": "الفصل الدراسي",
+                    "content": "تتميز فصول مدرسة سيميستا الداخلية بالراحة وتكييف الهواء، وتدعم نظام التعلم ثنائي اللغة وفقاً للمناهج الوطنية ومنهج كامبريدج. تم تصميم الغرف لخلق بيئة تعليمية مناسبة ومتكاملة مع التكنولوجيا الرقمية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:387",
+            "entityId": "objinfo2:387",
+            "title": "Perpustakaan",
+            "aliases": [
+                "perpustakaan",
+                "objek 387"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Perpustakaan menyediakan sumber belajar berupa koleksi buku dan referensi yang memadai untuk mendukung kegiatan literasi siswa. Fasilitas ini menjadi tempat utama bagi siswa untuk melakukan kegiatan membaca dan riset mandiri, termasuk dalam program literasi harian.",
+            "source": "webview-import",
+            "sourceId": "387",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Perpustakaan",
+                    "content": "Perpustakaan menyediakan sumber belajar berupa koleksi buku dan referensi yang memadai untuk mendukung kegiatan literasi siswa. Fasilitas ini menjadi tempat utama bagi siswa untuk melakukan kegiatan membaca dan riset mandiri, termasuk dalam program literasi harian."
+                },
+                "en": {
+                    "title": "Library",
+                    "content": "The library provides learning resources in the form of books and references sufficient to support students’ literacy activities. This facility serves as the main place for students to engage in reading and independent research, including daily literacy programs."
+                },
+                "zh": {
+                    "title": "圖書館",
+                    "content": "圖書館提供充足的學習資源，包括書籍和參考資料，以支持學生的閱讀能力活動。這個設施是學生進行閱讀和自主研究的主要場所，包括每日閱讀計畫。"
+                },
+                "ar": {
+                    "title": "المكتبة",
+                    "content": "توفر المكتبة مصادر تعليمية من كتب ومراجع كافية لدعم أنشطة القراءة لدى الطلاب. تُعد هذه المرافق المكان الرئيسي للطلاب للانخراط في القراءة والبحث المستقل، بما في ذلك برامج محو الأمية اليومية."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "goakreo",
+    "updatedAt": "2026-09-29T09:50:48+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Goakreo",
+            "aliases": [
+                "goakreo"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "goakreo"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Goakreo.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Goakreo",
+                    "content": "Pusat pengalaman virtual untuk Goakreo."
+                },
+                "en": {
+                    "title": "Goakreo",
+                    "content": "Pusat pengalaman virtual untuk Goakreo."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Pintu Masuk Goa Kreo",
+            "aliases": [
+                "pintu masuk goa kreo"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "goakreo"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pintu Masuk Goa Kreo",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Pintu Masuk Goa Kreo",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Goakreo",
+            "aliases": [
+                "goakreo"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "goakreo"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Goakreo",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Goakreo",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "goakreo"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:236",
+            "entityId": "objinfo2:236",
+            "title": "Patung Legenda Goa Kreo",
+            "aliases": [
+                "patung legenda goa kreo",
+                "objek 236"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung ini merepresentasikan kera yang dipercaya membantu Sunan Kalijaga dalam mencari dan mengamankan kayu jati untuk Masjid Demak. Patung-patung ini menjadi penanda visual dari legenda \"Mangreho\" (jagalah) yang diucapkan Sunan Kalijaga kepada kawanan kera tersebut, yang kemudian menjadi asal nama Goa Kreo.",
+            "source": "webview-import",
+            "sourceId": "236",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Legenda Goa Kreo",
+                    "content": "Patung ini merepresentasikan kera yang dipercaya membantu Sunan Kalijaga dalam mencari dan mengamankan kayu jati untuk Masjid Demak. Patung-patung ini menjadi penanda visual dari legenda \"Mangreho\" (jagalah) yang diucapkan Sunan Kalijaga kepada kawanan kera tersebut, yang kemudian menjadi asal nama Goa Kreo."
+                },
+                "en": {
+                    "title": "The Legendary Statue of Goa Kreo",
+                    "content": "These statues represent the monkeys believed to have assisted Sunan Kalijaga in finding and securing teak wood for the Demak Mosque. These statues serve as visual reminders of the legend of \"Mangreho\" (guard) spoken by Sunan Kalijaga to the monkeys, which gave rise to the name Goa Kreo."
+                },
+                "zh": {
+                    "title": "果阿克雷奧的傳奇雕像",
+                    "content": "這些雕像代表了據信曾幫助蘇南·卡利賈加尋找並取得柚木建造德馬克清真寺的猴子。這些雕像也像徵著蘇南·卡利賈加向猴子講述的「曼格雷霍」（守衛）傳說，而這個傳說也正是果阿·克雷奧（Goa Kreo）地名的由來。"
+                },
+                "ar": {
+                    "title": "التمثال الأسطوري لجوا كريو",
+                    "content": "تُمثل هذه التماثيل القرود التي يُعتقد أنها ساعدت سونان كاليجاغا في العثور على خشب الساج وتأمينه لمسجد ديماك. تُذكّر هذه التماثيل بصريًا بأسطورة \"مانغريهو\" (الحارس) التي رواها سونان كاليجاغا للقرود، والتي أدت إلى تسمية غوا كريو."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:237",
+            "entityId": "objinfo2:237",
+            "title": "Jembatan Goa Kreo",
+            "aliases": [
+                "jembatan goa kreo",
+                "objek 237"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Jembatan ini adalah jembatan gantung panjang yang menjadi akses utama bagi pengunjung untuk menyeberang dan mencapai lokasi Goa Kreo yang kini berada di tengah Waduk Jatibarang. Dari atas jembatan, pengunjung dapat menikmati pemandangan Waduk Jatibarang dan perbukitan hijau, menjadikannya salah satu spot foto paling ikonik di kawasan tersebut.",
+            "source": "webview-import",
+            "sourceId": "237",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Jembatan Goa Kreo",
+                    "content": "Jembatan ini adalah jembatan gantung panjang yang menjadi akses utama bagi pengunjung untuk menyeberang dan mencapai lokasi Goa Kreo yang kini berada di tengah Waduk Jatibarang. Dari atas jembatan, pengunjung dapat menikmati pemandangan Waduk Jatibarang dan perbukitan hijau, menjadikannya salah satu spot foto paling ikonik di kawasan tersebut."
+                },
+                "en": {
+                    "title": "Goa Kreo Bridge",
+                    "content": "This long suspension bridge serves as the primary access point for visitors to cross and reach the Kreo Cave, which now sits in the middle of the Jatibarang Reservoir. From the bridge, visitors can enjoy views of the Jatibarang Reservoir and the green hills, making it one of the most iconic photo spots in the area."
+                },
+                "zh": {
+                    "title": "果阿克雷奧橋",
+                    "content": "這座長長的懸索橋是遊客穿越並到達克里奧洞穴的主要通道，現在位於賈蒂巴朗水庫的中央。從橋上，遊客可以欣賞到賈蒂巴朗水庫和綠色山丘的景色，使其成為該地區最具標誌性的拍照地點之一。"
+                },
+                "ar": {
+                    "title": "جسر غوا كريو",
+                    "content": "يُعد هذا الجسر المعلق الطويل نقطة الوصول الرئيسية للزوار لعبور كهف كريو والوصول إليه، والذي يقع الآن في وسط خزان جاتيبارانغ. من الجسر، يمكن للزوار الاستمتاع بمناظر خزان جاتيبارانغ والتلال الخضراء، مما يجعله أحد أشهر مواقع التصوير في المنطقة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:238",
+            "entityId": "objinfo2:238",
+            "title": "Goa Kreo",
+            "aliases": [
+                "goa kreo",
+                "objek 238"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Goa Kreo merupakan gua alami yang diyakini sebagai petilasan Sunan Kalijaga saat beliau bertapa dan bertemu dengan empat ekor kera. Saat ini, goa ini dan kawasan sekitarnya dihuni oleh ratusan kera ekor panjang yang dianggap sebagai \"penjaga\" warisan spiritual dan alam di lokasi tersebut.",
+            "source": "webview-import",
+            "sourceId": "238",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Goa Kreo",
+                    "content": "Goa Kreo merupakan gua alami yang diyakini sebagai petilasan Sunan Kalijaga saat beliau bertapa dan bertemu dengan empat ekor kera. Saat ini, goa ini dan kawasan sekitarnya dihuni oleh ratusan kera ekor panjang yang dianggap sebagai \"penjaga\" warisan spiritual dan alam di lokasi tersebut."
+                },
+                "en": {
+                    "title": "Kreo Cave",
+                    "content": "Kreo Cave is a natural cave believed to be the site of Sunan Kalijaga’s meditation and encounter with four monkeys. Today, the cave and its surrounding area are inhabited by hundreds of long-tailed macaques, considered \"guardians\" of the site’s spiritual and natural heritage."
+                },
+                "zh": {
+                    "title": "克里奧洞穴",
+                    "content": "克雷奧洞是一個天然洞穴，據信是蘇南·卡利賈加冥想並與四隻猴子相遇的地方。如今，洞穴及其周邊地區棲息著數百隻長尾獼猴，它們被視為這片土地精神和自然遺產的「守護者」。"
+                },
+                "ar": {
+                    "title": "كهف كريو",
+                    "content": "كهف كريو هو كهف طبيعي يُعتقد أنه موقع تأمل سونان كاليجاغا ولقاءه بأربعة قرود. واليوم، يسكن الكهف والمنطقة المحيطة به مئات من قرود المكاك طويلة الذيل، التي تُعتبر \"حارسة\" للتراث الروحي والطبيعي للموقع."
+                }
+            }
+        }
+    ]
+}

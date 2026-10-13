@@ -1,0 +1,20 @@
+{
+  "exportRoot": "C:/xampp/htdocs/semarang",
+  "webviewDump": "C:/xampp/htdocs/semarang/webview/semarang-260828-fix.sql",
+  "tours": [
+    {"folder":"agrocepoko","slug":"agrocepoko","name":"Agro Cepoko","category":"Pariwisata","parentId":20},
+    {"folder":"agropurwosari-260909","slug":"agropurwosari","name":"Agro Purwosari","category":"Pariwisata","parentId":22},
+    {"folder":"akhtara-260909","slug":"akhtara","name":"Akhtara","category":"Pariwisata","parentId":88},
+    {"folder":"asemasemkohliem","slug":"asemasemkohliem","name":"Asem-Asem Koh Liem","category":"Kuliner","parentId":87},
+    {"folder":"bandengjuwana","slug":"bandengjuwana","name":"Bandeng Juwana","category":"Kuliner","parentId":110},
+    {"folder":"binus-260909","slug":"binus","name":"BINUS University Semarang","category":"Pendidikan","parentId":42},
+    {"folder":"bsbcity-260909","slug":"bsbcity","name":"BSB City","category":"Pariwisata","parentId":6},
+    {"folder":"candigolf-260909","slug":"candigolf","name":"Candi Golf","category":"Olahraga","parentId":16},
+    {"folder":"ciputramall","slug":"ciputramall","name":"Ciputra Mall Semarang","category":"Perbelanjaan","parentId":104},
+    {"folder":"dermaexpress-260909","slug":"dermaexpress","name":"Derma Express","category":"Kesehatan","parentId":63},
+    {"folder":"desawisatakandri-260909","slug":"desawisatakandri","name":"Desa Wisata Kandri","category":"Pariwisata","parentId":14},
+    {"folder":"dharmaboutique","slug":"dharmaboutique","name":"Dharma Boutique Roastery","category":"Kuliner","parentId":5},
+    {"folder":"dpmall-260909","slug":"dpmall","name":"DP Mall Semarang","category":"Perbelanjaan","parentId":105},
+    {"folder":"dungtungkul","slug":"dungtungkul","name":"Dung Tung Kul","category":"Kuliner","parentId":17}
+  ]
+}

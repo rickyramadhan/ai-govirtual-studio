@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "indonesiakaya",
+    "updatedAt": "2026-09-29T09:50:52+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Indonesiakaya",
+            "aliases": [
+                "indonesiakaya"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "indonesiakaya"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Indonesiakaya.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Indonesiakaya",
+                    "content": "Pusat pengalaman virtual untuk Indonesiakaya."
+                },
+                "en": {
+                    "title": "Indonesiakaya",
+                    "content": "Pusat pengalaman virtual untuk Indonesiakaya."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "node206",
+            "aliases": [
+                "node206"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "indonesiakaya"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node206",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "node206",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "node207",
+            "aliases": [
+                "node207"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "indonesiakaya"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node207",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "node207",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "indonesiakaya"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:938",
+            "entityId": "objinfo2:938",
+            "title": "Panggung Budaya",
+            "aliases": [
+                "panggung budaya",
+                "objek 938"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini merupakan panggung seni pertunjukan terbuka (outdoor) pertama di Jawa Tengah dengan konsep taman cerdas yang memadukan hiburan, edukasi, dan pelestarian budaya. Struktur panggungnya mengusung desain modern dengan atap melengkung yang ikonik, didukung rangka baja yang megah, serta dilengkapi area duduk berundak menyerupai tribun mini yang mengelilingi panggung utama.",
+            "source": "webview-import",
+            "sourceId": "938",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Panggung Budaya",
+                    "content": "Area ini merupakan panggung seni pertunjukan terbuka (outdoor) pertama di Jawa Tengah dengan konsep taman cerdas yang memadukan hiburan, edukasi, dan pelestarian budaya. Struktur panggungnya mengusung desain modern dengan atap melengkung yang ikonik, didukung rangka baja yang megah, serta dilengkapi area duduk berundak menyerupai tribun mini yang mengelilingi panggung utama."
+                },
+                "en": {
+                    "title": "Cultural Stage",
+                    "content": "This area is the first open-air performance stage in Central Java, designed as a smart park that combines entertainment, education, and cultural preservation. The stage features a modern design with an iconic curved roof supported by a grand steel framework, complemented by tiered seating similar to a mini grandstand surrounding the main stage."
+                },
+                "zh": {
+                    "title": "文化舞台",
+                    "content": "该区域是中爪哇首个露天艺术表演舞台，采用智慧公园理念，将娱乐、教育与文化保护相结合。舞台结构采用现代设计，拥有标志性的弧形屋顶和宏伟的钢结构支撑，并配备环绕主舞台的阶梯式座位，宛如迷你看台。"
+                },
+                "ar": {
+                    "title": "المسرح الثقافي",
+                    "content": "تُعد هذه المنطقة أول مسرح فني مفتوح في جاوة الوسطى، ويعتمد مفهوم الحديقة الذكية التي تجمع بين الترفيه والتعليم والحفاظ على الثقافة. يتميز هيكل المسرح بتصميم عصري مع سقف مقوس أيقوني مدعوم بإطار فولاذي مهيب، ومقاعد متدرجة تشبه المدرج الصغير تحيط بالمسرح الرئيسي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:939",
+            "entityId": "objinfo2:939",
+            "title": "Patung Ibu Menjaga Anaknya",
+            "aliases": [
+                "patung ibu menjaga anaknya",
+                "objek 939"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area yang Anda unggah menampilkan salah satu ikon utama di Taman Indonesia Kaya Semarang, yaitu Patung Ibu Menjaga Anaknya. Area ini berfungsi sebagai titik fokus visual (landmark) yang melambangkan kasih sayang, pendidikan, dan masa depan generasi muda Indonesia, serta dikelilingi pelataran melingkar yang kerap digunakan pengunjung untuk berkumpul, beristirahat, atau berfoto.",
+            "source": "webview-import",
+            "sourceId": "939",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Ibu Menjaga Anaknya",
+                    "content": "Area yang Anda unggah menampilkan salah satu ikon utama di Taman Indonesia Kaya Semarang, yaitu Patung Ibu Menjaga Anaknya. Area ini berfungsi sebagai titik fokus visual (landmark) yang melambangkan kasih sayang, pendidikan, dan masa depan generasi muda Indonesia, serta dikelilingi pelataran melingkar yang kerap digunakan pengunjung untuk berkumpul, beristirahat, atau berfoto."
+                },
+                "en": {
+                    "title": "Mother and Child Statue",
+                    "content": "The uploaded area showcases one of the main icons of Taman Indonesia Kaya in Semarang, the Mother and Child Statue. This area serves as a visual landmark symbolizing affection, education, and the future of Indonesia’s younger generation, surrounded by a circular plaza often used by visitors for gathering, resting, or taking photos."
+                },
+                "zh": {
+                    "title": "母亲守护孩子雕像",
+                    "content": "您所上传的区域展示了三宝垄印度尼西亚财富公园的主要标志之一——母亲守护孩子雕像。该区域作为视觉地标，象征着关爱、教育以及印度尼西亚年轻一代的未来，周围环绕着圆形广场，常被游客用于聚集、休息或拍照。"
+                },
+                "ar": {
+                    "title": "تمثال الأم التي ترعى طفلها",
+                    "content": "تُظهر المنطقة التي قمت بتحميلها أحد المعالم الرئيسية في حديقة إندونيسيا كايا في سيمارانغ، وهو تمثال الأم التي ترعى طفلها. تعمل هذه المنطقة كنقطة جذب بصرية ترمز إلى المحبة والتعليم ومستقبل الأجيال الشابة في إندونيسيا، وتحيط بها ساحة دائرية يستخدمها الزوار للتجمع أو الاستراحة أو التقاط الصور."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:940",
+            "entityId": "objinfo2:940",
+            "title": "Air Mancur",
+            "aliases": [
+                "air mancur",
+                "objek 940"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Dancing Fountain atau air mancur menari menjadi salah satu daya tarik utama taman ini. Area ini dirancang sebagai ruang ekspresi bagi seniman lokal maupun nasional, menampilkan perpaduan gerak air, cahaya, dan musik yang sering mengiringi pertunjukan tari tradisional hingga musik modern.",
+            "source": "webview-import",
+            "sourceId": "940",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Air Mancur",
+                    "content": "Dancing Fountain atau air mancur menari menjadi salah satu daya tarik utama taman ini. Area ini dirancang sebagai ruang ekspresi bagi seniman lokal maupun nasional, menampilkan perpaduan gerak air, cahaya, dan musik yang sering mengiringi pertunjukan tari tradisional hingga musik modern."
+                },
+                "en": {
+                    "title": "Fountain",
+                    "content": "The dancing fountain is one of the park’s main attractions. This area is designed as a space for expression for both local and national artists, featuring a combination of water movements, lighting, and music that often accompanies traditional dance performances and modern music shows."
+                },
+                "zh": {
+                    "title": "喷泉",
+                    "content": "音乐喷泉是该公园的主要亮点之一。该区域被设计为本地及国家级艺术家的创作展示空间，通过水舞、灯光与音乐的融合，呈现传统舞蹈及现代音乐表演。"
+                },
+                "ar": {
+                    "title": "نافورة",
+                    "content": "تُعد النافورة الراقصة إحدى أبرز معالم الجذب في هذه الحديقة. وقد صُممت هذه المنطقة كمساحة تعبير للفنانين المحليين والوطنيين، حيث تجمع بين حركة المياه والإضاءة والموسيقى التي ترافق عروض الرقص التقليدي والموسيقى الحديثة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:941",
+            "entityId": "objinfo2:941",
+            "title": "Patung Penari",
+            "aliases": [
+                "patung penari",
+                "objek 941"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung ikonik berwarna hitam dengan tekstur berlubang ini menggambarkan dua sosok manusia yang sedang menari atau bergerak dinamis, melambangkan kekayaan ekspresi budaya Indonesia. Patung ini berdiri di atas alas bertuliskan situs resmi indonesiakaya.com, menegaskan peran taman sebagai pusat literasi budaya.",
+            "source": "webview-import",
+            "sourceId": "941",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Penari",
+                    "content": "Patung ikonik berwarna hitam dengan tekstur berlubang ini menggambarkan dua sosok manusia yang sedang menari atau bergerak dinamis, melambangkan kekayaan ekspresi budaya Indonesia. Patung ini berdiri di atas alas bertuliskan situs resmi indonesiakaya.com, menegaskan peran taman sebagai pusat literasi budaya."
+                },
+                "en": {
+                    "title": "Dancer Statue",
+                    "content": "This iconic black sculpture with a perforated texture depicts two human figures dancing or moving dynamically, symbolizing the richness of Indonesian cultural expression. The statue stands on a base displaying the official website indonesiakaya.com, emphasizing the park’s role as a hub for cultural literacy."
+                },
+                "zh": {
+                    "title": "舞者雕像",
+                    "content": "这座黑色镂空质感的标志性雕塑描绘了两位正在舞动或动态移动的人物形象，象征着印度尼西亚文化表达的丰富性。雕塑基座上刻有官方网站 indonesiakaya.com，彰显该公园作为文化素养中心的角色。"
+                },
+                "ar": {
+                    "title": "تمثال الراقص",
+                    "content": "يُجسد هذا التمثال الأيقوني الأسود ذو النسيج المثقوب شخصين يتحركان أو يرقصان بشكل ديناميكي، في إشارة إلى غنى التعبير الثقافي الإندونيسي. ويقف التمثال على قاعدة تحمل الموقع الرسمي indonesiakaya.com، مؤكداً دور الحديقة كمركز للمعرفة والثقافة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:942",
+            "entityId": "objinfo2:942",
+            "title": "Patung Wayang",
+            "aliases": [
+                "patung wayang",
+                "objek 942"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Patung wayang orang ini terbuat dari instalasi logam modern dengan gaya artistik yang unik. Patung-patung tersebut merepresentasikan karakter pewayangan dalam pose menari, menjadi simbol pelestarian budaya tradisional di tengah ruang kota yang kontemporer.",
+            "source": "webview-import",
+            "sourceId": "942",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Patung Wayang",
+                    "content": "Patung wayang orang ini terbuat dari instalasi logam modern dengan gaya artistik yang unik. Patung-patung tersebut merepresentasikan karakter pewayangan dalam pose menari, menjadi simbol pelestarian budaya tradisional di tengah ruang kota yang kontemporer."
+                },
+                "en": {
+                    "title": "Wayang Puppet Statue",
+                    "content": "These wayang human statues are made from modern metal installations with a unique artistic style. They represent wayang characters in dancing poses, symbolizing the preservation of traditional culture within a contemporary urban space."
+                },
+                "zh": {
+                    "title": "皮影戏雕像",
+                    "content": "这些人形皮影雕塑由现代金属装置打造，具有独特的艺术风格。雕塑以舞蹈姿态呈现皮影人物形象，象征着在现代城市空间中对传统文化的传承与保护。"
+                },
+                "ar": {
+                    "title": "تمثال الوايانغ",
+                    "content": "صُنعت تماثيل الوايانغ البشرية هذه من تركيبات معدنية حديثة بأسلوب فني فريد. وتمثل شخصيات الوايانغ في وضعيات راقصة، لتكون رمزًا للحفاظ على الثقافة التقليدية وسط الفضاء الحضري المعاصر."
+                }
+            }
+        }
+    ]
+}

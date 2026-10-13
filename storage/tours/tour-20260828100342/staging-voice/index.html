@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Guide Lawang Sewu — Pilot Suara (Mock Viewer)</title>
+<style>
+  html,body{margin:0;height:100%;background:#0d0f13;color:#e8e2d4;font-family:system-ui,Segoe UI,Arial;}
+  #container{position:fixed;inset:0;}
+  #scene-label{position:fixed;top:12px;left:12px;z-index:5;background:rgba(0,0,0,.6);padding:8px 12px;border-radius:8px;font-size:13px;border:1px solid rgba(201,169,110,.35);}
+  #scene-label b{color:#c9a96e;}
+  .mock-pano{position:absolute;inset:0;background:radial-gradient(circle at 30% 30%, #1c232c, #0b0d10);overflow:hidden;}
+  .mock-pano .ring{position:absolute;left:50%;top:50%;width:70vmin;height:70vmin;transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(201,169,110,.18);}
+  .mock-pano .ring2{position:absolute;left:50%;top:50%;width:44vmin;height:44vmin;transform:translate(-50%,-50%);border-radius:50%;border:1px dashed rgba(201,169,110,.22);}
+  .mock-pano .node{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:8px;height:8px;border-radius:50%;background:#c9a96e;box-shadow:0 0 18px rgba(201,169,110,.9);}
+  .mock-pano .exit{position:absolute;padding:6px 10px;border-radius:999px;background:rgba(20,24,30,.8);border:1px solid rgba(201,169,110,.4);color:#e9e0c8;font-size:11px;cursor:pointer;}
+  .mock-pano .exit:hover{border-color:#c9a96e;color:#c9a96e;}
+  .hint{position:fixed;bottom:12px;left:12px;z-index:5;font-size:11px;color:#9aa1ad;}
+</style>
+</head>
+<body>
+<div id="container">
+  <div class="mock-pano" id="mockPano">
+    <div class="ring"></div><div class="ring2"></div><div class="node"></div>
+  </div>
+</div>
+<div id="scene-label">Scene: <b id="sceneName">memuat…</b></div>
+<div class="hint">Pilot uji — viewer Pano2VR dimock agar mode suara dapat dicoba tanpa panorama asli.</div>
+
+<script>
+window.GOVIRTUAL_AI_CONFIG = {
+  basePath: './govirtual-ai/',
+  tourName: 'lawang sewu',
+  tourId: 'tour-20260828100342'
+};
+</script>
+<script src="./govirtual-ai/data/tour-data.js"></script>
+<script>
+/* ============================================================
+   MOCK Pano2VR viewer (window.pano / window.skin)
+   Memadai untuk boot + navigasi guide.js. Panorama asli tidak
+   diperlukan untuk menguji mode suara demo.
+   ============================================================ */
+(function () {
+  var scenes = window.GoVirtualTourData ? window.GoVirtualTourData.scenes : [];
+  var current = scenes.length ? scenes[0].id : 'node39';
+  var listener = { _h: {} };
+  function mockPano() {
+    var exits = [];
+    function refreshExits() {
+      var host = document.getElementById('mockPano');
+      if (!host) return;
+      var old = host.querySelectorAll('.mock-exit');
+      for (var i = 0; i < old.length; i++) old[i].remove();
+      var g = {};
+      scenes.forEach(function (s) { g[s.id] = []; });
+      (window.GoVirtualTourData.hotspots || []).forEach(function (h) { if (g[h.scene] && h.target !== h.scene && g[h.scene].indexOf(h.target) === -1) g[h.scene].push(h.target); });
+      (g[current] || []).slice(0, 4).forEach(function (tid, i) {
+        var sc = scenes.filter(function (s) { return s.id === tid; })[0];
+        if (!sc) return;
+        var b = document.createElement('button');
+        b.className = 'exit mock-exit';
+        b.textContent = sc.displayName || sc.name || tid;
+        b.style.left = (14 + i * 18) + '%';
+        b.style.top = (62 + (i % 2) * 12) + '%';
+        b.addEventListener('click', function () { mockPano.openNext('{' + tid + '}'); });
+        host.appendChild(b);
+      });
+    }
+    var api = {
+      _listener: listener,
+      getCurrentNode: function () { return current; },
+      openNext: function (nodeId, view) {
+        var id = String(nodeId).replace(/[{}]/g, '');
+        if (!scenes.some(function (s) { return s.id === id; })) return;
+        current = id;
+        var name = (scenes.filter(function (s) { return s.id === id; })[0].displayName) || id;
+        var lbl = document.getElementById('sceneName'); if (lbl) lbl.textContent = name;
+        document.title = 'AI Guide — ' + name;
+        refreshExits();
+        if (listener._h.openNext) { try { listener._h.openNext({ id: id }); } catch (e) {} }
+      },
+      on: function (evt, cb) { listener._h[evt] = cb; },
+      getPan: function () { return 0; },
+      getTilt: function () { return 0; },
+      getFov: function () { return 100; },
+      setPanTiltFov: function () {},
+      moveTo: function () {},
+      setViewerSize: function () {},
+      isPlaying: function () { return false; },
+      pauseSound: function () {},
+      playSound: function () {},
+      getVariableValue: function (k) { return k === 'VB' ? 'skip' : null; }
+    };
+    api.skinObj = {};
+    refreshExits();
+    return api;
+  }
+  window.pano = mockPano();
+  window.skin = { player: window.pano };
+  // skin._bottom harus "visible" agar guide.js boot() menampilkan AI button.
+  var b = document.createElement('div');
+  b.style.visibility = 'visible'; b.style.display = 'block'; b.style.opacity = '1';
+  b.className = 'ggskin ggskin_container bottom-menu';
+  window.skin._bottom = b;
+  document.body.appendChild(b);
+})();
+</script>
+<script src="./govirtual-ai/ai-client.js"></script>
+<script src="./govirtual-ai/frontend/guide.js"></script>
+<script>
+// autovoice param: buka voice mode otomatis untuk screenshot/pengujian
+if (location.search.indexOf('autovoice') !== -1) {
+  setTimeout(function () {
+    var aiBtn = document.querySelector('.tour-chat__ai-btn'); if (aiBtn) aiBtn.click();
+    setTimeout(function () {
+      var voiceBtn = document.querySelectorAll('.tour-chat__disc-mode')[1]; if (voiceBtn) voiceBtn.click();
+    }, 800);
+  }, 1800);
+}
+</script>
+</body>
+</html>

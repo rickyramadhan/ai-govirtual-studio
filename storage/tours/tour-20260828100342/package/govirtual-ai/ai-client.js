@@ -1,21 +1,17 @@
 /**
  * ai-client.js — Client-side Gemini API caller (browser-only, no PHP).
  *
- * This is the SAME approach used in the previous working build: the Gemini
- * API key lives in the browser and the request goes straight to Google from
- * the client. It is used as the automatic fallback in guide.js (tryGemini)
- * when the PHP backend (api/chat.php) is unavailable — e.g. on static hosting
- * that cannot execute PHP.
- *
- * NOTE: putting the key in the browser exposes it to visitors. This is only
- * acceptable for free-tier demo deployments. For production, keep the key
- * server-side (api/chat.php) on a PHP host instead.
+ * This is the fallback used by guide.js (tryGemini) when the PHP backend is
+ * unavailable (e.g. static hosting without PHP). It does NOT ship any API key:
+ * the key must be provided per-deployment via window.GOVIRTUAL_AI_CONFIG.geminiApiKey
+ * (server-injected at install time). Without a key the fallback is disabled and
+ * the backend/server path is used instead.
  */
 (function () {
   'use strict';
 
   var cfg = window.GOVIRTUAL_AI_CONFIG || {};
-  var GEMINI_API_KEY = cfg.geminiApiKey || 'YOUR_GEMINI_API_KEY';
+  var GEMINI_API_KEY = cfg.geminiApiKey || '';
   var GEMINI_MODEL = cfg.geminiModel || 'gemini-3.5-flash-lite';
   var GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/' + GEMINI_MODEL + ':generateContent?key=' + GEMINI_API_KEY;
 
@@ -27,6 +23,9 @@
   }
 
   function callModel(model, systemPrompt, userMessage) {
+    if (!GEMINI_API_KEY) {
+      return Promise.reject(new Error('gemini_key_not_configured'));
+    }
     var fullPrompt = systemPrompt + '\n\nIMPORTANT RULES:\n' +
       '1. Selalu balas dalam format JSON: {"reply":"jawaban Anda di sini","intent":"ENTITY_DESCRIPTION","confidence":0.9}.\n' +
       '2. Gunakan key "reply" (bukan "respons" atau "answer").\n' +

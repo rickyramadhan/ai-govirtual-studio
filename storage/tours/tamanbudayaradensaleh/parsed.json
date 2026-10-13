@@ -1,0 +1,743 @@
+{
+    "startNode": "node10",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "node1",
+            "displayName": "node1",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node2",
+            "name": "Makam",
+            "displayName": "Makam",
+            "rawName": "",
+            "customNodeId": "-akam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Makam"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Taman Budaya Raden Saleh",
+            "displayName": "Taman Budaya Raden Saleh",
+            "rawName": "",
+            "customNodeId": "-aman-udaya-aden-aleh",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Taman Budaya Raden Saleh"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Taman Budaya Raden Saleh",
+            "displayName": "Taman Budaya Raden Saleh",
+            "rawName": "",
+            "customNodeId": "-aman-udaya-aden-aleh",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Taman Budaya Raden Saleh"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Gamelan",
+            "displayName": "Gamelan",
+            "rawName": "",
+            "customNodeId": "gamelan",
+            "pan": -1.19,
+            "tilt": 1.79,
+            "fov": 110.72,
+            "tags": [
+                "oi",
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "gamelan"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Pusat Kebudayaan Daerah",
+            "displayName": "Pusat Kebudayaan Daerah",
+            "rawName": "",
+            "customNodeId": "-usat-ebudayaan-aerah",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Pusat Kebudayaan Daerah"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Taman Budaya Raden Saleh",
+            "displayName": "Taman Budaya Raden Saleh",
+            "rawName": "",
+            "customNodeId": "-aman-udaya-aden-aleh",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Taman Budaya Raden Saleh"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Taman Budaya Raden Saleh",
+            "displayName": "Taman Budaya Raden Saleh",
+            "rawName": "",
+            "customNodeId": "-aman-udaya-aden-aleh",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Taman Budaya Raden Saleh"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Tamanbudayadepan",
+            "displayName": "Tamanbudayadepan",
+            "rawName": "",
+            "customNodeId": "tamanbudayadepan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "tamanbudayadepan"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Gedungkesenian",
+            "displayName": "Gedungkesenian",
+            "rawName": "",
+            "customNodeId": "gedungkesenian",
+            "pan": -3.9,
+            "tilt": 16.54,
+            "fov": 117.02,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "gedungkesenian"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Kantin",
+            "displayName": "Kantin",
+            "rawName": "",
+            "customNodeId": "kantin",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "kantin"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Area Gedung",
+            "displayName": "Area Gedung",
+            "rawName": "",
+            "customNodeId": "-rea-edung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Area Gedung"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Area Gedung",
+            "displayName": "Area Gedung",
+            "rawName": "",
+            "customNodeId": "-rea-edung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Area Gedung"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Area Gedung",
+            "displayName": "Area Gedung",
+            "rawName": "",
+            "customNodeId": "-rea-edung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Area Gedung"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Gong",
+            "displayName": "Gong",
+            "rawName": "",
+            "customNodeId": "gong",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "gong"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Makam",
+            "displayName": "Makam",
+            "rawName": "",
+            "customNodeId": "-akam",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Makam"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Patung",
+            "displayName": "Patung",
+            "rawName": "",
+            "customNodeId": "patung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "patung"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Gedung Teater",
+            "displayName": "Gedung Teater",
+            "rawName": "",
+            "customNodeId": "-edung-eater",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Gedung Teater"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Administrasi",
+            "displayName": "Administrasi",
+            "rawName": "",
+            "customNodeId": "administrasi",
+            "pan": 117.91,
+            "tilt": -6.13,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "administrasi"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Meetingnartosabdo",
+            "displayName": "Meetingnartosabdo",
+            "rawName": "",
+            "customNodeId": "meetingnartosabdo",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "meetingnartosabdo"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Ruang Rias",
+            "displayName": "Ruang Rias",
+            "rawName": "",
+            "customNodeId": "-uang-ias",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "Ruang Rias"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Theater",
+            "displayName": "Theater",
+            "rawName": "",
+            "customNodeId": "theater",
+            "pan": -2.72,
+            "tilt": 0.56,
+            "fov": 100,
+            "tags": [
+                "TamanBudayaRadenSaleh"
+            ],
+            "aliases": [
+                "theater"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node10",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point01",
+            "pan": -0.39,
+            "tilt": -12.09
+        },
+        {
+            "scene": "node2",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -216.17,
+            "tilt": -17.01
+        },
+        {
+            "scene": "node3",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -164.9,
+            "tilt": -5.16
+        },
+        {
+            "scene": "node3",
+            "target": "node4",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point02",
+            "pan": -13.81,
+            "tilt": -4.43
+        },
+        {
+            "scene": "node4",
+            "target": "node3",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -357.4,
+            "tilt": 1.25
+        },
+        {
+            "scene": "node4",
+            "target": "node16",
+            "title": "Makam",
+            "id": "Point02",
+            "pan": -261.6,
+            "tilt": -1.64
+        },
+        {
+            "scene": "node5",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -177.77,
+            "tilt": -7.85
+        },
+        {
+            "scene": "node6",
+            "target": "node10",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 0.07,
+            "tilt": -13.55
+        },
+        {
+            "scene": "node7",
+            "target": "node10",
+            "title": "Gedung Teater",
+            "id": "Point01",
+            "pan": -339.39,
+            "tilt": -2.67
+        },
+        {
+            "scene": "node7",
+            "target": "node8",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point02",
+            "pan": -163.98,
+            "tilt": -3.31
+        },
+        {
+            "scene": "node8",
+            "target": "node7",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point01",
+            "pan": -226.92,
+            "tilt": 0.88
+        },
+        {
+            "scene": "node8",
+            "target": "node11",
+            "title": "Food Court",
+            "id": "Point02",
+            "pan": -252.44,
+            "tilt": 1
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point03",
+            "pan": -90.62,
+            "tilt": -0.49
+        },
+        {
+            "scene": "node9",
+            "target": "node5",
+            "title": "Area Seni Ki Narto Sabdo",
+            "id": "Point01",
+            "pan": 2.92,
+            "tilt": -2.05
+        },
+        {
+            "scene": "node9",
+            "target": "node3",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point02",
+            "pan": -176.96,
+            "tilt": -0.03
+        },
+        {
+            "scene": "node9",
+            "target": "node17",
+            "title": "Monumen",
+            "id": "Point03",
+            "pan": -266.69,
+            "tilt": -4.09
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point04",
+            "pan": -71.47,
+            "tilt": -2.66
+        },
+        {
+            "scene": "node10",
+            "target": "node18",
+            "title": "Gedung Teater",
+            "id": "Point01",
+            "pan": -347.29,
+            "tilt": 12.96
+        },
+        {
+            "scene": "node10",
+            "target": "node6",
+            "title": "Pusat Kebudayaan Daerah",
+            "id": "Point02",
+            "pan": -251.96,
+            "tilt": -0.78
+        },
+        {
+            "scene": "node10",
+            "target": "node7",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point03",
+            "pan": -221.64,
+            "tilt": -1.35
+        },
+        {
+            "scene": "node10",
+            "target": "node19",
+            "title": "Ruang Administrasi",
+            "id": "Point04",
+            "pan": -294.69,
+            "tilt": -3.13
+        },
+        {
+            "scene": "node11",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -65.51,
+            "tilt": -7.63
+        },
+        {
+            "scene": "node12",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -189.95,
+            "tilt": -4.97
+        },
+        {
+            "scene": "node12",
+            "target": "node20",
+            "title": "Ruang Pertemuan",
+            "id": "Point02",
+            "pan": -58.2,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node12",
+            "target": "node14",
+            "title": "Area Gedung",
+            "id": "Point03",
+            "pan": -332.14,
+            "tilt": -2.83
+        },
+        {
+            "scene": "node12",
+            "target": "node15",
+            "title": "Alat Musik Daerah",
+            "id": "Point04",
+            "pan": -251.48,
+            "tilt": -4.96
+        },
+        {
+            "scene": "node12",
+            "target": "node23",
+            "title": "Ruang Teater",
+            "id": "Point05",
+            "pan": -300.2,
+            "tilt": -1.69
+        },
+        {
+            "scene": "node12",
+            "target": "node13",
+            "title": "Area Gedung",
+            "id": "Point06",
+            "pan": -24.53,
+            "tilt": -4.47
+        },
+        {
+            "scene": "node13",
+            "target": "node21",
+            "title": "Ruang Rias",
+            "id": "Point01",
+            "pan": -300.82,
+            "tilt": -6.64
+        },
+        {
+            "scene": "node13",
+            "target": "node12",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -235.79,
+            "tilt": -5.14
+        },
+        {
+            "scene": "node14",
+            "target": "node12",
+            "title": "Area Gedung",
+            "id": "Point01",
+            "pan": -143.83,
+            "tilt": -9
+        },
+        {
+            "scene": "node15",
+            "target": "node12",
+            "title": "Area Gedung",
+            "id": "Point01",
+            "pan": -229.33,
+            "tilt": -2.65
+        },
+        {
+            "scene": "node16",
+            "target": "node2",
+            "title": "Makam",
+            "id": "Point01",
+            "pan": -7.35,
+            "tilt": -34.53
+        },
+        {
+            "scene": "node16",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -171.55,
+            "tilt": -5.41
+        },
+        {
+            "scene": "node17",
+            "target": "node9",
+            "title": "Taman Budaya Raden Saleh",
+            "id": "Point01",
+            "pan": -65.2,
+            "tilt": 0.44
+        },
+        {
+            "scene": "node18",
+            "target": "node12",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -324.42,
+            "tilt": -6.16
+        },
+        {
+            "scene": "node18",
+            "target": "node10",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -189.82,
+            "tilt": -12.61
+        },
+        {
+            "scene": "node19",
+            "target": "node10",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -357.97,
+            "tilt": -8.49
+        },
+        {
+            "scene": "node20",
+            "target": "node12",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -273.6,
+            "tilt": -10.4
+        },
+        {
+            "scene": "node21",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -115.42,
+            "tilt": -19.09
+        },
+        {
+            "scene": "node23",
+            "target": "node12",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -41.03,
+            "tilt": -9.95
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 215,
+            "label": "Kantin",
+            "description": "Area kantin di TBRS berfungsi sebagai fasilitas penunjang untuk memenuhi kebutuhan kuliner bagi pengunjung, seniman, maupun staf yang beraktivitas. Tempat ini menyediakan ruang istirahat yang nyaman bagi mereka yang ingin bersantap atau sekadar menikmati minuman di tengah kegiatan budaya.",
+            "fragment": "kantin",
+            "link": "tamanbudaya/index.html#kantin",
+            "sceneId": "node11"
+        },
+        {
+            "infoId": 216,
+            "label": "Ruang Meeting Gedung Ki Narto Sabdo",
+            "description": "Ruang Meeting Gedung Ki Narto Sabdo memiliki ruang pendukung yang dapat difungsikan sebagai ruang pertemuan skala kecil atau ruang diskusi. Ruangan-ruangan ini melayani kebutuhan komunitas seni untuk rapat atau persiapan sebelum pementasan di gedung utama.",
+            "fragment": "meetingnartosabdo",
+            "link": "tamanbudaya/index.html#meetingnartosabdo",
+            "sceneId": "node20"
+        },
+        {
+            "infoId": 217,
+            "label": "Ruang Administrasi",
+            "description": "Ruang administrasi berada di Kantor Pengelola TBRS yang merupakan pusat manajemen dan operasional seluruh kompleks taman budaya. Di sinilah segala urusan tata kelola, perizinan penggunaan fasilitas, dan koordinasi program kesenian dilaksanakan.",
+            "fragment": "administrasi",
+            "link": "tamanbudaya/index.html#administrasi",
+            "sceneId": "node19"
+        },
+        {
+            "infoId": 218,
+            "label": "Gedung Kesenian Ki Narto Sabdho",
+            "description": "Gedung ini merupakan gedung pertunjukan utama di TBRS, dinamai untuk menghormati maestro wayang terkenal. Gedung ini dilengkapi fasilitas modern (seperti tata suara dan pencahayaan) dan rutin digunakan untuk pementasan wayang orang Ngesti Pandawa, wayang kulit, teater, dan musik keroncong.",
+            "fragment": "gedungkesenian",
+            "link": "tamanbudaya/index.html#gedungkesenian",
+            "sceneId": "node10"
+        },
+        {
+            "infoId": 219,
+            "label": "Theater Gedung Ki Narto Sabdo",
+            "description": "Ruang Theater Gedung Ki Narto Sabdo: Ruang teater atau pertunjukan ini adalah jantung dari Gedung Ki Narto Sabdo, dirancang khusus sebagai gedung kesenian dengan kapasitas sekitar 500 orang penonton. Ruangan ini secara rutin digunakan untuk pagelaran seni panggung seperti wayang orang dan teater.",
+            "fragment": "theater",
+            "link": "tamanbudaya/index.html#theater",
+            "sceneId": "node23"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "cab537a5b9b11c54",
+        "skin.js": "581283c6380665d6",
+        "index.html": "c6efe04d415d658d"
+    }
+}

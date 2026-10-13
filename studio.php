@@ -21,8 +21,10 @@ function studio_nav_active(string $action): string {
         'scenes' => 'scenes', 'saveScenes' => 'scenes',
         'knowledge' => 'knowledge', 'saveKnowledge' => 'knowledge',
         'curated' => 'questions', 'saveCurated' => 'questions',
+        'curatedqa' => 'curatedqa', 'saveCuratedQA' => 'curatedqa', 'importCuratedQA' => 'curatedqa',
         'flow' => 'flow', 'saveFlow' => 'flow',
         'prompts' => 'recommendations', 'savePrompts' => 'recommendations',
+        'voice' => 'voice', 'saveVoice' => 'voice',
         'tips' => 'recommendations', 'saveTips' => 'recommendations',
         'nearby' => 'recommendations', 'saveNearby' => 'recommendations',
         'test' => 'test', 'testAnswer' => 'test',
@@ -47,11 +49,14 @@ function studio_breadcrumb(string $action): array {
         'view' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Project Overview', 'href' => null]],
         'scenes' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Scene Editor', 'href' => null]],
         'saveScenes' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Scene Editor', 'href' => null]],
-        'knowledge' => [['label' => 'Projects', 'href' => '?'], ['label' => 'AI Knowledge', 'href' => null]],
-        'curated' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Questions & Intents', 'href' => null]],
-        'flow' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Navigation Flow', 'href' => null]],
+        'knowledge' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Pengetahuan AI', 'href' => null]],
+        'curated' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Pertanyaan & Intent', 'href' => null]],
+        'curatedqa' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Tanya Jawab Terkurasi', 'href' => null]],
+        'flow' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Alur Navigasi', 'href' => null]],
         'saveFlow' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Navigation Flow', 'href' => null]],
         'prompts' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Recommendations', 'href' => null]],
+        'voice' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Percakapan Suara', 'href' => null]],
+        'saveVoice' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Percakapan Suara', 'href' => null]],
         'tips' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Visitor Tips', 'href' => null]],
         'nearby' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Nearby Places', 'href' => null]],
         'test' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Test AI Guide', 'href' => null]],
@@ -74,6 +79,7 @@ function studio_icon(string $name, int $size = 18): string {
         'scenes' => '<path d="M21 3H3v18h18zM9 17H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zM9 13H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zM9 9H7V7h2zm4 0h-2V7h2zm4 0h-2V7h2z"/>',
         'knowledge' => '<path d="M4 5a4 4 0 0 1 4-4h12v20H8a4 4 0 0 0-4 4zM12 5h4v2h-4zM12 9h4v2h-4z"/>',
         'questions' => '<path d="M4 3h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H8l-5 4V4a1 1 0 0 1 1-1zm7 4v2h2V7zm0 4v2h2v-2z"/>',
+        'curatedqa' => '<path d="M5 4h14v13H9l-4 3V4zm3 4h8M8 12h5"/>',
         'recommendations' => '<path d="M12 2l2.9 5.9 6.6.9-4.8 4.6 1.2 6.5L12 17.2 6.1 20.9l1.2-6.5L2.5 9.8l6.6-.9z"/>',
         'test' => '<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 4a1.5 1.5 0 1 1-1.5 1.5A1.5 1.5 0 0 1 12 6zm2 12h-4v-2h1v-4h-1v-2h3v6h1z"/>',
         'deployment' => '<path d="M3 13h18v6H3zM12 3a4 4 0 0 0-4 4 3 3 0 0 0-1 5.84V11a5 5 0 0 1 10 0v1.84A3 3 0 0 0 16 7a4 4 0 0 0-4-4z"/>',
@@ -121,24 +127,38 @@ function layout(string $title, string $body): void {
             ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
             ['slug' => 'scenes', 'label' => 'Select a project to edit', 'href' => '', 'disabled' => true],
         ];
+        $u = current_user();
+        if ($u && ($u['role'] ?? '') === 'qa') {
+            $main = [
+                ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
+                ['slug' => 'test', 'label' => 'Test AI Guide', 'href' => '?a=test&id=' . $tid],
+            ];
+        }
     } else {
         $main = [
-            ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
-            ['slug' => 'scenes', 'label' => 'Tour & Scenes', 'href' => '?a=scenes&id=' . $tid],
-            ['slug' => 'knowledge', 'label' => 'AI Knowledge', 'href' => '?a=knowledge&id=' . $tid],
-            ['slug' => 'questions', 'label' => 'Questions & Intents', 'href' => '?a=curated&id=' . $tid],
-            ['slug' => 'flow', 'label' => 'Navigation Flow', 'href' => '?a=flow&id=' . $tid],
-            ['slug' => 'recommendations', 'label' => 'Recommendations', 'href' => '?a=prompts&id=' . $tid],
-            ['slug' => 'test', 'label' => 'Test AI Guide', 'href' => '?a=test&id=' . $tid],
-            ['slug' => 'deployment', 'label' => 'Deployment', 'href' => '?a=deploy&id=' . $tid],
+            ['slug' => 'overview', 'label' => 'Ringkasan', 'href' => '?a=view&id=' . $tid],
+            ['slug' => 'scenes', 'label' => 'Tur & Panorama', 'href' => '?a=scenes&id=' . $tid],
+            ['slug' => 'knowledge', 'label' => 'Pengetahuan AI', 'href' => '?a=knowledge&id=' . $tid],
+            ['slug' => 'questions', 'label' => 'Pertanyaan & Intent', 'href' => '?a=curated&id=' . $tid],
+            ['slug' => 'curatedqa', 'label' => 'Tanya Jawab Terkurasi', 'href' => '?a=curatedqa&id=' . $tid],
+            ['slug' => 'flow', 'label' => 'Alur Navigasi', 'href' => '?a=flow&id=' . $tid],
+            ['slug' => 'recommendations', 'label' => 'Rekomendasi', 'href' => '?a=prompts&id=' . $tid],
+            ['slug' => 'voice', 'label' => 'Percakapan Suara', 'href' => '?a=voice&id=' . $tid],
+            ['slug' => 'test', 'label' => 'Uji AI Guide', 'href' => '?a=test&id=' . $tid],
+            ['slug' => 'deployment', 'label' => 'Publikasi', 'href' => '?a=deploy&id=' . $tid],
         ];
     }
     $bottom = [
-        ['slug' => 'cities', 'label' => 'City Knowledge', 'href' => '?a=cities'],
-        ['slug' => 'sync', 'label' => 'Runtime Sync', 'href' => '?a=syncRuntime'],
-        ['slug' => 'api', 'label' => 'API Providers', 'href' => '?a=keys'],
-        ['slug' => 'settings', 'label' => 'Settings', 'href' => '?a=keys'],
+        ['slug' => 'cities', 'label' => 'Pengetahuan Kota', 'href' => '?a=cities'],
+        ['slug' => 'sync', 'label' => 'Sinkronisasi Runtime', 'href' => '?a=syncRuntime'],
+        ['slug' => 'api', 'label' => 'Provider API', 'href' => '?a=keys'],
     ];
+    $u2 = current_user();
+    if ($u2 && ($u2['role'] ?? '') === 'qa') {
+        $bottom = [
+            ['slug' => 'cities', 'label' => 'City Knowledge', 'href' => '?a=cities'],
+        ];
+    }
 
     $navMain = '';
     foreach ($main as $n) $navMain .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active, !empty($n['disabled']));
@@ -153,6 +173,13 @@ function layout(string $title, string $body): void {
     }
     $crumbsHtml .= '</nav>';
 
+    $cu = function_exists('current_user') ? current_user() : null;
+    $userBadge = '';
+    if ($cu) {
+        $role = ($cu['role'] ?? '') === 'admin' ? 'admin' : 'qa';
+        $roleBadge = '<span class="user-role user-role-' . $role . '">' . $role . '</span>';
+        $userBadge = '<div class="topbar-user" title="Masuk sebagai ' . h((string)($cu['username'] ?? '')) . '"><span class="topbar-user-name"><span class="topbar-user-ic">' . studio_icon('settings', 14) . '</span>' . h((string)($cu['username'] ?? '')) . '</span>' . $roleBadge . '<a class="topbar-logout" href="?a=logout">Keluar</a></div>';
+    }
     echo '<!doctype html><html lang="id"><head><meta charset="utf-8">'
         . '<meta name="viewport" content="width=device-width, initial-scale=1">'
         . '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
@@ -160,8 +187,8 @@ function layout(string $title, string $body): void {
         . '<title>' . h($title) . ' — AI Guide Studio</title>'
         . '<style>' . studio_css() . '</style>'
         . '</head><body class="app">'
-        . '<a class="skip-link" href="#studio-main">Skip to content</a>'
-        . '<aside id="studio-sidebar" class="sbar" aria-label="Main navigation">'
+        . '<a class="skip-link" href="#studio-main">Lewati ke konten</a>'
+        . '<aside id="studio-sidebar" class="sbar" aria-label="Navigasi utama">'
         . '<div class="sbar-top"><a class="sbrand" href="?" aria-label="AI Guide Studio home">'
         . '<span class="sbrand-ic">' . studio_icon('logo', 22) . '</span>'
         . '<span class="sbrand-tx">AI Guide <b>Studio</b></span></a>'
@@ -173,9 +200,9 @@ function layout(string $title, string $body): void {
         . '<div class="sbar-backdrop" data-close-sidebar tabindex="-1"></div>'
         . '<div class="app-main">'
         . '<header class="topbar"><div class="topbar-left">'
-        . '<button type="button" class="icon-btn topbar-burger" data-toggle-sidebar aria-label="Toggle navigation">' . studio_icon('menu', 20) . '</button>'
+        . '<button type="button" class="icon-btn topbar-burger" data-toggle-sidebar aria-controls="studio-sidebar" aria-expanded="false" aria-label="Buka navigasi">' . studio_icon('menu', 20) . '</button>'
         . $crumbsHtml . '</div>'
-        . '<div class="topbar-right"><span class="topbar-title">' . h($pageTitle) . '</span></div>'
+        . '<div class="topbar-right"><span class="topbar-title">' . h($pageTitle) . '</span>' . $userBadge . '</div>'
         . '</header>'
         . '<main id="studio-main" class="app-content"><div class="app-scroll">' . $body . '</div></main>'
         . '</div>'
@@ -286,6 +313,13 @@ input,textarea,select,[contenteditable]{caret-color:var(--primary)}
 .topbar-right{display:flex;align-items:center;gap:var(--space-3);flex-shrink:0}
 .topbar-title{font-family:var(--font-display);font-size:16px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;letter-spacing:-.015em}
 .topbar-burger{display:none}
+.topbar-user{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--text-secondary);background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:4px 6px 4px 10px;white-space:nowrap}
+.topbar-user-name,.topbar-user-ic{display:inline-flex;align-items:center;gap:5px}
+.user-role{font-size:10px;font-weight:700;line-height:1;padding:4px 7px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}.user-role-admin{background:rgba(34,197,94,.15);color:var(--success)}.user-role-qa{background:rgba(139,92,246,.16);color:#c4b5fd}
+.topbar-logout{color:var(--text-secondary);padding:5px 8px;border-radius:999px;text-decoration:none}.topbar-logout:hover{background:var(--surface-3);color:var(--text-primary)}
+.login-wrap{max-width:380px;margin:8vh auto 0}
+.login-wrap .card{padding:var(--space-5)}
+.login-wrap h2{font-family:var(--font-display);margin-top:0}
 
 /* === Breadcrumb === */
 .crumbs{display:flex;align-items:center;gap:var(--space-1);color:var(--text-muted);font-size:13px;min-width:0;flex-wrap:wrap}
@@ -329,7 +363,7 @@ input,textarea,select,[contenteditable]{caret-color:var(--primary)}
 .btn:active{transform:translateY(1px)}
 .btn:focus-visible{outline:0;box-shadow:var(--focus-ring)}
 .btn-primary{background:var(--primary);color:#fff;box-shadow:0 1px 2px rgba(38,117,255,.25)}
-.btn-primary:hover{background:var(--primary-hover);transform:translateY(-1px);box-shadow:0 4px 12px rgba(38,117,255,.3)}
+.btn-primary:hover{background:var(--primary-hover);color:inherit;transform:translateY(-1px);box-shadow:0 4px 12px rgba(38,117,255,.3)}
 .btn-ai{background:var(--ai-accent);color:#fff;box-shadow:0 1px 2px rgba(139,92,246,.25)}
 .btn-ai:hover{background:#7c3aed;transform:translateY(-1px);box-shadow:0 4px 12px rgba(139,92,246,.3)}
 .btn-success{background:var(--success);color:#052e16}
@@ -479,7 +513,7 @@ body.sbar-collapsed .app-main{margin-left:68px}
 .toolbar{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-4);flex-wrap:wrap}
 .toolbar input[type=search]{max-width:280px}
 .filters{display:flex;gap:var(--space-2);flex-wrap:wrap}
-.filter-chip{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:999px;padding:8px 16px;font-size:12.5px;cursor:pointer;font-weight:600;min-height:36px;transition:all .14s ease}
+.filter-chip{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:999px;padding:8px 16px;font-size:12.5px;cursor:pointer;font-weight:600;min-height:36px;transition:background .14s ease,color .14s ease,border-color .14s ease,transform .14s ease,box-shadow .14s ease}
 .filter-chip:hover{border-color:var(--border-strong);color:var(--text-primary);transform:translateY(-1px)}
 .filter-chip:focus-visible{outline:0;box-shadow:var(--focus-ring)}
 .filter-chip.is-on{background:var(--primary);border-color:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(38,117,255,.25)}
@@ -493,6 +527,7 @@ body.sbar-collapsed .app-main{margin-left:68px}
 .tour-card-head h3 a{color:var(--text-primary);text-decoration:none}
 .tour-card-head h3 a:hover{color:var(--primary)}
 .tour-card-loc{font-size:12.5px;color:var(--text-muted);margin-top:2px;display:flex;align-items:center;gap:6px}
+.export-changed-chip{font-size:14px;cursor:help;margin-left:auto}
 .tour-card-body{padding:var(--space-4);flex:1;display:flex;flex-direction:column;gap:var(--space-3)}
 .tour-card-meta{display:flex;gap:var(--space-3);flex-wrap:wrap;font-size:12px;color:var(--text-secondary)}
 .tour-card-meta span{display:inline-flex;align-items:center;gap:5px}
@@ -551,7 +586,17 @@ body.sbar-collapsed .app-main{margin-left:68px}
 .activity-tx{font-size:13px;color:var(--text-secondary)}
 .activity-tx b{color:var(--text-primary);font-weight:600}
 .activity-time{font-size:11.5px;color:var(--text-muted);margin-top:2px}
-@media(max-width:768px){.ready-ring-num{font-size:32px}}
+@media(max-width:768px){
+  .ready-ring-num{font-size:32px}
+  .topbar-title,.topbar-user-name,.user-role{display:none}
+  .topbar-user{padding:3px}.topbar-logout{min-height:36px;display:inline-flex;align-items:center}
+  .toolbar{align-items:stretch}.toolbar input[type=search]{max-width:none}.filters{overflow-x:auto;flex-wrap:nowrap;padding-bottom:var(--space-2)}.filter-chip,.filter-sep{flex:0 0 auto}
+  .tour-grid{grid-template-columns:1fr}.tour-card-foot{align-items:flex-start;flex-direction:column}.tour-card-foot .btn{width:100%}
+  .card{padding:var(--space-4);border-radius:var(--radius-sm)}
+  form [style*="grid-template-columns"],form [style*="display:grid"]{grid-template-columns:1fr!important}
+  form [style*="display:flex"],.card>[style*="display:flex"]{flex-wrap:wrap}
+  .ov-actions{width:100%}.ov-actions .btn,.ov-actions form,.ov-actions form .btn{flex:1 1 150px}
+}
 CSS;
 }
 
@@ -566,16 +611,30 @@ var sbar=document.getElementById('studio-sidebar');
 var toggle=document.querySelectorAll('[data-toggle-sidebar]');
 var close=document.querySelectorAll('[data-close-sidebar]');
 var body=document.body;
+var mobileToggle=document.querySelector('.topbar-burger');
+var lastFocus=null;
 
 function isCollapsed(){return body.classList.contains('sbar-collapsed');}
 function isOpen(){return body.classList.contains('sbar-open');}
+function syncSidebarState(){
+  var open=isOpen();
+  if(mobileToggle){mobileToggle.setAttribute('aria-expanded',open?'true':'false');mobileToggle.setAttribute('aria-label',open?'Tutup navigasi':'Buka navigasi');}
+}
+function closeSidebar(){
+  if(!isOpen()) return;
+  body.classList.remove('sbar-open');syncSidebarState();
+  if(lastFocus&&lastFocus.focus) lastFocus.focus();
+}
 
 toggle.forEach(function(el){
   el.addEventListener('click',function(e){
     e.stopPropagation();
     if(window.innerWidth<=768){
+      lastFocus=document.activeElement;
       body.classList.toggle('sbar-open');
       body.classList.remove('sbar-collapsed');
+      syncSidebarState();
+      if(isOpen()){var first=sbar.querySelector('a,button');if(first) first.focus();}
     }else{
       body.classList.toggle('sbar-collapsed');
       body.classList.remove('sbar-open');
@@ -583,15 +642,18 @@ toggle.forEach(function(el){
   });
 });
 
-close.forEach(function(el){
-  el.addEventListener('click',function(){
-    body.classList.remove('sbar-open');
-  });
-});
+close.forEach(function(el){el.addEventListener('click',closeSidebar);});
 
-// Escape closes mobile drawer
+// Escape closes mobile drawer and restores trigger focus.
 document.addEventListener('keydown',function(e){
-  if(e.key==='Escape' && isOpen()) body.classList.remove('sbar-open');
+  if(e.key==='Escape' && isOpen()) closeSidebar();
+  if(e.key==='Tab' && isOpen()){
+    var focusable=sbar.querySelectorAll('a[href],button:not([disabled])');
+    if(!focusable.length) return;
+    var first=focusable[0],last=focusable[focusable.length-1];
+    if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+    else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+  }
 });
 
 // Persist collapsed state
@@ -685,6 +747,8 @@ function studio_tour_stats(array $tour): array {
     ];
     $doneCount = 0; foreach ($steps as $s) if ($s['done']) $doneCount++;
     $ready = (int)round($doneCount / count($steps) * 100);
+    $nextStep = null;
+    foreach ($steps as $st) if (!$st['done']) { $nextStep = $st; break; }
 
     $status = 'draft';
     if ($deployed) $status = 'deployed';
@@ -699,6 +763,7 @@ function studio_tour_stats(array $tour): array {
         'intents' => $intents, 'knowledgeTotal' => $knowTotal, 'knowledgeDone' => $knowDone,
         'siScenes' => $siScenes, 'tipsTotal' => $tipsTotal, 'nearbyTotal' => $nearbyTotal, 'recTotal' => $recTotal,
         'hasParsed' => $scenes > 0, 'hasPackage' => $hasPackage, 'exportSet' => $export !== '', 'deployed' => $deployed,
+        'nextStep' => $nextStep,
     ];
 }
 

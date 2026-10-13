@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "tourId": "rselisabeth",
+    "tourName": "Rselisabeth",
+    "updatedAt": "2026-09-29T09:52:02+02:00",
+    "startScene": "node362",
+    "order": [
+        "node362",
+        "node363",
+        "node364",
+        "node365",
+        "node366",
+        "node367",
+        "node368",
+        "node369",
+        "node370",
+        "node371",
+        "node372"
+    ],
+    "nodes": {
+        "node362": {
+            "displayName": "RS St. Elisabeth Semarang – Pelataran Monumen St. Elisabeth"
+        },
+        "node363": {
+            "displayName": "RS St. Elisabeth Semarang – Kamar Perawatan – Sisi Kepala Ranjang"
+        },
+        "node364": {
+            "displayName": "RS St. Elisabeth Semarang – Taman Landmark RSE"
+        },
+        "node365": {
+            "displayName": "RS St. Elisabeth Semarang – Courtyard – Jalur Tengah"
+        },
+        "node366": {
+            "displayName": "RS St. Elisabeth Semarang – Ruang Tunggu Berjendela"
+        },
+        "node367": {
+            "displayName": "RS St. Elisabeth Semarang – Ruang Magdalena"
+        },
+        "node368": {
+            "displayName": "RS St. Elisabeth Semarang – Kamar VIP – Sisi Tirai"
+        },
+        "node369": {
+            "displayName": "RS St. Elisabeth Semarang – Kamar Suite"
+        },
+        "node370": {
+            "displayName": "RS St. Elisabeth Semarang – RSE – Udara Kompleks Gedung"
+        },
+        "node371": {
+            "displayName": "RS St. Elisabeth Semarang – RSE – Udara Courtyard"
+        },
+        "node372": {
+            "displayName": "RS St. Elisabeth Semarang – Kapel Rumah Sakit"
+        }
+    }
+}

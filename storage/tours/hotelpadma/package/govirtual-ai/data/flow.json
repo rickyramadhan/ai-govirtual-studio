@@ -1,0 +1,139 @@
+{
+    "version": "1.0",
+    "tourId": "hotelpadma",
+    "tourName": "Hotelpadma",
+    "updatedAt": "2026-09-29T09:50:49+02:00",
+    "startScene": "node110",
+    "order": [
+        "node110",
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node107",
+        "node108",
+        "node109",
+        "node111",
+        "node112",
+        "node113"
+    ],
+    "nodes": {
+        "node110": {
+            "displayName": "Padma Hotel Semarang – Bundaran Taman Padma"
+        },
+        "node80": {
+            "displayName": "Padma Hotel Semarang – Koridor Club Lounge"
+        },
+        "node81": {
+            "displayName": "Padma Hotel Semarang – Club Lounge"
+        },
+        "node82": {
+            "displayName": "Padma Hotel Semarang – Pintu Lobi Kaca"
+        },
+        "node83": {
+            "displayName": "Padma Hotel Semarang – Pelataran Akses Ballroom"
+        },
+        "node85": {
+            "displayName": "Padma Hotel Semarang – Suite – Area Transisi Kamar Mandi"
+        },
+        "node86": {
+            "displayName": "Padma Hotel Semarang – Kamar Keluarga – Detail Partisi"
+        },
+        "node87": {
+            "displayName": "Padma Hotel Semarang – Fitness Center"
+        },
+        "node88": {
+            "displayName": "Padma Hotel Semarang – Koridor Waterpark"
+        },
+        "node89": {
+            "displayName": "Padma Hotel Semarang – Foyer Candi Junior Ballroom"
+        },
+        "node90": {
+            "displayName": "Padma Hotel Semarang – Teras Akses Fitness Center"
+        },
+        "node91": {
+            "displayName": "Padma Hotel Semarang – Kids Club"
+        },
+        "node92": {
+            "displayName": "Padma Hotel Semarang – Koridor Akses Family Room"
+        },
+        "node93": {
+            "displayName": "Padma Hotel Semarang – Koridor Akses Premier Balcony"
+        },
+        "node94": {
+            "displayName": "Padma Hotel Semarang – Main Lobby"
+        },
+        "node95": {
+            "displayName": "Padma Hotel Semarang – Gedong Songo Outdoor Deck"
+        },
+        "node96": {
+            "displayName": "Padma Hotel Semarang – Jalur Taman dan Kolam"
+        },
+        "node97": {
+            "displayName": "Padma Hotel Semarang – Pool Access Room – Area Wastafel"
+        },
+        "node98": {
+            "displayName": "Padma Hotel Semarang – Premier Balcony – Interior Kamar"
+        },
+        "node99": {
+            "displayName": "Padma Hotel Semarang – Lobi Lift"
+        },
+        "node100": {
+            "displayName": "Padma Hotel Semarang – Presidential Suite – Foyer"
+        },
+        "node101": {
+            "displayName": "Padma Hotel Semarang – Presidential Suite – Ruang Duduk"
+        },
+        "node102": {
+            "displayName": "Padma Hotel Semarang – Presidential Suite – Akses Lift"
+        },
+        "node103": {
+            "displayName": "Padma Hotel Semarang – Presidential Suite – Kamar Twin"
+        },
+        "node104": {
+            "displayName": "Padma Hotel Semarang – Presidential Suite – Kamar Utama"
+        },
+        "node105": {
+            "displayName": "Padma Hotel Semarang – Fasilitas Ganti Dekat Sauna"
+        },
+        "node107": {
+            "displayName": "Padma Hotel Semarang – Kolam Renang Dewasa"
+        },
+        "node108": {
+            "displayName": "Padma Hotel Semarang – Jalur Dekat Kolam Anak"
+        },
+        "node109": {
+            "displayName": "Padma Hotel Semarang – Jalur Taman Waterpark"
+        },
+        "node111": {
+            "displayName": "Padma Hotel Semarang – Gerbang Kedatangan Padma"
+        },
+        "node112": {
+            "displayName": "Padma Hotel Semarang – Pintu Masuk Hotel – Taman Depan"
+        },
+        "node113": {
+            "displayName": "Padma Hotel Semarang – Candi Junior Ballroom – Ruang Acara"
+        }
+    }
+}

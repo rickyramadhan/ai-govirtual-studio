@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "kampungbatik",
+    "updatedAt": "2026-09-29T09:50:55+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kampungbatik",
+            "aliases": [
+                "kampungbatik"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kampungbatik"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kampungbatik.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kampungbatik",
+                    "content": "Pusat pengalaman virtual untuk Kampungbatik."
+                },
+                "en": {
+                    "title": "Kampungbatik",
+                    "content": "Pusat pengalaman virtual untuk Kampungbatik."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Batik Gedong",
+            "aliases": [
+                "batik gedong"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungbatik"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Batik Gedong",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Batik Gedong",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Batikbalqis",
+            "aliases": [
+                "batikbalqis"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungbatik"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Batikbalqis",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Batikbalqis",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kampungbatik"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:919",
+            "entityId": "objinfo2:919",
+            "title": "Mural Kampung Batik",
+            "aliases": [
+                "mural kampung batik",
+                "objek 919"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Mural-mural ini diciptakan sebagai bagian dari revitalisasi kampung untuk menarik wisatawan sekaligus mempertegas identitas wilayah tersebut sebagai sentra batik legendaris yang sempat mati suri setelah pertempuran lima hari di Semarang.",
+            "source": "webview-import",
+            "sourceId": "919",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mural Kampung Batik",
+                    "content": "Mural-mural ini diciptakan sebagai bagian dari revitalisasi kampung untuk menarik wisatawan sekaligus mempertegas identitas wilayah tersebut sebagai sentra batik legendaris yang sempat mati suri setelah pertempuran lima hari di Semarang."
+                },
+                "en": {
+                    "title": "Batik Village Mural",
+                    "content": "These murals were created as part of the village revitalization to attract tourists while reinforcing the area’s identity as a legendary batik center that had lain dormant after the five-day battle in Semarang."
+                },
+                "zh": {
+                    "title": "蜡染村壁画",
+                    "content": "这些壁画是村庄复兴的一部分，旨在吸引游客，同时强化该地区作为传奇蜡染中心的身份——在三宝垄五日战役后曾一度沉寂。"
+                },
+                "ar": {
+                    "title": "جداريات قرية باتيك",
+                    "content": "تم إنشاء هذه الجداريات كجزء من إعادة إحياء القرية لجذب السياح، مع تعزيز هوية المنطقة كمركز باتيك أسطوري كان خامدًا بعد معركة الأيام الخمسة في سيمارانغ."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:920",
+            "entityId": "objinfo2:920",
+            "title": "Laksmi Art Batik",
+            "aliases": [
+                "laksmi art batik",
+                "objek 920"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Laksmi Art Batik merupakan salah satu galeri sekaligus bengkel batik yang menjadi ikon penting di kawasan Kampung Batik Semarang. Selain memproduksi karya seni, Laksmi Art Batik juga memposisikan dirinya sebagai pusat edukasi wisata atau edutourism. Di tempat ini, pengunjung tidak sekadar datang untuk berbelanja, melainkan dapat mengikuti lokakarya (workshop) membatik.",
+            "source": "webview-import",
+            "sourceId": "920",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Laksmi Art Batik",
+                    "content": "Laksmi Art Batik merupakan salah satu galeri sekaligus bengkel batik yang menjadi ikon penting di kawasan Kampung Batik Semarang. Selain memproduksi karya seni, Laksmi Art Batik juga memposisikan dirinya sebagai pusat edukasi wisata atau edutourism. Di tempat ini, pengunjung tidak sekadar datang untuk berbelanja, melainkan dapat mengikuti lokakarya (workshop) membatik."
+                },
+                "en": {
+                    "title": "Laksmi Art Batik",
+                    "content": "Laksmi Art Batik is one of the galleries as well as a batik workshop that has become an important icon in Semarang’s Batik Village. Besides producing artworks, Laksmi Art Batik also positions itself as an educational tourism or edutourism center. Here, visitors do not just come to shop but can also participate in batik workshops."
+                },
+                "zh": {
+                    "title": "拉克斯米艺术蜡染",
+                    "content": "拉克斯米艺术蜡染是三宝垄蜡染村的重要标志之一，既是画廊也是蜡染工作室。除了创作艺术品外，拉克斯米艺术蜡染还定位为旅游教育或教育旅游中心。游客不仅可以购物，还能参与蜡染工作坊。"
+                },
+                "ar": {
+                    "title": "باتيك فن لاكسمي",
+                    "content": "يُعد Laksmi Art Batik أحد المعارض وورش العمل للباتيك الذي أصبح رمزًا مهمًا في قرية باتيك سيمارانغ. بجانب إنتاج الأعمال الفنية، يضع Laksmi Art Batik نفسه كمركز للسياحة التعليمية أو التعليم السياحي. هنا، لا يقتصر دور الزوار على التسوق فحسب، بل يمكنهم أيضًا المشاركة في ورش عمل باتيك."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:921",
+            "entityId": "objinfo2:921",
+            "title": "Batik Balqis",
+            "aliases": [
+                "batik balqis",
+                "objek 921"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Batik Balqis memiliki spesialisasi yang kuat pada fashion siap pakai (ready-to-wear) serta penyediaan kain batik berkualitas. Koleksi mereka didominasi oleh motif-motif khas Semarangan, seperti Lawang Sewu, Tugu Muda, dan Asem Arang, yang diaplikasikan baik pada batik tulis maupun cap.",
+            "source": "webview-import",
+            "sourceId": "921",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Batik Balqis",
+                    "content": "Batik Balqis memiliki spesialisasi yang kuat pada fashion siap pakai (ready-to-wear) serta penyediaan kain batik berkualitas. Koleksi mereka didominasi oleh motif-motif khas Semarangan, seperti Lawang Sewu, Tugu Muda, dan Asem Arang, yang diaplikasikan baik pada batik tulis maupun cap."
+                },
+                "en": {
+                    "title": "Balqis Batik",
+                    "content": "Balqis Batik specializes strongly in ready-to-wear fashion as well as supplying high-quality batik fabrics. Their collection is dominated by Semarangan motifs, such as Lawang Sewu, Tugu Muda, and Asem Arang, applied to both hand-drawn (tulis) and stamped (cap) batik."
+                },
+                "zh": {
+                    "title": "巴尔基斯蜡染",
+                    "content": "Batik Balqis 专注于成衣时尚以及优质蜡染布料的供应。他们的系列以三宝垄特色图案为主，如拉旺瑟乌、图古穆达和阿森阿朗，既应用于手绘蜡染，也应用于印章蜡染。"
+                },
+                "ar": {
+                    "title": "باتيك بالقيس",
+                    "content": "يتخصص Batik Balqis بقوة في أزياء جاهزة للارتداء وكذلك توفير أقمشة باتيك عالية الجودة. تهيمن على مجموعتهم نقوش مميزة لسيمارانغ، مثل Lawang Sewu وTugu Muda وAsem Arang، مطبقة على كل من باتيك المرسوم يدويًا والباتيك المختوم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:922",
+            "entityId": "objinfo2:922",
+            "title": "Rusyda Batik",
+            "aliases": [
+                "rusyda batik",
+                "objek 922"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Rusyda Batik tidak hanya sekadar toko, melainkan sebuah representasi dari ketekunan pengrajin lokal yang menjaga teknik membatik secara manual, baik itu batik tulis maupun batik cap, yang seluruh pengerjaannya melibatkan warga sekitar demi pemberdayaan ekonomi komunitas.",
+            "source": "webview-import",
+            "sourceId": "922",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Rusyda Batik",
+                    "content": "Rusyda Batik tidak hanya sekadar toko, melainkan sebuah representasi dari ketekunan pengrajin lokal yang menjaga teknik membatik secara manual, baik itu batik tulis maupun batik cap, yang seluruh pengerjaannya melibatkan warga sekitar demi pemberdayaan ekonomi komunitas."
+                },
+                "en": {
+                    "title": "Rusyda Batik",
+                    "content": "Rusyda Batik is not just a shop but a representation of the diligence of local artisans preserving manual batik techniques, both hand-drawn and stamped, with all processes involving the local community to empower the local economy."
+                },
+                "zh": {
+                    "title": "鲁斯达蜡染",
+                    "content": "Rusyda Batik 不仅仅是一家商店，更是当地工匠坚持手工蜡染技艺的象征，无论手绘或印章蜡染，整个制作过程都涉及当地居民，以促进社区经济发展。"
+                },
+                "ar": {
+                    "title": "باتيك روسيدا",
+                    "content": "Rusyda Batik ليس مجرد متجر، بل يمثل اجتهاد الحرفيين المحليين في الحفاظ على تقنيات الباتيك اليدوية، سواء المرسومة يدويًا أو المختومة، حيث يشمل جميع عملياتها المجتمع المحلي لتعزيز الاقتصاد المجتمعي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:923",
+            "entityId": "objinfo2:923",
+            "title": "Omah Batik Ngesti Pandowo",
+            "aliases": [
+                "omah batik ngesti pandowo",
+                "objek 923"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Omah Batik Ngesti Pandowo memiliki keunggulan dalam kemampuan adaptasinya terhadap tantangan produksi dan pasar. Tidak hanya mengandalkan metode tradisional sepenuhnya, mereka juga mulai mengadopsi teknologi tepat guna, seperti penggunaan alat pengering khusus (smart dryer) untuk mengatasi kendala cuaca yang sering menghambat proses produksi batik, terutama saat musim hujan.",
+            "source": "webview-import",
+            "sourceId": "923",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Omah Batik Ngesti Pandowo",
+                    "content": "Omah Batik Ngesti Pandowo memiliki keunggulan dalam kemampuan adaptasinya terhadap tantangan produksi dan pasar. Tidak hanya mengandalkan metode tradisional sepenuhnya, mereka juga mulai mengadopsi teknologi tepat guna, seperti penggunaan alat pengering khusus (smart dryer) untuk mengatasi kendala cuaca yang sering menghambat proses produksi batik, terutama saat musim hujan."
+                },
+                "en": {
+                    "title": "Ngesti Pandowo Batik House",
+                    "content": "Omah Batik Ngesti Pandowo excels in its ability to adapt to production and market challenges. Not relying solely on traditional methods, they have also begun adopting appropriate technology, such as special dryers (smart dryers) to overcome weather constraints that often hinder batik production, especially during the rainy season."
+                },
+                "zh": {
+                    "title": "恩格斯蒂潘多沃蜡染屋",
+                    "content": "Omah Batik Ngesti Pandowo 在应对生产与市场挑战方面具有优势。他们不仅完全依赖传统方法，还开始采用适用技术，如使用专用烘干设备（智能烘干机），以应对常常阻碍蜡染生产的天气问题，尤其在雨季。"
+                },
+                "ar": {
+                    "title": "منزل باتيك نجيستي باندوو",
+                    "content": "Omah Batik Ngesti Pandowo تتفوق في قدرتها على التكيف مع تحديات الإنتاج والسوق. فهي لا تعتمد فقط على الطرق التقليدية، بل بدأت أيضًا في تبني التكنولوجيا المناسبة، مثل استخدام مجففات خاصة (مجفف ذكي) للتغلب على قيود الطقس التي غالبًا ما تعيق إنتاج الباتيك، خاصة في موسم الأمطار."
+                }
+            }
+        }
+    ]
+}

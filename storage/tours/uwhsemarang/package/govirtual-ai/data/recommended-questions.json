@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "uwhsemarang",
+    "tourName": "Uwhsemarang",
+    "updatedAt": "2026-09-29T09:52:55+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Uwhsemarang?",
+                "query": "Mengapa disebut Uwhsemarang?",
+                "desc": "Mengapa disebut Uwhsemarang?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Uwhsemarang",
+                "desc": "Ceritakan tentang Uwhsemarang"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Uwhsemarang"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Uwhsemarang"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Uwhsemarang?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Uwhsemarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Uwhsemarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Uwhsemarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

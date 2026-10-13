@@ -13,7 +13,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gedung Inspektorat Lt. 1"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node2",
@@ -26,7 +29,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pintu Keluar"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node3",
@@ -39,7 +45,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Gedung Bapenda"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node4",
@@ -52,7 +61,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Dinas Sosial Kota Semarang"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node5",
@@ -65,7 +77,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "gedungdprdluar"
-            ]
+            ],
+            "pan": -7,
+            "tilt": 23.6,
+            "fov": 129
         },
         {
             "id": "node6",
@@ -78,7 +93,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "mochihsan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node7",
@@ -91,7 +109,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "gedungdprd"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node8",
@@ -104,7 +125,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Balai Dinas Perumahan dan Pengawasan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node9",
@@ -117,7 +141,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Balai Pengelolaan Keuangan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node10",
@@ -130,7 +157,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "bapenda"
-            ]
+            ],
+            "pan": -48,
+            "tilt": -10,
+            "fov": 117
         },
         {
             "id": "node11",
@@ -143,7 +173,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Pintu Keluar Belakang"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node12",
@@ -156,7 +189,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "lokakrida"
-            ]
+            ],
+            "pan": -6,
+            "tilt": 7.5,
+            "fov": 112.7
         },
         {
             "id": "node13",
@@ -169,7 +205,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Lt. 8 Gedung Moch. Ichsan"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node14",
@@ -182,7 +221,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Taman Terbuka"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node15",
@@ -195,7 +237,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "Masjid Balai Kota Semarang"
-            ]
+            ],
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100
         },
         {
             "id": "node16",
@@ -208,7 +253,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "kantorwalikota"
-            ]
+            ],
+            "pan": 0.85,
+            "tilt": 15.85,
+            "fov": 119
         },
         {
             "id": "node18",
@@ -221,7 +269,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "situationroom"
-            ]
+            ],
+            "pan": 160,
+            "tilt": -11.7,
+            "fov": 128.6
         },
         {
             "id": "node19",
@@ -234,7 +285,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "mochichsan"
-            ]
+            ],
+            "pan": 11,
+            "tilt": 18,
+            "fov": 119
         },
         {
             "id": "node20",
@@ -247,7 +301,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "drone"
-            ]
+            ],
+            "pan": 4.5,
+            "tilt": -8.5,
+            "fov": 147.7
         },
         {
             "id": "node21",
@@ -260,7 +317,10 @@ window.GoVirtualTourData = {
             ],
             "aliases": [
                 "diskominfo"
-            ]
+            ],
+            "pan": -13.5,
+            "tilt": -20,
+            "fov": 119
         }
     ],
     "hotspots": [
@@ -951,12 +1011,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Inspektorat Lt. 1 merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Inspektorat Lt. 1 adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area lantai satu Gedung Inspektorat memperkenalkan peran pengawasan dalam pemerintahan Kota Semarang.",
+            "description": "Inspektorat berperan dalam pengawasan internal penyelenggaraan pemerintahan daerah. Melalui panorama lantai satu ini, kamu dapat mengenal instansi yang membantu menjaga akuntabilitas kerja pemerintah, sekaligus memberikan pembinaan dan pendampingan kepada perangkat daerah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pengawasan internal pemerintah\\nAkuntabilitas dan pembinaan\\nArea lantai satu"
             ],
             "talkingPoints": [
                 "Gedung Inspektorat Lt. 1",
@@ -964,14 +1023,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Inspektorat Lt. 1.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa tugas Inspektorat di pemerintahan kota?",
+                    "mode": "fix",
+                    "answer": "Inspektorat mengawasi penyelenggaraan pemerintahan daerah dari dalam organisasi pemerintah. Perannya membantu agar kegiatan perangkat daerah berjalan tertib dan dapat dipertanggungjawabkan."
+                },
+                {
+                    "q": "Apakah Inspektorat hanya mencari kesalahan?",
+                    "mode": "fix",
+                    "answer": "Perannya juga mencakup pembinaan, konsultasi, dan pendampingan kepada perangkat daerah. Pengawasan membantu mengenali persoalan lebih awal agar pelaksanaan pekerjaan dapat diperbaiki."
+                },
+                {
+                    "q": "Mengapa pengawasan internal penting bagi warga?",
+                    "mode": "fix",
+                    "answer": "Pengawasan internal membantu menjaga kualitas kerja dan akuntabilitas pemerintah. Manfaatnya berkaitan dengan penggunaan sumber daya publik serta perbaikan pelayanan kepada masyarakat."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Inspektorat Lt. 1 — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Gedung Inspektorat Lt. 1.",
                 "describeHere": "Gedung Inspektorat Lt. 1 adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -985,12 +1056,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pintu Keluar merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pintu Keluar adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik pintu keluar membantu mengenali akses untuk meninggalkan kompleks Balai Kota Semarang.",
+            "description": "Pintu Keluar merupakan bagian dari akses keluar kompleks Balai Kota Semarang. Dalam tur ini, titik tersebut membantu kamu mengenali batas perjalanan di kawasan perkantoran. Saat berkunjung langsung, ikuti penunjuk arah dan arahan petugas untuk memilih jalur keluar.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Akses keluar kompleks\\nOrientasi perjalanan\\nPenunjuk akhir kunjungan"
             ],
             "talkingPoints": [
                 "Pintu Keluar",
@@ -998,14 +1068,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pintu Keluar.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apakah titik ini merupakan akses keluar Balai Kota?",
+                    "mode": "fix",
+                    "answer": "Ya, titik ini merupakan area pintu keluar kompleks Balai Kota. Gunakan sebagai patokan saat mengenali jalur untuk meninggalkan kawasan."
+                },
+                {
+                    "q": "Apa yang perlu diperhatikan sebelum meninggalkan kompleks?",
+                    "mode": "fix",
+                    "answer": "Pastikan barang bawaan sudah lengkap dan ikuti penunjuk arah keluar. Jika membawa kendaraan, perhatikan pejalan kaki dan arahan petugas di sekitar akses keluar."
+                },
+                {
+                    "q": "Bisakah saya melanjutkan tur dari titik keluar?",
+                    "mode": "fix",
+                    "answer": "Bisa. Kamu dapat memilih panorama lain untuk kembali menjelajahi kompleks, misalnya Kantor Walikota, Taman Terbuka, atau Gedung Moch. Ichsan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pintu Keluar — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Pintu Keluar.",
                 "describeHere": "Pintu Keluar adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1019,12 +1101,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung Bapenda merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Bapenda adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung Bapenda memperkenalkan urusan pendapatan daerah dalam penyelenggaraan pemerintahan Kota Semarang.",
+            "description": "Bapenda adalah Badan Pendapatan Daerah. Instansi ini berhubungan dengan pengelolaan pendapatan daerah, termasuk pajak daerah. Panorama Gedung Bapenda menjadi pengantar untuk memahami bagaimana penerimaan daerah mendukung kegiatan pemerintah dan pelayanan kota.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Badan Pendapatan Daerah\\nPengenalan pajak daerah\\nPendanaan pelayanan kota"
             ],
             "talkingPoints": [
                 "Gedung Bapenda",
@@ -1032,14 +1113,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Bapenda.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bapenda itu singkatan dari apa?",
+                    "mode": "fix",
+                    "answer": "Bapenda merupakan singkatan dari Badan Pendapatan Daerah. Bidang kerjanya berkaitan dengan pendapatan daerah, termasuk urusan pajak daerah."
+                },
+                {
+                    "q": "Apa hubungan Bapenda dengan pelayanan kota?",
+                    "mode": "fix",
+                    "answer": "Pendapatan daerah menjadi salah satu sumber pembiayaan kegiatan pemerintah dan pelayanan masyarakat. Bapenda berperan pada sisi pengelolaan penerimaan daerah tersebut."
+                },
+                {
+                    "q": "Apa yang sebaiknya saya sampaikan saat bertanya ke Bapenda?",
+                    "mode": "fix",
+                    "answer": "Jelaskan jenis urusan pajak daerah yang ingin kamu tanyakan. Dengan tujuan yang jelas, petugas dapat mengarahkan pertanyaanmu ke layanan yang sesuai."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Bapenda — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Gedung Bapenda.",
                 "describeHere": "Gedung Bapenda adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1053,12 +1146,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Dinas Sosial Kota Semarang merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Dinas Sosial Kota Semarang adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Dinas Sosial menangani urusan kesejahteraan sosial dan dukungan bagi warga yang membutuhkan.",
+            "description": "Dinas Sosial Kota Semarang berperan dalam urusan kesejahteraan sosial, termasuk perlindungan, rehabilitasi, dan pemberdayaan sosial. Area ini memperkenalkan sisi pelayanan pemerintah yang berkaitan dengan pendampingan warga serta penanganan permasalahan sosial.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Kesejahteraan sosial\\nPerlindungan dan rehabilitasi\\nPemberdayaan masyarakat"
             ],
             "talkingPoints": [
                 "Dinas Sosial Kota Semarang",
@@ -1066,14 +1158,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Dinas Sosial Kota Semarang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Urusan apa yang ditangani Dinas Sosial?",
+                    "mode": "fix",
+                    "answer": "Dinas Sosial menangani urusan kesejahteraan sosial, antara lain perlindungan sosial, rehabilitasi sosial, dan pemberdayaan. Bidang-bidang ini berkaitan dengan dukungan bagi warga yang menghadapi persoalan sosial."
+                },
+                {
+                    "q": "Apakah Dinas Sosial hanya mengurus bantuan?",
+                    "mode": "fix",
+                    "answer": "Dinas Sosial juga menangani rehabilitasi dan pemberdayaan sosial. Kegiatannya mencakup pendampingan dan upaya membantu warga menjalankan fungsi sosialnya."
+                },
+                {
+                    "q": "Bagaimana memulai konsultasi tentang kebutuhan sosial?",
+                    "mode": "fix",
+                    "answer": "Sampaikan kondisi yang ingin dikonsultasikan dan bantuan atau pendampingan yang dibutuhkan. Petugas dapat membantu mengarahkanmu sesuai jenis persoalan dan layanan yang sesuai."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Dinas Sosial Kota Semarang — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Dinas Sosial Kota Semarang.",
                 "describeHere": "Dinas Sosial Kota Semarang adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1087,12 +1191,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Gedung DPRD (Luar) merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung DPRD (Luar) adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut luar Gedung DPRD memperkenalkan tempat kegiatan lembaga perwakilan rakyat Kota Semarang.",
+            "description": "Panorama luar Gedung DPRD menjadi titik pengenalan Dewan Perwakilan Rakyat Daerah Kota Semarang. Lembaga ini menjalankan peran dalam pembentukan peraturan daerah, pembahasan anggaran, dan pengawasan. Dari area luar, kamu dapat mengenali gedung sebelum melanjutkan penjelajahan.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Tampilan luar Gedung DPRD\\nPerwakilan rakyat daerah\\nPengenalan lembaga legislatif"
             ],
             "talkingPoints": [
                 "Gedung DPRD (Luar)",
@@ -1100,16 +1203,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung DPRD (Luar).",
-                "Di mana saya sekarang?"
+                {
+                    "q": "DPRD merupakan lembaga apa?",
+                    "mode": "fix",
+                    "answer": "DPRD adalah Dewan Perwakilan Rakyat Daerah. Di tingkat kota, lembaga ini menjalankan fungsi perwakilan rakyat dalam penyelenggaraan pemerintahan daerah."
+                },
+                {
+                    "q": "Apa bedanya DPRD dengan kantor wali kota?",
+                    "mode": "fix",
+                    "answer": "DPRD menjalankan fungsi perwakilan, pembentukan peraturan, anggaran, dan pengawasan. Wali kota memimpin pelaksanaan pemerintahan kota bersama perangkat daerah."
+                },
+                {
+                    "q": "Apa fokus panorama luar gedung ini?",
+                    "mode": "fix",
+                    "answer": "Panorama ini memperkenalkan bagian luar Gedung DPRD. Untuk melanjutkan pengenalan lembaganya, kamu bisa memilih panorama Gedung DPRD dalam tur ini."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2252"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung DPRD (Luar) — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Gedung DPRD (Luar).",
                 "describeHere": "Gedung DPRD (Luar) adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1123,12 +1238,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Mochihsan merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Mochihsan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik Mochihsan menjadi salah satu sudut penjelajahan area Gedung Moch. Ichsan di kompleks Balai Kota.",
+            "description": "Area Gedung Moch. Ichsan merupakan bagian dari lingkungan perkantoran Balai Kota Semarang. Tur ini menyediakan beberapa sudut pengenalan gedung, termasuk panorama lantai delapan dan Lokakrida. Titik ini dapat menjadi awal untuk mengenali gedung sebelum menjelajahi area lainnya.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area Gedung Moch. Ichsan\\nPengenalan gedung perkantoran\\nEksplorasi beberapa panorama"
             ],
             "talkingPoints": [
                 "Mochihsan",
@@ -1136,14 +1250,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Mochihsan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Bagian Gedung Moch. Ichsan apa yang bisa dijelajahi dalam tur?",
+                    "mode": "fix",
+                    "answer": "Selain area gedung, tur ini memiliki panorama lantai delapan dan Lokakrida. Kamu dapat memilih masing-masing panorama untuk mengenali bagian gedung dengan lebih dekat."
+                },
+                {
+                    "q": "Apa hubungan gedung ini dengan Lokakrida?",
+                    "mode": "fix",
+                    "answer": "Lokakrida merupakan ruang pertemuan di lantai delapan Gedung Moch. Ichsan. Ruang tersebut digunakan untuk berbagai kegiatan dan pertemuan kedinasan."
+                },
+                {
+                    "q": "Sebaiknya mulai dari area gedung atau lantai delapan?",
+                    "mode": "fix",
+                    "answer": "Mulailah dari area gedung untuk mendapat pengenalan umum. Setelah itu, pilih panorama lantai delapan dan Lokakrida agar penjelajahan terasa lebih runtut."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Mochihsan — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Mochihsan.",
                 "describeHere": "Mochihsan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1157,12 +1283,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Gedung DPRD merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung DPRD adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung DPRD mengenalkan kegiatan perwakilan rakyat dalam pembahasan kebijakan dan anggaran kota.",
+            "description": "DPRD Kota Semarang membentuk peraturan daerah bersama wali kota, membahas rancangan anggaran daerah, dan mengawasi pelaksanaannya. Panorama ini mengajak kamu mengenal hubungan antara pekerjaan lembaga perwakilan dengan kebijakan yang memengaruhi kehidupan warga.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pembentukan peraturan daerah\\nPembahasan anggaran\\nPengawasan pelaksanaan kebijakan"
             ],
             "talkingPoints": [
                 "Gedung DPRD",
@@ -1170,14 +1295,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung DPRD.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa saja pekerjaan utama DPRD Kota Semarang?",
+                    "mode": "fix",
+                    "answer": "DPRD membentuk peraturan daerah bersama wali kota, membahas dan menyetujui rancangan APBD, serta mengawasi pelaksanaan peraturan daerah dan APBD."
+                },
+                {
+                    "q": "Mengapa anggaran kota dibahas bersama DPRD?",
+                    "mode": "fix",
+                    "answer": "Pembahasan anggaran merupakan bagian dari fungsi DPRD. Dalam proses ini, rencana pendapatan dan belanja kota dibahas sebelum memperoleh persetujuan."
+                },
+                {
+                    "q": "Apa kaitan pekerjaan DPRD dengan kehidupan sehari-hari?",
+                    "mode": "fix",
+                    "answer": "Peraturan dan anggaran daerah berkaitan dengan penyelenggaraan pelayanan serta pembangunan kota. Karena itu, pembahasan dan pengawasan oleh DPRD berhubungan dengan kepentingan warga."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung DPRD — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Gedung DPRD.",
                 "describeHere": "Gedung DPRD adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1191,12 +1328,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Balai Dinas Perumahan dan Pengawasan merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Balai Dinas Perumahan dan Pengawasan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area perkantoran ini menjadi pengantar untuk mengenal urusan perumahan dan lingkungan permukiman di Kota Semarang.",
+            "description": "Titik ini mengajak kamu mengenal bidang perumahan dan kawasan permukiman dalam pelayanan kota. Bidang tersebut mencakup kualitas hunian, lingkungan permukiman, serta prasarana yang mendukung kehidupan warga. Di Kota Semarang, urusan ini ditangani Dinas Perumahan dan Kawasan Permukiman.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Pengenalan urusan perumahan\\nLingkungan permukiman\\nKualitas hunian warga"
             ],
             "talkingPoints": [
                 "Balai Dinas Perumahan dan Pengawasan",
@@ -1204,14 +1340,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Balai Dinas Perumahan dan Pengawasan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang dimaksud dengan kawasan permukiman?",
+                    "mode": "fix",
+                    "answer": "Kawasan permukiman mencakup tempat tinggal beserta lingkungan dan prasarana pendukungnya. Pembahasannya meliputi rumah sekaligus kondisi lingkungan tempat warga menjalani aktivitas sehari-hari."
+                },
+                {
+                    "q": "Instansi apa yang menangani urusan perumahan di Semarang?",
+                    "mode": "fix",
+                    "answer": "Urusan perumahan dan kawasan permukiman ditangani Dinas Perumahan dan Kawasan Permukiman Kota Semarang, yang dikenal sebagai Disperkim."
+                },
+                {
+                    "q": "Mengapa lingkungan sekitar rumah ikut menjadi perhatian pemerintah?",
+                    "mode": "fix",
+                    "answer": "Kualitas tempat tinggal juga dipengaruhi lingkungan dan prasarana di sekitarnya. Penataan permukiman membantu mendukung hunian dan lingkungan yang lebih layak bagi warga."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Balai Dinas Perumahan dan Pengawasan — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Balai Dinas Perumahan dan Pengawasan.",
                 "describeHere": "Balai Dinas Perumahan dan Pengawasan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1225,12 +1373,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Balai Pengelolaan Keuangan merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Balai Pengelolaan Keuangan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area pengelolaan keuangan memperkenalkan administrasi anggaran dan aset Pemerintah Kota Semarang.",
+            "description": "Pengelolaan keuangan daerah mencakup administrasi anggaran, pencatatan, dan pelaporan keuangan pemerintah. Di Kota Semarang, BPKAD menangani bidang pengelolaan keuangan dan aset daerah. Panorama ini menjadi pengantar untuk memahami pekerjaan administrasi di balik pembiayaan kegiatan kota.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Keuangan dan aset daerah\\nAdministrasi anggaran\\nPelaporan keuangan"
             ],
             "talkingPoints": [
                 "Balai Pengelolaan Keuangan",
@@ -1238,14 +1385,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Balai Pengelolaan Keuangan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa kepanjangan BPKAD?",
+                    "mode": "fix",
+                    "answer": "BPKAD adalah Badan Pengelolaan Keuangan dan Aset Daerah. Instansi ini menangani bidang keuangan pemerintah daerah beserta pengelolaan asetnya."
+                },
+                {
+                    "q": "Apa bedanya pengelolaan keuangan dengan pendapatan daerah?",
+                    "mode": "fix",
+                    "answer": "Pendapatan daerah berfokus pada penerimaan daerah. Pengelolaan keuangan mencakup administrasi anggaran dan pertanggungjawaban keuangan secara lebih luas."
+                },
+                {
+                    "q": "Mengapa pemerintah perlu membuat laporan keuangan?",
+                    "mode": "fix",
+                    "answer": "Laporan keuangan membantu menjelaskan posisi keuangan dan penggunaan anggaran pemerintah. Pelaporan menjadi bagian dari pertanggungjawaban pengelolaan keuangan daerah."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Balai Pengelolaan Keuangan — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Balai Pengelolaan Keuangan.",
                 "describeHere": "Balai Pengelolaan Keuangan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1259,12 +1418,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Bapenda merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Bapenda adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area Bapenda mengajak pengunjung memahami kaitan penerimaan daerah, pajak, dan pembiayaan kebutuhan kota.",
+            "description": "Bapenda berkaitan dengan pengelolaan pendapatan daerah. Di titik ini, kamu dapat mengenal peran penerimaan daerah dalam pembiayaan pelayanan kota serta pentingnya memilih instansi yang sesuai saat berkonsultasi mengenai urusan pajak.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Penerimaan daerah\\nKonsultasi urusan pajak daerah\\nPembiayaan kebutuhan kota"
             ],
             "talkingPoints": [
                 "Bapenda",
@@ -1272,16 +1430,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Bapenda.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Mengapa kota membutuhkan pendapatan daerah?",
+                    "mode": "fix",
+                    "answer": "Pendapatan daerah membantu membiayai kegiatan pemerintah dan kebutuhan pelayanan masyarakat. Penerimaan tersebut masuk dalam pengelolaan anggaran daerah."
+                },
+                {
+                    "q": "Apakah semua urusan pajak ditangani Bapenda?",
+                    "mode": "fix",
+                    "answer": "Bapenda berkaitan dengan pajak daerah. Untuk menentukan tempat konsultasi yang tepat, kenali dahulu jenis pajaknya karena urusan perpajakan juga mencakup pajak yang dikelola pemerintah pusat."
+                },
+                {
+                    "q": "Apa yang bisa dipahami dari area Bapenda ini?",
+                    "mode": "fix",
+                    "answer": "Area ini mengenalkan sisi penerimaan dalam keuangan kota. Kamu dapat menghubungkannya dengan panorama pengelolaan keuangan untuk memahami bagaimana penerimaan dan administrasi anggaran saling berkaitan."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1465"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Bapenda — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Bapenda.",
                 "describeHere": "Bapenda adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1295,12 +1465,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Pintu Keluar Belakang merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Pintu Keluar Belakang adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu Keluar Belakang menjadi patokan akses keluar pada sisi belakang kompleks Balai Kota.",
+            "description": "Panorama ini memperkenalkan area pintu keluar belakang kompleks Balai Kota Semarang. Titik tersebut membantu membedakan bagian belakang kawasan dari area perkantoran lainnya. Saat kunjungan langsung, gunakan jalur sesuai penunjuk dan arahan petugas.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Akses sisi belakang\\nOrientasi batas kompleks\\nPengenalan jalur keluar"
             ],
             "talkingPoints": [
                 "Pintu Keluar Belakang",
@@ -1308,14 +1477,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Pintu Keluar Belakang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa yang membedakan titik ini dengan Pintu Keluar?",
+                    "mode": "fix",
+                    "answer": "Titik ini mengenalkan pintu keluar pada sisi belakang kompleks. Tur juga memiliki panorama bernama Pintu Keluar sebagai titik pengenalan akses lainnya."
+                },
+                {
+                    "q": "Bagaimana menentukan jalur keluar saat berkunjung langsung?",
+                    "mode": "fix",
+                    "answer": "Ikuti penunjuk arah di lokasi dan arahan petugas. Pilih akses yang diarahkan untuk perjalananmu, terutama jika membawa kendaraan."
+                },
+                {
+                    "q": "Bagaimana kembali menjelajahi kawasan dari panorama belakang?",
+                    "mode": "fix",
+                    "answer": "Pilih kembali panorama yang ingin kamu kunjungi, seperti Gedung Bapenda, Dinas Sosial, atau Kantor Walikota. Dalam tur virtual, kamu bisa melanjutkan eksplorasi tanpa harus mengakhiri kunjungan di titik ini."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Pintu Keluar Belakang — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Pintu Keluar Belakang.",
                 "describeHere": "Pintu Keluar Belakang adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1329,12 +1510,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Lokakrida merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lokakrida adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lokakrida merupakan ruang pertemuan di lantai delapan Gedung Moch. Ichsan untuk kegiatan kedinasan.",
+            "description": "Ruang Lokakrida berada di lantai delapan Gedung Moch. Ichsan. Ruang ini menjadi tempat pertemuan dan kegiatan pemerintah, termasuk rapat koordinasi serta pembahasan program. Panorama ini mengenalkan salah satu ruang yang mendukung pertemuan antarperangkat daerah.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Ruang pertemuan kedinasan\\nLantai delapan Gedung Moch. Ichsan\\nKoordinasi antarperangkat daerah"
             ],
             "talkingPoints": [
                 "Lokakrida",
@@ -1342,16 +1522,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lokakrida.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Lokakrida berada di bagian mana?",
+                    "mode": "fix",
+                    "answer": "Ruang Lokakrida berada di lantai delapan Gedung Moch. Ichsan, di kompleks Balai Kota Semarang."
+                },
+                {
+                    "q": "Kegiatan apa yang berlangsung di Lokakrida?",
+                    "mode": "fix",
+                    "answer": "Lokakrida digunakan untuk pertemuan dan kegiatan kedinasan, termasuk rapat koordinasi, diskusi, dan pembahasan program pemerintah."
+                },
+                {
+                    "q": "Mengapa perangkat daerah perlu berkumpul dalam satu rapat?",
+                    "mode": "fix",
+                    "answer": "Banyak program melibatkan beberapa perangkat daerah. Pertemuan bersama membantu menyamakan langkah, membagi peran, dan membahas perkembangan pekerjaan."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1467"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lokakrida — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Lokakrida.",
                 "describeHere": "Lokakrida adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1365,12 +1557,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Lt. 8 Gedung Moch. Ichsan merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Lt. 8 Gedung Moch. Ichsan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lantai delapan Gedung Moch. Ichsan memperkenalkan area yang berkaitan dengan ruang pertemuan Lokakrida.",
+            "description": "Panorama lantai delapan membantu kamu mengenali salah satu bagian Gedung Moch. Ichsan. Pada lantai ini terdapat Ruang Lokakrida yang digunakan untuk kegiatan dan pertemuan kedinasan. Kamu dapat melanjutkan pengenalan ruang tersebut melalui panorama Lokakrida.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Area lantai delapan\\nPengenalan lokasi Lokakrida\\nKegiatan pertemuan pemerintah"
             ],
             "talkingPoints": [
                 "Lt. 8 Gedung Moch. Ichsan",
@@ -1378,14 +1569,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Lt. 8 Gedung Moch. Ichsan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Ruang pertemuan apa yang ada di lantai delapan?",
+                    "mode": "fix",
+                    "answer": "Di lantai delapan Gedung Moch. Ichsan terdapat Ruang Lokakrida. Ruang ini digunakan untuk pertemuan dan kegiatan kedinasan."
+                },
+                {
+                    "q": "Apa bedanya panorama lantai delapan dengan Lokakrida?",
+                    "mode": "fix",
+                    "answer": "Panorama lantai delapan mengenalkan area lantainya, sedangkan panorama Lokakrida berfokus pada ruang pertemuan. Keduanya membantu kamu memahami gedung dari cakupan yang berbeda."
+                },
+                {
+                    "q": "Apa yang perlu diperhatikan jika datang untuk acara di lantai ini?",
+                    "mode": "fix",
+                    "answer": "Cocokkan nama ruang pada undangan dengan tujuan kedatanganmu. Setelah tiba, ikuti arahan petugas atau panitia agar menuju ruang yang sesuai."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Lt. 8 Gedung Moch. Ichsan — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Lt. 8 Gedung Moch. Ichsan.",
                 "describeHere": "Lt. 8 Gedung Moch. Ichsan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1399,12 +1602,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Taman Terbuka merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Taman Terbuka adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman Terbuka menghadirkan ruang luar di tengah lingkungan perkantoran Balai Kota Semarang.",
+            "description": "Taman Terbuka menjadi bagian ruang luar dalam kompleks Balai Kota. Area ini menghadirkan suasana berbeda dari titik-titik perkantoran dan ruang rapat. Melalui panorama taman, kamu dapat mengenali sisi lingkungan kawasan sebelum melanjutkan penjelajahan gedung.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Ruang luar kompleks\\nSuasana taman\\nSelingan eksplorasi perkantoran"
             ],
             "talkingPoints": [
                 "Taman Terbuka",
@@ -1412,14 +1614,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Taman Terbuka.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peran taman di lingkungan Balai Kota?",
+                    "mode": "fix",
+                    "answer": "Taman menjadi bagian ruang luar yang melengkapi lingkungan perkantoran. Kehadirannya memberi variasi suasana di antara gedung dan ruang kegiatan pemerintah."
+                },
+                {
+                    "q": "Apa yang bisa diperhatikan saat menjelajahi panorama taman?",
+                    "mode": "fix",
+                    "answer": "Perhatikan penataan ruang luar dan hubungannya dengan lingkungan gedung. Bandingkan suasananya dengan panorama kantor atau ruang rapat untuk mengenali karakter kawasan."
+                },
+                {
+                    "q": "Panorama apa yang cocok dilihat setelah taman?",
+                    "mode": "fix",
+                    "answer": "Kamu bisa memilih Masjid Balai Kota untuk mengenal fasilitas ibadah, atau Kantor Walikota untuk kembali ke tema pemerintahan. Pilih sesuai bagian kawasan yang ingin kamu kenali berikutnya."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Taman Terbuka — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Taman Terbuka.",
                 "describeHere": "Taman Terbuka adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1433,12 +1647,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator",
-            "shortDescription": "Masjid Balai Kota Semarang merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Masjid Balai Kota Semarang adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Masjid Balai Kota menjadi fasilitas ibadah di lingkungan kompleks pemerintahan Kota Semarang.",
+            "description": "Masjid Balai Kota Semarang melengkapi kawasan perkantoran dengan tempat ibadah. Panorama ini memperkenalkan fungsi keagamaan dalam lingkungan Balai Kota. Saat berada di area masjid, jaga kebersihan dan ketenangan serta hormati jamaah yang sedang beribadah.",
             "highlights": [
-                "Titik panorama",
-                "Terhubung jalur eksplorasi"
+                "Fasilitas ibadah\\nLingkungan Balai Kota\\nKetenangan dan kebersihan"
             ],
             "talkingPoints": [
                 "Masjid Balai Kota Semarang",
@@ -1446,14 +1659,26 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Masjid Balai Kota Semarang.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi masjid di kompleks Balai Kota?",
+                    "mode": "fix",
+                    "answer": "Masjid menyediakan tempat untuk menjalankan ibadah di lingkungan Balai Kota. Fasilitas ini melengkapi fungsi kawasan yang juga memiliki kantor dan ruang pertemuan."
+                },
+                {
+                    "q": "Apa yang perlu diperhatikan saat memasuki area masjid?",
+                    "mode": "fix",
+                    "answer": "Berpakaian sopan, jaga kebersihan, dan hindari suara yang mengganggu. Lepaskan alas kaki sebelum memasuki area yang mewajibkannya dan hormati jamaah yang sedang beribadah."
+                },
+                {
+                    "q": "Apa yang membedakan suasana masjid dengan area kantor?",
+                    "mode": "fix",
+                    "answer": "Masjid berfokus pada kegiatan ibadah sehingga ketenangan menjadi perhatian utama. Area kantor lebih berkaitan dengan pekerjaan administrasi dan kegiatan pemerintahan."
+                }
             ],
             "relatedKnowledgeIds": [],
             "contentGrounding": "identity-only",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Masjid Balai Kota Semarang — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Masjid Balai Kota Semarang.",
                 "describeHere": "Masjid Balai Kota Semarang adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1467,12 +1692,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Kantor Walikota merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Kantor Walikota adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kantor Walikota memperkenalkan pusat kegiatan kepala daerah dalam memimpin pemerintahan Kota Semarang.",
+            "description": "Kantor Walikota merupakan tempat kegiatan kedinasan kepala daerah. Wali kota memimpin penyelenggaraan pemerintahan kota bersama perangkat daerah. Panorama ini menjadi pengantar untuk memahami hubungan kepemimpinan kota, koordinasi dinas, dan pelayanan masyarakat.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Kegiatan kepala daerah\\nKoordinasi perangkat daerah\\nPenyelenggaraan pemerintahan kota"
             ],
             "talkingPoints": [
                 "Kantor Walikota",
@@ -1480,16 +1704,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Kantor Walikota.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa peran wali kota dalam pemerintahan?",
+                    "mode": "fix",
+                    "answer": "Wali kota memimpin penyelenggaraan pemerintahan kota bersama perangkat daerah. Pekerjaannya berkaitan dengan pelaksanaan kebijakan, pembangunan, dan pelayanan masyarakat."
+                },
+                {
+                    "q": "Mengapa wali kota perlu berkoordinasi dengan banyak dinas?",
+                    "mode": "fix",
+                    "answer": "Setiap dinas menangani bidang yang berbeda, seperti sosial, pendapatan, atau komunikasi dan informatika. Koordinasi membantu agar pekerjaan berbagai bidang tersebut mendukung tujuan kota yang sama."
+                },
+                {
+                    "q": "Apakah semua kebutuhan layanan harus dibawa ke kantor wali kota?",
+                    "mode": "fix",
+                    "answer": "Mulailah dari instansi yang menangani urusanmu, misalnya Dinas Sosial untuk konsultasi sosial atau Bapenda untuk pajak daerah. Memilih instansi yang sesuai membantu pertanyaanmu ditangani oleh bidang yang tepat."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1463"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Kantor Walikota — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Kantor Walikota.",
                 "describeHere": "Kantor Walikota adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1503,12 +1739,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Situation Room merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Situation Room adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Situation Room menjadi tempat rapat koordinasi dan pembahasan berbagai program Pemerintah Kota Semarang.",
+            "description": "Situation Room digunakan untuk pertemuan dan koordinasi pemerintah di Balai Kota Semarang. Kegiatan yang pernah berlangsung di sini mencakup pembahasan program kota cerdas serta koordinasi Program Go Virtual. Ruang ini memperkenalkan sisi kerja bersama dalam pelaksanaan program kota.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Rapat koordinasi pemerintah\\nPembahasan program kota\\nPertemuan Program Go Virtual"
             ],
             "talkingPoints": [
                 "Situation Room",
@@ -1516,16 +1751,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Situation Room.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Situation Room digunakan untuk kegiatan apa?",
+                    "mode": "fix",
+                    "answer": "Ruang ini digunakan untuk rapat dan koordinasi berbagai agenda pemerintah. Pertemuan membantu para peserta membahas persoalan dan menyelaraskan tindak lanjut program."
+                },
+                {
+                    "q": "Apa hubungan Situation Room dengan Program Go Virtual?",
+                    "mode": "fix",
+                    "answer": "Situation Room pernah menjadi tempat rapat koordinasi dan penjelasan teknis Program Go Virtual. Program tersebut mengangkat penggunaan virtual tour dan AI untuk mendukung promosi daerah."
+                },
+                {
+                    "q": "Apakah ruangan ini hanya berkaitan dengan teknologi?",
+                    "mode": "fix",
+                    "answer": "Pembahasannya mencakup beragam agenda pemerintah. Selain program digital, Situation Room juga digunakan untuk rapat koordinasi mengenai persoalan kota, seperti pengendalian inflasi."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1466"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Situation Room — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Situation Room.",
                 "describeHere": "Situation Room adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1539,12 +1786,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Gedung Moch. Ichsan merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Gedung Moch. Ichsan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung Moch. Ichsan merupakan bagian perkantoran Balai Kota yang juga memiliki ruang pertemuan Lokakrida.",
+            "description": "Gedung Moch. Ichsan menjadi bagian lingkungan kerja Pemerintah Kota Semarang. Salah satu ruang pertemuannya adalah Lokakrida di lantai delapan. Tur ini menyediakan beberapa panorama untuk mengenalkan area gedung dan bagian lantainya secara bertahap.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Gedung perkantoran pemerintah\\nLokakrida di lantai delapan\\nBeberapa sudut penjelajahan"
             ],
             "talkingPoints": [
                 "Gedung Moch. Ichsan",
@@ -1552,16 +1798,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Gedung Moch. Ichsan.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa fungsi Gedung Moch. Ichsan dalam kompleks Balai Kota?",
+                    "mode": "fix",
+                    "answer": "Gedung ini menjadi bagian lingkungan perkantoran pemerintah kota. Selain area kerja, terdapat Ruang Lokakrida di lantai delapan untuk pertemuan dan kegiatan kedinasan."
+                },
+                {
+                    "q": "Mengapa gedung ini muncul dalam beberapa panorama?",
+                    "mode": "fix",
+                    "answer": "Beberapa panorama membantu mengenalkan gedung pada cakupan yang berbeda, mulai dari area gedung hingga lantai delapan dan Lokakrida. Kamu bisa melihat hubungan antarbagian tanpa hanya mengandalkan satu titik pandang."
+                },
+                {
+                    "q": "Ke mana melanjutkan tur untuk mengenal ruang pertemuannya?",
+                    "mode": "fix",
+                    "answer": "Pilih panorama Lt. 8 Gedung Moch. Ichsan, lalu panorama Lokakrida. Urutan ini membantu mengenali lantai tempat ruang pertemuan berada sebelum menjelajahi ruangnya."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2251"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Gedung Moch. Ichsan — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Gedung Moch. Ichsan.",
                 "describeHere": "Gedung Moch. Ichsan adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1575,12 +1833,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Drone merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Drone adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama udara memperkenalkan kompleks Balai Kota Semarang dari sudut pandang yang lebih luas.",
+            "description": "Panorama Drone menghadirkan sudut pandang udara untuk mengenali kawasan Balai Kota. Gunakan titik ini sebagai pengantar sebelum memilih panorama gedung atau fasilitas tertentu. Sudut pandang luas membantu membandingkan susunan kawasan dengan pengalaman penjelajahan dari permukaan tanah.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Sudut pandang udara\\nPengenalan keseluruhan kawasan\\nOrientasi sebelum eksplorasi"
             ],
             "talkingPoints": [
                 "Drone",
@@ -1588,16 +1845,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Drone.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa kelebihan melihat Balai Kota dari udara?",
+                    "mode": "fix",
+                    "answer": "Sudut pandang udara membantu mengenali susunan kawasan secara lebih luas. Setelah itu, panorama di permukaan tanah dapat digunakan untuk melihat area tertentu dengan lebih dekat."
+                },
+                {
+                    "q": "Bagaimana memulai tur dari panorama udara ini?",
+                    "mode": "fix",
+                    "answer": "Mulailah dengan mengenali gambaran kawasan, lalu pilih tempat yang paling menarik bagimu. Kantor Walikota, Gedung DPRD, Taman Terbuka, dan Masjid Balai Kota menawarkan tema penjelajahan yang berbeda."
+                },
+                {
+                    "q": "Apa perbedaan panorama udara dan panorama gedung?",
+                    "mode": "fix",
+                    "answer": "Panorama udara memberi gambaran kawasan, sedangkan panorama gedung berfokus pada satu area. Keduanya saling melengkapi untuk mengenali lokasi dari skala kompleks hingga titik kunjungan."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:1462"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Drone — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Drone.",
                 "describeHere": "Drone adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
@@ -1611,12 +1880,11 @@ window.GoVirtualTourData = {
             "variant": null,
             "type": "area",
             "confidence": "NEEDS_REVIEW",
-            "evidence": "Seed template from AI Generator + auto obj mapping",
-            "shortDescription": "Dinas Kominfo merupakan bagian dari kawasan Balaikota Semarang di Semarang, Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
-            "description": "Dinas Kominfo adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Dinas Kominfo memperkenalkan peran komunikasi, informatika, statistik, dan persandian dalam pelayanan kota.",
+            "description": "Dinas Komunikasi, Informatika, Statistik dan Persandian Kota Semarang mendukung kegiatan komunikasi serta layanan digital pemerintah. Bidang kerjanya mencakup dukungan aplikasi, layanan teknologi, statistik, dan keamanan informasi. Panorama ini mengenalkan pekerjaan di balik pengembangan layanan pemerintahan berbasis digital.",
             "highlights": [
-                "Titik dengan objek info",
-                "Terhubung jalur eksplorasi"
+                "Komunikasi dan informatika\\nDukungan layanan digital\\nStatistik dan keamanan informasi"
             ],
             "talkingPoints": [
                 "Dinas Kominfo",
@@ -1624,16 +1892,28 @@ window.GoVirtualTourData = {
                 "Balaikota Semarang"
             ],
             "suggestedQuestions": [
-                "Apa yang menarik di sini?",
-                "Ceritakan area Dinas Kominfo.",
-                "Di mana saya sekarang?"
+                {
+                    "q": "Apa saja bidang kerja Dinas Kominfo Semarang?",
+                    "mode": "fix",
+                    "answer": "Dinas ini menangani komunikasi, informatika, statistik, dan persandian. Lingkupnya mencakup dukungan teknologi serta pengelolaan informasi dalam penyelenggaraan pemerintahan kota."
+                },
+                {
+                    "q": "Apa contoh dukungan Kominfo untuk layanan digital?",
+                    "mode": "fix",
+                    "answer": "Contohnya adalah dukungan pembuatan dan pengembangan aplikasi, email dinas, layanan hosting, serta tanda tangan elektronik. Dukungan tersebut membantu pekerjaan pemerintah berlangsung secara digital."
+                },
+                {
+                    "q": "Mengapa keamanan informasi penting bagi layanan pemerintah?",
+                    "mode": "fix",
+                    "answer": "Layanan digital menggunakan akun, dokumen, dan sistem yang perlu dilindungi. Keamanan informasi membantu mencegah penyalahgunaan akses dan menjaga kelancaran layanan."
+                }
             ],
             "relatedKnowledgeIds": [
                 "webview:objinfo2:2250"
             ],
             "contentGrounding": "direct",
             "aiHints": {
-                "currentLocation": "Anda sekarang berada di Dinas Kominfo — kawasan Balaikota Semarang.",
+                "currentLocation": "Anda sekarang berada di Dinas Kominfo.",
                 "describeHere": "Dinas Kominfo adalah area di dalam kawasan Balaikota Semarang, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
                 "interestingHere": "Gunakan highlights terverifikasi.",
                 "navigation": "Gunakan graph/hotspot hanya untuk navigasi."

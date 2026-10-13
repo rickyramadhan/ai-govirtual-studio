@@ -1,0 +1,474 @@
+{
+    "version": 2,
+    "tourId": "kawasanolahragajatidiri",
+    "updatedAt": "2026-09-29T09:51:04+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kawasanolahragajatidiri",
+            "aliases": [
+                "kawasanolahragajatidiri"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kawasanolahragajatidiri"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kawasanolahragajatidiri.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kawasanolahragajatidiri",
+                    "content": "Pusat pengalaman virtual untuk Kawasanolahragajatidiri."
+                },
+                "en": {
+                    "title": "Kawasanolahragajatidiri",
+                    "content": "Pusat pengalaman virtual untuk Kawasanolahragajatidiri."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default1",
+            "aliases": [
+                "default1"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kawasanolahragajatidiri"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default1",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default1",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "default2",
+            "aliases": [
+                "default2"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kawasanolahragajatidiri"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default2",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "default2",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kawasanolahragajatidiri"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:474",
+            "entityId": "objinfo2:474",
+            "title": "Cycling",
+            "aliases": [
+                "cycling",
+                "objek 474"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "GOR Jatidiri memiliki lintasan khusus untuk olahraga in-line skate atau sepatu roda yang juga dapat dimanfaatkan untuk latihan cycling atau sepeda balap trek. Lintasan ini dirancang dengan standar yang memadai untuk mendukung latihan atlet dan kegiatan rekreasi masyarakat.",
+            "source": "webview-import",
+            "sourceId": "474",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Cycling",
+                    "content": "GOR Jatidiri memiliki lintasan khusus untuk olahraga in-line skate atau sepatu roda yang juga dapat dimanfaatkan untuk latihan cycling atau sepeda balap trek. Lintasan ini dirancang dengan standar yang memadai untuk mendukung latihan atlet dan kegiatan rekreasi masyarakat."
+                },
+                "en": {
+                    "title": "Cycling Track",
+                    "content": "GOR Jatidiri has a dedicated track for in-line skating or rollerblading, which can also be used for cycling or track racing. This track is designed to meet adequate standards to support athlete training and public recreational activities."
+                },
+                "zh": {
+                    "title": "自行車運動",
+                    "content": "GOR Jatidiri擁有專用的直排輪滑道，也可用於自行車或賽道自行車訓練。該跑道設計符合標準，以支持運動員訓練及公眾休閒活動。"
+                },
+                "ar": {
+                    "title": "ركوب الدراجات",
+                    "content": "يحتوي GOR Jatidiri على مسار مخصص للتزلج على الأسطوانة أو التزلج على العجلات، والذي يمكن استخدامه أيضًا لتدريب ركوب الدراجات أو سباق الدراجات على المضمار. تم تصميم هذا المسار وفقًا للمعايير الكافية لدعم تدريب الرياضيين والأنشطة الترفيهية العامة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:475",
+            "entityId": "objinfo2:475",
+            "title": "Kolam Renang",
+            "aliases": [
+                "kolam renang",
+                "objek 475"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kompleks ini memiliki kolam renang yang telah direnovasi sesuai standar internasional dan pernah menjadi venue resmi untuk cabang olahraga renang ASEAN Para Games 2022. Kolam renang ini dibuka untuk umum dengan harga terjangkau, melayani kebutuhan latihan atlet maupun rekreasi masyarakat.",
+            "source": "webview-import",
+            "sourceId": "475",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kolam Renang",
+                    "content": "Kompleks ini memiliki kolam renang yang telah direnovasi sesuai standar internasional dan pernah menjadi venue resmi untuk cabang olahraga renang ASEAN Para Games 2022. Kolam renang ini dibuka untuk umum dengan harga terjangkau, melayani kebutuhan latihan atlet maupun rekreasi masyarakat."
+                },
+                "en": {
+                    "title": "Swimming Pool",
+                    "content": "This complex has a swimming pool renovated to international standards and was once the official venue for the swimming events of the 2022 ASEAN Para Games. The pool is open to the public at an affordable price, serving both athlete training and community recreation needs."
+                },
+                "zh": {
+                    "title": "游泳池",
+                    "content": "該綜合設施擁有一個依照國際標準翻新的游泳池，曾是2022年東盟殘障運動會游泳比賽的官方場地。游泳池對公眾開放，價格實惠，滿足運動員訓練及社區休閒需求。"
+                },
+                "ar": {
+                    "title": "مسبح",
+                    "content": "يحتوي هذا المجمع على مسبح تم تجديده وفقًا للمعايير الدولية، وقد كان الموقع الرسمي لفعاليات السباحة في دورة ألعاب ASEAN Para لعام 2022. المسبح مفتوح للجمهور بسعر معقول، ويخدم احتياجات تدريب الرياضيين والترفيه المجتمعي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:476",
+            "entityId": "objinfo2:476",
+            "title": "Volleyball Stadium",
+            "aliases": [
+                "volleyball stadium",
+                "objek 476"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Arena indoor modern yang dirancang khusus untuk pertandingan bola voli, bukan stadion utama sepak bola. Arena ini dikenal memiliki kapasitas penonton sekitar 6.000 kursi dan secara rutin dijadikan venue bergengsi, termasuk ajang voli profesional nasional seperti Proliga, bahkan sering menjadi lokasi pembukaan atau babak Final Four kompetisi tersebut.",
+            "source": "webview-import",
+            "sourceId": "476",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Volleyball Stadium",
+                    "content": "Arena indoor modern yang dirancang khusus untuk pertandingan bola voli, bukan stadion utama sepak bola. Arena ini dikenal memiliki kapasitas penonton sekitar 6.000 kursi dan secara rutin dijadikan venue bergengsi, termasuk ajang voli profesional nasional seperti Proliga, bahkan sering menjadi lokasi pembukaan atau babak Final Four kompetisi tersebut."
+                },
+                "en": {
+                    "title": "Volleyball Stadium",
+                    "content": "A modern indoor arena specifically designed for volleyball matches, not a main football stadium. This arena has a spectator capacity of around 6,000 seats and is regularly used as a prestigious venue, including for national professional volleyball events like Proliga, and often hosts opening ceremonies or the Final Four rounds."
+                },
+                "zh": {
+                    "title": "排球體育館",
+                    "content": "這是一個專門為排球比賽設計的現代室內場館，而非主足球場。該場館觀眾容量約為6,000個座位，經常作為重要賽事場地，包括國家職業排球比賽如Proliga，並經常舉辦開幕式或四強賽。"
+                },
+                "ar": {
+                    "title": "استاد كرة الطائرة",
+                    "content": "هي ساحة داخلية حديثة مصممة خصيصًا لمباريات كرة الطائرة، وليست استاد كرة القدم الرئيسي. تتسع هذه الساحة لحوالي 6,000 متفرج وتُستخدم بانتظام كمكان مرموق، بما في ذلك فعاليات الكرة الطائرة الوطنية الاحترافية مثل Proliga، وغالبًا ما تستضيف مراسم الافتتاح أو جولات نصف النهائي الأربع."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:477",
+            "entityId": "objinfo2:477",
+            "title": "Panjat Tebing",
+            "aliases": [
+                "panjat tebing",
+                "objek 477"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Terdapat arena atau fasilitas panjat dinding yang disediakan di kompleks GOR Jatidiri untuk menunjang latihan dan kompetisi atlet panjat tebing. Area ini melengkapi sarana olahraga ekstrem di GOR Jatidiri dan dapat digunakan oleh masyarakat umum melalui sistem sewa.",
+            "source": "webview-import",
+            "sourceId": "477",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Panjat Tebing",
+                    "content": "Terdapat arena atau fasilitas panjat dinding yang disediakan di kompleks GOR Jatidiri untuk menunjang latihan dan kompetisi atlet panjat tebing. Area ini melengkapi sarana olahraga ekstrem di GOR Jatidiri dan dapat digunakan oleh masyarakat umum melalui sistem sewa."
+                },
+                "en": {
+                    "title": "Wall Climbing",
+                    "content": "There is a wall climbing facility at the GOR Jatidiri complex to support training and competitions for climbing athletes. This area complements the extreme sports facilities at GOR Jatidiri and is available for public use through a rental system."
+                },
+                "zh": {
+                    "title": "攀岩牆",
+                    "content": "GOR Jatidiri綜合體設有攀岩牆設施，以支持攀岩運動員的訓練和比賽。此區域補充了GOR Jatidiri的極限運動設施，並可通過租賃系統供公眾使用。"
+                },
+                "ar": {
+                    "title": "جدار التسلق",
+                    "content": "يوجد منشأة جدار تسلق في مجمع GOR Jatidiri لدعم تدريب ومسابقات متسلقي الصخور. تكمل هذه المنطقة مرافق الرياضات القصوى في GOR Jatidiri ويمكن استخدامها من قبل الجمهور من خلال نظام الإيجار."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:478",
+            "entityId": "objinfo2:478",
+            "title": "Lapangan Tennis",
+            "aliases": [
+                "lapangan tennis",
+                "objek 478"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "GOR Jatidiri dilengkapi dengan beberapa blok lapangan tenis outdoor yang telah direnovasi dan memenuhi standar, sering digunakan untuk turnamen atau latihan. Lapangan ini dapat disewa oleh masyarakat yang ingin berolahraga tenis.",
+            "source": "webview-import",
+            "sourceId": "478",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lapangan Tennis",
+                    "content": "GOR Jatidiri dilengkapi dengan beberapa blok lapangan tenis outdoor yang telah direnovasi dan memenuhi standar, sering digunakan untuk turnamen atau latihan. Lapangan ini dapat disewa oleh masyarakat yang ingin berolahraga tenis."
+                },
+                "en": {
+                    "title": "Tennis Court",
+                    "content": "GOR Jatidiri is equipped with several outdoor tennis courts that have been renovated to meet standards, frequently used for tournaments or training. These courts are available for public rental for those who wish to play tennis."
+                },
+                "zh": {
+                    "title": "網球場",
+                    "content": "GOR Jatidiri設有數個戶外網球場，經過翻新以符合標準，經常用於比賽或訓練。這些球場可供公眾租用，適合想打網球的人士。"
+                },
+                "ar": {
+                    "title": "ملعب التنس",
+                    "content": "يحتوي GOR Jatidiri على عدة ملاعب تنس خارجية تم تجديدها لتلبية المعايير، وتُستخدم كثيرًا للبطولات أو التدريب. هذه الملاعب متاحة للإيجار للجمهور للراغبين في ممارسة التنس."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:479",
+            "entityId": "objinfo2:479",
+            "title": "Stadion",
+            "aliases": [
+                "stadion",
+                "objek 479"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Stadion Jatidiri adalah landmark utama kompleks GOR yang berkapasitas besar dengan single seat modern, dan menjadi markas klub PSIS Semarang. Stadion ini dilengkapi dengan rumput dan pencahayaan berstandar internasional, serta lintasan atletik di sekelilingnya.",
+            "source": "webview-import",
+            "sourceId": "479",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Stadion",
+                    "content": "Stadion Jatidiri adalah landmark utama kompleks GOR yang berkapasitas besar dengan single seat modern, dan menjadi markas klub PSIS Semarang. Stadion ini dilengkapi dengan rumput dan pencahayaan berstandar internasional, serta lintasan atletik di sekelilingnya."
+                },
+                "en": {
+                    "title": "Stadium",
+                    "content": "Jatidiri Stadium is the main landmark of the GOR complex, featuring a large capacity with modern single seating, and serves as the home base for the PSIS Semarang football club. The stadium is equipped with international-standard turf and lighting, as well as an athletics track surrounding it."
+                },
+                "zh": {
+                    "title": "體育場",
+                    "content": "Jatidiri體育場是GOR綜合體的主要地標，擁有大容量現代單座位，並作為PSIS Semarang足球俱樂部的主場。該體育場配備國際標準的草皮和照明，以及環繞的田徑跑道。"
+                },
+                "ar": {
+                    "title": "الاستاد",
+                    "content": "يعد استاد Jatidiri المعلم الرئيسي لمجمع GOR، بسعة كبيرة ومقاعد فردية حديثة، ويعتبر مقر نادي PSIS Semarang لكرة القدم. يحتوي الاستاد على عشب وإضاءة بمعايير دولية، بالإضافة إلى مضمار ألعاب القوى المحيط به."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:480",
+            "entityId": "objinfo2:480",
+            "title": "Boxing",
+            "aliases": [
+                "boxing",
+                "objek 480"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas untuk tinju (boxing) biasanya diwadahi di Gedung Olahraga (GOR) Indoor utama yang serbaguna di dalam kompleks Jatidiri. Gedung Indoor ini menyediakan ruang yang cukup untuk latihan dan sparring, serta bisa digunakan untuk menyelenggarakan pertandingan tinju.",
+            "source": "webview-import",
+            "sourceId": "480",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Boxing",
+                    "content": "Fasilitas untuk tinju (boxing) biasanya diwadahi di Gedung Olahraga (GOR) Indoor utama yang serbaguna di dalam kompleks Jatidiri. Gedung Indoor ini menyediakan ruang yang cukup untuk latihan dan sparring, serta bisa digunakan untuk menyelenggarakan pertandingan tinju."
+                },
+                "en": {
+                    "title": "Boxing",
+                    "content": "Boxing facilities are usually housed in the main indoor sports hall (GOR) within the Jatidiri complex. This indoor hall provides ample space for training and sparring, and can also be used to host boxing matches."
+                },
+                "zh": {
+                    "title": "拳擊",
+                    "content": "拳擊設施通常設於Jatidiri綜合體的主要室內體育館（GOR）。該室內館提供充足空間用於訓練和對練，也可用於舉辦拳擊比賽。"
+                },
+                "ar": {
+                    "title": "الملاكمة",
+                    "content": "عادةً ما تتواجد مرافق الملاكمة في القاعة الرياضية الداخلية الرئيسية (GOR) ضمن مجمع Jatidiri. توفر هذه القاعة الداخلية مساحة واسعة للتدريب والمبارزات، ويمكن استخدامها أيضًا لاستضافة مباريات الملاكمة."
+                }
+            }
+        }
+    ]
+}

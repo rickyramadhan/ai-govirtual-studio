@@ -1,0 +1,159 @@
+{
+    "version": "1.0",
+    "tourId": "upgris",
+    "tourName": "Upgris",
+    "updatedAt": "2026-09-29T09:52:55+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node4",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15",
+        "node16",
+        "node17",
+        "node18",
+        "node19",
+        "node20",
+        "node21",
+        "node22",
+        "node23",
+        "node24",
+        "node25",
+        "node26",
+        "node27",
+        "node28",
+        "node29",
+        "node30",
+        "node31",
+        "node32",
+        "node33",
+        "node34",
+        "node35",
+        "node36",
+        "node37",
+        "node38",
+        "node39",
+        "node40",
+        "node41"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Universitas PGRI Semarang – UPGRIS – Panorama Udara Gedung Utama"
+        },
+        "node4": {
+            "displayName": "Universitas PGRI Semarang – Kampus 4 – Panorama Udara"
+        },
+        "node7": {
+            "displayName": "Universitas PGRI Semarang – Koridor Asrama Putra"
+        },
+        "node8": {
+            "displayName": "Universitas PGRI Semarang – Koridor Asrama Putri"
+        },
+        "node9": {
+            "displayName": "Universitas PGRI Semarang – Tangga Balairung"
+        },
+        "node10": {
+            "displayName": "Universitas PGRI Semarang – Ballroom – Panggung"
+        },
+        "node11": {
+            "displayName": "Universitas PGRI Semarang – Foyer Ballroom"
+        },
+        "node12": {
+            "displayName": "Universitas PGRI Semarang – Ruang Kebugaran"
+        },
+        "node13": {
+            "displayName": "Universitas PGRI Semarang – Fasad Gedung Olahraga"
+        },
+        "node14": {
+            "displayName": "Universitas PGRI Semarang – Kamar Asrama"
+        },
+        "node15": {
+            "displayName": "Universitas PGRI Semarang – Studio Penyiaran Bahasa Indonesia"
+        },
+        "node16": {
+            "displayName": "Universitas PGRI Semarang – Akses Ruang Penyiaran"
+        },
+        "node17": {
+            "displayName": "Universitas PGRI Semarang – Studio Gamelan"
+        },
+        "node18": {
+            "displayName": "Universitas PGRI Semarang – Akses Laboratorium Bahasa Jawa"
+        },
+        "node19": {
+            "displayName": "Universitas PGRI Semarang – Laboratorium Komputer"
+        },
+        "node20": {
+            "displayName": "Universitas PGRI Semarang – Pintu Laboratorium Komputer"
+        },
+        "node21": {
+            "displayName": "Universitas PGRI Semarang – Studio Podcast"
+        },
+        "node22": {
+            "displayName": "Universitas PGRI Semarang – Lapangan Basket Indoor"
+        },
+        "node23": {
+            "displayName": "Universitas PGRI Semarang – Lapangan Bulu Tangkis"
+        },
+        "node24": {
+            "displayName": "Universitas PGRI Semarang – Lapangan Tenis"
+        },
+        "node25": {
+            "displayName": "Universitas PGRI Semarang – Lobi Balairung"
+        },
+        "node26": {
+            "displayName": "Universitas PGRI Semarang – Lobi Kampus 4"
+        },
+        "node27": {
+            "displayName": "Universitas PGRI Semarang – Masjid – Ruang Salat Hijau"
+        },
+        "node28": {
+            "displayName": "Universitas PGRI Semarang – Fasad Masjid Nurul Huda"
+        },
+        "node29": {
+            "displayName": "Universitas PGRI Semarang – Masjid – Relung Mihrab"
+        },
+        "node30": {
+            "displayName": "Universitas PGRI Semarang – Masjid Kampus – Ruang Dalam"
+        },
+        "node31": {
+            "displayName": "Universitas PGRI Semarang – Parkir Mobil Dalam Gedung"
+        },
+        "node32": {
+            "displayName": "Universitas PGRI Semarang – Konter Perpustakaan"
+        },
+        "node33": {
+            "displayName": "Universitas PGRI Semarang – Akses Ruang Perpustakaan"
+        },
+        "node34": {
+            "displayName": "Universitas PGRI Semarang – Koridor Sisi Parkir"
+        },
+        "node35": {
+            "displayName": "Universitas PGRI Semarang – Landmark Pintu Masuk UPGRIS"
+        },
+        "node36": {
+            "displayName": "Universitas PGRI Semarang – Studio Up Radio"
+        },
+        "node37": {
+            "displayName": "Universitas PGRI Semarang – Taman Baca"
+        },
+        "node38": {
+            "displayName": "Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Peralatan"
+        },
+        "node39": {
+            "displayName": "Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Meja Uji"
+        },
+        "node40": {
+            "displayName": "Universitas PGRI Semarang – Akses Laboratorium Teknologi Pangan"
+        },
+        "node41": {
+            "displayName": "Universitas PGRI Semarang – Ruang VIP Balairung"
+        }
+    }
+}

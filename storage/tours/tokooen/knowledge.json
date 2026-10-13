@@ -1,0 +1,198 @@
+{
+    "version": 2,
+    "tourId": "tokooen",
+    "updatedAt": "2026-09-29T09:52:46+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Tokooen",
+            "aliases": [
+                "tokooen"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "tokooen"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Tokooen.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Tokooen",
+                    "content": "Pusat pengalaman virtual untuk Tokooen."
+                },
+                "en": {
+                    "title": "Tokooen",
+                    "content": "Pusat pengalaman virtual untuk Tokooen."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Kuekering",
+            "aliases": [
+                "kuekering"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "tokooen"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kuekering",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Kuekering",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Areamakan",
+            "aliases": [
+                "areamakan"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "tokooen"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Areamakan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Areamakan",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "tokooen"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1060",
+            "entityId": "objinfo2:1060",
+            "title": "Area Makan",
+            "aliases": [
+                "area makan",
+                "objek 1060"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area makan di Oud en Nieuw by Toko Oen Semarang menyuguhkan nuansa kolonial klasik yang elegan melalui perpaduan furnitur antik dan dekorasi bergaya retro Eropa. Ruangannya luas serta memberikan kenyamanan modern, namun tetap mempertahankan atmosfer autentik bangunan bersejarah.",
+            "source": "webview-import",
+            "sourceId": "1060",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Area Makan",
+                    "content": "Area makan di Oud en Nieuw by Toko Oen Semarang menyuguhkan nuansa kolonial klasik yang elegan melalui perpaduan furnitur antik dan dekorasi bergaya retro Eropa. Ruangannya luas serta memberikan kenyamanan modern, namun tetap mempertahankan atmosfer autentik bangunan bersejarah."
+                },
+                "en": {
+                    "title": "Dining Area",
+                    "content": "The dining area at Oud en Nieuw by Toko Oen Semarang offers an elegant classic colonial atmosphere through a blend of antique furniture and European retro-style décor. The space is spacious and provides modern comfort while still maintaining the authentic ambiance of a historic building."
+                },
+                "zh": {
+                    "title": "用餐区",
+                    "content": "Oud en Nieuw by Toko Oen Semarang 的用餐区通过古董家具与欧洲复古风格装饰的融合，呈现出优雅的经典殖民氛围。空间宽敞且提供现代舒适感，同时保留了历史建筑的真实氛围。"
+                },
+                "ar": {
+                    "title": "منطقة تناول الطعام",
+                    "content": "تقدم منطقة الطعام في Oud en Nieuw by Toko Oen Semarang أجواءً كلاسيكية استعمارية أنيقة من خلال مزيج من الأثاث العتيق والديكور الأوروبي العتيق. المساحة واسعة وتوفر راحة عصرية مع الحفاظ على الجو الأصيل للمبنى التاريخي."
+                }
+            }
+        }
+    ]
+}

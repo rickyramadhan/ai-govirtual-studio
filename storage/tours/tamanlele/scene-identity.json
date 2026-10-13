@@ -1,0 +1,1147 @@
+{
+    "version": "1.1-seed",
+    "tourId": "tamanlele",
+    "generatedAt": "2026-10-06",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node38": {
+            "rawName": "Kolamlele",
+            "displayName": "Kolam lele",
+            "placeId": "kolam-lele",
+            "placeName": "Kolam lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan kolam budidaya dan habitat ikan lele ikonik di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Kolam lele ini menjadi pusat daya tarik edukasi dan rekreasi yang menampilkan populasi ikan lele dalam ekosistem asri. Pengunjung dapat menikmati pemandangan perairan tenang sambil bersantai bersama keluarga di area sekitar kolam.",
+            "highlights": [
+                "Eksplorasi visual Kolamlele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Kolamlele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa jenis ikan lele yang dipelihara di kolam ini?",
+                    "mode": "fix",
+                    "answer": "Kolam ini berisi berbagai jenis ikan lele konsumsi maupun lele hias berukuran besar yang menjadi ikon wisata."
+                },
+                {
+                    "q": "Apakah pengunjung boleh memberi makan ikan di kolam lele?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia pakan khusus yang dijual di sekitar area bagi pengunjung yang ingin memberi makan ikan lele secara langsung."
+                },
+                {
+                    "q": "Bagaimana kebersihan air di kolam lele ini?",
+                    "mode": "fix",
+                    "answer": "Pengelolaan air dilakukan secara berkala untuk menjaga kesehatan ikan serta kenyamanan pandangan pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:904"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolam lele.",
+                "describeHere": "Kolamlele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node27": {
+            "rawName": "Gerbang Masuk",
+            "displayName": "Gerbang Masuk",
+            "placeId": "gerbang-masuk",
+            "placeName": "Gerbang Masuk",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang utama penyambutan pengunjung di pintu masuk Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Gerbang masuk ini menyambut setiap wisatawan yang datang dengan nuansa asri khas kawasan rekreasi keluarga. Di sinilah titik awal loket tiket dan pusat informasi bagi pengunjung sebelum menjelajahi area wisata.",
+            "highlights": [
+                "Eksplorasi visual Gerbang Masuk",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Gerbang Masuk",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa harga tiket masuk ke Kampoeng Wisata Taman Lele?",
+                    "mode": "fix",
+                    "answer": "Tiket masuk sangat terjangkau, biasanya berkisar antara Rp5.000 hingga Rp10.000 per orang tergantung hari kunjungan."
+                },
+                {
+                    "q": "Jam operasional berapa gerbang masuk dibuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Kawasan wisata umumnya beroperasi mulai pukul 08.00 hingga 16.00 WIB setiap harinya."
+                },
+                {
+                    "q": "Apakah tersedia area parkir yang luas di dekat gerbang masuk?",
+                    "mode": "fix",
+                    "answer": "Ya, area parkir yang luas tersedia untuk menampung kendaraan roda dua, roda empat, hingga bus pariwisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gerbang Masuk.",
+                "describeHere": "Gerbang Masuk adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node28": {
+            "rawName": "Wisma Taman Lele",
+            "displayName": "Wisma Taman Lele",
+            "placeId": "wisma-taman-lele",
+            "placeName": "Wisma Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas penginapan dan wisma istirahat di dalam kawasan Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Wisma Taman Lele menyediakan akomodasi nyaman bagi wisatawan yang ingin menginap dan menikmati suasana alam pedesaan. Bangunan ini dikelilingi oleh pepohonan rindang yang memberikan ketenangan dan kesejukan.",
+            "highlights": [
+                "Eksplorasi visual Wisma Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Wisma Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara melakukan reservasi kamar di wisma ini?",
+                    "mode": "fix",
+                    "answer": "Reservasi dapat dilakukan melalui pengelola wisata di tempat atau lewat kontak resmi pengelola pariwisata Kota Semarang."
+                },
+                {
+                    "q": "Fasilitas apa saja yang didapatkan jika menginap di wisma?",
+                    "mode": "fix",
+                    "answer": "Pengunjung mendapatkan kamar tidur yang nyaman, akses dekat ke area rekreasi, serta suasana pagi yang sangat sejuk."
+                },
+                {
+                    "q": "Apakah wisma ini cocok untuk rombongan keluarga atau instansi?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena kapasitas kamar memadai serta tersedia aula atau pendopo pendukung kegiatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wisma Taman Lele.",
+                "describeHere": "Wisma Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node29": {
+            "rawName": "Playground",
+            "displayName": "Jogging track Hutan Taman Lele",
+            "placeId": "jogging-track-hutan-taman-lele",
+            "placeName": "Jogging track Hutan Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur jogging track asri yang melintasi kawasan rimbunnya Hutan Taman Lele Kota Semarang.",
+            "description": "Jalur jogging track ini dirancang melintasi area hutan wisata yang rindang untuk mendukung aktivitas olahraga ringan maupun jalan sehat pengunjung. Suasana udara yang bersih dan sejuk di bawah naungan pohon besar memberikan kenyamanan tersendiri bagi para pecinta kebugaran alam terbuka.",
+            "highlights": [
+                "Eksplorasi visual Playground",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Playground",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa panjang lintasan jogging track di area hutan ini?",
+                    "mode": "fix",
+                    "answer": "Lintasan dirancang mengelilingi kawasan hutan dengan jarak tempuh yang nyaman untuk berjalan santai maupun lari ringan."
+                },
+                {
+                    "q": "Apakah jalur jogging track aman dan nyaman untuk pejalan kaki?",
+                    "mode": "fix",
+                    "answer": "Sangat aman dan nyaman karena jalurnya tertata rapi di antara pepohonan rindang tanpa kendaraan bermotor."
+                },
+                {
+                    "q": "Kapan waktu terbaik untuk berolahraga di jogging track Hutan Taman Lele?",
+                    "mode": "fix",
+                    "answer": "Waktu terbaik adalah pagi hari saat udara masih sangat segar dan sejuk atau sore hari menjelang senja."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Jogging track Hutan Taman Lele.",
+                "describeHere": "Playground adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node30": {
+            "rawName": "Playground",
+            "displayName": "Playground",
+            "placeId": "playground",
+            "placeName": "Playground",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area taman bermain anak yang aman dan menyenangkan di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Zona playground dilengkapi berbagai fasilitas permainan anak seperti ayunan, jungkat-jungkit, dan seluncuran. Tempat ini dirancang untuk mendukung aktivitas fisik dan keceriaan anak-anak di tengah alam terbuka.",
+            "highlights": [
+                "Eksplorasi visual Playground",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Playground",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Permainan apa saja yang tersedia di playground ini?",
+                    "mode": "fix",
+                    "answer": "Terdapat ayunan, perosotan, mangkok putar, dan berbagai wahana permainan edukatif anak."
+                },
+                {
+                    "q": "Apakah penggunaan fasilitas playground dipungut biaya tambahan?",
+                    "mode": "fix",
+                    "answer": "Tidak ada biaya tambahan, seluruh fasilitas permainan anak sudah termasuk dalam tiket masuk utama."
+                },
+                {
+                    "q": "Apakah area playground aman untuk anak-anak balita?",
+                    "mode": "fix",
+                    "answer": "Aman, namun tetap disarankan dalam pengawasan orang tua karena berada di ruang terbuka hijau."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Playground.",
+                "describeHere": "Playground adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node31": {
+            "rawName": "Taman Lele Forest",
+            "displayName": "Taman Lele Forest",
+            "placeId": "taman-lele-forest",
+            "placeName": "Taman Lele Forest",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan hutan wisata dan rimbunnya pepohonan hijau di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Taman Lele Forest menawarkan atmosfer hutan buatan yang sejuk dan asri untuk bersantai atau berjalan-jalan ringan. Kawasan ini dipenuhi vegetasi hijau yang rimbun sehingga udara terasa sangat segar.",
+            "highlights": [
+                "Eksplorasi visual Taman Lele Forest",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Taman Lele Forest",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa aktivitas yang bisa dilakukan di area hutan wisata ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat berjalan santai menikmati udara segar, berfoto di spot alami, atau melakukan kegiatan outbond ringan."
+                },
+                {
+                    "q": "Apakah tersedia jalur pejalan kaki yang nyaman di dalam hutan?",
+                    "mode": "fix",
+                    "answer": "Ya, terdapat jalur setapak paving yang tertata rapi bagi kenyamanan para pejalan kaki."
+                },
+                {
+                    "q": "Apakah area hutan ini aman dari sengatan terik matahari langsung?",
+                    "mode": "fix",
+                    "answer": "Sangat aman dan teduh karena ditutupi oleh kanopi pepohonan yang lebat dan rindang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman Lele Forest.",
+                "describeHere": "Taman Lele Forest adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node33": {
+            "rawName": "Wisma Taman Lele",
+            "displayName": "Wisma Taman Lele",
+            "placeId": "wisma-taman-lele",
+            "placeName": "Wisma Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas penginapan dan wisma istirahat di dalam kawasan Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Wisma Taman Lele menyediakan akomodasi nyaman bagi wisatawan yang ingin menginap dan menikmati suasana alam pedesaan. Bangunan ini dikelilingi oleh pepohonan rindang yang memberikan ketenangan dan kesejukan.",
+            "highlights": [
+                "Eksplorasi visual Wisma Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Wisma Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara melakukan reservasi kamar di wisma ini?",
+                    "mode": "fix",
+                    "answer": "Reservasi dapat dilakukan melalui pengelola wisata di tempat atau lewat kontak resmi pengelola pariwisata Kota Semarang."
+                },
+                {
+                    "q": "Fasilitas apa saja yang didapatkan jika menginap di wisma?",
+                    "mode": "fix",
+                    "answer": "Pengunjung mendapatkan kamar tidur yang nyaman, akses dekat ke area rekreasi, serta suasana pagi yang sangat sejuk."
+                },
+                {
+                    "q": "Apakah wisma ini cocok untuk rombongan keluarga atau instansi?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena kapasitas kamar memadai serta tersedia aula atau pendopo pendukung kegiatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wisma Taman Lele.",
+                "describeHere": "Wisma Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node34": {
+            "rawName": "Wahanaair",
+            "displayName": "Wahanaair",
+            "placeId": "wahanaair",
+            "placeName": "Wahanaair",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat wahana permainan air dan kolam rekreasi di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Wahana air ini menyajikan berbagai keseruan bermain air bagi anak-anak maupun keluarga tercinta. Suasana ceria dan gemercik air menambah semangat rekreasi di destinasi wisata populer ini.",
+            "highlights": [
+                "Eksplorasi visual Wahanaair",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Wahanaair",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Wahana air apa saja yang paling diminati pengunjung?",
+                    "mode": "fix",
+                    "answer": "Sepeda air (bebek air) di dan buatan serta kolam cetar anak adalah wahana yang paling favorit."
+                },
+                {
+                    "q": "Apakah anak-anak wajib memakai ban pelampung di area air?",
+                    "mode": "fix",
+                    "answer": "Sangat dianjurkan demi keselamatan, dan tersedia pula tempat penyewaan ban pelampung di dekat lokasi."
+                },
+                {
+                    "q": "Apakah ada petugas keselamatan yang berjaga di sekitar wahana air?",
+                    "mode": "fix",
+                    "answer": "Ya, petugas pengawas siaga di sekitar kolam dan wahana air untuk memastikan keamanan pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Wahanaair.",
+                "describeHere": "Wahanaair adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node35": {
+            "rawName": "Danau Taman Lele",
+            "displayName": "Danau Taman Lele",
+            "placeId": "danau-taman-lele",
+            "placeName": "Danau Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Danau buatan luas berair jernih di tengah lanskap Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Danau Taman Lele menjadi ikon pemandangan utama yang dikelilingi taman hijau nan mempesona. Di sini pengunjung dapat menikmati panorama air yang tenang sambil menaiki wahana sepeda air.",
+            "highlights": [
+                "Eksplorasi visual Danau Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Danau Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tarif sewa sepeda air di danau ini?",
+                    "mode": "fix",
+                    "answer": "Tarif sewa sepeda air sangat terjangkau, berkisar antara Rp15.000 hingga Rp25.000 per unit untuk satu putaran."
+                },
+                {
+                    "q": "Apakah boleh memancing ikan di danau ini?",
+                    "mode": "fix",
+                    "answer": "Tidak boleh, karena danau difokuskan sebagai lanskap estetika rekreasi dan wahana air keliling."
+                },
+                {
+                    "q": "Apa pemandangan menarik yang bisa dilihat di sekitar danau?",
+                    "mode": "fix",
+                    "answer": "Pemandangan air yang luas, pepohonan rindang, serta hilir mudik pengunjung yang menaiki perahu bebek."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Danau Taman Lele.",
+                "describeHere": "Danau Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node36": {
+            "rawName": "Kolam Renang",
+            "displayName": "Kolam Renang",
+            "placeId": "kolam-renang",
+            "placeName": "Kolam Renang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas kolam renang anak dan dewasa yang menyegarkan di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Kolam renang ini menyediakan fasilitas berenang dengan air yang bersih dan menyegarkan jiwa. Menjadi tempat favorit bagi anak-anak untuk melatih keterampilan berenang sambil berwisata.",
+            "highlights": [
+                "Eksplorasi visual Kolam Renang",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Kolam Renang",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kedalaman kolam renang untuk anak-anak?",
+                    "mode": "fix",
+                    "answer": "Kedalaman kolam anak berkisar antara 30 hingga 50 sentimeter sehingga aman untuk bermain air."
+                },
+                {
+                    "q": "Apakah tersedia kamar bilas dan ganti pakaian?",
+                    "mode": "fix",
+                    "answer": "Ya, tersedia fasilitas kamar mandi, kamar bilas, dan ruang ganti yang bersih di sisi kolam."
+                },
+                {
+                    "q": "Apakah pengunjung wajib mengenakan pakaian renang khusus?",
+                    "mode": "fix",
+                    "answer": "Disarankan mengenakan pakaian renang yang nyaman dan sopan demi menjaga kebersihan air kolam."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolam Renang.",
+                "describeHere": "Kolam Renang adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node37": {
+            "rawName": "Kolamrenang",
+            "displayName": "Kolam renang anak",
+            "placeId": "kolam-renang-anak",
+            "placeName": "Kolam renang anak",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area kolam renang rekreasi tambahan di dalam kompleks Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Kolam renang ini melengkapi fasilitas air yang ada untuk memberikan kepuasan maksimal bagi pengunjung. Airnya yang jernih dan suasana sekitar yang rindang membuat kegiatan berenang semakin menyenangkan.",
+            "highlights": [
+                "Eksplorasi visual Kolamrenang",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Kolamrenang",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah kolam renang ini buka setiap hari?",
+                    "mode": "fix",
+                    "answer": "Ya, kolam renang beroperasi setiap hari mengikuti jam buka utama taman wisata."
+                },
+                {
+                    "q": "Apakah ada kolam khusus untuk orang dewasa?",
+                    "mode": "fix",
+                    "answer": "Tersedia kolam dengan kedalaman dewasa bagi pengunjung yang ingin berenang secara lebih leluasa."
+                },
+                {
+                    "q": "Apakah air kolam bersumber dari mata air alami?",
+                    "mode": "fix",
+                    "answer": "Sebagian suplai air berasal dari sumber mata air bersih lokal yang difiltrasi secara berkala."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:903"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kolam renang anak.",
+                "describeHere": "Kolamrenang adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node39": {
+            "rawName": "Panggung Taman Lele",
+            "displayName": "Panggung Taman Lele",
+            "placeId": "panggung-taman-lele",
+            "placeName": "Panggung Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panggung hiburan terbuka untuk pentas seni dan acara di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Panggung terbuka ini sering digunakan untuk pementasan musik, acara komunitas, maupun hiburan rakyat. Menjadi pusat kemeriahan saat diselenggarakannya event-event khusus di hari libur.",
+            "highlights": [
+                "Eksplorasi visual Panggung Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Panggung Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Acara apa saja yang sering diadakan di panggung ini?",
+                    "mode": "fix",
+                    "answer": "Pentas musik dangdut, organ tunggal, acara kesenian daerah, hingga gathering komunitas."
+                },
+                {
+                    "q": "Apakah panggung terbuka ini dapat disewa untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, pengelola menyediakan izin penyewaan panggung bagi instansi atau grup yang mengadakan acara."
+                },
+                {
+                    "q": "Berapa kapasitas penonton di depan panggung terbuka ini?",
+                    "mode": "fix",
+                    "answer": "Area penonton mampu menampung ratusan orang dalam konsep lapangan terbuka yang luas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Panggung Taman Lele.",
+                "describeHere": "Panggung Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node40": {
+            "rawName": "Area Parkir",
+            "displayName": "Area Parkir",
+            "placeId": "area-parkir",
+            "placeName": "Area Parkir",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area parkir kendaraan yang luas, aman, dan tertata di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Area parkir ini dirancang untuk menampung kendaraan pengunjung baik roda dua, mobil pribadi, maupun bus pariwisata. Lokasinya strategis dekat gerbang masuk sehingga memudahkan mobilitas wisatawan.",
+            "highlights": [
+                "Eksplorasi visual Area Parkir",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa tarif parkir untuk kendaraan roda empat?",
+                    "mode": "fix",
+                    "answer": "Tarif parkir mobil berkisar antara Rp5.000 hingga Rp10.000 sesuai ketentuan retribusi resmi."
+                },
+                {
+                    "q": "Apakah area parkir dijaga oleh petugas keamanan?",
+                    "mode": "fix",
+                    "answer": "Ya, area parkir dijaga ketat oleh petugas keamanan wisata untuk menjamin keselamatan kendaraan."
+                },
+                {
+                    "q": "Apakah bus besar dapat masuk ke area parkir ini?",
+                    "mode": "fix",
+                    "answer": "Sangat bisa, karena area parkir dirancang luas khusus untuk menampung bus rombongan pariwisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Parkir.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node41": {
+            "rawName": "Pendopo",
+            "displayName": "Pendopo",
+            "placeId": "pendopo",
+            "placeName": "Pendopo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pendopo tradisional berarsitektur klasik Jawa di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Pendopo ini menawarkan ruang terbuka beratap joglo yang sejuk untuk tempat berkumpul atau beristirahat rombongan. Suasananya yang kental dengan nuansa tradisional sangat pas untuk acara santai bersama.",
+            "highlights": [
+                "Eksplorasi visual Pendopo",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Pendopo",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama pendopo ini bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Digunakan sebagai tempat istirahat rombongan, pertemuan keluarga, atau ruang makan bersama."
+                },
+                {
+                    "q": "Apakah arsitektur pendopo mengusung konsep tradisional?",
+                    "mode": "fix",
+                    "answer": "Ya, menggunakan gaya arsitektur joglo khas Jawa yang terbuka dan sejuk."
+                },
+                {
+                    "q": "Apakah pendopo dapat digunakan secara gratis oleh pengunjung?",
+                    "mode": "fix",
+                    "answer": "Pendopo dapat digunakan secara bergantian oleh pengunjung umum, atau disewa khusus untuk acara keluarga."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pendopo.",
+                "describeHere": "Pendopo adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node42": {
+            "rawName": "Areabermainanak",
+            "displayName": "Areabermainanak",
+            "placeId": "areabermainanak",
+            "placeName": "Areabermainanak",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Zona khusus permainan edukatif dan rekreasi anak di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Area bermain anak ini menyediakan berbagai sarana hiburan yang merangsang kreativitas dan motorik anak. Lingkungannya yang bersih dan rindang menjamin kenyamanan buah hati saat bermain.",
+            "highlights": [
+                "Eksplorasi visual Areabermainanak",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Areabermainanak",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Permainan apa yang paling disukai anak-anak di sini?",
+                    "mode": "fix",
+                    "answer": "Wahana ayunan gantung, perosotan mini, dan mandi bola atau istana balon jika ada event."
+                },
+                {
+                    "q": "Apakah lantai area bermain aman untuk anak?",
+                    "mode": "fix",
+                    "answer": "Ya, permukaan tanah dilapisi rumput sintetis atau paving khusus yang aman dari benturan keras."
+                },
+                {
+                    "q": "Apakah orang tua dapat mendampingi anak duduk di sekitar area?",
+                    "mode": "fix",
+                    "answer": "Tersedia bangku-bangku taman di sekeliling area bermain bagi orang tua untuk mengawasi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Areabermainanak.",
+                "describeHere": "Areabermainanak adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node43": {
+            "rawName": "Areabersantai",
+            "displayName": "Areabersantai",
+            "placeId": "areabersantai",
+            "placeName": "Areabersantai",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik area bersantai dengan panorama alam yang tenang di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Area ini menyediakan tempat duduk yang nyaman di bawah naungan pohon rindang untuk melepas penat. Pengunjung dapat menikmati sepoi-sepoi angin dan pemandangan hijau yang menenangkan.",
+            "highlights": [
+                "Eksplorasi visual Areabersantai",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Areabersantai",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang ada di area bersantai ini?",
+                    "mode": "fix",
+                    "answer": "Tersedia bangku taman permanen, tempat sampah, dan pemandangan langsung ke pepohonan hijau."
+                },
+                {
+                    "q": "Apakah tempat ini cocok untuk bersantai sambil menikmati makanan?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok untuk bersantai sambil menikmati camilan ringan bersama keluarga."
+                },
+                {
+                    "q": "Bagaimana suasana di titik bersantai ini pada siang hari?",
+                    "mode": "fix",
+                    "answer": "Tetap terasa sejuk dan teduh karena terlindungi oleh rindangnya dedaunan pohon sekitar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Areabersantai.",
+                "describeHere": "Areabersantai adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node44": {
+            "rawName": "Pendopo",
+            "displayName": "Pendopo",
+            "placeId": "pendopo",
+            "placeName": "Pendopo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pendopo tradisional berarsitektur klasik Jawa di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Pendopo ini menawarkan ruang terbuka beratap joglo yang sejuk untuk tempat berkumpul atau beristirahat rombongan. Suasananya yang kental dengan nuansa tradisional sangat pas untuk acara santai bersama.",
+            "highlights": [
+                "Eksplorasi visual Pendopo",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Pendopo",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama pendopo ini bagi pengunjung?",
+                    "mode": "fix",
+                    "answer": "Digunakan sebagai tempat istirahat rombongan, pertemuan keluarga, atau ruang makan bersama."
+                },
+                {
+                    "q": "Apakah arsitektur pendopo mengusung konsep tradisional?",
+                    "mode": "fix",
+                    "answer": "Ya, menggunakan gaya arsitektur joglo khas Jawa yang terbuka dan sejuk."
+                },
+                {
+                    "q": "Apakah pendopo dapat digunakan secara gratis oleh pengunjung?",
+                    "mode": "fix",
+                    "answer": "Pendopo dapat digunakan secara bergantian oleh pengunjung umum, atau disewa khusus untuk acara keluarga."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pendopo.",
+                "describeHere": "Pendopo adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node45": {
+            "rawName": "Taman Lele",
+            "displayName": "Taman Lele",
+            "placeId": "taman-lele",
+            "placeName": "Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas penginapan dan wisma istirahat di dalam kawasan Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Wisma Taman Lele menyediakan akomodasi nyaman bagi wisatawan yang ingin menginap dan menikmati suasana alam pedesaan. Bangunan ini dikelilingi oleh pepohonan rindang yang memberikan ketenangan dan kesejukan.",
+            "highlights": [
+                "Eksplorasi visual Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara melakukan reservasi kamar di wisma ini?",
+                    "mode": "fix",
+                    "answer": "Reservasi dapat dilakukan melalui pengelola wisata di tempat atau lewat kontak resmi pengelola pariwisata Kota Semarang."
+                },
+                {
+                    "q": "Fasilitas apa saja yang didapatkan jika menginap di wisma?",
+                    "mode": "fix",
+                    "answer": "Pengunjung mendapatkan kamar tidur yang nyaman, akses dekat ke area rekreasi, serta suasana pagi yang sangat sejuk."
+                },
+                {
+                    "q": "Apakah wisma ini cocok untuk rombongan keluarga atau instansi?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena kapasitas kamar memadai serta tersedia aula atau pendopo pendukung kegiatan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Taman Lele.",
+                "describeHere": "Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node46": {
+            "rawName": "Hutan",
+            "displayName": "Hutan",
+            "placeId": "hutan",
+            "placeName": "Hutan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan hutan kota nan asri di dalam area Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Hutan lindung buatan ini memberikan suplai oksigen segar dan habitat bagi berbagai flora dan fauna lokal. Suasananya yang alami sangat digemari oleh pencinta ketenangan dan fotografi alam.",
+            "highlights": [
+                "Eksplorasi visual Hutan",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Hutan",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis pohon apa saja yang mendominasi kawasan hutan ini?",
+                    "mode": "fix",
+                    "answer": "Didominasi oleh pohon-pohon besar berakar kuat seperti pohon mahoni, akasia, dan pohon buah lokal."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan merusak tanaman di hutan?",
+                    "mode": "fix",
+                    "answer": "Tidak boleh, seluruh pengunjung wajib menjaga kelestarian flora dan fauna di dalam hutan."
+                },
+                {
+                    "q": "Apakah ada suara satwa liar yang bisa didengar di sini?",
+                    "mode": "fix",
+                    "answer": "Ya, sering terdengar kicauan burung liar yang hidup bebas di pepohonan hutan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Hutan.",
+                "describeHere": "Hutan adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node47": {
+            "rawName": "Danautamanlele",
+            "displayName": "Danautamanlele",
+            "placeId": "danautamanlele",
+            "placeName": "Danautamanlele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pesona panorama perairan danau buatan di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Danau taman lele menghadirkan pemandangan air yang luas dengan pantulan langit dan pepohonan hijau di sekitarnya. Suasana sejuk di tepian danau memberikan ketenangan tersendiri bagi setiap pengunjung.",
+            "highlights": [
+                "Eksplorasi visual Danautamanlele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Danautamanlele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa luas estimasi danau buatan di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Danau ini memiliki ukuran cukup luas yang mengelilingi sebagian besar zona rekreasi tengah."
+                },
+                {
+                    "q": "Apakah air danau ini mengalir sepanjang tahun?",
+                    "mode": "fix",
+                    "answer": "Ya, suplai airnya dikelola dengan baik dari sumber mata air lokal yang stabil."
+                },
+                {
+                    "q": "Apa aktivitas favorit di tepian danau?",
+                    "mode": "fix",
+                    "answer": "Berfoto dengan latar belakang danau, menaiki sepeda air, atau duduk santai di gazebo."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:902"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Danautamanlele.",
+                "describeHere": "Danautamanlele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node48": {
+            "rawName": "Sendangnyituksari",
+            "displayName": "Sendangnyituksari",
+            "placeId": "sendang-nyituksari",
+            "placeName": "Sendang nyituksari",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Mata air keramat bersejarah Sendang Nyituk Sari di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Sendang Nyituksari merupakan sumber mata air alami yang memiliki nilai sejarah dan legenda tersendiri bagi warga lokal. Airnya yang jernih dan keramat menjadi bagian dari warisan budaya kawasan wisata ini.",
+            "highlights": [
+                "Eksplorasi visual Sendangnyituksari",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Sendangnyituksari",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa legenda atau sejarah di balik Sendang Nyituksari?",
+                    "mode": "fix",
+                    "answer": "Sendang ini diyakini masyarakat sebagai sumber air abadi yang dikeramatkan dan dijaga turun-temurun."
+                },
+                {
+                    "q": "Apakah air dari sendang ini bisa diminum langsung?",
+                    "mode": "fix",
+                    "answer": "Airnya sangat jernih dan dingin, namun umumnya digunakan untuk keperluan ritual atau kebersihan situs."
+                },
+                {
+                    "q": "Bagaimana kondisi lingkungan di sekitar sendang saat ini?",
+                    "mode": "fix",
+                    "answer": "Tetap terjaga keasriannya dengan naungan pohon-pohon besar yang melindungi sumber mata air."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:906"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Sendang nyituksari.",
+                "describeHere": "Sendangnyituksari adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node49": {
+            "rawName": "Drone Kampung Wisata Taman Lele",
+            "displayName": "Drone Kampung Wisata Taman Lele",
+            "placeId": "drone-kampung-wisata-taman-lele",
+            "placeName": "Drone Kampung Wisata Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan utama rekreasi dan kebun botani mini di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Taman Lele menjadi jantung kawasan wisata yang menyuguhkan keindahan alam, danau, serta fasilitas rekreasi lengkap. Tempat ini sangat ideal untuk menghabiskan waktu liburan bersama seluruh anggota keluarga.",
+            "highlights": [
+                "Eksplorasi visual Drone Kampung Wisata Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Drone Kampung Wisata Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa saja fasilitas utama yang tampak jelas dari sudut pandang udara kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Dari udara, tampak jelas bentangan danau buatan, area kolam renang, deretan pepohonan rindang di zona hutan wisata, serta gedung penginapan dan area parkir."
+                },
+                {
+                    "q": "Berapa perkiraan luas keseluruhan kawasan Kampoeng Wisata Taman Lele jika dilihat dari atas?",
+                    "mode": "fix",
+                    "answer": "Kompleks rekreasi ini mencakup area seluas beberapa hektar yang tertata asri di pinggiran jalur utama Semarang–Kendal."
+                },
+                {
+                    "q": "Bagaimana tata letak atau zonasi ruang di dalam kawasan wisata ini?",
+                    "mode": "fix",
+                    "answer": "Zonasi tertata secara terpadu antara ruang terbuka hijau (hutan), zona rekreasi air (danau dan kolam), serta fasilitas umum yang saling terhubung dengan rapi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Drone Kampung Wisata Taman Lele.",
+                "describeHere": "Drone Kampung Wisata Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node50": {
+            "rawName": "Drone Kampung Wisata Taman Lele",
+            "displayName": "Tampak Udara Kampung Wisata Taman Lele",
+            "placeId": "tampak-udara-kampung-wisata-taman-lele",
+            "placeName": "Tampak Udara Kampung Wisata Taman Lele",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan utama rekreasi dan kebun botani mini di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Taman Lele menjadi jantung kawasan wisata yang menyuguhkan keindahan alam, danau, serta fasilitas rekreasi lengkap. Tempat ini sangat ideal untuk menghabiskan waktu liburan bersama seluruh anggota keluarga.",
+            "highlights": [
+                "Eksplorasi visual Drone Kampung Wisata Taman Lele",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Drone Kampung Wisata Taman Lele",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa daya tarik utama dari Taman Lele ini?",
+                    "mode": "fix",
+                    "answer": "Kombinasi danau buatan, kolam renang, area bermain, serta suasananya yang asri dan ekonomis."
+                },
+                {
+                    "q": "Kapan waktu terbaik untuk mengunjungi taman wisata ini?",
+                    "mode": "fix",
+                    "answer": "Pagi hari pukul 08.00 atau sore hari saat cuaca lebih sejuk dan menyenangkan."
+                },
+                {
+                    "q": "Apakah tersedia warung kuliner di dalam kawasan taman?",
+                    "mode": "fix",
+                    "answer": "Ya, banyak pedagang lokal yang menjual makanan khas, mie instan, dan aneka minuman segar."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Tampak Udara Kampung Wisata Taman Lele.",
+                "describeHere": "Drone Kampung Wisata Taman Lele adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node51": {
+            "rawName": "Penginapan",
+            "displayName": "Penginapan",
+            "placeId": "penginapan",
+            "placeName": "Penginapan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas akomodasi peristirahatan malam di Kampoeng Wisata Taman Lele Kota Semarang.",
+            "description": "Penginapan ini menawarkan tempat beristirahat yang tenang setelah seharian menikmati keseruan wahana wisata. Menjadi pilihan tepat bagi wisatawan luar kota yang ingin menikmati pagi hari di alam terbuka.",
+            "highlights": [
+                "Eksplorasi visual Penginapan",
+                "Atmosfer otentik Kampoeng Wisata Taman Lele",
+                "Detail tata ruang spesifik"
+            ],
+            "talkingPoints": [
+                "Penginapan",
+                "jalur eksplorasi",
+                "Tamanlele"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang disediakan di dalam kamar penginapan?",
+                    "mode": "fix",
+                    "answer": "Tempat tidur bersih, kipas angin atau AC, kamar mandi dalam, serta perlengkapan istirahat standar."
+                },
+                {
+                    "q": "Berapa kisaran tarif sewa penginapan per malam?",
+                    "mode": "fix",
+                    "answer": "Tarifnya bervariasi terjangkau, disesuaikan dengan jenis fasilitas kamar yang dipilih pengunjung."
+                },
+                {
+                    "q": "Apakah tamu penginapan mendapat akses gratis ke taman wisata?",
+                    "mode": "fix",
+                    "answer": "Biasanya sudah termasuk akses khusus atau kemudahan masuk ke kawasan rekreasi selama menginap."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:905"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Penginapan.",
+                "describeHere": "Penginapan adalah area di dalam kawasan Tamanlele, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

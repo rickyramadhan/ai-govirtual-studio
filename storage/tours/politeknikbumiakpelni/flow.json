@@ -1,0 +1,147 @@
+{
+    "version": "1.0",
+    "tourId": "politeknikbumiakpelni",
+    "tourName": "Politeknikbumiakpelni",
+    "updatedAt": "2026-09-29T09:51:48+02:00",
+    "startScene": "node80",
+    "order": [
+        "node80",
+        "node81",
+        "node82",
+        "node113",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node114",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108",
+        "node109",
+        "node110",
+        "node111",
+        "node115",
+        "node112"
+    ],
+    "nodes": {
+        "node80": {
+            "displayName": "Politeknik Bumi Akpelni – Akpelni – Udara Fasad Kampus"
+        },
+        "node81": {
+            "displayName": "Politeknik Bumi Akpelni – Akpelni – Udara Kapal Latih"
+        },
+        "node82": {
+            "displayName": "Politeknik Bumi Akpelni – Akpelni – Udara Kompleks Asrama"
+        },
+        "node113": {
+            "displayName": "Politeknik Bumi Akpelni – Simulator Navigasi – Video 360"
+        },
+        "node83": {
+            "displayName": "Politeknik Bumi Akpelni – Akpelni – Udara Sisi Jalan Raya"
+        },
+        "node84": {
+            "displayName": "Politeknik Bumi Akpelni – Ruang Dalam Kapal Haji Soenarto"
+        },
+        "node85": {
+            "displayName": "Politeknik Bumi Akpelni – Pintu Asrama"
+        },
+        "node86": {
+            "displayName": "Politeknik Bumi Akpelni – Akses ATM Kampus"
+        },
+        "node87": {
+            "displayName": "Politeknik Bumi Akpelni – Pintu Bridge Navigation Simulator"
+        },
+        "node88": {
+            "displayName": "Politeknik Bumi Akpelni – Pintu Lab Bahasa"
+        },
+        "node89": {
+            "displayName": "Politeknik Bumi Akpelni – Haluan Kapal Latih"
+        },
+        "node90": {
+            "displayName": "Politeknik Bumi Akpelni – Panel Informasi Simulator"
+        },
+        "node91": {
+            "displayName": "Politeknik Bumi Akpelni – Lab GMDSS"
+        },
+        "node92": {
+            "displayName": "Politeknik Bumi Akpelni – Fasad Kampus Akpelni"
+        },
+        "node93": {
+            "displayName": "Politeknik Bumi Akpelni – Kapal Haji Soenarto – Tampak Luar"
+        },
+        "node94": {
+            "displayName": "Politeknik Bumi Akpelni – Lab FMERS"
+        },
+        "node114": {
+            "displayName": "Politeknik Bumi Akpelni – Ruang Pendukung Simulator – Video 360"
+        },
+        "node95": {
+            "displayName": "Politeknik Bumi Akpelni – Lab Komputer"
+        },
+        "node96": {
+            "displayName": "Politeknik Bumi Akpelni – Lab Bahasa – Ruang Praktik"
+        },
+        "node97": {
+            "displayName": "Politeknik Bumi Akpelni – Lapangan Dalam Asrama"
+        },
+        "node98": {
+            "displayName": "Politeknik Bumi Akpelni – Lobi Asrama"
+        },
+        "node99": {
+            "displayName": "Politeknik Bumi Akpelni – Pintu Ruang Simulator"
+        },
+        "node102": {
+            "displayName": "Politeknik Bumi Akpelni – Pos Jaga Taruna"
+        },
+        "node103": {
+            "displayName": "Politeknik Bumi Akpelni – Selasar Gedung Kampus"
+        },
+        "node104": {
+            "displayName": "Politeknik Bumi Akpelni – Bengkel Teknik"
+        },
+        "node105": {
+            "displayName": "Politeknik Bumi Akpelni – Pintu Departemen Teknika"
+        },
+        "node106": {
+            "displayName": "Politeknik Bumi Akpelni – Ruang Makan Asrama"
+        },
+        "node107": {
+            "displayName": "Politeknik Bumi Akpelni – Pelayanan Terpadu Akademik"
+        },
+        "node108": {
+            "displayName": "Politeknik Bumi Akpelni – Akses Simulator Navigasi"
+        },
+        "node109": {
+            "displayName": "Politeknik Bumi Akpelni – Simulator Anjungan Kapal"
+        },
+        "node110": {
+            "displayName": "Politeknik Bumi Akpelni – Lab Mesin Kapal – Komponen Terbuka"
+        },
+        "node111": {
+            "displayName": "Politeknik Bumi Akpelni – Lab Mesin Kapal – Instalasi"
+        },
+        "node115": {
+            "displayName": "Politeknik Bumi Akpelni – Lab Mesin Kapal – Video 360"
+        },
+        "node112": {
+            "displayName": "Politeknik Bumi Akpelni – Kamar Asrama Taruna"
+        }
+    }
+}

@@ -1,0 +1,1629 @@
+{
+    "version": "1.1-seed",
+    "tourId": "museumranggawarsita",
+    "generatedAt": "2026-10-09",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node2": {
+            "rawName": "Museum Ranggawarsita",
+            "displayName": "Pelataran Pendopo Museum Ranggawarsita",
+            "placeId": "pelataran-pendopo-museum-ranggawarsita",
+            "placeName": "Pelataran Pendopo Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas di depan pendopo utama yang menyambut kedatangan pengunjung Museum Ranggawarsita.",
+            "description": "Pelataran Pendopo Museum Ranggawarsita menawarkan area terbuka yang asri dan sering digunakan untuk berbagai acara budaya. Tempat ini menjadi titik transisi yang nyaman sebelum pengunjung memasuki ruang pameran utama.",
+            "highlights": [
+                "Papan nama",
+                "Pendapa"
+            ],
+            "talkingPoints": [
+                "Museum Ranggawarsita",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Acara apa saja yang sering diadakan di pelataran pendopo ini?",
+                    "mode": "ai",
+                    "answer": "Biasanya pelataran ini digunakan untuk pementasan seni, penyambutan tamu kehormatan, atau kegiatan budaya luar ruangan."
+                },
+                {
+                    "q": "Apakah pelataran ini dapat diakses bebas oleh wisatawan umum?",
+                    "mode": "ai",
+                    "answer": "Ya, area pelataran terbuka untuk umum bagi pengunjung yang ingin menikmati suasana kompleks museum."
+                },
+                {
+                    "q": "Apakah ada tempat duduk di sekitar pelataran?",
+                    "mode": "ai",
+                    "answer": "Terdapat beberapa fasilitas tempat duduk di tepi pelataran bagi pengunjung yang ingin beristirahat sejenak."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pelataran Pendopo Museum Ranggawarsita.",
+                "describeHere": "Museum Ranggawarsita adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Gamelan",
+            "displayName": "Area Pagelaran Wayang Kulit Museum Ranggawarsita",
+            "placeId": "area-pagelaran-wayang-kulit-museum-ranggawarsita",
+            "placeName": "Area Pagelaran Wayang Kulit Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panggung pameran khusus yang menampilkan koleksi serta pergelaran wayang kulit klasik.",
+            "description": "Area Pagelaran Wayang Kulit memamerkan ragam figur tokoh wayang serta tata panggung tradisional yang megah. Ruang ini didedikasikan untuk melestarikan seni pertunjukan adiluhung warisan budaya Jawa.",
+            "highlights": [
+                "Instrumen",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Gamelan",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Karakter wayang apa saja yang dipamerkan di area ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat berbagai tokoh utama epos Mahabharata dan Ramayana, mulai dari para kesatria hingga punokawan."
+                },
+                {
+                    "q": "Apakah sering diadakan pentas wayang kulit langsung di sini?",
+                    "mode": "ai",
+                    "answer": "Pentas langsung biasanya digelar pada momen atau event kebudayaan khusus yang diselenggarakan pihak museum."
+                },
+                {
+                    "q": "Apakah ada penjelasan mengenai filosofi di balik tokoh wayang?",
+                    "mode": "ai",
+                    "answer": "Ya, terdapat papan informasi edukatif yang menjelaskan karakter dan peran setiap tokoh pewayangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Pagelaran Wayang Kulit Museum Ranggawarsita.",
+                "describeHere": "Gamelan adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Galeri Kesenian Wayang",
+            "displayName": "Area Koleksi Gamelan Pakurmatan Museum Ranggawarsita",
+            "placeId": "area-koleksi-gamelan-pakurmatan-museum-ranggawarsita",
+            "placeName": "Area Koleksi Gamelan Pakurmatan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Deretan perangkat Gamelan Pakurmatan lengkap yang bernilai historis tinggi.",
+            "description": "Area Koleksi Gamelan Pakurmatan menampilkan seperangkat alat musik tradisional Jawa yang dulunya digunakan dalam upacara resmi kerajaan. Koleksi ini memperlihatkan keagungan seni musik karawitan masa lampau.",
+            "highlights": [
+                "Instrumen",
+                "Ruang pamer"
+            ],
+            "talkingPoints": [
+                "Galeri Kesenian Wayang",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Gamelan Pakurmatan ini?",
+                    "mode": "ai",
+                    "answer": "Gamelan ini secara tradisional dibunyikan untuk menyambut tamu agung atau mengiringi upacara kerajaan resmi."
+                },
+                {
+                    "q": "Apakah instrumen gamelan ini masih bisa dimainkan?",
+                    "mode": "ai",
+                    "answer": "Koleksi dipajang untuk kepentingan pelestarian dan edukasi museum, umumnya dijaga agar tidak sembarangan disentuh."
+                },
+                {
+                    "q": "Terbuat dari bahan apa bilah gamelan kuno tersebut?",
+                    "mode": "ai",
+                    "answer": "Sebagian besar bilahnya dibuat dari campuran logam perunggu berkualitas tinggi dengan ukiran kayu penopang yang indah."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Koleksi Gamelan Pakurmatan Museum Ranggawarsita.",
+                "describeHere": "Galeri Kesenian Wayang adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Patungludruk",
+            "displayName": "Diorama Pertunjukan Wayang Tradisional Punokawan Museum Ranggawarsita",
+            "placeId": "diorama-pertunjukan-wayang-tradisional-punokawan-museum-ranggawarsita",
+            "placeName": "Diorama Pertunjukan Wayang Tradisional Punokawan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Diorama interaktif yang menggambarkan aksi jenaka tokoh Punokawan dalam pewayangan.",
+            "description": "Diorama ini merekonstruksi suasana pementasan wayang tradisional dengan menampilkan figur Semar, Gareng, Petruk, dan Bagong. Melalui diorama ini, pengunjung dapat memahami peran penting Punokawan sebagai pengisi nasehat moral.",
+            "highlights": [
+                "Figur pemain",
+                "Panggung mini"
+            ],
+            "talkingPoints": [
+                "Patungludruk",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Siapa saja tokoh yang tergabung dalam kelompok Punokawan?",
+                    "mode": "ai",
+                    "answer": "Kelompok Punokawan terdiri dari Semar Badranaya beserta ketiga anaknya yaitu Gareng, Petruk, dan Bagong."
+                },
+                {
+                    "q": "Apa pesan moral yang sering disampaikan tokoh Punokawan?",
+                    "mode": "ai",
+                    "answer": "Mereka sering menyampaikan kritik sosial yang bijak serta ajaran kebaikan dengan balutan humor khas pewayangan."
+                },
+                {
+                    "q": "Apakah diorama ini dilengkapi dengan efek suara atau pencahayaan?",
+                    "mode": "ai",
+                    "answer": "Penataan pencahayaan dirancang dramatis menyerupai suasana pementasan wayang kulit sesungguhnya di malam hari."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Diorama Pertunjukan Wayang Tradisional Punokawan Museum Ranggawarsita.",
+                "describeHere": "Patungludruk adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Museum Ranggawarsita",
+            "displayName": "Fasad Ruang Auditorium Graha Amarthapura",
+            "placeId": "fasad-ruang-auditorium-graha-amarthapura",
+            "placeName": "Fasad Ruang Auditorium Graha Amarthapura",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tampilan luar megah gedung Auditorium Graha Amarthapura Museum Ranggawarsita.",
+            "description": "Fasad Ruang Auditorium Graha Amarthapura memperlihatkan arsitektur bangunan modern yang luas dan representatif di dalam museum. Gedung ini menjadi pusat kegiatan pertemuan besar, seminar, maupun pameran seni skala nasional.",
+            "highlights": [
+                "Kanopi",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Museum Ranggawarsita",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kapasitas penonton di dalam auditorium Graha Amarthapura?",
+                    "mode": "ai",
+                    "answer": "Auditorium ini memiliki kapasitas besar yang mampu menampung ratusan peserta untuk berbagai acara resmi."
+                },
+                {
+                    "q": "Acara apa saja yang biasanya diselenggarakan di gedung ini?",
+                    "mode": "ai",
+                    "answer": "Mulai dari seminar kebudayaan, wisuda, pameran temporer, hingga festival seni pelajar di Kota Semarang."
+                },
+                {
+                    "q": "Apakah auditorium ini bisa disewa oleh masyarakat umum?",
+                    "mode": "ai",
+                    "answer": "Ya, pengelola museum menyediakan fasilitas penyewaan auditorium untuk kegiatan seminar atau pertemuan instansi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Fasad Ruang Auditorium Graha Amarthapura.",
+                "describeHere": "Museum Ranggawarsita adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Prasasti Batu",
+            "displayName": "Area Masuk dan Loket Museum Ranggawarsita",
+            "placeId": "area-masuk-dan-loket-museum-ranggawarsita",
+            "placeName": "Area Masuk dan Loket Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang utama dan loket tiket penerimaan pengunjung Museum Ranggawarsita.",
+            "description": "Area Masuk dan Loket menyambut setiap pengunjung yang ingin memulai petualangan menelusuri sejarah di museum ini. Di sinilah wisatawan mendapatkan tiket masuk serta informasi awal seputar peta zonasi gedung pameran.",
+            "highlights": [
+                "Batu bertulis",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Prasasti Batu",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa harga tiket masuk ke Museum Ranggawarsita?",
+                    "mode": "ai",
+                    "answer": "Harga tiket masuk sangat terjangkau bagi masyarakat umum maupun rombongan pelajar sekolah."
+                },
+                {
+                    "q": "Jam berapa museum ini buka untuk kunjungan wisatawan?",
+                    "mode": "ai",
+                    "answer": "Museum umumnya beroperasi dari pagi hingga sore hari, melayani kunjungan setiap hari selasa hingga minggu."
+                },
+                {
+                    "q": "Apakah tersedia brosur atau peta panduan di dekat loket?",
+                    "mode": "ai",
+                    "answer": "Ya, petugas loket biasanya menyediakan pamflet informasi tata letak ruang pameran bagi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Masuk dan Loket Museum Ranggawarsita.",
+                "describeHere": "Prasasti Batu adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Perpustakaan",
+            "displayName": "Perpustakaan Museum Ranggawarsita",
+            "placeId": "perpustakaan-museum-ranggawarsita",
+            "placeName": "Perpustakaan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang baca dan pusat referensi literatur sejarah serta budaya di museum.",
+            "description": "Perpustakaan Museum Ranggawarsita menyimpan ribuan koleksi buku, naskah kuno, dan jurnal referensi kepurbakalaan. Tempat ini menjadi surga bagi pelajar dan peneliti yang ingin memperdalam wawasan sejarah Nusantara.",
+            "highlights": [
+                "Papan nama",
+                "Gapura"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah masyarakat umum boleh membaca buku di perpustakaan ini?",
+                    "mode": "ai",
+                    "answer": "Tentu saja, perpustakaan terbuka bagi pelajar, mahasiswa, dan umum yang memerlukan referensi sejarah."
+                },
+                {
+                    "q": "Apakah buku-buku koleksi di sini boleh dipinjam pulang?",
+                    "mode": "ai",
+                    "answer": "Sebagian besar koleksi merupakan buku referensi langka yang hanya boleh dibaca di tempat (baca di ruang perpustakaan)."
+                },
+                {
+                    "q": "Topik apa saja yang paling banyak dicari di perpustakaan ini?",
+                    "mode": "ai",
+                    "answer": "Koleksi mengenai sejarah Jawa Tengah, arkeologi nusantara, etnografi, dan naskah kuno klasik."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perpustakaan Museum Ranggawarsita.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Ruangemas",
+            "displayName": "Ruang Pameran Emas Museum Ranggawarsita",
+            "placeId": "ruang-pameran-emas-museum-ranggawarsita",
+            "placeName": "Ruang Pameran Emas Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri eksklusif yang memamerkan koleksi artefak dan perhiasan emas bersejarah.",
+            "description": "Ruang Pameran Emas menyimpan berbagai temuan artefak kuno berlapis emas, mulai dari perhiasan hingga alat upacara masa lampau. Ruangan ini dilengkapi sistem keamanan khusus untuk melindungi benda berharga peninggalan masa klasik.",
+            "highlights": [
+                "Perhiasan",
+                "Kaca"
+            ],
+            "talkingPoints": [
+                "Ruangemas",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Dari era manakah koleksi benda-benda emas ini berasal?",
+                    "mode": "ai",
+                    "answer": "Sebagian besar berasal dari era kerajaan-kerajaan Hindu-Buddha klasik di Nusantara."
+                },
+                {
+                    "q": "Apa saja jenis artefak emas yang paling menarik di sini?",
+                    "mode": "ai",
+                    "answer": "Terdapat perhiasan mahkota, cincin berukir, lempengan prasasti kecil, hingga bejana emas kuno."
+                },
+                {
+                    "q": "Mengapa ruangan ini mendapatkan penjagaan yang sangat ketat?",
+                    "mode": "ai",
+                    "answer": "Karena berisi koleksi benda berharga tinggi yang memerlukan pengamanan dan kontrol iklim khusus."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:214"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Pameran Emas Museum Ranggawarsita.",
+                "describeHere": "Ruangemas adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Galeri Prasejarah",
+            "displayName": "Ruang Koleksi Benda Prasejarah Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-benda-prasejarah-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Benda Prasejarah Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Eksplorasi temuan fosil dan alat batu purba di Ruang Koleksi Benda Prasejarah.",
+            "description": "Ruang Koleksi Benda Prasejarah menyajikan bukti-bukti evolusi kehidupan awal manusia dan hewan purba di pulau Jawa. Pengunjung dapat melihat langsung berbagai perkakas batu yang digunakan pada zaman batu purba.",
+            "highlights": [
+                "Panel",
+                "Display"
+            ],
+            "talkingPoints": [
+                "Galeri Prasejarah",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Alat purba apa saja yang dipamerkan di ruangan ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat kapak genggam, alat serpih (flakes), kapak persegi, hingga gerabah prasejarah."
+                },
+                {
+                    "q": "Dari daerah mana saja sebagian besar fosil purba ini ditemukan?",
+                    "mode": "ai",
+                    "answer": "Banyak ditemukan dari situs-situs purbakala terkenal di Jawa Tengah dan sekitarnya."
+                },
+                {
+                    "q": "Apakah ada penjelasan mengenai cara hidup manusia purba?",
+                    "mode": "ai",
+                    "answer": "Ya, terdapat panel informasi yang menjelaskan pola hidup berburu, meramu, hingga bercocok tanam purba."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Benda Prasejarah Museum Ranggawarsita.",
+                "describeHere": "Galeri Prasejarah adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Purba",
+            "displayName": "Ruang Diorama Kehidupan Purba",
+            "placeId": "ruang-diorama-kehidupan-purba",
+            "placeName": "Ruang Diorama Kehidupan Purba",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Diorama visual yang merekonstruksi suasana alam dan kehidupan zaman purbakala.",
+            "description": "Ruang Diorama Kehidupan Purba membawa pengunjung kembali ke masa jutaan tahun lalu melalui tata pamer visual yang hidup. Diorama ini menggambarkan interaksi fauna purba dan manusia masa lampau di habitat aslinya.",
+            "highlights": [
+                "Figur manusia",
+                "Latar alam"
+            ],
+            "talkingPoints": [
+                "Purba",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Hewan purba apa yang digambarkan dalam diorama ini?",
+                    "mode": "ai",
+                    "answer": "Menggambarkan gajah purba (Stegodon), badak purba, serta fauna Pleistosen lainnya di tanah Jawa."
+                },
+                {
+                    "q": "Apakah anak-anak bisa belajar dengan mudah di ruangan ini?",
+                    "mode": "ai",
+                    "answer": "Sangat bisa, visualisasi diorama yang menarik sangat disukai anak-anak untuk mengenal sejarah alam."
+                },
+                {
+                    "q": "Berapa lama perkiraan rentang waktu kehidupan purba yang ditampilkan?",
+                    "mode": "ai",
+                    "answer": "Menampilkan rentang zaman dari masa Pliosen hingga akhir Plistosen purba."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Diorama Kehidupan Purba.",
+                "describeHere": "Purba adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node42": {
+            "rawName": "Patunghindu",
+            "displayName": "Ruang Koleksi Masa Hindu Buddha Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-masa-hindu-buddha-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Masa Hindu Buddha Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jejak peninggalan peradaban masa kerajaan Hindu-Buddha di Nusantara.",
+            "description": "Ruang Koleksi Masa Hindu-Buddha menampilkan beragam arca, prasasti, dan relief candi yang bernilai seni tinggi. Koleksi ini mencerminkan masa kejayaan kerajaan-kerajaan besar yang pernah berkuasa di tanah Jawa.",
+            "highlights": [
+                "Arca duduk",
+                "Replika struktur"
+            ],
+            "talkingPoints": [
+                "Patunghindu",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kerajaan apa saja yang pengaruhnya terlihat di ruangan ini?",
+                    "mode": "ai",
+                    "answer": "Pengaruh dari Kerajaan Mataram Kuno, Medang, hingga Singhasari dan Majapahit."
+                },
+                {
+                    "q": "Benda apa yang paling ikonik dari masa Hindu-Buddha di sini?",
+                    "mode": "ai",
+                    "answer": "Kumpulan arca dewa-dewi panteon Hindu serta stupika kecil peninggalan umat Buddha."
+                },
+                {
+                    "q": "Bagaimana kondisi keawetan artefak batu kuno tersebut?",
+                    "mode": "ai",
+                    "answer": "Arca dan batu dipelihara secara hati-hati agar lapuknya batu akibat cuaca dapat dicegah."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Masa Hindu Buddha Museum Ranggawarsita.",
+                "describeHere": "Patunghindu adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Gedungb",
+            "displayName": "Ruang Koleksi Arca Masa Hindu Buddha Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-arca-masa-hindu-buddha-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Arca Masa Hindu Buddha Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri khusus yang memajang mahakarya pahatan arca batu klasik.",
+            "description": "Ruang Koleksi Arca Masa Hindu-Buddha memamerkan keahlian para pematung masa lalu dalam memahat batu andesit. Setiap arca memiliki detail estetika yang mencerminkan tingkat peradaban seni pahat yang sangat tinggi.",
+            "highlights": [
+                "Miniatur",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Gedungb",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Arca dewa siapa saja yang dapat dilihat di galeri ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat arca Siwa, Wisnu, Agastya, Ganesha, serta arca Bodhisatwa dari tradisi Buddha."
+                },
+                {
+                    "q": "Bagaimana teknik pembuatan arca pada masa lampau?",
+                    "mode": "ai",
+                    "answer": "Dipahat secara manual menggunakan palu dan pahat batu khusus berdasarkan aturan ikonografi kitab suci."
+                },
+                {
+                    "q": "Apakah arca-arca ini ditemukan utuh saat pertama kali digali?",
+                    "mode": "ai",
+                    "answer": "Sebagian ditemukan utuh, sementara beberapa lainnya melalui proses restorasi kepurbakalaan."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:211"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Arca Masa Hindu Buddha Museum Ranggawarsita.",
+                "describeHere": "Gedungb adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Kapal",
+            "displayName": "Ruang Koleksi Miniatur Kapal Masa Klasik Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-miniatur-kapal-masa-klasik-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Miniatur Kapal Masa Klasik Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Replika miniatur kapal tradisional yang membuktikan kejayaan maritim Nusantara.",
+            "description": "Ruang Koleksi Miniatur Kapal Masa Klasik menampilkan bentuk kapal layar kuno yang gagah berani mengarungi samudra. Miniatur ini merujuk pada relief candi Borobudur yang menggambarkan kapal dagang dan perang masa lampau.",
+            "highlights": [
+                "Layar",
+                "Model kapal"
+            ],
+            "talkingPoints": [
+                "Kapal",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapal apa yang paling terkenal direkonstruksi menjadi miniatur di sini?",
+                    "mode": "ai",
+                    "answer": "Kapal Borobudur bercadik ganda yang megah dan terkenal dalam relief sejarah maritim."
+                },
+                {
+                    "q": "Apakah nenek moyang bangsa kita sudah mahir membuat kapal besar?",
+                    "mode": "ai",
+                    "answer": "Sangat mahir, bangsa Nusantara terkenal sebagai pelaut ulung yang menjelajahi samudra luas."
+                },
+                {
+                    "q": "Bahan apa yang digunakan untuk membuat miniatur kapal ini?",
+                    "mode": "ai",
+                    "answer": "Dibuat dari kayu pilihan dengan detail tali temali dan layar replika yang sangat teliti."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Miniatur Kapal Masa Klasik Museum Ranggawarsita.",
+                "describeHere": "Kapal adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Galeri",
+            "displayName": "Ruang Masa Perkembangan Islam Museum Ranggawarsita",
+            "placeId": "ruang-masa-perkembangan-islam-museum-ranggawarsita",
+            "placeName": "Ruang Masa Perkembangan Islam Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Eksplorasi sejarah masuk dan berkembangnya agama Islam di tanah Jawa.",
+            "description": "Ruang Masa Perkembangan Islam menceritakan syiar dakwah para Wali Songo serta akulturasi budaya Islam dengan tradisi lokal. Koleksi di ruangan ini mencakup naskah kuno, peninggalan masjid, dan atribut dakwah bersejarah.",
+            "highlights": [
+                "Perkakas",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Galeri",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Peran siapa yang paling disorot dalam penyebaran Islam di Jawa?",
+                    "mode": "ai",
+                    "answer": "Peran strategis para wali (Wali Songo) serta para sultan kerajaan Islam awal di pesisir Jawa."
+                },
+                {
+                    "q": "Artefak apa saja yang menjadi sorotan di ruang Islam ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat replika peninggalan masjid kuno, naskah Al-Quran tulis tangan, serta alat musik rebana kuno."
+                },
+                {
+                    "q": "Bagaimana proses masuknya Islam yang digambarkan di sini?",
+                    "mode": "ai",
+                    "answer": "Digambarkan berjalan secara damai melalui pendekatan perdagangan, dakwah kultural, dan seni."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Masa Perkembangan Islam Museum Ranggawarsita.",
+                "describeHere": "Galeri adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Jambangan",
+            "displayName": "Ruang Koleksi Masa Perkembangan Islam Nyi Ageng Maloka Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-masa-perkembangan-islam-nyi-ageng-maloka-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Masa Perkembangan Islam Nyi Ageng Maloka Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Galeri khusus yang mengenang tokoh dan artefak bersejarah era Islam Nyi Ageng Maloka.",
+            "description": "Ruangan ini dinamai untuk menghargai tokoh penting serta memamerkan koleksi peninggalan era Islam yang bernilai tinggi. Pengunjung dapat menyelami kisah keteladanan dan kontribusi tokoh tersebut dalam sejarah keagamaan.",
+            "highlights": [
+                "Wadah besar",
+                "Kaca"
+            ],
+            "talkingPoints": [
+                "Jambangan",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Siapa sosok Nyi Ageng Maloka dalam sejarah lokal?",
+                    "mode": "ai",
+                    "answer": "Beliau adalah tokoh perempuan penting yang berjasa dalam perkembangan dakwah dan kebudayaan Islam di tanah Jawa."
+                },
+                {
+                    "q": "Koleksi apa saja yang dipamerkan di ruang khusus ini?",
+                    "mode": "ai",
+                    "answer": "Koleksi busana tradisional bernuansa Islami, naskah tua, dan perkakas peninggalan masa tersebut."
+                },
+                {
+                    "q": "Mengapa nama beliau diabadikan di salah satu ruang museum?",
+                    "mode": "ai",
+                    "answer": "Sebagai bentuk penghormatan atas jasa besar beliau terhadap syiar agama dan kebudayaan masyarakat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Masa Perkembangan Islam Nyi Ageng Maloka Museum Ranggawarsita.",
+                "describeHere": "Jambangan adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Galeri",
+            "displayName": "Koridor Koleksi Wayang Perkembangan Islam Museum Ranggawarsita",
+            "placeId": "koridor-koleksi-wayang-perkembangan-islam-museum-ranggawarsita",
+            "placeName": "Koridor Koleksi Wayang Perkembangan Islam Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor penghubung yang menampilkan evolusi wayang sebagai media dakwah Islam.",
+            "description": "Koridor Koleksi Wayang Perkembangan Islam memajang figur wayang sufi dan wayang beger yang bernafaskan ajaran Islam. Sunan Kalijaga menggunakan media wayang ini untuk menyebarkan nilai-nilai ketauhidan secara arif.",
+            "highlights": [
+                "Lukisan",
+                "Ornamen"
+            ],
+            "talkingPoints": [
+                "Galeri",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana cara Sunan Kalijaga memanfaatkan wayang untuk dakwah?",
+                    "mode": "ai",
+                    "answer": "Beliau memasukkan unsur filsafat ketuhanan dan menyempurnakan bentuk wayang agar sesuai ajaran Islam."
+                },
+                {
+                    "q": "Jenis wayang apa saja yang dipajang di koridor ini?",
+                    "mode": "ai",
+                    "answer": "Terdapat ragam wayang purwa dengan sentuhan ikonografi baru yang disesuaikan pada masa Islam."
+                },
+                {
+                    "q": "Mengapa koridor ini didesain sebagai jalan penghubung?",
+                    "mode": "ai",
+                    "answer": "Agar pengunjung dapat merasakan transisi alur sejarah dari era Hindu-Buddha menuju era perkembangan Islam."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Koridor Koleksi Wayang Perkembangan Islam Museum Ranggawarsita.",
+                "describeHere": "Galeri adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node38": {
+            "rawName": "Tandu",
+            "displayName": "Ruang Koleksi Perjuangan Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-perjuangan-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Perjuangan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Saksi bisu perlawanan bangsa Indonesia merebut dan mempertahankan kemerdekaan.",
+            "description": "Ruang Koleksi Perjuangan menampilkan senjata tradisional, seragam pahlawan, serta diorama pertempuran rakyat melawan penjajah. Ruangan ini membangkitkan rasa nasionalisme dan penghormatan terhadap jasa para pejuang.",
+            "highlights": [
+                "Tandu",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Tandu",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Peristiwa pertempuran apa yang paling ditonjolkan di ruangan ini?",
+                    "mode": "ai",
+                    "answer": "Perjuangan kemerdekaan secara umum serta pertempuran heroik rakyat di wilayah Jawa Tengah."
+                },
+                {
+                    "q": "Senjata apa saja yang digunakan pejuang kala itu?",
+                    "mode": "ai",
+                    "answer": "Mulai dari bambu runcing, senjata api rampasan perang, hingga senjata tradisional seperti keris dan mandau."
+                },
+                {
+                    "q": "Apakah ada galeri foto dokumentasi para pahlawan?",
+                    "mode": "ai",
+                    "answer": "Ya, dipajang foto-foto dokumentasi bersejarah para tokoh pahlawan nasional dan pejuang lokal."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Perjuangan Museum Ranggawarsita.",
+                "describeHere": "Tandu adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Diorama",
+            "displayName": "Ruang Koleksi Senjata Masa Perjuangan Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-senjata-masa-perjuangan-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Senjata Masa Perjuangan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran beragam senjata konvensional yang dipakai dalam pertempuran kemerdekaan.",
+            "description": "Ruang Koleksi Senjata Masa Perjuangan memajang berbagai perlengkapan militer kuno dan senjata rampasan perang. Koleksi ini menjadi bukti nyata keterbatasan alat yang diimbangi semangat membara para pejuang.",
+            "highlights": [
+                "Adegan",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Diorama",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah senjata api yang dipajang adalah senjata asli?",
+                    "mode": "ai",
+                    "answer": "Ya, sebagian besar merupakan senapan dan pistol asli yang digunakan dalam masa perang kemerdekaan."
+                },
+                {
+                    "q": "Selain senjata api, senjata apa lagi yang diandalkan pejuang?",
+                    "mode": "ai",
+                    "answer": "Senjata tajam tradisional seperti pedang, parang, celurit, dan tombak bambu runcing."
+                },
+                {
+                    "q": "Bagaimana kondisi perawatan senjata-senjata tua tersebut?",
+                    "mode": "ai",
+                    "answer": "Senjata dirawat secara berkala menggunakan cairan pelindung anti-karat khusus agar tidak rusak."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Senjata Masa Perjuangan Museum Ranggawarsita.",
+                "describeHere": "Diorama adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "Gedungc",
+            "displayName": "Ruang Diorama Perjuangan Pangeran Diponegoro Museum Ranggawarsita",
+            "placeId": "ruang-diorama-perjuangan-pangeran-diponegoro-museum-ranggawarsita",
+            "placeName": "Ruang Diorama Perjuangan Pangeran Diponegoro Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kisah kepahlawanan Pangeran Diponegoro dalam Perang Jawa yang heroik.",
+            "description": "Ruang Diorama Perjuangan Pangeran Diponegoro merekonstruksi strategi perang gerilya melawan kolonial Belanda (1825-1830). Diorama ini mengisahkan keteguhan pahlawan besar tersebut dalam membela tanah air.",
+            "highlights": [
+                "Lukisan besar",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Gedungc",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan Perang Jawa yang dipimpin Pangeran Diponegoro terjadi?",
+                    "mode": "ai",
+                    "answer": "Perang Jawa atau Perang Diponegoro meletus pada rentang tahun 1825 hingga 1830."
+                },
+                {
+                    "q": "Apa strategi utama yang digunakan Pangeran Diponegoro?",
+                    "mode": "ai",
+                    "answer": "Beliau menggunakan strategi perang gerilya dengan memanfaatkan dukungan kuat dari para ulama dan rakyat desa."
+                },
+                {
+                    "q": "Atribut apa saja yang dipamerkan di ruang diorama ini?",
+                    "mode": "ai",
+                    "answer": "Replika pakaian panglima perang, peta strategi pertempuran, dan diorama markas gerilya."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:212"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Diorama Perjuangan Pangeran Diponegoro Museum Ranggawarsita.",
+                "describeHere": "Gedungc adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Galeri Pakaian Adat",
+            "displayName": "Ruang Galeri Kebudayaan Museum Ranggawarsita",
+            "placeId": "ruang-galeri-kebudayaan-museum-ranggawarsita",
+            "placeName": "Ruang Galeri Kebudayaan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Eksplorasi kekayaan seni, tradisi, dan kebudayaan masyarakat Jawa Tengah.",
+            "description": "Ruang Galeri Kebudayaan menyajikan ragam kerajinan tangan, alat musik, dan tradisi lokal dari berbagai kabupaten di Jawa Tengah. Galeri ini merayakan keberagaman budaya yang hidup harmonis di tengah masyarakat.",
+            "highlights": [
+                "Maneken",
+                "Pakaian"
+            ],
+            "talkingPoints": [
+                "Galeri Pakaian Adat",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kerajinan khas daerah apa saja yang ditampilkan di sini?",
+                    "mode": "ai",
+                    "answer": "Mulai dari ukiran kayu Jepara, kerajinan tembaga Boyolali, hingga anyaman bambu tradisional."
+                },
+                {
+                    "q": "Apakah galeri ini juga menampilkan informasi tentang upacara adat?",
+                    "mode": "ai",
+                    "answer": "Ya, terdapat penjelasan mengenai berbagai ritus siklus hidup dan upacara syukur panen masyarakat Jawa."
+                },
+                {
+                    "q": "Apakah anak sekolah sering berkunjung untuk tugas kebudayaan?",
+                    "mode": "ai",
+                    "answer": "Sangat sering, galeri ini menjadi referensi utama bagi pelajar yang mengerjakan tugas muatan lokal."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Galeri Kebudayaan Museum Ranggawarsita.",
+                "describeHere": "Galeri Pakaian Adat adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "GaleriPakaian Adat",
+            "displayName": "Ruang Galeri Pakaian Adat Museum Ranggawarsita",
+            "placeId": "ruang-galeri-pakaian-adat-museum-ranggawarsita",
+            "placeName": "Ruang Galeri Pakaian Adat Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran busana tradisional pengantin dan pakaian adat dari berbagai daerah.",
+            "description": "Ruang Galeri Pakaian Adat memamerkan keindahan busana tradisional lengkap dengan atribut perhiasan pengantin klasik. Pakaian adat ini mencerminkan estetika tinggi serta makna filosofis dalam setiap balutan kainnya.",
+            "highlights": [
+                "Pakaian",
+                "Etalase"
+            ],
+            "talkingPoints": [
+                "GaleriPakaian Adat",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Pakaian adat pengantin gaya apa saja yang dipamerkan?",
+                    "mode": "ai",
+                    "answer": "Terdapat busana pengantin gaya Solo, Yogyakarta, Surakarta, serta ragam pakaian adat pesisiran."
+                },
+                {
+                    "q": "Terbuat dari bahan apa kain jarik yang menyertai busana adat?",
+                    "mode": "ai",
+                    "answer": "Umumnya menggunakan kain batik tulis asli dengan corak pakem keraton yang sarat makna."
+                },
+                {
+                    "q": "Apakah hiasan kepala atau paes pengantin juga ditampilkan?",
+                    "mode": "ai",
+                    "answer": "Ya, lengkap dengan hiasan cunduk mentul, melati, dan atribut pelengkap busana tradisional lainnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Galeri Pakaian Adat Museum Ranggawarsita.",
+                "describeHere": "GaleriPakaian Adat adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node32": {
+            "rawName": "Pasren",
+            "displayName": "Area Galeri Adat Istiadat Budaya Museum Ranggawarsita",
+            "placeId": "area-galeri-adat-istiadat-budaya-museum-ranggawarsita",
+            "placeName": "Area Galeri Adat Istiadat Budaya Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut galeri yang mendokumentasikan tradisi luhur dan adat istiadat masyarakat.",
+            "description": "Area Galeri Adat Istiadat Budaya memaparkan tata cara tradisi turun-temurun yang masih dilestarikan masyarakat. Pengunjung dapat mengenal lebih dekat kearifan lokal yang membentuk karakter masyarakat Nusantara.",
+            "highlights": [
+                "Tirai",
+                "Ruang tradisional"
+            ],
+            "talkingPoints": [
+                "Pasren",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Tradisi apa saja yang dibahas dalam galeri adat ini?",
+                    "mode": "ai",
+                    "answer": "Mulai dari tradisi bersih desa, sedekah laut, hingga upacara adat siklus kehidupan manusia."
+                },
+                {
+                    "q": "Mengapa adat istiadat ini penting untuk dilestarikan?",
+                    "mode": "ai",
+                    "answer": "Karena mengandung nilai gotong royong, penghormatan kepada alam, dan mempererat kebersamaan warga."
+                },
+                {
+                    "q": "Apakah ada media visual seperti foto atau video dokumenter?",
+                    "mode": "ai",
+                    "answer": "Terdapat panel foto dokumentasi upacara adat asli yang sedang berlangsung di daerah."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Galeri Adat Istiadat Budaya Museum Ranggawarsita.",
+                "describeHere": "Pasren adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node24": {
+            "rawName": "Gedungd",
+            "displayName": "Area Galeri Pakaian dan Alat Musik  Tradisional Museum Ranggawarsita",
+            "placeId": "area-galeri-pakaian-dan-alat-musik-tradisional-museum-ranggawarsita",
+            "placeName": "Area Galeri Pakaian dan Alat Musik  Tradisional Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Gedung D – Galeri Budaya menampilkan vitrin dan figur di Museum Ranggawarsita.",
+            "description": "Pandangan Gedung D – Galeri Budaya menampilkan vitrin dan figur di Museum Ranggawarsita. Ruang pamer menghubungkan benda, gambar, dan keterangan agar pengunjung dapat membaca konteksnya. Vitrin serta panel membantu membedakan objek koleksi dengan bagian penjelasan. Lihat bentuk keseluruhan, lalu perhatikan detail dan label yang menyertainya. Berpindah sudut dapat membantu mengurangi pantulan pada kaca.",
+            "highlights": [
+                "Vitrin",
+                "Figur"
+            ],
+            "talkingPoints": [
+                "Gedungd",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Gedung D – Galeri Budaya menunjukkan karakter Museum Ranggawarsita – Gedung D – Galeri Budaya?",
+                    "mode": "fix",
+                    "answer": "Pandangan Gedung D – Galeri Budaya menampilkan vitrin dan figur di Museum Ranggawarsita. Pandangan Gedung D – Galeri Budaya menampilkan vitrin dan figur di Museum Ranggawarsita. Ruang pamer menghubungkan benda, gambar, dan keterangan agar pengunjung dapat membaca konteksnya. Vitrin serta panel membantu membedakan objek koleksi dengan bagian penjelasan. Lihat bentuk keseluruhan, lalu perhatikan detail dan label yang menyertainya. Berpindah sudut dapat membantu mengurangi pantulan pada kaca. Gedung serba guna yang dirancang untuk acara publik dan pribadi. Dilengkapi untuk mendukung berbagai kegiatan, termasuk pameran dan pertemuan kolaboratif."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Vitrin dan Figur di Gedung D – Galeri Budaya?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pandangan Gedung D – Galeri Budaya menampilkan vitrin dan figur di Museum Ranggawarsita."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Gedung D – Galeri Budaya?",
+                    "mode": "fix",
+                    "answer": "Vitrin paling langsung membantu mengenali area ini. Pandangan Gedung D – Galeri Budaya menampilkan vitrin dan figur di Museum Ranggawarsita."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:213"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Galeri Pakaian dan Alat Musik  Tradisional Museum Ranggawarsita.",
+                "describeHere": "Gedungd adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node25": {
+            "rawName": "Taman",
+            "displayName": "Area Taman Tengah Museum Ranggawarsita",
+            "placeId": "area-taman-tengah-museum-ranggawarsita",
+            "placeName": "Area Taman Tengah Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman hijau terbuka di tengah kompleks museum yang sejuk dan menyegarkan.",
+            "description": "Area Taman Tengah Museum Ranggawarsita menyediakan ruang terbuka hijau yang asri di antara gedong-gedong pameran. Taman ini dihiasi tanaman hias dan pepohonan rindang, menjadi tempat favorit pengunjung melepas lelah.",
+            "highlights": [
+                "Pohon",
+                "Kolam"
+            ],
+            "talkingPoints": [
+                "Taman",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah pengunjung boleh bersantai di area taman tengah ini?",
+                    "mode": "ai",
+                    "answer": "Ya, tersedia bangku taman di bawah rindangnya pohon bagi pengunjung yang ingin beristirahat."
+                },
+                {
+                    "q": "Apakah di taman ini terdapat koleksi benda bersejarah outdoor?",
+                    "mode": "ai",
+                    "answer": "Beberapa replika atau artefak batu tahan cuaca terkadang ditempatkan di sudut area taman."
+                },
+                {
+                    "q": "Bagaimana suasana di sekitar taman ini pada siang hari?",
+                    "mode": "ai",
+                    "answer": "Suasananya cukup teduh, sejuk, dan terhindar dari kebisingan jalan raya di luar museum."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Taman Tengah Museum Ranggawarsita.",
+                "describeHere": "Taman adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node26": {
+            "rawName": "Koridor Aula",
+            "displayName": "Pendopo Museum Ranggawarsita",
+            "placeId": "pendopo-museum-ranggawarsita",
+            "placeName": "Pendopo Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pendopo joglo berarsitektur tradisional Jawa yang megah di area museum.",
+            "description": "Pendopo Museum Ranggawarsita menampilkan arsitektur bangunan joglo kayu jati tua yang kokoh dan berwibawa. Tempat ini sering difungsikan sebagai pusat penyambutan tamu agung serta pementasan kesenian tradisional.",
+            "highlights": [
+                "Pilar kayu",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Koridor Aula",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Arsitektur gaya bangunan apa yang digunakan pada pendopo ini?",
+                    "mode": "ai",
+                    "answer": "Menggunakan arsitektur rumah tradisional Jawa tipe Joglo dengan saka guru kayu jati kokoh."
+                },
+                {
+                    "q": "Kegiatan apa saja yang sering memanfaatkan pendopo ini?",
+                    "mode": "ai",
+                    "answer": "Pertemuan adat, sarasehan budaya, pementasan tari klasik, hingga pelatihan gamelan."
+                },
+                {
+                    "q": "Apakah ukiran kayu pada pendopo ini asli buatan tangan?",
+                    "mode": "ai",
+                    "answer": "Ya, dihiasi dengan ukiran ornamen khas Jepara yang detail pada bagian usuk dan tumpangsari."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Pendopo Museum Ranggawarsita.",
+                "describeHere": "Koridor Aula adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node27": {
+            "rawName": "Ranggawarsita",
+            "displayName": "Landmark Monumen Museum Ranggawarsita",
+            "placeId": "landmark-monumen-museum-ranggawarsita",
+            "placeName": "Landmark Monumen Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Monumen ikonik penanda berdirinya kawasan Museum Ranggawarsita di Semarang.",
+            "description": "Landmark Monumen Museum Ranggawarsita berdiri tegak sebagai simbol identitas pusat pelestarian sejarah provinsi. Monumen ini sering dijadikan latar belakang foto kenang-kenangan oleh para wisatawan yang datang.",
+            "highlights": [
+                "Patung dada",
+                "Ukiran"
+            ],
+            "talkingPoints": [
+                "Ranggawarsita",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan Museum Ranggawarsita ini secara resmi didirikan?",
+                    "mode": "ai",
+                    "answer": "Museum ini diresmikan pada tahun 1980-an sebagai pusat informasi kebudayaan Jawa Tengah."
+                },
+                {
+                    "q": "Siapa tokoh yang namanya diabadikan sebagai nama museum ini?",
+                    "mode": "ai",
+                    "answer": "Nama tersebut diambil dari pujangga besar penutup tanah Jawa, Ranggawarsita."
+                },
+                {
+                    "q": "Di mana letak persis monumen ikonik ini di dalam kompleks?",
+                    "mode": "ai",
+                    "answer": "Terletak di area halaman depan yang mudah terlihat begitu pengunjung melewati gerbang masuk."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Landmark Monumen Museum Ranggawarsita.",
+                "describeHere": "Ranggawarsita adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node28": {
+            "rawName": "Galeri Emas",
+            "displayName": "Stempel dan Peralatan Emas Ruang Pameran Emas Museum Ranggawarsita",
+            "placeId": "stempel-dan-peralatan-emas-ruang-pameran-emas-museum-ranggawarsita",
+            "placeName": "Stempel dan Peralatan Emas Ruang Pameran Emas Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koleksi stempel kuno dan peralatan pengolahan logam mulia masa lampau.",
+            "description": "Bagian dari ruang emas ini memamerkan artefak stempel kerajaan serta alat-alat yang digunakan para empu menempa logam mulia. Koleksi ini mengungkap teknologi pembuatan perhiasan pada masa kerajaan kuno.",
+            "highlights": [
+                "Hiasan",
+                "Label"
+            ],
+            "talkingPoints": [
+                "Galeri Emas",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari stempel kuno yang dipamerkan di sini?",
+                    "mode": "ai",
+                    "answer": "Digunakan oleh penguasa atau pejabat kerajaan untuk mengesahkan surat keputusan atau dokumen resmi."
+                },
+                {
+                    "q": "Peralatan apa saja yang digunakan para empu zaman dulu?",
+                    "mode": "ai",
+                    "answer": "Landasan tempa kecil, cetakan logam, capit perunggu, dan alat penimbang emas kuno."
+                },
+                {
+                    "q": "Seberapa detail ukiran pada stempel kerajaan tersebut?",
+                    "mode": "ai",
+                    "answer": "Sangat detail dengan aksara Jawa kuno atau simbol lambang kekuasaan kerajaan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Stempel dan Peralatan Emas Ruang Pameran Emas Museum Ranggawarsita.",
+                "describeHere": "Galeri Emas adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node29": {
+            "rawName": "Gajah",
+            "displayName": "Ruang Koleksi Fauna Prasejarah Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-fauna-prasejarah-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Fauna Prasejarah Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fosil kerangka binatang purba raksasa yang pernah hidup di tanah Jawa.",
+            "description": "Ruang Koleksi Fauna Prasejarah memajang fosil-fosil hewan purba seperti gajah purba, kerbau purba, dan harimau purba. Koleksi ini membuktikan kekayaan paleontologi Indonesia yang mendunia.",
+            "highlights": [
+                "Rangka",
+                "Gading"
+            ],
+            "talkingPoints": [
+                "Gajah",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fosil hewan apa yang ukurannya paling besar di ruangan ini?",
+                    "mode": "ai",
+                    "answer": "Kerangka fosil gajah purba (Stegodon trigonocephalus) yang hampir utuh."
+                },
+                {
+                    "q": "Bagaimana proses penyelamatan fosil raksasa tersebut?",
+                    "mode": "ai",
+                    "answer": "Diekskavasi secara hati-hati oleh para ahli purbakala dan direkonstruksi menggunakan kerangka penyangga."
+                },
+                {
+                    "q": "Apakah jutaan tahun lalu Jawa Tengah dihuni banyak hewan besar?",
+                    "mode": "ai",
+                    "answer": "Ya, dulunya wilayah ini berupa padang rumput dan rawa purba yang kaya akan sumber air dan makanan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Fauna Prasejarah Museum Ranggawarsita.",
+                "describeHere": "Gajah adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node31": {
+            "rawName": "Gunungan",
+            "displayName": "Gunungan Blumbangan Selamat Datang Museum Ranggawarsita",
+            "placeId": "gunungan-blumbangan-selamat-datang-museum-ranggawarsita",
+            "placeName": "Gunungan Blumbangan Selamat Datang Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Replika Gunungan wayang megah yang menyambut tamu di area museum.",
+            "description": "Gunungan Blumbangan Selamat Datang merupakan dekorasi artistik berbentuk gunungan wayang kulit yang monumental. Filosofi gunungan ini melambangkan gerbang pembuka cerita kehidupan dan semesta alam.",
+            "highlights": [
+                "Gunungan",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Gunungan",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa arti filosofis dari bentuk Gunungan dalam pewayangan?",
+                    "mode": "ai",
+                    "answer": "Melambangkan kehidupan semesta, pintu gerbang pertunjukan, serta awal dan akhir dari suatu babak."
+                },
+                {
+                    "q": "Mengapa gunungan dipilih sebagai simbol sambutan di museum?",
+                    "mode": "ai",
+                    "answer": "Sebagai ucapan selamat datang secara filosofis bagi siapa pun yang memasuki gerbang pengetahuan budaya."
+                },
+                {
+                    "q": "Apakah gunungan ini diukir dengan detail pakem tradisional?",
+                    "mode": "ai",
+                    "answer": "Ya, lengkap dengan gambar pohon hayat, gerbang kahyangan, dan api di bagian tengahnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Gunungan Blumbangan Selamat Datang Museum Ranggawarsita.",
+                "describeHere": "Gunungan adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node39": {
+            "rawName": "Galeri",
+            "displayName": "Galeri Plakat Warisan Budaya Jawa Tengah Museum Ranggawarsita",
+            "placeId": "galeri-plakat-warisan-budaya-jawa-tengah-museum-ranggawarsita",
+            "placeName": "Galeri Plakat Warisan Budaya Jawa Tengah Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Daftar plakat penghargaan dan dokumentasi situs warisan budaya di Jawa Tengah.",
+            "description": "Galeri Plakat Warisan Budaya memamerkan prasasti penghargaan serta inventarisasi cagar budaya penting di Jawa Tengah. Ruangan ini memberikan informasi mengenai situs-situs yang dilindungi undang-undang pelestarian.",
+            "highlights": [
+                "Panel",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Galeri",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa isi utama dari plakat-plakat warisan budaya ini?",
+                    "mode": "ai",
+                    "answer": "Berisi penetapan status cagar budaya baik tingkat nasional maupun regional di wilayah Jawa Tengah."
+                },
+                {
+                    "q": "Situs apa saja yang sering masuk dalam daftar pelestarian?",
+                    "mode": "ai",
+                    "answer": "Mulai dari candi-candi Hindu-Buddha, bangunan kolonial bersejarah, hingga situs purbakala penting."
+                },
+                {
+                    "q": "Siapa yang bertanggung jawab merawat situs-situs budaya tersebut?",
+                    "mode": "ai",
+                    "answer": "Dikelola bersama oleh balai pelestarian kebudayaan, pemerintah daerah, dan komunitas masyarakat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Galeri Plakat Warisan Budaya Jawa Tengah Museum Ranggawarsita.",
+                "describeHere": "Galeri adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node30": {
+            "rawName": "Galeri Prasejarah",
+            "displayName": "Ruang Mahakarya Museum Ranggawarsita",
+            "placeId": "ruang-mahakarya-museum-ranggawarsita",
+            "placeName": "Ruang Mahakarya Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran eksklusif koleksi masterpiece atau benda pilihan terbaik museum.",
+            "description": "Ruang Mahakarya menampilkan koleksi-koleksi paling istimewa, langka, dan bernilai seni tinggi dari seluruh gedung pameran. Ruangan ini menjadi sorotan utama bagi pengunjung yang ingin melihat karya terbaik peradaban.",
+            "highlights": [
+                "Panel pengantar",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Galeri Prasejarah",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kriteria apa yang membuat suatu benda masuk ruang mahakarya?",
+                    "mode": "ai",
+                    "answer": "Memiliki tingkat kelangkaan tinggi, keindahan estetika luar biasa, dan nilai sejarah yang sangat penting."
+                },
+                {
+                    "q": "Benda apa saja yang biasanya dipajang di ruang pilihan ini?",
+                    "mode": "ai",
+                    "answer": "Koleksi arca terbaik, perhiasan emas pilihan, dan naskah kuno berilluminasi indah."
+                },
+                {
+                    "q": "Apakah koleksi di ruang mahakarya ini sering dirotasi?",
+                    "mode": "ai",
+                    "answer": "Rotasi dilakukan sesekali demi keamanan dan untuk memberikan kesempatan pamer bagi koleksi langka lainnya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Mahakarya Museum Ranggawarsita.",
+                "describeHere": "Galeri Prasejarah adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node41": {
+            "rawName": "Gedunga",
+            "displayName": "Ruang Koleksi Meteorid Museum Ranggawarsita",
+            "placeId": "ruang-koleksi-meteorid-museum-ranggawarsita",
+            "placeName": "Ruang Koleksi Meteorid Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pameran pecahan batu meteor luar angkasa yang pernah jatuh ke bumi.",
+            "description": "Ruang Koleksi Meteorid memajang sampel batu luar angkasa asli yang ditemukan di wilayah Indonesia. Pengunjung dapat melihat langsung tekstur unik batu kosmik yang menembus atmosfer bumi.",
+            "highlights": [
+                "Replika batu",
+                "Panel"
+            ],
+            "talkingPoints": [
+                "Gedunga",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kapan dan di mana meteor ini ditemukan?",
+                    "mode": "ai",
+                    "answer": "Batu meteor ini ditemukan dari peristiwa jatuhnya benda langit di wilayah Nusantara pada masa lalu."
+                },
+                {
+                    "q": "Bagaimana cara mengenali bahwa batu tersebut adalah meteorit?",
+                    "mode": "ai",
+                    "answer": "Memiliki kandungan logam besi-nikel yang tinggi serta kerak fusi (fusion crust) akibat gesekan udara."
+                },
+                {
+                    "q": "Bolehkah pengunjung menyentuh sampel batu meteor di sini?",
+                    "mode": "ai",
+                    "answer": "Biasanya batu dilindungi dalam kotak kaca khusus demi keamanan dan keawetan sampel."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:210"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruang Koleksi Meteorid Museum Ranggawarsita.",
+                "describeHere": "Gedunga adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node33": {
+            "rawName": "Galeri",
+            "displayName": "Area Lukisan Sejarah Perjuangan Museum Ranggawarsita",
+            "placeId": "area-lukisan-sejarah-perjuangan-museum-ranggawarsita",
+            "placeName": "Area Lukisan Sejarah Perjuangan Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koleksi lukisan kanvas monumental yang merekam detik-detik perjuangan bangsa.",
+            "description": "Area Lukisan Sejarah Perjuangan memajang karya seni lukis berukuran besar karya pelukis master lokal. Lukisan-lukisan ini menggambarkan heroisme pertempuran dan momen penting dalam sejarah kemerdekaan.",
+            "highlights": [
+                "Lukisan",
+                "Tokoh"
+            ],
+            "talkingPoints": [
+                "Galeri",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Gaya lukisan apa yang dominan dipamerkan di area ini?",
+                    "mode": "ai",
+                    "answer": "Dominan menggunakan gaya realisme historis yang menggambarkan situasi perang secara dramatis."
+                },
+                {
+                    "q": "Siapa pelukis di balik karya-karya sejarah perjuangan ini?",
+                    "mode": "ai",
+                    "answer": "Merupakan karya seniman perupa dan pelukis maestro nasional yang mengabdikan diri pada tema perjuangan."
+                },
+                {
+                    "q": "Pesan apa yang ingin disampaikan melalui galeri lukisan ini?",
+                    "mode": "ai",
+                    "answer": "Menumbuhkan rasa cinta tanah air dan mengenang pengorbanan tanpa pamrih para pahlawan bangsa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Lukisan Sejarah Perjuangan Museum Ranggawarsita.",
+                "describeHere": "Galeri adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node35": {
+            "rawName": "Galeri Emas",
+            "displayName": "Perhiasan Emas Ruang Pameran Emas Museum Ranggawarsita",
+            "placeId": "perhiasan-emas-ruang-pameran-emas-museum-ranggawarsita",
+            "placeName": "Perhiasan Emas Ruang Pameran Emas Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koleksi detail perhiasan emas kuno seperti gelang, anting, dan kalung bangsawan.",
+            "description": "Etalase khusus perhiasan emas ini menampilkan kemewahan aksesori yang dikenakan para raja dan bangsawan masa lalu. Desain ukirannya membuktikan tingkat keahlian perajin logam kuno yang luar biasa.",
+            "highlights": [
+                "Vitrin bercahaya",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Galeri Emas",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis perhiasan apa saja yang paling banyak tersimpan?",
+                    "mode": "ai",
+                    "answer": "Terdapat gelang kaki, kalung berliontin permata, anting-anting emas, dan ikat pinggang kerajaan."
+                },
+                {
+                    "q": "Apakah perhiasan tersebut masih berkilau hingga saat ini?",
+                    "mode": "ai",
+                    "answer": "Ya, karena emas murni tidak mengalami oksidasi atau korosi meskipun tertimbun ratusan tahun di dalam tanah."
+                },
+                {
+                    "q": "Apakah motif perhiasan ini terinspirasi dari alam?",
+                    "mode": "ai",
+                    "answer": "Sebagian besar bermotif flora, fauna mitologi, serta lambang matahari kebesaran kerajaan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Perhiasan Emas Ruang Pameran Emas Museum Ranggawarsita.",
+                "describeHere": "Galeri Emas adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node36": {
+            "rawName": "Museum Ranggawarsita",
+            "displayName": "Area Penghubung Museum Ranggawarsita",
+            "placeId": "area-penghubung-museum-ranggawarsita",
+            "placeName": "Area Penghubung Museum Ranggawarsita",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor dan selasar penghubung antar gedung pameran utama museum.",
+            "description": "Area Penghubung Museum Ranggawarsita merupakan lorong selasar terbuka yang menghubungkan satu gedung pameran dengan gedung lainnya. Desainnya yang teduh memudahkan pengunjung berpindah tema sejarah tanpa kehujanan.",
+            "highlights": [
+                "Gapura bata",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Museum Ranggawarsita",
+                "jalur eksplorasi",
+                "Museumranggawarsita"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Gedung mana saja yang dihubungkan oleh selasar ini?",
+                    "mode": "ai",
+                    "answer": "Menghubungkan ruang pameran prasejarah, masa klasik Hindu-Buddha, hingga ruang perjuangan."
+                },
+                {
+                    "q": "Apakah selasar ini ramah untuk pengguna kursi roda?",
+                    "mode": "ai",
+                    "answer": "Ya, jalurnya dibuat landai dan rata untuk memudahkan akses mobilitas seluruh pengunjung."
+                },
+                {
+                    "q": "Apakah ada fasilitas tempat duduk di sepanjang koridor penghubung?",
+                    "mode": "ai",
+                    "answer": "Terdapat beberapa titik kursi istirahat bagi pengunjung yang ingin menikmati angin sepoi-sepoi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area Penghubung Museum Ranggawarsita.",
+                "describeHere": "Museum Ranggawarsita adalah area di dalam kawasan Museumranggawarsita, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

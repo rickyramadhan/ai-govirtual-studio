@@ -1,0 +1,3568 @@
+window.GoVirtualTourData = {
+    "id": "upgris",
+    "name": "Upgris",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Drone Gedung Utama UPGRIS",
+            "displayName": "Drone Gedung Utama UPGRIS",
+            "rawName": "default",
+            "customNodeId": "-rone-edung-tama-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "default",
+                "Drone Gedung Utama UPGRIS"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Gedung 4 UPGRIS",
+            "displayName": "Gedung 4 UPGRIS",
+            "rawName": "default",
+            "customNodeId": "-edung-4-",
+            "pan": 1.23,
+            "tilt": -21.9,
+            "fov": 108.17,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "default",
+                "Gedung 4 UPGRIS"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Asrama Putra",
+            "displayName": "Asrama Putra",
+            "rawName": "",
+            "customNodeId": "-srama-utra",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Asrama Putra"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Asrama Putri",
+            "displayName": "Asrama Putri",
+            "rawName": "",
+            "customNodeId": "-srama-utri",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Asrama Putri"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Balairung",
+            "displayName": "Balairung",
+            "rawName": "",
+            "customNodeId": "-alairung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Balairung"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "ballroom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "ballroom"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "-allroom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Ballroom"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Ruang Fitness",
+            "displayName": "Ruang Fitness",
+            "rawName": "",
+            "customNodeId": "-uang-itness",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Ruang Fitness"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Gedung Olahraga",
+            "displayName": "Gedung Olahraga",
+            "rawName": "",
+            "customNodeId": "-edung-lahraga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Gedung Olahraga"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Kamar Asrama",
+            "displayName": "Kamar Asrama",
+            "rawName": "",
+            "customNodeId": "-amar-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Kamar Asrama"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Kepenyiaranbahasaindonesia",
+            "displayName": "Kepenyiaranbahasaindonesia",
+            "rawName": "",
+            "customNodeId": "kepenyiaranbahasaindonesia",
+            "pan": -1.92,
+            "tilt": -10.49,
+            "fov": 147.93,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "kepenyiaranbahasaindonesia"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Penyiaran Bahasa Indonesia",
+            "displayName": "Penyiaran Bahasa Indonesia",
+            "rawName": "",
+            "customNodeId": "-enyiaran-ahasa-ndonesia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Penyiaran Bahasa Indonesia"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Studiogamelan",
+            "displayName": "Studiogamelan",
+            "rawName": "",
+            "customNodeId": "studiogamelan",
+            "pan": 40.59,
+            "tilt": -10.24,
+            "fov": 160.03,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "studiogamelan"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Lab Bahasa Jawa",
+            "displayName": "Lab Bahasa Jawa",
+            "rawName": "",
+            "customNodeId": "-ab-ahasa-awa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lab Bahasa Jawa"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Labkomputer",
+            "displayName": "Labkomputer",
+            "rawName": "",
+            "customNodeId": "labkomputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "labkomputer"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Lab Komputer",
+            "displayName": "Lab Komputer",
+            "rawName": "",
+            "customNodeId": "-ab-omputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lab Komputer"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Labmultimedia",
+            "displayName": "Labmultimedia",
+            "rawName": "",
+            "customNodeId": "labmultimedia",
+            "pan": 1.55,
+            "tilt": -8.53,
+            "fov": 147.93,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "labmultimedia"
+            ]
+        },
+        {
+            "id": "node22",
+            "name": "Lapangan Basket",
+            "displayName": "Lapangan Basket",
+            "rawName": "",
+            "customNodeId": "-apangan-asket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lapangan Basket"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Gedung Olahraga",
+            "displayName": "Gedung Olahraga",
+            "rawName": "",
+            "customNodeId": "-edung-lahraga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Gedung Olahraga"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "Lapangan Tennis",
+            "displayName": "Lapangan Tennis",
+            "rawName": "",
+            "customNodeId": "-apangan-ennis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lapangan Tennis"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "Mobil",
+            "displayName": "Mobil",
+            "rawName": "",
+            "customNodeId": "mobil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "mobil"
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "Gedung Kampus 4 UPGRIS",
+            "displayName": "Gedung Kampus 4 UPGRIS",
+            "rawName": "",
+            "customNodeId": "-edung-ampus-4-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Gedung Kampus 4 UPGRIS"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node28",
+            "name": "Masjid Nurul Huda",
+            "displayName": "Masjid Nurul Huda",
+            "rawName": "",
+            "customNodeId": "-asjid-urul-uda",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid Nurul Huda"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node30",
+            "name": "Masjid Kampus",
+            "displayName": "Masjid Kampus",
+            "rawName": "",
+            "customNodeId": "-asjid-ampus",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid Kampus"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node32",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "perpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "perpustakaan"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "-erpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Perpustakaan"
+            ]
+        },
+        {
+            "id": "node34",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Pintu Masuk UPGRIS",
+            "displayName": "Pintu Masuk UPGRIS",
+            "rawName": "",
+            "customNodeId": "-intu-asuk-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Pintu Masuk UPGRIS"
+            ]
+        },
+        {
+            "id": "node36",
+            "name": "Radio",
+            "displayName": "Radio",
+            "rawName": "",
+            "customNodeId": "radio",
+            "pan": 135.33,
+            "tilt": -17.26,
+            "fov": 136,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "radio"
+            ]
+        },
+        {
+            "id": "node37",
+            "name": "Taman Baca",
+            "displayName": "Taman Baca",
+            "rawName": "",
+            "customNodeId": "-aman-aca",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Taman Baca"
+            ]
+        },
+        {
+            "id": "node38",
+            "name": "Labteknologipangan",
+            "displayName": "Labteknologipangan",
+            "rawName": "",
+            "customNodeId": "labteknologipangan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "labteknologipangan"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "Mikroskop",
+            "displayName": "Mikroskop",
+            "rawName": "",
+            "customNodeId": "mikroskop",
+            "pan": -29.41,
+            "tilt": -4.09,
+            "fov": 125.72,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "mikroskop"
+            ]
+        },
+        {
+            "id": "node40",
+            "name": "Lab Teknologi Pangan",
+            "displayName": "Lab Teknologi Pangan",
+            "rawName": "",
+            "customNodeId": "-ab-eknologi-angan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lab Teknologi Pangan"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "VIP Balairung",
+            "displayName": "VIP Balairung",
+            "rawName": "",
+            "customNodeId": "-alairung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "VIP Balairung"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node4",
+            "title": "Gedung 4 UPGRIS",
+            "id": "Point01",
+            "pan": -42.77,
+            "tilt": 15.68
+        },
+        {
+            "scene": "node1",
+            "target": "node35",
+            "title": "Pintu Masuk Gedung Utama",
+            "id": "Point02",
+            "pan": -341.75,
+            "tilt": -38.77
+        },
+        {
+            "scene": "node4",
+            "target": "node26",
+            "title": "Gedung Kampus 4 UPGRIS",
+            "id": "Point01",
+            "pan": -2.04,
+            "tilt": -28.19
+        },
+        {
+            "scene": "node4",
+            "target": "node1",
+            "title": "Drone Gedung Utama UPGRIS",
+            "id": "Point02",
+            "pan": -12.31,
+            "tilt": 3.77
+        },
+        {
+            "scene": "node4",
+            "target": "node24",
+            "title": "Lapangan Tennis",
+            "id": "Point03",
+            "pan": -273.51,
+            "tilt": -14.46
+        },
+        {
+            "scene": "node7",
+            "target": "node24",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -1.56,
+            "tilt": -11.9
+        },
+        {
+            "scene": "node8",
+            "target": "node24",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -265.48,
+            "tilt": -5.46
+        },
+        {
+            "scene": "node8",
+            "target": "node14",
+            "title": "Kamar Asrama",
+            "id": "Point02",
+            "pan": -12.04,
+            "tilt": -2.17
+        },
+        {
+            "scene": "node9",
+            "target": "node28",
+            "title": "Masjid",
+            "id": "Point01",
+            "pan": -272.56,
+            "tilt": -14.41
+        },
+        {
+            "scene": "node9",
+            "target": "node41",
+            "title": "VIP Balairung",
+            "id": "Point02",
+            "pan": -359.24,
+            "tilt": -12.99
+        },
+        {
+            "scene": "node9",
+            "target": "node34",
+            "title": "Area Parkir",
+            "id": "Point03",
+            "pan": -44.26,
+            "tilt": -13.94
+        },
+        {
+            "scene": "node10",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -179.64,
+            "tilt": -7.49
+        },
+        {
+            "scene": "node11",
+            "target": "node10",
+            "title": "Ballroom",
+            "id": "Point01",
+            "pan": -346.06,
+            "tilt": -6.86
+        },
+        {
+            "scene": "node11",
+            "target": "node16",
+            "title": "Penyiaran Bahasa Indonesia",
+            "id": "Point02",
+            "pan": -200.04,
+            "tilt": -3.21
+        },
+        {
+            "scene": "node12",
+            "target": "node26",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -32.54,
+            "tilt": -6.15
+        },
+        {
+            "scene": "node13",
+            "target": "node23",
+            "title": "Gedung Olahraga",
+            "id": "Point01",
+            "pan": -0.82,
+            "tilt": -6.63
+        },
+        {
+            "scene": "node13",
+            "target": "node37",
+            "title": "Taman Baca",
+            "id": "Point02",
+            "pan": -85.2,
+            "tilt": 1.5
+        },
+        {
+            "scene": "node13",
+            "target": "node28",
+            "title": "Masjid Nurul Huda",
+            "id": "Point03",
+            "pan": -266.96,
+            "tilt": 1.15
+        },
+        {
+            "scene": "node13",
+            "target": "node26",
+            "title": "Lobi Kampus 4",
+            "id": "Point04",
+            "pan": 189.48,
+            "tilt": -0.8
+        },
+        {
+            "scene": "node14",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -286.34,
+            "tilt": -20.17
+        },
+        {
+            "scene": "node15",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -192.61,
+            "tilt": -13.84
+        },
+        {
+            "scene": "node16",
+            "target": "node18",
+            "title": "Lab Bahasa Jawa",
+            "id": "Point01",
+            "pan": -267.55,
+            "tilt": -7.1
+        },
+        {
+            "scene": "node16",
+            "target": "node15",
+            "title": "Penyiaran Bahasa Indonesia",
+            "id": "Point02",
+            "pan": -181.6,
+            "tilt": -14.79
+        },
+        {
+            "scene": "node16",
+            "target": "node11",
+            "title": "Ballroom",
+            "id": "Point04",
+            "pan": -94.45,
+            "tilt": -8.66
+        },
+        {
+            "scene": "node17",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -168.04,
+            "tilt": -13.8
+        },
+        {
+            "scene": "node18",
+            "target": "node26",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -98.15,
+            "tilt": -7.1
+        },
+        {
+            "scene": "node18",
+            "target": "node17",
+            "title": "Lab Bahasa Jawa",
+            "id": "Point02",
+            "pan": 0.3,
+            "tilt": -24.86
+        },
+        {
+            "scene": "node18",
+            "target": "node16",
+            "title": "Penyiaran Bahasa Indonesia",
+            "id": "Point03",
+            "pan": -271.73,
+            "tilt": -5.25
+        },
+        {
+            "scene": "node19",
+            "target": "node20",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -257.85,
+            "tilt": -17.42
+        },
+        {
+            "scene": "node20",
+            "target": "node19",
+            "title": "Lab Komputer",
+            "id": "Point02",
+            "pan": -344.01,
+            "tilt": -12.96
+        },
+        {
+            "scene": "node20",
+            "target": "node25",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -94.2,
+            "tilt": -5.62
+        },
+        {
+            "scene": "node21",
+            "target": "node26",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -149.56,
+            "tilt": -11.45
+        },
+        {
+            "scene": "node22",
+            "target": "node23",
+            "title": "Lapangan Badminton",
+            "id": "Point01",
+            "pan": -30.46,
+            "tilt": 1.09
+        },
+        {
+            "scene": "node23",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -250.45,
+            "tilt": 2.29
+        },
+        {
+            "scene": "node23",
+            "target": "node22",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": -109.06,
+            "tilt": 0.85
+        },
+        {
+            "scene": "node24",
+            "target": "node8",
+            "title": "Asrama Putri",
+            "id": "Point01",
+            "pan": -301.4,
+            "tilt": -0.34
+        },
+        {
+            "scene": "node24",
+            "target": "node7",
+            "title": "Asrama Putra",
+            "id": "Point02",
+            "pan": -15.2,
+            "tilt": -0.44
+        },
+        {
+            "scene": "node24",
+            "target": "node29",
+            "title": "Masjid",
+            "id": "Point03",
+            "pan": -52.3,
+            "tilt": -0.51
+        },
+        {
+            "scene": "node24",
+            "target": "node37",
+            "title": "Taman Baca",
+            "id": "Point04",
+            "pan": -178.86,
+            "tilt": -11.57
+        },
+        {
+            "scene": "node25",
+            "target": "node38",
+            "title": "Lab Teknologi Pangan",
+            "id": "Point01",
+            "pan": -293.66,
+            "tilt": -8.55
+        },
+        {
+            "scene": "node25",
+            "target": "node35",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -182.53,
+            "tilt": -15.7
+        },
+        {
+            "scene": "node25",
+            "target": "node33",
+            "title": "Perpustakaan",
+            "id": "Point04",
+            "pan": -116.16,
+            "tilt": -5.91
+        },
+        {
+            "scene": "node25",
+            "target": "node20",
+            "title": "Lab Komputer",
+            "id": "Point03",
+            "pan": -73.94,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node26",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -177.53,
+            "tilt": -3.6
+        },
+        {
+            "scene": "node26",
+            "target": "node18",
+            "title": "Gedung Kampus 4 UPGRIS",
+            "id": "Point02",
+            "pan": -310.42,
+            "tilt": -12.61
+        },
+        {
+            "scene": "node26",
+            "target": "node12",
+            "title": "Ruang Fitness",
+            "id": "Point03",
+            "pan": -353.73,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node26",
+            "target": "node21",
+            "title": "Lab Multimedia",
+            "id": "Point04",
+            "pan": -18.38,
+            "tilt": -9.58
+        },
+        {
+            "scene": "node27",
+            "target": "node28",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.33,
+            "tilt": -12.26
+        },
+        {
+            "scene": "node28",
+            "target": "node27",
+            "title": "Masjid",
+            "id": "Point01",
+            "pan": -359.5,
+            "tilt": -1.37
+        },
+        {
+            "scene": "node28",
+            "target": "node9",
+            "title": "Balairung",
+            "id": "Point02",
+            "pan": -206.58,
+            "tilt": -6.91
+        },
+        {
+            "scene": "node28",
+            "target": "node35",
+            "title": "Pintu Masuk UPGRIS",
+            "id": "Point03",
+            "pan": -279.02,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node29",
+            "target": "node30",
+            "title": "Masjid Kampus",
+            "id": "Point01",
+            "pan": -0.87,
+            "tilt": -17.27
+        },
+        {
+            "scene": "node29",
+            "target": "node24",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -175.98,
+            "tilt": -14.87
+        },
+        {
+            "scene": "node30",
+            "target": "node29",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -49.45,
+            "tilt": -18.88
+        },
+        {
+            "scene": "node31",
+            "target": "node36",
+            "title": "Studio Radio",
+            "id": "Point01",
+            "pan": -112.71,
+            "tilt": -3.08
+        },
+        {
+            "scene": "node31",
+            "target": "node35",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -252.44,
+            "tilt": -4.18
+        },
+        {
+            "scene": "node31",
+            "target": "node34",
+            "title": "Gedung Balairung",
+            "id": "Point03",
+            "pan": -79.01,
+            "tilt": -6.46
+        },
+        {
+            "scene": "node32",
+            "target": "node33",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -178.7,
+            "tilt": -13.39
+        },
+        {
+            "scene": "node33",
+            "target": "node25",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -236.89,
+            "tilt": -9.32
+        },
+        {
+            "scene": "node33",
+            "target": "node32",
+            "title": "Perpustakaan",
+            "id": "Point02",
+            "pan": -124.38,
+            "tilt": -18.34
+        },
+        {
+            "scene": "node34",
+            "target": "node9",
+            "title": "Balairung",
+            "id": "Point01",
+            "pan": -12.7,
+            "tilt": -9.51
+        },
+        {
+            "scene": "node34",
+            "target": "node31",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -242.85,
+            "tilt": -13.88
+        },
+        {
+            "scene": "node35",
+            "target": "node25",
+            "title": "Lab Komputer",
+            "id": "Point01",
+            "pan": -77.8,
+            "tilt": -2.09
+        },
+        {
+            "scene": "node35",
+            "target": "node31",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -289.67,
+            "tilt": -6.16
+        },
+        {
+            "scene": "node35",
+            "target": "node28",
+            "title": "Masjid Nurul Huda",
+            "id": "Point03",
+            "pan": -266.05,
+            "tilt": -0.56
+        },
+        {
+            "scene": "node35",
+            "target": "node37",
+            "title": "Taman Baca",
+            "id": "Point04",
+            "pan": -100.19,
+            "tilt": 0.42
+        },
+        {
+            "scene": "node36",
+            "target": "node31",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -134.53,
+            "tilt": -18.15
+        },
+        {
+            "scene": "node37",
+            "target": "node13",
+            "title": "Gedung Olahraga",
+            "id": "Point01",
+            "pan": -174.99,
+            "tilt": -0.81
+        },
+        {
+            "scene": "node37",
+            "target": "node24",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -311.1,
+            "tilt": -6.39
+        },
+        {
+            "scene": "node37",
+            "target": "node35",
+            "title": "Pintu Masuk UPGRIS",
+            "id": "Point03",
+            "pan": -83.23,
+            "tilt": -2.17
+        },
+        {
+            "scene": "node38",
+            "target": "node25",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -228.39,
+            "tilt": -10.3
+        },
+        {
+            "scene": "node38",
+            "target": "node40",
+            "title": "Lab Teknologi Pangan",
+            "id": "Point02",
+            "pan": -141.59,
+            "tilt": -13.52
+        },
+        {
+            "scene": "node39",
+            "target": "node40",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -301.81,
+            "tilt": -18.78
+        },
+        {
+            "scene": "node40",
+            "target": "node38",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -239.34,
+            "tilt": -7.92
+        },
+        {
+            "scene": "node40",
+            "target": "node39",
+            "title": "Lab Teknologi Pangan",
+            "id": "Point02",
+            "pan": -82.84,
+            "tilt": -16.04
+        },
+        {
+            "scene": "node41",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -207.75,
+            "tilt": -13.88
+        }
+    ],
+    "panoExits": {
+        "node1": [
+            {
+                "target": "node4",
+                "title": "Gedung 4 UPGRIS",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node35",
+                "title": "Pintu Masuk Gedung Utama",
+                "suffix": "Point02"
+            }
+        ],
+        "node4": [
+            {
+                "target": "node26",
+                "title": "Gedung Kampus 4 UPGRIS",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node1",
+                "title": "Drone Gedung Utama UPGRIS",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node24",
+                "title": "Lapangan Tennis",
+                "suffix": "Point03"
+            }
+        ],
+        "node7": [
+            {
+                "target": "node24",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node8": [
+            {
+                "target": "node24",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node14",
+                "title": "Kamar Asrama",
+                "suffix": "Point02"
+            }
+        ],
+        "node9": [
+            {
+                "target": "node28",
+                "title": "Masjid",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node41",
+                "title": "VIP Balairung",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node34",
+                "title": "Area Parkir",
+                "suffix": "Point03"
+            }
+        ],
+        "node10": [
+            {
+                "target": "node11",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node11": [
+            {
+                "target": "node10",
+                "title": "Ballroom",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node16",
+                "title": "Penyiaran Bahasa Indonesia",
+                "suffix": "Point02"
+            }
+        ],
+        "node12": [
+            {
+                "target": "node26",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node13": [
+            {
+                "target": "node23",
+                "title": "Gedung Olahraga",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node37",
+                "title": "Taman Baca",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node28",
+                "title": "Masjid Nurul Huda",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node26",
+                "title": "Lobi Kampus 4",
+                "suffix": "Point04"
+            }
+        ],
+        "node14": [
+            {
+                "target": "node8",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node15": [
+            {
+                "target": "node16",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node16": [
+            {
+                "target": "node18",
+                "title": "Lab Bahasa Jawa",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node15",
+                "title": "Penyiaran Bahasa Indonesia",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node11",
+                "title": "Ballroom",
+                "suffix": "Point04"
+            }
+        ],
+        "node17": [
+            {
+                "target": "node18",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node18": [
+            {
+                "target": "node26",
+                "title": "Lobi",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node17",
+                "title": "Lab Bahasa Jawa",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node16",
+                "title": "Penyiaran Bahasa Indonesia",
+                "suffix": "Point03"
+            }
+        ],
+        "node19": [
+            {
+                "target": "node20",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node20": [
+            {
+                "target": "node19",
+                "title": "Lab Komputer",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node25",
+                "title": "Lobi",
+                "suffix": "Point01"
+            }
+        ],
+        "node21": [
+            {
+                "target": "node26",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node22": [
+            {
+                "target": "node23",
+                "title": "Lapangan Badminton",
+                "suffix": "Point01"
+            }
+        ],
+        "node23": [
+            {
+                "target": "node13",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node22",
+                "title": "Lapangan Basket",
+                "suffix": "Point02"
+            }
+        ],
+        "node24": [
+            {
+                "target": "node8",
+                "title": "Asrama Putri",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node7",
+                "title": "Asrama Putra",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node29",
+                "title": "Masjid",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node37",
+                "title": "Taman Baca",
+                "suffix": "Point04"
+            }
+        ],
+        "node25": [
+            {
+                "target": "node38",
+                "title": "Lab Teknologi Pangan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node35",
+                "title": "Keluar",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node33",
+                "title": "Perpustakaan",
+                "suffix": "Point04"
+            },
+            {
+                "target": "node20",
+                "title": "Lab Komputer",
+                "suffix": "Point03"
+            }
+        ],
+        "node26": [
+            {
+                "target": "node13",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node18",
+                "title": "Gedung Kampus 4 UPGRIS",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node12",
+                "title": "Ruang Fitness",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node21",
+                "title": "Lab Multimedia",
+                "suffix": "Point04"
+            }
+        ],
+        "node27": [
+            {
+                "target": "node28",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node28": [
+            {
+                "target": "node27",
+                "title": "Masjid",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node9",
+                "title": "Balairung",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node35",
+                "title": "Pintu Masuk UPGRIS",
+                "suffix": "Point03"
+            }
+        ],
+        "node29": [
+            {
+                "target": "node30",
+                "title": "Masjid Kampus",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node24",
+                "title": "Lapangan Tennis",
+                "suffix": "Point02"
+            }
+        ],
+        "node30": [
+            {
+                "target": "node29",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node31": [
+            {
+                "target": "node36",
+                "title": "Studio Radio",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node35",
+                "title": "Keluar",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node34",
+                "title": "Gedung Balairung",
+                "suffix": "Point03"
+            }
+        ],
+        "node32": [
+            {
+                "target": "node33",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node33": [
+            {
+                "target": "node25",
+                "title": "Lobi",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node32",
+                "title": "Perpustakaan",
+                "suffix": "Point02"
+            }
+        ],
+        "node34": [
+            {
+                "target": "node9",
+                "title": "Balairung",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node31",
+                "title": "Area Parkir",
+                "suffix": "Point02"
+            }
+        ],
+        "node35": [
+            {
+                "target": "node25",
+                "title": "Lab Komputer",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node31",
+                "title": "Area Parkir",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node28",
+                "title": "Masjid Nurul Huda",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node37",
+                "title": "Taman Baca",
+                "suffix": "Point04"
+            }
+        ],
+        "node36": [
+            {
+                "target": "node31",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node37": [
+            {
+                "target": "node13",
+                "title": "Gedung Olahraga",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node24",
+                "title": "Lapangan Tennis",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node35",
+                "title": "Pintu Masuk UPGRIS",
+                "suffix": "Point03"
+            }
+        ],
+        "node38": [
+            {
+                "target": "node25",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node40",
+                "title": "Lab Teknologi Pangan",
+                "suffix": "Point02"
+            }
+        ],
+        "node39": [
+            {
+                "target": "node40",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node40": [
+            {
+                "target": "node38",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node39",
+                "title": "Lab Teknologi Pangan",
+                "suffix": "Point02"
+            }
+        ],
+        "node41": [
+            {
+                "target": "node9",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ]
+    },
+    "thumbPrefix": "ht_node_thumb_10_",
+    "routes": [],
+    "objectInfo": [
+        {
+            "infoId": 147,
+            "label": "Radio",
+            "description": "Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio.",
+            "fragment": "radio",
+            "link": "univpgri/index.html#radio",
+            "sceneId": "node36"
+        },
+        {
+            "infoId": 148,
+            "label": "Ballroom",
+            "description": "UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas.",
+            "fragment": "ballroom",
+            "link": "univpgri/index.html#ballroom",
+            "sceneId": "node10"
+        },
+        {
+            "infoId": 149,
+            "label": "Lab Teknologi Pangan",
+            "description": "Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal.",
+            "fragment": "labteknologipangan",
+            "link": "univpgri/index.html#labteknologipangan",
+            "sceneId": "node38"
+        },
+        {
+            "infoId": 150,
+            "label": "Lab Komputer",
+            "description": "UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa.",
+            "fragment": "labkomputer",
+            "link": "univpgri/index.html#labkomputer",
+            "sceneId": "node19"
+        },
+        {
+            "infoId": 151,
+            "label": "Perpustakaan",
+            "description": "Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia.",
+            "fragment": "perpustakaan",
+            "link": "univpgri/index.html#perpustakaan",
+            "sceneId": "node32"
+        },
+        {
+            "infoId": 152,
+            "label": "Kepenyiaran Bahasa Indonesia",
+            "description": "Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media.",
+            "fragment": "kepenyiaranbahasaindonesia",
+            "link": "univpgri/index.html#kepenyiaranbahasaindonesia",
+            "sceneId": "node15"
+        },
+        {
+            "infoId": 153,
+            "label": "Studio Gamelan (Laboratorium Seni Tari)",
+            "description": "Laboratorium Seni Tari adalah fasilitas yang diperuntukkan bagi mahasiswa yang ingin mengembangkan bakat dan kemampuan mereka dalam seni pertunjukan, khususnya tari. Ruangan ini digunakan sebagai tempat latihan koreografi, pagelaran seni, serta kegiatan pelestarian dan pengembangan budaya tradisional.",
+            "fragment": "studiogamelan",
+            "link": "univpgri/index.html#studiogamelan",
+            "sceneId": "node17"
+        },
+        {
+            "infoId": 154,
+            "label": "Lab Multimedia",
+            "description": "Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa.",
+            "fragment": "labmultimedia",
+            "link": "univpgri/index.html#labmultimedia",
+            "sceneId": "node21"
+        }
+    ],
+    "video360": [],
+    "_sceneRegistry": {
+        "node1": {
+            "rawName": "Drone Gedung Utama UPGRIS",
+            "displayName": "UPGRIS – Panorama Udara Gedung Utama",
+            "placeId": "universitas-pgri-semarang-upgris-panorama-udara-gedung-utama",
+            "placeName": "Universitas PGRI Semarang – UPGRIS – Panorama Udara Gedung Utama",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "UPGRIS – Panorama Udara Gedung Utama di Universitas PGRI Semarang memperlihatkan gedung kampus dan kota.",
+            "description": "UPGRIS – Panorama Udara Gedung Utama di Universitas PGRI Semarang memperlihatkan gedung kampus dan kota. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah.",
+            "highlights": [
+                "Gedung kampus",
+                "Kota"
+            ],
+            "talkingPoints": [
+                "Drone Gedung Utama UPGRIS",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama UPGRIS – Panorama Udara Gedung Utama di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "UPGRIS – Panorama Udara Gedung Utama di Universitas PGRI Semarang memperlihatkan gedung kampus dan kota."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi UPGRIS – Panorama Udara Gedung Utama?",
+                    "mode": "fix",
+                    "answer": "Gedung kampus dan Kota memperjelas susunan serta penggunaan ruang. UPGRIS – Panorama Udara Gedung Utama di Universitas PGRI Semarang memperlihatkan gedung kampus dan kota."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – UPGRIS – Panorama Udara Gedung Utama yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – UPGRIS – Panorama Udara Gedung Utama.",
+                "describeHere": "Drone Gedung Utama UPGRIS adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Gedung 4 UPGRIS",
+            "displayName": "Kampus 4 – Panorama Udara",
+            "placeId": "universitas-pgri-semarang-kampus-4-panorama-udara",
+            "placeName": "Universitas PGRI Semarang – Kampus 4 – Panorama Udara",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gedung dan lapangan menjadi unsur yang terlihat pada Kampus 4 – Panorama Udara di Universitas PGRI Semarang.",
+            "description": "Gedung dan lapangan menjadi unsur yang terlihat pada Kampus 4 – Panorama Udara di Universitas PGRI Semarang. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah.",
+            "highlights": [
+                "Gedung",
+                "Lapangan"
+            ],
+            "talkingPoints": [
+                "Gedung 4 UPGRIS",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Kampus 4 – Panorama Udara menjadi bagian penting dari Universitas PGRI Semarang – Kampus 4 – Panorama Udara?",
+                    "mode": "fix",
+                    "answer": "Gedung dan lapangan menjadi unsur yang terlihat pada Kampus 4 – Panorama Udara di Universitas PGRI Semarang. Gedung dan lapangan menjadi unsur yang terlihat pada Kampus 4 – Panorama Udara di Universitas PGRI Semarang. Pandangan dari udara menampilkan hubungan antargedung, jalan, dan ruang terbuka. Sudut ini memperlihatkan susunan kawasan yang tidak selalu terbaca dari permukaan tanah. UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                },
+                {
+                    "q": "Apa hubungan Gedung dengan aktivitas di Kampus 4 – Panorama Udara?",
+                    "mode": "fix",
+                    "answer": "Gedung menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Gedung dan lapangan menjadi unsur yang terlihat pada Kampus 4 – Panorama Udara di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Kampus 4 – Panorama Udara dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Gedung dan Lapangan. Gedung dan lapangan menjadi unsur yang terlihat pada Kampus 4 – Panorama Udara di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Kampus 4 – Panorama Udara.",
+                "describeHere": "Gedung 4 UPGRIS adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Asrama Putra",
+            "displayName": "Koridor Asrama Putra",
+            "placeId": "universitas-pgri-semarang-koridor-asrama-putra",
+            "placeName": "Universitas PGRI Semarang – Koridor Asrama Putra",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Koridor Asrama Putra menampilkan pintu kamar dan lorong di Universitas PGRI Semarang.",
+            "description": "Pandangan Koridor Asrama Putra menampilkan pintu kamar dan lorong di Universitas PGRI Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Pintu kamar",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Asrama Putra",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Koridor Asrama Putra?",
+                    "mode": "fix",
+                    "answer": "Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Koridor Asrama Putra mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Pintu kamar bersama Lorong menunjukkan cara area ini digunakan. Pandangan Koridor Asrama Putra menampilkan pintu kamar dan lorong di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Koridor Asrama Putra?",
+                    "mode": "fix",
+                    "answer": "Pintu kamar menjadi detail utama, sedangkan Lorong melengkapi konteksnya. Pandangan Koridor Asrama Putra menampilkan pintu kamar dan lorong di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Koridor Asrama Putra.",
+                "describeHere": "Asrama Putra adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Asrama Putri",
+            "displayName": "Koridor Asrama Putri",
+            "placeId": "universitas-pgri-semarang-koridor-asrama-putri",
+            "placeName": "Universitas PGRI Semarang – Koridor Asrama Putri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Koridor Asrama Putri, pintu dan jendela membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Koridor Asrama Putri, pintu dan jendela membentuk tampilan bagian Universitas PGRI Semarang ini. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Bukaan memberi hubungan visual dengan lingkungan luar dan memungkinkan cahaya masuk. Posisi serta luas bukaan memengaruhi bagian ruang yang terasa terang.",
+            "highlights": [
+                "Pintu",
+                "Jendela"
+            ],
+            "talkingPoints": [
+                "Asrama Putri",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Koridor Asrama Putri dalam pengalaman pengunjung di Universitas PGRI Semarang – Koridor Asrama Putri?",
+                    "mode": "fix",
+                    "answer": "Pada Koridor Asrama Putri, pintu dan jendela membentuk tampilan bagian Universitas PGRI Semarang ini. Pada Koridor Asrama Putri, pintu dan jendela membentuk tampilan bagian Universitas PGRI Semarang ini. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Bukaan memberi hubungan visual dengan lingkungan luar dan memungkinkan cahaya masuk. Posisi serta luas bukaan memengaruhi bagian ruang yang terasa terang. UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                },
+                {
+                    "q": "Mengapa Pintu penting pada Koridor Asrama Putri?",
+                    "mode": "fix",
+                    "answer": "Pintu membantu menjelaskan identitas dan fungsi Koridor Asrama Putri. Pada Koridor Asrama Putri, pintu dan jendela membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Koridor Asrama Putri?",
+                    "mode": "fix",
+                    "answer": "UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Koridor Asrama Putri.",
+                "describeHere": "Asrama Putri adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Balairung",
+            "displayName": "Tangga Balairung",
+            "placeId": "universitas-pgri-semarang-tangga-balairung",
+            "placeName": "Universitas PGRI Semarang – Tangga Balairung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tangga Balairung menyorot anak tangga dan pegangan, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Tangga Balairung menyorot anak tangga dan pegangan, dengan konteks kunjungan di Universitas PGRI Semarang. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Anak tangga",
+                "Pegangan"
+            ],
+            "talkingPoints": [
+                "Balairung",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Tangga Balairung menunjukkan karakter Universitas PGRI Semarang – Tangga Balairung?",
+                    "mode": "fix",
+                    "answer": "Tangga Balairung menyorot anak tangga dan pegangan, dengan konteks kunjungan di Universitas PGRI Semarang. Tangga Balairung menyorot anak tangga dan pegangan, dengan konteks kunjungan di Universitas PGRI Semarang. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju. Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Anak tangga dan Pegangan di Tangga Balairung?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Tangga Balairung menyorot anak tangga dan pegangan, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Tangga Balairung?",
+                    "mode": "fix",
+                    "answer": "Anak tangga paling langsung membantu mengenali area ini. Tangga Balairung menyorot anak tangga dan pegangan, dengan konteks kunjungan di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Tangga Balairung.",
+                "describeHere": "Balairung adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Ballroom",
+            "displayName": "Ballroom – Panggung",
+            "placeId": "universitas-pgri-semarang-ballroom-panggung",
+            "placeName": "Universitas PGRI Semarang – Ballroom – Panggung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ballroom – Panggung di Universitas PGRI Semarang memperlihatkan panggung dan layar.",
+            "description": "Ballroom – Panggung di Universitas PGRI Semarang memperlihatkan panggung dan layar. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Layar membuat informasi visual dapat dilihat beberapa orang sekaligus. Posisi tempat duduk dan jarak pandang biasanya mengikuti bidang tayang.",
+            "highlights": [
+                "Panggung",
+                "Layar"
+            ],
+            "talkingPoints": [
+                "Ballroom",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Ballroom – Panggung?",
+                    "mode": "fix",
+                    "answer": "Ballroom – Panggung di Universitas PGRI Semarang memperlihatkan panggung dan layar. Ballroom – Panggung di Universitas PGRI Semarang memperlihatkan panggung dan layar. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Layar membuat informasi visual dapat dilihat beberapa orang sekaligus. Posisi tempat duduk dan jarak pandang biasanya mengikuti bidang tayang. Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Ballroom – Panggung?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Panggung dan Layar memberi petunjuk tentang kegiatan yang berlangsung di sini. Ballroom – Panggung di Universitas PGRI Semarang memperlihatkan panggung dan layar."
+                },
+                {
+                    "q": "Apa konteks Universitas PGRI Semarang – Ballroom – Panggung yang membuat Ballroom – Panggung lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:148"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Ballroom – Panggung.",
+                "describeHere": "Ballroom adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Ballroom",
+            "displayName": "Foyer Ballroom",
+            "placeId": "universitas-pgri-semarang-foyer-ballroom",
+            "placeName": "Universitas PGRI Semarang – Foyer Ballroom",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu kaca dan panel kayu menjadi unsur yang terlihat pada Foyer Ballroom di Universitas PGRI Semarang.",
+            "description": "Pintu kaca dan panel kayu menjadi unsur yang terlihat pada Foyer Ballroom di Universitas PGRI Semarang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum.",
+            "highlights": [
+                "Pintu kaca",
+                "Panel kayu"
+            ],
+            "talkingPoints": [
+                "Ballroom",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Foyer Ballroom di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca dan panel kayu menjadi unsur yang terlihat pada Foyer Ballroom di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Foyer Ballroom?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca dan Panel kayu memperjelas susunan serta penggunaan ruang. Pintu kaca dan panel kayu menjadi unsur yang terlihat pada Foyer Ballroom di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – Foyer Ballroom yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Laboratorium Seni Tari adalah fasilitas yang diperuntukkan bagi mahasiswa yang ingin mengembangkan bakat dan kemampuan mereka dalam seni pertunjukan, khususnya tari. Ruangan ini digunakan sebagai tempat latihan koreografi, pagelaran seni, serta kegiatan pelestarian dan pengembangan budaya tradisional."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Foyer Ballroom.",
+                "describeHere": "Ballroom adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Ruang Fitness",
+            "displayName": "Ruang Kebugaran",
+            "placeId": "universitas-pgri-semarang-ruang-kebugaran",
+            "placeName": "Universitas PGRI Semarang – Ruang Kebugaran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Ruang Kebugaran menampilkan beban latihan dan alat olahraga di Universitas PGRI Semarang.",
+            "description": "Pandangan Ruang Kebugaran menampilkan beban latihan dan alat olahraga di Universitas PGRI Semarang. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. Jenis dan susunan alat membedakan area latihan ini dari lapangan olahraga.",
+            "highlights": [
+                "Beban latihan",
+                "Alat olahraga"
+            ],
+            "talkingPoints": [
+                "Ruang Fitness",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Ruang Kebugaran menjadi bagian penting dari Universitas PGRI Semarang – Ruang Kebugaran?",
+                    "mode": "fix",
+                    "answer": "Pandangan Ruang Kebugaran menampilkan beban latihan dan alat olahraga di Universitas PGRI Semarang. Pandangan Ruang Kebugaran menampilkan beban latihan dan alat olahraga di Universitas PGRI Semarang. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. Jenis dan susunan alat membedakan area latihan ini dari lapangan olahraga. Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa."
+                },
+                {
+                    "q": "Apa hubungan Beban latihan dengan aktivitas di Ruang Kebugaran?",
+                    "mode": "fix",
+                    "answer": "Beban latihan menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Ruang Kebugaran menampilkan beban latihan dan alat olahraga di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Ruang Kebugaran dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Beban latihan dan Alat olahraga. Pandangan Ruang Kebugaran menampilkan beban latihan dan alat olahraga di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Ruang Kebugaran.",
+                "describeHere": "Ruang Fitness adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Gedung Olahraga",
+            "displayName": "Fasad Gedung Olahraga",
+            "placeId": "universitas-pgri-semarang-fasad-gedung-olahraga",
+            "placeName": "Universitas PGRI Semarang – Fasad Gedung Olahraga",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Fasad Gedung Olahraga, bangunan kuning dan parkir motor membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Fasad Gedung Olahraga, bangunan kuning dan parkir motor membentuk tampilan bagian Universitas PGRI Semarang ini. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Gunakan tempat yang ditentukan dan sisakan jalur bagi kendaraan lain. Perhatikan akses pejalan kaki ketika memarkir atau mengambil kendaraan.",
+            "highlights": [
+                "Bangunan kuning",
+                "Parkir motor"
+            ],
+            "talkingPoints": [
+                "Gedung Olahraga",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Fasad Gedung Olahraga?",
+                    "mode": "fix",
+                    "answer": "Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Fasad Gedung Olahraga mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Bangunan kuning bersama Parkir motor menunjukkan cara area ini digunakan. Pada Fasad Gedung Olahraga, bangunan kuning dan parkir motor membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Fasad Gedung Olahraga?",
+                    "mode": "fix",
+                    "answer": "Bangunan kuning menjadi detail utama, sedangkan Parkir motor melengkapi konteksnya. Pada Fasad Gedung Olahraga, bangunan kuning dan parkir motor membentuk tampilan bagian Universitas PGRI Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Fasad Gedung Olahraga.",
+                "describeHere": "Gedung Olahraga adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Kamar Asrama",
+            "displayName": "Kamar Asrama",
+            "placeId": "universitas-pgri-semarang-kamar-asrama",
+            "placeName": "Universitas PGRI Semarang – Kamar Asrama",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kamar Asrama menyorot ranjang bertingkat dan lemari, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Kamar Asrama menyorot ranjang bertingkat dan lemari, dengan konteks kunjungan di Universitas PGRI Semarang. Kamar dan fasilitas penginapan mengatur kebutuhan istirahat serta penyimpanan barang. Perbedaan antara ruang pribadi dan area bersama penting dalam membaca tata ruangnya.",
+            "highlights": [
+                "Ranjang bertingkat",
+                "Lemari"
+            ],
+            "talkingPoints": [
+                "Kamar Asrama",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Kamar Asrama dalam pengalaman pengunjung di Universitas PGRI Semarang – Kamar Asrama?",
+                    "mode": "fix",
+                    "answer": "Kamar Asrama menyorot ranjang bertingkat dan lemari, dengan konteks kunjungan di Universitas PGRI Semarang. Kamar Asrama menyorot ranjang bertingkat dan lemari, dengan konteks kunjungan di Universitas PGRI Semarang. Kamar dan fasilitas penginapan mengatur kebutuhan istirahat serta penyimpanan barang. Perbedaan antara ruang pribadi dan area bersama penting dalam membaca tata ruangnya. UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                },
+                {
+                    "q": "Mengapa Ranjang bertingkat penting pada Kamar Asrama?",
+                    "mode": "fix",
+                    "answer": "Ranjang bertingkat membantu menjelaskan identitas dan fungsi Kamar Asrama. Kamar Asrama menyorot ranjang bertingkat dan lemari, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Kamar Asrama?",
+                    "mode": "fix",
+                    "answer": "UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Kamar Asrama.",
+                "describeHere": "Kamar Asrama adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Kepenyiaranbahasaindonesia",
+            "displayName": "Studio Penyiaran Bahasa Indonesia",
+            "placeId": "universitas-pgri-semarang-studio-penyiaran-bahasa-indonesia",
+            "placeName": "Universitas PGRI Semarang – Studio Penyiaran Bahasa Indonesia",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Studio Penyiaran Bahasa Indonesia di Universitas PGRI Semarang memperlihatkan lampu studio dan peralatan produksi.",
+            "description": "Studio Penyiaran Bahasa Indonesia di Universitas PGRI Semarang memperlihatkan lampu studio dan peralatan produksi. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Cahaya mengarahkan perhatian pada bidang kerja, objek, atau jalur tertentu. Perbedaan terang dan bayangan membuat susunan ruang lebih mudah dibaca.",
+            "highlights": [
+                "Lampu studio",
+                "Peralatan produksi"
+            ],
+            "talkingPoints": [
+                "Kepenyiaranbahasaindonesia",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Studio Penyiaran Bahasa Indonesia menunjukkan karakter Universitas PGRI Semarang – Studio Penyiaran Bahasa Indonesia?",
+                    "mode": "fix",
+                    "answer": "Studio Penyiaran Bahasa Indonesia di Universitas PGRI Semarang memperlihatkan lampu studio dan peralatan produksi. Studio Penyiaran Bahasa Indonesia di Universitas PGRI Semarang memperlihatkan lampu studio dan peralatan produksi. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Cahaya mengarahkan perhatian pada bidang kerja, objek, atau jalur tertentu. Perbedaan terang dan bayangan membuat susunan ruang lebih mudah dibaca. Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Lampu studio dan Peralatan produksi di Studio Penyiaran Bahasa Indonesia?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Studio Penyiaran Bahasa Indonesia di Universitas PGRI Semarang memperlihatkan lampu studio dan peralatan produksi."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Studio Penyiaran Bahasa Indonesia?",
+                    "mode": "fix",
+                    "answer": "Lampu studio paling langsung membantu mengenali area ini. Studio Penyiaran Bahasa Indonesia di Universitas PGRI Semarang memperlihatkan lampu studio dan peralatan produksi."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:152"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Studio Penyiaran Bahasa Indonesia.",
+                "describeHere": "Kepenyiaranbahasaindonesia adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Penyiaran Bahasa Indonesia",
+            "displayName": "Akses Ruang Penyiaran",
+            "placeId": "universitas-pgri-semarang-akses-ruang-penyiaran",
+            "placeName": "Universitas PGRI Semarang – Akses Ruang Penyiaran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu ruang dan papan pengumuman menjadi unsur yang terlihat pada Akses Ruang Penyiaran di Universitas PGRI Semarang.",
+            "description": "Pintu ruang dan papan pengumuman menjadi unsur yang terlihat pada Akses Ruang Penyiaran di Universitas PGRI Semarang. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Pintu ruang",
+                "Papan pengumuman"
+            ],
+            "talkingPoints": [
+                "Penyiaran Bahasa Indonesia",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Akses Ruang Penyiaran?",
+                    "mode": "fix",
+                    "answer": "Pintu ruang dan papan pengumuman menjadi unsur yang terlihat pada Akses Ruang Penyiaran di Universitas PGRI Semarang. Pintu ruang dan papan pengumuman menjadi unsur yang terlihat pada Akses Ruang Penyiaran di Universitas PGRI Semarang. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Akses Ruang Penyiaran?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Pintu ruang dan Papan pengumuman memberi petunjuk tentang kegiatan yang berlangsung di sini. Pintu ruang dan papan pengumuman menjadi unsur yang terlihat pada Akses Ruang Penyiaran di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa konteks Universitas PGRI Semarang – Akses Ruang Penyiaran yang membuat Akses Ruang Penyiaran lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Akses Ruang Penyiaran.",
+                "describeHere": "Penyiaran Bahasa Indonesia adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Studiogamelan",
+            "displayName": "Studio Gamelan",
+            "placeId": "universitas-pgri-semarang-studio-gamelan",
+            "placeName": "Universitas PGRI Semarang – Studio Gamelan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Studio Gamelan menampilkan gong dan instrumen di Universitas PGRI Semarang.",
+            "description": "Pandangan Studio Gamelan menampilkan gong dan instrumen di Universitas PGRI Semarang. Perangkat gamelan memperlihatkan beragam bentuk instrumen dalam satu ansambel. Penempatannya berkaitan dengan cara pemain saling mendengar dan mengikuti jalannya pertunjukan.",
+            "highlights": [
+                "Gong",
+                "Instrumen"
+            ],
+            "talkingPoints": [
+                "Studiogamelan",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Studio Gamelan di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Studio Gamelan menampilkan gong dan instrumen di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Studio Gamelan?",
+                    "mode": "fix",
+                    "answer": "Gong dan Instrumen memperjelas susunan serta penggunaan ruang. Pandangan Studio Gamelan menampilkan gong dan instrumen di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – Studio Gamelan yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:153"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Studio Gamelan.",
+                "describeHere": "Studiogamelan adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Lab Bahasa Jawa",
+            "displayName": "Akses Laboratorium Bahasa Jawa",
+            "placeId": "universitas-pgri-semarang-akses-laboratorium-bahasa-jawa",
+            "placeName": "Universitas PGRI Semarang – Akses Laboratorium Bahasa Jawa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Akses Laboratorium Bahasa Jawa, pintu bernomor dan papan membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Akses Laboratorium Bahasa Jawa, pintu bernomor dan papan membentuk tampilan bagian Universitas PGRI Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Pintu bernomor",
+                "Papan"
+            ],
+            "talkingPoints": [
+                "Lab Bahasa Jawa",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Akses Laboratorium Bahasa Jawa menjadi bagian penting dari Universitas PGRI Semarang – Akses Laboratorium Bahasa Jawa?",
+                    "mode": "fix",
+                    "answer": "Pada Akses Laboratorium Bahasa Jawa, pintu bernomor dan papan membentuk tampilan bagian Universitas PGRI Semarang ini. Pada Akses Laboratorium Bahasa Jawa, pintu bernomor dan papan membentuk tampilan bagian Universitas PGRI Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                },
+                {
+                    "q": "Apa hubungan Pintu bernomor dengan aktivitas di Akses Laboratorium Bahasa Jawa?",
+                    "mode": "fix",
+                    "answer": "Pintu bernomor menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Akses Laboratorium Bahasa Jawa, pintu bernomor dan papan membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Apa yang membedakan Akses Laboratorium Bahasa Jawa dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Pintu bernomor dan Papan. Pada Akses Laboratorium Bahasa Jawa, pintu bernomor dan papan membentuk tampilan bagian Universitas PGRI Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Akses Laboratorium Bahasa Jawa.",
+                "describeHere": "Lab Bahasa Jawa adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Labkomputer",
+            "displayName": "Laboratorium Komputer",
+            "placeId": "universitas-pgri-semarang-laboratorium-komputer",
+            "placeName": "Universitas PGRI Semarang – Laboratorium Komputer",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Laboratorium Komputer menyorot monitor dan meja, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Laboratorium Komputer menyorot monitor dan meja, dengan konteks kunjungan di Universitas PGRI Semarang. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Monitor",
+                "Meja"
+            ],
+            "talkingPoints": [
+                "Labkomputer",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Laboratorium Seni Tari adalah fasilitas yang diperuntukkan bagi mahasiswa yang ingin mengembangkan bakat dan kemampuan mereka dalam seni pertunjukan, khususnya tari. Ruangan ini digunakan sebagai tempat latihan koreografi, pagelaran seni, serta kegiatan pelestarian dan pengembangan budaya tradisional."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Laboratorium Komputer mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Monitor bersama Meja menunjukkan cara area ini digunakan. Laboratorium Komputer menyorot monitor dan meja, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Monitor menjadi detail utama, sedangkan Meja melengkapi konteksnya. Laboratorium Komputer menyorot monitor dan meja, dengan konteks kunjungan di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:150"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Laboratorium Komputer.",
+                "describeHere": "Labkomputer adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "Lab Komputer",
+            "displayName": "Pintu Laboratorium Komputer",
+            "placeId": "universitas-pgri-semarang-pintu-laboratorium-komputer",
+            "placeName": "Universitas PGRI Semarang – Pintu Laboratorium Komputer",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu Laboratorium Komputer di Universitas PGRI Semarang memperlihatkan pintu kaca dan teralis.",
+            "description": "Pintu Laboratorium Komputer di Universitas PGRI Semarang memperlihatkan pintu kaca dan teralis. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum.",
+            "highlights": [
+                "Pintu kaca",
+                "Teralis"
+            ],
+            "talkingPoints": [
+                "Lab Komputer",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Pintu Laboratorium Komputer dalam pengalaman pengunjung di Universitas PGRI Semarang – Pintu Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Pintu Laboratorium Komputer di Universitas PGRI Semarang memperlihatkan pintu kaca dan teralis. Pintu Laboratorium Komputer di Universitas PGRI Semarang memperlihatkan pintu kaca dan teralis. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum. Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa."
+                },
+                {
+                    "q": "Mengapa Pintu kaca penting pada Pintu Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Pintu kaca membantu menjelaskan identitas dan fungsi Pintu Laboratorium Komputer. Pintu Laboratorium Komputer di Universitas PGRI Semarang memperlihatkan pintu kaca dan teralis."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pintu Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Pintu Laboratorium Komputer.",
+                "describeHere": "Lab Komputer adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node21": {
+            "rawName": "Labmultimedia",
+            "displayName": "Studio Podcast",
+            "placeId": "universitas-pgri-semarang-studio-podcast",
+            "placeName": "Universitas PGRI Semarang – Studio Podcast",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Mikrofon dan meja siaran menjadi unsur yang terlihat pada Studio Podcast di Universitas PGRI Semarang.",
+            "description": "Mikrofon dan meja siaran menjadi unsur yang terlihat pada Studio Podcast di Universitas PGRI Semarang. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Mikrofon",
+                "Meja siaran"
+            ],
+            "talkingPoints": [
+                "Labmultimedia",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Studio Podcast menunjukkan karakter Universitas PGRI Semarang – Studio Podcast?",
+                    "mode": "fix",
+                    "answer": "Mikrofon dan meja siaran menjadi unsur yang terlihat pada Studio Podcast di Universitas PGRI Semarang. Mikrofon dan meja siaran menjadi unsur yang terlihat pada Studio Podcast di Universitas PGRI Semarang. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Mikrofon dan Meja siaran di Studio Podcast?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Mikrofon dan meja siaran menjadi unsur yang terlihat pada Studio Podcast di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Studio Podcast?",
+                    "mode": "fix",
+                    "answer": "Mikrofon paling langsung membantu mengenali area ini. Mikrofon dan meja siaran menjadi unsur yang terlihat pada Studio Podcast di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:154"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Studio Podcast.",
+                "describeHere": "Labmultimedia adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node22": {
+            "rawName": "Lapangan Basket",
+            "displayName": "Lapangan Basket Indoor",
+            "placeId": "universitas-pgri-semarang-lapangan-basket-indoor",
+            "placeName": "Universitas PGRI Semarang – Lapangan Basket Indoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Lapangan Basket Indoor menampilkan ring dan garis lapangan di Universitas PGRI Semarang.",
+            "description": "Pandangan Lapangan Basket Indoor menampilkan ring dan garis lapangan di Universitas PGRI Semarang. Lapangan basket dikenali melalui ring dan garis pembagian ruang permainan. Bidang lapang di sekitarnya memberi ruang bagi pergerakan pemain.",
+            "highlights": [
+                "Ring",
+                "Garis lapangan"
+            ],
+            "talkingPoints": [
+                "Lapangan Basket",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Lapangan Basket Indoor?",
+                    "mode": "fix",
+                    "answer": "Pandangan Lapangan Basket Indoor menampilkan ring dan garis lapangan di Universitas PGRI Semarang. Pandangan Lapangan Basket Indoor menampilkan ring dan garis lapangan di Universitas PGRI Semarang. Lapangan basket dikenali melalui ring dan garis pembagian ruang permainan. Bidang lapang di sekitarnya memberi ruang bagi pergerakan pemain. UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Lapangan Basket Indoor?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Ring dan Garis lapangan memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Lapangan Basket Indoor menampilkan ring dan garis lapangan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa konteks Universitas PGRI Semarang – Lapangan Basket Indoor yang membuat Lapangan Basket Indoor lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Lapangan Basket Indoor.",
+                "describeHere": "Lapangan Basket adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node23": {
+            "rawName": "Gedung Olahraga",
+            "displayName": "Lapangan Bulu Tangkis",
+            "placeId": "universitas-pgri-semarang-lapangan-bulu-tangkis",
+            "placeName": "Universitas PGRI Semarang – Lapangan Bulu Tangkis",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lapangan Bulu Tangkis, net dan kursi wasit membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Lapangan Bulu Tangkis, net dan kursi wasit membentuk tampilan bagian Universitas PGRI Semarang ini. Lapangan berjaring menyediakan ruang permainan yang terbagi menjadi dua sisi. Garis permukaan membantu pemain membaca batas dan posisi. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Net",
+                "Kursi wasit"
+            ],
+            "talkingPoints": [
+                "Gedung Olahraga",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lapangan Bulu Tangkis di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Lapangan Bulu Tangkis, net dan kursi wasit membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lapangan Bulu Tangkis?",
+                    "mode": "fix",
+                    "answer": "Net dan Kursi wasit memperjelas susunan serta penggunaan ruang. Pada Lapangan Bulu Tangkis, net dan kursi wasit membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – Lapangan Bulu Tangkis yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Lapangan Bulu Tangkis.",
+                "describeHere": "Gedung Olahraga adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node24": {
+            "rawName": "Lapangan Tennis",
+            "displayName": "Lapangan Tenis",
+            "placeId": "universitas-pgri-semarang-lapangan-tenis",
+            "placeName": "Universitas PGRI Semarang – Lapangan Tenis",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan Tenis menyorot lapangan biru dan net, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Lapangan Tenis menyorot lapangan biru dan net, dengan konteks kunjungan di Universitas PGRI Semarang. Lapangan tenis memiliki bidang permainan yang dibagi oleh net dan garis. Ruang di belakang serta sampingnya mendukung gerakan pemain.",
+            "highlights": [
+                "Lapangan biru",
+                "Net"
+            ],
+            "talkingPoints": [
+                "Lapangan Tennis",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Lapangan Tenis menjadi bagian penting dari Universitas PGRI Semarang – Lapangan Tenis?",
+                    "mode": "fix",
+                    "answer": "Lapangan Tenis menyorot lapangan biru dan net, dengan konteks kunjungan di Universitas PGRI Semarang. Lapangan Tenis menyorot lapangan biru dan net, dengan konteks kunjungan di Universitas PGRI Semarang. Lapangan tenis memiliki bidang permainan yang dibagi oleh net dan garis. Ruang di belakang serta sampingnya mendukung gerakan pemain. UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                },
+                {
+                    "q": "Apa hubungan Lapangan biru dengan aktivitas di Lapangan Tenis?",
+                    "mode": "fix",
+                    "answer": "Lapangan biru menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Lapangan Tenis menyorot lapangan biru dan net, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Lapangan Tenis dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Lapangan biru dan Net. Lapangan Tenis menyorot lapangan biru dan net, dengan konteks kunjungan di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Lapangan Tenis.",
+                "describeHere": "Lapangan Tennis adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node25": {
+            "rawName": "Mobil",
+            "displayName": "Lobi Balairung",
+            "placeId": "universitas-pgri-semarang-lobi-balairung",
+            "placeName": "Universitas PGRI Semarang – Lobi Balairung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lobi Balairung di Universitas PGRI Semarang memperlihatkan konter dan kursi.",
+            "description": "Lobi Balairung di Universitas PGRI Semarang memperlihatkan konter dan kursi. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Konter",
+                "Kursi"
+            ],
+            "talkingPoints": [
+                "Mobil",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Lobi Balairung?",
+                    "mode": "fix",
+                    "answer": "Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Lobi Balairung mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Konter bersama Kursi menunjukkan cara area ini digunakan. Lobi Balairung di Universitas PGRI Semarang memperlihatkan konter dan kursi."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Lobi Balairung?",
+                    "mode": "fix",
+                    "answer": "Konter menjadi detail utama, sedangkan Kursi melengkapi konteksnya. Lobi Balairung di Universitas PGRI Semarang memperlihatkan konter dan kursi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Lobi Balairung.",
+                "describeHere": "Mobil adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node26": {
+            "rawName": "Gedung Kampus 4 UPGRIS",
+            "displayName": "Lobi Kampus 4",
+            "placeId": "universitas-pgri-semarang-lobi-kampus-4",
+            "placeName": "Universitas PGRI Semarang – Lobi Kampus 4",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Logo UPGRIS dan tangga menjadi unsur yang terlihat pada Lobi Kampus 4 di Universitas PGRI Semarang.",
+            "description": "Logo UPGRIS dan tangga menjadi unsur yang terlihat pada Lobi Kampus 4 di Universitas PGRI Semarang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Logo UPGRIS",
+                "Tangga"
+            ],
+            "talkingPoints": [
+                "Gedung Kampus 4 UPGRIS",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Lobi Kampus 4 dalam pengalaman pengunjung di Universitas PGRI Semarang – Lobi Kampus 4?",
+                    "mode": "fix",
+                    "answer": "Logo UPGRIS dan tangga menjadi unsur yang terlihat pada Lobi Kampus 4 di Universitas PGRI Semarang. Logo UPGRIS dan tangga menjadi unsur yang terlihat pada Lobi Kampus 4 di Universitas PGRI Semarang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju. Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                },
+                {
+                    "q": "Mengapa Logo UPGRIS penting pada Lobi Kampus 4?",
+                    "mode": "fix",
+                    "answer": "Logo UPGRIS membantu menjelaskan identitas dan fungsi Lobi Kampus 4. Logo UPGRIS dan tangga menjadi unsur yang terlihat pada Lobi Kampus 4 di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Lobi Kampus 4?",
+                    "mode": "fix",
+                    "answer": "Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Lobi Kampus 4.",
+                "describeHere": "Gedung Kampus 4 UPGRIS adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node27": {
+            "rawName": "Masjid",
+            "displayName": "Masjid – Ruang Salat Hijau",
+            "placeId": "universitas-pgri-semarang-masjid-ruang-salat-hijau",
+            "placeName": "Universitas PGRI Semarang – Masjid – Ruang Salat Hijau",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Masjid – Ruang Salat Hijau menampilkan mihrab dan karpet di Universitas PGRI Semarang.",
+            "description": "Pandangan Masjid – Ruang Salat Hijau menampilkan mihrab dan karpet di Universitas PGRI Semarang. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama.",
+            "highlights": [
+                "Mihrab",
+                "Karpet"
+            ],
+            "talkingPoints": [
+                "Masjid",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Masjid – Ruang Salat Hijau menunjukkan karakter Universitas PGRI Semarang – Masjid – Ruang Salat Hijau?",
+                    "mode": "fix",
+                    "answer": "Pandangan Masjid – Ruang Salat Hijau menampilkan mihrab dan karpet di Universitas PGRI Semarang. Pandangan Masjid – Ruang Salat Hijau menampilkan mihrab dan karpet di Universitas PGRI Semarang. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama. Laboratorium Seni Tari adalah fasilitas yang diperuntukkan bagi mahasiswa yang ingin mengembangkan bakat dan kemampuan mereka dalam seni pertunjukan, khususnya tari. Ruangan ini digunakan sebagai tempat latihan koreografi, pagelaran seni, serta kegiatan pelestarian dan pengembangan budaya tradisional."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Mihrab dan Karpet di Masjid – Ruang Salat Hijau?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pandangan Masjid – Ruang Salat Hijau menampilkan mihrab dan karpet di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Masjid – Ruang Salat Hijau?",
+                    "mode": "fix",
+                    "answer": "Mihrab paling langsung membantu mengenali area ini. Pandangan Masjid – Ruang Salat Hijau menampilkan mihrab dan karpet di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Masjid – Ruang Salat Hijau.",
+                "describeHere": "Masjid adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node28": {
+            "rawName": "Masjid Nurul Huda",
+            "displayName": "Fasad Masjid Nurul Huda",
+            "placeId": "universitas-pgri-semarang-fasad-masjid-nurul-huda",
+            "placeName": "Universitas PGRI Semarang – Fasad Masjid Nurul Huda",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Fasad Masjid Nurul Huda, tangga dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Fasad Masjid Nurul Huda, tangga dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Tangga",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Masjid Nurul Huda",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Fasad Masjid Nurul Huda?",
+                    "mode": "fix",
+                    "answer": "Pada Fasad Masjid Nurul Huda, tangga dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini. Pada Fasad Masjid Nurul Huda, tangga dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju. Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Fasad Masjid Nurul Huda?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Tangga dan Pintu memberi petunjuk tentang kegiatan yang berlangsung di sini. Pada Fasad Masjid Nurul Huda, tangga dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Apa konteks Universitas PGRI Semarang – Fasad Masjid Nurul Huda yang membuat Fasad Masjid Nurul Huda lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Fasad Masjid Nurul Huda.",
+                "describeHere": "Masjid Nurul Huda adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node29": {
+            "rawName": "Masjid",
+            "displayName": "Masjid – Relung Mihrab",
+            "placeId": "universitas-pgri-semarang-masjid-relung-mihrab",
+            "placeName": "Universitas PGRI Semarang – Masjid – Relung Mihrab",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Masjid – Relung Mihrab menyorot ornamen putih dan mihrab, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Masjid – Relung Mihrab menyorot ornamen putih dan mihrab, dengan konteks kunjungan di Universitas PGRI Semarang. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama. Ornamen memberi detail yang membedakan fasad atau interior dari ruang lain yang bentuk dasarnya serupa. Pola, warna, dan letaknya dapat diamati sebagai unsur visual.",
+            "highlights": [
+                "Ornamen putih",
+                "Mihrab"
+            ],
+            "talkingPoints": [
+                "Masjid",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Masjid – Relung Mihrab di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Masjid – Relung Mihrab menyorot ornamen putih dan mihrab, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Masjid – Relung Mihrab?",
+                    "mode": "fix",
+                    "answer": "Ornamen putih dan Mihrab memperjelas susunan serta penggunaan ruang. Masjid – Relung Mihrab menyorot ornamen putih dan mihrab, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – Masjid – Relung Mihrab yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Masjid – Relung Mihrab.",
+                "describeHere": "Masjid adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node30": {
+            "rawName": "Masjid Kampus",
+            "displayName": "Masjid Kampus – Ruang Dalam",
+            "placeId": "universitas-pgri-semarang-masjid-kampus-ruang-dalam",
+            "placeName": "Universitas PGRI Semarang – Masjid Kampus – Ruang Dalam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Masjid Kampus – Ruang Dalam di Universitas PGRI Semarang memperlihatkan mihrab tinggi dan kaligrafi.",
+            "description": "Masjid Kampus – Ruang Dalam di Universitas PGRI Semarang memperlihatkan mihrab tinggi dan kaligrafi. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama.",
+            "highlights": [
+                "Mihrab tinggi",
+                "Kaligrafi"
+            ],
+            "talkingPoints": [
+                "Masjid Kampus",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Masjid Kampus – Ruang Dalam menjadi bagian penting dari Universitas PGRI Semarang – Masjid Kampus – Ruang Dalam?",
+                    "mode": "fix",
+                    "answer": "Masjid Kampus – Ruang Dalam di Universitas PGRI Semarang memperlihatkan mihrab tinggi dan kaligrafi. Masjid Kampus – Ruang Dalam di Universitas PGRI Semarang memperlihatkan mihrab tinggi dan kaligrafi. Ruang ibadah memiliki susunan yang mengarahkan kegiatan salat dan memberi tempat bagi jemaah. Serambi, pintu, dan area persiapan membantu mengatur perpindahan ke ruang utama. UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                },
+                {
+                    "q": "Apa hubungan Mihrab tinggi dengan aktivitas di Masjid Kampus – Ruang Dalam?",
+                    "mode": "fix",
+                    "answer": "Mihrab tinggi menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Masjid Kampus – Ruang Dalam di Universitas PGRI Semarang memperlihatkan mihrab tinggi dan kaligrafi."
+                },
+                {
+                    "q": "Apa yang membedakan Masjid Kampus – Ruang Dalam dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Mihrab tinggi dan Kaligrafi. Masjid Kampus – Ruang Dalam di Universitas PGRI Semarang memperlihatkan mihrab tinggi dan kaligrafi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Masjid Kampus – Ruang Dalam.",
+                "describeHere": "Masjid Kampus adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node31": {
+            "rawName": "Area Parkir",
+            "displayName": "Parkir Mobil Dalam Gedung",
+            "placeId": "universitas-pgri-semarang-parkir-mobil-dalam-gedung",
+            "placeName": "Universitas PGRI Semarang – Parkir Mobil Dalam Gedung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Mobil dan kolom menjadi unsur yang terlihat pada Parkir Mobil Dalam Gedung di Universitas PGRI Semarang.",
+            "description": "Mobil dan kolom menjadi unsur yang terlihat pada Parkir Mobil Dalam Gedung di Universitas PGRI Semarang. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia.",
+            "highlights": [
+                "Mobil",
+                "Kolom"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Parkir Mobil Dalam Gedung?",
+                    "mode": "fix",
+                    "answer": "Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Parkir Mobil Dalam Gedung mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Mobil bersama Kolom menunjukkan cara area ini digunakan. Mobil dan kolom menjadi unsur yang terlihat pada Parkir Mobil Dalam Gedung di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Parkir Mobil Dalam Gedung?",
+                    "mode": "fix",
+                    "answer": "Mobil menjadi detail utama, sedangkan Kolom melengkapi konteksnya. Mobil dan kolom menjadi unsur yang terlihat pada Parkir Mobil Dalam Gedung di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Parkir Mobil Dalam Gedung.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node32": {
+            "rawName": "Perpustakaan",
+            "displayName": "Konter Perpustakaan",
+            "placeId": "universitas-pgri-semarang-konter-perpustakaan",
+            "placeName": "Universitas PGRI Semarang – Konter Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Konter Perpustakaan menampilkan meja layanan dan papan di Universitas PGRI Semarang.",
+            "description": "Pandangan Konter Perpustakaan menampilkan meja layanan dan papan di Universitas PGRI Semarang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Meja layanan",
+                "Papan"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Konter Perpustakaan dalam pengalaman pengunjung di Universitas PGRI Semarang – Konter Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Pandangan Konter Perpustakaan menampilkan meja layanan dan papan di Universitas PGRI Semarang. Pandangan Konter Perpustakaan menampilkan meja layanan dan papan di Universitas PGRI Semarang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                },
+                {
+                    "q": "Mengapa Meja layanan penting pada Konter Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Meja layanan membantu menjelaskan identitas dan fungsi Konter Perpustakaan. Pandangan Konter Perpustakaan menampilkan meja layanan dan papan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Konter Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:151"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Konter Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node33": {
+            "rawName": "Perpustakaan",
+            "displayName": "Akses Ruang Perpustakaan",
+            "placeId": "universitas-pgri-semarang-akses-ruang-perpustakaan",
+            "placeName": "Universitas PGRI Semarang – Akses Ruang Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Akses Ruang Perpustakaan, kursi tunggu dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Akses Ruang Perpustakaan, kursi tunggu dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Perpustakaan menggabungkan penyimpanan koleksi, tempat membaca, dan layanan pengguna. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Kursi tunggu",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Akses Ruang Perpustakaan menunjukkan karakter Universitas PGRI Semarang – Akses Ruang Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Pada Akses Ruang Perpustakaan, kursi tunggu dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini. Pada Akses Ruang Perpustakaan, kursi tunggu dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Perpustakaan menggabungkan penyimpanan koleksi, tempat membaca, dan layanan pengguna. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Kursi tunggu dan Pintu di Akses Ruang Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pada Akses Ruang Perpustakaan, kursi tunggu dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Akses Ruang Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Kursi tunggu paling langsung membantu mengenali area ini. Pada Akses Ruang Perpustakaan, kursi tunggu dan pintu membentuk tampilan bagian Universitas PGRI Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Akses Ruang Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node34": {
+            "rawName": "Area Parkir",
+            "displayName": "Koridor Sisi Parkir",
+            "placeId": "universitas-pgri-semarang-koridor-sisi-parkir",
+            "placeName": "Universitas PGRI Semarang – Koridor Sisi Parkir",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Sisi Parkir menyorot partisi kaca dan akses ruang, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Koridor Sisi Parkir menyorot partisi kaca dan akses ruang, dengan konteks kunjungan di Universitas PGRI Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Partisi membagi kegiatan tanpa selalu menutup seluruh ruang secara permanen. Pembatas dapat membantu privasi, mengatur jalur, atau memisahkan area kerja.",
+            "highlights": [
+                "Partisi kaca",
+                "Akses ruang"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Koridor Sisi Parkir?",
+                    "mode": "fix",
+                    "answer": "Koridor Sisi Parkir menyorot partisi kaca dan akses ruang, dengan konteks kunjungan di Universitas PGRI Semarang. Koridor Sisi Parkir menyorot partisi kaca dan akses ruang, dengan konteks kunjungan di Universitas PGRI Semarang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Partisi membagi kegiatan tanpa selalu menutup seluruh ruang secara permanen. Pembatas dapat membantu privasi, mengatur jalur, atau memisahkan area kerja. Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Koridor Sisi Parkir?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Partisi kaca dan Akses ruang memberi petunjuk tentang kegiatan yang berlangsung di sini. Koridor Sisi Parkir menyorot partisi kaca dan akses ruang, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa konteks Universitas PGRI Semarang – Koridor Sisi Parkir yang membuat Koridor Sisi Parkir lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Koridor Sisi Parkir.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node35": {
+            "rawName": "Pintu Masuk UPGRIS",
+            "displayName": "Landmark Pintu Masuk UPGRIS",
+            "placeId": "universitas-pgri-semarang-landmark-pintu-masuk-upgris",
+            "placeName": "Universitas PGRI Semarang – Landmark Pintu Masuk UPGRIS",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Landmark Pintu Masuk UPGRIS di Universitas PGRI Semarang memperlihatkan nama universitas dan taman.",
+            "description": "Landmark Pintu Masuk UPGRIS di Universitas PGRI Semarang memperlihatkan nama universitas dan taman. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar.",
+            "highlights": [
+                "Nama universitas",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Pintu Masuk UPGRIS",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Landmark Pintu Masuk UPGRIS di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Landmark Pintu Masuk UPGRIS di Universitas PGRI Semarang memperlihatkan nama universitas dan taman."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Landmark Pintu Masuk UPGRIS?",
+                    "mode": "fix",
+                    "answer": "Nama universitas dan Taman memperjelas susunan serta penggunaan ruang. Landmark Pintu Masuk UPGRIS di Universitas PGRI Semarang memperlihatkan nama universitas dan taman."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – Landmark Pintu Masuk UPGRIS yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Laboratorium Seni Tari adalah fasilitas yang diperuntukkan bagi mahasiswa yang ingin mengembangkan bakat dan kemampuan mereka dalam seni pertunjukan, khususnya tari. Ruangan ini digunakan sebagai tempat latihan koreografi, pagelaran seni, serta kegiatan pelestarian dan pengembangan budaya tradisional."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Landmark Pintu Masuk UPGRIS.",
+                "describeHere": "Pintu Masuk UPGRIS adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node36": {
+            "rawName": "Radio",
+            "displayName": "Studio Up Radio",
+            "placeId": "universitas-pgri-semarang-studio-up-radio",
+            "placeName": "Universitas PGRI Semarang – Studio Up Radio",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Logo radio dan panel peredam menjadi unsur yang terlihat pada Studio Up Radio di Universitas PGRI Semarang.",
+            "description": "Logo radio dan panel peredam menjadi unsur yang terlihat pada Studio Up Radio di Universitas PGRI Semarang. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman.",
+            "highlights": [
+                "Logo radio",
+                "Panel peredam"
+            ],
+            "talkingPoints": [
+                "Radio",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Studio Up Radio menjadi bagian penting dari Universitas PGRI Semarang – Studio Up Radio?",
+                    "mode": "fix",
+                    "answer": "Logo radio dan panel peredam menjadi unsur yang terlihat pada Studio Up Radio di Universitas PGRI Semarang. Logo radio dan panel peredam menjadi unsur yang terlihat pada Studio Up Radio di Universitas PGRI Semarang. Studio menyediakan lingkungan kerja untuk produksi suara atau gambar. Latar, meja produksi, dan penempatan perangkat membantu mengatur hasil rekaman. Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa."
+                },
+                {
+                    "q": "Apa hubungan Logo radio dengan aktivitas di Studio Up Radio?",
+                    "mode": "fix",
+                    "answer": "Logo radio menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Logo radio dan panel peredam menjadi unsur yang terlihat pada Studio Up Radio di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Studio Up Radio dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Logo radio dan Panel peredam. Logo radio dan panel peredam menjadi unsur yang terlihat pada Studio Up Radio di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:147"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Studio Up Radio.",
+                "describeHere": "Radio adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node37": {
+            "rawName": "Taman Baca",
+            "displayName": "Taman Baca",
+            "placeId": "universitas-pgri-semarang-taman-baca",
+            "placeName": "Universitas PGRI Semarang – Taman Baca",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Taman Baca menampilkan papan taman dan gazebo di Universitas PGRI Semarang.",
+            "description": "Pandangan Taman Baca menampilkan papan taman dan gazebo di Universitas PGRI Semarang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan taman",
+                "Gazebo"
+            ],
+            "talkingPoints": [
+                "Taman Baca",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Taman Baca?",
+                    "mode": "fix",
+                    "answer": "Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Taman Baca mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Papan taman bersama Gazebo menunjukkan cara area ini digunakan. Pandangan Taman Baca menampilkan papan taman dan gazebo di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Taman Baca?",
+                    "mode": "fix",
+                    "answer": "Papan taman menjadi detail utama, sedangkan Gazebo melengkapi konteksnya. Pandangan Taman Baca menampilkan papan taman dan gazebo di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Taman Baca.",
+                "describeHere": "Taman Baca adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node38": {
+            "rawName": "Labteknologipangan",
+            "displayName": "Laboratorium Teknologi Pangan – Peralatan",
+            "placeId": "universitas-pgri-semarang-laboratorium-teknologi-pangan-peralatan",
+            "placeName": "Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Peralatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Laboratorium Teknologi Pangan – Peralatan, meja praktikum dan perangkat membentuk tampilan bagian Universitas PGRI Semarang ini.",
+            "description": "Pada Laboratorium Teknologi Pangan – Peralatan, meja praktikum dan perangkat membentuk tampilan bagian Universitas PGRI Semarang ini. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Meja kerja serta penempatan peralatan membantu membedakan proses belajar di sini dari kelas biasa. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja praktikum",
+                "Perangkat"
+            ],
+            "talkingPoints": [
+                "Labteknologipangan",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Laboratorium Teknologi Pangan – Peralatan dalam pengalaman pengunjung di Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Peralatan?",
+                    "mode": "fix",
+                    "answer": "Pada Laboratorium Teknologi Pangan – Peralatan, meja praktikum dan perangkat membentuk tampilan bagian Universitas PGRI Semarang ini. Pada Laboratorium Teknologi Pangan – Peralatan, meja praktikum dan perangkat membentuk tampilan bagian Universitas PGRI Semarang ini. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Meja kerja serta penempatan peralatan membantu membedakan proses belajar di sini dari kelas biasa. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                },
+                {
+                    "q": "Mengapa Meja praktikum penting pada Laboratorium Teknologi Pangan – Peralatan?",
+                    "mode": "fix",
+                    "answer": "Meja praktikum membantu menjelaskan identitas dan fungsi Laboratorium Teknologi Pangan – Peralatan. Pada Laboratorium Teknologi Pangan – Peralatan, meja praktikum dan perangkat membentuk tampilan bagian Universitas PGRI Semarang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Laboratorium Teknologi Pangan – Peralatan?",
+                    "mode": "fix",
+                    "answer": "UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:149"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Peralatan.",
+                "describeHere": "Labteknologipangan adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node39": {
+            "rawName": "Mikroskop",
+            "displayName": "Laboratorium Teknologi Pangan – Meja Uji",
+            "placeId": "universitas-pgri-semarang-laboratorium-teknologi-pangan-meja-uji",
+            "placeName": "Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Meja Uji",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Laboratorium Teknologi Pangan – Meja Uji menyorot meja dan peralatan analisis, dengan konteks kunjungan di Universitas PGRI Semarang.",
+            "description": "Laboratorium Teknologi Pangan – Meja Uji menyorot meja dan peralatan analisis, dengan konteks kunjungan di Universitas PGRI Semarang. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Meja kerja serta penempatan peralatan membantu membedakan proses belajar di sini dari kelas biasa. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja",
+                "Peralatan analisis"
+            ],
+            "talkingPoints": [
+                "Mikroskop",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Laboratorium Teknologi Pangan – Meja Uji menunjukkan karakter Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Meja Uji?",
+                    "mode": "fix",
+                    "answer": "Laboratorium Teknologi Pangan – Meja Uji menyorot meja dan peralatan analisis, dengan konteks kunjungan di Universitas PGRI Semarang. Laboratorium Teknologi Pangan – Meja Uji menyorot meja dan peralatan analisis, dengan konteks kunjungan di Universitas PGRI Semarang. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Meja kerja serta penempatan peralatan membantu membedakan proses belajar di sini dari kelas biasa. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Meja dan Peralatan analisis di Laboratorium Teknologi Pangan – Meja Uji?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Laboratorium Teknologi Pangan – Meja Uji menyorot meja dan peralatan analisis, dengan konteks kunjungan di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Laboratorium Teknologi Pangan – Meja Uji?",
+                    "mode": "fix",
+                    "answer": "Meja paling langsung membantu mengenali area ini. Laboratorium Teknologi Pangan – Meja Uji menyorot meja dan peralatan analisis, dengan konteks kunjungan di Universitas PGRI Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Laboratorium Teknologi Pangan – Meja Uji.",
+                "describeHere": "Mikroskop adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node40": {
+            "rawName": "Lab Teknologi Pangan",
+            "displayName": "Akses Laboratorium Teknologi Pangan",
+            "placeId": "universitas-pgri-semarang-akses-laboratorium-teknologi-pangan",
+            "placeName": "Universitas PGRI Semarang – Akses Laboratorium Teknologi Pangan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses Laboratorium Teknologi Pangan di Universitas PGRI Semarang memperlihatkan pintu kaca dan kabinet.",
+            "description": "Akses Laboratorium Teknologi Pangan di Universitas PGRI Semarang memperlihatkan pintu kaca dan kabinet. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum.",
+            "highlights": [
+                "Pintu kaca",
+                "Kabinet"
+            ],
+            "talkingPoints": [
+                "Lab Teknologi Pangan",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Akses Laboratorium Teknologi Pangan?",
+                    "mode": "fix",
+                    "answer": "Akses Laboratorium Teknologi Pangan di Universitas PGRI Semarang memperlihatkan pintu kaca dan kabinet. Akses Laboratorium Teknologi Pangan di Universitas PGRI Semarang memperlihatkan pintu kaca dan kabinet. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Permukaan transparan memberi gambaran kegiatan atau ruang di balik pintu sebelum orang masuk. Pengunjung tetap perlu membaca papan dan ketentuan akses karena keterlihatan tidak berarti semua area terbuka untuk umum. UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Akses Laboratorium Teknologi Pangan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Pintu kaca dan Kabinet memberi petunjuk tentang kegiatan yang berlangsung di sini. Akses Laboratorium Teknologi Pangan di Universitas PGRI Semarang memperlihatkan pintu kaca dan kabinet."
+                },
+                {
+                    "q": "Apa konteks Universitas PGRI Semarang – Akses Laboratorium Teknologi Pangan yang membuat Akses Laboratorium Teknologi Pangan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Akses Laboratorium Teknologi Pangan.",
+                "describeHere": "Lab Teknologi Pangan adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node41": {
+            "rawName": "VIP Balairung",
+            "displayName": "Ruang VIP Balairung",
+            "placeId": "universitas-pgri-semarang-ruang-vip-balairung",
+            "placeName": "Universitas PGRI Semarang – Ruang VIP Balairung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sofa dan meja tamu menjadi unsur yang terlihat pada Ruang VIP Balairung di Universitas PGRI Semarang.",
+            "description": "Sofa dan meja tamu menjadi unsur yang terlihat pada Ruang VIP Balairung di Universitas PGRI Semarang. Area duduk menyediakan tempat berhenti di antara kegiatan. Posisi kursi dan hubungannya dengan jalur membantu membedakan ruang menunggu dari ruang kerja atau aktivitas utama. Sofa menyediakan tempat duduk untuk jeda atau percakapan sebelum kegiatan berikutnya. Penempatannya membantu membedakan bagian yang dapat digunakan untuk berhenti dari jalur yang harus tetap terbuka.",
+            "highlights": [
+                "Sofa",
+                "Meja tamu"
+            ],
+            "talkingPoints": [
+                "VIP Balairung",
+                "jalur eksplorasi",
+                "Upgris"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Ruang VIP Balairung di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Sofa dan meja tamu menjadi unsur yang terlihat pada Ruang VIP Balairung di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Ruang VIP Balairung?",
+                    "mode": "fix",
+                    "answer": "Sofa dan Meja tamu memperjelas susunan serta penggunaan ruang. Sofa dan meja tamu menjadi unsur yang terlihat pada Ruang VIP Balairung di Universitas PGRI Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang Universitas PGRI Semarang – Ruang VIP Balairung yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Universitas PGRI Semarang – Ruang VIP Balairung.",
+                "describeHere": "VIP Balairung adalah area di dalam kawasan Upgris, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "modernObjectInfo": {
+        "1793": {
+            "name": {
+                "id": "Softbox Ligthing"
+            },
+            "image": "softbox-ligthing-softboxlightning.webp"
+        },
+        "1794": {
+            "name": {
+                "id": "Set Wayang Kulit"
+            },
+            "image": "set-wayang-kulit-setwayangkulit.webp"
+        },
+        "1795": {
+            "name": {
+                "id": "Kendang"
+            },
+            "image": "kendang-kendang.webp"
+        },
+        "1796": {
+            "name": {
+                "id": "Kenong"
+            },
+            "image": "kenong-kenong.webp"
+        },
+        "1797": {
+            "name": {
+                "id": "Gender"
+            },
+            "image": "gender-gender.webp"
+        },
+        "1798": {
+            "name": {
+                "id": "Gong"
+            },
+            "image": "gong-gong.webp"
+        },
+        "1799": {
+            "name": {
+                "id": "Softbox Lighting"
+            },
+            "image": "softbox-lighting-softboxligthing.webp"
+        },
+        "1800": {
+            "name": {
+                "id": "Teleprompter"
+            },
+            "image": "teleprompter-teleprompter.webp"
+        },
+        "1801": {
+            "name": {
+                "id": "Set Alat Penyiaran Radio"
+            },
+            "image": "set-alat-penyiaran-radio-setalatpenyiaranradio.webp"
+        },
+        "1803": {
+            "name": {
+                "id": "Ballroom Upgris"
+            },
+            "image": "ballroom-upgris-ballroomupgris.webp"
+        },
+        "1804": {
+            "name": {
+                "id": "Katalog Digital OPAC"
+            },
+            "image": "katalog-digital-opac-katalogdigitalopac.webp"
+        },
+        "1806": {
+            "name": {
+                "id": "Mesin Vacuum Frying"
+            },
+            "image": "mesin-vacuum-frying-mesinvacuumfrying.webp"
+        },
+        "1807": {
+            "name": {
+                "id": "Profer Cabinet, Deck Oven, dan Spiral Mixer"
+            },
+            "image": "profer-cabinet-deck-oven-dan-spiral-mixer-profercabinetdeckovenspiralmixer.webp"
+        },
+        "1808": {
+            "name": {
+                "id": "Mikroskop"
+            },
+            "image": "mikroskop-mikroskop.webp"
+        },
+        "1809": {
+            "name": {
+                "id": "Sentrifuge, Overhead, dan Magnetic Stirrer"
+            },
+            "image": "sentrifuge-overhead-dan-magnetic-stirrer-sentrifugeoverheadmagneticstirrer.webp"
+        },
+        "1810": {
+            "name": {
+                "id": "Layar Podcast Studio"
+            },
+            "image": "layar-podcast-studio-layarpodcaststudio.webp"
+        },
+        "1811": {
+            "name": {
+                "id": "Mikrofon dan Headphone Studio"
+            },
+            "image": "mikrofon-dan-headphone-studio-mikrofondanheadphonestudio.webp"
+        }
+    }
+};

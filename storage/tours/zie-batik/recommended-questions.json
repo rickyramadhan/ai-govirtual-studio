@@ -2,49 +2,49 @@
     "version": "1.0",
     "tourId": "zie-batik",
     "tourName": "Zie Batik",
-    "updatedAt": "2026-08-29T07:23:05+02:00",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
     "state1": {
         "starters": [
             {
-                "label": "Tentang Zie Batik",
-                "query": "Bagaimana sejarah dan latar belakang berdirinya Zie Batik di Semarang ini?",
-                "desc": "Bagaimana sejarah dan latar belakang berdirinya Zie Batik di Semarang ini?"
+                "label": "Apa bedanya pewarna mangrove?",
+                "query": "Apa kelebihan kain batik yang menggunakan pewarna alam mangrove dibanding pewarna sintetis?",
+                "desc": "Apa kelebihan kain batik yang menggunakan pewarna alam mangrove dibanding pewarna sintetis?"
             },
             {
-                "label": "Fungsi Canting",
-                "query": "Bagaimana cara kerja canting saat digunakan untuk melukis kain mori di sini?",
-                "desc": "Bagaimana cara kerja canting saat digunakan untuk melukis kain mori di sini?"
+                "label": "Bisa pesan motif khusus?",
+                "query": "Apakah pengunjung bisa memesan (custom) motif atau busana batik sesuai keinginan sendiri?",
+                "desc": "Apakah pengunjung bisa memesan (custom) motif atau busana batik sesuai keinginan sendiri?"
             },
             {
-                "label": "Jam Kunjungan",
-                "query": "Kapan jam operasional terbaik untuk merencanakan kunjungan langsung ke Zie Batik?",
-                "desc": "Kapan jam operasional terbaik untuk merencanakan kunjungan langsung ke Zie Batik?"
+                "label": "Lokasi pasti Zie Batik?",
+                "query": "Di mana tepatnya alamat galeri Zie Batik jika berangkat dari pusat Kota Semarang?",
+                "desc": "Di mana tepatnya alamat galeri Zie Batik jika berangkat dari pusat Kota Semarang?"
             }
         ],
         "themes": [
             {
-                "label": "Area Produksi",
-                "query": "Apa saja aktivitas menarik yang bisa dilihat langsung di Area Produksi Zie Batik?"
+                "label": "Inovasi Pewarna Alam",
+                "query": "Bagaimana sejarah Zie Batik memelopori penggunaan pewarna alami yang diekstrak dari tanaman mangrove (bakau)?"
             },
             {
-                "label": "Kain Mori",
-                "query": "Apa keistimewaan kain mori yang digunakan sebagai bahan dasar membatik di sini?"
+                "label": "Koleksi Motif Mangrove",
+                "query": "Apa saja ciri khas corak atau motif Batik Mangrove yang menjadi karya andalan utama dari galeri Zie Batik Gunungpati?"
             },
             {
-                "label": "Spot Musholla",
-                "query": "Bagaimana kondisi dan letak area Musholla yang ada di kawasan Zie Batik ini?"
+                "label": "Proses Batik Ramah Lingkungan",
+                "query": "Bisa jelaskan tahapan produksi membatik yang mengutamakan konsep ecofriendly atau ramah lingkungan di tempat ini?"
             },
             {
-                "label": "Galeri & Objek",
-                "query": "Apa saja koleksi menarik yang dipamerkan pada Objek 1041 dan Galeri Zie Batik?"
+                "label": "Pemberdayaan Warga Sekitar",
+                "query": "Seperti apa peran galeri ini dalam memberdayakan warga setempat (ibu-ibu rumah tangga) sebagai pengrajin batik?"
             },
             {
-                "label": "Greenhouse",
-                "query": "Apa fungsi dari area Greenhouse yang terhubung dalam jalur eksplorasi tur virtual ini?"
+                "label": "Edukasi Pewarnaan Alami",
+                "query": "Program edukasi atau workshop apa saja yang ditawarkan bagi pengunjung yang ingin belajar membuat pewarna alam?"
             },
             {
-                "label": "Rute Tur",
-                "query": "Bagaimana rute terbaik untuk menjelajahi semua titik panorama dari Area Awal hingga Area Utama?"
+                "label": "Karya Batik Kontemporer",
+                "query": "Bagaimana perpaduan antara motif tradisional pesisiran dengan gaya kontemporer diaplikasikan pada busana buatan Zie Batik?"
             }
         ]
     },

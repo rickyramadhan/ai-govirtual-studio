@@ -1,0 +1,1666 @@
+{
+    "version": "1.0",
+    "generatedFrom": "https:\/\/semarang.govirtual.id\/webview\/kategori.php?lang=id",
+    "generatedAt": "2026-08-17",
+    "language": "id",
+    "categories": [
+        {
+            "id": "pariwisata",
+            "name": "Pariwisata",
+            "aliases": [
+                "wisata",
+                "pariwisata",
+                "tempat wisata",
+                "destinasi wisata",
+                "jalan-jalan",
+                "rekreasi"
+            ]
+        },
+        {
+            "id": "agama",
+            "name": "Agama",
+            "aliases": [
+                "agama",
+                "tempat ibadah",
+                "ibadah",
+                "religi",
+                "masjid",
+                "gereja",
+                "vihara",
+                "klenteng",
+                "pura"
+            ]
+        },
+        {
+            "id": "pendidikan",
+            "name": "Pendidikan",
+            "aliases": [
+                "pendidikan",
+                "universitas",
+                "kampus",
+                "sekolah",
+                "politeknik",
+                "institut",
+                "fakultas"
+            ]
+        },
+        {
+            "id": "kesehatan",
+            "name": "Kesehatan",
+            "aliases": [
+                "kesehatan",
+                "rumah sakit",
+                "rs",
+                "klinik",
+                "puskesmas",
+                "dokter",
+                "medis"
+            ]
+        },
+        {
+            "id": "investasi",
+            "name": "Investasi",
+            "aliases": [
+                "investasi",
+                "bisnis",
+                "industri",
+                "kawasan industri",
+                "komersial"
+            ]
+        },
+        {
+            "id": "mice",
+            "name": "MICE",
+            "aliases": [
+                "mice",
+                "hotel",
+                "konvensi",
+                "konferensi",
+                "pertemuan",
+                "gedung serbaguna"
+            ]
+        },
+        {
+            "id": "restoran",
+            "name": "Restoran",
+            "aliases": [
+                "restoran",
+                "restaurant",
+                "kuliner",
+                "makan",
+                "tempat makan",
+                "kafe",
+                "cafe",
+                "rumah makan"
+            ]
+        },
+        {
+            "id": "infrastruktur",
+            "name": "Infrastruktur",
+            "aliases": [
+                "infrastruktur",
+                "bandara",
+                "stasiun",
+                "pelabuhan",
+                "terminal",
+                "jalan",
+                "taman",
+                "stadion",
+                "GOR"
+            ]
+        },
+        {
+            "id": "pusatperbelanjaan",
+            "name": "Pusat Perbelanjaan",
+            "aliases": [
+                "pusat perbelanjaan",
+                "mall",
+                "belanja",
+                "pasar",
+                "oleh-oleh",
+                "souvenir",
+                "beli"
+            ]
+        }
+    ],
+    "destinations": [
+        {
+            "id": "sandibuanafarm",
+            "name": "Sandi Buana Farm",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "sandi buana farm"
+            ],
+            "description": "Destinasi agrowisata yang memadukan edukasi pangan dan rekreasi keluarga. Unggul dengan melon hidroponik premium, tempat ini juga menawarkan pengalaman melihat peternakan sapi hingga penggilingan padi dalam suasana pedesaan yang asri. Pilihan tepat untuk melepas penat sambil belajar pertanian modern dari hulu ke hilir.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/sandibuanafarm\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "lawangsewu",
+            "name": "Lawang Sewu",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "lawang sewu"
+            ],
+            "description": "Lawang Sewu adalah bangunan bersejarah ikonik di Semarang yang dibangun pada masa kolonial Belanda sebagai kantor perusahaan kereta api NIS. Namanya berarti “seribu pintu” karena memiliki banyak pintu dan jendela besar. Kini, Lawang Sewu menjadi destinasi wisata sejarah dan arsitektur yang populer.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/lawangsewu\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "nirwana",
+            "name": "Nirwana Cafe dan Galeri",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "nirwana cafe dan galeri"
+            ],
+            "description": "Nirwana Restaurant and Cafe adalah restoran dan kafe di Semarang yang menawarkan berbagai hidangan lokal dan internasional dalam suasana modern dan nyaman. Pengunjung dapat menikmati makanan lezat, minuman segar, serta tempat yang cocok untuk bersantai, berkumpul dengan teman, atau acara keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/nirwana\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kotalama",
+            "name": "Kota Lama",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kota lama"
+            ],
+            "description": "Kota Lama adalah kawasan bersejarah di Semarang yang dikenal dengan bangunan kolonial Belanda yang masih terawat. Area ini sering disebut “Little Netherlands” karena arsitekturnya yang khas. Kini, Kota Lama menjadi destinasi wisata populer dengan kafe, galeri seni, dan museum bernuansa heritage.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kotalama\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "museumkotalama",
+            "name": "Museum Kota Lama",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "museum kota lama"
+            ],
+            "description": "Museum Kota Lama adalah museum bersejarah yang terletak di Kota Lama Semarang. Museum ini menyoroti warisan kolonial kota melalui berbagai artefak, foto, dan pameran. Bertempat di sebuah bangunan kolonial yang telah dipugar dengan indah, museum ini menawarkan wawasan kepada pengunjung tentang evolusi budaya Semarang, sejarah perdagangan, dan pentingnya kawasan Kota Lama.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/museumkotalama\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "goakreo",
+            "name": "Goa Kreo",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "goa kreo"
+            ],
+            "description": "Goa Kreo adalah objek wisata alam di Semarang yang terkenal dengan gua tempat hidup monyet ekor panjang dan pemandangan waduk Jatibarang. Legenda setempat mengaitkannya dengan Sunan Kalijaga saat mencari kayu untuk pembangunan Masjid Agung Demak. Tempat ini menawarkan suasana alami dan spot foto menarik.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/goakreo\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "desakandri",
+            "name": "Desa Wisata Kandri",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "desa wisata kandri"
+            ],
+            "description": "Desa Wisata Kandri adalah desa wisata di Semarang yang menawarkan pengalaman wisata alam dan budaya khas pedesaan. Pengunjung dapat menikmati susur goa, wisata waduk, kuliner tradisional, serta kegiatan masyarakat lokal. Suasana asri dan ramah menjadikannya destinasi favorit untuk wisata edukatif.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/desakandri\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "ziebatik",
+            "name": "Zie Batik",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "zie batik"
+            ],
+            "description": "Zie Batik adalah pusat produksi dan penjualan batik di Semarang yang menawarkan berbagai motif batik khas lokal. Pengunjung dapat melihat proses pembuatan batik tradisional, membeli kain, pakaian, dan suvenir, serta belajar tentang seni dan budaya batik.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/ziebatik\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "agrocepoko",
+            "name": "Agro Wisata Cepoko",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "agro wisata cepoko"
+            ],
+            "description": "Agro Wisata Cepoko adalah destinasi wisata pertanian di Semarang yang menawarkan pengalaman memetik buah langsung dari kebun, terutama jambu dan durian. Dikelilingi suasana sejuk pegunungan, tempat ini cocok untuk wisata edukatif dan keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/agrocepoko\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kebunkramas",
+            "name": "Agro Wisata Kebun Kramas",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "agro wisata kebun kramas"
+            ],
+            "description": "Agro Wisata Kebun kramas adalah destinasi wisata alam di Semarang yang berfokus pada kegiatan pertanian dan edukasi. Pengunjung dapat menikmati pemandangan hijau, belajar menanam, serta mencicipi hasil kebun segar. Tempat ini ideal untuk wisata keluarga dan pelajar.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kebunkramas\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "agropurwosari",
+            "name": "Agro Wisata Purwosari",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "agro wisata purwosari"
+            ],
+            "description": "Agro Wisata Purwosari adalah destinasi wisata alam di Semarang yang menonjolkan perkebunan buah dan sayuran. Pengunjung dapat belajar tentang pertanian, menikmati pemandangan hijau, serta mencicipi hasil kebun segar langsung dari petani. Tempat ini cocok untuk wisata edukatif dan keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/agropurwosari\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "greenfreshfarm",
+            "name": "Green Fresh Farm",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "green fresh farm"
+            ],
+            "description": "Green Fresh Farm merupakan destinasi agrowisata yang memadukan keindahan alam, edukasi, dan keberlanjutan. Pengunjung dapat menjelajahi kebun hijau, belajar tentang pertanian ramah lingkungan, serta merasakan pengalaman memetik hasil panen segar langsung dari lahan. Tempat yang sempurna untuk bersantai, menikmati alam, dan memahami makna hidup hijau.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/greenfreshfarm\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampungbustaman",
+            "name": "Kampung Bustaman",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kampung bustaman"
+            ],
+            "description": "Kampung Bustaman adalah kampung bersejarah di Semarang yang terkenal sebagai pusat kuliner khas, terutama olahan daging kambing. Selain kekayaan cita rasa, kampung ini juga mencerminkan kehidupan masyarakat tradisional dengan nilai budaya dan gotong royong yang kuat.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampungbustaman\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampungjawi",
+            "name": "Kampung Jawi",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kampung jawi"
+            ],
+            "description": "Kampung Jawi adalah desa wisata budaya di Semarang yang mempertahankan tradisi Jawa melalui arsitektur, seni, dan kuliner khas. Pengunjung dapat menikmati suasana pedesaan, belajar kesenian tradisional, serta berpartisipasi dalam kegiatan budaya lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampungjawi\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampungwisatatamanlele",
+            "name": "Kampung Wisata Taman Lele",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kampung wisata taman lele"
+            ],
+            "description": "Kampung Wisata Taman Lele adalah destinasi wisata keluarga di Semarang yang menggabungkan taman rekreasi, kolam ikan, dan area bermain anak. Tempat ini juga memiliki kebun binatang mini serta fasilitas penginapan bergaya alami, menjadikannya lokasi ideal untuk rekreasi dan edukasi keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampungwisatatamanlele\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampungmelayu",
+            "name": "Kawasan Kampung Melayu",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kawasan kampung melayu"
+            ],
+            "description": "Kawasan Kampung Melayu adalah wilayah bersejarah di Semarang yang mencerminkan perpaduan budaya Melayu, Arab, dan Jawa. Area ini dikenal dengan bangunan kuno, masjid bersejarah, serta suasana khas pesisir. Tempat ini menjadi saksi penting perkembangan perdagangan dan budaya di Semarang.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampungmelayu\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "koetatoea",
+            "name": "Koetatoea",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "koetatoea"
+            ],
+            "description": "Koetatoea adalah restoran di Semarang yang menawarkan berbagai hidangan tradisional Indonesia dengan suasana klasik dan nyaman. Tempat ini populer bagi wisatawan dan warga lokal untuk menikmati kuliner autentik sambil merasakan nuansa sejarah dan budaya lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/koetatoea\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "mandalabhakti",
+            "name": "Museum Perjuangan Mandala Bhakti",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "museum perjuangan mandala bhakti"
+            ],
+            "description": "Museum Perjuangan Mandala Bhakti adalah museum sejarah di Semarang yang didedikasikan untuk perjuangan TNI dan rakyat Indonesia dalam mempertahankan kemerdekaan. Koleksinya mencakup senjata, foto, dan dokumentasi perjuangan militer. Bangunannya bergaya kolonial dan menjadi simbol semangat patriotisme bangsa.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/mandalabhakti\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "museumranggawarsita",
+            "name": "Museum Ranggawarsita",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "museum ranggawarsita"
+            ],
+            "description": "Museum Ranggawarsita adalah museum kebudayaan dan sejarah yang terletak di Semarang. Museum ini menyimpan berbagai koleksi arkeologi, etnografi, geologi, dan kesenian Jawa Tengah. Melalui pameran edukatif, pengunjung dapat mengenal kekayaan budaya, tradisi, serta sejarah panjang masyarakat Jawa Tengah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/museumranggawarsita\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pantaimarina",
+            "name": "Pantai Marina",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "pantai marina"
+            ],
+            "description": "Pantai Marina adalah pantai populer di Semarang yang menawarkan pemandangan laut tenang dan area bersantai yang nyaman. Pengunjung dapat menikmati berjalan di tepi pantai, memancing, atau menyaksikan matahari terbenam yang indah. Lokasinya mudah dijangkau dan cocok untuk rekreasi keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pantaimarina\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pantaitirang",
+            "name": "Pantai Tirang",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "pantai tirang"
+            ],
+            "description": "Pantai Tirang adalah pantai alami di Semarang yang menawarkan pemandangan laut tenang dan suasana damai. Tempat ini menjadi lokasi favorit untuk memancing, menikmati matahari terbenam, dan berfoto. Pantai Tirang juga dikenal sebagai habitat mangrove dan berbagai jenis ikan laut.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pantaitirang\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "semarangzoo",
+            "name": "Kebun Binatang Semarang",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kebun binatang semarang"
+            ],
+            "description": "Semarang Zoo adalah kebun binatang utama di Kota Semarang yang menjadi tempat konservasi, edukasi, dan rekreasi. Pengunjung dapat melihat berbagai satwa dari dalam dan luar negeri serta menikmati area bermain dan fasilitas keluarga. Suasananya sejuk dan cocok untuk wisata edukatif.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/semarangzoo\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pengasapanikan",
+            "name": "Sentra Pengasapan Ikan",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "sentra pengasapan ikan"
+            ],
+            "description": "Sentra Pengasapan Ikan adalah pusat pengolahan ikan asap di Semarang yang menawarkan berbagai produk olahan ikan segar menjadi ikan asap berkualitas. Pengunjung dapat melihat proses pengasapan tradisional dan membeli produk langsung dari pengrajin lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pengasapanikan\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tamanbudaya",
+            "name": "Taman Budaya Raden Saleh",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "taman budaya raden saleh"
+            ],
+            "description": "Taman Budaya Raden Saleh adalah pusat kegiatan seni dan budaya di Semarang. Tempat ini menjadi ruang ekspresi bagi seniman lokal melalui pertunjukan, pameran, dan festival. Dengan suasana terbuka dan kreatif, taman budaya ini berperan penting dalam melestarikan serta mengembangkan seni di Jawa Tengah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tamanbudaya\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tinjomoyo",
+            "name": "Taman Petualangan Tinjomoyo",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "taman petualangan tinjomoyo"
+            ],
+            "description": "Tinjomoyo Adventure Park adalah destinasi wisata alam di Semarang yang menawarkan aktivitas luar ruang seperti trekking, camping, dan outbound. Dikelilingi pepohonan rindang dan aliran sungai, tempat ini cocok untuk rekreasi alam dan kegiatan komunitas.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tinjomoyo\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tamantirto",
+            "name": "Taman Tirto Agung",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "taman tirto agung"
+            ],
+            "description": "Taman Tirto Agung adalah taman kota di Semarang yang menjadi tempat favorit untuk bersantai dan berolahraga. Dilengkapi area jogging, taman bermain, dan ruang terbuka hijau, taman ini menawarkan suasana sejuk dan nyaman untuk keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tamantirto\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampungdjadoel",
+            "name": "Kampung Djadoel",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kampung djadoel"
+            ],
+            "description": "Kampung Djadoel adalah destinasi wisata bertema tempo dulu di Semarang yang menampilkan suasana kehidupan masa lampau. Pengunjung dapat menikmati bangunan bergaya klasik, kuliner tradisional, dan berbagai aktivitas budaya yang menghadirkan nuansa nostalgia.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampungdjadoel\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pecinansemarang",
+            "name": "Pecinan Semarang",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "pecinan semarang"
+            ],
+            "description": "Pecinan Semarang adalah area bersejarah di Semarang yang menjadi pusat budaya Tionghoa sejak masa kolonial. Di sini terdapat kelenteng tua, toko tradisional, dan kuliner khas oriental. Suasananya ramai dan penuh warna, mencerminkan harmoni antara budaya Tionghoa dan Jawa.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pecinansemarang\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "nongkosawit",
+            "name": "Desa Wisata Nongko Sawit",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "desa wisata nongko sawit"
+            ],
+            "description": "Desa Wisata Nongko Sawit adalah desa wisata di Semarang yang menawarkan suasana pedesaan asri dengan aktivitas alam dan budaya. Pengunjung dapat belajar bertani, menikmati kuliner lokal, serta berinteraksi dengan masyarakat setempat. Tempat ini cocok untuk wisata edukatif dan rekreasi keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/nongkosawit\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "simpanglima",
+            "name": "Simpang Lima",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "simpang lima"
+            ],
+            "description": "Simpang Lima adalah pusat kota dan ikon Semarang yang terkenal sebagai area terbuka untuk hiburan, kuliner, dan aktivitas sosial. Kawasan ini dikelilingi perkantoran, pusat perbelanjaan, dan hotel, menjadi tempat populer bagi warga dan wisatawan untuk bersantai dan menikmati suasana kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/simpanglima\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampungayu",
+            "name": "Kampung Jajan Pasar Banget Ayu Kulon",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kampung jajan pasar banget ayu kulon"
+            ],
+            "description": "Kampung Jajan Pasar Banget Ayu Kulon adalah destinasi kuliner di Semarang yang menawarkan berbagai jajanan tradisional dan makanan khas lokal. Tempat ini menjadi favorit wisatawan dan warga lokal untuk menikmati cita rasa autentik dalam suasana pasar yang ramai dan meriah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampungayu\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "susurmangrove",
+            "name": "Susur Mangrove Desa Tapak",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "susur mangrove desa tapak"
+            ],
+            "description": "Susur Mangrove Desa Tapak adalah wisata alam di kawasan pesisir Semarang yang menawarkan pengalaman menyusuri hutan mangrove. Pengunjung dapat menikmati keindahan alam, melihat ekosistem pesisir, serta belajar tentang pentingnya pelestarian lingkungan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/susurmangrove\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "dungtungkul",
+            "name": "Kampung Tematik Dung Tungkul",
+            "categoryId": "pariwisata",
+            "aliases": [
+                "kampung tematik dung tungkul"
+            ],
+            "description": "Kampung Tematik Dung Tungkul adalah kawasan wisata kreatif di Semarang yang menonjolkan mural warna-warni dan karya seni warga. Setiap sudutnya dihiasi lukisan dinding bertema budaya dan kehidupan sehari-hari, menjadikannya spot populer untuk berfoto dan menikmati suasana lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/dungtungkul\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "masjidagung",
+            "name": "Masjid Agung Jawa Tengah",
+            "categoryId": "agama",
+            "aliases": [
+                "masjid agung jawa tengah",
+                "agung jawa tengah"
+            ],
+            "description": "Masjid Agung Jawa Tengah adalah masjid megah di Semarang yang menjadi ikon religi dan wisata. Dikenal dengan arsitektur perpaduan Jawa, Islam, dan Romawi, masjid ini memiliki menara tinggi dan payung hidrolik raksasa. Selain tempat ibadah, juga menjadi pusat kegiatan keagamaan dan edukasi.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/masjidagung\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "gerejakatedral",
+            "name": "Gereja Katedral",
+            "categoryId": "agama",
+            "aliases": [
+                "gereja katedral",
+                "katedral"
+            ],
+            "description": "Gereja Katedral Semarang adalah gereja Katolik bersejarah yang menjadi pusat keuskupan Semarang. Dikenal dengan arsitektur bergaya neogotik dan suasana khidmat, gereja ini menjadi tempat ibadah utama sekaligus landmark religius yang mencerminkan warisan budaya kolonial Belanda.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/gerejakatedral\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "sampookong",
+            "name": "Sam Poo Kong",
+            "categoryId": "agama",
+            "aliases": [
+                "sam poo kong"
+            ],
+            "description": "Sam Poo Kong adalah klenteng bersejarah di Semarang yang menjadi simbol akulturasi budaya Tionghoa dan Jawa. Didirikan untuk menghormati Laksamana Cheng Ho, tempat ini memiliki arsitektur megah dan menjadi destinasi wisata religi sekaligus budaya yang populer.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/sampookong\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "firdausfatimah",
+            "name": "Firdaus Fatimah Zahra",
+            "categoryId": "agama",
+            "aliases": [
+                "firdaus fatimah zahra"
+            ],
+            "description": "Firdaus Fatimah Zahra adalah destinasi wisata religi di Semarang yang menghadirkan miniatur replika tempat-tempat suci umat Islam, seperti Ka’bah dan Masjid Nabawi. Tempat ini menawarkan pengalaman edukatif dan spiritual, cocok untuk wisata keluarga dan pembelajaran ibadah haji.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/firdausfatimah\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "masjidbaiturrahman",
+            "name": "Masjid Baiturrahman",
+            "categoryId": "agama",
+            "aliases": [
+                "masjid baiturrahman",
+                "baiturrahman"
+            ],
+            "description": "Masjid Baiturrahman adalah salah satu masjid bersejarah di Semarang yang terletak di kawasan Simpang Lima. Masjid ini terkenal dengan arsitekturnya yang elegan dan suasananya yang tenang, menjadi pusat ibadah sekaligus kegiatan sosial dan keagamaan masyarakat sekitar.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/masjidbaiturrahman\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "gerejasantoyusuf",
+            "name": "Gereja Santo Yusuf",
+            "categoryId": "agama",
+            "aliases": [
+                "gereja santo yusuf",
+                "santo yusuf"
+            ],
+            "description": "Gereja Santo Yusuf adalah gereja Katolik di Semarang yang dikenal dengan arsitektur klasik dan suasana yang tenang. Gereja ini menjadi tempat ibadah bagi umat Katolik setempat serta simbol kebersamaan dan nilai spiritual di tengah kehidupan kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/gerejasantoyusuf\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "klentenghwiewiekiong",
+            "name": "Klenteng Hwie Wie Kiong",
+            "categoryId": "agama",
+            "aliases": [
+                "klenteng hwie wie kiong",
+                "hwie wie kiong"
+            ],
+            "description": "Klenteng Hwie Wie Kiong adalah salah satu klenteng tertua di Semarang yang didedikasikan untuk menghormati leluhur Tionghoa. Tempat ini memiliki arsitektur khas Tiongkok dengan ornamen naga dan ukiran indah, menjadi simbol sejarah serta pusat kegiatan budaya dan spiritual masyarakat Tionghoa.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/klentenghwiewiekiong\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "masjidkauman",
+            "name": "Masjid Agung Semarang",
+            "categoryId": "agama",
+            "aliases": [
+                "masjid agung semarang",
+                "agung semarang"
+            ],
+            "description": "Masjid Agung Semarang adalah masjid tertua di Semarang yang berdiri sejak masa Kesultanan Mataram. Terletak di dekat alun-alun kota lama, masjid ini memiliki arsitektur tradisional Jawa dengan atap tumpang dan ukiran khas. Tempat ini menjadi pusat dakwah dan kegiatan keagamaan masyarakat.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/masjidkauman\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "viharawatugong",
+            "name": "Vihara Watugong",
+            "categoryId": "agama",
+            "aliases": [
+                "vihara watugong",
+                "watugong"
+            ],
+            "description": "Vihara Watugong adalah vihara megah di Semarang yang dikenal dengan Pagoda Avalokitesvara setinggi 45 meter, salah satu yang tertinggi di Indonesia. Tempat ini menjadi simbol toleransi dan keharmonisan antarumat beragama serta destinasi wisata spiritual dan budaya.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/viharawatugong\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "unnes",
+            "name": "Universitas Negeri Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas negeri semarang",
+                "negeri semarang"
+            ],
+            "description": "Universitas Negeri Semarang (UNNES) adalah universitas negeri ternama di Semarang yang berfokus pada pendidikan, penelitian, dan pelestarian lingkungan. Kampus ini dikenal dengan komitmennya terhadap konsep conservation university serta pengembangan sumber daya manusia yang berkarakter dan berwawasan global.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/unnes\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "unika",
+            "name": "Universitas Katolik Soegijapranata",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas katolik soegijapranata",
+                "katolik soegijapranata"
+            ],
+            "description": "Universitas Katolik Soegijapranata adalah perguruan tinggi swasta ternama di Semarang yang dikelola oleh Keuskupan Agung Semarang. Kampus ini dikenal dengan lingkungan akademik yang berkualitas, nilai humanis, dan komitmen pada pengabdian masyarakat serta pengembangan ilmu berbasis etika.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/unika\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "univpgri",
+            "name": "Universitas PGRI Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas pgri semarang",
+                "pgri semarang"
+            ],
+            "description": "Universitas PGRI Semarang adalah perguruan tinggi swasta yang berkomitmen pada pengembangan pendidikan dan tenaga pendidik profesional. Kampus ini menawarkan berbagai program studi dengan fokus pada inovasi, penelitian, dan pembentukan karakter mahasiswa yang berintegritas.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/univpgri\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "polines",
+            "name": "Politeknik Negeri Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "politeknik negeri semarang",
+                "negeri semarang"
+            ],
+            "description": "Politeknik Negeri Semarang (Polines) adalah perguruan tinggi vokasi negeri di Semarang yang menawarkan program studi teknik, manajemen, dan teknologi terapan. Kampus ini fokus pada pengembangan keterampilan praktis, inovasi, dan kompetensi profesional untuk memenuhi kebutuhan industri.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/polines\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "boardingschool",
+            "name": "Semesta Boarding School",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "semesta boarding school"
+            ],
+            "description": "Semesta Boarding School adalah sekolah berbasis asrama di Semarang yang mengutamakan pendidikan karakter, akademik, dan pengembangan keterampilan siswa. Sekolah ini menyediakan lingkungan belajar yang disiplin dan mendukung pembentukan pribadi mandiri dan bertanggung jawab.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/boardingschool\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "smpdomsav",
+            "name": "SMP Domsav",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "smp domsav"
+            ],
+            "description": "SMP Domsav adalah sekolah menengah pertama di Semarang yang berfokus pada pendidikan akademik dan pembentukan karakter siswa. Sekolah ini dikenal dengan lingkungan belajar yang disiplin, inovatif, serta dukungan terhadap pengembangan potensi dan kreativitas peserta didik.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/smpdomsav\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "binus",
+            "name": "Universitas Bina Nusantara",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas bina nusantara",
+                "bina nusantara"
+            ],
+            "description": "Universitas Bina Nusantara, atau BINUS, adalah universitas swasta terkemuka di Indonesia dengan kampus di berbagai kota, termasuk Semarang. Dikenal dengan fokus pada teknologi, inovasi, dan kewirausahaan, BINUS berkomitmen mencetak lulusan berdaya saing global.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/binus\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "uinwalisongo",
+            "name": "Universitas Islam Negeri Walisongo",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas islam negeri walisongo",
+                "islam negeri walisongo"
+            ],
+            "description": "Universitas Islam Negeri Walisongo (UIN Walisongo) adalah perguruan tinggi negeri di Semarang yang mengintegrasikan pendidikan agama Islam dengan ilmu pengetahuan umum. Kampus ini berfokus pada pengembangan akademik, penelitian, dan dakwah, menghasilkan lulusan berilmu, berakhlak, dan berwawasan global.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/uinwalisongo\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "unimus",
+            "name": "Universitas Muhammadiyah Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas muhammadiyah semarang",
+                "muhammadiyah semarang"
+            ],
+            "description": "Universitas Muhammadiyah Semarang (UNIMUS) adalah perguruan tinggi swasta yang dikelola oleh organisasi Muhammadiyah. Dikenal dengan pendidikan berbasis Islam modern, UNIMUS berkomitmen mencetak lulusan berilmu, berakhlak, dan siap bersaing di tingkat nasional maupun internasional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/unimus\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "universitassemarang",
+            "name": "Universitas Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas semarang",
+                "semarang"
+            ],
+            "description": "Universitas Semarang (USM) adalah perguruan tinggi swasta di Semarang yang menawarkan berbagai program studi, termasuk teknik, bisnis, dan ilmu sosial. Kampus ini fokus pada pengembangan akademik, keterampilan profesional, serta inovasi untuk mencetak lulusan siap bersaing secara nasional dan internasional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/universitassemarang\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "unisbank",
+            "name": "Universitas Stikubank",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas stikubank",
+                "stikubank"
+            ],
+            "description": "Universitas Stikubank (UNISBANK) adalah perguruan tinggi swasta di Semarang yang menawarkan berbagai program studi, khususnya dalam bidang bisnis, teknologi, dan ilmu sosial. Kampus ini berfokus pada pengembangan kompetensi profesional, kewirausahaan, dan inovasi untuk mendukung daya saing mahasiswa.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/unisbank\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "uwhsemarang",
+            "name": "Universitas Widya Husada Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas widya husada semarang",
+                "widya husada semarang"
+            ],
+            "description": "Universitas Widya Husada Semarang adalah perguruan tinggi swasta yang berfokus pada pendidikan kesehatan dan ilmu terapan. Kampus ini menyediakan program studi keperawatan, kebidanan, dan kesehatan masyarakat, dengan tujuan mencetak lulusan profesional, kompeten, dan siap menghadapi tantangan di bidang kesehatan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/uwhsemarang\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "politeknikakpelni",
+            "name": "Politeknik Bumi Akpelni",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "politeknik bumi akpelni",
+                "bumi akpelni"
+            ],
+            "description": "Politeknik Bumi Akpelni adalah institusi pendidikan tinggi vokasi di Semarang yang fokus pada bidang kelautan, perkapalan, dan logistik maritim. Kampus ini bertujuan menghasilkan tenaga profesional yang siap bekerja di industri maritim dan pelayaran nasional maupun internasional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/politeknikakpelni\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "udinus",
+            "name": "Universitas Dian Nuswantoro",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas dian nuswantoro",
+                "dian nuswantoro"
+            ],
+            "description": "Universitas Dian Nuswantoro (UDINUS) adalah perguruan tinggi swasta di Semarang yang dikenal dengan program studi berbasis teknologi, kreatif, dan bisnis. Kampus ini fokus pada pengembangan keterampilan profesional, inovasi, serta kompetensi mahasiswa untuk menghadapi tantangan global.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/udinus\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "unimaramni",
+            "name": "Universitas Maritim AMNI Semarang",
+            "categoryId": "pendidikan",
+            "aliases": [
+                "universitas maritim amni semarang",
+                "maritim amni semarang"
+            ],
+            "description": "UNIVERSITAS MARITIM AMNI SEMARANG merupakan perguruan tinggi swasta di Kota Semarang yang berorientasi di bidang kemaritiman. UNIMAR AMNI berkomitmen mencetak tenaga profesional yang kompeten, unggul dan berdaya saing.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/unimaramni\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rswongsonegoro",
+            "name": "Rumah Sakit Wongsonegoro",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit wongsonegoro",
+                "wongsonegoro"
+            ],
+            "description": "Rumah Sakit Wongsonegoro adalah rumah sakit umum di Semarang yang menyediakan layanan medis lengkap, termasuk rawat inap, rawat jalan, dan fasilitas penunjang kesehatan. Rumah sakit ini dikenal dengan pelayanan profesional dan menjadi rujukan bagi pasien di wilayah Jawa Tengah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rswongsonegoro\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rskariadi",
+            "name": "Rumah Sakit Kariadi",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit kariadi",
+                "kariadi"
+            ],
+            "description": "Rumah Sakit Kariadi adalah rumah sakit umum dan rujukan utama di Semarang yang menyediakan layanan medis lengkap, termasuk spesialisasi, rawat inap, rawat jalan, dan fasilitas penelitian kesehatan. Rumah sakit ini dikenal dengan kualitas pelayanan profesional dan peran pentingnya dalam sistem kesehatan Jawa Tengah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rskariadi\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rsbhayangkaraakpol",
+            "name": "Rumah Sakit Bhayangkara Akpol",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit bhayangkara akpol",
+                "bhayangkara akpol"
+            ],
+            "description": "Rumah Sakit Bhayangkara Akpol adalah rumah sakit milik Kepolisian Republik Indonesia di Semarang yang menyediakan layanan medis untuk anggota polisi dan masyarakat umum. Rumah sakit ini menawarkan rawat inap, rawat jalan, layanan spesialis, dan fasilitas kesehatan modern dengan pelayanan profesional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rsbhayangkaraakpol\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rscolumbiaasia",
+            "name": "Rumah Sakit Columbia Asia",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit columbia asia",
+                "columbia asia"
+            ],
+            "description": "Rumah Sakit Columbia Asia adalah rumah sakit swasta di Semarang yang menyediakan layanan kesehatan modern dan komprehensif, termasuk spesialisasi medis, rawat inap, dan fasilitas diagnostik canggih. Rumah sakit ini dikenal dengan pelayanan profesional dan fokus pada kenyamanan pasien.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rscolumbiaasia\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rselisabeth",
+            "name": "Rumah Sakit Elisabeth",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit elisabeth",
+                "elisabeth"
+            ],
+            "description": "Rumah Sakit Elisabeth adalah rumah sakit umum di Semarang yang menyediakan layanan medis lengkap, termasuk rawat inap, rawat jalan, dan berbagai spesialisasi. Rumah sakit ini dikenal dengan pelayanan profesional, fasilitas modern, dan fokus pada kenyamanan serta keselamatan pasien.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rselisabeth\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rsherminabanyumanik",
+            "name": "Rumah Sakit Hermina Banyumanik",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit hermina banyumanik",
+                "hermina banyumanik"
+            ],
+            "description": "Rumah Sakit Hermina Banyumanik adalah rumah sakit swasta di Semarang yang menyediakan layanan kesehatan lengkap, termasuk rawat inap, rawat jalan, spesialisasi medis, dan fasilitas diagnostik modern. Rumah sakit ini dikenal dengan pelayanan profesional, kenyamanan pasien, dan fokus pada kesehatan keluarga.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rsherminabanyumanik\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rsroemani",
+            "name": "Rumah Sakit Roemani",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit roemani",
+                "roemani"
+            ],
+            "description": "Rumah Sakit Roemani adalah rumah sakit umum di Semarang yang menyediakan layanan medis lengkap, termasuk rawat inap, rawat jalan, spesialisasi, dan fasilitas penunjang kesehatan modern. Rumah sakit ini dikenal dengan pelayanan profesional, kualitas medis, serta kenyamanan pasien.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rsroemani\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rstelogorejo",
+            "name": "Rumah Sakit Telogorejo",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit telogorejo",
+                "telogorejo"
+            ],
+            "description": "Rumah Sakit Telogorejo adalah rumah sakit swasta di Semarang yang menyediakan layanan medis lengkap, termasuk rawat inap, rawat jalan, spesialisasi medis, dan fasilitas penunjang kesehatan modern. Rumah sakit ini dikenal dengan pelayanan profesional dan standar keselamatan pasien yang tinggi.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rstelogorejo\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rsudadhyatma",
+            "name": "Rumah Sakit Tugu",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit tugu",
+                "tugu"
+            ],
+            "description": "Rumah Sakit Tugu adalah rumah sakit swasta di Semarang yang menyediakan layanan kesehatan lengkap, termasuk rawat inap, rawat jalan, spesialisasi medis, dan fasilitas diagnostik modern. Rumah sakit ini dikenal dengan pelayanan profesional dan kenyamanan pasien sebagai prioritas utama.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rsudadhyatma\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "rsunimus",
+            "name": "Rumah Sakit Unimus",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "rumah sakit unimus",
+                "unimus"
+            ],
+            "description": "Rumah Sakit Unimus adalah rumah sakit pendidikan yang dikelola oleh Universitas Muhammadiyah Semarang. Rumah sakit ini menyediakan layanan medis lengkap dan menjadi sarana praktik bagi mahasiswa kesehatan, dengan fokus pada pelayanan profesional, edukasi, dan penelitian medis.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/rsunimus\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "sccr",
+            "name": "SCCR",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "sccr"
+            ],
+            "description": "SCCR adalah pusat layanan rehabilitasi dan perawatan kesehatan di Semarang yang fokus pada terapi fisik, pemulihan cedera, dan peningkatan kualitas hidup pasien. Fasilitas ini menyediakan program rehabilitasi profesional dengan pendekatan medis dan teknologi modern.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/sccr\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "dermaexpress",
+            "name": "Derma Express",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "derma express"
+            ],
+            "description": "Derma Express adalah layanan pengiriman atau logistik cepat di Semarang yang berfokus pada kecepatan, keamanan, dan kemudahan pengiriman barang maupun dokumen. Layanan ini dirancang untuk memenuhi kebutuhan individu dan bisnis dengan solusi transportasi yang efisien.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/dermaexpress\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "immoderma",
+            "name": "Immoderma",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "immoderma"
+            ],
+            "description": "Immoderma adalah klinik perawatan kulit di Semarang yang menawarkan layanan estetika dan dermatologi, termasuk perawatan wajah, kulit, dan konsultasi medis. Klinik ini fokus pada kesehatan kulit, kecantikan, serta pelayanan profesional dengan teknologi modern.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/immoderma\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "superskin",
+            "name": "Superskin",
+            "categoryId": "kesehatan",
+            "aliases": [
+                "superskin"
+            ],
+            "description": "Superskin adalah klinik perawatan kulit di Semarang yang menyediakan layanan estetika dan dermatologi, termasuk perawatan wajah, pengobatan kulit, dan konsultasi spesialis. Klinik ini menekankan kesehatan kulit, kecantikan, dan pelayanan profesional dengan teknologi modern.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/superskin\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "bsbcity",
+            "name": "BSB City",
+            "categoryId": "investasi",
+            "aliases": [
+                "bsb city"
+            ],
+            "description": "BSB City adalah pusat perbelanjaan dan komersial di Semarang yang menawarkan berbagai toko, restoran, dan hiburan. Tempat ini menjadi destinasi belanja modern dengan fasilitas lengkap dan akses mudah bagi masyarakat kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/bsbcity\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pojcity",
+            "name": "POJ City",
+            "categoryId": "investasi",
+            "aliases": [
+                "poj city"
+            ],
+            "description": "Pearl of Java adalah julukan untuk Kota Semarang, ibu kota Jawa Tengah. Kota ini terkenal dengan kawasan Kota Lama, arsitektur kolonial Belanda, kuliner khas, dan pusat budaya. Semarang menjadi destinasi sejarah, wisata, dan kuliner dengan fasilitas modern serta akses mudah bagi warga dan pengunjung.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pojcity\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kawasanindustriwijayakusuma",
+            "name": "PT Kawasan Industri Wijayakusuma",
+            "categoryId": "investasi",
+            "aliases": [
+                "pt kawasan industri wijayakusuma"
+            ],
+            "description": "PT Kawasan Industri Wijayakusuma (KIW) adalah perusahaan BUMN yang mengelola kawasan industri terpadu di Semarang, Jawa Tengah. Perusahaan menyediakan lahan siap bangun, fasilitas lengkap, dan akses strategis ke tol, pelabuhan, dan bandara, mendukung investasi dan pertumbuhan ekonomi lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kawasanindustriwijayakusuma\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "hotelpadma",
+            "name": "Hotel Padma",
+            "categoryId": "mice",
+            "aliases": [
+                "hotel padma"
+            ],
+            "description": "Hotel Padma adalah hotel berbintang di Semarang yang menawarkan akomodasi nyaman dengan fasilitas modern seperti restoran, kolam renang, pusat kebugaran, dan ruang pertemuan. Hotel ini menjadi pilihan ideal bagi wisatawan maupun pebisnis yang menginginkan kenyamanan dan akses mudah ke pusat kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/hotelpadma\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "hoteltentrem",
+            "name": "Hotel Tentrem",
+            "categoryId": "mice",
+            "aliases": [
+                "hotel tentrem"
+            ],
+            "description": "Hotel Tentrem adalah hotel mewah di Semarang yang menawarkan akomodasi elegan dengan fasilitas lengkap seperti restoran, spa, kolam renang, pusat kebugaran, dan ruang pertemuan. Hotel ini cocok untuk wisatawan dan pebisnis yang mencari kenyamanan, layanan profesional, dan lokasi strategis di pusat kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/hoteltentrem\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "hotelroomsinc",
+            "name": "Hotel Rooms Inc",
+            "categoryId": "mice",
+            "aliases": [
+                "hotel rooms inc"
+            ],
+            "description": "Hotel Rooms Inc adalah hotel di Semarang yang menawarkan akomodasi nyaman dengan fasilitas modern seperti restoran, Wi-Fi, dan layanan kamar. Hotel ini menjadi pilihan praktis bagi wisatawan dan pebisnis yang mencari kenyamanan dengan harga terjangkau serta akses mudah ke berbagai destinasi kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/hotelroomsinc\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "muladidomeundip",
+            "name": "Muladi Dome Undip",
+            "categoryId": "mice",
+            "aliases": [
+                "muladi dome undip"
+            ],
+            "description": "Muladi Dome Undip adalah gedung serbaguna di Universitas Diponegoro, Semarang, yang digunakan untuk kegiatan olahraga, seminar, konser, dan acara kampus lainnya. Dengan kapasitas besar dan fasilitas lengkap, gedung ini mendukung berbagai kegiatan akademik dan non-akademik di lingkungan universitas.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/muladidomeundip\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "marinaconventioncenter",
+            "name": "Marina Convention Center",
+            "categoryId": "mice",
+            "aliases": [
+                "marina convention center"
+            ],
+            "description": "Marina Convention Center adalah pusat konferensi di Semarang yang menyediakan fasilitas modern untuk pertemuan, seminar, pameran, dan acara sosial. Dengan lokasi strategis dekat pusat kota dan layanan profesional, tempat ini menjadi pilihan utama bagi berbagai kegiatan bisnis dan komunitas.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/marinaconventioncenter\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "akhtaracoffee",
+            "name": "Akhtara Skyview",
+            "categoryId": "restoran",
+            "aliases": [
+                "akhtara skyview"
+            ],
+            "description": "Akhtara Skyview adalah restoran dan kafe di Semarang yang menawarkan pemandangan kota dari ketinggian. Pengunjung dapat menikmati hidangan lezat, minuman segar, serta suasana modern dan nyaman, cocok untuk bersantai, berkumpul bersama teman, atau menikmati malam romantis.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/akhtaracoffee\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "gamacandiresto",
+            "name": "Gama Candi Restaurant",
+            "categoryId": "restoran",
+            "aliases": [
+                "gama candi restaurant"
+            ],
+            "description": "Gama Candi Restaurant adalah restoran di Semarang yang menyajikan berbagai hidangan tradisional dan modern, termasuk masakan lokal dan internasional. Pengunjung dapat menikmati santapan lezat dalam suasana nyaman yang cocok untuk makan bersama keluarga, teman, atau pertemuan bisnis.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/gamacandiresto\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "koenakoeni",
+            "name": "Koenakoeni Cafe Gallery",
+            "categoryId": "restoran",
+            "aliases": [
+                "koenakoeni cafe gallery"
+            ],
+            "description": "KoenaKoeni adalah restoran dan kafe di Semarang yang menawarkan menu tradisional Indonesia dengan sentuhan modern. Pengunjung dapat menikmati hidangan lezat, minuman segar, serta suasana nyaman dan artistik yang cocok untuk bersantai maupun berkumpul bersama keluarga dan teman.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/koenakoeni\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kampunglaut",
+            "name": "Kampung Laut",
+            "categoryId": "restoran",
+            "aliases": [
+                "kampung laut"
+            ],
+            "description": "Kampung Laut adalah destinasi wisata di Semarang yang menawarkan pengalaman kuliner laut dan pemandangan tepi laut yang asri. Pengunjung dapat menikmati hidangan seafood segar, bersantai di gazebo terapung, dan menikmati suasana laut yang tenang bersama keluarga atau teman.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kampunglaut\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "asemasemkohliem",
+            "name": "Asem Asem Koh Liem",
+            "categoryId": "restoran",
+            "aliases": [
+                "asem asem koh liem"
+            ],
+            "description": "Asem Asem Koh Liem adalah restoran khas Semarang yang menyajikan masakan Asem-Asem, hidangan daging atau ikan dengan kuah asam segar khas Jawa Tengah. Pengunjung dapat menikmati cita rasa segar, gurih, dan pedas dalam suasana sederhana dan hangat.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/asemasemkohliem\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "dharmaboutique",
+            "name": "Dharma Boutique Roastery",
+            "categoryId": "restoran",
+            "aliases": [
+                "dharma boutique roastery"
+            ],
+            "description": "Dharma Boutique Roastery adalah kafe dan roastery di Semarang yang menawarkan pengalaman menikmati kopi lokal berkualitas tinggi. Tempat ini memadukan suasana modern dan hangat, menjadikannya lokasi favorit bagi pecinta kopi dan komunitas kreatif.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/dharmaboutique\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "kepalamanyungbufat",
+            "name": "Kepala Manyung Bu Fat",
+            "categoryId": "restoran",
+            "aliases": [
+                "kepala manyung bu fat"
+            ],
+            "description": "Kepala Manyung Bu Fat adalah restoran di Semarang yang terkenal dengan hidangan kepala manyung, ikan khas lokal yang dimasak dengan bumbu tradisional. Pengunjung dapat menikmati cita rasa autentik ikan segar dalam suasana sederhana yang khas warung tradisional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/kepalamanyungbufat\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pestakeboen",
+            "name": "Pesta Keboen Resto",
+            "categoryId": "restoran",
+            "aliases": [
+                "pesta keboen resto"
+            ],
+            "description": "Pesta Keboen Resto adalah restoran di Semarang yang menyajikan berbagai hidangan lokal dan internasional dengan suasana nyaman dan dekorasi unik. Tempat ini populer bagi wisatawan dan warga lokal untuk bersantap sambil menikmati nuansa tradisional dan modern yang berpadu.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pestakeboen\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "sotobangkong",
+            "name": "Soto Bangkong",
+            "categoryId": "restoran",
+            "aliases": [
+                "soto bangkong"
+            ],
+            "description": "Soto Bangkong adalah restoran legendaris di Semarang yang terkenal dengan soto khasnya, hidangan sup tradisional Indonesia. Pengunjung dapat menikmati cita rasa autentik soto dengan kuah kaya rempah, daging, dan pelengkap tradisional dalam suasana sederhana namun hangat.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/sotobangkong\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tokooen",
+            "name": "Toko Oen",
+            "categoryId": "restoran",
+            "aliases": [
+                "toko oen"
+            ],
+            "description": "Toko Oen adalah restoran legendaris di Semarang yang telah berdiri sejak masa kolonial Belanda. Tempat ini dikenal karena suasananya yang klasik dan menyajikan aneka kue, es krim buatan sendiri, serta hidangan khas Eropa dan Indonesia. Toko Oen menjadi simbol kenangan masa lalu yang tetap lestari di tengah modernitas kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tokooen\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "balaikota",
+            "name": "Gedung Balaikota Semarang",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "gedung balaikota semarang"
+            ],
+            "description": "Gedung Balaikota Semarang adalah kantor pemerintahan utama yang menjadi pusat administrasi dan kegiatan resmi Pemerintah Kota Semarang. Terletak di jantung kota, gedung ini menampilkan arsitektur bersejarah yang menjadi simbol identitas dan pelayanan publik bagi warga Semarang.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/balaikota\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "gubernurjawatengah",
+            "name": "Gedung Gubernur Jawa Tengah",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "gedung gubernur jawa tengah"
+            ],
+            "description": "Gedung Gubernur Jawa Tengah adalah kantor pemerintahan di Semarang yang menjadi pusat administrasi dan kegiatan resmi Pemerintah Provinsi Jawa Tengah. Gedung ini memiliki arsitektur bersejarah dan fasilitas lengkap untuk mendukung operasional pemerintahan serta berbagai acara resmi.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/gubernurjawatengah\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "ahmadyani",
+            "name": "Bandara Ahmad Yani",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "bandara ahmad yani"
+            ],
+            "description": "Bandara Ahmad Yani adalah bandara internasional di Semarang yang melayani penerbangan domestik dan internasional. Bandara ini dilengkapi fasilitas modern untuk penumpang, termasuk ruang tunggu, restoran, dan layanan transportasi, serta menjadi gerbang utama bagi wisatawan dan pebisnis menuju Jawa Tengah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/ahmadyani\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tanjungemas",
+            "name": "Pelabuhan Tanjung Emas",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "pelabuhan tanjung emas"
+            ],
+            "description": "Pelabuhan Tanjung Emas adalah pelabuhan utama di Semarang yang melayani kegiatan bongkar muat barang, penumpang, dan kapal feri. Pelabuhan ini berperan penting dalam transportasi laut, perdagangan, serta konektivitas antar pulau di Indonesia.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tanjungemas\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "candigolf",
+            "name": "Candi Golf",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "candi golf"
+            ],
+            "description": "Candi Golf adalah lapangan golf di Semarang yang menawarkan pemandangan indah dan suasana sejuk di kawasan perbukitan. Dikelilingi pepohonan hijau, tempat ini cocok untuk bermain golf sekaligus bersantai. Fasilitasnya lengkap, termasuk restoran dan area istirahat yang nyaman.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/candigolf\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "jatidiri",
+            "name": "Gor Jatidiri",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "gor jatidiri"
+            ],
+            "description": "Gor Jatidiri adalah stadion dan arena olahraga di Semarang yang digunakan untuk berbagai cabang olahraga seperti sepak bola, atletik, dan pertandingan komunitas. Fasilitasnya lengkap dengan tribun penonton, lapangan olahraga, dan area pendukung, menjadikannya pusat kegiatan olahraga lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/jatidiri\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "lombajuang",
+            "name": "Gor Tri Lomba Juang",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "gor tri lomba juang"
+            ],
+            "description": "Gor Tri Lomba Juang adalah stadion dan arena olahraga di Semarang yang digunakan untuk berbagai cabang olahraga seperti sepak bola, bulu tangkis, dan kegiatan komunitas. Fasilitas lengkap dengan tribun penonton dan lapangan olahraga menjadikannya pusat kegiatan olahraga lokal dan kompetisi.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/lombajuang\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "polda",
+            "name": "Polda Jawa Tengah",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "polda jawa tengah"
+            ],
+            "description": "Polda Jawa Tengah adalah kantor Kepolisian Daerah di Semarang yang bertugas menjaga keamanan, ketertiban, dan penegakan hukum di wilayah Jawa Tengah. Fasilitasnya meliputi kantor administrasi, pos pengaduan, dan unit operasional untuk mendukung tugas kepolisian.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/polda\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "royalegolf",
+            "name": "Semarang Royale Golf",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "semarang royale golf"
+            ],
+            "description": "Semarang Royale Golf adalah lapangan golf modern di Semarang yang menawarkan fasilitas lengkap dan pemandangan alam hijau. Dengan desain profesional dan suasana tenang, tempat ini cocok untuk pemain golf dari berbagai tingkat kemampuan serta sebagai lokasi relaksasi dan pertemuan bisnis.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/royalegolf\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "poncol",
+            "name": "Stasiun Poncol",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "stasiun poncol"
+            ],
+            "description": "Stasiun Poncol adalah stasiun kereta api utama di Semarang yang melayani rute lokal dan antar kota. Stasiun ini dilengkapi fasilitas penumpang seperti loket, ruang tunggu, dan akses transportasi, serta berperan penting dalam mobilitas masyarakat dan konektivitas wilayah.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/poncol\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tawang",
+            "name": "Stasiun Tawang",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "stasiun tawang"
+            ],
+            "description": "Stasiun Tawang adalah stasiun kereta api bersejarah di Semarang yang melayani rute lokal dan antar kota. Stasiun ini dikenal dengan arsitektur kolonial Belanda dan dilengkapi fasilitas penumpang seperti loket, ruang tunggu, dan akses transportasi, menjadi pusat mobilitas masyarakat.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tawang\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "indonesiakaya",
+            "name": "Taman Indonesia Kaya",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "taman indonesia kaya"
+            ],
+            "description": "Taman Indonesia Kaya adalah ruang publik modern di pusat Kota Semarang yang berfungsi sebagai taman seni dan budaya terbuka. Tempat ini menjadi wadah bagi pertunjukan musik, tari, dan teater, sekaligus area rekreasi masyarakat. Desainnya memadukan unsur alam, teknologi, dan kreativitas lokal.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/indonesiakaya\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "mpp",
+            "name": "Terminal Mangkang dan MPP",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "terminal mangkang dan mpp"
+            ],
+            "description": "Terminal Mangkang dan MPP adalah pusat transportasi dan layanan publik di Semarang. Terminal Mangkang melayani bus antar kota dan lokal, sedangkan Mal Pelayanan Publik (MPP) menyediakan berbagai layanan administrasi pemerintah bagi masyarakat, memudahkan akses transportasi dan urusan publik di satu lokasi.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/mpp\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "smashville",
+            "name": "Smashville Badminton Center",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "smashville badminton center"
+            ],
+            "description": "Smashville Badminton Center adalah pusat olahraga di Semarang yang fokus pada latihan dan pertandingan bulu tangkis. Fasilitasnya lengkap dengan lapangan profesional, area penonton, dan ruang latihan, menjadikannya tempat populer bagi atlet, komunitas, dan penggemar bulu tangkis.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/smashville\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "petikemas",
+            "name": "Terminal Petikemas Semarang",
+            "categoryId": "infrastruktur",
+            "aliases": [
+                "terminal petikemas semarang"
+            ],
+            "description": "Terminal Petikemas Semarang berlokasi di kawasan Pelabuhan Tanjung Emas, Semarang. Pelabuhan ini berperan penting dalam kegiatan ekspor-impor dan distribusi logistik di wilayah Jawa Tengah. Dilengkapi dengan fasilitas bongkar muat modern dan sistem manajemen terintegrasi, Terminal Petikemas Semarang mendukung kelancaran arus barang domestik maupun internasional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/petikemas\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "theparkmall",
+            "name": "The Park Mall",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "the park mall"
+            ],
+            "description": "The Park Mall adalah pusat perbelanjaan di Semarang yang menawarkan berbagai toko, restoran, dan fasilitas hiburan. Mall ini menjadi tempat favorit untuk berbelanja, bersantai, dan menikmati berbagai aktivitas rekreasi dengan suasana nyaman dan modern bagi pengunjung lokal maupun wisatawan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/theparkmall\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tentremmall",
+            "name": "Mall Tentrem",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "mall tentrem"
+            ],
+            "description": "Mall Tentrem adalah pusat perbelanjaan modern di Semarang yang menawarkan berbagai toko, restoran, dan hiburan. Mall ini menjadi tempat favorit untuk berbelanja, bersantai, dan menikmati aktivitas rekreasi dengan suasana nyaman dan modern bagi pengunjung lokal maupun wisatawan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tentremmall\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "dpmall",
+            "name": "DP Mall",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "dp mall"
+            ],
+            "description": "DP Mall adalah pusat perbelanjaan di Semarang yang menyediakan berbagai toko, restoran, dan fasilitas hiburan. Mall ini menjadi tempat favorit untuk berbelanja, bersantai, dan menikmati aktivitas rekreasi, dengan suasana nyaman dan modern bagi pengunjung lokal maupun wisatawan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/dpmall\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "polluxmall",
+            "name": "Pollux Mall Paragon",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "pollux mall paragon"
+            ],
+            "description": "Pollux Mall Paragon adalah pusat perbelanjaan modern di Semarang yang menawarkan berbagai toko, restoran, dan hiburan. Mall ini dilengkapi fasilitas lengkap dan area nyaman untuk berbelanja, bersantai, serta menjadi destinasi favorit warga dan wisatawan di kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/polluxmall\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "ciputramall",
+            "name": "Ciputra Mall",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "ciputra mall"
+            ],
+            "description": "Ciputra Mall adalah pusat perbelanjaan modern di Semarang yang menawarkan berbagai toko, restoran, dan hiburan. Mall ini memiliki fasilitas lengkap dan suasana nyaman, menjadikannya tempat favorit untuk berbelanja, bersantai, dan menikmati berbagai aktivitas rekreasi bagi warga dan wisatawan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/ciputramall\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "bandengjuwana",
+            "name": "Bandeng Juwana",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "bandeng juwana"
+            ],
+            "description": "Bandeng Juwana adalah restoran khas di Semarang yang menyajikan berbagai olahan ikan bandeng, termasuk bandeng presto dan sajian tradisional lainnya. Tempat ini populer bagi wisatawan dan masyarakat lokal yang ingin menikmati cita rasa khas Semarang.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/bandengjuwana\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "queencitymall",
+            "name": "Queen’s City Mall",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "queen’s city mall"
+            ],
+            "description": "Queen’s City Mall adalah pusat perbelanjaan di Semarang yang menawarkan berbagai toko, restoran, dan fasilitas hiburan. Mall ini menjadi tempat favorit untuk berbelanja, bersantai, dan menikmati berbagai aktivitas rekreasi dengan suasana nyaman dan modern bagi pengunjung lokal maupun wisatawan.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/queencitymall\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "wingkobabad",
+            "name": "Wingko Babad Cap Kereta Api",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "wingko babad cap kereta api"
+            ],
+            "description": "Wingko Babad Cap Kereta Api adalah toko oleh-oleh di Semarang yang terkenal dengan wingko babad, kue tradisional khas kota. Tempat ini menjadi favorit wisatawan untuk membeli camilan khas Semarang sebagai oleh-oleh.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/wingkobabad\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pusatoleholeh",
+            "name": "Pusat Oleh-Oleh Sepanjang Jalan Pandanaran",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "pusat oleh-oleh sepanjang jalan pandanaran"
+            ],
+            "description": "Pusat Oleh-Oleh Sepanjang Jalan Pandanaran adalah destinasi belanja oleh-oleh di Semarang yang menawarkan berbagai produk khas lokal, mulai dari makanan, kerajinan, hingga souvenir. Tempat ini menjadi favorit wisatawan untuk membeli cendera mata dan menikmati pengalaman belanja yang lengkap dan nyaman.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pusatoleholeh\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "pasarjohar",
+            "name": "Pasar Djohar",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "pasar djohar"
+            ],
+            "description": "Pasar Djohar adalah pasar tradisional di Semarang yang menawarkan berbagai kebutuhan sehari-hari, mulai dari bahan pangan, pakaian, hingga kerajinan lokal. Pasar ini menjadi pusat aktivitas ekonomi dan budaya, serta tempat favorit warga dan wisatawan untuk merasakan suasana tradisional kota.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/pasarjohar\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "tahupetis",
+            "name": "Tahu Petis Yudhistira",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "tahu petis yudhistira"
+            ],
+            "description": "Tahu Petis Yudhistira adalah kuliner khas Semarang yang menyajikan tahu goreng disiram saus petis udang khas Jawa Tengah. Pengunjung dapat menikmati cita rasa gurih dan manis yang khas dalam suasana sederhana dan tradisional.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/tahupetis\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        },
+        {
+            "id": "loenpiambaklien",
+            "name": "Loenpia Mbak Lien",
+            "categoryId": "pusatperbelanjaan",
+            "aliases": [
+                "loenpia mbak lien"
+            ],
+            "description": "Berdiri sejak 1930, Loenpia Mbak Lien adalah legenda kuliner Semarang yang kini dikelola generasi ketiga. Tersembunyi di Gang Grajen, kedai ini menawarkan nuansa nostalgia dengan resep warisan hampir satu abad. Keunggulannya ada pada isian rebung padat tanpa bau, dipadukan ayam, udang, hingga inovasi rasa kepiting dan keju. Tersedia versi basah maupun goreng, lumpia ini tetap menjadi standar keaslian rasa yang dijaga kualitasnya selama puluhan tahun.",
+            "virtualTourAvailable": true,
+            "virtualTourUrl": "https:\/\/semarang.govirtual.id\/loenpiambaklien\/index.html",
+            "thumbnail": "",
+            "source": "category-catalog"
+        }
+    ]
+}

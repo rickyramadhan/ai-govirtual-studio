@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "dermaexpress",
+    "updatedAt": "2026-09-29T06:34:24+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Derma Express",
+            "aliases": [
+                "derma express"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "dermaexpress"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Derma Express.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Derma Express",
+                    "content": "Pusat pengalaman virtual untuk Derma Express."
+                },
+                "en": {
+                    "title": "Derma Express",
+                    "content": "Pusat pengalaman virtual untuk Derma Express."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "dermaexpress"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Ruangtreatment",
+            "aliases": [
+                "ruangtreatment"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "dermaexpress"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ruangtreatment",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Ruangtreatment",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "dermaexpress"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:177",
+            "entityId": "objinfo2:177",
+            "title": "Ruang Konsultasi",
+            "aliases": [
+                "ruang konsultasi",
+                "objek 177"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang ini adalah tempat pertama pasien bertemu dengan dokter profesional untuk mendiskusikan keluhan kulit dan tujuan estetika yang diinginkan. Di sinilah dokter akan menganalisis kondisi kulit secara mendalam dan merekomendasikan jenis perawatan yang paling sesuai sebelum tindakan dilakukan.",
+            "source": "webview-import",
+            "sourceId": "177",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Konsultasi",
+                    "content": "Ruang ini adalah tempat pertama pasien bertemu dengan dokter profesional untuk mendiskusikan keluhan kulit dan tujuan estetika yang diinginkan. Di sinilah dokter akan menganalisis kondisi kulit secara mendalam dan merekomendasikan jenis perawatan yang paling sesuai sebelum tindakan dilakukan."
+                },
+                "en": {
+                    "title": "Consultation Room",
+                    "content": "This room is the first place where patients meet with professional doctors to discuss skin concerns and desired aesthetic goals. Here, doctors analyze the skin condition in depth and recommend the most suitable type of treatment before any procedures are carried out."
+                },
+                "zh": {
+                    "title": "咨询室",
+                    "content": "该房间是患者首次与专业医生会面讨论皮肤问题及期望的美学目标的地方。在这里，医生会深入分析皮肤状况，并在进行任何操作前推荐最合适的治疗方案。"
+                },
+                "ar": {
+                    "title": "غرفة الاستشارة",
+                    "content": "تُعد هذه الغرفة المكان الأول الذي يلتقي فيه المرضى بالأطباء المحترفين لمناقشة مشاكل الجلد والأهداف الجمالية المرغوبة. هنا يقوم الأطباء بتحليل حالة الجلد بعمق وتقديم توصيات لأكثر أنواع العلاج ملاءمة قبل إجراء أي عملية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:178",
+            "entityId": "objinfo2:178",
+            "title": "Receptionist",
+            "aliases": [
+                "receptionist",
+                "objek 178"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area receptionist adalah bagian depan klinik yang berfungsi sebagai pusat informasi, pendaftaran, dan administrasi bagi setiap pasien. Staf di area ini bertanggung jawab untuk menyambut pasien, mengarahkan proses konsultasi, serta mengatur jadwal tindakan perawatan.",
+            "source": "webview-import",
+            "sourceId": "178",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Receptionist",
+                    "content": "Area receptionist adalah bagian depan klinik yang berfungsi sebagai pusat informasi, pendaftaran, dan administrasi bagi setiap pasien. Staf di area ini bertanggung jawab untuk menyambut pasien, mengarahkan proses konsultasi, serta mengatur jadwal tindakan perawatan."
+                },
+                "en": {
+                    "title": "Reception",
+                    "content": "The receptionist area is the front part of the clinic, serving as the center for information, registration, and administration for every patient. Staff in this area are responsible for welcoming patients, guiding the consultation process, and managing treatment schedules."
+                },
+                "zh": {
+                    "title": "接待处",
+                    "content": "接待区是诊所的前台区域，作为每位患者的信息、登记和行政中心。该区域的工作人员负责迎接患者、引导咨询流程，并安排治疗日程。"
+                },
+                "ar": {
+                    "title": "الاستقبال",
+                    "content": "منطقة الاستقبال هي الجزء الأمامي من العيادة، وتعمل كمركز للمعلومات والتسجيل والإدارة لكل مريض. يكون موظفو هذه المنطقة مسؤولين عن استقبال المرضى، وتوجيه عملية الاستشارة، وتنظيم جداول العلاج."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:179",
+            "entityId": "objinfo2:179",
+            "title": "Ruang Perawatan Contouring",
+            "aliases": [
+                "ruang perawatan contouring",
+                "objek 179"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini secara umum merujuk pada ruang tindakan yang dikhususkan untuk prosedur contouring seperti filler atau botox, bertujuan membentuk proporsi wajah sesuai keinginan pasien. Ruangan ini dilengkapi dengan peralatan steril dan memadai untuk memastikan tindakan estetika berjalan aman dan presisi di bawah pengawasan dokter.",
+            "source": "webview-import",
+            "sourceId": "179",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Perawatan Contouring",
+                    "content": "Area ini secara umum merujuk pada ruang tindakan yang dikhususkan untuk prosedur contouring seperti filler atau botox, bertujuan membentuk proporsi wajah sesuai keinginan pasien. Ruangan ini dilengkapi dengan peralatan steril dan memadai untuk memastikan tindakan estetika berjalan aman dan presisi di bawah pengawasan dokter."
+                },
+                "en": {
+                    "title": "Contouring Treatment Room",
+                    "content": "This area generally refers to a treatment room dedicated to contouring procedures such as fillers or Botox, aimed at shaping facial proportions according to the patient’s desires. The room is equipped with sterile and adequate equipment to ensure that aesthetic procedures are carried out safely and precisely under the supervision of a doctor."
+                },
+                "zh": {
+                    "title": "轮廓护理室",
+                    "content": "该区域通常指用于轮廓护理程序（如填充剂或肉毒杆菌）的治疗室，旨在根据患者的需求塑造面部比例。该房间配备了无菌且完善的设备，以确保在医生监督下美学操作安全且精准。"
+                },
+                "ar": {
+                    "title": "غرفة علاج النحت",
+                    "content": "تشير هذه المنطقة عمومًا إلى غرفة علاج مخصصة لإجراءات النحت مثل الحشو أو البوتوكس، بهدف تشكيل نسب الوجه وفق رغبات المريض. الغرفة مجهزة بأدوات معقمة وكافية لضمان تنفيذ الإجراءات التجميلية بأمان ودقة تحت إشراف الطبيب."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:180",
+            "entityId": "objinfo2:180",
+            "title": "Ruang VIP",
+            "aliases": [
+                "ruang vip",
+                "objek 180"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruang VIP adalah fasilitas eksklusif yang disediakan bagi pasien yang menginginkan pengalaman perawatan dengan privasi dan kenyamanan maksimal. Ruangan ini menawarkan suasana yang lebih privat dan tenang, ideal untuk menjalani tindakan tanpa gangguan dari pasien lain.",
+            "source": "webview-import",
+            "sourceId": "180",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang VIP",
+                    "content": "Ruang VIP adalah fasilitas eksklusif yang disediakan bagi pasien yang menginginkan pengalaman perawatan dengan privasi dan kenyamanan maksimal. Ruangan ini menawarkan suasana yang lebih privat dan tenang, ideal untuk menjalani tindakan tanpa gangguan dari pasien lain."
+                },
+                "en": {
+                    "title": "VIP Room",
+                    "content": "The VIP Room is an exclusive facility provided for patients seeking treatment with maximum privacy and comfort. This room offers a more private and serene atmosphere, ideal for undergoing procedures without disturbances from other patients."
+                },
+                "zh": {
+                    "title": "贵宾室",
+                    "content": "贵宾室是为希望在最大隐私和舒适度下接受护理的患者提供的专属设施。该房间提供更加私密和安静的环境，非常适合在不受其他患者打扰的情况下进行治疗。"
+                },
+                "ar": {
+                    "title": "غرفة كبار الشخصيات",
+                    "content": "غرفة كبار الشخصيات هي مرفق حصري يُقدَّم للمرضى الذين يسعون لتلقي العلاج بأقصى درجات الخصوصية والراحة. توفر هذه الغرفة أجواء أكثر هدوءًا وخصوصية، مثالية لإجراء الإجراءات دون انقطاع من المرضى الآخرين."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:181",
+            "entityId": "objinfo2:181",
+            "title": "Ruang Skin Treatment",
+            "aliases": [
+                "ruang skin treatment",
+                "objek 181"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini adalah tempat utama dilakukannya berbagai tindakan perawatan kulit dan estetika, mulai dari facial, laser, hingga filler dan botox. Semua ruangan tindakan di Derma Express dirancang rapi, bersih, dan dilengkapi dengan peralatan medis berteknologi tinggi untuk memastikan keamanan dan efektivitas perawatan.",
+            "source": "webview-import",
+            "sourceId": "181",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Skin Treatment",
+                    "content": "Ruangan ini adalah tempat utama dilakukannya berbagai tindakan perawatan kulit dan estetika, mulai dari facial, laser, hingga filler dan botox. Semua ruangan tindakan di Derma Express dirancang rapi, bersih, dan dilengkapi dengan peralatan medis berteknologi tinggi untuk memastikan keamanan dan efektivitas perawatan."
+                },
+                "en": {
+                    "title": "Skin Treatment Room",
+                    "content": "This room is the main area for various skin and aesthetic treatments, ranging from facials, laser procedures, to fillers and Botox. All treatment rooms at Derma Express are neatly arranged, clean, and equipped with high-tech medical devices to ensure the safety and effectiveness of treatments."
+                },
+                "zh": {
+                    "title": "皮肤护理室",
+                    "content": "该房间是进行各种皮肤及美学护理的主要区域，包括面部护理、激光治疗以及填充剂和肉毒杆菌注射。Derma Express的所有治疗室都整洁干净，并配备高科技医疗设备，以确保治疗的安全性和有效性。"
+                },
+                "ar": {
+                    "title": "غرفة علاج الجلد",
+                    "content": "تُعد هذه الغرفة المكان الرئيسي لإجراء مختلف علاجات الجلد والتجميل، بدءًا من تنظيف الوجه، والليزر، وصولًا إلى الحقن بالفيلر والبوتوكس. جميع غرف العلاج في Derma Express مصممة بشكل منظم ونظيف ومزودة بأجهزة طبية عالية التقنية لضمان سلامة وفعالية العلاج."
+                }
+            }
+        }
+    ]
+}

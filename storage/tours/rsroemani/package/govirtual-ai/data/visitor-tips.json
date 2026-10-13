@@ -1,0 +1,66 @@
+{
+    "version": "1.0",
+    "updatedAt": "2026-09-29",
+    "source": "AI Generator",
+    "sourceType": "manual",
+    "disclaimer": "Template starter. Sesuaikan dengan aturan pengelola, cuaca, dan akses terbaru.",
+    "topics": [
+        {
+            "id": "best-time-day",
+            "title": "Waktu terbaik dalam sehari",
+            "aliases": [
+                "jam terbaik",
+                "waktu terbaik",
+                "kapan sebaiknya berkunjung"
+            ],
+            "category": "waktu",
+            "content": "Isi rekomendasi jam kunjungan terbaik untuk Rsroemani.",
+            "items": [
+                {
+                    "label": "Pagi",
+                    "detail": "Isi alasan kunjungan pagi.",
+                    "recommendation": "direkomendasikan"
+                },
+                {
+                    "label": "Sore",
+                    "detail": "Isi alasan kunjungan sore.",
+                    "recommendation": "direkomendasikan"
+                }
+            ]
+        },
+        {
+            "id": "photo-spots",
+            "title": "Spot foto terbaik",
+            "aliases": [
+                "spot foto",
+                "tempat foto",
+                "instagramable"
+            ],
+            "category": "foto",
+            "content": "Isi spot foto utama yang aman dan terverifikasi.",
+            "items": [
+                {
+                    "label": "Spot 1",
+                    "detail": "Isi keterangan spot foto pertama."
+                }
+            ]
+        },
+        {
+            "id": "activities",
+            "title": "Aktivitas di lokasi",
+            "aliases": [
+                "aktivitas",
+                "kegiatan",
+                "bisa ngapain"
+            ],
+            "category": "aktivitas",
+            "content": "Isi aktivitas yang diperbolehkan di lokasi ini.",
+            "items": [
+                {
+                    "label": "Aktivitas 1",
+                    "detail": "Isi aktivitas utama."
+                }
+            ]
+        }
+    ]
+}

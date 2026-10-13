@@ -1,0 +1,381 @@
+{
+    "version": "1.1-seed",
+    "tourId": "sotobangkong",
+    "generatedAt": "2026-09-29",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node80": {
+            "rawName": "node80",
+            "displayName": "Area NODE80",
+            "placeId": "node80",
+            "placeName": "Area NODE80",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator (placeholder name)",
+            "shortDescription": "Area NODE80 adalah salah satu titik panorama di kawasan Sotobangkong, Semarang — terhubung dengan jalur eksplorasi agrowisata.",
+            "description": "Area NODE80 (ID: node80) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "node80",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Area NODE80?",
+                    "mode": "fix",
+                    "answer": "Area NODE80 adalah salah satu titik panorama di kawasan Sotobangkong, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                },
+                {
+                    "q": "Apa peran Area NODE80 dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Area NODE80 (ID: node80) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Area NODE80. Area NODE80 adalah salah satu titik panorama di kawasan Sotobangkong, Semarang — terhubung dengan jalur eksplorasi agrowisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Area NODE80 — kawasan Sotobangkong.",
+                "describeHere": "Area NODE80 (ID: node80) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node81": {
+            "rawName": "Ruangmakan",
+            "displayName": "Ruangmakan",
+            "placeId": "ruangmakan",
+            "placeName": "Ruangmakan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Ruangmakan merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruangmakan adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruangmakan",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Ruangmakan?",
+                    "mode": "fix",
+                    "answer": "Ruangmakan merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Ruangmakan dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruangmakan adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruangmakan. Ruangmakan merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1073"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruangmakan — kawasan Sotobangkong.",
+                "describeHere": "Ruangmakan adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node82": {
+            "rawName": "Ruangmakanac",
+            "displayName": "Ruangmakanac",
+            "placeId": "ruangmakanac",
+            "placeName": "Ruangmakanac",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator + auto obj mapping",
+            "shortDescription": "Ruangmakanac merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Ruangmakanac adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik dengan objek info",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Ruangmakanac",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Ruangmakanac?",
+                    "mode": "fix",
+                    "answer": "Ruangmakanac merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Ruangmakanac dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Ruangmakanac adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik dengan objek info menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Ruangmakanac. Ruangmakanac merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:1074"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruangmakanac — kawasan Sotobangkong.",
+                "describeHere": "Ruangmakanac adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node83": {
+            "rawName": "Dapur",
+            "displayName": "Dapur",
+            "placeId": "dapur",
+            "placeName": "Dapur",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Dapur merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Dapur adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Dapur",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Dapur?",
+                    "mode": "fix",
+                    "answer": "Dapur merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Dapur dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Dapur adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Dapur. Dapur merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Dapur — kawasan Sotobangkong.",
+                "describeHere": "Dapur adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node84": {
+            "rawName": "Soto Bangkong",
+            "displayName": "Soto Bangkong",
+            "placeId": "soto-bangkong",
+            "placeName": "Soto Bangkong",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Soto Bangkong merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Soto Bangkong adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Soto Bangkong",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Soto Bangkong?",
+                    "mode": "fix",
+                    "answer": "Soto Bangkong merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Soto Bangkong dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Soto Bangkong adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Soto Bangkong. Soto Bangkong merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Soto Bangkong — kawasan Sotobangkong.",
+                "describeHere": "Soto Bangkong adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node85": {
+            "rawName": "Menu",
+            "displayName": "Menu",
+            "placeId": "menu",
+            "placeName": "Menu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Menu merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Menu adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Menu",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Menu?",
+                    "mode": "fix",
+                    "answer": "Menu merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Menu dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Menu adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Menu. Menu merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Menu — kawasan Sotobangkong.",
+                "describeHere": "Menu adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node86": {
+            "rawName": "Musholla",
+            "displayName": "Musholla",
+            "placeId": "musholla",
+            "placeName": "Musholla",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Musholla merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Musholla adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Musholla?",
+                    "mode": "fix",
+                    "answer": "Musholla merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Musholla dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Musholla adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Musholla. Musholla merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Musholla — kawasan Sotobangkong.",
+                "describeHere": "Musholla adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node87": {
+            "rawName": "Soto Bangkong",
+            "displayName": "Soto Bangkong",
+            "placeId": "soto-bangkong",
+            "placeName": "Soto Bangkong",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Seed template from AI Generator",
+            "shortDescription": "Soto Bangkong merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung.",
+            "description": "Soto Bangkong adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+            "highlights": [
+                "Titik panorama",
+                "Terhubung jalur eksplorasi"
+            ],
+            "talkingPoints": [
+                "Soto Bangkong",
+                "jalur eksplorasi",
+                "Sotobangkong"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa ciri utama Soto Bangkong?",
+                    "mode": "fix",
+                    "answer": "Soto Bangkong merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                },
+                {
+                    "q": "Apa peran Soto Bangkong dalam kunjungan?",
+                    "mode": "fix",
+                    "answer": "Soto Bangkong adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu."
+                },
+                {
+                    "q": "Mengapa titik panorama menarik untuk diperhatikan?",
+                    "mode": "fix",
+                    "answer": "Detail tersebut menjadi bagian penting dari Soto Bangkong. Soto Bangkong merupakan bagian dari kawasan Sotobangkong di Semarang. Area ini terhubung dengan jalur eksplorasi agrowisata dan menjadi titik orientasi pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Soto Bangkong — kawasan Sotobangkong.",
+                "describeHere": "Soto Bangkong adalah area di dalam kawasan Sotobangkong, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

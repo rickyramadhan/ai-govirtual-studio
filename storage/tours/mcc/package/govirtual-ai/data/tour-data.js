@@ -1,0 +1,1895 @@
+window.GoVirtualTourData = {
+    "id": "mcc",
+    "name": "Mcc",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Ruangartis",
+            "displayName": "Ruangartis",
+            "rawName": "",
+            "customNodeId": "ruangartis",
+            "pan": -5.12,
+            "tilt": -4.77,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "ruangartis"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Ruang Logistik",
+            "displayName": "Ruang Logistik",
+            "rawName": "",
+            "customNodeId": "-uang-ogistik",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Ruang Logistik"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Ruanglogistik",
+            "displayName": "Ruanglogistik",
+            "rawName": "",
+            "customNodeId": "ruanglogistik",
+            "pan": -3.61,
+            "tilt": -9.11,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "ruanglogistik"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Ruangserbaguna",
+            "displayName": "Ruangserbaguna",
+            "rawName": "",
+            "customNodeId": "ruangserbaguna",
+            "pan": -7.01,
+            "tilt": -7.28,
+            "fov": 92.44,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "ruangserbaguna"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Ruangvip",
+            "displayName": "Ruangvip",
+            "rawName": "",
+            "customNodeId": "ruangvip",
+            "pan": 171.99,
+            "tilt": -7.28,
+            "fov": 100.31,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "ruangvip"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Toilet",
+            "displayName": "Toilet",
+            "rawName": "",
+            "customNodeId": "-oilet",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Toilet"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Drop Off",
+            "displayName": "Drop Off",
+            "rawName": "",
+            "customNodeId": "-rop-ff",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Drop Off"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Drop Off",
+            "displayName": "Drop Off",
+            "rawName": "",
+            "customNodeId": "-rop-ff",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Drop Off"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Drop Off Kanan",
+            "displayName": "Drop Off Kanan",
+            "rawName": "",
+            "customNodeId": "-rop-ff-anan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Drop Off Kanan"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Drop Off Kiri",
+            "displayName": "Drop Off Kiri",
+            "rawName": "",
+            "customNodeId": "-rop-ff-iri",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Drop Off Kiri"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Hallutama",
+            "displayName": "Hallutama",
+            "rawName": "",
+            "customNodeId": "hallutama",
+            "pan": -174.52,
+            "tilt": 11.15,
+            "fov": 108.5,
+            "tags": [
+                "marinacoventioncenter",
+                "oi"
+            ],
+            "aliases": [
+                "hallutama"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 87.8692,
+            "tilt": 5.48894,
+            "fov": 148.077,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Parkir Basement",
+            "displayName": "Parkir Basement",
+            "rawName": "",
+            "customNodeId": "-arkir-asement",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Parkir Basement"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Parkir Basement",
+            "displayName": "Parkir Basement",
+            "rawName": "",
+            "customNodeId": "-arkir-asement",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Parkir Basement"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Marina Covention Center",
+            "displayName": "Marina Covention Center",
+            "rawName": "",
+            "customNodeId": "-arina-ovention-enter",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Marina Covention Center"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "marinacoventioncenter"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "droneluar",
+            "pan": 1.16631,
+            "tilt": -2.73241,
+            "fov": 148.077,
+            "tags": [
+                "marinacoventioncenter",
+                "oi"
+            ],
+            "aliases": [
+                "droneluar",
+                "default"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node14",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 194.89,
+            "tilt": -7.85
+        },
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "Ruang Logistik",
+            "id": "Point01",
+            "pan": 148.64,
+            "tilt": -1.45
+        },
+        {
+            "scene": "node2",
+            "target": "node12",
+            "title": "Hall Utama",
+            "id": "Point02",
+            "pan": 53.8,
+            "tilt": -4.55
+        },
+        {
+            "scene": "node3",
+            "target": "node2",
+            "title": "Ruang Logistik",
+            "id": "Point01",
+            "pan": -151.29,
+            "tilt": -3.2
+        },
+        {
+            "scene": "node4",
+            "target": "node12",
+            "title": "Hall Utama",
+            "id": "Point01",
+            "pan": -354.89,
+            "tilt": -6.1
+        },
+        {
+            "scene": "node4",
+            "target": "node14",
+            "title": "Lorong Ruang VIP",
+            "id": "Point02",
+            "pan": -206.9,
+            "tilt": -5.17
+        },
+        {
+            "scene": "node5",
+            "target": "node14",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -208.97,
+            "tilt": -6.78
+        },
+        {
+            "scene": "node6",
+            "target": "node16",
+            "title": "Parkir Basement",
+            "id": "Point01",
+            "pan": -87.71,
+            "tilt": -7.87
+        },
+        {
+            "scene": "node8",
+            "target": "node10",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 272.57,
+            "tilt": -3.84
+        },
+        {
+            "scene": "node8",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -270.3,
+            "tilt": -6.37
+        },
+        {
+            "scene": "node8",
+            "target": "node12",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": 359.71,
+            "tilt": 2.09
+        },
+        {
+            "scene": "node9",
+            "target": "node10",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -56.08,
+            "tilt": 0.9
+        },
+        {
+            "scene": "node9",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -304.01,
+            "tilt": -2.09
+        },
+        {
+            "scene": "node10",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 42.57,
+            "tilt": -5.06
+        },
+        {
+            "scene": "node10",
+            "target": "node8",
+            "title": "Drop Off",
+            "id": "Point02",
+            "pan": -140.8,
+            "tilt": -2.23
+        },
+        {
+            "scene": "node10",
+            "target": "node9",
+            "title": "Drop Off",
+            "id": "Point03",
+            "pan": -92.95,
+            "tilt": -0.28
+        },
+        {
+            "scene": "node11",
+            "target": "node8",
+            "title": "Drop Off",
+            "id": "Point01",
+            "pan": -356.87,
+            "tilt": 3.86
+        },
+        {
+            "scene": "node11",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -193.71,
+            "tilt": -14.82
+        },
+        {
+            "scene": "node11",
+            "target": "node19",
+            "title": "Area Parkir",
+            "id": "Point03",
+            "pan": -87.59,
+            "tilt": -2.49
+        },
+        {
+            "scene": "node11",
+            "target": "node9",
+            "title": "Drop Off",
+            "id": "Point04",
+            "pan": -26.68,
+            "tilt": 5.18
+        },
+        {
+            "scene": "node12",
+            "target": "node8",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 0.55,
+            "tilt": 0.44
+        },
+        {
+            "scene": "node12",
+            "target": "node4",
+            "title": "Ruang Serbaguna",
+            "id": "Point02",
+            "pan": -191.76,
+            "tilt": 1.01
+        },
+        {
+            "scene": "node12",
+            "target": "node2",
+            "title": "Ruang Logistik",
+            "id": "Point03",
+            "pan": 207.71,
+            "tilt": 0.9
+        },
+        {
+            "scene": "node13",
+            "target": "node19",
+            "title": "Pintu Masuk Area Parkir",
+            "id": "Point01",
+            "pan": -358.07,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node14",
+            "target": "node4",
+            "title": "Ruang Serbaguna",
+            "id": "Point01",
+            "pan": -190.99,
+            "tilt": -6.99
+        },
+        {
+            "scene": "node14",
+            "target": "node5",
+            "title": "Ruang Vip",
+            "id": "Point02",
+            "pan": -231.58,
+            "tilt": -14.41
+        },
+        {
+            "scene": "node14",
+            "target": "node1",
+            "title": "Ruang Vip 2",
+            "id": "Point03",
+            "pan": -291.36,
+            "tilt": -15.98
+        },
+        {
+            "scene": "node15",
+            "target": "node17",
+            "title": "Depan Aula",
+            "id": "Point01",
+            "pan": -358.98,
+            "tilt": -2.4
+        },
+        {
+            "scene": "node15",
+            "target": "node16",
+            "title": "Parkir Basement",
+            "id": "Point02",
+            "pan": -177.92,
+            "tilt": -2.3
+        },
+        {
+            "scene": "node16",
+            "target": "node15",
+            "title": "Parkir Basement",
+            "id": "Point01",
+            "pan": 298.93,
+            "tilt": 0.06
+        },
+        {
+            "scene": "node16",
+            "target": "node4",
+            "title": "Ruang Serbaguna",
+            "id": "Point02",
+            "pan": -342.26,
+            "tilt": -2.99
+        },
+        {
+            "scene": "node16",
+            "target": "node6",
+            "title": "Toilet",
+            "id": "Point03",
+            "pan": -288.54,
+            "tilt": -1.86
+        },
+        {
+            "scene": "node17",
+            "target": "node19",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 154.96,
+            "tilt": 0
+        },
+        {
+            "scene": "node17",
+            "target": "node18",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -97.45,
+            "tilt": 2.54
+        },
+        {
+            "scene": "node17",
+            "target": "node15",
+            "title": "Parkir Basement",
+            "id": "Point03",
+            "pan": 2.19,
+            "tilt": -0.39
+        },
+        {
+            "scene": "node17",
+            "target": "node11",
+            "title": "Drop Off Kiri",
+            "id": "Point04",
+            "pan": -279.11,
+            "tilt": 2.08
+        },
+        {
+            "scene": "node17",
+            "target": "node10",
+            "title": "Drop Off Kanan",
+            "id": "Point05",
+            "pan": -63.92,
+            "tilt": 1.68
+        },
+        {
+            "scene": "node18",
+            "target": "node17",
+            "title": "Marina Covention Center",
+            "id": "Point01",
+            "pan": 80.38,
+            "tilt": 0.95
+        },
+        {
+            "scene": "node18",
+            "target": "node10",
+            "title": "Drop Off Kanan",
+            "id": "Point02",
+            "pan": -64.25,
+            "tilt": 2.95
+        },
+        {
+            "scene": "node19",
+            "target": "node13",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": 160.04,
+            "tilt": -1.84
+        },
+        {
+            "scene": "node19",
+            "target": "node17",
+            "title": "Marina Covention Center",
+            "id": "Point02",
+            "pan": -54.99,
+            "tilt": 1.73
+        },
+        {
+            "scene": "node19",
+            "target": "node11",
+            "title": "Drop Off Kiri",
+            "id": "Point03",
+            "pan": -354.62,
+            "tilt": 1.16
+        },
+        {
+            "scene": "node20",
+            "target": "node17",
+            "title": "Marina Covention Center",
+            "id": "Point01",
+            "pan": -1.6,
+            "tilt": -26.29
+        },
+        {
+            "scene": "node20",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -221.41,
+            "tilt": -9.47
+        },
+        {
+            "scene": "node20",
+            "target": "node9",
+            "title": "Drop Off",
+            "id": "Point03",
+            "pan": -0.05,
+            "tilt": -3.54
+        }
+    ],
+    "panoExits": {
+        "node1": [
+            {
+                "target": "node14",
+                "title": "Pintu Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node2": [
+            {
+                "target": "node3",
+                "title": "Ruang Logistik",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node12",
+                "title": "Hall Utama",
+                "suffix": "Point02"
+            }
+        ],
+        "node3": [
+            {
+                "target": "node2",
+                "title": "Ruang Logistik",
+                "suffix": "Point01"
+            }
+        ],
+        "node4": [
+            {
+                "target": "node12",
+                "title": "Hall Utama",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node14",
+                "title": "Lorong Ruang VIP",
+                "suffix": "Point02"
+            }
+        ],
+        "node5": [
+            {
+                "target": "node14",
+                "title": "Pintu Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node6": [
+            {
+                "target": "node16",
+                "title": "Parkir Basement",
+                "suffix": "Point01"
+            }
+        ],
+        "node8": [
+            {
+                "target": "node10",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node11",
+                "title": "Keluar",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node12",
+                "title": "Pintu Masuk",
+                "suffix": "Point03"
+            }
+        ],
+        "node9": [
+            {
+                "target": "node10",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node11",
+                "title": "Keluar",
+                "suffix": "Point02"
+            }
+        ],
+        "node10": [
+            {
+                "target": "node18",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node8",
+                "title": "Drop Off",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node9",
+                "title": "Drop Off",
+                "suffix": "Point03"
+            }
+        ],
+        "node11": [
+            {
+                "target": "node8",
+                "title": "Drop Off",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node13",
+                "title": "Keluar",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node19",
+                "title": "Area Parkir",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node9",
+                "title": "Drop Off",
+                "suffix": "Point04"
+            }
+        ],
+        "node12": [
+            {
+                "target": "node8",
+                "title": "Pintu Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node4",
+                "title": "Ruang Serbaguna",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node2",
+                "title": "Ruang Logistik",
+                "suffix": "Point03"
+            }
+        ],
+        "node13": [
+            {
+                "target": "node19",
+                "title": "Pintu Masuk Area Parkir",
+                "suffix": "Point01"
+            }
+        ],
+        "node14": [
+            {
+                "target": "node4",
+                "title": "Ruang Serbaguna",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node5",
+                "title": "Ruang Vip",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node1",
+                "title": "Ruang Vip 2",
+                "suffix": "Point03"
+            }
+        ],
+        "node15": [
+            {
+                "target": "node17",
+                "title": "Depan Aula",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node16",
+                "title": "Parkir Basement",
+                "suffix": "Point02"
+            }
+        ],
+        "node16": [
+            {
+                "target": "node15",
+                "title": "Parkir Basement",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node4",
+                "title": "Ruang Serbaguna",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node6",
+                "title": "Toilet",
+                "suffix": "Point03"
+            }
+        ],
+        "node17": [
+            {
+                "target": "node19",
+                "title": "Pintu Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node18",
+                "title": "Area Parkir",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node15",
+                "title": "Parkir Basement",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node11",
+                "title": "Drop Off Kiri",
+                "suffix": "Point04"
+            },
+            {
+                "target": "node10",
+                "title": "Drop Off Kanan",
+                "suffix": "Point05"
+            }
+        ],
+        "node18": [
+            {
+                "target": "node17",
+                "title": "Marina Covention Center",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node10",
+                "title": "Drop Off Kanan",
+                "suffix": "Point02"
+            }
+        ],
+        "node19": [
+            {
+                "target": "node13",
+                "title": "Pintu Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node17",
+                "title": "Marina Covention Center",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node11",
+                "title": "Drop Off Kiri",
+                "suffix": "Point03"
+            }
+        ],
+        "node20": [
+            {
+                "target": "node17",
+                "title": "Marina Covention Center",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node13",
+                "title": "Keluar",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node9",
+                "title": "Drop Off",
+                "suffix": "Point03"
+            }
+        ]
+    },
+    "thumbPrefix": "ht_node_thumb_10_",
+    "routes": [],
+    "objectInfo": [
+        {
+            "infoId": 458,
+            "label": "Ruang Logistik",
+            "description": "Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara.",
+            "fragment": "ruanglogistik\\r\\n",
+            "link": "mcc/index.html#ruanglogistik\\r\\n",
+            "sceneId": ""
+        },
+        {
+            "infoId": 459,
+            "label": "Ruang Artis",
+            "description": "Ruang artis atau backstage di Marina Convention Center (MCC) Semarang adalah area privat yang berfungsi sebagai ruang tunggu dan persiapan eksklusif bagi pengisi acara, seperti artis, musisi, atau keynote speaker. Ruangan ini dirancang untuk menunjang kenyamanan sebelum dan sesudah tampil, umumnya dilengkapi fasilitas dasar seperti area ganti, kamar mandi, dan ruang rias (make-up).",
+            "fragment": "ruangartis",
+            "link": "mcc/index.html#ruangartis",
+            "sceneId": "node1"
+        },
+        {
+            "infoId": 460,
+            "label": "Ruang VIP",
+            "description": "Ruang VIP (Very Important Person) di Marina Convention Center (MCC) Semarang adalah ruangan dengan desain elegan dan fasilitas premium yang disediakan untuk tamu kehormatan, pejabat, atau klien penting selama acara berlangsung. Ruangan ini menjamin privasi, kenyamanan maksimal, dan dilengkapi dengan furniture mewah serta layanan eksklusif sebagai area tunggu, briefing, atau pertemuan pribadi.",
+            "fragment": "ruangvip",
+            "link": "mcc/index.html#ruangvip",
+            "sceneId": "node5"
+        },
+        {
+            "infoId": 461,
+            "label": "Hall Utama",
+            "description": "Hall Utama di Marina Convention Center (MCC) Semarang adalah ruangan serbaguna berkapasitas sangat besar, yang mampu menampung hingga sekitar 5.000 orang tanpa kursi atau 3.000 orang dengan pengaturan kursi. Ruangan ini merupakan fasilitas utama MCC, ideal untuk menyelenggarakan berbagai acara berskala besar seperti pameran (exhibition), konser musik, hingga resepsi pernikahan mewah.",
+            "fragment": "hallutama",
+            "link": "mcc/index.html#hallutama",
+            "sceneId": "node12"
+        },
+        {
+            "infoId": 462,
+            "label": "Ruang Serba Guna",
+            "description": "Ruang serbaguna di Marina Convention Center (MCC) Semarang merujuk pada beberapa meeting room atau function hall dengan ukuran yang lebih kecil dan fleksibel dibandingkan Hall Utama. Ruangan-ruangan ini ideal untuk mengakomodasi berbagai kegiatan skala menengah, seperti seminar, workshop, rapat perusahaan, atau acara sosial yang membutuhkan privasi dan fasilitas lengkap.",
+            "fragment": "ruangserbaguna",
+            "link": "mcc/index.html#ruangserbaguna",
+            "sceneId": "node4"
+        }
+    ],
+    "video360": [],
+    "_sceneRegistry": {
+        "node1": {
+            "rawName": "Ruangartis",
+            "displayName": "Koridor Ruang Artis",
+            "placeId": "marina-convention-center-koridor-ruang-artis",
+            "placeName": "Marina Convention Center – Koridor Ruang Artis",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Ruang Artis di Marina Convention Center memperlihatkan lorong dan pintu.",
+            "description": "Koridor Ruang Artis di Marina Convention Center memperlihatkan lorong dan pintu. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Lorong",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Ruangartis",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Koridor Ruang Artis di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Koridor Ruang Artis di Marina Convention Center memperlihatkan lorong dan pintu."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Koridor Ruang Artis?",
+                    "mode": "fix",
+                    "answer": "Lorong dan Pintu memperjelas susunan serta penggunaan ruang. Koridor Ruang Artis di Marina Convention Center memperlihatkan lorong dan pintu."
+                },
+                {
+                    "q": "Apa fakta penting tentang Marina Convention Center – Koridor Ruang Artis yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:459"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Koridor Ruang Artis.",
+                "describeHere": "Ruangartis adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Ruang Logistik",
+            "displayName": "Akses Logistik – Area Bongkar",
+            "placeId": "marina-convention-center-akses-logistik-area-bongkar",
+            "placeName": "Marina Convention Center – Akses Logistik – Area Bongkar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lantai lebar dan pintu servis menjadi unsur yang terlihat pada Akses Logistik – Area Bongkar di Marina Convention Center.",
+            "description": "Lantai lebar dan pintu servis menjadi unsur yang terlihat pada Akses Logistik – Area Bongkar di Marina Convention Center. Ruang penyimpanan membantu memisahkan barang pribadi dari area kegiatan. Susunan kompartemen dan jalur di depannya memudahkan penggunaan bergantian.",
+            "highlights": [
+                "Lantai lebar",
+                "Pintu servis"
+            ],
+            "talkingPoints": [
+                "Ruang Logistik",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Akses Logistik – Area Bongkar menjadi bagian penting dari Marina Convention Center – Akses Logistik – Area Bongkar?",
+                    "mode": "fix",
+                    "answer": "Lantai lebar dan pintu servis menjadi unsur yang terlihat pada Akses Logistik – Area Bongkar di Marina Convention Center. Lantai lebar dan pintu servis menjadi unsur yang terlihat pada Akses Logistik – Area Bongkar di Marina Convention Center. Ruang penyimpanan membantu memisahkan barang pribadi dari area kegiatan. Susunan kompartemen dan jalur di depannya memudahkan penggunaan bergantian. Ruang artis atau backstage di Marina Convention Center (MCC) Semarang adalah area privat yang berfungsi sebagai ruang tunggu dan persiapan eksklusif bagi pengisi acara, seperti artis, musisi, atau keynote speaker. Ruangan ini dirancang untuk menunjang kenyamanan sebelum dan sesudah tampil, umumnya dilengkapi fasilitas dasar seperti area ganti, kamar mandi, dan ruang rias (make-up)."
+                },
+                {
+                    "q": "Apa hubungan Lantai lebar dengan aktivitas di Akses Logistik – Area Bongkar?",
+                    "mode": "fix",
+                    "answer": "Lantai lebar menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Lantai lebar dan pintu servis menjadi unsur yang terlihat pada Akses Logistik – Area Bongkar di Marina Convention Center."
+                },
+                {
+                    "q": "Apa yang membedakan Akses Logistik – Area Bongkar dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Lantai lebar dan Pintu servis. Lantai lebar dan pintu servis menjadi unsur yang terlihat pada Akses Logistik – Area Bongkar di Marina Convention Center."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Akses Logistik – Area Bongkar.",
+                "describeHere": "Ruang Logistik adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Ruanglogistik",
+            "displayName": "Ruang Logistik",
+            "placeId": "marina-convention-center-ruang-logistik",
+            "placeName": "Marina Convention Center – Ruang Logistik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Ruang Logistik menampilkan ruang lapang dan akses ujung di Marina Convention Center.",
+            "description": "Pandangan Ruang Logistik menampilkan ruang lapang dan akses ujung di Marina Convention Center. Ruang penyimpanan membantu memisahkan barang pribadi dari area kegiatan. Susunan kompartemen dan jalur di depannya memudahkan penggunaan bergantian.",
+            "highlights": [
+                "Ruang lapang",
+                "Akses ujung"
+            ],
+            "talkingPoints": [
+                "Ruanglogistik",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Ruang Logistik?",
+                    "mode": "fix",
+                    "answer": "Ruang VIP (Very Important Person) di Marina Convention Center (MCC) Semarang adalah ruangan dengan desain elegan dan fasilitas premium yang disediakan untuk tamu kehormatan, pejabat, atau klien penting selama acara berlangsung. Ruangan ini menjamin privasi, kenyamanan maksimal, dan dilengkapi dengan furniture mewah serta layanan eksklusif sebagai area tunggu, briefing, atau pertemuan pribadi."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Ruang Logistik mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Ruang lapang bersama Akses ujung menunjukkan cara area ini digunakan. Pandangan Ruang Logistik menampilkan ruang lapang dan akses ujung di Marina Convention Center."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Ruang Logistik?",
+                    "mode": "fix",
+                    "answer": "Ruang lapang menjadi detail utama, sedangkan Akses ujung melengkapi konteksnya. Pandangan Ruang Logistik menampilkan ruang lapang dan akses ujung di Marina Convention Center."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Ruang Logistik.",
+                "describeHere": "Ruanglogistik adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Ruangserbaguna",
+            "displayName": "Koridor Ruang Serbaguna",
+            "placeId": "marina-convention-center-koridor-ruang-serbaguna",
+            "placeName": "Marina Convention Center – Koridor Ruang Serbaguna",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Koridor Ruang Serbaguna, lorong dan pintu membentuk tampilan bagian Marina Convention Center ini.",
+            "description": "Pada Koridor Ruang Serbaguna, lorong dan pintu membentuk tampilan bagian Marina Convention Center ini. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan.",
+            "highlights": [
+                "Lorong",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Ruangserbaguna",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Koridor Ruang Serbaguna dalam pengalaman pengunjung di Marina Convention Center – Koridor Ruang Serbaguna?",
+                    "mode": "fix",
+                    "answer": "Pada Koridor Ruang Serbaguna, lorong dan pintu membentuk tampilan bagian Marina Convention Center ini. Pada Koridor Ruang Serbaguna, lorong dan pintu membentuk tampilan bagian Marina Convention Center ini. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Hall Utama di Marina Convention Center (MCC) Semarang adalah ruangan serbaguna berkapasitas sangat besar, yang mampu menampung hingga sekitar 5.000 orang tanpa kursi atau 3.000 orang dengan pengaturan kursi. Ruangan ini merupakan fasilitas utama MCC, ideal untuk menyelenggarakan berbagai acara berskala besar seperti pameran (exhibition), konser musik, hingga resepsi pernikahan mewah."
+                },
+                {
+                    "q": "Mengapa Lorong penting pada Koridor Ruang Serbaguna?",
+                    "mode": "fix",
+                    "answer": "Lorong membantu menjelaskan identitas dan fungsi Koridor Ruang Serbaguna. Pada Koridor Ruang Serbaguna, lorong dan pintu membentuk tampilan bagian Marina Convention Center ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Koridor Ruang Serbaguna?",
+                    "mode": "fix",
+                    "answer": "Hall Utama di Marina Convention Center (MCC) Semarang adalah ruangan serbaguna berkapasitas sangat besar, yang mampu menampung hingga sekitar 5.000 orang tanpa kursi atau 3.000 orang dengan pengaturan kursi. Ruangan ini merupakan fasilitas utama MCC, ideal untuk menyelenggarakan berbagai acara berskala besar seperti pameran (exhibition), konser musik, hingga resepsi pernikahan mewah."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:462"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Koridor Ruang Serbaguna.",
+                "describeHere": "Ruangserbaguna adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Ruangvip",
+            "displayName": "Akses Ruang VIP",
+            "placeId": "marina-convention-center-akses-ruang-vip",
+            "placeName": "Marina Convention Center – Akses Ruang VIP",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses Ruang VIP menyorot lorong dan tangga, dengan konteks kunjungan di Marina Convention Center.",
+            "description": "Akses Ruang VIP menyorot lorong dan tangga, dengan konteks kunjungan di Marina Convention Center. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Lorong",
+                "Tangga"
+            ],
+            "talkingPoints": [
+                "Ruangvip",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Akses Ruang VIP menunjukkan karakter Marina Convention Center – Akses Ruang VIP?",
+                    "mode": "fix",
+                    "answer": "Akses Ruang VIP menyorot lorong dan tangga, dengan konteks kunjungan di Marina Convention Center. Akses Ruang VIP menyorot lorong dan tangga, dengan konteks kunjungan di Marina Convention Center. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju. Ruang serbaguna di Marina Convention Center (MCC) Semarang merujuk pada beberapa meeting room atau function hall dengan ukuran yang lebih kecil dan fleksibel dibandingkan Hall Utama. Ruangan-ruangan ini ideal untuk mengakomodasi berbagai kegiatan skala menengah, seperti seminar, workshop, rapat perusahaan, atau acara sosial yang membutuhkan privasi dan fasilitas lengkap."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Lorong dan Tangga di Akses Ruang VIP?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Akses Ruang VIP menyorot lorong dan tangga, dengan konteks kunjungan di Marina Convention Center."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Akses Ruang VIP?",
+                    "mode": "fix",
+                    "answer": "Lorong paling langsung membantu mengenali area ini. Akses Ruang VIP menyorot lorong dan tangga, dengan konteks kunjungan di Marina Convention Center."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:460"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Akses Ruang VIP.",
+                "describeHere": "Ruangvip adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Toilet",
+            "displayName": "Fasilitas Pendukung Acara",
+            "placeId": "marina-convention-center-fasilitas-pendukung-acara",
+            "placeName": "Marina Convention Center – Fasilitas Pendukung Acara",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas Pendukung Acara di Marina Convention Center memperlihatkan akses fasilitas dan penanda.",
+            "description": "Fasilitas Pendukung Acara di Marina Convention Center memperlihatkan akses fasilitas dan penanda. Fasilitas pendukung memberi tempat untuk jeda dan persiapan selama kunjungan. Penataannya perlu menjaga privasi sekaligus memudahkan pengunjung kembali ke kegiatan utama.",
+            "highlights": [
+                "Akses fasilitas",
+                "Penanda"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Fasilitas Pendukung Acara?",
+                    "mode": "fix",
+                    "answer": "Fasilitas Pendukung Acara di Marina Convention Center memperlihatkan akses fasilitas dan penanda. Fasilitas Pendukung Acara di Marina Convention Center memperlihatkan akses fasilitas dan penanda. Fasilitas pendukung memberi tempat untuk jeda dan persiapan selama kunjungan. Penataannya perlu menjaga privasi sekaligus memudahkan pengunjung kembali ke kegiatan utama. Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Fasilitas Pendukung Acara?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Akses fasilitas dan Penanda memberi petunjuk tentang kegiatan yang berlangsung di sini. Fasilitas Pendukung Acara di Marina Convention Center memperlihatkan akses fasilitas dan penanda."
+                },
+                {
+                    "q": "Apa konteks Marina Convention Center – Fasilitas Pendukung Acara yang membuat Fasilitas Pendukung Acara lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Fasilitas Pendukung Acara.",
+                "describeHere": "Toilet adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Drop Off",
+            "displayName": "Drop-off – Pintu Utama",
+            "placeId": "marina-convention-center-drop-off-pintu-utama",
+            "placeName": "Marina Convention Center – Drop-off – Pintu Utama",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kanopi dan tangga menjadi unsur yang terlihat pada Drop-off – Pintu Utama di Marina Convention Center.",
+            "description": "Kanopi dan tangga menjadi unsur yang terlihat pada Drop-off – Pintu Utama di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan.",
+            "highlights": [
+                "Kanopi",
+                "Tangga"
+            ],
+            "talkingPoints": [
+                "Drop Off",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Drop-off – Pintu Utama di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Kanopi dan tangga menjadi unsur yang terlihat pada Drop-off – Pintu Utama di Marina Convention Center."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Drop-off – Pintu Utama?",
+                    "mode": "fix",
+                    "answer": "Kanopi dan Tangga memperjelas susunan serta penggunaan ruang. Kanopi dan tangga menjadi unsur yang terlihat pada Drop-off – Pintu Utama di Marina Convention Center."
+                },
+                {
+                    "q": "Apa fakta penting tentang Marina Convention Center – Drop-off – Pintu Utama yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang artis atau backstage di Marina Convention Center (MCC) Semarang adalah area privat yang berfungsi sebagai ruang tunggu dan persiapan eksklusif bagi pengisi acara, seperti artis, musisi, atau keynote speaker. Ruangan ini dirancang untuk menunjang kenyamanan sebelum dan sesudah tampil, umumnya dilengkapi fasilitas dasar seperti area ganti, kamar mandi, dan ruang rias (make-up)."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Drop-off – Pintu Utama.",
+                "describeHere": "Drop Off adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Drop Off",
+            "displayName": "Drop-off – Bawah Kanopi",
+            "placeId": "marina-convention-center-drop-off-bawah-kanopi",
+            "placeName": "Marina Convention Center – Drop-off – Bawah Kanopi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Drop-off – Bawah Kanopi menampilkan struktur kanopi dan plaza di Marina Convention Center.",
+            "description": "Pandangan Drop-off – Bawah Kanopi menampilkan struktur kanopi dan plaza di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan.",
+            "highlights": [
+                "Struktur kanopi",
+                "Plaza"
+            ],
+            "talkingPoints": [
+                "Drop Off",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Drop-off – Bawah Kanopi menjadi bagian penting dari Marina Convention Center – Drop-off – Bawah Kanopi?",
+                    "mode": "fix",
+                    "answer": "Pandangan Drop-off – Bawah Kanopi menampilkan struktur kanopi dan plaza di Marina Convention Center. Pandangan Drop-off – Bawah Kanopi menampilkan struktur kanopi dan plaza di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan. Ruang VIP (Very Important Person) di Marina Convention Center (MCC) Semarang adalah ruangan dengan desain elegan dan fasilitas premium yang disediakan untuk tamu kehormatan, pejabat, atau klien penting selama acara berlangsung. Ruangan ini menjamin privasi, kenyamanan maksimal, dan dilengkapi dengan furniture mewah serta layanan eksklusif sebagai area tunggu, briefing, atau pertemuan pribadi."
+                },
+                {
+                    "q": "Apa hubungan Struktur kanopi dengan aktivitas di Drop-off – Bawah Kanopi?",
+                    "mode": "fix",
+                    "answer": "Struktur kanopi menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Drop-off – Bawah Kanopi menampilkan struktur kanopi dan plaza di Marina Convention Center."
+                },
+                {
+                    "q": "Apa yang membedakan Drop-off – Bawah Kanopi dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Struktur kanopi dan Plaza. Pandangan Drop-off – Bawah Kanopi menampilkan struktur kanopi dan plaza di Marina Convention Center."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Drop-off – Bawah Kanopi.",
+                "describeHere": "Drop Off adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Drop Off Kanan",
+            "displayName": "Drop-off Kanan",
+            "placeId": "marina-convention-center-drop-off-kanan",
+            "placeName": "Marina Convention Center – Drop-off Kanan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Drop-off Kanan, jalur dan taman membentuk tampilan bagian Marina Convention Center ini.",
+            "description": "Pada Drop-off Kanan, jalur dan taman membentuk tampilan bagian Marina Convention Center ini. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda.",
+            "highlights": [
+                "Jalur",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Drop Off Kanan",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Drop-off Kanan?",
+                    "mode": "fix",
+                    "answer": "Hall Utama di Marina Convention Center (MCC) Semarang adalah ruangan serbaguna berkapasitas sangat besar, yang mampu menampung hingga sekitar 5.000 orang tanpa kursi atau 3.000 orang dengan pengaturan kursi. Ruangan ini merupakan fasilitas utama MCC, ideal untuk menyelenggarakan berbagai acara berskala besar seperti pameran (exhibition), konser musik, hingga resepsi pernikahan mewah."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Drop-off Kanan mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Jalur bersama Taman menunjukkan cara area ini digunakan. Pada Drop-off Kanan, jalur dan taman membentuk tampilan bagian Marina Convention Center ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Drop-off Kanan?",
+                    "mode": "fix",
+                    "answer": "Jalur menjadi detail utama, sedangkan Taman melengkapi konteksnya. Pada Drop-off Kanan, jalur dan taman membentuk tampilan bagian Marina Convention Center ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Drop-off Kanan.",
+                "describeHere": "Drop Off Kanan adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Drop Off Kiri",
+            "displayName": "Drop-off Kiri",
+            "placeId": "marina-convention-center-drop-off-kiri",
+            "placeName": "Marina Convention Center – Drop-off Kiri",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Drop-off Kiri menyorot paving dan pembatas, dengan konteks kunjungan di Marina Convention Center.",
+            "description": "Drop-off Kiri menyorot paving dan pembatas, dengan konteks kunjungan di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Perubahan permukaan membantu menandai bagian yang dipakai untuk berjalan atau bergerak. Pola jalur juga dapat mengarahkan pengunjung di antara bangunan dan tanaman.",
+            "highlights": [
+                "Paving",
+                "Pembatas"
+            ],
+            "talkingPoints": [
+                "Drop Off Kiri",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Drop-off Kiri dalam pengalaman pengunjung di Marina Convention Center – Drop-off Kiri?",
+                    "mode": "fix",
+                    "answer": "Drop-off Kiri menyorot paving dan pembatas, dengan konteks kunjungan di Marina Convention Center. Drop-off Kiri menyorot paving dan pembatas, dengan konteks kunjungan di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Perubahan permukaan membantu menandai bagian yang dipakai untuk berjalan atau bergerak. Pola jalur juga dapat mengarahkan pengunjung di antara bangunan dan tanaman. Ruang serbaguna di Marina Convention Center (MCC) Semarang merujuk pada beberapa meeting room atau function hall dengan ukuran yang lebih kecil dan fleksibel dibandingkan Hall Utama. Ruangan-ruangan ini ideal untuk mengakomodasi berbagai kegiatan skala menengah, seperti seminar, workshop, rapat perusahaan, atau acara sosial yang membutuhkan privasi dan fasilitas lengkap."
+                },
+                {
+                    "q": "Mengapa Paving penting pada Drop-off Kiri?",
+                    "mode": "fix",
+                    "answer": "Paving membantu menjelaskan identitas dan fungsi Drop-off Kiri. Drop-off Kiri menyorot paving dan pembatas, dengan konteks kunjungan di Marina Convention Center."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Drop-off Kiri?",
+                    "mode": "fix",
+                    "answer": "Ruang serbaguna di Marina Convention Center (MCC) Semarang merujuk pada beberapa meeting room atau function hall dengan ukuran yang lebih kecil dan fleksibel dibandingkan Hall Utama. Ruangan-ruangan ini ideal untuk mengakomodasi berbagai kegiatan skala menengah, seperti seminar, workshop, rapat perusahaan, atau acara sosial yang membutuhkan privasi dan fasilitas lengkap."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Drop-off Kiri.",
+                "describeHere": "Drop Off Kiri adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Hallutama",
+            "displayName": "Hall Utama MCC",
+            "placeId": "marina-convention-center-hall-utama-mcc",
+            "placeName": "Marina Convention Center – Hall Utama MCC",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Hall Utama MCC di Marina Convention Center memperlihatkan ruang tanpa furnitur dan balkon.",
+            "description": "Hall Utama MCC di Marina Convention Center memperlihatkan ruang tanpa furnitur dan balkon. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Balkon memberi posisi pandang terhadap ruang di bawah atau lingkungan di luar bangunan. Dari sana, hubungan antarlantai dan susunan kegiatan dapat lebih mudah terlihat.",
+            "highlights": [
+                "Ruang tanpa furnitur",
+                "Balkon"
+            ],
+            "talkingPoints": [
+                "Hallutama",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Hall Utama MCC menunjukkan karakter Marina Convention Center – Hall Utama MCC?",
+                    "mode": "fix",
+                    "answer": "Hall Utama MCC di Marina Convention Center memperlihatkan ruang tanpa furnitur dan balkon. Hall Utama MCC di Marina Convention Center memperlihatkan ruang tanpa furnitur dan balkon. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Balkon memberi posisi pandang terhadap ruang di bawah atau lingkungan di luar bangunan. Dari sana, hubungan antarlantai dan susunan kegiatan dapat lebih mudah terlihat. Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Ruang tanpa furnitur dan Balkon di Hall Utama MCC?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Hall Utama MCC di Marina Convention Center memperlihatkan ruang tanpa furnitur dan balkon."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Hall Utama MCC?",
+                    "mode": "fix",
+                    "answer": "Ruang tanpa furnitur paling langsung membantu mengenali area ini. Hall Utama MCC di Marina Convention Center memperlihatkan ruang tanpa furnitur dan balkon."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:461"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Hall Utama MCC.",
+                "describeHere": "Hallutama adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Jalur Keluar Kawasan",
+            "placeId": "marina-convention-center-jalur-keluar-kawasan",
+            "placeName": "Marina Convention Center – Jalur Keluar Kawasan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalan dan pepohonan menjadi unsur yang terlihat pada Jalur Keluar Kawasan di Marina Convention Center.",
+            "description": "Jalan dan pepohonan menjadi unsur yang terlihat pada Jalur Keluar Kawasan di Marina Convention Center. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan. Batang dan tajuk membentuk lapisan depan serta belakang dalam pandangan. Celah di antaranya dapat menonjolkan bangunan atau jalur tertentu.",
+            "highlights": [
+                "Jalan",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Jalur Keluar Kawasan?",
+                    "mode": "fix",
+                    "answer": "Jalan dan pepohonan menjadi unsur yang terlihat pada Jalur Keluar Kawasan di Marina Convention Center. Jalan dan pepohonan menjadi unsur yang terlihat pada Jalur Keluar Kawasan di Marina Convention Center. Jalan menghubungkan bagian kawasan melalui ruang luar. Persimpangan, tepi jalan, dan penanda membantu menjelaskan pola kedatangan serta perpindahan. Batang dan tajuk membentuk lapisan depan serta belakang dalam pandangan. Celah di antaranya dapat menonjolkan bangunan atau jalur tertentu. Ruang artis atau backstage di Marina Convention Center (MCC) Semarang adalah area privat yang berfungsi sebagai ruang tunggu dan persiapan eksklusif bagi pengisi acara, seperti artis, musisi, atau keynote speaker. Ruangan ini dirancang untuk menunjang kenyamanan sebelum dan sesudah tampil, umumnya dilengkapi fasilitas dasar seperti area ganti, kamar mandi, dan ruang rias (make-up)."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Jalur Keluar Kawasan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Jalan dan Pepohonan memberi petunjuk tentang kegiatan yang berlangsung di sini. Jalan dan pepohonan menjadi unsur yang terlihat pada Jalur Keluar Kawasan di Marina Convention Center."
+                },
+                {
+                    "q": "Apa konteks Marina Convention Center – Jalur Keluar Kawasan yang membuat Jalur Keluar Kawasan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Ruang artis atau backstage di Marina Convention Center (MCC) Semarang adalah area privat yang berfungsi sebagai ruang tunggu dan persiapan eksklusif bagi pengisi acara, seperti artis, musisi, atau keynote speaker. Ruangan ini dirancang untuk menunjang kenyamanan sebelum dan sesudah tampil, umumnya dilengkapi fasilitas dasar seperti area ganti, kamar mandi, dan ruang rias (make-up)."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Jalur Keluar Kawasan.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Pintu Keluar",
+            "displayName": "Pintu Keluar Hall",
+            "placeId": "marina-convention-center-pintu-keluar-hall",
+            "placeName": "Marina Convention Center – Pintu Keluar Hall",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Pintu Keluar Hall menampilkan pintu lebar dan koridor di Marina Convention Center.",
+            "description": "Pandangan Pintu Keluar Hall menampilkan pintu lebar dan koridor di Marina Convention Center. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Pintu lebar",
+                "Koridor"
+            ],
+            "talkingPoints": [
+                "Pintu Keluar",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Pintu Keluar Hall di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Pintu Keluar Hall menampilkan pintu lebar dan koridor di Marina Convention Center."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Pintu Keluar Hall?",
+                    "mode": "fix",
+                    "answer": "Pintu lebar dan Koridor memperjelas susunan serta penggunaan ruang. Pandangan Pintu Keluar Hall menampilkan pintu lebar dan koridor di Marina Convention Center."
+                },
+                {
+                    "q": "Apa fakta penting tentang Marina Convention Center – Pintu Keluar Hall yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Ruang VIP (Very Important Person) di Marina Convention Center (MCC) Semarang adalah ruangan dengan desain elegan dan fasilitas premium yang disediakan untuk tamu kehormatan, pejabat, atau klien penting selama acara berlangsung. Ruangan ini menjamin privasi, kenyamanan maksimal, dan dilengkapi dengan furniture mewah serta layanan eksklusif sebagai area tunggu, briefing, atau pertemuan pribadi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Pintu Keluar Hall.",
+                "describeHere": "Pintu Keluar adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Parkir Basement",
+            "displayName": "Basement – Jalur Tengah",
+            "placeId": "marina-convention-center-basement-jalur-tengah",
+            "placeName": "Marina Convention Center – Basement – Jalur Tengah",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Basement – Jalur Tengah, kolom dan area parkir membentuk tampilan bagian Marina Convention Center ini.",
+            "description": "Pada Basement – Jalur Tengah, kolom dan area parkir membentuk tampilan bagian Marina Convention Center ini. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia.",
+            "highlights": [
+                "Kolom",
+                "Area parkir"
+            ],
+            "talkingPoints": [
+                "Parkir Basement",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Basement – Jalur Tengah menjadi bagian penting dari Marina Convention Center – Basement – Jalur Tengah?",
+                    "mode": "fix",
+                    "answer": "Pada Basement – Jalur Tengah, kolom dan area parkir membentuk tampilan bagian Marina Convention Center ini. Pada Basement – Jalur Tengah, kolom dan area parkir membentuk tampilan bagian Marina Convention Center ini. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia. Hall Utama di Marina Convention Center (MCC) Semarang adalah ruangan serbaguna berkapasitas sangat besar, yang mampu menampung hingga sekitar 5.000 orang tanpa kursi atau 3.000 orang dengan pengaturan kursi. Ruangan ini merupakan fasilitas utama MCC, ideal untuk menyelenggarakan berbagai acara berskala besar seperti pameran (exhibition), konser musik, hingga resepsi pernikahan mewah."
+                },
+                {
+                    "q": "Apa hubungan Kolom dengan aktivitas di Basement – Jalur Tengah?",
+                    "mode": "fix",
+                    "answer": "Kolom menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Basement – Jalur Tengah, kolom dan area parkir membentuk tampilan bagian Marina Convention Center ini."
+                },
+                {
+                    "q": "Apa yang membedakan Basement – Jalur Tengah dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Kolom dan Area parkir. Pada Basement – Jalur Tengah, kolom dan area parkir membentuk tampilan bagian Marina Convention Center ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Basement – Jalur Tengah.",
+                "describeHere": "Parkir Basement adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Parkir Basement",
+            "displayName": "Basement – Sisi Terbuka",
+            "placeId": "marina-convention-center-basement-sisi-terbuka",
+            "placeName": "Marina Convention Center – Basement – Sisi Terbuka",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Basement – Sisi Terbuka menyorot kolom dan bukaan, dengan konteks kunjungan di Marina Convention Center.",
+            "description": "Basement – Sisi Terbuka menyorot kolom dan bukaan, dengan konteks kunjungan di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia.",
+            "highlights": [
+                "Kolom",
+                "Bukaan"
+            ],
+            "talkingPoints": [
+                "Parkir Basement",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Basement – Sisi Terbuka?",
+                    "mode": "fix",
+                    "answer": "Ruang serbaguna di Marina Convention Center (MCC) Semarang merujuk pada beberapa meeting room atau function hall dengan ukuran yang lebih kecil dan fleksibel dibandingkan Hall Utama. Ruangan-ruangan ini ideal untuk mengakomodasi berbagai kegiatan skala menengah, seperti seminar, workshop, rapat perusahaan, atau acara sosial yang membutuhkan privasi dan fasilitas lengkap."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Basement – Sisi Terbuka mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Kolom bersama Bukaan menunjukkan cara area ini digunakan. Basement – Sisi Terbuka menyorot kolom dan bukaan, dengan konteks kunjungan di Marina Convention Center."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Basement – Sisi Terbuka?",
+                    "mode": "fix",
+                    "answer": "Kolom menjadi detail utama, sedangkan Bukaan melengkapi konteksnya. Basement – Sisi Terbuka menyorot kolom dan bukaan, dengan konteks kunjungan di Marina Convention Center."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Basement – Sisi Terbuka.",
+                "describeHere": "Parkir Basement adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node17": {
+            "rawName": "Marina Covention Center",
+            "displayName": "Fasad Marina Convention Center",
+            "placeId": "marina-convention-center-fasad-marina-convention-center",
+            "placeName": "Marina Convention Center – Fasad Marina Convention Center",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasad Marina Convention Center di Marina Convention Center memperlihatkan atap bundar dan plaza.",
+            "description": "Fasad Marina Convention Center di Marina Convention Center memperlihatkan atap bundar dan plaza. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Bentuk atap memengaruhi siluet bangunan dan hubungan ruang terlindung dengan area luar. Bagian tepi, bentang, serta bukaan memberi petunjuk cara ruang dinaungi.",
+            "highlights": [
+                "Atap bundar",
+                "Plaza"
+            ],
+            "talkingPoints": [
+                "Marina Covention Center",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Fasad Marina Convention Center dalam pengalaman pengunjung di Marina Convention Center – Fasad Marina Convention Center?",
+                    "mode": "fix",
+                    "answer": "Fasad Marina Convention Center di Marina Convention Center memperlihatkan atap bundar dan plaza. Fasad Marina Convention Center di Marina Convention Center memperlihatkan atap bundar dan plaza. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Bentuk atap memengaruhi siluet bangunan dan hubungan ruang terlindung dengan area luar. Bagian tepi, bentang, serta bukaan memberi petunjuk cara ruang dinaungi. Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara."
+                },
+                {
+                    "q": "Mengapa Atap bundar penting pada Fasad Marina Convention Center?",
+                    "mode": "fix",
+                    "answer": "Atap bundar membantu menjelaskan identitas dan fungsi Fasad Marina Convention Center. Fasad Marina Convention Center di Marina Convention Center memperlihatkan atap bundar dan plaza."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Fasad Marina Convention Center?",
+                    "mode": "fix",
+                    "answer": "Ruang logistik adalah area pendukung operasional yang krusial untuk kegiatan event besar, seperti pameran dan konser. Area ini dirancang untuk memfasilitasi bongkar muat yang cepat dan efisien, menyediakan akses mudah dan ruang penyimpanan sementara bagi peralatan, dekorasi, dan kargo para vendor dan penyelenggara acara."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Fasad Marina Convention Center.",
+                "describeHere": "Marina Covention Center adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Area Parkir",
+            "displayName": "Parkir – Pandangan Gedung",
+            "placeId": "marina-convention-center-parkir-pandangan-gedung",
+            "placeName": "Marina Convention Center – Parkir – Pandangan Gedung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Halaman luas dan gedung menjadi unsur yang terlihat pada Parkir – Pandangan Gedung di Marina Convention Center.",
+            "description": "Halaman luas dan gedung menjadi unsur yang terlihat pada Parkir – Pandangan Gedung di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat.",
+            "highlights": [
+                "Halaman luas",
+                "Gedung"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Parkir – Pandangan Gedung menunjukkan karakter Marina Convention Center – Parkir – Pandangan Gedung?",
+                    "mode": "fix",
+                    "answer": "Halaman luas dan gedung menjadi unsur yang terlihat pada Parkir – Pandangan Gedung di Marina Convention Center. Halaman luas dan gedung menjadi unsur yang terlihat pada Parkir – Pandangan Gedung di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat. Ruang artis atau backstage di Marina Convention Center (MCC) Semarang adalah area privat yang berfungsi sebagai ruang tunggu dan persiapan eksklusif bagi pengisi acara, seperti artis, musisi, atau keynote speaker. Ruangan ini dirancang untuk menunjang kenyamanan sebelum dan sesudah tampil, umumnya dilengkapi fasilitas dasar seperti area ganti, kamar mandi, dan ruang rias (make-up)."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Halaman luas dan Gedung di Parkir – Pandangan Gedung?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Halaman luas dan gedung menjadi unsur yang terlihat pada Parkir – Pandangan Gedung di Marina Convention Center."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Parkir – Pandangan Gedung?",
+                    "mode": "fix",
+                    "answer": "Halaman luas paling langsung membantu mengenali area ini. Halaman luas dan gedung menjadi unsur yang terlihat pada Parkir – Pandangan Gedung di Marina Convention Center."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Parkir – Pandangan Gedung.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node19": {
+            "rawName": "Area Parkir",
+            "displayName": "Parkir – Sisi Kawasan",
+            "placeId": "marina-convention-center-parkir-sisi-kawasan",
+            "placeName": "Marina Convention Center – Parkir – Sisi Kawasan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Parkir – Sisi Kawasan menampilkan paving dan pagar di Marina Convention Center.",
+            "description": "Pandangan Parkir – Sisi Kawasan menampilkan paving dan pagar di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Paving",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Parkir – Sisi Kawasan?",
+                    "mode": "fix",
+                    "answer": "Pandangan Parkir – Sisi Kawasan menampilkan paving dan pagar di Marina Convention Center. Pandangan Parkir – Sisi Kawasan menampilkan paving dan pagar di Marina Convention Center. Area kedatangan mengatur perpindahan antara kendaraan dan bangunan. Jalur kendaraan, tempat berhenti, dan akses pejalan kaki memiliki kebutuhan yang berbeda. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Ruang VIP (Very Important Person) di Marina Convention Center (MCC) Semarang adalah ruangan dengan desain elegan dan fasilitas premium yang disediakan untuk tamu kehormatan, pejabat, atau klien penting selama acara berlangsung. Ruangan ini menjamin privasi, kenyamanan maksimal, dan dilengkapi dengan furniture mewah serta layanan eksklusif sebagai area tunggu, briefing, atau pertemuan pribadi."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Parkir – Sisi Kawasan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Paving dan Pagar memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Parkir – Sisi Kawasan menampilkan paving dan pagar di Marina Convention Center."
+                },
+                {
+                    "q": "Apa konteks Marina Convention Center – Parkir – Sisi Kawasan yang membuat Parkir – Sisi Kawasan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Ruang VIP (Very Important Person) di Marina Convention Center (MCC) Semarang adalah ruangan dengan desain elegan dan fasilitas premium yang disediakan untuk tamu kehormatan, pejabat, atau klien penting selama acara berlangsung. Ruangan ini menjamin privasi, kenyamanan maksimal, dan dilengkapi dengan furniture mewah serta layanan eksklusif sebagai area tunggu, briefing, atau pertemuan pribadi."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Parkir – Sisi Kawasan.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node20": {
+            "rawName": "default",
+            "displayName": "Pelataran Utama MCC",
+            "placeId": "marina-convention-center-pelataran-utama-mcc",
+            "placeName": "Marina Convention Center – Pelataran Utama MCC",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Pelataran Utama MCC, fasad dan kanopi membentuk tampilan bagian Marina Convention Center ini.",
+            "description": "Pada Pelataran Utama MCC, fasad dan kanopi membentuk tampilan bagian Marina Convention Center ini. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan.",
+            "highlights": [
+                "Fasad",
+                "Kanopi"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Mcc"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Pelataran Utama MCC di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Pelataran Utama MCC, fasad dan kanopi membentuk tampilan bagian Marina Convention Center ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Pelataran Utama MCC?",
+                    "mode": "fix",
+                    "answer": "Fasad dan Kanopi memperjelas susunan serta penggunaan ruang. Pada Pelataran Utama MCC, fasad dan kanopi membentuk tampilan bagian Marina Convention Center ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang Marina Convention Center – Pelataran Utama MCC yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Hall Utama di Marina Convention Center (MCC) Semarang adalah ruangan serbaguna berkapasitas sangat besar, yang mampu menampung hingga sekitar 5.000 orang tanpa kursi atau 3.000 orang dengan pengaturan kursi. Ruangan ini merupakan fasilitas utama MCC, ideal untuk menyelenggarakan berbagai acara berskala besar seperti pameran (exhibition), konser musik, hingga resepsi pernikahan mewah."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Marina Convention Center – Pelataran Utama MCC.",
+                "describeHere": "default adalah area di dalam kawasan Mcc, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "modernObjectInfo": {
+        "1667": {
+            "name": {
+                "id": "Luas Area"
+            },
+            "image": "luas-area-luasarea.webp"
+        },
+        "1668": {
+            "name": {
+                "id": "Area Parkir"
+            },
+            "image": "area-parkir-areaparkir.webp"
+        },
+        "1669": {
+            "name": {
+                "id": "Ruang Utama"
+            },
+            "image": "ruang-utama-ruangutama.webp"
+        },
+        "1670": {
+            "name": {
+                "id": "Area Masuk"
+            },
+            "image": "area-masuk-areamasuk.webp"
+        }
+    }
+};

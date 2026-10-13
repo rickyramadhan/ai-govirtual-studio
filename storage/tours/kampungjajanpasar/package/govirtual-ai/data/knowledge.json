@@ -1,0 +1,290 @@
+{
+    "version": 2,
+    "tourId": "kampungjajanpasar",
+    "updatedAt": "2026-09-29T09:50:58+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kampungjajanpasar",
+            "aliases": [
+                "kampungjajanpasar"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kampungjajanpasar"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kampungjajanpasar.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kampungjajanpasar",
+                    "content": "Pusat pengalaman virtual untuk Kampungjajanpasar."
+                },
+                "en": {
+                    "title": "Kampungjajanpasar",
+                    "content": "Pusat pengalaman virtual untuk Kampungjajanpasar."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Kampung Jajan Pasar",
+            "aliases": [
+                "kampung jajan pasar"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungjajanpasar"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kampung Jajan Pasar",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Kampung Jajan Pasar",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Kampung Jajan Pasar",
+            "aliases": [
+                "kampung jajan pasar"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kampungjajanpasar"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kampung Jajan Pasar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Kampung Jajan Pasar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kampungjajanpasar"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:679",
+            "entityId": "objinfo2:679",
+            "title": "Rumah Produksi Kue Basah",
+            "aliases": [
+                "rumah produksi kue basah",
+                "objek 679"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Hampir setiap rumah di gang-gang kampung ini memiliki spesialisasi tersendiri; ada keluarga yang khusus memproduksi kue ku, ada yang ahli membuat lemper, arem-arem, putu ayu, hingga dadar gulung. Model industri rumahan ini menjadikan kampung tersebut tidak sekadar pemukiman, melainkan sebuah \"pabrik raksasa\" terdesentralisasi yang digerakkan oleh ibu-ibu rumah tangga dan warga sekitar.",
+            "source": "webview-import",
+            "sourceId": "679",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Rumah Produksi Kue Basah",
+                    "content": "Hampir setiap rumah di gang-gang kampung ini memiliki spesialisasi tersendiri; ada keluarga yang khusus memproduksi kue ku, ada yang ahli membuat lemper, arem-arem, putu ayu, hingga dadar gulung. Model industri rumahan ini menjadikan kampung tersebut tidak sekadar pemukiman, melainkan sebuah \"pabrik raksasa\" terdesentralisasi yang digerakkan oleh ibu-ibu rumah tangga dan warga sekitar."
+                },
+                "en": {
+                    "title": "Traditional Cake Production House",
+                    "content": "\"Almost every house along the alleys of this village has its own specialization; some families focus on producing kue ku, others excel at making lemper, arem-arem, putu ayu, and dadar gulung.\r\nThis home-based industry model turns the village into not just a residential area, but a decentralized “giant factory” driven by housewives and local residents.\""
+                },
+                "zh": {
+                    "title": "传统糕点制作坊",
+                    "content": "这个村庄的小巷里几乎每户人家都有各自的专长；有的家庭专门制作红龟糕，有的擅长制作粽子、阿伦阿伦、香兰小蛋糕，直到可丽饼卷。这种家庭式产业模式使该村不仅是居住区，更像是一座由家庭主妇和当地居民共同推动的去中心化“巨型工厂”。"
+                },
+                "ar": {
+                    "title": "بيت إنتاج الكعك التقليدي",
+                    "content": "يكاد كل منزل في أزقة هذه القرية أن يمتلك تخصصه الخاص؛ فهناك عائلات تركز على إنتاج كعك كو، وأخرى تتقن صنع الليمبر، والأريم-أريم، وبوتو آيو، وحتى الدادار غولونغ. هذا النموذج من الصناعات المنزلية يجعل القرية ليست مجرد منطقة سكنية، بل «مصنعًا عملاقًا» لا مركزيًا تديره ربات البيوت والسكان المحليون."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:680",
+            "entityId": "objinfo2:680",
+            "title": "Rumah Produksi Tas",
+            "aliases": [
+                "rumah produksi tas",
+                "objek 680"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Karakteristik produksi tas di kawasan ini umumnya berfokus pada tas-tas fungsional dengan harga yang terjangkau atau tas custom untuk keperluan grosir. Produk yang dihasilkan bervariasi, mulai dari tas sekolah, tas suvenir hajatan, goodie bag seminar, hingga tas wanita model terbaru yang mengikuti tren pasar.",
+            "source": "webview-import",
+            "sourceId": "680",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Rumah Produksi Tas",
+                    "content": "Karakteristik produksi tas di kawasan ini umumnya berfokus pada tas-tas fungsional dengan harga yang terjangkau atau tas custom untuk keperluan grosir. Produk yang dihasilkan bervariasi, mulai dari tas sekolah, tas suvenir hajatan, goodie bag seminar, hingga tas wanita model terbaru yang mengikuti tren pasar."
+                },
+                "en": {
+                    "title": "Bag Production House",
+                    "content": "\"The characteristics of bag production in this area generally focus on functional bags with affordable prices or custom bags for wholesale purposes.\r\nThe products vary, ranging from school bags, event souvenir bags, seminar goodie bags, to the latest women’s bag models that follow market trends.\""
+                },
+                "zh": {
+                    "title": "箱包生产作坊",
+                    "content": "该地区的箱包生产特点主要集中在价格实惠的实用型箱包或用于批发需求的定制箱包。产品种类多样，包括学生书包、宴会纪念包、研讨会伴手礼包，以及紧跟市场潮流的最新款女包。"
+                },
+                "ar": {
+                    "title": "بيت إنتاج الحقائب",
+                    "content": "تتركز خصائص إنتاج الحقائب في هذه المنطقة بشكل عام على الحقائب العملية ذات الأسعار المعقولة أو الحقائب المخصصة لأغراض البيع بالجملة. وتتنوع المنتجات الناتجة ما بين حقائب مدرسية، وحقائب تذكارية للمناسبات، وحقائب هدايا للندوات، وصولًا إلى أحدث موديلات الحقائب النسائية التي تواكب اتجاهات السوق."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:681",
+            "entityId": "objinfo2:681",
+            "title": "Rumah Produksi Kerajinan Tangan",
+            "aliases": [
+                "rumah produksi kerajinan tangan",
+                "objek 681"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Jenis kerajinan yang dihasilkan di Bangetayu Kulon umumnya berbasis pada pemanfaatan limbah atau bahan daur ulang, sejalan dengan program pemerintah Semarang mengenai \"Bank Sampah\" dan kampung tematik. Rumah-rumah produksi ini sering mengubah limbah rumah tangga atau sisa kain perca (limbah konveksi sekitar) menjadi barang bernilai jual.",
+            "source": "webview-import",
+            "sourceId": "681",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Rumah Produksi Kerajinan Tangan",
+                    "content": "Jenis kerajinan yang dihasilkan di Bangetayu Kulon umumnya berbasis pada pemanfaatan limbah atau bahan daur ulang, sejalan dengan program pemerintah Semarang mengenai \"Bank Sampah\" dan kampung tematik. Rumah-rumah produksi ini sering mengubah limbah rumah tangga atau sisa kain perca (limbah konveksi sekitar) menjadi barang bernilai jual."
+                },
+                "en": {
+                    "title": "Handicraft Production House",
+                    "content": "\"The types of handicrafts produced in Bangetayu Kulon are generally based on the use of waste or recycled materials, in line with the Semarang government’s “Waste Bank” program and thematic village initiatives.\r\nThese production houses often transform household waste or leftover fabric scraps (from nearby garment industries) into items with commercial value.\""
+                },
+                "zh": {
+                    "title": "手工艺品制作坊",
+                    "content": "邦加达尤库隆生产的手工艺品类型通常以利用废弃物或回收材料为基础，这与三宝垄市政府推行的“垃圾银行”和主题村项目相一致。这些生产作坊常常将家庭废弃物或剩余布料（来自周边服装产业的边角料）转化为具有销售价值的产品。"
+                },
+                "ar": {
+                    "title": "بيت إنتاج الحرف اليدوية",
+                    "content": "تعتمد أنواع الحرف اليدوية المنتجة في منطقة بانغيتايو كولون بشكل عام على الاستفادة من النفايات أو المواد المعاد تدويرها، تماشيًا مع برنامج حكومة سيمارانغ المعروف بـ«بنك النفايات» وبرامج القرى ذات الطابع الخاص. وغالبًا ما تقوم هذه البيوت الإنتاجية بتحويل النفايات المنزلية أو بقايا الأقمشة (مخلفات صناعة الملابس القريبة) إلى منتجات ذات قيمة تجارية."
+                }
+            }
+        }
+    ]
+}

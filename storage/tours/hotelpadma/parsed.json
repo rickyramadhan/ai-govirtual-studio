@@ -1,0 +1,1138 @@
+{
+    "startNode": "node110",
+    "scenes": [
+        {
+            "id": "node110",
+            "name": "node110",
+            "displayName": "node110",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": -4.0192,
+            "tilt": -16.0961,
+            "fov": 139.128,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node80",
+            "name": "Club & Lounge Access",
+            "displayName": "Club & Lounge Access",
+            "rawName": "",
+            "customNodeId": "-lub-ounge-ccess",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Club & Lounge Access"
+            ]
+        },
+        {
+            "id": "node81",
+            "name": "Clublounge",
+            "displayName": "Clublounge",
+            "rawName": "",
+            "customNodeId": "clublounge",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "clublounge"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Explore Lobby Area",
+            "displayName": "Explore Lobby Area",
+            "rawName": "",
+            "customNodeId": "-xplore-obby-rea",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Explore Lobby Area"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Candi Junior Ballroom",
+            "displayName": "Candi Junior Ballroom",
+            "rawName": "",
+            "customNodeId": "-andi-unior-allroom",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Candi Junior Ballroom"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Master",
+            "displayName": "Master",
+            "rawName": "",
+            "customNodeId": "master",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "master"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Familyroom",
+            "displayName": "Familyroom",
+            "rawName": "",
+            "customNodeId": "familyroom",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "familyroom"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Fitnesscenter",
+            "displayName": "Fitnesscenter",
+            "rawName": "",
+            "customNodeId": "fitnesscenter",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "fitnesscenter"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Waterpark Access",
+            "displayName": "Waterpark Access",
+            "rawName": "",
+            "customNodeId": "-aterpark-ccess",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Waterpark Access"
+            ]
+        },
+        {
+            "id": "node89",
+            "name": "Candi Junior Ballroom",
+            "displayName": "Candi Junior Ballroom",
+            "rawName": "",
+            "customNodeId": "-andi-unior-allroom",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Candi Junior Ballroom"
+            ]
+        },
+        {
+            "id": "node90",
+            "name": "Fitness Center Access",
+            "displayName": "Fitness Center Access",
+            "rawName": "",
+            "customNodeId": "-itness-enter-ccess",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Fitness Center Access"
+            ]
+        },
+        {
+            "id": "node91",
+            "name": "Kidsclub",
+            "displayName": "Kidsclub",
+            "rawName": "",
+            "customNodeId": "kidsclub",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "kidsclub"
+            ]
+        },
+        {
+            "id": "node92",
+            "name": "Explore Family Room",
+            "displayName": "Explore Family Room",
+            "rawName": "",
+            "customNodeId": "-xplore-amily-oom",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Explore Family Room"
+            ]
+        },
+        {
+            "id": "node93",
+            "name": "Explore Premier Balcony",
+            "displayName": "Explore Premier Balcony",
+            "rawName": "",
+            "customNodeId": "-xplore-remier-alcony",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Explore Premier Balcony"
+            ]
+        },
+        {
+            "id": "node94",
+            "name": "Main Lobby",
+            "displayName": "Main Lobby",
+            "rawName": "",
+            "customNodeId": "-ain-obby",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Main Lobby"
+            ]
+        },
+        {
+            "id": "node95",
+            "name": "Gedong Songo Outdoor Deck",
+            "displayName": "Gedong Songo Outdoor Deck",
+            "rawName": "",
+            "customNodeId": "-edong-ongo-utdoor-eck",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Gedong Songo Outdoor Deck"
+            ]
+        },
+        {
+            "id": "node96",
+            "name": "Archeology",
+            "displayName": "Archeology",
+            "rawName": "",
+            "customNodeId": "archeology",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "archeology"
+            ]
+        },
+        {
+            "id": "node97",
+            "name": "Poolaccessroom",
+            "displayName": "Poolaccessroom",
+            "rawName": "",
+            "customNodeId": "poolaccessroom",
+            "pan": 180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "poolaccessroom"
+            ]
+        },
+        {
+            "id": "node98",
+            "name": "Balcony",
+            "displayName": "Balcony",
+            "rawName": "",
+            "customNodeId": "balcony",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "balcony"
+            ]
+        },
+        {
+            "id": "node99",
+            "name": "Lift Access",
+            "displayName": "Lift Access",
+            "rawName": "",
+            "customNodeId": "-ift-ccess",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Lift Access"
+            ]
+        },
+        {
+            "id": "node100",
+            "name": "Presidential Suite",
+            "displayName": "Presidential Suite",
+            "rawName": "",
+            "customNodeId": "-residential-uite",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Presidential Suite"
+            ]
+        },
+        {
+            "id": "node101",
+            "name": "Presidential Suite",
+            "displayName": "Presidential Suite",
+            "rawName": "",
+            "customNodeId": "-residential-uite",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Presidential Suite"
+            ]
+        },
+        {
+            "id": "node102",
+            "name": "Explore Presidential Suite",
+            "displayName": "Explore Presidential Suite",
+            "rawName": "",
+            "customNodeId": "-xplore-residential-uite",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Explore Presidential Suite"
+            ]
+        },
+        {
+            "id": "node103",
+            "name": "Presidential Suite",
+            "displayName": "Presidential Suite",
+            "rawName": "",
+            "customNodeId": "-residential-uite",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Presidential Suite"
+            ]
+        },
+        {
+            "id": "node104",
+            "name": "Presidentsuitekamarutama",
+            "displayName": "Presidentsuitekamarutama",
+            "rawName": "",
+            "customNodeId": "presidentsuitekamarutama",
+            "pan": 121.6,
+            "tilt": -13.02,
+            "fov": 139.13,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "presidentsuitekamarutama"
+            ]
+        },
+        {
+            "id": "node105",
+            "name": "Sauna Room",
+            "displayName": "Sauna Room",
+            "rawName": "",
+            "customNodeId": "-auna-oom",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Sauna Room"
+            ]
+        },
+        {
+            "id": "node107",
+            "name": "Swimmingpooldewasa",
+            "displayName": "Swimmingpooldewasa",
+            "rawName": "",
+            "customNodeId": "swimmingpooldewasa",
+            "pan": -4.43,
+            "tilt": -11.31,
+            "fov": 139.13,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "swimmingpooldewasa"
+            ]
+        },
+        {
+            "id": "node108",
+            "name": "Kolamrenanganak",
+            "displayName": "Kolamrenanganak",
+            "rawName": "",
+            "customNodeId": "kolamrenanganak",
+            "pan": 9.8,
+            "tilt": -28.71,
+            "fov": 139.13,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "kolamrenanganak"
+            ]
+        },
+        {
+            "id": "node109",
+            "name": "Waterpark",
+            "displayName": "Waterpark",
+            "rawName": "",
+            "customNodeId": "-aterpark",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Waterpark"
+            ]
+        },
+        {
+            "id": "node111",
+            "name": "node111",
+            "displayName": "node111",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node112",
+            "name": "Entrance",
+            "displayName": "Entrance",
+            "rawName": "",
+            "customNodeId": "-ntrance",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma"
+            ],
+            "aliases": [
+                "Entrance"
+            ]
+        },
+        {
+            "id": "node113",
+            "name": "Candijuniorballroom",
+            "displayName": "Candijuniorballroom",
+            "rawName": "",
+            "customNodeId": "candijuniorballroom",
+            "pan": -180,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "hotelpadma",
+                "oi"
+            ],
+            "aliases": [
+                "candijuniorballroom"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node110",
+            "target": "node112",
+            "title": "Entrance",
+            "id": "Point03",
+            "pan": -31.82,
+            "tilt": -38.59
+        },
+        {
+            "scene": "node110",
+            "target": "node95",
+            "title": "Gedong Songo Outdoor Deck",
+            "id": "Point01",
+            "pan": -33.15,
+            "tilt": -7.57
+        },
+        {
+            "scene": "node80",
+            "target": "node81",
+            "title": "Explore Club & Lounge",
+            "id": "Point01",
+            "pan": 0.71,
+            "tilt": -9.01
+        },
+        {
+            "scene": "node80",
+            "target": "node94",
+            "title": "Main Lobby",
+            "id": "Point02",
+            "pan": -59.36,
+            "tilt": -12.43
+        },
+        {
+            "scene": "node80",
+            "target": "node102",
+            "title": "Explore Presidential Suite",
+            "id": "Point03",
+            "pan": -99.87,
+            "tilt": -3.74
+        },
+        {
+            "scene": "node80",
+            "target": "node99",
+            "title": "Lift Access",
+            "id": "Point04",
+            "pan": -78.39,
+            "tilt": -6.02
+        },
+        {
+            "scene": "node81",
+            "target": "node80",
+            "title": "Exit",
+            "id": "Point01",
+            "pan": -94.56,
+            "tilt": -6.79
+        },
+        {
+            "scene": "node82",
+            "target": "node94",
+            "title": "Main Lobby",
+            "id": "Point02",
+            "pan": 118.44,
+            "tilt": -5.26
+        },
+        {
+            "scene": "node82",
+            "target": "node83",
+            "title": "Candi Junior Ballroom",
+            "id": "Point03",
+            "pan": -331.73,
+            "tilt": -4.3
+        },
+        {
+            "scene": "node82",
+            "target": "node112",
+            "title": "Entrance",
+            "id": "Point04",
+            "pan": -143.66,
+            "tilt": -3.98
+        },
+        {
+            "scene": "node83",
+            "target": "node112",
+            "title": "Entrance",
+            "id": "Point01",
+            "pan": -127.85,
+            "tilt": -3.95
+        },
+        {
+            "scene": "node83",
+            "target": "node89",
+            "title": "Candi Junior Ballroom ",
+            "id": "Point02",
+            "pan": -2.92,
+            "tilt": -4
+        },
+        {
+            "scene": "node83",
+            "target": "node82",
+            "title": "Explore Lobby Area",
+            "id": "Point03",
+            "pan": -249.12,
+            "tilt": -2.83
+        },
+        {
+            "scene": "node85",
+            "target": "node86",
+            "title": "Family Room Kids Area",
+            "id": "Point02",
+            "pan": -78.71,
+            "tilt": -18.49
+        },
+        {
+            "scene": "node86",
+            "target": "node85",
+            "title": "Main Family Room",
+            "id": "Point01",
+            "pan": 98.17,
+            "tilt": -10.49
+        },
+        {
+            "scene": "node86",
+            "target": "node92",
+            "title": "Exit",
+            "id": "Point02",
+            "pan": -242,
+            "tilt": -31.68
+        },
+        {
+            "scene": "node87",
+            "target": "node105",
+            "title": "Sauna Room",
+            "id": "Point02",
+            "pan": 135.22,
+            "tilt": -8.08
+        },
+        {
+            "scene": "node87",
+            "target": "node90",
+            "title": "Exit",
+            "id": "Point03",
+            "pan": -299.92,
+            "tilt": -8.32
+        },
+        {
+            "scene": "node88",
+            "target": "node109",
+            "title": "Waterpark",
+            "id": "Point01",
+            "pan": -165.53,
+            "tilt": -6.4
+        },
+        {
+            "scene": "node88",
+            "target": "node89",
+            "title": "Candi Junior Ballroom ",
+            "id": "Point03",
+            "pan": -24.46,
+            "tilt": -14.53
+        },
+        {
+            "scene": "node89",
+            "target": "node88",
+            "title": "Waterpark Access",
+            "id": "Point01",
+            "pan": -24.37,
+            "tilt": -5.43
+        },
+        {
+            "scene": "node89",
+            "target": "node95",
+            "title": "Explore Gedong Songo Outdoor Deck",
+            "id": "Point02",
+            "pan": 64.03,
+            "tilt": -10.32
+        },
+        {
+            "scene": "node89",
+            "target": "node113",
+            "title": "Explore Candi Junior Ballroom",
+            "id": "Point03",
+            "pan": -117.54,
+            "tilt": -2.7
+        },
+        {
+            "scene": "node89",
+            "target": "node83",
+            "title": "Exit",
+            "id": "Point05",
+            "pan": -205.09,
+            "tilt": -3.39
+        },
+        {
+            "scene": "node90",
+            "target": "node87",
+            "title": "Explore Fitness Center",
+            "id": "Point02",
+            "pan": -91.63,
+            "tilt": -4.57
+        },
+        {
+            "scene": "node90",
+            "target": "node91",
+            "title": "Kids Club",
+            "id": "Point03",
+            "pan": -232.3,
+            "tilt": -12.15
+        },
+        {
+            "scene": "node90",
+            "target": "node99",
+            "title": "Lift Access",
+            "id": "Point04",
+            "pan": -267.54,
+            "tilt": -5.99
+        },
+        {
+            "scene": "node91",
+            "target": "node90",
+            "title": "",
+            "id": "Point01",
+            "pan": -169.567,
+            "tilt": 0
+        },
+        {
+            "scene": "node91",
+            "target": "node90",
+            "title": "Exit",
+            "id": "Point02",
+            "pan": -1.01,
+            "tilt": -9
+        },
+        {
+            "scene": "node92",
+            "target": "node86",
+            "title": "Explore Family Room",
+            "id": "Point02",
+            "pan": 281.81,
+            "tilt": -12.29
+        },
+        {
+            "scene": "node92",
+            "target": "node99",
+            "title": "Lift Access",
+            "id": "Point03",
+            "pan": -222.59,
+            "tilt": -22.88
+        },
+        {
+            "scene": "node93",
+            "target": "node98",
+            "title": "Explore Premier Balcony",
+            "id": "Point03",
+            "pan": 76.44,
+            "tilt": -11.84
+        },
+        {
+            "scene": "node93",
+            "target": "node99",
+            "title": "Lift Access",
+            "id": "Point01",
+            "pan": -226.37,
+            "tilt": -21.88
+        },
+        {
+            "scene": "node94",
+            "target": "node80",
+            "title": "Club & Lounge Access",
+            "id": "Point02",
+            "pan": 51.39,
+            "tilt": -5.27
+        },
+        {
+            "scene": "node94",
+            "target": "node82",
+            "title": "Exit",
+            "id": "Point03",
+            "pan": -76.54,
+            "tilt": -6.07
+        },
+        {
+            "scene": "node95",
+            "target": "node96",
+            "title": "Main Pool Access",
+            "id": "Point02",
+            "pan": 112.3,
+            "tilt": -2.03
+        },
+        {
+            "scene": "node95",
+            "target": "node89",
+            "title": "Candi Junior Ballroom ",
+            "id": "Point01",
+            "pan": -352.4,
+            "tilt": -5.73
+        },
+        {
+            "scene": "node96",
+            "target": "node107",
+            "title": "Main Pool",
+            "id": "Point02",
+            "pan": 90.02,
+            "tilt": -7.53
+        },
+        {
+            "scene": "node96",
+            "target": "node108",
+            "title": "Kids Pool",
+            "id": "Point03",
+            "pan": -88.5,
+            "tilt": -3.14
+        },
+        {
+            "scene": "node96",
+            "target": "node99",
+            "title": "Lift Access",
+            "id": "Point04",
+            "pan": 179.57,
+            "tilt": -6.4
+        },
+        {
+            "scene": "node96",
+            "target": "node95",
+            "title": "Gedong Songo Outdoor Deck",
+            "id": "Point01",
+            "pan": -0.73,
+            "tilt": -8.8
+        },
+        {
+            "scene": "node97",
+            "target": "node107",
+            "title": "Main Pool",
+            "id": "Point03",
+            "pan": -266.26,
+            "tilt": -12.06
+        },
+        {
+            "scene": "node97",
+            "target": "node99",
+            "title": "Exit",
+            "id": "Point01",
+            "pan": -91.91,
+            "tilt": -12.38
+        },
+        {
+            "scene": "node98",
+            "target": "node93",
+            "title": "Exit ",
+            "id": "Point01",
+            "pan": -279.64,
+            "tilt": -11.68
+        },
+        {
+            "scene": "node99",
+            "target": "node90",
+            "title": "Fitness Center Access",
+            "id": "Point02",
+            "pan": 168.41,
+            "tilt": -5.7
+        },
+        {
+            "scene": "node99",
+            "target": "node93",
+            "title": "Explore Premier Balcony",
+            "id": "Point03",
+            "pan": 311.21,
+            "tilt": -6.18
+        },
+        {
+            "scene": "node99",
+            "target": "node92",
+            "title": "Explore Family Room",
+            "id": "Point04",
+            "pan": 272.35,
+            "tilt": -8.13
+        },
+        {
+            "scene": "node99",
+            "target": "node96",
+            "title": "Gedong Songo Outdoor Deck Access",
+            "id": "Point05",
+            "pan": -156.44,
+            "tilt": -5.74
+        },
+        {
+            "scene": "node99",
+            "target": "node102",
+            "title": "Explore Presidential Suite",
+            "id": "Point01",
+            "pan": -127.77,
+            "tilt": -7.08
+        },
+        {
+            "scene": "node100",
+            "target": "node103",
+            "title": "Presidential Suite",
+            "id": "Point01",
+            "pan": -83.14,
+            "tilt": -13.1
+        },
+        {
+            "scene": "node100",
+            "target": "node101",
+            "title": "Presidential Suite",
+            "id": "Point02",
+            "pan": 103.82,
+            "tilt": -13.22
+        },
+        {
+            "scene": "node100",
+            "target": "node104",
+            "title": "Presidential Suite",
+            "id": "Point03",
+            "pan": 243.18,
+            "tilt": -18.48
+        },
+        {
+            "scene": "node100",
+            "target": "node102",
+            "title": "Exit",
+            "id": "Point04",
+            "pan": 182.57,
+            "tilt": -13
+        },
+        {
+            "scene": "node101",
+            "target": "node100",
+            "title": "Presidential Suite",
+            "id": "Point02",
+            "pan": -46.61,
+            "tilt": -10.65
+        },
+        {
+            "scene": "node102",
+            "target": "node100",
+            "title": "Explore Presidential Suite",
+            "id": "Point01",
+            "pan": -0.46,
+            "tilt": -7.97
+        },
+        {
+            "scene": "node102",
+            "target": "node80",
+            "title": "Lift Access",
+            "id": "Point02",
+            "pan": 182.19,
+            "tilt": -5.74
+        },
+        {
+            "scene": "node103",
+            "target": "node100",
+            "title": "Exit",
+            "id": "Point02",
+            "pan": -268.25,
+            "tilt": -17.33
+        },
+        {
+            "scene": "node104",
+            "target": "node100",
+            "title": "Exit",
+            "id": "Point02",
+            "pan": -114.36,
+            "tilt": -14.76
+        },
+        {
+            "scene": "node105",
+            "target": "node87",
+            "title": "Exit",
+            "id": "Point02",
+            "pan": -337.06,
+            "tilt": -7.34
+        },
+        {
+            "scene": "node107",
+            "target": "node97",
+            "title": "Explore Pool Access Room",
+            "id": "Point02",
+            "pan": -280.64,
+            "tilt": -10.75
+        },
+        {
+            "scene": "node107",
+            "target": "node96",
+            "title": "Gedong Songo Outdoor Deck Access",
+            "id": "Point03",
+            "pan": -150.63,
+            "tilt": -7.72
+        },
+        {
+            "scene": "node108",
+            "target": "node96",
+            "title": "Gedong Songo Outdoor Deck Access",
+            "id": "Point02",
+            "pan": -181.31,
+            "tilt": -4.38
+        },
+        {
+            "scene": "node109",
+            "target": "node88",
+            "title": "Candi Junior Ballroom",
+            "id": "Point01",
+            "pan": -287.94,
+            "tilt": -8.53
+        },
+        {
+            "scene": "node111",
+            "target": "node112",
+            "title": "Entrance",
+            "id": "Point01",
+            "pan": -356.22,
+            "tilt": -5.93
+        },
+        {
+            "scene": "node112",
+            "target": "node111",
+            "title": "Exit",
+            "id": "Point01",
+            "pan": 180.17,
+            "tilt": -4.44
+        },
+        {
+            "scene": "node112",
+            "target": "node83",
+            "title": "Candi Junior Ballroom",
+            "id": "Point02",
+            "pan": 282.25,
+            "tilt": -6.7
+        },
+        {
+            "scene": "node112",
+            "target": "node82",
+            "title": "Explore Lobby Area",
+            "id": "Point03",
+            "pan": 75.69,
+            "tilt": 0.03
+        },
+        {
+            "scene": "node113",
+            "target": "node89",
+            "title": "Exit",
+            "id": "Point01",
+            "pan": -271.33,
+            "tilt": -4.17
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 443,
+            "label": "President Suite Kamar Utama",
+            "description": "Presidential Suite adalah tipe akomodasi terluas (200 mÂ²) dan termewah di lantai 8 dengan pemandangan 180 derajat ke kolam renang dan kota. Suite ini dilengkapi dengan dua kamar mandi terpisah, kitchenette, dan menikmati semua keuntungan istimewa dari Club Lounge Benefits.",
+            "fragment": "presidentsuitekamarutama",
+            "link": "hotelpadma/index.html#presidentsuitekamarutama",
+            "sceneId": "node104"
+        },
+        {
+            "infoId": 444,
+            "label": "Pool Access Room",
+            "description": "Pool Access Room (termasuk tipe Pool Access dan Premier Pool Access) adalah kamar-kamar yang berlokasi di lantai 1 dengan akses pribadi langsung menuju kolam renang.",
+            "fragment": "poolaccessroom",
+            "link": "hotelpadma/index.html#poolaccessroom",
+            "sceneId": "node97"
+        },
+        {
+            "infoId": 445,
+            "label": "Swimming Pool Dewasa",
+            "description": "Kolam Renang Utama dewasa memiliki ukuran besar 19,4 m dengan kedalaman standar 1,3 meter, dirawat menggunakan teknologi klorin natural dari garam yang aman di kulit. Kolam ini dirancang sebagai oasis ketenangan dan kebugaran bagi tamu dewasa.",
+            "fragment": "swimmingpooldewasa",
+            "link": "hotelpadma/index.html#swimmingpooldewasa",
+            "sceneId": "node107"
+        },
+        {
+            "infoId": 446,
+            "label": "Fitness Center",
+            "description": "Fitness Center merupakan pusat kebugaran yang beroperasi 24 jam dengan peralatan latihan yang lengkap dan modern. Fasilitas ini juga menyediakan ruang steam dan sauna terpisah untuk pria dan wanita, serta menawarkan kelas yoga dan program latihan pribadi.",
+            "fragment": "fitnesscenter",
+            "link": "hotelpadma/index.html#fitnesscenter",
+            "sceneId": "node87"
+        },
+        {
+            "infoId": 447,
+            "label": "Kids Club",
+            "description": "Kids Club (Wolly Kids Club & Games Centre) adalah area khusus untuk anak-anak dengan berbagai permainan, buku, dan aktivitas yang diawasi oleh staf. Fasilitas ini menyediakan area bermain di dalam ruangan dan kegiatan seperti kelas seni, kerajinan, dan melukis.",
+            "fragment": "kidsclub",
+            "link": "hotelpadma/index.html#kidsclub",
+            "sceneId": "node91"
+        },
+        {
+            "infoId": 448,
+            "label": "Club Lounge",
+            "description": "Club Lounge adalah fasilitas eksklusif di lantai 8 yang menawarkan layanan check-in pribadi dan pilihan tempat sarapan yang berbeda. Tamu Club dapat menikmati minuman dan makanan ringan harian, serta evening cocktail di ruangan yang tenang dengan pemandangan taman hotel.",
+            "fragment": "clublounge",
+            "link": "hotelpadma/index.html#clublounge",
+            "sceneId": "node81"
+        },
+        {
+            "infoId": 449,
+            "label": "Candi Junior Ballroom",
+            "description": "Candi Junior Ballroom adalah ruangan serbaguna berukuran menengah yang ideal untuk perayaan atau acara skala kecil hingga menengah. Ruangan ini menarik dengan keindahan cahaya alami dan pemandangan taman hijau yang asri, sangat cocok untuk pertemuan atau pernikahan yang elegan.",
+            "fragment": "candijuniorballroom",
+            "link": "hotelpadma/index.html#candijuniorballroom",
+            "sceneId": "node113"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "6d68456293927059",
+        "skin.js": "dfc89d2dc5fe84cc",
+        "index.html": "d1e0d3732f0b7284"
+    }
+}

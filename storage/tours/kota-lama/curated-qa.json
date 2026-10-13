@@ -1,0 +1,777 @@
+{
+    "version": "1.0",
+    "tourId": "kota-lama",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Apa fungsi utama dari Taman Sri Gunting di Kota Lama Semarang?",
+            "answer": "Taman Sri Gunting berfungsi sebagai taman kota berbasis wisata dan area terbuka aktif yang sering digunakan masyarakat untuk berkumpul, bersantai, dan berrekreasi.",
+            "aliases": [
+                "fungsi taman sri gunting",
+                "kegunaan taman srigunting",
+                "aktivitas di taman srigunting"
+            ],
+            "keywords": [
+                "fungsi",
+                "taman sri gunting",
+                "srigunting",
+                "rekreasi"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Dimana lokasi tepatnya Taman Sri Gunting di Semarang?",
+            "answer": "Taman Sri Gunting terletak di jantung kawasan Kota Lama Semarang, dikelilingi oleh bangunan-bangunan bersejarah seperti Gereja Blenduk.",
+            "aliases": [
+                "lokasi taman sri gunting",
+                "alamat taman srigunting",
+                "letak taman srigunting"
+            ],
+            "keywords": [
+                "lokasi",
+                "alamat",
+                "taman sri gunting",
+                "kota lama"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Apa nama resmi dari Gereja Blenduk di Kota Lama Semarang?",
+            "answer": "Nama resmi dari Gereja Blenduk adalah Gereja Protestan di Indonesia bagian Barat (GPIB) Immanuel Semarang.",
+            "aliases": [
+                "nama resmi gereja blenduk",
+                "gereja gpib immanuel semarang",
+                "sejarah nama gereja blenduk"
+            ],
+            "keywords": [
+                "nama resmi",
+                "gereja blenduk",
+                "gpib immanuel"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Jam berapa operasional jam buka Gereja Blenduk Semarang untuk umum?",
+            "answer": "Gereja Blenduk Semarang buka setiap hari mulai pukul 08.00 hingga 15.00 WIB untuk menikmati keindahan interiornya.",
+            "aliases": [
+                "jam buka gereja blenduk",
+                "jam operasional gereja blenduk",
+                "kapan gereja blenduk buka"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "gereja blenduk"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apa ciri khas arsitektur utama dari bangunan Gereja Blenduk?",
+            "answer": "Ciri khas utama Gereja Blenduk adalah atap kubah besar berdinding tembaga setengah bola (dome) serta dua buah menara kembar di bagian depannya.",
+            "aliases": [
+                "ciri khas gereja blenduk",
+                "arsitektur gereja blenduk",
+                "bentuk atap gereja blenduk"
+            ],
+            "keywords": [
+                "arsitektur",
+                "ciri khas",
+                "gereja blenduk",
+                "kubah"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Di mana alamat lengkap Gedung Ikan Bakar Cianjur di Kota Lama Semarang?",
+            "answer": "Gedung Ikan Bakar Cianjur di Kota Lama Semarang beralamat di Jalan Letjen Suprapto No. 19, Purwodinatan, Kecamatan Semarang Tengah, Kota Semarang.",
+            "aliases": [
+                "alamat ikan bakar cianjur kota lama",
+                "letak ibc semarang",
+                "lokasi ikan bakar cianjur suprapto"
+            ],
+            "keywords": [
+                "alamat",
+                "ikan bakar cianjur",
+                "letak",
+                "letjen suprapto"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apa menu andalan yang disajikan di Ikan Bakar Cianjur Kota Lama Semarang?",
+            "answer": "Menu andalan di Ikan Bakar Cianjur adalah olahan ikan air tawar seperti gurame bakar, nila bakar, lengkap dengan sambal khas dan lalapan segar.",
+            "aliases": [
+                "menu ikan bakar cianjur",
+                "makanan andalan ibc semarang",
+                "kuliner ikan bakar cianjur"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "ikan bakar cianjur",
+                "kuliner"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Apa fungsi historis dari Gedung Marabunta pada masa kolonial Belanda?",
+            "answer": "Pada masa kolonial Belanda, Gedung Marabunta difungsikan sebagai gedung teater kota, tempat rekreasi eksklusif, serta pertunjukan orkestra, komedi, dan balet bagi kalangan warga Eropa.",
+            "aliases": [
+                "fungsi gedung marabunta dulu",
+                "sejarah marabunta kolonial",
+                "gedung teater marabunta"
+            ],
+            "keywords": [
+                "fungsi",
+                "sejarah",
+                "gedung marabunta",
+                "kolonial"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apa keunikan arsitektur atau ornamen yang ada di atap Gedung Marabunta?",
+            "answer": "Di bagian atap Gedung Marabunta terdapat dua buah patung semut berukuran raksasa yang meniru bentuk semut karnivor asal Afrika bernama marabunta.",
+            "aliases": [
+                "keunikan gedung marabunta",
+                "patung semut marabunta",
+                "atap marabunta"
+            ],
+            "keywords": [
+                "keunikan",
+                "patung semut",
+                "gedung marabunta",
+                "atap"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apa fungsi atau pemanfaatan Gedung Marabunta pada masa kini?",
+            "answer": "Pada masa kini, Gedung Marabunta telah direstorasi dan difungsikan sebagai gedung serbaguna serta restoran dan bar klasik bernama Marabunta Resto & Bar.",
+            "aliases": [
+                "pemanfaatan marabunta sekarang",
+                "fungsi gedung marabunta saat ini",
+                "marabunta resto"
+            ],
+            "keywords": [
+                "fungsi",
+                "sekarang",
+                "gedung marabunta",
+                "restoran"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Apa nama bangunan asli tempat Spiegel Bar & Restaurant berdiri sebelum dipugar?",
+            "answer": "Sebelum menjadi Spiegel, bangunan ini dulunya merupakan toko serba ada (toserba) mewah bernama N.V. Winkel Maatschappij H. Spiegel dan toko piano Firma J.H. Seelig en Zoon.",
+            "aliases": [
+                "nama lama spiegel",
+                "sejarah bangunan spiegel",
+                "toserba spiegel dulu"
+            ],
+            "keywords": [
+                "nama lama",
+                "spiegel",
+                "toserba",
+                "sejarah"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Pada tahun berapa bangunan Spiegel Bar & Restaurant pertama kali dibangun?",
+            "answer": "Bangunan Spiegel Bar & Restaurant di Kota Lama Semarang ini pertama kali berdiri dan dibangun pada tahun 1895.",
+            "aliases": [
+                "tahun berdiri spiegel",
+                "kapan spiegel dibangun",
+                "umur bangunan spiegel"
+            ],
+            "keywords": [
+                "tahun",
+                "berdiri",
+                "spiegel",
+                "dibangun"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Di mana lokasi berdirinya Patung Soekarno di kawasan Kota Lama Semarang?",
+            "answer": "Patung Soekarno berdiri megah di kawasan area polder Stasiun Tawang, yang merupakan bagian dari proyek pengembangan Kota Lama Semarang.",
+            "aliases": [
+                "lokasi patung soekarno tawang",
+                "letak patung bung karno semarang",
+                "alamat patung soekarno"
+            ],
+            "keywords": [
+                "lokasi",
+                "patung soekarno",
+                "polder tawang",
+                "stasiun tawang"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Berapa tinggi monumen Patung Ir. Soekarno di dekat Stasiun Tawang Semarang?",
+            "answer": "Monumen Patung Ir. Soekarno di kawasan polder Stasiun Tawang Semarang memiliki tinggi mencapai 18 meter.",
+            "aliases": [
+                "tinggi patung soekarno",
+                "ukuran patung bung karno semarang",
+                "berapa meter patung soekarno"
+            ],
+            "keywords": [
+                "tinggi",
+                "ukuran",
+                "patung soekarno",
+                "meter"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Siapa tokoh nasional yang meresmikan Patung Soekarno di Polder Stasiun Tawang Semarang?",
+            "answer": "Patung Soekarno di Polder Stasiun Tawang Semarang diresmikan secara langsung oleh Ketua Umum PDI Perjuangan, Megawati Soekarnoputri.",
+            "aliases": [
+                "peresmian patung soekarno oleh siapa",
+                "siapa yang meresmikan patung bung karno semarang"
+            ],
+            "keywords": [
+                "peresmian",
+                "megawati soekarnoputri",
+                "patung soekarno"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apa daya tarik utama yang membuat wisatawan sering berkunjung ke Taman Sri Gunting?",
+            "answer": "Daya tarik utama Taman Sri Gunting adalah area hijaunya yang luas di tengah bangunan antik kolonial, serta suasananya yang nyaman untuk bersantai sambil berfoto.",
+            "aliases": [
+                "daya tarik taman srigunting",
+                "kelebihan taman sri gunting",
+                "spot foto taman srigunting"
+            ],
+            "keywords": [
+                "daya tarik",
+                "taman srigunting",
+                "spot foto"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Apakah pengunjung dikenakan biaya tiket masuk saat berkunjung ke Taman Sri Gunting?",
+            "answer": "Tidak ada tiket masuk resmi alias gratis bagi wisatawan yang ingin duduk dan menikmati suasana di area publik Taman Sri Gunting.",
+            "aliases": [
+                "tiket masuk taman srigunting",
+                "apakah taman sri gunting bayar",
+                "harga tiket taman srigunting"
+            ],
+            "keywords": [
+                "tiket masuk",
+                "gratis",
+                "taman srigunting"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Apa julukan lain yang sering disematkan pada Gereja Blenduk di Semarang?",
+            "answer": "Gereja Blenduk sering dijuluki sebagai Gereja Protestan tertua di Jawa Tengah karena dibangun pada masa pendudukan kolonial Belanda tahun 1753.",
+            "aliases": [
+                "julukan gereja blenduk",
+                "gereja tertua semarang",
+                "nama lain gereja blenduk"
+            ],
+            "keywords": [
+                "julukan",
+                "gereja blenduk",
+                "gereja tertua"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Mengapa Gereja Blenduk dinamakan atau disebut sebagai \"Blenduk\"?",
+            "answer": "Gereja ini dinamakan \"Blenduk\" oleh masyarakat lokal karena bentuk atap kubahnya yang menonjol bulat setengah bola (mblenduk dalam bahasa Jawa).",
+            "aliases": [
+                "arti nama blenduk",
+                "kenapa disebut gereja blenduk",
+                "asal usul nama gereja blenduk"
+            ],
+            "keywords": [
+                "arti nama",
+                "mblenduk",
+                "gereja blenduk",
+                "kubah"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Apa saja fasilitas kuliner atau restoran yang dapat ditemukan di sekitar Spiegel Bar & Restaurant?",
+            "answer": "Spiegel Bar & Restaurant sendiri berfungsi sebagai kafe dan bistro modern yang menyajikan aneka hidangan barat (western food) dan lokal dengan nuansa klasik industrial.",
+            "aliases": [
+                "fasilitas spiegel resto",
+                "menu spiegel bistro",
+                "kuliner di spiegel kota lama"
+            ],
+            "keywords": [
+                "fasilitas",
+                "spiegel",
+                "resto",
+                "bistro",
+                "kuliner"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Jam berapa biasanya Spiegel Bar & Restaurant mulai beroperasi melayani pengunjung?",
+            "answer": "Spiegel Bar & Restaurant biasanya mulai beroperasi dari siang hingga malam hari, menyediakan tempat nongkrong dan makan malam bernuansa sejarah.",
+            "aliases": [
+                "jam buka spiegel",
+                "jam operasional spiegel resto",
+                "kapan spiegel buka"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "spiegel"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Bagaimana kondisi fisik asli dari struktur dinding Gedung Marabunta saat ini?",
+            "answer": "Sebagian besar struktur asli bangunan Gedung Marabunta sudah mengalami kerusakan dan kini hanya menyisakan bagian tembok depan serta pilar-pilarnya saja.",
+            "aliases": [
+                "kondisi fisik gedung marabunta",
+                "sisa bangunan marabunta",
+                "struktur asli marabunta"
+            ],
+            "keywords": [
+                "kondisi",
+                "fisik",
+                "gedung marabunta",
+                "tembok"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Apa nama lain dari Gedung Marabunta pada dokumen arsip arsip kolonial Belanda?",
+            "answer": "Dalam catatan kolonial Belanda, Gedung Marabunta juga dikenal dengan nama Schouwburg et Hedele.",
+            "aliases": [
+                "nama lain gedung marabunta",
+                "schouwburg et hedele",
+                "sebutan marabunta jaman belanda"
+            ],
+            "keywords": [
+                "nama lain",
+                "schouwburg",
+                "gedung marabunta"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Apa fungsi dari Polder Stasiun Tawang yang berada di dekat Patung Soekarno?",
+            "answer": "Polder Stasiun Tawang berfungsi sebagai sistem pengendali banjir dan tampungan air sekaligus sebagai ruang terbuka publik yang memperindah lanskap kawasan Kota Lama dan Stasiun Tawang.",
+            "aliases": [
+                "fungsi polder tawang",
+                "kegunaan polder stasiun tawang",
+                "kolam retensi tawang"
+            ],
+            "keywords": [
+                "fungsi",
+                "polder tawang",
+                "pengendali banjir"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Apa jenis kuliner utama yang disajikan oleh Gedung Ikan Bakar Cianjur di Kota Lama?",
+            "answer": "Jenis kuliner utama yang disajikan adalah makanan khas Sunda dan Nusantara dengan spesialisasi hidangan ikan bakar serta seafood segar.",
+            "aliases": [
+                "jenis kuliner ikan bakar cianjur",
+                "makanan khas ibc semarang",
+                "masakan sunda ikan bakar cianjur"
+            ],
+            "keywords": [
+                "kuliner",
+                "makanan sunda",
+                "ikan bakar cianjur"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Apakah Gedung Ikan Bakar Cianjur di Kota Lama Semarang cocok untuk acara keluarga?",
+            "answer": "Ya, Gedung Ikan Bakar Cianjur memiliki area ruang makan yang luas dan nyaman sehingga sangat cocok untuk tempat makan bersama keluarga atau rombongan.",
+            "aliases": [
+                "tempat makan keluarga kota lama",
+                "restoran keluarga ikan bakar cianjur",
+                "ibc semarang untuk rombongan"
+            ],
+            "keywords": [
+                "restoran keluarga",
+                "ikan bakar cianjur",
+                "rombongan"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Bagaimana gaya arsitektur dari bangunan Gedung Marabunta Semarang?",
+            "answer": "Gaya arsitektur Gedung Marabunta merupakan perpaduan harmonis antara gaya arsitektur Barat (Eropa kolonial) dan sentuhan arsitektur tradisional Jawa.",
+            "aliases": [
+                "gaya arsitektur marabunta",
+                "bentuk bangunan marabunta",
+                "model gedung marabunta"
+            ],
+            "keywords": [
+                "arsitektur",
+                "gaya",
+                "gedung marabunta",
+                "eropa jawa"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Apa ciri khas interior di dalam Gedung Marabunta yang berkaitan dengan seni tari?",
+            "answer": "Di dalam Gedung Marabunta terdapat lukisan dinding dan dekorasi jendela bergambar Putri Matahari, seorang penari terkenal yang sering tampil di gedung teater tersebut pada masa lalu.",
+            "aliases": [
+                "interior gedung marabunta",
+                "lukisan putri matahari marabunta",
+                "dekorasi marabunta"
+            ],
+            "keywords": [
+                "interior",
+                "putri matahari",
+                "penari",
+                "gedung marabunta"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Apakah Spiegel Bar & Restaurant mempertahankan bentuk arsitektur aslinya setelah dipugar?",
+            "answer": "Ya, restorasi Spiegel Bar & Restaurant mempertahankan cangkang bangunan tua bergaya kolonial abad ke-19 secara utuh dengan interior modern industrial di dalamnya.",
+            "aliases": [
+                "keaslian arsitektur spiegel",
+                "bentuk bangunan spiegel setelah dipugar",
+                "restorasi spiegel"
+            ],
+            "keywords": [
+                "arsitektur",
+                "restorasi",
+                "spiegel",
+                "bangunan tua"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Apa yang dimaksud dengan kawasan Kota Lama Semarang tempat objek-objek ini berada?",
+            "answer": "Kawasan Kota Lama Semarang adalah sebuah distrik historis seluas kurang lebih 31 hektare yang dipenuhi puluhan bangunan arsitektur kolonial Belanda abad ke-19 hingga ke-20.",
+            "aliases": [
+                "penjelasan kota lama semarang",
+                "profil kawasan kota lama",
+                "sejarah singkat kota lama"
+            ],
+            "keywords": [
+                "penjelasan",
+                "kawasan kota lama",
+                "semarang",
+                "kolonial"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Bagaimana cara menuju ke Taman Sri Gunting jika wisatawan berada di Stasiun Tawang?",
+            "answer": "Wisatawan dapat berjalan kaki selama beberapa menit atau menggunakan kendaraan bermotor ke arah barat daya menuju jantung Kota Lama tempat Taman Sri Gunting berada.",
+            "aliases": [
+                "rute ke taman sripunting dari stasiun tawang",
+                "jarak stasiun tawang ke taman srigunting"
+            ],
+            "keywords": [
+                "rute",
+                "jarak",
+                "taman srigunting",
+                "stasiun tawang"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Apakah di sekitar Gereja Blenduk tersedia fasilitas pemandu wisata (tour guide lokal)?",
+            "answer": "Ya, di sekitar area Gereja Blenduk dan Taman Sri Gunting sering tersedia jasa pemandu wisata lokal serta penyewaan sepeda antik untuk berkeliling kawasan.",
+            "aliases": [
+                "pemandu wisata gereja blenduk",
+                "tour guide kota lama semarang",
+                "sewa sepeda kota lama"
+            ],
+            "keywords": [
+                "pemandu wisata",
+                "tour guide",
+                "gereja blenduk"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Kapan waktu terbaik untuk mengunjungi objek-objek wisata di Kota Lama Semarang?",
+            "answer": "Waktu terbaik berkunjung adalah pada sore hari menjelang malam ketika cuaca lebih sejuk dan lampu-lampu antik di kawasan mulai menyala indah.",
+            "aliases": [
+                "waktu terbaik ke kota lama",
+                "kapan berkunjung ke taman srigunting",
+                "jam bagus ke kota lama"
+            ],
+            "keywords": [
+                "waktu terbaik",
+                "sore hari",
+                "kota lama semarang"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Apa hubungan antara Patung Soekarno dan pengembangan kawasan Kota Lama?",
+            "answer": "Patung Soekarno dibangun sebagai ikon baru sekaligus tetenger penanda revitalisasi besar-besaran kawasan infrastruktur pariwisata terpadu di sekitar Polder Tawang dan Kota Lama Semarang.",
+            "aliases": [
+                "arti patung soekarno bagi kota lama",
+                "fungsi monumen soekarno tawang"
+            ],
+            "keywords": [
+                "hubungan",
+                "patung soekarno",
+                "revitalisasi",
+                "kota lama"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Apakah di dekat Gedung Ikan Bakar Cianjur Kota Lama terdapat area parkir kendaraan?",
+            "answer": "Ya, tersedia area parkir di sekitar jalan raya Kota Lama yang dapat digunakan pengunjung restoran, meskipun kapasitasnya menyesuaikan kondisi lalu lintas kawasan wisata.",
+            "aliases": [
+                "parkir ikan bakar cianjur semarang",
+                "tempat parkir dekat ibc kota lama"
+            ],
+            "keywords": [
+                "parkir",
+                "ikan bakar cianjur",
+                "kota lama semarang"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Apa nama tokoh perancang atau arsitek awal dari pembangunan Gereja Blenduk?",
+            "answer": "Gereja Blenduk dirancang oleh arsitek berkebangsaan Belanda bernama H.P.A. de Wilde dan W. Westmaas pada masa awal pembangunannya di abad ke-18.",
+            "aliases": [
+                "arsitek gereja blenduk",
+                "perancang bangunan gereja blenduk",
+                "siapa yang mendesain gereja blenduk"
+            ],
+            "keywords": [
+                "arsitek",
+                "perancang",
+                "gereja blenduk"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Bagaimana kondisi pilar-pilar pintu masuk utama Gedung Marabunta?",
+            "answer": "Pintu masuk Gedung Marabunta terdiri dari tiga buah pintu utama berukuran sangat panjang dan tinggi, diapit oleh jendela-jendela kaca besar di sisi kanan dan kirinya.",
+            "aliases": [
+                "bentuk pintu marabunta",
+                "pilar marabunta",
+                "pintu masuk gedung marabunta"
+            ],
+            "keywords": [
+                "pintu masuk",
+                "pilar",
+                "gedung marabunta"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Apa jenis furnitur dan dekorasi yang mendominasi bagian dalam Spiegel Bar & Restaurant?",
+            "answer": "Bagian dalam Spiegel memadukan elemen batu bata ekspos kuno, langit-langit tinggi khas kolonial, serta furnitur besi dan kayu bergaya vintage-industrial.",
+            "aliases": [
+                "dekorasi interior spiegel",
+                "furnitur spiegel resto",
+                "gaya interior spiegel"
+            ],
+            "keywords": [
+                "dekorasi",
+                "interior",
+                "spiegel",
+                "vintage industrial"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Apakah Taman Sri Gunting sering digunakan untuk event atau acara publik?",
+            "answer": "Ya, Taman Sri Gunting sering menjadi pusat kegiatan seni, festival budaya, pameran UMKM, dan tempat berkumpulnya komunitas kreatif di Kota Lama Semarang.",
+            "aliases": [
+                "acara di taman srigunting",
+                "event kota lama semarang",
+                "kegiatan di taman srigunting"
+            ],
+            "keywords": [
+                "acara",
+                "event",
+                "taman srigunting",
+                "festival"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Apakah area di sekitar Gereja Blenduk ramah bagi pejalan kaki (pedestrian)?",
+            "answer": "Ya, kawasan sekitar Gereja Blenduk dan Taman Sri Gunting telah ditata ulang menjadi jalur pedestrian yang luas, bersih, dan bebas kendaraan bermotor tertentu (zona pejalan kaki).",
+            "aliases": [
+                "jalur pejalan kaki gereja blenduk",
+                "pedestrian kota lama semarang",
+                "ramah pejalan kaki"
+            ],
+            "keywords": [
+                "pedestrian",
+                "pejalan kaki",
+                "gereja blenduk",
+                "kota lama"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Apakah Gedung Ikan Bakar Cianjur menempati bangunan cagar budaya berarsitektur kolonial?",
+            "answer": "Ya, restoran Ikan Bakar Cianjur di Jalan Letjen Suprapto menempati salah satu gedung tua berarsitektur kolonial peninggalan era Hindia Belanda yang telah dipugar.",
+            "aliases": [
+                "gedung ibc cagar budaya",
+                "bangunan ikan bakar cianjur",
+                "arsitektur ibc semarang"
+            ],
+            "keywords": [
+                "bangunan cagar budaya",
+                "ikan bakar cianjur",
+                "kolonial"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Bagaimana aksesibilitas menuju Patung Soekarno di Polder Tawang?",
+            "answer": "Aksesibilitas sangat mudah dijangkau karena terletak persis di samping Stasiun Tawang dan dapat diakses dengan berjalan kaki dari jalan utama Kota Lama.",
+            "aliases": [
+                "akses ke patung soekarno",
+                "cara menuju patung bung karno tawang"
+            ],
+            "keywords": [
+                "aksesibilitas",
+                "jalan menuju",
+                "patung soekarno"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Apa saja jenis hiburan malam yang biasanya dinikmati di kawasan Spiegel Bar & Restaurant?",
+            "answer": "Pengunjung malam hari di Spiegel sering disuguhi alunan musik live (seperti musik jazz), suasana temaram yang romantis, serta kuliner malam khas bistro.",
+            "aliases": [
+                "hiburan malam spiegel",
+                "live music spiegel bistro",
+                "suasana malam di spiegel"
+            ],
+            "keywords": [
+                "hiburan malam",
+                "live music",
+                "spiegel bistro"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Apakah ada meriam kuno yang dipamerkan di sekitar Taman Sri Gunting?",
+            "answer": "Ya, di area sekitar Taman Sri Gunting terdapat peninggalan meriam kuno peninggalan masa kolonial yang sering dijadikan objek foto oleh para wisatawan.",
+            "aliases": [
+                "meriam kuno taman srigunting",
+                "meriam di kota lama",
+                "sejarah meriam srigunting"
+            ],
+            "keywords": [
+                "meriam kuno",
+                "taman srigunting",
+                "peninggalan sejarah"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Bagaimana peran Gereja Blenduk dalam sejarah perkembangan agama Kristen di Semarang?",
+            "answer": "Gereja Blenduk berperan sebagai pusat peribadatan umat Kristen Protestan tertua dan menjadi simbol pluralitas serta sejarah arsitektur keagamaan di Kota Semarang.",
+            "aliases": [
+                "peran gereja blenduk",
+                "sejarah gereja kristen semarang",
+                "fungsi keagamaan gereja blenduk"
+            ],
+            "keywords": [
+                "peran",
+                "sejarah",
+                "gereja blenduk",
+                "kristen protestan"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Apa jenis kuliner atau minuman favorit yang sering dipesan pengunjung di Spiegel Bar?",
+            "answer": "Minuman kopi racikan barista, koktail khas, serta hidangan pencuci mulut bergaya Eropa menjadi salah satu favorit pengunjung di Spiegel Bar & Restaurant.",
+            "aliases": [
+                "menu favorit spiegel",
+                "minuman di spiegel resto",
+                "kuliner spiegel bistro"
+            ],
+            "keywords": [
+                "menu favorit",
+                "minuman",
+                "spiegel bar"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Apakah Gedung Marabunta terbuka untuk umum dikunjungi bagian interiornya?",
+            "answer": "Bagian dalam Gedung Marabunta dapat dikunjungi oleh umum terutama bagi pengunjung yang datang untuk menikmati layanan restoran atau kafe yang beroperasi di dalamnya.",
+            "aliases": [
+                "apakah marabunta buka untuk umum",
+                "masuk ke dalam gedung marabunta"
+            ],
+            "keywords": [
+                "akses umum",
+                "gedung marabunta",
+                "restoran"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Apa makna filosofis dari pembangunan Patung Soekarno setinggi 18 meter di Semarang?",
+            "answer": "Patung Soekarno melambangkan penghormatan kepada sang founding father (bapak bangsa) serta pengingat nilai-nilai nasionalisme perjuangan kemerdekaan Republik Indonesia.",
+            "aliases": [
+                "makna patung soekarno",
+                "filosofi patung bung karno semarang",
+                "arti monumen soekarno"
+            ],
+            "keywords": [
+                "makna filosofis",
+                "patung soekarno",
+                "nasionalisme"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Bagaimana penataan lanskap kawasan sekitar Polder Tawang dan Patung Soekarno saat ini?",
+            "answer": "Lanskap sekitar ditata modern dengan jalan pedestrian yang rapi, taman air yang bersih, serta tempat duduk publik untuk menikmati pemandangan sore hari.",
+            "aliases": [
+                "penataan polder tawang",
+                "lanskap sekitar patung soekarno",
+                "wajah baru stasiun tawang"
+            ],
+            "keywords": [
+                "penataan lanskap",
+                "polder tawang",
+                "taman air"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Mengapa Kawasan Kota Lama Semarang (termasuk titik-titik objek di atas) dijuluki sebagai Little Netherland?",
+            "answer": "Kawasan ini dijuluki Little Netherland (Belanda Kecil) karena konsentrasi bangunan bergaya arsitektur Eropa abad ke-19 yang sangat pekat dan menyerupai tata kota di belahan benua Eropa.",
+            "aliases": [
+                "julukan little netherland semarang",
+                "arti belanda kecil kota lama",
+                "mengapa kota lama disebut eropa"
+            ],
+            "keywords": [
+                "little netherland",
+                "belanda kecil",
+                "kota lama semarang"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1635 @@
+{
+    "version": "1.1-seed",
+    "tourId": "nirwana",
+    "generatedAt": "2026-10-06",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node97": {
+            "rawName": "Villa Transit",
+            "displayName": "Villa Transit",
+            "placeId": "villa-transit",
+            "placeName": "Villa Transit",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Villa Transit yang nyaman sebagai tempat persinggahan dan istirahat di kawasan Nirwana Kota Semarang.",
+            "description": "Villa Transit di Nirwana Stable menyediakan fasilitas istirahat yang nyaman bagi para pengunjung yang ingin bersantai. Tempat ini dilengkapi dengan teras asri dan akses pintu yang memudahkan mobilitas tamu selama berada di kawasan wisata.",
+            "highlights": [
+                "Teras",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Villa Transit",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Villa Transit di kawasan Nirwana?",
+                    "mode": "fix",
+                    "answer": "Villa Transit berfungsi sebagai tempat persinggahan dan ruang istirahat yang nyaman bagi pengunjung."
+                },
+                {
+                    "q": "Fasilitas apa saja yang dapat ditemukan di sekitar area villa ini?",
+                    "mode": "fix",
+                    "answer": "Terdapat teras yang luas serta akses pintu yang memudahkan mobilitas tamu."
+                },
+                {
+                    "q": "Apakah villa ini cocok untuk keluarga yang ingin bersantai?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena suasananya tenang dan mendukung privasi selama berwisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Villa Transit.",
+                "describeHere": "Villa Transit adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node98": {
+            "rawName": "Ruellia Garden",
+            "displayName": "Ruellia Garden – Taman Patung",
+            "placeId": "ruellia-garden-taman-patung",
+            "placeName": "Ruellia Garden – Taman Patung",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Taman patung dengan hamparan rumput hijau yang asri di Ruellia Garden Nirwana Kota Semarang.",
+            "description": "Ruellia Garden – Taman Patung menampilkan keindahan seni patung kuda yang berpadu harmonis dengan hamparan rumput hijau. Kawasan ini memberikan nuansa estetis yang menyenangkan untuk berjalan-jalan santai sambil menikmati udara sejuk.",
+            "highlights": [
+                "Rumput",
+                "Patung kuda"
+            ],
+            "talkingPoints": [
+                "Ruellia Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa daya tarik utama di area Taman Patung Ruellia Garden?",
+                    "mode": "fix",
+                    "answer": "Daya tarik utamanya adalah patung kuda artistik yang dikelilingi hamparan rumput hijau terawat."
+                },
+                {
+                    "q": "Apakah area ini cocok untuk berfoto bersama keluarga?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena latar belakang patung dan tamannya sangat estetis dan instagramable."
+                },
+                {
+                    "q": "Bagaimana kondisi lingkungan di sekitar taman patung ini?",
+                    "mode": "fix",
+                    "answer": "Lingkungannya sangat bersih, sejuk, dan dikelilingi oleh vegetasi tanaman hias yang menawan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruellia Garden – Taman Patung.",
+                "describeHere": "Ruellia Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node99": {
+            "rawName": "Ruellia Garden",
+            "displayName": "Ruellia Garden – Lapangan Hijau",
+            "placeId": "ruellia-garden-lapangan-hijau",
+            "placeName": "Ruellia Garden – Lapangan Hijau",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan rumput terbuka yang luas dan asri di area Ruellia Garden Nirwana Kota Semarang.",
+            "description": "Ruellia Garden – Lapangan Hijau menawarkan ruang terbuka hijau yang dikelilingi pagar kayu estetik dan tanaman hias. Tempat ini sangat ideal bagi pengunjung yang ingin menikmati suasana terbuka yang sejuk dan menyegarkan.",
+            "highlights": [
+                "Pagar kayu",
+                "Rumput"
+            ],
+            "talkingPoints": [
+                "Ruellia Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari area Lapangan Hijau di Ruellia Garden?",
+                    "mode": "fix",
+                    "answer": "Area ini berfungsi sebagai ruang terbuka hijau untuk bersantai dan menikmati panorama alam sekitar."
+                },
+                {
+                    "q": "Fasilitas pembatas apa yang mengelilingi area lapangan ini?",
+                    "mode": "fix",
+                    "answer": "Terdapat pagar kayu estetik yang memperjelas batas area sekaligus menambah keindahan lanskap."
+                },
+                {
+                    "q": "Apakah pengunjung diperbolehkan berjalan di atas rumput lapangan?",
+                    "mode": "fix",
+                    "answer": "Ya, pengunjung dapat menikmati suasana sekitar sambil berjalan santai di jalur yang tersedia."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruellia Garden – Lapangan Hijau.",
+                "describeHere": "Ruellia Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node100": {
+            "rawName": "Ruellia Garden",
+            "displayName": "Ruellia Garden – Jalur Bercabang",
+            "placeId": "ruellia-garden-jalur-bercabang",
+            "placeName": "Ruellia Garden – Jalur Bercabang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur setapak bercabang yang dinaungi pepohonan rindang di Ruellia Garden Nirwana Kota Semarang.",
+            "description": "Ruellia Garden – Jalur Bercabang menyajikan jalan setapak yang dikelilingi pepohonan hijau lebat dan tanaman rimbun. Titik ini memberikan pengalaman berjalan-jalan yang teduh sambil menikmati keindahan lanskap taman.",
+            "highlights": [
+                "Jalan",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Ruellia Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Ke mana arah jalur bercabang di taman ini menghubungkan pengunjung?",
+                    "mode": "fix",
+                    "answer": "Jalur ini menghubungkan berbagai sudut menarik di area Ruellia Garden dan taman sekitarnya."
+                },
+                {
+                    "q": "Apakah jalur setapak ini teduh pada siang hari?",
+                    "mode": "fix",
+                    "answer": "Sangat teduh karena dinaungi oleh kanopi pepohonan yang rimbun di sepanjang jalan."
+                },
+                {
+                    "q": "Apa aktivitas yang paling pas dilakukan di jalur ini?",
+                    "mode": "fix",
+                    "answer": "Berjalan santai, menikmati udara segar, atau berfoto dengan latar belakang hijaunya pepohonan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruellia Garden – Jalur Bercabang.",
+                "describeHere": "Ruellia Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node101": {
+            "rawName": "Roommeeting",
+            "displayName": "Nirwana Stable – Ruang Pertemuan",
+            "placeId": "nirwana-stable-ruang-pertemuan",
+            "placeName": "Nirwana Stable – Ruang Pertemuan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang pertemuan fungsional dengan fasilitas meja panjang dan jendela besar di Nirwana Kota Semarang.",
+            "description": "Nirwana Stable – Ruang Pertemuan dirancang untuk mendukung kegiatan diskusi, rapat, maupun koordinasi kelompok. Ruangan ini dilengkapi meja panjang yang representatif serta bukaan jendela besar yang menghadirkan cahaya alami.",
+            "highlights": [
+                "Meja panjang",
+                "Jendela"
+            ],
+            "talkingPoints": [
+                "Roommeeting",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Untuk acara apa saja ruang pertemuan ini biasanya digunakan?",
+                    "mode": "fix",
+                    "answer": "Ruangan ini ideal untuk rapat kelompok, briefing kegiatan, maupun pertemuan santai rombongan."
+                },
+                {
+                    "q": "Fasilitas utama apa yang tersedia di dalam ruangan?",
+                    "mode": "fix",
+                    "answer": "Tersedia meja panjang yang luas serta pencahayaan alami dari jendela besar."
+                },
+                {
+                    "q": "Apakah ruangan ini memiliki pemandangan ke luar?",
+                    "mode": "fix",
+                    "answer": "Ya, jendela besar memberikan hubungan visual langsung ke keindahan alam di luar ruangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Ruang Pertemuan.",
+                "describeHere": "Roommeeting adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node102": {
+            "rawName": "Arena Latihan",
+            "displayName": "Nirwana Stable – Akses Arena Latihan Kuda",
+            "placeId": "nirwana-stable-akses-arena-latihan-kuda",
+            "placeName": "Nirwana Stable – Akses Arena Latihan Kuda",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur akses khusus menuju arena latihan kuda di kompleks Nirwana Stable Kota Semarang.",
+            "description": "Akses arena latihan kuda ini menghubungkan pengunjung langsung dengan fasilitas utama berkuda di Nirwana Stable. Jalur ini ditata rapi untuk memastikan keamanan dan kenyamanan lalu lalang wisatawan maupun penunggang kuda.",
+            "highlights": [
+                "Pagar",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Arena Latihan",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Kemana jalur akses latihan kuda ini terhubung?",
+                    "mode": "fix",
+                    "answer": "Jalur ini terhubung langsung ke area utama arena latihan dan kandang kuda."
+                },
+                {
+                    "q": "Apakah pengunjung umum dapat melintasi jalur akses ini?",
+                    "mode": "fix",
+                    "answer": "Ya, pengunjung dapat melewatinya untuk menyaksikan aktivitas latihan kuda dari jarak aman."
+                },
+                {
+                    "q": "Hal apa saja yang perlu diperhatikan saat berada di dekat jalur ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung diimbau tetap tenang dan mengikuti petunjuk keselamatan dari petugas stable."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Akses Arena Latihan Kuda.",
+                "describeHere": "Arena Latihan adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node103": {
+            "rawName": "Horse Stable",
+            "displayName": "Horse Stable – Lorong Kandang",
+            "placeId": "horse-stable-lorong-kandang",
+            "placeName": "Horse Stable – Lorong Kandang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lorong kandang kuda yang bersih, teratur, dan tertata rapi di Nirwana Stable Kota Semarang.",
+            "description": "Horse Stable – Lorong Kandang memperlihatkan area perawatan kuda yang dikelola secara profesional dan higienis. Pengunjung dapat menyusuri lorong ini untuk melihat dari dekat aktivitas perawatan satwa kesayangan.",
+            "highlights": [
+                "Bilik kuda",
+                "Lorong"
+            ],
+            "talkingPoints": [
+                "Horse Stable",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa disaksikan saat menyusuri lorong kandang kuda ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat melihat langsung kondisi kandang yang bersih serta kuda-kuda yang dirawat dengan baik."
+                },
+                {
+                    "q": "Bagaimana kebersihan di area lorong kandang dijaga?",
+                    "mode": "fix",
+                    "answer": "Kebersihan dan sanitasi lorong dibersihkan secara rutin setiap hari oleh petugas pengelola."
+                },
+                {
+                    "q": "Apakah pengunjung boleh memberi makan kuda secara langsung di sini?",
+                    "mode": "fix",
+                    "answer": "Pemberian pakan dapat dilakukan sesuai arahan dan aturan yang disediakan oleh petugas pendamping."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Horse Stable – Lorong Kandang.",
+                "describeHere": "Horse Stable adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node129": {
+            "rawName": "Video360 1",
+            "displayName": "Horse Stable – Video 360",
+            "placeId": "horse-stable-video-360",
+            "placeName": "Horse Stable – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik pandang panorama 360 derajat interaktif di area Horse Stable Nirwana Kota Semarang.",
+            "description": "Horse Stable – Video 360 memberikan pengalaman visual menyeluruh dari sudut kandang kuda populer di Nirwana Stable. Melalui titik ini, pengunjung dapat merasakan suasana kandang secara utuh dan mendalam.",
+            "highlights": [
+                "Pintu kandang",
+                "Atap",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keunggulan dari sudut pandang video 360 di area stable?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat memutar arah pandangan secara bebas untuk melihat seluruh detail suasana kandang kuda."
+                },
+                {
+                    "q": "Bagaimana cara menikmati fitur panorama 360 ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung cukup menggeser layar perangkat atau headset virtual tour ke segala arah."
+                },
+                {
+                    "q": "Bagian apa saja yang paling menarik dilihat dari titik ini?",
+                    "mode": "fix",
+                    "answer": "Arsitektur kandang, aktivitas sekitar stable, serta suasana asri di sekeliling area."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Horse Stable – Video 360.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node104": {
+            "rawName": "Greenlife Garden",
+            "displayName": "Greenlife Garden – Jalur Tepi",
+            "placeId": "greenlife-garden-jalur-tepi",
+            "placeName": "Greenlife Garden – Jalur Tepi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur tepi taman yang asri dan menenangkan di Greenlife Garden Nirwana Kota Semarang.",
+            "description": "Greenlife Garden – Jalur Tepi menyajikan jalan setapak di sisi taman yang dipenuhi tanaman hijau subur. Tempat ini sangat nyaman untuk berjalan kaki santai sambil menikmati kesegaran udara pegunungan.",
+            "highlights": [
+                "Jalan",
+                "Taman"
+            ],
+            "talkingPoints": [
+                "Greenlife Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa daya tarik utama dari jalur tepi di Greenlife Garden?",
+                    "mode": "fix",
+                    "answer": "Daya tarik utamanya adalah suasana jalan setapak yang tenang dikelilingi tanaman hias yang subur."
+                },
+                {
+                    "q": "Apakah jalur ini cocok untuk berolahraga ringan atau jalan pagi?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok untuk jalan santai pagi hari sambil menikmati keasrian lingkungan."
+                },
+                {
+                    "q": "Bagaimana kondisi kebersihan dan penataan tanaman di sini?",
+                    "mode": "fix",
+                    "answer": "Tanaman tertata sangat rapi dan jalurnya selalu dibersihkan secara berkala."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Greenlife Garden – Jalur Tepi.",
+                "describeHere": "Greenlife Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node105": {
+            "rawName": "Greenlife Garden",
+            "displayName": "Greenlife Garden – Hamparan Rumput",
+            "placeId": "greenlife-garden-hamparan-rumput",
+            "placeName": "Greenlife Garden – Hamparan Rumput",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Hamparan rumput hijau yang luas dan menyegarkan di Greenlife Garden Nirwana Kota Semarang.",
+            "description": "Greenlife Garden – Hamparan Rumput menampilkan lanskap rumput terbuka yang hijau dan tertata dengan apik. Area ini memberikan keleluasaan pandangan serta suasana rileks bagi setiap pengunjung taman.",
+            "highlights": [
+                "Rumput",
+                "Bangunan tepi"
+            ],
+            "talkingPoints": [
+                "Greenlife Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari hamparan rumput luas di Greenlife Garden?",
+                    "mode": "fix",
+                    "answer": "Berfungsi sebagai elemen estetika lanskap yang memberikan kesan luas, asri, dan menyegarkan mata."
+                },
+                {
+                    "q": "Apakah area rumput ini boleh diinjak oleh pengunjung?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat berjalan di jalur yang disediakan atau bersantai di area rumput sesuai ketentuan taman."
+                },
+                {
+                    "q": "Apa latar belakang pemandangan yang bisa dinikmati dari sini?",
+                    "mode": "fix",
+                    "answer": "Pemandangan tanaman hijau, pepohonan, serta lanskap perbukitan di kejauhan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Greenlife Garden – Hamparan Rumput.",
+                "describeHere": "Greenlife Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node106": {
+            "rawName": "Ruellia Garden",
+            "displayName": "Nirwana Stable – Gerbang Batu Taman",
+            "placeId": "nirwana-stable-gerbang-batu-taman",
+            "placeName": "Nirwana Stable – Gerbang Batu Taman",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang batu artistik yang menjadi pintu masuk estetis di Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Gerbang Batu Taman menampilkan struktur batuan alami yang disusun megah sebagai gapura penyambutan. Spot ini menjadi salah satu ikon favorit pengunjung untuk berfoto karena bentuknya yang unik.",
+            "highlights": [
+                "Pintu kecil",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Ruellia Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keunikan dari gerbang batu taman ini?",
+                    "mode": "fix",
+                    "answer": "Gerbang ini menggunakan ornamen batuan alami yang berkesan megah dan menyatu dengan alam."
+                },
+                {
+                    "q": "Di mana letak posisi gerbang batu ini di dalam kawasan?",
+                    "mode": "fix",
+                    "answer": "Berada di jalur transisi menuju zona taman dan arena rekreasi utama Nirwana Stable."
+                },
+                {
+                    "q": "Apakah spot gerbang batu ini ramai dijadikan latar foto?",
+                    "mode": "fix",
+                    "answer": "Ya, banyak wisatawan yang berhenti sejenak di sini untuk berfoto kenang-kenangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Gerbang Batu Taman.",
+                "describeHere": "Ruellia Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node107": {
+            "rawName": "Rumahkaca",
+            "displayName": "Nirwana Stable – Rumah Hidroponik",
+            "placeId": "nirwana-stable-rumah-hidroponik",
+            "placeName": "Nirwana Stable – Rumah Hidroponik",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas budidaya tanaman hidroponik modern dan edukatif di Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Rumah Hidroponik menyajikan sarana pembelajaran bercocok tanam tanpa media tanah yang bersih dan rapi. Pengunjung dapat melihat langsung berbagai jenis sayuran segar yang dibudidayakan secara modern.",
+            "highlights": [
+                "Pipa tanam",
+                "Atap"
+            ],
+            "talkingPoints": [
+                "Rumahkaca",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Tanaman apa saja yang biasanya dibudidayakan di rumah hidroponik ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis sayuran daun segar seperti selada, pakcoy, dan seledri."
+                },
+                {
+                    "q": "Apakah pengunjung bisa belajar mengenai sistem hidroponik di sini?",
+                    "mode": "fix",
+                    "answer": "Ya, tempat ini juga berfungsi sebagai sarana edukasi pertanian modern bagi pelajar dan wisatawan."
+                },
+                {
+                    "q": "Apakah hasil panen hidroponik dijual untuk umum?",
+                    "mode": "fix",
+                    "answer": "Sebagian hasil panen segar seringkali ditawarkan kepada pengunjung atau dikonsumsi di restoran lokal."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:684"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Rumah Hidroponik.",
+                "describeHere": "Rumahkaca adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node108": {
+            "rawName": "Kandangkuda",
+            "displayName": "Nirwana Stable – Fasad Kandang Kuda",
+            "placeId": "nirwana-stable-fasad-kandang-kuda",
+            "placeName": "Nirwana Stable – Fasad Kandang Kuda",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Tampilan luar fasad kandang kuda yang bersih dan tertata rapi di Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Fasad Kandang Kuda memperlihatkan arsitektur bangunan kandang yang kokoh dan berestetika tinggi. Desain eksteriornya berpadu apik dengan lingkungan sekitar yang hijau dan asri.",
+            "highlights": [
+                "Bangunan dua lantai",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Kandangkuda",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana konsep arsitektur dari fasad kandang kuda ini?",
+                    "mode": "fix",
+                    "answer": "Mengusung konsep bangunan semi-terbuka yang bersih, kokoh, dan menyatu dengan alam pedesaan."
+                },
+                {
+                    "q": "Apa yang bisa dilihat di balik fasad bangunan kandang ini?",
+                    "mode": "fix",
+                    "answer": "Kandang-kandang kuda yang tertata rapi beserta aktivitas perawatan satwa di dalamnya."
+                },
+                {
+                    "q": "Apakah area sekitar fasad kandang nyaman untuk dikunjungi?",
+                    "mode": "fix",
+                    "answer": "Sangat nyaman karena udaranya sejuk dan jalurnya bersih dari kotoran."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:683"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Fasad Kandang Kuda.",
+                "describeHere": "Kandangkuda adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node109": {
+            "rawName": "Nirwana Farmhouse",
+            "displayName": "Nirwana Stable – Nirwana Farmhouse – Rumah Tanam",
+            "placeId": "nirwana-stable-nirwana-farmhouse-rumah-tanam",
+            "placeName": "Nirwana Stable – Nirwana Farmhouse – Rumah Tanam",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Rumah tanam (greenhouse) edukatif di kawasan Nirwana Farmhouse Kota Semarang.",
+            "description": "Nirwana Stable – Nirwana Farmhouse – Rumah Tanam menawarkan fasilitas pembibitan dan perawatan tanaman hias maupun hortikultura. Tempat ini menambah keragaman wisata edukasi alam yang menarik di kawasan Nirwana.",
+            "highlights": [
+                "Greenhouse",
+                "Kebun"
+            ],
+            "talkingPoints": [
+                "Nirwana Farmhouse",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Rumah Tanam di Nirwana Farmhouse?",
+                    "mode": "fix",
+                    "answer": "Berfungsi sebagai tempat pembibitan, perawatan tanaman, serta pusat edukasi botani bagi pengunjung."
+                },
+                {
+                    "q": "Tanaman apa yang mendominasi area rumah tanam ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis tanaman hias, bibit sayuran, dan flora tropis yang subur."
+                },
+                {
+                    "q": "Apakah area ini terbuka untuk umum?",
+                    "mode": "fix",
+                    "answer": "Ya, pengunjung dapat masuk untuk melihat koleksi tanaman sekaligus belajar cara perawatannya."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Nirwana Farmhouse – Rumah Tanam.",
+                "describeHere": "Nirwana Farmhouse adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node110": {
+            "rawName": "Musholla",
+            "displayName": "Nirwana Stable – Musala Nirwana",
+            "placeId": "nirwana-stable-musala-nirwana",
+            "placeName": "Nirwana Stable – Musala Nirwana",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasilitas rumah ibadah musala yang bersih dan nyaman bagi pengunjung Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Musala Nirwana menyediakan tempat beribadah yang tenang, bersih, dan representatif bagi wisatawan Muslim. Fasilitas pelengkap seperti tempat wudu dan perlengkapan salat tersedia dengan baik.",
+            "highlights": [
+                "Lantai kayu",
+                "Mihrab"
+            ],
+            "talkingPoints": [
+                "Musholla",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Di mana lokasi musala ini di dalam kawasan wisata?",
+                    "mode": "fix",
+                    "answer": "Berlokasi di titik yang strategis dan mudah diakses dari area restoran maupun zona rekreasi."
+                },
+                {
+                    "q": "Fasilitas apa saja yang disediakan di musala Nirwana?",
+                    "mode": "fix",
+                    "answer": "Tersedia ruangan salat yang bersih, tempat wudu terpisah, serta mukena dan sarung."
+                },
+                {
+                    "q": "Apakah musala ini terbuka untuk seluruh pengunjung?",
+                    "mode": "fix",
+                    "answer": "Ya, terbuka bagi seluruh wisatawan yang ingin menunaikan ibadah salat selama berwisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Musala Nirwana.",
+                "describeHere": "Musholla adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node111": {
+            "rawName": "Nirwanaresto",
+            "displayName": "Nirwana Resto – Meja Komunal",
+            "placeId": "nirwana-resto-meja-komunal",
+            "placeName": "Nirwana Resto – Meja Komunal",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area makan dengan meja komunal yang luas dan nyaman di Nirwana Resto Kota Semarang.",
+            "description": "Nirwana Resto – Meja Komunal dirancang khusus untuk mengakomodasi kunjungan makan bersama keluarga besar maupun rombongan. Suasana bersantap terasa hangat dan menyenangkan dengan pemandangan alam yang terbuka.",
+            "highlights": [
+                "Meja panjang",
+                "Jendela"
+            ],
+            "talkingPoints": [
+                "Nirwanaresto",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Berapa kapasitas meja komunal di restoran ini?",
+                    "mode": "fix",
+                    "answer": "Meja komunal dirancang berukuran panjang untuk menampung 6 hingga 10 orang sekaligus dalam satu meja."
+                },
+                {
+                    "q": "Menu kuliner apa saja yang disajikan di Nirwana Resto?",
+                    "mode": "fix",
+                    "answer": "Menyediakan aneka hidangan khas Nusantara, menu western, serta berbagai pilihan minuman segar."
+                },
+                {
+                    "q": "Apakah suasana di sekitar meja komunal ini nyaman?",
+                    "mode": "fix",
+                    "answer": "Sangat nyaman karena dikelilingi udara sejuk pegunungan dan pemandangan taman yang asri."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:685"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Resto – Meja Komunal.",
+                "describeHere": "Nirwanaresto adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node112": {
+            "rawName": "Area Parkir",
+            "displayName": "Nirwana Stable – Parkir Kawasan Nirwana",
+            "placeId": "nirwana-stable-parkir-kawasan-nirwana",
+            "placeName": "Nirwana Stable – Parkir Kawasan Nirwana",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Area parkir kendaraan yang luas, aman, dan tertata di kawasan Nirwana Kota Semarang.",
+            "description": "Nirwana Stable – Parkir Kawasan Nirwana menyediakan kapasitas tampung yang memadai untuk kendaraan roda dua, mobil, maupun bus pariwisata. Lokasinya yang strategis memudahkan akses awal wisatawan menuju pintu masuk.",
+            "highlights": [
+                "Mobil",
+                "Paving"
+            ],
+            "talkingPoints": [
+                "Area Parkir",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis kendaraan apa saja yang bisa parkir di area ini?",
+                    "mode": "fix",
+                    "answer": "Mulai dari sepeda motor, mobil pribadi, hingga bus pariwisata berukuran besar."
+                },
+                {
+                    "q": "Apakah area parkir dijaga oleh petugas keamanan?",
+                    "mode": "fix",
+                    "answer": "Ya, area parkir dijaga oleh petugas pengelola untuk memastikan keamanan kendaraan pengunjung."
+                },
+                {
+                    "q": "Berapa jarak dari area parkir ke pintu masuk utama?",
+                    "mode": "fix",
+                    "answer": "Sangat dekat dan dapat dijangkau dengan berjalan kaki beberapa langkah saja."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Parkir Kawasan Nirwana.",
+                "describeHere": "Area Parkir adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node113": {
+            "rawName": "Reuliangarden",
+            "displayName": "Ruellia Garden – Ornamen Kuda",
+            "placeId": "ruellia-garden-ornamen-kuda",
+            "placeName": "Ruellia Garden – Ornamen Kuda",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ornamen patung kuda artistik yang memperindah lanskap Ruellia Garden Nirwana Kota Semarang.",
+            "description": "Ruellia Garden – Ornamen Kuda menampilkan sentuhan seni patung bernuansa berkuda yang menghiasi sudut taman. Kehadiran ornamen ini memperkuat identitas Nirwana Stable sebagai destinasi wisata berkuda.",
+            "highlights": [
+                "Patung kuda",
+                "Pohon"
+            ],
+            "talkingPoints": [
+                "Reuliangarden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa makna dari penempatan ornamen kuda di taman ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai elemen estetika taman sekaligus memperkuat ciri khas wisata berkuda di kawasan Nirwana."
+                },
+                {
+                    "q": "Apakah pengunjung bisa berfoto di dekat ornamen kuda?",
+                    "mode": "fix",
+                    "answer": "Tentu saja, spot ini menjadi salah satu latar foto favorit wisatawan."
+                },
+                {
+                    "q": "Bagaimana penataan tanaman di sekitar ornamen ini?",
+                    "mode": "fix",
+                    "answer": "Dikelilingi oleh bunga-bunga berwarna-warni dan rumput hijau yang tertata sangat rapi."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:688"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Ruellia Garden – Ornamen Kuda.",
+                "describeHere": "Reuliangarden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node114": {
+            "rawName": "Nirwanasemarang",
+            "displayName": "Nirwana Stable – Pelataran Kandang Kuda",
+            "placeId": "nirwana-stable-pelataran-kandang-kuda",
+            "placeName": "Nirwana Stable – Pelataran Kandang Kuda",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran luas di depan kompleks kandang kuda Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Pelataran Kandang Kuda menjadi area transisi lapang tempat lalu lalang pengunjung dan aktivitas perawat satwa. Pelataran ini tertata bersih dengan latar bangunan kandang yang kokoh.",
+            "highlights": [
+                "Gedung kandang",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Nirwanasemarang",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari pelataran kandang kuda ini?",
+                    "mode": "fix",
+                    "answer": "Berfungsi sebagai area sirkulasi lapang bagi pengunjung yang ingin mendekati zona kandang kuda."
+                },
+                {
+                    "q": "Apakah kondisi pelataran ini bersih dan aman?",
+                    "mode": "fix",
+                    "answer": "Sangat bersih, kering, dan dirawat secara rutin setiap harinya."
+                },
+                {
+                    "q": "Apa yang bisa disaksikan pengunjung di pelataran ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat melihat aktivitas persiapan kuda sebelum dibawa ke arena latihan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Pelataran Kandang Kuda.",
+                "describeHere": "Nirwanasemarang adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node115": {
+            "rawName": "Arenalatihankuda",
+            "displayName": "Nirwana Stable – Arena Berkuda",
+            "placeId": "nirwana-stable-arena-berkuda",
+            "placeName": "Nirwana Stable – Arena Berkuda",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Arena lapangan terbuka khusus untuk latihan dan aktivitas berkuda di Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Arena Berkuda merupakan fasilitas utama tempat wisatawan dapat menikmati sensasi menunggang kuda dipandu instruktur berpengalaman. Lapangan berpasir khusus ini dikelilingi pagar pengaman yang standar.",
+            "highlights": [
+                "Kuda",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Arenalatihankuda",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apakah pemula atau anak-anak bisa mencoba berkuda di arena ini?",
+                    "mode": "fix",
+                    "answer": "Bisa, tersedia kuda penurut khusus serta didampingi oleh instruktur profesional berpengalaman."
+                },
+                {
+                    "q": "Apakah pengunjung harus membayar biaya tambahan untuk naik kuda?",
+                    "mode": "fix",
+                    "answer": "Ya, terdapat tiket wahana berkuda tersendiri sesuai durasi atau putaran lintasan."
+                },
+                {
+                    "q": "Apakah tersedia perlengkapan pengaman seperti helm berkuda?",
+                    "mode": "fix",
+                    "answer": "Ya, perlengkapan keselamatan standar disediakan oleh pengelola demi keamanan pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:687"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Arena Berkuda.",
+                "describeHere": "Arenalatihankuda adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node116": {
+            "rawName": "Merakbiru",
+            "displayName": "Nirwana Stable – Jalur Kandang Merak",
+            "placeId": "nirwana-stable-jalur-kandang-merak",
+            "placeName": "Nirwana Stable – Jalur Kandang Merak",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur setapak menuju zona penangkaran burung merak di kawasan Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Jalur Kandang Merak mengantar pengunjung menyusuri kawasan konservasi unggas yang eksotis. Suasana di sepanjang jalur ini sangat asri dengan rimbunnya pepohonan di sisi kanan dan kiri.",
+            "highlights": [
+                "Pagar kandang",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "Merakbiru",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Satwa apa yang bisa ditemukan di ujung jalur ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menjumpai koleksi burung merak indah dengan bulu ekornya yang menawan."
+                },
+                {
+                    "q": "Bagaimana suasana di sepanjang jalur kandang merak?",
+                    "mode": "fix",
+                    "answer": "Sangat sejuk, tenang, dan dikelilingi pepohonan hijau yang rindang."
+                },
+                {
+                    "q": "Apakah jalur ini aman dilalui oleh anak-anak?",
+                    "mode": "fix",
+                    "answer": "Sangat aman dengan jalan setapak yang rata dan bersih."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Jalur Kandang Merak.",
+                "describeHere": "Merakbiru adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node117": {
+            "rawName": "Faisanemas",
+            "displayName": "Nirwana Stable – Koridor Kandang Faisan",
+            "placeId": "nirwana-stable-koridor-kandang-faisan",
+            "placeName": "Nirwana Stable – Koridor Kandang Faisan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor teduh yang melintasi area penangkaran burung faisan di Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Koridor Kandang Faisan menyuguhkan pengalaman edukasi satwa unggas hias yang unik dan berwarna-warni. Koridor ini ditata apik agar pengunjung dapat mengamati perilaku burung dengan nyaman.",
+            "highlights": [
+                "Jaring",
+                "Vegetasi"
+            ],
+            "talkingPoints": [
+                "Faisanemas",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Jenis burung apa yang menjadi fokus di koridor ini?",
+                    "mode": "fix",
+                    "answer": "Berbagai jenis burung faisan (pheasant) hias dengan warna bulu yang eksotis."
+                },
+                {
+                    "q": "Apakah koridor ini terlindung dari panas matahari?",
+                    "mode": "fix",
+                    "answer": "Ya, koridor dilengkapi peneduh alami dan atap yang nyaman bagi pejalan kaki."
+                },
+                {
+                    "q": "Apakah ada papan informasi mengenai jenis burung faisan?",
+                    "mode": "fix",
+                    "answer": "Terdapat papan edukasi singkat yang mengenalkan jenis-jenis unggas kepada pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Koridor Kandang Faisan.",
+                "describeHere": "Faisanemas adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node118": {
+            "rawName": "Nirwana Resto & Cafe",
+            "displayName": "Nirwana Stable – Jalur Menuju Resto",
+            "placeId": "nirwana-stable-jalur-menuju-resto",
+            "placeName": "Nirwana Stable – Jalur Menuju Resto",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur setapak asri yang menghubungkan area rekreasi menuju Nirwana Resto Kota Semarang.",
+            "description": "Nirwana Stable – Jalur Menuju Resto merupakan koridor pejalan kaki yang dikelilingi taman hijau nan mempesona. Jalur ini menuntun wisatawan menuju pusat kuliner dengan kenyamanan pandangan ke alam terbuka.",
+            "highlights": [
+                "Paving",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Nirwana Resto & Cafe",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menghubungkan ke mana jalur setapak ini?",
+                    "mode": "fix",
+                    "answer": "Menghubungkan zona kandang dan taman rekreasi langsung menuju area Nirwana Resto."
+                },
+                {
+                    "q": "Apakah jalur ini dapat dilalui oleh kursi roda atau stroller anak?",
+                    "mode": "fix",
+                    "answer": "Ya, permukaannya rata dan mulus sehingga ramah bagi pengguna kursi roda atau kereta bayi."
+                },
+                {
+                    "q": "Pemandangan apa yang bisa dinikmati sepanjang berjalan di jalur ini?",
+                    "mode": "fix",
+                    "answer": "Hamparan taman bunga, pepohonan hijau, serta udara pegunungan yang menyegarkan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Jalur Menuju Resto.",
+                "describeHere": "Nirwana Resto & Cafe adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node119": {
+            "rawName": "Caffeeoutdoor",
+            "displayName": "Nirwana Stable – Pintu Kafe Outdoor",
+            "placeId": "nirwana-stable-pintu-kafe-outdoor",
+            "placeName": "Nirwana Stable – Pintu Kafe Outdoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Akses pintu menuju area kafe berkonsep luar ruangan (outdoor) di Nirwana Kota Semarang.",
+            "description": "Nirwana Stable – Pintu Kafe Outdoor menyambut pengunjung menuju area santap minum kopi dengan suasana terbuka. Tempat ini sangat digemari kaum muda untuk bersantai sambil menikmati pemandangan sore hari.",
+            "highlights": [
+                "Papan nama",
+                "Tanaman"
+            ],
+            "talkingPoints": [
+                "Caffeeoutdoor",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa konsep dari kafe outdoor di area ini?",
+                    "mode": "fix",
+                    "answer": "Mengusung konsep santai di ruang terbuka dengan udara pegunungan yang sejuk."
+                },
+                {
+                    "q": "Menu apa yang menjadi favorit di kafe ini?",
+                    "mode": "fix",
+                    "answer": "Aneka olahan kopi khas, minuman herbal, serta camilan ringan pendamping bersantai."
+                },
+                {
+                    "q": "Kapan waktu paling ramai dikunjungi di kafe outdoor ini?",
+                    "mode": "fix",
+                    "answer": "Biasanya pada sore hari menjelang senja atau akhir pekan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Pintu Kafe Outdoor.",
+                "describeHere": "Caffeeoutdoor adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node120": {
+            "rawName": "Kafe",
+            "displayName": "Nirwana Stable – Jembatan Masuk Kafe",
+            "placeId": "nirwana-stable-jembatan-masuk-kafe",
+            "placeName": "Nirwana Stable – Jembatan Masuk Kafe",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jembatan penyeberangan estetik menuju area kafe dan restoran di Nirwana Kota Semarang.",
+            "description": "Nirwana Stable – Jembatan Masuk Kafe melintasi bagian lanskap taman dengan desain arsitektur yang menarik. Jembatan ini menjadi jalur lintasan favorit sekaligus spot foto berlatar hijau yang indah.",
+            "highlights": [
+                "Pintu merah",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Kafe",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi dari jembatan masuk ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai akses jembatan penghubung utama menuju area kafe dan restoran."
+                },
+                {
+                    "q": "Apakah jembatan ini aman dan kokoh dilalui banyak orang?",
+                    "mode": "fix",
+                    "answer": "Sangat kokoh dan dilengkapi pagar pengaman di sisi kanan dan kirinya."
+                },
+                {
+                    "q": "Mengapa jembatan ini sering dijadikan tempat berfoto?",
+                    "mode": "fix",
+                    "answer": "Karena sudut pandangnya langsung mengarah ke taman hijau yang sangat fotogenik."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:686"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Jembatan Masuk Kafe.",
+                "describeHere": "Kafe adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node121": {
+            "rawName": "Nirwana Resto & Cafe",
+            "displayName": "Resto – Ruang Duduk Kaca",
+            "placeId": "resto-ruang-duduk-kaca",
+            "placeName": "Resto – Ruang Duduk Kaca",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang bersantap indoor berdinding kaca dengan panorama luar yang menawan di Nirwana Resto.",
+            "description": "Resto – Ruang Duduk Kaca menawarkan pengalaman bersantap nyaman di dalam ruangan berpendingin udara dengan pandangan lepas ke luar. Dinding kaca besarnya menghadirkan pemandangan taman yang asri secara maksimal.",
+            "highlights": [
+                "Kursi",
+                "Jendela"
+            ],
+            "talkingPoints": [
+                "Nirwana Resto & Cafe",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keunggulan dari ruang duduk berdinding kaca ini?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat menikmati hidangan dalam ruangan sejuk sambil tetap melihat pemandangan luar secara bebas."
+                },
+                {
+                    "q": "Apakah ruangan ini cocok untuk acara makan keluarga privat?",
+                    "mode": "fix",
+                    "answer": "Sangat cocok karena suasananya lebih tenang, bersih, dan eksklusif."
+                },
+                {
+                    "q": "Perlengkapan apa saja yang tersedia di ruang duduk ini?",
+                    "mode": "fix",
+                    "answer": "Meja makan kayu yang rapi, kursi empuk, serta pencahayaan ruangan yang hangat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Resto – Ruang Duduk Kaca.",
+                "describeHere": "Nirwana Resto & Cafe adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node122": {
+            "rawName": "Aviarydanplayground",
+            "displayName": "Nirwana Stable – Aviary dan Playground",
+            "placeId": "nirwana-stable-aviary-dan-playground",
+            "placeName": "Nirwana Stable – Aviary dan Playground",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Kawasan aviary burung eksotis dan taman bermain anak yang ceria di Nirwana Stable.",
+            "description": "Nirwana Stable – Aviary dan Playground memadukan sarana edukasi satwa burung dalam sangkar besar dengan arena bermain anak. Tempat ini menjadi surga rekreasi favorit bagi keluarga yang membawa buah hati tercinta.",
+            "highlights": [
+                "Perosotan",
+                "Jaring"
+            ],
+            "talkingPoints": [
+                "Aviarydanplayground",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa saja daya tarik yang ada di zona Aviary dan Playground?",
+                    "mode": "fix",
+                    "answer": "Kandang burung aviary raksasa serta aneka wahana permainan anak seperti ayunan dan perosotan."
+                },
+                {
+                    "q": "Apakah anak-anak boleh berinteraksi langsung di dalam aviary?",
+                    "mode": "fix",
+                    "answer": "Pengunjung dapat melihat koleksi burung dari dekat sesuai dengan aturan dan pengawasan petugas."
+                },
+                {
+                    "q": "Wahana permainan apa yang paling disukai anak di playground?",
+                    "mode": "fix",
+                    "answer": "Ayunan, jungkat-jungkit, dan perosotan di atas alas rumput yang aman."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:682"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Aviary dan Playground.",
+                "describeHere": "Aviarydanplayground adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node130": {
+            "rawName": "Video360 2",
+            "displayName": "Aviary – Video 360",
+            "placeId": "aviary-video-360",
+            "placeName": "Aviary – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Titik pandang panorama interaktif 360 derajat di dalam kawasan aviary Nirwana Stable.",
+            "description": "Aviary – Video 360 menyajikan pengalaman eksplorasi visual menyeluruh di dalam kubah penangkaran burung raksasa. Pengunjung dapat menikmati sensasi berada di tengah habitat burung eksotis dari berbagai sudut.",
+            "highlights": [
+                "Ranting",
+                "Jaring",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 2",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang bisa dieksplorasi melalui video 360 aviary ini?",
+                    "mode": "fix",
+                    "answer": "Suasana bagian dalam kubah aviary, vegetasi tanaman, serta aktivitas burung yang terbang bebas."
+                },
+                {
+                    "q": "Bagaimana cara mengoperasikan tampilan video panorama ini?",
+                    "mode": "fix",
+                    "answer": "Cukup gerakkan kursor atau layar ponsel ke segala arah untuk melihat sekeliling kubah."
+                },
+                {
+                    "q": "Mengapa titik 360 ini menarik bagi pengunjung virtual?",
+                    "mode": "fix",
+                    "answer": "Memberikan pengalaman imersif seolah-olah sedang berdiri langsung di dalam sangkar burung raksasa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Aviary – Video 360.",
+                "describeHere": "Video360 2 adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node124": {
+            "rawName": "node124",
+            "displayName": "Nirwana Stable – Gapura Nirwana",
+            "placeId": "nirwana-stable-gapura-nirwana",
+            "placeName": "Nirwana Stable – Gapura Nirwana",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gapura megah dan ikonik yang menyambut kedatangan di kawasan Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Gapura Nirwana berdiri megah sebagai tanda selamat datang bagi setiap wisatawan yang berkunjung. Desain arsitekturnya yang khas langsung mencerminkan nuansa destinasi wisata alam terpadu.",
+            "highlights": [
+                "Gapura",
+                "Jalan"
+            ],
+            "talkingPoints": [
+                "node124",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Di mana letak posisi Gapura Nirwana ini?",
+                    "mode": "fix",
+                    "answer": "Berada di jalur utama penyambutan sesaat setelah memasuki area gerbang kawasan."
+                },
+                {
+                    "q": "Apa kesan pertama yang dihadirkan oleh gapura ini?",
+                    "mode": "fix",
+                    "answer": "Kesan megah, ramah, dan menjadi gerbang awal petualangan seru di Nirwana Stable."
+                },
+                {
+                    "q": "Apakah wisatawan sering berfoto di depan gapura?",
+                    "mode": "fix",
+                    "answer": "Ya, gapura ini menjadi salah satu spot favorit untuk swafoto kedatangan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Gapura Nirwana.",
+                "describeHere": "Area NODE124 (ID: node124) adalah panorama yang terdeteksi dari export tour. Belum ada deskripsi kurasi; silakan ganti nama dan isi deskripsi via Scene Editor agar guide ramah pengunjung. Area ini tetap terhubung dengan navigasi hotspot dan dapat dilengkapi objek info jika tersedia.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node125": {
+            "rawName": "Ruellia Garden",
+            "displayName": "Nirwana Stable – Pintu Ruellia Garden",
+            "placeId": "nirwana-stable-pintu-ruellia-garden",
+            "placeName": "Nirwana Stable – Pintu Ruellia Garden",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu gerbang penghubung eksklusif menuju keindahan area Ruellia Garden Kota Semarang.",
+            "description": "Nirwana Stable – Pintu Ruellia Garden menjadi titik transisi yang mengarahkan pengunjung masuk ke zona taman bunga. Akses jalurnya ditata asri untuk memberikan sambutan visual yang memukau.",
+            "highlights": [
+                "Gerbang kayu",
+                "Jalur"
+            ],
+            "talkingPoints": [
+                "Ruellia Garden",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Menghubungkan area mana pintu gerbang taman ini?",
+                    "mode": "fix",
+                    "answer": "Menghubungkan jalur utama stable langsung ke dalam keindahan zona Ruellia Garden."
+                },
+                {
+                    "q": "Bagaimana penataan lanskap di sekitar pintu masuk taman?",
+                    "mode": "fix",
+                    "answer": "Dihiasi oleh deretan bunga warna-warni dan tanaman perdu yang terpelihara rapi."
+                },
+                {
+                    "q": "Apakah ada petunjuk arah di dekat pintu gerbang ini?",
+                    "mode": "fix",
+                    "answer": "Tersedia papan informasi penunjuk arah bagi pengunjung yang ingin menjelajah zona taman."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Pintu Ruellia Garden.",
+                "describeHere": "Ruellia Garden adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node126": {
+            "rawName": "Areaberkuda",
+            "displayName": "Arena Berkuda – Sisi Landmark",
+            "placeId": "arena-berkuda-sisi-landmark",
+            "placeName": "Arena Berkuda – Sisi Landmark",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Sudut pandang landmark ikonik di sisi arena berkuda Nirwana Stable Kota Semarang.",
+            "description": "Arena Berkuda – Sisi Landmark menampilkan latar belakang lanskap terbaik yang menjadi ciri khas kawasan wisata ini. Titik ini menawarkan pemandangan lapang arena berkuda yang berpadu dengan keindahan alam sekitar.",
+            "highlights": [
+                "Pagar",
+                "Huruf nama"
+            ],
+            "talkingPoints": [
+                "Areaberkuda",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa yang membuat sisi landmark arena berkuda ini istimewa?",
+                    "mode": "fix",
+                    "answer": "Menyajikan sudut pandang terluas yang mencakup arena latihan sekaligus landmark utama."
+                },
+                {
+                    "q": "Aktivitas apa yang sering diamati dari sisi ini?",
+                    "mode": "fix",
+                    "answer": "Aktivitas penunggang kuda latihan serta kesibukan di sekitar lapangan terbuka."
+                },
+                {
+                    "q": "Bagaimana kondisi udara di sekitar arena landmark ini?",
+                    "mode": "fix",
+                    "answer": "Sangat sejuk karena berada di area terbuka lapang yang dikelilingi perbukitan."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Arena Berkuda – Sisi Landmark.",
+                "describeHere": "Areaberkuda adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node127": {
+            "rawName": "Toilet",
+            "displayName": "Nirwana Stable – Fasilitas Pengunjung Nirwana",
+            "placeId": "nirwana-stable-fasilitas-pengunjung-nirwana",
+            "placeName": "Nirwana Stable – Fasilitas Pengunjung Nirwana",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pusat informasi dan fasilitas pelayanan lengkap bagi pengunjung di Nirwana Stable Kota Semarang.",
+            "description": "Nirwana Stable – Fasilitas Pengunjung Nirwana menyediakan berbagai sarana pendukung kenyamanan wisatawan selama berlibur. Mulai dari pusat informasi, toilet bersih, hingga area istirahat tersedia di sini.",
+            "highlights": [
+                "Dinding ubin",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Toilet",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Fasilitas apa saja yang terpusat di area pelayanan pengunjung ini?",
+                    "mode": "fix",
+                    "answer": "Pusat informasi wisata, toilet umum yang bersih, rest area, serta petugas siaga."
+                },
+                {
+                    "q": "Apakah petugas siap membantu jika wisatawan membutuhkan informasi?",
+                    "mode": "fix",
+                    "answer": "Ya, staf pengelola siap memberikan informasi seputar wahana, jadwal, dan tiket."
+                },
+                {
+                    "q": "Bagaimana aksesibilitas menuju fasilitas pengunjung ini?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah dijangkau karena berada di titik sentral dekat pintu masuk utama."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Fasilitas Pengunjung Nirwana.",
+                "describeHere": "Toilet adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node128": {
+            "rawName": "default",
+            "displayName": "Kawasan Stable – Pandangan Luar",
+            "placeId": "kawasan-stable-pandangan-luar",
+            "placeName": "Kawasan Stable – Pandangan Luar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panorama luas pemandangan luar kawasan pegunungan di sekitar Nirwana Stable Kota Semarang.",
+            "description": "Kawasan Stable – Pandangan Luar memperlihatkan keindahan lanskap alam terbuka hijau yang mengelilingi seluruh area wisata. Suasana pegunungan yang asri dan udara yang segar memanjakan mata setiap pengunjung.",
+            "highlights": [
+                "Kandang",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa keindahan alam yang bisa dinikmati dari pandangan luar ini?",
+                    "mode": "fix",
+                    "answer": "Bentangan hijau perbukitan, vegetasi lebat, serta panorama langit terbuka yang cerah."
+                },
+                {
+                    "q": "Mengapa kawasan ini memiliki udara yang sangat sejuk?",
+                    "mode": "fix",
+                    "answer": "Karena letak geografisnya berada di dataran tinggi yang dikelilingi oleh alam pegunungan."
+                },
+                {
+                    "q": "Apakah spot ini bagus untuk mengambil foto pemandangan lanskap?",
+                    "mode": "fix",
+                    "answer": "Sangat bagus dan menjadi salah satu sudut favorit fotografer alam."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Kawasan Stable – Pandangan Luar.",
+                "describeHere": "default adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node131": {
+            "rawName": "Nirwana Resto & Cafe",
+            "displayName": "Nirwana Stable – Gerbang Resto dan Kafe",
+            "placeId": "nirwana-stable-gerbang-resto-dan-kafe",
+            "placeName": "Nirwana Stable – Gerbang Resto dan Kafe",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang penyambutan khusus menuju kawasan pusat kuliner Nirwana Resto dan Kafe.",
+            "description": "Nirwana Stable – Gerbang Resto dan Kafe menyambut para pengunjung yang ingin menikmati sajian kuliner lezat. Desain pintu masuknya dirancang menarik untuk mengarahkan tamu ke zona bersantap.",
+            "highlights": [
+                "Papan informasi",
+                "Gapura"
+            ],
+            "talkingPoints": [
+                "Nirwana Resto & Cafe",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Ke mana arah gerbang resto dan kafe ini mengantar tamu?",
+                    "mode": "fix",
+                    "answer": "Mengantar langsung ke area dalam Nirwana Resto, kafe outdoor, dan ruang duduk kaca."
+                },
+                {
+                    "q": "Jam berapa biasanya area restoran mulai dipadati pengunjung?",
+                    "mode": "fix",
+                    "answer": "Mulai jam makan siang pukul 12.00 dan waktu sore hari menjelang malam."
+                },
+                {
+                    "q": "Apakah area gerbang ini mudah ditemukan dari jalur utama taman?",
+                    "mode": "fix",
+                    "answer": "Sangat mudah ditemukan berkat adanya papan petunjuk kuliner yang jelas."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Gerbang Resto dan Kafe.",
+                "describeHere": "Nirwana Resto & Cafe adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node132": {
+            "rawName": "Gerbang Utama",
+            "displayName": "Nirwana Stable – Gerbang Utama Kawasan",
+            "placeId": "nirwana-stable-gerbang-utama-kawasan",
+            "placeName": "Nirwana Stable – Gerbang Utama Kawasan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerbang utama megah sebagai pintu gerbang masuk terpadu ke kawasan Nirwana Kota Semarang.",
+            "description": "Nirwana Stable – Gerbang Utama Kawasan menjadi titik awal kedatangan resmi bagi seluruh wisatawan yang mendatangi destinasi ini. Kompleks gerbang ini dilengkapi pos penjagaan dan loket tiket pelayanan pengunjung.",
+            "highlights": [
+                "Jalan",
+                "Bangunan penerima"
+            ],
+            "talkingPoints": [
+                "Gerbang Utama",
+                "jalur eksplorasi",
+                "Nirwana"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama dari Gerbang Utama Kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Sebagai gerbang akses utama keluar masuk kendaraan serta pengunjung kawasan wisata."
+                },
+                {
+                    "q": "Apakah loket tiket pembelian berada di dekat gerbang ini?",
+                    "mode": "fix",
+                    "answer": "Ya, loket tiket resmi dan pusat sambutan wisatawan berada tepat di sekitar gerbang utama."
+                },
+                {
+                    "q": "Bagaimana pengamanan di gerbang utama kawasan?",
+                    "mode": "fix",
+                    "answer": "Dijaga oleh petugas keamanan gerbang secara profesional selama jam operasional wisata."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di Nirwana Stable – Gerbang Utama Kawasan.",
+                "describeHere": "Gerbang Utama adalah area di dalam kawasan Nirwana, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "rselisabeth",
+    "updatedAt": "2026-09-29T09:52:01+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Rselisabeth",
+            "aliases": [
+                "rselisabeth"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "rselisabeth"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Rselisabeth.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Rselisabeth",
+                    "content": "Pusat pengalaman virtual untuk Rselisabeth."
+                },
+                "en": {
+                    "title": "Rselisabeth",
+                    "content": "Pusat pengalaman virtual untuk Rselisabeth."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Patungstelisabeth",
+            "aliases": [
+                "patungstelisabeth"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rselisabeth"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Patungstelisabeth",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Patungstelisabeth",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "node363",
+            "aliases": [
+                "node363"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rselisabeth"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "node363",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "node363",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "rselisabeth"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1136",
+            "entityId": "objinfo2:1136",
+            "title": "Suite Room",
+            "aliases": [
+                "suite room",
+                "objek 1136"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kamar rawat inap kelas VIP atau suite di Rumah Sakit St. Elisabeth Semarang, yang dirancang dengan konsep yang sangat luas dan mengutamakan kenyamanan layaknya sebuah kamar hotel mewah. Ruangan ini menggunakan elemen interior kayu berwarna cokelat hangat pada furnitur dan dinding, yang memberikan kesan elegan sekaligus menenangkan bagi pasien. Kamar ini dilengkapi dengan tempat tidur medis modern yang memiliki fitur pengaturan posisi, serta area pendukung medis yang tertata rapi di bagian belakang tempat tidur.",
+            "source": "webview-import",
+            "sourceId": "1136",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Suite Room",
+                    "content": "Kamar rawat inap kelas VIP atau suite di Rumah Sakit St. Elisabeth Semarang, yang dirancang dengan konsep yang sangat luas dan mengutamakan kenyamanan layaknya sebuah kamar hotel mewah. Ruangan ini menggunakan elemen interior kayu berwarna cokelat hangat pada furnitur dan dinding, yang memberikan kesan elegan sekaligus menenangkan bagi pasien. Kamar ini dilengkapi dengan tempat tidur medis modern yang memiliki fitur pengaturan posisi, serta area pendukung medis yang tertata rapi di bagian belakang tempat tidur."
+                },
+                "en": {
+                    "title": "Suite Room",
+                    "content": "VIP or suite inpatient room at St. Elisabeth Semarang Hospital, designed with a very spacious concept prioritizing comfort akin to a luxury hotel room. The room features warm brown wooden interior elements on furniture and walls, creating an elegant and calming impression for patients. It is equipped with a modern medical bed with adjustable positioning features, as well as a neatly arranged medical support area behind the bed."
+                },
+                "zh": {
+                    "title": "套房",
+                    "content": "圣伊丽莎白三宝垄医院的 VIP 或套房病房，设计理念非常宽敞，以豪华酒店房间的舒适性为主。房间采用温暖的棕色木质家具和墙面元素，为患者营造出优雅且宁静的感觉。配备现代化医疗床，具备可调节位置功能，并在床后方布置整齐的医疗辅助区。"
+                },
+                "ar": {
+                    "title": "جناح فندقي",
+                    "content": "غرفة المرضى الداخليين VIP أو جناح في مستشفى سانت إليزابيث سيمارانغ، مصممة بمفهوم واسع جدًا يركز على الراحة كما في غرفة فندق فاخرة. تحتوي الغرفة على عناصر داخلية خشبية باللون البني الدافئ على الأثاث والجدران، مما يخلق انطباعًا أنيقًا ومريحًا للمرضى. الغرفة مجهزة بسرير طبي حديث بميزات ضبط الوضعية، بالإضافة إلى منطقة دعم طبي مرتبة بعناية خلف السرير."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1137",
+            "entityId": "objinfo2:1137",
+            "title": "Taman Courtyard",
+            "aliases": [
+                "taman courtyard",
+                "objek 1137"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Taman Courtyard yang ikonik di Rumah Sakit St. Elisabeth Semarang, yang berfungsi sebagai paru-paru sekaligus ruang terbuka hijau bagi pasien dan pengunjung. Di pusat taman ini berdiri megah Patung Tuhan Yesus dengan tangan terbuka, sebuah simbol keramahan dan berkat yang selaras dengan misi spiritual rumah sakit. Di bawah patung tersebut terdapat tulisan latin yang merupakan semboyan rumah sakit ini, yakni \"Pro Deo Et Patria\" (Demi Allah dan Tanah Air), serta \"Deus Meus Et Omnia\" (Allahku dan Segalanya).",
+            "source": "webview-import",
+            "sourceId": "1137",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Taman Courtyard",
+                    "content": "Taman Courtyard yang ikonik di Rumah Sakit St. Elisabeth Semarang, yang berfungsi sebagai paru-paru sekaligus ruang terbuka hijau bagi pasien dan pengunjung. Di pusat taman ini berdiri megah Patung Tuhan Yesus dengan tangan terbuka, sebuah simbol keramahan dan berkat yang selaras dengan misi spiritual rumah sakit. Di bawah patung tersebut terdapat tulisan latin yang merupakan semboyan rumah sakit ini, yakni \"Pro Deo Et Patria\" (Demi Allah dan Tanah Air), serta \"Deus Meus Et Omnia\" (Allahku dan Segalanya)."
+                },
+                "en": {
+                    "title": "Courtyard Garden",
+                    "content": "The iconic Courtyard Garden at St. Elisabeth Semarang Hospital serves as both the “lung” and a green open space for patients and visitors. At the center of the garden stands a majestic statue of Jesus Christ with outstretched arms, a symbol of hospitality and blessings in line with the hospital’s spiritual mission. Beneath the statue are Latin inscriptions representing the hospital’s motto: \"Pro Deo Et Patria\" (For God and Country) and \"Deus Meus Et Omnia\" (My God and All)."
+                },
+                "zh": {
+                    "title": "庭院花园",
+                    "content": "圣伊丽莎白三宝垄医院标志性的庭院花园，既是医院的“肺”，也是为患者和访客提供的绿色开放空间。花园中央矗立着耶稣基督的巨型雕像，双臂展开，象征着友善与祝福，契合医院的精神使命。雕像下方刻有拉丁文，作为医院的座右铭：“Pro Deo Et Patria”（为了上帝与祖国）和 “Deus Meus Et Omnia”（我的上帝与一切）。"
+                },
+                "ar": {
+                    "title": "فناء خارجي",
+                    "content": "تعد حديقة الفناء المميزة في مستشفى سانت إليزابيث سيمارانغ بمثابة “رئة” ومساحة خضراء مفتوحة للمرضى والزوار. في وسط الحديقة يقف تمثال عظيم للمسيح بيديه الممدودتين، وهو رمز للترحيب والبركة متوافق مع المهمة الروحية للمستشفى. تحت التمثال توجد نقوش لاتينية تمثل شعار المستشفى: \"Pro Deo Et Patria\" (من أجل الله والوطن) و \"Deus Meus Et Omnia\" (إلهي وكل شيء)."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1138",
+            "entityId": "objinfo2:1138",
+            "title": "Gereja",
+            "aliases": [
+                "gereja",
+                "objek 1138"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kapel Rumah Sakit St. Elisabeth Semarang, sebuah ruang devosi yang memadukan ketenangan spiritual dengan arsitektur kolonial yang khas. Sebagai bagian integral dari rumah sakit bersejarah yang dikelola oleh suster-suster OSF (Ordo Santa Fransiskus), kapel ini dirancang untuk memberikan suasana meditatif bagi pasien, keluarga, maupun staf medis.",
+            "source": "webview-import",
+            "sourceId": "1138",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gereja",
+                    "content": "Kapel Rumah Sakit St. Elisabeth Semarang, sebuah ruang devosi yang memadukan ketenangan spiritual dengan arsitektur kolonial yang khas. Sebagai bagian integral dari rumah sakit bersejarah yang dikelola oleh suster-suster OSF (Ordo Santa Fransiskus), kapel ini dirancang untuk memberikan suasana meditatif bagi pasien, keluarga, maupun staf medis."
+                },
+                "en": {
+                    "title": "Church",
+                    "content": "The Chapel at St. Elisabeth Semarang Hospital is a devotional space that blends spiritual tranquility with distinctive colonial architecture. As an integral part of the historic hospital managed by the OSF sisters (Order of Saint Francis), this chapel is designed to provide a meditative atmosphere for patients, families, and medical staff."
+                },
+                "zh": {
+                    "title": "教堂",
+                    "content": "圣伊丽莎白三宝垄医院的礼拜堂，是一个融合精神宁静与独特殖民地建筑风格的祈祷空间。作为由圣方济各修女团（OSF）管理的历史悠久医院的重要组成部分，该礼拜堂旨在为患者、家属及医护人员营造冥想氛围。"
+                },
+                "ar": {
+                    "title": "كنيسة",
+                    "content": "تُعد كنيسة مستشفى سانت إليزابيث سيمارانغ مساحة للتعبد تجمع بين الهدوء الروحي والهندسة المعمارية الاستعمارية المميزة. كجزء أساسي من المستشفى التاريخي الذي تديره راهبات OSF (رتبة القديس فرنسيس)، تم تصميم هذه الكنيسة لتوفير جو تأملي للمرضى والأسر والطاقم الطبي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1139",
+            "entityId": "objinfo2:1139",
+            "title": "VIP Room",
+            "aliases": [
+                "vip room",
+                "objek 1139"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Kamar rawat inap VIP di Rumah Sakit Santa Elisabeth Semarang. Ruangan ini dirancang dengan konsep yang fungsional namun tetap memberikan kesan hangat, didominasi oleh perpaduan warna putih, aksen kayu, dan lantai keramik yang bersih. Fasilitas utama yang terlihat meliputi tempat tidur medis modern dengan pelindung samping, sofa panjang berwarna oranye untuk kenyamanan penunggu pasien, serta area meja kerja dan lemari kayu yang memberikan sentuhan seperti berada di rumah sendiri (homely).",
+            "source": "webview-import",
+            "sourceId": "1139",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "VIP Room",
+                    "content": "Kamar rawat inap VIP di Rumah Sakit Santa Elisabeth Semarang. Ruangan ini dirancang dengan konsep yang fungsional namun tetap memberikan kesan hangat, didominasi oleh perpaduan warna putih, aksen kayu, dan lantai keramik yang bersih. Fasilitas utama yang terlihat meliputi tempat tidur medis modern dengan pelindung samping, sofa panjang berwarna oranye untuk kenyamanan penunggu pasien, serta area meja kerja dan lemari kayu yang memberikan sentuhan seperti berada di rumah sendiri (homely)."
+                },
+                "en": {
+                    "title": "VIP Room",
+                    "content": "VIP inpatient room at Santa Elisabeth Semarang Hospital. The room is designed with a functional concept while maintaining a warm atmosphere, dominated by a blend of white, wooden accents, and clean ceramic flooring. Key visible facilities include a modern medical bed with side rails, an orange long sofa for the comfort of patient companions, and a work desk and wooden cabinets that provide a homely touch."
+                },
+                "zh": {
+                    "title": "贵宾室",
+                    "content": "圣伊丽莎白三宝垄医院的 VIP 病房。房间设计以实用为主，同时保持温暖氛围，主色调为白色，配以木质元素和干净的瓷砖地面。主要设施包括带护栏的现代医疗床、为陪护人员提供舒适的橙色长沙发，以及提供家庭感的工作桌和木制储物柜。"
+                },
+                "ar": {
+                    "title": "غرفة كبار الشخصيات",
+                    "content": "غرفة المرضى الداخليين VIP في مستشفى سانتا إليزابيث سيمارانغ. تم تصميم الغرفة بمفهوم عملي مع الحفاظ على جو دافئ، يهيمن عليه مزيج من الأبيض، وعناصر خشبية، وأرضية سيراميكية نظيفة. تشمل المرافق الرئيسية الظاهرة سرير طبي حديث مع قضبان جانبية، وأريكة طويلة برتقالية لراحة مرافقي المرضى، ومنطقة مكتب وخزائن خشبية تضفي لمسة منزلية."
+                }
+            }
+        }
+    ]
+}

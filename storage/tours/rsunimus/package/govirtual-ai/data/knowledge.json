@@ -1,0 +1,428 @@
+{
+    "version": 2,
+    "tourId": "rsunimus",
+    "updatedAt": "2026-09-29T09:52:10+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Rsunimus",
+            "aliases": [
+                "rsunimus"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "rsunimus"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Rsunimus.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Rsunimus",
+                    "content": "Pusat pengalaman virtual untuk Rsunimus."
+                },
+                "en": {
+                    "title": "Rsunimus",
+                    "content": "Pusat pengalaman virtual untuk Rsunimus."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone RS UNIMUS",
+            "aliases": [
+                "drone rs unimus"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rsunimus"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone RS UNIMUS",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone RS UNIMUS",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone RS UNIMUS",
+            "aliases": [
+                "drone rs unimus"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "rsunimus"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone RS UNIMUS",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone RS UNIMUS",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "rsunimus"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1120",
+            "entityId": "objinfo2:1120",
+            "title": "Rehabilitasi Medik",
+            "aliases": [
+                "rehabilitasi medik",
+                "objek 1120"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Layanan Rehabilitasi Medik di Rumah Sakit Unimus Semarang merupakan fasilitas pemulihan yang komprehensif untuk membantu pasien mengembalikan fungsi tubuh dan kemandirian pasca cedera atau penyakit. Dipimpin oleh dokter spesialis kedokteran fisik dan rehabilitasi (Sp.KFR), layanan ini mencakup berbagai terapi utama seperti fisioterapi, terapi okupasi, dan terapi wicara dengan dukungan peralatan medis modern.",
+            "source": "webview-import",
+            "sourceId": "1120",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Rehabilitasi Medik",
+                    "content": "Layanan Rehabilitasi Medik di Rumah Sakit Unimus Semarang merupakan fasilitas pemulihan yang komprehensif untuk membantu pasien mengembalikan fungsi tubuh dan kemandirian pasca cedera atau penyakit. Dipimpin oleh dokter spesialis kedokteran fisik dan rehabilitasi (Sp.KFR), layanan ini mencakup berbagai terapi utama seperti fisioterapi, terapi okupasi, dan terapi wicara dengan dukungan peralatan medis modern."
+                },
+                "en": {
+                    "title": "Medical Rehabilitation",
+                    "content": "Medical Rehabilitation Services at Unimus Hospital Semarang are comprehensive recovery facilities designed to help patients restore bodily functions and independence after injury or illness. Led by a specialist in physical medicine and rehabilitation (Sp.KFR), these services include major therapies such as physiotherapy, occupational therapy, and speech therapy, supported by modern medical equipment."
+                },
+                "zh": {
+                    "title": "医学康复",
+                    "content": "三宝垄 Unimus 医院的医学康复服务是一项综合性康复设施，旨在帮助患者在受伤或患病后恢复身体功能与独立生活能力。该服务由康复医学专科医生（Sp.KFR）领导，涵盖物理治疗、作业治疗和言语治疗等主要疗法，并配备现代化医疗设备支持。"
+                },
+                "ar": {
+                    "title": "إعادة التأهيل الطبي",
+                    "content": "تُعد خدمات إعادة التأهيل الطبي في مستشفى يونيموس سيمارانغ منشأة شاملة للتعافي، تهدف إلى مساعدة المرضى على استعادة وظائف الجسم والاستقلالية بعد الإصابة أو المرض. ويقود هذه الخدمات طبيب متخصص في الطب الفيزيائي وإعادة التأهيل (Sp.KFR)، وتشمل مجموعة من العلاجات الرئيسية مثل العلاج الطبيعي، والعلاج الوظيفي، وعلاج النطق، بدعم من معدات طبية حديثة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1121",
+            "entityId": "objinfo2:1121",
+            "title": "Ruang Operasi",
+            "aliases": [
+                "ruang operasi",
+                "objek 1121"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini dirancang khusus untuk melakukan tindakan bedah dalam kondisi yang sangat steril untuk mencegah infeksi. Di bagian tengah, terdapat meja operasi sebagai tempat pasien berbaring, yang dikelilingi oleh lampu operasi besar untuk memberikan pencahayaan maksimal tanpa bayangan bagi tim bedah.",
+            "source": "webview-import",
+            "sourceId": "1121",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Ruang Operasi",
+                    "content": "Ruangan ini dirancang khusus untuk melakukan tindakan bedah dalam kondisi yang sangat steril untuk mencegah infeksi. Di bagian tengah, terdapat meja operasi sebagai tempat pasien berbaring, yang dikelilingi oleh lampu operasi besar untuk memberikan pencahayaan maksimal tanpa bayangan bagi tim bedah."
+                },
+                "en": {
+                    "title": "Operating Room",
+                    "content": "This room is specially designed for performing surgical procedures under highly sterile conditions to prevent infection. At the center is an operating table where the patient lies, surrounded by large surgical lights that provide maximum shadow-free illumination for the surgical team."
+                },
+                "zh": {
+                    "title": "手术室",
+                    "content": "该房间专门用于在高度无菌的条件下进行手术，以防止感染。中央设有手术台供患者躺卧，周围配备大型无影手术灯，为手术团队提供充足且无阴影的照明。"
+                },
+                "ar": {
+                    "title": "غرفة العمليات",
+                    "content": "صُممت هذه الغرفة خصيصًا لإجراء العمليات الجراحية في ظروف شديدة التعقيم لمنع العدوى. وفي الوسط توجد طاولة العمليات التي يستلقي عليها المريض، وتحيط بها مصابيح جراحية كبيرة توفّر إضاءة قصوى دون ظلال لفريق الجراحة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1122",
+            "entityId": "objinfo2:1122",
+            "title": "NICU",
+            "aliases": [
+                "nicu",
+                "objek 1122"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan Ini Merupakan Bagian Dari Unit Perawatan Intensif Untuk Bayi Baru Lahir Atau NICU (Neonatal Intensive Care Unit) Di Rumah Sakit Unimus Semarang. Ruangan Ini Dirancang Khusus Dengan Standar Medis Tinggi Untuk Menangani Bayi Yang Memerlukan Pemantauan Ekstra Atau Perawatan Khusus Segera Setelah Lahir.",
+            "source": "webview-import",
+            "sourceId": "1122",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "NICU",
+                    "content": "Ruangan Ini Merupakan Bagian Dari Unit Perawatan Intensif Untuk Bayi Baru Lahir Atau NICU (Neonatal Intensive Care Unit) Di Rumah Sakit Unimus Semarang. Ruangan Ini Dirancang Khusus Dengan Standar Medis Tinggi Untuk Menangani Bayi Yang Memerlukan Pemantauan Ekstra Atau Perawatan Khusus Segera Setelah Lahir."
+                },
+                "en": {
+                    "title": "NICU (Neonatal Intensive Care Unit)",
+                    "content": "This Room Is Part Of The Neonatal Intensive Care Unit (NICU) At Unimus Hospital Semarang. It Is Specifically Designed With High Medical Standards To Care For Newborns Who Require Extra Monitoring Or Specialized Treatment Immediately After Birth."
+                },
+                "zh": {
+                    "title": "新生儿重症监护室",
+                    "content": "该房间是位于三宝垄优尼穆斯医院的新生儿重症监护室（NICU）的一部分。该房间按照高医疗标准专门设计，用于照护出生后需要额外监测或特殊护理的新生儿。"
+                },
+                "ar": {
+                    "title": "وحدة العناية المركزة لحديثي الولادة",
+                    "content": "هذه الغرفة هي جزء من وحدة العناية المركزة لحديثي الولادة (NICU) في مستشفى يونيموس سيمارانغ. تم تصميم هذه الغرفة خصيصًا وفق معايير طبية عالية للتعامل مع حديثي الولادة الذين يحتاجون إلى مراقبة إضافية أو رعاية خاصة فور ولادتهم."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1123",
+            "entityId": "objinfo2:1123",
+            "title": "PICU",
+            "aliases": [
+                "picu",
+                "objek 1123"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini merupakan Unit Perawatan Intensif Anak (PICU) di Rumah Sakit UNIMUS yang dirancang khusus untuk memberikan perawatan medis tingkat tinggi bagi pasien anak dalam kondisi kritis. Ruangan ini dilengkapi dengan teknologi medis mutakhir, termasuk patient monitor untuk pemantauan tanda vital secara terus-menerus dan sistem syringe pump untuk pemberian obat yang presisi, yang semuanya terintegrasi pada panel dinding (bedhead) standar rumah sakit modern.",
+            "source": "webview-import",
+            "sourceId": "1123",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "PICU",
+                    "content": "Ruangan ini merupakan Unit Perawatan Intensif Anak (PICU) di Rumah Sakit UNIMUS yang dirancang khusus untuk memberikan perawatan medis tingkat tinggi bagi pasien anak dalam kondisi kritis. Ruangan ini dilengkapi dengan teknologi medis mutakhir, termasuk patient monitor untuk pemantauan tanda vital secara terus-menerus dan sistem syringe pump untuk pemberian obat yang presisi, yang semuanya terintegrasi pada panel dinding (bedhead) standar rumah sakit modern."
+                },
+                "en": {
+                    "title": "PICU (Pediatric Intensive Care Unit)",
+                    "content": "This room is the Pediatric Intensive Care Unit (PICU) at UNIMUS Hospital, specifically designed to provide high-level medical care for pediatric patients in critical conditions. The room is equipped with advanced medical technology, including patient monitors for continuous vital sign monitoring and syringe pump systems for precise medication administration, all integrated into a modern hospital-standard wall panel (bedhead)."
+                },
+                "zh": {
+                    "title": "儿科重症监护室",
+                    "content": "该房间是 UNIMUS 医院的儿童重症监护室（PICU），专门设计用于为处于危重状况的儿童患者提供高水平的医疗护理。该房间配备了先进的医疗技术，包括用于持续监测生命体征的患者监护仪以及用于精确给药的注射泵系统，所有设备均集成在符合现代医院标准的床头墙面面板中。"
+                },
+                "ar": {
+                    "title": "وحدة العناية المركزة للأطفال",
+                    "content": "هذه الغرفة هي وحدة العناية المركزة للأطفال (PICU) في مستشفى يونيموس، وقد صُممت خصيصًا لتقديم رعاية طبية عالية المستوى للمرضى الأطفال في الحالات الحرجة. الغرفة مجهزة بتقنيات طبية متقدمة، بما في ذلك أجهزة مراقبة المرضى لمتابعة العلامات الحيوية بشكل مستمر وأنظمة مضخات الحقن لإعطاء الأدوية بدقة، وجميعها مدمجة في لوحة الحائط (رأس السرير) وفق معايير المستشفيات الحديثة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1187",
+            "entityId": "objinfo2:1187",
+            "title": "CT Scan",
+            "aliases": [
+                "ct scan",
+                "objek 1187"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Mesin ini berfungsi sebagai alat diagnosis tingkat lanjut yang mampu menghasilkan citra tubuh dalam bentuk potongan melintang atau 3D secara presisi dengan cara memutar tabung sinar-X di dalam gantry mengelilingi tubuh pasien.",
+            "source": "webview-import",
+            "sourceId": "1187",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "CT Scan",
+                    "content": "Mesin ini berfungsi sebagai alat diagnosis tingkat lanjut yang mampu menghasilkan citra tubuh dalam bentuk potongan melintang atau 3D secara presisi dengan cara memutar tabung sinar-X di dalam gantry mengelilingi tubuh pasien."
+                },
+                "en": {
+                    "title": "CT Scan",
+                    "content": "This machine functions as an advanced diagnostic tool capable of producing precise cross-sectional or 3D body images by rotating an X-ray tube inside the gantry around the patient’s body."
+                },
+                "zh": {
+                    "title": "CT扫描",
+                    "content": "这台设备是一种先进的诊断工具，能够通过在机架（gantry）内旋转X射线管围绕患者身体，从而精确生成横断面或三维体像。"
+                },
+                "ar": {
+                    "title": "التصوير المقطعي المحوسب",
+                    "content": "تعمل هذه الآلة كأداة تشخيص متقدمة قادرة على إنتاج صور مقطعية أو ثلاثية الأبعاد للجسم بدقة، وذلك من خلال دوران أنبوب الأشعة السينية داخل الهيكل (gantry) حول جسم المريض."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1188",
+            "entityId": "objinfo2:1188",
+            "title": "IGD",
+            "aliases": [
+                "igd",
+                "objek 1188"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "IGD RS Unimus merupakan fasilitas medis modern yang dirancang dengan standar tinggi untuk menangani kondisi darurat secara efisien. Secara visual, ruangan ini menonjol karena penerapan sistem triage yang jelas melalui marka warna di lantai, memastikan prioritas penanganan pasien dilakukan secara tepat sasaran.",
+            "source": "webview-import",
+            "sourceId": "1188",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "IGD",
+                    "content": "IGD RS Unimus merupakan fasilitas medis modern yang dirancang dengan standar tinggi untuk menangani kondisi darurat secara efisien. Secara visual, ruangan ini menonjol karena penerapan sistem triage yang jelas melalui marka warna di lantai, memastikan prioritas penanganan pasien dilakukan secara tepat sasaran."
+                },
+                "en": {
+                    "title": "Emergency Room (ER)",
+                    "content": "The ER of RS Unimus is a modern medical facility designed with high standards to handle emergency conditions efficiently. Visually, this room stands out due to the clear triage system marked by color-coded floor markings, ensuring patient care priorities are appropriately addressed."
+                },
+                "zh": {
+                    "title": "急诊室",
+                    "content": "RS Unimus 的急诊室是一处现代化医疗设施，按照高标准设计，以高效应对紧急状况。视觉上，该区域因地面颜色标记的分诊系统而显得突出，确保对患者的处理优先级得到准确执行。"
+                },
+                "ar": {
+                    "title": "قسم الطوارئ",
+                    "content": "قسم الطوارئ في مستشفى Unimus هو منشأة طبية حديثة مصممة بمعايير عالية للتعامل مع الحالات الطارئة بكفاءة. ومن الناحية البصرية، يبرز هذا القسم بسبب تطبيق نظام الفرز (Triage) الواضح عبر علامات ألوان على الأرض، مما يضمن تحديد أولويات علاج المرضى بشكل صحيح."
+                }
+            }
+        }
+    ]
+}

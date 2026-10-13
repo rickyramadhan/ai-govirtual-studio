@@ -1,0 +1,522 @@
+{
+    "startNode": "node5",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Ruang110",
+            "displayName": "Ruang110",
+            "rawName": "",
+            "customNodeId": "ruang110",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "ruang110"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Ruang SPKT",
+            "displayName": "Ruang SPKT",
+            "rawName": "",
+            "customNodeId": "-uang-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Ruang SPKT"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Ruangspkt",
+            "displayName": "Ruangspkt",
+            "rawName": "",
+            "customNodeId": "ruangspkt",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "ruangspkt"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Ruang SPKT",
+            "displayName": "Ruang SPKT",
+            "rawName": "",
+            "customNodeId": "-uang-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Ruang SPKT"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Patung",
+            "displayName": "Patung",
+            "rawName": "",
+            "customNodeId": "patung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "patung"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Lapangan",
+            "displayName": "Lapangan",
+            "rawName": "",
+            "customNodeId": "-apangan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Lapangan"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Areapenjagaan",
+            "displayName": "Areapenjagaan",
+            "rawName": "",
+            "customNodeId": "areapenjagaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "areapenjagaan"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Lobbyutama",
+            "displayName": "Lobbyutama",
+            "rawName": "",
+            "customNodeId": "lobbyutama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "lobbyutama"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Lobi Utama",
+            "displayName": "Lobi Utama",
+            "rawName": "",
+            "customNodeId": "-obi-tama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Lobi Utama"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Ruang SKCK",
+            "displayName": "Ruang SKCK",
+            "rawName": "",
+            "customNodeId": "-uang-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Ruang SKCK"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Parkiran",
+            "displayName": "Parkiran",
+            "rawName": "",
+            "customNodeId": "-arkiran",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "Parkiran"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Pospenjagaan",
+            "displayName": "Pospenjagaan",
+            "rawName": "",
+            "customNodeId": "pospenjagaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "pospenjagaan"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Ruangskck",
+            "displayName": "Ruangskck",
+            "rawName": "",
+            "customNodeId": "ruangskck",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "PoldaSemarang"
+            ],
+            "aliases": [
+                "ruangskck"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node2",
+            "title": "Ruang SPKT",
+            "id": "Point01",
+            "pan": -161.32,
+            "tilt": -7.64
+        },
+        {
+            "scene": "node2",
+            "target": "node3",
+            "title": "Ruang SPKT",
+            "id": "Point01",
+            "pan": -255.23,
+            "tilt": -11.84
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Ruang 110",
+            "id": "Point02",
+            "pan": 290.61,
+            "tilt": -9.44
+        },
+        {
+            "scene": "node2",
+            "target": "node4",
+            "title": "Ruang SPKT",
+            "id": "Point03",
+            "pan": -180.29,
+            "tilt": -18.33
+        },
+        {
+            "scene": "node3",
+            "target": "node2",
+            "title": "Ruang SPKT",
+            "id": "Point01",
+            "pan": 30.82,
+            "tilt": -17.31
+        },
+        {
+            "scene": "node3",
+            "target": "node4",
+            "title": "Ruang SPKT",
+            "id": "Point02",
+            "pan": 330.4,
+            "tilt": -16.97
+        },
+        {
+            "scene": "node3",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": 161.1,
+            "tilt": -25.54
+        },
+        {
+            "scene": "node4",
+            "target": "node3",
+            "title": "Ruang SPKT",
+            "id": "Point01",
+            "pan": 237.83,
+            "tilt": -6.82
+        },
+        {
+            "scene": "node4",
+            "target": "node2",
+            "title": "Ruang SPKT",
+            "id": "Point02",
+            "pan": 173.11,
+            "tilt": -16.08
+        },
+        {
+            "scene": "node5",
+            "target": "node13",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -83.16,
+            "tilt": -1.69
+        },
+        {
+            "scene": "node6",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -80.16,
+            "tilt": 1.81
+        },
+        {
+            "scene": "node6",
+            "target": "node10",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -355.37,
+            "tilt": 2.13
+        },
+        {
+            "scene": "node7",
+            "target": "node11",
+            "title": "Ruang SKCK",
+            "id": "Point01",
+            "pan": -48.29,
+            "tilt": -5.56
+        },
+        {
+            "scene": "node7",
+            "target": "node8",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": 39.32,
+            "tilt": -1.81
+        },
+        {
+            "scene": "node7",
+            "target": "node3",
+            "title": "Ruang SPKT",
+            "id": "Point03",
+            "pan": 8.23,
+            "tilt": -3.46
+        },
+        {
+            "scene": "node8",
+            "target": "node7",
+            "title": "Pintu Masuk",
+            "id": "Point01",
+            "pan": -359.63,
+            "tilt": -4
+        },
+        {
+            "scene": "node8",
+            "target": "node12",
+            "title": "Parkiran",
+            "id": "Point02",
+            "pan": 181.84,
+            "tilt": -7.31
+        },
+        {
+            "scene": "node9",
+            "target": "node10",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -176.3,
+            "tilt": -10.65
+        },
+        {
+            "scene": "node9",
+            "target": "node11",
+            "title": "Ruang SKCK",
+            "id": "Point02",
+            "pan": 299.76,
+            "tilt": -8.6
+        },
+        {
+            "scene": "node10",
+            "target": "node6",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -177.33,
+            "tilt": -4.7
+        },
+        {
+            "scene": "node10",
+            "target": "node9",
+            "title": "Polda Jawa Tengah",
+            "id": "Point02",
+            "pan": -356.29,
+            "tilt": 3.45
+        },
+        {
+            "scene": "node11",
+            "target": "node9",
+            "title": "Lobi Utama",
+            "id": "Point01",
+            "pan": 0.28,
+            "tilt": -6.14
+        },
+        {
+            "scene": "node11",
+            "target": "node14",
+            "title": "Masuk Ruang SKCK",
+            "id": "Point02",
+            "pan": -24.71,
+            "tilt": -9.37
+        },
+        {
+            "scene": "node11",
+            "target": "node7",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": 176.48,
+            "tilt": -13.47
+        },
+        {
+            "scene": "node12",
+            "target": "node13",
+            "title": "Pos Penjagaan",
+            "id": "Point01",
+            "pan": -350.29,
+            "tilt": -4.25
+        },
+        {
+            "scene": "node12",
+            "target": "node8",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": 91.8,
+            "tilt": -8.84
+        },
+        {
+            "scene": "node13",
+            "target": "node5",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 188.07,
+            "tilt": -2.06
+        },
+        {
+            "scene": "node13",
+            "target": "node6",
+            "title": "Lapangan",
+            "id": "Point02",
+            "pan": 30.53,
+            "tilt": -7.16
+        },
+        {
+            "scene": "node13",
+            "target": "node12",
+            "title": "Parkiran",
+            "id": "Point03",
+            "pan": 331.27,
+            "tilt": -6.8
+        },
+        {
+            "scene": "node14",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 124.18,
+            "tilt": -7.65
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 502,
+            "label": "Ruang Pelayanan SKCK",
+            "description": "Ruang pelayanan SKCK adalah loket khusus di lingkungan kepolisian yang dirancang sebagai pusat kontak langsung bagi masyarakat. Fungsinya adalah memproses dan menerbitkan Surat Keterangan Catatan Kepolisian (SKCK) untuk berbagai keperluan administrasi.",
+            "fragment": "ruangskck",
+            "link": "polda/index.html#ruangskck",
+            "sceneId": "node14"
+        },
+        {
+            "infoId": 503,
+            "label": "Ruang SPKT",
+            "description": "Ruang SPKT (Sentra Pelayanan Kepolisian Terpadu) adalah unit layanan garis depan di kantor polisi yang bertugas menerima semua laporan dan pengaduan dari masyarakat selama 24 jam. Fungsi utamanya adalah memberikan pelayanan kepolisian terpadu, mulai dari Laporan Polisi (LP), laporan kehilangan, hingga permintaan bantuan dan pertolongan pertama.",
+            "fragment": "ruangspkt",
+            "link": "polda/index.html#ruangspkt",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 504,
+            "label": "Ruang 110",
+            "description": "Pusat layanan darurat (Call Center) Kepolisian Negara Republik Indonesia yang beroperasi 24 jam sehari dengan nomor telepon bebas pulsa 110. Fungsi utamanya adalah menerima laporan cepat dari masyarakat mengenai situasi darurat, tindak kejahatan, atau gangguan ketertiban, untuk ditindaklanjuti segera oleh petugas di lapangan.",
+            "fragment": "ruang110",
+            "link": "polda/index.html#ruang110",
+            "sceneId": "node1"
+        },
+        {
+            "infoId": 505,
+            "label": "Lobby Utama",
+            "description": "Ruangan penerima tamu, pengunjung, atau masyarakat yang datang. Fungsinya adalah menyaring, mengarahkan, dan memberikan informasi awal kepada publik, sekaligus mencerminkan citra profesionalitas institusi kepolisian daerah tersebut.",
+            "fragment": "lobbyutama",
+            "link": "polda/index.html#lobbyutama",
+            "sceneId": "node9"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "0cf34dc51582f8e8",
+        "skin.js": "44e0d5c055d34ce6",
+        "index.html": "05253fb6a3308845"
+    }
+}

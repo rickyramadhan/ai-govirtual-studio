@@ -1,0 +1,336 @@
+{
+    "version": 2,
+    "tourId": "uwhsemarang",
+    "updatedAt": "2026-09-29T09:52:55+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Uwhsemarang",
+            "aliases": [
+                "uwhsemarang"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "uwhsemarang"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Uwhsemarang.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Uwhsemarang",
+                    "content": "Pusat pengalaman virtual untuk Uwhsemarang."
+                },
+                "en": {
+                    "title": "Uwhsemarang",
+                    "content": "Pusat pengalaman virtual untuk Uwhsemarang."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Fisioterapi",
+            "aliases": [
+                "fisioterapi"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "uwhsemarang"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Fisioterapi",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Fisioterapi",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Koridor Fisioterapi",
+            "aliases": [
+                "koridor fisioterapi"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "uwhsemarang"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Koridor Fisioterapi",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Koridor Fisioterapi",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "uwhsemarang"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1116",
+            "entityId": "objinfo2:1116",
+            "title": "Mini Hospital",
+            "aliases": [
+                "mini hospital",
+                "objek 1116"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas pendidikan yang dirancang untuk mensimulasikan lingkungan pelayanan kesehatan nyata, terutama untuk mendukung Program Studi bidang kesehatan.",
+            "source": "webview-import",
+            "sourceId": "1116",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Mini Hospital",
+                    "content": "Fasilitas pendidikan yang dirancang untuk mensimulasikan lingkungan pelayanan kesehatan nyata, terutama untuk mendukung Program Studi bidang kesehatan."
+                },
+                "en": {
+                    "title": "Mini Hospital",
+                    "content": "An educational facility designed to simulate a real healthcare service environment, primarily to support health-related study programs."
+                },
+                "zh": {
+                    "title": "迷你医院",
+                    "content": "为模拟真实医疗服务环境而设计的教育设施，主要用于支持健康相关专业的学习项目。"
+                },
+                "ar": {
+                    "title": "مستشفى مصغر",
+                    "content": "مرفق تعليمي صُمم لمحاكاة بيئة خدمات الرعاية الصحية الواقعية، ويُستخدم بشكل أساسي لدعم برامج الدراسة في المجال الصحي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1117",
+            "entityId": "objinfo2:1117",
+            "title": "Lab Radiologi",
+            "aliases": [
+                "lab radiologi",
+                "objek 1117"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tujuan utama Lab ini adalah memberikan keterampilan praktis kepada mahasiswa agar mampu mengoperasikan peralatan radiologi, khususnya Sinar-X, dan melakukan prosedur pencitraan diagnostik dengan tepat dan aman.",
+            "source": "webview-import",
+            "sourceId": "1117",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Radiologi",
+                    "content": "Tujuan utama Lab ini adalah memberikan keterampilan praktis kepada mahasiswa agar mampu mengoperasikan peralatan radiologi, khususnya Sinar-X, dan melakukan prosedur pencitraan diagnostik dengan tepat dan aman."
+                },
+                "en": {
+                    "title": "Radiology Laboratory",
+                    "content": "The main objective of this laboratory is to provide students with practical skills so they are able to operate radiology equipment, especially X-ray devices, and perform diagnostic imaging procedures accurately and safely."
+                },
+                "zh": {
+                    "title": "放射学实验室",
+                    "content": "该实验室的主要目标是为学生提供实践技能，使其能够操作放射学设备，尤其是 X 光设备，并准确、安全地进行诊断成像操作。"
+                },
+                "ar": {
+                    "title": "مختبر الأشعة",
+                    "content": "الهدف الرئيسي من هذا المختبر هو تزويد الطلبة بالمهارات العملية لتمكينهم من تشغيل أجهزة الأشعة، ولا سيما أجهزة الأشعة السينية (X-ray)، وتنفيذ إجراءات التصوير التشخيصي بدقة وأمان."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1118",
+            "entityId": "objinfo2:1118",
+            "title": "Klinik Fisioterapi",
+            "aliases": [
+                "klinik fisioterapi",
+                "objek 1118"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Fasilitas praktik yang sangat penting untuk Program Studi Fisioterapi. Lab ini berfungsi sebagai pusat simulasi klinik dan pelatihan keterampilan vokasional yang menyiapkan mahasiswa untuk menjadi Fisioterapis yang kompeten.",
+            "source": "webview-import",
+            "sourceId": "1118",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Klinik Fisioterapi",
+                    "content": "Fasilitas praktik yang sangat penting untuk Program Studi Fisioterapi. Lab ini berfungsi sebagai pusat simulasi klinik dan pelatihan keterampilan vokasional yang menyiapkan mahasiswa untuk menjadi Fisioterapis yang kompeten."
+                },
+                "en": {
+                    "title": "Physiotherapy Clinic",
+                    "content": "A practical facility that is essential for the Physiotherapy Study Program. This laboratory functions as a clinical simulation center and vocational skills training hub that prepares students to become competent physiotherapists."
+                },
+                "zh": {
+                    "title": "物理治疗诊所",
+                    "content": "这是物理治疗专业非常重要的实践设施。该实验室作为临床模拟与职业技能培训中心，培养学生成为具备专业能力的物理治疗师。"
+                },
+                "ar": {
+                    "title": "عيادة العلاج الطبيعي",
+                    "content": "منشأة تدريبية بالغة الأهمية لبرنامج دراسة العلاج الطبيعي. يعمل هذا المختبر كمركز لمحاكاة العيادات والتدريب على المهارات المهنية، لإعداد الطلبة ليصبحوا أخصائيي علاج طبيعي ذوي كفاءة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1119",
+            "entityId": "objinfo2:1119",
+            "title": "Lab Optometri",
+            "aliases": [
+                "lab optometri",
+                "objek 1119"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Ruangan ini memungkinkan mahasiswa untuk mempraktikkan alur pemeriksaan mata secara lengkap, mulai dari anamnesa (tanya jawab keluhan), skrining awal menggunakan Snellen Chart, hingga pemeriksaan mendalam menggunakan alat optik canggih.",
+            "source": "webview-import",
+            "sourceId": "1119",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Optometri",
+                    "content": "Ruangan ini memungkinkan mahasiswa untuk mempraktikkan alur pemeriksaan mata secara lengkap, mulai dari anamnesa (tanya jawab keluhan), skrining awal menggunakan Snellen Chart, hingga pemeriksaan mendalam menggunakan alat optik canggih."
+                },
+                "en": {
+                    "title": "Optometry Laboratory",
+                    "content": "This room allows students to practice the complete eye examination workflow, starting from anamnesis (patient interview on complaints), initial screening using the Snellen Chart, to in-depth examinations using advanced optical instruments."
+                },
+                "zh": {
+                    "title": "视光学实验室",
+                    "content": "该空间使学生能够完整地实践眼科检查流程，从病史采集（询问症状）、使用斯内伦视力表进行初步筛查，到利用先进光学设备进行深入检查。"
+                },
+                "ar": {
+                    "title": "مختبر البصريات",
+                    "content": "تُمكّن هذه الغرفة الطلبة من ممارسة مسار فحص العين بشكل كامل، بدءًا من أخذ التاريخ المرضي (الاستجواب حول الشكاوى)، والفحص الأولي باستخدام مخطط سنيلين، وصولًا إلى الفحوصات المتقدمة باستخدام أجهزة بصرية حديثة."
+                }
+            }
+        }
+    ]
+}

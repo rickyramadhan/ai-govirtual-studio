@@ -1,0 +1,1462 @@
+{
+    "version": "1.0",
+    "tourId": "asemasemkohliem",
+    "description": "Curated Q&A database - team-editable. Matched BEFORE AI pipeline.",
+    "items": [
+        {
+            "id": "QA01",
+            "question": "Dimana persisnya alamat dari ASEM-ASEM KOH LIEM jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi ASEM-ASEM KOH LIEM beralamat di Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 1 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 1"
+            ]
+        },
+        {
+            "id": "QA02",
+            "question": "Apa menu kuliner andalan yang wajib dicoba saat mampir ke ASEM-ASEM KOH LIEM?",
+            "answer": "Menu primadona yang paling diincar pengunjung di ASEM-ASEM KOH LIEM adalah asem-asem daging sapi dengan kuah segar asam manis gurih.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 2 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 2"
+            ]
+        },
+        {
+            "id": "QA03",
+            "question": "Kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju ASEM-ASEM KOH LIEM?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke ASEM-ASEM KOH LIEM adalah sekitar 12-14 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 3 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 3"
+            ]
+        },
+        {
+            "id": "QA04",
+            "question": "Jam operasional harian ASEM-ASEM KOH LIEM dimulai pukul berapa sampai jam berapa?",
+            "answer": "ASEM-ASEM KOH LIEM siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 4 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 4"
+            ]
+        },
+        {
+            "id": "QA05",
+            "question": "Apakah ASEM-ASEM KOH LIEM memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, ASEM-ASEM KOH LIEM dikenal karena berdiri sejak tahun 1950-an dan menjadi legenda kuliner Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 5 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 5"
+            ]
+        },
+        {
+            "id": "QA06",
+            "question": "Fasilitas pendukung apa saja yang disediakan oleh ASEM-ASEM KOH LIEM untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di ASEM-ASEM KOH LIEM sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta warung legendaris sederhana namun selalu ramai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 6 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 6"
+            ]
+        },
+        {
+            "id": "QA07",
+            "question": "Apakah suasana di ASEM-ASEM KOH LIEM cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena ASEM-ASEM KOH LIEM menawarkan warung legendaris sederhana namun selalu ramai yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 7 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 7"
+            ]
+        },
+        {
+            "id": "QA08",
+            "question": "Selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di ASEM-ASEM KOH LIEM?",
+            "answer": "Sebagai pelengkap, ASEM-ASEM KOH LIEM juga menyediakan kikil, sate empal, dan bandeng yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 8 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 8"
+            ]
+        },
+        {
+            "id": "QA09",
+            "question": "Apakah lokasi ASEM-ASEM KOH LIEM dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, ASEM-ASEM KOH LIEM berada di dekat Kawasan Pecinan / Semarang Tengah, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 9 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 9"
+            ]
+        },
+        {
+            "id": "QA10",
+            "question": "Apakah ASEM-ASEM KOH LIEM menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan ASEM-ASEM KOH LIEM sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 10 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 10"
+            ]
+        },
+        {
+            "id": "QA11",
+            "question": "Bagaimana cara terbaik menuju ASEM-ASEM KOH LIEM jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah dengan berkendara sekitar sekitar 12-14 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 11 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 11"
+            ]
+        },
+        {
+            "id": "QA12",
+            "question": "Apakah restoran atau tempat ASEM-ASEM KOH LIEM ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 12 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 12"
+            ]
+        },
+        {
+            "id": "QA13",
+            "question": "Adakah rekomendasi waktu terbaik untuk berkunjung ke ASEM-ASEM KOH LIEM?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 13 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 13"
+            ]
+        },
+        {
+            "id": "QA14",
+            "question": "Apakah tersedia area khusus indoor maupun outdoor di ASEM-ASEM KOH LIEM?",
+            "answer": "Tergantung pada zona area tempatnya, ASEM-ASEM KOH LIEM menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 14 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 14"
+            ]
+        },
+        {
+            "id": "QA15",
+            "question": "Bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di ASEM-ASEM KOH LIEM?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 15 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 15"
+            ]
+        },
+        {
+            "id": "QA16",
+            "question": "Apakah staf atau pelayan di ASEM-ASEM KOH LIEM sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di ASEM-ASEM KOH LIEM terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 16 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 16"
+            ]
+        },
+        {
+            "id": "QA17",
+            "question": "Halo, saya ingin bertanya, dimana persisnya alamat dari ASEM-ASEM KOH LIEM jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi ASEM-ASEM KOH LIEM beralamat di Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 17 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 17"
+            ]
+        },
+        {
+            "id": "QA18",
+            "question": "Halo, saya ingin bertanya, apa menu kuliner andalan yang wajib dicoba saat mampir ke ASEM-ASEM KOH LIEM?",
+            "answer": "Menu primadona yang paling diincar pengunjung di ASEM-ASEM KOH LIEM adalah asem-asem daging sapi dengan kuah segar asam manis gurih.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 18 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 18"
+            ]
+        },
+        {
+            "id": "QA19",
+            "question": "Halo, saya ingin bertanya, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju ASEM-ASEM KOH LIEM?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke ASEM-ASEM KOH LIEM adalah sekitar 12-14 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 19 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 19"
+            ]
+        },
+        {
+            "id": "QA20",
+            "question": "Halo, saya ingin bertanya, jam operasional harian ASEM-ASEM KOH LIEM dimulai pukul berapa sampai jam berapa?",
+            "answer": "ASEM-ASEM KOH LIEM siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 20 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 20"
+            ]
+        },
+        {
+            "id": "QA21",
+            "question": "Halo, saya ingin bertanya, apakah ASEM-ASEM KOH LIEM memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, ASEM-ASEM KOH LIEM dikenal karena berdiri sejak tahun 1950-an dan menjadi legenda kuliner Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 21 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 21"
+            ]
+        },
+        {
+            "id": "QA22",
+            "question": "Halo, saya ingin bertanya, fasilitas pendukung apa saja yang disediakan oleh ASEM-ASEM KOH LIEM untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di ASEM-ASEM KOH LIEM sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta warung legendaris sederhana namun selalu ramai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 22 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 22"
+            ]
+        },
+        {
+            "id": "QA23",
+            "question": "Halo, saya ingin bertanya, apakah suasana di ASEM-ASEM KOH LIEM cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena ASEM-ASEM KOH LIEM menawarkan warung legendaris sederhana namun selalu ramai yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 23 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 23"
+            ]
+        },
+        {
+            "id": "QA24",
+            "question": "Halo, saya ingin bertanya, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di ASEM-ASEM KOH LIEM?",
+            "answer": "Sebagai pelengkap, ASEM-ASEM KOH LIEM juga menyediakan kikil, sate empal, dan bandeng yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 24 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 24"
+            ]
+        },
+        {
+            "id": "QA25",
+            "question": "Halo, saya ingin bertanya, apakah lokasi ASEM-ASEM KOH LIEM dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, ASEM-ASEM KOH LIEM berada di dekat Kawasan Pecinan / Semarang Tengah, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 25 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 25"
+            ]
+        },
+        {
+            "id": "QA26",
+            "question": "Halo, saya ingin bertanya, apakah ASEM-ASEM KOH LIEM menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan ASEM-ASEM KOH LIEM sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 26 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 26"
+            ]
+        },
+        {
+            "id": "QA27",
+            "question": "Halo, saya ingin bertanya, bagaimana cara terbaik menuju ASEM-ASEM KOH LIEM jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah dengan berkendara sekitar sekitar 12-14 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 27 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 27"
+            ]
+        },
+        {
+            "id": "QA28",
+            "question": "Halo, saya ingin bertanya, apakah restoran atau tempat ASEM-ASEM KOH LIEM ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 28 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 28"
+            ]
+        },
+        {
+            "id": "QA29",
+            "question": "Halo, saya ingin bertanya, adakah rekomendasi waktu terbaik untuk berkunjung ke ASEM-ASEM KOH LIEM?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 29 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 29"
+            ]
+        },
+        {
+            "id": "QA30",
+            "question": "Halo, saya ingin bertanya, apakah tersedia area khusus indoor maupun outdoor di ASEM-ASEM KOH LIEM?",
+            "answer": "Tergantung pada zona area tempatnya, ASEM-ASEM KOH LIEM menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 30 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 30"
+            ]
+        },
+        {
+            "id": "QA31",
+            "question": "Halo, saya ingin bertanya, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di ASEM-ASEM KOH LIEM?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 31 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 31"
+            ]
+        },
+        {
+            "id": "QA32",
+            "question": "Halo, saya ingin bertanya, apakah staf atau pelayan di ASEM-ASEM KOH LIEM sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di ASEM-ASEM KOH LIEM terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 32 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 32"
+            ]
+        },
+        {
+            "id": "QA33",
+            "question": "Bisa jelaskan kepada saya, dimana persisnya alamat dari ASEM-ASEM KOH LIEM jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi ASEM-ASEM KOH LIEM beralamat di Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 33 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 33"
+            ]
+        },
+        {
+            "id": "QA34",
+            "question": "Bisa jelaskan kepada saya, apa menu kuliner andalan yang wajib dicoba saat mampir ke ASEM-ASEM KOH LIEM?",
+            "answer": "Menu primadona yang paling diincar pengunjung di ASEM-ASEM KOH LIEM adalah asem-asem daging sapi dengan kuah segar asam manis gurih.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 34 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 34"
+            ]
+        },
+        {
+            "id": "QA35",
+            "question": "Bisa jelaskan kepada saya, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju ASEM-ASEM KOH LIEM?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke ASEM-ASEM KOH LIEM adalah sekitar 12-14 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 35 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 35"
+            ]
+        },
+        {
+            "id": "QA36",
+            "question": "Bisa jelaskan kepada saya, jam operasional harian ASEM-ASEM KOH LIEM dimulai pukul berapa sampai jam berapa?",
+            "answer": "ASEM-ASEM KOH LIEM siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 36 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 36"
+            ]
+        },
+        {
+            "id": "QA37",
+            "question": "Bisa jelaskan kepada saya, apakah ASEM-ASEM KOH LIEM memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, ASEM-ASEM KOH LIEM dikenal karena berdiri sejak tahun 1950-an dan menjadi legenda kuliner Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 37 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 37"
+            ]
+        },
+        {
+            "id": "QA38",
+            "question": "Bisa jelaskan kepada saya, fasilitas pendukung apa saja yang disediakan oleh ASEM-ASEM KOH LIEM untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di ASEM-ASEM KOH LIEM sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta warung legendaris sederhana namun selalu ramai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 38 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 38"
+            ]
+        },
+        {
+            "id": "QA39",
+            "question": "Bisa jelaskan kepada saya, apakah suasana di ASEM-ASEM KOH LIEM cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena ASEM-ASEM KOH LIEM menawarkan warung legendaris sederhana namun selalu ramai yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 39 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 39"
+            ]
+        },
+        {
+            "id": "QA40",
+            "question": "Bisa jelaskan kepada saya, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di ASEM-ASEM KOH LIEM?",
+            "answer": "Sebagai pelengkap, ASEM-ASEM KOH LIEM juga menyediakan kikil, sate empal, dan bandeng yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 40 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 40"
+            ]
+        },
+        {
+            "id": "QA41",
+            "question": "Bisa jelaskan kepada saya, apakah lokasi ASEM-ASEM KOH LIEM dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, ASEM-ASEM KOH LIEM berada di dekat Kawasan Pecinan / Semarang Tengah, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 41 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 41"
+            ]
+        },
+        {
+            "id": "QA42",
+            "question": "Bisa jelaskan kepada saya, apakah ASEM-ASEM KOH LIEM menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan ASEM-ASEM KOH LIEM sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 42 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 42"
+            ]
+        },
+        {
+            "id": "QA43",
+            "question": "Bisa jelaskan kepada saya, bagaimana cara terbaik menuju ASEM-ASEM KOH LIEM jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah dengan berkendara sekitar sekitar 12-14 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 43 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 43"
+            ]
+        },
+        {
+            "id": "QA44",
+            "question": "Bisa jelaskan kepada saya, apakah restoran atau tempat ASEM-ASEM KOH LIEM ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 44 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 44"
+            ]
+        },
+        {
+            "id": "QA45",
+            "question": "Bisa jelaskan kepada saya, adakah rekomendasi waktu terbaik untuk berkunjung ke ASEM-ASEM KOH LIEM?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 45 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 45"
+            ]
+        },
+        {
+            "id": "QA46",
+            "question": "Bisa jelaskan kepada saya, apakah tersedia area khusus indoor maupun outdoor di ASEM-ASEM KOH LIEM?",
+            "answer": "Tergantung pada zona area tempatnya, ASEM-ASEM KOH LIEM menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 46 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 46"
+            ]
+        },
+        {
+            "id": "QA47",
+            "question": "Bisa jelaskan kepada saya, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di ASEM-ASEM KOH LIEM?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 47 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 47"
+            ]
+        },
+        {
+            "id": "QA48",
+            "question": "Bisa jelaskan kepada saya, apakah staf atau pelayan di ASEM-ASEM KOH LIEM sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di ASEM-ASEM KOH LIEM terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 48 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 48"
+            ]
+        },
+        {
+            "id": "QA49",
+            "question": "Tolong infokan, dimana persisnya alamat dari ASEM-ASEM KOH LIEM jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi ASEM-ASEM KOH LIEM beralamat di Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 49 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 49"
+            ]
+        },
+        {
+            "id": "QA50",
+            "question": "Tolong infokan, apa menu kuliner andalan yang wajib dicoba saat mampir ke ASEM-ASEM KOH LIEM?",
+            "answer": "Menu primadona yang paling diincar pengunjung di ASEM-ASEM KOH LIEM adalah asem-asem daging sapi dengan kuah segar asam manis gurih.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 50 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 50"
+            ]
+        },
+        {
+            "id": "QA51",
+            "question": "Tolong infokan, kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju ASEM-ASEM KOH LIEM?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke ASEM-ASEM KOH LIEM adalah sekitar 12-14 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 51 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 51"
+            ]
+        },
+        {
+            "id": "QA52",
+            "question": "Tolong infokan, jam operasional harian ASEM-ASEM KOH LIEM dimulai pukul berapa sampai jam berapa?",
+            "answer": "ASEM-ASEM KOH LIEM siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 52 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 52"
+            ]
+        },
+        {
+            "id": "QA53",
+            "question": "Tolong infokan, apakah ASEM-ASEM KOH LIEM memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, ASEM-ASEM KOH LIEM dikenal karena berdiri sejak tahun 1950-an dan menjadi legenda kuliner Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 53 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 53"
+            ]
+        },
+        {
+            "id": "QA54",
+            "question": "Tolong infokan, fasilitas pendukung apa saja yang disediakan oleh ASEM-ASEM KOH LIEM untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di ASEM-ASEM KOH LIEM sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta warung legendaris sederhana namun selalu ramai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 54 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 54"
+            ]
+        },
+        {
+            "id": "QA55",
+            "question": "Tolong infokan, apakah suasana di ASEM-ASEM KOH LIEM cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena ASEM-ASEM KOH LIEM menawarkan warung legendaris sederhana namun selalu ramai yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 55 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 55"
+            ]
+        },
+        {
+            "id": "QA56",
+            "question": "Tolong infokan, selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di ASEM-ASEM KOH LIEM?",
+            "answer": "Sebagai pelengkap, ASEM-ASEM KOH LIEM juga menyediakan kikil, sate empal, dan bandeng yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 56 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 56"
+            ]
+        },
+        {
+            "id": "QA57",
+            "question": "Tolong infokan, apakah lokasi ASEM-ASEM KOH LIEM dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, ASEM-ASEM KOH LIEM berada di dekat Kawasan Pecinan / Semarang Tengah, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 57 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 57"
+            ]
+        },
+        {
+            "id": "QA58",
+            "question": "Tolong infokan, apakah ASEM-ASEM KOH LIEM menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan ASEM-ASEM KOH LIEM sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 58 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 58"
+            ]
+        },
+        {
+            "id": "QA59",
+            "question": "Tolong infokan, bagaimana cara terbaik menuju ASEM-ASEM KOH LIEM jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah dengan berkendara sekitar sekitar 12-14 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 59 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 59"
+            ]
+        },
+        {
+            "id": "QA60",
+            "question": "Tolong infokan, apakah restoran atau tempat ASEM-ASEM KOH LIEM ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 60 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 60"
+            ]
+        },
+        {
+            "id": "QA61",
+            "question": "Tolong infokan, adakah rekomendasi waktu terbaik untuk berkunjung ke ASEM-ASEM KOH LIEM?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 61 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 61"
+            ]
+        },
+        {
+            "id": "QA62",
+            "question": "Tolong infokan, apakah tersedia area khusus indoor maupun outdoor di ASEM-ASEM KOH LIEM?",
+            "answer": "Tergantung pada zona area tempatnya, ASEM-ASEM KOH LIEM menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 62 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 62"
+            ]
+        },
+        {
+            "id": "QA63",
+            "question": "Tolong infokan, bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di ASEM-ASEM KOH LIEM?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 63 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 63"
+            ]
+        },
+        {
+            "id": "QA64",
+            "question": "Tolong infokan, apakah staf atau pelayan di ASEM-ASEM KOH LIEM sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di ASEM-ASEM KOH LIEM terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 64 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 64"
+            ]
+        },
+        {
+            "id": "QA65",
+            "question": "Bagaimana detail mengenai dimana persisnya alamat dari ASEM-ASEM KOH LIEM jika saya ingin berkunjung dari Goa Kreo?",
+            "answer": "Lokasi ASEM-ASEM KOH LIEM beralamat di Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah, yang dapat diakses dengan mudah setelah puas berwisata di Goa Kreo.",
+            "aliases": [
+                "alamat {loc}",
+                "letak {loc}",
+                "dimana {loc}",
+                "tanya 65 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "alamat",
+                "lokasi",
+                "{loc}",
+                "info 65"
+            ]
+        },
+        {
+            "id": "QA66",
+            "question": "Bagaimana detail mengenai apa menu kuliner andalan yang wajib dicoba saat mampir ke ASEM-ASEM KOH LIEM?",
+            "answer": "Menu primadona yang paling diincar pengunjung di ASEM-ASEM KOH LIEM adalah asem-asem daging sapi dengan kuah segar asam manis gurih.",
+            "aliases": [
+                "menu andalan {loc}",
+                "makanan favorit {loc}",
+                "kuliner {loc}",
+                "tanya 66 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu",
+                "andalan",
+                "kuliner",
+                "{loc}",
+                "info 66"
+            ]
+        },
+        {
+            "id": "QA67",
+            "question": "Bagaimana detail mengenai kira-kira berapa lama waktu tempuh perjalanan dari objek wisata Goa Kreo menuju ASEM-ASEM KOH LIEM?",
+            "answer": "Jarak perjalanan darat dari kawasan wisata alam Goa Kreo ke ASEM-ASEM KOH LIEM adalah sekitar 12-14 kilometer dari Goa Kreo, dengan waktu tempuh sekitar 30-40 menit.",
+            "aliases": [
+                "jarak goa kreo ke {loc}",
+                "rute ke {loc} dari goa kreo",
+                "tanya 67 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jarak",
+                "goa kreo",
+                "rute",
+                "{loc}",
+                "info 67"
+            ]
+        },
+        {
+            "id": "QA68",
+            "question": "Bagaimana detail mengenai jam operasional harian ASEM-ASEM KOH LIEM dimulai pukul berapa sampai jam berapa?",
+            "answer": "ASEM-ASEM KOH LIEM siap melayani para wisatawan setiap hari mulai pagi hingga malam hari sesuai jam operasional reguler.",
+            "aliases": [
+                "jam buka {loc}",
+                "jam operasional {loc}",
+                "kapan tutup {loc}",
+                "tanya 68 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "jam buka",
+                "operasional",
+                "{loc}",
+                "info 68"
+            ]
+        },
+        {
+            "id": "QA69",
+            "question": "Bagaimana detail mengenai apakah ASEM-ASEM KOH LIEM memiliki sejarah atau keunikan tersendiri sebagai destinasi di Semarang?",
+            "answer": "Tentu, ASEM-ASEM KOH LIEM dikenal karena berdiri sejak tahun 1950-an dan menjadi legenda kuliner Semarang yang menjadi daya tarik tersendiri bagi wisatawan.",
+            "aliases": [
+                "sejarah {loc}",
+                "keunikan {loc}",
+                "latar belakang {loc}",
+                "tanya 69 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "sejarah",
+                "keunikan",
+                "{loc}",
+                "info 69"
+            ]
+        },
+        {
+            "id": "QA70",
+            "question": "Bagaimana detail mengenai fasilitas pendukung apa saja yang disediakan oleh ASEM-ASEM KOH LIEM untuk kenyamanan pengunjung?",
+            "answer": "Fasilitas di ASEM-ASEM KOH LIEM sangat memadai meliputi area parkir kendaraan, tempat duduk yang nyaman, serta warung legendaris sederhana namun selalu ramai.",
+            "aliases": [
+                "fasilitas {loc}",
+                "parkir {loc}",
+                "kenyamanan {loc}",
+                "tanya 70 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "fasilitas",
+                "parkir",
+                "{loc}",
+                "info 70"
+            ]
+        },
+        {
+            "id": "QA71",
+            "question": "Bagaimana detail mengenai apakah suasana di ASEM-ASEM KOH LIEM cocok dijadikan tempat bersantai setelah lelah menjelajahi Goa Kreo?",
+            "answer": "Sangat cocok, karena ASEM-ASEM KOH LIEM menawarkan warung legendaris sederhana namun selalu ramai yang membuat pengunjung merasa rileks.",
+            "aliases": [
+                "suasana {loc}",
+                "ambience {loc}",
+                "tempat santai {loc}",
+                "tanya 71 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "suasana",
+                "santai",
+                "{loc}",
+                "info 71"
+            ]
+        },
+        {
+            "id": "QA72",
+            "question": "Bagaimana detail mengenai selain menu utamanya, apa saja pilihan lauk pendamping atau hidangan lain di ASEM-ASEM KOH LIEM?",
+            "answer": "Sebagai pelengkap, ASEM-ASEM KOH LIEM juga menyediakan kikil, sate empal, dan bandeng yang tidak kalah lezat.",
+            "aliases": [
+                "menu pendamping {loc}",
+                "lauk tambahan {loc}",
+                "pilihan lain {loc}",
+                "tanya 72 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "menu pendamping",
+                "lauk",
+                "{loc}",
+                "info 72"
+            ]
+        },
+        {
+            "id": "QA73",
+            "question": "Bagaimana detail mengenai apakah lokasi ASEM-ASEM KOH LIEM dekat dengan landmark atau kawasan terkenal di Semarang?",
+            "answer": "Ya, ASEM-ASEM KOH LIEM berada di dekat Kawasan Pecinan / Semarang Tengah, sehingga sangat mudah ditemukan oleh pendatang luar kota.",
+            "aliases": [
+                "patokan {loc}",
+                "landmark dekat {loc}",
+                "kawasan {loc}",
+                "tanya 73 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "landmark",
+                "kawasan",
+                "{loc}",
+                "info 73"
+            ]
+        },
+        {
+            "id": "QA74",
+            "question": "Bagaimana detail mengenai apakah ASEM-ASEM KOH LIEM menjadi salah satu rekomendasi kuliner favorit wisatawan setelah dari Goa Kreo?",
+            "answer": "Betul sekali, banyak wisatawan yang menjadikan ASEM-ASEM KOH LIEM sebagai agenda wajib wisata kuliner usai mengunjungi Goa Kreo.",
+            "aliases": [
+                "rekomendasi {loc}",
+                "kuliner wajib semarang",
+                "tempat makan setelah goa kreo",
+                "tanya 74 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rekomendasi",
+                "kuliner",
+                "wisata",
+                "{loc}",
+                "info 74"
+            ]
+        },
+        {
+            "id": "QA75",
+            "question": "Bagaimana detail mengenai bagaimana cara terbaik menuju ASEM-ASEM KOH LIEM jika berangkat dari arah waduk Jatibarang / Goa Kreo?",
+            "answer": "Anda dapat mengikuti jalur utama perkotaan Semarang mengarah ke Jl. Karang Anyar No.28-A, Gabahan, Kec. Semarang Tengah dengan berkendara sekitar sekitar 12-14 kilometer dari Goa Kreo.",
+            "aliases": [
+                "petunjuk jalan {loc}",
+                "rute kendaraan ke {loc}",
+                "tanya 75 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "petunjuk",
+                "rute",
+                "perjalanan",
+                "{loc}",
+                "info 75"
+            ]
+        },
+        {
+            "id": "QA76",
+            "question": "Bagaimana detail mengenai apakah restoran atau tempat ASEM-ASEM KOH LIEM ramah untuk acara keluarga besar atau rombongan?",
+            "answer": "Sangat ramah dan mengakomodasi rombongan, didukung dengan kapasitas tempat yang luas dan pelayanan yang ramah.",
+            "aliases": [
+                "acara keluarga {loc}",
+                "rombongan di {loc}",
+                "tempat luas {loc}",
+                "tanya 76 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "keluarga",
+                "rombongan",
+                "luas",
+                "{loc}",
+                "info 76"
+            ]
+        },
+        {
+            "id": "QA77",
+            "question": "Bagaimana detail mengenai adakah rekomendasi waktu terbaik untuk berkunjung ke ASEM-ASEM KOH LIEM?",
+            "answer": "Waktu paling ideal adalah saat jam makan siang atau sore menjelang malam hari untuk menikmati suasana terbaiknya.",
+            "aliases": [
+                "waktu berkunjung {loc}",
+                "kapan waktu terbaik ke {loc}",
+                "tanya 77 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "waktu",
+                "kunjungan",
+                "terbaik",
+                "{loc}",
+                "info 77"
+            ]
+        },
+        {
+            "id": "QA78",
+            "question": "Bagaimana detail mengenai apakah tersedia area khusus indoor maupun outdoor di ASEM-ASEM KOH LIEM?",
+            "answer": "Tergantung pada zona area tempatnya, ASEM-ASEM KOH LIEM menyediakan pilihan tempat duduk yang nyaman bagi para tamu.",
+            "aliases": [
+                "indoor outdoor {loc}",
+                "pilihan tempat duduk {loc}",
+                "tanya 78 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "indoor",
+                "outdoor",
+                "tempat duduk",
+                "{loc}",
+                "info 78"
+            ]
+        },
+        {
+            "id": "QA79",
+            "question": "Bagaimana detail mengenai bagaimana kesan atau cita rasa yang ditawarkan oleh hidangan di ASEM-ASEM KOH LIEM?",
+            "answer": "Hidangan di sini terkenal memiliki cita rasa yang kuat, lezat, autentik, dan konsisten menjaga kualitas resep turun-temurun.",
+            "aliases": [
+                "rasa makanan {loc}",
+                "cita rasa {loc}",
+                "tanya 79 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "rasa",
+                "cita rasa",
+                "autentik",
+                "{loc}",
+                "info 79"
+            ]
+        },
+        {
+            "id": "QA80",
+            "question": "Bagaimana detail mengenai apakah staf atau pelayan di ASEM-ASEM KOH LIEM sigap dalam melayani tamu yang datang?",
+            "answer": "Ya, pelayanan di ASEM-ASEM KOH LIEM terkenal profesional, ramah, dan sigap membantu kebutuhan pengunjung.",
+            "aliases": [
+                "pelayanan {loc}",
+                "service {loc}",
+                "tanya 80 asem",
+                "asem koh liem"
+            ],
+            "keywords": [
+                "pelayanan",
+                "service",
+                "ramah",
+                "{loc}",
+                "info 80"
+            ]
+        }
+    ]
+}

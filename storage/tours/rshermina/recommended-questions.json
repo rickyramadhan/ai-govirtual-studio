@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "rshermina",
+    "tourName": "Rshermina",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Jadwal Dokter Kandungan",
+                "query": "Di mana saya bisa melihat jadwal praktik dokter spesialis kandungan (obgyn) hari ini?",
+                "desc": "Di mana saya bisa melihat jadwal praktik dokter spesialis kandungan (obgyn) hari ini?"
+            },
+            {
+                "label": "Pendaftaran BPJS",
+                "query": "Bagaimana alur pendaftaran pasien rawat jalan yang ingin menggunakan layanan BPJS Kesehatan?",
+                "desc": "Bagaimana alur pendaftaran pasien rawat jalan yang ingin menggunakan layanan BPJS Kesehatan?"
+            },
+            {
+                "label": "Fasilitas Bermain Anak",
+                "query": "Apakah ada area bermain khusus di ruang tunggu poli anak untuk mengurangi kecemasan pasien kecil?",
+                "desc": "Apakah ada area bermain khusus di ruang tunggu poli anak untuk mengurangi kecemasan pasien kecil?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Fokus Ibu & Anak",
+                "query": "Bagaimana RS Hermina Banyumanik mempertahankan keunggulannya sebagai rumah sakit rujukan utama untuk kesehatan ibu dan anak?"
+            },
+            {
+                "label": "Fasilitas NICU & PICU",
+                "query": "Bagaimana kelengkapan fasilitas dan peralatan medis di unit perawatan intensif neonatus (NICU) dan anak (PICU)?"
+            },
+            {
+                "label": "Layanan Persalinan ERACS",
+                "query": "Bagaimana prosedur dan kenyamanan metode persalinan minim rasa sakit (ERACS) yang diterapkan di rumah sakit ini?"
+            },
+            {
+                "label": "Poliklinik Tumbuh Kembang",
+                "query": "Apa saja program dan terapi yang tersedia di klinik tumbuh kembang untuk memantau kesehatan anak secara optimal?"
+            },
+            {
+                "label": "Kamar Rawat Inap VIP",
+                "query": "Fasilitas tambahan apa saja yang membedakan kenyamanan ruang rawat inap kelas VIP dibandingkan kelas lainnya?"
+            },
+            {
+                "label": "Layanan Gawat Darurat",
+                "query": "Bagaimana kesiapan tim medis spesialis di Instalasi Gawat Darurat (IGD) dalam merespons kondisi krisis pasien 24 jam?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Rshermina?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Rshermina?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Rshermina?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

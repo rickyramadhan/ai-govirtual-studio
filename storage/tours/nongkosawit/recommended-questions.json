@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "nongkosawit",
+    "tourName": "Nongkosawit",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Ada penginapan atau homestay?",
+                "query": "Apakah pengunjung bisa menginap di homestay milik warga untuk merasakan suasana pedesaan?",
+                "desc": "Apakah pengunjung bisa menginap di homestay milik warga untuk merasakan suasana pedesaan?"
+            },
+            {
+                "label": "Aktivitas yang wajib dicoba?",
+                "query": "Apa satu aktivitas tradisional warga yang paling direkomendasikan untuk diikuti oleh wisatawan?",
+                "desc": "Apa satu aktivitas tradisional warga yang paling direkomendasikan untuk diikuti oleh wisatawan?"
+            },
+            {
+                "label": "Apa makanan khas Nongko Sawit?",
+                "query": "Apa makanan tradisional yang wajib dicicipi dan sering disajikan di Desa Wisata Nongko Sawit?",
+                "desc": "Apa makanan tradisional yang wajib dicicipi dan sering disajikan di Desa Wisata Nongko Sawit?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Pesona Tradisi Lokal",
+                "query": "Bagaimana keunikan adat istiadat dan kehidupan sehari-hari warga lokal yang masih kental di Desa Wisata Nongko Sawit?"
+            },
+            {
+                "label": "Kerajinan Tangan",
+                "query": "Sebutkan berbagai jenis produk kerajinan tangan khas buatan warga desa yang bisa dijadikan suvenir!"
+            },
+            {
+                "label": "Edukasi Pertanian",
+                "query": "Seperti apa pengalaman wisata edukasi bertani dan turun langsung ke sawah yang disediakan untuk wisatawan?"
+            },
+            {
+                "label": "Kesenian Tari Tradisional",
+                "query": "Kesenian lokal atau pertunjukan tari tradisional apa saja yang biasanya disuguhkan untuk menyambut tamu?"
+            },
+            {
+                "label": "Kuliner Khas Pedesaan",
+                "query": "Sebutkan olahan makanan tradisional yang menjadi menu andalan dan identitas kuliner Desa Wisata Nongko Sawit!"
+            },
+            {
+                "label": "Pelestarian Alam",
+                "query": "Bagaimana inisiatif warga desa dalam melestarikan lingkungan alam sekitar agar tetap asri dan hijau?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Nongkosawit?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Nongkosawit?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Nongkosawit?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

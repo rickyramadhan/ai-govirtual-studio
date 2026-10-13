@@ -2,49 +2,49 @@
     "version": "1.0",
     "tourId": "stasiun-tawang",
     "tourName": "Stasiun Tawang",
-    "updatedAt": "2026-08-29T07:22:54+02:00",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
     "state1": {
         "starters": [
             {
-                "label": "Lokomotif Fried Krupp",
-                "query": "Bagaimana sejarah Lokomotif Fried Krupp D 301 59 yang dipajang di depan Stasiun Tawang?",
-                "desc": "Bagaimana sejarah Lokomotif Fried Krupp D 301 59 yang dipajang di depan Stasiun Tawang?"
+                "label": "Bel Stasiun",
+                "query": "Kenapa lagu Gambang Semarang dipilih sebagai nada kedatangan kereta di sini?",
+                "desc": "Kenapa lagu Gambang Semarang dipilih sebagai nada kedatangan kereta di sini?"
             },
             {
-                "label": "Fasilitas Ruang Luxury",
-                "query": "Apa saja fasilitas eksklusif yang bisa dinikmati di Layanan Ruang Luxury Stasiun Tawang?",
-                "desc": "Apa saja fasilitas eksklusif yang bisa dinikmati di Layanan Ruang Luxury Stasiun Tawang?"
+                "label": "Fungsi Polder",
+                "query": "Apa fungsi utama dari danau atau polder yang ada di depan stasiun ini?",
+                "desc": "Apa fungsi utama dari danau atau polder yang ada di depan stasiun ini?"
             },
             {
-                "label": "KAI Terrace",
-                "query": "Ada apa saja di KAI Terrace Stasiun Tawang?",
-                "desc": "Ada apa saja di KAI Terrace Stasiun Tawang?"
+                "label": "Monumen Lokomotif",
+                "query": "Apa jenis lokomotif bersejarah yang dipajang di area luar stasiun?",
+                "desc": "Apa jenis lokomotif bersejarah yang dipajang di area luar stasiun?"
             }
         ],
         "themes": [
             {
-                "label": "Lokomotif Sejarah",
-                "query": "Ceritakan tentang monumen Lokomotif Fried Krupp D 301 59 di Stasiun Tawang."
+                "label": "Stasiun Tertua NISM",
+                "query": "Bagaimana sejarah Stasiun Tawang sebagai salah satu stasiun tertua peninggalan NISM?"
             },
             {
-                "label": "Ruang Luxury",
-                "query": "Bagaimana suasana dan fasilitas di Ruang Tunggu Luxury Stasiun Tawang?"
+                "label": "Arsitektur Megah",
+                "query": "Jelaskan detail arsitektur megah bergaya Indische Empire pada bangunan utama stasiun."
             },
             {
-                "label": "KAI Terrace",
-                "query": "Di mana letak KAI Terrace dan apa saja yang bisa dinikmati di area semi-terbuka ini?"
+                "label": "Lagu Gambang Semarang",
+                "query": "Mengapa bel kedatangan kereta di stasiun ini selalu memutar nada Gambang Semarang?"
             },
             {
-                "label": "Area Ticketing",
-                "query": "Bagaimana cara menuju Ruang Loket & Layanan Pelanggan di stasiun ini?"
+                "label": "Penanganan Banjir",
+                "query": "Bagaimana rekayasa teknis dan polder yang dibuat untuk mengatasi banjir di area stasiun?"
             },
             {
-                "label": "Spot Drone Tawang",
-                "query": "Bagaimana pemandangan Stasiun Tawang jika dilihat dari sudut pandang Drone Tawang?"
+                "label": "Layanan Eksekutif",
+                "query": "Apa saja rute kereta kelas eksekutif dan bisnis yang berpusat di Stasiun Tawang?"
             },
             {
-                "label": "Jam Operasional",
-                "query": "Kapan waktu terbaik dan jam kunjungan operasional untuk menjelajahi Stasiun Tawang?"
+                "label": "Monumen & Polder",
+                "query": "Ceritakan tentang monumen lokomotif dan keindahan Polder Tawang di depan stasiun."
             }
         ]
     },

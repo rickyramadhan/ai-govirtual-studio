@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "uinwalisongo",
+    "tourName": "Uinwalisongo",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Lokasi 3 Kampus",
+                "query": "Di mana saja letak Kampus 1, 2, dan 3 UIN Walisongo di kawasan Ngaliyan?",
+                "desc": "Di mana saja letak Kampus 1, 2, dan 3 UIN Walisongo di kawasan Ngaliyan?"
+            },
+            {
+                "label": "Program Studi Umum",
+                "query": "Apakah UIN Walisongo juga membuka program studi umum seperti gizi, psikologi, dan teknologi informasi?",
+                "desc": "Apakah UIN Walisongo juga membuka program studi umum seperti gizi, psikologi, dan teknologi informasi?"
+            },
+            {
+                "label": "Kunjungan Planetarium",
+                "query": "Apakah masyarakat umum bisa mendaftar untuk melihat pertunjukan antariksa di Planetarium UIN?",
+                "desc": "Apakah masyarakat umum bisa mendaftar untuk melihat pertunjukan antariksa di Planetarium UIN?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Kampus Kemanusiaan & Peradaban",
+                "query": "Bagaimana visi UIN Walisongo dalam memadukan ilmu sains modern dengan nilai-nilai agama Islam secara harmonis?"
+            },
+            {
+                "label": "Sejarah Nama Walisongo",
+                "query": "Apa makna filosofis penggunaan nama Walisongo sebagai identitas universitas Islam negeri terbesar di Jawa Tengah ini?"
+            },
+            {
+                "label": "Planetarium & Observatorium",
+                "query": "Bagaimana fasilitas Planetarium UIN Walisongo digunakan untuk edukasi astronomi dan penentuan awal bulan Hijriah?"
+            },
+            {
+                "label": "Pusat Pengembangan Bahasa",
+                "query": "Fasilitas dan program apa saja yang disediakan kampus untuk meningkatkan kemampuan bahasa Arab dan Inggris mahasiswa?"
+            },
+            {
+                "label": "Perpustakaan & Islamic Center",
+                "query": "Bagaimana kelengkapan literatur di perpustakaan pusat dan peran strategis Islamic Center bagi sivitas akademika?"
+            },
+            {
+                "label": "Ma'had Al-Jami'ah",
+                "query": "Bagaimana program pembinaan karakter, kajian kitab, dan kegiatan asrama (Ma'had) bagi mahasiswa baru?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Uinwalisongo?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Uinwalisongo?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Uinwalisongo?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

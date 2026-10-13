@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "tourId": "wingkobabad",
+    "tourName": "Wingkobabad",
+    "updatedAt": "2026-09-29T09:52:57+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Toko Wingko Babat – Fasad Toko Wingko Babat"
+        },
+        "node2": {
+            "displayName": "Toko Wingko Babat – Pintu Toko Wingko Babat"
+        },
+        "node3": {
+            "displayName": "Toko Wingko Babat – Etalase Oleh-Oleh"
+        },
+        "node4": {
+            "displayName": "Toko Wingko Babat – Ruang Belanja Wingko"
+        },
+        "node5": {
+            "displayName": "Toko Wingko Babat – Teras Tunggu Toko"
+        }
+    }
+}

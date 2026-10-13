@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "ciputramall",
+    "updatedAt": "2026-09-29T06:34:23+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Ciputra Mall Semarang",
+            "aliases": [
+                "ciputra mall semarang"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "ciputramall"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Ciputra Mall Semarang.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Ciputra Mall Semarang",
+                    "content": "Pusat pengalaman virtual untuk Ciputra Mall Semarang."
+                },
+                "en": {
+                    "title": "Ciputra Mall Semarang",
+                    "content": "Pusat pengalaman virtual untuk Ciputra Mall Semarang."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Drone Indoor",
+            "aliases": [
+                "drone indoor"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "ciputramall"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Indoor",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Drone Indoor",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Drone Indoor",
+            "aliases": [
+                "drone indoor"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "ciputramall"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Drone Indoor",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Drone Indoor",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "ciputramall"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1158",
+            "entityId": "objinfo2:1158",
+            "title": "XXI",
+            "aliases": [
+                "xxi",
+                "objek 1158"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sebuah fasilitas hiburan yang menjadi salah satu destinasi utama bagi para pencinta film di Kota Semarang. Lobi ini memiliki desain modern yang khas dengan pencahayaan hangat serta langit-langit berornamen geometris, serta letaknya yang strategis menghadap langsung ke arah atrium mal sehingga memberikan pandangan terbuka ke lantai-lantai di bawahnya.",
+            "source": "webview-import",
+            "sourceId": "1158",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "XXI",
+                    "content": "Sebuah fasilitas hiburan yang menjadi salah satu destinasi utama bagi para pencinta film di Kota Semarang. Lobi ini memiliki desain modern yang khas dengan pencahayaan hangat serta langit-langit berornamen geometris, serta letaknya yang strategis menghadap langsung ke arah atrium mal sehingga memberikan pandangan terbuka ke lantai-lantai di bawahnya."
+                },
+                "en": {
+                    "title": "XXI",
+                    "content": "An entertainment facility that serves as one of the main destinations for movie lovers in Semarang. The lobby features a distinctive modern design with warm lighting and geometrically patterned ceilings, strategically positioned to face the mall atrium, providing an open view of the floors below."
+                },
+                "zh": {
+                    "title": "XXI",
+                    "content": "这是一个娱乐设施，是三宝垄电影爱好者的主要目的地之一。大堂拥有独特的现代设计，配有温暖照明和几何图案天花板，位置优越，面向购物中心中庭，可俯瞰下方各层。"
+                },
+                "ar": {
+                    "title": "XXI",
+                    "content": "مرفق ترفيهي يُعد أحد الوجهات الرئيسية لعشاق السينما في سيمارانغ. تتميز الردهة بتصميم حديث مميز مع إضاءة دافئة وسقوف مزخرفة هندسيًا، وتقع بشكل استراتيجي مواجهة لبهو المركز التجاري، مما يوفر رؤية مفتوحة للطوابق السفلية."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1159",
+            "entityId": "objinfo2:1159",
+            "title": "Robinson",
+            "aliases": [
+                "robinson",
+                "objek 1159"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Robinson Department Store merupakan salah satu tenant utama yang berlokasi di Mal Ciputra Semarang (juga dikenal sebagai Mal Citraland), tepatnya di Lantai 1 dan Lantai 2. Toko ini dikenal sebagai destinasi belanja yang menawarkan berbagai kebutuhan mode dengan harga yang relatif terjangkau dan sering mengadakan program diskon, terutama pada musim liburan atau menjelang hari raya.",
+            "source": "webview-import",
+            "sourceId": "1159",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Robinson",
+                    "content": "Robinson Department Store merupakan salah satu tenant utama yang berlokasi di Mal Ciputra Semarang (juga dikenal sebagai Mal Citraland), tepatnya di Lantai 1 dan Lantai 2. Toko ini dikenal sebagai destinasi belanja yang menawarkan berbagai kebutuhan mode dengan harga yang relatif terjangkau dan sering mengadakan program diskon, terutama pada musim liburan atau menjelang hari raya."
+                },
+                "en": {
+                    "title": "Robinson",
+                    "content": "Robinson Department Store is one of the main tenants located at Mal Ciputra Semarang (also known as Mal Citraland), specifically on the 1st and 2nd floors. The store is known as a shopping destination offering a variety of fashion needs at relatively affordable prices and frequently holds discount programs, especially during holiday seasons or before major festive occasions."
+                },
+                "zh": {
+                    "title": "罗宾森",
+                    "content": "罗宾森百货是位于三宝垄 Ciputra 购物中心（也称为 Mal Citraland）的主要商户之一，具体位于一楼和二楼。该商店以提供各种时尚商品且价格相对实惠而闻名，并且经常举办折扣活动，尤其是在假期或重大节日前。"
+                },
+                "ar": {
+                    "title": "روبنسون",
+                    "content": "يعد متجر روبنسون من أبرز المتاجر في Mal Ciputra Semarang (المعروف أيضًا باسم Mal Citraland)، ويقع تحديدًا في الطابقين الأول والثاني. يُعرف المتجر كوجهة تسوق تقدم مجموعة متنوعة من احتياجات الموضة بأسعار معقولة نسبيًا، وغالبًا ما يقدم برامج خصم، خاصة خلال مواسم العطلات أو قبل الأعياد الكبرى."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1160",
+            "entityId": "objinfo2:1160",
+            "title": "Kids Box Jumbo",
+            "aliases": [
+                "kids box jumbo",
+                "objek 1160"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Tempat ini menjadi salah satu titik keramaian utama bagi orang tua yang ingin memberikan waktu rekreasi bagi anak-anak mereka sambil berbelanja di lingkungan mal yang nyaman. Dengan dekorasi menyerupai lelehan es krim dan balon-balon besar, area ini memberikan suasana yang ceria dan modern di tengah pusat perbelanjaan legendaris di Semarang tersebut.",
+            "source": "webview-import",
+            "sourceId": "1160",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Kids Box Jumbo",
+                    "content": "Tempat ini menjadi salah satu titik keramaian utama bagi orang tua yang ingin memberikan waktu rekreasi bagi anak-anak mereka sambil berbelanja di lingkungan mal yang nyaman. Dengan dekorasi menyerupai lelehan es krim dan balon-balon besar, area ini memberikan suasana yang ceria dan modern di tengah pusat perbelanjaan legendaris di Semarang tersebut."
+                },
+                "en": {
+                    "title": "Kids Box Jumbo",
+                    "content": "This place serves as one of the main attractions for parents who want to provide recreational time for their children while shopping in a comfortable mall environment. With decorations resembling melting ice cream and large balloons, the area creates a cheerful and modern atmosphere within this legendary shopping center in Semarang."
+                },
+                "zh": {
+                    "title": "儿童大号餐盒",
+                    "content": "这个地方成为父母带孩子在舒适的购物中心环境中娱乐同时购物的主要热点之一。区域装饰以融化的冰淇淋和大型气球为特色，为这座三宝垄传奇购物中心营造出欢快且现代的氛围。"
+                },
+                "ar": {
+                    "title": "صندوق الأطفال الكبير",
+                    "content": "يعد هذا المكان أحد نقاط الجذب الرئيسية للآباء الذين يرغبون في توفير وقت ترفيهي لأطفالهم أثناء التسوق في بيئة مركز تجاري مريحة. مع الزخارف التي تشبه الآيس كريم الذائب والبالونات الكبيرة، يوفر هذا المكان أجواءً مرحة وعصرية داخل هذا المركز التجاري الأسطوري في سيمارانغ."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1161",
+            "entityId": "objinfo2:1161",
+            "title": "Lobby",
+            "aliases": [
+                "lobby",
+                "objek 1161"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Area ini merupakan lantai dasar Mal Ciputra Semarang yang difungsikan sebagai koridor penghubung utama dengan akses langsung menuju area parkir dan jalan raya. Di lorong ini, pengunjung dapat menemukan berbagai gerai kuliner populer seperti restoran cepat saji HokBen dan area makan santai Fun Time yang menyatu dengan supermarket Gelael.",
+            "source": "webview-import",
+            "sourceId": "1161",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lobby",
+                    "content": "Area ini merupakan lantai dasar Mal Ciputra Semarang yang difungsikan sebagai koridor penghubung utama dengan akses langsung menuju area parkir dan jalan raya. Di lorong ini, pengunjung dapat menemukan berbagai gerai kuliner populer seperti restoran cepat saji HokBen dan area makan santai Fun Time yang menyatu dengan supermarket Gelael."
+                },
+                "en": {
+                    "title": "Lobby",
+                    "content": "This area is the ground floor of Mal Ciputra Semarang, serving as the main connecting corridor with direct access to the parking area and main road. Along this corridor, visitors can find popular dining outlets such as the fast-food restaurant HokBen and the casual dining area Fun Time, integrated with the Gelael supermarket."
+                },
+                "zh": {
+                    "title": "大堂",
+                    "content": "该区域是三宝垄 Ciputra 购物中心的一楼，作为通往停车场和主干道的主要连接走廊。在这条走廊上，游客可以找到受欢迎的餐饮店，如快餐店 HokBen 和与 Gelael 超市相连的休闲餐饮区 Fun Time。"
+                },
+                "ar": {
+                    "title": "الردهة",
+                    "content": "تعد هذه المنطقة الطابق الأرضي لمركز Mal Ciputra Semarang، وتعمل كممر رئيسي يربط مباشرة بمنطقة المواقف والطريق الرئيسي. على طول هذا الممر، يمكن للزوار العثور على منافذ طعام شهيرة مثل مطعم الوجبات السريعة HokBen ومنطقة تناول الطعام غير الرسمية Fun Time المرتبطة بسوبرماركت Gelael."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:1162",
+            "entityId": "objinfo2:1162",
+            "title": "Food Fair",
+            "aliases": [
+                "food fair",
+                "objek 1162"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Sebuah kawasan pusat kuliner populer yang menyajikan beragam pilihan hidangan lokal maupun internasional bagi para pengunjung. Sebagai area food court utama, tempat ini didesain dengan konsep terbuka yang luas dan nyaman, menjadikannya titik kumpul favorit bagi keluarga serta kaum muda yang ingin bersantap setelah berbelanja.",
+            "source": "webview-import",
+            "sourceId": "1162",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Food Fair",
+                    "content": "Sebuah kawasan pusat kuliner populer yang menyajikan beragam pilihan hidangan lokal maupun internasional bagi para pengunjung. Sebagai area food court utama, tempat ini didesain dengan konsep terbuka yang luas dan nyaman, menjadikannya titik kumpul favorit bagi keluarga serta kaum muda yang ingin bersantap setelah berbelanja."
+                },
+                "en": {
+                    "title": "Food Fair",
+                    "content": "A popular culinary hub offering a wide variety of local and international dishes for visitors. As the main food court area, it is designed with a spacious and open concept, making it a favorite gathering spot for families and young people looking to dine after shopping."
+                },
+                "zh": {
+                    "title": "美食集市",
+                    "content": "一个受欢迎的美食中心，为游客提供多种本地和国际美食。作为主要的美食广场区域，它采用宽敞开放的设计，是家庭和年轻人在购物后聚餐的热门地点。"
+                },
+                "ar": {
+                    "title": "معرض الطعام",
+                    "content": "مركز طعام شهير يقدم مجموعة متنوعة من الأطباق المحلية والدولية للزوار. باعتباره المنطقة الرئيسية لساحة الطعام، تم تصميمه بمفهوم مفتوح وواسع، مما يجعله نقطة تجمع مفضلة للعائلات والشباب الذين يرغبون في تناول الطعام بعد التسوق."
+                }
+            }
+        }
+    ]
+}

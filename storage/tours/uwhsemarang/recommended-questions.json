@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "uwhsemarang",
+    "tourName": "Uwhsemarang",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Pendaftaran Maba Kesehatan",
+                "query": "Bagaimana alur pendaftaran secara online untuk program studi D3 maupun S1 di kampus Widya Husada?",
+                "desc": "Bagaimana alur pendaftaran secara online untuk program studi D3 maupun S1 di kampus Widya Husada?"
+            },
+            {
+                "label": "Kelas Alih Jenjang",
+                "query": "Apakah tersedia program alih jenjang dari D3 ke S1 atau kelas ekstensi bagi perawat yang sudah bekerja?",
+                "desc": "Apakah tersedia program alih jenjang dari D3 ke S1 atau kelas ekstensi bagi perawat yang sudah bekerja?"
+            },
+            {
+                "label": "Alamat Kampus Krapyak",
+                "query": "Di mana letak pasti bangunan kampus utama Universitas Widya Husada yang berada di daerah Krapyak Semarang?",
+                "desc": "Di mana letak pasti bangunan kampus utama Universitas Widya Husada yang berada di daerah Krapyak Semarang?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Kampus Ilmu Kesehatan",
+                "query": "Bagaimana komitmen pendidikan di Universitas Widya Husada dalam mencetak tenaga medis dan tenaga kesehatan yang kompeten?"
+            },
+            {
+                "label": "Fasilitas Laboratorium Klinis",
+                "query": "Apa saja alat praktik keperawatan, kebidanan, dan instalasi radiologi modern yang tersedia di laboratorium terpadu kampus ini?"
+            },
+            {
+                "label": "Praktik Klinik Mahasiswa",
+                "query": "Rumah sakit dan klinik mana saja yang menjadi mitra utama mahasiswa dalam menjalankan stase atau praktik klinik lapangan?"
+            },
+            {
+                "label": "Jurusan Spesifik & Langka",
+                "query": "Bagaimana prospek kerja lulusan dari program studi vokasi yang spesifik seperti teknik radiologi, refraksi optisi, dan elektromedik?"
+            },
+            {
+                "label": "Pengembangan Karakter Medis",
+                "query": "Bagaimana nilai-nilai etika profesi tenaga kesehatan dan empati ditanamkan kepada mahasiswa sejak perkuliahan semester awal?"
+            },
+            {
+                "label": "Lingkungan Belajar Kondusif",
+                "query": "Bagaimana fasilitas perpustakaan medis dan ruang diskusi (tutorial) mendukung mahasiswa dalam mempelajari ilmu anatomi dan fisiologi?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Uwhsemarang?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Uwhsemarang?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Uwhsemarang?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

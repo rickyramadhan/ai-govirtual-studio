@@ -1,0 +1,99 @@
+{
+    "version": "1.0",
+    "tourId": "kiw",
+    "tourName": "Kiw",
+    "updatedAt": "2026-09-29T09:51:10+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node5",
+        "node7",
+        "node9",
+        "node11",
+        "node13",
+        "node15",
+        "node17",
+        "node19",
+        "node21",
+        "node23",
+        "node25",
+        "node27",
+        "node29",
+        "node31",
+        "node33",
+        "node35",
+        "node37",
+        "node39",
+        "node41"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Kawasan Industri Wijayakusuma – KIW – Titik Belum Teridentifikasi"
+        },
+        "node2": {
+            "displayName": "Kawasan Industri Wijayakusuma – Fasad Kantor KIW"
+        },
+        "node3": {
+            "displayName": "Kawasan Industri Wijayakusuma – Pelataran Kantor Pengelola"
+        },
+        "node5": {
+            "displayName": "Kawasan Industri Wijayakusuma – Pos Layanan Kawasan"
+        },
+        "node7": {
+            "displayName": "Kawasan Industri Wijayakusuma – Terminal Transit Point"
+        },
+        "node9": {
+            "displayName": "Kawasan Industri Wijayakusuma – Landmark Transit Point – Sisi Jalan"
+        },
+        "node11": {
+            "displayName": "Kawasan Industri Wijayakusuma – Plaza KIW Edge"
+        },
+        "node13": {
+            "displayName": "Kawasan Industri Wijayakusuma – Konter Kuliner KIW Edge"
+        },
+        "node15": {
+            "displayName": "Kawasan Industri Wijayakusuma – Promenade Tepi Laut"
+        },
+        "node17": {
+            "displayName": "Kawasan Industri Wijayakusuma – Teras Duduk KIW Edge"
+        },
+        "node19": {
+            "displayName": "Kawasan Industri Wijayakusuma – Tanggul di Tepi Promenade"
+        },
+        "node21": {
+            "displayName": "Kawasan Industri Wijayakusuma – Gerbang PT Kingda Marine Technical Indonesia"
+        },
+        "node23": {
+            "displayName": "Kawasan Industri Wijayakusuma – Gerbang PT Mas Arya Indonesia"
+        },
+        "node25": {
+            "displayName": "Kawasan Industri Wijayakusuma – Gerbang PT Morta Utama"
+        },
+        "node27": {
+            "displayName": "Kawasan Industri Wijayakusuma – Unit Pengolahan Air – Tangki"
+        },
+        "node29": {
+            "displayName": "Kawasan Industri Wijayakusuma – Kolam Air Baku"
+        },
+        "node31": {
+            "displayName": "Kawasan Industri Wijayakusuma – Unit Instalasi – Jaringan Pipa"
+        },
+        "node33": {
+            "displayName": "Kawasan Industri Wijayakusuma – Sentra IKM Logam"
+        },
+        "node35": {
+            "displayName": "Kawasan Industri Wijayakusuma – Instalasi Air Bersih – Area Pompa"
+        },
+        "node37": {
+            "displayName": "Kawasan Industri Wijayakusuma – Akses KIW Edge"
+        },
+        "node39": {
+            "displayName": "Kawasan Industri Wijayakusuma – Gerbang Perusahaan – Pos Penjagaan"
+        },
+        "node41": {
+            "displayName": "Kawasan Industri Wijayakusuma – Landmark Transit Point – Pelataran"
+        }
+    }
+}

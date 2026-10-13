@@ -1,0 +1,131 @@
+{
+    "version": "1.0",
+    "tourId": "pantaimarina",
+    "tourName": "Pantaimarina",
+    "updatedAt": "2026-09-29T09:51:33+02:00",
+    "startScene": "node97",
+    "order": [
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node102",
+        "node103",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108",
+        "node109",
+        "node110",
+        "node111",
+        "node112",
+        "node113",
+        "node114",
+        "node115",
+        "node116",
+        "node117",
+        "node118",
+        "node119",
+        "node120",
+        "node121",
+        "node122",
+        "node123",
+        "node124",
+        "node125",
+        "node126"
+    ],
+    "nodes": {
+        "node97": {
+            "displayName": "Toilet"
+        },
+        "node98": {
+            "displayName": "Tampak Udara Kawasan Pantai Marina"
+        },
+        "node99": {
+            "displayName": "Area Makan Outdoor Askara Resto"
+        },
+        "node100": {
+            "displayName": "Area Masuk Askara Resto"
+        },
+        "node101": {
+            "displayName": "Dermaga Jetski"
+        },
+        "node102": {
+            "displayName": "Area Parkir Jetski"
+        },
+        "node103": {
+            "displayName": "Area Makan Indoor Bebas Asap Rokok"
+        },
+        "node104": {
+            "displayName": "Area Makan Indoor Non Smoking Askara Resto"
+        },
+        "node105": {
+            "displayName": "Area Makan Tengah Askara Resto"
+        },
+        "node106": {
+            "displayName": "Area Parkir Kendaraan"
+        },
+        "node107": {
+            "displayName": "Loket Masuk Pantai Marina"
+        },
+        "node108": {
+            "displayName": "Foodtruck"
+        },
+        "node109": {
+            "displayName": "Pintu Masuk Drydock Jetski"
+        },
+        "node110": {
+            "displayName": "Area Drydock Jetski"
+        },
+        "node111": {
+            "displayName": "Area Indoor Kusuma Kopi Café"
+        },
+        "node112": {
+            "displayName": "Area Outdoor Kusuma Kopi Café"
+        },
+        "node113": {
+            "displayName": "Akses Masuk Area Pantai"
+        },
+        "node114": {
+            "displayName": "Musholla"
+        },
+        "node115": {
+            "displayName": "Spotfoto Pantai Marina"
+        },
+        "node116": {
+            "displayName": "Akses Kendaraan Tengah Pantai Marina"
+        },
+        "node117": {
+            "displayName": "Taman Bermain Anak"
+        },
+        "node118": {
+            "displayName": "Akses Kendaraan Pantai Marina"
+        },
+        "node119": {
+            "displayName": "View Pantai Marina"
+        },
+        "node120": {
+            "displayName": "Stone Berrier Pantai Marina"
+        },
+        "node121": {
+            "displayName": "Akses Resto dan Pantai Marina"
+        },
+        "node122": {
+            "displayName": "Akses Lokasi Tabur Bunga"
+        },
+        "node123": {
+            "displayName": "Kandang Rusa"
+        },
+        "node124": {
+            "displayName": "Akses Penangkaran Satwa"
+        },
+        "node125": {
+            "displayName": "Area Kandang Rusa Totol"
+        },
+        "node126": {
+            "displayName": "Lokasi Tabur Bunga"
+        }
+    }
+}

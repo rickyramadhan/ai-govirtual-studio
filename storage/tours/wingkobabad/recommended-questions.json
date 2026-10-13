@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "wingkobabad",
+    "tourName": "Wingkobabad",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Rasa paling original?",
+                "query": "Apa rasa wingko yang paling original dan paling wajib untuk dicicipi pertama kali?",
+                "desc": "Apa rasa wingko yang paling original dan paling wajib untuk dicicipi pertama kali?"
+            },
+            {
+                "label": "Bisa tahan berapa hari?",
+                "query": "Berapa lama wingko babad ini awet dan tidak basi untuk dibawa pulang sebagai oleh-oleh?",
+                "desc": "Berapa lama wingko babad ini awet dan tidak basi untuk dibawa pulang sebagai oleh-oleh?"
+            },
+            {
+                "label": "Lokasi toko pusatnya?",
+                "query": "Di jalan apa letak toko dan tempat produksi utama Wingko Babad Cap Kereta Api ini?",
+                "desc": "Di jalan apa letak toko dan tempat produksi utama Wingko Babad Cap Kereta Api ini?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Cap Kereta Api",
+                "query": "Mengapa merek wingko babad legendaris dari Semarang ini menggunakan logo atau cap gambar kereta api?"
+            },
+            {
+                "label": "Resep Tradisional",
+                "query": "Bagaimana cara menjaga keaslian rasa dan resep tradisional wingko sejak zaman kolonial hingga kini?"
+            },
+            {
+                "label": "Proses Pemanggangan",
+                "query": "Seperti apa proses pengolahan kelapa muda dan pemanggangan wingko menggunakan oven tradisional?"
+            },
+            {
+                "label": "Varian Rasa Kekinian",
+                "query": "Selain rasa kelapa original, apa saja varian rasa kekinian seperti coklat dan nangka yang ditawarkan?"
+            },
+            {
+                "label": "Desain Kemasan Ikonik",
+                "query": "Bagaimana sejarah desain kemasan bungkus kertas berbentuk unik yang masih dipertahankan sampai sekarang?"
+            },
+            {
+                "label": "Pusat Produksi dan Toko",
+                "query": "Bagaimana suasana pabrik sekaligus toko utama Wingko Babad Cap Kereta Api di Semarang?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Wingkobabad?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Wingkobabad?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Wingkobabad?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

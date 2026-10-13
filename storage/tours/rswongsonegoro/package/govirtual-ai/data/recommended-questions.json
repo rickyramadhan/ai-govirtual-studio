@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "rswongsonegoro",
+    "tourName": "Rswongsonegoro",
+    "updatedAt": "2026-09-29T09:52:12+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Rswongsonegoro?",
+                "query": "Mengapa disebut Rswongsonegoro?",
+                "desc": "Mengapa disebut Rswongsonegoro?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Rswongsonegoro",
+                "desc": "Ceritakan tentang Rswongsonegoro"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Rswongsonegoro"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Rswongsonegoro"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Rswongsonegoro?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Rswongsonegoro?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Rswongsonegoro?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Rswongsonegoro?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

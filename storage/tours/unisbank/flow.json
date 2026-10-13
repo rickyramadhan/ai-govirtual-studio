@@ -1,0 +1,143 @@
+{
+    "version": "1.0",
+    "tourId": "unisbank",
+    "tourName": "Unisbank",
+    "updatedAt": "2026-09-29T09:52:54+02:00",
+    "startScene": "node114",
+    "order": [
+        "node114",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node85",
+        "node86",
+        "node87",
+        "node88",
+        "node89",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node98",
+        "node99",
+        "node100",
+        "node101",
+        "node103",
+        "node104",
+        "node105",
+        "node106",
+        "node107",
+        "node108",
+        "node109",
+        "node110",
+        "node111",
+        "node112",
+        "node113"
+    ],
+    "nodes": {
+        "node114": {
+            "displayName": "Universitas Stikubank – Lapangan Basket – Pandangan Terbuka"
+        },
+        "node81": {
+            "displayName": "Universitas Stikubank – Lapangan Indoor dan Tribun"
+        },
+        "node82": {
+            "displayName": "Universitas Stikubank – Lapangan Basket – Area Permainan"
+        },
+        "node83": {
+            "displayName": "Universitas Stikubank – Foyer Ruang Seminar"
+        },
+        "node84": {
+            "displayName": "Universitas Stikubank – Gedung Vokasi"
+        },
+        "node85": {
+            "displayName": "Universitas Stikubank – Landmark Kampus Mugas"
+        },
+        "node86": {
+            "displayName": "Universitas Stikubank – Ikon Sayap Suci"
+        },
+        "node87": {
+            "displayName": "Universitas Stikubank – Kantin Beratap"
+        },
+        "node88": {
+            "displayName": "Universitas Stikubank – Laboratorium Peradilan Semu"
+        },
+        "node89": {
+            "displayName": "Universitas Stikubank – Lobi Fakultas Ekonomi"
+        },
+        "node90": {
+            "displayName": "Universitas Stikubank – Lobi Gedung Vokasi"
+        },
+        "node91": {
+            "displayName": "Universitas Stikubank – Lobi Perpustakaan"
+        },
+        "node92": {
+            "displayName": "Universitas Stikubank – Lobi Utama UNISBANK"
+        },
+        "node93": {
+            "displayName": "Universitas Stikubank – Ruang Baca Perpustakaan"
+        },
+        "node94": {
+            "displayName": "Universitas Stikubank – Pintu Gedung Mugas"
+        },
+        "node95": {
+            "displayName": "Universitas Stikubank – Lobi Lantai Dasar"
+        },
+        "node96": {
+            "displayName": "Universitas Stikubank – Teras Atap Bermotif"
+        },
+        "node97": {
+            "displayName": "Universitas Stikubank – Ruang Kelas"
+        },
+        "node98": {
+            "displayName": "Universitas Stikubank – Ruang Merchandise"
+        },
+        "node99": {
+            "displayName": "Universitas Stikubank – Ruang Praktik Housekeeping"
+        },
+        "node100": {
+            "displayName": "Universitas Stikubank – Dapur Praktik"
+        },
+        "node101": {
+            "displayName": "Universitas Stikubank – Ruang Seminar"
+        },
+        "node103": {
+            "displayName": "Universitas Stikubank – Area Balkon"
+        },
+        "node104": {
+            "displayName": "Universitas Stikubank – Dinding Panjat"
+        },
+        "node105": {
+            "displayName": "Universitas Stikubank – Kantin Dalam Gedung"
+        },
+        "node106": {
+            "displayName": "Universitas Stikubank – Area Konter Kantin"
+        },
+        "node107": {
+            "displayName": "Universitas Stikubank – Aula dengan Meja Kelas"
+        },
+        "node108": {
+            "displayName": "Universitas Stikubank – Ruang Salat"
+        },
+        "node109": {
+            "displayName": "Universitas Stikubank – Aula Kampus Mugas"
+        },
+        "node110": {
+            "displayName": "Universitas Stikubank – Akses Sasana Kridangga"
+        },
+        "node111": {
+            "displayName": "Universitas Stikubank – Fasad Masjid Kampus"
+        },
+        "node112": {
+            "displayName": "Universitas Stikubank – Pelataran Gedung Hukum dan Bahasa"
+        },
+        "node113": {
+            "displayName": "Universitas Stikubank – Taman Heksagonal"
+        }
+    }
+}

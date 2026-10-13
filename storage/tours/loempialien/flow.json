@@ -1,0 +1,39 @@
+{
+    "version": "1.0",
+    "tourId": "loempialien",
+    "tourName": "Loempialien",
+    "updatedAt": "2026-09-29T09:51:16+02:00",
+    "startScene": "node43",
+    "order": [
+        "node43",
+        "node49",
+        "node44",
+        "node45",
+        "node46",
+        "node47",
+        "node48"
+    ],
+    "nodes": {
+        "node43": {
+            "displayName": "Diningarea"
+        },
+        "node49": {
+            "displayName": "Etalase"
+        },
+        "node44": {
+            "displayName": "Loenpia Mbak Lien"
+        },
+        "node45": {
+            "displayName": "Area NODE45"
+        },
+        "node46": {
+            "displayName": "Counter"
+        },
+        "node47": {
+            "displayName": "Loenpia Mbak Lien"
+        },
+        "node48": {
+            "displayName": "Loenpia Mbak Lien"
+        }
+    }
+}

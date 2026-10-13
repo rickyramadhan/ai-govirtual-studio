@@ -1,0 +1,341 @@
+{
+    "startNode": "node85",
+    "scenes": [
+        {
+            "id": "node80",
+            "name": "node80",
+            "displayName": "node80",
+            "rawName": "",
+            "customNodeId": "",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "SentraPengasapanIkan"
+            ],
+            "aliases": []
+        },
+        {
+            "id": "node81",
+            "name": "Produkolahan",
+            "displayName": "Produkolahan",
+            "rawName": "",
+            "customNodeId": "produkolahan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "produkolahan"
+            ]
+        },
+        {
+            "id": "node82",
+            "name": "Pengasapan Ikan",
+            "displayName": "Pengasapan Ikan",
+            "rawName": "",
+            "customNodeId": "-engasapan-kan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "Pengasapan Ikan"
+            ]
+        },
+        {
+            "id": "node83",
+            "name": "Tungku",
+            "displayName": "Tungku",
+            "rawName": "",
+            "customNodeId": "tungku",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "tungku"
+            ]
+        },
+        {
+            "id": "node88",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "SentraPengasapanIkan",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node84",
+            "name": "Pengasapan Ikan",
+            "displayName": "Pengasapan Ikan",
+            "rawName": "",
+            "customNodeId": "-engasapan-kan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "Pengasapan Ikan"
+            ]
+        },
+        {
+            "id": "node85",
+            "name": "Pintu Masuk",
+            "displayName": "Pintu Masuk",
+            "rawName": "",
+            "customNodeId": "-intu-asuk",
+            "pan": 3.74668,
+            "tilt": 9.03436,
+            "fov": 112.402,
+            "tags": [
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "Pintu Masuk"
+            ]
+        },
+        {
+            "id": "node86",
+            "name": "Ikanasapnurhadi",
+            "displayName": "Ikanasapnurhadi",
+            "rawName": "",
+            "customNodeId": "ikanasapnurhadi",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "ikanasapnurhadi"
+            ]
+        },
+        {
+            "id": "node87",
+            "name": "Pengasapan Ikan",
+            "displayName": "Pengasapan Ikan",
+            "rawName": "",
+            "customNodeId": "-engasapan-kan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "SentraPengasapanIkan"
+            ],
+            "aliases": [
+                "Pengasapan Ikan"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node80",
+            "target": "node86",
+            "title": "Pengasapan Ikan",
+            "id": "Point01",
+            "pan": -354.45,
+            "tilt": -16.79
+        },
+        {
+            "scene": "node81",
+            "target": "node86",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 79.08,
+            "tilt": -22.61
+        },
+        {
+            "scene": "node81",
+            "target": "node83",
+            "title": "Pengasapan Ikan",
+            "id": "Point03",
+            "pan": -51.69,
+            "tilt": -5.38
+        },
+        {
+            "scene": "node81",
+            "target": "node82",
+            "title": "Pengasapan Ikan",
+            "id": "Point02",
+            "pan": -111.46,
+            "tilt": -9.82
+        },
+        {
+            "scene": "node82",
+            "target": "node83",
+            "title": "Pengasapan Ikan",
+            "id": "Point02",
+            "pan": 63.51,
+            "tilt": -16.13
+        },
+        {
+            "scene": "node82",
+            "target": "node81",
+            "title": "Pengasapan Ikan",
+            "id": "Point03",
+            "pan": 156.37,
+            "tilt": -17.58
+        },
+        {
+            "scene": "node83",
+            "target": "node84",
+            "title": "Pengasapan Ikan",
+            "id": "Point01",
+            "pan": 164.25,
+            "tilt": -12.31
+        },
+        {
+            "scene": "node83",
+            "target": "node82",
+            "title": "Pengasapan Ikan",
+            "id": "Point02",
+            "pan": -81.6,
+            "tilt": -12.93
+        },
+        {
+            "scene": "node83",
+            "target": "node81",
+            "title": "Pengasapan Ikan",
+            "id": "Point03",
+            "pan": 229.43,
+            "tilt": -12.24
+        },
+        {
+            "scene": "node83",
+            "target": "node83",
+            "title": "Keluar",
+            "id": "Point05",
+            "pan": -173.37,
+            "tilt": -6.72
+        },
+        {
+            "scene": "node88",
+            "target": "node83",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -173.37,
+            "tilt": -6.72
+        },
+        {
+            "scene": "node84",
+            "target": "node83",
+            "title": "Pengasapan Ikan",
+            "id": "Point02",
+            "pan": -21.33,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node84",
+            "target": "node81",
+            "title": "Pengasapan Ikan",
+            "id": "Point03",
+            "pan": -98.9,
+            "tilt": -5.95
+        },
+        {
+            "scene": "node84",
+            "target": "node87",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": 175.34,
+            "tilt": -18.73
+        },
+        {
+            "scene": "node85",
+            "target": "node86",
+            "title": "Pengasapan Ikan",
+            "id": "Point01",
+            "pan": 2.48,
+            "tilt": -1.95
+        },
+        {
+            "scene": "node86",
+            "target": "node87",
+            "title": "Pengasapan Ikan",
+            "id": "Point01",
+            "pan": 89.55,
+            "tilt": -4.13
+        },
+        {
+            "scene": "node86",
+            "target": "node85",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -88.77,
+            "tilt": -3.15
+        },
+        {
+            "scene": "node86",
+            "target": "node81",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": 0.239987,
+            "tilt": -12.66
+        },
+        {
+            "scene": "node87",
+            "target": "node86",
+            "title": "Pengasapan Ikan",
+            "id": "Point01",
+            "pan": -53.58,
+            "tilt": -4.42
+        },
+        {
+            "scene": "node87",
+            "target": "node85",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -83.14,
+            "tilt": -4.36
+        },
+        {
+            "scene": "node87",
+            "target": "node84",
+            "title": "Pintu Masuk",
+            "id": "Point03",
+            "pan": -23.02,
+            "tilt": -6.22
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 689,
+            "label": "Produsen Ikan Asap Nur Hadi",
+            "description": "Produk unggulan dari Ikan Asap Nur Hadi adalah Ikan Manyung (bahan utama kepala manyung/ndas manyung) dan Ikan Pari (Pe), yang diproses melalui teknik pengasapan tradisional namun dengan standar kualitas yang lebih terjaga. Proses pengasapan dilakukan tidak hanya untuk mengawetkan ikan, tetapi juga untuk memberikan aroma \"smoky\" yang khas dan tekstur daging yang padat, yang menjadi kunci kelezatan masakan Mangut.",
+            "fragment": "ikanasapnurhadi",
+            "link": "pengasapanikan/index.html#ikanasapnurhadi",
+            "sceneId": "node86"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "213cfffdedfeea03",
+        "skin.js": "d81364be2be4b694",
+        "index.html": "4b8d929400e4449a"
+    }
+}

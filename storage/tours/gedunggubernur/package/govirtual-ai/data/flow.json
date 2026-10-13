@@ -1,0 +1,83 @@
+{
+    "version": "1.0",
+    "tourId": "gedunggubernur",
+    "tourName": "Gedunggubernur",
+    "updatedAt": "2026-09-29T09:50:47+02:00",
+    "startScene": "node87",
+    "order": [
+        "node87",
+        "node80",
+        "node81",
+        "node82",
+        "node83",
+        "node84",
+        "node88",
+        "node85",
+        "node86",
+        "node90",
+        "node91",
+        "node92",
+        "node93",
+        "node94",
+        "node95",
+        "node96",
+        "node97",
+        "node89"
+    ],
+    "nodes": {
+        "node87": {
+            "displayName": "Lapangan Upacara"
+        },
+        "node80": {
+            "displayName": "Pelataran Gedung B1"
+        },
+        "node81": {
+            "displayName": "Lobi Gedung B1"
+        },
+        "node82": {
+            "displayName": "Lobi Gedung DPRD"
+        },
+        "node83": {
+            "displayName": "Lobi Kantor Gubernur"
+        },
+        "node84": {
+            "displayName": "Pintu Masuk Gedung DPRD"
+        },
+        "node88": {
+            "displayName": "Fasad Gradhika Bhakti"
+        },
+        "node85": {
+            "displayName": "Gerbang Kompleks Pemerintahan"
+        },
+        "node86": {
+            "displayName": "Area Ruang Konferensi"
+        },
+        "node90": {
+            "displayName": "Fasad Gedung DPRD"
+        },
+        "node91": {
+            "displayName": "Selasar Gradhika Bhakti"
+        },
+        "node92": {
+            "displayName": "Interior Musala"
+        },
+        "node93": {
+            "displayName": "Pintu Musala"
+        },
+        "node94": {
+            "displayName": "Jalur Samping Gedung"
+        },
+        "node95": {
+            "displayName": "Lapangan Olahraga"
+        },
+        "node96": {
+            "displayName": "Jalan Depan DPRD"
+        },
+        "node97": {
+            "displayName": "Pelataran Depan DPRD"
+        },
+        "node89": {
+            "displayName": "Lapangan Upacara"
+        }
+    }
+}

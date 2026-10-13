@@ -1,0 +1,1355 @@
+{
+    "version": "1.1-seed",
+    "tourId": "uinwalisongo",
+    "generatedAt": "2026-10-01",
+    "notes": "Template starter. Ganti semua placeholder dengan fakta terverifikasi.",
+    "scenes": {
+        "node302": {
+            "rawName": "default",
+            "displayName": "Monumen Walisongo",
+            "placeId": "uin-walisongo-semarang-monumen-walisongo",
+            "placeName": "UIN Walisongo Semarang – Monumen Walisongo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tulisan Walisongo dan tangga.",
+            "description": "Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tulisan Walisongo dan tangga. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Tulisan Walisongo",
+                "Tangga"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Monumen Walisongo di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tulisan Walisongo dan tangga."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Monumen Walisongo?",
+                    "mode": "fix",
+                    "answer": "Tulisan Walisongo dan Tangga memperjelas susunan serta penggunaan ruang. Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tulisan Walisongo dan tangga."
+                },
+                {
+                    "q": "Apa fakta penting tentang UIN Walisongo Semarang – Monumen Walisongo yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Monumen Walisongo.",
+                "describeHere": "default adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node303": {
+            "rawName": "Gedung Rektorat",
+            "displayName": "Fasad Gedung Rektorat",
+            "placeId": "uin-walisongo-semarang-fasad-gedung-rektorat",
+            "placeName": "UIN Walisongo Semarang – Fasad Gedung Rektorat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ornamen geometris dan pelataran menjadi unsur yang terlihat pada Fasad Gedung Rektorat di UIN Walisongo Semarang.",
+            "description": "Ornamen geometris dan pelataran menjadi unsur yang terlihat pada Fasad Gedung Rektorat di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Ornamen memberi detail yang membedakan fasad atau interior dari ruang lain yang bentuk dasarnya serupa. Pola, warna, dan letaknya dapat diamati sebagai unsur visual.",
+            "highlights": [
+                "Ornamen geometris",
+                "Pelataran"
+            ],
+            "talkingPoints": [
+                "Gedung Rektorat",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Fasad Gedung Rektorat menjadi bagian penting dari UIN Walisongo Semarang – Fasad Gedung Rektorat?",
+                    "mode": "fix",
+                    "answer": "Ornamen geometris dan pelataran menjadi unsur yang terlihat pada Fasad Gedung Rektorat di UIN Walisongo Semarang. Ornamen geometris dan pelataran menjadi unsur yang terlihat pada Fasad Gedung Rektorat di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Ornamen memberi detail yang membedakan fasad atau interior dari ruang lain yang bentuk dasarnya serupa. Pola, warna, dan letaknya dapat diamati sebagai unsur visual. Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO."
+                },
+                {
+                    "q": "Apa hubungan Ornamen geometris dengan aktivitas di Fasad Gedung Rektorat?",
+                    "mode": "fix",
+                    "answer": "Ornamen geometris menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Ornamen geometris dan pelataran menjadi unsur yang terlihat pada Fasad Gedung Rektorat di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Fasad Gedung Rektorat dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Ornamen geometris dan Pelataran. Ornamen geometris dan pelataran menjadi unsur yang terlihat pada Fasad Gedung Rektorat di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Fasad Gedung Rektorat.",
+                "describeHere": "Gedung Rektorat adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node304": {
+            "rawName": "Lab Terpadu",
+            "displayName": "Fasad Laboratorium Terpadu",
+            "placeId": "uin-walisongo-semarang-fasad-laboratorium-terpadu",
+            "placeName": "UIN Walisongo Semarang – Fasad Laboratorium Terpadu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Fasad Laboratorium Terpadu menampilkan panel hijau dan pintu masuk di UIN Walisongo Semarang.",
+            "description": "Pandangan Fasad Laboratorium Terpadu menampilkan panel hijau dan pintu masuk di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan.",
+            "highlights": [
+                "Panel hijau",
+                "Pintu masuk"
+            ],
+            "talkingPoints": [
+                "Lab Terpadu",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Fasad Laboratorium Terpadu?",
+                    "mode": "fix",
+                    "answer": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Fasad Laboratorium Terpadu mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Panel hijau bersama Pintu masuk menunjukkan cara area ini digunakan. Pandangan Fasad Laboratorium Terpadu menampilkan panel hijau dan pintu masuk di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Fasad Laboratorium Terpadu?",
+                    "mode": "fix",
+                    "answer": "Panel hijau menjadi detail utama, sedangkan Pintu masuk melengkapi konteksnya. Pandangan Fasad Laboratorium Terpadu menampilkan panel hijau dan pintu masuk di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Fasad Laboratorium Terpadu.",
+                "describeHere": "Lab Terpadu adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node305": {
+            "rawName": "Walisongo Center",
+            "displayName": "Bangunan Walisongo Center",
+            "placeId": "uin-walisongo-semarang-bangunan-walisongo-center",
+            "placeName": "UIN Walisongo Semarang – Bangunan Walisongo Center",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Bangunan Walisongo Center, teras kayu dan pintu membentuk tampilan bagian UIN Walisongo Semarang ini.",
+            "description": "Pada Bangunan Walisongo Center, teras kayu dan pintu membentuk tampilan bagian UIN Walisongo Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area.",
+            "highlights": [
+                "Teras kayu",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Walisongo Center",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Bangunan Walisongo Center dalam pengalaman pengunjung di UIN Walisongo Semarang – Bangunan Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Pada Bangunan Walisongo Center, teras kayu dan pintu membentuk tampilan bagian UIN Walisongo Semarang ini. Pada Bangunan Walisongo Center, teras kayu dan pintu membentuk tampilan bagian UIN Walisongo Semarang ini. Ruang penghubung mempertemukan jalur kedatangan dengan bagian bangunan yang dituju. Bukaan, penanda, dan batas ruang membantu pengunjung mengenali perubahan fungsi area. Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                },
+                {
+                    "q": "Mengapa Teras kayu penting pada Bangunan Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Teras kayu membantu menjelaskan identitas dan fungsi Bangunan Walisongo Center. Pada Bangunan Walisongo Center, teras kayu dan pintu membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Bangunan Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Bangunan Walisongo Center.",
+                "describeHere": "Walisongo Center adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node306": {
+            "rawName": "Sketsa",
+            "displayName": "Ruang Pamer Sketsa",
+            "placeId": "uin-walisongo-semarang-ruang-pamer-sketsa",
+            "placeName": "UIN Walisongo Semarang – Ruang Pamer Sketsa",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Pamer Sketsa menyorot gambar dinding dan vitrin, dengan konteks kunjungan di UIN Walisongo Semarang.",
+            "description": "Ruang Pamer Sketsa menyorot gambar dinding dan vitrin, dengan konteks kunjungan di UIN Walisongo Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Lihat bentuk keseluruhan, lalu perhatikan detail dan label yang menyertainya. Berpindah sudut dapat membantu mengurangi pantulan pada kaca.",
+            "highlights": [
+                "Gambar dinding",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Sketsa",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Ruang Pamer Sketsa menunjukkan karakter UIN Walisongo Semarang – Ruang Pamer Sketsa?",
+                    "mode": "fix",
+                    "answer": "Ruang Pamer Sketsa menyorot gambar dinding dan vitrin, dengan konteks kunjungan di UIN Walisongo Semarang. Ruang Pamer Sketsa menyorot gambar dinding dan vitrin, dengan konteks kunjungan di UIN Walisongo Semarang. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Lihat bentuk keseluruhan, lalu perhatikan detail dan label yang menyertainya. Berpindah sudut dapat membantu mengurangi pantulan pada kaca. Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Gambar dinding dan Vitrin di Ruang Pamer Sketsa?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Ruang Pamer Sketsa menyorot gambar dinding dan vitrin, dengan konteks kunjungan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Ruang Pamer Sketsa?",
+                    "mode": "fix",
+                    "answer": "Gambar dinding paling langsung membantu mengenali area ini. Ruang Pamer Sketsa menyorot gambar dinding dan vitrin, dengan konteks kunjungan di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Ruang Pamer Sketsa.",
+                "describeHere": "Sketsa adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node307": {
+            "rawName": "Gedunglabterpadu",
+            "displayName": "Koridor Laboratorium Terpadu",
+            "placeId": "uin-walisongo-semarang-koridor-laboratorium-terpadu",
+            "placeName": "UIN Walisongo Semarang – Koridor Laboratorium Terpadu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Koridor Laboratorium Terpadu di UIN Walisongo Semarang memperlihatkan taman dalam dan pintu ruang.",
+            "description": "Koridor Laboratorium Terpadu di UIN Walisongo Semarang memperlihatkan taman dalam dan pintu ruang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan.",
+            "highlights": [
+                "Taman dalam",
+                "Pintu ruang"
+            ],
+            "talkingPoints": [
+                "Gedunglabterpadu",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Koridor Laboratorium Terpadu?",
+                    "mode": "fix",
+                    "answer": "Koridor Laboratorium Terpadu di UIN Walisongo Semarang memperlihatkan taman dalam dan pintu ruang. Koridor Laboratorium Terpadu di UIN Walisongo Semarang memperlihatkan taman dalam dan pintu ruang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Koridor Laboratorium Terpadu?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Taman dalam dan Pintu ruang memberi petunjuk tentang kegiatan yang berlangsung di sini. Koridor Laboratorium Terpadu di UIN Walisongo Semarang memperlihatkan taman dalam dan pintu ruang."
+                },
+                {
+                    "q": "Apa konteks UIN Walisongo Semarang – Koridor Laboratorium Terpadu yang membuat Koridor Laboratorium Terpadu lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:377"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Koridor Laboratorium Terpadu.",
+                "describeHere": "Gedunglabterpadu adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node308": {
+            "rawName": "Tribun",
+            "displayName": "Lapangan Indoor Gedung Serbaguna",
+            "placeId": "uin-walisongo-semarang-lapangan-indoor-gedung-serbaguna",
+            "placeName": "UIN Walisongo Semarang – Lapangan Indoor Gedung Serbaguna",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Garis lapangan dan tribun menjadi unsur yang terlihat pada Lapangan Indoor Gedung Serbaguna di UIN Walisongo Semarang.",
+            "description": "Garis lapangan dan tribun menjadi unsur yang terlihat pada Lapangan Indoor Gedung Serbaguna di UIN Walisongo Semarang. Lapangan berjaring menyediakan ruang permainan yang terbagi menjadi dua sisi. Garis permukaan membantu pemain membaca batas dan posisi.",
+            "highlights": [
+                "Garis lapangan",
+                "Tribun"
+            ],
+            "talkingPoints": [
+                "Tribun",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lapangan Indoor Gedung Serbaguna di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Garis lapangan dan tribun menjadi unsur yang terlihat pada Lapangan Indoor Gedung Serbaguna di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lapangan Indoor Gedung Serbaguna?",
+                    "mode": "fix",
+                    "answer": "Garis lapangan dan Tribun memperjelas susunan serta penggunaan ruang. Garis lapangan dan tribun menjadi unsur yang terlihat pada Lapangan Indoor Gedung Serbaguna di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang UIN Walisongo Semarang – Lapangan Indoor Gedung Serbaguna yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Lapangan Indoor Gedung Serbaguna.",
+                "describeHere": "Tribun adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node309": {
+            "rawName": "Gedung Serbaguna",
+            "displayName": "Fasad Gedung Serbaguna",
+            "placeId": "uin-walisongo-semarang-fasad-gedung-serbaguna",
+            "placeName": "UIN Walisongo Semarang – Fasad Gedung Serbaguna",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Fasad Gedung Serbaguna menampilkan pintu dan halaman di UIN Walisongo Semarang.",
+            "description": "Pandangan Fasad Gedung Serbaguna menampilkan pintu dan halaman di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat.",
+            "highlights": [
+                "Pintu",
+                "Halaman"
+            ],
+            "talkingPoints": [
+                "Gedung Serbaguna",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Fasad Gedung Serbaguna menjadi bagian penting dari UIN Walisongo Semarang – Fasad Gedung Serbaguna?",
+                    "mode": "fix",
+                    "answer": "Pandangan Fasad Gedung Serbaguna menampilkan pintu dan halaman di UIN Walisongo Semarang. Pandangan Fasad Gedung Serbaguna menampilkan pintu dan halaman di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat. Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO."
+                },
+                {
+                    "q": "Apa hubungan Pintu dengan aktivitas di Fasad Gedung Serbaguna?",
+                    "mode": "fix",
+                    "answer": "Pintu menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Fasad Gedung Serbaguna menampilkan pintu dan halaman di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Fasad Gedung Serbaguna dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Pintu dan Halaman. Pandangan Fasad Gedung Serbaguna menampilkan pintu dan halaman di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Fasad Gedung Serbaguna.",
+                "describeHere": "Gedung Serbaguna adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node310": {
+            "rawName": "Walisongo Center",
+            "displayName": "Pelataran Walisongo Center",
+            "placeId": "uin-walisongo-semarang-pelataran-walisongo-center",
+            "placeName": "UIN Walisongo Semarang – Pelataran Walisongo Center",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Pelataran Walisongo Center, papan kawasan dan bangunan membentuk tampilan bagian UIN Walisongo Semarang ini.",
+            "description": "Pada Pelataran Walisongo Center, papan kawasan dan bangunan membentuk tampilan bagian UIN Walisongo Semarang ini. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Papan kawasan",
+                "Bangunan"
+            ],
+            "talkingPoints": [
+                "Walisongo Center",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Pelataran Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Pelataran Walisongo Center mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Papan kawasan bersama Bangunan menunjukkan cara area ini digunakan. Pada Pelataran Walisongo Center, papan kawasan dan bangunan membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Pelataran Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Papan kawasan menjadi detail utama, sedangkan Bangunan melengkapi konteksnya. Pada Pelataran Walisongo Center, papan kawasan dan bangunan membentuk tampilan bagian UIN Walisongo Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Pelataran Walisongo Center.",
+                "describeHere": "Walisongo Center adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node311": {
+            "rawName": "Fakultas Kedokteran",
+            "displayName": "Fasad Fakultas Kedokteran",
+            "placeId": "uin-walisongo-semarang-fasad-fakultas-kedokteran",
+            "placeName": "UIN Walisongo Semarang – Fasad Fakultas Kedokteran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasad Fakultas Kedokteran menyorot ornamen hijau dan pintu, dengan konteks kunjungan di UIN Walisongo Semarang.",
+            "description": "Fasad Fakultas Kedokteran menyorot ornamen hijau dan pintu, dengan konteks kunjungan di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Ornamen memberi detail yang membedakan fasad atau interior dari ruang lain yang bentuk dasarnya serupa. Pola, warna, dan letaknya dapat diamati sebagai unsur visual.",
+            "highlights": [
+                "Ornamen hijau",
+                "Pintu"
+            ],
+            "talkingPoints": [
+                "Fakultas Kedokteran",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Fasad Fakultas Kedokteran dalam pengalaman pengunjung di UIN Walisongo Semarang – Fasad Fakultas Kedokteran?",
+                    "mode": "fix",
+                    "answer": "Fasad Fakultas Kedokteran menyorot ornamen hijau dan pintu, dengan konteks kunjungan di UIN Walisongo Semarang. Fasad Fakultas Kedokteran menyorot ornamen hijau dan pintu, dengan konteks kunjungan di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Ornamen memberi detail yang membedakan fasad atau interior dari ruang lain yang bentuk dasarnya serupa. Pola, warna, dan letaknya dapat diamati sebagai unsur visual. Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                },
+                {
+                    "q": "Mengapa Ornamen hijau penting pada Fasad Fakultas Kedokteran?",
+                    "mode": "fix",
+                    "answer": "Ornamen hijau membantu menjelaskan identitas dan fungsi Fasad Fakultas Kedokteran. Fasad Fakultas Kedokteran menyorot ornamen hijau dan pintu, dengan konteks kunjungan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Fasad Fakultas Kedokteran?",
+                    "mode": "fix",
+                    "answer": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Fasad Fakultas Kedokteran.",
+                "describeHere": "Fakultas Kedokteran adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node312": {
+            "rawName": "Gedung Fakultas Kedokteran",
+            "displayName": "Lobi Fakultas Kedokteran",
+            "placeId": "uin-walisongo-semarang-lobi-fakultas-kedokteran",
+            "placeName": "UIN Walisongo Semarang – Lobi Fakultas Kedokteran",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lobi Fakultas Kedokteran di UIN Walisongo Semarang memperlihatkan kolom dan tangga.",
+            "description": "Lobi Fakultas Kedokteran di UIN Walisongo Semarang memperlihatkan kolom dan tangga. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia.",
+            "highlights": [
+                "Kolom",
+                "Tangga"
+            ],
+            "talkingPoints": [
+                "Gedung Fakultas Kedokteran",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Lobi Fakultas Kedokteran menunjukkan karakter UIN Walisongo Semarang – Lobi Fakultas Kedokteran?",
+                    "mode": "fix",
+                    "answer": "Lobi Fakultas Kedokteran di UIN Walisongo Semarang memperlihatkan kolom dan tangga. Lobi Fakultas Kedokteran di UIN Walisongo Semarang memperlihatkan kolom dan tangga. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Kolom membentuk irama visual dan membagi bidang pandang tanpa selalu membuat dinding tertutup. Susunannya membantu orang membaca lebar ruang serta jalur yang tersedia. Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Kolom dan Tangga di Lobi Fakultas Kedokteran?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Lobi Fakultas Kedokteran di UIN Walisongo Semarang memperlihatkan kolom dan tangga."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Lobi Fakultas Kedokteran?",
+                    "mode": "fix",
+                    "answer": "Kolom paling langsung membantu mengenali area ini. Lobi Fakultas Kedokteran di UIN Walisongo Semarang memperlihatkan kolom dan tangga."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Lobi Fakultas Kedokteran.",
+                "describeHere": "Gedung Fakultas Kedokteran adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node313": {
+            "rawName": "Ruangkelas",
+            "displayName": "Ruang Kelas",
+            "placeId": "uin-walisongo-semarang-ruang-kelas",
+            "placeName": "UIN Walisongo Semarang – Ruang Kelas",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Meja dan papan tulis menjadi unsur yang terlihat pada Ruang Kelas di UIN Walisongo Semarang.",
+            "description": "Meja dan papan tulis menjadi unsur yang terlihat pada Ruang Kelas di UIN Walisongo Semarang. Ruang kelas menata tempat duduk menghadap area pengajaran. Susunan meja dan bidang presentasi mendukung penjelasan materi, latihan, serta diskusi. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Meja",
+                "Papan tulis"
+            ],
+            "talkingPoints": [
+                "Ruangkelas",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Ruang Kelas?",
+                    "mode": "fix",
+                    "answer": "Meja dan papan tulis menjadi unsur yang terlihat pada Ruang Kelas di UIN Walisongo Semarang. Meja dan papan tulis menjadi unsur yang terlihat pada Ruang Kelas di UIN Walisongo Semarang. Ruang kelas menata tempat duduk menghadap area pengajaran. Susunan meja dan bidang presentasi mendukung penjelasan materi, latihan, serta diskusi. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Ruang Kelas?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Meja dan Papan tulis memberi petunjuk tentang kegiatan yang berlangsung di sini. Meja dan papan tulis menjadi unsur yang terlihat pada Ruang Kelas di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa konteks UIN Walisongo Semarang – Ruang Kelas yang membuat Ruang Kelas lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:378"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Ruang Kelas.",
+                "describeHere": "Ruangkelas adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node314": {
+            "rawName": "Labbiologi",
+            "displayName": "Laboratorium Biologi",
+            "placeId": "uin-walisongo-semarang-laboratorium-biologi",
+            "placeName": "UIN Walisongo Semarang – Laboratorium Biologi",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Laboratorium Biologi menampilkan meja praktikum dan kursi di UIN Walisongo Semarang.",
+            "description": "Pandangan Laboratorium Biologi menampilkan meja praktikum dan kursi di UIN Walisongo Semarang. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Meja kerja serta penempatan peralatan membantu membedakan proses belajar di sini dari kelas biasa. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Meja praktikum",
+                "Kursi"
+            ],
+            "talkingPoints": [
+                "Labbiologi",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Laboratorium Biologi di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Laboratorium Biologi menampilkan meja praktikum dan kursi di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Laboratorium Biologi?",
+                    "mode": "fix",
+                    "answer": "Meja praktikum dan Kursi memperjelas susunan serta penggunaan ruang. Pandangan Laboratorium Biologi menampilkan meja praktikum dan kursi di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang UIN Walisongo Semarang – Laboratorium Biologi yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:376"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Laboratorium Biologi.",
+                "describeHere": "Labbiologi adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node315": {
+            "rawName": "Labkomputer",
+            "displayName": "Laboratorium Komputer",
+            "placeId": "uin-walisongo-semarang-laboratorium-komputer",
+            "placeName": "UIN Walisongo Semarang – Laboratorium Komputer",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Laboratorium Komputer, monitor dan meja membentuk tampilan bagian UIN Walisongo Semarang ini.",
+            "description": "Pada Laboratorium Komputer, monitor dan meja membentuk tampilan bagian UIN Walisongo Semarang ini. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Monitor",
+                "Meja"
+            ],
+            "talkingPoints": [
+                "Labkomputer",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Laboratorium Komputer menjadi bagian penting dari UIN Walisongo Semarang – Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Pada Laboratorium Komputer, monitor dan meja membentuk tampilan bagian UIN Walisongo Semarang ini. Pada Laboratorium Komputer, monitor dan meja membentuk tampilan bagian UIN Walisongo Semarang ini. Laboratorium komputer menyediakan perangkat dan meja kerja untuk kegiatan belajar digital. Penataannya membantu peserta mengikuti latihan dengan perangkat masing-masing. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian. Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO."
+                },
+                {
+                    "q": "Apa hubungan Monitor dengan aktivitas di Laboratorium Komputer?",
+                    "mode": "fix",
+                    "answer": "Monitor menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Laboratorium Komputer, monitor dan meja membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Apa yang membedakan Laboratorium Komputer dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Monitor dan Meja. Pada Laboratorium Komputer, monitor dan meja membentuk tampilan bagian UIN Walisongo Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:380"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Laboratorium Komputer.",
+                "describeHere": "Labkomputer adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node316": {
+            "rawName": "Lab Terpadu",
+            "displayName": "Lobi Laboratorium Terpadu",
+            "placeId": "uin-walisongo-semarang-lobi-laboratorium-terpadu",
+            "placeName": "UIN Walisongo Semarang – Lobi Laboratorium Terpadu",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lobi Laboratorium Terpadu menyorot konter dan sofa, dengan konteks kunjungan di UIN Walisongo Semarang.",
+            "description": "Lobi Laboratorium Terpadu menyorot konter dan sofa, dengan konteks kunjungan di UIN Walisongo Semarang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Laboratorium menghubungkan teori dengan pengamatan dan praktik. Sofa menyediakan tempat duduk untuk jeda atau percakapan sebelum kegiatan berikutnya. Penempatannya membantu membedakan bagian yang dapat digunakan untuk berhenti dari jalur yang harus tetap terbuka.",
+            "highlights": [
+                "Konter",
+                "Sofa"
+            ],
+            "talkingPoints": [
+                "Lab Terpadu",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Lobi Laboratorium Terpadu?",
+                    "mode": "fix",
+                    "answer": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Lobi Laboratorium Terpadu mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Konter bersama Sofa menunjukkan cara area ini digunakan. Lobi Laboratorium Terpadu menyorot konter dan sofa, dengan konteks kunjungan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Lobi Laboratorium Terpadu?",
+                    "mode": "fix",
+                    "answer": "Konter menjadi detail utama, sedangkan Sofa melengkapi konteksnya. Lobi Laboratorium Terpadu menyorot konter dan sofa, dengan konteks kunjungan di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Lobi Laboratorium Terpadu.",
+                "describeHere": "Lab Terpadu adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node317": {
+            "rawName": "Depan",
+            "displayName": "Pelataran Monumen Walisongo",
+            "placeId": "uin-walisongo-semarang-pelataran-monumen-walisongo",
+            "placeName": "UIN Walisongo Semarang – Pelataran Monumen Walisongo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pelataran Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tangga dan dinding lengkung.",
+            "description": "Pelataran Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tangga dan dinding lengkung. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju.",
+            "highlights": [
+                "Tangga",
+                "Dinding lengkung"
+            ],
+            "talkingPoints": [
+                "Depan",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Pelataran Monumen Walisongo dalam pengalaman pengunjung di UIN Walisongo Semarang – Pelataran Monumen Walisongo?",
+                    "mode": "fix",
+                    "answer": "Pelataran Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tangga dan dinding lengkung. Pelataran Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tangga dan dinding lengkung. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Tangga memperlihatkan perubahan ketinggian sebelum memasuki bangunan. Arah anak tangga dan pegangan dapat menuntun perhatian ke pintu yang dituju. Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                },
+                {
+                    "q": "Mengapa Tangga penting pada Pelataran Monumen Walisongo?",
+                    "mode": "fix",
+                    "answer": "Tangga membantu menjelaskan identitas dan fungsi Pelataran Monumen Walisongo. Pelataran Monumen Walisongo di UIN Walisongo Semarang memperlihatkan tangga dan dinding lengkung."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pelataran Monumen Walisongo?",
+                    "mode": "fix",
+                    "answer": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Pelataran Monumen Walisongo.",
+                "describeHere": "Depan adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node318": {
+            "rawName": "Lapangan Basket",
+            "displayName": "Lapangan Basket Luar",
+            "placeId": "uin-walisongo-semarang-lapangan-basket-luar",
+            "placeName": "UIN Walisongo Semarang – Lapangan Basket Luar",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Garis lapangan dan pagar menjadi unsur yang terlihat pada Lapangan Basket Luar di UIN Walisongo Semarang.",
+            "description": "Garis lapangan dan pagar menjadi unsur yang terlihat pada Lapangan Basket Luar di UIN Walisongo Semarang. Lapangan basket dikenali melalui ring dan garis pembagian ruang permainan. Bidang lapang di sekitarnya memberi ruang bagi pergerakan pemain. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Garis lapangan",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Lapangan Basket",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Lapangan Basket Luar menunjukkan karakter UIN Walisongo Semarang – Lapangan Basket Luar?",
+                    "mode": "fix",
+                    "answer": "Garis lapangan dan pagar menjadi unsur yang terlihat pada Lapangan Basket Luar di UIN Walisongo Semarang. Garis lapangan dan pagar menjadi unsur yang terlihat pada Lapangan Basket Luar di UIN Walisongo Semarang. Lapangan basket dikenali melalui ring dan garis pembagian ruang permainan. Bidang lapang di sekitarnya memberi ruang bagi pergerakan pemain. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Garis lapangan dan Pagar di Lapangan Basket Luar?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Garis lapangan dan pagar menjadi unsur yang terlihat pada Lapangan Basket Luar di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Lapangan Basket Luar?",
+                    "mode": "fix",
+                    "answer": "Garis lapangan paling langsung membantu mengenali area ini. Garis lapangan dan pagar menjadi unsur yang terlihat pada Lapangan Basket Luar di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Lapangan Basket Luar.",
+                "describeHere": "Lapangan Basket adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node319": {
+            "rawName": "Lapangan",
+            "displayName": "Lapangan Rumput",
+            "placeId": "uin-walisongo-semarang-lapangan-rumput",
+            "placeName": "UIN Walisongo Semarang – Lapangan Rumput",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Lapangan Rumput menampilkan rumput dan pepohonan di UIN Walisongo Semarang.",
+            "description": "Pandangan Lapangan Rumput menampilkan rumput dan pepohonan di UIN Walisongo Semarang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Rumput membentuk bidang hijau yang penggunaannya dapat berbeda dari jalur berjalan. Perkerasan lebih jelas menandai rute sirkulasi, sedangkan hamparan rumput dapat memiliki fungsi lanskap atau aktivitas tertentu.",
+            "highlights": [
+                "Rumput",
+                "Pepohonan"
+            ],
+            "talkingPoints": [
+                "Lapangan",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Lapangan Rumput?",
+                    "mode": "fix",
+                    "answer": "Pandangan Lapangan Rumput menampilkan rumput dan pepohonan di UIN Walisongo Semarang. Pandangan Lapangan Rumput menampilkan rumput dan pepohonan di UIN Walisongo Semarang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Rumput membentuk bidang hijau yang penggunaannya dapat berbeda dari jalur berjalan. Perkerasan lebih jelas menandai rute sirkulasi, sedangkan hamparan rumput dapat memiliki fungsi lanskap atau aktivitas tertentu. Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Lapangan Rumput?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Rumput dan Pepohonan memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Lapangan Rumput menampilkan rumput dan pepohonan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa konteks UIN Walisongo Semarang – Lapangan Rumput yang membuat Lapangan Rumput lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Lapangan Rumput.",
+                "describeHere": "Lapangan adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node320": {
+            "rawName": "Masjid Walisongo",
+            "displayName": "Pelataran Masjid Walisongo",
+            "placeId": "uin-walisongo-semarang-pelataran-masjid-walisongo",
+            "placeName": "UIN Walisongo Semarang – Pelataran Masjid Walisongo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Pelataran Masjid Walisongo, pohon dan teras masjid membentuk tampilan bagian UIN Walisongo Semarang ini.",
+            "description": "Pada Pelataran Masjid Walisongo, pohon dan teras masjid membentuk tampilan bagian UIN Walisongo Semarang ini. Pelataran membentuk ruang terbuka antara bangunan dan jaringan jalur. Bidang ini membantu memperlihatkan hubungan fasad dengan kegiatan di luarnya. Pohon dapat memberi naungan dan menjadi acuan visual sepanjang jalur. Posisi batang serta akarnya juga memengaruhi bentuk ruang di sekelilingnya.",
+            "highlights": [
+                "Pohon",
+                "Teras masjid"
+            ],
+            "talkingPoints": [
+                "Masjid Walisongo",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Pelataran Masjid Walisongo di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pada Pelataran Masjid Walisongo, pohon dan teras masjid membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Pelataran Masjid Walisongo?",
+                    "mode": "fix",
+                    "answer": "Pohon dan Teras masjid memperjelas susunan serta penggunaan ruang. Pada Pelataran Masjid Walisongo, pohon dan teras masjid membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Apa fakta penting tentang UIN Walisongo Semarang – Pelataran Masjid Walisongo yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Pelataran Masjid Walisongo.",
+                "describeHere": "Masjid Walisongo adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node321": {
+            "rawName": "Perpustakaan",
+            "displayName": "Fasad Perpustakaan",
+            "placeId": "uin-walisongo-semarang-fasad-perpustakaan",
+            "placeName": "UIN Walisongo Semarang – Fasad Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Fasad Perpustakaan menyorot panel kuning dan akses masuk, dengan konteks kunjungan di UIN Walisongo Semarang.",
+            "description": "Fasad Perpustakaan menyorot panel kuning dan akses masuk, dengan konteks kunjungan di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan.",
+            "highlights": [
+                "Panel kuning",
+                "Akses masuk"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Fasad Perpustakaan menjadi bagian penting dari UIN Walisongo Semarang – Fasad Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Fasad Perpustakaan menyorot panel kuning dan akses masuk, dengan konteks kunjungan di UIN Walisongo Semarang. Fasad Perpustakaan menyorot panel kuning dan akses masuk, dengan konteks kunjungan di UIN Walisongo Semarang. Tampak luar bangunan memperlihatkan susunan bukaan, bentuk massa, dan hubungan dengan halaman. Pintu yang terlihat membantu mengenali sisi kedatangan. Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO."
+                },
+                {
+                    "q": "Apa hubungan Panel kuning dengan aktivitas di Fasad Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Panel kuning menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Fasad Perpustakaan menyorot panel kuning dan akses masuk, dengan konteks kunjungan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa yang membedakan Fasad Perpustakaan dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Panel kuning dan Akses masuk. Fasad Perpustakaan menyorot panel kuning dan akses masuk, dengan konteks kunjungan di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Fasad Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node322": {
+            "rawName": "Perpustakaandalam",
+            "displayName": "Ruang Baca Perpustakaan",
+            "placeId": "uin-walisongo-semarang-ruang-baca-perpustakaan",
+            "placeName": "UIN Walisongo Semarang – Ruang Baca Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Baca Perpustakaan di UIN Walisongo Semarang memperlihatkan rak buku dan meja baca.",
+            "description": "Ruang Baca Perpustakaan di UIN Walisongo Semarang memperlihatkan rak buku dan meja baca. Perpustakaan menggabungkan penyimpanan koleksi, tempat membaca, dan layanan pengguna. Perbedaan susunan rak, meja, dan konter menunjukkan kegiatan yang dilayani. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Rak buku",
+                "Meja baca"
+            ],
+            "talkingPoints": [
+                "Perpustakaandalam",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Ruang Baca Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Ruang Baca Perpustakaan mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Rak buku bersama Meja baca menunjukkan cara area ini digunakan. Ruang Baca Perpustakaan di UIN Walisongo Semarang memperlihatkan rak buku dan meja baca."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Ruang Baca Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Rak buku menjadi detail utama, sedangkan Meja baca melengkapi konteksnya. Ruang Baca Perpustakaan di UIN Walisongo Semarang memperlihatkan rak buku dan meja baca."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Ruang Baca Perpustakaan.",
+                "describeHere": "Perpustakaandalam adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node323": {
+            "rawName": "Perpus",
+            "displayName": "Area Komputer Perpustakaan",
+            "placeId": "uin-walisongo-semarang-area-komputer-perpustakaan",
+            "placeName": "UIN Walisongo Semarang – Area Komputer Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Komputer dan kursi biru menjadi unsur yang terlihat pada Area Komputer Perpustakaan di UIN Walisongo Semarang.",
+            "description": "Komputer dan kursi biru menjadi unsur yang terlihat pada Area Komputer Perpustakaan di UIN Walisongo Semarang. Perpustakaan menggabungkan penyimpanan koleksi, tempat membaca, dan layanan pengguna. Perbedaan susunan rak, meja, dan konter menunjukkan kegiatan yang dilayani. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Komputer",
+                "Kursi biru"
+            ],
+            "talkingPoints": [
+                "Perpus",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Area Komputer Perpustakaan dalam pengalaman pengunjung di UIN Walisongo Semarang – Area Komputer Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Komputer dan kursi biru menjadi unsur yang terlihat pada Area Komputer Perpustakaan di UIN Walisongo Semarang. Komputer dan kursi biru menjadi unsur yang terlihat pada Area Komputer Perpustakaan di UIN Walisongo Semarang. Perpustakaan menggabungkan penyimpanan koleksi, tempat membaca, dan layanan pengguna. Perbedaan susunan rak, meja, dan konter menunjukkan kegiatan yang dilayani. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                },
+                {
+                    "q": "Mengapa Komputer penting pada Area Komputer Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Komputer membantu menjelaskan identitas dan fungsi Area Komputer Perpustakaan. Komputer dan kursi biru menjadi unsur yang terlihat pada Area Komputer Perpustakaan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Area Komputer Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Area Komputer Perpustakaan.",
+                "describeHere": "Perpus adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node324": {
+            "rawName": "Perpustakaan",
+            "displayName": "Konter Perpustakaan",
+            "placeId": "uin-walisongo-semarang-konter-perpustakaan",
+            "placeName": "UIN Walisongo Semarang – Konter Perpustakaan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Konter Perpustakaan menampilkan meja layanan dan papan nama di UIN Walisongo Semarang.",
+            "description": "Pandangan Konter Perpustakaan menampilkan meja layanan dan papan nama di UIN Walisongo Semarang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya.",
+            "highlights": [
+                "Meja layanan",
+                "Papan nama"
+            ],
+            "talkingPoints": [
+                "Perpustakaan",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Konter Perpustakaan menunjukkan karakter UIN Walisongo Semarang – Konter Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Pandangan Konter Perpustakaan menampilkan meja layanan dan papan nama di UIN Walisongo Semarang. Pandangan Konter Perpustakaan menampilkan meja layanan dan papan nama di UIN Walisongo Semarang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Papan dapat menunjukkan nama, tujuan, atau ketentuan penggunaan area. Letaknya menjadi acuan sebelum pengunjung memilih jalur berikutnya. Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Meja layanan dan Papan nama di Konter Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pandangan Konter Perpustakaan menampilkan meja layanan dan papan nama di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Konter Perpustakaan?",
+                    "mode": "fix",
+                    "answer": "Meja layanan paling langsung membantu mengenali area ini. Pandangan Konter Perpustakaan menampilkan meja layanan dan papan nama di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Konter Perpustakaan.",
+                "describeHere": "Perpustakaan adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node325": {
+            "rawName": "Planetarium",
+            "displayName": "Gedung Planetarium",
+            "placeId": "uin-walisongo-semarang-gedung-planetarium",
+            "placeName": "UIN Walisongo Semarang – Gedung Planetarium",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Gedung Planetarium, fasad hijau dan halaman membentuk tampilan bagian UIN Walisongo Semarang ini.",
+            "description": "Pada Gedung Planetarium, fasad hijau dan halaman membentuk tampilan bagian UIN Walisongo Semarang ini. Planetarium menggunakan ruang pertunjukan untuk memperkenalkan benda langit. Susunan kursi dan bidang kubah membentuk pengalaman melihat yang berbeda dari kelas biasa. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat.",
+            "highlights": [
+                "Fasad hijau",
+                "Halaman"
+            ],
+            "talkingPoints": [
+                "Planetarium",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Gedung Planetarium?",
+                    "mode": "fix",
+                    "answer": "Pada Gedung Planetarium, fasad hijau dan halaman membentuk tampilan bagian UIN Walisongo Semarang ini. Pada Gedung Planetarium, fasad hijau dan halaman membentuk tampilan bagian UIN Walisongo Semarang ini. Planetarium menggunakan ruang pertunjukan untuk memperkenalkan benda langit. Susunan kursi dan bidang kubah membentuk pengalaman melihat yang berbeda dari kelas biasa. Halaman menyediakan ruang antara jalur kedatangan dan bagian dalam. Bidang terbuka dapat membantu orientasi, pergerakan, atau kegiatan yang sesuai pengaturan tempat. Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Gedung Planetarium?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Fasad hijau dan Halaman memberi petunjuk tentang kegiatan yang berlangsung di sini. Pada Gedung Planetarium, fasad hijau dan halaman membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Apa konteks UIN Walisongo Semarang – Gedung Planetarium yang membuat Gedung Planetarium lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Planetarium KH. Zubair Umar Al-Jailany adalah fasilitas edukasi dan wisata yang diklaim sebagai salah satu Planetarium universitas terbesar di dunia. Tempat ini menampilkan show simulasi benda-benda langit dan fenomena antariksa, memberikan pengalaman mendalam layaknya berada di luar angkasa."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Gedung Planetarium.",
+                "describeHere": "Planetarium adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node326": {
+            "rawName": "Gedung Rektorat",
+            "displayName": "Lobi Rektorat",
+            "placeId": "uin-walisongo-semarang-lobi-rektorat",
+            "placeName": "UIN Walisongo Semarang – Lobi Rektorat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lobi Rektorat menyorot meja penerima dan ornamen dinding, dengan konteks kunjungan di UIN Walisongo Semarang.",
+            "description": "Lobi Rektorat menyorot meja penerima dan ornamen dinding, dengan konteks kunjungan di UIN Walisongo Semarang. Ruang penerima menyediakan tempat pertama untuk mengenali layanan dan menyesuaikan tujuan kunjungan. Susunan konter, kursi, serta akses berikutnya memberi petunjuk alur ruang. Ruang kerja dan pertemuan mendukung koordinasi serta pertukaran informasi. Meja menentukan tempat orang meletakkan perlengkapan dan arah mereka berinteraksi. Susunan berhadapan mendukung percakapan, sementara barisan dapat mengarahkan perhatian ke satu bagian.",
+            "highlights": [
+                "Meja penerima",
+                "Ornamen dinding"
+            ],
+            "talkingPoints": [
+                "Gedung Rektorat",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lobi Rektorat di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Lobi Rektorat menyorot meja penerima dan ornamen dinding, dengan konteks kunjungan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lobi Rektorat?",
+                    "mode": "fix",
+                    "answer": "Meja penerima dan Ornamen dinding memperjelas susunan serta penggunaan ruang. Lobi Rektorat menyorot meja penerima dan ornamen dinding, dengan konteks kunjungan di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Apa fakta penting tentang UIN Walisongo Semarang – Lobi Rektorat yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Lab Biologi di UIN Walisongo terdiri dari beberapa unit spesifik seperti Lab Ekologi, Lab Bioteknologi, dan Lab Kultur Jaringan untuk mendukung praktikum dan riset mahasiswa. Fasilitas ini dilengkapi dengan alat-alat praktik modern untuk pemenuhan capaian pembelajaran di bidang ilmu hayati."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Lobi Rektorat.",
+                "describeHere": "Gedung Rektorat adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node327": {
+            "rawName": "Planetarium",
+            "displayName": "Ruang Pertunjukan Planetarium",
+            "placeId": "uin-walisongo-semarang-ruang-pertunjukan-planetarium",
+            "placeName": "UIN Walisongo Semarang – Ruang Pertunjukan Planetarium",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Ruang Pertunjukan Planetarium di UIN Walisongo Semarang memperlihatkan kursi merah dan kubah.",
+            "description": "Ruang Pertunjukan Planetarium di UIN Walisongo Semarang memperlihatkan kursi merah dan kubah. Planetarium menggunakan ruang pertunjukan untuk memperkenalkan benda langit. Susunan kursi dan bidang kubah membentuk pengalaman melihat yang berbeda dari kelas biasa. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Kursi merah",
+                "Kubah"
+            ],
+            "talkingPoints": [
+                "Planetarium",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Ruang Pertunjukan Planetarium menjadi bagian penting dari UIN Walisongo Semarang – Ruang Pertunjukan Planetarium?",
+                    "mode": "fix",
+                    "answer": "Ruang Pertunjukan Planetarium di UIN Walisongo Semarang memperlihatkan kursi merah dan kubah. Ruang Pertunjukan Planetarium di UIN Walisongo Semarang memperlihatkan kursi merah dan kubah. Planetarium menggunakan ruang pertunjukan untuk memperkenalkan benda langit. Susunan kursi dan bidang kubah membentuk pengalaman melihat yang berbeda dari kelas biasa. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Gedung Laboratorium Terpadu (sering disebut LST FST atau Gedung ICT Center) adalah pusat penelitian universitas yang mengelola berbagai laboratorium seperti Fisika, Kimia, dan Komputasi. Gedung ini berperan penting dalam memberikan pelayanan penelitian, pengujian, dan kalibrasi, serta berupaya mencapai standar akreditasi ISO."
+                },
+                {
+                    "q": "Apa hubungan Kursi merah dengan aktivitas di Ruang Pertunjukan Planetarium?",
+                    "mode": "fix",
+                    "answer": "Kursi merah menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Ruang Pertunjukan Planetarium di UIN Walisongo Semarang memperlihatkan kursi merah dan kubah."
+                },
+                {
+                    "q": "Apa yang membedakan Ruang Pertunjukan Planetarium dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Kursi merah dan Kubah. Ruang Pertunjukan Planetarium di UIN Walisongo Semarang memperlihatkan kursi merah dan kubah."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:381"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Ruang Pertunjukan Planetarium.",
+                "describeHere": "Planetarium adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node328": {
+            "rawName": "Teaterrektorat",
+            "displayName": "Teater Rektorat",
+            "placeId": "uin-walisongo-semarang-teater-rektorat",
+            "placeName": "UIN Walisongo Semarang – Teater Rektorat",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Panggung dan layar menjadi unsur yang terlihat pada Teater Rektorat di UIN Walisongo Semarang.",
+            "description": "Panggung dan layar menjadi unsur yang terlihat pada Teater Rektorat di UIN Walisongo Semarang. Ruang pertunjukan atau pertemuan mengarahkan perhatian ke panggung atau area pembicara. Susunan tempat duduk dan jalur masuk membantu membagi ruang peserta dengan area kegiatan. Layar membuat informasi visual dapat dilihat beberapa orang sekaligus. Posisi tempat duduk dan jarak pandang biasanya mengikuti bidang tayang.",
+            "highlights": [
+                "Panggung",
+                "Layar"
+            ],
+            "talkingPoints": [
+                "Teaterrektorat",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Teater Rektorat?",
+                    "mode": "fix",
+                    "answer": "Ruang kelas di Fakultas Kedokteran UIN Walisongo (yang baru diresmikan) dirancang sebagai ruang tutorial dan kuliah yang modern. Ruangan ini dilengkapi dengan teknologi canggih seperti layar sentuh touch screen yang besar untuk mendukung metode pembelajaran kedokteran yang interaktif."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Teater Rektorat mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Panggung bersama Layar menunjukkan cara area ini digunakan. Panggung dan layar menjadi unsur yang terlihat pada Teater Rektorat di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Teater Rektorat?",
+                    "mode": "fix",
+                    "answer": "Panggung menjadi detail utama, sedangkan Layar melengkapi konteksnya. Panggung dan layar menjadi unsur yang terlihat pada Teater Rektorat di UIN Walisongo Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:379"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Teater Rektorat.",
+                "describeHere": "Teaterrektorat adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node329": {
+            "rawName": "Walisongocenter",
+            "displayName": "Meja Penerima Walisongo Center",
+            "placeId": "uin-walisongo-semarang-meja-penerima-walisongo-center",
+            "placeName": "UIN Walisongo Semarang – Meja Penerima Walisongo Center",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Meja Penerima Walisongo Center menampilkan konter dan vitrin di UIN Walisongo Semarang.",
+            "description": "Pandangan Meja Penerima Walisongo Center menampilkan konter dan vitrin di UIN Walisongo Semarang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Lihat bentuk keseluruhan, lalu perhatikan detail dan label yang menyertainya. Berpindah sudut dapat membantu mengurangi pantulan pada kaca.",
+            "highlights": [
+                "Konter",
+                "Vitrin"
+            ],
+            "talkingPoints": [
+                "Walisongocenter",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Meja Penerima Walisongo Center dalam pengalaman pengunjung di UIN Walisongo Semarang – Meja Penerima Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Pandangan Meja Penerima Walisongo Center menampilkan konter dan vitrin di UIN Walisongo Semarang. Pandangan Meja Penerima Walisongo Center menampilkan konter dan vitrin di UIN Walisongo Semarang. Konter pelayanan mempertemukan petugas dengan pengguna layanan. Ruang antre dan meja penerima membantu menata urutan serta tujuan kunjungan. Lihat bentuk keseluruhan, lalu perhatikan detail dan label yang menyertainya. Berpindah sudut dapat membantu mengurangi pantulan pada kaca. Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                },
+                {
+                    "q": "Mengapa Konter penting pada Meja Penerima Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Konter membantu menjelaskan identitas dan fungsi Meja Penerima Walisongo Center. Pandangan Meja Penerima Walisongo Center menampilkan konter dan vitrin di UIN Walisongo Semarang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Meja Penerima Walisongo Center?",
+                    "mode": "fix",
+                    "answer": "Teater Rektorat adalah aula atau ruang serbaguna berkapasitas besar. Fasilitas ini digunakan untuk kegiatan akademik seperti seminar, workshop, dan pertunjukan seni (seperti UKM Teater) oleh civitas akademika."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Meja Penerima Walisongo Center.",
+                "describeHere": "Walisongocenter adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node330": {
+            "rawName": "Peta",
+            "displayName": "Peta dan Diorama Walisongo",
+            "placeId": "uin-walisongo-semarang-peta-dan-diorama-walisongo",
+            "placeName": "UIN Walisongo Semarang – Peta dan Diorama Walisongo",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Peta dan Diorama Walisongo, peta dinding dan diorama membentuk tampilan bagian UIN Walisongo Semarang ini.",
+            "description": "Pada Peta dan Diorama Walisongo, peta dinding dan diorama membentuk tampilan bagian UIN Walisongo Semarang ini. Ruang pamer menghubungkan benda, gambar, dan keterangan agar pengunjung dapat membaca konteksnya. Vitrin serta panel membantu membedakan objek koleksi dengan bagian penjelasan.",
+            "highlights": [
+                "Peta dinding",
+                "Diorama"
+            ],
+            "talkingPoints": [
+                "Peta",
+                "jalur eksplorasi",
+                "Uinwalisongo"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Peta dan Diorama Walisongo menunjukkan karakter UIN Walisongo Semarang – Peta dan Diorama Walisongo?",
+                    "mode": "fix",
+                    "answer": "Pada Peta dan Diorama Walisongo, peta dinding dan diorama membentuk tampilan bagian UIN Walisongo Semarang ini. Pada Peta dan Diorama Walisongo, peta dinding dan diorama membentuk tampilan bagian UIN Walisongo Semarang ini. Ruang pamer menghubungkan benda, gambar, dan keterangan agar pengunjung dapat membaca konteksnya. Vitrin serta panel membantu membedakan objek koleksi dengan bagian penjelasan. Lab Komputer di UIN Walisongo tersedia di Gedung ICT Center dan tersebar di tiap Fakultas, seperti Lab Komputasi Fisika dan Smart Class. Fasilitas ini menyediakan akses internet berkecepatan tinggi dan perangkat komputer yang memadai untuk mendukung riset, pembelajaran, dan pengembangan proyek digital mahasiswa."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Peta dinding dan Diorama di Peta dan Diorama Walisongo?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Pada Peta dan Diorama Walisongo, peta dinding dan diorama membentuk tampilan bagian UIN Walisongo Semarang ini."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Peta dan Diorama Walisongo?",
+                    "mode": "fix",
+                    "answer": "Peta dinding paling langsung membantu mengenali area ini. Pada Peta dan Diorama Walisongo, peta dinding dan diorama membentuk tampilan bagian UIN Walisongo Semarang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di UIN Walisongo Semarang – Peta dan Diorama Walisongo.",
+                "describeHere": "Peta adalah area di dalam kawasan Uinwalisongo, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "places": []
+}

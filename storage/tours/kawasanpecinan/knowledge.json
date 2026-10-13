@@ -1,0 +1,198 @@
+{
+    "version": 2,
+    "tourId": "kawasanpecinan",
+    "updatedAt": "2026-09-29T09:51:06+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Kawasanpecinan",
+            "aliases": [
+                "kawasanpecinan"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "kawasanpecinan"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Kawasanpecinan.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Kawasanpecinan",
+                    "content": "Pusat pengalaman virtual untuk Kawasanpecinan."
+                },
+                "en": {
+                    "title": "Kawasanpecinan",
+                    "content": "Pusat pengalaman virtual untuk Kawasanpecinan."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Gerbangutama",
+            "aliases": [
+                "gerbangutama"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kawasanpecinan"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Gerbangutama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Gerbangutama",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "default",
+            "aliases": [
+                "default"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "kawasanpecinan"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "default",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "kawasanpecinan"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:907",
+            "entityId": "objinfo2:907",
+            "title": "Gerbang Utama Pecinan",
+            "aliases": [
+                "gerbang utama pecinan",
+                "objek 907"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Gerbang utama Pecinan Semarang, yang dikenal sebagai Gapura Pecinan, merupakan struktur megah berwarna merah dominan dengan arsitektur khas Tiongkok yang menjadi pintu masuk ikonik menuju kawasan kuliner Semawis. Landmark ini tidak hanya berfungsi sebagai penanda visual yang menyambut pengunjung, tetapi juga melambangkan akulturasi budaya yang kental dan sejarah panjang komunitas Tionghoa di jantung Kota Semarang.",
+            "source": "webview-import",
+            "sourceId": "907",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Gerbang Utama Pecinan",
+                    "content": "Gerbang utama Pecinan Semarang, yang dikenal sebagai Gapura Pecinan, merupakan struktur megah berwarna merah dominan dengan arsitektur khas Tiongkok yang menjadi pintu masuk ikonik menuju kawasan kuliner Semawis. Landmark ini tidak hanya berfungsi sebagai penanda visual yang menyambut pengunjung, tetapi juga melambangkan akulturasi budaya yang kental dan sejarah panjang komunitas Tionghoa di jantung Kota Semarang."
+                },
+                "en": {
+                    "title": "Main Gate of Chinatown",
+                    "content": "The main gate of Semarang Chinatown, known as Gapura Pecinan, is a grand structure dominated by red color with distinctive Chinese architecture, serving as an iconic entrance to the Semawis culinary area. This landmark not only functions as a visual marker welcoming visitors but also symbolizes the rich cultural acculturation and long history of the Chinese community in the heart of Semarang City."
+                },
+                "zh": {
+                    "title": "唐人街主门",
+                    "content": "三宝垄华人街的主门，称为“Gapura Pecinan”，是一座以红色为主的宏伟建筑，具有典型的中国建筑风格，是通往 Semawis 美食区的标志性入口。该地标不仅作为迎接游客的视觉标识，还象征着深厚的文化融合以及华人社区在三宝垄市中心的悠久历史。"
+                },
+                "ar": {
+                    "title": "البوابة الرئيسية للحي الصيني",
+                    "content": "البوابة الرئيسية للحي الصيني في سيمارانغ، المعروفة باسم Gapura Pecinan، هي هيكل فخم يغلب عليه اللون الأحمر ويتميز بالعمارة الصينية التقليدية، وتعد المدخل الأيقوني لمنطقة الطعام Semawis. لا تعمل هذه العلامة البارزة فقط كمؤشر بصري يرحب بالزوار، بل ترمز أيضًا إلى الاندماج الثقافي الغني والتاريخ الطويل للمجتمع الصيني في قلب مدينة سيمارانغ"
+                }
+            }
+        }
+    ]
+}

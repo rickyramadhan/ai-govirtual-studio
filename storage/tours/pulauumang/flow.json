@@ -1,0 +1,47 @@
+{
+    "version": "1.0",
+    "tourId": "pulauumang",
+    "tourName": "Pulau Umang",
+    "updatedAt": "2026-09-08T05:46:37+02:00",
+    "startScene": "node120",
+    "order": [
+        "node120",
+        "node121",
+        "node122",
+        "node123",
+        "node124",
+        "node125",
+        "node126",
+        "node127",
+        "node128"
+    ],
+    "nodes": {
+        "node120": {
+            "displayName": "Pulau Umang (Tampilan Drone)"
+        },
+        "node121": {
+            "displayName": "Pantai Umang"
+        },
+        "node122": {
+            "displayName": "Penyewaan Perahu"
+        },
+        "node123": {
+            "displayName": "Gunung Sebesi"
+        },
+        "node124": {
+            "displayName": "Dermaga Pulau Umang"
+        },
+        "node125": {
+            "displayName": "Spot Matahari Terbit"
+        },
+        "node126": {
+            "displayName": "Pohon Ketapang"
+        },
+        "node127": {
+            "displayName": "Penyimpanan Kayak"
+        },
+        "node128": {
+            "displayName": "Pantai Pasir Putih"
+        }
+    }
+}

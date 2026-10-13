@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "tamantirtoagung",
+    "tourName": "Tamantirtoagung",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Kuliner Malam",
+                "query": "Apa saja jajanan khas dan kuliner malam yang wajib dicoba di sekitar taman ini?",
+                "desc": "Apa saja jajanan khas dan kuliner malam yang wajib dicoba di sekitar taman ini?"
+            },
+            {
+                "label": "Aktivitas Sore",
+                "query": "Biasanya kegiatan apa yang paling ramai dilakukan pengunjung saat sore hari?",
+                "desc": "Biasanya kegiatan apa yang paling ramai dilakukan pengunjung saat sore hari?"
+            },
+            {
+                "label": "Fasilitas Parkir",
+                "query": "Di mana lokasi area parkir yang aman bagi pengunjung yang membawa kendaraan pribadi?",
+                "desc": "Di mana lokasi area parkir yang aman bagi pengunjung yang membawa kendaraan pribadi?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Ruang Terbuka Hijau",
+                "query": "Bagaimana peran Taman Tirto Agung sebagai paru-paru kota dan ruang terbuka hijau bagi warga Tembalang?"
+            },
+            {
+                "label": "Fasilitas Bermain",
+                "query": "Apa saja fasilitas permainan anak-anak dan area rekreasi keluarga yang ada di taman ini?"
+            },
+            {
+                "label": "Sentra Kuliner",
+                "query": "Bagaimana perkembangan taman ini menjadi salah satu sentra kuliner kaki lima favorit saat malam hari?"
+            },
+            {
+                "label": "Kegiatan Olahraga",
+                "query": "Fasilitas olahraga ringan apa saja yang sering digunakan warga untuk berolahraga pagi atau sore?"
+            },
+            {
+                "label": "Titik Kumpul Mahasiswa",
+                "query": "Mengapa taman ini sering dijadikan titik kumpul dan tempat bersantai bagi mahasiswa di sekitarnya?"
+            },
+            {
+                "label": "Pengelolaan Kebersihan",
+                "query": "Bagaimana upaya pemerintah dan warga dalam menjaga kebersihan dan kenyamanan area taman ini?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Tamantirtoagung?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Tamantirtoagung?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Tamantirtoagung?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

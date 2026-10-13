@@ -1,0 +1,63 @@
+{
+    "version": "1.0",
+    "tourId": "dermaexpress",
+    "tourName": "Derma Express",
+    "updatedAt": "2026-09-29T06:09:51+02:00",
+    "startScene": "node1",
+    "order": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13"
+    ],
+    "nodes": {
+        "node1": {
+            "displayName": "Derma Express Semarang – Fasad Derma Express"
+        },
+        "node2": {
+            "displayName": "Derma Express Semarang – Ruang Perawatan 1.8"
+        },
+        "node3": {
+            "displayName": "Derma Express Semarang – Ruang Contouring 3.6"
+        },
+        "node4": {
+            "displayName": "Derma Express Semarang – Koridor Bermural"
+        },
+        "node5": {
+            "displayName": "Derma Express Semarang – Pelataran Kedatangan Klinik"
+        },
+        "node6": {
+            "displayName": "Derma Express Semarang – Koridor Lantai 2"
+        },
+        "node7": {
+            "displayName": "Derma Express Semarang – Akses Musala dan Fasilitas Pendukung"
+        },
+        "node8": {
+            "displayName": "Derma Express Semarang – Jalur Keluar Klinik"
+        },
+        "node9": {
+            "displayName": "Derma Express Semarang – Area Mesin Antrean"
+        },
+        "node10": {
+            "displayName": "Derma Express Semarang – Resepsionis Derma Express"
+        },
+        "node11": {
+            "displayName": "Derma Express Semarang – Koridor Perawatan Lantai 3"
+        },
+        "node12": {
+            "displayName": "Derma Express Semarang – Ruang Tunggu Lantai 1"
+        },
+        "node13": {
+            "displayName": "Derma Express Semarang – Fasilitas Pendukung Kunjungan"
+        }
+    }
+}

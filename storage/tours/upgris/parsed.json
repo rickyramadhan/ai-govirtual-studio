@@ -1,0 +1,1295 @@
+{
+    "startNode": "node4",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Drone Gedung Utama UPGRIS",
+            "displayName": "Drone Gedung Utama UPGRIS",
+            "rawName": "default",
+            "customNodeId": "-rone-edung-tama-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "default",
+                "Drone Gedung Utama UPGRIS"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Gedung 4 UPGRIS",
+            "displayName": "Gedung 4 UPGRIS",
+            "rawName": "default",
+            "customNodeId": "-edung-4-",
+            "pan": 1.23,
+            "tilt": -21.9,
+            "fov": 108.17,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "default",
+                "Gedung 4 UPGRIS"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Asrama Putra",
+            "displayName": "Asrama Putra",
+            "rawName": "",
+            "customNodeId": "-srama-utra",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Asrama Putra"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Asrama Putri",
+            "displayName": "Asrama Putri",
+            "rawName": "",
+            "customNodeId": "-srama-utri",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Asrama Putri"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Balairung",
+            "displayName": "Balairung",
+            "rawName": "",
+            "customNodeId": "-alairung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Balairung"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "ballroom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 130,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "ballroom"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Ballroom",
+            "displayName": "Ballroom",
+            "rawName": "",
+            "customNodeId": "-allroom",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Ballroom"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Ruang Fitness",
+            "displayName": "Ruang Fitness",
+            "rawName": "",
+            "customNodeId": "-uang-itness",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Ruang Fitness"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Gedung Olahraga",
+            "displayName": "Gedung Olahraga",
+            "rawName": "",
+            "customNodeId": "-edung-lahraga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Gedung Olahraga"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Kamar Asrama",
+            "displayName": "Kamar Asrama",
+            "rawName": "",
+            "customNodeId": "-amar-srama",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Kamar Asrama"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Kepenyiaranbahasaindonesia",
+            "displayName": "Kepenyiaranbahasaindonesia",
+            "rawName": "",
+            "customNodeId": "kepenyiaranbahasaindonesia",
+            "pan": -1.92,
+            "tilt": -10.49,
+            "fov": 147.93,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "kepenyiaranbahasaindonesia"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Penyiaran Bahasa Indonesia",
+            "displayName": "Penyiaran Bahasa Indonesia",
+            "rawName": "",
+            "customNodeId": "-enyiaran-ahasa-ndonesia",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Penyiaran Bahasa Indonesia"
+            ]
+        },
+        {
+            "id": "node17",
+            "name": "Studiogamelan",
+            "displayName": "Studiogamelan",
+            "rawName": "",
+            "customNodeId": "studiogamelan",
+            "pan": 40.59,
+            "tilt": -10.24,
+            "fov": 160.03,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "studiogamelan"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Lab Bahasa Jawa",
+            "displayName": "Lab Bahasa Jawa",
+            "rawName": "",
+            "customNodeId": "-ab-ahasa-awa",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lab Bahasa Jawa"
+            ]
+        },
+        {
+            "id": "node19",
+            "name": "Labkomputer",
+            "displayName": "Labkomputer",
+            "rawName": "",
+            "customNodeId": "labkomputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "labkomputer"
+            ]
+        },
+        {
+            "id": "node20",
+            "name": "Lab Komputer",
+            "displayName": "Lab Komputer",
+            "rawName": "",
+            "customNodeId": "-ab-omputer",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lab Komputer"
+            ]
+        },
+        {
+            "id": "node21",
+            "name": "Labmultimedia",
+            "displayName": "Labmultimedia",
+            "rawName": "",
+            "customNodeId": "labmultimedia",
+            "pan": 1.55,
+            "tilt": -8.53,
+            "fov": 147.93,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "labmultimedia"
+            ]
+        },
+        {
+            "id": "node22",
+            "name": "Lapangan Basket",
+            "displayName": "Lapangan Basket",
+            "rawName": "",
+            "customNodeId": "-apangan-asket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lapangan Basket"
+            ]
+        },
+        {
+            "id": "node23",
+            "name": "Gedung Olahraga",
+            "displayName": "Gedung Olahraga",
+            "rawName": "",
+            "customNodeId": "-edung-lahraga",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Gedung Olahraga"
+            ]
+        },
+        {
+            "id": "node24",
+            "name": "Lapangan Tennis",
+            "displayName": "Lapangan Tennis",
+            "rawName": "",
+            "customNodeId": "-apangan-ennis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lapangan Tennis"
+            ]
+        },
+        {
+            "id": "node25",
+            "name": "Mobil",
+            "displayName": "Mobil",
+            "rawName": "",
+            "customNodeId": "mobil",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "mobil"
+            ]
+        },
+        {
+            "id": "node26",
+            "name": "Gedung Kampus 4 UPGRIS",
+            "displayName": "Gedung Kampus 4 UPGRIS",
+            "rawName": "",
+            "customNodeId": "-edung-ampus-4-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Gedung Kampus 4 UPGRIS"
+            ]
+        },
+        {
+            "id": "node27",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node28",
+            "name": "Masjid Nurul Huda",
+            "displayName": "Masjid Nurul Huda",
+            "rawName": "",
+            "customNodeId": "-asjid-urul-uda",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid Nurul Huda"
+            ]
+        },
+        {
+            "id": "node29",
+            "name": "Masjid",
+            "displayName": "Masjid",
+            "rawName": "",
+            "customNodeId": "-asjid",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid"
+            ]
+        },
+        {
+            "id": "node30",
+            "name": "Masjid Kampus",
+            "displayName": "Masjid Kampus",
+            "rawName": "",
+            "customNodeId": "-asjid-ampus",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Masjid Kampus"
+            ]
+        },
+        {
+            "id": "node31",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node32",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "perpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "perpustakaan"
+            ]
+        },
+        {
+            "id": "node33",
+            "name": "Perpustakaan",
+            "displayName": "Perpustakaan",
+            "rawName": "",
+            "customNodeId": "-erpustakaan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Perpustakaan"
+            ]
+        },
+        {
+            "id": "node34",
+            "name": "Area Parkir",
+            "displayName": "Area Parkir",
+            "rawName": "",
+            "customNodeId": "-rea-arkir",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Area Parkir"
+            ]
+        },
+        {
+            "id": "node35",
+            "name": "Pintu Masuk UPGRIS",
+            "displayName": "Pintu Masuk UPGRIS",
+            "rawName": "",
+            "customNodeId": "-intu-asuk-",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Pintu Masuk UPGRIS"
+            ]
+        },
+        {
+            "id": "node36",
+            "name": "Radio",
+            "displayName": "Radio",
+            "rawName": "",
+            "customNodeId": "radio",
+            "pan": 135.33,
+            "tilt": -17.26,
+            "fov": 136,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "radio"
+            ]
+        },
+        {
+            "id": "node37",
+            "name": "Taman Baca",
+            "displayName": "Taman Baca",
+            "rawName": "",
+            "customNodeId": "-aman-aca",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Taman Baca"
+            ]
+        },
+        {
+            "id": "node38",
+            "name": "Labteknologipangan",
+            "displayName": "Labteknologipangan",
+            "rawName": "",
+            "customNodeId": "labteknologipangan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "labteknologipangan"
+            ]
+        },
+        {
+            "id": "node39",
+            "name": "Mikroskop",
+            "displayName": "Mikroskop",
+            "rawName": "",
+            "customNodeId": "mikroskop",
+            "pan": -29.41,
+            "tilt": -4.09,
+            "fov": 125.72,
+            "tags": [
+                "oi",
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "mikroskop"
+            ]
+        },
+        {
+            "id": "node40",
+            "name": "Lab Teknologi Pangan",
+            "displayName": "Lab Teknologi Pangan",
+            "rawName": "",
+            "customNodeId": "-ab-eknologi-angan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "Lab Teknologi Pangan"
+            ]
+        },
+        {
+            "id": "node41",
+            "name": "VIP Balairung",
+            "displayName": "VIP Balairung",
+            "rawName": "",
+            "customNodeId": "-alairung",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "UniversitasPGRISemarang"
+            ],
+            "aliases": [
+                "VIP Balairung"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node4",
+            "title": "Gedung 4 UPGRIS",
+            "id": "Point01",
+            "pan": -42.77,
+            "tilt": 15.68
+        },
+        {
+            "scene": "node1",
+            "target": "node35",
+            "title": "Pintu Masuk Gedung Utama",
+            "id": "Point02",
+            "pan": -341.75,
+            "tilt": -38.77
+        },
+        {
+            "scene": "node4",
+            "target": "node26",
+            "title": "Gedung Kampus 4 UPGRIS",
+            "id": "Point01",
+            "pan": -2.04,
+            "tilt": -28.19
+        },
+        {
+            "scene": "node4",
+            "target": "node1",
+            "title": "Drone Gedung Utama UPGRIS",
+            "id": "Point02",
+            "pan": -12.31,
+            "tilt": 3.77
+        },
+        {
+            "scene": "node4",
+            "target": "node24",
+            "title": "Lapangan Tennis",
+            "id": "Point03",
+            "pan": -273.51,
+            "tilt": -14.46
+        },
+        {
+            "scene": "node7",
+            "target": "node24",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -1.56,
+            "tilt": -11.9
+        },
+        {
+            "scene": "node8",
+            "target": "node24",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -265.48,
+            "tilt": -5.46
+        },
+        {
+            "scene": "node8",
+            "target": "node14",
+            "title": "Kamar Asrama",
+            "id": "Point02",
+            "pan": -12.04,
+            "tilt": -2.17
+        },
+        {
+            "scene": "node9",
+            "target": "node28",
+            "title": "Masjid",
+            "id": "Point01",
+            "pan": -272.56,
+            "tilt": -14.41
+        },
+        {
+            "scene": "node9",
+            "target": "node41",
+            "title": "VIP Balairung",
+            "id": "Point02",
+            "pan": -359.24,
+            "tilt": -12.99
+        },
+        {
+            "scene": "node9",
+            "target": "node34",
+            "title": "Area Parkir",
+            "id": "Point03",
+            "pan": -44.26,
+            "tilt": -13.94
+        },
+        {
+            "scene": "node10",
+            "target": "node11",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -179.64,
+            "tilt": -7.49
+        },
+        {
+            "scene": "node11",
+            "target": "node10",
+            "title": "Ballroom",
+            "id": "Point01",
+            "pan": -346.06,
+            "tilt": -6.86
+        },
+        {
+            "scene": "node11",
+            "target": "node16",
+            "title": "Penyiaran Bahasa Indonesia",
+            "id": "Point02",
+            "pan": -200.04,
+            "tilt": -3.21
+        },
+        {
+            "scene": "node12",
+            "target": "node26",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -32.54,
+            "tilt": -6.15
+        },
+        {
+            "scene": "node13",
+            "target": "node23",
+            "title": "Gedung Olahraga",
+            "id": "Point01",
+            "pan": -0.82,
+            "tilt": -6.63
+        },
+        {
+            "scene": "node13",
+            "target": "node37",
+            "title": "Taman Baca",
+            "id": "Point02",
+            "pan": -85.2,
+            "tilt": 1.5
+        },
+        {
+            "scene": "node13",
+            "target": "node28",
+            "title": "Masjid Nurul Huda",
+            "id": "Point03",
+            "pan": -266.96,
+            "tilt": 1.15
+        },
+        {
+            "scene": "node13",
+            "target": "node26",
+            "title": "Lobi Kampus 4",
+            "id": "Point04",
+            "pan": 189.48,
+            "tilt": -0.8
+        },
+        {
+            "scene": "node14",
+            "target": "node8",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -286.34,
+            "tilt": -20.17
+        },
+        {
+            "scene": "node15",
+            "target": "node16",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -192.61,
+            "tilt": -13.84
+        },
+        {
+            "scene": "node16",
+            "target": "node18",
+            "title": "Lab Bahasa Jawa",
+            "id": "Point01",
+            "pan": -267.55,
+            "tilt": -7.1
+        },
+        {
+            "scene": "node16",
+            "target": "node15",
+            "title": "Penyiaran Bahasa Indonesia",
+            "id": "Point02",
+            "pan": -181.6,
+            "tilt": -14.79
+        },
+        {
+            "scene": "node16",
+            "target": "node11",
+            "title": "Ballroom",
+            "id": "Point04",
+            "pan": -94.45,
+            "tilt": -8.66
+        },
+        {
+            "scene": "node17",
+            "target": "node18",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -168.04,
+            "tilt": -13.8
+        },
+        {
+            "scene": "node18",
+            "target": "node26",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -98.15,
+            "tilt": -7.1
+        },
+        {
+            "scene": "node18",
+            "target": "node17",
+            "title": "Lab Bahasa Jawa",
+            "id": "Point02",
+            "pan": 0.3,
+            "tilt": -24.86
+        },
+        {
+            "scene": "node18",
+            "target": "node16",
+            "title": "Penyiaran Bahasa Indonesia",
+            "id": "Point03",
+            "pan": -271.73,
+            "tilt": -5.25
+        },
+        {
+            "scene": "node19",
+            "target": "node20",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -257.85,
+            "tilt": -17.42
+        },
+        {
+            "scene": "node20",
+            "target": "node19",
+            "title": "Lab Komputer",
+            "id": "Point02",
+            "pan": -344.01,
+            "tilt": -12.96
+        },
+        {
+            "scene": "node20",
+            "target": "node25",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -94.2,
+            "tilt": -5.62
+        },
+        {
+            "scene": "node21",
+            "target": "node26",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -149.56,
+            "tilt": -11.45
+        },
+        {
+            "scene": "node22",
+            "target": "node23",
+            "title": "Lapangan Badminton",
+            "id": "Point01",
+            "pan": -30.46,
+            "tilt": 1.09
+        },
+        {
+            "scene": "node23",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -250.45,
+            "tilt": 2.29
+        },
+        {
+            "scene": "node23",
+            "target": "node22",
+            "title": "Lapangan Basket",
+            "id": "Point02",
+            "pan": -109.06,
+            "tilt": 0.85
+        },
+        {
+            "scene": "node24",
+            "target": "node8",
+            "title": "Asrama Putri",
+            "id": "Point01",
+            "pan": -301.4,
+            "tilt": -0.34
+        },
+        {
+            "scene": "node24",
+            "target": "node7",
+            "title": "Asrama Putra",
+            "id": "Point02",
+            "pan": -15.2,
+            "tilt": -0.44
+        },
+        {
+            "scene": "node24",
+            "target": "node29",
+            "title": "Masjid",
+            "id": "Point03",
+            "pan": -52.3,
+            "tilt": -0.51
+        },
+        {
+            "scene": "node24",
+            "target": "node37",
+            "title": "Taman Baca",
+            "id": "Point04",
+            "pan": -178.86,
+            "tilt": -11.57
+        },
+        {
+            "scene": "node25",
+            "target": "node38",
+            "title": "Lab Teknologi Pangan",
+            "id": "Point01",
+            "pan": -293.66,
+            "tilt": -8.55
+        },
+        {
+            "scene": "node25",
+            "target": "node35",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -182.53,
+            "tilt": -15.7
+        },
+        {
+            "scene": "node25",
+            "target": "node33",
+            "title": "Perpustakaan",
+            "id": "Point04",
+            "pan": -116.16,
+            "tilt": -5.91
+        },
+        {
+            "scene": "node25",
+            "target": "node20",
+            "title": "Lab Komputer",
+            "id": "Point03",
+            "pan": -73.94,
+            "tilt": -2.5
+        },
+        {
+            "scene": "node26",
+            "target": "node13",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -177.53,
+            "tilt": -3.6
+        },
+        {
+            "scene": "node26",
+            "target": "node18",
+            "title": "Gedung Kampus 4 UPGRIS",
+            "id": "Point02",
+            "pan": -310.42,
+            "tilt": -12.61
+        },
+        {
+            "scene": "node26",
+            "target": "node12",
+            "title": "Ruang Fitness",
+            "id": "Point03",
+            "pan": -353.73,
+            "tilt": -10.17
+        },
+        {
+            "scene": "node26",
+            "target": "node21",
+            "title": "Lab Multimedia",
+            "id": "Point04",
+            "pan": -18.38,
+            "tilt": -9.58
+        },
+        {
+            "scene": "node27",
+            "target": "node28",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -180.33,
+            "tilt": -12.26
+        },
+        {
+            "scene": "node28",
+            "target": "node27",
+            "title": "Masjid",
+            "id": "Point01",
+            "pan": -359.5,
+            "tilt": -1.37
+        },
+        {
+            "scene": "node28",
+            "target": "node9",
+            "title": "Balairung",
+            "id": "Point02",
+            "pan": -206.58,
+            "tilt": -6.91
+        },
+        {
+            "scene": "node28",
+            "target": "node35",
+            "title": "Pintu Masuk UPGRIS",
+            "id": "Point03",
+            "pan": -279.02,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node29",
+            "target": "node30",
+            "title": "Masjid Kampus",
+            "id": "Point01",
+            "pan": -0.87,
+            "tilt": -17.27
+        },
+        {
+            "scene": "node29",
+            "target": "node24",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -175.98,
+            "tilt": -14.87
+        },
+        {
+            "scene": "node30",
+            "target": "node29",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -49.45,
+            "tilt": -18.88
+        },
+        {
+            "scene": "node31",
+            "target": "node36",
+            "title": "Studio Radio",
+            "id": "Point01",
+            "pan": -112.71,
+            "tilt": -3.08
+        },
+        {
+            "scene": "node31",
+            "target": "node35",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -252.44,
+            "tilt": -4.18
+        },
+        {
+            "scene": "node31",
+            "target": "node34",
+            "title": "Gedung Balairung",
+            "id": "Point03",
+            "pan": -79.01,
+            "tilt": -6.46
+        },
+        {
+            "scene": "node32",
+            "target": "node33",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -178.7,
+            "tilt": -13.39
+        },
+        {
+            "scene": "node33",
+            "target": "node25",
+            "title": "Lobi",
+            "id": "Point01",
+            "pan": -236.89,
+            "tilt": -9.32
+        },
+        {
+            "scene": "node33",
+            "target": "node32",
+            "title": "Perpustakaan",
+            "id": "Point02",
+            "pan": -124.38,
+            "tilt": -18.34
+        },
+        {
+            "scene": "node34",
+            "target": "node9",
+            "title": "Balairung",
+            "id": "Point01",
+            "pan": -12.7,
+            "tilt": -9.51
+        },
+        {
+            "scene": "node34",
+            "target": "node31",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -242.85,
+            "tilt": -13.88
+        },
+        {
+            "scene": "node35",
+            "target": "node25",
+            "title": "Lab Komputer",
+            "id": "Point01",
+            "pan": -77.8,
+            "tilt": -2.09
+        },
+        {
+            "scene": "node35",
+            "target": "node31",
+            "title": "Area Parkir",
+            "id": "Point02",
+            "pan": -289.67,
+            "tilt": -6.16
+        },
+        {
+            "scene": "node35",
+            "target": "node28",
+            "title": "Masjid Nurul Huda",
+            "id": "Point03",
+            "pan": -266.05,
+            "tilt": -0.56
+        },
+        {
+            "scene": "node35",
+            "target": "node37",
+            "title": "Taman Baca",
+            "id": "Point04",
+            "pan": -100.19,
+            "tilt": 0.42
+        },
+        {
+            "scene": "node36",
+            "target": "node31",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -134.53,
+            "tilt": -18.15
+        },
+        {
+            "scene": "node37",
+            "target": "node13",
+            "title": "Gedung Olahraga",
+            "id": "Point01",
+            "pan": -174.99,
+            "tilt": -0.81
+        },
+        {
+            "scene": "node37",
+            "target": "node24",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -311.1,
+            "tilt": -6.39
+        },
+        {
+            "scene": "node37",
+            "target": "node35",
+            "title": "Pintu Masuk UPGRIS",
+            "id": "Point03",
+            "pan": -83.23,
+            "tilt": -2.17
+        },
+        {
+            "scene": "node38",
+            "target": "node25",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -228.39,
+            "tilt": -10.3
+        },
+        {
+            "scene": "node38",
+            "target": "node40",
+            "title": "Lab Teknologi Pangan",
+            "id": "Point02",
+            "pan": -141.59,
+            "tilt": -13.52
+        },
+        {
+            "scene": "node39",
+            "target": "node40",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -301.81,
+            "tilt": -18.78
+        },
+        {
+            "scene": "node40",
+            "target": "node38",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -239.34,
+            "tilt": -7.92
+        },
+        {
+            "scene": "node40",
+            "target": "node39",
+            "title": "Lab Teknologi Pangan",
+            "id": "Point02",
+            "pan": -82.84,
+            "tilt": -16.04
+        },
+        {
+            "scene": "node41",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -207.75,
+            "tilt": -13.88
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 147,
+            "label": "Radio",
+            "description": "Studio radio UPGRIS dikenal sebagai Podcast Studio, yang mendukung kegiatan penyiaran dan produksi konten audio. Fasilitas ini menjadi sarana praktik bagi mahasiswa untuk mengembangkan keterampilan broadcasting dan jurnalistik radio.",
+            "fragment": "radio",
+            "link": "univpgri/index.html#radio",
+            "sceneId": "node36"
+        },
+        {
+            "infoId": 148,
+            "label": "Ballroom",
+            "description": "UPGRIS memiliki Balairung, gedung pertemuan dan konser megah yang sering digunakan untuk acara besar seperti wisuda, seminar nasional, hingga konser musik. Gedung ini juga disewakan untuk umum, menjadi venue pernikahan dengan kapasitas hingga 3000 orang dan didukung area parkir luas.",
+            "fragment": "ballroom",
+            "link": "univpgri/index.html#ballroom",
+            "sceneId": "node10"
+        },
+        {
+            "infoId": 149,
+            "label": "Lab Teknologi Pangan",
+            "description": "Laboratorium ini dikenal sebagai Laboratorium Rekayasa Proses Pengolahan Pangan, fasilitas penting bagi Program Studi Teknologi Pangan. Mahasiswa menggunakan laboratorium ini untuk praktik mengkaji dan mengembangkan rekayasa bahan pangan, terutama yang berbasis kearifan lokal.",
+            "fragment": "labteknologipangan",
+            "link": "univpgri/index.html#labteknologipangan",
+            "sceneId": "node38"
+        },
+        {
+            "infoId": 150,
+            "label": "Lab Komputer",
+            "description": "UPGRIS menyediakan berbagai laboratorium komputer, seperti Lab. Jaringan Komputer, yang dilengkapi dengan perangkat komputer canggih, server, dan koneksi internet yang kuat. Fasilitas ini penting untuk mendukung praktikum mata kuliah berbasis TI dan menunjang kegiatan e-learning mahasiswa.",
+            "fragment": "labkomputer",
+            "link": "univpgri/index.html#labkomputer",
+            "sceneId": "node19"
+        },
+        {
+            "infoId": 151,
+            "label": "Perpustakaan",
+            "description": "Perpustakaan UPGRIS memiliki sistem layanan terbuka dan tertutup, dilengkapi Ruang Baca dan E-Library untuk penelusuran digital. Fasilitas ini menyediakan koleksi buku, skripsi, dan layanan multimedia.",
+            "fragment": "perpustakaan",
+            "link": "univpgri/index.html#perpustakaan",
+            "sceneId": "node32"
+        },
+        {
+            "infoId": 152,
+            "label": "Kepenyiaran Bahasa Indonesia",
+            "description": "Fasilitas kepenyiaran yang berfungsi sebagai sarana praktik untuk meningkatkan kompetensi mahasiswa di bidang penyiaran ini memungkinkan mahasiswa mendapatkan pengalaman langsung dan sertifikasi keahlian sebagai bekal untuk terjun ke dunia kerja media.",
+            "fragment": "kepenyiaranbahasaindonesia",
+            "link": "univpgri/index.html#kepenyiaranbahasaindonesia",
+            "sceneId": "node15"
+        },
+        {
+            "infoId": 153,
+            "label": "Studio Gamelan (Laboratorium Seni Tari)",
+            "description": "Laboratorium Seni Tari adalah fasilitas yang diperuntukkan bagi mahasiswa yang ingin mengembangkan bakat dan kemampuan mereka dalam seni pertunjukan, khususnya tari. Ruangan ini digunakan sebagai tempat latihan koreografi, pagelaran seni, serta kegiatan pelestarian dan pengembangan budaya tradisional.",
+            "fragment": "studiogamelan",
+            "link": "univpgri/index.html#studiogamelan",
+            "sceneId": "node17"
+        },
+        {
+            "infoId": 154,
+            "label": "Lab Multimedia",
+            "description": "Laboratorium Multimedia dan Animasi adalah fasilitas yang mendukung mata kuliah rumpun multimedia seperti Desain Grafis, Teknologi Animasi, dan Pemrograman Game. Laboratorium ini dilengkapi dengan PC berspesifikasi tinggi serta perangkat lunak berlisensi dan open source untuk praktik mahasiswa.",
+            "fragment": "labmultimedia",
+            "link": "univpgri/index.html#labmultimedia",
+            "sceneId": "node21"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "e025d81735ef1a3f",
+        "skin.js": "a811df730e293d53",
+        "index.html": "e8b0806d54ccd907"
+    }
+}

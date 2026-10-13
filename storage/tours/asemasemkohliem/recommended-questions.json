@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "asemasemkohliem",
+    "tourName": "Asem-Asem Koh Liem",
+    "updatedAt": "2026-09-29T06:34:16+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Apa yang menarik di sini?",
+                "query": "Apa yang menarik di area ini?",
+                "desc": "Apa yang menarik di area ini?"
+            },
+            {
+                "label": "Mengapa disebut Asem-Asem Koh Liem?",
+                "query": "Mengapa disebut Asem-Asem Koh Liem?",
+                "desc": "Mengapa disebut Asem-Asem Koh Liem?"
+            },
+            {
+                "label": "Jelaskan tempat ini",
+                "query": "Ceritakan tentang Asem-Asem Koh Liem",
+                "desc": "Ceritakan tentang Asem-Asem Koh Liem"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah",
+                "query": "Sejarah Asem-Asem Koh Liem"
+            },
+            {
+                "label": "Arsitektur",
+                "query": "Arsitektur Asem-Asem Koh Liem"
+            },
+            {
+                "label": "Highlight",
+                "query": "Apa yang menarik dari Asem-Asem Koh Liem?"
+            },
+            {
+                "label": "Fasilitas",
+                "query": "Fasilitas di sini"
+            },
+            {
+                "label": "Rute",
+                "query": "Ke mana sebaiknya saya lanjut?"
+            },
+            {
+                "label": "Layanan",
+                "query": "Layanan publik"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Asem-Asem Koh Liem?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Asem-Asem Koh Liem?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Asem-Asem Koh Liem?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

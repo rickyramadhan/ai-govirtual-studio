@@ -1,0 +1,622 @@
+{
+    "exportRoot": "C:/xampp/htdocs/semarang",
+    "webviewDump": "C:/xampp/htdocs/semarang/webview/semarang-260828-fix.sql",
+    "tours": [
+        {
+            "folder": "firdausfatimahzahra",
+            "slug": "firdausfatimahzahra",
+            "name": "Firdausfatimahzahra",
+            "category": "Pariwisata",
+            "parentId": 39
+        },
+        {
+            "folder": "gamacandiresto",
+            "slug": "gamacandiresto",
+            "name": "Gamacandiresto",
+            "category": "Pariwisata",
+            "parentId": 83
+        },
+        {
+            "folder": "gedunggubernur-260909",
+            "slug": "gedunggubernur",
+            "name": "Gedunggubernur",
+            "category": "Pariwisata",
+            "parentId": 98
+        },
+        {
+            "folder": "gerejakatedral",
+            "slug": "gerejakatedral",
+            "name": "Gerejakatedral",
+            "category": "Pariwisata",
+            "parentId": 37
+        },
+        {
+            "folder": "goakreo",
+            "slug": "goakreo",
+            "name": "Goakreo",
+            "category": "Pariwisata",
+            "parentId": 11
+        },
+        {
+            "folder": "gortlj",
+            "slug": "gortlj",
+            "name": "Gortlj",
+            "category": "Pariwisata",
+            "parentId": 94
+        },
+        {
+            "folder": "hotelpadma-260909",
+            "slug": "hotelpadma",
+            "name": "Hotelpadma",
+            "category": "Pariwisata",
+            "parentId": 76
+        },
+        {
+            "folder": "hotelrooms-260909",
+            "slug": "hotelrooms",
+            "name": "Hotelrooms",
+            "category": "Pariwisata",
+            "parentId": 78
+        },
+        {
+            "folder": "hoteltentrem-260909",
+            "slug": "hoteltentrem",
+            "name": "Hoteltentrem",
+            "category": "Pariwisata",
+            "parentId": 77
+        },
+        {
+            "folder": "immoderma-260909",
+            "slug": "immoderma",
+            "name": "Immoderma",
+            "category": "Pariwisata",
+            "parentId": 64
+        },
+        {
+            "folder": "indonesiakaya-260909",
+            "slug": "indonesiakaya",
+            "name": "Indonesiakaya",
+            "category": "Pariwisata",
+            "parentId": 4
+        },
+        {
+            "folder": "kampungbatik",
+            "slug": "kampungbatik",
+            "name": "Kampungbatik",
+            "category": "Pariwisata",
+            "parentId": 7
+        },
+        {
+            "folder": "kampungbustaman-260909",
+            "slug": "kampungbustaman",
+            "name": "Kampungbustaman",
+            "category": "Pariwisata",
+            "parentId": 30
+        },
+        {
+            "folder": "kampungjajanpasar",
+            "slug": "kampungjajanpasar",
+            "name": "Kampungjajanpasar",
+            "category": "Pariwisata",
+            "parentId": 114
+        },
+        {
+            "folder": "kampungjawi-260909",
+            "slug": "kampungjawi",
+            "name": "Kampungjawi",
+            "category": "Pariwisata",
+            "parentId": 19
+        },
+        {
+            "folder": "kampunglaut-260909",
+            "slug": "kampunglaut",
+            "name": "Kampunglaut",
+            "category": "Pariwisata",
+            "parentId": 81
+        },
+        {
+            "folder": "kampungmelayu",
+            "slug": "kampungmelayu",
+            "name": "Kampungmelayu",
+            "category": "Pariwisata",
+            "parentId": 27
+        },
+        {
+            "folder": "kawasanolahragajatidiri",
+            "slug": "kawasanolahragajatidiri",
+            "name": "Kawasanolahragajatidiri",
+            "category": "Pariwisata",
+            "parentId": 93
+        },
+        {
+            "folder": "kawasanpecinan",
+            "slug": "kawasanpecinan",
+            "name": "Kawasanpecinan",
+            "category": "Pariwisata",
+            "parentId": 26
+        },
+        {
+            "folder": "kebunkramas-260909",
+            "slug": "kebunkramas",
+            "name": "Kebunkramas",
+            "category": "Pariwisata",
+            "parentId": 28
+        },
+        {
+            "folder": "kepalamanyungbufat",
+            "slug": "kepalamanyungbufat",
+            "name": "Kepalamanyungbufat",
+            "category": "Pariwisata",
+            "parentId": 85
+        },
+        {
+            "folder": "kiw-260909",
+            "slug": "kiw",
+            "name": "Kiw",
+            "category": "Pariwisata",
+            "parentId": 73
+        },
+        {
+            "folder": "klenteng-260909",
+            "slug": "klenteng",
+            "name": "Klenteng",
+            "category": "Pariwisata",
+            "parentId": 40
+        },
+        {
+            "folder": "koenakoeni-260909",
+            "slug": "koenakoeni",
+            "name": "Koenakoeni",
+            "category": "Pariwisata",
+            "parentId": 82
+        },
+        {
+            "folder": "koetatoea-260909",
+            "slug": "koetatoea",
+            "name": "Koetatoea",
+            "category": "Pariwisata",
+            "parentId": 115
+        },
+        {
+            "folder": "loempialien",
+            "slug": "loempialien",
+            "name": "Loempialien",
+            "category": "Pariwisata",
+            "parentId": 2228
+        },
+        {
+            "folder": "malltentrem",
+            "slug": "malltentrem",
+            "name": "Malltentrem",
+            "category": "Pariwisata",
+            "parentId": 107
+        },
+        {
+            "folder": "mandhalabakti-260909",
+            "slug": "mandhalabakti",
+            "name": "Mandhalabakti",
+            "category": "Pariwisata",
+            "parentId": 8
+        },
+        {
+            "folder": "masjidbaiturrahman-260909",
+            "slug": "masjidbaiturrahman",
+            "name": "Masjidbaiturrahman",
+            "category": "Pariwisata",
+            "parentId": 34
+        },
+        {
+            "folder": "masjidkauman-260909",
+            "slug": "masjidkauman",
+            "name": "Masjidkauman",
+            "category": "Pariwisata",
+            "parentId": 35
+        },
+        {
+            "folder": "mcc-260909",
+            "slug": "mcc",
+            "name": "Mcc",
+            "category": "Pariwisata",
+            "parentId": 79
+        },
+        {
+            "folder": "mpp-260909",
+            "slug": "mpp",
+            "name": "Mpp",
+            "category": "Pariwisata",
+            "parentId": 100
+        },
+        {
+            "folder": "muladidome-260909",
+            "slug": "muladidome",
+            "name": "Muladidome",
+            "category": "Pariwisata",
+            "parentId": 80
+        },
+        {
+            "folder": "museumranggawarsita",
+            "slug": "museumranggawarsita",
+            "name": "Museumranggawarsita",
+            "category": "Pariwisata",
+            "parentId": 2
+        },
+        {
+            "folder": "nirwana-260909",
+            "slug": "nirwana",
+            "name": "Nirwana",
+            "category": "Pariwisata",
+            "parentId": 89
+        },
+        {
+            "folder": "nongkosawit-260909",
+            "slug": "nongkosawit",
+            "name": "Nongkosawit",
+            "category": "Pariwisata",
+            "parentId": 29
+        },
+        {
+            "folder": "pantaimarina-260910",
+            "slug": "pantaimarina",
+            "name": "Pantaimarina",
+            "category": "Pariwisata",
+            "parentId": 25
+        },
+        {
+            "folder": "pantaitirang",
+            "slug": "pantaitirang",
+            "name": "Pantaitirang",
+            "category": "Pariwisata",
+            "parentId": 13
+        },
+        {
+            "folder": "pasarjohar",
+            "slug": "pasarjohar",
+            "name": "Pasarjohar",
+            "category": "Pariwisata",
+            "parentId": 112
+        },
+        {
+            "folder": "pelabuhantanjungemas",
+            "slug": "pelabuhantanjungemas",
+            "name": "Pelabuhantanjungemas",
+            "category": "Pariwisata",
+            "parentId": 90
+        },
+        {
+            "folder": "pengasapanikan",
+            "slug": "pengasapanikan",
+            "name": "Pengasapanikan",
+            "category": "Pariwisata",
+            "parentId": 74
+        },
+        {
+            "folder": "pestakeboenresto",
+            "slug": "pestakeboenresto",
+            "name": "Pestakeboenresto",
+            "category": "Pariwisata",
+            "parentId": 113
+        },
+        {
+            "folder": "pojcity",
+            "slug": "pojcity",
+            "name": "Pojcity",
+            "category": "Pariwisata",
+            "parentId": 72
+        },
+        {
+            "folder": "polda-260910",
+            "slug": "polda",
+            "name": "Polda",
+            "category": "Pariwisata",
+            "parentId": 99
+        },
+        {
+            "folder": "polines-260910",
+            "slug": "polines",
+            "name": "Polines",
+            "category": "Pariwisata",
+            "parentId": 50
+        },
+        {
+            "folder": "politeknikbumiakpelni",
+            "slug": "politeknikbumiakpelni",
+            "name": "Politeknikbumiakpelni",
+            "category": "Pariwisata",
+            "parentId": 49
+        },
+        {
+            "folder": "polluxmall-260910",
+            "slug": "polluxmall",
+            "name": "Polluxmall",
+            "category": "Pariwisata",
+            "parentId": 103
+        },
+        {
+            "folder": "poncol-260910",
+            "slug": "poncol",
+            "name": "Poncol",
+            "category": "Pariwisata",
+            "parentId": 96
+        },
+        {
+            "folder": "pusatoleholeh",
+            "slug": "pusatoleholeh",
+            "name": "Pusatoleholeh",
+            "category": "Pariwisata",
+            "parentId": 109
+        },
+        {
+            "folder": "queencity",
+            "slug": "queencity",
+            "name": "Queencity",
+            "category": "Pariwisata",
+            "parentId": 108
+        },
+        {
+            "folder": "rsbhayangkara-260910",
+            "slug": "rsbhayangkara",
+            "name": "Rsbhayangkara",
+            "category": "Pariwisata",
+            "parentId": 68
+        },
+        {
+            "folder": "rscolumbiaasia",
+            "slug": "rscolumbiaasia",
+            "name": "Rscolumbiaasia",
+            "category": "Pariwisata",
+            "parentId": 58
+        },
+        {
+            "folder": "rselisabeth-260910",
+            "slug": "rselisabeth",
+            "name": "Rselisabeth",
+            "category": "Pariwisata",
+            "parentId": 59
+        },
+        {
+            "folder": "rshermina-260910",
+            "slug": "rshermina",
+            "name": "Rshermina",
+            "category": "Pariwisata",
+            "parentId": 66
+        },
+        {
+            "folder": "rskariadi",
+            "slug": "rskariadi",
+            "name": "Rskariadi",
+            "category": "Pariwisata",
+            "parentId": 61
+        },
+        {
+            "folder": "rsroemani-260910",
+            "slug": "rsroemani",
+            "name": "Rsroemani",
+            "category": "Pariwisata",
+            "parentId": 67
+        },
+        {
+            "folder": "rstelogorejo",
+            "slug": "rstelogorejo",
+            "name": "Rstelogorejo",
+            "category": "Pariwisata",
+            "parentId": 60
+        },
+        {
+            "folder": "rsunimus-260910",
+            "slug": "rsunimus",
+            "name": "Rsunimus",
+            "category": "Pariwisata",
+            "parentId": 56
+        },
+        {
+            "folder": "rswongsonegoro",
+            "slug": "rswongsonegoro",
+            "name": "Rswongsonegoro",
+            "category": "Pariwisata",
+            "parentId": 57
+        },
+        {
+            "folder": "sccr",
+            "slug": "sccr",
+            "name": "Sccr",
+            "category": "Pariwisata",
+            "parentId": 69
+        },
+        {
+            "folder": "semarangroyalegolf",
+            "slug": "semarangroyalegolf",
+            "name": "Semarangroyalegolf",
+            "category": "Pariwisata",
+            "parentId": 24
+        },
+        {
+            "folder": "semarangzoo-260910",
+            "slug": "semarangzoo",
+            "name": "Semarangzoo",
+            "category": "Pariwisata",
+            "parentId": 15
+        },
+        {
+            "folder": "semesta-260910",
+            "slug": "semesta",
+            "name": "Semesta",
+            "category": "Pariwisata",
+            "parentId": 52
+        },
+        {
+            "folder": "simpanglima-260910",
+            "slug": "simpanglima",
+            "name": "Simpanglima",
+            "category": "Pariwisata",
+            "parentId": 91
+        },
+        {
+            "folder": "smashvillebadmintoncenter",
+            "slug": "smashvillebadmintoncenter",
+            "name": "Smashvillebadmintoncenter",
+            "category": "Pariwisata",
+            "parentId": 101
+        },
+        {
+            "folder": "smpdomsav",
+            "slug": "smpdomsav",
+            "name": "Smpdomsav",
+            "category": "Pariwisata",
+            "parentId": 45
+        },
+        {
+            "folder": "sotobangkong-260910",
+            "slug": "sotobangkong",
+            "name": "Sotobangkong",
+            "category": "Pariwisata",
+            "parentId": 84
+        },
+        {
+            "folder": "superskin",
+            "slug": "superskin",
+            "name": "Superskin",
+            "category": "Pariwisata",
+            "parentId": 65
+        },
+        {
+            "folder": "susurmangrove-260911",
+            "slug": "susurmangrove",
+            "name": "Susurmangrove",
+            "category": "Pariwisata",
+            "parentId": 31
+        },
+        {
+            "folder": "tahupetis",
+            "slug": "tahupetis",
+            "name": "Tahupetis",
+            "category": "Pariwisata",
+            "parentId": 86
+        },
+        {
+            "folder": "tamanbudayaradensaleh",
+            "slug": "tamanbudayaradensaleh",
+            "name": "Tamanbudayaradensaleh",
+            "category": "Pariwisata",
+            "parentId": 3
+        },
+        {
+            "folder": "tamanlele-260911",
+            "slug": "tamanlele",
+            "name": "Tamanlele",
+            "category": "Pariwisata",
+            "parentId": 12
+        },
+        {
+            "folder": "tamantirtoagung-260911",
+            "slug": "tamantirtoagung",
+            "name": "Tamantirtoagung",
+            "category": "Pariwisata",
+            "parentId": 21
+        },
+        {
+            "folder": "terminalpetikemas",
+            "slug": "terminalpetikemas",
+            "name": "Terminalpetikemas",
+            "category": "Pariwisata",
+            "parentId": 400
+        },
+        {
+            "folder": "theparkmall-260911",
+            "slug": "theparkmall",
+            "name": "Theparkmall",
+            "category": "Pariwisata",
+            "parentId": 106
+        },
+        {
+            "folder": "tinjomoyo-260911",
+            "slug": "tinjomoyo",
+            "name": "Tinjomoyo",
+            "category": "Pariwisata",
+            "parentId": 18
+        },
+        {
+            "folder": "tokooen",
+            "slug": "tokooen",
+            "name": "Tokooen",
+            "category": "Pariwisata",
+            "parentId": 674
+        },
+        {
+            "folder": "udinus-260911",
+            "slug": "udinus",
+            "name": "Udinus",
+            "category": "Pariwisata",
+            "parentId": 47
+        },
+        {
+            "folder": "uinwalisongo-260911",
+            "slug": "uinwalisongo",
+            "name": "Uinwalisongo",
+            "category": "Pariwisata",
+            "parentId": 51
+        },
+        {
+            "folder": "unika-260911",
+            "slug": "unika",
+            "name": "Unika",
+            "category": "Pariwisata",
+            "parentId": 41
+        },
+        {
+            "folder": "unimaramni-260911",
+            "slug": "unimaramni",
+            "name": "Unimaramni",
+            "category": "Pariwisata",
+            "parentId": 54
+        },
+        {
+            "folder": "unimus-260911",
+            "slug": "unimus",
+            "name": "Unimus",
+            "category": "Pariwisata",
+            "parentId": 44
+        },
+        {
+            "folder": "unisbank-260911",
+            "slug": "unisbank",
+            "name": "Unisbank",
+            "category": "Pariwisata",
+            "parentId": 48
+        },
+        {
+            "folder": "universitassemarang-260911",
+            "slug": "universitassemarang",
+            "name": "Universitassemarang",
+            "category": "Pariwisata",
+            "parentId": 53
+        },
+        {
+            "folder": "upgris-260911",
+            "slug": "upgris",
+            "name": "Upgris",
+            "category": "Pariwisata",
+            "parentId": 46
+        },
+        {
+            "folder": "uwhsemarang-260911",
+            "slug": "uwhsemarang",
+            "name": "Uwhsemarang",
+            "category": "Pariwisata",
+            "parentId": 55
+        },
+        {
+            "folder": "viharawatugong-260911",
+            "slug": "viharawatugong",
+            "name": "Viharawatugong",
+            "category": "Pariwisata",
+            "parentId": 36
+        },
+        {
+            "folder": "wingkobabad",
+            "slug": "wingkobabad",
+            "name": "Wingkobabad",
+            "category": "Pariwisata",
+            "parentId": 111
+        }
+    ]
+}

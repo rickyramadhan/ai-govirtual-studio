@@ -25,7 +25,7 @@
     ],
     "nodes": {
         "node80": {
-            "displayName": "CT Scan"
+            "displayName": "Ruang CT Scan"
         },
         "node81": {
             "displayName": "Ruang Tindakan Obgyn"
@@ -34,7 +34,7 @@
             "displayName": "Ruang Konsultasi Dokter"
         },
         "node83": {
-            "displayName": "Lobi"
+            "displayName": "Area Lobi"
         },
         "node84": {
             "displayName": "Ruang Rawat Inap"
@@ -49,31 +49,31 @@
             "displayName": "Ruang Bayi"
         },
         "node88": {
-            "displayName": "Area Awal"
+            "displayName": "Area Masuk"
         },
         "node89": {
-            "displayName": "Laboratorium"
+            "displayName": "Loket Bank Darah"
         },
         "node90": {
-            "displayName": "Ruang Bersalin"
+            "displayName": "Nurse Station"
         },
         "node91": {
-            "displayName": "Radiologi"
+            "displayName": "Loket Radiologi"
         },
         "node92": {
-            "displayName": "Operation Room"
+            "displayName": "Ruang Operasi"
         },
         "node95": {
-            "displayName": "Poliklinik Umum"
+            "displayName": "Nurse Station Poliklinik Umum"
         },
         "node96": {
-            "displayName": "X-Ray"
+            "displayName": "Ruang X-Ray"
         },
         "node97": {
             "displayName": "Laboratorium"
         },
         "node98": {
-            "displayName": "Cath Lab"
+            "displayName": "Ruang Cath Lab"
         }
     }
 }

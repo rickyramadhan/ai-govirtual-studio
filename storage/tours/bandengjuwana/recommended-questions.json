@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "tourId": "bandengjuwana",
+    "tourName": "Bandeng Juwana",
+    "updatedAt": "2026-10-01T10:34:33+02:00",
+    "state1": {
+        "starters": [
+            {
+                "label": "Bandeng terlaris?",
+                "query": "Varian bandeng duri lunak apa yang paling sering dibeli oleh pengunjung?",
+                "desc": "Varian bandeng duri lunak apa yang paling sering dibeli oleh pengunjung?"
+            },
+            {
+                "label": "Berapa lama tahannya?",
+                "query": "Berapa hari bandeng ini bisa bertahan di luar kulkas jika dibawa perjalanan jauh?",
+                "desc": "Berapa hari bandeng ini bisa bertahan di luar kulkas jika dibawa perjalanan jauh?"
+            },
+            {
+                "label": "Cabang lain di Semarang?",
+                "query": "Di mana saja cabang Bandeng Juwana yang ada di sekitar Kota Semarang?",
+                "desc": "Di mana saja cabang Bandeng Juwana yang ada di sekitar Kota Semarang?"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sejarah Berdiri",
+                "query": "Bagaimana awal mula berdirinya Bandeng Juwana Elrina hingga menjadi pelopor pusat oleh-oleh di Semarang?"
+            },
+            {
+                "label": "Proses Presto",
+                "query": "Bisa jelaskan bagaimana proses memasak presto yang membuat duri ikan bandeng menjadi sangat lunak?"
+            },
+            {
+                "label": "Varian Produk Olahan",
+                "query": "Apa saja varian olahan bandeng selain bandeng duri lunak, seperti bandeng sarang burung atau otak-otak?"
+            },
+            {
+                "label": "Warung Makan Bandeng",
+                "query": "Hidangan olahan bandeng apa saja yang bisa langsung dinikmati dalam keadaan hangat di area restoran lantai dua?"
+            },
+            {
+                "label": "Pilihan Oleh-Oleh Lain",
+                "query": "Selain olahan bandeng, suvenir dan jajanan khas apalagi yang bisa dibeli oleh wisatawan di toko ini?"
+            },
+            {
+                "label": "Ketahanan Produk",
+                "query": "Bagaimana cara menyimpan bandeng duri lunak agar tetap awet dan tahan lama saat dibawa perjalanan ke luar kota?"
+            }
+        ]
+    },
+    "state2": {
+        "fallback": [
+            {
+                "q": "Apa asal nama Bandeng Juwana?",
+                "intent": "NAME_ORIGIN"
+            },
+            {
+                "q": "Apa yang menarik dari Bandeng Juwana?",
+                "intent": "TOUR_HIGHLIGHTS"
+            },
+            {
+                "q": "Apa sejarah Bandeng Juwana?",
+                "intent": "TOUR_HISTORY"
+            },
+            {
+                "q": "Ke mana sebaiknya saya lanjut?",
+                "intent": "NAVIGATION"
+            }
+        ],
+        "workspaceHeader": "MUNGKIN ANDA INGIN TAHU"
+    },
+    "notes": "Edit starter/theme per lokasi. State1 = Discovery (COBA TANYAKAN & JELAJAHI TOPIK). State2 fallback dipakai saat panorama identity-only."
+}

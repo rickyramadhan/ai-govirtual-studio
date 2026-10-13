@@ -1,0 +1,521 @@
+{
+    "startNode": "node2",
+    "scenes": [
+        {
+            "id": "node1",
+            "name": "Stasiun Poncol",
+            "displayName": "Stasiun Poncol",
+            "rawName": "",
+            "customNodeId": "-tasiun-oncol",
+            "pan": -0.0853272,
+            "tilt": -11.974,
+            "fov": 120.957,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Stasiun Poncol"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Stasiun Poncol",
+            "displayName": "Stasiun Poncol",
+            "rawName": "",
+            "customNodeId": "-tasiun-oncol",
+            "pan": -0.626245,
+            "tilt": -6.02964,
+            "fov": 123.053,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Stasiun Poncol"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Pelayananpelanggan",
+            "displayName": "Pelayananpelanggan",
+            "rawName": "",
+            "customNodeId": "pelayananpelanggan",
+            "pan": -1.9,
+            "tilt": -5.55,
+            "fov": 141.54,
+            "tags": [
+                "oi",
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "pelayananpelanggan"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Bangunan",
+            "displayName": "Bangunan",
+            "rawName": "",
+            "customNodeId": "bangunan",
+            "pan": -3.56,
+            "tilt": 9.18,
+            "fov": 153.11,
+            "tags": [
+                "oi",
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "bangunan"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Lobbykeberangkatan",
+            "displayName": "Lobbykeberangkatan",
+            "rawName": "",
+            "customNodeId": "lobbykeberangkatan",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "lobbykeberangkatan"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Stasiun Poncol",
+            "displayName": "Stasiun Poncol",
+            "rawName": "",
+            "customNodeId": "-tasiun-oncol",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Stasiun Poncol"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Musholla",
+            "displayName": "Musholla",
+            "rawName": "",
+            "customNodeId": "-usholla",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Musholla"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Pintu Keluar",
+            "displayName": "Pintu Keluar",
+            "rawName": "",
+            "customNodeId": "-intu-eluar",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Pintu Keluar"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Lokomotif",
+            "displayName": "Lokomotif",
+            "rawName": "",
+            "customNodeId": "lokomotif",
+            "pan": -7.64,
+            "tilt": 7.25,
+            "fov": 141.54,
+            "tags": [
+                "oi",
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "lokomotif"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Ruangtunggu",
+            "displayName": "Ruangtunggu",
+            "rawName": "",
+            "customNodeId": "ruangtunggu",
+            "pan": -52.22,
+            "tilt": -11.9,
+            "fov": 141.54,
+            "tags": [
+                "oi",
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "ruangtunggu"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Ruangmenyusui",
+            "displayName": "Ruangmenyusui",
+            "rawName": "",
+            "customNodeId": "ruangmenyusui",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "ruangmenyusui"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Tengah Peron",
+            "displayName": "Tengah Peron",
+            "rawName": "",
+            "customNodeId": "-engah-eron",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Tengah Peron"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Ujung Peron",
+            "displayName": "Ujung Peron",
+            "rawName": "",
+            "customNodeId": "-jung-eron",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Ujung Peron"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Stasiun Poncol",
+            "displayName": "Stasiun Poncol",
+            "rawName": "",
+            "customNodeId": "-tasiun-oncol",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "StasiunPoncol"
+            ],
+            "aliases": [
+                "Stasiun Poncol"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node1",
+            "target": "node2",
+            "title": "Stasiun Poncol",
+            "id": "Point01",
+            "pan": 171.2,
+            "tilt": 9.23
+        },
+        {
+            "scene": "node1",
+            "target": "node7",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -358.87,
+            "tilt": -27.97
+        },
+        {
+            "scene": "node1",
+            "target": "node9",
+            "title": "Monumen Lokomotif",
+            "id": "Point03",
+            "pan": -120.94,
+            "tilt": -37.58
+        },
+        {
+            "scene": "node1",
+            "target": "node15",
+            "title": "Stasiun Poncol",
+            "id": "Point04",
+            "pan": -290.15,
+            "tilt": 5.88
+        },
+        {
+            "scene": "node1",
+            "target": "node1",
+            "title": "Keluar",
+            "id": "Point09",
+            "pan": -9.28,
+            "tilt": -18.1
+        },
+        {
+            "scene": "node16",
+            "target": "node1",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -9.28,
+            "tilt": -18.1
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Stasiun Poncol",
+            "id": "Point01",
+            "pan": 0.47,
+            "tilt": -5.68
+        },
+        {
+            "scene": "node3",
+            "target": "node8",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -90.51,
+            "tilt": -5.51
+        },
+        {
+            "scene": "node7",
+            "target": "node9",
+            "title": "Monumen Lokomotif",
+            "id": "Point01",
+            "pan": -114.84,
+            "tilt": -6.16
+        },
+        {
+            "scene": "node7",
+            "target": "node4",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -359.58,
+            "tilt": -4.75
+        },
+        {
+            "scene": "node4",
+            "target": "node7",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -180.3,
+            "tilt": -12.27
+        },
+        {
+            "scene": "node4",
+            "target": "node10",
+            "title": "Area Tunggu",
+            "id": "Point02",
+            "pan": -272.44,
+            "tilt": -5.45
+        },
+        {
+            "scene": "node4",
+            "target": "node5",
+            "title": "Stasiun Poncol",
+            "id": "Point03",
+            "pan": 0.05,
+            "tilt": -5.72
+        },
+        {
+            "scene": "node5",
+            "target": "node4",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -0.09,
+            "tilt": -11.38
+        },
+        {
+            "scene": "node5",
+            "target": "node13",
+            "title": "Ujung Peron",
+            "id": "Point02",
+            "pan": -89.56,
+            "tilt": -3.41
+        },
+        {
+            "scene": "node5",
+            "target": "node12",
+            "title": "Tengah Peron",
+            "id": "Point03",
+            "pan": -174.71,
+            "tilt": -3.98
+        },
+        {
+            "scene": "node6",
+            "target": "node8",
+            "title": "Pelayanan Pelanggan",
+            "id": "Point01",
+            "pan": -269.3,
+            "tilt": -3.14
+        },
+        {
+            "scene": "node6",
+            "target": "node10",
+            "title": "Area Tunggu",
+            "id": "Point02",
+            "pan": -134.68,
+            "tilt": -3.34
+        },
+        {
+            "scene": "node8",
+            "target": "node3",
+            "title": "Pelayanan Pelanggan",
+            "id": "Point01",
+            "pan": 0.94,
+            "tilt": 0.56
+        },
+        {
+            "scene": "node8",
+            "target": "node6",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -88.32,
+            "tilt": -1.35
+        },
+        {
+            "scene": "node9",
+            "target": "node7",
+            "title": "Lobi Utama",
+            "id": "Point01",
+            "pan": -180.02,
+            "tilt": -3.15
+        },
+        {
+            "scene": "node10",
+            "target": "node6",
+            "title": "Musholla",
+            "id": "Point01",
+            "pan": -357.51,
+            "tilt": -5.55
+        },
+        {
+            "scene": "node10",
+            "target": "node4",
+            "title": "Lobi Utama",
+            "id": "Point02",
+            "pan": -182.64,
+            "tilt": -6.01
+        },
+        {
+            "scene": "node11",
+            "target": "node13",
+            "title": "Pintu Keluar",
+            "id": "Point01",
+            "pan": -340.86,
+            "tilt": -9.99
+        },
+        {
+            "scene": "node12",
+            "target": "node5",
+            "title": "Stasiun Poncol",
+            "id": "Point01",
+            "pan": -179.97,
+            "tilt": -12.54
+        },
+        {
+            "scene": "node13",
+            "target": "node5",
+            "title": "Lobi Utama",
+            "id": "Point01",
+            "pan": -167.38,
+            "tilt": -1.21
+        },
+        {
+            "scene": "node13",
+            "target": "node11",
+            "title": "Pos Kesehatan",
+            "id": "Point02",
+            "pan": -179.49,
+            "tilt": -11.27
+        },
+        {
+            "scene": "node15",
+            "target": "node1",
+            "title": "Stasiun Poncol",
+            "id": "Point01",
+            "pan": -17.67,
+            "tilt": -13.27
+        },
+        {
+            "scene": "node15",
+            "target": "node2",
+            "title": "Stasiun Poncol",
+            "id": "Point02",
+            "pan": -52.26,
+            "tilt": -1.04
+        }
+    ],
+    "objects": [
+        {
+            "infoId": 489,
+            "label": "Pelayanan Pelanggan",
+            "description": "Stasiun Poncol memiliki loket fisik dan mesin tiket mandiri untuk melayani penumpang, serta tersedia loket informasi dan lost-and-found untuk membantu penumpang terkait perjalanan dan barang hilang. Fasilitas ini memastikan penumpang dapat dengan mudah membeli tiket, memperoleh informasi, dan menyelesaikan masalah.",
+            "fragment": "pelayananpelanggan",
+            "link": "poncol/index.html#pelayananpelanggan",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 491,
+            "label": "Ruang Menyusui",
+            "description": "Stasiun Poncol menyediakan ruang laktasi yang tertutup (privat) untuk kenyamanan ibu yang membawa bayi atau balita. Ruangan ini terletak tidak jauh dari ruang tunggu utama, memastikan privasi dan kemudahan akses bagi ibu menyusui.",
+            "fragment": "ruangmenyusui",
+            "link": "poncol/index.html#ruangmenyusui",
+            "sceneId": "node11"
+        },
+        {
+            "infoId": 492,
+            "label": "Lobby Keberangkatan",
+            "description": "Lobi keberangkatan berfungsi sebagai area sentral untuk proses check-in dan boarding penumpang sebelum menuju peron. Stasiun Poncol telah mengimplementasikan teknologi Face Recognition Boarding Gate di area ini, yang memungkinkan penumpang KA Jarak Jauh hanya perlu memindai wajah (setelah registrasi) tanpa menunjukkan tiket fisik atau KTP.",
+            "fragment": "lobbykeberangkatan",
+            "link": "poncol/index.html#lobbykeberangkatan",
+            "sceneId": "node4"
+        }
+    ],
+    "video360": [],
+    "oiPositions": [],
+    "skin": {
+        "iframes": [],
+        "objectIds": []
+    },
+    "_exportState": {
+        "pano.xml": "c64885a742dfcb10",
+        "skin.js": "c89b306dfcee1594",
+        "index.html": "db20b1e19fb508d3"
+    }
+}

@@ -1,0 +1,382 @@
+{
+    "version": 2,
+    "tourId": "unimaramni",
+    "updatedAt": "2026-09-29T09:52:52+02:00",
+    "generatedBy": "ai-generator",
+    "entries": [
+        {
+            "id": "seed:1",
+            "entityId": "seed:1",
+            "title": "Unimaramni",
+            "aliases": [
+                "unimaramni"
+            ],
+            "type": "destination",
+            "categories": [
+                "destination"
+            ],
+            "tags": [
+                "seed",
+                "unimaramni"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pengalaman virtual untuk Unimaramni.",
+            "source": "ai-generator",
+            "sourceId": "1",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Unimaramni",
+                    "content": "Pusat pengalaman virtual untuk Unimaramni."
+                },
+                "en": {
+                    "title": "Unimaramni",
+                    "content": "Pusat pengalaman virtual untuk Unimaramni."
+                }
+            }
+        },
+        {
+            "id": "seed:2",
+            "entityId": "seed:2",
+            "title": "Asrama Putri",
+            "aliases": [
+                "asrama putri"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "unimaramni"
+            ],
+            "sceneIds": [],
+            "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi.",
+            "source": "ai-generator",
+            "sourceId": "2",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Asrama Putri",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                },
+                "en": {
+                    "title": "Asrama Putri",
+                    "content": "Scene utama yang perlu diisi dengan identitas, fungsi, dan catatan verifikasi."
+                }
+            }
+        },
+        {
+            "id": "seed:3",
+            "entityId": "seed:3",
+            "title": "Pintu Keluar",
+            "aliases": [
+                "pintu keluar"
+            ],
+            "type": "scene",
+            "categories": [
+                "scene"
+            ],
+            "tags": [
+                "seed",
+                "unimaramni"
+            ],
+            "sceneIds": [],
+            "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung.",
+            "source": "ai-generator",
+            "sourceId": "3",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Pintu Keluar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                },
+                "en": {
+                    "title": "Pintu Keluar",
+                    "content": "Scene pendukung untuk melengkapi cerita perjalanan pengunjung."
+                }
+            }
+        },
+        {
+            "id": "seed:4",
+            "entityId": "seed:4",
+            "title": "Jam kunjungan",
+            "aliases": [
+                "jam kunjungan"
+            ],
+            "type": "visitor-info",
+            "categories": [
+                "visitor-info"
+            ],
+            "tags": [
+                "seed",
+                "unimaramni"
+            ],
+            "sceneIds": [],
+            "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung.",
+            "source": "ai-generator",
+            "sourceId": "4",
+            "sourceType": "seed",
+            "sourceFile": "ai-generator",
+            "sourceLine": 0,
+            "mappingConfidence": "SEED",
+            "mappingEvidence": "template starter",
+            "provenance": "ai-generator",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                },
+                "en": {
+                    "title": "Jam kunjungan",
+                    "content": "Isi jam operasional, jam ramai, dan kondisi terbaik berkunjung."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:395",
+            "entityId": "objinfo2:395",
+            "title": "Lab Engine Simulator",
+            "aliases": [
+                "lab engine simulator",
+                "objek 395"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Engine Simulator merupakan fasilitas yang menyajikan simulasi virtual ruang kontrol mesin kapal (Engine Room Management). Laboratorium ini melatih taruna Teknika dalam pengoperasian, pengawasan, dan penanganan kondisi darurat mesin kapal secara realistis.",
+            "source": "webview-import",
+            "sourceId": "395",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Engine Simulator",
+                    "content": "Lab Engine Simulator merupakan fasilitas yang menyajikan simulasi virtual ruang kontrol mesin kapal (Engine Room Management). Laboratorium ini melatih taruna Teknika dalam pengoperasian, pengawasan, dan penanganan kondisi darurat mesin kapal secara realistis."
+                },
+                "en": {
+                    "title": "Engine Simulator Lab",
+                    "content": "The Engine Simulator Lab is a facility providing a virtual simulation of a ship’s engine control room (Engine Room Management). This laboratory trains Teknika cadets in operating, monitoring, and handling emergency conditions of ship engines realistically."
+                },
+                "zh": {
+                    "title": "引擎模擬實驗室",
+                    "content": "引擎模擬實驗室是一個提供船舶機械控制室（引擎管理）虛擬模擬的設施。該實驗室訓練技術專業的學員實際操作、監控並處理船舶引擎的緊急情況。"
+                },
+                "ar": {
+                    "title": "مختبر محاكاة المحرك",
+                    "content": "مختبر محاكاة المحرك هو مرفق يوفر محاكاة افتراضية لغرفة التحكم بمحركات السفينة (إدارة غرفة المحرك). يدرب هذا المختبر طلاب التقنية على تشغيل ومراقبة والتعامل مع حالات الطوارئ لمحركات السفن بشكل واقعي."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:396",
+            "entityId": "objinfo2:396",
+            "title": "Lab Bridge Simulator",
+            "aliases": [
+                "lab bridge simulator",
+                "objek 396"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Bridge Simulator mereplikasi anjungan kapal secara keseluruhan, lengkap dengan sistem navigasi, RADAR/ARPA, dan peralatan canggih lainnya. Fasilitas ini digunakan oleh taruna Nautika untuk praktik manuver, navigasi, dan pengambilan keputusan di laut dalam berbagai kondisi cuaca.",
+            "source": "webview-import",
+            "sourceId": "396",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Bridge Simulator",
+                    "content": "Lab Bridge Simulator mereplikasi anjungan kapal secara keseluruhan, lengkap dengan sistem navigasi, RADAR/ARPA, dan peralatan canggih lainnya. Fasilitas ini digunakan oleh taruna Nautika untuk praktik manuver, navigasi, dan pengambilan keputusan di laut dalam berbagai kondisi cuaca."
+                },
+                "en": {
+                    "title": "Bridge Simulator Lab",
+                    "content": "The Bridge Simulator Lab replicates an entire ship’s bridge, complete with navigation systems, RADAR/ARPA, and other advanced equipment. This facility is used by Nautical cadets to practice maneuvering, navigation, and decision-making at sea under various weather conditions."
+                },
+                "zh": {
+                    "title": "橋樑模擬實驗室",
+                    "content": "橋樑模擬實驗室完整再現船舶駕駛橋，包括導航系統、雷達/自動雷達（ARPA）及其他先進設備。該設施供航海學員練習操作、導航及在各種天氣條件下做出決策。"
+                },
+                "ar": {
+                    "title": "مختبر محاكاة الجسر",
+                    "content": "مختبر محاكاة الجسر يعيد إنشاء جسر السفينة بالكامل، مع أنظمة الملاحة والرادار/ARPA والمعدات المتقدمة الأخرى. يُستخدم هذا المرفق لتدريب طلاب الملاحة على المناورات والملاحة واتخاذ القرارات في البحر تحت ظروف جوية مختلفة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:397",
+            "entityId": "objinfo2:397",
+            "title": "Lab Permesinan (Real Engine)",
+            "aliases": [
+                "lab permesinan (real engine)",
+                "objek 397"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab Real Engine (Laboratorium Mesin Sesungguhnya) adalah bengkel praktik yang dilengkapi dengan mesin-mesin kapal yang berfungsi secara nyata dan komponen-komponennya. Laboratorium ini memberikan pengalaman langsung kepada taruna Teknika untuk membongkar, merawat, dan memperbaiki mesin-mesin kapal.",
+            "source": "webview-import",
+            "sourceId": "397",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab Permesinan (Real Engine)",
+                    "content": "Lab Real Engine (Laboratorium Mesin Sesungguhnya) adalah bengkel praktik yang dilengkapi dengan mesin-mesin kapal yang berfungsi secara nyata dan komponen-komponennya. Laboratorium ini memberikan pengalaman langsung kepada taruna Teknika untuk membongkar, merawat, dan memperbaiki mesin-mesin kapal."
+                },
+                "en": {
+                    "title": "Real Engine Lab",
+                    "content": "The Real Engine Lab is a practical workshop equipped with fully operational ship engines and their components. This laboratory provides Nautical Engineering cadets with hands-on experience in disassembling, maintaining, and repairing ship engines."
+                },
+                "zh": {
+                    "title": "實際引擎實驗室",
+                    "content": "實際引擎實驗室是一個配備完整可運作船舶引擎及其零件的實習工坊。該實驗室為船舶工程學員提供拆解、維護和修理船舶引擎的實際操作經驗。"
+                },
+                "ar": {
+                    "title": "مختبر المحركات الحقيقية",
+                    "content": "مختبر المحركات الحقيقية هو ورشة عملية مجهزة بمحركات السفن العاملة بالكامل ومكوناتها. يوفّر هذا المختبر لطلاب الهندسة البحرية تجربة عملية في تفكيك وصيانة وإصلاح محركات السفن."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:398",
+            "entityId": "objinfo2:398",
+            "title": "Lab GMDSS",
+            "aliases": [
+                "lab gmdss",
+                "objek 398"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab GMDSS (Global Maritime Distress and Safety System) adalah simulator yang digunakan untuk pelatihan komunikasi maritim, khususnya dalam situasi bahaya dan keselamatan pelayaran. Taruna dilatih mengoperasikan perangkat komunikasi radio sesuai standar internasional untuk mengirim dan menerima sinyal darurat.",
+            "source": "webview-import",
+            "sourceId": "398",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab GMDSS",
+                    "content": "Lab GMDSS (Global Maritime Distress and Safety System) adalah simulator yang digunakan untuk pelatihan komunikasi maritim, khususnya dalam situasi bahaya dan keselamatan pelayaran. Taruna dilatih mengoperasikan perangkat komunikasi radio sesuai standar internasional untuk mengirim dan menerima sinyal darurat."
+                },
+                "en": {
+                    "title": "GMDSS Lab",
+                    "content": "The GMDSS Lab (Global Maritime Distress and Safety System) is a simulator used for maritime communication training, especially in emergency and safety situations. Cadets are trained to operate radio communication devices according to international standards for sending and receiving distress signals."
+                },
+                "zh": {
+                    "title": "GMDSS 模擬實驗室",
+                    "content": "GMDSS 模擬實驗室（全球海上遇險與安全系統）是一個用於海上通信訓練的模擬器，特別針對緊急和安全情況。學員接受按照國際標準操作無線電通信設備以發送和接收求救信號的訓練。"
+                },
+                "ar": {
+                    "title": "مختبر GMDSS",
+                    "content": "مختبر GMDSS (نظام السلامة والاستغاثة البحرية العالمية) هو محاكي يستخدم لتدريب الاتصالات البحرية، خاصة في حالات الطوارئ والسلامة البحرية. يتم تدريب الطلاب على تشغيل أجهزة الاتصال اللاسلكي وفق المعايير الدولية لإرسال واستقبال إشارات الاستغاثة."
+                }
+            }
+        },
+        {
+            "id": "webview:objinfo2:399",
+            "entityId": "objinfo2:399",
+            "title": "Lab CBAU",
+            "aliases": [
+                "lab cbau",
+                "objek 399"
+            ],
+            "type": "information",
+            "categories": [
+                "informasi"
+            ],
+            "tags": [
+                "webview",
+                "objinfo2",
+                "auto"
+            ],
+            "sceneIds": [],
+            "content": "Lab CBAU (Computer Based Assessment Unit) berfungsi sebagai unit pelatihan dan pengujian berbasis komputer untuk taruna. Fasilitas ini mendukung ujian sertifikasi STCW (Standards of Training, Certification and Watchkeeping) dan pelatihan keterampilan lain yang terkomputerisasi.",
+            "source": "webview-import",
+            "sourceId": "399",
+            "sourceType": "objinfo2",
+            "sourceFile": "semarang-260828.sql",
+            "sourceLine": 0,
+            "mappingConfidence": "WEBVIEW",
+            "mappingEvidence": "webview-knowledge auto-plant",
+            "provenance": "webview-import",
+            "translations": {
+                "id": {
+                    "title": "Lab CBAU",
+                    "content": "Lab CBAU (Computer Based Assessment Unit) berfungsi sebagai unit pelatihan dan pengujian berbasis komputer untuk taruna. Fasilitas ini mendukung ujian sertifikasi STCW (Standards of Training, Certification and Watchkeeping) dan pelatihan keterampilan lain yang terkomputerisasi."
+                },
+                "en": {
+                    "title": "CBAU Lab",
+                    "content": "The CBAU Lab (Computer Based Assessment Unit) functions as a computer-based training and testing unit for cadets. This facility supports STCW (Standards of Training, Certification and Watchkeeping) certification exams and other computerized skills training."
+                },
+                "zh": {
+                    "title": "CBAU 電腦化評估實驗室",
+                    "content": "CBAU 電腦化評估實驗室（Computer Based Assessment Unit）作為學員的電腦化培訓與測試單位。該設施支持 STCW（培訓、認證及值班標準）認證考試及其他電腦化技能培訓。"
+                },
+                "ar": {
+                    "title": "مختبر CBAU",
+                    "content": "مختبر CBAU (وحدة التقييم المعتمدة على الكمبيوتر) يعمل كوحدة تدريب واختبار معتمدة على الكمبيوتر للطلاب البحريين. تدعم هذه المنشأة امتحانات شهادة STCW (معايير التدريب، الشهادات والمراقبة) وتدريبات المهارات الأخرى المحوسبة."
+                }
+            }
+        }
+    ]
+}

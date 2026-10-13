@@ -1,0 +1,1874 @@
+window.GoVirtualTourData = {
+    "id": "gortlj",
+    "name": "Gortlj",
+    "scenes": [
+        {
+            "id": "node17",
+            "name": "default",
+            "displayName": "default",
+            "rawName": "default",
+            "customNodeId": "",
+            "pan": 7.71224,
+            "tilt": -20.9092,
+            "fov": 144.235,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "default"
+            ]
+        },
+        {
+            "id": "node1",
+            "name": "Tribun",
+            "displayName": "Tribun",
+            "rawName": "",
+            "customNodeId": "-ribun",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Tribun"
+            ]
+        },
+        {
+            "id": "node18",
+            "name": "Video360 1",
+            "displayName": "Video360 1",
+            "rawName": "",
+            "customNodeId": "video360_1",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "video360"
+            ],
+            "aliases": [
+                "video360_1"
+            ]
+        },
+        {
+            "id": "node2",
+            "name": "Jalur Jogging",
+            "displayName": "Jalur Jogging",
+            "rawName": "",
+            "customNodeId": "-alur-ogging",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Jalur Jogging"
+            ]
+        },
+        {
+            "id": "node3",
+            "name": "Bulutangkis",
+            "displayName": "Bulutangkis",
+            "rawName": "",
+            "customNodeId": "bulutangkis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "bulutangkis"
+            ]
+        },
+        {
+            "id": "node4",
+            "name": "Lapanganbasket",
+            "displayName": "Lapanganbasket",
+            "rawName": "",
+            "customNodeId": "lapanganbasket",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "lapanganbasket"
+            ]
+        },
+        {
+            "id": "node5",
+            "name": "Kardio",
+            "displayName": "Kardio",
+            "rawName": "",
+            "customNodeId": "kardio",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "kardio"
+            ]
+        },
+        {
+            "id": "node6",
+            "name": "Panjattebing",
+            "displayName": "Panjattebing",
+            "rawName": "",
+            "customNodeId": "panjattebing",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "panjattebing"
+            ]
+        },
+        {
+            "id": "node7",
+            "name": "Gym",
+            "displayName": "Gym",
+            "rawName": "",
+            "customNodeId": "gym",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "gym"
+            ]
+        },
+        {
+            "id": "node8",
+            "name": "Fitnes",
+            "displayName": "Fitnes",
+            "rawName": "",
+            "customNodeId": "fitnes",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "fitnes"
+            ]
+        },
+        {
+            "id": "node9",
+            "name": "Lapanganbola",
+            "displayName": "Lapanganbola",
+            "rawName": "",
+            "customNodeId": "lapanganbola",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "lapanganbola"
+            ]
+        },
+        {
+            "id": "node10",
+            "name": "Skateboard",
+            "displayName": "Skateboard",
+            "rawName": "",
+            "customNodeId": "skateboard",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "skateboard"
+            ]
+        },
+        {
+            "id": "node11",
+            "name": "Lapangan Tennis",
+            "displayName": "Lapangan Tennis",
+            "rawName": "",
+            "customNodeId": "-apangan-ennis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Lapangan Tennis"
+            ]
+        },
+        {
+            "id": "node12",
+            "name": "Tenis",
+            "displayName": "Tenis",
+            "rawName": "",
+            "customNodeId": "tenis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "tenis"
+            ]
+        },
+        {
+            "id": "node13",
+            "name": "Lapangantennis",
+            "displayName": "Lapangantennis",
+            "rawName": "",
+            "customNodeId": "lapangantennis",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "lapangantennis"
+            ]
+        },
+        {
+            "id": "node14",
+            "name": "Tugu GOR Tri Lomba Juang",
+            "displayName": "Tugu GOR Tri Lomba Juang",
+            "rawName": "",
+            "customNodeId": "-ugu-ri-omba-uang",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Tugu GOR Tri Lomba Juang"
+            ]
+        },
+        {
+            "id": "node15",
+            "name": "Umkm",
+            "displayName": "Umkm",
+            "rawName": "",
+            "customNodeId": "umkm",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang",
+                "oi"
+            ],
+            "aliases": [
+                "umkm"
+            ]
+        },
+        {
+            "id": "node16",
+            "name": "Jalur Jogging",
+            "displayName": "Jalur Jogging",
+            "rawName": "",
+            "customNodeId": "-alur-ogging",
+            "pan": 0,
+            "tilt": 0,
+            "fov": 100,
+            "tags": [
+                "GorTriLombaJuang"
+            ],
+            "aliases": [
+                "Jalur Jogging"
+            ]
+        }
+    ],
+    "hotspots": [
+        {
+            "scene": "node17",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": 12.88,
+            "tilt": -32.43
+        },
+        {
+            "scene": "node17",
+            "target": "node14",
+            "title": "Pintu Masuk",
+            "id": "Point02",
+            "pan": -35.03,
+            "tilt": -25.64
+        },
+        {
+            "scene": "node17",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point03",
+            "pan": -9.98,
+            "tilt": -14.96
+        },
+        {
+            "scene": "node17",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point04",
+            "pan": 28.48,
+            "tilt": -17
+        },
+        {
+            "scene": "node1",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -163.58,
+            "tilt": 0.18
+        },
+        {
+            "scene": "node1",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": 89.39,
+            "tilt": 3.27
+        },
+        {
+            "scene": "node1",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point04",
+            "pan": -76.04,
+            "tilt": -1.23
+        },
+        {
+            "scene": "node18",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -76.04,
+            "tilt": -1.23
+        },
+        {
+            "scene": "node2",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -171.43,
+            "tilt": 0.55
+        },
+        {
+            "scene": "node2",
+            "target": "node4",
+            "title": "Arena Basket",
+            "id": "Point02",
+            "pan": -286.14,
+            "tilt": 4.95
+        },
+        {
+            "scene": "node2",
+            "target": "node16",
+            "title": "Jalur Jogging",
+            "id": "Point03",
+            "pan": -244.27,
+            "tilt": 4.71
+        },
+        {
+            "scene": "node2",
+            "target": "node1",
+            "title": "Tribun",
+            "id": "Point04",
+            "pan": -83.43,
+            "tilt": 2.12
+        },
+        {
+            "scene": "node3",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point01",
+            "pan": 42.94,
+            "tilt": -1.63
+        },
+        {
+            "scene": "node4",
+            "target": "node10",
+            "title": "Arena Skate",
+            "id": "Point01",
+            "pan": 31.91,
+            "tilt": -1.99
+        },
+        {
+            "scene": "node4",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": 191.36,
+            "tilt": 0.62
+        },
+        {
+            "scene": "node5",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -158.56,
+            "tilt": 0.47
+        },
+        {
+            "scene": "node5",
+            "target": "node6",
+            "title": "Panjat Tebing",
+            "id": "Point02",
+            "pan": -109.33,
+            "tilt": 2.11
+        },
+        {
+            "scene": "node5",
+            "target": "node14",
+            "title": "Tugu GOR Tri Lomba Juang",
+            "id": "Point04",
+            "pan": 32.49,
+            "tilt": -1.18
+        },
+        {
+            "scene": "node5",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point03",
+            "pan": -229.37,
+            "tilt": 0.98
+        },
+        {
+            "scene": "node6",
+            "target": "node9",
+            "title": "Lapangan",
+            "id": "Point01",
+            "pan": -145.06,
+            "tilt": 0.85
+        },
+        {
+            "scene": "node6",
+            "target": "node5",
+            "title": "Kardio",
+            "id": "Point02",
+            "pan": -223.25,
+            "tilt": 0.83
+        },
+        {
+            "scene": "node7",
+            "target": "node8",
+            "title": "Gimnasium",
+            "id": "Point02",
+            "pan": -1.47,
+            "tilt": -5.02
+        },
+        {
+            "scene": "node8",
+            "target": "node7",
+            "title": "Gimnasium",
+            "id": "Point01",
+            "pan": 70.56,
+            "tilt": -13.19
+        },
+        {
+            "scene": "node8",
+            "target": "node9",
+            "title": "Keluar",
+            "id": "Point02",
+            "pan": -178,
+            "tilt": -9.12
+        },
+        {
+            "scene": "node9",
+            "target": "node1",
+            "title": "Tribun",
+            "id": "Point02",
+            "pan": -17.76,
+            "tilt": 0.46
+        },
+        {
+            "scene": "node9",
+            "target": "node6",
+            "title": "Panjat Tebing",
+            "id": "Point03",
+            "pan": -113.57,
+            "tilt": 5.21
+        },
+        {
+            "scene": "node9",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point04",
+            "pan": 68.61,
+            "tilt": 5.71
+        },
+        {
+            "scene": "node9",
+            "target": "node8",
+            "title": "Gimnasium",
+            "id": "Point05",
+            "pan": -324.54,
+            "tilt": 4.27
+        },
+        {
+            "scene": "node9",
+            "target": "node5",
+            "title": "Kardio",
+            "id": "Point06",
+            "pan": -62.5,
+            "tilt": 5.65
+        },
+        {
+            "scene": "node10",
+            "target": "node4",
+            "title": "Arena Basket",
+            "id": "Point01",
+            "pan": 200.11,
+            "tilt": -2.25
+        },
+        {
+            "scene": "node10",
+            "target": "node16",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": 108.34,
+            "tilt": -6.27
+        },
+        {
+            "scene": "node11",
+            "target": "node15",
+            "title": "Keluar",
+            "id": "Point01",
+            "pan": -32.65,
+            "tilt": 0.66
+        },
+        {
+            "scene": "node11",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -112.78,
+            "tilt": 0.11
+        },
+        {
+            "scene": "node12",
+            "target": "node13",
+            "title": "Lapangan Tennis",
+            "id": "Point01",
+            "pan": -129.68,
+            "tilt": 2.42
+        },
+        {
+            "scene": "node12",
+            "target": "node11",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": -315.56,
+            "tilt": -0.6
+        },
+        {
+            "scene": "node12",
+            "target": "node3",
+            "title": "Lapangan Badminton",
+            "id": "Point03",
+            "pan": -45.8,
+            "tilt": 0.74
+        },
+        {
+            "scene": "node13",
+            "target": "node12",
+            "title": "Lapangan Tennis",
+            "id": "Point01",
+            "pan": 127.71,
+            "tilt": 1.12
+        },
+        {
+            "scene": "node14",
+            "target": "node15",
+            "title": "UMKM",
+            "id": "Point01",
+            "pan": 280.93,
+            "tilt": -1.45
+        },
+        {
+            "scene": "node14",
+            "target": "node5",
+            "title": "Masuk",
+            "id": "Point02",
+            "pan": 358.09,
+            "tilt": -5.24
+        },
+        {
+            "scene": "node15",
+            "target": "node14",
+            "title": "Tugu GOR Tri Lomba Juang",
+            "id": "Point01",
+            "pan": 262.41,
+            "tilt": -8.96
+        },
+        {
+            "scene": "node15",
+            "target": "node11",
+            "title": "Lapangan Tennis",
+            "id": "Point02",
+            "pan": 107.93,
+            "tilt": 5.45
+        },
+        {
+            "scene": "node15",
+            "target": "node5",
+            "title": "Jalur Jogging",
+            "id": "Point03",
+            "pan": 170.19,
+            "tilt": -7.32
+        },
+        {
+            "scene": "node16",
+            "target": "node10",
+            "title": "Arena Skate",
+            "id": "Point01",
+            "pan": -310.08,
+            "tilt": 0.01
+        },
+        {
+            "scene": "node16",
+            "target": "node2",
+            "title": "Jalur Jogging",
+            "id": "Point02",
+            "pan": -92.64,
+            "tilt": -0.47
+        }
+    ],
+    "panoExits": {
+        "node17": [
+            {
+                "target": "node9",
+                "title": "Lapangan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node14",
+                "title": "Pintu Masuk",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node12",
+                "title": "Lapangan Tennis",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node2",
+                "title": "Jalur Jogging",
+                "suffix": "Point04"
+            }
+        ],
+        "node1": [
+            {
+                "target": "node9",
+                "title": "Lapangan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node2",
+                "title": "Jalur Jogging",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node15",
+                "title": "Keluar",
+                "suffix": "Point04"
+            }
+        ],
+        "node18": [
+            {
+                "target": "node15",
+                "title": "Keluar",
+                "suffix": "Point01"
+            }
+        ],
+        "node2": [
+            {
+                "target": "node9",
+                "title": "Lapangan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node4",
+                "title": "Arena Basket",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node16",
+                "title": "Jalur Jogging",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node1",
+                "title": "Tribun",
+                "suffix": "Point04"
+            }
+        ],
+        "node3": [
+            {
+                "target": "node12",
+                "title": "Lapangan Tennis",
+                "suffix": "Point01"
+            }
+        ],
+        "node4": [
+            {
+                "target": "node10",
+                "title": "Arena Skate",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node2",
+                "title": "Jalur Jogging",
+                "suffix": "Point02"
+            }
+        ],
+        "node5": [
+            {
+                "target": "node9",
+                "title": "Lapangan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node6",
+                "title": "Panjat Tebing",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node14",
+                "title": "Tugu GOR Tri Lomba Juang",
+                "suffix": "Point04"
+            },
+            {
+                "target": "node15",
+                "title": "Keluar",
+                "suffix": "Point03"
+            }
+        ],
+        "node6": [
+            {
+                "target": "node9",
+                "title": "Lapangan",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node5",
+                "title": "Kardio",
+                "suffix": "Point02"
+            }
+        ],
+        "node7": [
+            {
+                "target": "node8",
+                "title": "Gimnasium",
+                "suffix": "Point02"
+            }
+        ],
+        "node8": [
+            {
+                "target": "node7",
+                "title": "Gimnasium",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node9",
+                "title": "Keluar",
+                "suffix": "Point02"
+            }
+        ],
+        "node9": [
+            {
+                "target": "node1",
+                "title": "Tribun",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node6",
+                "title": "Panjat Tebing",
+                "suffix": "Point03"
+            },
+            {
+                "target": "node2",
+                "title": "Jalur Jogging",
+                "suffix": "Point04"
+            },
+            {
+                "target": "node8",
+                "title": "Gimnasium",
+                "suffix": "Point05"
+            },
+            {
+                "target": "node5",
+                "title": "Kardio",
+                "suffix": "Point06"
+            }
+        ],
+        "node10": [
+            {
+                "target": "node4",
+                "title": "Arena Basket",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node16",
+                "title": "Jalur Jogging",
+                "suffix": "Point02"
+            }
+        ],
+        "node11": [
+            {
+                "target": "node15",
+                "title": "Keluar",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node12",
+                "title": "Lapangan Tennis",
+                "suffix": "Point02"
+            }
+        ],
+        "node12": [
+            {
+                "target": "node13",
+                "title": "Lapangan Tennis",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node11",
+                "title": "Lapangan Tennis",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node3",
+                "title": "Lapangan Badminton",
+                "suffix": "Point03"
+            }
+        ],
+        "node13": [
+            {
+                "target": "node12",
+                "title": "Lapangan Tennis",
+                "suffix": "Point01"
+            }
+        ],
+        "node14": [
+            {
+                "target": "node15",
+                "title": "UMKM",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node5",
+                "title": "Masuk",
+                "suffix": "Point02"
+            }
+        ],
+        "node15": [
+            {
+                "target": "node14",
+                "title": "Tugu GOR Tri Lomba Juang",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node11",
+                "title": "Lapangan Tennis",
+                "suffix": "Point02"
+            },
+            {
+                "target": "node5",
+                "title": "Jalur Jogging",
+                "suffix": "Point03"
+            }
+        ],
+        "node16": [
+            {
+                "target": "node10",
+                "title": "Arena Skate",
+                "suffix": "Point01"
+            },
+            {
+                "target": "node2",
+                "title": "Jalur Jogging",
+                "suffix": "Point02"
+            }
+        ]
+    },
+    "thumbPrefix": "ht_node_thumb_10_",
+    "routes": [],
+    "objectInfo": [
+        {
+            "infoId": 481,
+            "label": "Panjat Tebing",
+            "description": "GOR Tri Lomba Juang memiliki fasilitas panjat tebing yang tersedia bagi atlet dan masyarakat umum untuk berlatih. Area ini melayani olahraga vertikal dan sering dimanfaatkan oleh komunitas panjat tebing setempat.",
+            "fragment": "panjattebing",
+            "link": "lombajuang/index.html#panjattebing",
+            "sceneId": "node6"
+        },
+        {
+            "infoId": 482,
+            "label": "Lapangan Bola",
+            "description": "Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola.",
+            "fragment": "lapanganbola",
+            "link": "lombajuang/index.html#lapanganbola",
+            "sceneId": "node9"
+        },
+        {
+            "infoId": 483,
+            "label": "Lapangan Basket",
+            "description": "Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola.",
+            "fragment": "lapanganbasket",
+            "link": "lombajuang/index.html#lapanganbasket",
+            "sceneId": "node4"
+        },
+        {
+            "infoId": 484,
+            "label": "Arena Skateboarding",
+            "description": "GOR Tri Lomba Juang menyediakan area khusus yang disebut Loop Arena untuk menampung berbagai komunitas, termasuk olahraga ekstrem seperti skateboard dan BMX. Arena ini dibangun untuk memberikan wadah legal dan aman bagi anak muda menyalurkan hobi mereka.",
+            "fragment": "skateboard",
+            "link": "lombajuang/index.html#skateboard",
+            "sceneId": "node10"
+        },
+        {
+            "infoId": 485,
+            "label": "Lapangan Tennis",
+            "description": "Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat.",
+            "fragment": "lapangantennis",
+            "link": "lombajuang/index.html#lapangantennis",
+            "sceneId": "node13"
+        },
+        {
+            "infoId": 486,
+            "label": "Lapangan Bulu Tangkis",
+            "description": "Fasilitas ini berupa lapangan bulu tangkis yang terletak di dalam gedung olahraga (GOR Indoor), lengkap dengan net dan lantai yang rata. Lapangan ini dapat disewa secara harian atau bulanan untuk latihan maupun rekreasi.",
+            "fragment": "bulutangkis",
+            "link": "lombajuang/index.html#bulutangkis",
+            "sceneId": "node3"
+        },
+        {
+            "infoId": 487,
+            "label": "Fitnes",
+            "description": "Fasilitas fitnes ini tersedia dalam ruangan (indoor) dengan alat yang mempuni untuk kebutuhan kebugaran tubuh para pengunjung.",
+            "fragment": "fitnes",
+            "link": "lombajuang/index.html#fitnes",
+            "sceneId": "node8"
+        },
+        {
+            "infoId": 488,
+            "label": "Kardio",
+            "description": "Fasilitas yang tersedia secara outdoor untuk kebutuhan kardio. Terletak di sudut area GOR Tri Lomba Juang Semarang.",
+            "fragment": "kardio",
+            "link": "lombajuang/index.html#kardio",
+            "sceneId": "node5"
+        }
+    ],
+    "video360": [],
+    "_sceneRegistry": {
+        "node17": {
+            "rawName": "default",
+            "displayName": "Lapangan Rumput Tri Lomba Juang",
+            "placeId": "gor-tri-lomba-juang-lapangan-rumput-tri-lomba-juang",
+            "placeName": "GOR Tri Lomba Juang – Lapangan Rumput Tri Lomba Juang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan Rumput Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan rumput dan tribun.",
+            "description": "Lapangan Rumput Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan rumput dan tribun. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Rumput membentuk bidang hijau yang penggunaannya dapat berbeda dari jalur berjalan. Perkerasan lebih jelas menandai rute sirkulasi, sedangkan hamparan rumput dapat memiliki fungsi lanskap atau aktivitas tertentu.",
+            "highlights": [
+                "Rumput",
+                "Tribun"
+            ],
+            "talkingPoints": [
+                "default",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lapangan Rumput Tri Lomba Juang di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Lapangan Rumput Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan rumput dan tribun."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lapangan Rumput Tri Lomba Juang?",
+                    "mode": "fix",
+                    "answer": "Rumput dan Tribun memperjelas susunan serta penggunaan ruang. Lapangan Rumput Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan rumput dan tribun."
+                },
+                {
+                    "q": "Apa fakta penting tentang GOR Tri Lomba Juang – Lapangan Rumput Tri Lomba Juang yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "GOR Tri Lomba Juang memiliki fasilitas panjat tebing yang tersedia bagi atlet dan masyarakat umum untuk berlatih. Area ini melayani olahraga vertikal dan sering dimanfaatkan oleh komunitas panjat tebing setempat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lapangan Rumput Tri Lomba Juang.",
+                "describeHere": "default adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node1": {
+            "rawName": "Tribun",
+            "displayName": "Lintasan di Depan Tribun",
+            "placeId": "gor-tri-lomba-juang-lintasan-di-depan-tribun",
+            "placeName": "GOR Tri Lomba Juang – Lintasan di Depan Tribun",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Jalur lari dan kursi warna menjadi unsur yang terlihat pada Lintasan di Depan Tribun di GOR Tri Lomba Juang.",
+            "description": "Jalur lari dan kursi warna menjadi unsur yang terlihat pada Lintasan di Depan Tribun di GOR Tri Lomba Juang. Ruang olahraga memberi bidang gerak yang perlu dibedakan dari area menonton atau jalur lewat. Penanda lapangan dan fasilitas di tepinya menunjukkan konteks kegiatan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak.",
+            "highlights": [
+                "Jalur lari",
+                "Kursi warna"
+            ],
+            "talkingPoints": [
+                "Tribun",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Lintasan di Depan Tribun menjadi bagian penting dari GOR Tri Lomba Juang – Lintasan di Depan Tribun?",
+                    "mode": "fix",
+                    "answer": "Jalur lari dan kursi warna menjadi unsur yang terlihat pada Lintasan di Depan Tribun di GOR Tri Lomba Juang. Jalur lari dan kursi warna menjadi unsur yang terlihat pada Lintasan di Depan Tribun di GOR Tri Lomba Juang. Ruang olahraga memberi bidang gerak yang perlu dibedakan dari area menonton atau jalur lewat. Penanda lapangan dan fasilitas di tepinya menunjukkan konteks kegiatan. Arah tempat duduk memberi petunjuk apakah orang diharapkan memperhatikan satu titik atau berinteraksi dalam kelompok. Jarak di antaranya juga menentukan ruang gerak. Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola."
+                },
+                {
+                    "q": "Apa hubungan Jalur lari dengan aktivitas di Lintasan di Depan Tribun?",
+                    "mode": "fix",
+                    "answer": "Jalur lari menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Jalur lari dan kursi warna menjadi unsur yang terlihat pada Lintasan di Depan Tribun di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Apa yang membedakan Lintasan di Depan Tribun dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Jalur lari dan Kursi warna. Jalur lari dan kursi warna menjadi unsur yang terlihat pada Lintasan di Depan Tribun di GOR Tri Lomba Juang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lintasan di Depan Tribun.",
+                "describeHere": "Tribun adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node18": {
+            "rawName": "Video360 1",
+            "displayName": "Area UMKM – Video 360",
+            "placeId": "gor-tri-lomba-juang-area-umkm-video-360",
+            "placeName": "GOR Tri Lomba Juang – Area UMKM – Video 360",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Area UMKM – Video 360 menampilkan gerai tepi dan jalur kedatangan di GOR Tri Lomba Juang.",
+            "description": "Pandangan Area UMKM – Video 360 menampilkan gerai tepi dan jalur kedatangan di GOR Tri Lomba Juang. Area belanja menampilkan barang melalui rak, etalase, atau konter. Susunan pajangan membantu pengunjung membandingkan pilihan sebelum bertransaksi.",
+            "highlights": [
+                "Gerai tepi",
+                "Jalur kedatangan",
+                "Media berlabel video 360 pada sumber"
+            ],
+            "talkingPoints": [
+                "Video360 1",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Area UMKM – Video 360?",
+                    "mode": "fix",
+                    "answer": "GOR Tri Lomba Juang menyediakan area khusus yang disebut Loop Arena untuk menampung berbagai komunitas, termasuk olahraga ekstrem seperti skateboard dan BMX. Arena ini dibangun untuk memberikan wadah legal dan aman bagi anak muda menyalurkan hobi mereka."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Area UMKM – Video 360 mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Gerai tepi bersama Jalur kedatangan menunjukkan cara area ini digunakan. Pandangan Area UMKM – Video 360 menampilkan gerai tepi dan jalur kedatangan di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Area UMKM – Video 360?",
+                    "mode": "fix",
+                    "answer": "Gerai tepi menjadi detail utama, sedangkan Jalur kedatangan melengkapi konteksnya. Pandangan Area UMKM – Video 360 menampilkan gerai tepi dan jalur kedatangan di GOR Tri Lomba Juang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Area UMKM – Video 360.",
+                "describeHere": "Video360 1 adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node2": {
+            "rawName": "Jalur Jogging",
+            "displayName": "Lintasan Lari – Sisi Mural",
+            "placeId": "gor-tri-lomba-juang-lintasan-lari-sisi-mural",
+            "placeName": "GOR Tri Lomba Juang – Lintasan Lari – Sisi Mural",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lintasan Lari – Sisi Mural, mural pelari dan trek membentuk tampilan bagian GOR Tri Lomba Juang ini.",
+            "description": "Pada Lintasan Lari – Sisi Mural, mural pelari dan trek membentuk tampilan bagian GOR Tri Lomba Juang ini. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan.",
+            "highlights": [
+                "Mural pelari",
+                "Trek"
+            ],
+            "talkingPoints": [
+                "Jalur Jogging",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Lintasan Lari – Sisi Mural dalam pengalaman pengunjung di GOR Tri Lomba Juang – Lintasan Lari – Sisi Mural?",
+                    "mode": "fix",
+                    "answer": "Pada Lintasan Lari – Sisi Mural, mural pelari dan trek membentuk tampilan bagian GOR Tri Lomba Juang ini. Pada Lintasan Lari – Sisi Mural, mural pelari dan trek membentuk tampilan bagian GOR Tri Lomba Juang ini. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat."
+                },
+                {
+                    "q": "Mengapa Mural pelari penting pada Lintasan Lari – Sisi Mural?",
+                    "mode": "fix",
+                    "answer": "Mural pelari membantu menjelaskan identitas dan fungsi Lintasan Lari – Sisi Mural. Pada Lintasan Lari – Sisi Mural, mural pelari dan trek membentuk tampilan bagian GOR Tri Lomba Juang ini."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Lintasan Lari – Sisi Mural?",
+                    "mode": "fix",
+                    "answer": "Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lintasan Lari – Sisi Mural.",
+                "describeHere": "Jalur Jogging adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node3": {
+            "rawName": "Bulutangkis",
+            "displayName": "Lapangan Bulu Tangkis Indoor",
+            "placeId": "gor-tri-lomba-juang-lapangan-bulu-tangkis-indoor",
+            "placeName": "GOR Tri Lomba Juang – Lapangan Bulu Tangkis Indoor",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan Bulu Tangkis Indoor menyorot net dan garis lapangan, dengan konteks kunjungan di GOR Tri Lomba Juang.",
+            "description": "Lapangan Bulu Tangkis Indoor menyorot net dan garis lapangan, dengan konteks kunjungan di GOR Tri Lomba Juang. Lapangan berjaring menyediakan ruang permainan yang terbagi menjadi dua sisi. Garis permukaan membantu pemain membaca batas dan posisi.",
+            "highlights": [
+                "Net",
+                "Garis lapangan"
+            ],
+            "talkingPoints": [
+                "Bulutangkis",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Lapangan Bulu Tangkis Indoor menunjukkan karakter GOR Tri Lomba Juang – Lapangan Bulu Tangkis Indoor?",
+                    "mode": "fix",
+                    "answer": "Lapangan Bulu Tangkis Indoor menyorot net dan garis lapangan, dengan konteks kunjungan di GOR Tri Lomba Juang. Lapangan Bulu Tangkis Indoor menyorot net dan garis lapangan, dengan konteks kunjungan di GOR Tri Lomba Juang. Lapangan berjaring menyediakan ruang permainan yang terbagi menjadi dua sisi. Garis permukaan membantu pemain membaca batas dan posisi. Fasilitas ini berupa lapangan bulu tangkis yang terletak di dalam gedung olahraga (GOR Indoor), lengkap dengan net dan lantai yang rata. Lapangan ini dapat disewa secara harian atau bulanan untuk latihan maupun rekreasi."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Net dan Garis lapangan di Lapangan Bulu Tangkis Indoor?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Lapangan Bulu Tangkis Indoor menyorot net dan garis lapangan, dengan konteks kunjungan di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Lapangan Bulu Tangkis Indoor?",
+                    "mode": "fix",
+                    "answer": "Net paling langsung membantu mengenali area ini. Lapangan Bulu Tangkis Indoor menyorot net dan garis lapangan, dengan konteks kunjungan di GOR Tri Lomba Juang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:486"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lapangan Bulu Tangkis Indoor.",
+                "describeHere": "Bulutangkis adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node4": {
+            "rawName": "Lapanganbasket",
+            "displayName": "Arena Skate – Bowl",
+            "placeId": "gor-tri-lomba-juang-arena-skate-bowl",
+            "placeName": "GOR Tri Lomba Juang – Arena Skate – Bowl",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Arena Skate – Bowl di GOR Tri Lomba Juang memperlihatkan cekungan beton dan mural.",
+            "description": "Arena Skate – Bowl di GOR Tri Lomba Juang memperlihatkan cekungan beton dan mural. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan.",
+            "highlights": [
+                "Cekungan beton",
+                "Mural"
+            ],
+            "talkingPoints": [
+                "Lapanganbasket",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Arena Skate – Bowl?",
+                    "mode": "fix",
+                    "answer": "Arena Skate – Bowl di GOR Tri Lomba Juang memperlihatkan cekungan beton dan mural. Arena Skate – Bowl di GOR Tri Lomba Juang memperlihatkan cekungan beton dan mural. Karya visual menghubungkan gagasan dengan bentuk yang dapat dilihat. Ruang pajang atau studio memberi konteks tentang proses pembuatan dan cara karya diperkenalkan. Fasilitas fitnes ini tersedia dalam ruangan (indoor) dengan alat yang mempuni untuk kebutuhan kebugaran tubuh para pengunjung."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Arena Skate – Bowl?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Cekungan beton dan Mural memberi petunjuk tentang kegiatan yang berlangsung di sini. Arena Skate – Bowl di GOR Tri Lomba Juang memperlihatkan cekungan beton dan mural."
+                },
+                {
+                    "q": "Apa konteks GOR Tri Lomba Juang – Arena Skate – Bowl yang membuat Arena Skate – Bowl lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Fasilitas fitnes ini tersedia dalam ruangan (indoor) dengan alat yang mempuni untuk kebutuhan kebugaran tubuh para pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:483"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Arena Skate – Bowl.",
+                "describeHere": "Lapanganbasket adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node5": {
+            "rawName": "Kardio",
+            "displayName": "Area Latihan Luar Ruang",
+            "placeId": "gor-tri-lomba-juang-area-latihan-luar-ruang",
+            "placeName": "GOR Tri Lomba Juang – Area Latihan Luar Ruang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Alat latihan dan pohon menjadi unsur yang terlihat pada Area Latihan Luar Ruang di GOR Tri Lomba Juang.",
+            "description": "Alat latihan dan pohon menjadi unsur yang terlihat pada Area Latihan Luar Ruang di GOR Tri Lomba Juang. Ruang olahraga memberi bidang gerak yang perlu dibedakan dari area menonton atau jalur lewat. Penanda lapangan dan fasilitas di tepinya menunjukkan konteks kegiatan. Pohon dapat memberi naungan dan menjadi acuan visual sepanjang jalur. Posisi batang serta akarnya juga memengaruhi bentuk ruang di sekelilingnya.",
+            "highlights": [
+                "Alat latihan",
+                "Pohon"
+            ],
+            "talkingPoints": [
+                "Kardio",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Area Latihan Luar Ruang di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Alat latihan dan pohon menjadi unsur yang terlihat pada Area Latihan Luar Ruang di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Area Latihan Luar Ruang?",
+                    "mode": "fix",
+                    "answer": "Alat latihan dan Pohon memperjelas susunan serta penggunaan ruang. Alat latihan dan pohon menjadi unsur yang terlihat pada Area Latihan Luar Ruang di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Apa fakta penting tentang GOR Tri Lomba Juang – Area Latihan Luar Ruang yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas yang tersedia secara outdoor untuk kebutuhan kardio. Terletak di sudut area GOR Tri Lomba Juang Semarang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:488"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Area Latihan Luar Ruang.",
+                "describeHere": "Kardio adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node6": {
+            "rawName": "Panjattebing",
+            "displayName": "Dinding Panjat Tebing",
+            "placeId": "gor-tri-lomba-juang-dinding-panjat-tebing",
+            "placeName": "GOR Tri Lomba Juang – Dinding Panjat Tebing",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Dinding Panjat Tebing menampilkan menara panjat dan trek di GOR Tri Lomba Juang.",
+            "description": "Pandangan Dinding Panjat Tebing menampilkan menara panjat dan trek di GOR Tri Lomba Juang. Dinding panjat menyediakan bidang latihan dengan pegangan buatan. Jalur pegangan dan tinggi struktur memberi karakter yang berbeda dari olahraga lapangan.",
+            "highlights": [
+                "Menara panjat",
+                "Trek"
+            ],
+            "talkingPoints": [
+                "Panjattebing",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Dinding Panjat Tebing menjadi bagian penting dari GOR Tri Lomba Juang – Dinding Panjat Tebing?",
+                    "mode": "fix",
+                    "answer": "Pandangan Dinding Panjat Tebing menampilkan menara panjat dan trek di GOR Tri Lomba Juang. Pandangan Dinding Panjat Tebing menampilkan menara panjat dan trek di GOR Tri Lomba Juang. Dinding panjat menyediakan bidang latihan dengan pegangan buatan. Jalur pegangan dan tinggi struktur memberi karakter yang berbeda dari olahraga lapangan. GOR Tri Lomba Juang memiliki fasilitas panjat tebing yang tersedia bagi atlet dan masyarakat umum untuk berlatih. Area ini melayani olahraga vertikal dan sering dimanfaatkan oleh komunitas panjat tebing setempat."
+                },
+                {
+                    "q": "Apa hubungan Menara panjat dengan aktivitas di Dinding Panjat Tebing?",
+                    "mode": "fix",
+                    "answer": "Menara panjat menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pandangan Dinding Panjat Tebing menampilkan menara panjat dan trek di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Apa yang membedakan Dinding Panjat Tebing dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Menara panjat dan Trek. Pandangan Dinding Panjat Tebing menampilkan menara panjat dan trek di GOR Tri Lomba Juang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:481"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Dinding Panjat Tebing.",
+                "describeHere": "Panjattebing adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node7": {
+            "rawName": "Gym",
+            "displayName": "Ruang Gym – Peralatan",
+            "placeId": "gor-tri-lomba-juang-ruang-gym-peralatan",
+            "placeName": "GOR Tri Lomba Juang – Ruang Gym – Peralatan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Ruang Gym – Peralatan, alat beban dan cermin membentuk tampilan bagian GOR Tri Lomba Juang ini.",
+            "description": "Pada Ruang Gym – Peralatan, alat beban dan cermin membentuk tampilan bagian GOR Tri Lomba Juang ini. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. Jenis dan susunan alat membedakan area latihan ini dari lapangan olahraga.",
+            "highlights": [
+                "Alat beban",
+                "Cermin"
+            ],
+            "talkingPoints": [
+                "Gym",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Ruang Gym – Peralatan?",
+                    "mode": "fix",
+                    "answer": "Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Ruang Gym – Peralatan mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Alat beban bersama Cermin menunjukkan cara area ini digunakan. Pada Ruang Gym – Peralatan, alat beban dan cermin membentuk tampilan bagian GOR Tri Lomba Juang ini."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Ruang Gym – Peralatan?",
+                    "mode": "fix",
+                    "answer": "Alat beban menjadi detail utama, sedangkan Cermin melengkapi konteksnya. Pada Ruang Gym – Peralatan, alat beban dan cermin membentuk tampilan bagian GOR Tri Lomba Juang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Ruang Gym – Peralatan.",
+                "describeHere": "Gym adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node8": {
+            "rawName": "Fitnes",
+            "displayName": "Pintu Ruang Fitness",
+            "placeId": "gor-tri-lomba-juang-pintu-ruang-fitness",
+            "placeName": "GOR Tri Lomba Juang – Pintu Ruang Fitness",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pintu Ruang Fitness menyorot bangku dan kaca, dengan konteks kunjungan di GOR Tri Lomba Juang.",
+            "description": "Pintu Ruang Fitness menyorot bangku dan kaca, dengan konteks kunjungan di GOR Tri Lomba Juang. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna.",
+            "highlights": [
+                "Bangku",
+                "Kaca"
+            ],
+            "talkingPoints": [
+                "Fitnes",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Pintu Ruang Fitness dalam pengalaman pengunjung di GOR Tri Lomba Juang – Pintu Ruang Fitness?",
+                    "mode": "fix",
+                    "answer": "Pintu Ruang Fitness menyorot bangku dan kaca, dengan konteks kunjungan di GOR Tri Lomba Juang. Pintu Ruang Fitness menyorot bangku dan kaca, dengan konteks kunjungan di GOR Tri Lomba Juang. Pintu dan gerbang menandai perpindahan antara bagian luar dengan area yang dituju. Bentuk bukaan, papan nama, dan pelataran membantu mengenali batas tersebut. Ruang kebugaran menempatkan peralatan latihan bersama ruang gerak pengguna. GOR Tri Lomba Juang menyediakan area khusus yang disebut Loop Arena untuk menampung berbagai komunitas, termasuk olahraga ekstrem seperti skateboard dan BMX. Arena ini dibangun untuk memberikan wadah legal dan aman bagi anak muda menyalurkan hobi mereka."
+                },
+                {
+                    "q": "Mengapa Bangku penting pada Pintu Ruang Fitness?",
+                    "mode": "fix",
+                    "answer": "Bangku membantu menjelaskan identitas dan fungsi Pintu Ruang Fitness. Pintu Ruang Fitness menyorot bangku dan kaca, dengan konteks kunjungan di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Pintu Ruang Fitness?",
+                    "mode": "fix",
+                    "answer": "GOR Tri Lomba Juang menyediakan area khusus yang disebut Loop Arena untuk menampung berbagai komunitas, termasuk olahraga ekstrem seperti skateboard dan BMX. Arena ini dibangun untuk memberikan wadah legal dan aman bagi anak muda menyalurkan hobi mereka."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:487"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Pintu Ruang Fitness.",
+                "describeHere": "Fitnes adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node9": {
+            "rawName": "Lapanganbola",
+            "displayName": "Lapangan Bola – Pandangan Tribun",
+            "placeId": "gor-tri-lomba-juang-lapangan-bola-pandangan-tribun",
+            "placeName": "GOR Tri Lomba Juang – Lapangan Bola – Pandangan Tribun",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan Bola – Pandangan Tribun di GOR Tri Lomba Juang memperlihatkan rumput dan atap tribun.",
+            "description": "Lapangan Bola – Pandangan Tribun di GOR Tri Lomba Juang memperlihatkan rumput dan atap tribun. Lapangan bola menempatkan bidang permainan luas dengan gawang sebagai acuan arah. Ruang tepi dan hubungan dengan bangunan sekitar membantu membedakan area pemain dan pengamat. Bentuk atap memengaruhi siluet bangunan dan hubungan ruang terlindung dengan area luar. Bagian tepi, bentang, serta bukaan memberi petunjuk cara ruang dinaungi.",
+            "highlights": [
+                "Rumput",
+                "Atap tribun"
+            ],
+            "talkingPoints": [
+                "Lapanganbola",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Lapangan Bola – Pandangan Tribun menunjukkan karakter GOR Tri Lomba Juang – Lapangan Bola – Pandangan Tribun?",
+                    "mode": "fix",
+                    "answer": "Lapangan Bola – Pandangan Tribun di GOR Tri Lomba Juang memperlihatkan rumput dan atap tribun. Lapangan Bola – Pandangan Tribun di GOR Tri Lomba Juang memperlihatkan rumput dan atap tribun. Lapangan bola menempatkan bidang permainan luas dengan gawang sebagai acuan arah. Ruang tepi dan hubungan dengan bangunan sekitar membantu membedakan area pemain dan pengamat. Bentuk atap memengaruhi siluet bangunan dan hubungan ruang terlindung dengan area luar. Bagian tepi, bentang, serta bukaan memberi petunjuk cara ruang dinaungi. Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Rumput dan Atap tribun di Lapangan Bola – Pandangan Tribun?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Lapangan Bola – Pandangan Tribun di GOR Tri Lomba Juang memperlihatkan rumput dan atap tribun."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Lapangan Bola – Pandangan Tribun?",
+                    "mode": "fix",
+                    "answer": "Rumput paling langsung membantu mengenali area ini. Lapangan Bola – Pandangan Tribun di GOR Tri Lomba Juang memperlihatkan rumput dan atap tribun."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:482"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lapangan Bola – Pandangan Tribun.",
+                "describeHere": "Lapanganbola adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node10": {
+            "rawName": "Skateboard",
+            "displayName": "Arena Skate – Ramp",
+            "placeId": "gor-tri-lomba-juang-arena-skate-ramp",
+            "placeName": "GOR Tri Lomba Juang – Arena Skate – Ramp",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Bidang miring dan mural menjadi unsur yang terlihat pada Arena Skate – Ramp di GOR Tri Lomba Juang.",
+            "description": "Bidang miring dan mural menjadi unsur yang terlihat pada Arena Skate – Ramp di GOR Tri Lomba Juang. Sarana penghubung membantu perpindahan antarbagian atau ketinggian ruang. Pegangan, bidang pijak, dan bukaan memberi petunjuk cara jalur ini digunakan.",
+            "highlights": [
+                "Bidang miring",
+                "Mural"
+            ],
+            "talkingPoints": [
+                "Skateboard",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Arena Skate – Ramp?",
+                    "mode": "fix",
+                    "answer": "Bidang miring dan mural menjadi unsur yang terlihat pada Arena Skate – Ramp di GOR Tri Lomba Juang. Bidang miring dan mural menjadi unsur yang terlihat pada Arena Skate – Ramp di GOR Tri Lomba Juang. Sarana penghubung membantu perpindahan antarbagian atau ketinggian ruang. Pegangan, bidang pijak, dan bukaan memberi petunjuk cara jalur ini digunakan. Fasilitas ini berupa lapangan bulu tangkis yang terletak di dalam gedung olahraga (GOR Indoor), lengkap dengan net dan lantai yang rata. Lapangan ini dapat disewa secara harian atau bulanan untuk latihan maupun rekreasi."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Arena Skate – Ramp?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Bidang miring dan Mural memberi petunjuk tentang kegiatan yang berlangsung di sini. Bidang miring dan mural menjadi unsur yang terlihat pada Arena Skate – Ramp di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Apa konteks GOR Tri Lomba Juang – Arena Skate – Ramp yang membuat Arena Skate – Ramp lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Fasilitas ini berupa lapangan bulu tangkis yang terletak di dalam gedung olahraga (GOR Indoor), lengkap dengan net dan lantai yang rata. Lapangan ini dapat disewa secara harian atau bulanan untuk latihan maupun rekreasi."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:484"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Arena Skate – Ramp.",
+                "describeHere": "Skateboard adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node11": {
+            "rawName": "Lapangan Tennis",
+            "displayName": "Lapangan Tenis – Dekat Net",
+            "placeId": "gor-tri-lomba-juang-lapangan-tenis-dekat-net",
+            "placeName": "GOR Tri Lomba Juang – Lapangan Tenis – Dekat Net",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Lapangan Tenis – Dekat Net menampilkan net dan permukaan biru di GOR Tri Lomba Juang.",
+            "description": "Pandangan Lapangan Tenis – Dekat Net menampilkan net dan permukaan biru di GOR Tri Lomba Juang. Lapangan berjaring menyediakan ruang permainan yang terbagi menjadi dua sisi. Garis permukaan membantu pemain membaca batas dan posisi.",
+            "highlights": [
+                "Net",
+                "Permukaan biru"
+            ],
+            "talkingPoints": [
+                "Lapangan Tennis",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa fungsi utama Lapangan Tenis – Dekat Net di kawasan ini?",
+                    "mode": "fix",
+                    "answer": "Pandangan Lapangan Tenis – Dekat Net menampilkan net dan permukaan biru di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Bagian mana yang paling membantu memahami fungsi Lapangan Tenis – Dekat Net?",
+                    "mode": "fix",
+                    "answer": "Net dan Permukaan biru memperjelas susunan serta penggunaan ruang. Pandangan Lapangan Tenis – Dekat Net menampilkan net dan permukaan biru di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Apa fakta penting tentang GOR Tri Lomba Juang – Lapangan Tenis – Dekat Net yang berkaitan dengan sudut ini?",
+                    "mode": "fix",
+                    "answer": "Fasilitas fitnes ini tersedia dalam ruangan (indoor) dengan alat yang mempuni untuk kebutuhan kebugaran tubuh para pengunjung."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lapangan Tenis – Dekat Net.",
+                "describeHere": "Lapangan Tennis adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node12": {
+            "rawName": "Tenis",
+            "displayName": "Lapangan Tenis – Garis Samping",
+            "placeId": "gor-tri-lomba-juang-lapangan-tenis-garis-samping",
+            "placeName": "GOR Tri Lomba Juang – Lapangan Tenis – Garis Samping",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pada Lapangan Tenis – Garis Samping, garis lapangan dan pagar membentuk tampilan bagian GOR Tri Lomba Juang ini.",
+            "description": "Pada Lapangan Tenis – Garis Samping, garis lapangan dan pagar membentuk tampilan bagian GOR Tri Lomba Juang ini. Lapangan tenis memiliki bidang permainan yang dibagi oleh net dan garis. Ruang di belakang serta sampingnya mendukung gerakan pemain. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Garis lapangan",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Tenis",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa Lapangan Tenis – Garis Samping menjadi bagian penting dari GOR Tri Lomba Juang – Lapangan Tenis – Garis Samping?",
+                    "mode": "fix",
+                    "answer": "Pada Lapangan Tenis – Garis Samping, garis lapangan dan pagar membentuk tampilan bagian GOR Tri Lomba Juang ini. Pada Lapangan Tenis – Garis Samping, garis lapangan dan pagar membentuk tampilan bagian GOR Tri Lomba Juang ini. Lapangan tenis memiliki bidang permainan yang dibagi oleh net dan garis. Ruang di belakang serta sampingnya mendukung gerakan pemain. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Fasilitas yang tersedia secara outdoor untuk kebutuhan kardio. Terletak di sudut area GOR Tri Lomba Juang Semarang."
+                },
+                {
+                    "q": "Apa hubungan Garis lapangan dengan aktivitas di Lapangan Tenis – Garis Samping?",
+                    "mode": "fix",
+                    "answer": "Garis lapangan menjadi unsur yang berkaitan langsung dengan aktivitas pada area ini. Pada Lapangan Tenis – Garis Samping, garis lapangan dan pagar membentuk tampilan bagian GOR Tri Lomba Juang ini."
+                },
+                {
+                    "q": "Apa yang membedakan Lapangan Tenis – Garis Samping dari bagian lain lokasi?",
+                    "mode": "fix",
+                    "answer": "Sudut ini secara khusus menampilkan Garis lapangan dan Pagar. Pada Lapangan Tenis – Garis Samping, garis lapangan dan pagar membentuk tampilan bagian GOR Tri Lomba Juang ini."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lapangan Tenis – Garis Samping.",
+                "describeHere": "Tenis adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node13": {
+            "rawName": "Lapangantennis",
+            "displayName": "Lapangan Tenis – Sisi Tribun",
+            "placeId": "gor-tri-lomba-juang-lapangan-tenis-sisi-tribun",
+            "placeName": "GOR Tri Lomba Juang – Lapangan Tenis – Sisi Tribun",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Lapangan Tenis – Sisi Tribun menyorot bangku penonton dan kanopi, dengan konteks kunjungan di GOR Tri Lomba Juang.",
+            "description": "Lapangan Tenis – Sisi Tribun menyorot bangku penonton dan kanopi, dengan konteks kunjungan di GOR Tri Lomba Juang. Lapangan tenis memiliki bidang permainan yang dibagi oleh net dan garis. Ruang di belakang serta sampingnya mendukung gerakan pemain. Kanopi memberi perlindungan dari paparan langsung cuaca pada ruang peralihan. Pengunjung dapat menyesuaikan langkah sebelum masuk atau menunggu kendaraan.",
+            "highlights": [
+                "Bangku penonton",
+                "Kanopi"
+            ],
+            "talkingPoints": [
+                "Lapangantennis",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa latar tempat yang membantu memahami Lapangan Tenis – Sisi Tribun?",
+                    "mode": "fix",
+                    "answer": "GOR Tri Lomba Juang memiliki fasilitas panjat tebing yang tersedia bagi atlet dan masyarakat umum untuk berlatih. Area ini melayani olahraga vertikal dan sering dimanfaatkan oleh komunitas panjat tebing setempat."
+                },
+                {
+                    "q": "Bagaimana susunan ruang di Lapangan Tenis – Sisi Tribun mendukung kegiatannya?",
+                    "mode": "fix",
+                    "answer": "Susunan Bangku penonton bersama Kanopi menunjukkan cara area ini digunakan. Lapangan Tenis – Sisi Tribun menyorot bangku penonton dan kanopi, dengan konteks kunjungan di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Detail apa yang sebaiknya tidak terlewat di Lapangan Tenis – Sisi Tribun?",
+                    "mode": "fix",
+                    "answer": "Bangku penonton menjadi detail utama, sedangkan Kanopi melengkapi konteksnya. Lapangan Tenis – Sisi Tribun menyorot bangku penonton dan kanopi, dengan konteks kunjungan di GOR Tri Lomba Juang."
+                }
+            ],
+            "relatedKnowledgeIds": [
+                "webview:objinfo2:485"
+            ],
+            "contentGrounding": "direct",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lapangan Tenis – Sisi Tribun.",
+                "describeHere": "Lapangantennis adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node14": {
+            "rawName": "Tugu GOR Tri Lomba Juang",
+            "displayName": "Landmark Tri Lomba Juang",
+            "placeId": "gor-tri-lomba-juang-landmark-tri-lomba-juang",
+            "placeName": "GOR Tri Lomba Juang – Landmark Tri Lomba Juang",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Landmark Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan huruf nama dan ruang masuk.",
+            "description": "Landmark Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan huruf nama dan ruang masuk. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Huruf yang terlihat dari ruang terbuka membantu orang mengenali identitas tempat sejak mendekat. Penanda dapat menjadi acuan bertemu atau menjelaskan posisi kepada rombongan.",
+            "highlights": [
+                "Huruf nama",
+                "Ruang masuk"
+            ],
+            "talkingPoints": [
+                "Tugu GOR Tri Lomba Juang",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Apa peran Landmark Tri Lomba Juang dalam pengalaman pengunjung di GOR Tri Lomba Juang – Landmark Tri Lomba Juang?",
+                    "mode": "fix",
+                    "answer": "Landmark Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan huruf nama dan ruang masuk. Landmark Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan huruf nama dan ruang masuk. Penanda kawasan menampilkan identitas melalui bentuk, tulisan, atau simbol. Hubungannya dengan halaman dan jalur kedatangan membuatnya mudah dikenali dari ruang sekitar. Huruf yang terlihat dari ruang terbuka membantu orang mengenali identitas tempat sejak mendekat. Penanda dapat menjadi acuan bertemu atau menjelaskan posisi kepada rombongan. Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola."
+                },
+                {
+                    "q": "Mengapa Huruf nama penting pada Landmark Tri Lomba Juang?",
+                    "mode": "fix",
+                    "answer": "Huruf nama membantu menjelaskan identitas dan fungsi Landmark Tri Lomba Juang. Landmark Tri Lomba Juang di GOR Tri Lomba Juang memperlihatkan huruf nama dan ruang masuk."
+                },
+                {
+                    "q": "Fakta lokal apa yang berkaitan langsung dengan Landmark Tri Lomba Juang?",
+                    "mode": "fix",
+                    "answer": "Kompleks ini memiliki lapangan utama yang telah direvitalisasi dengan rumput sintetis, meskipun sebagian besar area GOR kini lebih difokuskan sebagai jogging track di sekitarnya. Lapangan ini menjadi pusat kegiatan outdoor GOR dan bisa digunakan untuk berbagai aktivitas selain sepak bola."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Landmark Tri Lomba Juang.",
+                "describeHere": "Tugu GOR Tri Lomba Juang adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node15": {
+            "rawName": "Umkm",
+            "displayName": "Koridor Gerai UMKM",
+            "placeId": "gor-tri-lomba-juang-koridor-gerai-umkm",
+            "placeName": "GOR Tri Lomba Juang – Koridor Gerai UMKM",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Gerai dan trotoar menjadi unsur yang terlihat pada Koridor Gerai UMKM di GOR Tri Lomba Juang.",
+            "description": "Gerai dan trotoar menjadi unsur yang terlihat pada Koridor Gerai UMKM di GOR Tri Lomba Juang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Area belanja menampilkan barang melalui rak, etalase, atau konter.",
+            "highlights": [
+                "Gerai",
+                "Trotoar"
+            ],
+            "talkingPoints": [
+                "Umkm",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Bagaimana Koridor Gerai UMKM menunjukkan karakter GOR Tri Lomba Juang – Koridor Gerai UMKM?",
+                    "mode": "fix",
+                    "answer": "Gerai dan trotoar menjadi unsur yang terlihat pada Koridor Gerai UMKM di GOR Tri Lomba Juang. Gerai dan trotoar menjadi unsur yang terlihat pada Koridor Gerai UMKM di GOR Tri Lomba Juang. Koridor menyediakan lintasan antara beberapa ruang. Bentuk memanjang dan deretan bukaan memperjelas arah sirkulasi di dalam atau di sisi bangunan. Area belanja menampilkan barang melalui rak, etalase, atau konter. GOR Tri Lomba Juang menyediakan area khusus yang disebut Loop Arena untuk menampung berbagai komunitas, termasuk olahraga ekstrem seperti skateboard dan BMX. Arena ini dibangun untuk memberikan wadah legal dan aman bagi anak muda menyalurkan hobi mereka."
+                },
+                {
+                    "q": "Apa yang dapat dipelajari dari hubungan Gerai dan Trotoar di Koridor Gerai UMKM?",
+                    "mode": "fix",
+                    "answer": "Keduanya memperlihatkan hubungan antara bentuk ruang, fungsi, dan aktivitas pengunjung. Gerai dan trotoar menjadi unsur yang terlihat pada Koridor Gerai UMKM di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Detail mana yang paling informatif untuk mengenali Koridor Gerai UMKM?",
+                    "mode": "fix",
+                    "answer": "Gerai paling langsung membantu mengenali area ini. Gerai dan trotoar menjadi unsur yang terlihat pada Koridor Gerai UMKM di GOR Tri Lomba Juang."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Koridor Gerai UMKM.",
+                "describeHere": "Umkm adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        },
+        "node16": {
+            "rawName": "Jalur Jogging",
+            "displayName": "Lintasan Lari – Sisi Pepohonan",
+            "placeId": "gor-tri-lomba-juang-lintasan-lari-sisi-pepohonan",
+            "placeName": "GOR Tri Lomba Juang – Lintasan Lari – Sisi Pepohonan",
+            "variant": null,
+            "type": "area",
+            "confidence": "NEEDS_REVIEW",
+            "evidence": "Bulk import via CSV/XLSX",
+            "shortDescription": "Pandangan Lintasan Lari – Sisi Pepohonan menampilkan jalur lari dan pagar di GOR Tri Lomba Juang.",
+            "description": "Pandangan Lintasan Lari – Sisi Pepohonan menampilkan jalur lari dan pagar di GOR Tri Lomba Juang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan.",
+            "highlights": [
+                "Jalur lari",
+                "Pagar"
+            ],
+            "talkingPoints": [
+                "Jalur Jogging",
+                "jalur eksplorasi",
+                "Gortlj"
+            ],
+            "suggestedQuestions": [
+                {
+                    "q": "Mengapa pengunjung perlu mengenal Lintasan Lari – Sisi Pepohonan?",
+                    "mode": "fix",
+                    "answer": "Pandangan Lintasan Lari – Sisi Pepohonan menampilkan jalur lari dan pagar di GOR Tri Lomba Juang. Pandangan Lintasan Lari – Sisi Pepohonan menampilkan jalur lari dan pagar di GOR Tri Lomba Juang. Ruang hijau memberi hubungan langsung dengan vegetasi dan ruang luar. Jalur, tempat duduk, serta bidang tanam membentuk cara pengunjung menikmati lingkungan. Pagar memperjelas pemisahan antara jalur pengunjung dan bagian di sebelahnya. Bentuk pembatas dapat tetap memberi pandangan ke luar sambil mengarahkan pergerakan. Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat."
+                },
+                {
+                    "q": "Aktivitas apa yang didukung oleh susunan Lintasan Lari – Sisi Pepohonan?",
+                    "mode": "fix",
+                    "answer": "Keberadaan Jalur lari dan Pagar memberi petunjuk tentang kegiatan yang berlangsung di sini. Pandangan Lintasan Lari – Sisi Pepohonan menampilkan jalur lari dan pagar di GOR Tri Lomba Juang."
+                },
+                {
+                    "q": "Apa konteks GOR Tri Lomba Juang – Lintasan Lari – Sisi Pepohonan yang membuat Lintasan Lari – Sisi Pepohonan lebih bermakna?",
+                    "mode": "fix",
+                    "answer": "Kompleks olahraga ini menyediakan lapangan tenis dengan permukaan yang rata dan dilengkapi net standar. Lapangan tenis di GOR ini dapat disewa dan digunakan untuk latihan atau pertandingan oleh masyarakat."
+                }
+            ],
+            "relatedKnowledgeIds": [],
+            "contentGrounding": "identity-only",
+            "aiHints": {
+                "currentLocation": "Anda sekarang berada di GOR Tri Lomba Juang – Lintasan Lari – Sisi Pepohonan.",
+                "describeHere": "Jalur Jogging adalah area di dalam kawasan Gortlj, Semarang. Area ini menjadi bagian dari pengalaman virtual yang menghubungkan jalur eksplorasi, titik pandang, dan fasilitas pendukung. Deskripsi ini masih template — silakan lengkapi via Scene Editor dengan fakta terverifikasi agar left-context terisi seperti Lawang Sewu.",
+                "interestingHere": "Gunakan highlights terverifikasi.",
+                "navigation": "Gunakan graph/hotspot hanya untuk navigasi."
+            }
+        }
+    },
+    "modernObjectInfo": {
+        "1398": {
+            "name": {
+                "id": "Alat Fitness Kardio"
+            },
+            "image": "alat-fitness-kardio-alatfitnesskardio.webp"
+        },
+        "1399": {
+            "name": {
+                "id": "Alat Fitness Mekanis"
+            },
+            "image": "alat-fitness-mekanis-alatfitnessmekanis.webp"
+        },
+        "1400": {
+            "name": {
+                "id": "Tribun Lapangan Sepakbola"
+            },
+            "image": "tribun-lapangan-sepakbola-tribunlapangansepakbola.webp"
+        },
+        "1401": {
+            "name": {
+                "id": "Panjat Dinding"
+            },
+            "image": "panjat-dinding-panjatdinding.webp"
+        },
+        "1402": {
+            "name": {
+                "id": "UMKM"
+            },
+            "image": "umkm-umkm.webp"
+        },
+        "1403": {
+            "name": {
+                "id": "Tribun Lapangan Tenis"
+            },
+            "image": "tribun-lapangan-tenis-tribunlapangantenis.webp"
+        },
+        "1404": {
+            "name": {
+                "id": "Alat Kardio"
+            },
+            "image": "alat-kardio-alatkardio.webp"
+        }
+    }
+};
