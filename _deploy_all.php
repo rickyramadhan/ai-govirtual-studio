@@ -5,10 +5,15 @@
  * writes all data files, then pushes to each export path.
  *
  * Usage:
- *   c:\xampp\php\php.exe _deploy_all.php
+ *   c:\xampp\php\php.exe _deploy_all.php                      (preflight)
+ *   c:\xampp\php\php.exe _deploy_all.php --apply              (build + deploy)
+ *   c:\xampp\php\php.exe _deploy_all.php --apply --skip-ids=1,2,10  (lewati tour tertentu, mis. pilot)
  */
 
 declare(strict_types=1);
+
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 
 // Capture index.php web output (dashboard HTML) — suppress in CLI
 ob_start();
@@ -16,18 +21,23 @@ require_once __DIR__ . '/index.php';
 ob_end_clean();
 
 $apply = in_array('--apply', $argv, true);
+$skipIds = [];
+foreach ($argv as $arg) {
+    if (str_starts_with($arg, '--skip-ids=')) $skipIds = array_map('intval', array_filter(explode(',', substr($arg, 11))));
+}
 $pdo = new PDO('sqlite:' . __DIR__ . '/storage/app.sqlite');
 $st = $pdo->prepare("SELECT id, slug, name, export_path FROM tours WHERE export_path != '' AND lower(location) = ? ORDER BY slug");
 $st->execute(['semarang']);
-$tours = $st->fetchAll(PDO::FETCH_ASSOC);
+$tours = array_values(array_filter($st->fetchAll(PDO::FETCH_ASSOC), fn(array $t): bool => !in_array((int)$t['id'], $skipIds, true)));
 
-if (count($tours) !== 117) {
-    fwrite(STDERR, "ABORT: expected 117 Semarang tours, found " . count($tours) . "\n");
+$expected = 117 - count($skipIds);
+if (count($tours) !== $expected) {
+    fwrite(STDERR, "ABORT: expected $expected Semarang tours, found " . count($tours) . "\n");
     exit(1);
 }
 
 echo $apply ? "=== SEMARANG BUILD + DEPLOY ===\n" : "=== SEMARANG PREFLIGHT ===\n";
-echo "Tours: " . count($tours) . "\n";
+echo "Tours: " . count($tours) . " (skipped: " . count($skipIds) . ")\n";
 echo "SOURCE_AI: " . SOURCE_AI . "\n";
 echo "============================\n\n";
 

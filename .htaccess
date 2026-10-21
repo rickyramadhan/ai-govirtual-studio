@@ -2,3 +2,14 @@ AuthType Basic
 AuthName "AI Guide Hub — Studio Access"
 AuthUserFile "c:/xampp/htdocs/ai-guide-hub/.htpasswd"
 Require valid-user
+
+# Editor besar (mis. Scene Editor tour 75+ scene) mengirim ribuan field form.
+# Default PHP (1000) memotong field diam-diam; index.php juga menolak simpan bila terpotong.
+<IfModule php_module>
+    php_value max_input_vars 5000
+</IfModule>
+
+# Jangan pernah layani file internal lewat web: database (berisi API key), log, backup, env.
+<FilesMatch "\.(sqlite|db|bak|log|env|cmd)$|\.sqlite\.bak|^\.env">
+    Require all denied
+</FilesMatch>

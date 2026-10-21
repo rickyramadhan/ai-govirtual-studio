@@ -26,3 +26,11 @@ ngrok.log.*
 /storage/semarang-*.json
 /storage/cities/lampung-selatan/
 /commandcode/
+# Riwayat/sampah buatan Studio (bisa dipulihkan manual)
+/storage/trash/
+**/.history/
+/storage/tours/*/*.tmp-*
+/storage/cities/*/*.tmp-*
+
+# Arsip pembersihan manual
+/archive/

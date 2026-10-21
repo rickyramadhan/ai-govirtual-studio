@@ -1,4 +1,6 @@
 <?php
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 // Verify: nearby queries no longer match curated G08_NEARBY (they go to AI provider).
 require 'C:/xampp/htdocs/govirtual-ai/govirtual-ai/api/ai-core.php';
 

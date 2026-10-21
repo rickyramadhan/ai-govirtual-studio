@@ -5,10 +5,22 @@ declare(strict_types=1);
 const APP_ROOT = __DIR__;
 const DB_FILE = APP_ROOT . '/storage/app.sqlite';
 const TOURS_DIR = APP_ROOT . '/storage/tours';
-const SOURCE_AI = 'C:/xampp/htdocs/govirtual-ai/govirtual-ai';
+define('SOURCE_AI', getenv('GUIDE_RUNTIME_SOURCE') ?: 'C:/xampp/htdocs/govirtual-ai/govirtual-ai'); // lokasi runtime master; bisa diganti lewat env
 require_once __DIR__ . '/studio.php';
 require_once __DIR__ . '/qa_import.php';
 require_once __DIR__ . '/scene_import.php';
+require_once __DIR__ . '/app/schema.php';
+require_once __DIR__ . '/app/cities.php';
+require_once __DIR__ . '/app/tour_form.php';
+require_once __DIR__ . '/app/stats.php';
+require_once __DIR__ . '/app/dashboard.php';
+require_once __DIR__ . '/app/runtime.php';
+require_once __DIR__ . '/app/ux.php';
+require_once __DIR__ . '/app/shell_v2.php';
+require_once __DIR__ . '/app/wizard.php';
+require_once __DIR__ . '/app/jobs.php';
+require_once __DIR__ . '/app/users.php';
+require_once __DIR__ . '/app/theme.php';
 
 function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 function slugify(string $s): string { $s = strtolower(trim($s)); $s = preg_replace('/[^a-z0-9]+/', '-', $s) ?? ''; return trim($s, '-') ?: 'tour-' . date('YmdHis'); }
@@ -16,39 +28,53 @@ function ensure_dirs(): void { foreach ([APP_ROOT . '/storage', TOURS_DIR] as $d
 function cities_dir(): string { return APP_ROOT . '/storage/cities'; }
 function city_dir(string $slug): string { return cities_dir() . '/' . $slug; }
 function city_slugify(string $s): string { $s = strtolower(trim($s)); $s = preg_replace('/[^a-z0-9]+/', '-', $s) ?? ''; return trim($s, '-') ?: 'kota-' . date('YmdHis'); }
-function all_cities(): array {
-    $dir = cities_dir(); if (!is_dir($dir)) return [];
+function all_cities(bool $scoped = true): array {
+    $rows = db()->query('SELECT c.*, (SELECT COUNT(*) FROM tours t WHERE t.city_id=c.id) AS tour_count FROM cities c ORDER BY c.name COLLATE NOCASE')->fetchAll(PDO::FETCH_ASSOC);
     $cities = [];
-    foreach (array_filter(scandir($dir), fn($f) => $f !== '.' && $f !== '..' && is_dir($dir . '/' . $f)) as $slug) {
-        $meta = read_json($dir . '/' . $slug . '/meta.json', []);
-        $cities[] = ['slug' => $slug, 'name' => (string)($meta['name'] ?? ucwords(str_replace('-', ' ', $slug))), 'entries' => count(read_json($dir . '/' . $slug . '/knowledge.json', [])['entries'] ?? []), 'updated_at' => (string)($meta['updatedAt'] ?? '')];
+    $scope = $scoped ? user_scope() : null;
+    foreach ($rows as $r) {
+        if ($scope !== null && !in_array((int)$r['id'], $scope, true)) continue;
+        $meta = read_json(city_dir($r['slug']) . '/meta.json', []);
+        $cities[] = ['id' => (int)$r['id'], 'slug' => $r['slug'], 'name' => $r['name'], 'province' => (string)$r['province'], 'tour_count' => (int)$r['tour_count'],
+            'entries' => count(read_json(city_dir($r['slug']) . '/knowledge.json', [])['entries'] ?? []), 'updated_at' => (string)($meta['updatedAt'] ?? $r['updated_at'])];
     }
-    usort($cities, fn($a, $b) => strcmp($b['updated_at'], $a['updated_at']));
     return $cities;
 }
 function city_knowledge(string $slug): array { return read_json(city_dir($slug) . '/knowledge.json', ['version' => 1, 'city' => $slug, 'entries' => []]); }
-/** Config webview per kota (dari meta.json) — fallback Semarang. Dipakai build_files → config/tour.json. */
+/**
+ * Config webview per kota (dari meta.json → "webview"). Default Semarang hanya berlaku untuk kota "semarang";
+ * kota lain mulai netral (tanpa katalog/halaman milik Semarang) dan diisi lewat Pengaturan Kota.
+ * Dipakai build_files → config/tour.json.
+ */
 function city_webview_config(string $slug): array {
     $meta = read_json(city_dir($slug) . '/meta.json', []);
     $wv = is_array($meta['webview'] ?? null) ? $meta['webview'] : [];
-    $cfg = [
-        'catalogPath' => 'data/semarang-destinations.json',
-        'catalogSrc' => SOURCE_AI . '/data/semarang-destinations.json',
-        'catalogLabel' => '',
-        'categoryPage' => 'https://semarang.govirtual.id/webview/kategori.php?lang=id',
-        'objectInfoBase' => 'https://webview-govirtual.id/semarang-v2/assets/images/objekinfo/lawang_sewu',
-        'objectInfoPage' => 'https://semarang.govirtual.id/webview/objinfo2.php',
-        'objectInfoDetailParam' => 'info',
-        'objectInfoExtra' => '&vd=1&tp=m',
-        'langMap' => ['id' => 'id', 'en' => 'en', 'sa' => 'sa', 'zh' => 'zh'],
-    ];
+    if ($slug === 'semarang') {
+        $cfg = [
+            'catalogPath' => 'data/semarang-destinations.json',
+            'catalogSrc' => SOURCE_AI . '/data/semarang-destinations.json',
+            'catalogLabel' => '',
+            'categoryPage' => 'https://semarang.govirtual.id/webview/kategori.php?lang=id',
+            'objectInfoBase' => 'https://webview-govirtual.id/semarang-v2/assets/images/objekinfo/lawang_sewu',
+            'objectInfoPage' => 'https://semarang.govirtual.id/webview/objinfo2.php',
+            'objectInfoDetailParam' => 'info',
+            'objectInfoExtra' => '&vd=1&tp=m',
+            'langMap' => ['id' => 'id', 'en' => 'en', 'sa' => 'sa', 'zh' => 'zh'],
+        ];
+    } else {
+        $cfg = [
+            'catalogPath' => '', 'catalogSrc' => '', 'catalogLabel' => '', 'categoryPage' => '',
+            'objectInfoBase' => '', 'objectInfoPage' => '', 'objectInfoDetailParam' => 'info', 'objectInfoExtra' => '',
+            'langMap' => ['id' => 'id', 'en' => 'en'],
+        ];
+    }
     foreach ($cfg as $k => $v) {
         if (isset($wv[$k]) && $wv[$k] !== '') {
             $cfg[$k] = is_array($wv[$k]) ? $wv[$k] : (string)$wv[$k];
         }
     }
-    // catalogSrc mengikuti catalogPath bila di-set per kota (bukan default semarang)
-    if ($cfg['catalogPath'] !== 'data/semarang-destinations.json' && str_contains($cfg['catalogSrc'], 'semarang-destinations.json')) {
+    // catalogSrc mengikuti catalogPath bila di-set per kota dan sumbernya belum diisi eksplisit.
+    if ($cfg['catalogPath'] !== '' && ($cfg['catalogSrc'] === '' || ($cfg['catalogPath'] !== 'data/semarang-destinations.json' && str_contains($cfg['catalogSrc'], 'semarang-destinations.json')))) {
         $cfg['catalogSrc'] = SOURCE_AI . '/data/' . basename($cfg['catalogPath']);
     }
     return $cfg;
@@ -148,7 +174,7 @@ function city_sync_packages(string $citySlug): array {
     $instructions = (string)(read_json(city_dir($citySlug) . '/meta.json', [])['instructions'] ?? '');
     $synced = [];
     foreach (all_tours() as $t) {
-        if (city_slugify((string)$t['location']) !== $citySlug) continue;
+        if (tour_city_slug($t) !== $citySlug) continue;
         $pkg = tour_dir($t['slug']) . '/package/govirtual-ai/data';
         if (!is_dir($pkg)) continue;
         $out = $kb;
@@ -159,19 +185,11 @@ function city_sync_packages(string $citySlug): array {
     }
     return $synced;
 }
-/** Seed city dirs dari lokasi tour yang belum punya knowledge kota (mis. Semarang). */
-function city_seed_from_tours(): void {
-    foreach (all_tours() as $t) {
-        $slug = city_slugify((string)$t['location']);
-        if ($slug === '' || is_dir(city_dir($slug))) continue;
-        $dir = city_dir($slug);
-        mkdir($dir, 0777, true);
-        write_json($dir . '/meta.json', ['name' => trim((string)$t['location']), 'updatedAt' => date('c')]);
-        write_json($dir . '/knowledge.json', ['version' => 1, 'city' => $slug, 'entries' => []]);
-        write_json($dir . '/sources.json', ['sources' => []]);
-    }
-}
+/** Dulu membuat folder kota sebagai efek samping membuka halaman. Sekarang kota berasal dari tabel `cities` (db_migrate); folder dibuat saat ditulis. */
+function city_seed_from_tours(): void {}
 function db(): PDO {
+    static $cached = null; // satu koneksi + satu kali migrasi per request
+    if ($cached instanceof PDO) return $cached;
     ensure_dirs();
     $pdo = new PDO('sqlite:' . DB_FILE);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -185,18 +203,24 @@ function db(): PDO {
     $pdo->exec('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT UNIQUE NOT NULL, password_hash TEXT NOT NULL, role TEXT NOT NULL DEFAULT "qa", created_at TEXT NOT NULL)');
     $ucols = array_column($pdo->query('PRAGMA table_info(users)')->fetchAll(PDO::FETCH_ASSOC), 'name');
     if (!in_array('role', $ucols, true)) $pdo->exec('ALTER TABLE users ADD COLUMN role TEXT NOT NULL DEFAULT "qa"');
-    $seedUsers = [
-        ['admin', 'admin123', 'admin'],
-        ['admin2', 'admin12345', 'admin'],
-        ['qa', 'qa12345', 'qa'],
-    ];
-    $cnt = (int)$pdo->query('SELECT COUNT(*) FROM users')->fetchColumn();
-    if ($cnt === 0) {
-        $ins = $pdo->prepare('INSERT INTO users(username,password_hash,role,created_at) VALUES(?,?,?,?)');
-        foreach ($seedUsers as [$u, $p, $r]) $ins->execute([$u, password_hash($p, PASSWORD_DEFAULT), $r, date('c')]);
-    }
+    // Tidak ada akun bawaan lagi. Buat admin pertama lewat CLI: php tools/user-admin.php create <username> admin
+    $cached = $pdo; // set sebelum migrasi agar helper yang memanggil db() tidak rekursif
+    db_migrate($pdo);
     return $pdo;
 }
+/** Password bawaan lama. Dipakai hanya untuk mendeteksi akun yang harus segera ganti password. */
+function legacy_default_passwords(): array { return ['admin123', 'admin12345', 'qa12345']; }
+function user_uses_default_password(array $row): bool {
+    foreach (legacy_default_passwords() as $p) if (password_verify($p, (string)$row['password_hash'])) return true;
+    return false;
+}
+function password_policy_error(string $pw): ?string {
+    if (strlen($pw) < 10) return 'Password minimal 10 karakter.';
+    if (in_array($pw, legacy_default_passwords(), true)) return 'Password ini terlalu umum. Pilih yang lain.';
+    if (!preg_match('/[A-Za-z]/', $pw) || !preg_match('/\d/', $pw)) return 'Password harus mengandung huruf dan angka.';
+    return null;
+}
+function user_count(): int { return (int)db()->query('SELECT COUNT(*) FROM users')->fetchColumn(); }
 function user_find(string $username): ?array {
     $s = db()->prepare('SELECT * FROM users WHERE username=?');
     $s->execute([$username]);
@@ -225,8 +249,34 @@ function csrf_token(): string {
 function csrf_valid(?string $token): bool {
     return is_string($token) && hash_equals(csrf_token(), $token);
 }
+/**
+ * Halaman konfirmasi untuk aksi yang mengubah data. GET hanya menampilkan ini; eksekusi terjadi lewat POST.
+ * $typeToConfirm: jika diisi, pengguna harus mengetik teks tersebut (untuk aksi destruktif).
+ */
+function confirm_page(string $title, string $descHtml, string $postUrl, string $btnLabel, string $backUrl, bool $danger = false, string $typeToConfirm = '', array $hidden = []): void {
+    $field = '';
+    foreach ($hidden as $hk => $hv) $field .= '<input type="hidden" name="' . h((string)$hk) . '" value="' . h((string)$hv) . '">';
+    $field .= $typeToConfirm !== ''
+        ? '<label for="confirm_name">Ketik <b>' . h($typeToConfirm) . '</b> untuk melanjutkan</label><input id="confirm_name" name="confirm_name" required autocomplete="off" placeholder="' . h($typeToConfirm) . '">'
+        : '';
+    layout($title, '<div class="card" style="max-width:640px"><h2>' . h($title) . '</h2><div style="margin:12px 0">' . $descHtml . '</div>'
+        . '<form method="post" action="' . h($postUrl) . '" style="display:grid;gap:10px">' . $field
+        . '<p style="display:flex;gap:8px;margin:0"><button class="btn ' . ($danger ? 'btn-danger' : 'btn-primary') . '" type="submit">' . h($btnLabel) . '</button>'
+        . '<a class="btn btn-ghost" href="' . h($backUrl) . '">Batal</a></p></form></div>');
+    exit;
+}
+/** Pindahkan folder ke storage/trash/ (bisa dipulihkan) alih-alih menghapus permanen. */
+function move_to_trash(string $path, string $label, array $meta = []): string {
+    $trash = APP_ROOT . '/storage/trash';
+    if (!is_dir($trash)) mkdir($trash, 0777, true);
+    $dest = $trash . '/' . preg_replace('/[^a-z0-9._-]+/i', '-', $label) . '-' . date('Ymd-His');
+    if (is_dir($path)) { if (!@rename($path, $dest)) { throw new RuntimeException('Gagal memindahkan ke trash: ' . $path); } }
+    else mkdir($dest, 0777, true);
+    write_json($dest . '/_trashed.json', ['label' => $label, 'originalPath' => $path, 'trashedAt' => date('c'), 'meta' => $meta]);
+    return $dest;
+}
 function require_admin(): ?array {
-    $u = require_login();
+    $u = require_login() ?: current_user(); // di CLI require_login() mengembalikan null; sesi tetap dibaca
     if (($u['role'] ?? '') !== 'admin') {
         http_response_code(403);
         header('Content-Type: text/html; charset=utf-8');
@@ -236,7 +286,7 @@ function require_admin(): ?array {
     return $u;
 }
 function require_editor(): ?array {
-    $u = require_login();
+    $u = require_login() ?: current_user();
     if (($u['role'] ?? '') === 'qa') {
         http_response_code(403);
         header('Content-Type: text/html; charset=utf-8');
@@ -339,6 +389,7 @@ function env_render_from_db(): string {
     $L[] = 'GROQ_API_KEY=' . $gr[0];
     foreach (array_slice($gr, 1) as $i => $k) $L[] = 'GROQ_API_KEY_' . ($i + 1) . '=' . $k;
     $L[] = 'GROQ_MODEL=' . setting_get('GROQ_MODEL', 'groq/compound');
+    $L[] = 'GROQ_FALLBACK_MODELS=' . setting_get('GROQ_FALLBACK_MODELS', 'openai/gpt-oss-20b');
     $L[] = '';
     // OLLAMA
     $L[] = '# --- Ollama (lokal, opsional) ---';
@@ -400,6 +451,13 @@ function tour_dir(string $slug): string { return TOURS_DIR . '/' . $slug; }
  * If stored path missing, scan parent for any dir with pano.xml.
  * Returns resolved path (original if no match or ambiguous).
  */
+/** Path web (relatif terhadap host) untuk folder export di bawah htdocs; string kosong bila tidak bisa ditentukan. */
+function export_web_path(string $exportPath): string {
+    $htdocs = rtrim(str_replace('\\', '/', dirname(APP_ROOT)), '/');
+    $export = rtrim(str_replace('\\', '/', $exportPath), '/');
+    if ($export === '' || !str_starts_with($export, $htdocs . '/')) return '';
+    return '/' . implode('/', array_map('rawurlencode', explode('/', substr($export, strlen($htdocs) + 1))));
+}
 function resolve_export_path(string $stored): string {
     $stored = str_replace('\\', '/', $stored);
     if ($stored === '' || is_dir($stored)) return $stored;
@@ -416,14 +474,77 @@ function resolve_export_path(string $stored): string {
     return $found ?? $stored;
 }
 function read_json(string $file, array $fallback = []): array { $raw = is_file($file) ? json_decode((string)file_get_contents($file), true) : null; return is_array($raw) ? $raw : $fallback; }
-function write_json(string $file, array $data): void { if (!is_dir(dirname($file))) mkdir(dirname($file), 0777, true); file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)); }
+/**
+ * Simpan versi lama file konten (tour/kota) ke .history/ sebelum ditimpa, maks 20 versi per file.
+ * Hanya untuk file langsung di storage/tours/{slug}/ dan storage/cities/{slug}/ (bukan package turunan, bukan parsed.json).
+ */
+function json_history_snapshot(string $file, string $newJson): void {
+    if (!is_file($file)) return;
+    $norm = static fn(string $p): string => rtrim(str_replace('\\', '/', $p), '/');
+    $parent = $norm(dirname($file, 2));
+    if ($parent !== $norm(TOURS_DIR) && $parent !== $norm(cities_dir())) return;
+    $base = basename($file);
+    if (substr($base, -5) !== '.json' || $base[0] === '_' || $base === 'parsed.json') return;
+    $old = @file_get_contents($file);
+    if ($old === false || $old === '' || $old === $newJson) return;
+    $h = dirname($file) . '/.history';
+    if (!is_dir($h) && !@mkdir($h, 0777, true)) return;
+    $stem = substr($base, 0, -5);
+    @copy($file, $h . '/' . $stem . '-' . date('Ymd-His') . sprintf('-%03d', (int)(fmod(microtime(true), 1) * 1000)) . '.json');
+    $all = glob($h . '/' . $stem . '-*.json') ?: [];
+    sort($all);
+    foreach (array_slice($all, 0, max(0, count($all) - 20)) as $o) @unlink($o);
+}
+/** Tulis JSON secara atomik (file sementara + rename) dan berversi untuk file konten. */
+function write_json(string $file, array $data): void {
+    $dir = dirname($file);
+    if (!is_dir($dir)) mkdir($dir, 0777, true);
+    $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_INVALID_UTF8_SUBSTITUTE);
+    if ($json === false) throw new RuntimeException('Gagal membuat JSON untuk ' . basename($file) . ': ' . json_last_error_msg());
+    json_history_snapshot($file, $json);
+    $tmp = $file . '.tmp-' . bin2hex(random_bytes(3));
+    if (@file_put_contents($tmp, $json) === false) throw new RuntimeException('Gagal menulis ' . basename($file) . ' (disk penuh atau tidak punya izin).');
+    if (!@rename($tmp, $file)) {
+        @unlink($tmp);
+        if (@file_put_contents($file, $json) === false) throw new RuntimeException('Gagal menulis ' . basename($file) . '.');
+    }
+}
+/**
+ * Gabungkan baris hasil edit form ke record lama berdasarkan id, supaya field yang tidak
+ * ada di form (response, sceneIds, translations, items, ...) tidak hilang saat disimpan.
+ * Record baru (id belum ada) memakai $newDefaults sebagai nilai awal.
+ */
+function merge_edited(array $existing, array $edited, array $newDefaults = [], string $idKey = 'id'): array {
+    $byId = [];
+    foreach ($existing as $e) if (is_array($e) && isset($e[$idKey])) $byId[(string)$e[$idKey]] = $e;
+    $out = [];
+    foreach ($edited as $row) {
+        $id = (string)($row[$idKey] ?? '');
+        $out[] = isset($byId[$id]) ? array_replace($byId[$id], $row) : array_replace($newDefaults, $row);
+    }
+    return $out;
+}
+/**
+ * Ganti nama/slug tour lama dengan yang baru di dalam data JSON hasil clone, tanpa merusak teks lain:
+ * nilai yang persis sama dengan slug lama diganti; nama lama diganti hanya sebagai kata utuh (bukan potongan kata).
+ */
+function rename_in_data($v, string $oldSlug, string $newSlug, string $oldName, string $newName) {
+    if (is_array($v)) { foreach ($v as $k => $x) $v[$k] = rename_in_data($x, $oldSlug, $newSlug, $oldName, $newName); return $v; }
+    if (!is_string($v)) return $v;
+    if ($v === $oldSlug) return $newSlug;
+    if (mb_strlen($oldName) >= 4) {
+        $r = preg_replace('/(?<![\p{L}\p{N}])' . preg_quote($oldName, '/') . '(?![\p{L}\p{N}])/u', str_replace(['\\', '$'], ['\\\\', '\\$'], $newName), $v);
+        if (is_string($r)) $v = $r;
+    }
+    return $v;
+}
 function content_files(): array { return ['curated-answers' => 'Curated Questions', 'knowledge' => 'Knowledge', 'scene-identity' => 'Scene Identity', 'visitor-tips' => 'Visitor Tips', 'nearby' => 'Nearby', 'recommended-questions' => 'Recommended Questions (State1/State2)', 'flow' => 'Navigation Flow']; }
 function export_snapshot(string $exportPath): array {
     $exportPath = rtrim(str_replace('\\', '/', $exportPath), '/');
     $state = [];
     foreach (['pano.xml', 'skin.js', 'index.html'] as $f) {
         $path = "$exportPath/$f";
-        $state[$f] = is_file($path) ? hash_file('xxh3', $path) : '';
+        $state[$f] = file_hash_cached($path); // '' bila file tidak ada; cache berdasarkan mtime+ukuran
     }
     return $state;
 }
@@ -637,7 +758,8 @@ function infer_scene_names_from_hotspots(array $parsed): array {
     return $map;
 }
 
-function seed_content(array $tour): void {
+/** Buat file konten awal dari template. Default HANYA membuat yang belum ada; $overwrite=true menimpa (versi lama masuk .history). */
+function seed_content(array $tour, bool $overwrite = false): array {
     $dir = tour_dir($tour['slug']); $parsed = read_json($dir . '/parsed.json');
     if (!$parsed) throw new RuntimeException('Import pano/skin dulu.');
 
@@ -681,11 +803,20 @@ function seed_content(array $tour): void {
         'nearby' => content_template_nearby($tour),
         'recommended-questions' => content_template_recommended_questions($tour),
     ];
-    foreach ($templates as $name => $data) write_json($dir . '/' . $name . '.json', $data);
+    $written = []; $skipped = [];
+    foreach ($templates as $name => $data) {
+        $f = $dir . '/' . $name . '.json';
+        if (is_file($f) && !$overwrite) { $skipped[] = $name; continue; }
+        write_json($f, $data);
+        $written[] = $name;
+    }
+    return ['written' => $written, 'skipped' => $skipped];
 }
 function all_tours(): array {
     $db = db();
     $rows = $db->query('SELECT * FROM tours ORDER BY updated_at DESC')->fetchAll(PDO::FETCH_ASSOC);
+    $scope = user_scope(); // editor/QA dengan cakupan kota hanya melihat tour di kotanya
+    if ($scope !== null) $rows = array_values(array_filter($rows, fn($r) => in_array((int)($r['city_id'] ?? 0), $scope, true)));
     foreach ($rows as &$r) {
         $resolved = resolve_export_path((string)$r['export_path']);
         if ($resolved !== (string)$r['export_path']) {
@@ -713,16 +844,26 @@ function save_tour(array $in): int {
     $pdo = db(); $now = date('c'); $id = (int)($in['id'] ?? 0);
     $name = trim((string)($in['name'] ?? '')); if ($name === '') throw new RuntimeException('Nama tour wajib diisi.');
     $slug = slugify((string)($in['slug'] ?? $name));
-    $location = trim((string)($in['location'] ?? 'Semarang')) ?: 'Semarang';
+    // Kota: pilih dari daftar (city_id) atau ketik nama baru ('new_city'/'location'); `location` mengikuti nama kota.
+    $cityId = (int)($in['city_id'] ?? 0);
+    $cityRow = $cityId > 0 ? city_row_by_id($cityId) : null;
+    if (!$cityRow) {
+        $typed = trim((string)($in['new_city'] ?? '')) ?: trim((string)($in['location'] ?? ''));
+        if ($typed === '') throw new RuntimeException('Kota wajib dipilih atau diisi.');
+        $cityRow = city_ensure($typed);
+    }
+    $cityId = (int)$cityRow['id'];
+    if (!city_in_scope($cityId)) throw new RuntimeException('Anda tidak punya akses ke kota ini.');
+    $location = (string)$cityRow['name'];
     $category = trim((string)($in['category'] ?? ''));
     $path = str_replace('\\', '/', trim((string)($in['export_path'] ?? '')));
     if ($id) {
-        $stmt = $pdo->prepare('UPDATE tours SET slug=?, name=?, location=?, category=?, export_path=?, updated_at=? WHERE id=?');
-        $stmt->execute([$slug, $name, $location, $category, $path, $now, $id]);
+        $stmt = $pdo->prepare('UPDATE tours SET slug=?, name=?, location=?, city_id=?, category=?, export_path=?, updated_at=? WHERE id=?');
+        $stmt->execute([$slug, $name, $location, $cityId, $category, $path, $now, $id]);
         return $id;
     }
-    $stmt = $pdo->prepare('INSERT INTO tours(slug,name,location,category,export_path,created_at,updated_at) VALUES(?,?,?,?,?,?,?)');
-    $stmt->execute([$slug, $name, $location, $category, $path, $now, $now]);
+    $stmt = $pdo->prepare('INSERT INTO tours(slug,name,location,city_id,category,export_path,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)');
+    $stmt->execute([$slug, $name, $location, $cityId, $category, $path, $now, $now]);
     return (int)$pdo->lastInsertId();
 }
 function pano_default_views(string $path): array {
@@ -953,7 +1094,7 @@ function build_files(array $tour): array {
     }
     $webviewPath = dirname(APP_ROOT) . '/semarang/webview/json/data.json';
     $modernDbPath = dirname(APP_ROOT) . '/semarang/assets/ext/database.js';
-    if (city_slugify((string)$tour['location']) === 'semarang' && is_file($webviewPath) && is_file($modernDbPath)) {
+    if (tour_city_slug($tour) === 'semarang' && is_file($webviewPath) && is_file($modernDbPath)) {
         $modernDbText = preg_replace('/^\s*window\.TourDatabase\s*=\s*/', '', rtrim((string)file_get_contents($modernDbPath), "; \r\n\t"));
         $modernDb = json_decode(preg_replace('/^\s*\/\/[^\r\n]*$/m', '', $modernDbText), true);
         $records = is_array($modernDb) ? ($modernDb[$tour['slug']] ?? []) : [];
@@ -1006,7 +1147,7 @@ function build_files(array $tour): array {
         'features' => ['exploreKnowledge' => true, 'publicService' => true, 'destinationDiscovery' => true, 'destinationCatalog' => true, 'sceneIdentity' => true, 'answerability' => true],
         'voice' => tour_voice_settings($tour['slug']),
         'data' => ['visitorTipsPath' => 'data/visitor-tips.json', 'nearbyPath' => 'data/nearby.json'],
-        'frontend' => array_merge(city_webview_config(city_slugify((string)$tour['location'])), [
+        'frontend' => array_merge(city_webview_config(tour_city_slug($tour)), [
             'catalogLabel' => $tour['location'],
             'nearbyLabel' => $tour['name'] . ' dan ' . $tour['location'],
         ])
@@ -1026,7 +1167,7 @@ function build_files(array $tour): array {
     }
     write_json($out . '/data/knowledge.json', $knowledge);
     // City knowledge: hanya untuk tour lokasi yang sama (multi-city isolation)
-    $citySlug = city_slugify((string)$tour['location']);
+    $citySlug = tour_city_slug($tour);
     if (is_dir(city_dir($citySlug))) {
         $cityMeta = read_json(city_dir($citySlug) . '/meta.json', []);
         $ckb = city_knowledge($citySlug);
@@ -1140,7 +1281,7 @@ function build_files(array $tour): array {
     }
     file_put_contents($out . '/README.md', "# GOVIRTUAL AI\n\nPackage ready for " . $tour['name'] . " (" . $tour['location'] . ").\n\n- Copy this folder into the tour export root.\n- Edit `data/knowledge.json` and `config/tour.json` for location-specific content.\n");
     // Keep catalog if source had it – copy if exists in source and not yet in out
-    $wvc2 = city_webview_config(city_slugify((string)$tour['location']));
+    $wvc2 = city_webview_config(tour_city_slug($tour));
     $catalogSrc = $wvc2['catalogSrc'];
     $catalogDst = $out . '/' . $wvc2['catalogPath'];
     if (is_file($catalogSrc) && !is_file($catalogDst)) copy($catalogSrc, $catalogDst);
@@ -1151,9 +1292,13 @@ function build_files(array $tour): array {
     $exploreSrc = $dir . '/explore-menu-knowledge.json';
     $explore = is_file($exploreSrc) ? read_json($exploreSrc, ['entries' => []]) : ['version' => '1.0', 'tourId' => $tour['slug'], 'sourceType' => 'none', 'entries' => []];
     write_json($out . '/data/explore-menu-knowledge.json', $explore);
+    // Tema: tema bawaan = tidak ada tambahan apa pun di index.html (tampilan AI Guide yang ada tidak berubah).
+    $themeResolved = theme_resolve($tour); $themeIsDefault = ($themeResolved === theme_defaults());
+    file_put_contents($out . '/config/theme.css', theme_css($themeResolved));
     // Sync snippet with govirtual-ai reference (GOVIRTUAL_AI_CONFIG, basePath, catalogPath, tourLocation)
-    $snippet = "<!-- GOVIRTUAL AI — Add this block before </body> in the tour index.html -->\n"
+    $snippet ="<!-- GOVIRTUAL AI — Add this block before </body> in the tour index.html -->\n"
         . "<link rel=\"stylesheet\" href=\"./govirtual-ai/frontend/guide.css\">\n"
+        . ($themeIsDefault ? '' : "<link rel=\"stylesheet\" href=\"./govirtual-ai/config/theme.css\">\n")
         . "<script src=\"./govirtual-ai/data/tour-data.js\"></script>\n"
         . "<script>\nwindow.GOVIRTUAL_AI_CONFIG = {\n"
         . "  basePath: \"./govirtual-ai/\",\n"
@@ -1295,6 +1440,13 @@ function deploy_package(array $tour): string {
             if ($item->isDir()) { if (!is_dir($dest)) mkdir($dest, 0777, true); }
             else { if (!is_dir(dirname($dest))) mkdir(dirname($dest), 0777, true); copy($item->getPathname(), $dest); }
         }
+        // Override per-tour di luar package (mis. custom.css pano): disimpan di hub agar tidak tertimpa saat export dibuat ulang.
+        $overrideDir = tour_dir($tour['slug']) . '/overrides';
+        if (is_dir($overrideDir)) {
+            foreach (glob($overrideDir . '/*') ?: [] as $ov) {
+                if (is_file($ov)) copy($ov, $targetRoot . '/' . basename($ov));
+            }
+        }
         $pinSrc = SOURCE_AI . '/frontend/assets/location-pin.png';
         $pinDst = $targetRoot . '/images/location-pin.png';
         if (is_file($pinSrc) && !is_file($pinDst)) {
@@ -1320,7 +1472,18 @@ function deploy_package(array $tour): string {
     } catch (Throwable $e) {
         remove_tree($target); if (is_dir($backup)) rename($backup, $target); throw $e;
     }
+    // Backup lama menumpuk di web root; simpan N terbaru saja (setting deploy_backup_keep, default 3).
+    prune_deploy_backups($targetRoot . '/.ai-generator-backup', (int)setting_get('deploy_backup_keep', '3'));
     return $backup;
+}
+/** Hapus backup deploy terlama, sisakan $keep terbaru. Hanya menyentuh folder bernama YYYYMMDD-HHMMSS. $dryRun=true hanya mengembalikan daftar. */
+function prune_deploy_backups(string $dir, int $keep = 3, bool $dryRun = false): array {
+    if (!is_dir($dir)) return [];
+    $all = array_values(array_filter(glob($dir . '/*', GLOB_ONLYDIR) ?: [], static fn($d) => (bool)preg_match('/^\d{8}-\d{6}$/', basename($d))));
+    sort($all);
+    $victims = array_slice($all, 0, max(0, count($all) - max(1, $keep)));
+    if (!$dryRun) foreach ($victims as $d) remove_tree($d);
+    return $victims;
 }
 function validate_parsed(array $parsed): array {
     $errors = []; $ids = array_column($parsed['scenes'] ?? [], 'id');
@@ -1338,6 +1501,7 @@ function layout_v1(string $title, string $body): void { echo '<!doctype html><ht
 
 // Thumb proxy for scene editor — serves ht_node_thumb_*.webp from export
 if (($_GET['a'] ?? '') === 'thumb') {
+    if (!current_user() && PHP_SAPI !== 'cli') { http_response_code(401); exit; } // hanya untuk pengguna Studio yang login
     $tid = (int)($_GET['id'] ?? 0);
     $scene = (string)($_GET['scene'] ?? '');
     $tour = $tid ? get_tour($tid) : null;
@@ -1377,6 +1541,7 @@ if (($_GET['a'] ?? '') === 'thumb') {
     exit;
 }
 if (($_GET['a'] ?? '') === 'panoview') {
+    if (!current_user() && PHP_SAPI !== 'cli') { http_response_code(401); exit; } // hanya untuk pengguna Studio yang login
     $tid = (int)($_GET['id'] ?? 0);
     $scene = (string)($_GET['scene'] ?? '');
     $tour = $tid ? get_tour($tid) : null;
@@ -1484,6 +1649,7 @@ function test_provider_key(string $provider, string $key, string $model = '', st
 }
 if (($_GET['a'] ?? '') === 'testAnswer') {
     header('Content-Type: application/json; charset=utf-8');
+    if (!current_user()) { http_response_code(401); echo json_encode(['ok'=>false,'error'=>'Sesi login berakhir. Muat ulang halaman lalu masuk lagi.']); exit; }
     $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) { echo json_encode(['ok'=>false,'error'=>'tour tidak ditemukan']); exit; }
     $scene = (string)($_GET['scene'] ?? ''); $q = (string)($_GET['q'] ?? '');
     if ($scene==='' || $q==='') { echo json_encode(['ok'=>false,'error'=>'scene/pertanyaan kosong']); exit; }
@@ -1510,31 +1676,35 @@ if (($_GET['a'] ?? '') === 'testAnswer') {
             'video360' => $parsed['video360'] ?? [],
         ],
     ];
-    $reply=''; $provider='';
+    $reply=''; $provider=''; $meta=[];
+    $metaKeys = array_flip(['intent','source','answerSource','answerType','facet','confidence','curatedId','latencyMs','model','fallback','fallbackUsed']);
     if ($apiUrl !== '') {
         $res = testanswer_http_post($apiUrl, $payload);
         if ($res['ok']) {
             $d = json_decode($res['body'], true);
-            if (is_array($d)) { $reply = (string)($d['reply'] ?? $d['respons'] ?? $d['answer'] ?? ''); $provider = (string)($d['provider'] ?? 'backend'); }
+            if (is_array($d)) { $reply = (string)($d['reply'] ?? $d['respons'] ?? $d['answer'] ?? ''); $provider = (string)($d['provider'] ?? 'backend'); $meta = array_intersect_key($d, $metaKeys); }
         }
     }
     // Fallback: panggil API pusat govirtual-ai (Lawang Sewu) sebagai cadangan jika lokasi belum deploy
     if ($reply === '' && $apiUrl !== str_replace(' ', '%20', '')) { /* keep */ }
     if ($reply === '') {
-        $fallbackUrl = 'http://localhost/govirtual-ai/govirtual-ai/api/tour-chat.php';
+        $fallbackUrl = central_api_url();
         $res2 = testanswer_http_post($fallbackUrl, $payload);
         if ($res2['ok']) {
             $d2 = json_decode($res2['body'], true);
-            if (is_array($d2)) { $reply = (string)($d2['reply'] ?? $d2['respons'] ?? $d2['answer'] ?? ''); $provider = (string)($d2['provider'] ?? 'fallback-central'); }
+            if (is_array($d2)) { $reply = (string)($d2['reply'] ?? $d2['respons'] ?? $d2['answer'] ?? ''); $provider = (string)($d2['provider'] ?? 'fallback-central'); $meta = array_intersect_key($d2, $metaKeys); }
         }
     }
     if ($reply === '') { echo json_encode(['ok'=>false,'error'=>'AI gagal menjawab (backend lokasi & central). Pastikan sudah Deploy & server aktif.', 'apiUrl'=>$apiUrl]); exit; }
-    echo json_encode(['ok'=>true,'reply'=>$reply,'provider'=>$provider]); exit;
+    echo json_encode(['ok'=>true,'reply'=>$reply,'provider'=>$provider,'meta'=>$meta,'deployed'=>$apiUrl !== '' && $provider !== 'fallback-central'], JSON_UNESCAPED_UNICODE); exit;
 }
 
 // Generate deskripsi scene via AI (tombol ✨ di Scene Editor) — konteks: nama panorama
 if (($_GET['a'] ?? '') === 'genDesc') {
     header('Content-Type: application/json; charset=utf-8');
+    $genUser = current_user();
+    if (!$genUser) { http_response_code(401); echo json_encode(['ok'=>false,'error'=>'Sesi login berakhir. Muat ulang halaman lalu masuk lagi.']); exit; }
+    if (($genUser['role'] ?? '') === 'qa') { http_response_code(403); echo json_encode(['ok'=>false,'error'=>'Role QA tidak boleh memakai generator deskripsi.']); exit; }
     $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) { echo json_encode(['ok'=>false,'error'=>'tour tidak ditemukan']); exit; }
     $scene = (string)($_GET['scene'] ?? ''); $field = (string)($_GET['field'] ?? 'short');
     if ($scene==='') { echo json_encode(['ok'=>false,'error'=>'scene kosong']); exit; }
@@ -1569,7 +1739,7 @@ if (($_GET['a'] ?? '') === 'genDesc') {
         if ($res['ok']) { $d = json_decode($res['body'], true); if (is_array($d)) $reply = (string)($d['reply'] ?? $d['respons'] ?? $d['answer'] ?? ''); }
     }
     if ($reply==='') {
-        $res2 = testanswer_http_post('http://localhost/govirtual-ai/govirtual-ai/api/tour-chat.php', $payload);
+        $res2 = testanswer_http_post(central_api_url(), $payload);
         if ($res2['ok']) { $d2 = json_decode($res2['body'], true); if (is_array($d2)) $reply = (string)($d2['reply'] ?? $d2['respons'] ?? $d2['answer'] ?? ''); }
     }
     if ($reply==='') { echo json_encode(['ok'=>false,'error'=>'AI gagal menjawab (backend lokasi & central). Pastikan sudah Deploy & server aktif.']); exit; }
@@ -1595,7 +1765,8 @@ if (($_GET['a'] ?? '') === 'testKey') {
     exit;
 }
 
-if (PHP_SAPI !== 'cli') {
+// STUDIO_ROUTE_RUNNER hanya didefinisikan oleh runner.php (smoke test) agar routing bisa dijalankan dari CLI.
+if (PHP_SAPI !== 'cli' || defined('STUDIO_ROUTE_RUNNER')) {
 $action = $_GET['a'] ?? 'list'; $error = '';
 
 if ($action === 'login') {
@@ -1603,14 +1774,21 @@ if ($action === 'login') {
         $u = trim((string)($_POST['username'] ?? ''));
         $p = (string)($_POST['password'] ?? '');
         $row = $u !== '' ? user_find($u) : null;
-        if ($row && password_verify($p, (string)$row['password_hash'])) {
+        if ($row && (int)($row['active'] ?? 1) === 0 && password_verify($p, (string)$row['password_hash'])) { audit_write('loginDitolak', ['username' => $u, 'detail' => 'akun nonaktif']); $row = null; $error = '<div class="card bad"><p>Akun ini dinonaktifkan. Hubungi admin.</p></div>'; }
+        elseif ($row && password_verify($p, (string)$row['password_hash'])) {
             if (session_status() === PHP_SESSION_NONE) @session_start();
             session_regenerate_id(true);
             $_SESSION['user'] = ['id' => (int)$row['id'], 'username' => (string)$row['username'], 'role' => (string)$row['role']];
-            header('Location: ?');
+            $_SESSION['must_change_pw'] = user_uses_default_password($row) || (int)($row['must_change'] ?? 0) === 1;
+            audit_write('login', ['username' => (string)$row['username']]);
+            header('Location: ' . (!empty($_SESSION['must_change_pw']) ? '?a=account' : '?'));
             exit;
         }
-        $error = '<div class="card bad"><p>Username atau password salah.</p></div>';
+        usleep(400000); // perlambat tebakan password
+        if ($error === '') { $error = '<div class="card bad"><p>Username atau password salah.</p></div>'; audit_write('loginGagal', ['username' => $u]); }
+    }
+    if (user_count() === 0) {
+        $error .= '<div class="card warn"><h3>Belum ada akun</h3><p>Buat admin pertama lewat terminal:</p><p><code>php tools/user-admin.php create admin admin</code></p></div>';
     }
     $body = $error
         . '<div class="login-wrap"><form class="card" method="post" action="?a=login"><h2>🔐 Masuk — AI Guide Studio</h2>'
@@ -1627,10 +1805,57 @@ if ($action === 'logout') {
     header('Location: ?');
     exit;
 }
-if ($action !== 'thumb') require_login();
+if ($action !== 'thumb') {
+    require_login();
+    // Akun yang masih memakai password bawaan wajib menggantinya dulu.
+    if (!empty($_SESSION['must_change_pw']) && !in_array($action, ['account', 'saveAccount'], true)) { header('Location: ?a=account'); exit; }
+    // PHP memotong form yang melebihi max_input_vars TANPA error. Tolak simpan daripada menyimpan data terpotong.
+    $maxVars = (int)ini_get('max_input_vars');
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $maxVars > 0 && count($_POST) >= $maxVars) {
+        http_response_code(413);
+        layout('Form terlalu besar', '<div class="card bad"><h2>Form terlalu besar — tidak disimpan</h2><p>Form ini mengirim ≥ ' . $maxVars . ' field sehingga sebagian data akan hilang. Data Anda <b>belum</b> disimpan supaya tidak rusak.</p><p class="muted">Naikkan <code>max_input_vars</code> di php.ini, atau simpan lebih sedikit item sekaligus.</p><p><a class="btn" href="javascript:history.back()">← Kembali</a></p></div>');
+        exit;
+    }
+    // Semua POST wajib membawa token CSRF (disisipkan otomatis ke setiap form oleh layout()).
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && !csrf_valid($_POST['csrf_token'] ?? null)) {
+        http_response_code(403);
+        layout('Sesi tidak valid', '<div class="card bad"><h2>Token keamanan tidak valid</h2><p>Halaman kedaluwarsa atau sesi berganti. Data Anda <b>belum</b> disimpan. Muat ulang halaman lalu coba lagi.</p><p><a class="btn" href="javascript:history.back()">← Kembali</a> <a class="btn btn-primary" href="?">Ke dashboard</a></p></div>');
+        exit;
+    }
+}
+
+// Cakupan kota (editor/QA yang dibatasi) dan jejak audit untuk semua aksi tulis.
+enforce_scope();
+if ($_SERVER['REQUEST_METHOD'] === 'POST') audit_write($action, ['tour_id' => (int)($_GET['id'] ?? $_POST['id'] ?? 0) ?: null, 'city' => (string)($_GET['city'] ?? $_POST['city'] ?? '')]);
+
+if ($action === 'account' || $action === 'saveAccount') {
+    $me = current_user(); $msg = '';
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'saveAccount') {
+        $row = $me ? user_find((string)$me['username']) : null;
+        $cur = (string)($_POST['current_password'] ?? ''); $new = (string)($_POST['new_password'] ?? ''); $conf = (string)($_POST['confirm_password'] ?? '');
+        if (!$row || !password_verify($cur, (string)$row['password_hash'])) $msg = '<div class="card bad"><p>Password saat ini salah.</p></div>';
+        elseif ($new !== $conf) $msg = '<div class="card bad"><p>Konfirmasi password tidak sama.</p></div>';
+        elseif ($err = password_policy_error($new)) $msg = '<div class="card bad"><p>' . h($err) . '</p></div>';
+        elseif ($new === $cur) $msg = '<div class="card bad"><p>Password baru harus berbeda dari yang lama.</p></div>';
+        else {
+            $u = db()->prepare('UPDATE users SET password_hash=?, must_change=0 WHERE id=?'); $u->execute([password_hash($new, PASSWORD_DEFAULT), (int)$row['id']]);
+            session_regenerate_id(true); unset($_SESSION['must_change_pw']);
+            header('Location: ?a=account&saved=1'); exit;
+        }
+    }
+    if (isset($_GET['saved'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Password berhasil diganti.</p></div>';
+    if (!empty($_SESSION['must_change_pw'])) $msg .= '<div class="card warn"><p><b>Akun Anda masih memakai password bawaan.</b> Ganti dulu sebelum memakai Studio.</p></div>';
+    $body = $msg . '<div class="card" style="max-width:520px"><h2>Akun saya</h2><p class="muted">Masuk sebagai <b>' . h((string)($me['username'] ?? '')) . '</b> (' . h((string)($me['role'] ?? '')) . ')</p>'
+        . '<form method="post" action="?a=saveAccount" style="display:grid;gap:10px">'
+        . '<label for="cur_pw">Password saat ini</label><input id="cur_pw" type="password" name="current_password" required autocomplete="current-password">'
+        . '<label for="new_pw">Password baru</label><input id="new_pw" type="password" name="new_password" required minlength="10" autocomplete="new-password"><span class="muted" style="font-size:12px">Minimal 10 karakter, mengandung huruf dan angka.</span>'
+        . '<label for="conf_pw">Ulangi password baru</label><input id="conf_pw" type="password" name="confirm_password" required minlength="10" autocomplete="new-password">'
+        . '<p><button class="btn btn-primary" type="submit">Simpan password</button></p></form></div>';
+    layout('Akun saya', $body); exit;
+}
 
 // Project-scoped actions need a valid tour id. If missing, show friendly pick-a-project state instead of error pages.
-$projectActions = ['view','edit','import','scenes','knowledge','curated','curatedqa','prompts','tips','nearby','test','deploy','generate','exportScenes','importScenes'];
+$projectActions = ['view','edit','import','scenes','knowledge','curated','curatedqa','prompts','tips','nearby','flow','voice','history','test','publish','deploy','generate','exportScenes','importScenes'];
 if (in_array($action, $projectActions, true)) {
     $cur = get_tour((int)($_GET['id'] ?? 0));
     if (!$cur) {
@@ -1638,7 +1863,7 @@ if (in_array($action, $projectActions, true)) {
         $pick = '<div class="empty"><div class="empty-ic">' . studio_icon('scenes', 48) . '</div><h3>Pilih project dulu</h3><p>Halaman ini butuh konteks project. Pilih salah satu project di bawah, atau buat project baru untuk mulai.</p>'
             . '<div class="pick-tour-list">';
         foreach ($tours as $t) {
-            $pick .= '<a class="pick-tour" href="?a=scenes&id=' . (int)$t['id'] . '"><span class="pick-tour-name">' . h($t['name']) . '</span><span class="pick-tour-loc">' . h($t['location']) . '</span></a>';
+            $pick .= '<a class="pick-tour" href="?a=' . h($action) . '&id=' . (int)$t['id'] . '"><span class="pick-tour-name">' . h($t['name']) . '</span><span class="pick-tour-loc">' . h($t['location']) . '</span></a>';
         }
         $pick .= '</div><a class="btn btn-primary" href="?a=new">+ Buat project baru</a></div>';
         layout('Pilih Project', $pick);
@@ -1648,45 +1873,66 @@ if (in_array($action, $projectActions, true)) {
 
 try {
     // QA read-only: semua aksi tulis admin-only
-    if (in_array($action, ['save','saveAs','delete','import','seedContent','saveContent','saveScenes','importScenes','savePrompts','saveCurated','saveCuratedQA','saveFlow','saveKnowledge','saveTips','saveNearby','generate','saveKeys','deploy','resync','citySave','citySourceUrl','citySourceFile','cityDelete','citySourceDelete','syncRuntime','cityNew','importCuratedQA','saveVoice'], true)) require_editor();
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'save') { $id = save_tour($_POST); header('Location: ?a=view&id=' . $id); exit; }
+    if (in_array($action, ['save','saveAs','delete','import','seedContent','saveContent','saveScenes','importScenes','savePrompts','saveCurated','saveCuratedQA','saveFlow','saveKnowledge','saveTips','saveNearby','generate','saveKeys','deploy','resync','citySave','citySourceUrl','citySourceFile','cityDelete','citySourceDelete','syncRuntime','cityNew','importCuratedQA','saveVoice','importPrompts','savePrompts','aihealthRun','restoreHistory','bulkImport','jobs','jobEnqueue'], true)) require_editor();
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'save') {
+        $err = null; $postId = (int)($_POST['id'] ?? 0);
+        $newPath = rtrim(str_replace('\\', '/', trim((string)($_POST['export_path'] ?? ''))), '/');
+        $oldTour = $postId > 0 ? get_tour($postId) : null;
+        $oldPath = $oldTour ? rtrim(str_replace('\\', '/', (string)$oldTour['export_path']), '/') : null;
+        // Validasi hanya bila path berubah, supaya tour dengan folder lama yang hilang tetap bisa diedit.
+        if ($oldPath === null || $newPath !== $oldPath) $err = export_path_error($newPath);
+        if ($err === null) {
+            try {
+                $id = save_tour($_POST);
+                if ($postId === 0) { // tour baru: salin konten (opsional), import pano, buat konten awal
+                    $prep = prepare_new_tour($id, (int)($_POST['clone_from'] ?? 0) ?: null, !empty($_POST['auto_prepare']));
+                    header('Location: ?a=view&id=' . $id . '&created=' . urlencode(implode('; ', $prep['done']) . ($prep['warnings'] ? ' ⚠ ' . implode('; ', $prep['warnings']) : ''))); exit;
+                }
+                header('Location: ?a=view&id=' . $id); exit;
+            }
+            catch (PDOException $e) { $err = str_contains($e->getMessage(), 'UNIQUE') ? 'Slug sudah dipakai tour lain. Ubah slug-nya.' : 'Gagal menyimpan: ' . $e->getMessage(); }
+            catch (RuntimeException $e) { $err = $e->getMessage(); }
+        }
+        render_tour_form(array_merge(['id' => 0, 'name' => '', 'slug' => '', 'city_id' => 0, 'new_city' => '', 'category' => '', 'export_path' => ''], $_POST), '<div class="card bad"><p>' . h((string)$err) . '</p></div>');
+        exit;
+    }
     if ($action === 'delete') {
-        $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
-        remove_tree(tour_dir($tour['slug']));
-        $pdo = db(); $s = $pdo->prepare('DELETE FROM tours WHERE id=?'); $s->execute([$tour['id']]);
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        $tid = (int)$tour['id'];
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Hapus project “' . $tour['name'] . '”',
+            '<p>Project ini akan dikeluarkan dari Studio beserta seluruh kontennya (scene, knowledge, Q&amp;A, package).</p><p class="muted">Folder export Pano2VR tidak disentuh. Data dipindahkan ke <code>storage/trash/</code>, jadi masih bisa dipulihkan secara manual.</p>',
+            '?a=delete&id=' . $tid, 'Hapus project', '?a=view&id=' . $tid, true, (string)$tour['name']);
+        if (trim((string)($_POST['confirm_name'] ?? '')) !== (string)$tour['name']) throw new RuntimeException('Nama yang diketik tidak cocok. Penghapusan dibatalkan.');
+        move_to_trash(tour_dir($tour['slug']), 'tour-' . $tour['slug'], ['tour' => $tour]);
+        $pdo = db(); $s = $pdo->prepare('DELETE FROM tours WHERE id=?'); $s->execute([$tid]);
         header('Location: ?'); exit;
     }
+    if ($action === 'saveAs' && $_SERVER['REQUEST_METHOD'] !== 'POST') { header('Location: ?a=view&id=' . (int)($_GET['id'] ?? 0) . '#saveas'); exit; }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'saveAs') {
         $orig = get_tour((int)($_GET['id'] ?? $_POST['id'] ?? 0)); if (!$orig) throw new RuntimeException('Tour asal tidak ditemukan.');
-        $newName = trim((string)($_POST['new_name'] ?? '')); if ($newName==='') throw new RuntimeException('Nama baru wajib diisi.');
+        $newName = trim((string)($_POST['new_name'] ?? '')); if ($newName === '') throw new RuntimeException('Nama baru wajib diisi.');
         $newSlug = slugify((string)($_POST['new_slug'] ?? $newName));
-        $newLoc = trim((string)($_POST['new_location'] ?? $orig['location'])); $newExport = trim((string)($_POST['new_export'] ?? ''));
-        // cek slug unik
-        $pdo=db(); $chk=$pdo->prepare('SELECT id FROM tours WHERE slug=?'); $chk->execute([$newSlug]);
-        if ($chk->fetch()) throw new RuntimeException('Slug sudah dipakai: '.$newSlug);
-        $newId = save_tour(['name'=>$newName,'slug'=>$newSlug,'location'=>$newLoc,'export_path'=>$newExport]);
-        $src = tour_dir($orig['slug']); $dst = tour_dir($newSlug);
-        if (!is_dir($dst)) mkdir($dst,0777,true);
-        // copy semua json kurasi (tanpa parsed yang akan re-import jika export beda)
-        $copyFiles = ['curated-answers.json','knowledge.json','scene-identity.json','visitor-tips.json','nearby.json','recommended-questions.json','explore-menu-knowledge.json'];
-        foreach ($copyFiles as $f) if (is_file($src.'/'.$f)) {
-            $data = read_json($src.'/'.$f, []);
-            // update tourId/tourName di dalam json
-            $json = json_encode($data, JSON_UNESCAPED_UNICODE);
-            $json = str_replace($orig['slug'], $newSlug, $json);
-            $json = str_replace($orig['name'], $newName, $json);
-            $data = json_decode($json, true) ?? $data;
-            if (isset($data['tourId'])) $data['tourId']=$newSlug;
-            if (isset($data['tourName'])) $data['tourName']=$newName;
-            write_json($dst.'/'.$f, $data);
-        }
-        // jika export sama, copy parsed juga; jika beda, biarkan kosong agar import ulang ringan (hanya pano.xml+skin.js, bukan tiles)
-        $copyParsed = isset($_POST['copy_parsed']) && $_POST['copy_parsed']==='1';
-        if ($copyParsed && is_file($src.'/parsed.json')) copy($src.'/parsed.json', $dst.'/parsed.json');
-        header('Location: ?a=view&id='.$newId); exit;
+        $newExport = trim((string)($_POST['new_export'] ?? ''));
+        if ($err = export_path_error($newExport)) throw new RuntimeException($err);
+        $dupe = db()->prepare('SELECT 1 FROM tours WHERE slug=?'); $dupe->execute([$newSlug]);
+        if ($dupe->fetchColumn()) throw new RuntimeException('Slug sudah dipakai: ' . $newSlug);
+        // Kota: ikut kota tour asal, kecuali nama kota lain diketik.
+        $typedCity = trim((string)($_POST['new_location'] ?? ''));
+        $in = ['name' => $newName, 'slug' => $newSlug, 'category' => (string)($orig['category'] ?? ''), 'export_path' => $newExport];
+        if ($typedCity !== '' && strcasecmp($typedCity, (string)$orig['location']) !== 0) $in['new_city'] = $typedCity; else $in['city_id'] = (int)($orig['city_id'] ?? 0);
+        $newId = save_tour($in);
+        clone_tour_content($orig, $newName, $newSlug, isset($_POST['copy_parsed']) && $_POST['copy_parsed'] === '1');
+        header('Location: ?a=view&id=' . $newId); exit;
     }
-    if ($action === 'import') { $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.'); $p = parse_pano($tour['export_path']); $p['skin'] = parse_skin($tour['export_path']); $p['_exportState'] = export_snapshot($tour['export_path']); write_json(tour_dir($tour['slug']) . '/parsed.json', $p); header('Location: ?a=view&id=' . $tour['id']); exit; }
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'seedContent') { $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.'); seed_content($tour); header('Location: ?a=view&id=' . $tour['id'] . '#content'); exit; }
+    if ($action === 'import') { $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Import pano &amp; skin', '<p>Studio akan membaca ulang <code>pano.xml</code> dan <code>skin.js</code> dari folder export <b>' . h($tour['name']) . '</b> dan menimpa data scene hasil import sebelumnya (<code>parsed.json</code>).</p><p class="muted">Konten yang sudah Anda tulis (knowledge, Q&amp;A, tips, dll.) tidak diubah.</p>', '?a=import&id=' . (int)$tour['id'], 'Import sekarang', '?a=view&id=' . (int)$tour['id']);
+        tour_import_pano($tour); header('Location: ?a=view&id=' . $tour['id']); exit; }
+    if ($action === 'seedContent') {
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Reset konten ke template', '<p>Knowledge, intent, scene identity, tips, tempat sekitar, dan rekomendasi pertanyaan <b>' . h($tour['name']) . '</b> akan <b>ditimpa</b> dengan template awal.</p><p class="muted">Versi sebelumnya tetap tersimpan di folder <code>.history</code> tour ini, tetapi tidak muncul otomatis di editor. Gunakan hanya bila ingin mengulang dari nol.</p>', '?a=seedContent&id=' . (int)$tour['id'], 'Timpa dengan template', '?a=view&id=' . (int)$tour['id'], true, '', ['overwrite' => '1']);
+        $sr = seed_content($tour, !empty($_POST['overwrite']));
+        header('Location: ?a=view&id=' . $tour['id'] . '&seeded=' . count($sr['written']) . '&kept=' . count($sr['skipped']) . '#content'); exit;
+    }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'saveContent') {
         $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
         $name = (string)($_GET['name'] ?? ''); if (!array_key_exists($name, content_files())) throw new RuntimeException('Section tidak valid.');
@@ -1822,7 +2068,7 @@ try {
             $body .= '<div style="margin-top:10px" class=scene-body>';
             $body .= '<div class=card style="display:grid;grid-template-columns:240px 1fr;gap:16px;align-items:start">';
             $body .= '<div><a href="?a=panoview&id='.(int)$tour['id'].'&scene='.urlencode($sid).'" target=_blank aria-label="Preview panorama '.h($display).'"><img src="'.h($thumbUrl).'" alt="Thumbnail '.h($display).' ('.h($sid).')" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;border:1px solid var(--border);background:var(--code-bg)" loading="lazy" onerror="this.style.display=\'none\'"></a>';
-            $body .= '<div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap"><a href="?a=panoview&id='.(int)$tour['id'].'&scene='.urlencode($sid).'" target=_blank style="font-size:12px;color:var(--link-code)">👁 Preview</a> <a href="'.h(rtrim($tour['export_path'],'/\\').'/index.html#'.$sid).'" target=_blank style="font-size:12px;color:var(--link-code)">↗ Buka pano asli</a></div>';
+            $body .= '<div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap"><a href="?a=panoview&id='.(int)$tour['id'].'&scene='.urlencode($sid).'" target=_blank style="font-size:12px;color:var(--link-code)">👁 Preview</a> '.(export_web_path((string)$tour['export_path']) !== '' ? '<a href="'.h(export_web_path((string)$tour['export_path']).'/index.html#'.rawurlencode($sid)).'" target=_blank rel="noopener" style="font-size:12px;color:var(--link-code)">↗ Buka pano asli</a>' : '').'</div>';
             $body .= '<div style="margin-top:6px;font-size:12px;color:var(--pill-text)">ID: <code>'.h($sid).'</code><br>customNodeId: <code>'.h($scene['customNodeId']??'-').'</code></div>';
             $body .= '<div style="margin-top:6px">'.$badge.'</div></div>';
             $body .= '<div>';
@@ -1945,8 +2191,6 @@ function genDesc(sid,field,btn){
     if ($action === 'prompts') {
         $tour = get_tour((int)$_GET['id']); if (!$tour) { layout('Tour hilang','<p>Tour tidak ditemukan.</p>'); exit; }
         $rec = read_json(tour_dir($tour['slug']).'/recommended-questions.json', content_template_recommended_questions($tour));
-        // Auto-fix old "Sangga" to "Sandi"
-        $jsonStr=json_encode($rec, JSON_UNESCAPED_UNICODE); if(strpos($jsonStr,'Sangga')!==false){ $jsonStr=str_replace(['Sangga Buana','Sangga','sangga buana'],['Sandi Buana','Sandi','sandi buana'],$jsonStr); $rec=json_decode($jsonStr,true); write_json(tour_dir($tour['slug']).'/recommended-questions.json',$rec); }
         $saved=isset($_GET['saved']); $generated=isset($_GET['generated']); $deployed=isset($_GET['deployed']);
         $msg=''; if($saved) $msg.='<div class=card style="border-color:var(--success)"><p class=ok>✓ Recommended Questions disimpan.</p>'.($generated?'<p class=ok>✓ Package digenerate.</p>':'').($deployed?'<p class=ok>✓ Deploy selesai.</p>':'').'</div>';
         if(isset($_GET['imported'])) $msg.='<div class=card style="border-color:var(--success)"><p class=ok>✓ '.((int)$_GET['imported']).' pertanyaan diupdate dari file upload.</p>'.($generated?'<p class=ok>✓ Package digenerate.</p>':'').($deployed?'<p class=ok>✓ Deploy selesai.</p>':'').'</div>';
@@ -1954,7 +2198,7 @@ function genDesc(sid,field,btn){
         $body.='<div class=card><h2>Recommended Questions — '.h($tour['name']).'</h2><p class=muted>Edit pertanyaan rekomendasi State 1 (Discovery: COBA TANYAKAN & JELAJAHI TOPIK) dan State 2 (Workspace: MUNGKIN ANDA INGIN TAHU fallback). Berbeda per lokasi.</p><p><a class=btn href="?a=view&id='.(int)$tour['id'].'">← Kembali</a> <a class=btn href="?a=scenes&id='.(int)$tour['id'].'" class="btn btn-ai">Scene Editor</a></p></div>';
         $body.='<div class=card><h3>Bulk Import / Update Questions</h3><p class=muted>Upload .xlsx atau .csv dengan format yang sama seperti Question_ANGKRINGAN_KAMPUNG_JAWI.xlsx: kolom B/C untuk 6 tema dan F/G/H untuk 3 starter. State 2 tidak diubah.</p><form method=post enctype="multipart/form-data" action="?a=importPrompts&id='.(int)$tour['id'].'">'.rev_field(tour_dir($tour['slug']).'/recommended-questions.json').'<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><input type=file name=prompt_file accept=".xlsx,.csv" required style="flex:1;min-width:220px"><button type=submit name=do value=save class="btn btn-primary">⬆ Upload & Update Massal</button><button type=submit name=do value=save_generate class="btn btn-success">⬆ Upload + Generate</button><button type=submit name=do value=save_deploy class="btn btn-warning" onclick="return confirm(\'Upload, generate, dan deploy?\')">🚀 Upload + Deploy</button></div></form></div>';
         $body.='<form method=post action="?a=savePrompts&id='.(int)$tour['id'].'">' . rev_field(tour_dir($tour['slug']).'/recommended-questions.json');
-        $body.='<div class=card><h3>State 1 — Discovery: COBA TANYAKAN (3 starters)</h3><p class=muted>Muncul di overlay awal. Contoh Sandi Buana: "Apa yang menarik di sini?" / "Mengapa disebut Sandi Buana?"</p>';
+        $body.='<div class=card><h3>State 1 — Discovery: COBA TANYAKAN (3 starters)</h3><p class=muted>Muncul di overlay awal. Contoh: "Apa yang menarik di sini?" / "Mengapa disebut '.h($tour['name']).'?"</p>';
         for($i=0;$i<3;$i++){ $s=$rec['state1']['starters'][$i]??['label'=>'','query'=>'','desc'=>'']; $body.='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:8px"><div><label style="font-size:12px;color:var(--pill-text)">Label '.$i.'</label><input name="starter_'.$i.'_label" value="'.h($s['label']??'').'" placeholder="Apa yang menarik"></div><div><label style="font-size:12px;color:var(--pill-text)">Query '.$i.'</label><input name="starter_'.$i.'_query" value="'.h($s['query']??'').'" placeholder="Apa yang menarik di Sandi Buana?"></div><div><label style="font-size:12px;color:var(--pill-text)">Desc '.$i.'</label><input name="starter_'.$i.'_desc" value="'.h($s['desc']??'').'"></div></div>'; }
         $body.='</div>';
         $body.='<div class=card><h3>State 1 — Discovery: JELAJAHI TOPIK (6 themes)</h3>';
@@ -1978,8 +2222,10 @@ function genDesc(sid,field,btn){
             if(isset($_POST["del_$i"])) continue;
             $id=trim((string)($_POST["intent_{$i}_id"]??'')); if($id==='') continue;
             $cat=trim((string)($_POST["intent_{$i}_category"]??'')); $aliases=array_values(array_filter(array_map('trim', explode(',', (string)($_POST["intent_{$i}_aliases"]??''))))); $keywords=array_values(array_filter(array_map('trim', explode(',', (string)($_POST["intent_{$i}_keywords"]??''))))); $neg=array_values(array_filter(array_map('trim', explode(',', (string)($_POST["intent_{$i}_negative"]??'')))));
-            $intents[]=['id'=>$id,'category'=>$cat,'aliases'=>$aliases,'keywords'=>$keywords,'negativePatterns'=>$neg,'dynamic'=>true,'action'=>null];
+            $intents[]=['id'=>$id,'category'=>$cat,'aliases'=>$aliases,'keywords'=>$keywords,'negativePatterns'=>$neg];
         }
+        // Gabung ke intent lama: field di luar form (response, requiresState, action, dynamic) dipertahankan.
+        $intents=merge_edited((array)($data['intents'] ?? []), $intents, ['dynamic'=>true,'action'=>null]);
         if(isset($_POST['add_intent'])) $intents[]=['id'=>'G'.str_pad((string)(count($intents)+1),2,'0',STR_PAD_LEFT).'_NEW','category'=>'custom','aliases'=>[],'keywords'=>[],'negativePatterns'=>[],'dynamic'=>true,'action'=>null];
         $data['intents']=$intents; rev_check($dir.'/curated-answers.json', (string)($_POST['rev_curated-answers'] ?? '')); write_json($dir.'/curated-answers.json',$data);
         $do=(string)($_POST['do']??''); if($do==='save_generate'){ $r=build_files($tour); header('Location: ?a=curated&id='.$tour['id'].'&saved=1&generated=1'); exit; } if($do==='save_deploy'){ build_files($tour); $b=deploy_package($tour); header('Location: ?a=curated&id='.$tour['id'].'&saved=1&deployed=1'); exit; }
@@ -2001,6 +2247,7 @@ function genDesc(sid,field,btn){
             $keywords=array_values(array_filter(array_map('trim', explode(',', (string)($_POST["qa_{$i}_keywords"]??'')))));
             $items[]=['id'=>$id,'question'=>$question,'answer'=>$answer,'aliases'=>$aliases,'keywords'=>$keywords];
         }
+        $items=merge_edited((array)($data['items'] ?? []), $items);
         if(isset($_POST['add_qa'])) $items[]=['id'=>'QA'.str_pad((string)(count($items)+1),2,'0',STR_PAD_LEFT).'_NEW','question'=>'','answer'=>'','aliases'=>[],'keywords'=>[]];
         $data['items']=$items; rev_check($dir.'/curated-qa.json', (string)($_POST['rev_curated-qa'] ?? '')); write_json($dir.'/curated-qa.json',$data);
         $do=(string)($_POST['do']??''); if($do==='save_generate'){ $r=build_files($tour); header('Location: ?a=curatedqa&id='.$tour['id'].'&saved=1&generated=1'); exit; } if($do==='save_deploy'){ build_files($tour); $b=deploy_package($tour); header('Location: ?a=curatedqa&id='.$tour['id'].'&saved=1&deployed=1'); exit; }
@@ -2277,8 +2524,25 @@ function flowThumb(sel){
             $id=trim((string)($_POST["entry_{$i}_id"]??'')); $title=trim((string)($_POST["entry_{$i}_title"]??'')); $aliases=array_values(array_filter(array_map('trim', explode(',', (string)($_POST["entry_{$i}_aliases"]??''))))); $type=trim((string)($_POST["entry_{$i}_type"]??'information')); $content=trim((string)($_POST["entry_{$i}_content"]??''));
             if($id==='' && $title==='') continue;
             if($id==='') $id='manual:'.slugify($title);
-            $entries[]=['id'=>$id,'entityId'=>$id,'title'=>$title,'aliases'=>$aliases,'type'=>$type,'categories'=>[$type],'tags'=>['manual'],'sceneIds'=>[],'content'=>$content,'source'=>'ai-generator','sourceId'=>$id,'sourceType'=>'manual','provenance'=>'manual','translations'=>['id'=>['title'=>$title,'content'=>$content],'en'=>['title'=>$title,'content'=>$content]]];
+            $entries[]=['id'=>$id,'title'=>$title,'aliases'=>$aliases,'type'=>$type,'content'=>$content];
         }
+        // Gabung ke entry lama: sceneIds, tags, categories, provenance, dan terjemahan EN tetap dipertahankan.
+        $oldEntries=(array)($data['entries'] ?? []);
+        $oldById=[]; foreach($oldEntries as $oe) if(is_array($oe) && isset($oe['id'])) $oldById[(string)$oe['id']]=$oe;
+        $entries=merge_edited($oldEntries, $entries, ['tags'=>['manual'],'sceneIds'=>[],'source'=>'ai-generator','sourceType'=>'manual','provenance'=>'manual']);
+        foreach($entries as &$en){
+            $en['entityId']=$en['entityId'] ?? $en['id'];
+            $en['sourceId']=$en['sourceId'] ?? $en['id'];
+            if(!isset($oldById[(string)$en['id']])){
+                $en['categories']=[$en['type']];
+                $en['translations']=['id'=>['title'=>$en['title'],'content'=>$en['content']],'en'=>['title'=>$en['title'],'content'=>$en['content']]];
+            } else {
+                $tr=is_array($en['translations'] ?? null) ? $en['translations'] : [];
+                $tr['id']=['title'=>$en['title'],'content'=>$en['content']];
+                $en['translations']=$tr;
+            }
+        }
+        unset($en);
         if(isset($_POST['add_entry'])) $entries[]=['id'=>'manual:'.slugify('entry baru '.(count($entries)+1)),'entityId'=>'manual:entry','title'=>'Judul Baru','aliases'=>[],'type'=>'information','categories'=>['informasi'],'tags'=>['manual'],'sceneIds'=>[],'content'=>'Isi konten...','source'=>'ai-generator','provenance'=>'manual','translations'=>['id'=>['title'=>'Judul Baru','content'=>'Isi konten...']]];
         $data['entries']=$entries; $data['updatedAt']=date('c'); rev_check($dir.'/knowledge.json', (string)($_POST['rev_knowledge'] ?? '')); write_json($dir.'/knowledge.json',$data);
         $do=(string)($_POST['do']??''); if($do==='save_generate'){ $r=build_files($tour); header('Location: ?a=knowledge&id='.$tour['id'].'&saved=1&generated=1'); exit; } if($do==='save_deploy'){ build_files($tour); $b=deploy_package($tour); header('Location: ?a=knowledge&id='.$tour['id'].'&saved=1&deployed=1'); exit; }
@@ -2314,8 +2578,16 @@ function flowThumb(sel){
             $id=trim((string)($_POST["topic_{$i}_id"]??'')); $title=trim((string)($_POST["topic_{$i}_title"]??'')); $cat=trim((string)($_POST["topic_{$i}_category"]??'')); $content=trim((string)($_POST["topic_{$i}_content"]??'')); $aliases=array_values(array_filter(array_map('trim', explode(',', (string)($_POST["topic_{$i}_aliases"]??'')))));
             if($id==='' && $title==='') continue;
             if($id==='') $id=slugify($title);
-            $topics[]=['id'=>$id,'title'=>$title,'aliases'=>$aliases,'category'=>$cat,'content'=>$content,'items'=>[['label'=>'Info','detail'=>$content]]];
+            $topics[]=['id'=>$id,'title'=>$title,'aliases'=>$aliases,'category'=>$cat,'content'=>$content];
         }
+        // Gabung ke topik lama; 'items' dipertahankan. Hanya item "Info" tunggal (hasil otomatis) yang disegarkan.
+        $topics=merge_edited((array)($data['topics'] ?? []), $topics);
+        foreach($topics as &$tp){
+            $its=$tp['items'] ?? null;
+            if(!is_array($its) || !$its) $tp['items']=[['label'=>'Info','detail'=>(string)($tp['content'] ?? '')]];
+            elseif(count($its)===1 && is_array($its[0]) && ($its[0]['label'] ?? '')==='Info') $tp['items'][0]['detail']=(string)($tp['content'] ?? '');
+        }
+        unset($tp);
         if(isset($_POST['add_topic'])) $topics[]=['id'=>'topic-'.(count($topics)+1),'title'=>'Topik Baru','aliases'=>[],'category'=>'umum','content'=>'Isi tips...','items'=>[]];
         $data['topics']=$topics; rev_check($dir.'/visitor-tips.json', (string)($_POST['rev_visitor-tips'] ?? '')); write_json($dir.'/visitor-tips.json',$data);
         $do=(string)($_POST['do']??''); if($do==='save_generate'){ $r=build_files($tour); header('Location: ?a=tips&id='.$tour['id'].'&saved=1&generated=1'); exit; } if($do==='save_deploy'){ build_files($tour); deploy_package($tour); header('Location: ?a=tips&id='.$tour['id'].'&saved=1&deployed=1'); exit; }
@@ -2350,6 +2622,7 @@ function flowThumb(sel){
             if($id==='') $id=slugify($name);
             $items[]=['id'=>$id,'name'=>$name,'category'=>$cat,'address'=>$addr,'distance'=>$dist,'travelTime'=>$time,'aliases'=>$aliases];
         }
+        $items=merge_edited((array)($data['items'] ?? []), $items);
         if(isset($_POST['add_item'])) $items[]=['id'=>'nearby-'.(count($items)+1),'name'=>'Tempat Baru','category'=>'wisata','address'=>'','distance'=>'','travelTime'=>'','aliases'=>[]];
         $data['items']=$items; rev_check($dir.'/nearby.json', (string)($_POST['rev_nearby'] ?? '')); write_json($dir.'/nearby.json',$data);
         $do=(string)($_POST['do']??''); if($do==='save_generate'){ $r=build_files($tour); header('Location: ?a=nearby&id='.$tour['id'].'&saved=1&generated=1'); exit; } if($do==='save_deploy'){ build_files($tour); deploy_package($tour); header('Location: ?a=nearby&id='.$tour['id'].'&saved=1&deployed=1'); exit; }
@@ -2372,7 +2645,144 @@ function flowThumb(sel){
         $body.='<input type=hidden name=item_count value="'.count($data['items']??[]).'"><div class=card style="position:sticky;bottom:0;background:var(--surface-2);display:flex;gap:8px"><button type="submit" name="add_item" value="1" class="btn btn-ghost">+ Tambah Item</button> <button type="submit" name="do" value="save" class="btn btn-primary">💾 Simpan</button> <button type="submit" name="do" value="save_generate" class="btn btn-success">💾 + Generate</button> <button type="submit" name="do" value="save_deploy" class="btn btn-warning">🚀 Deploy</button></div></form>';
         layout('Nearby — '.$tour['name'],$body); exit;
     }
-    if ($action === 'generate') { $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.'); $r = build_files($tour); layout('Package generated', '<div class="card"><p class="ok">Package siap: <code>' . h($r['out']) . '</code></p><ul><li>' . implode('</li><li>', array_map('h', $r['files'])) . '</li></ul><p><a class="btn" href="?a=view&id=' . (int)$tour['id'] . '">Kembali</a></p></div>'); exit; }
+    if (in_array($action, ['users', 'userCreate', 'userUpdate', 'userReset', 'audit'], true)) {
+        require_admin();
+        if ($action === 'audit') { render_audit_page(); exit; }
+        $flash = ''; $err = '';
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') { try { $flash = process_user_action($action); } catch (RuntimeException $e) { $err = $e->getMessage(); } }
+        render_users_page($flash, $err); exit;
+    }
+    if ($action === 'theme') { require_editor(); render_theme_page(); exit; }
+    if ($action === 'saveTheme' && $_SERVER['REQUEST_METHOD'] === 'POST') { require_editor(); $msg = process_save_theme(); render_theme_page($msg); exit; }
+    if ($action === 'themeCss') {
+        header('Content-Type: application/json; charset=utf-8');
+        $th = theme_sanitize($_GET);
+        echo json_encode(['css' => theme_css($th, '#themePreview'), 'fonts' => theme_font_urls($th), 'contrast' => theme_contrast($th['accent'], $th['surface'])]); exit;
+    }
+    if ($action === 'jobs') { render_jobs_page((string)($_GET['batch'] ?? '')); exit; }
+    if ($action === 'jobEnqueue' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+        $batch = job_enqueue((string)($_POST['type'] ?? ''), (array)($_POST['tour'] ?? []), (string)(current_user()['username'] ?? ''));
+        job_spawn_worker();
+        header('Location: ?a=jobs&batch=' . urlencode($batch)); exit;
+    }
+    if ($action === 'jobsStatus') { header('Content-Type: application/json; charset=utf-8'); echo json_encode(job_batch_summary((string)($_GET['batch'] ?? '')), JSON_UNESCAPED_UNICODE); exit; }
+    if ($action === 'bulkImport') { render_bulk_import($_SERVER['REQUEST_METHOD'] === 'POST' ? process_bulk_import() : ''); exit; }
+    // ---- Daftar scene (JSON) untuk drawer Uji Chat ----
+    if ($action === 'sceneList') {
+        header('Content-Type: application/json; charset=utf-8');
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) { echo json_encode(['scenes' => []]); exit; }
+        $dir = tour_dir($tour['slug']); $parsed = read_json($dir . '/parsed.json', []); $si = read_json($dir . '/scene-identity.json', ['scenes' => []]); $out = [];
+        foreach (($parsed['scenes'] ?? []) as $sc) { $sid = (string)($sc['id'] ?? ''); if ($sid === '') continue; $label = (string)($si['scenes'][$sid]['displayName'] ?? $sc['displayName'] ?? $sc['name'] ?? $sid); $out[] = ['id' => $sid, 'label' => $label . ($label !== $sid ? ' (' . $sid . ')' : '')]; }
+        echo json_encode(['scenes' => $out], JSON_UNESCAPED_UNICODE); exit;
+    }
+    // ---- Riwayat Perubahan: lihat & pulihkan versi sebelumnya dari .history ----
+    if ($action === 'history' || $action === 'restoreHistory') {
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        $tid = (int)$tour['id']; $dir = tour_dir($tour['slug']); $hdir = $dir . '/.history';
+        $editable = ['curated-answers', 'curated-qa', 'knowledge', 'scene-identity', 'visitor-tips', 'nearby', 'recommended-questions', 'flow', 'voice'];
+        $snapRe = '/^([a-z-]+)-(\d{8})-(\d{6})-(\d{3})\.json$/';
+        if ($action === 'restoreHistory') {
+            $file = basename((string)($_POST['snapshot'] ?? ''));
+            if (!preg_match($snapRe, $file, $m) || !in_array($m[1], $editable, true)) throw new RuntimeException('Versi riwayat tidak valid.');
+            $src = $hdir . '/' . $file;
+            if (!is_file($src)) throw new RuntimeException('Versi riwayat sudah tidak ada.');
+            $data = json_decode((string)file_get_contents($src), true);
+            if (!is_array($data)) throw new RuntimeException('Versi riwayat rusak dan tidak bisa dipulihkan.');
+            // write_json menyimpan versi yang sekarang ke riwayat dulu, jadi pemulihan ini bisa dibatalkan juga.
+            write_json($dir . '/' . $m[1] . '.json', $data);
+            header('Location: ?a=history&id=' . $tid . '&restored=' . urlencode($m[1])); exit;
+        }
+        $labels = ['curated-answers' => 'Intent & jawaban kurasi', 'curated-qa' => 'Tanya Jawab Terkurasi', 'knowledge' => 'Pengetahuan AI', 'scene-identity' => 'Identitas scene', 'visitor-tips' => 'Tips pengunjung', 'nearby' => 'Tempat sekitar', 'recommended-questions' => 'Rekomendasi pertanyaan', 'flow' => 'Alur navigasi', 'voice' => 'Percakapan suara'];
+        $rows = []; foreach ($editable as $stem) foreach (glob($hdir . '/' . $stem . '-*.json') ?: [] as $f) { $b = basename($f); if (preg_match($snapRe, $b, $m)) $rows[] = ['stem' => $stem, 'file' => $b, 'at' => $m[2] . $m[3], 'size' => filesize($f), 'path' => $f]; }
+        usort($rows, fn($a, $b) => strcmp($b['at'], $a['at']));
+        $html = '';
+        if (isset($_GET['restored'])) $html .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Versi dipulihkan. Versi sebelumnya tetap tersimpan di riwayat, jadi bisa dikembalikan lagi.</p></div>';
+        $html .= '<div class="card"><h2 style="margin-top:0">Riwayat Perubahan — ' . h($tour['name']) . '</h2><p class="muted">Setiap kali konten disimpan, versi sebelumnya dicatat di sini (20 versi terakhir per bagian). Pulihkan untuk kembali ke versi tersebut; versi yang sedang berjalan juga ikut dicatat, jadi aman.</p>';
+        if (!$rows) $html .= '<div class="empty"><h3>Belum ada riwayat</h3><p>Riwayat muncul setelah Anda menyimpan perubahan pada salah satu editor.</p></div>';
+        else {
+            $html .= '<table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="text-align:left;color:var(--text-muted)"><th style="padding:8px">Bagian</th><th>Disimpan pada</th><th>Ukuran</th><th></th></tr></thead><tbody>';
+            foreach ($rows as $r) {
+                $when = DateTime::createFromFormat('YmdHis', $r['at']);
+                $html .= '<tr style="border-top:1px solid var(--border)"><td style="padding:8px">' . h($labels[$r['stem']] ?? $r['stem']) . '</td><td>' . ($when ? h($when->format('d M Y H:i:s')) : h($r['at'])) . '</td><td>' . number_format($r['size'] / 1024, 1) . ' KB</td>'
+                    . '<td style="text-align:right"><form method="post" action="?a=restoreHistory&id=' . $tid . '" style="margin:0" onsubmit="return confirm(\'Pulihkan versi ini? Versi yang sekarang tetap disimpan di riwayat.\')"><input type="hidden" name="snapshot" value="' . h($r['file']) . '"><button class="btn btn-ghost btn-sm" type="submit">Pulihkan</button></form></td></tr>';
+            }
+            $html .= '</tbody></table>';
+        }
+        $html .= '</div>';
+        layout('Riwayat Perubahan', $html); exit;
+    }
+    // ---- Publikasi: status konten → package → terpasang, di satu tempat ----
+    if ($action === 'publish') {
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        $tid = (int)$tour['id']; $dir = tour_dir($tour['slug']); $st = studio_tour_stats($tour);
+        $contentFiles = ['parsed','scene-identity','knowledge','curated-answers','curated-qa','recommended-questions','flow','visitor-tips','nearby','voice'];
+        $contentAt = 0; foreach ($contentFiles as $cf) { $m = is_file("$dir/$cf.json") ? (int)filemtime("$dir/$cf.json") : 0; if ($m > $contentAt) $contentAt = $m; }
+        $pkgFile = $dir . '/package/govirtual-ai/config/tour.json';
+        $pkgAt = is_file($pkgFile) ? (int)filemtime($pkgFile) : 0;
+        $export = rtrim((string)$tour['export_path'], '/\\');
+        $depFile = $export !== '' ? $export . '/govirtual-ai/config/tour.json' : '';
+        $depAt = ($depFile !== '' && is_file($depFile)) ? (int)filemtime($depFile) : 0;
+        $fmt = static fn(int $t): string => $t ? date('d M Y H:i', $t) : '—';
+        $row = static fn(string $icon, string $label, string $detail, string $cls): string => '<li style="display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--border)"><span class="' . $cls . '" style="font-size:18px;line-height:1.3">' . $icon . '</span><div><b>' . h($label) . '</b><div class="muted" style="font-size:13px">' . $detail . '</div></div></li>';
+        $stale = $pkgAt > 0 && $contentAt > $pkgAt;
+        $steps = '<ul style="list-style:none;margin:0;padding:0">';
+        $steps .= $row($st['scenes'] > 0 ? '✓' : '!', '1. Konten tour', $st['scenes'] > 0 ? (int)$st['scenes'] . ' scene · ' . (int)$st['knowledgeTotal'] . ' knowledge · ' . (int)$st['intents'] . ' intent · diubah terakhir ' . h($fmt($contentAt)) : 'Belum ada scene. <a href="?a=import&id=' . $tid . '">Import pano dulu</a>.', $st['scenes'] > 0 ? 'ok' : 'warn');
+        $steps .= $row($pkgAt === 0 ? '!' : ($stale ? '!' : '✓'), '2. Package', $pkgAt === 0 ? 'Belum pernah di-generate.' : ($stale ? 'Ada perubahan konten setelah package terakhir dibuat (' . h($fmt($pkgAt)) . '). <b>Generate ulang</b> agar perubahan ikut.' : 'Terbaru · dibuat ' . h($fmt($pkgAt))), ($pkgAt === 0 || $stale) ? 'warn' : 'ok');
+        $needDeploy = $pkgAt > 0 && ($depAt === 0 || $pkgAt > $depAt);
+        $steps .= $row($depAt === 0 ? '!' : ($needDeploy ? '!' : '✓'), '3. Terpasang di lokasi', $export === '' ? 'Folder export belum diisi di <a href="?a=edit&id=' . $tid . '">pengaturan tour</a>.' : ($depAt === 0 ? 'Belum terpasang di <code>' . h($export) . '</code>.' : ($needDeploy ? 'Versi terpasang (' . h($fmt($depAt)) . ') lebih lama dari package. <b>Deploy</b> untuk memperbarui.' : 'Sinkron dengan package · dipasang ' . h($fmt($depAt)))), ($depAt === 0 || $needDeploy) ? 'warn' : 'ok');
+        $steps .= '</ul>';
+        $issuesHtml = '';
+        if ($st['issues']) { $issuesHtml = '<div class="card"><h3>Perlu diperiksa sebelum publikasi</h3><ul>'; foreach (array_slice($st['issues'], 0, 10) as $is) $issuesHtml .= '<li>' . h(is_array($is) ? (string)($is['message'] ?? $is['msg'] ?? json_encode($is, JSON_UNESCAPED_UNICODE)) : (string)$is) . '</li>'; $issuesHtml .= '</ul></div>'; }
+        $backups = $export !== '' && is_dir($export . '/.ai-generator-backup') ? (glob($export . '/.ai-generator-backup/*', GLOB_ONLYDIR) ?: []) : [];
+        rsort($backups);
+        $bk = $backups ? '<p class="muted">' . count($backups) . ' backup tersimpan di <code>' . h($export) . '/.ai-generator-backup/</code>. Terbaru: <code>' . h(basename($backups[0])) . '</code></p>' : '<p class="muted">Belum ada backup (muncul setelah deploy pertama).</p>';
+        $actions = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">'
+            . '<a class="btn' . (($pkgAt === 0 || $stale) ? ' btn-primary' : '') . '" href="?a=generate&id=' . $tid . '">Generate package</a>'
+            . '<a class="btn' . ((!$stale && $pkgAt > 0 && ($depAt === 0 || $needDeploy)) ? ' btn-primary' : '') . '" href="?a=deploy&id=' . $tid . '">Deploy ke lokasi</a>'
+            . '<form method="post" action="?a=resync&id=' . $tid . '" onsubmit="return confirm(\'Import ulang pano/skin, generate package, lalu deploy? Package lama di-backup otomatis.\')" style="margin:0"><button class="btn btn-ghost" type="submit">Import ulang + Generate + Deploy</button></form>'
+            . '<a class="btn btn-ghost" href="?a=test&id=' . $tid . '">Uji AI Guide →</a></div>';
+        layout('Publikasi', '<div class="card"><h2 style="margin-top:0">Publikasi — ' . h($tour['name']) . '</h2><p class="muted">Urutannya: konten → package → terpasang. Menyimpan di editor <b>tidak</b> otomatis mempublikasikan.</p>' . $steps . $actions . '</div>' . $issuesHtml . '<div class="card"><h3>Backup deploy</h3>' . $bk . '</div>');
+        exit;
+    }
+    // ---- Uji AI Guide: tanya langsung ke backend guide per scene ----
+    if ($action === 'test') {
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        $tid = (int)$tour['id']; $dir = tour_dir($tour['slug']);
+        $parsed = read_json($dir . '/parsed.json', []); $si = read_json($dir . '/scene-identity.json', ['scenes' => []]);
+        $opts = '';
+        foreach (($parsed['scenes'] ?? []) as $sc) {
+            $sid = (string)($sc['id'] ?? ''); if ($sid === '') continue;
+            $label = (string)($si['scenes'][$sid]['displayName'] ?? $sc['displayName'] ?? $sc['name'] ?? $sid);
+            $opts .= '<option value="' . h($sid) . '">' . h($label) . ($label !== $sid ? ' (' . h($sid) . ')' : '') . '</option>';
+        }
+        $rec = read_json($dir . '/recommended-questions.json', []); $quick = [];
+        foreach (array_merge((array)($rec['state1']['starters'] ?? []), (array)($rec['state1']['themes'] ?? [])) as $qq) { $t = is_array($qq) ? (string)($qq['question'] ?? $qq['text'] ?? $qq['label'] ?? '') : (string)$qq; if ($t !== '') $quick[] = $t; }
+        $quick = array_slice(array_values(array_unique($quick)), 0, 8);
+        $chips = ''; foreach ($quick as $qq) $chips .= '<button type="button" class="btn btn-ghost btn-sm" data-q="' . h($qq) . '">' . h($qq) . '</button> ';
+        $body = '<div class="card"><h2 style="margin-top:0">Uji AI Guide — ' . h($tour['name']) . '</h2>'
+            . '<p class="muted">Pertanyaan dikirim ke backend guide yang sama dengan produksi. Jika tour belum di-deploy, jawaban memakai server pusat sebagai cadangan (ditandai di bawah).</p>'
+            . ($opts === '' ? '<p class="warn">Belum ada scene. <a href="?a=import&id=' . $tid . '">Import pano dulu</a>.</p>' : '')
+            . '<label for="t_scene">Posisi pengunjung (scene)</label><select id="t_scene">' . $opts . '</select>'
+            . ($chips !== '' ? '<p class="muted" style="margin:10px 0 4px;font-size:12px">Pertanyaan rekomendasi tour ini:</p><div style="display:flex;gap:6px;flex-wrap:wrap">' . $chips . '</div>' : '')
+            . '<form id="t_form" style="display:flex;gap:8px;margin-top:12px" onsubmit="return false"><input id="t_q" placeholder="Ketik pertanyaan pengunjung…" style="flex:1" autocomplete="off"><button class="btn btn-primary" id="t_send" type="submit">Kirim</button></form></div>'
+            . '<div id="t_log" class="card" aria-live="polite"><p class="muted" id="t_empty">Belum ada percakapan. Pilih scene lalu ajukan pertanyaan.</p></div>'
+            . '<script>(function(){'
+            . 'var tid=' . $tid . ',log=document.getElementById("t_log"),q=document.getElementById("t_q"),sc=document.getElementById("t_scene"),btn=document.getElementById("t_send");'
+            . 'function esc(s){var d=document.createElement("div");d.textContent=(s==null?"":String(s));return d.innerHTML;}'
+            . 'function add(html){var e=document.getElementById("t_empty");if(e)e.remove();var d=document.createElement("div");d.style.cssText="padding:10px 0;border-bottom:1px solid var(--border)";d.innerHTML=html;log.appendChild(d);return d;}'
+            . 'function ask(text){text=(text||"").trim();if(!text||!sc.value)return;btn.disabled=true;var t0=Date.now();add("<b>Pengunjung</b> <span class=muted>@ "+esc(sc.options[sc.selectedIndex].text)+"</span><div>"+esc(text)+"</div>");var w=add("<span class=muted>AI sedang menjawab…</span>");'
+            . 'fetch("?a=testAnswer&id="+tid+"&scene="+encodeURIComponent(sc.value)+"&q="+encodeURIComponent(text),{credentials:"same-origin"}).then(function(r){return r.json();}).then(function(d){var ms=Date.now()-t0;'
+            . 'if(d.ok){var m=[];m.push("provider: "+esc(d.provider||"?"));m.push(ms+" ms");if(d.deployed===false)m.push("<b class=warn>memakai server pusat (tour belum di-deploy)</b>");if(d.meta){Object.keys(d.meta).forEach(function(k){m.push(esc(k)+": "+esc(typeof d.meta[k]==="object"?JSON.stringify(d.meta[k]):d.meta[k]));});}'
+            . 'w.innerHTML="<b>AI Guide</b><div style=\"white-space:pre-wrap\">"+esc(d.reply)+"</div><div class=muted style=\"font-size:12px;margin-top:4px\">"+m.join(" · ")+"</div>";}'
+            . 'else{w.innerHTML="<span class=bad>Gagal: "+esc(d.error||"tidak diketahui")+"</span>";}}).catch(function(e){w.innerHTML="<span class=bad>Gagal menghubungi server: "+esc(e.message)+"</span>";}).finally(function(){btn.disabled=false;q.value="";q.focus();});}'
+            . 'document.getElementById("t_form").addEventListener("submit",function(){ask(q.value);});'
+            . 'document.querySelectorAll("[data-q]").forEach(function(b){b.addEventListener("click",function(){ask(b.getAttribute("data-q"));});});'
+            . '})();</script>';
+        layout('Uji AI Guide', $body); exit;
+    }
+    if ($action === 'generate') { $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Generate package', '<p>Package AI Guide <b>' . h($tour['name']) . '</b> akan dibangun ulang dari konten terbaru. Ini <b>belum</b> memasang ke lokasi publik — pemasangan dilakukan lewat tombol Deploy.</p>', '?a=generate&id=' . (int)$tour['id'], 'Generate package', '?a=view&id=' . (int)$tour['id']);
+        $r = build_files($tour); layout('Package generated', '<div class="card"><p class="ok">Package siap: <code>' . h($r['out']) . '</code></p><ul><li>' . implode('</li><li>', array_map('h', $r['files'])) . '</li></ul><p><a class="btn" href="?a=view&id=' . (int)$tour['id'] . '">Kembali</a></p></div>'); exit; }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'saveKeys') {
         require_admin();
         if (!csrf_valid($_POST['csrf_token'] ?? null)) throw new RuntimeException('CSRF tidak valid. Muat ulang halaman lalu coba lagi.');
@@ -2585,11 +2995,53 @@ async function testAllKeys(keyIds, boxId){
         $body .= '<div class="card"><h3>🔒 Status sync .env</h3><p class="muted">Secret tidak ditampilkan. Simpan akan generate .env ke master, package, dan lokasi ter-deploy.</p><p>' . implode(' · ', $configured) . '</p></div>';
         layout('API Keys', $body); exit;
     }
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'deploy') { $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.'); $backup = deploy_package($tour); layout('Deploy selesai', '<div class="card"><p class="ok">AI Guide terpasang ke <code>' . h($tour['export_path']) . '</code>.</p><p>Backup package lama: <code>' . h($backup) . '</code></p><p><a class="btn" href="?a=view&id=' . (int)$tour['id'] . '">Kembali</a></p></div>'); exit; }
+    if ($action === 'aihealth') {
+        $db = db();
+        $db->exec('CREATE TABLE IF NOT EXISTS ai_health_log (id INTEGER PRIMARY KEY AUTOINCREMENT, checked_at TEXT NOT NULL, provider TEXT NOT NULL, model TEXT NOT NULL, ok INTEGER NOT NULL, latency_ms INTEGER NOT NULL DEFAULT 0, error TEXT NOT NULL DEFAULT "")');
+        $cfg = [];
+        foreach ($db->query('SELECT skey, svalue FROM settings WHERE skey IN ("AI_PROVIDER","AI_FALLBACK_PROVIDERS")') as $r) $cfg[$r['skey']] = $r['svalue'];
+        $lastRun = (string)$db->query('SELECT MAX(checked_at) FROM ai_health_log')->fetchColumn();
+        $latest = [];
+        if ($lastRun !== '') {
+            $s = $db->prepare('SELECT provider, model, ok, latency_ms, error, checked_at FROM ai_health_log WHERE checked_at = ? ORDER BY provider, model');
+            $s->execute([$lastRun]);
+            $latest = $s->fetchAll(PDO::FETCH_ASSOC);
+        }
+        $lastOk = $db->query("SELECT provider || '|' || model AS k, MAX(CASE WHEN ok=1 THEN checked_at END) AS last_ok FROM ai_health_log GROUP BY provider, model")->fetchAll(PDO::FETCH_KEY_PAIR);
+        $history = $db->query("SELECT substr(checked_at,1,10) AS d, provider, SUM(ok) AS okc, COUNT(*) - SUM(ok) AS failc FROM ai_health_log WHERE checked_at >= date('now','-14 days') GROUP BY d, provider ORDER BY d DESC, provider")->fetchAll(PDO::FETCH_ASSOC);
+        $primary = strtolower($cfg['AI_PROVIDER'] ?? 'gemini');
+        $primaryOkLatest = false;
+        foreach ($latest as $r) if ($r['provider'] === $primary && (int)$r['ok'] === 1) $primaryOkLatest = true;
+        $stale = $lastRun === '' || (time() - (int)strtotime($lastRun)) > 26 * 3600;
+        if ($lastRun === '') $banner = '<div class="card" style="border-color:var(--warning)"><p class="warn">Belum pernah dicek. Klik "Cek sekarang" atau jadwalkan tugas harian.</p></div>';
+        elseif ($stale) $banner = '<div class="card" style="border-color:var(--warning)"><p class="warn">Pengecekan terakhir ' . h($lastRun) . ' sudah lebih dari 26 jam. Jadwal harian mungkin tidak berjalan.</p></div>';
+        elseif (!$primaryOkLatest) $banner = '<div class="card" style="border-color:var(--danger)"><p class="bad">Provider utama (' . h($primary) . ') GAGAL pada pengecekan terakhir. AI Guide akan memakai fallback.</p></div>';
+        else $banner = '<div class="card" style="border-color:var(--success)"><p class="ok">Provider utama (' . h($primary) . ') OK pada ' . h($lastRun) . '.</p></div>';
+        $body = '<div class="card"><h2>🩺 AI Health</h2><p class="muted">Uji hidup tiap API key dan model yang dipakai AI Guide, memakai jalur runtime produksi. Fallback saat ini: <code>' . h($primary) . ' → ' . h($cfg['AI_FALLBACK_PROVIDERS'] ?? '-') . '</code>. Dicek otomatis setiap hari lewat Windows Task Scheduler.</p>'
+            . '<form method="post" action="?a=aihealthRun" style="margin-top:10px"><button type="submit" class="btn btn-primary">▶ Cek sekarang</button></form></div>'
+            . $banner;
+        $rows = '';
+        foreach ($latest as $r) {
+            $st = (int)$r['ok'] === 1 ? '<span class="ok">OK</span>' : '<span class="bad">GAGAL</span>';
+            $rows .= '<tr><td>' . h($r['provider']) . '</td><td><code>' . h($r['model']) . '</code></td><td>' . $st . '</td><td>' . (int)$r['latency_ms'] . ' ms</td><td>' . h((string)($lastOk[$r['provider'] . '|' . $r['model']] ?? '')) . '</td><td class="muted" style="font-size:12px">' . h(mb_substr((string)$r['error'], 0, 160)) . '</td></tr>';
+        }
+        $body .= '<div class="card"><h3>Status terakhir' . ($lastRun !== '' ? ' — ' . h($lastRun) : '') . '</h3>' . ($rows !== '' ? '<table><tr><th>Provider</th><th>Model</th><th>Status</th><th>Latensi</th><th>OK terakhir</th><th>Error</th></tr>' . $rows . '</table>' : '<p class="muted">Belum ada data.</p>') . '</div>';
+        $hRows = '';
+        foreach ($history as $r) $hRows .= '<tr><td>' . h($r['d']) . '</td><td>' . h($r['provider']) . '</td><td class="ok">' . (int)$r['okc'] . '</td><td class="bad">' . (int)$r['failc'] . '</td></tr>';
+        $body .= '<div class="card"><h3>Riwayat 14 hari</h3>' . ($hRows !== '' ? '<table><tr><th>Tanggal</th><th>Provider</th><th>OK</th><th>Gagal</th></tr>' . $hRows . '</table>' : '<p class="muted">Belum ada riwayat.</p>') . '</div>';
+        layout('AI Health', $body); exit;
+    }
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'aihealthRun') {
+        $php = PHP_BINARY ?: 'C:/xampp/php/php.exe';
+        shell_exec(escapeshellarg($php) . ' ' . escapeshellarg(__DIR__ . '/_ai_health_check.php') . ' 2>&1');
+        header('Location: ?a=aihealth'); exit;
+    }
+    if ($action === 'deploy') { $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Deploy AI Guide', '<p>AI Guide <b>' . h($tour['name']) . '</b> akan dipasang ke:</p><p><code>' . h((string)$tour['export_path']) . '</code></p><p class="muted">Package lama otomatis dicadangkan sebelum diganti, dan <code>index.html</code> di lokasi tersebut ikut diperbarui.</p>', '?a=deploy&id=' . (int)$tour['id'], 'Deploy sekarang', '?a=view&id=' . (int)$tour['id']);
+        $backup = deploy_package($tour); layout('Deploy selesai', '<div class="card"><p class="ok">AI Guide terpasang ke <code>' . h($tour['export_path']) . '</code>.</p><p>Backup package lama: <code>' . h($backup) . '</code></p><p><a class="btn" href="?a=view&id=' . (int)$tour['id'] . '">Kembali</a></p></div>'); exit; }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'resync') {
         $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
-        $p = parse_pano($tour['export_path']); $p['skin'] = parse_skin($tour['export_path']); $p['_exportState'] = export_snapshot($tour['export_path']);
-        write_json(tour_dir($tour['slug']) . '/parsed.json', $p);
+        tour_import_pano($tour);
         $r = build_files($tour);
         $backup = deploy_package($tour);
         header('Location: ?a=view&id=' . $tour['id'] . '&resynced=1'); exit;
@@ -2598,7 +3050,7 @@ async function testAllKeys(keyIds, boxId){
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'citySave') {
         $slug = city_slugify((string)($_POST['city'] ?? '')); if ($slug === '') throw new RuntimeException('Kota tidak valid.');
         $name = trim((string)($_POST['name'] ?? '')) ?: $slug;
-        $m = read_json(city_dir($slug) . '/meta.json', []); $m['name'] = $name; $m['instructions'] = trim((string)($_POST['instructions'] ?? '')); write_json(city_dir($slug) . '/meta.json', $m);
+        $m = read_json(city_dir($slug) . '/meta.json', []); $m['name'] = $name; if (isset($_POST['instructions'])) $m['instructions'] = trim((string)$_POST['instructions']); write_json(city_dir($slug) . '/meta.json', $m);
         $kb = city_knowledge($slug); $count = (int)($_POST['entry_count'] ?? 0); $entries = [];
         for ($i = 0; $i < $count; $i++) {
             if (isset($_POST["del_$i"])) continue;
@@ -2606,8 +3058,17 @@ async function testAllKeys(keyIds, boxId){
             if ($id === '') $id = 'manual:' . city_slugify($title);
             $aliases = array_values(array_filter(array_map('trim', explode(',', (string)($_POST["entry_{$i}_aliases"] ?? '')))));
             $content = trim((string)($_POST["entry_{$i}_content"] ?? ''));
-            $entries[] = ['id' => $id, 'entityId' => $id, 'title' => $title, 'aliases' => $aliases, 'type' => 'city-information', 'categories' => ['informasi kota'], 'tags' => ['manual'], 'sceneIds' => [], 'content' => $content, 'source' => $name, 'sourceType' => 'manual', 'provenance' => 'manual', 'translations' => ['id' => ['title' => $title, 'content' => $content], 'en' => ['title' => $title, 'content' => $content]]];
+            $entries[] = ['id' => $id, 'title' => $title, 'aliases' => $aliases, 'content' => $content];
         }
+        // Gabung ke entry lama (hasil impor sumber: source, url, tags, terjemahan EN tetap dipertahankan).
+        $oldCityById = []; foreach ((array)($kb['entries'] ?? []) as $oe) if (is_array($oe) && isset($oe['id'])) $oldCityById[(string)$oe['id']] = $oe;
+        $entries = merge_edited((array)($kb['entries'] ?? []), $entries, ['entityId' => '', 'type' => 'city-information', 'categories' => ['informasi kota'], 'tags' => ['manual'], 'sceneIds' => [], 'source' => $name, 'sourceType' => 'manual', 'provenance' => 'manual']);
+        foreach ($entries as &$ce) {
+            if (empty($ce['entityId'])) $ce['entityId'] = $ce['id'];
+            if (!isset($oldCityById[(string)$ce['id']])) $ce['translations'] = ['id' => ['title' => $ce['title'], 'content' => $ce['content']], 'en' => ['title' => $ce['title'], 'content' => $ce['content']]];
+            else { $tr = is_array($ce['translations'] ?? null) ? $ce['translations'] : []; $tr['id'] = ['title' => $ce['title'], 'content' => $ce['content']]; $ce['translations'] = $tr; }
+        }
+        unset($ce);
         if (isset($_POST['add_entry'])) $entries[] = ['id' => 'manual:' . city_slugify('judul baru ' . (count($entries) + 1)), 'entityId' => 'manual:entry', 'title' => 'Judul Baru', 'aliases' => [], 'type' => 'city-information', 'categories' => ['informasi kota'], 'tags' => ['manual'], 'sceneIds' => [], 'content' => 'Isi konten...', 'source' => $name, 'sourceType' => 'manual', 'provenance' => 'manual', 'translations' => ['id' => ['title' => 'Judul Baru', 'content' => 'Isi konten...'], 'en' => ['title' => 'Judul Baru', 'content' => 'Isi konten...']]];
         rev_check(city_dir($slug) . '/knowledge.json', (string)($_POST['rev_knowledge'] ?? ''));
         $kb['entries'] = $entries; city_save_knowledge($slug, $kb);
@@ -2645,7 +3106,10 @@ async function testAllKeys(keyIds, boxId){
     }
     if ($action === 'cityDelete') {
         $slug = city_slugify((string)($_GET['city'] ?? '')); if ($slug === '') throw new RuntimeException('Kota tidak valid.');
-        remove_tree(city_dir($slug));
+        $cityLabel = (string)(read_json(city_dir($slug) . '/meta.json', [])['name'] ?? $slug);
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Hapus kota “' . $cityLabel . '”', '<p>Knowledge, instructions, dan sumber data kota ini akan dikeluarkan dari Studio. Tour yang memakai kota ini tidak dihapus, tetapi tidak lagi mendapat knowledge kota.</p><p class="muted">Data dipindahkan ke <code>storage/trash/</code> sehingga masih bisa dipulihkan secara manual.</p>', '?a=cityDelete&city=' . urlencode($slug), 'Hapus kota', '?a=cities', true, $cityLabel);
+        if (trim((string)($_POST['confirm_name'] ?? '')) !== $cityLabel) throw new RuntimeException('Nama yang diketik tidak cocok. Penghapusan dibatalkan.');
+        move_to_trash(city_dir($slug), 'city-' . $slug);
         header('Location: ?a=cities'); exit;
     }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'citySourceDelete') {
@@ -2660,6 +3124,8 @@ async function testAllKeys(keyIds, boxId){
         header('Location: ?a=citySources&city=' . urlencode($slug) . '&deleted=1'); exit;
     }
     if ($action === 'syncRuntime') {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Sinkronkan runtime ke semua tour', '<p>Kode runtime AI Guide dari master (<code>' . h(SOURCE_AI) . '</code>) akan disalin ke <b>semua</b> package tour dan semua lokasi yang sudah di-deploy.</p><p class="muted">Data per-tour (<code>data/</code>, <code>config/</code>) tidak diubah. Proses ini bisa memakan waktu beberapa menit.</p>', '?a=syncRuntime', 'Sinkronkan semua', '?');
+        set_time_limit(0);
         $r = sync_runtime_all();
         $rows = '';
         foreach ($r as $slug => $x) $rows .= '<tr><td><code>' . h($slug) . '</code></td><td>' . $x['copied'] . ' file × ' . $x['targets'] . ' target</td><td>' . h($x['note']) . '</td></tr>';
@@ -2707,8 +3173,8 @@ async function testAllKeys(keyIds, boxId){
         $msg = ''; if ($saved) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Knowledge kota disimpan' . ($synced > 0 ? ' & disinkronkan ke ' . $synced . ' package tour lokasi ini.' : '') . '</p></div>';
         $body = $msg . '<div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><h2 style="margin:0">Knowledge — ' . h($name) . ' (' . count($kb['entries'] ?? []) . ' entries)</h2><div style="display:flex;gap:8px"><a class="btn" href="?a=cities">← Cities</a> <a class="btn" href="?a=citySources&city=' . h($slug) . '">📥 Sources</a></div></div><p class="muted">Judul + aliases untuk pencocokan pertanyaan umum tentang kota. Content dipakai AI untuk jawaban.</p></div>';
         $cityMeta = read_json(city_dir($slug) . '/meta.json', []);
-        $body .= '<div class="card" style="border-color:var(--ai-accent)"><h3>⚙️ Instructions (rules AI guide)</h3><p class="muted">Prompting yang dipakai sebagai rules untuk semua chat AI guide kota ini — role, constraints, knowledge base, cara representasi. Dipatok di atas aturan bawaan.</p><textarea name="instructions" rows="10" placeholder="Contoh:&#10;ROLE: Kamu adalah AI pemandu resmi Kota Semarang...&#10;CONSTRAINTS: ...">' . h((string)($cityMeta['instructions'] ?? '')) . '</textarea></div>';
         $body .= '<form method="post" action="?a=citySave">' . rev_field(city_dir($slug).'/knowledge.json');
+        $body .= '<div class="card" style="border-color:var(--ai-accent)"><h3>⚙️ Instructions (rules AI guide)</h3><p class="muted">Prompting yang dipakai sebagai rules untuk semua chat AI guide kota ini — role, constraints, knowledge base, cara representasi. Dipatok di atas aturan bawaan.</p><textarea name="instructions" rows="10" placeholder="Contoh:&#10;ROLE: Kamu adalah AI pemandu resmi Kota Semarang...&#10;CONSTRAINTS: ...">' . h((string)($cityMeta['instructions'] ?? '')) . '</textarea></div>';
         foreach (($kb['entries'] ?? []) as $idx => $e) {
             $body .= '<div class="card"><div style="display:flex;justify-content:space-between"><strong>' . h($e['title'] ?? $e['id']) . '</strong> <label style="font-size:12px"><input type="checkbox" name="del_' . $idx . '" value="1"> Hapus</label></div>';
             $body .= '<label style="font-size:12px;color:var(--pill-text)">ID</label><input name="entry_' . $idx . '_id" value="' . h($e['id']) . '">';
@@ -2741,7 +3207,11 @@ async function testAllKeys(keyIds, boxId){
     }
 } catch (Throwable $e) { $error = '<div class="card bad">' . h($e->getMessage()) . '</div>'; }
 
-if ($action === 'new' || $action === 'edit') { $t = $action === 'edit' ? get_tour((int)$_GET['id']) : ['id'=>0,'name'=>'','slug'=>'','location'=>'Semarang','category'=>'','export_path'=>'']; $catOpts = '<option value="">— pilih kategori —</option>'; foreach (['Pariwisata','Agama','Pendidikan','Kesehatan','Investasi','Mice','Restoran','Infrastruktur','Pusat Perbelanjaan'] as $c) $catOpts .= '<option value="' . h($c) . '"' . ($t['category'] === $c ? ' selected' : '') . '>' . h($c) . '</option>'; layout($action === 'edit' ? 'Edit tour' : 'Tambah tour', $error . '<form class="card" method="post" action="?a=save"><input type="hidden" name="id" value="' . (int)$t['id'] . '"><label for="tour_name">Nama</label><input id="tour_name" name="name" value="' . h($t['name']) . '" required autocomplete="off"><label for="tour_slug">Slug</label><input id="tour_slug" name="slug" value="' . h($t['slug']) . '" autocomplete="off"><label for="tour_location">Lokasi</label><input id="tour_location" name="location" value="' . h($t['location']) . '" autocomplete="off"><label for="tour_category">Kategori</label><select id="tour_category" name="category">' . $catOpts . '</select><label for="tour_export">Export path</label><input id="tour_export" name="export_path" value="' . h($t['export_path']) . '" placeholder="C:/xampp/htdocs/semarang/sandibuana" autocomplete="off"><p><button class="btn btn-primary" type="submit">Simpan</button></p></form>'); exit; }
+if ($action === 'new' || $action === 'edit') {
+    $t = $action === 'edit' ? get_tour((int)($_GET['id'] ?? 0)) : ['id' => 0, 'name' => '', 'slug' => '', 'city_id' => (int)($_GET['city'] ?? 0), 'location' => '', 'category' => '', 'export_path' => ''];
+    if (!$t) throw new RuntimeException('Tour tidak ditemukan.');
+    render_tour_form($t, $error); exit;
+}
     if ($action === 'view') {
         $t = get_tour((int)$_GET['id']); if (!$t) { layout('Tour hilang', '<p>Tour tidak ditemukan.</p>'); exit; }
         $s = studio_tour_stats($t);
@@ -2760,6 +3230,7 @@ if ($action === 'new' || $action === 'edit') { $t = $action === 'edit' ? get_tou
 
         // Header
         $deployBtn = $s['deployed'] || ($s['hasPackage'] && $s['exportSet']) ? '<form method="post" action="?a=deploy&id=' . (int)$t['id'] . '" onsubmit="return confirm(\'Replace installed AI Guide and update index.html? Backup stored locally.\')" style="display:inline-flex"><button class="btn btn-success">' . ($s['deployed'] ? 'Re-deploy' : 'Deploy') . '</button></form>' : '';
+        if (isset($_GET['created'])) $body .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Tour dibuat' . ((string)$_GET['created'] !== '' ? ': ' . h((string)$_GET['created']) : '') . '</p></div>';
         $body .= '<div class="ov-head"><div><h1>' . h($t['name']) . '</h1><div class="ov-sub">' . h($t['location']) . ($t['export_path'] !== '' ? ' · <code>' . h($t['export_path']) . '</code>' : '') . '</div></div>'
             . '<div class="ov-actions">'
             . '<a class="btn btn-ghost" href="?a=edit&id=' . (int)$t['id'] . '">Edit</a>'
@@ -2845,99 +3316,17 @@ if ($action === 'new' || $action === 'edit') { $t = $action === 'edit' ? get_tou
         $body .= $mainCol . '</div>';
 
         // Content Center (semua section + raw JSON editors) — fungsi lama dipertahankan
-        $body .= '<div class="card" id="content" style="margin-top:var(--space-5)"><div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-3)"><h3 style="margin:0">Content Center</h3><form method="post" action="?a=seedContent&id=' . (int)$t['id'] . '"><button class="btn btn-ghost btn-sm">Siapkan semua section (seed)</button></form></div><p class="muted">Edit per section tanpa coding JSON. Klik editor, ubah, Simpan / Generate / Deploy.</p></div>';
+        $body .= '<div class="card" id="content" style="margin-top:var(--space-5)"><div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-3)"><h3 style="margin:0">Content Center</h3><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><form method="post" action="?a=seedContent&id=' . (int)$t['id'] . '" style="margin:0"><button class="btn btn-ghost btn-sm" title="Hanya membuat section yang belum ada; konten yang sudah ada tidak diubah">Siapkan section yang belum ada</button></form><a class="muted" style="font-size:12px" href="?a=seedContent&id=' . (int)$t['id'] . '">Reset ke template…</a></div></div>' . (isset($_GET['seeded']) ? '<p class="ok">✓ ' . (int)$_GET['seeded'] . ' section dibuat' . ((int)($_GET['kept'] ?? 0) > 0 ? ', ' . (int)$_GET['kept'] . ' section yang sudah ada dibiarkan' : '') . '.</p>' : '') . '<p class="muted">Edit per section tanpa coding JSON. Klik editor, ubah, Simpan / Generate / Deploy.</p></div>';
         $dir = tour_dir($t['slug']);
         $map = ['curated-answers'=>['label'=>'Curated Questions','icon'=>'✅','desc'=>'Pertanyaan prioritas (intents)','link'=>'?a=curated&id='.(int)$t['id'],'count'=>count((read_json($dir.'/curated-answers.json',[])['intents']??[])).' intents'],'knowledge'=>['label'=>'Knowledge','icon'=>'📚','desc'=>'Judul + konten jawaban AI','link'=>'?a=knowledge&id='.(int)$t['id'],'count'=>count((read_json($dir.'/knowledge.json',[])['entries']??[])).' entries'],'scene-identity'=>['label'=>'Scene Identity','icon'=>'🎨','desc'=>'Nama panorama + deskripsi (sudah ada Scene Editor)','link'=>'?a=scenes&id='.(int)$t['id'],'count'=>count((read_json($dir.'/scene-identity.json',[])['scenes']??[])).' scenes'],'visitor-tips'=>['label'=>'Visitor Tips','icon'=>'💡','desc'=>'Tips berkunjung','link'=>'?a=tips&id='.(int)$t['id'],'count'=>count((read_json($dir.'/visitor-tips.json',[])['topics']??[])).' topics'],'nearby'=>['label'=>'Nearby','icon'=>'📍','desc'=>'Tempat terdekat','link'=>'?a=nearby&id='.(int)$t['id'],'count'=>count((read_json($dir.'/nearby.json',[])['items']??[])).' items'],'recommended-questions'=>['label'=>'Recommended Qs','icon'=>'💬','desc'=>'State1 (Discovery) & State2 (Workspace)','link'=>'?a=prompts&id='.(int)$t['id'],'count'=>'State1/State2'],'flow'=>['label'=>'Navigation Flow','icon'=>'🧭','desc'=>'Urutan navigasi panorama','link'=>'?a=flow&id='.(int)$t['id'],'count'=>count((read_json($dir.'/flow.json',[])['order']??[])).' steps']];
         foreach (content_files() as $name => $label) {
             $info=$map[$name]??['label'=>$label,'icon'=>'📄','desc'=>'','link'=>'?a=view&id='.(int)$t['id'],'count'=>''];
             $content = json_encode(read_json($dir . '/' . $name . '.json', []), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
             $body .= '<div class=card style="display:flex;justify-content:space-between;align-items:center;gap:12px"><div><div style="font-weight:600">'.$info['icon'].' '.h($info['label']).' <span style="font-size:12px;color:var(--text-muted)">('.$info['count'].')</span></div><div style="font-size:12px;color:var(--text-muted)">'.h($info['desc']).'<br><code>storage/tours/'.h($t['slug']).'/'.$name.'.json</code></div></div><div style="display:flex;gap:8px"><a class=btn href="'.$info['link'].'">✏️ Edit</a></div></div>';
-            $body .= '<details class=card style="margin-top:-8px"><summary style="cursor:pointer;font-size:12px;color:var(--text-muted)">Advanced: Edit JSON mentah</summary><form method=post action="?a=saveContent&id='.(int)$t['id'].'&name='.h($name).'">'.rev_field(tour_dir($t['slug']).'/'.$name.'.json').'<textarea name=content rows=8 class="mono" style="font-size:12px">'.h($content?:'{}').'</textarea><p><button type="submit" class="btn btn-primary btn-sm">Simpan JSON</button></p></form></details>';
+            if ((current_user()['role'] ?? '') === 'admin') $body .= '<details class=card style="margin-top:-8px"><summary style="cursor:pointer;font-size:12px;color:var(--text-muted)">Developer (admin): edit JSON mentah</summary><form method=post action="?a=saveContent&id='.(int)$t['id'].'&name='.h($name).'">'.rev_field(tour_dir($t['slug']).'/'.$name.'.json').'<textarea name=content rows=8 class="mono" style="font-size:12px">'.h($content?:'{}').'</textarea><p><button type="submit" class="btn btn-primary btn-sm">Simpan JSON</button></p></form></details>';
         }
         layout('Project Overview', $body); exit; }
 
-/* ---- Project Dashboard (tour list) ---- */
-$tours = all_tours();
-$total = count($tours);
-$readyCount = 0; $needsCount = 0; $deployedCount = 0; $sceneTotal = 0; $knowledgeTotal = 0;
-$statsByTour = [];
-foreach ($tours as $t) {
-    $s = studio_tour_stats($t);
-    // Backfill baseline sekali jika parsed ada tapi belum ada _exportState (tour lama)
-    $parsedFile = tour_dir($t['slug']) . '/parsed.json';
-    $parsedTmp = read_json($parsedFile);
-    if ($parsedTmp && !isset($parsedTmp['_exportState']) && trim((string)$t['export_path']) !== '') {
-        $parsedTmp['_exportState'] = export_snapshot($t['export_path']);
-        write_json($parsedFile, $parsedTmp);
-    }
-    $s['exportChanged'] = detect_export_changes($parsedTmp, $t['export_path']);
-    $statsByTour[$t['id']] = $s;
-    $sceneTotal += $s['scenes'];
-    $knowledgeTotal += $s['knowledgeTotal'];
-    if ($s['status'] === 'ready') $readyCount++;
-    elseif ($s['status'] === 'needs') $needsCount++;
-    elseif ($s['status'] === 'deployed') $deployedCount++;
-}
-$draftCount = $total - $readyCount - $needsCount - $deployedCount;
-$metricReady = $readyCount + $deployedCount;
-
-$filters = ['all' => 'All', 'draft' => 'Draft', 'needs' => 'Needs Attention', 'ready' => 'Ready', 'deployed' => 'Deployed'];
-$statusCounts = ['draft' => $draftCount, 'needs' => $needsCount, 'ready' => $readyCount, 'deployed' => $deployedCount];
-$filterHtml = '';
-foreach ($filters as $k => $v) $filterHtml .= '<button type="button" class="filter-chip' . ($k === 'all' ? ' is-on' : '') . '" data-filter="' . $k . '" data-status-label="' . h($v) . '">' . h($v) . ' <span class="count">(' . ($k === 'all' ? $total : $statusCounts[$k] ?? 0) . ')</span></button>';
-// Location filter chips (multi-city isolation)
-$locNames = [];
-foreach ($tours as $t) $locNames[trim((string)$t['location'])] = true;
-$locFilter = '<span class="filter-sep">Lokasi</span><button type="button" class="filter-chip is-on" data-locfilter="__all__">Semua Kota</button>';
-foreach (array_keys($locNames) as $loc) $locFilter .= '<button type="button" class="filter-chip" data-locfilter="' . h($loc) . '">' . h($loc) . '</button>';
-// Category filter chips
-$catNames = [];
-foreach ($tours as $t) { $c = trim((string)$t['category']); if ($c !== '') $catNames[$c] = true; }
-$catFilter = '<span class="filter-sep">Kategori</span><button type="button" class="filter-chip is-on" data-catfilter="__all__">Semua</button>';
-foreach (array_keys($catNames) as $cat) $catFilter .= '<button type="button" class="filter-chip" data-catfilter="' . h($cat) . '">' . h($cat) . '</button>';
-
-$cards = '';
-if ($total === 0) {
-    $cards = '<div class="empty"><div class="empty-ic">' . studio_icon('overview', 48) . '</div><h3>Belum ada project</h3><p>Buat project pertama: impor panorama tour, kurasi knowledge AI, lalu deploy ke website Anda.</p><a class="btn btn-primary" href="?a=new">Buat project baru</a></div>';
-} else {
-    foreach ($tours as $t) {
-        $s = $statsByTour[$t['id']];
-        $name = h($t['name']);
-        $loc = h($t['location']);
-        $badge = studio_badge($s['status']);
-        $sceneMeta = $s['hasParsed'] ? $s['scenes'] . ' scenes' : 'Belum import';
-        $intentsMeta = $s['intents'] > 0 ? $s['intents'] . ' intents' : '';
-        $knowMeta = $s['knowledgeTotal'] > 0 ? $s['knowledgeTotal'] . ' knowledge' : '';
-        $meta = '<span>' . studio_icon('scenes', 14) . $sceneMeta . '</span>';
-        if ($intentsMeta) $meta .= '<span>' . studio_icon('questions', 14) . $intentsMeta . '</span>';
-        if ($knowMeta) $meta .= '<span>' . studio_icon('knowledge', 14) . $knowMeta . '</span>';
-        $continue = '?a=scenes&id=' . (int)$t['id'];
-        if (!$s['hasParsed']) $continue = '?a=import&id=' . (int)$t['id'];
-        elseif ($s['status'] === 'needs') $continue = '?a=knowledge&id=' . (int)$t['id'];
-        elseif ($s['status'] === 'ready') $continue = '?a=deploy&id=' . (int)$t['id'];
-        $exportWarn = $s['exportChanged'] ? '<span class="export-changed-chip" title="Berubah: ' . implode(', ', $s['exportChanged']) . '">🔄</span>' : '';
-        $cards .= '<article class="tour-card" data-status="' . $s['status'] . '" data-name="' . strtolower($name) . '" data-loc="' . strtolower($t['location']) . '" data-cat="' . strtolower(h($t['category'])) . '">'
-            . '<div class="tour-card-head"><div><h3><a href="?a=view&id=' . (int)$t['id'] . '">' . $name . '</a></h3><div class="tour-card-loc">' . studio_icon('settings', 12) . $loc . ($t['category'] !== '' ? '<span class="tour-card-cat">' . h($t['category']) . '</span>' : '') . $exportWarn . '</div></div>'
-            . '<div class="card-menu"><button type="button" class="card-menu-btn" data-menu-btn aria-label="Menu ' . $name . '" aria-haspopup="menu" aria-expanded="false">•••</button>'
-            . '<div class="card-menu-pop" role="menu"><a role="menuitem" href="?a=view&id=' . (int)$t['id'] . '">Open project</a><a role="menuitem" href="?a=edit&id=' . (int)$t['id'] . '">Edit settings</a><a role="menuitem" href="?a=import&id=' . (int)$t['id'] . '">Import pano/skin</a><a role="menuitem" href="?a=saveAs&id=' . (int)$t['id'] . '">Duplicate (Save As)</a><a role="menuitem" href="?a=generate&id=' . (int)$t['id'] . '">Generate package</a><button type="button" role="menuitem" class="is-danger" data-del-url="?a=delete&id=' . (int)$t['id'] . '" data-del-name="' . $name . '">Delete project</button></div></div></div>'
-            . '<div class="tour-card-body"><div>' . $badge . '</div>' . $meta . studio_readiness($s['ready']) . '</div>'
-            . '<div class="tour-card-foot"><a class="btn btn-primary btn-sm" href="' . $continue . '">' . ($s['status'] === 'ready' ? 'Deploy' : 'Continue Setup') . '</a><span class="readiness-pct" style="color:var(--text-muted);font-weight:500;min-width:auto">' . $s['doneSteps'] . '/' . $s['totalSteps'] . ' steps' . ($s['nextStep'] ? ' · next: ' . h($s['nextStep']['label']) : '') . '</span></div>'
-            . '</article>';
-    }
-}
-
-$body = '<div class="dash-head"><div><h1>Projects</h1><p>Kelola, kurasi, dan deploy AI Guide untuk setiap lokasi.</p></div>'
-    . '<div class="dash-actions"><a class="btn btn-primary" href="?a=new">+ New Project</a></div></div>'
-    . '<div class="metric-grid">'
-    . studio_metric('Total Projects', (string)$total, 'semua tour di registry')
-    . studio_metric('Ready to Deploy', (string)$metricReady, 'status ready / deployed', 'metric-ready')
-    . studio_metric('Needs Attention', (string)$needsCount, 'kurasi belum lengkap', $needsCount > 0 ? 'metric-warn' : '')
-    . studio_metric('Total Scenes', (string)$sceneTotal, 'panorama ter-parsing')
-    . studio_metric('Knowledge Entries', (string)$knowledgeTotal, 'konten jawaban AI')
-    . '</div>'
-    . '<div class="toolbar"><input type="search" id="projSearch" placeholder="Cari project…" aria-label="Cari project"><div class="filters" id="projFilters">' . $filterHtml . $locFilter . $catFilter . '</div></div>'
-    . '<div class="tour-grid">' . $cards . '</div>'
-    . $error
-    . '<script>' . studio_dash_js() . '</script>';
-layout('Projects', $body);
+/* ---- Project Dashboard (tour list): app/dashboard.php ---- */
+render_dashboard($error);
 }

@@ -1,4 +1,6 @@
 <?php
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * import_webview.php — parse semarang webview MySQL dump → storage/webview-knowledge.json
  * and seed tour knowledge.json entries from real webview data.

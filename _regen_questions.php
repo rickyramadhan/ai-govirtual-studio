@@ -27,6 +27,9 @@
 
 declare(strict_types=1);
 
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
+
 define('APP_ROOT', __DIR__);
 define('TOURS_DIR', APP_ROOT . '/storage/tours');
 

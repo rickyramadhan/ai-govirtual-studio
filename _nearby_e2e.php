@@ -1,4 +1,6 @@
 <?php
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 // End-to-end: POST "hotel dekat sini" ke master tour-chat.php, pastikan provider AI dipanggil (bukan curated).
 $payload = [
     'message' => 'hotel dekat sini',

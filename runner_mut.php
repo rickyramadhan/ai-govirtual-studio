@@ -1,4 +1,6 @@
 <?php
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 // Mutation runner — include index.php once with given GET/POST/method. Reports OK or ERR.
 // register_shutdown_function runs even when index.php calls exit; (most routes end with layout(); exit;)
 $g = isset($argv[1]) ? json_decode(base64_decode($argv[1]), true) : [];

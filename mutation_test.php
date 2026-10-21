@@ -1,4 +1,6 @@
 <?php
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 // Mutation test — create/edit/duplicate/generate/seedContent/saveContent/delete via include index.php.
 // Touches only temp data, cleans up after. Real tours id 1-3 untouched (generate on id=1 rewrites its own package).
 $php = 'C:\\xampp\\php\\php.exe';

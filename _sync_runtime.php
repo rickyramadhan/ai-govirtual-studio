@@ -10,6 +10,9 @@
 
 declare(strict_types=1);
 
+// Hanya untuk CLI: jangan pernah dijalankan lewat web.
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
+
 ob_start();
 require_once __DIR__ . '/index.php';
 ob_end_clean();

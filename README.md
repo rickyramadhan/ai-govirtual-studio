@@ -115,3 +115,36 @@ Open in browser. Studio UI for managing tours, knowledge, API keys, deployment.
 - API keys stored in DB + `.env` files (gitignored via `**/.env`)
 - `config.php` files contain placeholders; real keys from `.env` or DB
 - Push protection removes secrets from git history
+
+## Akun & keamanan (diperbarui Fase 0)
+
+- **Tidak ada akun bawaan.** Buat admin pertama dari terminal:
+  `php tools/user-admin.php create <username> admin` (juga `list` dan `passwd <username>`).
+- Akun lama yang masih memakai password bawaan dipaksa ganti password saat login (halaman **Akun Saya**).
+- Semua form POST wajib token CSRF (disisipkan otomatis oleh `layout()` di `studio.php`).
+- Aksi yang mengubah data lewat URL (hapus, import, generate, deploy, sinkron runtime, hapus kota)
+  hanya menampilkan **halaman konfirmasi** saat dibuka; eksekusi terjadi lewat POST.
+- Skrip root `_*.php`, `import_webview.php`, dll. hanya bisa dijalankan dari CLI.
+- `.htaccess` memblokir akses web ke `*.sqlite`, `*.log`, `*.bak`, `.env`.
+
+## Keamanan data
+
+- **Simpan = gabung, bukan tulis ulang.** Editor menggabungkan hasil form ke record lama berdasarkan `id`,
+  sehingga field di luar form (response, sceneIds, terjemahan, items, dst.) tidak hilang.
+- **Riwayat versi:** setiap penulisan file konten tour/kota menyalin versi lama ke
+  `storage/tours/{slug}/.history/` (20 versi terakhir per file). Pulihkan dengan menyalin balik file-nya.
+- **Trash:** menghapus tour/kota memindahkannya ke `storage/trash/` (bukan hapus permanen).
+- Penulisan JSON bersifat atomik (file sementara + rename).
+- Form yang melebihi `max_input_vars` ditolak (tidak lagi tersimpan terpotong); `.htaccess` menaikkannya ke 5000.
+- Seed konten hanya membuat file yang belum ada; menimpa butuh konfirmasi ("Reset ke template…").
+- Backup deploy dipangkas otomatis (simpan 3 terbaru). Pangkas backup lama: `php tools/prune-backups.php` (dry-run) lalu `--apply`.
+
+## Pengujian
+
+```bash
+php smoke_test.php               # render ±27 halaman + pastikan aksi berbahaya hanya menampilkan konfirmasi
+php tests/merge_edited_test.php  # unit test helper merge
+php tests/integration_test.php   # alur simpan/CSRF/hapus/riwayat/seed/ganti password pada salinan terisolasi
+```
+
+Rencana lengkap & audit: `plans/AI-Studio-Audit-Roadmap.md`.

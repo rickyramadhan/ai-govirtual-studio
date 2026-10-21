@@ -17,58 +17,84 @@ if (!defined('APP_ROOT')) return;
 /** Resolve which nav section is active from the query action. */
 function studio_nav_active(string $action): string {
     $map = [
-        'list' => 'overview', 'new' => 'overview', 'edit' => 'overview', 'view' => 'overview', 'save' => 'overview', 'saveAs' => 'overview', 'import' => 'overview', 'delete' => 'overview',
-        'scenes' => 'scenes', 'saveScenes' => 'scenes',
+        'list' => 'overview', 'new' => 'overview', 'edit' => 'overview', 'view' => 'overview', 'save' => 'overview', 'saveAs' => 'overview', 'import' => 'overview', 'delete' => 'overview', 'seedContent' => 'overview', 'saveContent' => 'overview', 'resync' => 'overview',
+        'scenes' => 'scenes', 'saveScenes' => 'scenes', 'exportScenes' => 'scenes', 'importScenes' => 'scenes',
         'knowledge' => 'knowledge', 'saveKnowledge' => 'knowledge',
         'curated' => 'questions', 'saveCurated' => 'questions',
         'curatedqa' => 'curatedqa', 'saveCuratedQA' => 'curatedqa', 'importCuratedQA' => 'curatedqa',
         'flow' => 'flow', 'saveFlow' => 'flow',
-        'prompts' => 'recommendations', 'savePrompts' => 'recommendations',
+        'prompts' => 'recommendations', 'savePrompts' => 'recommendations', 'importPrompts' => 'recommendations',
         'voice' => 'voice', 'saveVoice' => 'voice',
-        'tips' => 'recommendations', 'saveTips' => 'recommendations',
-        'nearby' => 'recommendations', 'saveNearby' => 'recommendations',
+        'tips' => 'tips', 'saveTips' => 'tips',
+        'nearby' => 'nearby', 'saveNearby' => 'nearby',
         'test' => 'test', 'testAnswer' => 'test',
-        'deploy' => 'deployment', 'generate' => 'deployment', 'syncRuntime' => 'sync',
+        'history' => 'history', 'restoreHistory' => 'history', 'bulkImport' => 'overview', 'jobs' => 'jobs', 'jobEnqueue' => 'jobs', 'jobsStatus' => 'jobs',
+        'theme' => 'theme', 'saveTheme' => 'theme', 'themeCss' => 'theme', 'users' => 'users', 'userCreate' => 'users', 'userUpdate' => 'users', 'userReset' => 'users', 'audit' => 'audit',
+        'publish' => 'deployment', 'deploy' => 'deployment', 'generate' => 'deployment', 'syncRuntime' => 'sync',
         'keys' => 'api', 'saveKeys' => 'api', 'testKey' => 'api',
+        'aihealth' => 'aihealth', 'aihealthRun' => 'aihealth',
+        'account' => 'account', 'saveAccount' => 'account',
         'panoview' => 'scenes', 'thumb' => 'scenes',
         'cities' => 'cities', 'cityNew' => 'cities', 'city' => 'cities', 'citySave' => 'cities', 'citySources' => 'cities', 'citySourceUrl' => 'cities', 'citySourceFile' => 'cities', 'citySourceDelete' => 'cities', 'cityDelete' => 'cities',
     ];
     return $map[$action] ?? 'overview';
 }
 
-/** Breadcrumb trail for current action. */
+/**
+ * Breadcrumb trail for current action (satu bahasa: Indonesia).
+ * Halaman milik sebuah tour otomatis disisipi nama tour oleh layout().
+ */
 function studio_breadcrumb(string $action): array {
+    $P = ['label' => 'Proyek', 'href' => '?'];
+    $C = ['label' => 'Pengetahuan Kota', 'href' => '?a=cities'];
     $map = [
-        'list' => [['label' => 'Projects', 'href' => '?']],
-        'cities' => [['label' => 'City Knowledge', 'href' => null]],
-        'cityNew' => [['label' => 'City Knowledge', 'href' => '?a=cities'], ['label' => 'New City', 'href' => null]],
-        'city' => [['label' => 'City Knowledge', 'href' => '?a=cities'], ['label' => 'Edit Knowledge', 'href' => null]],
-        'citySources' => [['label' => 'City Knowledge', 'href' => '?a=cities'], ['label' => 'Sources', 'href' => null]],
-        'new' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Create Tour', 'href' => null]],
-        'edit' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Edit Tour', 'href' => null]],
-        'view' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Project Overview', 'href' => null]],
-        'scenes' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Scene Editor', 'href' => null]],
-        'saveScenes' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Scene Editor', 'href' => null]],
-        'knowledge' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Pengetahuan AI', 'href' => null]],
-        'curated' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Pertanyaan & Intent', 'href' => null]],
-        'curatedqa' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Tanya Jawab Terkurasi', 'href' => null]],
-        'flow' => [['label' => 'Proyek', 'href' => '?'], ['label' => 'Alur Navigasi', 'href' => null]],
-        'saveFlow' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Navigation Flow', 'href' => null]],
-        'prompts' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Recommendations', 'href' => null]],
-        'voice' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Percakapan Suara', 'href' => null]],
-        'saveVoice' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Percakapan Suara', 'href' => null]],
-        'tips' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Visitor Tips', 'href' => null]],
-        'nearby' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Nearby Places', 'href' => null]],
-        'test' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Test AI Guide', 'href' => null]],
-        'deploy' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Deployment', 'href' => null]],
-        'generate' => [['label' => 'Projects', 'href' => '?'], ['label' => 'Deployment', 'href' => null]],
-        'keys' => [['label' => 'API Providers', 'href' => null]],
-        'saveKeys' => [['label' => 'API Providers', 'href' => null]],
-        'syncRuntime' => [['label' => 'Runtime Sync', 'href' => null]],
+        'list' => [['label' => 'Proyek', 'href' => null]],
+        'new' => [$P, ['label' => 'Buat Tour', 'href' => null]],
+        'edit' => [$P, ['label' => 'Pengaturan Tour', 'href' => null]],
+        'view' => [$P, ['label' => 'Ringkasan', 'href' => null]],
+        'scenes' => [$P, ['label' => 'Tur & Panorama', 'href' => null]],
+        'saveScenes' => [$P, ['label' => 'Tur & Panorama', 'href' => null]],
+        'knowledge' => [$P, ['label' => 'Pengetahuan AI', 'href' => null]],
+        'curated' => [$P, ['label' => 'Pertanyaan & Intent', 'href' => null]],
+        'curatedqa' => [$P, ['label' => 'Tanya Jawab Terkurasi', 'href' => null]],
+        'flow' => [$P, ['label' => 'Alur Navigasi', 'href' => null]],
+        'saveFlow' => [$P, ['label' => 'Alur Navigasi', 'href' => null]],
+        'prompts' => [$P, ['label' => 'Rekomendasi Pertanyaan', 'href' => null]],
+        'voice' => [$P, ['label' => 'Percakapan Suara', 'href' => null]],
+        'saveVoice' => [$P, ['label' => 'Percakapan Suara', 'href' => null]],
+        'tips' => [$P, ['label' => 'Tips Pengunjung', 'href' => null]],
+        'nearby' => [$P, ['label' => 'Tempat Sekitar', 'href' => null]],
+        'test' => [$P, ['label' => 'Uji AI Guide', 'href' => null]],
+        'history' => [$P, ['label' => 'Riwayat Perubahan', 'href' => null]],
+        'bulkImport' => [$P, ['label' => 'Impor Massal', 'href' => null]],
+        'jobs' => [['label' => 'Antrian Publikasi', 'href' => null]],
+        'theme' => [$P, ['label' => 'Tema AI Guide', 'href' => null]],
+        'saveTheme' => [$P, ['label' => 'Tema AI Guide', 'href' => null]],
+        'users' => [['label' => 'Pengguna', 'href' => null]],
+        'userCreate' => [['label' => 'Pengguna', 'href' => null]],
+        'userUpdate' => [['label' => 'Pengguna', 'href' => null]],
+        'userReset' => [['label' => 'Pengguna', 'href' => null]],
+        'audit' => [['label' => 'Jejak Audit', 'href' => null]],
+        'restoreHistory' => [$P, ['label' => 'Riwayat Perubahan', 'href' => null]],
+        'publish' => [$P, ['label' => 'Publikasi', 'href' => null]],
+        'deploy' => [$P, ['label' => 'Publikasi', 'href' => null]],
+        'generate' => [$P, ['label' => 'Publikasi', 'href' => null]],
+        'import' => [$P, ['label' => 'Import Pano', 'href' => null]],
+        'delete' => [$P, ['label' => 'Hapus Proyek', 'href' => null]],
+        'cities' => [['label' => 'Pengetahuan Kota', 'href' => null]],
+        'cityNew' => [$C, ['label' => 'Kota Baru', 'href' => null]],
+        'city' => [$C, ['label' => 'Edit Pengetahuan', 'href' => null]],
+        'citySources' => [$C, ['label' => 'Sumber Data', 'href' => null]],
+        'cityDelete' => [$C, ['label' => 'Hapus Kota', 'href' => null]],
+        'keys' => [['label' => 'Provider API', 'href' => null]],
+        'saveKeys' => [['label' => 'Provider API', 'href' => null]],
+        'aihealth' => [['label' => 'Kesehatan AI', 'href' => null]],
+        'syncRuntime' => [['label' => 'Sinkron Runtime', 'href' => null]],
+        'account' => [['label' => 'Akun Saya', 'href' => null]],
+        'saveAccount' => [['label' => 'Akun Saya', 'href' => null]],
     ];
     return $map[$action] ?? [['label' => 'AI Guide Studio', 'href' => '?']];
 }
-
 /* ------------------------------------------------------------------ */
 /* Small UI atoms                                                      */
 /* ------------------------------------------------------------------ */
@@ -90,6 +116,17 @@ function studio_icon(string $name, int $size = 18): string {
         'logo' => '<path d="M12 2l3.2 6.5 7.1 1-5.1 5 1.2 7.1L12 18.9 5.6 21.6l1.2-7.1-5.1-5 7.1-1z"/>',
         'menu' => '<path d="M3 6h18M3 12h18M3 18h18"/>',
         'chevron' => '<path d="M9 18l6-6-6-6"/>',
+        'history' => '<path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5M12 7v5l3 2"/>',
+        'jobs' => '<path d="M4 6h16M4 12h16M4 18h10M18 16l2 2 3-4"/>',
+        'theme' => '<path d="M12 3a9 9 0 1 0 0 18c1.4 0 2-1 2-2 0-1.5-1.5-1.5-1.5-3 0-1 .8-1.7 2-1.7H17a4 4 0 0 0 4-4C21 6 17 3 12 3zM7.5 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM10 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM15 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>',
+        'users' => '<path d="M16 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM8 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM2 20a6 6 0 0 1 12 0M14 14a5 5 0 0 1 8 6"/>',
+        'audit' => '<path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/>',
+        'tips' => '<path d="M9 21h6M12 3a6 6 0 0 0-3 11.2V17h6v-2.8A6 6 0 0 0 12 3z"/>',
+        'nearby' => '<path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>',
+        'voice' => '<path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM5 11a7 7 0 0 0 14 0M12 18v3"/>',
+        'cities' => '<path d="M3 21V9l6-3v15M9 21V4l8 3v14M3 21h18M12 10h2M12 14h2M6 12h1M6 16h1"/>',
+        'aihealth' => '<path d="M3 12h4l3-8 4 16 3-8h4"/>',
+        'account' => '<path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"/>',
     ];
     $p = $icons[$name] ?? $icons['settings'];
     return '<svg width="' . $size . '" height="' . $size . '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' . $p . '</svg>';
@@ -122,46 +159,77 @@ function layout(string $title, string $body): void {
     $pageTitle = $tourName !== '' ? $tourName : $title;
     $tid = (int)($_GET['id'] ?? 0);
 
+    // Breadcrumb halaman tour: Proyek / <nama tour> / <halaman>, supaya selalu ada jalan kembali ke ringkasan tour.
+    if ($tourName !== '' && count($crumbs) >= 2 && ($crumbs[0]['label'] ?? '') === 'Proyek' && $action !== 'view') {
+        array_splice($crumbs, 1, 0, [['label' => $tourName, 'href' => '?a=view&id=' . $tid]]);
+    }
+
+    // Simpan ≠ Publikasi: editor hanya menyimpan; Generate/Deploy ada di halaman Publikasi.
+    if (function_exists('studio_simplify_save_bars')) $body = studio_simplify_save_bars($body, $tid);
+
+    // Setiap form POST otomatis membawa token CSRF (diverifikasi di index.php).
+    if (function_exists('csrf_token')) {
+        $csrf = '<input type="hidden" name="csrf_token" value="' . h(csrf_token()) . '">';
+        $body = (string)preg_replace_callback('/<form\b[^>]*>/i', function (array $m) use ($csrf): string {
+            if (!preg_match('/\bmethod\s*=\s*["\']?post\b/i', $m[0])) return $m[0];
+            return $m[0] . $csrf;
+        }, $body);
+    }
+
     if ($tid === 0) {
         $main = [
-            ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
-            ['slug' => 'scenes', 'label' => 'Select a project to edit', 'href' => '', 'disabled' => true],
+            ['slug' => 'overview', 'label' => 'Proyek', 'href' => '?'],
+            ['slug' => 'jobs', 'label' => 'Antrian Publikasi', 'href' => '?a=jobs'],
         ];
         $u = current_user();
         if ($u && ($u['role'] ?? '') === 'qa') {
             $main = [
-                ['slug' => 'overview', 'label' => 'Overview', 'href' => '?'],
-                ['slug' => 'test', 'label' => 'Test AI Guide', 'href' => '?a=test&id=' . $tid],
+                ['slug' => 'overview', 'label' => 'Proyek', 'href' => '?'],
             ];
         }
     } else {
+        // Dikelompokkan menurut pekerjaan editor: isi → percakapan → alur → rilis.
         $main = [
+            ['heading' => 'Tour'],
             ['slug' => 'overview', 'label' => 'Ringkasan', 'href' => '?a=view&id=' . $tid],
             ['slug' => 'scenes', 'label' => 'Tur & Panorama', 'href' => '?a=scenes&id=' . $tid],
+            ['slug' => 'theme', 'label' => 'Tema AI Guide', 'href' => '?a=theme&id=' . $tid],
+            ['heading' => 'Konten'],
             ['slug' => 'knowledge', 'label' => 'Pengetahuan AI', 'href' => '?a=knowledge&id=' . $tid],
+            ['slug' => 'tips', 'label' => 'Tips Pengunjung', 'href' => '?a=tips&id=' . $tid],
+            ['slug' => 'nearby', 'label' => 'Tempat Sekitar', 'href' => '?a=nearby&id=' . $tid],
+            ['heading' => 'Percakapan'],
             ['slug' => 'questions', 'label' => 'Pertanyaan & Intent', 'href' => '?a=curated&id=' . $tid],
             ['slug' => 'curatedqa', 'label' => 'Tanya Jawab Terkurasi', 'href' => '?a=curatedqa&id=' . $tid],
-            ['slug' => 'flow', 'label' => 'Alur Navigasi', 'href' => '?a=flow&id=' . $tid],
             ['slug' => 'recommendations', 'label' => 'Rekomendasi', 'href' => '?a=prompts&id=' . $tid],
             ['slug' => 'voice', 'label' => 'Percakapan Suara', 'href' => '?a=voice&id=' . $tid],
+            ['heading' => 'Navigasi'],
+            ['slug' => 'flow', 'label' => 'Alur Navigasi', 'href' => '?a=flow&id=' . $tid],
+            ['heading' => 'Rilis'],
             ['slug' => 'test', 'label' => 'Uji AI Guide', 'href' => '?a=test&id=' . $tid],
-            ['slug' => 'deployment', 'label' => 'Publikasi', 'href' => '?a=deploy&id=' . $tid],
+            ['slug' => 'deployment', 'label' => 'Publikasi', 'href' => '?a=publish&id=' . $tid],
+            ['slug' => 'history', 'label' => 'Riwayat Perubahan', 'href' => '?a=history&id=' . $tid],
         ];
     }
     $bottom = [
         ['slug' => 'cities', 'label' => 'Pengetahuan Kota', 'href' => '?a=cities'],
-        ['slug' => 'sync', 'label' => 'Sinkronisasi Runtime', 'href' => '?a=syncRuntime'],
         ['slug' => 'api', 'label' => 'Provider API', 'href' => '?a=keys'],
+        ['slug' => 'aihealth', 'label' => 'Kesehatan AI', 'href' => '?a=aihealth'],
+        ['slug' => 'users', 'label' => 'Pengguna', 'href' => '?a=users'],
+        ['slug' => 'audit', 'label' => 'Jejak Audit', 'href' => '?a=audit'],
     ];
     $u2 = current_user();
     if ($u2 && ($u2['role'] ?? '') === 'qa') {
         $bottom = [
-            ['slug' => 'cities', 'label' => 'City Knowledge', 'href' => '?a=cities'],
+            ['slug' => 'cities', 'label' => 'Pengetahuan Kota', 'href' => '?a=cities'],
         ];
     }
 
     $navMain = '';
-    foreach ($main as $n) $navMain .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active, !empty($n['disabled']));
+    foreach ($main as $n) {
+        if (isset($n['heading'])) { $navMain .= '<p class="sbnav-label">' . h($n['heading']) . '</p>'; continue; }
+        $navMain .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active, !empty($n['disabled']));
+    }
     $navBottom = '';
     foreach ($bottom as $n) $navBottom .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active);
 
@@ -176,16 +244,16 @@ function layout(string $title, string $body): void {
     $cu = function_exists('current_user') ? current_user() : null;
     $userBadge = '';
     if ($cu) {
-        $role = ($cu['role'] ?? '') === 'admin' ? 'admin' : 'qa';
+        $role = in_array(($cu['role'] ?? ''), ['admin', 'editor', 'qa'], true) ? (string)$cu['role'] : 'qa';
         $roleBadge = '<span class="user-role user-role-' . $role . '">' . $role . '</span>';
-        $userBadge = '<div class="topbar-user" title="Masuk sebagai ' . h((string)($cu['username'] ?? '')) . '"><span class="topbar-user-name"><span class="topbar-user-ic">' . studio_icon('settings', 14) . '</span>' . h((string)($cu['username'] ?? '')) . '</span>' . $roleBadge . '<a class="topbar-logout" href="?a=logout">Keluar</a></div>';
+        $userBadge = '<div class="topbar-user" title="Masuk sebagai ' . h((string)($cu['username'] ?? '')) . '"><a class="topbar-user-name" href="?a=account" title="Akun saya &amp; ganti password"><span class="topbar-user-ic">' . studio_icon('account', 14) . '</span>' . h((string)($cu['username'] ?? '')) . '</a>' . $roleBadge . '<a class="topbar-logout" href="?a=logout">Keluar</a></div>';
     }
     echo '<!doctype html><html lang="id"><head><meta charset="utf-8">'
         . '<meta name="viewport" content="width=device-width, initial-scale=1">'
         . '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
         . '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
         . '<title>' . h($title) . ' — AI Guide Studio</title>'
-        . '<style>' . studio_css() . '</style>'
+        . '<style>' . studio_css() . (function_exists('studio_ux_css') ? studio_ux_css() : '') . (function_exists('shell_v2_css') ? shell_v2_css() : '') . '</style>'
         . '</head><body class="app">'
         . '<a class="skip-link" href="#studio-main">Lewati ke konten</a>'
         . '<aside id="studio-sidebar" class="sbar" aria-label="Navigasi utama">'
@@ -193,7 +261,7 @@ function layout(string $title, string $body): void {
         . '<span class="sbrand-ic">' . studio_icon('logo', 22) . '</span>'
         . '<span class="sbrand-tx">AI Guide <b>Studio</b></span></a>'
         . '<button type="button" class="sbar-close icon-btn" data-close-sidebar aria-label="Close navigation">' . studio_icon('menu', 18) . '</button></div>'
-        . '<nav class="sbnav"><p class="sbnav-label">Studio</p>' . $navMain
+        . '<nav class="sbnav">' . ($tid === 0 ? '<p class="sbnav-label">Studio</p>' : '') . $navMain
         . '<p class="sbnav-label sbnav-label-btm">Manage</p>' . $navBottom . '</nav>'
         . '<div class="sbar-foot"><button type="button" class="sbar-toggle" data-toggle-sidebar aria-expanded="false" aria-label="Collapse sidebar">' . studio_icon('chevron', 16) . '<span>Collapse</span></button></div>'
         . '</aside>'
@@ -206,7 +274,9 @@ function layout(string $title, string $body): void {
         . '</header>'
         . '<main id="studio-main" class="app-content"><div class="app-scroll">' . $body . '</div></main>'
         . '</div>'
+        . ($tid > 0 && $action !== 'test' && function_exists('studio_chat_drawer') ? studio_chat_drawer($tid) : '')
         . '<script>' . studio_js() . '</script>'
+        . (function_exists('studio_ux_js') ? '<script>' . studio_ux_js() . '</script>' : '')
         . '</body></html>';
 }
 
@@ -217,10 +287,10 @@ function layout(string $title, string $body): void {
 function studio_css(): string {
     return <<<'CSS'
 :root{
-  --bg-app:#08111f; --bg-sidebar:#091426; --surface-1:#0d192b; --surface-2:#111f33; --surface-3:#15253b;
-  --border:#263851; --border-strong:#344b69;
-  --text-primary:#f5f7fb; --text-secondary:#aab7ca; --text-muted:#74839a;
-  --primary:#2675ff; --primary-hover:#4389ff; --ai-accent:#8b5cf6;
+  --bg-app:#121315; --bg-sidebar:#15161a; --surface-1:#1a1b20; --surface-2:#202127; --surface-3:#26272e;
+  --border:#33353d; --border-strong:#42444d;
+  --text-primary:#f5f7fb; --text-secondary:#b4b6bd; --text-muted:#8a8d97;
+  --primary:#c9a96e; --primary-hover:#d9b97f; --ai-accent:#c9a96e;
   --success:#22c55e; --warning:#f59e0b; --danger:#ef5350; --info:#38bdf8;
   --radius:14px; --radius-sm:10px; --radius-xs:8px;
   --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px; --space-7:40px;
@@ -230,7 +300,7 @@ function studio_css(): string {
   --mono:"JetBrains Mono",Consolas,"Courier New",monospace;
   --shadow-1:0 1px 3px rgba(3,8,18,.45),0 1px 2px rgba(3,8,18,.3);
   --shadow-2:0 10px 32px rgba(3,8,18,.5),0 4px 12px rgba(3,8,18,.35);
-  --focus-ring:0 0 0 3px rgba(38,117,255,.4);
+  --focus-ring:0 0 0 3px rgba(201,169,110,.4);
   --ok-text:#052e16; --ok-bg:rgba(34,197,94,.15);
   --warn-text:#451a03; --warn-bg:rgba(245,158,11,.15);
   --danger-text:#fff; --danger-bg:rgba(239,83,80,.15);
@@ -258,7 +328,7 @@ code,.mono{font-family:var(--mono);font-size:12px;background:var(--surface-2);bo
 hr{border:0;border-top:1px solid var(--border);margin:var(--space-5) 0}
 
 /* === Browser surfaces === */
-::selection{background:rgba(38,117,255,.3);color:inherit}
+::selection{background:rgba(201,169,110,.3);color:inherit}
 ::-webkit-scrollbar{width:6px;height:6px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
@@ -308,14 +378,16 @@ input,textarea,select,[contenteditable]{caret-color:var(--primary)}
 .app-main{flex:1;margin-left:var(--sidebar-w);display:flex;flex-direction:column;min-height:100vh;transition:margin-left .22s cubic-bezier(.32,.72,0,1)} /* impeccable-disable-line layout-transition -- sidebar offset, single shell transition */
 
 /* === Topbar === */
-.topbar{display:flex;align-items:center;justify-content:space-between;height:var(--topbar-h);padding:0 var(--space-5);border-bottom:1px solid var(--border);background:rgba(8,17,31,.85);backdrop-filter:blur(10px);flex-shrink:0;gap:var(--space-3);position:sticky;top:0;z-index:400}
+.topbar{display:flex;align-items:center;justify-content:space-between;height:var(--topbar-h);padding:0 var(--space-5);border-bottom:1px solid var(--border);background:rgba(18,19,21,.88);backdrop-filter:blur(10px);flex-shrink:0;gap:var(--space-3);position:sticky;top:0;z-index:400}
 .topbar-left{display:flex;align-items:center;gap:var(--space-3);min-width:0}
 .topbar-right{display:flex;align-items:center;gap:var(--space-3);flex-shrink:0}
 .topbar-title{font-family:var(--font-display);font-size:16px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;letter-spacing:-.015em}
 .topbar-burger{display:none}
 .topbar-user{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--text-secondary);background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:4px 6px 4px 10px;white-space:nowrap}
 .topbar-user-name,.topbar-user-ic{display:inline-flex;align-items:center;gap:5px}
-.user-role{font-size:10px;font-weight:700;line-height:1;padding:4px 7px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}.user-role-admin{background:rgba(34,197,94,.15);color:var(--success)}.user-role-qa{background:rgba(139,92,246,.16);color:#c4b5fd}
+a.topbar-user-name{color:inherit;text-decoration:none;border-radius:var(--radius-xs)}
+a.topbar-user-name:hover{color:var(--text-primary);text-decoration:underline}
+.user-role{font-size:10px;font-weight:700;line-height:1;padding:4px 7px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}.user-role-admin{background:rgba(34,197,94,.15);color:var(--success)}.user-role-qa{background:rgba(201,169,110,.16);color:#c4b5fd}
 .topbar-logout{color:var(--text-secondary);padding:5px 8px;border-radius:999px;text-decoration:none}.topbar-logout:hover{background:var(--surface-3);color:var(--text-primary)}
 .login-wrap{max-width:380px;margin:8vh auto 0}
 .login-wrap .card{padding:var(--space-5)}
@@ -362,10 +434,10 @@ input,textarea,select,[contenteditable]{caret-color:var(--primary)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);padding:10px 18px;border-radius:var(--radius-xs);font-size:13.5px;font-weight:600;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .14s ease,color .14s ease,border-color .14s ease,transform .14s ease,box-shadow .14s ease;white-space:nowrap;line-height:1.3;min-height:44px;letter-spacing:-.01em}
 .btn:active{transform:translateY(1px)}
 .btn:focus-visible{outline:0;box-shadow:var(--focus-ring)}
-.btn-primary{background:var(--primary);color:#fff;box-shadow:0 1px 2px rgba(38,117,255,.25)}
-.btn-primary:hover{background:var(--primary-hover);color:inherit;transform:translateY(-1px);box-shadow:0 4px 12px rgba(38,117,255,.3)}
-.btn-ai{background:var(--ai-accent);color:#fff;box-shadow:0 1px 2px rgba(139,92,246,.25)}
-.btn-ai:hover{background:#7c3aed;transform:translateY(-1px);box-shadow:0 4px 12px rgba(139,92,246,.3)}
+.btn-primary{background:var(--primary);color:#1a1409;font-weight:600;box-shadow:0 1px 2px rgba(201,169,110,.25)}
+.btn-primary:hover{background:var(--primary-hover);color:inherit;transform:translateY(-1px);box-shadow:0 4px 12px rgba(201,169,110,.3)}
+.btn-ai{background:var(--ai-accent);color:#fff;box-shadow:0 1px 2px rgba(201,169,110,.25)}
+.btn-ai:hover{background:#7c3aed;transform:translateY(-1px);box-shadow:0 4px 12px rgba(201,169,110,.3)}
 .btn-success{background:var(--success);color:#052e16}
 .btn-success:hover{filter:brightness(1.05);transform:translateY(-1px)}
 .btn-warning{background:var(--warning);color:#451a03}
@@ -388,11 +460,11 @@ input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit
   padding:11px 14px;font-size:13.5px;font-family:var(--font);font-weight:500;
   min-height:44px;line-height:1.45;
   transition:border-color .16s ease,box-shadow .16s ease,background .16s ease;
-  box-shadow:inset 0 1px 2px rgba(2,6,23,.25);
+  box-shadow:inset 0 1px 2px rgba(10,10,12,.25);
 }
 input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button])::placeholder,textarea::placeholder{color:var(--text-muted);opacity:.9;font-weight:400}
-input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):hover,textarea:hover,select:hover{border-color:var(--border-strong);background:rgba(17,31,51,.92)}
-input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):focus,textarea:focus,select:focus{outline:0;border-color:var(--primary);box-shadow:var(--focus-ring),inset 0 1px 2px rgba(2,6,23,.2);background:var(--surface-1)}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):hover,textarea:hover,select:hover{border-color:var(--border-strong);background:rgba(32,33,39,.92)}
+input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):focus,textarea:focus,select:focus{outline:0;border-color:var(--primary);box-shadow:var(--focus-ring),inset 0 1px 2px rgba(10,10,12,.2);background:var(--surface-1)}
 input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):disabled,textarea:disabled,select:disabled{opacity:.55;cursor:not-allowed;background:var(--surface-3)}
 input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):user-invalid,textarea:user-invalid,select:user-invalid{border-color:var(--danger);box-shadow:0 0 0 3px rgba(239,83,80,.15)}
 input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=button]):user-valid,textarea:user-valid{border-color:rgba(34,197,94,.35)}
@@ -436,7 +508,7 @@ th{text-align:left;font-size:11px;font-weight:700;color:var(--text-muted);text-t
 td{padding:12px var(--space-3);border-bottom:1px solid var(--border);font-size:13.5px;color:var(--text-secondary)}
 tbody tr:last-child td{border-bottom:0}
 tbody tr:hover td{background:var(--surface-2)}
-tbody tr:focus-within td{background:rgba(38,117,255,.06)}
+tbody tr:focus-within td{background:rgba(201,169,110,.06)}
 
 /* === Progress bar — transform-based (no layout thrash) === */
 .progress-wrap{background:var(--surface-2);border-radius:999px;height:8px;overflow:hidden;position:relative}
@@ -469,7 +541,7 @@ body.sbar-collapsed .sbar{width:68px;overflow:hidden}
 body.sbar-collapsed .sbar .sbrand-tx,body.sbar-collapsed .sbar .sbnav-tx,body.sbar-collapsed .sbar .sbnav-label,body.sbar-collapsed .sbar .sbar-toggle span{display:none}
 body.sbar-collapsed .sbar .sbnav-item{justify-content:center;padding:10px 8px}
 body.sbar-collapsed .sbar .sbnav-item.is-active::before{display:none}
-body.sbar-collapsed .sbar .sbnav-item.is-active{background:rgba(38,117,255,.12);border-color:transparent}
+body.sbar-collapsed .sbar .sbnav-item.is-active{background:rgba(201,169,110,.12);border-color:transparent}
 body.sbar-collapsed .sbar .sbnav-item.is-active .sbnav-ic{color:var(--primary)}
 body.sbar-collapsed .sbar .sbar-toggle{justify-content:center}
 body.sbar-collapsed .sbar .sbar-toggle svg{transform:rotate(180deg)}
@@ -516,7 +588,14 @@ body.sbar-collapsed .app-main{margin-left:68px}
 .filter-chip{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:999px;padding:8px 16px;font-size:12.5px;cursor:pointer;font-weight:600;min-height:36px;transition:background .14s ease,color .14s ease,border-color .14s ease,transform .14s ease,box-shadow .14s ease}
 .filter-chip:hover{border-color:var(--border-strong);color:var(--text-primary);transform:translateY(-1px)}
 .filter-chip:focus-visible{outline:0;box-shadow:var(--focus-ring)}
-.filter-chip.is-on{background:var(--primary);border-color:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(38,117,255,.25)}
+.filter-chip.is-on{background:var(--primary);border-color:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(201,169,110,.25)}
+a.filter-chip{text-decoration:none;display:inline-block}
+.pager{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:var(--space-5)}
+.pager-i{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:var(--radius-xs);padding:6px 12px;font-size:12.5px;text-decoration:none}
+a.pager-i:hover{border-color:var(--border-strong);color:var(--text-primary)}
+.pager-i.is-on{background:var(--primary);border-color:var(--primary);color:#fff}
+.pager-i.is-disabled{opacity:.4}
+.pager-gap{color:var(--text-muted);padding:0 2px}
 .filter-sep{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);align-self:center}
 .tour-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:var(--space-4)}
 .tour-card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);display:flex;flex-direction:column;transition:border-color .16s ease,transform .16s ease,box-shadow .16s ease;overflow:hidden}
@@ -743,7 +822,7 @@ function studio_tour_stats(array $tour): array {
         ['key' => 'questions', 'label' => 'Configure Questions', 'desc' => 'Intents + recommended questions',
             'done' => $intents > 0 && $recTotal > 0, 'act' => '?a=curated&id=' . (int)$tour['id'], 'actLabel' => 'Configure'],
         ['key' => 'deploy', 'label' => 'Generate & Deploy', 'desc' => 'Package terpasang ke export',
-            'done' => $deployed, 'act' => '?a=deploy&id=' . (int)$tour['id'], 'actLabel' => 'Deploy'],
+            'done' => $deployed, 'act' => '?a=publish&id=' . (int)$tour['id'], 'actLabel' => 'Deploy'],
     ];
     $doneCount = 0; foreach ($steps as $s) if ($s['done']) $doneCount++;
     $ready = (int)round($doneCount / count($steps) * 100);
@@ -764,6 +843,7 @@ function studio_tour_stats(array $tour): array {
         'siScenes' => $siScenes, 'tipsTotal' => $tipsTotal, 'nearbyTotal' => $nearbyTotal, 'recTotal' => $recTotal,
         'hasParsed' => $scenes > 0, 'hasPackage' => $hasPackage, 'exportSet' => $export !== '', 'deployed' => $deployed,
         'nextStep' => $nextStep,
+        'exportState' => $parsed['_exportState'] ?? null, // baseline hash untuk deteksi perubahan export (tour_export_changes)
     ];
 }
 
@@ -796,49 +876,7 @@ function studio_metric(string $label, string $val, string $sub = '', string $cls
 function studio_dash_js(): string {
     return <<<'JS'
 (function(){
-  var search=document.getElementById('projSearch');
-  var chips=document.querySelectorAll('#projFilters .filter-chip[data-filter]');
-  var locChips=document.querySelectorAll('#projFilters .filter-chip[data-locfilter]');
-  var catChips=document.querySelectorAll('#projFilters .filter-chip[data-catfilter]');
-  var cards=document.querySelectorAll('.tour-card');
-  var activeFilter='all';
-  var activeLoc='__all__';
-  var activeCat='__all__';
-  function apply(){
-    var q=search?search.value.toLowerCase():'';
-    cards.forEach(function(c){
-      var okF=(activeFilter==='all'||c.getAttribute('data-status')===activeFilter);
-      var okL=(activeLoc==='__all__'||(c.getAttribute('data-loc')||'').toLowerCase()===activeLoc.toLowerCase());
-      var okC=(activeCat==='__all__'||(c.getAttribute('data-cat')||'').toLowerCase()===activeCat.toLowerCase());
-      var okQ=!q||(c.getAttribute('data-name')||'').indexOf(q)>-1;
-      c.style.display=(okF&&okL&&okC&&okQ)?'':'none';
-    });
-  }
-  if(search) search.addEventListener('input',apply);
-  chips.forEach(function(ch){
-    ch.addEventListener('click',function(){
-      chips.forEach(function(x){x.classList.remove('is-on');});
-      ch.classList.add('is-on');
-      activeFilter=ch.getAttribute('data-filter');
-      apply();
-    });
-  });
-  locChips.forEach(function(ch){
-    ch.addEventListener('click',function(){
-      locChips.forEach(function(x){x.classList.remove('is-on');});
-      ch.classList.add('is-on');
-      activeLoc=ch.getAttribute('data-locfilter');
-      apply();
-    });
-  });
-  catChips.forEach(function(ch){
-    ch.addEventListener('click',function(){
-      catChips.forEach(function(x){x.classList.remove('is-on');});
-      ch.classList.add('is-on');
-      activeCat=ch.getAttribute('data-catfilter');
-      apply();
-    });
-  });
+  // Filter, urutan, dan paginasi dilakukan di server (app/dashboard.php); JS hanya mengurus menu kartu.
   document.addEventListener('click',function(e){
     var btn=e.target.closest?e.target.closest('[data-menu-btn]'):null;
     var pop=e.target.closest?e.target.closest('.card-menu-pop'):null;
@@ -854,11 +892,8 @@ function studio_dash_js(): string {
     if(e.key==='Escape'){ document.querySelectorAll('.card-menu-pop.open').forEach(function(p){ p.classList.remove('open'); var b=p.parentElement.querySelector('[data-menu-btn]'); if(b) b.setAttribute('aria-expanded','false'); }); }
   });
   document.querySelectorAll('[data-del-url]').forEach(function(el){
-    el.addEventListener('click',function(){
-      var name=el.getAttribute('data-del-name')||'project ini';
-      var ok=window.confirm('Hapus project "'+name+'"?\nMenghapus SELURUH data tour, JSON kurasi, dan package di storage. Tindakan ini tidak bisa dibatalkan.');
-      if(ok) window.location.href=el.getAttribute('data-del-url');
-    });
+    // Konfirmasi (ketik nama project) ditangani halaman ?a=delete; di sini cukup menuju ke sana.
+    el.addEventListener('click',function(){ window.location.href=el.getAttribute('data-del-url'); });
   });
 })();
 JS;
