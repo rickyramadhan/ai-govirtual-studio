@@ -34,3 +34,6 @@ ngrok.log.*
 
 # Arsip pembersihan manual
 /archive/
+
+# Data tour & paket hasil generate: tidak dilacak git (disimpan lokal/backup)
+/storage/tours/
