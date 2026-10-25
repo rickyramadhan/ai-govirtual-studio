@@ -1,0 +1,230 @@
+{
+    "version": 1,
+    "city": "kabupaten-bogor",
+    "entries": [
+        {
+            "id": "bogor:letak-luas",
+            "entityId": "bogor:letak-luas",
+            "title": "Letak dan luas wilayah",
+            "aliases": [
+                "luas bogor",
+                "letak bogor",
+                "geografi bogor"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kabupaten Bogor terletak di Provinsi Jawa Barat. Luas wilayahnya berbeda antar sumber: sekitar 2.986 km² menurut sebuah skripsi, sekitar 2.664 km² (266.383 ha) menurut dokumen DPR, dan sekitar 2.988 km² (298.838 ha) menurut dokumen BPK. Perbedaan ini kemungkinan karena tahun data dan metode pengukuran. (Sumber: eprints.undip.ac.id; berkas DPR; peraturan BPK)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Bogor terletak di Provinsi Jawa Barat. Luas wilayahnya berbeda antar sumber: sekitar 2.986 km² menurut sebuah skripsi, sekitar 2.664 km² (266.383 ha) menurut dokumen DPR, dan sekitar 2.988 km² (298.838 ha) menurut dokumen BPK. Perbedaan ini kemungkinan karena tahun data dan metode pengukuran. (Sumber: eprints.undip.ac.id; berkas DPR; peraturan BPK)"
+                },
+                "en": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Bogor terletak di Provinsi Jawa Barat. Luas wilayahnya berbeda antar sumber: sekitar 2.986 km² menurut sebuah skripsi, sekitar 2.664 km² (266.383 ha) menurut dokumen DPR, dan sekitar 2.988 km² (298.838 ha) menurut dokumen BPK. Perbedaan ini kemungkinan karena tahun data dan metode pengukuran. (Sumber: eprints.undip.ac.id; berkas DPR; peraturan BPK)"
+                }
+            }
+        },
+        {
+            "id": "bogor:ibu-kota",
+            "entityId": "bogor:ibu-kota",
+            "title": "Ibu kota: Cibinong",
+            "aliases": [
+                "cibinong",
+                "ibu kota bogor",
+                "pusat pemerintahan bogor"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pemerintahan Kabupaten Bogor berada di Kecamatan Cibinong. Kabupaten Bogor dan Kota Bogor adalah dua wilayah administratif yang berbeda. (Sumber: dokumen DPR; eprints.undip.ac.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Ibu kota: Cibinong",
+                    "content": "Pusat pemerintahan Kabupaten Bogor berada di Kecamatan Cibinong. Kabupaten Bogor dan Kota Bogor adalah dua wilayah administratif yang berbeda. (Sumber: dokumen DPR; eprints.undip.ac.id)"
+                },
+                "en": {
+                    "title": "Ibu kota: Cibinong",
+                    "content": "Pusat pemerintahan Kabupaten Bogor berada di Kecamatan Cibinong. Kabupaten Bogor dan Kota Bogor adalah dua wilayah administratif yang berbeda. (Sumber: dokumen DPR; eprints.undip.ac.id)"
+                }
+            }
+        },
+        {
+            "id": "bogor:wilayah-admin",
+            "entityId": "bogor:wilayah-admin",
+            "title": "Wilayah administratif",
+            "aliases": [
+                "kecamatan bogor",
+                "jumlah kecamatan bogor"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kabupaten Bogor terdiri dari 40 kecamatan. Jumlah desa dan kelurahan berbeda antar sumber (sekitar 416 sampai 417 desa dan 17 sampai 19 kelurahan), sehingga angka pastinya perlu dicek ke BPS. Cigudeg termasuk kecamatan terluas, sekitar 177 sampai 179 km² pada data 2021. (Sumber: eprints.undip.ac.id; dokumen DPR)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Wilayah administratif",
+                    "content": "Kabupaten Bogor terdiri dari 40 kecamatan. Jumlah desa dan kelurahan berbeda antar sumber (sekitar 416 sampai 417 desa dan 17 sampai 19 kelurahan), sehingga angka pastinya perlu dicek ke BPS. Cigudeg termasuk kecamatan terluas, sekitar 177 sampai 179 km² pada data 2021. (Sumber: eprints.undip.ac.id; dokumen DPR)"
+                },
+                "en": {
+                    "title": "Wilayah administratif",
+                    "content": "Kabupaten Bogor terdiri dari 40 kecamatan. Jumlah desa dan kelurahan berbeda antar sumber (sekitar 416 sampai 417 desa dan 17 sampai 19 kelurahan), sehingga angka pastinya perlu dicek ke BPS. Cigudeg termasuk kecamatan terluas, sekitar 177 sampai 179 km² pada data 2021. (Sumber: eprints.undip.ac.id; dokumen DPR)"
+                }
+            }
+        },
+        {
+            "id": "bogor:penduduk",
+            "entityId": "bogor:penduduk",
+            "title": "Jumlah penduduk",
+            "aliases": [
+                "penduduk bogor",
+                "populasi bogor"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Data BPS yang dikutip sumber akademik mencatat 5.721.620 jiwa pada 2025, naik dari sekitar 5,68 juta pada 2024. Kecamatan Gunung Putri termasuk yang paling banyak penduduknya. Untuk angka terbaru, rujuk BPS Kabupaten Bogor. (Sumber: publikasi akademik yang mengutip BPS)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk",
+                    "content": "Data BPS yang dikutip sumber akademik mencatat 5.721.620 jiwa pada 2025, naik dari sekitar 5,68 juta pada 2024. Kecamatan Gunung Putri termasuk yang paling banyak penduduknya. Untuk angka terbaru, rujuk BPS Kabupaten Bogor. (Sumber: publikasi akademik yang mengutip BPS)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk",
+                    "content": "Data BPS yang dikutip sumber akademik mencatat 5.721.620 jiwa pada 2025, naik dari sekitar 5,68 juta pada 2024. Kecamatan Gunung Putri termasuk yang paling banyak penduduknya. Untuk angka terbaru, rujuk BPS Kabupaten Bogor. (Sumber: publikasi akademik yang mengutip BPS)"
+                }
+            }
+        },
+        {
+            "id": "bogor:taman-safari",
+            "entityId": "bogor:taman-safari",
+            "title": "Taman Safari Indonesia",
+            "aliases": [
+                "taman safari",
+                "tsi",
+                "cisarua"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Taman Safari Indonesia berada di Kecamatan Cisarua dan menjadi salah satu destinasi paling terkenal di Kabupaten Bogor. Sebuah sumber akademik mencatat sekitar 1,25 juta pengunjung pada 2015. Harga tiket dan jam buka perlu dicek langsung ke pengelola. (Sumber: publikasi akademik)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Taman Safari Indonesia",
+                    "content": "Taman Safari Indonesia berada di Kecamatan Cisarua dan menjadi salah satu destinasi paling terkenal di Kabupaten Bogor. Sebuah sumber akademik mencatat sekitar 1,25 juta pengunjung pada 2015. Harga tiket dan jam buka perlu dicek langsung ke pengelola. (Sumber: publikasi akademik)"
+                },
+                "en": {
+                    "title": "Taman Safari Indonesia",
+                    "content": "Taman Safari Indonesia berada di Kecamatan Cisarua dan menjadi salah satu destinasi paling terkenal di Kabupaten Bogor. Sebuah sumber akademik mencatat sekitar 1,25 juta pengunjung pada 2015. Harga tiket dan jam buka perlu dicek langsung ke pengelola. (Sumber: publikasi akademik)"
+                }
+            }
+        },
+        {
+            "id": "bogor:kawasan-puncak",
+            "entityId": "bogor:kawasan-puncak",
+            "title": "Kawasan Puncak",
+            "aliases": [
+                "puncak bogor",
+                "telaga warna",
+                "curug cilember",
+                "agro gunung mas"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kawasan Puncak sering dikunjungi wisatawan. Objek yang disebut sumber antara lain Agro Gunung Mas, Telaga Warna, dan Curug Cilember. Kebun Raya Cibodas sering dimasukkan dalam daftar wisata Puncak, tetapi secara administratif berada di Kabupaten Cianjur. (Sumber: moladin.com; komunitasbelajar.id; publikasi akademik)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Kawasan Puncak",
+                    "content": "Kawasan Puncak sering dikunjungi wisatawan. Objek yang disebut sumber antara lain Agro Gunung Mas, Telaga Warna, dan Curug Cilember. Kebun Raya Cibodas sering dimasukkan dalam daftar wisata Puncak, tetapi secara administratif berada di Kabupaten Cianjur. (Sumber: moladin.com; komunitasbelajar.id; publikasi akademik)"
+                },
+                "en": {
+                    "title": "Kawasan Puncak",
+                    "content": "Kawasan Puncak sering dikunjungi wisatawan. Objek yang disebut sumber antara lain Agro Gunung Mas, Telaga Warna, dan Curug Cilember. Kebun Raya Cibodas sering dimasukkan dalam daftar wisata Puncak, tetapi secara administratif berada di Kabupaten Cianjur. (Sumber: moladin.com; komunitasbelajar.id; publikasi akademik)"
+                }
+            }
+        },
+        {
+            "id": "bogor:wisata-lain",
+            "entityId": "bogor:wisata-lain",
+            "title": "Wisata lain dan desa wisata",
+            "aliases": [
+                "wisata sentul",
+                "jungle land",
+                "desa wisata bogor"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Objek wisata lain di Kabupaten Bogor yang disebut sumber antara lain Taman Wisata Matahari, Jungle Land Sentul, dan Museum Mobil dan Keramik Sentul. Sebuah makalah tahun 2024 mencatat 55 daya tarik wisata dan 25 desa wisata, tetapi angka ini perlu diverifikasi ke Dinas Kebudayaan dan Pariwisata Kabupaten Bogor. (Sumber: moladin.com; publikasi akademik 2024)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Wisata lain dan desa wisata",
+                    "content": "Objek wisata lain di Kabupaten Bogor yang disebut sumber antara lain Taman Wisata Matahari, Jungle Land Sentul, dan Museum Mobil dan Keramik Sentul. Sebuah makalah tahun 2024 mencatat 55 daya tarik wisata dan 25 desa wisata, tetapi angka ini perlu diverifikasi ke Dinas Kebudayaan dan Pariwisata Kabupaten Bogor. (Sumber: moladin.com; publikasi akademik 2024)"
+                },
+                "en": {
+                    "title": "Wisata lain dan desa wisata",
+                    "content": "Objek wisata lain di Kabupaten Bogor yang disebut sumber antara lain Taman Wisata Matahari, Jungle Land Sentul, dan Museum Mobil dan Keramik Sentul. Sebuah makalah tahun 2024 mencatat 55 daya tarik wisata dan 25 desa wisata, tetapi angka ini perlu diverifikasi ke Dinas Kebudayaan dan Pariwisata Kabupaten Bogor. (Sumber: moladin.com; publikasi akademik 2024)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:42:02+02:00"
+}

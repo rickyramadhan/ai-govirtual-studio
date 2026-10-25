@@ -21,7 +21,7 @@ body.app{background:radial-gradient(1200px 600px at 85% -10%,rgba(201,169,110,.0
 .sbnav-item.is-active .sbnav-ic{color:var(--ai-accent)}
 .sbnav-label{letter-spacing:.14em}
 .topbar{background:rgba(18,19,21,.78);backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid rgba(255,255,255,.05)}
-.topbar-title{font-family:var(--font-display);font-size:17px;font-weight:700}
+.topbar-title{font-family:var(--font-display);font-size:15px;font-weight:600;letter-spacing:-.01em}
 .card{background:linear-gradient(180deg,var(--surface-2),var(--surface-1));border:1px solid rgba(255,255,255,.06);border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.22)}
 .app-scroll>.card{animation:shellRise .55s cubic-bezier(.2,.8,.2,1) both}
 .card:hover{border-color:rgba(201,169,110,.2)}
@@ -46,7 +46,7 @@ label{letter-spacing:.01em}
 .badge{border-radius:999px;backdrop-filter:blur(4px)}
 .metric-card{border-radius:18px;background:linear-gradient(180deg,var(--surface-2),var(--surface-1));transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s}
 .metric-card:hover{transform:translateY(-3px);border-color:rgba(201,169,110,.25)}
-.metric-val{font-family:var(--font-display);font-weight:700}
+.metric-val{font-family:var(--font-display);font-weight:650;letter-spacing:-.03em}
 .filter-chip{transition:transform .25s cubic-bezier(.2,.8,.2,1),background .25s,color .25s,border-color .25s}
 .filter-chip.is-on{background:linear-gradient(135deg,#e2c28a,#c9a96e);border-color:transparent;color:#1a1409;font-weight:700}
 .tour-card{border-radius:20px;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s}
@@ -62,6 +62,24 @@ details[open]>summary{color:var(--ai-accent)}
 .sbar-toggle,.icon-btn{transition:transform .25s,background .25s}
 .icon-btn:hover{transform:rotate(-8deg);background:rgba(201,169,110,.08)}
 .app-content{scroll-behavior:smooth}
+/* Pohon kota di sidebar: sub-menu bertingkat dengan garis panduan */
+.sbnav-item.is-sub{margin:1px 0 1px 22px;padding:7px 12px 7px 16px;border-left:1px solid var(--border);border-radius:0 10px 10px 0;font-size:12.5px;min-height:0;color:var(--text-secondary)}
+.sbnav-item.is-sub:hover{transform:none;color:var(--text-primary)}
+.sbnav-item.is-sub.is-active{border-left:2px solid var(--ai-accent);color:var(--text-primary);background:rgba(201,169,110,.08)}
+/* Daftar kota di sidebar: titik warna, nama, dan jumlah lokasi sebagai pill */
+.sbnav-city{gap:10px;padding:8px 12px;min-height:0}
+.sbnav-city .sbnav-tx{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px}
+.sbnav-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:hsl(var(--h) 45% 62%);box-shadow:0 0 0 3px hsl(var(--h) 45% 62% / .14)}
+.sbnav-count{font-size:11px;font-weight:700;color:var(--text-muted);background:var(--surface-3);border-radius:999px;padding:2px 8px;min-width:24px;text-align:center;line-height:1.5}
+.sbnav-city.is-active .sbnav-count{background:rgba(201,169,110,.18);color:var(--ai-accent)}
+.sbnav-more{margin:8px 0 0;border-top:1px solid var(--border);padding-top:6px}
+.sbnav-more>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:8px 12px;font-size:12px;color:var(--text-muted);border-radius:10px;transition:background .2s,color .2s}
+.sbnav-more>summary::-webkit-details-marker{display:none}
+.sbnav-more>summary::after{content:"›";font-size:16px;line-height:1;transition:transform .2s}
+.sbnav-more[open]>summary::after{transform:rotate(90deg)}
+.sbnav-more>summary:hover{color:var(--text-primary);background:rgba(255,255,255,.03)}
+.sbnav-more>summary .sbnav-count{margin-left:auto}
+body.sbar-collapsed .sbnav-more,body.sbar-collapsed .sbnav-count{display:none}
 @media (prefers-reduced-motion:reduce){
   .app-scroll>.card{animation:none!important}
   .btn,.card,.metric-card,.tour-card,.sbnav-item,.filter-chip{transition:none!important}

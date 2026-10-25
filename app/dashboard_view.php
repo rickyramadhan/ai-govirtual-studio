@@ -14,6 +14,23 @@ function dash_city_hue(string $slug): int
     return (int)(hexdec(substr(md5($slug !== '' ? $slug : 'x'), 0, 6)) % 360);
 }
 
+/** URL gambar sampul tur (preview.jpg hasil ekspor panorama), atau '' bila belum ada. */
+function dash_preview_url(array $t): string
+{
+    $export = rtrim((string)($t['export_path'] ?? ''), '/\\');
+    if ($export === '' || !is_file($export . '/preview.jpg')) return '';
+    return '?a=tourPreview&id=' . (int)$t['id'];
+}
+
+/** Sampul kartu: foto lokasi bila ada, jika tidak huruf awal nama sebagai pengganti. */
+function dash_cover(string $name, string $url): string
+{
+    if ($url === '') {
+        return '<div class="dv-cover"><div class="dv-cover-ic">' . h(mb_strtoupper(mb_substr($name, 0, 1))) . '</div></div>';
+    }
+    return '<div class="dv-cover has-img"><img src="' . h($url) . '" alt="" loading="lazy" class="dv-cover-img"></div>';
+}
+
 function dash_ring(int $pct, int $size = 52): string
 {
     $pct = max(0, min(100, $pct));
@@ -35,8 +52,10 @@ function dashboard_style(): string
 .dv-hero::after{width:260px;height:260px;background:radial-gradient(circle,rgba(160,120,70,.35),transparent 70%);bottom:-110px;left:20%;animation-delay:-6s}
 @keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(-40px,25px) scale(1.12)}}
 .dv-hero>*{position:relative;z-index:1}
+/* Sampul kota samar di kanan hero; memudar ke kiri agar teks tetap terbaca */
+.dv-hero>.dv-hero-art{position:absolute;top:0;right:0;width:62%;height:100%;object-fit:cover;z-index:0;opacity:.34;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 55%);mask-image:linear-gradient(90deg,transparent 0%,#000 55%)}
 .dv-kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ai-accent);font-weight:600}
-.dv-title{font-family:var(--font-display);font-size:44px;line-height:1.05;margin:6px 0 4px;font-weight:700;letter-spacing:-.01em}
+.dv-title{font-family:var(--font-display);font-size:40px;line-height:1.08;margin:6px 0 4px;font-weight:700;letter-spacing:-.035em}
 .dv-sub{color:var(--text-secondary);font-size:14px;margin:0 0 22px;max-width:60ch}
 .dv-actions{display:flex;gap:10px;flex-wrap:wrap}
 .dv-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font-weight:600;font-size:13px;text-decoration:none;border:1px solid var(--border-strong);color:var(--text-primary);background:rgba(255,255,255,.03);transition:transform .25s cubic-bezier(.2,.8,.2,1),background .25s,border-color .25s,box-shadow .25s}
@@ -46,7 +65,7 @@ function dashboard_style(): string
 .dv-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:var(--space-5)}
 .dv-stat{position:relative;border-radius:18px;padding:18px 18px 16px;background:var(--surface-1);border:1px solid var(--border);overflow:hidden;opacity:0;transform:translateY(12px);animation:rise .6s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(var(--i,0) * 90ms + 120ms)}
 .dv-stat::after{content:"";position:absolute;inset:auto -20% -60% -20%;height:120%;background:radial-gradient(closest-side,var(--tint,rgba(201,169,110,.14)),transparent);pointer-events:none}
-.dv-stat-num{font-family:var(--font-display);font-size:38px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;color:var(--text-primary)}
+.dv-stat-num{font-family:var(--font-display);font-size:34px;font-weight:650;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums;color:var(--text-primary)}
 .dv-stat-lbl{font-size:12px;color:var(--text-secondary);margin-top:8px;font-weight:600;letter-spacing:.02em}
 .dv-stat-sub{font-size:11.5px;color:var(--text-muted);margin-top:2px}
 .dv-stat.is-warn .dv-stat-num{color:var(--warning)}
@@ -80,16 +99,23 @@ function dashboard_style(): string
 .dv-card::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--mx,50%) var(--my,0%),rgba(201,169,110,.16),transparent 60%);opacity:0;transition:opacity .35s;pointer-events:none;z-index:0}
 .dv-card:hover{transform:translateY(-5px);border-color:rgba(201,169,110,.35);box-shadow:0 22px 44px rgba(0,0,0,.4)}
 .dv-card:hover::before{opacity:1}
-.dv-cover{height:76px;position:relative;background:linear-gradient(135deg,hsl(var(--h) 26% 22%),hsl(calc(var(--h) + 30) 22% 14%));overflow:hidden}
+.dv-cover{height:120px;position:relative;background:linear-gradient(135deg,hsl(var(--h) 26% 22%),hsl(calc(var(--h) + 30) 22% 14%));overflow:hidden}
 .dv-cover::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 1px,transparent 1px 14px);}
+.dv-cover.has-img::after{background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.55))}
+.dv-cover-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.8,.2,1)}.tour-card:hover .dv-cover-img,.city-card:hover .dv-cover-img{transform:scale(1.04)}
 .dv-cover-ic{position:absolute;right:16px;bottom:-14px;width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:var(--surface-1);border:1px solid var(--border-strong);box-shadow:0 10px 24px rgba(0,0,0,.35);z-index:2;color:var(--ai-accent);font-family:var(--font-display);font-size:22px;font-weight:700}
 .dv-body{position:relative;z-index:1;padding:20px 20px 18px}
 .dv-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
 .dv-name{margin:0;font-size:17px;font-weight:700;line-height:1.25}
 .dv-name a{color:inherit;text-decoration:none}
 .dv-name a:hover{color:var(--ai-accent)}
-.dv-meta{font-size:12px;color:var(--text-muted);margin-top:5px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.dv-meta{font-size:12px;color:var(--text-muted);margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;min-height:24px}
+.dv-meta>*{display:inline-flex;align-items:center;gap:7px;height:24px;line-height:1;white-space:nowrap}
+.dv-meta .dv-pill{padding:0 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--border)}
+.dv-loc{color:var(--text-secondary)}
+.dv-loc:not(:first-child)::before{content:"·";margin-right:2px;color:var(--text-muted)}
 .dv-pill{padding:2px 9px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--border)}
+.dv-chips .dv-flag{border-color:rgba(245,158,11,.4);background:rgba(245,158,11,.08);color:var(--warning);cursor:help}
 .dv-chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 16px;font-size:12px;color:var(--text-secondary)}
 .dv-chips span{display:inline-flex;gap:6px;align-items:center;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.03);border:1px solid var(--border)}
 .dv-foot{display:flex;justify-content:space-between;align-items:center;gap:10px}
@@ -110,7 +136,7 @@ function dashboard_style(): string
 .dv-empty{grid-column:1/-1;text-align:center;padding:50px 20px;border:1px dashed var(--border-strong);border-radius:20px;color:var(--text-secondary)}
 .dv-empty h3{color:var(--text-primary);margin:12px 0 6px;font-family:var(--font-display);font-size:24px}
 .dv-pager{margin-top:24px}
-@media (max-width:768px){.dv-title{font-size:32px}.dv-hero{padding:22px 20px}.dv-grid{grid-template-columns:1fr}}
+@media (max-width:768px){.dv-title{font-size:32px}.dv-hero{padding:22px 20px}.dv-hero>.dv-hero-art{width:100%;opacity:.16}.dv-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){
   .dv-stat,.dv-attn,.dv-card,.dv-hero::before,.dv-hero::after{animation:none!important;opacity:1!important;transform:none!important}
   .ring-fg{transition:none!important}
@@ -187,11 +213,11 @@ function dashboard_body(array $p): string
         foreach ($p['cards'] as $c) {
             $s = $c['s']; $id = (int)$c['id']; $i = (int)$c['i'];
             $cards .= '<article class="dv-card tour-card" style="--i:' . $i . ';--h:' . $c['hue'] . '" data-status="' . h($s['status']) . '">'
-                . '<div class="dv-cover"><div class="dv-cover-ic">' . h(mb_strtoupper(mb_substr((string)$c['name'], 0, 1))) . '</div></div>'
+                . dash_cover((string)$c['name'], (string)$c['preview'])
                 . '<div class="dv-body"><div class="dv-head"><div style="min-width:0"><h3 class="dv-name"><a href="?a=view&id=' . $id . '">' . h($c['name']) . '</a></h3>'
-                . '<div class="dv-meta">' . dash_status_dot($s['status']) . '<span>' . h($c['loc']) . '</span>' . ($c['cat'] !== '' ? '<span class="dv-pill">' . h($c['cat']) . '</span>' : '') . ($c['exportWarn'] ?? '') . '</div></div>'
+                . '<div class="dv-meta">' . dash_status_dot($s['status']) . ($c['loc'] !== '' ? '<span class="dv-loc">' . h($c['loc']) . '</span>' : '') . ($c['cat'] !== '' ? '<span class="dv-pill">' . h($c['cat']) . '</span>' : '') . '</div></div>'
                 . dash_ring((int)$s['ready'], 52) . '</div>'
-                . '<div class="dv-chips">' . ($s['hasParsed'] ? '<span>' . studio_icon('scenes', 13) . (int)$s['scenes'] . ' scene</span>' : '<span>belum diimpor</span>')
+                . '<div class="dv-chips">' . ($c['exportWarn'] ?? '') . ($s['hasParsed'] ? '<span>' . studio_icon('scenes', 13) . (int)$s['scenes'] . ' scene</span>' : '<span>belum diimpor</span>')
                 . ((int)$s['intents'] > 0 ? '<span>' . studio_icon('questions', 13) . (int)$s['intents'] . ' intent</span>' : '')
                 . ((int)$s['knowledgeTotal'] > 0 ? '<span>' . studio_icon('knowledge', 13) . (int)$s['knowledgeTotal'] . ' pengetahuan</span>' : '') . '</div>'
                 . '<div class="dv-foot"><div class="dv-next">' . (int)$s['doneSteps'] . '/' . (int)$s['totalSteps'] . ' langkah' . ($s['nextStep'] ? '<br><b>Berikutnya:</b> ' . h((string)$s['nextStep']['label']) : ' · lengkap') . '</div>'
@@ -202,14 +228,14 @@ function dashboard_body(array $p): string
     $pager = $p['pager'];
     return '<style>' . dashboard_style() . '</style>'
         . '<div class="dv">'
-        . '<section class="dv-hero"><div class="dv-kicker">' . h($p['kicker']) . '</div><h1 class="dv-title">' . h($p['title']) . '</h1><p class="dv-sub">' . h($p['sub']) . '</p>'
-        . '<div class="dv-actions"><a class="dv-btn dv-btn-gold" href="?a=new">+ Tour baru</a><a class="dv-btn" href="?a=bulkImport">Impor massal</a><a class="dv-btn" href="?a=jobs">Antrian publikasi</a><a class="dv-btn" href="?a=cities">Kota &amp; pengetahuan</a></div></section>'
+        . '<section class="dv-hero">' . (($p['heroCover'] ?? '') !== '' ? '<img class="dv-hero-art" src="' . h($p['heroCover']) . '" alt="" aria-hidden="true" loading="lazy">' : '') . '<div class="dv-kicker">' . h($p['kicker']) . '</div><h1 class="dv-title">' . h($p['title']) . '</h1><p class="dv-sub">' . h($p['sub']) . '</p>'
+        . '<div class="dv-actions"><a class="dv-btn dv-btn-gold" href="?a=new' . ($p['cityKey'] ? '&city=' . urlencode((string)$p['cityKey']) : '') . '">+ Lokasi tour baru</a><a class="dv-btn" href="?a=bulkImport">Impor massal</a><a class="dv-btn" href="?a=jobs">Antrian publikasi</a><a class="dv-btn" href="?a=cities">Kota &amp; pengetahuan</a></div></section>'
         . '<div class="dv-stats">' . implode('', $p['stats']) . '</div>'
         . $attention
         . '<form method="get" action="" id="dvForm" class="dv-bar" role="search">'
         . '<div class="dv-search">' . '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'
         . '<input type="search" id="projSearch" name="q" value="' . h($p['q']) . '" placeholder="Cari tour, slug, atau kota…" aria-label="Cari tour"></div>'
-        . '<select class="dv-select" name="city" aria-label="Kota" onchange="this.form.submit()">' . $p['cityOpts'] . '</select>'
+        . ($p['inCity'] ? '<input type="hidden" name="city" value="' . h((string)$p['inCity']) . '">' : '<select class="dv-select" name="city" aria-label="Kota" onchange="this.form.submit()">' . $p['cityOpts'] . '</select>')
         . '<select class="dv-select" name="cat" aria-label="Kategori" onchange="this.form.submit()">' . $p['catOpts'] . '</select>'
         . '<select class="dv-select" name="sort" aria-label="Urutkan" onchange="this.form.submit()">' . $p['sortOpts'] . '</select>'
         . ($p['st'] !== 'all' ? '<input type="hidden" name="st" value="' . h($p['st']) . '">' : '')
@@ -221,4 +247,34 @@ function dashboard_body(array $p): string
         . $p['error']
         . '</div>'
         . '<script>' . dashboard_script() . '</script>';
+}
+
+/**
+ * Halaman awal Proyek: daftar kota. Setiap kota membuka daftar lokasi (tour) miliknya.
+ * Kota tanpa tour tetap tampil, supaya kota yang baru ditambahkan langsung terlihat.
+ */
+function dashboard_cities_body(array $cities, int $totalTours, int $cityCount): string
+{
+    $cards = '';
+    foreach ($cities as $i => $c) {
+        $cards .= '<a class="dv-card city-card" style="--i:' . $i . ';--h:' . (int)$c['hue'] . ';text-decoration:none;color:inherit;display:block" href="?a=list&city=' . h((string)$c['slug']) . '">'
+            . dash_cover((string)$c['name'], (string)$c['preview'])
+            . '<div class="dv-body"><div class="dv-head"><div style="min-width:0"><h3 class="dv-name">' . h((string)$c['name']) . '</h3>'
+            . '<div class="dv-meta">' . ($c['province'] !== '' ? '<span>' . h((string)$c['province']) . '</span>' : '') . '<span class="dv-pill">' . (int)$c['n'] . ' lokasi</span></div></div>'
+            . ($c['n'] > 0 ? dash_ring((int)$c['avg'], 52) : '') . '</div>'
+            . '<div class="dv-chips">' . ((int)$c['scenes'] > 0 ? '<span>' . studio_icon('scenes', 13) . (int)$c['scenes'] . ' scene</span>' : '')
+            . ((int)$c['needs'] > 0 ? '<span style="color:var(--warning)">' . (int)$c['needs'] . ' perlu perhatian</span>' : '')
+            . ((int)$c['dep'] > 0 ? '<span style="color:var(--info)">' . (int)$c['dep'] . ' terpublikasi</span>' : '')
+            . ($c['n'] === 0 ? '<span>belum ada lokasi</span>' : '') . '</div>'
+            . '<div class="dv-foot"><div class="dv-next">' . ($c['n'] > 0 ? 'Buka daftar lokasi' : 'Tambahkan lokasi pertama') . '</div>'
+            . '<span class="dv-go">Buka' . '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></div></div></a>';
+    }
+    if ($cards === '') $cards = '<div class="dv-empty"><div style="font-size:42px">🗺️</div><h3>Belum ada kota</h3><p>Tambahkan kota dulu, lalu lokasi tour di dalamnya.</p><a class="dv-btn dv-btn-gold" href="?a=cityNew">+ Kota baru</a></div>';
+    return '<style>' . dashboard_style() . '</style>'
+        . '<div class="dv">'
+        . '<section class="dv-hero"><div class="dv-kicker">AI Guide Studio · ' . date('d M Y') . '</div><h1 class="dv-title">Pilih kota</h1>'
+        . '<p class="dv-sub">' . h(i18n_fmt('{n} kota · {t} lokasi tour. Pilih kota untuk melihat dan mengelola lokasinya.', ['n' => $cityCount, 't' => $totalTours])) . '</p>'
+        . '<div class="dv-actions"><a class="dv-btn dv-btn-gold" href="?a=new">+ Lokasi tour baru</a><a class="dv-btn" href="?a=cityNew">+ Kota baru</a><a class="dv-btn" href="?a=bulkImport">Impor massal</a><a class="dv-btn" href="?a=jobs">Antrian publikasi</a></div></section>'
+        . '<div class="dv-grid">' . $cards . '</div>'
+        . '</div>';
 }

@@ -16,6 +16,8 @@ mkdir("$tmp/app", 0777, true);
 mkdir("$tmp/tools", 0777, true);
 copy("$root/tools/worker.php", "$tmp/tools/worker.php");
 foreach (glob("$root/app/*.php") ?: [] as $f) copy($f, "$tmp/app/" . basename($f));
+mkdir("$tmp/app/i18n", 0777, true);
+foreach (glob("$root/app/i18n/*.php") ?: [] as $f) copy($f, "$tmp/app/i18n/" . basename($f));
 
 $fail = 0;
 function check(string $name, bool $ok, string $extra = ''): void { global $fail; echo ($ok ? 'PASS ' : 'FAIL ') . $name . ($ok || $extra === '' ? '' : "  -> $extra") . "\n"; if (!$ok) $fail++; }
@@ -91,7 +93,7 @@ check('nearby: field di luar form (lat/lng) dipertahankan', ($n['lat'] ?? null) 
 jw('storage/cities/kotatest/meta.json', ['name' => 'Kota Test', 'instructions' => 'ATURAN PENTING']);
 jw('storage/cities/kotatest/knowledge.json', ['entries' => [['id' => 'c1', 'title' => 'Alun-alun', 'content' => 'Lama', 'source' => 'situs-resmi', 'url' => 'https://contoh.id', 'translations' => ['en' => ['title' => 'Square', 'content' => 'Old']]]]]);
 $page = getp(['a' => 'city', 'city' => 'kotatest']);
-$fp = strpos($page, '<form method="post" action="?a=citySave">'); $ip = strpos($page, 'name="instructions"'); $fe = strrpos($page, '</form>');
+$fp = strrpos(substr($page, 0, (int)strpos($page, 'name="instructions"')), '<form '); $ip = strpos($page, 'name="instructions"'); $fe = strrpos($page, '</form>');
 check('city: textarea instructions berada DI DALAM form', $fp !== false && $ip !== false && $fp < $ip && $ip < $fe);
 post(['a' => 'citySave'], ['city' => 'kotatest', 'name' => 'Kota Test', 'entry_count' => 1, 'entry_0_id' => 'c1', 'entry_0_title' => 'Alun-alun', 'entry_0_content' => 'Baru']);
 check('city: instructions tidak terhapus bila tidak dikirim', (jr('storage/cities/kotatest/meta.json')['instructions'] ?? '') === 'ATURAN PENTING');
@@ -212,23 +214,38 @@ $o = getp(['a' => 'new']);
 check('form tour: halaman memuat pilihan kota & saran export', str_contains($o, 'id="tour_city"') && str_contains($o, 'exportCandidates') && str_contains($o, 'Kota baru'));
 @unlink("$expDir/pano.xml"); @rmdir($expDir); @rmdir($noPano);
 
+// ---------- E. Bahasa: English default, Indonesia bisa dipilih ----------
+$enHome = req(['get' => ['a' => 'list'], 'lang' => 'en', 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]]);
+check('bahasa: default English (lang="en" di tag html)', str_contains($enHome, '<html lang="en">'));
+check('bahasa: English menampilkan kalimat kota', str_contains($enHome, 'Pick a city'));
+$enVisible = preg_replace('/<script\b.*?<\/script>/s', '', $enHome); // kamus JS ikut di <script>; yang diperiksa hanya yang tampil
+check('bahasa: English tidak lagi memuat kalimat Indonesia utama', !str_contains($enVisible, 'Pilih kota untuk melihat'));
+$idHome = req(['get' => ['a' => 'list'], 'lang' => 'id', 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]]);
+check('bahasa: Indonesia tetap tersedia (lang="id")', str_contains($idHome, '<html lang="id">') && str_contains($idHome, 'Pilih kota'));
+check('bahasa: tombol EN/ID tampil di topbar', str_contains($enHome, 'lang-opt') && str_contains($enHome, 'hreflang="id"'));
+
+// ---------- L0. Hierarki: halaman awal menampilkan daftar kota, tour hanya setelah kota dipilih ----------
+$home = getp(['a' => 'list']);
+check('hierarki: halaman awal menampilkan kartu kota', substr_count($home, 'city-card') >= 1 && !str_contains($home, 'class="dv-card tour-card"'));
+check('hierarki: sidebar memuat daftar kota', str_contains($home, 'kotatest') || str_contains($home, 'Kota Test'));
+check('hierarki: membuka kota menampilkan tour miliknya', substr_count(getp(['a' => 'list', 'city' => 'kotatest']), 'class="dv-card tour-card"') >= 1);
 // ---------- L. Dashboard: filter, pencarian, paginasi di server ----------
 $cid = (int)$pdo->query("SELECT id FROM cities WHERE slug='kotatest'")->fetchColumn();
 $ins = $pdo->prepare('INSERT INTO tours(slug,name,location,city_id,category,export_path,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)');
 for ($i = 1; $i <= 30; $i++) $ins->execute(['bulk-' . $i, 'Bulk Tour ' . str_pad((string)$i, 2, '0', STR_PAD_LEFT), 'Kotatest', $cid, $i % 2 ? 'Pariwisata' : 'Agama', '', $now, $now]);
-$d1 = getp(['a' => 'list']);
+$d1 = getp(['a' => 'list', 'city' => 'kotatest']);
 check('dashboard: paginasi tampil bila tour > 24 per halaman', str_contains($d1, 'class="pager"') && str_contains($d1, 'Berikutnya'));
 $cards1 = substr_count($d1, '<article class="dv-card tour-card"');
 check('dashboard: halaman 1 hanya berisi 24 kartu', $cards1 === 24, "kartu=$cards1");
-$d2 = getp(['a' => 'list', 'page' => 2]);
-check('dashboard: halaman 2 berisi sisanya', substr_count($d2, '<article class="dv-card tour-card"') === (int)$pdo->query('SELECT COUNT(*) FROM tours')->fetchColumn() - 24);
+$d2 = getp(['a' => 'list', 'page' => 2, 'city' => 'kotatest']);
+check('dashboard: halaman 2 berisi sisanya', substr_count($d2, '<article class="dv-card tour-card"') === (int)$pdo->query("SELECT COUNT(*) FROM tours t JOIN cities c ON c.id=t.city_id WHERE c.slug='kotatest'")->fetchColumn() - 24);
 $d3 = getp(['a' => 'list', 'q' => 'Bulk Tour 07']);
 check('dashboard: pencarian server-side hanya memunculkan yang cocok', substr_count($d3, '<article class="dv-card tour-card"') === 1 && str_contains($d3, 'Bulk Tour 07'));
 $d4 = getp(['a' => 'list', 'cat' => 'Agama', 'city' => 'kotatest']);
 check('dashboard: filter kategori+kota bekerja (15 tour Agama)', substr_count($d4, '<article class="dv-card tour-card"') === 15, 'kartu=' . substr_count($d4, '<article class="dv-card tour-card"'));
 $d5 = getp(['a' => 'list', 'q' => 'tidak-ada-yang-cocok-xyz']);
 check('dashboard: hasil kosong menampilkan pesan, bukan halaman kosong', str_contains($d5, 'Tidak ada yang cocok'));
-$d6 = getp(['a' => 'list', 'sort' => 'name']);
+$d6 = getp(['a' => 'list', 'sort' => 'name', 'city' => 'kotatest']);
 check('dashboard: urut nama A-Z menaruh "Bulk Tour 01" lebih dulu dari "Tour Dua"', strpos($d6, 'Bulk Tour 01') !== false && strpos($d6, 'Bulk Tour 01') < strpos($d6, 'Tour Dua') || !str_contains($d6, 'Tour Dua'));
 $d7 = getp(['a' => 'list', 'page' => 999]);
 check('dashboard: nomor halaman berlebih dibatasi ke halaman terakhir', str_contains($d7, 'tour-card'));
@@ -343,10 +360,10 @@ post(['a' => 'userCreate'], ['username' => 'ed1', 'password' => 'Sandi-Editor-77
 $ed = $pdo->query("SELECT * FROM users WHERE username='ed1'")->fetch(PDO::FETCH_ASSOC);
 check('pengguna: editor dibuat, wajib ganti password, cakupan tersimpan', $ed && (int)$ed['must_change'] === 1 && $ed['role'] === 'editor' && (int)$pdo->query('SELECT COUNT(*) FROM user_cities WHERE user_id=' . (int)$ed['id'])->fetchColumn() === 1);
 $edSess = ['user' => ['id' => (int)$ed['id'], 'username' => 'ed1', 'role' => 'editor']];
-$dash = getp(['a' => 'list'], $edSess);
+$dash = getp(['a' => 'list', 'city' => 'kotatest'], $edSess);
 check('cakupan: dashboard editor hanya menampilkan tour di kotanya', str_contains($dash, 'Tour Dua') && !str_contains($dash, 'Gedung Utama') && !str_contains($dash, 'Ruang Seminar'));
 $out = getp(['a' => 'view', 'id' => $gtid], $edSess);
-check('cakupan: membuka tour di kota lain ditolak', str_contains($out, 'di luar kota yang boleh Anda kelola') && !str_contains($out, '<div class="ov-head">'));
+check('cakupan: membuka tour di kota lain ditolak', str_contains($out, 'di luar kota yang boleh Anda kelola') && !str_contains($out, '<div class="sum-head">'));
 $before = (string)$pdo->query("SELECT name FROM tours WHERE id=$gtid")->fetchColumn();
 req(['get' => ['a' => 'save'], 'post' => ['csrf_token' => 'TESTTOKEN', 'id' => $gtid, 'name' => 'DIRETAS', 'slug' => 'gedung-utama', 'city_id' => $cw, 'export_path' => ''], 'session' => $edSess]);
 check('cakupan: menyimpan tour di kota lain ditolak dan tidak mengubah data', (string)$pdo->query("SELECT name FROM tours WHERE id=$gtid")->fetchColumn() === $before);
@@ -355,7 +372,7 @@ check('cakupan: membuat tour di kota luar cakupan ditolak', (int)$pdo->query("SE
 $out = getp(['a' => 'city', 'city' => 'kota-wizard'], $edSess);
 check('cakupan: membuka kota di luar cakupan ditolak', str_contains($out, 'di luar cakupan'));
 $out = getp(['a' => 'view', 'id' => (int)$pdo->query("SELECT id FROM tours WHERE slug='tour-dua'")->fetchColumn()], $edSess);
-check('cakupan: tour di kota sendiri tetap bisa dibuka', str_contains($out, '<div class="ov-head">'));
+check('cakupan: tour di kota sendiri tetap bisa dibuka', str_contains($out, '<div class="sum-head">'));
 $out = getp(['a' => 'users'], $edSess);
 check('peran: editor tidak boleh membuka halaman Pengguna', str_contains($out, '403') || str_contains($out, 'Akses ditolak'));
 $out = getp(['a' => 'audit'], ['user' => ['id' => 99, 'username' => 'q', 'role' => 'qa']]);
@@ -372,6 +389,56 @@ check('audit: isi form dan password TIDAK tersimpan di log', (int)$pdo->query("S
 check('audit: login ditolak & pembuatan pengguna tercatat', (int)$pdo->query("SELECT COUNT(*) FROM audit_log WHERE action IN ('loginDitolak','userCreate')")->fetchColumn() >= 2);
 check('audit: halaman audit menampilkan catatan & filter', str_contains(getp(['a' => 'audit']), 'saveKnowledge') && str_contains(getp(['a' => 'audit', 'user' => 'tester']), 'Jejak Audit'));
 
+// ---------- P. Kota baru (dari halaman Kota & pengetahuan) harus terdaftar penuh ----------
+req(['get' => ['a' => 'cityNew'], 'post' => ['csrf_token' => 'TESTTOKEN', 'name' => 'Badung Bali'], 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]]);
+check('kota baru: terdaftar di database', (int)$pdo->query("SELECT COUNT(*) FROM cities WHERE slug='badung-bali'")->fetchColumn() === 1);
+check('kota baru: muncul di daftar Kota', str_contains(getp(['a' => 'cities']), 'Badung Bali'));
+check('kota baru: muncul di dropdown form tour', str_contains(getp(['a' => 'new']), 'Badung Bali'));
+check('kota baru: halaman pengetahuan kota terbuka', !str_contains(getp(['a' => 'city', 'city' => 'badung-bali']), 'Kota tidak ditemukan'));
+jw('storage/cities/badung-bali/knowledge.json', ['entries' => [['id' => 'x', 'title' => 'Pantai Kuta', 'content' => 'Ada.']]]);
+req(['get' => ['a' => 'cityNew'], 'post' => ['csrf_token' => 'TESTTOKEN', 'name' => 'Badung Bali'], 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]]);
+check('kota baru: membuat ulang kota yang sudah ada TIDAK menghapus knowledg-nya', (jr('storage/cities/badung-bali/knowledge.json')['entries'][0]['title'] ?? '') === 'Pantai Kuta');
+jw('storage/cities/kota-yatim/meta.json', ['name' => 'Kota Yatim']);
+getp(['a' => 'cities']);
+check('kota yatim (folder tanpa baris DB) ikut terdaftar saat daftar dibuka', (int)$pdo->query("SELECT COUNT(*) FROM cities WHERE slug='kota-yatim'")->fetchColumn() === 1);
+
+// ---------- Q. Sumber data kota: teks tempel, hapus (ikut menghapus topiknya), dan keamanan URL ----------
+$cityQ = 'kotatest'; $adm = ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']];
+$topicsBefore = count(jr("storage/cities/$cityQ/knowledge.json")['entries'] ?? []);
+post(['a' => 'citySourceText'], ['city' => $cityQ, 'title' => 'Brosur Uji', 'text' => "Sejarah Kota Test\n\nKota Test berdiri sejak tahun 1900 sebagai pusat perdagangan di pesisir utara. Warganya ramah dan bangunan tuanya masih terawat dengan baik hingga kini."]);
+$kbQ = jr("storage/cities/$cityQ/knowledge.json");
+$fromBrosur = array_filter($kbQ['entries'] ?? [], fn($e) => ($e['source'] ?? '') === 'Brosur Uji');
+check('sumber teks: topik dibuat dari teks tempel dan diberi nama sumbernya', count($fromBrosur) >= 1);
+$srcQ = jr("storage/cities/$cityQ/sources.json");
+check('sumber teks: tercatat di daftar sumber dengan tipe text', (($srcQ['sources'][0]['type'] ?? '') === 'text') && (($srcQ['sources'][0]['title'] ?? '') === 'Brosur Uji'));
+$page = getp(['a' => 'citySources', 'city' => $cityQ]);
+check('halaman sumber: menampilkan tiga cara menambah & sumber yang sudah ada', str_contains($page, 'Tambah sumber') && str_contains($page, 'Brosur Uji') && str_contains($page, 'Teks tempel'));
+$srcSebelum = count(jr("storage/cities/$cityQ/sources.json")['sources'] ?? []);
+post(['a' => 'citySourceText'], ['city' => $cityQ, 'title' => 'Kosong', 'text' => '   ']);
+check('sumber teks: teks kosong tidak membuat sumber baru', count(jr("storage/cities/$cityQ/sources.json")['sources'] ?? []) === $srcSebelum);
+$idxBrosur = array_search('Brosur Uji', array_map(fn($x) => $x['title'] ?? '', $srcQ['sources'] ?? []), true);
+$idxBrosur = array_search('Brosur Uji', array_map(fn($x) => $x['title'] ?? '', $srcQ['sources'] ?? []));
+// sumber lain yang topiknya tidak boleh ikut terhapus
+jw("storage/cities/$cityQ/knowledge.json", array_merge($kbQ, ['entries' => array_merge($kbQ['entries'] ?? [], [['id' => 'manual:lain', 'title' => 'Topik Manual', 'content' => 'Tetap ada.', 'source' => 'Manual', 'provenance' => 'manual']])]));
+post(['a' => 'citySourceDelete'], ['city' => $cityQ, 'idx' => $idxBrosur]);
+$kbAfter = jr("storage/cities/$cityQ/knowledge.json");
+check('hapus sumber: topik yang dibuat darinya ikut terhapus', count(array_filter($kbAfter['entries'] ?? [], fn($e) => ($e['source'] ?? '') === 'Brosur Uji')) === 0);
+check('hapus sumber: topik manual tidak ikut terhapus', in_array('manual:lain', array_column($kbAfter['entries'] ?? [], 'id'), true));
+check('hapus sumber: daftar sumber berkurang', count(jr("storage/cities/$cityQ/sources.json")['sources'] ?? []) === 0);
+$kbRefreshSebelum = count(jr("storage/cities/$cityQ/knowledge.json")['entries'] ?? []);
+req(['get' => ['a' => 'citySourceRefresh'], 'post' => ['csrf_token' => 'TESTTOKEN', 'city' => $cityQ, 'idx' => 0], 'session' => $adm]);
+check('ambil ulang: indeks sumber yang tidak ada tidak mengubah topik', count(jr("storage/cities/$cityQ/knowledge.json")['entries'] ?? []) === $kbRefreshSebelum);
+req(['get' => ['a' => 'citySourceUrl'], 'post' => ['csrf_token' => 'TESTTOKEN', 'city' => $cityQ, 'url' => 'http://localhost/rahasia'], 'session' => $adm]);
+check('keamanan: URL lokal (localhost) tidak menambah sumber', count(jr("storage/cities/$cityQ/sources.json")['sources'] ?? []) === 0);
+
+// ---------- H. Kesehatan AI per lokasi ----------
+$hp = getp(['a' => 'health']);
+check('kesehatan: halaman terbuka dan menampilkan tombol cek', str_contains($hp, 'Cek semua lokasi') && str_contains($hp, 'hc-table'));
+req(['get' => ['a' => 'healthBase'], 'post' => ['csrf_token' => 'TESTTOKEN', 'city' => 'kotatest', 'base' => 'ftp://bukan-http'], 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]]);
+check('kesehatan: alamat publik tanpa http(s) ditolak', (string)$pdo->query("SELECT public_base FROM cities WHERE slug='kotatest'")->fetchColumn() === '');
+req(['get' => ['a' => 'healthBase'], 'post' => ['csrf_token' => 'TESTTOKEN', 'city' => 'kotatest', 'base' => 'https://kota-test.govirtual.id/'], 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]]);
+check('kesehatan: alamat publik valid disimpan tanpa garis miring akhir', (string)$pdo->query("SELECT public_base FROM cities WHERE slug='kotatest'")->fetchColumn() === 'https://kota-test.govirtual.id');
+
 // ---------- J. Wajib ganti password bawaan ----------
 $out = getp(['a' => 'list'], ['must_change_pw' => true]);
 check('password bawaan: halaman lain dialihkan (tidak merender dashboard)', trim($out) === '');
@@ -386,6 +453,89 @@ check('akun: link nama pengguna ke halaman Akun ada di topbar', str_contains($ou
 $many = ['item_count' => 1, 'item_0_id' => 'n1', 'item_0_name' => 'LOLOS']; for ($j = 0; $j < 40; $j++) $many["pad_$j"] = 'x';
 $out = req(['get' => ['a' => 'saveNearby', 'id' => 1], 'post' => $many + ['csrf_token' => 'TESTTOKEN'], 'session' => ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']]], ['-d', 'max_input_vars=30']);
 check('max_input_vars: form yang melebihi batas ditolak', str_contains($out, 'Form terlalu besar'));
+
+// ---------- K. Penyedia AI (API Keys) ----------
+$mockPort = 8099; $mockBase = "http://127.0.0.1:$mockPort/v1";
+$nul = DIRECTORY_SEPARATOR === '\\' ? 'NUL' : '/dev/null';
+$mockProc = proc_open([$php, '-S', "127.0.0.1:$mockPort", "$root/tests/mock_openai.php"], [1 => ['file', $nul, 'w'], 2 => ['file', $nul, 'w']], $mockPipes, $root);
+usleep(900000); // beri waktu server palsu untuk naik
+$adm = ['user' => ['id' => 1, 'username' => 'tester', 'role' => 'admin']];
+$pdo->prepare('INSERT INTO api_keys(provider,label,api_key,is_active,priority,created_at,updated_at) VALUES(?,?,?,?,?,?,?)')->execute(['mockai', 'Mock', 'mock-key-123', 1, 0, $now, $now]);
+$pdo->prepare('INSERT INTO api_keys(provider,label,api_key,is_active,priority,created_at,updated_at) VALUES(?,?,?,?,?,?,?)')->execute(['nobase', 'Tanpa base', 'mock-key-123', 1, 0, $now, $now]);
+$pdo->prepare('INSERT INTO settings(skey,svalue,updated_at) VALUES(?,?,?)')->execute(['MOCKAI_BASE_URL', $mockBase, $now]);
+$pdo->prepare('INSERT INTO settings(skey,svalue,updated_at) VALUES(?,?,?)')->execute(['MOCKAI_MODEL', 'mock-1', $now]);
+$keysHtml = getp(['a' => 'keys']);
+check('penyedia: halaman Penyedia AI merender kartu penyedia custom', str_contains($keysHtml, 'Mockai (OpenAI-compatible)') && str_contains($keysHtml, 'kp-card'));
+check('penyedia: penyedia tanpa base URL menampilkan "belum diisi" (tidak menebak api.<nama>.com)', str_contains($keysHtml, 'belum diisi') && !str_contains($keysHtml, 'api.nobase.com'));
+$tJson = fn(string $o) => json_decode($o, true) ?: [];
+$t = $tJson(post(['a' => 'testDraft'], ['provider' => 'mockai', 'key' => 'mock-key-123', 'base' => $mockBase, 'model' => 'mock-1']));
+check('tes koneksi: key & endpoint benar → OK dengan balasan dari server', ($t['ok'] ?? false) === true && ($t['reply'] ?? '') === 'pong', json_encode($t));
+$t = $tJson(post(['a' => 'testDraft'], ['provider' => 'mockai', 'key' => 'salah-total', 'base' => $mockBase, 'model' => 'mock-1']));
+check('tes koneksi: key salah → gagal dengan HTTP 401', ($t['ok'] ?? true) === false && (int)($t['http'] ?? 0) === 401, json_encode($t));
+$t = $tJson(post(['a' => 'testDraft'], ['provider' => 'mockai', 'key' => 'mock-key-123', 'base' => '', 'model' => 'mock-1']));
+check('tes koneksi: base URL kosong untuk penyedia custom → ditolak (tidak ditebak)', str_contains((string)($t['error'] ?? ''), 'Base URL belum diisi'));
+$t = $tJson(post(['a' => 'testDraft'], ['provider' => 'mockai', 'key' => 'mock-key-123', 'base' => $mockBase, 'model' => '']));
+check('tes koneksi: model kosong untuk penyedia custom → ditolak', str_contains((string)($t['error'] ?? ''), 'Model belum diisi'));
+$t = $tJson(post(['a' => 'testDraft'], ['provider' => 'mockai', 'key' => '', 'base' => $mockBase, 'model' => 'mock-1']));
+check('tes koneksi: key kosong → diminta isi key', str_contains((string)($t['error'] ?? ''), 'Isi API key'));
+$o = req(['get' => ['a' => 'testDraft'], 'post' => ['provider' => 'mockai', 'key' => 'mock-key-123', 'base' => $mockBase, 'model' => 'mock-1', 'csrf_token' => 'TESTTOKEN'], 'session' => ['user' => ['id' => 2, 'username' => 'editor', 'role' => 'editor']]]);
+check('tes koneksi: bukan admin → 403', str_contains($o, 'admin required'));
+$o = post(['a' => 'testDraft'], ['provider' => 'mockai', 'key' => 'mock-key-123', 'base' => $mockBase, 'model' => 'mock-1'], [], false);
+check('tes koneksi: tanpa CSRF → ditolak', str_contains($o, 'CSRF'));
+
+$countKeys = fn() => (int)$pdo->query('SELECT COUNT(*) FROM api_keys')->fetchColumn();
+$before = $countKeys();
+$o = post(['a' => 'saveKeys'], ['new_provider_name' => 'groq', 'new_provider_key' => 'x', 'new_provider_base' => $mockBase, 'new_provider_model' => 'm']);
+check('simpan penyedia: nama bawaan (groq) ditolak', str_contains($o, 'sudah dipakai') && $countKeys() === $before);
+$o = post(['a' => 'saveKeys'], ['new_provider_name' => 'tanpabase', 'new_provider_key' => 'mock-key-123', 'new_provider_base' => '', 'new_provider_model' => 'm']);
+check('simpan penyedia: base URL kosong ditolak', str_contains($o, 'Base URL penyedia baru') && $countKeys() === $before);
+$o = post(['a' => 'saveKeys'], ['new_provider_name' => 'tanpamodel', 'new_provider_key' => 'mock-key-123', 'new_provider_base' => $mockBase, 'new_provider_model' => '']);
+check('simpan penyedia: model kosong ditolak', str_contains($o, 'nama model') && $countKeys() === $before);
+$o = post(['a' => 'saveKeys'], ['set_AI_PROVIDER' => 'tidakada']);
+check('simpan: penyedia utama yang tidak dikenal ditolak', str_contains($o, 'tidak dikenal') && (string)$pdo->query("SELECT svalue FROM settings WHERE skey='AI_PROVIDER'")->fetchColumn() !== 'tidakada');
+
+// Simpan penuh pada SANDBOX: runtime master diarahkan ke folder tes (GUIDE_RUNTIME_SOURCE), tidak menyentuh runtime asli.
+$rtDir = "$tmp/runtime"; mkdir($rtDir, 0777, true);
+putenv('GUIDE_RUNTIME_SOURCE=' . $rtDir);
+$o = post(['a' => 'saveKeys'], [
+    'set_AI_PROVIDER' => 'mockai2', 'set_AI_FALLBACK_PROVIDERS' => 'mockai',
+    'new_provider_name' => 'mockai2', 'new_provider_label' => 'Mock 2', 'new_provider_key' => 'mock-key-123',
+    'new_provider_base' => $mockBase, 'new_provider_model' => 'mock-1',
+]);
+putenv('GUIDE_RUNTIME_SOURCE');
+check('simpan penyedia baru: berhasil disimpan & disinkronkan', str_contains($o, 'API keys & settings disimpan'), substr($o, 0, 200));
+check('simpan penyedia baru: key tersimpan di database', (int)$pdo->query("SELECT COUNT(*) FROM api_keys WHERE provider='mockai2'")->fetchColumn() === 1);
+$envTxt = (string)@file_get_contents("$rtDir/.env");
+check('simpan penyedia baru: .env runtime berisi key, model, base URL, dan AI_PROVIDER', str_contains($envTxt, 'MOCKAI2_API_KEY=mock-key-123') && str_contains($envTxt, 'MOCKAI2_MODEL=mock-1') && str_contains($envTxt, "MOCKAI2_BASE_URL=$mockBase") && str_contains($envTxt, 'AI_PROVIDER=mockai2'));
+check('.env: penyedia tanpa base URL menulis baris kosong (bukan tebakan)', (bool)preg_match('/^NOBASE_BASE_URL=$/m', (function () use ($tmp) {
+    file_put_contents("$tmp/envcheck.php", "<?php\ndefine('STUDIO_ROUTE_RUNNER', true);\nob_start();\nchdir('" . str_replace('\\', '/', $tmp) . "');\n\$_SERVER['REQUEST_METHOD'] = 'GET';\n\$_GET = ['a' => '__none'];\nrequire '" . str_replace('\\', '/', $tmp) . "/index.php';\nob_end_clean();\necho env_render_from_db();\n");
+    return (string)shell_exec($GLOBALS['php'] . ' ' . escapeshellarg("$tmp/envcheck.php") . ' 2>&1');
+})()));
+proc_terminate($mockProc);
+proc_close($mockProc);
+
+// ---------- L. Playground ----------
+$mockProc = proc_open([$php, '-S', "127.0.0.1:$mockPort", "$root/tests/mock_openai.php"], [1 => ['file', $nul, 'w'], 2 => ['file', $nul, 'w']], $mockPipes, $root);
+usleep(900000);
+$pgHtml = getp(['a' => 'playground', 'city' => 'kotatest']);
+check('playground: halaman tampil dengan pilihan kota & lokasi', str_contains($pgHtml, 'id="pgForm"') && str_contains($pgHtml, 'Semua lokasi (simulasi kota)'));
+$pg = fn(array $post) => json_decode(post(['a' => 'playAnswer'], $post), true) ?: [];
+$r = $pg(['city' => 'kotatest', 'tour' => '0', 'q' => '   ']);
+check('playground: pertanyaan kosong ditolak', ($r['ok'] ?? true) === false && str_contains((string)($r['error'] ?? ''), 'Tulis pertanyaan'));
+$r = $pg(['city' => 'kota-tidak-ada', 'tour' => '0', 'q' => 'Halo']);
+check('playground: kota tidak dikenal ditolak', ($r['ok'] ?? true) === false && str_contains((string)($r['error'] ?? ''), 'Pilih kota'));
+$r = $pg(['city' => 'kotatest', 'tour' => '0', 'q' => 'Apa yang menarik di sini?']);
+check('playground: simulasi kota dijawab penyedia AI (mode simulasi)', ($r['ok'] ?? false) === true && ($r['mode'] ?? '') === 'simulasi' && ($r['reply'] ?? '') === 'pong', json_encode($r));
+check('playground: jawaban menyebut penyedia & model yang dipakai', ($r['provider'] ?? '') !== '' && ($r['model'] ?? '') === 'mock-1');
+// Tur khusus untuk Playground (tur 'demo' sudah dihapus pada bagian sebelumnya).
+$pdo->prepare('INSERT INTO tours(slug,name,location,city_id,category,export_path,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)')->execute(['pg-tour', 'Tur Playground', 'Lokasi Uji', (int)$pdo->query("SELECT id FROM cities WHERE slug='kotatest'")->fetchColumn(), '', '', $now, $now]);
+$demoId = (int)$pdo->query("SELECT id FROM tours WHERE slug='pg-tour'")->fetchColumn();
+$r = $pg(['city' => 'kotatest', 'tour' => (string)$demoId, 'scene' => '', 'q' => 'Jam buka berapa?']);
+check('playground: lokasi belum dideploy → simulasi dengan catatan jelas', ($r['ok'] ?? false) === true && ($r['mode'] ?? '') === 'simulasi' && str_contains((string)($r['note'] ?? ''), 'belum dideploy'), json_encode($r));
+$r = $pg(['city' => 'kotatest', 'tour' => (string)$demoId, 'q' => 'Halo', 'history' => json_encode([['role' => 'user', 'content' => 'x'], ['role' => 'assistant', 'content' => 'y']])]);
+check('playground: riwayat percakapan ikut dikirim tanpa galat', ($r['ok'] ?? false) === true);
+proc_terminate($mockProc);
+proc_close($mockProc);
 
 // bersihkan
 function rrmdir(string $d): void { foreach (scandir($d) ?: [] as $f) { if ($f === '.' || $f === '..') continue; $p = "$d/$f"; is_dir($p) ? rrmdir($p) : @unlink($p); } @rmdir($d); }

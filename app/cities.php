@@ -29,6 +29,27 @@ function city_row_by_id(int $id): ?array
     return $r ?: null;
 }
 
+/**
+ * Folder kota di storage/cities yang belum punya baris database (mis. dibuat sebelum fitur ini) ditambahkan.
+ * Aman dipanggil berulang: hanya menyisipkan yang belum ada.
+ */
+function cities_reconcile_folders(): void
+{
+    static $done = false;
+    if ($done) return;
+    $done = true;
+    $dir = cities_dir();
+    if (!is_dir($dir)) return;
+    $known = db()->query('SELECT slug FROM cities')->fetchAll(PDO::FETCH_COLUMN) ?: [];
+    foreach (scandir($dir) ?: [] as $slug) {
+        if ($slug === '.' || $slug === '..' || !is_dir($dir . '/' . $slug) || in_array($slug, $known, true)) continue;
+        $meta = json_decode((string)@file_get_contents($dir . '/' . $slug . '/meta.json'), true);
+        $name = is_array($meta) && !empty($meta['name']) ? (string)$meta['name'] : ucwords(str_replace('-', ' ', $slug));
+        $now = date('c');
+        db()->prepare('INSERT OR IGNORE INTO cities(slug,name,created_at,updated_at) VALUES(?,?,?,?)')->execute([$slug, $name, $now, $now]);
+    }
+}
+
 /** Cari kota berdasarkan nama/slug; buat bila belum ada. Mengembalikan baris kota. */
 function city_ensure(string $name, string $slug = ''): array
 {

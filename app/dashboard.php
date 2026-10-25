@@ -28,6 +28,9 @@ function render_dashboard(string $error = ''): void
     if (!in_array($st, ['all', 'draft', 'needs', 'ready', 'deployed'], true)) $st = 'all';
 
     $tours = all_tours();
+    // Di dalam sebuah kota, semua angka & peringatan hanya mencakup kota itu.
+    $inCity = (string)($_GET['city'] ?? '');
+    if ($inCity !== '') $tours = array_values(array_filter($tours, fn($t) => tour_city_slug($t) === $inCity));
     $stats = []; $counts = ['draft' => 0, 'needs' => 0, 'ready' => 0, 'deployed' => 0];
     $sceneTotal = 0; $knowTotal = 0; $cityCount = []; $catCount = []; $changedTours = 0; $rtOutdated = 0; $rtByTour = [];
     foreach ($tours as $t) {
@@ -75,11 +78,33 @@ function render_dashboard(string $error = ''): void
         }
     }
 
+    // ---- Hierarki: Kota → Lokasi. Tanpa kota/pencarian/filter, tampilkan daftar kota saja. ----
+    if ($cityF === '' && $q === '' && $st === 'all' && $catF === '' && !isset($_GET['page'])) {
+        $byCity = [];
+        foreach ($tours as $t) $byCity[tour_city_slug($t)][] = $t;
+        $cityCards = [];
+        foreach (all_cities() as $c) {
+            $list = $byCity[$c['slug']] ?? [];
+            $n = count($list); $sum = 0; $needs = 0; $dep = 0; $scenes = 0;
+            // Sampul kota: foto kota (cover.jpg) bila ada, jika tidak foto lokasi pertama yang punya gambar.
+            $preview = '';
+            if (is_file(city_dir($c['slug']) . '/cover.jpg')) $preview = '?a=cityCover&city=' . urlencode((string)$c['slug']);
+            foreach ($list as $t) {
+                $s = $stats[(int)$t['id']]; $sum += (int)$s['ready']; if ($s['status'] === 'needs') $needs++; if ($s['status'] === 'deployed') $dep++; $scenes += (int)$s['scenes'];
+                if ($preview === '') $preview = dash_preview_url($t);
+            }
+            $cityCards[] = ['slug' => $c['slug'], 'name' => $c['name'], 'province' => (string)$c['province'], 'n' => $n, 'avg' => $n ? (int)round($sum / $n) : 0, 'needs' => $needs, 'dep' => $dep, 'scenes' => $scenes, 'hue' => dash_city_hue($c['slug']), 'preview' => $preview];
+        }
+        layout('Proyek', dashboard_cities_body($cityCards, $total, count($cityCards)));
+        return;
+    }
+
     // ---- filter & tab ----
     $statusLabels = ['all' => 'Semua', 'draft' => 'Draf', 'needs' => 'Perlu perhatian', 'ready' => 'Siap', 'deployed' => 'Terpublikasi'];
     $tabs = [];
     foreach ($statusLabels as $k => $label) $tabs[] = ['label' => $label, 'n' => $k === 'all' ? $total : ($counts[$k] ?? 0), 'on' => $st === $k, 'href' => dashboard_query($base, ['st' => $k, 'page' => 1])];
     $cityOpts = '<option value="">Semua kota</option>';
+    if ($inCity !== '') $cityOpts = '<option value="' . h($inCity) . '" selected>' . h($inCity) . '</option>';
     foreach (all_cities() as $c) if (($cityCount[$c['slug']] ?? 0) > 0) $cityOpts .= '<option value="' . h($c['slug']) . '"' . ($cityF === $c['slug'] ? ' selected' : '') . '>' . h($c['name']) . ' (' . $cityCount[$c['slug']] . ')</option>';
     $catOpts = '<option value="">Semua kategori</option>';
     ksort($catCount);
@@ -96,9 +121,9 @@ function render_dashboard(string $error = ''): void
         elseif ($s['status'] === 'needs') $continue = '?a=knowledge&id=' . $id;
         elseif ($s['status'] === 'ready') { $continue = '?a=publish&id=' . $id; $cta = 'Publikasikan'; }
         $rt = $rtByTour[$id] ?? ['state' => 'none', 'diff' => []];
-        $exportWarn = ($rt['state'] === 'outdated' ? '<span class="export-changed-chip" title="Runtime terpasang berbeda dari master">runtime lama</span>' : '')
-            . ($s['exportChanged'] ? '<span class="export-changed-chip" title="Berubah: ' . h(implode(', ', $s['exportChanged'])) . '">🔄</span>' : '');
-        $cards[] = ['id' => $id, 'i' => $i++, 'name' => (string)$t['name'], 'loc' => (string)$t['location'], 'cat' => (string)$t['category'], 's' => $s, 'continue' => $continue, 'cta' => $cta, 'exportWarn' => $exportWarn, 'hue' => dash_city_hue(tour_city_slug($t))];
+        $exportWarn = ($rt['state'] === 'outdated' ? '<span class="dv-flag" title="Runtime terpasang berbeda dari master">⚠ runtime lama</span>' : '')
+            . ($s['exportChanged'] ? '<span class="dv-flag" title="File export berubah: ' . h(implode(', ', $s['exportChanged'])) . '">⟳ export berubah</span>' : '');
+        $cards[] = ['id' => $id, 'i' => $i++, 'name' => (string)$t['name'], 'loc' => (string)$t['location'], 'cat' => (string)$t['category'], 's' => $s, 'continue' => $continue, 'cta' => $cta, 'exportWarn' => $exportWarn, 'hue' => dash_city_hue(tour_city_slug($t)), 'preview' => dash_preview_url($t)];
     }
     $empty = $total === 0 ? 'none' : ($matched === 0 ? 'nomatch' : '');
 
@@ -125,9 +150,24 @@ function render_dashboard(string $error = ''): void
         dash_stat('Entri pengetahuan', (string)$knowTotal, 'konten jawaban AI', 4, '', 'rgba(201,169,110,.12)'),
     ];
     $kicker = 'AI Guide Studio · ' . date('d M Y');
+    // Hero mengikuti konteks: nama kota & ringkasannya bila di dalam kota, sisanya ringkasan Studio.
+    $cityRowHero = $inCity !== '' ? city_row_by_slug($inCity) : null;
+    if ($cityRowHero) {
+        $cityName = (string)$cityRowHero['name'];
+        $heroTitle = $cityName;
+        $heroKicker = 'Kota' . ($cityRowHero['province'] !== '' ? ' · ' . $cityRowHero['province'] : '') . ' · ' . date('d M Y');
+        $heroSub = $counts['needs'] > 0
+            ? i18n_fmt('{t} lokasi tour · {p} perlu perhatian' . ($counts['deployed'] > 0 ? ' · {d} terpublikasi' : '') . '.', ['t' => $total, 'p' => $counts['needs'], 'd' => $counts['deployed']])
+            : i18n_fmt('{t} lokasi tour · semua lokasi dalam kondisi baik' . ($counts['deployed'] > 0 ? ' · {d} terpublikasi' : '') . '.', ['t' => $total, 'd' => $counts['deployed']]);
+    } else {
+        $heroTitle = 'Selamat datang kembali'; $heroKicker = $kicker;
+        $heroSub = $counts['needs'] > 0 ? i18n_fmt('Kelola, kurasi, dan publikasikan AI Guide untuk setiap lokasi. {n} tour menunggu perhatian Anda.', ['n' => $counts['needs']]) : i18n_fmt('Kelola, kurasi, dan publikasikan AI Guide untuk setiap lokasi. Semua tour dalam kondisi baik.');
+    }
+    // Sampul kota ditampilkan samar di kanan hero, hanya saat sebuah kota sedang dibuka.
+    $heroCover = ($inCity !== '' && is_file(city_dir($inCity) . '/cover.jpg')) ? '?a=cityCover&city=' . urlencode($inCity) : '';
     $body = dashboard_body([
-        'kicker' => $kicker, 'title' => 'Selamat datang kembali', 'sub' => 'Kelola, kurasi, dan publikasikan AI Guide untuk setiap lokasi. ' . ($counts['needs'] > 0 ? $counts['needs'] . ' tour menunggu perhatian Anda.' : 'Semua tour dalam kondisi baik.'),
-        'stats' => $stats, 'attention' => $attention, 'tabs' => $tabs, 'cityOpts' => $cityOpts, 'catOpts' => $catOpts, 'sortOpts' => $sortOpts,
+        'kicker' => $heroKicker, 'title' => $heroTitle, 'sub' => $heroSub, 'cityKey' => $inCity, 'heroCover' => $heroCover,
+        'stats' => $stats, 'inCity' => $inCity, 'attention' => $attention, 'tabs' => $tabs, 'cityOpts' => $cityOpts, 'catOpts' => $catOpts, 'sortOpts' => $sortOpts,
         'q' => $q, 'st' => $st, 'filtering' => $filtering, 'cards' => $cards, 'empty' => $empty, 'pager' => $pager, 'error' => $error,
     ]);
     layout('Proyek', $body);

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Virtual Tour Kabupaten Badung · Rencana Fitur</title>
+<style>
+  @page { size: 1280px 720px; margin: 0; }
+  :root {
+    --navy: #0B2A3C; --teal: #0E7C86; --teal-l: #DDF1F2; --gold: #E0A526; --gold-l: #FBF0D6;
+    --coral: #F26B4F; --coral-l: #FDE5DF; --cream: #FBF7EF; --ink: #1F2A30; --mute: #5E6E76; --line: #E4DED2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #888; }
+  body { font-family: "Segoe UI", "Segoe UI Emoji", Arial, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slide { width: 1280px; height: 720px; position: relative; overflow: hidden; background: var(--cream); page-break-after: always; break-after: page; padding: 56px 72px 64px; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .kicker { font-size: 15px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--teal); margin-bottom: 8px; }
+  h1 { font-size: 40px; line-height: 1.12; font-weight: 800; color: var(--navy); margin-bottom: 10px; }
+  h1 em { font-style: normal; color: var(--coral); }
+  .lead { font-size: 19px; color: var(--mute); max-width: 1000px; line-height: 1.45; }
+  .foot { position: absolute; left: 72px; right: 72px; bottom: 24px; display: flex; justify-content: space-between; font-size: 12px; color: #9AA5AA; }
+  .foot b { color: var(--teal); font-weight: 700; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 8px; background: linear-gradient(90deg, var(--teal), var(--gold), var(--coral)); }
+  .grid { display: grid; gap: 18px; }
+  .g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(3, 1fr); } .g4 { grid-template-columns: repeat(4, 1fr); }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; }
+  .card h3 { font-size: 19px; color: var(--navy); margin-bottom: 6px; }
+  .card p, .card li { font-size: 15px; line-height: 1.45; color: #3C4A51; }
+  .card ul { padding-left: 18px; }
+ .card li { margin-bottom: 4px; }
+  .ico { font-size: 30px; line-height: 1; margin-bottom: 10px; display: block; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 99px; margin-right: 6px; }
+  .t-teal { background: var(--teal-l); color: var(--teal); } .t-gold { background: var(--gold-l); color: #9A6B00; } .t-coral { background: var(--coral-l); color: #C0442A; }
+  .t-navy { background: var(--navy); color: #fff; }
+  .note { font-size: 13px; color: var(--mute); }
+  .warn { background: var(--coral-l); border-left: 5px solid var(--coral); border-radius: 10px; padding: 12px 16px; font-size: 14.5px; color: #6A2B1E; line-height: 1.45; }
+  .tip { background: var(--teal-l); border-left: 5px solid var(--teal); border-radius: 10px; padding: 12px 16px; font-size: 14.5px; color: #0A4B51; line-height: 1.45; }
+  .num { font-size: 13px; font-weight: 800; color: #fff; background: var(--teal); width: 26px; height: 26px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 8px; flex: none; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  th { text-align: left; background: var(--navy); color: #fff; padding: 9px 12px; font-weight: 600; }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--line); background: #fff; vertical-align: top; }
+  .dark { background: var(--navy); color: #fff; }
+  .dark h1 { color: #fff; } .dark .lead { color: #B9CCD4; } .dark .kicker { color: var(--gold); }
+  /* phone mockup */
+  .phone { width: 300px; height: 560px; border-radius: 38px; background: #10181C; padding: 12px; box-shadow: 0 20px 40px rgba(0,0,0,.25); }
+  .screen { width: 100%; height: 100%; border-radius: 28px; background: #fff; overflow: hidden; display: flex; flex-direction: column; }
+  .scr-top { background: linear-gradient(135deg, var(--teal), var(--navy)); color: #fff; padding: 18px 16px 14px; }
+  .scr-top small { font-size: 11px; opacity: .85; display: block; }
+  .scr-top b { font-size: 15px; }
+  .search { margin-top: 10px; background: #fff; color: #8a979c; border-radius: 10px; padding: 8px 10px; font-size: 11.5px; }
+  .apps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 12px 12px 4px; }
+  .app { text-align: center; font-size: 9.5px; color: #33424a; }
+  .app i { font-style: normal; display: flex; align-items: center; justify-content: center; width: 46px; height: 46px; margin: 0 auto 4px; border-radius: 14px; background: var(--cream); font-size: 21px; }
+  .sec { font-size: 10px; font-weight: 800; color: var(--mute); letter-spacing: 1px; padding: 8px 14px 4px; }
+  .near { display: flex; gap: 8px; padding: 0 12px; }
+  .near div { flex: 1; border: 1px solid var(--line); border-radius: 10px; padding: 7px; font-size: 10px; }
+  .near b { display: block; font-size: 10.5px; }
+  .trip { margin: 10px 12px; background: var(--gold-l); border-radius: 10px; padding: 9px 11px; font-size: 11px; color: #7a5600; }
+  .aibtn { margin: auto 12px 14px; background: var(--navy); color: #fff; border-radius: 99px; text-align: center; padding: 10px; font-size: 12px; font-weight: 700; }
+  /* flow */
+  .flow { display: flex; align-items: stretch; gap: 10px; }
+  .flow .step { flex: 1; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 14px; font-size: 14px; line-height: 1.4; }
+  .flow .step b { display: block; color: var(--navy); font-size: 15px; margin-bottom: 4px; }
+  .arrow { align-self: center; color: var(--gold); font-size: 26px; font-weight: 900; }
+  .big { font-size: 46px; font-weight: 800; color: var(--teal); line-height: 1; }
+  .pill-row span { display: inline-block; background: #fff; border: 1px solid var(--line); border-radius: 99px; padding: 7px 13px; font-size: 14px; margin: 0 6px 8px 0; }
+  .photo { border-radius: 14px; background-size: cover; background-position: center; position: relative; }
+  .photo span { position: absolute; left: 10px; bottom: 10px; background: rgba(11,42,60,.85); color: #fff; padding: 5px 10px; border-radius: 8px; font-size: 13px; font-weight: 700; }
+  .credit { font-size: 10px; color: #9AA5AA; }
+</style>
+</head>
+<body>
+
+<!-- 1. COVER -->
+<section class="slide dark" style="padding:0">
+  <div style="position:absolute;inset:0;background:
+    radial-gradient(circle at 82% 30%, rgba(242,107,79,.55), transparent 42%),
+    radial-gradient(circle at 70% 85%, rgba(224,165,38,.45), transparent 45%),
+    linear-gradient(135deg, #0B2A3C 0%, #0E4F5C 55%, #0E7C86 100%);"></div>
+  <svg style="position:absolute;right:0;bottom:0" width="760" height="300" viewBox="0 0 760 300">
+    <path d="M0 230 Q 120 190 240 225 T 480 215 T 760 200 L760 300 L0 300Z" fill="rgba(255,255,255,.08)"/>
+    <path d="M0 260 Q 160 230 320 258 T 640 248 T 760 240 L760 300 L0 300Z" fill="rgba(255,255,255,.12)"/>
+    <circle cx="560" cy="120" r="70" fill="rgba(255,214,140,.35)"/>
+    <g fill="rgba(11,42,60,.7)">
+      <rect x="565" y="200" width="70" height="30"/><rect x="585" y="170" width="30" height="30"/>
+      <polygon points="545,170 655,170 630,150 570,150"/><rect x="590" y="140" width="20" height="10"/>
+      <polygon points="552,140 648,140 625,122 575,122"/><rect x="592" y="114" width="16" height="8"/>
+      <polygon points="560,114 640,114 620,98 580,98"/><rect x="594" y="91" width="12" height="7"/>
+      <polygon points="568,91 632,91 615,77 585,77"/><rect x="596" y="71" width="8" height="6"/>
+      <polygon points="576,71 624,71 610,59 590,59"/><rect x="598" y="44" width="4" height="15"/></g>
+  </svg>
+  <div style="position:relative;padding:110px 90px">
+    <div class="kicker" style="font-size:16px">GoVirtual · Rencana Pengembangan</div>
+    <h1 style="font-size:64px;line-height:1.05;margin:14px 0 22px">Virtual Tour<br>Kabupaten Badung, Bali</h1>
+    <p class="lead" style="font-size:24px;max-width:700px;color:#D7E6EB">Dari brosur digital menjadi <b style="color:#FFD58A">asisten wisata pintar</b> dan <b style="color:#FFD58A">alat kebijakan berbasis data</b> untuk Pemkab Badung.</p>
+    <div style="margin-top:40px;display:flex;gap:10px">
+      <span class="tag t-gold" style="font-size:14px;padding:7px 14px">🏝 Super App Wisatawan</span>
+      <span class="tag t-gold" style="font-size:14px;padding:7px 14px">🤖 AI Guide</span>
+      <span class="tag t-gold" style="font-size:14px;padding:7px 14px">🗿 Landmark 3D</span>
+      <span class="tag t-gold" style="font-size:14px;padding:7px 14px">📊 Data untuk Pemkab</span>
+    </div>
+  </div>
+  <div class="foot" style="color:#8FB0BC"><span>Draf rencana · Oktober 2026</span><span>1</span></div>
+</section>
+
+<!-- 2. RINGKASAN -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Ringkasan</div>
+  <h1>Satu VT, <em>empat peran</em></h1>
+  <p class="lead">Badung adalah pintu masuk pariwisata Bali (bandara, Kuta, Nusa Dua, Uluwatu, GWK). VT-nya harus lebih dari sekadar panorama 360°.</p>
+  <div class="grid g4" style="margin-top:34px">
+    <div class="card" style="border-top:6px solid var(--coral)"><span class="ico">✨</span><h3>Etalase "WOW"</h3><p>Landmark 3D yang bisa diklik per bagian, peta 3D Badung, drone flythrough.</p></div>
+    <div class="card" style="border-top:6px solid var(--teal)"><span class="ico">🧳</span><h3>Asisten Perjalanan</h3><p>Super app: hotel, sewa motor/mobil, pemandu, trip wizard, arah via kamera.</p></div>
+    <div class="card" style="border-top:6px solid var(--gold)"><span class="ico">📱</span><h3>Bukti Kejujuran</h3><p>Video kreator terkurasi: "Reel vs Real", tempatnya memang sebagus di video.</p></div>
+    <div class="card" style="border-top:6px solid var(--navy)"><span class="ico">📊</span><h3>Data untuk Pemkab</h3><p>Dashboard: apa yang dicari wisatawan, dari negara mana, layanan apa yang diklik.</p></div>
+  </div>
+  <div class="tip" style="margin-top:28px;font-size:16px">💡 <b>Pesan utama:</b> fondasi teknis (360° + AI Guide) sudah siap dari proyek Semarang. Yang kita tambahkan adalah <b>lapisan layanan wisata, konten imersif, dan analitik</b>.</div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>2</span></div>
+</section>
+
+<!-- 3. AUDIT -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Audit</div>
+  <h1>Apa yang <em>sudah ada</em>, apa yang <em>belum</em></h1>
+  <div class="grid g2" style="margin-top:26px;gap:26px">
+    <div class="card" style="border-left:6px solid var(--teal)">
+      <h3>✅ Sudah ada (VT Semarang / Studio)</h3>
+      <ul style="margin-top:8px">
+        <li>Panorama 360° multi-scene + hotspot</li>
+        <li>Mode drone / balkon dan mode malam</li>
+        <li>Minimap lokasi</li>
+        <li>AI Guide: chat, suara, avatar</li>
+        <li>Menu Layanan Publik, Informasi, Jelajah</li>
+        <li>Studio: pipeline buat & rilis tour, multi-wilayah</li>
+        <li>Basis pengetahuan Badung (awal)</li>
+      </ul>
+    </div>
+    <div class="card" style="border-left:6px solid var(--coral)">
+      <h3>❌ Belum ada (celah)</h3>
+      <ul style="margin-top:8px">
+        <li><b>Layanan wisata praktis</b>: hotel, sewa kendaraan, pemandu</li>
+        <li><b>Perencanaan perjalanan</b> yang personal</li>
+        <li><b>Konten 3D</b> landmark</li>
+        <li><b>Video kreator</b> terkurasi</li>
+        <li><b>Navigasi di lokasi</b> (arah via kamera)</li>
+        <li><b>Analitik untuk klien</b>, padahal ini nilai jual terbesar</li>
+        <li>Bahasa pasar utama Bali (ZH, JA, KO, RU, dll.)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>3</span></div>
+</section>
+
+<!-- 4. PETA FITUR -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Gambaran Besar</div>
+  <h1>Peta fitur yang diusulkan</h1>
+  <p class="lead">⭐ = fitur utama</p>
+  <div class="grid g4" style="margin-top:24px;gap:14px">
+    <div class="card"><span class="ico">🏨</span><h3>⭐ Tourism Guide</h3><p>Super app semua kebutuhan wisatawan + AI</p></div>
+    <div class="card"><span class="ico">🧭</span><h3>⭐ Trip Wizard</h3><p>Tanya jawab singkat, AI beri rekomendasi trip</p></div>
+    <div class="card"><span class="ico">💡</span><h3>⭐ Fakta Menarik</h3><p>Satu tombol, fakta mengejutkan tentang lokasi</p></div>
+    <div class="card"><span class="ico">📷</span><h3>⭐ Arah via Kamera</h3><p>Panah AR menuju tujuan di lokasi</p></div>
+    <div class="card"><span class="ico">🌏</span><h3>⭐ Discover v2</h3><p>Lanjut ke destinasi Badung lain di luar lokasi ini</p></div>
+    <div class="card"><span class="ico">🎬</span><h3>⭐ Reel vs Real</h3><p>Video TikTok/IG terkurasi, dibandingkan dengan aslinya</p></div>
+    <div class="card"><span class="ico">🏃</span><h3>⭐ Rute Lari</h3><p>Rute jogging terkurasi khusus Badung</p></div>
+    <div class="card"><span class="ico">🗿</span><h3>⭐ Landmark 3D</h3><p>GWK & landmark lain, klik per bagian, AR</p></div>
+  </div>
+  <div class="pill-row" style="margin-top:20px">
+    <span>🌅 Sunset Finder</span><span>📅 Kalender Upacara & Nyepi</span><span>🙏 Etika Pura</span><span>🆘 Keselamatan & Tsunami</span><span>🌊 Cuaca & Ombak</span><span>🛂 Passport Stempel</span><span>🏡 Desa Wisata & UMKM</span><span>🎤 MICE</span><span>📸 Kartu Pos</span><span>🖥 Kiosk Bandara</span><span>🥽 VR</span><span>📊 Dashboard Pemkab</span>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>4</span></div>
+</section>
+
+<!-- 5. TOURISM GUIDE -->
+<section class="slide">
+  <div class="bar"></div>
+  <div style="display:flex;gap:56px">
+    <div style="flex:1">
+      <div class="kicker">⭐ Fitur Utama 1</div>
+      <h1>Tourism Guide:<br><em>super app</em> wisatawan</h1>
+      <p class="lead" style="font-size:17px">Semua yang dibutuhkan wisatawan di satu menu. Tidak perlu bolak-balik ke Google Maps, aplikasi hotel, atau grup WhatsApp.</p>
+      <div class="grid g2" style="margin-top:20px;gap:12px">
+        <div class="card" style="padding:14px 16px"><h3 style="font-size:16px">📍 Terdekat dari sini</h3><p style="font-size:13.5px">Dari GPS atau dari panorama yang sedang dibuka</p></div>
+        <div class="card" style="padding:14px 16px"><h3 style="font-size:16px">✅ Terverifikasi Pemkab</h3><p style="font-size:13.5px">Usaha berizin, aman dari penipuan</p></div>
+        <div class="card" style="padding:14px 16px"><h3 style="font-size:16px">🤖 AI paham konteks</h3><p style="font-size:13.5px">"Cari hotel keluarga di Nusa Dua &lt; 1,5 jt" → kartu hasil</p></div>
+        <div class="card" style="padding:14px 16px"><h3 style="font-size:16px">💬 WhatsApp langsung</h3><p style="font-size:13.5px">Pesan template multi-bahasa</p></div>
+      </div>
+      <p style="margin-top:16px;font-size:14px;color:var(--mute)"><b style="color:var(--navy)">Juga:</b> kurs & konverter, SIM/eSIM, info bandara & visa, ibadah, frasa Bali, <b style="color:var(--coral)">pengaduan wisatawan</b>, barang hilang.</p>
+    </div>
+    <div class="phone" style="margin-top:4px">
+      <div class="screen">
+        <div class="scr-top"><small>📍 Kamu di</small><b>Pantai Kuta</b> <span style="float:right;font-size:11px">☀ 31° · 🌅 18:21</span>
+          <div class="search">🔍 Cari hotel, sewa motor, apotek…</div></div>
+        <div class="apps">
+          <div class="app"><i>🏨</i>Menginap</div><div class="app"><i>🛵</i>Sewa Motor</div><div class="app"><i>🚗</i>Sewa Mobil</div><div class="app"><i>🧭</i>Pemandu</div>
+          <div class="app"><i>🍽</i>Kuliner</div><div class="app"><i>🎟</i>Tiket</div><div class="app"><i>💱</i>Uang</div><div class="app"><i>🏥</i>Darurat</div>
+        </div>
+        <div class="sec">TERDEKAT DARI SINI</div>
+        <div class="near"><div><b>Hotel Pantai</b>350 m · ✅</div><div><b>Sewa Motor</b>600 m · ✅</div><div><b>Apotek 24j</b>800 m</div></div>
+        <div class="trip">✨ <b>Trip Saya</b>: 4 hari · Nusa Dua →</div>
+        <div class="aibtn">✦ Tanya AI Guide</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>5</span></div>
+</section>
+
+<!-- 6. TRIP WIZARD -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">⭐ Fitur Utama 2</div>
+  <h1>Trip Wizard: <em>60 detik</em>, langsung dapat rencana trip</h1>
+  <div class="flow" style="margin-top:22px">
+    <div class="step"><b>1 · Tanya singkat</b>Kapan ke Bali? Berapa hari? Dengan siapa? Suka apa? Budget? Naik apa?</div>
+    <div class="arrow">➜</div>
+    <div class="step"><b>2 · AI menganalisis</b>Cocokkan dengan data resmi: area, destinasi, layanan, kalender upacara</div>
+    <div class="arrow">➜</div>
+    <div class="step" style="background:var(--gold-l);border-color:#EED9A4"><b>3 · Rekomendasi personal</b>Menginap di mana, itinerary per hari, kendaraan, peringatan, listing</div>
+  </div>
+  <div class="grid" style="grid-template-columns:1.1fr 1fr;gap:24px;margin-top:22px">
+    <div class="card" style="padding:16px 18px">
+      <h3>💬 Contoh hasil</h3>
+      <p style="margin-top:6px;font-style:italic;background:var(--cream);padding:12px;border-radius:10px">"Untuk keluarga dengan anak, 4 hari di bulan Desember, <b>menginaplah di Nusa Dua</b>: pantainya tenang dan aman. Hari 1: GWK → sunset di Jimbaran. Hari 2: Pantai Melasti… Disarankan <b>mobil + sopir</b>. ⚠️ Desember musim hujan, siapkan rencana cadangan."</p>
+      <p style="margin-top:10px;font-size:13.5px">Setiap tempat bisa diklik → <b>masuk panorama 360°</b>. Bisa diubah lewat chat, disimpan, dikirim ke WhatsApp/PDF.</p>
+    </div>
+    <table>
+      <tr><th>Area</th><th>Cocok untuk</th></tr>
+      <tr><td><b>Kuta / Tuban</b></td><td>Dekat bandara, budget, pertama kali</td></tr>
+      <tr><td><b>Seminyak</b></td><td>Kuliner, beach club, pasangan</td></tr>
+      <tr><td><b>Canggu</b></td><td>Surfing, kafe, anak muda</td></tr>
+      <tr><td><b>Jimbaran</b></td><td>Seafood sunset, keluarga</td></tr>
+      <tr><td><b>Nusa Dua</b></td><td>Resor, keluarga, tenang, MICE</td></tr>
+      <tr><td><b>Uluwatu</b></td><td>Tebing, bulan madu, Kecak</td></tr>
+      <tr><td><b>Petang</b></td><td>Alam sejuk, desa wisata</td></tr>
+    </table>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>6</span></div>
+</section>
+
+<!-- 7. FAKTA MENARIK -->
+<section class="slide">
+  <div class="bar"></div>
+  <div style="display:flex;gap:50px;align-items:flex-start">
+    <div style="flex:1">
+      <div class="kicker">⭐ Fitur Utama 3</div>
+      <h1>Tombol <em>"Beritahu Fakta Menarik"</em></h1>
+      <p class="lead" style="font-size:17px">Di menu Informasi. Sekali tekan, AI Guide membacakan fakta mengejutkan tentang lokasi yang sedang dilihat.</p>
+      <div class="card" style="margin-top:20px">
+        <h3>Cara kerja</h3>
+        <ul style="margin-top:6px">
+          <li>Kartu "Tahukah kamu?" beranimasi + suara AI</li>
+          <li>Tombol <b>"Satu lagi!"</b>, tidak berulang dalam satu sesi</li>
+          <li>Kategori: sejarah, angka, alam, budaya, legenda</li>
+          <li>Bisa <b>dibagikan</b> sebagai gambar ke IG Story / WhatsApp</li>
+        </ul>
+      </div>
+      <div class="warn" style="margin-top:16px">🛡 <b>Penting:</b> AI tidak mengarang fakta. Fakta diambil dari <b>bank fakta yang sudah diperiksa kurator</b>, lengkap dengan sumber. Mitos diberi label <b>"Legenda"</b>.</div>
+    </div>
+    <div style="width:420px;margin-top:30px">
+      <div style="background:linear-gradient(135deg,var(--navy),var(--teal));border-radius:22px;padding:28px;color:#fff;box-shadow:0 20px 40px rgba(11,42,60,.3)">
+        <div style="font-size:13px;letter-spacing:2px;color:var(--gold);font-weight:800">✨ TAHUKAH KAMU?</div>
+        <div style="font-size:15px;opacity:.8;margin-top:4px">📍 Pura Luhur Uluwatu</div>
+        <p style="font-size:21px;line-height:1.4;margin-top:16px;font-weight:600">Kera di sini dikenal "menyandera" kacamata wisatawan dan baru mau mengembalikannya setelah ditukar makanan. Perilaku ini bahkan diteliti ilmuwan!</p>
+        <div style="display:flex;gap:8px;margin-top:20px">
+          <span class="tag t-gold">🔁 Satu lagi!</span><span class="tag" style="background:rgba(255,255,255,.15);color:#fff">📤 Bagikan</span><span class="tag" style="background:rgba(255,255,255,.15);color:#fff">📖 Sumber</span>
+        </div>
+      </div>
+      <p class="note" style="margin-top:10px;text-align:center">Contoh tampilan. Isi fakta diverifikasi sebelum tayang.</p>
+    </div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>7</span></div>
+</section>
+
+<!-- 8. AR DIRECTION -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">⭐ Fitur Utama 4</div>
+  <h1>Arah interaktif <em>lewat kamera</em> (AR)</h1>
+  <p class="lead" style="font-size:17px">Wisatawan di lokasi membuka kamera HP. Panah dan jarak muncul di layar, menuntun ke tujuan.</p>
+  <div class="grid g4" style="margin-top:22px;gap:14px">
+    <div class="card"><span class="ico">➡️</span><h3>Panah AR</h3><p>"120 m ke Panggung Kecak". Kamera + GPS + kompas.</p></div>
+    <div class="card"><span class="ico">🏷</span><h3>Lihat Sekeliling</h3><p>Label tempat mengambang sesuai arah kamera.</p></div>
+    <div class="card"><span class="ico">🔎</span><h3>Kenali Objek</h3><p>Foto bangunan, AI menjelaskan "ini apa?"</p></div>
+    <div class="card"><span class="ico">🖥</span><h3>Panah di VT</h3><p>Untuk pengunjung online: latihan rute sebelum datang.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:20px;gap:20px">
+    <div class="warn"><b>Realita teknis:</b> GPS HP meleset ±5–15 m, jadi cocok untuk area terbuka. iPhone (Safari) belum mendukung AR web penuh, jadi dipakai metode kamera + sensor biasa. Akurasi sangat tinggi butuh aplikasi native (pengembangan lanjutan).</div>
+    <div class="tip"><b>Langkah aman:</b> pilot di <b>satu kawasan</b> (GWK atau Uluwatu), 10–20 titik tujuan dipetakan manual + QR kalibrasi. Setelah berhasil, diperluas ke kawasan lain.</div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>8</span></div>
+</section>
+
+<!-- 9. DISCOVER -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">⭐ Fitur Utama 5</div>
+  <h1>Discover: jelajahi <em>Badung</em> di luar lokasi ini</h1>
+  <p class="lead" style="font-size:17px">Sekarang menu Jelajah hanya berisi scene di lokasi yang sedang dibuka. Discover v2 mengajak pengunjung <b>melanjutkan perjalanan ke destinasi Badung lainnya</b>.</p>
+  <div class="grid" style="grid-template-columns:1fr 1.1fr;gap:28px;margin-top:18px">
+    <div>
+      <div class="card" style="padding:16px 20px">
+        <ul>
+          <li>➡️ <b>"Dari sini, lanjut ke…"</b>: destinasi Badung terdekat + waktu tempuh</li>
+          <li>🗺 <b>Per kecamatan</b>: Kuta Selatan, Kuta, Kuta Utara, Mengwi, Abiansemal, Petang</li>
+          <li>🎞 <b>Feed geser vertikal</b> ala TikTok, pratinjau 360° otomatis</li>
+          <li>🗂 <b>Koleksi tema</b>: Sunset Terbaik, Pantai Tersembunyi, Sejuk di Badung Utara</li>
+          <li>🧭 <b>Rute tematik</b>: GWK → Melasti → Uluwatu → Jimbaran</li>
+          <li>🔥 <b>Sedang tren</b> · 🎲 <b>"Kejutkan aku"</b></li>
+        </ul>
+      </div>
+      <div class="tip" style="margin-top:14px">Destinasi populer (GWK, Kuta) ikut <b>mempromosikan destinasi Badung lain</b>, termasuk yang belum ramai. Klik antar-destinasi tercatat di dashboard Pemkab.</div>
+    </div>
+    <div style="background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="font-size:13px;color:var(--mute)">📍 Kamu sedang di <b style="color:var(--navy)">GWK Cultural Park</b></span>
+        <span class="tag t-teal">Discover</span>
+      </div>
+      <div style="font-size:15px;font-weight:800;color:var(--navy);margin-bottom:10px">Dari sini, lanjut ke…</div>
+      <div class="grid g2" style="gap:10px"><div style="height:118px;border-radius:14px;background:linear-gradient(150deg,#3BB3C3,#0E7C86);color:#fff;padding:12px 14px;display:flex;flex-direction:column;justify-content:flex-end"><b style="font-size:16px">🏖 Pantai Melasti</b><span style="font-size:12.5px;opacity:.92">±10 mnt · Kuta Selatan</span></div><div style="height:118px;border-radius:14px;background:linear-gradient(150deg,#F7A35C,#F26B4F);color:#fff;padding:12px 14px;display:flex;flex-direction:column;justify-content:flex-end"><b style="font-size:16px">🌅 Pura Uluwatu</b><span style="font-size:12.5px;opacity:.92">±20 mnt · sunset + Kecak</span></div><div style="height:118px;border-radius:14px;background:linear-gradient(150deg,#E0A526,#C97A1E);color:#fff;padding:12px 14px;display:flex;flex-direction:column;justify-content:flex-end"><b style="font-size:16px">🦐 Jimbaran</b><span style="font-size:12.5px;opacity:.92">±15 mnt · seafood sunset</span></div><div style="height:118px;border-radius:14px;background:linear-gradient(150deg,#2E8FB0,#0B2A3C);color:#fff;padding:12px 14px;display:flex;flex-direction:column;justify-content:flex-end"><b style="font-size:16px">🏝 Nusa Dua</b><span style="font-size:12.5px;opacity:.92">±20 mnt · pantai keluarga</span></div></div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px">
+        <span class="tag t-gold">Kuta Selatan</span><span class="tag" style="background:var(--cream);color:var(--mute)">Kuta</span><span class="tag" style="background:var(--cream);color:var(--mute)">Kuta Utara</span><span class="tag" style="background:var(--cream);color:var(--mute)">Mengwi</span><span class="tag" style="background:var(--cream);color:var(--mute)">Abiansemal</span><span class="tag" style="background:var(--cream);color:var(--mute)">Petang</span>
+      </div>
+      <p class="note" style="margin-top:8px;font-size:11.5px">Contoh tampilan. Waktu tempuh perkiraan, perlu dicek.</p>
+    </div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>9</span></div>
+</section>
+
+<!-- 10. REEL VS REAL -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">⭐ Fitur Utama 6</div>
+  <h1>"Reel vs Real": video kreator <em>terkurasi</em></h1>
+  <p class="lead" style="font-size:17px">Video TikTok / Reels / Shorts tentang Badung, hanya yang <b>tempatnya memang sebagus di video</b>.</p>
+  <div class="grid" style="grid-template-columns:1fr 1.2fr;gap:28px;margin-top:20px">
+    <div style="display:flex;gap:10px;height:300px">
+      <div style="flex:1;border-radius:16px;background:linear-gradient(160deg,#F26B4F,#E0A526 60%,#0E7C86);color:#fff;padding:14px;display:flex;flex-direction:column;justify-content:space-between">
+        <span class="tag" style="background:rgba(0,0,0,.35);color:#fff;align-self:flex-start">📱 TikTok @kreator</span>
+        <b style="font-size:18px">REEL</b></div>
+      <div style="flex:1;border-radius:16px;background:linear-gradient(160deg,#F7A35C,#E9B949 60%,#1B8A92);color:#fff;padding:14px;display:flex;flex-direction:column;justify-content:space-between">
+        <span class="tag" style="background:rgba(0,0,0,.35);color:#fff;align-self:flex-start">🌐 Panorama 360° asli</span>
+        <b style="font-size:18px">REAL</b></div>
+    </div>
+    <div>
+      <h3 style="color:var(--navy);font-size:18px;margin-bottom:10px">Alur kurasi di Studio</h3>
+      <div style="display:flex;flex-direction:column;gap:9px;font-size:15px">
+        <div style="display:flex;align-items:center"><span class="num">1</span>URL masuk: tim, kiriman kreator, atau hashtag</div>
+        <div style="display:flex;align-items:center"><span class="num">2</span>Cek otomatis: tautan aktif, akun, bahasa</div>
+        <div style="display:flex;align-items:center"><span class="num">3</span>Kurator cek: lokasi benar, tanpa filter menyesatkan, sesuai adat</div>
+        <div style="display:flex;align-items:center"><span class="num">4</span>Skor kesesuaian + lencana <b>&nbsp;"Sesuai Kenyataan ✓"</b></div>
+        <div style="display:flex;align-items:center"><span class="num">5</span>Ditinjau ulang tiap 6–12 bulan</div>
+      </div>
+      <div class="warn" style="margin-top:14px">⚖️ <b>Hanya embed resmi</b>, tidak diunduh/diunggah ulang (hindari masalah hak cipta). Izin & kredit kreator dicatat.</div>
+    </div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>10</span></div>
+</section>
+
+<!-- 11. RUN ROUTES -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">⭐ Fitur Utama 7</div>
+  <h1>Badung Run Routes: rute lari <em>terkurasi</em></h1>
+  <div class="grid" style="grid-template-columns:1.25fr 1fr;gap:28px;margin-top:20px">
+    <table>
+      <tr><th>Rute (draf, perlu survei)</th><th>Jarak</th><th>Karakter</th></tr>
+      <tr><td>Kuta – Legian – Seminyak</td><td>5–8 km</td><td>Pantai, datar</td></tr>
+      <tr><td>Nusa Dua Promenade</td><td>5–6 km</td><td>Paving, aman, teduh</td></tr>
+      <tr><td>Jimbaran Beach Run</td><td>3–5 km</td><td>Pasir padat, sunset</td></tr>
+      <tr><td>Canggu: Batu Bolong – Pererenan</td><td>4–6 km</td><td>Sawah & pantai</td></tr>
+      <tr><td>Lapangan Puspem Badung</td><td>1–3 km</td><td>Loop, pelari lokal</td></tr>
+      <tr><td>Trail Petang – Tukad Bangkung</td><td>8–15 km</td><td>Trail, sejuk</td></tr>
+    </table>
+    <div class="card">
+      <h3>Isi tiap rute</h3>
+      <ul style="margin-top:6px">
+        <li>Peta + profil elevasi + permukaan</li>
+        <li>Pratinjau 360° start/finish + <b>animasi flyover 3D</b></li>
+        <li>Air minum, toilet, parkir, pos penjaga pantai</li>
+        <li>Live: cuaca, UV, sunrise, <b>pasang-surut</b></li>
+        <li>Peringatan Nyepi & upacara</li>
+        <li>Unduh <b>GPX</b> / buka di Strava, Garmin</li>
+      </ul>
+      <p class="note" style="margin-top:8px">Lanjutan: <b>Badung Run Challenge</b> + lencana digital.</p>
+    </div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>11</span></div>
+</section>
+
+<!-- 12. 3D -->
+<section class="slide dark">
+  <div class="kicker">Faktor WOW</div>
+  <h1>Landmark 3D interaktif & <span style="color:var(--gold)">Peta 3D Badung</span></h1>
+  <div class="grid" style="grid-template-columns:1.1fr 1fr;gap:30px;margin-top:24px">
+    <div>
+      <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:18px;padding:22px">
+        <h3 style="color:#fff;font-size:20px">🗿 GWK sebagai pilot</h3>
+        <ul style="color:#D2E2E8;font-size:15.5px;line-height:1.6;padding-left:18px;margin-top:6px">
+          <li>Putar, perbesar, <b>klik per bagian</b> (Wisnu, Garuda, ukuran, material)</li>
+          <li><b>Mode bongkar</b> & <b>timeline pembangunan</b></li>
+          <li>Perbandingan skala (manusia, bus)</li>
+          <li><b style="color:var(--gold)">AR "Lihat di ruanganmu"</b>: GWK mini muncul di meja rapat</li>
+          <li>Tombol "Masuk ke 360°" di titik yang sama</li>
+        </ul>
+      </div>
+      <p style="color:#9FB8C2;font-size:13.5px;margin-top:12px">Teknologi: foto drone → Gaussian Splatting / fotogrametri → viewer web ringan (target &lt; 25 MB).</p>
+    </div>
+    <div>
+      <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:18px;padding:22px">
+        <h3 style="color:#fff;font-size:20px">🗺 Peta 3D seluruh Badung</h3>
+        <ul style="color:#D2E2E8;font-size:15.5px;line-height:1.6;padding-left:18px;margin-top:6px">
+          <li>Intro sinematik: <b>bandara → GWK → Uluwatu</b></li>
+          <li>Pin: scene VT, landmark, rute lari, layanan</li>
+          <li>Lapisan: pantai, pura, kuliner, evakuasi tsunami</li>
+          <li>Per kecamatan: Kuta Selatan s.d. Petang</li>
+        </ul>
+      </div>
+      <div style="margin-top:14px;background:rgba(242,107,79,.18);border-left:5px solid var(--coral);border-radius:10px;padding:12px 16px;font-size:14px;color:#FFD9CF">🙏 Pura (Uluwatu, Taman Ayun) wajib izin desa adat; area utama tidak dipindai.</div>
+    </div>
+  </div>
+  <div style="margin-top:26px">
+    <div style="color:var(--gold);font-size:13px;font-weight:800;letter-spacing:2px;margin-bottom:10px">KANDIDAT LANDMARK 3D</div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <span style="background:var(--gold);color:var(--navy);border-radius:99px;padding:9px 18px;font-weight:800;font-size:15px">🗿 GWK (pilot)</span>
+      <span style="background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:9px 18px;font-size:15px">🕯 Monumen Ground Zero Kuta</span>
+      <span style="background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:9px 18px;font-size:15px">🌉 Jembatan Tukad Bangkung</span>
+      <span style="background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:9px 18px;font-size:15px">🏛 Puspem Badung</span>
+      <span style="background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:9px 18px;font-size:15px">🛕 Pura Taman Ayun*</span>
+      <span style="background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:9px 18px;font-size:15px">🛕 Pura Luhur Uluwatu*</span>
+    </div>
+    <p style="color:#7FA0AC;font-size:12.5px;margin-top:10px">* dengan izin desa adat / pengempon pura</p>
+  </div>
+  <div class="foot" style="color:#7FA0AC"><span>GoVirtual · VT Kabupaten Badung</span><span>12</span></div>
+</section>
+
+<!-- 13. PENDUKUNG -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Fitur Pendukung</div>
+  <h1>Membuat wisatawan <em>merasa dijaga</em></h1>
+  <div class="grid g4" style="margin-top:24px;gap:14px">
+    <div class="card"><span class="ico">🌅</span><h3>Sunset Finder</h3><p>Hitung mundur sunset, arah matahari di panorama</p></div>
+    <div class="card"><span class="ico">📅</span><h3>Kalender & Nyepi</h3><p>Galungan, Melasti, peringatan bandara tutup saat Nyepi</p></div>
+    <div class="card"><span class="ico">🙏</span><h3>Etika Pura</h3><p>Do & Don't, info pungutan wisatawan asing</p></div>
+    <div class="card"><span class="ico">🆘</span><h3>Keselamatan</h3><p>SOS, jalur evakuasi tsunami, bendera pantai</p></div>
+    <div class="card"><span class="ico">🌊</span><h3>Live Layer</h3><p>Cuaca, UV, ombak, keramaian, lalu lintas</p></div>
+    <div class="card"><span class="ico">🛂</span><h3>Explorer Passport</h3><p>Stempel digital + QR di lokasi → voucher mitra</p></div>
+    <div class="card"><span class="ico">🏡</span><h3>Desa Wisata & UMKM</h3><p>Etalase produk lokal, dorong Badung Utara</p></div>
+    <div class="card"><span class="ico">🎤</span><h3>MICE Hub</h3><p>Venue 360° Nusa Dua, kalender event</p></div>
+    <div class="card"><span class="ico">📸</span><h3>Kartu Pos</h3><p>Bagikan view + caption AI ke IG/TikTok</p></div>
+    <div class="card"><span class="ico">🖥</span><h3>Kiosk Bandara</h3><p>Layar sentuh di Ngurah Rai, lanjut via QR</p></div>
+    <div class="card"><span class="ico">🎧</span><h3>Soundscape</h3><p>Gamelan, ombak, narasi 9 bahasa</p></div>
+    <div class="card"><span class="ico">🕰</span><h3>Dulu & Kini</h3><p>Slider foto arsip Kuta tempo dulu vs sekarang</p></div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>13</span></div>
+</section>
+
+<!-- 14. DASHBOARD -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Nilai Jual ke Klien</div>
+  <h1>Dashboard analitik: <em>data untuk kebijakan</em></h1>
+  <p class="lead" style="font-size:17px">Yang membedakan VT kita dari brosur digital: Pemkab mendapat data perilaku wisatawan setiap bulan.</p>
+  <div class="grid g4" style="margin-top:22px;gap:14px">
+    <div class="card" style="text-align:center"><div class="big">🔥</div><h3 style="margin-top:8px">Heatmap Minat</h3><p>Scene & landmark paling lama ditonton</p></div>
+    <div class="card" style="text-align:center"><div class="big">💬</div><h3 style="margin-top:8px">Pertanyaan ke AI</h3><p>Topik terbanyak & yang belum terjawab</p></div>
+    <div class="card" style="text-align:center"><div class="big">🌍</div><h3 style="margin-top:8px">Asal & Bahasa</h3><p>Negara, perangkat, jam akses</p></div>
+    <div class="card" style="text-align:center"><div class="big">🤝</div><h3 style="margin-top:8px">Dampak ke UMKM</h3><p>Klik WhatsApp ke usaha lokal</p></div>
+  </div>
+  <div class="card" style="margin-top:18px;display:flex;gap:30px;align-items:center;background:var(--navy);border:none">
+    <div style="color:#fff;font-size:16px;flex:1;line-height:1.5"><b style="color:var(--gold)">Contoh insight:</b> "Bulan ini 40% pengguna Trip Wizard berencana menginap di Kuta Selatan; pertanyaan terbanyak tentang sewa motor & aturan pura; 1.200 klik WhatsApp ke UMKM terverifikasi."</div>
+    <span class="tag t-gold" style="font-size:13px;padding:8px 14px">📄 Laporan PDF bulanan otomatis</span>
+  </div>
+  <p class="note" style="margin-top:10px">Angka di atas ilustrasi. Data anonim, sesuai UU Pelindungan Data Pribadi.</p>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>14</span></div>
+</section>
+
+<!-- 15. NAVIGASI -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Tampilan</div>
+  <h1>Menu tetap <em>sederhana</em></h1>
+  <p class="lead" style="font-size:17px">Pola navigasi VT Semarang dipertahankan. Isinya disesuaikan untuk Badung.</p>
+  <div style="margin-top:26px;background:linear-gradient(180deg,#5FA9C0,#2C6E86);border-radius:20px;height:250px;position:relative;overflow:hidden">
+    <div style="position:absolute;left:24px;top:20px;color:#fff;font-weight:800;font-size:18px">PEMERINTAH KABUPATEN BADUNG<br><span style="font-weight:400;font-size:14px">Pantai Kuta · panorama 360°</span></div>
+    <div style="position:absolute;right:24px;top:24px;background:var(--navy);color:#fff;border-radius:99px;padding:9px 16px;font-weight:700;font-size:14px">✨ Rencanakan Trip · 📷 Arahkan · 🎬 Reel vs Real</div>
+    <div style="position:absolute;right:24px;bottom:90px;background:#fff;color:var(--navy);border-radius:14px;padding:10px 18px;font-weight:800;font-size:18px">AI Guide ✦</div>
+    <div style="position:absolute;left:0;right:0;bottom:0;background:rgba(11,42,60,.88);display:flex;justify-content:space-around;padding:18px;color:#fff;font-size:16px;font-weight:600">
+      <span>🌏 Discover</span><span>🏨 Tourism Guide</span><span style="background:var(--gold);color:var(--navy);padding:2px 16px;border-radius:99px">Kategori</span><span>ℹ️ Informasi</span><span>🏃 Aktif</span>
+    </div>
+  </div>
+  <div class="grid g4" style="margin-top:16px;gap:12px;font-size:13.5px">
+    <div class="card" style="padding:12px 14px"><b>Discover</b>: menggantikan "Jelajah"</div>
+    <div class="card" style="padding:12px 14px"><b>Tourism Guide</b>: menggantikan "Layanan Publik"</div>
+    <div class="card" style="padding:12px 14px"><b>Informasi</b>: + tombol Fakta Menarik</div>
+    <div class="card" style="padding:12px 14px"><b>Aktif</b>: rute lari, sunset, spot foto</div>
+  </div>
+  <div class="tip" style="margin-top:18px;font-size:15.5px">📱 Di HP: navigasi bawah maksimal 5 ikon. Tiga tombol mengambang digabung menjadi satu tombol <b>✨</b> yang membuka pilihan Rencanakan Trip, Arahkan Saya, dan Reel vs Real.</div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>15</span></div>
+</section>
+
+<!-- 16. DEMO -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Skenario Presentasi ke Klien</div>
+  <h1>Demo <em>5 menit</em> yang membuat klien terkesan</h1>
+  <div style="display:flex;flex-direction:column;gap:11px;margin-top:22px;font-size:16.5px">
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px"><span class="num">1</span><b style="width:190px">Trip Wizard</b>Jawab 6 pertanyaan → AI: "Menginaplah di Nusa Dua…" + itinerary 4 hari</div>
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px"><span class="num">2</span><b style="width:190px">Intro sinematik</b>Peta 3D terbang dari Bandara Ngurah Rai ke GWK</div>
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px"><span class="num">3</span><b style="width:190px">GWK 3D + AR</b>Klik kepala Wisnu → AI bercerita. Di HP, GWK muncul di meja rapat</div>
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px"><span class="num">4</span><b style="width:190px">360° + Fakta</b>Masuk panorama → "Beritahu Fakta Menarik" → sunset Uluwatu</div>
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px"><span class="num">5</span><b style="width:190px">Reel vs Real</b>Video TikTok Pantai Melasti berdampingan dengan panorama aslinya</div>
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px"><span class="num">6</span><b style="width:190px">Tourism Guide</b>"Cari sewa motor terpercaya dekat Seminyak" → kartu + WhatsApp</div>
+    <div class="card" style="display:flex;align-items:center;padding:13px 18px;background:var(--navy);color:#fff;border:none"><span class="num" style="background:var(--gold);color:var(--navy)">7</span><b style="width:190px;color:var(--gold)">Penutup</b>Dashboard: "VT ini bukan hanya promosi, tapi alat kebijakan pariwisata."</div>
+  </div>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>16</span></div>
+</section>
+
+<!-- 17. RISIKO -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Risiko</div>
+  <h1>Risiko & <em>cara mengatasinya</em></h1>
+  <table style="margin-top:22px;font-size:15.5px">
+    <tr><th style="width:34%">Risiko</th><th>Mitigasi</th></tr>
+    <tr><td>Hak cipta video kreator</td><td>Embed resmi saja, izin & kredit kreator, mekanisme take-down</td></tr>
+    <tr><td>Kesakralan pura</td><td>Izin desa adat & PHDI, area utama tidak dipindai, narasi dikonsultasikan</td></tr>
+    <tr><td>Data layanan kedaluwarsa / penipuan</td><td>Verifikasi Dispar, tinjau ulang berkala, tombol "laporkan"</td></tr>
+    <tr><td>AI mengarang fakta/harga</td><td>AI hanya memakai data terkurasi, selalu menyarankan cek ulang ke pengelola</td></tr>
+    <tr><td>Akurasi AR (GPS ±5–15 m)</td><td>Pilot satu kawasan, QR kalibrasi, cadangan peta 2D</td></tr>
+    <tr><td>Model 3D berat di HP</td><td>Kompresi, muat bertahap, gambar cadangan</td></tr>
+    <tr><td>Biaya API (AI, peta, cuaca)</td><td>Cache, kuota harian, tier gratis untuk MVP</td></tr>
+    <tr><td>Privasi pengunjung</td><td>Analitik anonim, kebijakan privasi (UU PDP)</td></tr>
+  </table>
+  <div class="foot"><span><b>GoVirtual</b> · VT Kabupaten Badung</span><span>17</span></div>
+</section>
+
+<!-- 18. PENUTUP -->
+<section class="slide dark" style="display:flex;flex-direction:column;justify-content:center;padding:0 90px">
+  <div style="position:absolute;inset:0;background:radial-gradient(circle at 85% 20%, rgba(224,165,38,.35), transparent 40%), radial-gradient(circle at 10% 90%, rgba(14,124,134,.6), transparent 45%);"></div>
+  <div style="position:relative">
+    <div class="kicker">Terima Kasih</div>
+    <h1 style="font-size:52px;line-height:1.1">Virtual tour yang membantu wisatawan<br><span style="color:var(--gold)">sebelum, saat, dan sesudah</span> berkunjung ke Badung.</h1>
+    <p class="lead" style="font-size:20px;margin-top:22px">Semua fitur dibangun sebagai modul di AI Studio, sehingga <b style="color:#fff">bisa dipakai ulang untuk kota dan kabupaten lain</b>.</p>
+    <p style="margin-top:40px;color:#7FA0AC;font-size:13px">Catatan: nama tempat, jarak rute, regulasi, dan angka dalam presentasi ini adalah draf perencanaan dan perlu diverifikasi sebelum dipublikasikan.</p>
+  </div>
+  <div class="foot" style="color:#7FA0AC"><span>GoVirtual · VT Kabupaten Badung</span><span>18</span></div>
+</section>
+
+</body>
+</html>

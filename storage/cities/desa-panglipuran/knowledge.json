@@ -1,0 +1,197 @@
+{
+    "version": 1,
+    "city": "desa-panglipuran",
+    "entries": [
+        {
+            "id": "panglipuran:letak",
+            "entityId": "panglipuran:letak",
+            "title": "Letak dan luas wilayah",
+            "aliases": [
+                "penglipuran",
+                "letak penglipuran",
+                "luas penglipuran"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Desa Adat Penglipuran berada di Kelurahan Kubu, Kabupaten Bangli, Bali, sekitar 60 km timur laut Denpasar. Luas wilayah desa dilaporkan sekitar 112 hektare, dengan area permukiman sekitar 9 hektare. (Sumber: Liputan6; ANTARA Bali)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Desa Adat Penglipuran berada di Kelurahan Kubu, Kabupaten Bangli, Bali, sekitar 60 km timur laut Denpasar. Luas wilayah desa dilaporkan sekitar 112 hektare, dengan area permukiman sekitar 9 hektare. (Sumber: Liputan6; ANTARA Bali)"
+                },
+                "en": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Desa Adat Penglipuran berada di Kelurahan Kubu, Kabupaten Bangli, Bali, sekitar 60 km timur laut Denpasar. Luas wilayah desa dilaporkan sekitar 112 hektare, dengan area permukiman sekitar 9 hektare. (Sumber: Liputan6; ANTARA Bali)"
+                }
+            }
+        },
+        {
+            "id": "panglipuran:penduduk",
+            "entityId": "panglipuran:penduduk",
+            "title": "Jumlah penduduk dan KK",
+            "aliases": [
+                "penduduk penglipuran",
+                "kepala keluarga penglipuran"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Data penduduk berbeda antar tahun. Liputan6 dan ANTARA mencatat 240 KK dan 1.038 jiwa (data lama). indonesia.travel mencatat 277 KK dan 1.111 jiwa per Januari 2021, yang lebih baru. Jumlah pekarangan juga dilaporkan berbeda, yaitu 76 atau 77. Untuk angka terbaru, rujuk pemerintah desa atau Dinas Kependudukan Kabupaten Bangli. (Sumber: indonesia.travel; Liputan6; ANTARA Bali)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk dan KK",
+                    "content": "Data penduduk berbeda antar tahun. Liputan6 dan ANTARA mencatat 240 KK dan 1.038 jiwa (data lama). indonesia.travel mencatat 277 KK dan 1.111 jiwa per Januari 2021, yang lebih baru. Jumlah pekarangan juga dilaporkan berbeda, yaitu 76 atau 77. Untuk angka terbaru, rujuk pemerintah desa atau Dinas Kependudukan Kabupaten Bangli. (Sumber: indonesia.travel; Liputan6; ANTARA Bali)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk dan KK",
+                    "content": "Data penduduk berbeda antar tahun. Liputan6 dan ANTARA mencatat 240 KK dan 1.038 jiwa (data lama). indonesia.travel mencatat 277 KK dan 1.111 jiwa per Januari 2021, yang lebih baru. Jumlah pekarangan juga dilaporkan berbeda, yaitu 76 atau 77. Untuk angka terbaru, rujuk pemerintah desa atau Dinas Kependudukan Kabupaten Bangli. (Sumber: indonesia.travel; Liputan6; ANTARA Bali)"
+                }
+            }
+        },
+        {
+            "id": "panglipuran:arsitektur-bambu",
+            "entityId": "panglipuran:arsitektur-bambu",
+            "title": "Arsitektur bambu",
+            "aliases": [
+                "rumah bambu",
+                "angkul-angkul",
+                "saka enem",
+                "paon"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Bambu adalah bahan utama bangunan desa. Atap angkul-angkul (gerbang rumah), saka enem (bangunan suci bertiang enam), dan paon (dapur) dibuat dari bambu. Rumah-rumahnya tampak serupa dan tertata rapi dari ujung ke ujung desa. (Sumber: ejournal.warmadewa.ac.id; ANTARA Bali; Mongabay, 2018)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Arsitektur bambu",
+                    "content": "Bambu adalah bahan utama bangunan desa. Atap angkul-angkul (gerbang rumah), saka enem (bangunan suci bertiang enam), dan paon (dapur) dibuat dari bambu. Rumah-rumahnya tampak serupa dan tertata rapi dari ujung ke ujung desa. (Sumber: ejournal.warmadewa.ac.id; ANTARA Bali; Mongabay, 2018)"
+                },
+                "en": {
+                    "title": "Arsitektur bambu",
+                    "content": "Bambu adalah bahan utama bangunan desa. Atap angkul-angkul (gerbang rumah), saka enem (bangunan suci bertiang enam), dan paon (dapur) dibuat dari bambu. Rumah-rumahnya tampak serupa dan tertata rapi dari ujung ke ujung desa. (Sumber: ejournal.warmadewa.ac.id; ANTARA Bali; Mongabay, 2018)"
+                }
+            }
+        },
+        {
+            "id": "panglipuran:hutan-bambu",
+            "entityId": "panglipuran:hutan-bambu",
+            "title": "Hutan bambu dan lingkungan",
+            "aliases": [
+                "hutan bambu",
+                "kalpataru penglipuran"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Hutan bambu di sisi utara desa dianggap pusat ekologi desa karena menjadi sumber air bersih dan penghasil oksigen. Desa ini menerima penghargaan Kalpataru pada 1995. (Sumber: ANTARA Bali; Mongabay, 2018)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Hutan bambu dan lingkungan",
+                    "content": "Hutan bambu di sisi utara desa dianggap pusat ekologi desa karena menjadi sumber air bersih dan penghasil oksigen. Desa ini menerima penghargaan Kalpataru pada 1995. (Sumber: ANTARA Bali; Mongabay, 2018)"
+                },
+                "en": {
+                    "title": "Hutan bambu dan lingkungan",
+                    "content": "Hutan bambu di sisi utara desa dianggap pusat ekologi desa karena menjadi sumber air bersih dan penghasil oksigen. Desa ini menerima penghargaan Kalpataru pada 1995. (Sumber: ANTARA Bali; Mongabay, 2018)"
+                }
+            }
+        },
+        {
+            "id": "panglipuran:tri-hita-karana",
+            "entityId": "panglipuran:tri-hita-karana",
+            "title": "Filosofi Tri Hita Karana",
+            "aliases": [
+                "tri hita karana",
+                "filosofi penglipuran"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Desa ini menjalankan konsep Tri Hita Karana, yaitu keseimbangan hubungan manusia dengan Tuhan, alam, dan sesama. (Sumber: ejournal.warmadewa.ac.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Filosofi Tri Hita Karana",
+                    "content": "Desa ini menjalankan konsep Tri Hita Karana, yaitu keseimbangan hubungan manusia dengan Tuhan, alam, dan sesama. (Sumber: ejournal.warmadewa.ac.id)"
+                },
+                "en": {
+                    "title": "Filosofi Tri Hita Karana",
+                    "content": "Desa ini menjalankan konsep Tri Hita Karana, yaitu keseimbangan hubungan manusia dengan Tuhan, alam, dan sesama. (Sumber: ejournal.warmadewa.ac.id)"
+                }
+            }
+        },
+        {
+            "id": "panglipuran:kunjungan",
+            "entityId": "panglipuran:kunjungan",
+            "title": "Jam kunjungan dan pemandu",
+            "aliases": [
+                "jam buka penglipuran",
+                "tiket penglipuran",
+                "pemandu penglipuran"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Desa wisata ini sudah ditetapkan sejak 1995. Jam kunjungan yang tercantum sumber adalah 08.00 sampai 18.30 WITA. Untuk tur singkat, pemandu lokal disarankan. Tarif pemandu dari artikel 2018 sampai 2019 sekitar Rp50.000 untuk wisatawan nusantara, dan angka ini kemungkinan sudah berubah. (Sumber: ANTARA Bali; artikel wisata 2018 sampai 2019)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jam kunjungan dan pemandu",
+                    "content": "Desa wisata ini sudah ditetapkan sejak 1995. Jam kunjungan yang tercantum sumber adalah 08.00 sampai 18.30 WITA. Untuk tur singkat, pemandu lokal disarankan. Tarif pemandu dari artikel 2018 sampai 2019 sekitar Rp50.000 untuk wisatawan nusantara, dan angka ini kemungkinan sudah berubah. (Sumber: ANTARA Bali; artikel wisata 2018 sampai 2019)"
+                },
+                "en": {
+                    "title": "Jam kunjungan dan pemandu",
+                    "content": "Desa wisata ini sudah ditetapkan sejak 1995. Jam kunjungan yang tercantum sumber adalah 08.00 sampai 18.30 WITA. Untuk tur singkat, pemandu lokal disarankan. Tarif pemandu dari artikel 2018 sampai 2019 sekitar Rp50.000 untuk wisatawan nusantara, dan angka ini kemungkinan sudah berubah. (Sumber: ANTARA Bali; artikel wisata 2018 sampai 2019)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:42:02+02:00"
+}

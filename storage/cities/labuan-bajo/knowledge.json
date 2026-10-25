@@ -1,0 +1,198 @@
+{
+    "version": 1,
+    "city": "labuan-bajo",
+    "entries": [
+        {
+            "id": "labuan-bajo:letak",
+            "entityId": "labuan-bajo:letak",
+            "title": "Letak dan status wilayah",
+            "aliases": [
+                "labuan bajo",
+                "letak labuan bajo",
+                "kecamatan komodo"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Labuan Bajo berada di Kecamatan Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Timur, di ujung barat Pulau Flores, menghadap Selat Sape. Ia menjadi pusat pemerintahan kabupaten sekaligus gerbang utama menuju Taman Nasional Komodo. Status administratifnya tercatat berbeda antar sumber, ada yang menyebut desa dan ada yang menyebut kawasan perkotaan pesisir. (Sumber: indonesia.travel; ensiklopedia daring)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan status wilayah",
+                    "content": "Labuan Bajo berada di Kecamatan Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Timur, di ujung barat Pulau Flores, menghadap Selat Sape. Ia menjadi pusat pemerintahan kabupaten sekaligus gerbang utama menuju Taman Nasional Komodo. Status administratifnya tercatat berbeda antar sumber, ada yang menyebut desa dan ada yang menyebut kawasan perkotaan pesisir. (Sumber: indonesia.travel; ensiklopedia daring)"
+                },
+                "en": {
+                    "title": "Letak dan status wilayah",
+                    "content": "Labuan Bajo berada di Kecamatan Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Timur, di ujung barat Pulau Flores, menghadap Selat Sape. Ia menjadi pusat pemerintahan kabupaten sekaligus gerbang utama menuju Taman Nasional Komodo. Status administratifnya tercatat berbeda antar sumber, ada yang menyebut desa dan ada yang menyebut kawasan perkotaan pesisir. (Sumber: indonesia.travel; ensiklopedia daring)"
+                }
+            }
+        },
+        {
+            "id": "labuan-bajo:penduduk",
+            "entityId": "labuan-bajo:penduduk",
+            "title": "Jumlah penduduk (belum terverifikasi)",
+            "aliases": [
+                "penduduk labuan bajo",
+                "penduduk komodo"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Angka penduduk Kecamatan Komodo belum terverifikasi dalam riset ini, sehingga jangan menyebut angka. BPS Manggarai Barat menerbitkan publikasi tahunan Kecamatan Komodo Dalam Angka, dan arahkan pengunjung ke edisi terbaru. (Sumber: manggaraibaratkab.bps.go.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk (belum terverifikasi)",
+                    "content": "Angka penduduk Kecamatan Komodo belum terverifikasi dalam riset ini, sehingga jangan menyebut angka. BPS Manggarai Barat menerbitkan publikasi tahunan Kecamatan Komodo Dalam Angka, dan arahkan pengunjung ke edisi terbaru. (Sumber: manggaraibaratkab.bps.go.id)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk (belum terverifikasi)",
+                    "content": "Angka penduduk Kecamatan Komodo belum terverifikasi dalam riset ini, sehingga jangan menyebut angka. BPS Manggarai Barat menerbitkan publikasi tahunan Kecamatan Komodo Dalam Angka, dan arahkan pengunjung ke edisi terbaru. (Sumber: manggaraibaratkab.bps.go.id)"
+                }
+            }
+        },
+        {
+            "id": "labuan-bajo:tn-komodo",
+            "entityId": "labuan-bajo:tn-komodo",
+            "title": "Taman Nasional Komodo",
+            "aliases": [
+                "taman nasional komodo",
+                "tn komodo",
+                "warisan dunia komodo"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Taman nasional ini didirikan pada 1980 dan mencakup Pulau Komodo, Rinca, dan Padar serta beberapa pulau kecil, dengan luas total sekitar 2.321 km². Tahun penetapan sebagai Situs Warisan Dunia UNESCO tercatat 1991 di satu sumber dan 1986 di sumber lain, jadi cek ke situs UNESCO. (Sumber: indonesia.travel; wartaekonomi.co.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Taman Nasional Komodo",
+                    "content": "Taman nasional ini didirikan pada 1980 dan mencakup Pulau Komodo, Rinca, dan Padar serta beberapa pulau kecil, dengan luas total sekitar 2.321 km². Tahun penetapan sebagai Situs Warisan Dunia UNESCO tercatat 1991 di satu sumber dan 1986 di sumber lain, jadi cek ke situs UNESCO. (Sumber: indonesia.travel; wartaekonomi.co.id)"
+                },
+                "en": {
+                    "title": "Taman Nasional Komodo",
+                    "content": "Taman nasional ini didirikan pada 1980 dan mencakup Pulau Komodo, Rinca, dan Padar serta beberapa pulau kecil, dengan luas total sekitar 2.321 km². Tahun penetapan sebagai Situs Warisan Dunia UNESCO tercatat 1991 di satu sumber dan 1986 di sumber lain, jadi cek ke situs UNESCO. (Sumber: indonesia.travel; wartaekonomi.co.id)"
+                }
+            }
+        },
+        {
+            "id": "labuan-bajo:pulau",
+            "entityId": "labuan-bajo:pulau",
+            "title": "Pulau Komodo, Rinca, dan Padar",
+            "aliases": [
+                "pulau komodo",
+                "pulau rinca",
+                "pulau padar",
+                "pink beach"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Trekking bersama ranger untuk melihat komodo dilakukan di Pulau Komodo dan Rinca. Pulau Rinca memiliki sabana yang lebih luas dibanding Pulau Komodo. Pulau Padar terkenal dengan panoramanya, tetapi tidak dihuni komodo. Snorkeling dan menyelam populer di Pink Beach. (Sumber: indonesia.travel; goodnewsfromindonesia.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Pulau Komodo, Rinca, dan Padar",
+                    "content": "Trekking bersama ranger untuk melihat komodo dilakukan di Pulau Komodo dan Rinca. Pulau Rinca memiliki sabana yang lebih luas dibanding Pulau Komodo. Pulau Padar terkenal dengan panoramanya, tetapi tidak dihuni komodo. Snorkeling dan menyelam populer di Pink Beach. (Sumber: indonesia.travel; goodnewsfromindonesia.id)"
+                },
+                "en": {
+                    "title": "Pulau Komodo, Rinca, dan Padar",
+                    "content": "Trekking bersama ranger untuk melihat komodo dilakukan di Pulau Komodo dan Rinca. Pulau Rinca memiliki sabana yang lebih luas dibanding Pulau Komodo. Pulau Padar terkenal dengan panoramanya, tetapi tidak dihuni komodo. Snorkeling dan menyelam populer di Pink Beach. (Sumber: indonesia.travel; goodnewsfromindonesia.id)"
+                }
+            }
+        },
+        {
+            "id": "labuan-bajo:aturan-kunjungan",
+            "entityId": "labuan-bajo:aturan-kunjungan",
+            "title": "Aturan kunjungan",
+            "aliases": [
+                "aturan komodo",
+                "ranger komodo",
+                "larangan komodo"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kunjungan ke pulau-pulau taman nasional diatur oleh pengelola dan biasanya didampingi ranger. Pengunjung diminta mengikuti arahan ranger, tidak mendekati komodo, dan menjaga kebersihan. Tarif masuk dan aturan terbaru perlu dicek ke Balai Taman Nasional Komodo. (Sumber: indonesia.travel; ringkasan aturan konservasi)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Aturan kunjungan",
+                    "content": "Kunjungan ke pulau-pulau taman nasional diatur oleh pengelola dan biasanya didampingi ranger. Pengunjung diminta mengikuti arahan ranger, tidak mendekati komodo, dan menjaga kebersihan. Tarif masuk dan aturan terbaru perlu dicek ke Balai Taman Nasional Komodo. (Sumber: indonesia.travel; ringkasan aturan konservasi)"
+                },
+                "en": {
+                    "title": "Aturan kunjungan",
+                    "content": "Kunjungan ke pulau-pulau taman nasional diatur oleh pengelola dan biasanya didampingi ranger. Pengunjung diminta mengikuti arahan ranger, tidak mendekati komodo, dan menjaga kebersihan. Tarif masuk dan aturan terbaru perlu dicek ke Balai Taman Nasional Komodo. (Sumber: indonesia.travel; ringkasan aturan konservasi)"
+                }
+            }
+        },
+        {
+            "id": "labuan-bajo:status-destinasi",
+            "entityId": "labuan-bajo:status-destinasi",
+            "title": "Status destinasi nasional",
+            "aliases": [
+                "destinasi super prioritas",
+                "labuan bajo nasional"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Labuan Bajo termasuk Destinasi Super Prioritas nasional yang ditetapkan Kementerian Pariwisata. (Sumber: ringkasan sumber riset web)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Status destinasi nasional",
+                    "content": "Labuan Bajo termasuk Destinasi Super Prioritas nasional yang ditetapkan Kementerian Pariwisata. (Sumber: ringkasan sumber riset web)"
+                },
+                "en": {
+                    "title": "Status destinasi nasional",
+                    "content": "Labuan Bajo termasuk Destinasi Super Prioritas nasional yang ditetapkan Kementerian Pariwisata. (Sumber: ringkasan sumber riset web)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:42:02+02:00"
+}

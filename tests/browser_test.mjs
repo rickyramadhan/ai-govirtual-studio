@@ -17,7 +17,7 @@ const check = (name, ok, extra = '') => { console.log((ok ? 'PASS ' : 'FAIL ') +
 // ---------- salinan terisolasi + fixture ----------
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'hubbrowser-'));
 for (const f of ['index.php', 'studio.php', 'qa_import.php', 'scene_import.php']) fs.copyFileSync(path.join(root, f), path.join(tmp, f));
-fs.mkdirSync(path.join(tmp, 'app')); for (const f of fs.readdirSync(path.join(root, 'app'))) fs.copyFileSync(path.join(root, 'app', f), path.join(tmp, 'app', f));
+fs.cpSync(path.join(root, 'app'), path.join(tmp, 'app'), { recursive: true }); // termasuk app/i18n
 const tdir = path.join(tmp, 'storage/tours/demo'); fs.mkdirSync(tdir, { recursive: true });
 const entries = Array.from({ length: 14 }, (_, i) => ({ id: 'k' + i, title: i === 5 ? 'Sejarah Gedung' : 'Entri ' + i, aliases: [], type: 'information', content: 'Isi entri nomor ' + i + (i === 5 ? ' tentang sejarah' : ''), tags: ['x'], sceneIds: [] }));
 fs.writeFileSync(path.join(tdir, 'knowledge.json'), JSON.stringify({ entries }));
@@ -52,16 +52,26 @@ try {
   const jsErrors = []; ws.addEventListener('message', (m) => { const d = JSON.parse(m.data); if (d.method === 'Runtime.exceptionThrown') jsErrors.push(d.params.exceptionDetails.exception?.description?.split('\n')[0] || d.params.exceptionDetails.text); });
 
   // login lewat form sungguhan
-  await goto('?a=login');
+  await goto('?a=login&lang=id'); // tes browser memeriksa label Bahasa Indonesia; English diuji di integration_test
   await ev(`(document.getElementById('login_user').value='tester', document.getElementById('login_pass').value='Kata-Sandi-123', document.querySelector('form[action="?a=login"]').submit(), true)`);
   await sleep(1500);
   check('login: berhasil masuk ke dashboard', await ev(`!!document.getElementById('studio-sidebar') && location.search===''`));
 
-  // dashboard
+  // dashboard: halaman awal = daftar kota; setelah kota dipilih, toolbar & lokasi tampil
+  check('dashboard: halaman awal menampilkan daftar kota', await ev(`!!document.querySelector('.city-card')`));
+  await goto('?a=list&city=kota-uji');
   await shot('1-dashboard');
-  check('dashboard: toolbar filter server-side tampil', await ev(`!!document.querySelector('form.dv-bar select[name=city]') && !!document.querySelector('.tour-card')`));
+  check('dashboard: toolbar filter server-side tampil di dalam kota', await ev(`!!document.querySelector('form.dv-bar input[name=city]') && !!document.querySelector('.tour-card')`));
 
   // sidebar bergrup
+  await goto('?a=view&id=1');
+  await shot('7-ringkasan');
+  await goto('?a=scenes&id=1');
+  await shot('6-scene');
+  await goto('?a=citySources&city=kota-uji');
+  await shot('5-sumber');
+  await goto('?a=city&city=kota-uji');
+  await shot('4-kota');
   await goto('?a=knowledge&id=1');
   const labels = await ev(`[...document.querySelectorAll('.sbnav-label')].map(e=>e.textContent.trim())`);
   check('sidebar: dikelompokkan Tour/Konten/Percakapan/Navigasi/Rilis', ['Tour', 'Konten', 'Percakapan', 'Navigasi', 'Rilis'].every((l) => labels.includes(l)), JSON.stringify(labels));
@@ -107,7 +117,7 @@ try {
   check('uji: halaman Uji tidak menampilkan drawer ganda', await ev(`!document.getElementById('cdFab')`));
 
   // dashboard tidak punya drawer
-  await goto('');
+  await goto('?a=list&city=kota-uji');
   check('dashboard: tidak ada drawer (bukan halaman tour)', await ev(`!document.getElementById('cdFab')`));
 
   check('tanpa error JavaScript di semua halaman', jsErrors.length === 0, jsErrors.slice(0, 3).join(' | '));

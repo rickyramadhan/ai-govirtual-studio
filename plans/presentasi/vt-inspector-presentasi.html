@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>VT Inspector · QA Otomatis Virtual Tour GoVirtual</title>
+<style>
+  @page { size: 1280px 720px; margin: 0; }
+  :root { --ink: #0f172a; --mute: #5b6478; --line: #e3e7ef; --bg: #f7f8fc; --navy: #0b1222; --sky: #0ea5e9; --violet: #8b5cf6; --mint: #10b981; --amber: #f59e0b; --rose: #f43f5e; --sky-l: #e0f2fe; --vio-l: #ede9fe; --mint-l: #d1fae5; --amber-l: #fef3c7; --rose-l: #ffe4e6; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", "Segoe UI Emoji", Arial, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; background: #888; }
+  .slide { width: 1280px; height: 720px; position: relative; overflow: hidden; background: var(--bg); padding: 54px 72px 60px; page-break-after: always; break-after: page; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 7px; background: linear-gradient(90deg, var(--sky), var(--violet), #f0abfc); }
+  .kicker { font-size: 14px; font-weight: 800; letter-spacing: 2.4px; text-transform: uppercase; color: var(--violet); margin-bottom: 8px; }
+  h1 { font-size: 38px; line-height: 1.14; font-weight: 800; color: var(--navy); margin-bottom: 10px; letter-spacing: -.4px; }
+  h1 em { font-style: normal; background: linear-gradient(90deg, var(--sky), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lead { font-size: 18px; color: var(--mute); line-height: 1.45; max-width: 1050px; }
+  .foot { position: absolute; left: 72px; right: 72px; bottom: 22px; display: flex; justify-content: space-between; font-size: 12px; color: #9aa3b5; }
+  .foot b { color: var(--violet); }
+  .grid { display: grid; gap: 16px; } .g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(3, 1fr); } .g4 { grid-template-columns: repeat(4, 1fr); } .g5 { grid-template-columns: repeat(5, 1fr); }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+  .card h3 { font-size: 18px; color: var(--navy); margin-bottom: 6px; }
+  .card p, .card li { font-size: 14.5px; line-height: 1.45; color: #3d4659; }
+  .card ul { padding-left: 18px; } .card li { margin-bottom: 4px; }
+  .ico { font-size: 30px; line-height: 1; margin-bottom: 10px; display: block; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 800; padding: 4px 10px; border-radius: 99px; }
+  .t-mint { background: var(--mint-l); color: #047857; } .t-amber { background: var(--amber-l); color: #b45309; } .t-rose { background: var(--rose-l); color: #be123c; } .t-sky { background: var(--sky-l); color: #0369a1; } .t-vio { background: var(--vio-l); color: #6d28d9; }
+  .tip { background: var(--sky-l); border-left: 5px solid var(--sky); border-radius: 10px; padding: 12px 16px; font-size: 15px; color: #075985; line-height: 1.45; }
+  .warn { background: var(--rose-l); border-left: 5px solid var(--rose); border-radius: 10px; padding: 12px 16px; font-size: 15px; color: #9f1239; line-height: 1.45; }
+  .ok { background: var(--mint-l); border-left: 5px solid var(--mint); border-radius: 10px; padding: 12px 16px; font-size: 15px; color: #065f46; line-height: 1.45; }
+  .dark { background: var(--navy); color: #fff; } .dark h1 { color: #fff; } .dark .lead { color: #b6c2d9; } .dark .kicker { color: #c4b5fd; }
+  .shot { border-radius: 14px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 18px 40px -18px rgba(15, 23, 42, .45); background: #0b1222; }
+  .shot img { display: block; width: 100%; }
+  .cap { font-size: 12.5px; color: var(--mute); margin-top: 6px; text-align: center; }
+  .num { width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, var(--sky), var(--violet)); color: #fff; font-weight: 800; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; flex: none; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th { text-align: left; background: var(--navy); color: #fff; padding: 10px 14px; font-weight: 600; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--line); background: #fff; vertical-align: top; }
+  .big { font-size: 46px; font-weight: 800; line-height: 1; letter-spacing: -1px; background: linear-gradient(90deg, var(--sky), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .flow { display: flex; align-items: stretch; gap: 10px; }
+  .flow .step { flex: 1; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 14px; font-size: 14px; line-height: 1.4; color: #3d4659; }
+  .flow .step b { display: block; color: var(--navy); font-size: 15.5px; margin-bottom: 4px; }
+  .arrow { align-self: center; color: var(--violet); font-size: 24px; font-weight: 900; }
+  code { font-family: Consolas, monospace; background: #eef1f7; padding: 1px 6px; border-radius: 6px; font-size: .92em; }
+  .ring { width: 92px; height: 92px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 30px; color: var(--navy); background: conic-gradient(var(--c) calc(var(--p) * 1%), #e5e9f2 0); position: relative; flex: none; }
+  .ring::before { content: ""; position: absolute; inset: 9px; border-radius: 50%; background: #fff; }
+  .ring span { position: relative; }
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="slide dark" style="padding:0">
+  <div style="position:absolute;inset:0;background:radial-gradient(circle at 80% 25%, rgba(139,92,246,.55), transparent 45%), radial-gradient(circle at 15% 90%, rgba(14,165,233,.45), transparent 45%), linear-gradient(135deg,#070b16,#0f1a33);"></div>
+  <div style="position:relative;padding:105px 90px">
+    <div class="kicker" style="font-size:15px">GoVirtual · Alat Kerja Internal</div>
+    <h1 style="font-size:66px;line-height:1.04;margin:14px 0 22px">VT Inspector</h1>
+    <p class="lead" style="font-size:26px;max-width:760px;color:#dbe4f5">Robot yang memeriksa setiap virtual tour <b style="color:#c4b5fd">sebelum klien melihatnya</b>, sehingga tour lebih berkualitas dan pengerjaan lebih cepat.</p>
+    <div style="margin-top:40px;display:flex;gap:10px;flex-wrap:wrap">
+      <span class="tag t-vio" style="font-size:14px;padding:7px 14px">🔍 Periksa otomatis</span>
+      <span class="tag t-vio" style="font-size:14px;padding:7px 14px">🤖 Robot pengunjung</span>
+      <span class="tag t-vio" style="font-size:14px;padding:7px 14px">✨ Dinilai AI</span>
+      <span class="tag t-vio" style="font-size:14px;padding:7px 14px">📊 Satu dashboard</span>
+    </div>
+  </div>
+  <div style="position:absolute;right:70px;bottom:90px;width:330px;height:330px;border-radius:50%;border:16px solid rgba(255,255,255,.08);display:grid;place-items:center">
+    <svg width="190" height="190" viewBox="0 0 40 40"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs><circle cx="20" cy="20" r="13" fill="none" stroke="url(#g)" stroke-width="3.6"/><path d="M14 20.5l4.2 4.2 8-9.2" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <div class="foot" style="color:#7f8fb0"><span>Pilot: 117 virtual tour Kota Semarang</span><span>1</span></div>
+</section>
+
+<!-- 2 MASALAH -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Masalah yang kita hadapi</div>
+  <h1>Satu tour punya <em>ratusan hal</em> yang harus dicek</h1>
+  <p class="lead">Video intro, tombol Skip, sambutan, 4 bahasa, audio, menu, popup, puluhan scene, ratusan hotspot, tampilan HP. Semua itu dicek manual, satu per satu.</p>
+  <div class="grid g3" style="margin-top:26px">
+    <div class="card" style="border-top:6px solid var(--rose)"><span class="ico">⏱️</span><h3>Lama</h3><p>QA manual satu tour bisa <b>1–2 jam</b>. Untuk 50 lokasi, berarti <b>50–100 jam kerja</b> hanya untuk mengecek.</p></div>
+    <div class="card" style="border-top:6px solid var(--amber)"><span class="ico">🙈</span><h3>Mudah terlewat</h3><p>Kesalahan kecil, seperti satu huruf di nama file audio, tidak terlihat mata, tetapi membuat fitur tidak berfungsi.</p></div>
+    <div class="card" style="border-top:6px solid var(--violet)"><span class="ico">🎲</span><h3>Tidak seragam</h3><p>Setiap QA mengecek dengan caranya sendiri. Hasilnya tergantung siapa yang mengecek dan seberapa lelah.</p></div>
+  </div>
+  <div class="warn" style="margin-top:24px;font-size:16px">Ke depan ada target produksi besar, misalnya <b>50 lokasi Badung</b> dan <b>50 lokasi Papua</b> dalam waktu singkat. Dengan cara manual, kualitas akan dikorbankan demi kecepatan, atau sebaliknya.</div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>2</span></div>
+</section>
+
+<!-- 3 APA ITU -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Apa itu VT Inspector?</div>
+  <h1>Seperti <em>quality control</em> di pabrik, tapi untuk virtual tour</h1>
+  <div class="grid" style="grid-template-columns:1.1fr 1fr;gap:28px;margin-top:22px;align-items:center">
+    <div>
+      <p class="lead" style="font-size:18.5px">Di pabrik mobil, setiap mobil melewati jalur inspeksi sebelum dikirim: rem dicek, lampu dicek, mesin dicoba. Mobil yang bermasalah tidak boleh keluar pabrik.</p>
+      <p class="lead" style="font-size:18.5px;margin-top:14px"><b style="color:var(--navy)">VT Inspector melakukan hal yang sama untuk virtual tour.</b> Setiap tour diperiksa otomatis, hasilnya diberi skor, dan masalahnya ditunjukkan lengkap dengan bukti.</p>
+      <div class="tip" style="margin-top:20px">Cukup buka satu halaman. Tim dan atasan langsung tahu <b>tour mana yang siap tayang</b>, <b>mana yang belum</b>, dan <b>apa yang harus diperbaiki</b>.</div>
+    </div>
+    <div class="grid" style="gap:12px">
+      <div class="card" style="display:flex;gap:14px;align-items:center"><span class="ico" style="margin:0">🔍</span><div><h3 style="margin:0">Memeriksa</h3><p>File, scene, audio, bahasa, fitur wajib</p></div></div>
+      <div class="card" style="display:flex;gap:14px;align-items:center"><span class="ico" style="margin:0">🤖</span><div><h3 style="margin:0">Mencoba seperti pengunjung</h3><p>Robot menekan setiap tombol dan membuka setiap scene</p></div></div>
+      <div class="card" style="display:flex;gap:14px;align-items:center"><span class="ico" style="margin:0">✨</span><div><h3 style="margin:0">Menilai dengan AI</h3><p>Kualitas gambar, tampilan, dan terjemahan</p></div></div>
+      <div class="card" style="display:flex;gap:14px;align-items:center"><span class="ico" style="margin:0">📊</span><div><h3 style="margin:0">Melaporkan</h3><p>Skor 0–100, status, bukti screenshot, laporan PDF</p></div></div>
+    </div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>3</span></div>
+</section>
+
+<!-- 4 CARA KERJA -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Cara kerja</div>
+  <h1>Lima lapis pemeriksaan, <em>otomatis</em></h1>
+  <p class="lead">Setiap lapis menangkap jenis masalah yang berbeda, mirip pemeriksaan kesehatan lengkap.</p>
+  <div class="grid g5" style="margin-top:24px;gap:12px">
+    <div class="card"><span class="ico">📁</span><h3>1. Periksa file</h3><p>Seperti mengecek kelengkapan dokumen. File hilang, nama salah, audio bahasa kurang.</p><p style="margin-top:8px"><span class="tag t-sky">±0,1 detik / tour</span></p></div>
+    <div class="card"><span class="ico">🤖</span><h3>2. Robot pengunjung</h3><p>Seperti <i>mystery shopper</i>. Membuka tour di laptop & HP, menekan semua tombol.</p><p style="margin-top:8px"><span class="tag t-sky">±1,5 menit / tour</span></p></div>
+    <div class="card"><span class="ico">🔗</span><h3>3. Cek tautan</h3><p>Memastikan semua popup, info objek, dan layanan luar bisa dibuka.</p><p style="margin-top:8px"><span class="tag t-sky">±10 detik / tour</span></p></div>
+    <div class="card"><span class="ico">✨</span><h3>4. Penilaian AI</h3><p>Seperti kurator. Menilai gambar gelap/blur, teks terpotong, terjemahan janggal.</p><p style="margin-top:8px"><span class="tag t-sky">±20 detik / tour</span></p></div>
+    <div class="card"><span class="ico">⚖️</span><h3>5. Kewajaran</h3><p>Membandingkan dengan tour lain. "Tour ini hanya 5 scene, padahal rata-rata 22."</p><p style="margin-top:8px"><span class="tag t-sky">instan</span></p></div>
+  </div>
+  <div class="ok" style="margin-top:22px">Hasil dari kelima lapis digabung menjadi <b>satu skor</b> dan <b>satu daftar perbaikan</b>. Tim tidak perlu membaca log teknis.</div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>4</span></div>
+</section>
+
+<!-- 5 ROBOT -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Lapis 2 · Robot pengunjung</div>
+  <h1>Robot mencoba tour <em>persis seperti pengunjung</em></h1>
+  <div class="grid" style="grid-template-columns:1fr 1.45fr;gap:26px;margin-top:16px">
+    <div class="card" style="padding:16px 20px">
+      <h3>Yang dilakukan robot di setiap tour</h3>
+      <ul style="margin-top:6px">
+        <li>Membuka tour, mengukur waktu muat</li>
+        <li>Menunggu video intro, lalu menekan <b>Skip</b></li>
+        <li>Membaca teks sambutan, menutup layar pembuka</li>
+        <li>Menyalakan & mematikan <b>audio</b></li>
+        <li>Mengganti <b>4 bahasa</b>: ID, EN, 中文, العربية</li>
+        <li>Membuka & menutup <b>Menu, Informasi, Jelajah, Layanan Publik, Kategori</b></li>
+        <li>Mengunjungi <b>setiap scene</b> & memotret</li>
+        <li>Mengulang di <b>ukuran HP</b> (iPhone)</li>
+        <li>Mencatat semua error & file yang gagal dimuat</li>
+      </ul>
+    </div>
+    <div>
+      <div class="grid g2" style="gap:10px">
+        <div><div class="shot"><img src="qa-img/robot-intro.jpg"></div><div class="cap">Robot melihat video intro</div></div>
+        <div><div class="shot"><img src="qa-img/robot-menu.jpg"></div><div class="cap">Robot membuka popup Informasi</div></div>
+        <div><div class="shot"><img src="qa-img/robot-tour.jpg"></div><div class="cap">Tampilan setelah intro & sambutan ditutup</div></div>
+        <div><div class="shot"><img src="qa-img/robot-scene.jpg"></div><div class="cap">Salah satu dari 35 scene yang dipotret</div></div>
+      </div>
+      <p class="cap" style="margin-top:8px">Screenshot asli robot di Lawang Sewu</p>
+    </div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>5</span></div>
+</section>
+
+<!-- 6 CONTOH 1 -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Contoh temuan nyata #1</div>
+  <h1>Satu spasi yang membuat <em>audio Mandarin diam</em></h1>
+  <div class="grid g2" style="margin-top:20px;gap:26px">
+    <div class="card">
+      <h3>📍 Lawang Sewu · Info objek "Tugu Marmer"</h3>
+      <p style="margin-top:8px">Nama file audio di folder:</p>
+      <div style="margin-top:10px;display:flex;flex-direction:column;gap:6px;font-family:Consolas,monospace;font-size:15px">
+        <div class="ok" style="padding:8px 12px">✓ tugu marmer - ID.mp3</div>
+        <div class="ok" style="padding:8px 12px">✓ tugu marmer - EN.mp3</div>
+        <div class="ok" style="padding:8px 12px">✓ tugu marmer - SA.mp3</div>
+        <div class="warn" style="padding:8px 12px">✗ tugu marmer - CN<span style="background:#fecdd3;padding:0 3px;border-radius:3px">&nbsp;</span>.mp3 &nbsp;← ada spasi</div>
+      </div>
+      <p style="margin-top:12px">Wisatawan yang memilih bahasa Mandarin dan membuka info Tugu Marmer <b>tidak mendengar narasi apa pun</b>.</p>
+    </div>
+    <div>
+      <div class="card" style="border-left:6px solid var(--rose)"><h3>Dengan cara manual</h3><p>QA harus memilih bahasa Mandarin, mencari Tugu Marmer di antara 35 scene, membuka infonya, lalu sadar audionya tidak bunyi. Hampir pasti terlewat.</p></div>
+      <div class="card" style="border-left:6px solid var(--mint);margin-top:14px"><h3>Dengan VT Inspector</h3><p>Ditemukan otomatis dalam <b>hitungan detik</b>, lengkap dengan nama file yang salah dan bahasa yang terdampak.</p></div>
+      <div class="tip" style="margin-top:14px">Temuan serupa: folder audio <code>patunggff</code> tidak ada di <b>Zie Batik</b>, dan audio narasi Mandarin tidak lengkap di 1 tour.</div>
+    </div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>6</span></div>
+</section>
+
+<!-- 7 CONTOH 2 -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Contoh temuan nyata #2</div>
+  <h1>Masalah yang <em>tidak terlihat</em> sampai klien mengeluh</h1>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card"><span class="ico">📱</span><h3>Error di HP</h3><p>File <code>gyro.js</code> tidak ada di <b>3 tour</b>. Di HP muncul error JavaScript, sehingga fitur gerak (gyro) tidak berfungsi.</p><p style="margin-top:8px"><span class="tag t-rose">ditemukan robot</span></p></div>
+    <div class="card"><span class="ico">🖼️</span><h3>Gambar hilang di popup</h3><p>Satu gambar di popup <b>Kategori</b> tidak ada di server (404). Popup ini dipakai <b>semua tour Semarang</b>.</p><p style="margin-top:8px"><span class="tag t-rose">ditemukan robot</span></p></div>
+    <div class="card"><span class="ico">🧩</span><h3>Template berbeda</h3><p>Tour <b>RS Columbia Asia</b> memakai template lama: tidak punya tombol drone yang dimiliki 99% tour lain.</p><p style="margin-top:8px"><span class="tag t-vio">ditemukan analisa kewajaran</span></p></div>
+  </div>
+  <div class="grid g2" style="margin-top:18px;gap:22px">
+    <div class="card" style="display:flex;gap:18px;align-items:center">
+      <div style="width:250px;flex:none;border-radius:12px;background:#e7f5ee;padding:10px;font-size:12.5px">
+        <div style="background:#fff;border-radius:10px;padding:8px 10px;box-shadow:0 1px 2px rgba(0,0,0,.1)"><div style="color:#1f7aec">semarang.govirtual.id/lawang-sewu</div><div style="height:48px;background:#e5e7eb;border-radius:6px;margin-top:6px;display:grid;place-items:center;color:#9ca3af">(tanpa judul)</div></div>
+        <div style="text-align:center;color:#6b7280;margin-top:6px">Link dibagikan ke WhatsApp</div>
+      </div>
+      <div><h3>Pratinjau share kosong</h3><p>Di <b>117 dari 117 tour</b>, judul halaman & pratinjau share kosong. Link yang dibagikan terlihat tidak profesional.</p><p style="margin-top:6px"><b>Bisa diperbaiki otomatis</b> dengan satu klik (file asli dicadangkan dulu).</p></div>
+    </div>
+    <div class="card"><span class="ico">🗄️</span><h3>±19 GB file cadangan di folder publik</h3><p>Folder backup dan file <code>.bak</code> ikut ter-publish di 117 tour. Bisa diunduh orang luar dan memakan ruang hosting.</p></div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>7</span></div>
+</section>
+
+<!-- 8 AI -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Lapis 4 · Penilaian AI</div>
+  <h1>AI menilai seperti <em>kurator yang kritis</em></h1>
+  <p class="lead">Ada hal yang tidak bisa dicek dengan aturan pasti, seperti "apakah gambarnya bagus?" atau "apakah terjemahannya wajar?". AI melihat screenshot dan teks, lalu memberi catatan.</p>
+  <div class="grid" style="grid-template-columns:1fr 1.25fr;gap:24px;margin-top:20px">
+    <div class="card" style="background:linear-gradient(135deg,#eef6ff,#f3efff);border-color:#d9d2fb">
+      <div style="display:flex;gap:16px;align-items:center"><div class="ring" style="--p:72;--c:#8b5cf6"><span>72</span></div><div><h3 style="margin:0">Lawang Sewu</h3><p>Skor kualitas dari AI</p></div></div>
+      <p style="margin-top:14px;font-style:italic;color:#3b3f63">"Secara keseluruhan virtual tour Lawang Sewu memiliki visual panorama yang cukup baik dan kaya fitur, namun masih ada masalah pada tata letak teks dan terjemahan multibahasa."</p>
+    </div>
+    <div>
+      <h3 style="font-size:17px;margin-bottom:10px;color:var(--navy)">Contoh catatan AI</h3>
+      <div class="grid" style="gap:9px"><div class="card" style="display:flex;gap:12px;align-items:center;padding:10px 12px"><img src="qa-img/ai-welcome.jpg" style="width:150px;border-radius:8px;flex:none"><div><span class="tag t-amber">Major</span> <b style="font-size:14.5px">Teks sambutan terpotong</b><p style="font-size:13px;margin-top:3px">Kalimat terakhir di kotak sambutan tidak terbaca. Saran: perbesar kotak atau perkecil teks.</p></div></div>
+<div class="card" style="display:flex;gap:12px;align-items:center;padding:10px 12px"><img src="qa-img/ai-face.jpg" style="width:150px;border-radius:8px;flex:none"><div><span class="tag t-sky">Info</span> <b style="font-size:14.5px">Wajah pengunjung terlihat jelas</b><p style="font-size:13px;margin-top:3px">Untuk privasi, disarankan wajah disamarkan (blur) di scene ini.</p></div></div>
+<div class="card" style="padding:10px 14px"><span class="tag t-sky">Minor</span> <b style="font-size:14.5px">Terjemahan Mandarin & Arab perlu dirapikan</b><p style="font-size:13px;margin-top:3px">Beberapa teks UI di dua bahasa ini tidak natural atau tercampur. Perlu dicek penerjemah.</p></div></div>
+      <div class="tip" style="margin-top:12px;font-size:14px">AI hanya memberi tanda <b>"perlu dicek"</b> beserta bukti gambar. Keputusan akhir tetap di tangan tim, jadi AI tidak menjadi hakim tunggal.</div>
+    </div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>8</span></div>
+</section>
+
+<!-- 9 DASHBOARD -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Dashboard</div>
+  <h1>Kondisi semua tour dalam <em>satu layar</em></h1>
+  <div class="grid" style="grid-template-columns:1.35fr 1fr;gap:24px;margin-top:14px">
+    <div><div class="shot"><img src="qa-img/dash-region.png"></div><div class="cap">Halaman wilayah: setiap kartu = satu lokasi, lengkap dengan skor & jumlah masalah</div></div>
+    <div class="grid" style="gap:12px;align-content:start">
+      <div class="card" style="padding:14px 18px"><h3>🟢 🟡 🔴 Status jelas</h3><p>Siap tayang · Perlu perbaikan · Belum layak</p></div>
+      <div class="card" style="padding:14px 18px"><h3>🔎 Cari & saring</h3><p>Tampilkan hanya tour yang bermasalah, urutkan dari skor terendah</p></div>
+      <div class="card" style="padding:14px 18px"><h3>✅ Matriks fitur</h3><p>Lihat sekaligus fitur apa yang belum ada di setiap tour</p></div>
+      <div class="card" style="padding:14px 18px"><h3>📄 Laporan</h3><p>Ringkasan AI untuk atasan, bisa dicetak PDF atau diunduh Excel (CSV)</p></div>
+    </div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>9</span></div>
+</section>
+
+<!-- 10 DETAIL TOUR -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Detail per lokasi</div>
+  <h1>Setiap masalah ada <em>bukti & cara memperbaikinya</em></h1>
+  <div class="grid" style="grid-template-columns:1.35fr 1fr;gap:24px;margin-top:14px">
+    <div><div class="shot"><img src="qa-img/dash-tour.png"></div><div class="cap">Halaman satu tour: skor, temuan, langkah robot, screenshot setiap scene</div></div>
+    <div class="grid" style="gap:12px;align-content:start">
+      <div class="card" style="padding:14px 18px"><h3>Skor 0–100</h3><p>Masalah berat mengurangi skor lebih banyak. Status dihitung otomatis.</p>
+        <table style="margin-top:8px;font-size:13.5px"><tr><td><span class="tag t-rose">Blocker</span></td><td>tour tidak bisa dipakai, mis. gagal dimuat</td></tr><tr><td><span class="tag t-amber">Major</span></td><td>fitur penting rusak, mis. satu bahasa tidak jalan</td></tr><tr><td><span class="tag t-sky">Minor</span></td><td>kurang rapi, mis. judul share kosong</td></tr></table></div>
+      <div class="card" style="padding:14px 18px"><h3>🪄 Perbaiki otomatis</h3><p>Masalah sepele (judul, pratinjau share, file cadangan) bisa diperbaiki satu klik, dengan cadangan otomatis.</p></div>
+      <div class="card" style="padding:14px 18px"><h3>✓ Abaikan bila bukan masalah</h3><p>Tim bisa menandai temuan yang memang disengaja. Skor dihitung ulang.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>10</span></div>
+</section>
+
+<!-- 11 KECEPATAN -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Dampak #1 · Pengerjaan lebih cepat</div>
+  <h1>Dari <em>berhari-hari</em> menjadi <em>semalam</em></h1>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card" style="text-align:center;padding:22px"><div class="big">15 detik</div><p style="margin-top:10px">Pemeriksaan file untuk <b>117 tour</b> sekaligus</p></div>
+    <div class="card" style="text-align:center;padding:22px"><div class="big">±1,5 menit</div><p style="margin-top:10px">Robot mencoba satu tour lengkap, desktop & HP</p></div>
+    <div class="card" style="text-align:center;padding:22px"><div class="big">±75 menit</div><p style="margin-top:10px">Robot untuk <b>50 lokasi</b>, bisa dijalankan malam hari</p></div>
+  </div>
+  <table style="margin-top:22px">
+    <tr><th style="width:30%"></th><th>QA manual</th><th>Dengan VT Inspector</th></tr>
+    <tr><td><b>50 lokasi</b></td><td>50–100 jam kerja QA</td><td>±75 menit robot + tim hanya mengecek yang ditandai</td></tr>
+    <tr><td><b>Setelah perbaikan</b></td><td>Cek ulang manual dari awal</td><td>Tekan tombol, dicek ulang otomatis</td></tr>
+    <tr><td><b>Pekerjaan tim QA</b></td><td>Mengklik semua tombol, satu per satu</td><td>Fokus menilai hal yang butuh mata manusia</td></tr>
+  </table>
+  <div class="grid g2" style="margin-top:20px;gap:20px">
+    <div class="tip"><b>Contoh:</b> tim selesai export 20 lokasi Badung sore hari. Robot dijalankan sebelum pulang. Besok pagi sudah ada daftar: lokasi mana yang siap, mana yang harus diperbaiki, dan apa masalahnya.</div>
+    <div class="ok"><b>Tidak butuh tambahan orang:</b> robot bekerja di komputer kantor yang sudah ada, tanpa biaya lisensi. Biaya AI hanya terpakai saat tour dinilai.</div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>11</span></div>
+</section>
+
+<!-- 12 KUALITAS -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Dampak #2 · Kualitas lebih terjaga</div>
+  <h1>Masalah ditemukan <em>sebelum</em> klien, bukan sesudahnya</h1>
+  <div class="grid g2" style="margin-top:22px;gap:24px">
+    <div class="card" style="border-top:6px solid var(--rose)"><h3>Sebelum</h3><ul style="margin-top:8px"><li>Tour tayang → klien / pengunjung menemukan masalah</li><li>Tim memperbaiki dalam keadaan terburu-buru</li><li>Perbaikan kadang merusak bagian lain tanpa ketahuan</li><li>Atasan tidak tahu kondisi sebenarnya semua tour</li></ul></div>
+    <div class="card" style="border-top:6px solid var(--mint)"><h3>Sesudah</h3><ul style="margin-top:8px"><li>Setiap tour <b>dicek otomatis sebelum publish</b></li><li>Standar yang <b>sama</b> untuk semua tour & semua QA</li><li>Setelah perbaikan, dicek ulang otomatis: <b>yang rusak lagi langsung ketahuan</b></li><li>Atasan melihat skor & status setiap lokasi kapan saja</li></ul></div>
+  </div>
+  <div class="grid g3" style="margin-top:20px">
+    <div class="card" style="text-align:center"><div class="big">117</div><p>tour diperiksa di pilot Semarang</p></div>
+    <div class="card" style="text-align:center"><div class="big">2.490</div><p>scene & <b>5.847</b> hotspot dicek</p></div>
+    <div class="card" style="text-align:center"><div class="big">0</div><p>hotspot yang mengarah ke scene yang tidak ada. Navigasi sehat.</p></div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>12</span></div>
+</section>
+
+<!-- 13 ALUR PRODUKSI -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Alur kerja produksi</div>
+  <h1>Bagaimana dipakai saat membangun <em>50 lokasi baru</em></h1>
+  <div class="flow" style="margin-top:26px">
+    <div class="step"><span class="num">1</span><b style="margin-top:8px">Tim export tour</b>dari Pano2VR ke folder wilayah, mis. <code>htdocs/badung/pantai-kuta</code></div>
+    <div class="arrow">➜</div>
+    <div class="step"><span class="num">2</span><b style="margin-top:8px">Otomatis terdeteksi</b>VT Inspector langsung mengenali lokasi baru</div>
+    <div class="arrow">➜</div>
+    <div class="step"><span class="num">3</span><b style="margin-top:8px">Diperiksa</b>File dalam detik, robot & AI di malam hari</div>
+    <div class="arrow">➜</div>
+    <div class="step"><span class="num">4</span><b style="margin-top:8px">Diperbaiki</b>Tim membuka daftar temuan, memperbaiki, lalu cek ulang</div>
+    <div class="arrow">➜</div>
+    <div class="step" style="background:var(--mint-l);border-color:#a7f3d0"><span class="num" style="background:var(--mint)">5</span><b style="margin-top:8px">Hijau = tayang</b>Hanya tour berstatus "Siap" yang dipublikasikan</div>
+  </div>
+  <div class="grid g2" style="margin-top:24px;gap:22px">
+    <div class="tip"><b>Contoh pagi hari:</b> "Dari 50 lokasi Badung, 41 sudah Siap, 7 Perlu perbaikan, 2 Belum layak karena video intro tidak berputar." Atasan langsung tahu progres nyata tanpa bertanya satu per satu.</div>
+    <div class="ok"><b>Tim QA berubah peran:</b> dari "mengklik semua tombol" menjadi "memastikan hal yang ditandai", yang jauh lebih sedikit.</div>
+  </div>
+  <h3 style="margin:22px 0 10px;color:var(--navy);font-size:17px">Kapan setiap pemeriksaan dijalankan</h3>
+  <div class="grid g3" style="gap:14px">
+    <div class="card" style="padding:14px 18px"><span class="tag t-sky">Setiap export</span><h3 style="margin-top:8px;font-size:16px">📁 Periksa file</h3><p>Hasil keluar dalam detik. Tim langsung tahu ada file hilang atau salah nama.</p></div>
+    <div class="card" style="padding:14px 18px"><span class="tag t-vio">Setiap malam</span><h3 style="margin-top:8px;font-size:16px">🤖 Robot + ✨ AI</h3><p>Berjalan sendiri saat tim pulang. Pagi hari laporan sudah siap.</p></div>
+    <div class="card" style="padding:14px 18px"><span class="tag t-mint">Setelah tayang</span><h3 style="margin-top:8px;font-size:16px">🔗 Cek tautan berkala</h3><p>Menangkap popup atau layanan luar yang tiba-tiba mati di tour yang sudah live.</p></div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>13</span></div>
+</section>
+
+<!-- 14 SIAP BERKEMBANG -->
+<section class="slide">
+  <div class="bar"></div>
+  <div class="kicker">Siap untuk wilayah lain</div>
+  <h1>Dibuat sekali, <em>dipakai untuk semua wilayah</em></h1>
+  <div class="grid g3" style="margin-top:24px">
+    <div class="card"><span class="ico">🗂️</span><h3>Struktur folder paten</h3><p><code>htdocs/&lt;wilayah&gt;/&lt;lokasi&gt;</code>. Semarang sudah memakai pola ini. Badung, Papua, dan wilayah lain cukup mengikuti.</p></div>
+    <div class="card"><span class="ico">🎨</span><h3>Template berbeda? Tidak masalah</h3><p>Tiap wilayah boleh punya desain tombol sendiri. Sistem membaca template baru dan menyusun pemetaannya otomatis, tim tinggal mengonfirmasi.</p></div>
+    <div class="card"><span class="ico">📋</span><h3>Standar per wilayah</h3><p>Setiap wilayah punya daftar fitur wajib & bahasa sendiri, mis. Badung wajib Inggris, Mandarin, Jepang, Korea.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:18px;gap:22px">
+    <div class="card"><span class="ico">➕</span><h3>Bisa terus ditambah</h3><p>Pemeriksaan baru (mis. fitur Tourism Guide atau Reel vs Real untuk Badung) bisa ditambahkan tanpa membongkar sistem.</p></div>
+    <div class="card"><span class="ico">🔒</span><h3>Aman untuk file produksi</h3><p>VT Inspector hanya membaca. File tour tidak pernah diubah, kecuali lewat tombol "Perbaiki otomatis" yang selalu membuat cadangan.</p></div>
+  </div>
+  <div class="foot"><span><b>VT Inspector</b> · GoVirtual</span><span>14</span></div>
+</section>
+
+<!-- 15 PENUTUP -->
+<section class="slide dark" style="display:flex;flex-direction:column;justify-content:center;padding:0 90px">
+  <div style="position:absolute;inset:0;background:radial-gradient(circle at 85% 20%, rgba(139,92,246,.45), transparent 42%), radial-gradient(circle at 10% 90%, rgba(14,165,233,.45), transparent 45%);"></div>
+  <div style="position:relative">
+    <div class="kicker">Ringkasan</div>
+    <h1 style="font-size:46px;line-height:1.15">Virtual tour yang <span style="color:#7dd3fc">lebih berkualitas</span>,<br>dikerjakan <span style="color:#c4b5fd">lebih cepat</span>.</h1>
+    <div class="grid g3" style="margin-top:34px;gap:18px">
+      <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:18px 20px"><div style="font-size:28px">⚡</div><b style="font-size:18px">Cepat</b><p style="color:#c8d3ea;margin-top:4px">Ratusan pemeriksaan per tour dalam hitungan menit, bisa jalan semalaman</p></div>
+      <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:18px 20px"><div style="font-size:28px">🎯</div><b style="font-size:18px">Teliti & seragam</b><p style="color:#c8d3ea;margin-top:4px">Kesalahan kecil yang lolos dari mata tertangkap dengan standar yang sama</p></div>
+      <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:18px 20px"><div style="font-size:28px">👀</div><b style="font-size:18px">Transparan</b><p style="color:#c8d3ea;margin-top:4px">Atasan & tim melihat kondisi semua tour kapan saja, dalam satu layar</p></div>
+    </div>
+  </div>
+  <div class="foot" style="color:#7f8fb0"><span>VT Inspector · GoVirtual</span><span>15</span></div>
+</section>
+
+</body>
+</html>

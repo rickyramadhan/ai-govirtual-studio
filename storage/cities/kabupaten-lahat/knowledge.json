@@ -1,0 +1,227 @@
+{
+    "version": 1,
+    "city": "kabupaten-lahat",
+    "entries": [
+        {
+            "id": "lahat:letak-luas",
+            "entityId": "lahat:letak-luas",
+            "title": "Letak dan luas wilayah",
+            "aliases": [
+                "luas lahat",
+                "letak lahat",
+                "geografi lahat"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kabupaten Lahat terletak di Provinsi Sumatera Selatan dengan ibu kota Lahat. Luas wilayahnya sekitar 4.333 km² menurut ensiklopedia daring, tetapi luas ini berubah sejak sebagian wilayahnya dimekarkan menjadi Kabupaten Empat Lawang (UU No. 1 Tahun 2007) dan Kota Pagar Alam. Angka resmi terbaru perlu dicek di publikasi BPS Kabupaten Lahat. (Sumber: p2k.stekom.ac.id; DJKN Kemenkeu; UU No. 1 Tahun 2007)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Lahat terletak di Provinsi Sumatera Selatan dengan ibu kota Lahat. Luas wilayahnya sekitar 4.333 km² menurut ensiklopedia daring, tetapi luas ini berubah sejak sebagian wilayahnya dimekarkan menjadi Kabupaten Empat Lawang (UU No. 1 Tahun 2007) dan Kota Pagar Alam. Angka resmi terbaru perlu dicek di publikasi BPS Kabupaten Lahat. (Sumber: p2k.stekom.ac.id; DJKN Kemenkeu; UU No. 1 Tahun 2007)"
+                },
+                "en": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Lahat terletak di Provinsi Sumatera Selatan dengan ibu kota Lahat. Luas wilayahnya sekitar 4.333 km² menurut ensiklopedia daring, tetapi luas ini berubah sejak sebagian wilayahnya dimekarkan menjadi Kabupaten Empat Lawang (UU No. 1 Tahun 2007) dan Kota Pagar Alam. Angka resmi terbaru perlu dicek di publikasi BPS Kabupaten Lahat. (Sumber: p2k.stekom.ac.id; DJKN Kemenkeu; UU No. 1 Tahun 2007)"
+                }
+            }
+        },
+        {
+            "id": "lahat:wilayah-admin",
+            "entityId": "lahat:wilayah-admin",
+            "title": "Wilayah administratif",
+            "aliases": [
+                "kecamatan lahat",
+                "jumlah kecamatan lahat"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Jumlah kecamatan Kabupaten Lahat tercatat berbeda antar sumber: 22 kecamatan setelah pemekaran menurut satu sumber, dan 24 kecamatan menurut ensiklopedia. Jika perlu menyebut angka pasti, rujuk BPS. (Sumber: DJKN Kemenkeu; p2k.stekom.ac.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Wilayah administratif",
+                    "content": "Jumlah kecamatan Kabupaten Lahat tercatat berbeda antar sumber: 22 kecamatan setelah pemekaran menurut satu sumber, dan 24 kecamatan menurut ensiklopedia. Jika perlu menyebut angka pasti, rujuk BPS. (Sumber: DJKN Kemenkeu; p2k.stekom.ac.id)"
+                },
+                "en": {
+                    "title": "Wilayah administratif",
+                    "content": "Jumlah kecamatan Kabupaten Lahat tercatat berbeda antar sumber: 22 kecamatan setelah pemekaran menurut satu sumber, dan 24 kecamatan menurut ensiklopedia. Jika perlu menyebut angka pasti, rujuk BPS. (Sumber: DJKN Kemenkeu; p2k.stekom.ac.id)"
+                }
+            }
+        },
+        {
+            "id": "lahat:penduduk",
+            "entityId": "lahat:penduduk",
+            "title": "Jumlah penduduk",
+            "aliases": [
+                "penduduk lahat",
+                "populasi lahat"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Ensiklopedia daring mencantumkan 448.141 jiwa untuk tahun 2024. Sumber lain (DJKN) masih memakai angka lama, 409.348 jiwa, sehingga angka 2024 lebih mutakhir tetapi tetap perlu diverifikasi ke BPS. (Sumber: p2k.stekom.ac.id; DJKN Kemenkeu)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk",
+                    "content": "Ensiklopedia daring mencantumkan 448.141 jiwa untuk tahun 2024. Sumber lain (DJKN) masih memakai angka lama, 409.348 jiwa, sehingga angka 2024 lebih mutakhir tetapi tetap perlu diverifikasi ke BPS. (Sumber: p2k.stekom.ac.id; DJKN Kemenkeu)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk",
+                    "content": "Ensiklopedia daring mencantumkan 448.141 jiwa untuk tahun 2024. Sumber lain (DJKN) masih memakai angka lama, 409.348 jiwa, sehingga angka 2024 lebih mutakhir tetapi tetap perlu diverifikasi ke BPS. (Sumber: p2k.stekom.ac.id; DJKN Kemenkeu)"
+                }
+            }
+        },
+        {
+            "id": "lahat:motto",
+            "entityId": "lahat:motto",
+            "title": "Motto daerah",
+            "aliases": [
+                "motto lahat",
+                "seganti setungguan"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Motto Kabupaten Lahat adalah Seganti Setungguan, ungkapan dari bahasa Besemah. Makna lengkap ungkapan ini belum diverifikasi dalam riset ini, jadi sebaiknya tidak diterjemahkan secara pasti. (Sumber: p2k.stekom.ac.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Motto daerah",
+                    "content": "Motto Kabupaten Lahat adalah Seganti Setungguan, ungkapan dari bahasa Besemah. Makna lengkap ungkapan ini belum diverifikasi dalam riset ini, jadi sebaiknya tidak diterjemahkan secara pasti. (Sumber: p2k.stekom.ac.id)"
+                },
+                "en": {
+                    "title": "Motto daerah",
+                    "content": "Motto Kabupaten Lahat adalah Seganti Setungguan, ungkapan dari bahasa Besemah. Makna lengkap ungkapan ini belum diverifikasi dalam riset ini, jadi sebaiknya tidak diterjemahkan secara pasti. (Sumber: p2k.stekom.ac.id)"
+                }
+            }
+        },
+        {
+            "id": "lahat:bukit-serelo",
+            "entityId": "lahat:bukit-serelo",
+            "title": "Bukit Serelo dan objek wisata",
+            "aliases": [
+                "bukit serelo",
+                "curup maung",
+                "sekolah gajah",
+                "wisata lahat"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Objek wisata yang disebut sumber antara lain Bukit Serelo, Curup Maung, Curup Buluh Gumay Ulu, dan Sekolah Gajah Perangai. Bukit Serelo juga menjadi lokasi Pusat Latihan Gajah yang berada di Desa Padang Baru, Kecamatan Merapi. Jam buka dan harga tiket perlu dicek ke pengelola. (Sumber: DJKN Kemenkeu; Mongabay, 2014)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Bukit Serelo dan objek wisata",
+                    "content": "Objek wisata yang disebut sumber antara lain Bukit Serelo, Curup Maung, Curup Buluh Gumay Ulu, dan Sekolah Gajah Perangai. Bukit Serelo juga menjadi lokasi Pusat Latihan Gajah yang berada di Desa Padang Baru, Kecamatan Merapi. Jam buka dan harga tiket perlu dicek ke pengelola. (Sumber: DJKN Kemenkeu; Mongabay, 2014)"
+                },
+                "en": {
+                    "title": "Bukit Serelo dan objek wisata",
+                    "content": "Objek wisata yang disebut sumber antara lain Bukit Serelo, Curup Maung, Curup Buluh Gumay Ulu, dan Sekolah Gajah Perangai. Bukit Serelo juga menjadi lokasi Pusat Latihan Gajah yang berada di Desa Padang Baru, Kecamatan Merapi. Jam buka dan harga tiket perlu dicek ke pengelola. (Sumber: DJKN Kemenkeu; Mongabay, 2014)"
+                }
+            }
+        },
+        {
+            "id": "lahat:ekonomi",
+            "entityId": "lahat:ekonomi",
+            "title": "Ekonomi",
+            "aliases": [
+                "ekonomi lahat",
+                "sektor unggulan lahat"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Pertanian, pertambangan, dan pariwisata menjadi tiga sektor penggerak ekonomi Kabupaten Lahat. Pertambangan batu bara juga menjadi sorotan lingkungan dalam pemberitaan Mongabay (2014). (Sumber: ringkasan sumber riset web; Mongabay, 2014)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Ekonomi",
+                    "content": "Pertanian, pertambangan, dan pariwisata menjadi tiga sektor penggerak ekonomi Kabupaten Lahat. Pertambangan batu bara juga menjadi sorotan lingkungan dalam pemberitaan Mongabay (2014). (Sumber: ringkasan sumber riset web; Mongabay, 2014)"
+                },
+                "en": {
+                    "title": "Ekonomi",
+                    "content": "Pertanian, pertambangan, dan pariwisata menjadi tiga sektor penggerak ekonomi Kabupaten Lahat. Pertambangan batu bara juga menjadi sorotan lingkungan dalam pemberitaan Mongabay (2014). (Sumber: ringkasan sumber riset web; Mongabay, 2014)"
+                }
+            }
+        },
+        {
+            "id": "lahat:jejak-megalitik",
+            "entityId": "lahat:jejak-megalitik",
+            "title": "Jejak sejarah dan megalitik",
+            "aliases": [
+                "megalitikum lahat",
+                "sejarah lahat"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Liputan Mongabay (2014) memakai frasa peradaban megalitikum untuk kawasan Lahat, yang menandakan adanya jejak budaya megalitik. Rincian situs dan lokasinya belum diverifikasi, jadi jangan menyebut detail sebelum dicek ke sumber arkeologi resmi. (Sumber: Mongabay, 2014)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jejak sejarah dan megalitik",
+                    "content": "Liputan Mongabay (2014) memakai frasa peradaban megalitikum untuk kawasan Lahat, yang menandakan adanya jejak budaya megalitik. Rincian situs dan lokasinya belum diverifikasi, jadi jangan menyebut detail sebelum dicek ke sumber arkeologi resmi. (Sumber: Mongabay, 2014)"
+                },
+                "en": {
+                    "title": "Jejak sejarah dan megalitik",
+                    "content": "Liputan Mongabay (2014) memakai frasa peradaban megalitikum untuk kawasan Lahat, yang menandakan adanya jejak budaya megalitik. Rincian situs dan lokasinya belum diverifikasi, jadi jangan menyebut detail sebelum dicek ke sumber arkeologi resmi. (Sumber: Mongabay, 2014)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:42:02+02:00"
+}

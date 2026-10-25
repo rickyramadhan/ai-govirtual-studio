@@ -4,7 +4,8 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 // Route smoke test — subprocess per route via runner.php + JSON argv (robust on Windows).
 $php = 'C:\\xampp\\php\\php.exe';
 $routes = [
-    'list' => ['get' => [], 'markers' => ['tour-grid', 'metric-grid', 'filter-chip']],
+    'list' => ['get' => [], 'markers' => ['city-card']],
+    'list-kota' => ['get' => ['a' => 'list', 'city' => 'semarang'], 'markers' => ['tour-grid', 'dv-bar']],
     'view' => ['get' => ['a' => 'view', 'id' => 1], 'markers' => ['ready-ring', 'issue-item', 'checklist', 'coverage-item', 'scene-chips', 'activity-item']],
     'edit' => ['get' => ['a' => 'edit', 'id' => 1], 'markers' => []],
     'new' => ['get' => ['a' => 'new'], 'markers' => []],
@@ -20,6 +21,7 @@ $routes = [
     'flow' => ['get' => ['a' => 'flow', 'id' => 1], 'markers' => []],
     'voice' => ['get' => ['a' => 'voice', 'id' => 1], 'markers' => []],
     'aihealth' => ['get' => ['a' => 'aihealth'], 'markers' => []],
+    'health' => ['get' => ['a' => 'health'], 'markers' => ['Kesehatan AI', 'Cek semua lokasi']],
     'account' => ['get' => ['a' => 'account'], 'markers' => ['Password saat ini', 'saveAccount']],
     'publish' => ['get' => ['a' => 'publish', 'id' => 1], 'markers' => ['1. Konten tour', '2. Package', '3. Terpasang']],
     'history' => ['get' => ['a' => 'history', 'id' => 1], 'markers' => ['Riwayat Perubahan']],

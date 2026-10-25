@@ -17,7 +17,16 @@ require_once __DIR__ . '/app/dashboard.php';
 require_once __DIR__ . '/app/runtime.php';
 require_once __DIR__ . '/app/ux.php';
 require_once __DIR__ . '/app/shell_v2.php';
+require_once __DIR__ . '/app/i18n.php';
 require_once __DIR__ . '/app/wizard.php';
+require_once __DIR__ . '/app/city_view.php';
+require_once __DIR__ . '/app/city_sources.php';
+require_once __DIR__ . '/app/scene_view.php';
+require_once __DIR__ . '/app/tour_summary.php';
+require_once __DIR__ . '/app/health.php';
+require_once __DIR__ . '/app/health_page.php';
+require_once __DIR__ . '/app/keys_page.php';
+require_once __DIR__ . '/app/playground.php';
 require_once __DIR__ . '/app/jobs.php';
 require_once __DIR__ . '/app/users.php';
 require_once __DIR__ . '/app/theme.php';
@@ -29,6 +38,7 @@ function cities_dir(): string { return APP_ROOT . '/storage/cities'; }
 function city_dir(string $slug): string { return cities_dir() . '/' . $slug; }
 function city_slugify(string $s): string { $s = strtolower(trim($s)); $s = preg_replace('/[^a-z0-9]+/', '-', $s) ?? ''; return trim($s, '-') ?: 'kota-' . date('YmdHis'); }
 function all_cities(bool $scoped = true): array {
+    cities_reconcile_folders();
     $rows = db()->query('SELECT c.*, (SELECT COUNT(*) FROM tours t WHERE t.city_id=c.id) AS tour_count FROM cities c ORDER BY c.name COLLATE NOCASE')->fetchAll(PDO::FETCH_ASSOC);
     $cities = [];
     $scope = $scoped ? user_scope() : null;
@@ -409,7 +419,7 @@ function env_render_from_db(): string {
         $L[] = $envName . '_API_KEY=' . $keys[0];
         foreach (array_slice($keys, 1) as $i => $k) $L[] = $envName . '_API_KEY_' . ($i + 1) . '=' . $k;
         $L[] = $envName . '_MODEL=' . setting_get($envName . '_MODEL', '');
-        $L[] = $envName . '_BASE_URL=' . setting_get($envName . '_BASE_URL', 'https://api.' . $prov . '.com/v1');
+        $L[] = $envName . '_BASE_URL=' . setting_get($envName . '_BASE_URL', ''); // kosong = belum diisi (tidak ditebak)
         $L[] = '';
     }
     // Web search fallback (Gemini grounding) toggle.
@@ -1540,6 +1550,28 @@ if (($_GET['a'] ?? '') === 'thumb') {
     readfile($imgPath);
     exit;
 }
+// Sampul kota (storage/cities/<slug>/cover.jpg) untuk kartu "Pilih kota". Hanya untuk pengguna Studio yang login.
+if (($_GET['a'] ?? '') === 'cityCover') {
+    if (!current_user() && PHP_SAPI !== 'cli') { http_response_code(401); exit; }
+    $slug = city_slugify((string)($_GET['city'] ?? ''));
+    $file = $slug !== '' ? city_dir($slug) . '/cover.jpg' : '';
+    if ($file === '' || !is_file($file)) { http_response_code(404); exit; }
+    header('Content-Type: image/jpeg');
+    header('Cache-Control: private, max-age=3600');
+    readfile($file);
+    exit;
+}
+// Sampul tur (preview.jpg dari folder ekspor) untuk kartu dashboard. Hanya untuk pengguna Studio yang login.
+if (($_GET['a'] ?? '') === 'tourPreview') {
+    if (!current_user() && PHP_SAPI !== 'cli') { http_response_code(401); exit; }
+    $tour = get_tour((int)($_GET['id'] ?? 0));
+    $file = $tour ? rtrim((string)$tour['export_path'], '/\\') . '/preview.jpg' : '';
+    if ($file === '' || !is_file($file)) { http_response_code(404); exit; }
+    header('Content-Type: image/jpeg');
+    header('Cache-Control: private, max-age=3600');
+    readfile($file);
+    exit;
+}
 if (($_GET['a'] ?? '') === 'panoview') {
     if (!current_user() && PHP_SAPI !== 'cli') { http_response_code(401); exit; } // hanya untuk pengguna Studio yang login
     $tid = (int)($_GET['id'] ?? 0);
@@ -1623,18 +1655,23 @@ function test_provider_key(string $provider, string $key, string $model = '', st
             else $r['error'] = (string)($d['error'] ?? $res['body']);
         } else {
             // OpenAI-compatible: openrouter, groq, dan provider custom
+            // Penyedia custom wajib punya base URL & model sendiri (jangan ditebak), sama seperti runtime.
             if ($baseUrl === '') {
                 if ($provider === 'openrouter') $baseUrl = 'https://openrouter.ai/api/v1';
                 elseif ($provider === 'groq') $baseUrl = 'https://api.groq.com/openai/v1';
-                else $baseUrl = 'https://api.' . $provider . '.com/v1';
+                else { $r['error'] = 'Base URL belum diisi untuk penyedia ini.'; return $r; }
             }
             if ($model === '') {
                 if ($provider === 'openrouter') $model = 'openai/gpt-4o-mini';
                 elseif ($provider === 'groq') $model = 'groq/compound';
+                else { $r['error'] = 'Model belum diisi untuk penyedia ini.'; return $r; }
             }
-            $payload = ['messages' => [['role' => 'user', 'content' => 'Ping']], 'max_tokens' => 8];
-            if ($model !== '') $payload['model'] = $model;
-            $res = test_key_request(rtrim($baseUrl, '/') . '/chat/completions', ['Content-Type: application/json', 'Authorization: Bearer ' . trim($key)], $payload);
+            $payload = ['messages' => [['role' => 'user', 'content' => 'Ping']], 'max_tokens' => 8, 'model' => $model];
+            $headers = ['Content-Type: application/json', 'Authorization: Bearer ' . trim($key)];
+            // Header yang juga dikirim runtime (lihat ai_provider_request), supaya hasil tes sama dengan produksi.
+            if ($provider === 'openrouter') $headers[] = 'HTTP-Referer: ' . (getenv('APP_URL') ?: 'https://localhost');
+            if ($provider === 'opencode') $headers[] = 'x-opencode-session: govirtual-app';
+            $res = test_key_request(rtrim($baseUrl, '/') . '/chat/completions', $headers, $payload);
             $r['model'] = $model !== '' ? $model : '(default)';
             $d = json_decode($res['body'], true);
             $r['http'] = $res['code']; $r['time_ms'] = $res['time_ms'];
@@ -1765,6 +1802,26 @@ if (($_GET['a'] ?? '') === 'testKey') {
     exit;
 }
 
+// Tes koneksi dari form "Tambah penyedia" — data dari form, TIDAK disimpan. Key tidak dikembalikan ke browser.
+if (($_GET['a'] ?? '') === 'testDraft') {
+    header('Content-Type: application/json; charset=utf-8');
+    $user = current_user();
+    if (!$user || ($user['role'] ?? '') !== 'admin') { http_response_code(403); echo json_encode(['ok' => false, 'error' => 'admin required']); exit; }
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') { http_response_code(405); echo json_encode(['ok' => false, 'error' => 'POST required']); exit; }
+    if (!csrf_valid($_POST['csrf_token'] ?? null)) { http_response_code(403); echo json_encode(['ok' => false, 'error' => 'CSRF tidak valid']); exit; }
+    $name = strtolower((string)preg_replace('/[^a-zA-Z0-9]+/', '', trim((string)($_POST['provider'] ?? ''))));
+    $key = trim((string)($_POST['key'] ?? ''));
+    $base = rtrim(trim((string)($_POST['base'] ?? '')), '/');
+    $model = trim((string)($_POST['model'] ?? ''));
+    if ($name === '') { echo json_encode(['ok' => false, 'error' => 'Isi nama provider dulu.'], JSON_UNESCAPED_UNICODE); exit; }
+    if ($key === '') { echo json_encode(['ok' => false, 'error' => 'Isi API key yang mau dites.'], JSON_UNESCAPED_UNICODE); exit; }
+    echo json_encode(test_provider_key($name, $key, $model, $base), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    exit;
+}
+
+// Playground: jawaban uji AI (login + CSRF di dalam handler).
+if (($_GET['a'] ?? '') === 'playAnswer') { play_answer_route(); }
+
 // STUDIO_ROUTE_RUNNER hanya didefinisikan oleh runner.php (smoke test) agar routing bisa dijalankan dari CLI.
 if (PHP_SAPI !== 'cli' || defined('STUDIO_ROUTE_RUNNER')) {
 $action = $_GET['a'] ?? 'list'; $error = '';
@@ -1873,7 +1930,7 @@ if (in_array($action, $projectActions, true)) {
 
 try {
     // QA read-only: semua aksi tulis admin-only
-    if (in_array($action, ['save','saveAs','delete','import','seedContent','saveContent','saveScenes','importScenes','savePrompts','saveCurated','saveCuratedQA','saveFlow','saveKnowledge','saveTips','saveNearby','generate','saveKeys','deploy','resync','citySave','citySourceUrl','citySourceFile','cityDelete','citySourceDelete','syncRuntime','cityNew','importCuratedQA','saveVoice','importPrompts','savePrompts','aihealthRun','restoreHistory','bulkImport','jobs','jobEnqueue'], true)) require_editor();
+    if (in_array($action, ['save','saveAs','delete','import','seedContent','saveContent','saveScenes','importScenes','savePrompts','saveCurated','saveCuratedQA','saveFlow','saveKnowledge','saveTips','saveNearby','generate','saveKeys','deploy','resync','citySave','citySourceUrl','citySourceFile','citySourceText','citySourceRefresh','cityDelete','citySourceDelete','syncRuntime','cityNew','importCuratedQA','saveVoice','importPrompts','savePrompts','aihealthRun','restoreHistory','bulkImport','jobs','jobEnqueue','healthEnqueue','healthBase'], true)) require_editor();
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'save') {
         $err = null; $postId = (int)($_POST['id'] ?? 0);
         $newPath = rtrim(str_replace('\\', '/', trim((string)($_POST['export_path'] ?? ''))), '/');
@@ -2018,123 +2075,15 @@ try {
         header('Location: ?a=scenes&id='.$tour['id'].'&imported='.$count); exit;
     }
     if ($action === 'scenes') {
-        $tour = get_tour((int)$_GET['id']); if (!$tour) { layout('Tour hilang','<p>Tour tidak ditemukan.</p>'); exit; }
-        $parsed = read_json(tour_dir($tour['slug']).'/parsed.json');
-        if (!$parsed) { layout('Belum import','<div class=card><p>Import pano/skin dulu.</p><p><a class=btn href="?a=view&id='.(int)$tour['id'].'">Kembali</a></p></div>'); exit; }
-        $si = read_json(tour_dir($tour['slug']).'/scene-identity.json', ['scenes'=>[]]);
-        $saved = isset($_GET['saved']); $generated = isset($_GET['generated']); $deployed = isset($_GET['deployed']);
-        $msg='';
-        if($saved) $msg.='<div class=card style="border-color:var(--success)"><p class=ok>✓ Scene disimpan.</p>'.($generated?'<p class=ok>✓ Package digenerate.</p>':'').($deployed?'<p class=ok>✓ Deploy ke export selesai.</p>':'').'</div>';
-        if(isset($_GET['imported'])) $msg.='<div class=card style="border-color:var(--success)"><p class=ok>✓ '.((int)$_GET['imported']).' scene diupdate dari file upload.</p></div>';
-        $body = $msg;
-        $body .= '<div class=card><h2>Scene Editor — '.h($tour['name']).'</h2><p class=muted>'.h($tour['export_path']).' — '.count($parsed['scenes']??[]).' scene terdeteksi dari pano.xml. Klik thumbnail untuk preview, edit nama/deskripsi, lalu Save.</p>';
-        $body .= '<p><a class=btn href="?a=view&id='.(int)$tour['id'].'">← Kembali</a> <a class=btn href="?a=panoview&id='.(int)$tour['id'].'&scene='.h($parsed['scenes'][0]['id']??'').'" target=_blank class="btn btn-ghost">Preview Tour</a></p></div>';
-        $body .= '<div class="card"><h3>📦 Bulk Import / Export Scene</h3><p class="muted">Download template berisi data scene + thumbnail panorama, edit via Excel/CSV, lalu upload untuk update massal. Jangan ubah kolom Scene ID dan baris header pertama.</p>'
-            . '<p style="margin-top:10px"><a class="btn" href="?a=exportScenes&id='.(int)$tour['id'].'&fmt=xlsx">⬇ Download Template .xlsx (dengan gambar)</a> <a class="btn" href="?a=exportScenes&id='.(int)$tour['id'].'&fmt=csv">⬇ Download Template .csv</a></p>'
-            . '<form method="post" action="?a=importScenes&id='.(int)$tour['id'].'" enctype="multipart/form-data" style="margin-top:12px">' . rev_field(tour_dir($tour['slug']).'/scene-identity.json')
-            . '<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><input type="file" name="scene_file" accept=".xlsx,.csv" required style="flex:1;min-width:220px"><button type="submit" class="btn btn-primary">⬆ Upload & Update Massal</button></div>'
-            . '<div style="font-size:12px;color:var(--pill-text);margin-top:6px">Support .xlsx / .csv hasil download template. Sel kosong tidak ditimpa.</div></form></div>';
-        $body .= '<form method=post action="?a=saveScenes&id='.(int)$tour['id'].'" id=sceneForm>' . rev_field(tour_dir($tour['slug']).'/scene-identity.json');
-        $navOpts=''; $idx=0;
-        foreach (($parsed['scenes']??[]) as $ns) {
-            $nid=(string)$ns['id']; $nd=$ns['displayName']??$nid;
-            $nsc=$si['scenes'][$nid]??null; if($nsc){ $nd=$nsc['displayName']??$nd; }
-            $navOpts.='<option value="'.h($nid).'">'.h(($idx+1).'. '.($nd===$nid?'node '.$nid:$nd)).'</option>';
-            $idx++;
-        }
-        $body .= '<div style="position:sticky;top:0;z-index:6;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:8px 10px;margin-bottom:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">';
-        $body .= '<span style="font-size:12px;color:var(--pill-text)">Lompat ke scene:</span><select onchange="jumpScene(this.value)" style="max-width:360px;flex:1;min-width:180px"><option value="">— pilih panorama —</option>'.$navOpts.'</select>';
-        $body .= '<button type="button" class="btn btn-ghost btn-sm" onclick="toggleAll(true)">▾ Buka semua</button>';
-        $body .= '<button type="button" class="btn btn-ghost btn-sm" onclick="toggleAll(false)">▴ Tutup semua</button>';
-        $body .= '</div>';
-        $body .= '<div style="display:grid;grid-template-columns:1fr;gap:16px">';
-        $knowledge = read_json(tour_dir($tour['slug']).'/knowledge.json', ['entries'=>[]]);
-        $objTitles = [];
-        foreach ($knowledge['entries'] as $e) { $objTitles[(string)($e['id']??'')] = (string)($e['title']??$e['id']); }
-        foreach (($parsed['scenes']??[]) as $scene) {
-            $sid=(string)$scene['id']; $display=$scene['displayName']??$sid;
-            $place=$display; $sc=$si['scenes'][$sid]??null;
-            if($sc){ $display=$sc['displayName']??$display; $place=$sc['placeName']??$display; }
-            $thumbUrl='?a=thumb&id='.(int)$tour['id'].'&scene='.urlencode($sid);
-            $rkIds = $sc['relatedKnowledgeIds'] ?? [];
-            $hasObj = !empty($rkIds);
-            $rkNames = [];
-            foreach ($rkIds as $rid) { $rkNames[] = $objTitles[(string)$rid] ?? $rid; }
-            $badge = $hasObj ? '<span style="background:var(--success);color:var(--ok-text);font-size:11px;padding:3px 8px;border-radius:999px">'.count($rkIds).' objek info</span>' : '<span style="background:var(--pill-bg);color:var(--pill-text);font-size:11px;padding:3px 8px;border-radius:999px">Tidak ada objek</span>';
-            $isPlaceholder = ($display===$sid || str_starts_with($display,'node'));
-            $warn = $isPlaceholder ? '<span style="color:var(--warning);font-size:12px">⚠ Nama masih placeholder — ganti biar guide ramah pengunjung</span>' : '';
-            $body .= '<details class=scene-card id="scene-'.h($sid).'" data-sid="'.h($sid).'">';
-            $body .= '<summary style="cursor:pointer;display:flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-1)"><img src="'.h($thumbUrl).'" alt="" style="width:60px;height:38px;object-fit:cover;border-radius:6px;border:1px solid var(--border);background:var(--code-bg)" loading="lazy" onerror="this.style.display=\'none\'"><span style="flex:1;font-weight:600;font-size:13.5px">'.h($display).'</span><span style="font-size:11px;color:var(--pill-text)">'.h($sid).'</span>'.$badge.'<span class=chev style="font-size:12px;color:var(--pill-text);transition:transform .15s">▾</span></summary>';
-            $body .= '<div style="margin-top:10px" class=scene-body>';
-            $body .= '<div class=card style="display:grid;grid-template-columns:240px 1fr;gap:16px;align-items:start">';
-            $body .= '<div><a href="?a=panoview&id='.(int)$tour['id'].'&scene='.urlencode($sid).'" target=_blank aria-label="Preview panorama '.h($display).'"><img src="'.h($thumbUrl).'" alt="Thumbnail '.h($display).' ('.h($sid).')" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;border:1px solid var(--border);background:var(--code-bg)" loading="lazy" onerror="this.style.display=\'none\'"></a>';
-            $body .= '<div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap"><a href="?a=panoview&id='.(int)$tour['id'].'&scene='.urlencode($sid).'" target=_blank style="font-size:12px;color:var(--link-code)">👁 Preview</a> '.(export_web_path((string)$tour['export_path']) !== '' ? '<a href="'.h(export_web_path((string)$tour['export_path']).'/index.html#'.rawurlencode($sid)).'" target=_blank rel="noopener" style="font-size:12px;color:var(--link-code)">↗ Buka pano asli</a>' : '').'</div>';
-            $body .= '<div style="margin-top:6px;font-size:12px;color:var(--pill-text)">ID: <code>'.h($sid).'</code><br>customNodeId: <code>'.h($scene['customNodeId']??'-').'</code></div>';
-            $body .= '<div style="margin-top:6px">'.$badge.'</div></div>';
-            $body .= '<div>';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Nama Panorama (displayName) '.$warn.'</label><input name="scene_'.$sid.'_displayName" value="'.h($display).'" placeholder="'.h($sid).'" style="margin-bottom:8px">';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Place Name (untuk AI: "Anda berada di ...")</label><input name="scene_'.$sid.'_placeName" value="'.h($place).'" style="margin-bottom:8px">';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Short Description (1 baris, untuk list) <button type="button" class="btn btn-ghost btn-sm" onclick="genDesc(\''.h($sid).'\',\'shortDescription\',this)">✨ AI</button></label><textarea name="scene_'.$sid.'_shortDescription" rows=2 style="margin-bottom:8px">'.h($sc['shortDescription']??'').'</textarea>';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Deskripsi lengkap (untuk guide) <button type="button" class="btn btn-ghost btn-sm" onclick="genDesc(\''.h($sid).'\',\'description\',this)">✨ AI</button></label><textarea name="scene_'.$sid.'_description" rows=4 style="margin-bottom:8px">'.h($sc['description']??'').'</textarea>';
-            $body .= '<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">';
-            $body .= '<div><label style="font-size:12px;color:var(--pill-text)">Highlights (satu per baris)</label><textarea name="scene_'.$sid.'_highlights" rows=3>'.h(implode("\n",$sc['highlights']??[])).'</textarea></div>';
-            $body .= '</div>';
-            // Hybrid Suggested Questions — tiap pertanyaan bisa AI (mode=ai) atau Jawaban Fix (mode=fix)
-            $sqList = $sc['suggestedQuestions'] ?? [];
-            $sqArr=[];
-            foreach ($sqList as $sq){ if(is_string($sq)) $sqArr[]=['q'=>$sq,'mode'=>'ai','answer'=>'']; else $sqArr[]=['q'=>$sq['q']??'','mode'=>$sq['mode']??'ai','answer'=>$sq['answer']??'']; }
-            $body .= '<div style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px"><label style="font-size:12px;color:var(--pill-text)">💬 Suggested Questions — Hybrid (bisa AI atau Jawaban Fix, admin set)</label>';
-            for($k=0;$k<3;$k++){
-                $item=$sqArr[$k]??['q'=>'','mode'=>'ai','answer'=>''];
-                $body .= '<div style="display:grid;grid-template-columns:2fr 130px;gap:6px;margin-top:6px;align-items:start">';
-                $body .= '<div><input name="scene_'.$sid.'_sq_'.$k.'_q" value="'.h($item['q']).'" placeholder="Pertanyaan '.($k+1).' (contoh: Apa yang menarik di sini?)"></div>';
-                $body .= '<div><select name="scene_'.$sid.'_sq_'.$k.'_mode" style="width:100%"><option value="ai"'.($item['mode']==='ai'?' selected':'').'>🤖 AI</option><option value="fix"'.($item['mode']==='fix'?' selected':'').'>📝 Jawaban Fix</option></select></div>';
-                $body .= '<div style="grid-column:1 / -1"><textarea name="scene_'.$sid.'_sq_'.$k.'_answer" rows=2 placeholder="(opsional) Jawaban fix — kalau kosong & mode AI, AI yang jawab">'.h($item['answer']).'</textarea>';
-                $body .= '<div style="display:flex;gap:8px;align-items:center;margin-top:4px"><button type="button" onclick="testAI(\''.h($sid).'\','.$k.')" class="btn btn-ghost btn-sm">▶ Test AI</button> <span style="font-size:11px;color:var(--pill-text)">Cek jawaban AI (mode AI) untuk pertanyaan ini — pakai deskripsi/highlight/knowledge scene.</span></div>';
-                $body .= '<div id="sq-test-'.h($sid).'-'.$k.'" style="display:none;margin-top:6px;background:var(--code-bg);border:1px solid var(--border);border-radius:8px;padding:10px;font-size:12.5px;color:var(--text-primary);white-space:pre-wrap;line-height:1.6"></div>';
-                $body .= '</div>';
-                $body .= '</div>';
-            }
-            $body .= '<div style="font-size:11px;color:var(--pill-text);margin-top:6px">Mode <b>AI</b> → jawaban di-generate AI (pakai deskripsi/highlight/knowledge scene). Mode <b>Jawaban Fix</b> → jawaban ditampilkan apa adanya tanpa panggil AI. Kosongkan pertanyaan yang tidak dipakai.</div></div>';
-            if($hasObj) $body .= '<div style="margin-top:6px;font-size:12px;color:var(--link-light)">Objek informasi di panorama ini:<br><code>'.h(implode('</code>, <code>', $rkNames)).'</code></div>';
-            $body .= '</div></div></div></details>';
-        }
-        $body .= '</div>';
-        $body .= '<div class=card style="position:sticky;bottom:0;background:var(--surface-2);z-index:5;display:flex;gap:10px;flex-wrap:wrap"><button type="submit" name="do" value="save" class="btn btn-primary">💾 Simpan Scene</button> <button type="submit" name="do" value="save_generate" class="btn btn-success">💾 + Generate Package</button> <button type="submit" name="do" value="save_deploy" class="btn btn-warning" onclick="return confirm(\'Simpan, generate, dan deploy ke export? \')">🚀 Simpan + Deploy ke Export</button> <span style="font-size:12px;color:var(--pill-text);align-self:center">Deploy akan update govirtual-ai + index.html di '.h($tour['export_path']).'</span></div>';
-        $body .= '</form>';
-        $body .= '<style>@media(max-width:900px){ .card[style*=\"grid-template-columns:240px\"]{grid-template-columns:1fr !important} }</style>';
-        $body .= '<script>
-function testAI(sid,k){
-  var qEl=document.querySelector(\'[name="scene_\'+sid+\'_sq_\'+k+\'_q"]\');
-  var mEl=document.querySelector(\'[name="scene_\'+sid+\'_sq_\'+k+\'_mode"]\');
-  var box=document.getElementById(\'sq-test-\'+sid+\'-\'+k);
-  var q=qEl?qEl.value.trim():\'\';
-  var mode=mEl?mEl.value:\'ai\';
-  if(!box){ alert(\'Kotak hasil tidak ditemukan.\'); return; }
-  box.style.display=\'block\';
-  if(mode===\'fix\'){ box.textContent=\'Mode = Jawaban Fix — jawaban langsung dari field \\\'Jawaban fix\\\' di atas (tidak panggil AI).\'; return; }
-  if(!q){ box.textContent=\'Pertanyaan kosong — isi kolom pertanyaan dulu.\'; return; }
-  box.textContent=\'⏳ Memanggil AI (backend lokasi — sama seperti produksi)…\';
-  var url=\'?a=testAnswer&id='.(int)$tour['id'].'&scene=\'+encodeURIComponent(sid)+\'&q=\'+encodeURIComponent(q);
-  fetch(url).then(function(r){ return r.json(); }).then(function(d){
-    if(d && d.ok) box.textContent=(d.reply||\'(jawaban kosong)\');
-    else box.textContent=\'❌ \'+(d&&d.error?d.error:\'gagal\');
-  }).catch(function(e){ box.textContent=\'❌ \'+e; });
-}
-function jumpScene(sid){ if(!sid) return; var d=document.querySelector(\'.scene-card[data-sid="\'+sid+\'"]\'); if(d){ d.open=true; d.scrollIntoView({behavior:\'smooth\',block:\'start\'}); } }
-function toggleAll(open){ document.querySelectorAll(\'.scene-card\').forEach(function(d){ d.open=open; }); }
-function genDesc(sid,field,btn){
-  var ta=document.querySelector(\'[name="scene_\'+sid+\'_\'+field+\'"]\');
-  if(!ta){ alert(\'Field tidak ditemukan.\'); return; }
-  var prev=btn.textContent; btn.disabled=true; btn.textContent=\'⏳ …\';
-  fetch(\'?a=genDesc&id='.(int)$tour['id'].'&scene=\'+encodeURIComponent(sid)+\'&field=\'+field).then(function(r){ return r.json(); }).then(function(d){
-    btn.disabled=false; btn.textContent=prev;
-    if(d && d.ok){ ta.value=(d.reply||\'\').trim(); }
-    else alert(\'❌ \'+(d&&d.error?d.error:\'gagal\'));
-  }).catch(function(e){ btn.disabled=false; btn.textContent=prev; alert(\'❌ \'+e); });
-}
-</script>';
-        layout('Scene Editor — '. $tour['name'], $body); exit;
+        $tour = get_tour((int)($_GET['id'] ?? 0)); if (!$tour) { layout('Tour hilang', '<p>Tour tidak ditemukan.</p>'); exit; }
+        $parsed = read_json(tour_dir($tour['slug']) . '/parsed.json');
+        if (!$parsed) { layout('Belum import', '<div class="card"><h2>Impor pano dulu</h2><p class="muted">Scene belum terdeteksi. Impor panorama dari folder export terlebih dahulu.</p><p><a class="btn btn-primary" href="?a=import&id=' . (int)$tour['id'] . '">Impor pano</a> <a class="btn btn-ghost" href="?a=view&id=' . (int)$tour['id'] . '">Kembali</a></p></div>'); exit; }
+        $si = read_json(tour_dir($tour['slug']) . '/scene-identity.json', ['scenes' => []]);
+        $knowledge = read_json(tour_dir($tour['slug']) . '/knowledge.json', ['entries' => []]);
+        $msg = '';
+        if (isset($_GET['saved'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Scene disimpan' . (isset($_GET['generated']) ? ' dan paket dibuat' : '') . (isset($_GET['deployed']) ? ' dan situs publik diperbarui' : '') . '.</p></div>';
+        if (isset($_GET['imported'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ ' . (int)$_GET['imported'] . ' scene diperbarui dari file.</p></div>';
+        render_scene_page($tour, $parsed, $si, $knowledge, $msg); exit;
     }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'savePrompts') {
         $tour = get_tour((int)$_GET['id']); if (!$tour) throw new RuntimeException('Tour tidak ditemukan.');
@@ -2659,6 +2608,18 @@ function flowThumb(sel){
         $th = theme_sanitize($_GET);
         echo json_encode(['css' => theme_css($th, '#themePreview'), 'fonts' => theme_font_urls($th), 'contrast' => theme_contrast($th['accent'], $th['surface'])]); exit;
     }
+    if ($action === 'health') { $hc = trim((string)($_GET['city'] ?? '')); render_health_page('', $hc !== '' ? city_slugify($hc) : ''); exit; }
+    if ($action === 'healthBase' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+        try { health_save_base((string)($_POST['city'] ?? ''), (string)($_POST['base'] ?? '')); $flash = 'Alamat publik kota disimpan.'; }
+        catch (RuntimeException $e) { $flash = ''; $GLOBALS['error'] = '<div class="card bad"><p>' . h($e->getMessage()) . '</p></div>'; }
+        header('Location: ?a=health'); exit;
+    }
+    if ($action === 'healthEnqueue' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+        try { $batch = health_enqueue_scope((string)($_POST['scope'] ?? 'all'), (string)($_POST['ref'] ?? ''), !empty($_POST['ui'])); }
+        catch (RuntimeException $e) { header('Location: ?a=health&error=' . urlencode($e->getMessage())); exit; }
+        job_spawn_worker();
+        header('Location: ?a=jobs&batch=' . urlencode($batch)); exit;
+    }
     if ($action === 'jobs') { render_jobs_page((string)($_GET['batch'] ?? '')); exit; }
     if ($action === 'jobEnqueue' && $_SERVER['REQUEST_METHOD'] === 'POST') {
         $batch = job_enqueue((string)($_POST['type'] ?? ''), (array)($_POST['tour'] ?? []), (string)(current_user()['username'] ?? ''));
@@ -2786,6 +2747,29 @@ function flowThumb(sel){
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'saveKeys') {
         require_admin();
         if (!csrf_valid($_POST['csrf_token'] ?? null)) throw new RuntimeException('CSRF tidak valid. Muat ulang halaman lalu coba lagi.');
+        // Validasi dulu, sebelum ada yang ditulis: provider utama/cadangan harus dikenal, dan penyedia baru harus lengkap.
+        $newName = strtolower((string)preg_replace('/[^a-zA-Z0-9]+/', '', trim((string)($_POST['new_provider_name'] ?? ''))));
+        $newKey = trim((string)($_POST['new_provider_key'] ?? ''));
+        $newBase = rtrim(trim((string)($_POST['new_provider_base'] ?? '')), '/');
+        $newModel = trim((string)($_POST['new_provider_model'] ?? ''));
+        $newLabel = trim((string)($_POST['new_provider_label'] ?? ''));
+        if ($newName !== '') {
+            if (strlen($newName) < 2 || strlen($newName) > 30) throw new RuntimeException('Nama provider harus 2–30 huruf atau angka.');
+            if (in_array($newName, ['ai', 'gemini', 'openrouter', 'groq', 'ollama'], true)) throw new RuntimeException('Nama "' . $newName . '" sudah dipakai provider bawaan. Pilih nama lain.');
+            if ($newKey === '') throw new RuntimeException('Isi API key untuk penyedia baru, atau kosongkan nama provider.');
+            if (!preg_match('#^https?://[^\s/]+#i', $newBase)) throw new RuntimeException('Base URL penyedia baru harus diawali http:// atau https:// (contoh: https://api.deepseek.com/v1).');
+            if ($newModel === '') throw new RuntimeException('Isi nama model untuk penyedia baru (contoh: deepseek-chat).');
+        }
+        $allowedProviders = array_values(array_unique(array_merge(['gemini', 'openrouter', 'groq', 'ollama'], api_key_providers(), $newName !== '' ? [$newName] : [])));
+        foreach (array_values(array_diff($allowedProviders, ['gemini', 'openrouter', 'groq', 'ollama'])) as $cp) {
+            $base = trim((string)($_POST['set_' . provider_env_name($cp) . '_BASE_URL'] ?? ''));
+            if ($base !== '' && !preg_match('#^https?://[^\s/]+#i', $base)) throw new RuntimeException('Base URL ' . $cp . ' harus diawali http:// atau https://.');
+        }
+        $primaryPosted = trim((string)($_POST['set_AI_PROVIDER'] ?? ''));
+        if ($primaryPosted !== '' && !in_array($primaryPosted, $allowedProviders, true)) throw new RuntimeException('Penyedia utama "' . $primaryPosted . '" tidak dikenal.');
+        foreach (array_filter(array_map('trim', explode(',', (string)($_POST['set_AI_FALLBACK_PROVIDERS'] ?? '')))) as $fb) {
+            if (!in_array($fb, $allowedProviders, true)) throw new RuntimeException('Penyedia cadangan "' . $fb . '" tidak dikenal. Tambahkan dulu sebagai penyedia.');
+        }
         // Existing blank replacement means preserve secret. Provider comes from DB, never client input.
         $postedIds = (array)($_POST['k_id'] ?? []);
         foreach ($postedIds as $i => $idStr) {
@@ -2809,13 +2793,12 @@ function flowThumb(sel){
             $maxPrio = 0; foreach (api_key_list($p) as $r) $maxPrio = max($maxPrio, (int)$r['priority']);
             api_key_save($p, $l, $v, 1, $maxPrio + 1);
         }
-        // Add a brand-new custom provider (OpenAI-compatible) from the "Tambah Provider" card
-        $newProvName = strtolower((string)preg_replace('/[^a-zA-Z0-9]+/', '', trim((string)($_POST['new_provider_name'] ?? ''))));
-        $newProvKey = trim((string)($_POST['new_provider_key'] ?? ''));
-        $newProvLabel = trim((string)($_POST['new_provider_label'] ?? ''));
-        if ($newProvName !== '' && $newProvKey !== '') {
-            $maxPrio = 0; foreach (api_key_list($newProvName) as $r) $maxPrio = max($maxPrio, (int)$r['priority']);
-            api_key_save($newProvName, $newProvLabel, $newProvKey, 1, $maxPrio + 1);
+        // Penyedia baru (OpenAI-compatible) dari kartu "Tambah penyedia": key, base URL, dan model disimpan bersamaan.
+        if ($newName !== '') {
+            $maxPrio = 0; foreach (api_key_list($newName) as $r) $maxPrio = max($maxPrio, (int)$r['priority']);
+            api_key_save($newName, $newLabel, $newKey, 1, $maxPrio + 1);
+            setting_set(provider_env_name($newName) . '_BASE_URL', $newBase);
+            setting_set(provider_env_name($newName) . '_MODEL', $newModel);
         }
         // General env settings
         foreach (['AI_PROVIDER','AI_FALLBACK_PROVIDERS','AI_REQUEST_TIMEOUT','AI_DEBUG','AI_REASONING_MODE','GEMINI_MODEL','GEMINI_FALLBACK_MODELS','OPENROUTER_MODEL','OPENROUTER_BASE_URL','GROQ_MODEL','OLLAMA_ENABLED','OLLAMA_URL','OLLAMA_MODEL','OLLAMA_EMBED_MODEL','OLLAMA_NUM_PREDICT','OLLAMA_TEMPERATURE','AI_WEB_SEARCH','AI_WEB_SEARCH_TIMEOUT','AI_WEB_SEARCH_PROVIDERS'] as $skey) {
@@ -2834,166 +2817,9 @@ function flowThumb(sel){
         layout('API Keys disimpan', '<div class="card" style="border-color:var(--success)"><p class="ok">✓ API keys & settings disimpan dan di-sync ke ' . count($written) . ' target.</p><p class="muted" style="font-size:12px">' . $list . '</p><p><a class="btn" href="?a=keys">← Kembali ke API Keys</a></p></div>');
         exit;
     }
+    if ($action === 'playground') { render_playground(); exit; }
     if ($action === 'keys') {
-        $keys = api_key_list();
-        $providers = [];
-        foreach ($keys as $r) { $providers[$r['provider']][] = $r; }
-        $body = $error;
-        $body .= '<div class="card"><h2>🔑 API Keys — AI Guide Hub</h2><p class="muted">Satu sumber kebenaran API key. Simpan di sini → otomatis di-generate menjadi <code>.env</code> dan di-sync ke master, semua package, dan semua lokasi ter-deploy. Backup key dipakai otomatis oleh backend saat key utama gagal (Gemini & OpenRouter & Groq).</p>';
-        $body .= '<p class="muted">Saat ini: <b>' . count($keys) . '</b> key terdaftar. Primer per provider = priority 0.</p></div>';
-        $body .= '<form method="post" action="?a=saveKeys"><input type="hidden" name="csrf_token" value="' . h(csrf_token()) . '">';
-        // General settings card
-        $gFields = [
-            'AI_PROVIDER' => 'Provider utama (gemini | openrouter | groq | ollama)',
-            'AI_FALLBACK_PROVIDERS' => 'Fallback providers (pisah koma)',
-            'AI_REQUEST_TIMEOUT' => 'Timeout request (detik)',
-            'AI_DEBUG' => 'Debug (true/false)',
-            'AI_REASONING_MODE' => 'Mode reasoning (fast|balanced|deep)',
-            'GEMINI_MODEL' => 'Gemini model utama',
-            'GEMINI_FALLBACK_MODELS' => 'Gemini fallback models (koma)',
-            'OPENROUTER_MODEL' => 'OpenRouter model',
-            'OPENROUTER_BASE_URL' => 'OpenRouter base URL',
-            'GROQ_MODEL' => 'Groq model',
-            'OLLAMA_ENABLED' => 'Ollama enabled (true/false)',
-            'OLLAMA_URL' => 'Ollama URL',
-            'OLLAMA_MODEL' => 'Ollama model',
-            'OLLAMA_EMBED_MODEL' => 'Ollama embed model',
-            'OLLAMA_NUM_PREDICT' => 'Ollama max tokens',
-            'OLLAMA_TEMPERATURE' => 'Ollama temperature',
-            'AI_WEB_SEARCH' => 'Web search fallback aktif (true/false)',
-            'AI_WEB_SEARCH_TIMEOUT' => 'Web search timeout (detik)',
-        ];
-        $body .= '<div class="card" style="padding:var(--space-5)"><h3 style="margin-bottom:var(--space-4)">⚙️ Pengaturan Umum</h3><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">';
-        foreach ($gFields as $k => $desc) {
-            $v = setting_get($k, '');
-            $body .= '<div class="field" style="margin-bottom:0"><label for="set_' . h($k) . '" style="font-size:11px;color:var(--pill-text);text-transform:none;letter-spacing:0">' . h($k) . ' — ' . h($desc) . '</label><input id="set_' . h($k) . '" name="set_' . h($k) . '" value="' . h($v) . '" class="mono" autocomplete="off" spellcheck="false"></div>';
-        }
-        $body .= '</div></div>';
-        // Keys per provider (dinamis: 4 bawaan + provider custom yang sudah ditambahkan)
-        $idToIdx = [];
-        foreach ($keys as $idx => $r) $idToIdx[(int)$r['id']] = $idx;
-        $provLabels = [
-            'gemini' => 'Gemini (Google)',
-            'openrouter' => 'OpenRouter',
-            'groq' => 'Groq',
-            'ollama' => 'Ollama (lokal)',
-        ];
-        $customProviders = array_values(array_filter(api_key_providers(), fn($p) => !in_array($p, ['gemini', 'openrouter', 'groq', 'ollama'], true)));
-        $allProviders = array_merge(array_keys($provLabels), $customProviders);
-        foreach ($allProviders as $provKey) {
-            $provLabel = $provLabels[$provKey] ?? ucfirst($provKey) . ' (OpenAI-compatible)';
-            $isCustom = !isset($provLabels[$provKey]);
-            $rows = $providers[$provKey] ?? [];
-            $activeCount = 0; foreach ($rows as $r) if ((int)$r['is_active'] === 1) $activeCount++;
-            $badge = $activeCount > 0
-                ? '<span style="background:var(--success);color:var(--ok-text);font-size:11px;padding:3px 8px;border-radius:999px;margin-left:8px">'.$activeCount.' key aktif</span>'
-                : '<span style="background:var(--warning);color:var(--warn-text);font-size:11px;padding:3px 8px;border-radius:999px;margin-left:8px">⚠ tidak ada key aktif</span>';
-            $customTag = $isCustom ? '<span style="background:var(--ai-accent);color:#fff;font-size:10px;padding:2px 6px;border-radius:999px;margin-left:8px;vertical-align:middle">CUSTOM</span>' : '';
-            $body .= '<div class="card" style="' . ($isCustom ? 'border:1px solid var(--ai-accent)' : '') . '"><h3>🔑 ' . h($provLabel) . $customTag . $badge . ' <span class="muted" style="font-size:12px">(priority 0 = primer, sisanya backup)</span></h3>';
-            if ($rows) {
-                $keyIds = array_map(fn($r) => (int)$r['id'], $rows);
-                $body .= '<div style="margin:8px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button type="button" onclick="testAllKeys([' . implode(',', $keyIds) . '], \'provider-test-' . h($provKey) . '\')" class="btn btn-ghost btn-sm">🧪 Test Semua Key (' . count($keyIds) . ')</button> <span style="font-size:11px;color:var(--pill-text)">Test berjalan server-side. API key tidak dikirim atau ditampilkan browser.</span></div>';
-                $body .= '<div id="provider-test-' . h($provKey) . '" style="display:none;margin:0 0 8px;background:var(--code-bg);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12.5px;line-height:1.8"></div>';
-            }
-            if (!$rows) $body .= '<p class="muted">Belum ada key. Tambahkan di bawah.</p>';
-            foreach ($rows as $r) {
-                $pidx = $idToIdx[(int)$r['id']] ?? 0;
-                $isPrimary = (int)$r['priority'] === 0 && (int)$r['is_active'] === 1;
-                $prioBadge = $isPrimary ? '<span style="background:var(--primary);color:#fff;font-size:10px;padding:2px 6px;border-radius:999px;margin-left:4px;line-height:1.6">AKTIF</span>' : '';
-                $body .= '<div style="display:grid;grid-template-columns:auto 1fr 1fr 60px auto auto;gap:8px;align-items:center;margin-bottom:4px">';
-                $body .= '<input type="hidden" name="k_id[]" value="' . (int)$r['id'] . '">';
-                $body .= '<label style="font-size:12px"><input type="checkbox" name="del_' . $pidx . '" value="1"> Hapus</label>';
-                $body .= '<input name="k_' . $pidx . '_label" value="' . h($r['label']) . '" placeholder="Label (contoh: Key A)">';
-                $body .= '<input class="key-mon" type="password" name="k_' . $pidx . '_key" placeholder="Terkonfigurasi — isi hanya untuk ganti" autocomplete="new-password">';
-                $body .= '<div style="display:flex;align-items:center;gap:2px"><input name="k_' . $pidx . '_priority" value="' . h((string)$r['priority']) . '" placeholder="0" style="width:46px">' . $prioBadge . '</div>';
-                $body .= '<label style="font-size:12px;white-space:nowrap"><input type="checkbox" name="k_' . $pidx . '_active" ' . ((int)$r['is_active'] === 1 ? 'checked' : '') . '> Aktif</label>';
-                $body .= '<button type="button" onclick="testKey(' . (int)$r['id'] . ', \'' . h($r['provider']) . '\')" class="btn btn-success btn-sm" title="Test stored API key">▶ Test</button>';
-                $body .= '</div>';
-                $body .= '<div id="key-test-' . (int)$r['id'] . '" style="display:none;margin:0 0 8px;background:var(--code-bg);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12.5px;line-height:1.6;white-space:pre-wrap"></div>';
-            }
-            $body .= '<div style="margin-top:10px;border-top:1px solid var(--border);padding-top:10px"><label style="font-size:12px;color:var(--pill-text)">+ Tambah key baru ' . h($provLabel) . '</label>';
-            $body .= '<div style="display:grid;grid-template-columns:1fr 2fr;gap:8px;margin-top:6px">';
-            $body .= '<input name="add_label[]" placeholder="Label (contoh: Key B)">';
-            $body .= '<input class="key-mon" type="password" name="add_key[]" placeholder="Paste API key di sini" autocomplete="new-password">';
-            $body .= '<input type="hidden" name="add_provider[]" value="' . h($provKey) . '">';
-            $body .= '</div></div>';
-            // Custom provider: model & base URL setting
-            if ($isCustom) {
-                $envName = provider_env_name($provKey);
-                $modelVal = setting_get($envName . '_MODEL', '');
-                $baseVal = setting_get($envName . '_BASE_URL', 'https://api.' . $provKey . '.com/v1');
-                $body .= '<div style="margin-top:10px;border-top:1px dashed var(--ai-accent);padding-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:8px">';
-                $body .= '<div><label style="font-size:11px;color:var(--pill-text)">Model (env ' . h($envName) . '_MODEL)</label><input name="set_' . h($envName) . '_MODEL" value="' . h($modelVal) . '" placeholder="contoh: deepseek-chat" class="mono" spellcheck="false"></div>';
-                $body .= '<div><label style="font-size:11px;color:var(--pill-text)">Base URL (env ' . h($envName) . '_BASE_URL)</label><input name="set_' . h($envName) . '_BASE_URL" value="' . h($baseVal) . '" placeholder="https://api.' . h($provKey) . '.com/v1" class="mono" spellcheck="false"></div>';
-                $body .= '</div>';
-                $body .= '<p class="muted" style="font-size:11px;margin-top:6px">Provider custom dianggap OpenAI-compatible: runtime memakai <code>' . h($envName) . '_API_KEY</code>, <code>' . h($envName) . '_MODEL</code>, <code>' . h($envName) . '_BASE_URL</code>. Bisa dipilih sebagai AI_PROVIDER / AI_FALLBACK_PROVIDERS.</p>';
-            }
-            $body .= '</div>';
-        }
-        // Add custom provider card
-        $body .= '<div class="card" style="border:1px dashed var(--ai-accent);background:var(--surface-3)"><h3>➕ Tambah Provider Baru (OpenAI-compatible)</h3>';
-        $body .= '<p class="muted">Tidak dibatasi hanya Gemini / Groq / OpenRouter / Ollama. Tambahkan provider apa pun yang punya API OpenAI-compatible — contoh: <b>DeepSeek</b>, <b>Mistral</b>, <b>Anthropic</b>, <b>OpenAI</b>, <b>xAI</b>, <b>Together</b>, <b>Cohere</b>, <b>Perplexity</b>, atau endpoint custom Anda sendiri.</p>';
-        $body .= '<div style="display:grid;grid-template-columns:1fr 2fr;gap:8px">';
-        $body .= '<div><label style="font-size:12px;color:var(--pill-text)">Nama provider</label><input name="new_provider_name" placeholder="contoh: deepseek" class="mono" spellcheck="false"></div>';
-        $body .= '<div><label style="font-size:12px;color:var(--pill-text)">API key</label><input class="key-mon" type="password" name="new_provider_key" placeholder="Paste API key di sini" autocomplete="new-password"></div>';
-        $body .= '</div>';
-        $body .= '<label style="font-size:12px;color:var(--pill-text);margin-top:8px;display:block">Label opsional</label><input name="new_provider_label" placeholder="contoh: DeepSeek" style="margin-top:4px">';
-        $body .= '<p class="muted" style="font-size:12px;margin-top:8px">Setelah simpan, provider baru muncul sebagai kartu di atas — isi <b>Model</b> & <b>Base URL</b> di sana, lalu set <code>AI_PROVIDER</code> atau tambahkan ke <code>AI_FALLBACK_PROVIDERS</code>.</p></div>';
-        $body .= '<div class="card" style="position:sticky;bottom:0;background:var(--surface-2);z-index:5"><button type="submit" name="do" value="save" class="btn btn-primary">💾 Simpan & Sync Semua</button> <span style="font-size:12px;color:var(--pill-text)">Menulis .env ke master + semua package + semua lokasi ter-deploy.</span></div>';
-        $body .= '</form>';
-        // Live-test API keys: JS untuk tombol ▶ Test (per key) & 🧪 Test Semua Key (per provider)
-        $body .= '<script>
-function escHtml(s){ var d=document.createElement("div"); d.textContent=(s==null?"":String(s)); return d.innerHTML; }
-function renderTestResult(d){
-  if(!d) return "<span style=\"color:var(--danger)\">❌ Tidak ada respon dari server</span>";
-  var t=(d.time_ms||0)+" ms";
-  if(d.ok){
-    var rep=d.reply?" — "+escHtml(d.reply.slice(0,90)):"";
-    return "<span style=\"color:var(--link-light)\">✓ OK ("+t+")</span> <span style=\"color:var(--pill-text)\">HTTP "+d.http+" · model "+escHtml(d.model)+"</span>"+rep;
-  }
-  var err=d.error||("HTTP "+d.http);
-  return "<span style=\"color:var(--danger)\">✗ Gagal ("+t+")</span> <span style=\"color:var(--danger)\">HTTP "+d.http+" — "+escHtml(err)+"</span>";
-}
-function testKey(keyId, provider){
-  var box=document.getElementById("key-test-"+keyId);
-  if(!box) return;
-  box.style.display="block";
-  box.innerHTML="<span style=\"color:var(--link-code)\">⏳ Testing "+escHtml(provider)+"…</span>";
-  var fd=new FormData();
-  fd.append("key_id",keyId);
-  fd.append("csrf_token",document.querySelector("[name=csrf_token]").value);
-  fetch("?a=testKey",{method:"POST",body:fd})
-    .then(function(r){return r.json();})
-    .then(function(d){ box.innerHTML=renderTestResult(d); })
-    .catch(function(e){ box.innerHTML="<span style=\"color:var(--danger)\">❌ "+escHtml(e)+"</span>"; });
-}
-async function testAllKeys(keyIds, boxId){
-  var box=document.getElementById(boxId);
-  if(!box) return;
-  box.style.display="block";
-  if(!keyIds||!keyIds.length){ box.innerHTML="<span style=\"color:var(--warning)\">Tidak ada key untuk di-test.</span>"; return; }
-  box.innerHTML="<span style=\"color:var(--link-code)\">⏳ Testing "+keyIds.length+" key…</span>";
-  var lines=[];
-  for(var i=0;i<keyIds.length;i++){
-    var keyId=keyIds[i];
-    box.innerHTML="<span style=\"color:var(--link-code)\">⏳ Testing key "+(i+1)+"…</span>";
-    var fd=new FormData();
-    fd.append("key_id",keyId);
-    fd.append("csrf_token",document.querySelector("[name=csrf_token]").value);
-    try{
-      var d=await (await fetch("?a=testKey",{method:"POST",body:fd})).json();
-      lines.push("• Key "+(i+1)+": "+renderTestResult(d));
-    }catch(e){
-      lines.push("<span style=\"color:var(--danger)\">• Key "+(i+1)+": "+escHtml(e)+"</span>");
-    }
-  }
-  box.innerHTML=lines.join("<div style=\"margin-top:4px\"></div>");
-}
-</script>';
-        $configured = [];
-        foreach ($providers as $provider => $rows) $configured[] = h($provider) . ': ' . count($rows) . ' tersimpan';
-        $body .= '<div class="card"><h3>🔒 Status sync .env</h3><p class="muted">Secret tidak ditampilkan. Simpan akan generate .env ke master, package, dan lokasi ter-deploy.</p><p>' . implode(' · ', $configured) . '</p></div>';
-        layout('API Keys', $body); exit;
+        render_keys_page($error); exit;
     }
     if ($action === 'aihealth') {
         $db = db();
@@ -3112,16 +2938,26 @@ async function testAllKeys(keyIds, boxId){
         move_to_trash(city_dir($slug), 'city-' . $slug);
         header('Location: ?a=cities'); exit;
     }
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'citySourceText') {
+        $slug = city_slugify((string)($_POST['city'] ?? ''));
+        try { $added = city_source_add_text($slug, (string)($_POST['title'] ?? ''), (string)($_POST['text'] ?? '')); }
+        catch (RuntimeException $e) { header('Location: ?a=citySources&city=' . urlencode($slug) . '&error=' . urlencode($e->getMessage())); exit; }
+        $synced = city_sync_packages($slug);
+        header('Location: ?a=citySources&city=' . urlencode($slug) . '&saved=1&added=' . $added . '&synced=' . count($synced)); exit;
+    }
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'citySourceRefresh') {
+        $slug = city_slugify((string)($_POST['city'] ?? ''));
+        try { $r = city_source_refresh_url($slug, (int)($_POST['idx'] ?? -1)); }
+        catch (RuntimeException $e) { header('Location: ?a=citySources&city=' . urlencode($slug) . '&error=' . urlencode($e->getMessage())); exit; }
+        city_sync_packages($slug);
+        header('Location: ?a=citySources&city=' . urlencode($slug) . '&refreshed=1&added=' . (int)$r['added']); exit;
+    }
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'citySourceDelete') {
-        $slug = city_slugify((string)($_POST['city'] ?? '')); $idx = (int)($_POST['idx'] ?? -1);
-        $src = city_sources($slug);
-        if (isset($src['sources'][$idx])) {
-            $f = $src['sources'][$idx]['file'] ?? '';
-            unset($src['sources'][$idx]); $src['sources'] = array_values($src['sources']);
-            city_save_sources($slug, $src);
-            if ($f !== '' && is_file(city_raw_dir($slug) . '/' . $f)) unlink(city_raw_dir($slug) . '/' . $f);
-        }
-        header('Location: ?a=citySources&city=' . urlencode($slug) . '&deleted=1'); exit;
+        $slug = city_slugify((string)($_POST['city'] ?? ''));
+        try { $topics = city_source_delete($slug, (int)($_POST['idx'] ?? -1)); }
+        catch (RuntimeException $e) { header('Location: ?a=citySources&city=' . urlencode($slug) . '&error=' . urlencode($e->getMessage())); exit; }
+        city_sync_packages($slug);
+        header('Location: ?a=citySources&city=' . urlencode($slug) . '&deleted=1&topics=' . $topics); exit;
     }
     if ($action === 'syncRuntime') {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') confirm_page('Sinkronkan runtime ke semua tour', '<p>Kode runtime AI Guide dari master (<code>' . h(SOURCE_AI) . '</code>) akan disalin ke <b>semua</b> package tour dan semua lokasi yang sudah di-deploy.</p><p class="muted">Data per-tour (<code>data/</code>, <code>config/</code>) tidak diubah. Proses ini bisa memakan waktu beberapa menit.</p>', '?a=syncRuntime', 'Sinkronkan semua', '?');
@@ -3156,176 +2992,47 @@ async function testAllKeys(keyIds, boxId){
     if ($action === 'cityNew') {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $name = trim((string)($_POST['name'] ?? '')); if ($name === '') throw new RuntimeException('Nama kota wajib diisi.');
-            $slug = city_slugify($name);
-            $dir = city_dir($slug); if (!is_dir($dir)) mkdir($dir, 0777, true);
-            $m = ['name' => $name, 'updatedAt' => date('c')]; write_json($dir . '/meta.json', $m);
-            write_json($dir . '/knowledge.json', ['version' => 1, 'city' => $slug, 'entries' => []]);
-            write_json($dir . '/sources.json', ['sources' => []]);
+            // Kota dicatat di database (sumber daftar kota) DAN folder knowledge-nya. Knowledge yang sudah ada tidak ditimpa.
+            $row = city_ensure($name);
+            $slug = (string)$row['slug'];
+            city_ensure_files($slug, $name);
+            $m = read_json(city_dir($slug) . '/meta.json', []); $m['name'] = $name; $m['updatedAt'] = date('c'); write_json(city_dir($slug) . '/meta.json', $m);
             header('Location: ?a=city&city=' . urlencode($slug)); exit;
         }
         $body = $error . '<form class="card" method="post" action="?a=cityNew"><label for="city_name">Nama kota / wilayah</label><input id="city_name" name="name" placeholder="contoh: Semarang" required autocomplete="off"><p class="muted">Slug dibuat otomatis dari nama. Knowledge ini hanya dipakai tour dengan lokasi yang sama.</p><p><button class="btn btn-primary" type="submit">Buat City</button></p></form>';
         layout('New City', $body); exit;
     }
     if ($action === 'city') {
-        $slug = city_slugify((string)($_GET['city'] ?? '')); $kb = city_knowledge($slug);
-        $name = (string)(read_json(city_dir($slug) . '/meta.json', [])['name'] ?? ucwords(str_replace('-', ' ', $slug)));
-        $saved = isset($_GET['saved']); $synced = (int)($_GET['synced'] ?? 0);
-        $msg = ''; if ($saved) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Knowledge kota disimpan' . ($synced > 0 ? ' & disinkronkan ke ' . $synced . ' package tour lokasi ini.' : '') . '</p></div>';
-        $body = $msg . '<div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><h2 style="margin:0">Knowledge — ' . h($name) . ' (' . count($kb['entries'] ?? []) . ' entries)</h2><div style="display:flex;gap:8px"><a class="btn" href="?a=cities">← Cities</a> <a class="btn" href="?a=citySources&city=' . h($slug) . '">📥 Sources</a></div></div><p class="muted">Judul + aliases untuk pencocokan pertanyaan umum tentang kota. Content dipakai AI untuk jawaban.</p></div>';
-        $cityMeta = read_json(city_dir($slug) . '/meta.json', []);
-        $body .= '<form method="post" action="?a=citySave">' . rev_field(city_dir($slug).'/knowledge.json');
-        $body .= '<div class="card" style="border-color:var(--ai-accent)"><h3>⚙️ Instructions (rules AI guide)</h3><p class="muted">Prompting yang dipakai sebagai rules untuk semua chat AI guide kota ini — role, constraints, knowledge base, cara representasi. Dipatok di atas aturan bawaan.</p><textarea name="instructions" rows="10" placeholder="Contoh:&#10;ROLE: Kamu adalah AI pemandu resmi Kota Semarang...&#10;CONSTRAINTS: ...">' . h((string)($cityMeta['instructions'] ?? '')) . '</textarea></div>';
-        foreach (($kb['entries'] ?? []) as $idx => $e) {
-            $body .= '<div class="card"><div style="display:flex;justify-content:space-between"><strong>' . h($e['title'] ?? $e['id']) . '</strong> <label style="font-size:12px"><input type="checkbox" name="del_' . $idx . '" value="1"> Hapus</label></div>';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">ID</label><input name="entry_' . $idx . '_id" value="' . h($e['id']) . '">';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Title</label><input name="entry_' . $idx . '_title" value="' . h($e['title'] ?? '') . '">';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Aliases (pisah koma)</label><input name="entry_' . $idx . '_aliases" value="' . h(implode(', ', $e['aliases'] ?? [])) . '">';
-            $body .= '<label style="font-size:12px;color:var(--pill-text)">Content</label><textarea name="entry_' . $idx . '_content" rows="4">' . h($e['content'] ?? '') . '</textarea></div>';
-        }
-        $body .= '<input type="hidden" name="entry_count" value="' . count($kb['entries'] ?? []) . '"><input type="hidden" name="city" value="' . h($slug) . '"><input type="hidden" name="name" value="' . h($name) . '">';
-        $body .= '<div class="card" style="position:sticky;bottom:0;background:var(--surface-2);z-index:5;display:flex;gap:8px"><button type="submit" name="add_entry" value="1" class="btn btn-ghost">+ Tambah Entry</button> <button type="submit" class="btn btn-primary">💾 Simpan & Sync</button></div></form>';
-        layout('City Knowledge — ' . $name, $body); exit;
+        $slug = city_slugify((string)($_GET['city'] ?? ''));
+        $msg = '';
+        if (isset($_GET['saved'])) { $synced = (int)($_GET['synced'] ?? 0); $msg = '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Pengetahuan kota disimpan' . ($synced > 0 ? ' dan dikirim ke ' . $synced . ' tour.' : '.') . '</p></div>'; }
+        render_city_page($slug, $msg); exit;
     }
     if ($action === 'citySources') {
-        $slug = city_slugify((string)($_GET['city'] ?? '')); $src = city_sources($slug);
-        $name = (string)(read_json(city_dir($slug) . '/meta.json', [])['name'] ?? ucwords(str_replace('-', ' ', $slug)));
-        $msg = ''; if (isset($_GET['saved'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Source diproses. ' . (int)($_GET['added'] ?? 0) . ' knowledge entry ditambahkan, disinkronkan ke ' . (int)($_GET['synced'] ?? 0) . ' package tour.</p></div>';
-        if (isset($_GET['deleted'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Source dihapus.</p></div>';
+        $slug = city_slugify((string)($_GET['city'] ?? ''));
+        $msg = '';
+        if (isset($_GET['saved'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Sumber diproses: ' . (int)($_GET['added'] ?? 0) . ' topik dibuat, dikirim ke ' . (int)($_GET['synced'] ?? 0) . ' tour.</p></div>';
+        if (isset($_GET['deleted'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Sumber dihapus' . ((int)($_GET['topics'] ?? 0) > 0 ? ' beserta ' . (int)$_GET['topics'] . ' topik yang dibuat darinya' : '') . '.</p></div>';
+        if (isset($_GET['refreshed'])) $msg .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Website diambil ulang: ' . (int)($_GET['added'] ?? 0) . ' topik diperbarui.</p></div>';
         if (isset($_GET['error'])) $msg .= '<div class="card bad"><p>' . h((string)$_GET['error']) . '</p></div>';
-        $body = $msg . '<div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><h2 style="margin:0">Sources — ' . h($name) . '</h2><a class="btn" href="?a=city&city=' . h($slug) . '">← Edit Knowledge</a></div><p class="muted">Tambah sumber pengetahuan kota: fetch dari URL website, atau upload file (PDF, Word, txt, dll). Teks dipotong otomatis menjadi knowledge entries.</p></div>';
-        $body .= '<form class="card" method="post" action="?a=citySourceUrl" style="border:1px dashed var(--ai-accent)"><h3>🌐 Fetch dari Website</h3><div style="display:flex;gap:8px"><input type="hidden" name="city" value="' . h($slug) . '"><input name="url" placeholder="https://contoh.id/halaman" required style="flex:1"><button class="btn btn-primary" type="submit">Fetch & Import</button></div></form>';
-        $body .= '<form class="card" method="post" action="?a=citySourceFile" enctype="multipart/form-data" style="border:1px dashed var(--ai-accent)"><h3>📄 Upload File</h3><p class="muted">Didukung: .txt .md .csv .html .docx .doc .pdf</p><div style="display:flex;gap:8px;align-items:center"><input type="hidden" name="city" value="' . h($slug) . '"><input type="file" name="file" required accept=".txt,.md,.csv,.html,.htm,.docx,.doc,.pdf"><button class="btn btn-primary" type="submit">Upload & Import</button></div></form>';
-        $body .= '<div class="card"><h3>Riwayat Sources</h3>';
-        if (empty($src['sources'])) $body .= '<p class="muted">Belum ada source.</p>';
-        foreach (($src['sources'] ?? []) as $idx => $s) {
-            $label = $s['type'] === 'url' ? '🌐 ' . h($s['url']) : '📄 ' . h($s['original'] ?? $s['file']);
-            $body .= '<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--border)"><span>' . $label . ' <span class="muted" style="font-size:12px">(+' . (int)$s['added'] . ' entries, ' . h($s['at']) . ')</span></span>'
-                . '<form method="post" action="?a=citySourceDelete" style="display:inline"><input type="hidden" name="city" value="' . h($slug) . '"><input type="hidden" name="idx" value="' . $idx . '"><button class="btn btn-ghost btn-sm" type="submit" onclick="return confirm(\'Hapus source ini?\')">Hapus</button></form></div>';
-        }
-        $body .= '</div>';
-        layout('Sources — ' . $name, $body); exit;
+        render_city_sources($slug, $msg); exit;
     }
-} catch (Throwable $e) { $error = '<div class="card bad">' . h($e->getMessage()) . '</div>'; }
+} catch (Throwable $e) {
+    // Validasi Penyedia AI gagal: tampilkan lagi halaman Penyedia dengan pesannya (sebelumnya pesan ini hilang).
+    if ($action === 'saveKeys' && $e instanceof RuntimeException) { render_keys_page($e->getMessage()); exit; }
+    $error = '<div class="card bad">' . h($e->getMessage()) . '</div>';
+}
 
 if ($action === 'new' || $action === 'edit') {
-    $t = $action === 'edit' ? get_tour((int)($_GET['id'] ?? 0)) : ['id' => 0, 'name' => '', 'slug' => '', 'city_id' => (int)($_GET['city'] ?? 0), 'location' => '', 'category' => '', 'export_path' => ''];
+    $t = $action === 'edit' ? get_tour((int)($_GET['id'] ?? 0)) : ['id' => 0, 'name' => '', 'slug' => '', 'city_id' => ctype_digit((string)($_GET['city'] ?? '')) ? (int)$_GET['city'] : (int)(city_row_by_slug(city_slugify((string)($_GET['city'] ?? '')))['id'] ?? 0), 'location' => '', 'category' => '', 'export_path' => ''];
     if (!$t) throw new RuntimeException('Tour tidak ditemukan.');
     render_tour_form($t, $error); exit;
 }
     if ($action === 'view') {
-        $t = get_tour((int)$_GET['id']); if (!$t) { layout('Tour hilang', '<p>Tour tidak ditemukan.</p>'); exit; }
+        $t = get_tour((int)($_GET['id'] ?? 0)); if (!$t) { layout('Tour hilang', '<p>Tour tidak ditemukan.</p>'); exit; }
         $s = studio_tour_stats($t);
         $parsed = read_json(tour_dir($t['slug']) . '/parsed.json');
-        $errs = $s['issues'];
-        $hasScenes = $parsed && !empty($parsed['scenes']);
-        $body = $error;
-        if (isset($_GET['resynced'])) $body .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Re-sync selesai: pano/skin di-import ulang, package dibangun & dipasang kembali ke export. Snippet AI di <code>index.html</code> sudah dipulihkan.</p></div>';
-        $exportChanged = detect_export_changes($parsed, $t['export_path']);
-        if ($exportChanged) {
-            $labels = ['pano.xml' => 'panorama & hotspot', 'skin.js' => 'skin (objek info)', 'index.html' => 'halaman utama (snippet AI bisa hilang)'];
-            $parts = []; foreach ($exportChanged as $f) $parts[] = '<code>' . h($f) . '</code> (' . h($labels[$f] ?? $f) . ')';
-            $body .= '<div class="card" style="border-color:var(--warning)"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><div><h3 style="margin:0">⚠️ Export panorama berubah</h3><p class="muted" style="margin:4px 0 0">File berubah sejak import/deploy terakhir: ' . implode(', ', $parts) . '. parsed.json dan package bisa tidak sinkron dengan pano terbaru.</p></div>'
-                . '<form method="post" action="?a=resync&id=' . (int)$t['id'] . '" onsubmit="return confirm(\'Re-import pano/skin, rebuild package, lalu deploy ulang ke export? Backup package lama dibuat otomatis.\')"><button class="btn btn-warning">🔄 Re-sync dengan tour</button></form></div></div>';
-        }
-
-        // Header
-        $deployBtn = $s['deployed'] || ($s['hasPackage'] && $s['exportSet']) ? '<form method="post" action="?a=deploy&id=' . (int)$t['id'] . '" onsubmit="return confirm(\'Replace installed AI Guide and update index.html? Backup stored locally.\')" style="display:inline-flex"><button class="btn btn-success">' . ($s['deployed'] ? 'Re-deploy' : 'Deploy') . '</button></form>' : '';
-        if (isset($_GET['created'])) $body .= '<div class="card" style="border-color:var(--success)"><p class="ok">✓ Tour dibuat' . ((string)$_GET['created'] !== '' ? ': ' . h((string)$_GET['created']) : '') . '</p></div>';
-        $body .= '<div class="ov-head"><div><h1>' . h($t['name']) . '</h1><div class="ov-sub">' . h($t['location']) . ($t['export_path'] !== '' ? ' · <code>' . h($t['export_path']) . '</code>' : '') . '</div></div>'
-            . '<div class="ov-actions">'
-            . '<a class="btn btn-ghost" href="?a=edit&id=' . (int)$t['id'] . '">Edit</a>'
-            . '<a class="btn btn-ghost" href="?a=import&id=' . (int)$t['id'] . '">Import pano/skin</a>'
-            . ($hasScenes ? '<a class="btn btn-ghost" href="?a=scenes&id=' . (int)$t['id'] . '">Scene Editor (' . count($parsed['scenes']) . ')</a>' : '')
-            . '<a class="btn btn-primary" href="?a=generate&id=' . (int)$t['id'] . '">Generate package</a>'
-            . $deployBtn
-            . '</div></div>';
-
-        // Readiness + Issues + Setup Checklist
-        $issueItems = '';
-        foreach (array_slice($s['issues'], 0, 5) as $iss) {
-            $issueItems .= '<div class="issue-item"><span class="issue-ic">' . studio_icon('settings', 16) . '</span><div class="issue-tx"><b>' . h($iss) . '</b></div><a class="btn btn-sm btn-ghost issue-act" href="?a=scenes&id=' . (int)$t['id'] . '">Fix</a></div>';
-        }
-        $issuesCard = '<div class="card"><h3>Needs Attention</h3>'
-            . ($issueItems !== '' ? $issueItems : '<div class="empty" style="padding:var(--space-4)"><p style="margin:0">Tidak ada masalah terdeteksi.</p></div>')
-            . '</div>';
-
-        $checkItems = '';
-        foreach ($s['steps'] as $st) {
-            $ic = $st['done'] ? '<span class="check-ic check-ok">✓</span>' : '<span class="check-ic check-nd">•</span>';
-            $checkItems .= '<li>' . $ic . '<div class="check-tx"><b>' . h($st['label']) . '</b><small>' . h($st['desc']) . '</small></div>'
-                . ($st['done'] ? '' : '<a class="btn btn-sm btn-ghost check-act" href="' . h($st['act']) . '">' . h($st['actLabel']) . '</a>')
-                . '</li>';
-        }
-        $checklist = '<div class="card"><h3>Setup Checklist</h3><ol class="checklist">' . $checkItems . '</ol></div>';
-
-        $rightCol = '<div class="card"><h3>AI Guide Readiness</h3><div class="ready-ring"><div class="ready-ring-num">' . $s['ready'] . '%</div><div>' . studio_badge($s['status']) . '<div class="metric-sub">' . $s['doneSteps'] . '/' . $s['totalSteps'] . ' steps selesai</div></div></div>' . studio_readiness($s['ready']) . '</div>';
-
-        $body .= '<div class="ov-grid"><div>' . $rightCol . $issuesCard . $checklist . '</div>';
-
-        // Main column
-        $mainCol = '';
-
-        // Coverage
-        $covItems = '';
-        $coverage = [
-            ['label' => 'Scenes dengan identitas', 'done' => $s['siScenes'], 'total' => $s['scenes']],
-            ['label' => 'Knowledge entries', 'done' => $s['knowledgeDone'], 'total' => $s['knowledgeTotal']],
-            ['label' => 'Curated intents', 'done' => $s['intents'], 'total' => max($s['intents'], 1)],
-            ['label' => 'Recommended questions', 'done' => $s['recTotal'], 'total' => max($s['recTotal'], 1)],
-            ['label' => 'Visitor tips', 'done' => $s['tipsTotal'], 'total' => max($s['tipsTotal'], 1)],
-            ['label' => 'Nearby places', 'done' => $s['nearbyTotal'], 'total' => max($s['nearbyTotal'], 1)],
-        ];
-        foreach ($coverage as $c) {
-            $pct = $c['total'] > 0 ? (int)round(min(100, $c['done'] / $c['total'] * 100)) : 0;
-            $covItems .= '<div class="coverage-item"><div class="coverage-tx">' . h($c['label']) . ' <b>' . $c['done'] . '/' . $c['total'] . '</b></div><div class="coverage-bar">' . studio_readiness($pct) . '</div></div>';
-        }
-        $mainCol .= '<div class="card"><h3>Content Coverage</h3>' . $covItems . '</div>';
-
-        // Tour Scenes preview
-        if ($hasScenes) {
-            $chips = '';
-            $sceneSample = array_slice($parsed['scenes'], 0, 24);
-            foreach ($sceneSample as $sc) {
-                $nm = $sc['displayName'] ?? $sc['name'] ?? $sc['id'];
-                $isPlaceholder = $nm === $sc['id'] || preg_match('/^node\d+$/i', $nm);
-                $chips .= '<span class="scene-chip' . ($isPlaceholder ? ' style="border-color:var(--warning);color:var(--warning)"' : '') . '">' . h($nm) . '</span>';
-            }
-            $more = count($parsed['scenes']) > 24 ? '<div class="metric-sub" style="margin-top:var(--space-2)">+' . (count($parsed['scenes']) - 24) . ' scene lainnya…</div>' : '';
-            $mainCol .= '<div class="card"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--space-3)"><h3 style="margin:0">Tour Scenes</h3><span class="metric-sub">' . $s['scenes'] . ' scenes · ' . $s['hotspots'] . ' hotspots</span></div><div class="scene-chips">' . $chips . '</div>' . $more . '</div>';
-        }
-
-        // Recent Activity — data nyata dari file system & DB timestamps
-        $activity = '';
-        $acts = [];
-        if (is_dir($dir = tour_dir($t['slug']))) {
-            foreach (glob($dir . '/*.json') as $f) $acts[] = ['t' => filemtime($f), 'ic' => 'knowledge', 'tx' => 'Data diperbarui', 'file' => basename($f)];
-        }
-        if ($s['hasPackage']) $acts[] = ['t' => filemtime($dir . '/package/govirtual-ai'), 'ic' => 'deployment', 'tx' => 'Package generate', 'file' => 'package/govirtual-ai'];
-        if ($s['deployed']) $acts[] = ['t' => filemtime($t['export_path'] . '/govirtual-ai'), 'ic' => 'deployment', 'tx' => 'Deployed ke export', 'file' => $t['export_path']];
-        $acts[] = ['t' => strtotime($t['updated_at'] ?? 'now') ?: time(), 'ic' => 'overview', 'tx' => 'Project dibuat/diupdate', 'file' => 'DB tours'];
-        usort($acts, fn($a, $b) => $b['t'] <=> $a['t']);
-        foreach (array_slice($acts, 0, 8) as $a) {
-            $activity .= '<div class="activity-item"><span class="activity-ic">' . studio_icon($a['ic'], 16) . '</span><div class="activity-tx"><b>' . h($a['tx']) . '</b><br>' . h($a['file']) . '<div class="activity-time">' . date('d M Y H:i', (int)$a['t']) . '</div></div></div>';
-        }
-        $mainCol .= '<div class="card"><h3>Recent Activity</h3>' . $activity . '</div>';
-
-        // Save As card — solusi 100 lokasi tanpa copy tiles besar
-        $mainCol .= '<div class="card" id="saveas" style="border-color:var(--ai-accent)"><h3>Save As — Duplikat untuk Tim / Lokasi Baru</h3><p class="muted">Duplikat JSON kurasi (beberapa KB) tanpa copy tiles (ratusan MB). Untuk lokasi baru siapkan folder export minimal: <code>pano.xml + skin.js + preview.jpg + images/*.webp (thumbs)</code>.</p>';
-        $mainCol .= '<form method="post" action="?a=saveAs&id=' . (int)$t['id'] . '" style="display:grid;gap:8px"><div class="form-2col"><div><label style="font-size:12px;color:var(--text-muted)">Nama Baru</label><input name="new_name" placeholder="Contoh: Kota Lama" required></div><div><label style="font-size:12px;color:var(--text-muted)">Slug Baru (auto)</label><input name="new_slug" placeholder="kota-lama"></div></div><div class="form-2col"><div><label style="font-size:12px;color:var(--text-muted)">Lokasi</label><input name="new_location" value="' . h($t['location']) . '"></div><div><label style="font-size:12px;color:var(--text-muted)">Export Path Baru (opsional)</label><input name="new_export" placeholder="C:/xampp/htdocs/semarang/kota-lama"></div></div><label style="font-size:12px"><input type=checkbox name="copy_parsed" value="1"> Juga copy parsed pano (jika lokasi sama; lokasi baru biarkan kosong, Import ulang pano.xml+skin.js)</label><p><button class="btn btn-ai">Duplikat Sekarang</button> <span style="font-size:12px;color:var(--text-muted)">Copy: curated, knowledge, scene-identity, visitor-tips, nearby, recommended-questions (bukan tiles).</span></p></form></div>';
-
-        $body .= $mainCol . '</div>';
-
-        // Content Center (semua section + raw JSON editors) — fungsi lama dipertahankan
-        $body .= '<div class="card" id="content" style="margin-top:var(--space-5)"><div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-3)"><h3 style="margin:0">Content Center</h3><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><form method="post" action="?a=seedContent&id=' . (int)$t['id'] . '" style="margin:0"><button class="btn btn-ghost btn-sm" title="Hanya membuat section yang belum ada; konten yang sudah ada tidak diubah">Siapkan section yang belum ada</button></form><a class="muted" style="font-size:12px" href="?a=seedContent&id=' . (int)$t['id'] . '">Reset ke template…</a></div></div>' . (isset($_GET['seeded']) ? '<p class="ok">✓ ' . (int)$_GET['seeded'] . ' section dibuat' . ((int)($_GET['kept'] ?? 0) > 0 ? ', ' . (int)$_GET['kept'] . ' section yang sudah ada dibiarkan' : '') . '.</p>' : '') . '<p class="muted">Edit per section tanpa coding JSON. Klik editor, ubah, Simpan / Generate / Deploy.</p></div>';
-        $dir = tour_dir($t['slug']);
-        $map = ['curated-answers'=>['label'=>'Curated Questions','icon'=>'✅','desc'=>'Pertanyaan prioritas (intents)','link'=>'?a=curated&id='.(int)$t['id'],'count'=>count((read_json($dir.'/curated-answers.json',[])['intents']??[])).' intents'],'knowledge'=>['label'=>'Knowledge','icon'=>'📚','desc'=>'Judul + konten jawaban AI','link'=>'?a=knowledge&id='.(int)$t['id'],'count'=>count((read_json($dir.'/knowledge.json',[])['entries']??[])).' entries'],'scene-identity'=>['label'=>'Scene Identity','icon'=>'🎨','desc'=>'Nama panorama + deskripsi (sudah ada Scene Editor)','link'=>'?a=scenes&id='.(int)$t['id'],'count'=>count((read_json($dir.'/scene-identity.json',[])['scenes']??[])).' scenes'],'visitor-tips'=>['label'=>'Visitor Tips','icon'=>'💡','desc'=>'Tips berkunjung','link'=>'?a=tips&id='.(int)$t['id'],'count'=>count((read_json($dir.'/visitor-tips.json',[])['topics']??[])).' topics'],'nearby'=>['label'=>'Nearby','icon'=>'📍','desc'=>'Tempat terdekat','link'=>'?a=nearby&id='.(int)$t['id'],'count'=>count((read_json($dir.'/nearby.json',[])['items']??[])).' items'],'recommended-questions'=>['label'=>'Recommended Qs','icon'=>'💬','desc'=>'State1 (Discovery) & State2 (Workspace)','link'=>'?a=prompts&id='.(int)$t['id'],'count'=>'State1/State2'],'flow'=>['label'=>'Navigation Flow','icon'=>'🧭','desc'=>'Urutan navigasi panorama','link'=>'?a=flow&id='.(int)$t['id'],'count'=>count((read_json($dir.'/flow.json',[])['order']??[])).' steps']];
-        foreach (content_files() as $name => $label) {
-            $info=$map[$name]??['label'=>$label,'icon'=>'📄','desc'=>'','link'=>'?a=view&id='.(int)$t['id'],'count'=>''];
-            $content = json_encode(read_json($dir . '/' . $name . '.json', []), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-            $body .= '<div class=card style="display:flex;justify-content:space-between;align-items:center;gap:12px"><div><div style="font-weight:600">'.$info['icon'].' '.h($info['label']).' <span style="font-size:12px;color:var(--text-muted)">('.$info['count'].')</span></div><div style="font-size:12px;color:var(--text-muted)">'.h($info['desc']).'<br><code>storage/tours/'.h($t['slug']).'/'.$name.'.json</code></div></div><div style="display:flex;gap:8px"><a class=btn href="'.$info['link'].'">✏️ Edit</a></div></div>';
-            if ((current_user()['role'] ?? '') === 'admin') $body .= '<details class=card style="margin-top:-8px"><summary style="cursor:pointer;font-size:12px;color:var(--text-muted)">Developer (admin): edit JSON mentah</summary><form method=post action="?a=saveContent&id='.(int)$t['id'].'&name='.h($name).'">'.rev_field(tour_dir($t['slug']).'/'.$name.'.json').'<textarea name=content rows=8 class="mono" style="font-size:12px">'.h($content?:'{}').'</textarea><p><button type="submit" class="btn btn-primary btn-sm">Simpan JSON</button></p></form></details>';
-        }
-        layout('Project Overview', $body); exit; }
+        render_tour_summary($t, $s, $parsed, $error); exit; }
 
 /* ---- Project Dashboard (tour list): app/dashboard.php ---- */
 render_dashboard($error);

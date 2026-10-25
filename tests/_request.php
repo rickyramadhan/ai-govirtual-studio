@@ -10,6 +10,7 @@ if (!is_dir($dir)) { fwrite(STDERR, "tmpdir tidak ada\n"); exit(2); }
 chdir($dir);
 
 define('STUDIO_ROUTE_RUNNER', true);
+$_COOKIE['studio_lang'] = (string)($spec['lang'] ?? 'id'); // default tes: Bahasa Indonesia; English diuji khusus
 $_GET = $spec['get'] ?? [];
 $_POST = $spec['post'] ?? [];
 $_SERVER['REQUEST_METHOD'] = $_POST ? 'POST' : 'GET';

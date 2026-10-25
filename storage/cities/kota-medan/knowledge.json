@@ -1,0 +1,166 @@
+{
+    "version": 1,
+    "city": "kota-medan",
+    "entries": [
+        {
+            "id": "medan:letak-luas",
+            "entityId": "medan:letak-luas",
+            "title": "Letak dan luas wilayah",
+            "aliases": [
+                "luas medan",
+                "letak medan",
+                "geografi medan"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kota Medan adalah ibu kota Provinsi Sumatera Utara. Luas wilayahnya menurut BPS 2023 tercatat 265,10 km², sementara sebuah tesis yang mengutip BPS 2024 menyebut 282 km². Gunakan rentang angka tersebut dan rujuk publikasi BPS Kota Medan. (Sumber: ppid.medan.go.id; tesis Unimed)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kota Medan adalah ibu kota Provinsi Sumatera Utara. Luas wilayahnya menurut BPS 2023 tercatat 265,10 km², sementara sebuah tesis yang mengutip BPS 2024 menyebut 282 km². Gunakan rentang angka tersebut dan rujuk publikasi BPS Kota Medan. (Sumber: ppid.medan.go.id; tesis Unimed)"
+                },
+                "en": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kota Medan adalah ibu kota Provinsi Sumatera Utara. Luas wilayahnya menurut BPS 2023 tercatat 265,10 km², sementara sebuah tesis yang mengutip BPS 2024 menyebut 282 km². Gunakan rentang angka tersebut dan rujuk publikasi BPS Kota Medan. (Sumber: ppid.medan.go.id; tesis Unimed)"
+                }
+            }
+        },
+        {
+            "id": "medan:wilayah-admin",
+            "entityId": "medan:wilayah-admin",
+            "title": "Wilayah administratif",
+            "aliases": [
+                "kecamatan medan",
+                "medan maimun",
+                "medan labuhan"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Medan terbagi menjadi 21 kecamatan, 151 kelurahan, dan 2.001 lingkungan. Medan Labuhan adalah kecamatan terluas, sekitar 36,67 km². Medan Maimun adalah yang tersempit, sekitar 2,98 km², dan di sanalah Istana Maimun berada. (Sumber: ppid.medan.go.id; BPS)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Wilayah administratif",
+                    "content": "Medan terbagi menjadi 21 kecamatan, 151 kelurahan, dan 2.001 lingkungan. Medan Labuhan adalah kecamatan terluas, sekitar 36,67 km². Medan Maimun adalah yang tersempit, sekitar 2,98 km², dan di sanalah Istana Maimun berada. (Sumber: ppid.medan.go.id; BPS)"
+                },
+                "en": {
+                    "title": "Wilayah administratif",
+                    "content": "Medan terbagi menjadi 21 kecamatan, 151 kelurahan, dan 2.001 lingkungan. Medan Labuhan adalah kecamatan terluas, sekitar 36,67 km². Medan Maimun adalah yang tersempit, sekitar 2,98 km², dan di sanalah Istana Maimun berada. (Sumber: ppid.medan.go.id; BPS)"
+                }
+            }
+        },
+        {
+            "id": "medan:penduduk",
+            "entityId": "medan:penduduk",
+            "title": "Jumlah penduduk",
+            "aliases": [
+                "penduduk medan",
+                "populasi medan"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "BPS mencatat 2.460.858 jiwa pada 2021, 2.494.512 jiwa pada 2022, dan 2.474.166 jiwa pada 2023. Angka sekitar 2,97 juta dari sebuah jurnal 2015 tidak sebanding dengan data tersebut dan tidak dipakai. Untuk angka terbaru, rujuk BPS Kota Medan. (Sumber: data BPS yang dikutip sumber riset)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk",
+                    "content": "BPS mencatat 2.460.858 jiwa pada 2021, 2.494.512 jiwa pada 2022, dan 2.474.166 jiwa pada 2023. Angka sekitar 2,97 juta dari sebuah jurnal 2015 tidak sebanding dengan data tersebut dan tidak dipakai. Untuk angka terbaru, rujuk BPS Kota Medan. (Sumber: data BPS yang dikutip sumber riset)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk",
+                    "content": "BPS mencatat 2.460.858 jiwa pada 2021, 2.494.512 jiwa pada 2022, dan 2.474.166 jiwa pada 2023. Angka sekitar 2,97 juta dari sebuah jurnal 2015 tidak sebanding dengan data tersebut dan tidak dipakai. Untuk angka terbaru, rujuk BPS Kota Medan. (Sumber: data BPS yang dikutip sumber riset)"
+                }
+            }
+        },
+        {
+            "id": "medan:istana-maimun",
+            "entityId": "medan:istana-maimun",
+            "title": "Istana Maimun",
+            "aliases": [
+                "istana maimun",
+                "maimun",
+                "kesultanan deli",
+                "sultan makmun"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Istana Maimun dibangun atas perintah Sultan Makmun Al Rasyid Perkasa Alamsyah, sultan kesembilan Kesultanan Deli. Pembangunan dimulai akhir Agustus 1888 dan dinyatakan selesai pada 18 Mei 1891, dengan biaya sekitar satu juta gulden. Bangunan dua lantai ini memiliki sekitar 30 ruangan dan luas sekitar 2.772 m². Gayanya memadukan unsur Melayu, Islam, Spanyol, India, dan Italia, dengan warna kuning yang dominan sebagai warna kerajaan Melayu. Nama Maimun dikaitkan dengan Ratu Siti Maimunah, tetapi asal-usul namanya dijelaskan berbeda oleh sumber. Arsitek bangunan belum pasti. (Sumber: goodnewsfromindonesia.id; rumah123.com; ANTARA; merahputih.com)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Istana Maimun",
+                    "content": "Istana Maimun dibangun atas perintah Sultan Makmun Al Rasyid Perkasa Alamsyah, sultan kesembilan Kesultanan Deli. Pembangunan dimulai akhir Agustus 1888 dan dinyatakan selesai pada 18 Mei 1891, dengan biaya sekitar satu juta gulden. Bangunan dua lantai ini memiliki sekitar 30 ruangan dan luas sekitar 2.772 m². Gayanya memadukan unsur Melayu, Islam, Spanyol, India, dan Italia, dengan warna kuning yang dominan sebagai warna kerajaan Melayu. Nama Maimun dikaitkan dengan Ratu Siti Maimunah, tetapi asal-usul namanya dijelaskan berbeda oleh sumber. Arsitek bangunan belum pasti. (Sumber: goodnewsfromindonesia.id; rumah123.com; ANTARA; merahputih.com)"
+                },
+                "en": {
+                    "title": "Istana Maimun",
+                    "content": "Istana Maimun dibangun atas perintah Sultan Makmun Al Rasyid Perkasa Alamsyah, sultan kesembilan Kesultanan Deli. Pembangunan dimulai akhir Agustus 1888 dan dinyatakan selesai pada 18 Mei 1891, dengan biaya sekitar satu juta gulden. Bangunan dua lantai ini memiliki sekitar 30 ruangan dan luas sekitar 2.772 m². Gayanya memadukan unsur Melayu, Islam, Spanyol, India, dan Italia, dengan warna kuning yang dominan sebagai warna kerajaan Melayu. Nama Maimun dikaitkan dengan Ratu Siti Maimunah, tetapi asal-usul namanya dijelaskan berbeda oleh sumber. Arsitek bangunan belum pasti. (Sumber: goodnewsfromindonesia.id; rumah123.com; ANTARA; merahputih.com)"
+                }
+            }
+        },
+        {
+            "id": "medan:pusat-kesultanan",
+            "entityId": "medan:pusat-kesultanan",
+            "title": "Pindahnya pusat Kesultanan Deli",
+            "aliases": [
+                "sejarah medan",
+                "labuhan deli"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Pusat pemerintahan Kesultanan Deli dipindahkan dari Labuhan Deli ke Medan, dan istana menjadi penanda pusat kekuasaan tersebut. Rincian tahun pemindahan belum diverifikasi dalam riset ini. (Sumber: rumah123.com)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Pindahnya pusat Kesultanan Deli",
+                    "content": "Pusat pemerintahan Kesultanan Deli dipindahkan dari Labuhan Deli ke Medan, dan istana menjadi penanda pusat kekuasaan tersebut. Rincian tahun pemindahan belum diverifikasi dalam riset ini. (Sumber: rumah123.com)"
+                },
+                "en": {
+                    "title": "Pindahnya pusat Kesultanan Deli",
+                    "content": "Pusat pemerintahan Kesultanan Deli dipindahkan dari Labuhan Deli ke Medan, dan istana menjadi penanda pusat kekuasaan tersebut. Rincian tahun pemindahan belum diverifikasi dalam riset ini. (Sumber: rumah123.com)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:42:02+02:00"
+}

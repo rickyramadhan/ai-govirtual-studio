@@ -63,5 +63,6 @@ function db_migrate(PDO $pdo): void
     $pdo->exec('CREATE TABLE IF NOT EXISTS file_hash_cache (path TEXT PRIMARY KEY, mtime INTEGER NOT NULL, size INTEGER NOT NULL, md5 TEXT NOT NULL)');
     if (function_exists('jobs_migrate')) jobs_migrate($pdo);
     if (function_exists('users_migrate')) users_migrate($pdo);
+    if (function_exists('health_migrate')) health_migrate($pdo);
     $pdo->exec('CREATE TABLE IF NOT EXISTS tour_stats_cache (tour_id INTEGER PRIMARY KEY, sig TEXT NOT NULL, json TEXT NOT NULL)');
 }

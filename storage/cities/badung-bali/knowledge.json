@@ -1,0 +1,357 @@
+{
+    "version": 1,
+    "city": "badung-bali",
+    "entries": [
+        {
+            "id": "bb:letak-luas",
+            "entityId": "bb:letak-luas",
+            "title": "Letak dan luas wilayah",
+            "aliases": [
+                "luas badung",
+                "letak badung",
+                "geografi badung"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kabupaten Badung terletak di bagian tengah hingga selatan Pulau Bali, dengan luas sekitar 418,52 km² (sekitar 7,43% dari luas Pulau Bali). Batasnya: Kabupaten Buleleng di utara, Samudra Hindia di selatan, Kabupaten Tabanan di barat, serta Kabupaten Gianyar dan Kota Denpasar di timur. (Sumber: eprints.undip.ac.id, BAB 2)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Badung terletak di bagian tengah hingga selatan Pulau Bali, dengan luas sekitar 418,52 km² (sekitar 7,43% dari luas Pulau Bali). Batasnya: Kabupaten Buleleng di utara, Samudra Hindia di selatan, Kabupaten Tabanan di barat, serta Kabupaten Gianyar dan Kota Denpasar di timur. (Sumber: eprints.undip.ac.id, BAB 2)"
+                },
+                "en": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Badung terletak di bagian tengah hingga selatan Pulau Bali, dengan luas sekitar 418,52 km² (sekitar 7,43% dari luas Pulau Bali). Batasnya: Kabupaten Buleleng di utara, Samudra Hindia di selatan, Kabupaten Tabanan di barat, serta Kabupaten Gianyar dan Kota Denpasar di timur. (Sumber: eprints.undip.ac.id, BAB 2)"
+                }
+            }
+        },
+        {
+            "id": "bb:wilayah-admin",
+            "entityId": "bb:wilayah-admin",
+            "title": "Wilayah administratif",
+            "aliases": [
+                "kecamatan badung",
+                "enam kecamatan"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Badung terdiri dari enam kecamatan: Kuta Selatan, Kuta, Kuta Utara, Abiansemal, Petang, dan Mengwi. Jumlah desa dan kelurahan berbeda antar sumber, sehingga angka pastinya perlu dicek di publikasi resmi BPS Badung. (Sumber: eprints.undip.ac.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Wilayah administratif",
+                    "content": "Badung terdiri dari enam kecamatan: Kuta Selatan, Kuta, Kuta Utara, Abiansemal, Petang, dan Mengwi. Jumlah desa dan kelurahan berbeda antar sumber, sehingga angka pastinya perlu dicek di publikasi resmi BPS Badung. (Sumber: eprints.undip.ac.id)"
+                },
+                "en": {
+                    "title": "Wilayah administratif",
+                    "content": "Badung terdiri dari enam kecamatan: Kuta Selatan, Kuta, Kuta Utara, Abiansemal, Petang, dan Mengwi. Jumlah desa dan kelurahan berbeda antar sumber, sehingga angka pastinya perlu dicek di publikasi resmi BPS Badung. (Sumber: eprints.undip.ac.id)"
+                }
+            }
+        },
+        {
+            "id": "bb:penduduk",
+            "entityId": "bb:penduduk",
+            "title": "Jumlah penduduk",
+            "aliases": [
+                "penduduk badung",
+                "populasi badung"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Pada akhir 2023, jumlah penduduk Kabupaten Badung tercatat 530.226 jiwa. Untuk angka terbaru, rujuk publikasi \"Kabupaten Badung Dalam Angka\" dari BPS Badung. (Sumber: rangkuman sumber riset web; perlu verifikasi ke BPS)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk",
+                    "content": "Pada akhir 2023, jumlah penduduk Kabupaten Badung tercatat 530.226 jiwa. Untuk angka terbaru, rujuk publikasi \"Kabupaten Badung Dalam Angka\" dari BPS Badung. (Sumber: rangkuman sumber riset web; perlu verifikasi ke BPS)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk",
+                    "content": "Pada akhir 2023, jumlah penduduk Kabupaten Badung tercatat 530.226 jiwa. Untuk angka terbaru, rujuk publikasi \"Kabupaten Badung Dalam Angka\" dari BPS Badung. (Sumber: rangkuman sumber riset web; perlu verifikasi ke BPS)"
+                }
+            }
+        },
+        {
+            "id": "bb:ibu-kota",
+            "entityId": "bb:ibu-kota",
+            "title": "Ibu kota: Mangupura",
+            "aliases": [
+                "mangupura",
+                "mangapura",
+                "ibu kota badung",
+                "kantor bupati badung"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Ibu kota Kabupaten Badung adalah Mangupura (juga ditulis Mangapura), yang berada di wilayah Kecamatan Mengwi. Nama Mangupura berasal dari tafsir tentang semadi di Puncak Mangu; tafsir lain mengaitkannya dengan kata \"Mangopuri\" yang berarti tempat yang indah. (Sumber: LKjIP Kabupaten Badung 2018; eprints.undip.ac.id)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Ibu kota: Mangupura",
+                    "content": "Ibu kota Kabupaten Badung adalah Mangupura (juga ditulis Mangapura), yang berada di wilayah Kecamatan Mengwi. Nama Mangupura berasal dari tafsir tentang semadi di Puncak Mangu; tafsir lain mengaitkannya dengan kata \"Mangopuri\" yang berarti tempat yang indah. (Sumber: LKjIP Kabupaten Badung 2018; eprints.undip.ac.id)"
+                },
+                "en": {
+                    "title": "Ibu kota: Mangupura",
+                    "content": "Ibu kota Kabupaten Badung adalah Mangupura (juga ditulis Mangapura), yang berada di wilayah Kecamatan Mengwi. Nama Mangupura berasal dari tafsir tentang semadi di Puncak Mangu; tafsir lain mengaitkannya dengan kata \"Mangopuri\" yang berarti tempat yang indah. (Sumber: LKjIP Kabupaten Badung 2018; eprints.undip.ac.id)"
+                }
+            }
+        },
+        {
+            "id": "bb:pemerintahan",
+            "entityId": "bb:pemerintahan",
+            "title": "Pemerintahan daerah",
+            "aliases": [
+                "bupati badung",
+                "pemkab badung"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Bupati Badung saat riset ini dilakukan adalah I Nyoman Giri Prasta, dengan Wakil Bupati I Ketut Suiasa. Jabatan dapat berubah, jadi pastikan lagi sebelum dipublikasikan. (Sumber: CNN Indonesia / situs Pemkab Badung)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Pemerintahan daerah",
+                    "content": "Bupati Badung saat riset ini dilakukan adalah I Nyoman Giri Prasta, dengan Wakil Bupati I Ketut Suiasa. Jabatan dapat berubah, jadi pastikan lagi sebelum dipublikasikan. (Sumber: CNN Indonesia / situs Pemkab Badung)"
+                },
+                "en": {
+                    "title": "Pemerintahan daerah",
+                    "content": "Bupati Badung saat riset ini dilakukan adalah I Nyoman Giri Prasta, dengan Wakil Bupati I Ketut Suiasa. Jabatan dapat berubah, jadi pastikan lagi sebelum dipublikasikan. (Sumber: CNN Indonesia / situs Pemkab Badung)"
+                }
+            }
+        },
+        {
+            "id": "bb:kuta-seminyak",
+            "entityId": "bb:kuta-seminyak",
+            "title": "Kuta dan Seminyak",
+            "aliases": [
+                "pantai kuta",
+                "seminyak",
+                "kuta bali"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kuta terkenal dengan pantainya dan kehidupan malamnya. Seminyak lebih mewah, dengan banyak resor, spa, dan restoran. Keduanya termasuk kawasan wisata utama di Badung. (Sumber: rangkuman sumber wisata Badung)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Kuta dan Seminyak",
+                    "content": "Kuta terkenal dengan pantainya dan kehidupan malamnya. Seminyak lebih mewah, dengan banyak resor, spa, dan restoran. Keduanya termasuk kawasan wisata utama di Badung. (Sumber: rangkuman sumber wisata Badung)"
+                },
+                "en": {
+                    "title": "Kuta dan Seminyak",
+                    "content": "Kuta terkenal dengan pantainya dan kehidupan malamnya. Seminyak lebih mewah, dengan banyak resor, spa, dan restoran. Keduanya termasuk kawasan wisata utama di Badung. (Sumber: rangkuman sumber wisata Badung)"
+                }
+            }
+        },
+        {
+            "id": "bb:nusa-dua",
+            "entityId": "bb:nusa-dua",
+            "title": "Nusa Dua",
+            "aliases": [
+                "nusa dua",
+                "pantai nusa dua"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Nusa Dua adalah kawasan wisata terpadu dengan banyak resor. Pantainya terlindung terumbu karang sehingga cocok untuk berenang dan snorkeling. (Sumber: rangkuman sumber wisata Badung)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Nusa Dua",
+                    "content": "Nusa Dua adalah kawasan wisata terpadu dengan banyak resor. Pantainya terlindung terumbu karang sehingga cocok untuk berenang dan snorkeling. (Sumber: rangkuman sumber wisata Badung)"
+                },
+                "en": {
+                    "title": "Nusa Dua",
+                    "content": "Nusa Dua adalah kawasan wisata terpadu dengan banyak resor. Pantainya terlindung terumbu karang sehingga cocok untuk berenang dan snorkeling. (Sumber: rangkuman sumber wisata Badung)"
+                }
+            }
+        },
+        {
+            "id": "bb:uluwatu",
+            "entityId": "bb:uluwatu",
+            "title": "Uluwatu",
+            "aliases": [
+                "pura uluwatu",
+                "uluwatu",
+                "tari kecak"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Pura Luhur Uluwatu berdiri di ujung barat Badung, diperkirakan dibangun pada abad ke-11. Kawasan ini terkenal dengan ombak untuk selancar dan pertunjukan tari Kecak atau tari api saat matahari terbenam. (Sumber: rangkuman sumber wisata Badung)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Uluwatu",
+                    "content": "Pura Luhur Uluwatu berdiri di ujung barat Badung, diperkirakan dibangun pada abad ke-11. Kawasan ini terkenal dengan ombak untuk selancar dan pertunjukan tari Kecak atau tari api saat matahari terbenam. (Sumber: rangkuman sumber wisata Badung)"
+                },
+                "en": {
+                    "title": "Uluwatu",
+                    "content": "Pura Luhur Uluwatu berdiri di ujung barat Badung, diperkirakan dibangun pada abad ke-11. Kawasan ini terkenal dengan ombak untuk selancar dan pertunjukan tari Kecak atau tari api saat matahari terbenam. (Sumber: rangkuman sumber wisata Badung)"
+                }
+            }
+        },
+        {
+            "id": "bb:canggu-gwk",
+            "entityId": "bb:canggu-gwk",
+            "title": "Canggu dan Garuda Wisnu Kencana",
+            "aliases": [
+                "canggu",
+                "gwk",
+                "garuda wisnu kencana",
+                "batu bolong",
+                "echo beach"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Canggu terkenal dengan pantai seperti Batu Bolong dan Echo Beach. Garuda Wisnu Kencana (GWK) adalah taman budaya dengan patung setinggi sekitar 145 meter yang berdiri di atas bekas tambang batu. (Sumber: rangkuman sumber wisata Badung)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Canggu dan Garuda Wisnu Kencana",
+                    "content": "Canggu terkenal dengan pantai seperti Batu Bolong dan Echo Beach. Garuda Wisnu Kencana (GWK) adalah taman budaya dengan patung setinggi sekitar 145 meter yang berdiri di atas bekas tambang batu. (Sumber: rangkuman sumber wisata Badung)"
+                },
+                "en": {
+                    "title": "Canggu dan Garuda Wisnu Kencana",
+                    "content": "Canggu terkenal dengan pantai seperti Batu Bolong dan Echo Beach. Garuda Wisnu Kencana (GWK) adalah taman budaya dengan patung setinggi sekitar 145 meter yang berdiri di atas bekas tambang batu. (Sumber: rangkuman sumber wisata Badung)"
+                }
+            }
+        },
+        {
+            "id": "bb:masyarakat",
+            "entityId": "bb:masyarakat",
+            "title": "Masyarakat dan budaya",
+            "aliases": [
+                "budaya badung",
+                "masyarakat badung"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Masyarakat Badung terdiri dari penduduk Bali, pendatang dari berbagai daerah Indonesia, dan warga asing (ekspatriat), sehingga suasananya beragam. Pantai Kuta, Uluwatu, dan Padang Padang populer di kalangan peselancar. (Sumber: rangkuman sumber wisata Badung)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Masyarakat dan budaya",
+                    "content": "Masyarakat Badung terdiri dari penduduk Bali, pendatang dari berbagai daerah Indonesia, dan warga asing (ekspatriat), sehingga suasananya beragam. Pantai Kuta, Uluwatu, dan Padang Padang populer di kalangan peselancar. (Sumber: rangkuman sumber wisata Badung)"
+                },
+                "en": {
+                    "title": "Masyarakat dan budaya",
+                    "content": "Masyarakat Badung terdiri dari penduduk Bali, pendatang dari berbagai daerah Indonesia, dan warga asing (ekspatriat), sehingga suasananya beragam. Pantai Kuta, Uluwatu, dan Padang Padang populer di kalangan peselancar. (Sumber: rangkuman sumber wisata Badung)"
+                }
+            }
+        },
+        {
+            "id": "bb:ekonomi",
+            "entityId": "bb:ekonomi",
+            "title": "Ekonomi dan pariwisata",
+            "aliases": [
+                "pad badung",
+                "apbd badung",
+                "ekonomi badung"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Pariwisata adalah penyumbang pendapatan asli daerah (PAD) terbesar di Badung, berasal dari pajak hotel, restoran, hiburan, dan retribusi wisata. Pada 2024, APBD Badung sekitar Rp9,5 triliun, dengan PAD sekitar Rp8,5 triliun. Sektor akomodasi, makan-minum, dan transportasi menyumbang sekitar separuh PDRB. (Sumber: CNBC Indonesia, Mei 2024; abstrak riset UNDIP 2025; DDTC mengutip BPS)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Ekonomi dan pariwisata",
+                    "content": "Pariwisata adalah penyumbang pendapatan asli daerah (PAD) terbesar di Badung, berasal dari pajak hotel, restoran, hiburan, dan retribusi wisata. Pada 2024, APBD Badung sekitar Rp9,5 triliun, dengan PAD sekitar Rp8,5 triliun. Sektor akomodasi, makan-minum, dan transportasi menyumbang sekitar separuh PDRB. (Sumber: CNBC Indonesia, Mei 2024; abstrak riset UNDIP 2025; DDTC mengutip BPS)"
+                },
+                "en": {
+                    "title": "Ekonomi dan pariwisata",
+                    "content": "Pariwisata adalah penyumbang pendapatan asli daerah (PAD) terbesar di Badung, berasal dari pajak hotel, restoran, hiburan, dan retribusi wisata. Pada 2024, APBD Badung sekitar Rp9,5 triliun, dengan PAD sekitar Rp8,5 triliun. Sektor akomodasi, makan-minum, dan transportasi menyumbang sekitar separuh PDRB. (Sumber: CNBC Indonesia, Mei 2024; abstrak riset UNDIP 2025; DDTC mengutip BPS)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:17:57+02:00"
+}

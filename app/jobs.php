@@ -12,6 +12,8 @@ const JOB_TYPES = [
     'generate' => 'Generate package',
     'deploy' => 'Generate + Deploy',
     'resync' => 'Import ulang + Generate + Deploy',
+    'health' => 'Cek kesehatan AI (jawaban & halaman)',
+    'healthui' => 'Cek kesehatan AI + tampilan browser',
 ];
 
 function jobs_migrate(PDO $pdo): void
@@ -50,6 +52,13 @@ function job_execute(array $job): string
     $tour = get_tour((int)$job['tour_id']);
     if (!$tour) throw new RuntimeException('Tour sudah tidak ada.');
     switch ($job['type']) {
+        case 'health':
+        case 'healthui':
+            $results = health_check_tour($tour, $job['type'] === 'healthui');
+            health_store((string)$job['batch'], (int)$tour['id'], $results);
+            $bad = array_filter($results, fn($r) => $r['status'] === 'fail');
+            $warn = array_filter($results, fn($r) => $r['status'] === 'warn');
+            return ($bad ? count($bad) . ' gagal' : 'semua sehat') . ($warn ? ', ' . count($warn) . ' perlu dicek' : '');
         case 'generate':
             $r = build_files($tour);
             return 'package dibuat (' . count($r['files']) . ' berkas)';

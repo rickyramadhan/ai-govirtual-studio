@@ -14,7 +14,7 @@ declare(strict_types=1);
  */
 function studio_simplify_save_bars(string $body, int $tid): string
 {
-    if ($tid <= 0) return $body;
+    if ($tid <= 0 || strpos($body, 'scn-foot') !== false) return $body; // Scene Editor punya footer sendiri
     $link = '<a class="btn btn-ghost" href="?a=publish&id=' . $tid . '" title="Generate &amp; deploy dilakukan di halaman Publikasi">Lanjut ke Publikasi →</a>';
     $body = (string)preg_replace('/<button\b[^>]*\bvalue=["\']?save_generate["\']?[^>]*>.*?<\/button>/s', $link, $body);
     $body = (string)preg_replace('/<button\b[^>]*\bvalue=["\']?save_deploy["\']?[^>]*>.*?<\/button>\s*/s', '', $body);
@@ -27,10 +27,10 @@ function studio_chat_drawer(int $tid): string
     if ($tid <= 0) return '';
     return '<button type="button" class="chatdock-fab" id="cdFab" aria-expanded="false" aria-controls="cdPanel">' . studio_icon('questions', 16) . '<span>Uji Chat</span></button>'
         . '<aside class="chatdock" id="cdPanel" aria-label="Uji AI Guide" hidden>'
-        . '<header><b>Uji AI Guide</b><button type="button" class="icon-btn" id="cdClose" aria-label="Tutup">×</button></header>'
+        . '<header><b>Uji AI Guide</b><button type="button" class="icon-btn" id="cdClose" aria-label=T("Tutup")>×</button></header>'
         . '<label for="cdScene" class="muted" style="font-size:12px">Posisi pengunjung</label><select id="cdScene"><option>Memuat scene…</option></select>'
         . '<div class="chatdock-log" id="cdLog" aria-live="polite"><p class="muted" style="font-size:12px">Tanyakan sesuatu seperti pengunjung. Jawaban datang dari backend yang sama dengan produksi.</p></div>'
-        . '<form id="cdForm" class="chatdock-form" onsubmit="return false"><input id="cdQ" placeholder="Ketik pertanyaan…" autocomplete="off"><button class="btn btn-primary btn-sm" id="cdSend" type="submit">Kirim</button></form>'
+        . '<form id="cdForm" class="chatdock-form" onsubmit="return false"><input id="cdQ" placeholder=T("Ketik pertanyaan…") autocomplete="off"><button class="btn btn-primary btn-sm" id="cdSend" type="submit">Kirim</button></form>'
         . '</aside>'
         . '<script>window.__chatDockTour=' . $tid . ';</script>';
 }
@@ -72,6 +72,7 @@ function studio_ux_js(): string
 /* ---------- Toast ---------- */
 var box=document.querySelector('.toast-container');
 if(!box){box=document.createElement('div');box.className='toast-container';box.setAttribute('role','status');box.setAttribute('aria-live','polite');document.body.appendChild(box);}
+function T(s){return (window.__T&&window.__T[s])||s;}
 window.studioToast=function(msg,type,ms){
   var t=document.createElement('div');t.className='toast toast-'+(type||'success');t.textContent=msg;box.appendChild(t);
   setTimeout(function(){t.style.opacity='0';t.style.transition='opacity .3s';setTimeout(function(){t.remove();},320);},ms||4200);
@@ -128,10 +129,10 @@ document.querySelectorAll('form[method="post"]').forEach(function(f){
   cards.forEach(function(c){var isNew=NEW.test(textOf(c));c.classList.toggle('is-collapsed',collapse&&!isNew);});
   var firstNew=cards.filter(function(c){return NEW.test(textOf(c));}).pop();
   var tools=document.createElement('div');tools.className='card list-tools';
-  tools.innerHTML='<input type="search" placeholder="Cari di '+cards.length+' item…" aria-label="Cari item"><span class="muted" data-count style="font-size:12px"></span><button type="button" class="btn btn-ghost btn-sm" data-act="open">Buka semua</button><button type="button" class="btn btn-ghost btn-sm" data-act="close">Tutup semua</button>';
+  tools.innerHTML='<input type="search" placeholder="'+T("Cari di")+' '+cards.length+' '+T("item")+'…" aria-label="'+T("Cari item")+'"><span class="muted" data-count style="font-size:12px"></span><button type="button" class="btn btn-ghost btn-sm" data-act="open">'+T("Buka semua")+'</button><button type="button" class="btn btn-ghost btn-sm" data-act="close">'+T("Tutup semua")+'</button>';
   cards[0].parentNode.insertBefore(tools,cards[0]);
   var inp=tools.querySelector('input'),cnt=tools.querySelector('[data-count]');
-  function apply(){var q=inp.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=!q||textOf(c).indexOf(q)>-1;c.style.display=ok?'':'none';if(ok){n++;if(q)c.classList.remove('is-collapsed');}});cnt.textContent=q?n+' dari '+cards.length+' cocok':cards.length+' item';}
+  function apply(){var q=inp.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=!q||textOf(c).indexOf(q)>-1;c.style.display=ok?'':'none';if(ok){n++;if(q)c.classList.remove('is-collapsed');}});cnt.textContent=q?n+' dari '+cards.length+' '+T('cocok'):cards.length+' '+T('item');}
   inp.addEventListener('input',apply);apply();
   tools.addEventListener('click',function(e){var a=e.target.getAttribute&&e.target.getAttribute('data-act');if(!a)return;cards.forEach(function(c){if(c.style.display!=='none')c.classList.toggle('is-collapsed',a==='close');});});
   if(firstNew){setTimeout(function(){firstNew.scrollIntoView({block:'center'});},120);}
@@ -147,14 +148,14 @@ if(fab&&panel){
     sel.innerHTML='';(d.scenes||[]).forEach(function(s){var o=document.createElement('option');o.value=s.id;o.textContent=s.label;sel.appendChild(o);});
     if(!sel.options.length){var o=document.createElement('option');o.textContent='Belum ada scene (import dulu)';sel.appendChild(o);}
     var want=new URL(location.href).searchParams.get('scene');if(want)sel.value=want;
-  }).catch(function(){sel.innerHTML='<option>Gagal memuat scene</option>';});}
+  }).catch(function(){sel.innerHTML='<option>'+T('Gagal memuat scene')+'</option>';});}
   function ask(text){text=(text||'').trim();if(!text||!sel.value)return;send.disabled=true;var t0=Date.now();
     var wrap=document.createElement('div');wrap.innerHTML='<div class="q">'+esc(text)+'</div><div class="a muted">AI sedang menjawab…</div>';log.appendChild(wrap);log.scrollTop=log.scrollHeight;
     fetch('?a=testAnswer&id='+tid+'&scene='+encodeURIComponent(sel.value)+'&q='+encodeURIComponent(text),{credentials:'same-origin'}).then(function(r){return r.json();}).then(function(d){
       var a=wrap.querySelector('.a');
       if(d.ok){a.classList.remove('muted');a.textContent=d.reply;var m=document.createElement('div');m.className='m';var parts=[(d.provider||'?'),(Date.now()-t0)+' ms'];if(d.deployed===false)parts.push('server pusat (belum di-deploy)');if(d.meta)Object.keys(d.meta).forEach(function(k){parts.push(k+': '+(typeof d.meta[k]==='object'?JSON.stringify(d.meta[k]):d.meta[k]));});m.textContent=parts.join(' · ');wrap.appendChild(m);}
-      else{a.textContent='Gagal: '+(d.error||'tidak diketahui');}
-    }).catch(function(e){wrap.querySelector('.a').textContent='Gagal menghubungi server: '+e.message;}).finally(function(){send.disabled=false;q.value='';q.focus();log.scrollTop=log.scrollHeight;});}
+      else{a.textContent=T('Gagal:')+' '+(d.error||T('tidak diketahui'));}
+    }).catch(function(e){wrap.querySelector('.a').textContent=T('Gagal menghubungi server:')+' '+e.message;}).finally(function(){send.disabled=false;q.value='';q.focus();log.scrollTop=log.scrollHeight;});}
   fab.addEventListener('click',function(){toggle(panel.hidden);});
   document.getElementById('cdClose').addEventListener('click',function(){toggle(false);});
   document.getElementById('cdForm').addEventListener('submit',function(){ask(q.value);});

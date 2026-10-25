@@ -1,0 +1,164 @@
+{
+    "version": 1,
+    "city": "kabupaten-deli-serdang",
+    "entries": [
+        {
+            "id": "deli-serdang:letak-luas",
+            "entityId": "deli-serdang:letak-luas",
+            "title": "Letak dan luas wilayah",
+            "aliases": [
+                "luas deli serdang",
+                "letak deli serdang",
+                "geografi deli serdang"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Kabupaten Deli Serdang terletak di Provinsi Sumatera Utara. Luas wilayahnya sekitar 2.580 km² menurut Wikipedia. Sumber pemerintah daerah menyebut angka berbeda, dan angka 249,772 km² kemungkinan salah tulis untuk sekitar 2.498 km². Gunakan rentang sekitar 2.500 sampai 2.600 km² sambil menunggu data BPS. (Sumber: en.wikipedia.org; ANTARA)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Deli Serdang terletak di Provinsi Sumatera Utara. Luas wilayahnya sekitar 2.580 km² menurut Wikipedia. Sumber pemerintah daerah menyebut angka berbeda, dan angka 249,772 km² kemungkinan salah tulis untuk sekitar 2.498 km². Gunakan rentang sekitar 2.500 sampai 2.600 km² sambil menunggu data BPS. (Sumber: en.wikipedia.org; ANTARA)"
+                },
+                "en": {
+                    "title": "Letak dan luas wilayah",
+                    "content": "Kabupaten Deli Serdang terletak di Provinsi Sumatera Utara. Luas wilayahnya sekitar 2.580 km² menurut Wikipedia. Sumber pemerintah daerah menyebut angka berbeda, dan angka 249,772 km² kemungkinan salah tulis untuk sekitar 2.498 km². Gunakan rentang sekitar 2.500 sampai 2.600 km² sambil menunggu data BPS. (Sumber: en.wikipedia.org; ANTARA)"
+                }
+            }
+        },
+        {
+            "id": "deli-serdang:ibu-kota",
+            "entityId": "deli-serdang:ibu-kota",
+            "title": "Ibu kota: Lubuk Pakam",
+            "aliases": [
+                "lubuk pakam",
+                "ibu kota deli serdang"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Ibu kota Kabupaten Deli Serdang adalah Lubuk Pakam, sekitar 30 km sebelah timur Kota Medan. Pusat pemerintahan dipindahkan dari Medan ke Lubuk Pakam berdasarkan Peraturan Pemerintah Nomor 7 Tahun 1984. (Sumber: en.wikipedia.org; PP No. 7 Tahun 1984)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Ibu kota: Lubuk Pakam",
+                    "content": "Ibu kota Kabupaten Deli Serdang adalah Lubuk Pakam, sekitar 30 km sebelah timur Kota Medan. Pusat pemerintahan dipindahkan dari Medan ke Lubuk Pakam berdasarkan Peraturan Pemerintah Nomor 7 Tahun 1984. (Sumber: en.wikipedia.org; PP No. 7 Tahun 1984)"
+                },
+                "en": {
+                    "title": "Ibu kota: Lubuk Pakam",
+                    "content": "Ibu kota Kabupaten Deli Serdang adalah Lubuk Pakam, sekitar 30 km sebelah timur Kota Medan. Pusat pemerintahan dipindahkan dari Medan ke Lubuk Pakam berdasarkan Peraturan Pemerintah Nomor 7 Tahun 1984. (Sumber: en.wikipedia.org; PP No. 7 Tahun 1984)"
+                }
+            }
+        },
+        {
+            "id": "deli-serdang:wilayah-admin",
+            "entityId": "deli-serdang:wilayah-admin",
+            "title": "Wilayah administratif",
+            "aliases": [
+                "kecamatan deli serdang",
+                "jumlah kecamatan deli serdang"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Menurut Pemkab Deli Serdang yang dikutip ANTARA, kabupaten ini memiliki 22 kecamatan, 380 desa, dan 14 kelurahan. Kecamatan Lubuk Pakam memiliki penduduk sekitar 94.178 jiwa pada estimasi pertengahan 2024. (Sumber: ANTARA; en.wikipedia.org)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Wilayah administratif",
+                    "content": "Menurut Pemkab Deli Serdang yang dikutip ANTARA, kabupaten ini memiliki 22 kecamatan, 380 desa, dan 14 kelurahan. Kecamatan Lubuk Pakam memiliki penduduk sekitar 94.178 jiwa pada estimasi pertengahan 2024. (Sumber: ANTARA; en.wikipedia.org)"
+                },
+                "en": {
+                    "title": "Wilayah administratif",
+                    "content": "Menurut Pemkab Deli Serdang yang dikutip ANTARA, kabupaten ini memiliki 22 kecamatan, 380 desa, dan 14 kelurahan. Kecamatan Lubuk Pakam memiliki penduduk sekitar 94.178 jiwa pada estimasi pertengahan 2024. (Sumber: ANTARA; en.wikipedia.org)"
+                }
+            }
+        },
+        {
+            "id": "deli-serdang:penduduk",
+            "entityId": "deli-serdang:penduduk",
+            "title": "Jumlah penduduk",
+            "aliases": [
+                "penduduk deli serdang",
+                "populasi deli serdang"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "BPS mencatat 1.953.986 jiwa pada 2022, menurut laporan Detik, dan menjadikan Deli Serdang kabupaten dengan penduduk terbanyak di Sumatera Utara. Pemkab menyebut jumlahnya sekitar dua juta jiwa. (Sumber: detik.com; ANTARA)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Jumlah penduduk",
+                    "content": "BPS mencatat 1.953.986 jiwa pada 2022, menurut laporan Detik, dan menjadikan Deli Serdang kabupaten dengan penduduk terbanyak di Sumatera Utara. Pemkab menyebut jumlahnya sekitar dua juta jiwa. (Sumber: detik.com; ANTARA)"
+                },
+                "en": {
+                    "title": "Jumlah penduduk",
+                    "content": "BPS mencatat 1.953.986 jiwa pada 2022, menurut laporan Detik, dan menjadikan Deli Serdang kabupaten dengan penduduk terbanyak di Sumatera Utara. Pemkab menyebut jumlahnya sekitar dua juta jiwa. (Sumber: detik.com; ANTARA)"
+                }
+            }
+        },
+        {
+            "id": "deli-serdang:wisata",
+            "entityId": "deli-serdang:wisata",
+            "title": "Potensi wisata",
+            "aliases": [
+                "wisata deli serdang",
+                "kawan lama",
+                "desa wisata deli serdang"
+            ],
+            "type": "city-information",
+            "categories": [
+                "informasi kota"
+            ],
+            "tags": [
+                "riset-web"
+            ],
+            "sceneIds": [],
+            "content": "Potensi wisata di Deli Serdang meliputi dataran tinggi, dataran rendah, dan pesisir. Contoh yang disebut sumber adalah Wisata Kawan Lama di Desa Denai Lama, Kecamatan Pantai Labu, yang pernah menjadi lokasi peringatan Hari Pariwisata Dunia. Pemkab juga mendorong pengembangan wisata desa di ratusan desa. (Sumber: ANTARA)",
+            "source": "Riset web (21 Okt 2026)",
+            "sourceType": "manual",
+            "provenance": "manual",
+            "translations": {
+                "id": {
+                    "title": "Potensi wisata",
+                    "content": "Potensi wisata di Deli Serdang meliputi dataran tinggi, dataran rendah, dan pesisir. Contoh yang disebut sumber adalah Wisata Kawan Lama di Desa Denai Lama, Kecamatan Pantai Labu, yang pernah menjadi lokasi peringatan Hari Pariwisata Dunia. Pemkab juga mendorong pengembangan wisata desa di ratusan desa. (Sumber: ANTARA)"
+                },
+                "en": {
+                    "title": "Potensi wisata",
+                    "content": "Potensi wisata di Deli Serdang meliputi dataran tinggi, dataran rendah, dan pesisir. Contoh yang disebut sumber adalah Wisata Kawan Lama di Desa Denai Lama, Kecamatan Pantai Labu, yang pernah menjadi lokasi peringatan Hari Pariwisata Dunia. Pemkab juga mendorong pengembangan wisata desa di ratusan desa. (Sumber: ANTARA)"
+                }
+            }
+        }
+    ],
+    "updatedAt": "2026-10-21T05:42:02+02:00"
+}

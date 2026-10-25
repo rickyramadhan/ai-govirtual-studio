@@ -27,8 +27,9 @@ function studio_nav_active(string $action): string {
         'voice' => 'voice', 'saveVoice' => 'voice',
         'tips' => 'tips', 'saveTips' => 'tips',
         'nearby' => 'nearby', 'saveNearby' => 'nearby',
+        'playground' => 'playground', 'playAnswer' => 'playground',
         'test' => 'test', 'testAnswer' => 'test',
-        'history' => 'history', 'restoreHistory' => 'history', 'bulkImport' => 'overview', 'jobs' => 'jobs', 'jobEnqueue' => 'jobs', 'jobsStatus' => 'jobs',
+        'history' => 'history', 'restoreHistory' => 'history', 'bulkImport' => 'overview', 'jobs' => 'jobs', 'jobEnqueue' => 'jobs', 'jobsStatus' => 'jobs', 'health' => 'health', 'healthEnqueue' => 'health', 'healthBase' => 'health',
         'theme' => 'theme', 'saveTheme' => 'theme', 'themeCss' => 'theme', 'users' => 'users', 'userCreate' => 'users', 'userUpdate' => 'users', 'userReset' => 'users', 'audit' => 'audit',
         'publish' => 'deployment', 'deploy' => 'deployment', 'generate' => 'deployment', 'syncRuntime' => 'sync',
         'keys' => 'api', 'saveKeys' => 'api', 'testKey' => 'api',
@@ -64,6 +65,7 @@ function studio_breadcrumb(string $action): array {
         'saveVoice' => [$P, ['label' => 'Percakapan Suara', 'href' => null]],
         'tips' => [$P, ['label' => 'Tips Pengunjung', 'href' => null]],
         'nearby' => [$P, ['label' => 'Tempat Sekitar', 'href' => null]],
+        'playground' => [$P, ['label' => 'Playground', 'href' => null]],
         'test' => [$P, ['label' => 'Uji AI Guide', 'href' => null]],
         'history' => [$P, ['label' => 'Riwayat Perubahan', 'href' => null]],
         'bulkImport' => [$P, ['label' => 'Impor Massal', 'href' => null]],
@@ -107,6 +109,7 @@ function studio_icon(string $name, int $size = 18): string {
         'questions' => '<path d="M4 3h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H8l-5 4V4a1 1 0 0 1 1-1zm7 4v2h2V7zm0 4v2h2v-2z"/>',
         'curatedqa' => '<path d="M5 4h14v13H9l-4 3V4zm3 4h8M8 12h5"/>',
         'recommendations' => '<path d="M12 2l2.9 5.9 6.6.9-4.8 4.6 1.2 6.5L12 17.2 6.1 20.9l1.2-6.5L2.5 9.8l6.6-.9z"/>',
+        'playground' => '<path d="M4 4h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-9l-5 4v-4H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm6 3v7l5-3.5z"/>',
         'test' => '<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 4a1.5 1.5 0 1 1-1.5 1.5A1.5 1.5 0 0 1 12 6zm2 12h-4v-2h1v-4h-1v-2h3v6h1z"/>',
         'deployment' => '<path d="M3 13h18v6H3zM12 3a4 4 0 0 0-4 4 3 3 0 0 0-1 5.84V11a5 5 0 0 1 10 0v1.84A3 3 0 0 0 16 7a4 4 0 0 0-4-4z"/>',
         'flow' => '<path d="M4 4h8a4 4 0 0 1 0 8H4zM12 12h8a4 4 0 0 1 0 8h-8zM4 12h3v8H4z"/>',
@@ -126,6 +129,7 @@ function studio_icon(string $name, int $size = 18): string {
         'voice' => '<path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM5 11a7 7 0 0 0 14 0M12 18v3"/>',
         'cities' => '<path d="M3 21V9l6-3v15M9 21V4l8 3v14M3 21h18M12 10h2M12 14h2M6 12h1M6 16h1"/>',
         'aihealth' => '<path d="M3 12h4l3-8 4 16 3-8h4"/>',
+        'health' => '<path d="M12 21s-7-4.4-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.6-9 9-9 9z"/><path d="M7 12h2l1-2 2 4 1-2h3"/>',
         'account' => '<path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"/>',
     ];
     $p = $icons[$name] ?? $icons['settings'];
@@ -134,13 +138,26 @@ function studio_icon(string $name, int $size = 18): string {
 
 /** Render sidebar nav link. */
 function studio_nav_item(string $slug, string $label, string $href, string $active, bool $disabled = false): string {
-    $icon = studio_icon($slug);
+    $icon = studio_icon(str_starts_with($slug, 'city-') ? 'cities' : $slug);
+    if (str_starts_with($slug, 'sub-')) {
+        $on = $active === $slug;
+        return '<a class="sbnav-item is-sub' . ($on ? ' is-active' : '') . '" href="' . h($href) . '"' . ($on ? ' aria-current="page"' : '') . '><span class="sbnav-tx">' . h($label) . '</span></a>';
+    }
     if ($disabled) {
         return '<span class="sbnav-item is-disabled" aria-disabled="true" title="' . h($label) . '"><span class="sbnav-ic">' . $icon . '</span><span class="sbnav-tx">' . h($label) . '</span></span>';
     }
     $isActive = $active === $slug;
     $cls = $isActive ? 'class="sbnav-item is-active"' : 'class="sbnav-item"';
     return '<a ' . $cls . ' href="' . h($href) . '"' . ($isActive ? ' aria-current="page"' : '') . ' data-tip="' . h($label) . '"><span class="sbnav-ic">' . $icon . '</span><span class="sbnav-tx">' . h($label) . '</span></a>';
+}
+
+/** Satu kota di sidebar: titik warna, nama, dan jumlah lokasi. Sub-menu muncul bila kota sedang dibuka. */
+function studio_city_block(array $c, string $active): string {
+    $on = $active === $c['slug'];
+    $html = '<a class="sbnav-item sbnav-city' . ($on ? ' is-active' : '') . '" href="' . h($c['href']) . '"' . ($on ? ' aria-current="page"' : '') . ' data-tip="' . h($c['label']) . '">'
+        . '<span class="sbnav-dot" style="--h:' . (int)$c['hue'] . '"></span><span class="sbnav-tx">' . h($c['label']) . '</span><span class="sbnav-count">' . (int)$c['count'] . '</span></a>';
+    foreach ($c['subs'] as $s) $html .= studio_nav_item($s['slug'], $s['label'], $s['href'], $active);
+    return $html;
 }
 
 /* ------------------------------------------------------------------ */
@@ -150,6 +167,10 @@ function studio_nav_item(string $slug, string $label, string $href, string $acti
 function layout(string $title, string $body): void {
     $action = $_GET['a'] ?? 'list';
     $active = studio_nav_active($action);
+    if (isset($_GET['city']) && in_array($action, ['list', 'health', 'city', 'citySources'], true)) {
+        $cs = city_slugify((string)$_GET['city']);
+        $active = match ($action) { 'health' => 'sub-health-' . $cs, 'city', 'citySources' => 'sub-city-' . $cs, default => 'sub-list-' . $cs };
+    }
     $crumbs = studio_breadcrumb($action);
     $tourName = '';
     if (isset($_GET['id'])) {
@@ -177,10 +198,29 @@ function layout(string $title, string $body): void {
     }
 
     if ($tid === 0) {
-        $main = [
-            ['slug' => 'overview', 'label' => 'Proyek', 'href' => '?'],
-            ['slug' => 'jobs', 'label' => 'Antrian Publikasi', 'href' => '?a=jobs'],
-        ];
+        // Hierarki: Kota → Lokasi. Sidebar menampilkan kota; lokasinya dibuka dari halaman kota.
+        $main = [['slug' => 'overview', 'label' => 'Semua kota', 'href' => '?'], ['slug' => 'playground', 'label' => 'Playground', 'href' => '?a=playground']];
+        $curCity = isset($_GET['city']) ? city_slugify((string)$_GET['city']) : '';
+        // Kota dengan lokasi tampil biasa; kota tanpa lokasi dilipat supaya daftar tidak panjang.
+        $withTours = []; $noTours = [];
+        foreach (all_cities() as $c) {
+            $cs = (string)$c['slug'];
+            $subs = [];
+            if ($cs === $curCity) {
+                $subs = [
+                    ['slug' => 'sub-list-' . $cs, 'label' => 'Lokasi tur', 'href' => '?a=list&city=' . urlencode($cs)],
+                    ['slug' => 'sub-health-' . $cs, 'label' => 'Kesehatan AI', 'href' => '?a=health&city=' . urlencode($cs)],
+                    ['slug' => 'sub-city-' . $cs, 'label' => 'Pengetahuan kota', 'href' => '?a=city&city=' . urlencode($cs)],
+                ];
+            }
+            $row = ['slug' => 'city-' . $cs, 'label' => (string)$c['name'], 'count' => (int)$c['tour_count'], 'href' => '?a=list&city=' . urlencode($cs), 'hue' => function_exists('dash_city_hue') ? dash_city_hue($cs) : 40, 'subs' => $subs];
+            if ((int)$c['tour_count'] > 0) $withTours[] = $row; else $noTours[] = $row;
+        }
+        $main[] = ['heading' => 'Kota'];
+        foreach ($withTours as $r) $main[] = ['city' => $r];
+        if ($noTours) $main[] = ['more' => $noTours, 'curCity' => $curCity];
+        $main[] = ['heading' => 'Lainnya'];
+        $main[] = ['slug' => 'jobs', 'label' => 'Antrian Publikasi', 'href' => '?a=jobs'];
         $u = current_user();
         if ($u && ($u['role'] ?? '') === 'qa') {
             $main = [
@@ -212,22 +252,29 @@ function layout(string $title, string $body): void {
         ];
     }
     $bottom = [
-        ['slug' => 'cities', 'label' => 'Pengetahuan Kota', 'href' => '?a=cities'],
         ['slug' => 'api', 'label' => 'Provider API', 'href' => '?a=keys'],
-        ['slug' => 'aihealth', 'label' => 'Kesehatan AI', 'href' => '?a=aihealth'],
+        ['slug' => 'aihealth', 'label' => 'Kesehatan Provider', 'href' => '?a=aihealth'],
         ['slug' => 'users', 'label' => 'Pengguna', 'href' => '?a=users'],
         ['slug' => 'audit', 'label' => 'Jejak Audit', 'href' => '?a=audit'],
     ];
     $u2 = current_user();
     if ($u2 && ($u2['role'] ?? '') === 'qa') {
-        $bottom = [
-            ['slug' => 'cities', 'label' => 'Pengetahuan Kota', 'href' => '?a=cities'],
-        ];
+        $bottom = []; // QA: pengetahuan kota dibuka dari sub-menu kota
     }
+    // Playground ada di grup Studio saat daftar kota; di halaman tur ditaruh paling atas grup Manage (satu menu saja per halaman).
+    if ($tid !== 0) array_unshift($bottom, ['slug' => 'playground', 'label' => 'Playground', 'href' => '?a=playground']);
 
     $navMain = '';
     foreach ($main as $n) {
         if (isset($n['heading'])) { $navMain .= '<p class="sbnav-label">' . h($n['heading']) . '</p>'; continue; }
+        if (isset($n['city'])) { $navMain .= studio_city_block($n['city'], $active); continue; }
+        if (isset($n['more'])) {
+            $open = $n['curCity'] !== '' && in_array('city-' . $n['curCity'], array_column($n['more'], 'slug'), true); // buka otomatis bila kota aktif ada di dalamnya
+            $inner = '';
+            foreach ($n['more'] as $r) $inner .= studio_city_block($r, $active);
+            $navMain .= '<details class="sbnav-more"' . ($open ? ' open' : '') . '><summary>Belum ada lokasi <span class="sbnav-count">' . count($n['more']) . '</span></summary>' . $inner . '</details>';
+            continue;
+        }
         $navMain .= studio_nav_item($n['slug'], $n['label'], $n['href'], $active, !empty($n['disabled']));
     }
     $navBottom = '';
@@ -248,21 +295,21 @@ function layout(string $title, string $body): void {
         $roleBadge = '<span class="user-role user-role-' . $role . '">' . $role . '</span>';
         $userBadge = '<div class="topbar-user" title="Masuk sebagai ' . h((string)($cu['username'] ?? '')) . '"><a class="topbar-user-name" href="?a=account" title="Akun saya &amp; ganti password"><span class="topbar-user-ic">' . studio_icon('account', 14) . '</span>' . h((string)($cu['username'] ?? '')) . '</a>' . $roleBadge . '<a class="topbar-logout" href="?a=logout">Keluar</a></div>';
     }
-    echo '<!doctype html><html lang="id"><head><meta charset="utf-8">'
+    $__page = '<!doctype html><html lang="' . current_lang() . '"><head><meta charset="utf-8">'
         . '<meta name="viewport" content="width=device-width, initial-scale=1">'
         . '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-        . '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
+        . '<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
         . '<title>' . h($title) . ' — AI Guide Studio</title>'
         . '<style>' . studio_css() . (function_exists('studio_ux_css') ? studio_ux_css() : '') . (function_exists('shell_v2_css') ? shell_v2_css() : '') . '</style>'
         . '</head><body class="app">'
         . '<a class="skip-link" href="#studio-main">Lewati ke konten</a>'
         . '<aside id="studio-sidebar" class="sbar" aria-label="Navigasi utama">'
         . '<div class="sbar-top"><a class="sbrand" href="?" aria-label="AI Guide Studio home">'
-        . '<span class="sbrand-ic">' . studio_icon('logo', 22) . '</span>'
-        . '<span class="sbrand-tx">AI Guide <b>Studio</b></span></a>'
-        . '<button type="button" class="sbar-close icon-btn" data-close-sidebar aria-label="Close navigation">' . studio_icon('menu', 18) . '</button></div>'
+        . '<span class="sbrand-ic"><img class="sbrand-logo" src="assets/govirtual-logo.webp" alt="GoVirtual" height="26" onerror="if(!this.dataset.r){this.dataset.r=1;this.src=\'https://govirtual.id/web/image/logo_wm.webp\';}else{this.style.display=\'none\';}"></span>'
+        . '<span class="sbrand-tx">AI <b>Studio</b></span></a>'
+        . '</div>'
         . '<nav class="sbnav">' . ($tid === 0 ? '<p class="sbnav-label">Studio</p>' : '') . $navMain
-        . '<p class="sbnav-label sbnav-label-btm">Manage</p>' . $navBottom . '</nav>'
+        . ($navBottom !== '' ? '<p class="sbnav-label sbnav-label-btm">Manage</p>' : '') . $navBottom . '</nav>'
         . '<div class="sbar-foot"><button type="button" class="sbar-toggle" data-toggle-sidebar aria-expanded="false" aria-label="Collapse sidebar">' . studio_icon('chevron', 16) . '<span>Collapse</span></button></div>'
         . '</aside>'
         . '<div class="sbar-backdrop" data-close-sidebar tabindex="-1"></div>'
@@ -270,14 +317,16 @@ function layout(string $title, string $body): void {
         . '<header class="topbar"><div class="topbar-left">'
         . '<button type="button" class="icon-btn topbar-burger" data-toggle-sidebar aria-controls="studio-sidebar" aria-expanded="false" aria-label="Buka navigasi">' . studio_icon('menu', 20) . '</button>'
         . $crumbsHtml . '</div>'
-        . '<div class="topbar-right"><span class="topbar-title">' . h($pageTitle) . '</span>' . $userBadge . '</div>'
+        . '<div class="topbar-right">' . lang_switch_html() . '<span class="topbar-title">' . h($pageTitle) . '</span>' . $userBadge . '</div>'
         . '</header>'
         . '<main id="studio-main" class="app-content"><div class="app-scroll">' . $body . '</div></main>'
         . '</div>'
         . ($tid > 0 && $action !== 'test' && function_exists('studio_chat_drawer') ? studio_chat_drawer($tid) : '')
+        . i18n_js_tag()
         . '<script>' . studio_js() . '</script>'
         . (function_exists('studio_ux_js') ? '<script>' . studio_ux_js() . '</script>' : '')
         . '</body></html>';
+    echo i18n_html($__page);
 }
 
 /* ------------------------------------------------------------------ */
@@ -295,8 +344,8 @@ function studio_css(): string {
   --radius:14px; --radius-sm:10px; --radius-xs:8px;
   --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px; --space-7:40px;
   --sidebar-w:248px; --topbar-h:60px;
-  --font:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
-  --font-display:"EB Garamond",Georgia,serif;
+  --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --font-display:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --mono:"JetBrains Mono",Consolas,"Courier New",monospace;
   --shadow-1:0 1px 3px rgba(3,8,18,.45),0 1px 2px rgba(3,8,18,.3);
   --shadow-2:0 10px 32px rgba(3,8,18,.5),0 4px 12px rgba(3,8,18,.35);
@@ -312,13 +361,13 @@ function studio_css(): string {
 }
 *{box-sizing:border-box}
 html,body{height:100%}
-body{margin:0;background:var(--bg-app);color:var(--text-primary);font-family:var(--font);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{margin:0;background:var(--bg-app);color:var(--text-primary);font-family:var(--font);font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-feature-settings:"cv11","ss01","ss03";font-optical-sizing:auto}
 a{color:var(--primary);text-underline-offset:3px;text-decoration-thickness:1.2px}
 a:hover{color:var(--primary-hover)}
 a:focus-visible{outline:0;box-shadow:var(--focus-ring);border-radius:4px}
 h1,h2,h3,h4,h5{line-height:1.2;margin:0 0 var(--space-3);font-weight:650;letter-spacing:-.02em}
-h1{font-family:var(--font-display);font-size:clamp(24px,3vw,32px);font-weight:700;letter-spacing:-.03em}
-h2{font-family:var(--font-display);font-size:clamp(18px,2vw,22px)}
+h1{font-family:var(--font-display);font-size:clamp(24px,3vw,30px);font-weight:700;letter-spacing:-.028em;line-height:1.15}
+h2{font-family:var(--font-display);font-size:clamp(17px,2vw,20px);font-weight:650;letter-spacing:-.02em;line-height:1.25}
 h3{font-size:15.5px;font-weight:600;letter-spacing:-.015em}
 h4{font-size:13.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--text-secondary)}
 p{margin:0 0 var(--space-3)}
@@ -359,6 +408,8 @@ input,textarea,select,[contenteditable]{caret-color:var(--primary)}
 .sbar-top{display:flex;align-items:center;justify-content:space-between;padding:var(--space-4);height:var(--topbar-h);border-bottom:1px solid var(--border)}
 .sbrand{display:flex;align-items:center;gap:var(--space-3);text-decoration:none;color:var(--text-primary);font-size:15.5px;font-weight:700;letter-spacing:-.02em}
 .sbrand-ic{color:var(--ai-accent);flex-shrink:0;display:flex;align-items:center}
+.sbrand-logo{height:28px;width:auto;display:block;object-fit:contain}
+.sbrand-tx b{color:var(--ai-accent);font-weight:700}
 .sbar-close{display:none}
 .sbnav{flex:1;overflow-y:auto;padding:var(--space-2) var(--space-2) var(--space-4)}
 .sbnav-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.9px;color:var(--text-muted);padding:var(--space-3) var(--space-3) var(--space-2);margin:0;font-weight:600}
@@ -381,6 +432,15 @@ input,textarea,select,[contenteditable]{caret-color:var(--primary)}
 .topbar{display:flex;align-items:center;justify-content:space-between;height:var(--topbar-h);padding:0 var(--space-5);border-bottom:1px solid var(--border);background:rgba(18,19,21,.88);backdrop-filter:blur(10px);flex-shrink:0;gap:var(--space-3);position:sticky;top:0;z-index:400}
 .topbar-left{display:flex;align-items:center;gap:var(--space-3);min-width:0}
 .topbar-right{display:flex;align-items:center;gap:var(--space-3);flex-shrink:0}
+.lang-switch{display:inline-flex;border:1px solid var(--border);border-radius:999px;padding:2px;background:var(--surface-2)}
+.lang-opt{font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:999px;color:var(--text-muted);text-decoration:none}
+.lang-opt:hover{color:var(--text-primary)}
+.lang-opt.is-on{background:linear-gradient(135deg,#e2c28a,#c9a96e);color:#1a1409}
+.topbar-brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:inherit;padding-right:var(--space-3);margin-right:var(--space-1);border-right:1px solid var(--border)}
+.topbar-brand-logo{height:26px;width:auto;display:block;object-fit:contain}
+.topbar-brand-tx{display:flex;flex-direction:column;line-height:1.1}
+.topbar-brand-tx b{font-family:var(--font-display);font-size:14px;font-weight:700;letter-spacing:.01em}
+.topbar-brand-tx small{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--ai-accent);font-weight:600}
 .topbar-title{font-family:var(--font-display);font-size:16px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;letter-spacing:-.015em}
 .topbar-burger{display:none}
 .topbar-user{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--text-secondary);background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:4px 6px 4px 10px;white-space:nowrap}
